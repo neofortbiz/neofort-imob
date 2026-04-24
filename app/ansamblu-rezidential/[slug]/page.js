@@ -86,27 +86,6 @@ export default function AnsambluPage({ params }) {
           </div>
         </div>
 
-        {/* GALERIE PLACEHOLDER */}
-        {/* GALERIE: poza principala 480px + miniaturi 16:9 pe rand orizontal */}
-        <div>
-          {/* Poza principala — aceeasi latime cu coloana de continut */}
-          <div className="bg-gray-100 flex items-center justify-center overflow-hidden" style={{ aspectRatio: '16/9', width: '100%' }}>
-            <span className="text-sm text-gray-400">Fotografie principală</span>
-          </div>
-          {/* Miniaturi pe rand orizontal cu scroll */}
-          <div className="flex gap-1.5 mt-1.5 overflow-x-auto pb-1" style={{ scrollbarWidth: 'none' }}>
-            {[2,3,4,5,6,7].map(n => (
-              <div key={n} className="bg-gray-100 flex-shrink-0 flex items-center justify-center"
-                style={{ aspectRatio: '16/9', height: 72 }}>
-                <span className="text-[9px] text-gray-400">Foto {n}</span>
-              </div>
-            ))}
-            <div className="bg-gray-200 flex-shrink-0 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors"
-              style={{ aspectRatio: '16/9', height: 72 }}>
-              <span className="text-[10px] font-medium text-gray-600">+{a.galerie.length || 10} foto</span>
-            </div>
-          </div>
-        </div>
 
         {/* TAB GALERIE */}
         <div className="flex gap-2 px-6 py-2.5 border-b border-gray-100 overflow-x-auto nav-scroll">
@@ -121,6 +100,23 @@ export default function AnsambluPage({ params }) {
 
             {/* COLOANA MAIN */}
             <div className="space-y-0">
+
+              {/* GALERIE: aspect-ratio 16/9 auto, miniaturi pe rand */}
+              <div className="mb-6">
+                <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
+                  <span className="text-sm text-gray-400">Fotografie principală</span>
+                </div>
+                <div className="flex gap-1.5 mt-1.5 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
+                  {[2,3,4,5,6,7].map(n => (
+                    <div key={n} className="bg-gray-100 flex-shrink-0 flex items-center justify-center rounded" style={{ aspectRatio: '16/9', height: 64 }}>
+                      <span className="text-[9px] text-gray-400">Foto {n}</span>
+                    </div>
+                  ))}
+                  <div className="bg-gray-200 flex-shrink-0 flex items-center justify-center rounded cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9', height: 64 }}>
+                    <span className="text-[10px] font-medium text-gray-600">+{a.galerie.length || 10} foto</span>
+                  </div>
+                </div>
+              </div>
 
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
