@@ -87,36 +87,23 @@ export default function AnsambluPage({ params }) {
         </div>
 
         {/* GALERIE PLACEHOLDER */}
-        {/* GALERIE: raport 2:1 pe toate imaginile
-             Desktop: poza 2fr × 450px (≈587×450) | 1 coloana miniaturi, 4 randuri × 112px = 448px ≈ 450px
-             Mobil: poza full-width aspect 2:1 | 4 miniaturi 2:1 pe un rand */}
+        {/* GALERIE: poza principala 480px + miniaturi 16:9 pe rand orizontal */}
         <div>
-          {/* Desktop */}
-          <div className="hidden md:grid gap-1" style={{ gridTemplateColumns: '2fr 1fr', height: 450 }}>
-            <div className="bg-gray-100 flex items-center justify-center overflow-hidden">
-              <span className="text-sm text-gray-400">Fotografie principală</span>
-            </div>
-            <div className="grid gap-1" style={{ gridTemplateRows: 'repeat(4, 1fr)' }}>
-              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 2</span></div>
-              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 3</span></div>
-              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 4</span></div>
-              <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors">
-                <span className="text-[10px] font-medium text-gray-600">+{a.galerie.length || 12} foto</span>
-              </div>
-            </div>
+          {/* Poza principala — aceeasi latime cu coloana de continut */}
+          <div className="bg-gray-100 flex items-center justify-center overflow-hidden" style={{ height: 480 }}>
+            <span className="text-sm text-gray-400">Fotografie principală</span>
           </div>
-          {/* Mobil */}
-          <div className="md:hidden">
-            <div className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '2/1' }}>
-              <span className="text-sm text-gray-400">Fotografie principală</span>
-            </div>
-            <div className="grid gap-1 mt-1" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
-              <div className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '2/1' }}><span className="text-[8px] text-gray-400">2</span></div>
-              <div className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '2/1' }}><span className="text-[8px] text-gray-400">3</span></div>
-              <div className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '2/1' }}><span className="text-[8px] text-gray-400">4</span></div>
-              <div className="bg-gray-200 flex items-center justify-center cursor-pointer" style={{ aspectRatio: '2/1' }}>
-                <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 12}</span>
+          {/* Miniaturi pe rand orizontal cu scroll */}
+          <div className="flex gap-1.5 mt-1.5 overflow-x-auto pb-1" style={{ scrollbarWidth: 'none' }}>
+            {[2,3,4,5,6,7].map(n => (
+              <div key={n} className="bg-gray-100 flex-shrink-0 flex items-center justify-center"
+                style={{ aspectRatio: '16/9', height: 72 }}>
+                <span className="text-[9px] text-gray-400">Foto {n}</span>
               </div>
+            ))}
+            <div className="bg-gray-200 flex-shrink-0 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors"
+              style={{ aspectRatio: '16/9', height: 72 }}>
+              <span className="text-[10px] font-medium text-gray-600">+{a.galerie.length || 10} foto</span>
             </div>
           </div>
         </div>
