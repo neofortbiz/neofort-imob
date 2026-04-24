@@ -6,6 +6,64 @@ import Footer from '@/components/Footer'
 import FormularCalificat from '@/components/FormularCalificat'
 import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
+
+function DualRangeSlider({ min, max, step, valueMin, valueMax, fillLeft, fillRight, onChangeMin, onChangeMax }) {
+  // Solutie corecta: input MIN are width = pozitia thumb-ului MAX + putin
+  // input MAX are width = 100%, dar zIndex mai mic in zona stanga
+  const minPct = fillLeft  // % unde e thumbul min
+  const maxPct = fillRight // % unde e thumbul max
+
+  return (
+    <div className="relative" style={{ height: 20 }}>
+      {/* Track gri fundal */}
+      <div className="absolute rounded" style={{ height: 3, top: 9, left: 0, right: 0, background: '#d1d5db' }} />
+      {/* Track verde activ */}
+      <div className="absolute rounded" style={{
+        height: 3, top: 9,
+        left: `${minPct}%`,
+        width: `${maxPct - minPct}%`,
+        background: '#2d7a3a'
+      }} />
+      {/* Thumb MIN vizual */}
+      <div className="absolute pointer-events-none" style={{
+        width: 14, height: 14, borderRadius: '50%',
+        background: '#2d7a3a', border: '2px solid #fff',
+        boxShadow: '0 1px 4px rgba(0,0,0,0.25)',
+        top: 3, left: `calc(${minPct}% - 7px)`, zIndex: 6
+      }} />
+      {/* Thumb MAX vizual */}
+      <div className="absolute pointer-events-none" style={{
+        width: 14, height: 14, borderRadius: '50%',
+        background: '#2d7a3a', border: '2px solid #fff',
+        boxShadow: '0 1px 4px rgba(0,0,0,0.25)',
+        top: 3, left: `calc(${maxPct}% - 7px)`, zIndex: 6
+      }} />
+      {/* INPUT MIN: ocupa doar jumatatea stanga (pana la pozitia maxPct + buffer) */}
+      <input type="range" min={min} max={max} step={step} value={valueMin}
+        onChange={e => { const v=parseInt(e.target.value); if(v<=valueMax-step*2) onChangeMin(v) }}
+        style={{
+          position: 'absolute', top: 0, left: 0,
+          width: `${maxPct + 5}%`, height: '100%',
+          opacity: 0, cursor: 'pointer',
+          zIndex: minPct >= maxPct - 5 ? 5 : 3,
+          WebkitAppearance: 'none', margin: 0
+        }}
+      />
+      {/* INPUT MAX: ocupa toata bara */}
+      <input type="range" min={min} max={max} step={step} value={valueMax}
+        onChange={e => { const v=parseInt(e.target.value); if(v>=valueMin+step*2) onChangeMax(v) }}
+        style={{
+          position: 'absolute', top: 0, left: 0,
+          width: '100%', height: '100%',
+          opacity: 0, cursor: 'pointer',
+          zIndex: 4,
+          WebkitAppearance: 'none', margin: 0
+        }}
+      />
+    </div>
+  )
+}
+
 const ZONE = [
   { slug: 'titan-pallady', nume: 'Ansambluri rezidențiale Titan-Pallady', sector: 'Sector 3', count: 4, pct: 100 },
   { slug: 'militari', nume: 'Ansambluri rezidențiale Militari', sector: 'Sector 6', count: 3, pct: 75 },
@@ -127,26 +185,13 @@ export default function HomePage() {
                   {fmtPret(pretMin)} — {fmtPret(pretMax)}
                 </span>
               </div>
-              <div className="relative h-4 flex items-center">
-                <div className="absolute inset-x-0 h-0.5 rounded bg-gray-300" />
-                <div className="absolute h-0.5 rounded" style={{ background: '#2d7a3a', left: `${fillLeft}%`, width: `${fillRight - fillLeft}%` }} />
-                <input
-                  type="range" min="5000" max="1500000" step="5000" value={pretMin}
-                  onChange={e => { const v=parseInt(e.target.value); if(v<=pretMax-50000){setPretMin(v);setPretMoved(true);setShown(STEP)} }}
-                  className="range-thumb absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                  style={{ zIndex: pretMin > 1400000 ? 5 : 3 }}
-                />
-                <input
-                  type="range" min="5000" max="1500000" step="5000" value={pretMax}
-                  onChange={e => { const v=parseInt(e.target.value); if(v>=pretMin+50000){setPretMax(v);setPretMoved(true);setShown(STEP)} }}
-                  className="range-thumb absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                  style={{ zIndex: 4 }}
-                />
-                <div className="absolute w-3.5 h-3.5 rounded-full border-2 border-white pointer-events-none"
-                  style={{ background: '#2d7a3a', left: `calc(${fillLeft}% - 7px)`, boxShadow: '0 1px 3px rgba(0,0,0,0.15)' }} />
-                <div className="absolute w-3.5 h-3.5 rounded-full border-2 border-white pointer-events-none"
-                  style={{ background: '#2d7a3a', left: `calc(${fillRight}% - 7px)`, boxShadow: '0 1px 3px rgba(0,0,0,0.15)' }} />
-              </div>
+              <DualRangeSlider
+                min={5000} max={1500000} step={5000}
+                valueMin={pretMin} valueMax={pretMax}
+                fillLeft={fillLeft} fillRight={fillRight}
+                onChangeMin={v => { setPretMin(v); setPretMoved(true); setShown(STEP) }}
+                onChangeMax={v => { setPretMax(v); setPretMoved(true); setShown(STEP) }}
+              />
             </div>
             <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
             <div className="text-xs flex-shrink-0 whitespace-nowrap">
