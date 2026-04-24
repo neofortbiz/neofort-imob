@@ -75,7 +75,7 @@ export default function HomePage() {
           <h1 className="text-2xl md:text-4xl font-medium text-white leading-tight mb-3 max-w-xl mx-auto">
             Ansambluri <span style={{ color: '#e8b44e' }}>Rezidențiale</span> Noi în București
           </h1>
-          <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.5)' }}>
+          <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.8)' }}>
             Apartamente noi de la dezvoltator. Fără comision de agenție.
           </p>
           <div className="inline-flex rounded-xl overflow-hidden mb-8 max-w-lg w-full" style={{ border: '0.5px solid rgba(255,255,255,0.08)' }}>
@@ -86,8 +86,8 @@ export default function HomePage() {
             ].map((s, i) => (
               <div key={i} className="flex-1 py-4 text-center" style={{ borderLeft: i > 0 ? '0.5px solid rgba(255,255,255,0.08)' : 'none' }}>
                 <div className="text-xl md:text-2xl font-medium" style={{ color: '#e8b44e' }}>{s.num}</div>
-                <div className="text-[10px] mt-1" style={{ color: 'rgba(255,255,255,0.45)' }}>{s.lbl}</div>
-                {s.note && <div className="text-[9px] mt-0.5" style={{ color: 'rgba(255,255,255,0.2)' }}>{s.note}</div>}
+                <div className="text-[10px] mt-1" style={{ color: 'rgba(255,255,255,0.75)' }}>{s.lbl}</div>
+                {s.note && <div className="text-[9px] mt-0.5" style={{ color: 'rgba(255,255,255,0.8)' }}>{s.note}</div>}
               </div>
             ))}
           </div>
@@ -352,7 +352,7 @@ export default function HomePage() {
             <h2 className="text-xl font-medium text-white mb-2">
               Solicită o ofertă <span style={{ color: '#e8b44e' }}>personalizată</span>
             </h2>
-            <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.55)' }}>
+            <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.8)' }}>
               Completează formularul și un consultant Neofort IMO te contactează în cel mult 2 ore cu o ofertă adaptată nevoilor tale.
             </p>
             <FormularCalificat />
