@@ -90,7 +90,7 @@ export default function AnsambluPage({ params }) {
         {/* GALERIE: poza principala 480px + miniaturi 16:9 pe rand orizontal */}
         <div>
           {/* Poza principala — aceeasi latime cu coloana de continut */}
-          <div className="bg-gray-100 flex items-center justify-center overflow-hidden" style={{ height: 480 }}>
+          <div className="bg-gray-100 flex items-center justify-center overflow-hidden" style={{ aspectRatio: '16/9', width: '100%' }}>
             <span className="text-sm text-gray-400">Fotografie principală</span>
           </div>
           {/* Miniaturi pe rand orizontal cu scroll */}
