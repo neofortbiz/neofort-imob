@@ -1,9 +1,10 @@
-// v10-force-rebuild
+// v24-force-rebuild
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import FormularRapid from '@/components/FormularRapid'
+import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
 export async function generateStaticParams() {
@@ -24,6 +25,7 @@ const POI_COLORS = {
   mall: { bg: '#f3e5f5', color: '#6a1b9a', label: 'Mall' },
   scoala: { bg: '#e8f5e9', color: '#2e7d32', label: 'Școală' },
   parc: { bg: '#e0f2f1', color: '#00695c', label: 'Parc' },
+  medical: { bg: '#fce4ec', color: '#c62828', label: 'Medical' },
 }
 
 export default function AnsambluPage({ params }) {
@@ -32,6 +34,9 @@ export default function AnsambluPage({ params }) {
 
   const sc = STATUS_CONFIG[a.status]
   const similare = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug && (x.zona === a.zona || x.sector === a.sector)).slice(0, 3)
+
+  // Google Maps embed URL din coordonate
+  const mapsEmbedUrl = `https://maps.google.com/maps?q=${a.coordonate.lat},${a.coordonate.lng}&z=15&output=embed`
 
   return (
     <>
@@ -54,19 +59,17 @@ export default function AnsambluPage({ params }) {
             <div className="flex items-start justify-between gap-4 mb-5">
               <div>
                 <div className={`inline-flex items-center gap-1.5 text-[10px] font-medium px-2.5 py-1 rounded-full mb-3 ${sc.bg} ${sc.text}`}>
-                  {sc.label} {a.dataPredare !== 'Finalizat' && `· Predare ${a.dataPredare}`}
+                  {sc.label}{a.dataPredare !== 'Finalizat' && ` · Predare ${a.dataPredare}`}
                 </div>
                 <h1 className="text-xl md:text-2xl font-medium text-white leading-tight mb-2">
                   Ansamblu Rezidențial<br />{a.nume}
                 </h1>
-                <div className="flex items-center gap-1.5 text-xs" style={{ color: 'rgba(255,255,255,0.5)' }}>
+                <div className="flex items-center gap-1.5 text-xs" style={{ color: 'rgba(255,255,255,0.6)' }}>
                   <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
                   {a.adresa}
                 </div>
               </div>
-              <div className="flex gap-2 flex-shrink-0">
-                <button className="w-8 h-8 rounded-lg flex items-center justify-center text-sm" style={{ border: '0.5px solid rgba(255,255,255,0.2)', background: 'rgba(255,255,255,0.07)', color: 'rgba(255,255,255,0.6)' }}>♡</button>
-              </div>
+              <button className="w-8 h-8 rounded-lg flex items-center justify-center text-sm flex-shrink-0" style={{ border: '0.5px solid rgba(255,255,255,0.2)', background: 'rgba(255,255,255,0.07)', color: 'rgba(255,255,255,0.6)' }}>♡</button>
             </div>
 
             {/* QUICK STATS */}
@@ -79,13 +82,44 @@ export default function AnsambluPage({ params }) {
               ].map((s, i) => (
                 <div key={i} className="rounded-lg p-2.5 text-center" style={{ background: 'rgba(255,255,255,0.07)', border: '0.5px solid rgba(255,255,255,0.1)' }}>
                   <div className="text-sm font-medium leading-snug" style={{ color: '#e8b44e' }}>{s.val}</div>
-                  <div className="text-[9px] mt-1" style={{ color: 'rgba(255,255,255,0.5)' }}>{s.lbl}</div>
+                  <div className="text-[9px] mt-1" style={{ color: 'rgba(255,255,255,0.6)' }}>{s.lbl}</div>
                 </div>
               ))}
             </div>
           </div>
         </div>
 
+        {/* GALERIE */}
+        <div>
+          <div className="hidden md:grid gap-1" style={{ gridTemplateColumns: '2fr 1fr', height: 380 }}>
+            <div className="bg-gray-100 flex items-center justify-center overflow-hidden">
+              <span className="text-sm text-gray-400">Fotografie principală</span>
+            </div>
+            <div className="grid gap-1" style={{ gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr' }}>
+              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 2</span></div>
+              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 3</span></div>
+              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 4</span></div>
+              <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors">
+                <span className="text-[10px] font-medium text-gray-600">+{a.galerie.length || 12} foto</span>
+              </div>
+            </div>
+          </div>
+          <div className="md:hidden">
+            <div className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
+              <span className="text-sm text-gray-400">Fotografie principală</span>
+            </div>
+            <div className="grid gap-1 mt-1" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
+              {[2,3,4].map(n => (
+                <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
+                  <span className="text-[8px] text-gray-400">{n}</span>
+                </div>
+              ))}
+              <div className="bg-gray-200 flex items-center justify-center cursor-pointer" style={{ aspectRatio: '16/9' }}>
+                <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 12}</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* TAB GALERIE */}
         <div className="flex gap-2 px-6 py-2.5 border-b border-gray-100 overflow-x-auto nav-scroll">
@@ -101,7 +135,7 @@ export default function AnsambluPage({ params }) {
             {/* COLOANA MAIN */}
             <div className="space-y-0">
 
-              {/* GALERIE: aspect-ratio 16/9 auto, miniaturi pe rand */}
+              {/* GALERIE IN COLOANA */}
               <div className="mb-6">
                 <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
                   <span className="text-sm text-gray-400">Fotografie principală</span>
@@ -127,7 +161,7 @@ export default function AnsambluPage({ params }) {
               {/* APARTAMENTE */}
               <div className="py-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Apartamente disponibile</h2>
-                <ApartamenteTable apartamente={a.apartamente} parcare={a.parcare} />
+                <ApartamenteTable apartamente={a.apartamente} parcare={a.parcare} ansambluNume={a.nume} />
               </div>
 
               {/* DOTARI */}
@@ -145,19 +179,27 @@ export default function AnsambluPage({ params }) {
                 </div>
               </div>
 
-              {/* LOCATIE */}
+              {/* LOCATIE CU HARTA IFRAME */}
               <div className="py-6">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Locație și transport</h2>
-                <div className="h-36 bg-gray-100 rounded-xl flex items-center justify-center mb-4">
-                  <span className="text-xs text-gray-400">Google Maps embed</span>
+                <div className="rounded-xl overflow-hidden mb-4" style={{ height: 280 }}>
+                  <iframe
+                    src={mapsEmbedUrl}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title={`Harta ${a.nume}`}
+                  />
                 </div>
                 <div className="space-y-2">
                   {a.puncteInteres.map((p, i) => {
                     const cfg = POI_COLORS[p.tip] || { bg: '#f3f4f6', color: '#374151', label: p.tip }
                     return (
                       <div key={i} className="flex items-center gap-3 text-sm text-gray-600">
-                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full flex-shrink-0 whitespace-nowrap"
-                          style={{ background: cfg.bg, color: cfg.color }}>
+                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full flex-shrink-0 whitespace-nowrap" style={{ background: cfg.bg, color: cfg.color }}>
                           {cfg.label}
                         </span>
                         <span>{p.nume}</span>
@@ -171,7 +213,7 @@ export default function AnsambluPage({ params }) {
 
             {/* SIDEBAR */}
             <div className="md:sticky md:top-36 self-start">
-              <FormularRapid ansambluNume={a.nume} />
+              <FormularRapid ansambluNume={a.nume} broker={a.broker} brokerTel={a.brokerTel} />
             </div>
           </div>
         </div>
@@ -205,54 +247,5 @@ export default function AnsambluPage({ params }) {
       </main>
       <Footer />
     </>
-  )
-}
-
-function ApartamenteTable({ apartamente, parcare }) {
-  return (
-    <div>
-      <div className="overflow-x-auto">
-        <table className="w-full text-sm border-collapse">
-          <thead>
-            <tr className="border-b border-gray-100">
-              <th className="text-left py-2 px-2 text-xs text-gray-400 font-normal">Tip</th>
-              <th className="text-left py-2 px-2 text-xs text-gray-400 font-normal">Suprafață</th>
-              <th className="text-left py-2 px-2 text-xs text-gray-400 font-normal">Avans 20%</th>
-              <th className="text-left py-2 px-2 text-xs text-gray-400 font-normal">Avans 45%</th>
-              <th className="py-2 px-2"></th>
-            </tr>
-          </thead>
-          <tbody>
-            {apartamente.map((apt, i) => (
-              <tr key={i} className="apt-row border-b border-gray-50">
-                <td className="py-2.5 px-2">
-                  <span className="font-medium text-gray-900 text-sm">{apt.tip}</span>
-                  {apt.promo && (
-                    <span className="ml-2 text-[9px] px-1.5 py-0.5 rounded" style={{ background: '#fff3e0', color: '#c8922a' }}>PROMO</span>
-                  )}
-                </td>
-                <td className="py-2.5 px-2 text-xs text-gray-600">{apt.suprafata} mp</td>
-                <td className="py-2.5 px-2 text-sm font-medium" style={{ color: '#2d7a3a' }}>
-                  {new Intl.NumberFormat('ro-RO').format(apt.avans20)}€
-                </td>
-                <td className="py-2.5 px-2 text-sm font-medium" style={{ color: '#2d7a3a' }}>
-                  {new Intl.NumberFormat('ro-RO').format(apt.avans45)}€
-                </td>
-                <td className="py-2.5 px-2">
-                  <button className="text-[10px] px-2 py-1 rounded border border-[#2d7a3a] text-[#2d7a3a] hover:bg-green-50 transition-colors whitespace-nowrap">
-                    Detalii
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <p className="text-[10px] text-gray-400 mt-2">
-        Toate prețurile sunt + TVA.
-        {parcare?.exterior?.disponibil && ` Parcare exterior ${new Intl.NumberFormat('ro-RO').format(parcare.exterior.pret)}€.`}
-        {parcare?.subteran?.disponibil && ` Parcare subterană ${new Intl.NumberFormat('ro-RO').format(parcare.subteran.pret)}€.`}
-      </p>
-    </div>
   )
 }

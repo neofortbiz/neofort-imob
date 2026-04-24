@@ -32,7 +32,7 @@ export const ANSAMBLURI = [
       { tip: '4 cam. terasa', etaj: 'et. 10', suprafata: 175.58, avans20: 190988, avans45: 181262, promo: true, camere: 4 },
     ],
     parcare: { exterior: { disponibil: true, pret: 6000 }, interior: { disponibil: true, pret: 8500 }, subteran: { disponibil: false, pret: null } },
-    dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari', 'Structura beton armat Porotherm'],
+    dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie caramida Porotherm'],
     puncteInteres: [
       { tip: 'metrou', nume: 'Nicolae Teclu', distanta: '3 min pe jos' },
       { tip: 'metrou', nume: 'Anghel Saligny', distanta: '8 min pe jos' },

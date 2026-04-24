@@ -5,7 +5,7 @@ const TEL = '0743250029'
 const TEL_DISPLAY = '0743 250 029'
 const WA_LINK = `https://wa.me/40${TEL.substring(1)}`
 
-export default function FormularRapid({ ansambluNume = '' }) {
+export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B.', brokerTel = '0743 250 029' }) {
   const [form, setForm] = useState({ nume: '', telefon: '', email: '', mesaj: '' })
   const [status, setStatus] = useState('idle') // idle | loading | success | error
 
@@ -141,11 +141,11 @@ export default function FormularRapid({ ansambluNume = '' }) {
       {/* BROKER */}
       <div className="flex items-center gap-2 mt-3 pt-3 border-t border-gray-200">
         <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-xs font-medium text-blue-700 flex-shrink-0">
-          AB
+          {broker.split(' ').map(w => w[0]).join('').substring(0, 2).toUpperCase()}
         </div>
         <div>
-          <div className="text-xs font-medium text-gray-900">Alexandru B.</div>
-          <div className="text-[10px] text-gray-500">Broker responsabil</div>
+          <div className="text-xs font-medium text-gray-900">{broker}</div>
+          <div className="text-[10px] text-gray-500">Reprezentant vânzări · {brokerTel}</div>
         </div>
       </div>
     </div>
