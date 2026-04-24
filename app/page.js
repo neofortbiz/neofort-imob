@@ -122,35 +122,30 @@ export default function HomePage() {
             <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
             <div className="flex flex-col gap-1 flex-1 min-w-[220px]">
               <div className="flex justify-between items-center">
-                <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">
-                  Interval de preț
-                </label>
+                <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Interval de preț</label>
                 <span className="text-[9px] font-medium" style={{ color: '#2d7a3a' }}>
                   {fmtPret(pretMin)} — {fmtPret(pretMax)}
                 </span>
               </div>
-              <div className="relative h-6 flex items-center" style={{ padding: '0 7px' }}>
-                <div className="absolute h-0.5 bg-gray-300 rounded" style={{ left: 7, right: 7 }} />
-                <div className="absolute h-0.5 rounded"
-                  style={{ background: '#2d7a3a', left: `calc(7px + ${fillLeft}% * (100% - 14px) / 100)`, width: `calc((${fillRight - fillLeft}%) * (100% - 14px) / 100)` }} />
-                <input type="range" min="5000" max="1500000" step="5000" value={pretMin}
-                  onChange={e => {
-                    const v = parseInt(e.target.value)
-                    if (v <= pretMax - 50000) { setPretMin(v); setPretMoved(true); setShown(STEP) }
-                  }}
-                  className="absolute w-full cursor-pointer"
-                  style={{ opacity: 0, height: 20, zIndex: 3, left: 0, top: '50%', transform: 'translateY(-50%)' }} />
-                <input type="range" min="5000" max="1500000" step="5000" value={pretMax}
-                  onChange={e => {
-                    const v = parseInt(e.target.value)
-                    if (v >= pretMin + 50000) { setPretMax(v); setPretMoved(true); setShown(STEP) }
-                  }}
-                  className="absolute w-full cursor-pointer"
-                  style={{ opacity: 0, height: 20, zIndex: 4, left: 0, top: '50%', transform: 'translateY(-50%)' }} />
+              <div className="relative h-4 flex items-center">
+                <div className="absolute inset-x-0 h-0.5 rounded bg-gray-300" />
+                <div className="absolute h-0.5 rounded" style={{ background: '#2d7a3a', left: `${fillLeft}%`, width: `${fillRight - fillLeft}%` }} />
+                <input
+                  type="range" min="5000" max="1500000" step="5000" value={pretMin}
+                  onChange={e => { const v=parseInt(e.target.value); if(v<=pretMax-50000){setPretMin(v);setPretMoved(true);setShown(STEP)} }}
+                  className="range-thumb absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+                  style={{ zIndex: pretMin > 1400000 ? 5 : 3 }}
+                />
+                <input
+                  type="range" min="5000" max="1500000" step="5000" value={pretMax}
+                  onChange={e => { const v=parseInt(e.target.value); if(v>=pretMin+50000){setPretMax(v);setPretMoved(true);setShown(STEP)} }}
+                  className="range-thumb absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+                  style={{ zIndex: 4 }}
+                />
                 <div className="absolute w-3.5 h-3.5 rounded-full border-2 border-white pointer-events-none"
-                  style={{ background: '#2d7a3a', left: `calc(${fillLeft}% * (100% - 14px) / 100)`, boxShadow: '0 1px 3px rgba(0,0,0,0.2)', zIndex: 5 }} />
+                  style={{ background: '#2d7a3a', left: `calc(${fillLeft}% - 7px)`, boxShadow: '0 1px 3px rgba(0,0,0,0.15)' }} />
                 <div className="absolute w-3.5 h-3.5 rounded-full border-2 border-white pointer-events-none"
-                  style={{ background: '#2d7a3a', left: `calc(14px + ${fillRight}% * (100% - 14px) / 100 - 14px)`, boxShadow: '0 1px 3px rgba(0,0,0,0.2)', zIndex: 5 }} />
+                  style={{ background: '#2d7a3a', left: `calc(${fillRight}% - 7px)`, boxShadow: '0 1px 3px rgba(0,0,0,0.15)' }} />
               </div>
             </div>
             <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
@@ -278,8 +273,8 @@ export default function HomePage() {
                   <div className="text-xl font-medium mb-1" style={{ color: '#2d7a3a' }}>{z.count}</div>
                   <div className="text-xs font-medium text-gray-900 leading-snug mb-0.5">{z.nume}</div>
                   <div className="text-[9px] text-gray-600">{z.sector} · București</div>
-                  <div className="mt-2 h-0.5 bg-gray-200 rounded overflow-hidden">
-                    <div className="h-0.5 rounded" style={{ background: '#2d7a3a', width: `${z.pct}%` }} />
+                  <div className="mt-2 h-1 bg-gray-200 rounded" style={{ overflow: 'hidden' }}>
+                    <div className="h-1 rounded" style={{ background: '#2d7a3a', width: `${z.pct}%`, minHeight: 4 }} />
                   </div>
                 </Link>
               ))}

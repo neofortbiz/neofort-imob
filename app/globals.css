@@ -59,3 +59,18 @@ input[type='range']::-webkit-slider-thumb {
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.875rem;
 }
+
+/* Dual range slider */
+.range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  pointer-events: auto;
+}
+.range-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  pointer-events: auto;
+  cursor: pointer;
+}
