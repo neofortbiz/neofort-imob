@@ -170,7 +170,7 @@ export default function AnsambluPage({ params }) {
             </div>
 
             {/* SIDEBAR */}
-            <div className="md:sticky md:top-20 self-start">
+            <div className="md:sticky md:top-36 self-start">
               <FormularRapid ansambluNume={a.nume} />
             </div>
           </div>
