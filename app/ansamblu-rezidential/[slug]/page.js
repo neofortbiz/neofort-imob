@@ -106,14 +106,14 @@ export default function AnsambluPage({ params }) {
                 <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
                   <span className="text-sm text-gray-400">Fotografie principală</span>
                 </div>
-                <div className="flex gap-1.5 mt-1.5 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
+                <div className="grid gap-1 mt-1.5" style={{ gridTemplateColumns: 'repeat(7, 1fr)' }}>
                   {[2,3,4,5,6,7].map(n => (
-                    <div key={n} className="bg-gray-100 flex-shrink-0 flex items-center justify-center rounded" style={{ aspectRatio: '16/9', height: 64 }}>
-                      <span className="text-[9px] text-gray-400">Foto {n}</span>
+                    <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
+                      <span className="text-[9px] text-gray-400">{n}</span>
                     </div>
                   ))}
-                  <div className="bg-gray-200 flex-shrink-0 flex items-center justify-center rounded cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9', height: 64 }}>
-                    <span className="text-[10px] font-medium text-gray-600">+{a.galerie.length || 10} foto</span>
+                  <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9' }}>
+                    <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 10}</span>
                   </div>
                 </div>
               </div>
