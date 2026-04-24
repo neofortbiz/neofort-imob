@@ -86,16 +86,25 @@ export default function AnsambluPage({ params }) {
         </div>
 
         {/* GALERIE PLACEHOLDER */}
-        <div className="grid grid-cols-3 gap-1 h-48 md:h-64">
-          <div className="col-span-2 bg-gray-100 flex items-center justify-center">
-            <span className="text-xs text-gray-400">Fotografie principală</span>
+        {/* GALERIE: poza landscape stanga + grid 2x2 dreapta */}
+        <div className="grid gap-1" style={{ gridTemplateColumns: '3fr 1fr', height: 320 }}>
+          {/* Poza principala landscape */}
+          <div className="bg-gray-100 flex items-center justify-center overflow-hidden">
+            <span className="text-sm text-gray-400">Fotografie principală</span>
           </div>
-          <div className="grid gap-1">
+          {/* 4 miniaturi 2x2 */}
+          <div className="grid gap-1" style={{ gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr' }}>
             <div className="bg-gray-100 flex items-center justify-center">
-              <span className="text-[10px] text-gray-400">Foto 2</span>
+              <span className="text-[9px] text-gray-400">Foto 2</span>
             </div>
-            <div className="bg-gray-200 flex items-center justify-center relative">
-              <span className="text-xs font-medium text-gray-600">+{a.galerie.length || 14} foto</span>
+            <div className="bg-gray-100 flex items-center justify-center">
+              <span className="text-[9px] text-gray-400">Foto 3</span>
+            </div>
+            <div className="bg-gray-100 flex items-center justify-center">
+              <span className="text-[9px] text-gray-400">Foto 4</span>
+            </div>
+            <div className="bg-gray-200 flex items-center justify-center relative cursor-pointer hover:bg-gray-300 transition-colors">
+              <span className="text-[10px] font-medium text-gray-600">+{a.galerie.length || 12} foto</span>
             </div>
           </div>
         </div>
