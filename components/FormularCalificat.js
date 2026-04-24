@@ -34,8 +34,9 @@ export default function FormularCalificat() {
     }
   }
 
-  const inputCls = "w-full bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg px-3 py-2.5 text-sm text-white placeholder-white placeholder-opacity-40 focus:outline-none focus:border-opacity-50"
-  const selectCls = "w-full bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-opacity-50 appearance-none cursor-pointer"
+  const sharedCls = "w-full bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:border-opacity-50"
+  const inputCls = sharedCls + " text-white"
+  const selectCls = sharedCls + " appearance-none cursor-pointer"
 
   if (status === 'success') {
     return (
@@ -48,10 +49,10 @@ export default function FormularCalificat() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="form-dark">
       {/* Rând 1: Nume + Telefon */}
       <div className="grid grid-cols-2 gap-2 mb-2">
-        <input name="nume" type="text" value={form.nume} onChange={handleChange} placeholder="Nume *" required className={inputCls} />
+        <input name="nume" type="text" value={form.nume} onChange={handleChange} placeholder="Nume *" required className={inputCls} style={{ color: 'white' }} />
         <input name="telefon" type="text" value={form.telefon} onChange={handleChange} placeholder="Telefon *" required className={inputCls} />
       </div>
       {/* Rând 2: Email + Finanțare */}

@@ -81,7 +81,7 @@ export default function HomePage() {
           <div className="inline-flex rounded-xl overflow-hidden mb-8 max-w-lg w-full" style={{ border: '0.5px solid rgba(255,255,255,0.08)' }}>
             {[
               { num: '85+', lbl: 'Ansambluri livrate' },
-              { num: ANSAMBLURI_ACTIVE.length, lbl: 'Active acum', note: 'actualizat automat' },
+              { num: ANSAMBLURI_ACTIVE.length, lbl: 'Active acum' },
               { num: '17 ani', lbl: 'Experiență' },
             ].map((s, i) => (
               <div key={i} className="flex-1 py-4 text-center" style={{ borderLeft: i > 0 ? '0.5px solid rgba(255,255,255,0.08)' : 'none' }}>
@@ -120,35 +120,37 @@ export default function HomePage() {
               </select>
             </div>
             <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
-            <div className="flex flex-col gap-1 flex-1 min-w-[200px]">
-              <div className="flex justify-between">
+            <div className="flex flex-col gap-1 flex-1 min-w-[220px]">
+              <div className="flex justify-between items-center">
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">
-                  {pretMoved ? fmtPret(pretMin) : 'Interval de preț'}
+                  Interval de preț
                 </label>
-                {pretMoved && <span className="text-[9px] font-medium" style={{ color: '#2d7a3a' }}>{fmtPret(pretMax)}</span>}
+                <span className="text-[9px] font-medium" style={{ color: '#2d7a3a' }}>
+                  {fmtPret(pretMin)} — {fmtPret(pretMax)}
+                </span>
               </div>
-              <div className="relative h-5 flex items-center">
-                <div className="absolute inset-x-0 h-0.5 bg-gray-300 rounded" />
+              <div className="relative h-6 flex items-center" style={{ padding: '0 7px' }}>
+                <div className="absolute h-0.5 bg-gray-300 rounded" style={{ left: 7, right: 7 }} />
                 <div className="absolute h-0.5 rounded"
-                  style={{ background: '#2d7a3a', left: `${fillLeft}%`, width: `${fillRight - fillLeft}%` }} />
+                  style={{ background: '#2d7a3a', left: `calc(7px + ${fillLeft}% * (100% - 14px) / 100)`, width: `calc((${fillRight - fillLeft}%) * (100% - 14px) / 100)` }} />
                 <input type="range" min="5000" max="1500000" step="5000" value={pretMin}
                   onChange={e => {
                     const v = parseInt(e.target.value)
-                    if (v < pretMax - 50000) { setPretMin(v); setPretMoved(true); setShown(STEP) }
+                    if (v <= pretMax - 50000) { setPretMin(v); setPretMoved(true); setShown(STEP) }
                   }}
-                  className="absolute inset-0 w-full opacity-0 cursor-pointer"
-                  style={{ zIndex: pretMin > 1400000 ? 5 : 3 }} />
+                  className="absolute w-full cursor-pointer"
+                  style={{ opacity: 0, height: 20, zIndex: 3, left: 0, top: '50%', transform: 'translateY(-50%)' }} />
                 <input type="range" min="5000" max="1500000" step="5000" value={pretMax}
                   onChange={e => {
                     const v = parseInt(e.target.value)
-                    if (v > pretMin + 50000) { setPretMax(v); setPretMoved(true); setShown(STEP) }
+                    if (v >= pretMin + 50000) { setPretMax(v); setPretMoved(true); setShown(STEP) }
                   }}
-                  className="absolute inset-0 w-full opacity-0 cursor-pointer"
-                  style={{ zIndex: 4 }} />
+                  className="absolute w-full cursor-pointer"
+                  style={{ opacity: 0, height: 20, zIndex: 4, left: 0, top: '50%', transform: 'translateY(-50%)' }} />
                 <div className="absolute w-3.5 h-3.5 rounded-full border-2 border-white pointer-events-none"
-                  style={{ background: '#2d7a3a', left: `calc(${fillLeft}% - 7px)`, zIndex: 6 }} />
+                  style={{ background: '#2d7a3a', left: `calc(${fillLeft}% * (100% - 14px) / 100)`, boxShadow: '0 1px 3px rgba(0,0,0,0.2)', zIndex: 5 }} />
                 <div className="absolute w-3.5 h-3.5 rounded-full border-2 border-white pointer-events-none"
-                  style={{ background: '#2d7a3a', left: `calc(${fillRight}% - 7px)`, zIndex: 6 }} />
+                  style={{ background: '#2d7a3a', left: `calc(14px + ${fillRight}% * (100% - 14px) / 100 - 14px)`, boxShadow: '0 1px 3px rgba(0,0,0,0.2)', zIndex: 5 }} />
               </div>
             </div>
             <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
@@ -164,7 +166,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto">
             <div className="flex justify-between items-end mb-5">
               <div>
-                <h2 className="text-xl font-medium text-gray-900">Ansambluri la vânzare</h2>
+                <h2 className="text-xl font-medium text-gray-900">Ansambluri Rezidențiale la vânzare</h2>
                 <p className="text-xs text-gray-600 mt-1">Ordonate după activitate recentă</p>
               </div>
               <Link href="/ansambluri-rezidentiale" className="text-xs text-[#2d7a3a] hover:underline font-medium">
@@ -207,7 +209,7 @@ export default function HomePage() {
                         <div className="text-[9px] text-gray-500 uppercase tracking-wider mb-0.5">{a.zona}</div>
                         <div className="text-xs font-medium text-gray-900 mb-1 leading-snug">{a.nume}</div>
                         <div className="text-xs font-medium" style={{ color: '#2d7a3a' }}>
-                          {formatPret(a.pretDeLa)} <span className="text-[9px] text-gray-500 font-normal">+TVA</span>
+                          de la {formatPret(a.pretDeLa)} <span className="text-[9px] text-gray-500 font-normal">+TVA</span>
                         </div>
                         <div className="text-[9px] text-gray-500 mt-0.5">{a.dataPredare}</div>
                       </div>
