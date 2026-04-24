@@ -8,58 +8,36 @@ import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
 
 function DualRangeSlider({ min, max, step, valueMin, valueMax, fillLeft, fillRight, onChangeMin, onChangeMax }) {
-  // Solutie corecta: input MIN are width = pozitia thumb-ului MAX + putin
-  // input MAX are width = 100%, dar zIndex mai mic in zona stanga
-  const minPct = fillLeft  // % unde e thumbul min
-  const maxPct = fillRight // % unde e thumbul max
-
   return (
-    <div className="relative" style={{ height: 20 }}>
-      {/* Track gri fundal */}
-      <div className="absolute rounded" style={{ height: 3, top: 9, left: 0, right: 0, background: '#d1d5db' }} />
-      {/* Track verde activ */}
-      <div className="absolute rounded" style={{
-        height: 3, top: 9,
-        left: `${minPct}%`,
-        width: `${maxPct - minPct}%`,
-        background: '#2d7a3a'
-      }} />
-      {/* Thumb MIN vizual */}
-      <div className="absolute pointer-events-none" style={{
-        width: 14, height: 14, borderRadius: '50%',
-        background: '#2d7a3a', border: '2px solid #fff',
-        boxShadow: '0 1px 4px rgba(0,0,0,0.25)',
-        top: 3, left: `calc(${minPct}% - 7px)`, zIndex: 6
-      }} />
-      {/* Thumb MAX vizual */}
-      <div className="absolute pointer-events-none" style={{
-        width: 14, height: 14, borderRadius: '50%',
-        background: '#2d7a3a', border: '2px solid #fff',
-        boxShadow: '0 1px 4px rgba(0,0,0,0.25)',
-        top: 3, left: `calc(${maxPct}% - 7px)`, zIndex: 6
-      }} />
-      {/* INPUT MIN: ocupa doar jumatatea stanga (pana la pozitia maxPct + buffer) */}
-      <input type="range" min={min} max={max} step={step} value={valueMin}
-        onChange={e => { const v=parseInt(e.target.value); if(v<=valueMax-step*2) onChangeMin(v) }}
-        style={{
-          position: 'absolute', top: 0, left: 0,
-          width: `${maxPct + 5}%`, height: '100%',
-          opacity: 0, cursor: 'pointer',
-          zIndex: minPct >= maxPct - 5 ? 5 : 3,
-          WebkitAppearance: 'none', margin: 0
-        }}
-      />
-      {/* INPUT MAX: ocupa toata bara */}
-      <input type="range" min={min} max={max} step={step} value={valueMax}
-        onChange={e => { const v=parseInt(e.target.value); if(v>=valueMin+step*2) onChangeMax(v) }}
-        style={{
-          position: 'absolute', top: 0, left: 0,
-          width: '100%', height: '100%',
-          opacity: 0, cursor: 'pointer',
-          zIndex: 4,
-          WebkitAppearance: 'none', margin: 0
-        }}
-      />
+    <div className="flex flex-col gap-1">
+      {/* SLIDER MIN */}
+      <div className="flex items-center gap-2">
+        <span className="text-[9px] text-gray-500 w-6 flex-shrink-0">Min</span>
+        <input
+          type="range"
+          min={min} max={valueMax - step} step={step}
+          value={valueMin}
+          onChange={e => onChangeMin(parseInt(e.target.value))}
+          className="flex-1 h-1 rounded cursor-pointer accent-[#2d7a3a]"
+        />
+        <span className="text-[9px] font-medium w-16 text-right flex-shrink-0" style={{ color: '#2d7a3a' }}>
+          {new Intl.NumberFormat('ro-RO').format(valueMin)}€
+        </span>
+      </div>
+      {/* SLIDER MAX */}
+      <div className="flex items-center gap-2">
+        <span className="text-[9px] text-gray-500 w-6 flex-shrink-0">Max</span>
+        <input
+          type="range"
+          min={valueMin + step} max={max} step={step}
+          value={valueMax}
+          onChange={e => onChangeMax(parseInt(e.target.value))}
+          className="flex-1 h-1 rounded cursor-pointer accent-[#2d7a3a]"
+        />
+        <span className="text-[9px] font-medium w-16 text-right flex-shrink-0" style={{ color: '#2d7a3a' }}>
+          {valueMax >= max ? '1.500.000€+' : new Intl.NumberFormat('ro-RO').format(valueMax) + '€'}
+        </span>
+      </div>
     </div>
   )
 }
