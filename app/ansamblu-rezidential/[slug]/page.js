@@ -73,27 +73,22 @@ export default function AnsambluPage({ params }) {
             </div>
 
             {/* QUICK STATS */}
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
               {[
                 { val: `de la ${formatPret(a.pretDeLa)}`, lbl: 'Preț de la' },
                 { val: a.apartamente.length > 0 ? `${a.apartamente[0].suprafata}–${a.apartamente[a.apartamente.length-1].suprafata}mp` : 'N/A', lbl: 'Suprafețe' },
                 { val: a.etaje, lbl: 'Regim înălțime' },
                 { val: a.puncteInteres[0]?.distanta || 'N/A', lbl: a.puncteInteres[0]?.tip === 'metrou' ? 'Până la metrou' : 'Distanță' },
+                { val: [...new Set(a.tipuri.map(t => t.match(/\d+/)?.[0]).filter(Boolean))].sort((x,y) => x-y).join(', ') + ' cam.', lbl: 'Tipuri' },
+                { val: STATUS_CONFIG[a.status].label, lbl: 'Status', color: STATUS_CONFIG[a.status].dot },
               ].map((s, i) => (
                 <div key={i} className="rounded-lg p-2.5 text-center" style={{ background: 'rgba(255,255,255,0.07)', border: '0.5px solid rgba(255,255,255,0.1)' }}>
-                  <div className="text-sm font-medium leading-snug" style={{ color: '#e8b44e' }}>{s.val}</div>
+                  <div className="text-sm font-medium leading-snug" style={{ color: s.color || '#e8b44e' }}>{s.val}</div>
                   <div className="text-[9px] mt-1" style={{ color: 'rgba(255,255,255,0.6)' }}>{s.lbl}</div>
                 </div>
               ))}
             </div>
           </div>
-        </div>
-
-        {/* TAB GALERIE */}
-        <div className="flex gap-2 px-6 py-2.5 border-b border-gray-100 overflow-x-auto nav-scroll">
-          {['Exterior', 'Interior', 'Randări', 'Plan etaj'].map((t, i) => (
-            <span key={t} className={`text-xs px-3 py-1.5 rounded-full border cursor-pointer whitespace-nowrap ${i === 0 ? 'bg-[#2d7a3a] border-[#2d7a3a] text-white' : 'border-gray-200 text-gray-500'}`}>{t}</span>
-          ))}
         </div>
 
         {/* BODY — 2 COLOANE */}
@@ -118,6 +113,13 @@ export default function AnsambluPage({ params }) {
                     <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 10}</span>
                   </div>
                 </div>
+              </div>
+
+              {/* TAB GALERIE — sub galerie */}
+              <div className="flex gap-2 mb-6 overflow-x-auto nav-scroll">
+                {['Exterior', 'Interior', 'Randări', 'Plan etaj'].map((t, i) => (
+                  <span key={t} className={`text-xs px-3 py-1.5 rounded-full border cursor-pointer whitespace-nowrap flex-shrink-0 ${i === 0 ? 'bg-[#2d7a3a] border-[#2d7a3a] text-white' : 'border-gray-200 text-gray-500'}`}>{t}</span>
+                ))}
               </div>
 
               {/* DESCRIERE */}
