@@ -127,7 +127,7 @@ export default function HomePageClient() {
       <main>
 
         {/* HERO */}
-        <section style={{ background: '#081c12' }} className="py-12 md:py-16 px-6 text-center">
+        <section style={{ background: '#081c12' }} className="pt-10 pb-10 md:pt-14 md:pb-14 px-6 text-center">
           <p className="text-xs tracking-widest uppercase mb-3" style={{ color: 'rgba(232,180,78,0.7)' }}>
             Imobiliare și Construcții București — Din 2009
           </p>
@@ -137,7 +137,7 @@ export default function HomePageClient() {
           <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.8)' }}>
             Apartamente noi de la dezvoltator. Fără comision de agenție.
           </p>
-          <div className="inline-flex rounded-xl overflow-hidden mb-8 max-w-lg w-full" style={{ border: '0.5px solid rgba(255,255,255,0.08)' }}>
+          <div className="inline-flex rounded-xl overflow-hidden max-w-lg w-full" style={{ border: '0.5px solid rgba(255,255,255,0.08)' }}>
             {[
               { num: '85+', lbl: 'Ansambluri livrate' },
               { num: ANSAMBLURI_ACTIVE.length, lbl: 'Active acum' },
@@ -203,6 +203,7 @@ export default function HomePageClient() {
                     value={pretMax}
                     onChange={e => { setPretMax(Number(e.target.value)); setPretMoved(true); setShown(STEP) }}
                     className="flex-1 h-1 accent-[#2d7a3a] cursor-pointer"
+                    style={{ direction: 'rtl' }}
                   />
                   <span className="text-[9px] text-gray-400 flex-shrink-0">1.500.000€+</span>
                 </div>
@@ -233,6 +234,7 @@ export default function HomePageClient() {
                   value={pretMax}
                   onChange={e => { setPretMax(Number(e.target.value)); setPretMoved(true); setShown(STEP) }}
                   className="flex-1 h-1 accent-[#2d7a3a] cursor-pointer"
+                  style={{ direction: 'rtl' }}
                 />
                 <span className="text-[9px] text-gray-400 flex-shrink-0">1.500.000€+</span>
               </div>
