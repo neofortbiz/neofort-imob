@@ -6,6 +6,10 @@ import FormularRapid from '@/components/FormularRapid'
 import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
+const BASE = 'https://neofort-imob.vercel.app'
+const TEL = '0743250029'
+const TEL_DISPLAY = '0743 250 029'
+
 export async function generateStaticParams() {
   return ANSAMBLURI.map(a => ({ slug: a.slug }))
 }
@@ -13,9 +17,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const a = getAnsamblu(params.slug)
   if (!a) return {}
+  const url = `${BASE}/ansamblu-rezidential/${a.slug}`
   return {
-    title: a.seoTitle,
-    description: a.seoDescription,
+    title: `Apartamente noi ${a.zona} | ${a.nume} | De la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€ | Neofort IMO`,
+    description: `${a.apartamente.length} tipuri de apartamente în ${a.zona}, ${a.sector} București. Prețuri de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA. ${a.dataPredare !== 'Finalizat' ? `Predare ${a.dataPredare}.` : 'Finalizat.'} ${a.puncteInteres[0] ? `${a.puncteInteres[0].tip === 'metrou' ? 'Metrou' : ''} ${a.puncteInteres[0].nume} la ${a.puncteInteres[0].distanta}.` : ''} ☎ ${TEL_DISPLAY}`,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `${a.nume} — Apartamente noi ${a.zona} | Neofort IMO`,
+      description: `Apartamente ${a.tipuri.join(', ')} în ${a.zona}, ${a.sector}. De la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA.`,
+      url,
+      type: 'website',
+      locale: 'ro_RO',
+    },
   }
 }
 
@@ -37,8 +50,125 @@ export default function AnsambluPage({ params }) {
   // Google Maps embed URL din coordonate
   const mapsEmbedUrl = `https://maps.google.com/maps?q=${a.coordonate.lat},${a.coordonate.lng}&z=15&output=embed`
 
+  // Schema.org RealEstateListing
+  const realEstateSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'RealEstateListing',
+    '@id': `${BASE}/ansamblu-rezidential/${a.slug}`,
+    name: a.nume,
+    description: a.descriere,
+    url: `${BASE}/ansamblu-rezidential/${a.slug}`,
+    image: `${BASE}/logo.avif`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'București',
+      addressRegion: a.sector,
+      addressCountry: 'RO',
+      streetAddress: a.adresa,
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: a.coordonate.lat,
+      longitude: a.coordonate.lng,
+    },
+    offers: a.apartamente.slice(0, 5).map(apt => ({
+      '@type': 'Offer',
+      name: apt.tip,
+      price: apt.pretPromo || apt.avans45 || apt.avans20,
+      priceCurrency: 'EUR',
+      availability: apt.stocEpuizat ? 'https://schema.org/SoldOut' : 'https://schema.org/InStock',
+      seller: { '@type': 'Organization', name: 'Neofort IMO' },
+    })),
+    numberOfRooms: a.apartamente.map(apt => apt.camere),
+    floorSize: {
+      '@type': 'QuantitativeValue',
+      minValue: a.apartamente[0]?.suprafata,
+      maxValue: a.apartamente[a.apartamente.length - 1]?.suprafata,
+      unitCode: 'MTK',
+    },
+  }
+
+  // Schema.org FAQPage
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `Care sunt prețurile apartamentelor din ${a.nume}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Prețurile apartamentelor din ${a.nume} încep de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€ + TVA. Sunt disponibile ${a.tipuri.join(', ')}, cu suprafețe între ${a.apartamente[0]?.suprafata} și ${a.apartamente[a.apartamente.length-1]?.suprafata} mp.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Când este predarea apartamentelor la ${a.nume}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: a.dataPredare === 'Finalizat' ? `${a.nume} este un ansamblu finalizat, apartamentele sunt disponibile imediat.` : `Termenul de predare pentru ${a.nume} este ${a.dataPredare}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Ce dotări sunt incluse la apartamentele ${a.nume}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Apartamentele din ${a.nume} includ: ${a.dotari.slice(0, 6).join(', ')}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Există locuri de parcare la ${a.nume}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: (() => {
+            const p = a.parcare
+            const opts = []
+            if (p.exterior?.disponibil) opts.push(`parcare exterioară de la ${new Intl.NumberFormat('ro-RO').format(p.exterior.pret)}€`)
+            if (p.interior?.disponibil) opts.push(`parcare interioară de la ${new Intl.NumberFormat('ro-RO').format(p.interior.pret)}€`)
+            if (p.subteran?.disponibil && p.subteran.pret) opts.push(`parcare subterană de la ${new Intl.NumberFormat('ro-RO').format(p.subteran.pret)}€`)
+            return opts.length > 0 ? `Da, la ${a.nume} sunt disponibile: ${opts.join(', ')}.` : `Contactați-ne pentru disponibilitatea locurilor de parcare la ${a.nume}.`
+          })(),
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Cum fac o rezervare pentru un apartament din ${a.nume}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Pentru a rezerva un apartament în ${a.nume} contactați-ne la ${TEL_DISPLAY} sau pe WhatsApp. Procesul de rezervare este simplu și transparent, conform noilor reglementări legislative în vigoare.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Cât este distanța de la ${a.nume} la metrou?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: a.puncteInteres.filter(p => p.tip === 'metrou').length > 0
+            ? `De la ${a.nume} până la ${a.puncteInteres.find(p => p.tip === 'metrou').nume} distanța este de ${a.puncteInteres.find(p => p.tip === 'metrou').distanta}.`
+            : `Contactați-ne pentru detalii despre accesul la transport public din zona ${a.zona}.`,
+        },
+      },
+    ],
+  }
+
+  // Schema.org BreadcrumbList
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Acasă', item: BASE },
+      { '@type': 'ListItem', position: 2, name: 'Ansambluri rezidențiale', item: `${BASE}/ansambluri-rezidentiale` },
+      { '@type': 'ListItem', position: 3, name: a.nume, item: `${BASE}/ansamblu-rezidential/${a.slug}` },
+    ],
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(realEstateSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/ansambluri-rezidentiale" />
       <main>
         {/* BREADCRUMB */}
@@ -215,6 +345,37 @@ export default function AnsambluPage({ params }) {
         )}
       </main>
       <Footer />
+
+      {/* STICKY CTA BAR — doar pe mobil */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden border-t border-gray-100"
+        style={{ background: 'white', paddingBottom: 'env(safe-area-inset-bottom)' }}>
+        <div className="grid grid-cols-3 gap-0">
+          <a href={`tel:${TEL}`}
+            className="flex flex-col items-center justify-center py-3 gap-0.5 border-r border-gray-100 active:bg-gray-50">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1565c0" strokeWidth="2.5" strokeLinecap="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 10.8 19.79 19.79 0 01.86 2.18 2 2 0 012.83 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l.98-.97a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            <span className="text-[10px] text-gray-600">Sună</span>
+          </a>
+          <a href={`https://wa.me/40743250029?text=${encodeURIComponent(`Bună ziua! Sunt interesat de ${a.nume}. Vă rog detalii.`)}`}
+            target="_blank" rel="noopener noreferrer"
+            className="flex flex-col items-center justify-center py-3 gap-0.5 border-r border-gray-100 active:bg-gray-50">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#25a244">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <span className="text-[10px] text-gray-600">WhatsApp</span>
+          </a>
+          <a href="#formular"
+            className="flex flex-col items-center justify-center py-3 gap-0.5 active:bg-gray-50">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2d7a3a" strokeWidth="2.5" strokeLinecap="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span className="text-[10px] text-gray-600">Formular</span>
+          </a>
+        </div>
+      </div>
+      {/* Spatiu pentru sticky bar pe mobil */}
+      <div className="h-16 md:hidden" />
     </>
   )
 }
