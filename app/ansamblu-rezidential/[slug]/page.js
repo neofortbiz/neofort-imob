@@ -116,7 +116,7 @@ export default function AnsambluPage({ params }) {
               </div>
 
               {/* TAB GALERIE — sub galerie */}
-              <div className="flex gap-2 mb-6 overflow-x-auto nav-scroll">
+              <div className="flex gap-2 mb-8 overflow-x-auto nav-scroll">
                 {['Exterior', 'Interior', 'Randări', 'Plan etaj'].map((t, i) => (
                   <span key={t} className={`text-xs px-3 py-1.5 rounded-full border cursor-pointer whitespace-nowrap flex-shrink-0 ${i === 0 ? 'bg-[#2d7a3a] border-[#2d7a3a] text-white' : 'border-gray-200 text-gray-500'}`}>{t}</span>
                 ))}
