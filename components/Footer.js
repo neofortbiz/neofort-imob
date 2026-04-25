@@ -13,21 +13,8 @@ export default function Footer() {
 
           {/* COL 1 — BRAND */}
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-3 mb-4">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 flex-shrink-0">
-                <line x1="4" y1="38" x2="44" y2="38" stroke="#666" strokeWidth="1.5"/>
-                <rect x="5" y="22" width="10" height="16" fill="#e8531c" opacity="0.8"/>
-                <rect x="7" y="22" width="4" height="16" fill="rgba(255,255,255,0.15)"/>
-                <polygon points="18,10 26,10 26,38 18,38" fill="#1e90d0" opacity="0.8"/>
-                <rect x="20" y="10" width="3" height="28" fill="rgba(255,255,255,0.2)"/>
-                <rect x="29" y="8" width="14" height="30" fill="#3aaa35" opacity="0.8"/>
-                <rect x="33" y="8" width="6" height="30" fill="rgba(255,255,255,0.15)"/>
-              </svg>
-              <div>
-                <div className="text-sm font-medium tracking-wider" style={{ color: '#e0e0e0' }}>
-                  NEOFORT IMO<sup className="text-[8px]">®</sup>
-                </div>
-              </div>
+            <div className="mb-4">
+              <img src="/logo.avif" alt="Neofort IMO" className="h-10 w-auto" style={{ filter: 'brightness(0) invert(1)' }} />
             </div>
             <p className="text-xs leading-relaxed mb-4" style={{ color: '#666' }}>
               Dezvoltator și agenție imobiliară din București. Din 2009 livrăm ansambluri rezidențiale de calitate în toate sectoarele capitalei.

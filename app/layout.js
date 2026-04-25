@@ -1,6 +1,10 @@
 import './globals.css'
 
 export const metadata = {
+  icons: {
+    icon: '/logo.avif',
+    apple: '/logo.avif',
+  },
   title: {
     default: 'Neofort IMO — Ansambluri Rezidențiale București',
     template: '%s | Neofort IMO',

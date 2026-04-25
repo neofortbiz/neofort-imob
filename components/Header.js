@@ -28,24 +28,12 @@ export default function Header({ activePath = '/' }) {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
 
           {/* LOGO */}
-          <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-            <div className="w-10 h-10 flex-shrink-0">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-                <line x1="4" y1="38" x2="44" y2="38" stroke="#1a1a1a" strokeWidth="1.5"/>
-                <rect x="5" y="22" width="10" height="16" fill="#e8531c"/>
-                <rect x="7" y="22" width="4" height="16" fill="rgba(255,255,255,0.2)"/>
-                <polygon points="18,10 26,10 26,38 18,38" fill="#1e90d0"/>
-                <rect x="20" y="10" width="3" height="28" fill="rgba(255,255,255,0.25)"/>
-                <rect x="29" y="8" width="14" height="30" fill="#3aaa35"/>
-                <rect x="33" y="8" width="6" height="30" fill="rgba(255,255,255,0.2)"/>
-              </svg>
-            </div>
-            <div>
-              <div className="text-base font-medium tracking-wider text-gray-900 leading-none">
-                NEOFORT IMO<sup className="text-[9px]">®</sup>
-              </div>
-              <div className="text-[10px] text-gray-400 mt-0.5 tracking-wide">Imobiliare București</div>
-            </div>
+          <Link href="/" className="flex items-center flex-shrink-0">
+            <img
+              src="/logo.avif"
+              alt="Neofort IMO — Imobiliare București"
+              className="h-10 md:h-12 w-auto"
+            />
           </Link>
 
           {/* CONTACT ICONS */}
