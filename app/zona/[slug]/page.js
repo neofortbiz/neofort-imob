@@ -5,16 +5,29 @@ import Footer from '@/components/Footer'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
 // Generare dinamica a configuratiei zonelor din date
+const SECTOR_NAMES = {
+  'sector-1': { nume: 'Sector 1', sector: 'Sector 1', descriere: 'Ansambluri rezidențiale noi în Sectorul 1 București.' },
+  'sector-2': { nume: 'Sector 2', sector: 'Sector 2', descriere: 'Ansambluri rezidențiale noi în Sectorul 2 București.' },
+  'sector-3': { nume: 'Sector 3', sector: 'Sector 3', descriere: 'Ansambluri rezidențiale noi în Sectorul 3 București.' },
+  'sector-4': { nume: 'Sector 4', sector: 'Sector 4', descriere: 'Ansambluri rezidențiale noi în Sectorul 4 București.' },
+  'sector-5': { nume: 'Sector 5', sector: 'Sector 5', descriere: 'Ansambluri rezidențiale noi în Sectorul 5 București.' },
+  'sector-6': { nume: 'Sector 6', sector: 'Sector 6', descriere: 'Ansambluri rezidențiale noi în Sectorul 6 București.' },
+}
+
 function getZoneConfig() {
   const config = {}
   ANSAMBLURI.forEach(a => {
     const zoneList = a.zone || []
     zoneList.forEach(z => {
       if (!config[z]) {
-        config[z] = {
-          nume: a.zona,
-          sector: a.sector,
-          descriere: `Ansambluri rezidențiale în zona ${a.zona}, ${a.sector}, București.`,
+        if (SECTOR_NAMES[z]) {
+          config[z] = SECTOR_NAMES[z]
+        } else {
+          config[z] = {
+            nume: a.zona,
+            sector: a.sector,
+            descriere: `Ansambluri rezidențiale în zona ${a.zona}, ${a.sector}, București.`,
+          }
         }
       }
     })

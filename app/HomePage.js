@@ -7,18 +7,35 @@ import FormularCalificat from '@/components/FormularCalificat'
 import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
 // Zone generate automat din ansambluri
+const SECTOR_LABELS = {
+  'sector-2': 'Sector 2',
+  'sector-3': 'Sector 3',
+  'sector-6': 'Sector 6',
+}
+
 function getZoneDinamice() {
   const zoneMap = {}
   ANSAMBLURI_ACTIVE.forEach(a => {
     const zoneList = a.zone || [a.zona.toLowerCase().replace(/[^a-z0-9]+/g, '-')]
     zoneList.forEach(z => {
       if (!zoneMap[z]) {
-        zoneMap[z] = { slug: z, nume: a.zona, sector: a.sector, count: 0 }
+        const isSector = z.startsWith('sector-')
+        zoneMap[z] = {
+          slug: z,
+          nume: isSector ? SECTOR_LABELS[z] || z : a.zona,
+          sector: a.sector,
+          count: 0,
+          isSector,
+        }
       }
       zoneMap[z].count++
     })
   })
-  return Object.values(zoneMap).sort((a, b) => b.count - a.count)
+  // Sortam: zone geografice primele (dupa count), apoi sectoare
+  const all = Object.values(zoneMap)
+  const geo = all.filter(z => !z.isSector).sort((a, b) => b.count - a.count)
+  const sec = all.filter(z => z.isSector).sort((a, b) => a.slug.localeCompare(b.slug))
+  return [...geo, ...sec]
 }
 
 
