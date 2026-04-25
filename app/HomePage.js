@@ -53,7 +53,7 @@ const ZONE = [
   { slug: 'sector-3-bucuresti', nume: 'Ansambluri rezidențiale Sector 3', sector: 'Sector 3', count: 4, pct: 100 },
 ]
 
-const STEP = 10
+const STEP = 999
 
 export default function HomePageClient() {
   const [tipFilter, setTipFilter] = useState('')
@@ -237,29 +237,7 @@ export default function HomePageClient() {
               </div>
             )}
 
-            {total > 0 && (
-              <div className="text-center mt-6 flex flex-col items-center gap-2">
-                <div className="flex gap-2 flex-wrap justify-center">
-                  {shown < total && (
-                    <button onClick={() => setShown(s => Math.min(s + STEP, total))}
-                      className="inline-flex items-center gap-2 border border-gray-200 rounded-lg px-5 py-2.5 text-sm text-gray-700 hover:border-[#2d7a3a] hover:text-[#2d7a3a] transition-colors">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="6 9 12 15 18 9"/></svg>
-                      Încarcă mai multe
-                    </button>
-                  )}
-                  {shown > STEP && (
-                    <button onClick={() => setShown(STEP)}
-                      className="inline-flex items-center gap-2 border border-gray-200 rounded-lg px-5 py-2.5 text-sm text-gray-700 hover:border-[#2d7a3a] hover:text-[#2d7a3a] transition-colors">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="18 15 12 9 6 15"/></svg>
-                      Restrânge lista
-                    </button>
-                  )}
-                </div>
-                <p className="text-xs text-gray-600">
-                  {shown >= total ? `Toate cele ${total} ansambluri sunt afișate` : `Se afișează ${shown} din ${total} ansambluri active`}
-                </p>
-              </div>
-            )}
+
           </div>
         </section>
 
