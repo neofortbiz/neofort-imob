@@ -153,52 +153,91 @@ export default function HomePageClient() {
         </section>
 
         {/* FILTER STRIP */}
-        <div className="bg-gray-50 border-b border-gray-200 px-6 py-3 sticky top-16 z-40">
-          <div className="max-w-7xl mx-auto flex items-center gap-4 overflow-x-auto nav-scroll">
-            <div className="flex flex-col gap-0.5 flex-shrink-0">
-              <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Tip proprietate</label>
-              <select value={tipFilter} onChange={e => { setTipFilter(e.target.value); setShown(STEP) }}
-                className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
-                <option value="">Toate</option>
-                <option value="apartament">Apartament</option>
-                <option value="garsoniera">Garsonieră</option>
-                <option value="studio">Studio</option>
-                <option value="comercial">Spațiu comercial</option>
-              </select>
+        <div className="bg-gray-50 border-b border-gray-200 sticky top-[82px] z-40 px-6 py-3">
+          <div className="max-w-7xl mx-auto">
+
+            {/* RAND 1: Filtre + rezultate (desktop: tot pe un rand | mobil: 2 filtre + rezultate) */}
+            <div className="flex items-center gap-4">
+              {/* Tip proprietate */}
+              <div className="flex flex-col gap-0.5 flex-shrink-0">
+                <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Tip proprietate</label>
+                <select value={tipFilter} onChange={e => { setTipFilter(e.target.value); setShown(STEP) }}
+                  className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
+                  <option value="">Toate</option>
+                  <option value="apartament">Apartament</option>
+                  <option value="garsoniera">Garsonieră</option>
+                  <option value="studio">Studio</option>
+                </select>
+              </div>
+
+              <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
+
+              {/* Numar camere */}
+              <div className="flex flex-col gap-0.5 flex-shrink-0">
+                <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Număr camere</label>
+                <select value={camereFilter} onChange={e => { setCamereFilter(e.target.value); setShown(STEP) }}
+                  className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
+                  <option value="">Toate</option>
+                  <option value="1">1 cameră</option>
+                  <option value="2">2 camere</option>
+                  <option value="3">3 camere</option>
+                  <option value="4">4 camere</option>
+                </select>
+              </div>
+
+              <div className="hidden md:block w-px h-7 bg-gray-300 flex-shrink-0" />
+
+              {/* Slider pret — pe desktop inline, pe mobil ascuns aici */}
+              <div className="hidden md:flex flex-col gap-1 flex-1 min-w-[200px]">
+                <div className="flex justify-between items-center">
+                  <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Interval de preț</label>
+                  <span className="text-[9px] font-medium" style={{ color: '#2d7a3a' }}>
+                    {fmtPret(pretMin)} — {fmtPret(pretMax)}
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-[9px] text-gray-400 flex-shrink-0">5.000€</span>
+                  <input
+                    type="range"
+                    min={5000} max={1500000} step={5000}
+                    value={pretMax}
+                    onChange={e => { setPretMax(Number(e.target.value)); setPretMoved(true); setShown(STEP) }}
+                    className="flex-1 h-1 accent-[#2d7a3a] cursor-pointer"
+                  />
+                  <span className="text-[9px] text-gray-400 flex-shrink-0">1.500.000€+</span>
+                </div>
+              </div>
+
+              <div className="hidden md:block w-px h-7 bg-gray-300 flex-shrink-0" />
+
+              {/* Rezultate */}
+              <div className="ml-auto text-xs flex-shrink-0 whitespace-nowrap">
+                <span className="font-semibold text-gray-900">{total}</span>
+                <span className="text-gray-600"> rezultate</span>
+              </div>
             </div>
-            <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
-            <div className="flex flex-col gap-0.5 flex-shrink-0">
-              <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Număr camere</label>
-              <select value={camereFilter} onChange={e => { setCamereFilter(e.target.value); setShown(STEP) }}
-                className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
-                <option value="">Toate</option>
-                <option value="1">1 cameră</option>
-                <option value="2">2 camere</option>
-                <option value="3">3 camere</option>
-                <option value="4">4 camere</option>
-              </select>
-            </div>
-            <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
-            <div className="flex flex-col gap-1 flex-1 min-w-[220px]">
-              <div className="flex justify-between items-center">
+
+            {/* RAND 2: Slider pret — doar pe mobil, sub filtre */}
+            <div className="md:hidden mt-3 pt-3 border-t border-gray-200">
+              <div className="flex justify-between items-center mb-1">
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Interval de preț</label>
                 <span className="text-[9px] font-medium" style={{ color: '#2d7a3a' }}>
                   {fmtPret(pretMin)} — {fmtPret(pretMax)}
                 </span>
               </div>
-              <DualRangeSlider
-                min={5000} max={1500000} step={5000}
-                valueMin={pretMin} valueMax={pretMax}
-                fillLeft={fillLeft} fillRight={fillRight}
-                onChangeMin={v => { setPretMin(v); setPretMoved(true); setShown(STEP) }}
-                onChangeMax={v => { setPretMax(v); setPretMoved(true); setShown(STEP) }}
-              />
+              <div className="flex items-center gap-2">
+                <span className="text-[9px] text-gray-400 flex-shrink-0">5.000€</span>
+                <input
+                  type="range"
+                  min={5000} max={1500000} step={5000}
+                  value={pretMax}
+                  onChange={e => { setPretMax(Number(e.target.value)); setPretMoved(true); setShown(STEP) }}
+                  className="flex-1 h-1 accent-[#2d7a3a] cursor-pointer"
+                />
+                <span className="text-[9px] text-gray-400 flex-shrink-0">1.500.000€+</span>
+              </div>
             </div>
-            <div className="w-px h-7 bg-gray-300 flex-shrink-0" />
-            <div className="text-xs flex-shrink-0 whitespace-nowrap">
-              <span className="font-semibold text-gray-900">{total}</span>
-              <span className="text-gray-600"> rezultate</span>
-            </div>
+
           </div>
         </div>
 
