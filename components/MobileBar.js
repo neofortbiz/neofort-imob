@@ -1,34 +1,45 @@
 'use client'
 import { usePathname } from 'next/navigation'
+import { getAnsamblu } from '@/data/ansambluri'
 
-const TEL = '0743250029'
-const WA_BASE = 'https://wa.me/40743250029'
+const TEL_GENERAL = '0758090904'
+const EMAIL = 'lead.neo@neofort-biz.ro'
+
+function getContactInfo(pathname) {
+  const match = pathname?.match(/ansamblu-rezidential\/([^/]+)/)
+  if (match) {
+    const ansamblu = getAnsamblu(match[1])
+    if (ansamblu?.brokerTel) {
+      const tel = ansamblu.brokerTel.replace(/\s/g, '')
+      const waNum = tel.startsWith('0') ? '4' + tel.substring(1) : tel
+      const waMesaj = encodeURIComponent(`Bună ziua! Sunt interesat de ${ansamblu.nume} (Neofort ${ansamblu.numar}). Vă rog să mă contactați cu detalii și disponibilitate.`)
+      return { tel, waLink: `https://wa.me/${waNum}?text=${waMesaj}` }
+    }
+  }
+  const waMesaj = encodeURIComponent('Bună ziua! Sunt interesat de apartamentele Neofort IMO. Vă rog să mă contactați.')
+  return {
+    tel: TEL_GENERAL,
+    waLink: `https://wa.me/40${TEL_GENERAL.substring(1)}?text=${waMesaj}`,
+  }
+}
 
 export default function MobileBar() {
   const pathname = usePathname()
-
-  // Mesaj WA personalizat dupa pagina
-  const match = pathname?.match(/ansamblu-rezidential\/([^/]+)/)
-  const waText = match
-    ? encodeURIComponent(`Bună ziua! Sunt interesat de apartamentele Neofort ${match[1].replace(/neofort-\d+-/, '').replace(/-/g, ' ')}. Vă rog detalii.`)
-    : encodeURIComponent('Bună ziua! Sunt interesat de apartamentele Neofort IMO. Vă rog să mă contactați.')
+  const { tel, waLink } = getContactInfo(pathname)
 
   return (
     <>
-      {/* BARA FIXA MOBIL */}
       <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden"
         style={{ background: 'white', borderTop: '1px solid #e5e7eb', paddingBottom: 'env(safe-area-inset-bottom)' }}>
         <div className="grid grid-cols-3">
-          <a href={`tel:${TEL}`}
+          <a href={`tel:${tel}`}
             className="flex flex-col items-center justify-center py-3 gap-1 active:bg-gray-50">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565c0" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 10.8 19.79 19.79 0 01.86 2.18 2 2 0 012.83 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l.98-.97a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
             </svg>
             <span className="text-[11px] font-medium" style={{ color: '#1565c0' }}>Sună</span>
           </a>
-
-          <a href={`${WA_BASE}?text=${waText}`}
-            target="_blank" rel="noopener noreferrer"
+          <a href={waLink} target="_blank" rel="noopener noreferrer"
             className="flex flex-col items-center justify-center py-3 gap-1 active:bg-gray-50"
             style={{ borderLeft: '1px solid #e5e7eb', borderRight: '1px solid #e5e7eb' }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="#25a244">
@@ -36,8 +47,7 @@ export default function MobileBar() {
             </svg>
             <span className="text-[11px] font-medium" style={{ color: '#25a244' }}>WhatsApp</span>
           </a>
-
-          <a href="mailto:lead.neo@neofort-biz.ro"
+          <a href={`mailto:${EMAIL}`}
             className="flex flex-col items-center justify-center py-3 gap-1 active:bg-gray-50">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c8922a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
@@ -47,8 +57,6 @@ export default function MobileBar() {
           </a>
         </div>
       </div>
-
-      {/* Spacer pentru bara fixa — doar pe mobil */}
       <div className="h-16 md:hidden" />
     </>
   )

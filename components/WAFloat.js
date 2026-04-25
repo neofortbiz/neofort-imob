@@ -1,7 +1,7 @@
 'use client'
 import { usePathname } from 'next/navigation'
 
-const WA_BASE = 'https://wa.me/40743250029'
+const WA_BASE = 'https://wa.me/40758090904'
 
 function getMesaj(pathname) {
   // Extragem slug-ul din URL pentru mesaj personalizat

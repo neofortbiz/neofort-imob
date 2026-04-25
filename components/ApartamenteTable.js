@@ -1,8 +1,8 @@
 'use client'
 import { useState } from 'react'
 
-const TEL_DISPLAY = '0743 250 029'
-const TEL = '0743250029'
+const TEL_DISPLAY = '0758 090 904'
+const TEL = '0758090904'
 const WA_LINK = `https://wa.me/40${TEL.substring(1)}`
 
 export default function ApartamenteTable({ apartamente, parcare, ansambluNume }) {

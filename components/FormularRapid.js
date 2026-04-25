@@ -1,11 +1,11 @@
 'use client'
 import { useState } from 'react'
 
-const TEL = '0743250029'
-const TEL_DISPLAY = '0743 250 029'
+const TEL = '0758090904'
+const TEL_DISPLAY = '0758 090 904'
 const WA_LINK = `https://wa.me/40${TEL.substring(1)}`
 
-export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B.', brokerTel = '0743 250 029' }) {
+export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B.', brokerTel = '0758 090 904' }) {
   const [form, setForm] = useState({ nume: '', telefon: '', email: '', mesaj: '' })
   const [status, setStatus] = useState('idle') // idle | loading | success | error
 
