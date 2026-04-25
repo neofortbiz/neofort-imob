@@ -24,14 +24,14 @@ export default function Header({ activePath = '/' }) {
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
 
       {/* ===== DESKTOP — un singur rand: logo | nav | contact ===== */}
-      <div className="hidden md:flex items-center max-w-7xl mx-auto px-6 h-16 gap-6">
+      <div className="hidden md:flex items-center max-w-7xl mx-auto px-6 h-[74px] gap-6">
 
         {/* LOGO */}
         <Link href="/" className="flex-shrink-0">
           <img
             src="/logo.avif"
             alt="Neofort IMO — Imobiliare București"
-            className="h-12 w-auto"
+            className="h-[55px] w-auto"
           />
         </Link>
 
