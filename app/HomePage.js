@@ -102,7 +102,7 @@ export default function HomePageClient() {
 
   const filtered = sortedAnsambluri.filter(a => {
     if (tipFilter === 'apartament' && !a.tipuri.some(t => t.includes('camere'))) return false
-    if (tipFilter === 'garsoniera' && !a.tipuri.some(t => t.includes('arsonier'))) return false
+    if (tipFilter === 'garsoniera' && !a.tipuri.some(t => t.toLowerCase().includes('garsonier') || t.toLowerCase().includes('studio'))) return false
     if (camereFilter && !a.tipuri.some(t => t.includes(camereFilter + ' camere'))) return false
     if (pretMoved && a.pretDeLa < pretMin) return false
     if (pretMoved && a.pretDeLa > pretMax) return false
@@ -192,7 +192,7 @@ export default function HomePageClient() {
                 <div className="flex justify-between items-center">
                   <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Interval de preț</label>
                   <span className="text-[9px] font-medium" style={{ color: '#2d7a3a' }}>
-                    {fmtPret(pretMin)} — {fmtPret(pretMax)}
+                    {pretMoved ? `Până la ${fmtPret(pretMax)}` : 'Toate prețurile'}
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -203,7 +203,6 @@ export default function HomePageClient() {
                     value={pretMax}
                     onChange={e => { setPretMax(Number(e.target.value)); setPretMoved(true); setShown(STEP) }}
                     className="flex-1 h-1 accent-[#2d7a3a] cursor-pointer"
-                    style={{ direction: 'rtl' }}
                   />
                   <span className="text-[9px] text-gray-400 flex-shrink-0">1.500.000€+</span>
                 </div>
@@ -223,7 +222,7 @@ export default function HomePageClient() {
               <div className="flex justify-between items-center mb-1">
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Interval de preț</label>
                 <span className="text-[9px] font-medium" style={{ color: '#2d7a3a' }}>
-                  {fmtPret(pretMin)} — {fmtPret(pretMax)}
+                  {pretMoved ? `Până la ${fmtPret(pretMax)}` : 'Toate prețurile'}
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -234,7 +233,6 @@ export default function HomePageClient() {
                   value={pretMax}
                   onChange={e => { setPretMax(Number(e.target.value)); setPretMoved(true); setShown(STEP) }}
                   className="flex-1 h-1 accent-[#2d7a3a] cursor-pointer"
-                  style={{ direction: 'rtl' }}
                 />
                 <span className="text-[9px] text-gray-400 flex-shrink-0">1.500.000€+</span>
               </div>
