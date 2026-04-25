@@ -172,7 +172,7 @@ export default function AnsambluPage({ params }) {
       <Header activePath="/ansambluri-rezidentiale" />
       <main>
         {/* BREADCRUMB */}
-        <div className="border-b border-gray-100 px-6 py-2.5">
+        <div className="hidden md:block border-b border-gray-100 px-6 py-2.5">
           <div className="max-w-7xl mx-auto flex items-center gap-2 text-xs text-gray-500">
             <Link href="/" className="hover:text-[#2d7a3a]">Acasă</Link>
             <span>›</span>
@@ -227,19 +227,43 @@ export default function AnsambluPage({ params }) {
             {/* COLOANA MAIN */}
             <div className="space-y-0">
 
-              {/* GALERIE in coloana main — latime egala cu coloana, sidebar in dreapta */}
+              {/* GALERIE — slider pe mobil, grid pe desktop */}
               <div className="mb-6">
-                <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
-                  <span className="text-sm text-gray-400">Fotografie principală</span>
-                </div>
-                <div className="grid gap-1 mt-1.5" style={{ gridTemplateColumns: 'repeat(7, 1fr)' }}>
-                  {[2,3,4,5,6,7].map(n => (
-                    <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
-                      <span className="text-[9px] text-gray-400">{n}</span>
+                {/* DESKTOP: poza principala + miniaturi */}
+                <div className="hidden md:block">
+                  <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
+                    <span className="text-sm text-gray-400">Fotografie principală</span>
+                  </div>
+                  <div className="grid gap-1 mt-1.5" style={{ gridTemplateColumns: 'repeat(7, 1fr)' }}>
+                    {[2,3,4,5,6,7].map(n => (
+                      <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
+                        <span className="text-[9px] text-gray-400">{n}</span>
+                      </div>
+                    ))}
+                    <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9' }}>
+                      <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 10}</span>
                     </div>
-                  ))}
-                  <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9' }}>
-                    <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 10}</span>
+                  </div>
+                </div>
+                {/* MOBIL: swipe slider full-width */}
+                <div className="md:hidden relative">
+                  <div
+                    className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide rounded-lg"
+                    style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+                    {[1,2,3,4,5,6,7,8].map(n => (
+                      <div key={n}
+                        className="flex-none w-full snap-start bg-gray-100 flex items-center justify-center"
+                        style={{ aspectRatio: '16/9' }}>
+                        <span className="text-sm text-gray-400">{n === 1 ? 'Fotografie principală' : `Foto ${n}`}</span>
+                      </div>
+                    ))}
+                  </div>
+                  {/* Dots indicator */}
+                  <div className="flex justify-center gap-1 mt-2">
+                    {[0,1,2,3,4,5,6,7].map(i => (
+                      <div key={i} className="rounded-full transition-all"
+                        style={{ width: i === 0 ? 16 : 6, height: 6, background: i === 0 ? '#2d7a3a' : '#d1d5db' }} />
+                    ))}
                   </div>
                 </div>
               </div>
@@ -266,7 +290,7 @@ export default function AnsambluPage({ params }) {
               {/* DOTARI */}
               <div className="py-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Dotări și finisaje</h2>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {a.dotari.map(d => (
                     <div key={d} className="flex items-center gap-2 text-sm text-gray-600">
                       <div className="w-4 h-4 rounded flex items-center justify-center flex-shrink-0" style={{ background: '#e8f5e9' }}>
