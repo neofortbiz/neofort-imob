@@ -75,11 +75,11 @@ export default function AnsambluPage({ params }) {
             {/* QUICK STATS */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
               {[
+                { val: [...new Set(a.tipuri.map(t => t.match(/\d+/)?.[0]).filter(Boolean))].sort((x,y) => x-y).join(', ') + ' cam.', lbl: 'Tipuri' },
                 { val: `de la ${formatPret(a.pretDeLa)}`, lbl: 'Preț de la' },
                 { val: a.apartamente.length > 0 ? `${a.apartamente[0].suprafata}–${a.apartamente[a.apartamente.length-1].suprafata}mp` : 'N/A', lbl: 'Suprafețe' },
                 { val: a.etaje, lbl: 'Regim înălțime' },
                 { val: a.puncteInteres[0]?.distanta || 'N/A', lbl: a.puncteInteres[0]?.tip === 'metrou' ? 'Până la metrou' : 'Distanță' },
-                { val: [...new Set(a.tipuri.map(t => t.match(/\d+/)?.[0]).filter(Boolean))].sort((x,y) => x-y).join(', ') + ' cam.', lbl: 'Tipuri' },
                 { val: STATUS_CONFIG[a.status].label, lbl: 'Status', color: STATUS_CONFIG[a.status].dot },
               ].map((s, i) => (
                 <div key={i} className="rounded-lg p-2.5 text-center" style={{ background: 'rgba(255,255,255,0.07)', border: '0.5px solid rgba(255,255,255,0.1)' }}>
@@ -116,7 +116,7 @@ export default function AnsambluPage({ params }) {
               </div>
 
               {/* TAB GALERIE — sub galerie */}
-              <div className="flex gap-2 mb-8 overflow-x-auto nav-scroll">
+              <div className="flex gap-2 overflow-x-auto nav-scroll" style={{ marginBottom: 24 }}>
                 {['Exterior', 'Interior', 'Randări', 'Plan etaj'].map((t, i) => (
                   <span key={t} className={`text-xs px-3 py-1.5 rounded-full border cursor-pointer whitespace-nowrap flex-shrink-0 ${i === 0 ? 'bg-[#2d7a3a] border-[#2d7a3a] text-white' : 'border-gray-200 text-gray-500'}`}>{t}</span>
                 ))}
@@ -124,7 +124,7 @@ export default function AnsambluPage({ params }) {
 
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
-                <h2 className="text-base font-medium text-gray-900 mb-3">Despre ansamblu</h2>
+                <h2 className="text-base font-medium text-gray-900 mb-4">Despre ansamblu</h2>
                 <p className="text-sm text-gray-600 leading-relaxed">{a.descriere}</p>
               </div>
 
