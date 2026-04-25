@@ -32,7 +32,7 @@ export default function Header({ activePath = '/' }) {
             <img
               src="/logo.avif"
               alt="Neofort IMO — Imobiliare București"
-              className="h-10 md:h-12 w-auto"
+              className="h-14 md:h-16 w-auto"
             />
           </Link>
 

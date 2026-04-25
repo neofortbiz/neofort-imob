@@ -14,7 +14,7 @@ export default function Footer() {
           {/* COL 1 — BRAND */}
           <div className="col-span-2 md:col-span-1">
             <div className="mb-4">
-              <img src="/logo.avif" alt="Neofort IMO" className="h-10 w-auto" style={{ filter: 'brightness(0) invert(1)' }} />
+              <div style={{ background: 'white', borderRadius: 8, padding: '6px 10px', display: 'inline-block' }}><img src="/logo.avif" alt="Neofort IMO" className="h-12 w-auto" /></div>
             </div>
             <p className="text-xs leading-relaxed mb-4" style={{ color: '#666' }}>
               Dezvoltator și agenție imobiliară din București. Din 2009 livrăm ansambluri rezidențiale de calitate în toate sectoarele capitalei.

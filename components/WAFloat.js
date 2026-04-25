@@ -21,6 +21,7 @@ export default function WAFloat() {
   const pathname = usePathname()
   const mesaj = getMesaj(pathname)
   const href = `${WA_BASE}?text=${mesaj}`
+  const isAnsamblu = pathname?.includes('/ansamblu-rezidential/')
 
   return (
     <a
@@ -28,9 +29,9 @@ export default function WAFloat() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactează-ne pe WhatsApp"
-      className="fixed z-50 flex items-center justify-center shadow-lg transition-transform hover:scale-110 active:scale-95"
+      className={`fixed z-50 flex items-center justify-center shadow-lg transition-transform hover:scale-110 active:scale-95 ${isAnsamblu ? 'hidden md:flex' : 'flex'}`}
       style={{
-        bottom: 24,
+        bottom: isAnsamblu ? 24 : 90,
         right: 24,
         width: 56,
         height: 56,
