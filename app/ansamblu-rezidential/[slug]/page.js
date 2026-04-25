@@ -89,23 +89,6 @@ export default function AnsambluPage({ params }) {
           </div>
         </div>
 
-        {/* GALERIE: poza principala 16/9 + 7 miniaturi grid full-width */}
-        <div className="max-w-7xl mx-auto px-6 pt-4">
-          <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
-            <span className="text-sm text-gray-400">Fotografie principală</span>
-          </div>
-          <div className="grid gap-1 mt-1.5" style={{ gridTemplateColumns: 'repeat(7, 1fr)' }}>
-            {[2,3,4,5,6,7].map(n => (
-              <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
-                <span className="text-[9px] text-gray-400">{n}</span>
-              </div>
-            ))}
-            <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9' }}>
-              <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 10}</span>
-            </div>
-          </div>
-        </div>
-
         {/* TAB GALERIE */}
         <div className="flex gap-2 px-6 py-2.5 border-b border-gray-100 overflow-x-auto nav-scroll">
           {['Exterior', 'Interior', 'Randări', 'Plan etaj'].map((t, i) => (
@@ -119,6 +102,23 @@ export default function AnsambluPage({ params }) {
 
             {/* COLOANA MAIN */}
             <div className="space-y-0">
+
+              {/* GALERIE in coloana main — latime egala cu coloana, sidebar in dreapta */}
+              <div className="mb-6">
+                <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
+                  <span className="text-sm text-gray-400">Fotografie principală</span>
+                </div>
+                <div className="grid gap-1 mt-1.5" style={{ gridTemplateColumns: 'repeat(7, 1fr)' }}>
+                  {[2,3,4,5,6,7].map(n => (
+                    <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
+                      <span className="text-[9px] text-gray-400">{n}</span>
+                    </div>
+                  ))}
+                  <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9' }}>
+                    <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 10}</span>
+                  </div>
+                </div>
+              </div>
 
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
