@@ -89,34 +89,19 @@ export default function AnsambluPage({ params }) {
           </div>
         </div>
 
-        {/* GALERIE */}
-        <div>
-          <div className="hidden md:grid gap-1" style={{ gridTemplateColumns: '2fr 1fr', height: 380 }}>
-            <div className="bg-gray-100 flex items-center justify-center overflow-hidden">
-              <span className="text-sm text-gray-400">Fotografie principală</span>
-            </div>
-            <div className="grid gap-1" style={{ gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr' }}>
-              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 2</span></div>
-              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 3</span></div>
-              <div className="bg-gray-100 flex items-center justify-center"><span className="text-[9px] text-gray-400">Foto 4</span></div>
-              <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors">
-                <span className="text-[10px] font-medium text-gray-600">+{a.galerie.length || 12} foto</span>
-              </div>
-            </div>
+        {/* GALERIE: poza principala 16/9 + 7 miniaturi grid full-width */}
+        <div className="max-w-7xl mx-auto px-6 pt-4">
+          <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
+            <span className="text-sm text-gray-400">Fotografie principală</span>
           </div>
-          <div className="md:hidden">
-            <div className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
-              <span className="text-sm text-gray-400">Fotografie principală</span>
-            </div>
-            <div className="grid gap-1 mt-1" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
-              {[2,3,4].map(n => (
-                <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
-                  <span className="text-[8px] text-gray-400">{n}</span>
-                </div>
-              ))}
-              <div className="bg-gray-200 flex items-center justify-center cursor-pointer" style={{ aspectRatio: '16/9' }}>
-                <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 12}</span>
+          <div className="grid gap-1 mt-1.5" style={{ gridTemplateColumns: 'repeat(7, 1fr)' }}>
+            {[2,3,4,5,6,7].map(n => (
+              <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
+                <span className="text-[9px] text-gray-400">{n}</span>
               </div>
+            ))}
+            <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9' }}>
+              <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 10}</span>
             </div>
           </div>
         </div>
