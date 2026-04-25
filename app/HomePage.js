@@ -100,12 +100,82 @@ export default function HomePageClient() {
     return 0
   })
 
+  // ── FILTRE DINAMICE DIN DATE ────────────────────────────────────────────
+
+  // Helper: extrage numarul de camere dintr-un tip
+  function nrCamere(tip) {
+    const m = tip.match(/^(\d+)\s+camere/i)
+    return m ? Number(m[1]) : null
+  }
+
+  // Categorii disponibile — generate strict din datele existente
+  const categoriiDinDate = (() => {
+    const set = new Set()
+    ANSAMBLURI_ACTIVE.forEach(a => a.tipuri.forEach(t => {
+      const tl = t.toLowerCase()
+      if (tl.includes('garsonier') || tl.includes('studio')) set.add('garsonier')
+      if (tl.includes('camere') && !tl.includes('penthouse') && !tl.includes('duplex')) set.add('apartament')
+      if (tl.includes('penthouse')) set.add('penthouse')
+      if (tl.includes('duplex')) set.add('duplex')
+      if (tl.includes('cas') || tl.includes('vil')) set.add('casa')
+      if (tl.includes('comercial') || tl.includes('spatiu') || tl.includes('birou')) set.add('comercial')
+    }))
+    // Ordine fixa afisare
+    const ordine = ['garsonier','apartament','penthouse','duplex','casa','comercial']
+    return ordine.filter(c => set.has(c))
+  })()
+
+  const LABEL_CATEGORIE = {
+    garsonier: 'Garsoniere / Studiouri',
+    apartament: 'Apartamente',
+    penthouse: 'Penthouse',
+    duplex: 'Duplex',
+    casa: 'Case / Vile',
+    comercial: 'Spații comerciale / Birouri',
+  }
+
+  // Numere de camere disponibile — 1=garso/studio, 2, 3, 4+ grupate
+  const camereDinDate = (() => {
+    const maxCamere = new Set()
+    ANSAMBLURI_ACTIVE.forEach(a => a.tipuri.forEach(t => {
+      const tl = t.toLowerCase()
+      if (tl.includes('garsonier') || tl.includes('studio')) maxCamere.add(1)
+      const n = nrCamere(t)
+      if (n) maxCamere.add(n >= 4 ? 99 : n) // 99 = "4+"
+    }))
+    return [...maxCamere].sort((a, b) => a - b)
+  })()
+
+  // ── LOGICA FILTRARE ───────────────────────────────────────────────────────
   const filtered = sortedAnsambluri.filter(a => {
-    if (tipFilter === 'apartament' && !a.tipuri.some(t => t.includes('camere'))) return false
-    if (tipFilter === 'garsoniera' && !a.tipuri.some(t => t.toLowerCase().includes('garsonier') || t.toLowerCase().includes('studio'))) return false
-    if (camereFilter && !a.tipuri.some(t => t.includes(camereFilter + ' camere'))) return false
-    if (pretMoved && a.pretDeLa < pretMin) return false
+
+    // FILTRU TIP PROPRIETATE
+    if (tipFilter) {
+      const are = (fn) => a.tipuri.some(t => fn(t.toLowerCase()))
+      if (tipFilter === 'garsonier' && !are(t => t.includes('garsonier') || t.includes('studio'))) return false
+      if (tipFilter === 'apartament' && !are(t => t.includes('camere') && !t.includes('penthouse') && !t.includes('duplex'))) return false
+      if (tipFilter === 'penthouse' && !are(t => t.includes('penthouse'))) return false
+      if (tipFilter === 'duplex' && !are(t => t.includes('duplex'))) return false
+      if (tipFilter === 'casa' && !are(t => t.includes('cas') || t.includes('vil'))) return false
+      if (tipFilter === 'comercial' && !are(t => t.includes('comercial') || t.includes('birou') || t.includes('spatiu'))) return false
+    }
+
+    // FILTRU CAMERE
+    if (camereFilter) {
+      const nrF = Number(camereFilter)
+      const match = a.tipuri.some(t => {
+        const tl = t.toLowerCase()
+        if (nrF === 1) return tl.includes('garsonier') || tl.includes('studio')
+        const n = nrCamere(t)
+        if (nrF === 99) return n !== null && n >= 4  // "4+" prinde 4, 5, 6... si Penthouse
+        return n === nrF
+      })
+      if (!match) return false
+    }
+
+    // FILTRU PRET
     if (pretMoved && a.pretDeLa > pretMax) return false
+
     return true
   })
 
@@ -163,10 +233,10 @@ export default function HomePageClient() {
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Tip proprietate</label>
                 <select value={tipFilter} onChange={e => { setTipFilter(e.target.value); setShown(STEP) }}
                   className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
-                  <option value="">Toate</option>
-                  <option value="apartament">Apartament</option>
-                  <option value="garsoniera">Garsonieră</option>
-                  <option value="studio">Studio</option>
+                  <option value="">Toate tipurile</option>
+                  {categoriiDinDate.map(c => (
+                    <option key={c} value={c}>{LABEL_CATEGORIE[c]}</option>
+                  ))}
                 </select>
               </div>
 
@@ -177,11 +247,12 @@ export default function HomePageClient() {
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Număr camere</label>
                 <select value={camereFilter} onChange={e => { setCamereFilter(e.target.value); setShown(STEP) }}
                   className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
-                  <option value="">Toate</option>
-                  <option value="1">1 cameră</option>
-                  <option value="2">2 camere</option>
-                  <option value="3">3 camere</option>
-                  <option value="4">4 camere</option>
+                  <option value="">Toate camerele</option>
+                  {camereDinDate.map(c => (
+                    <option key={c} value={String(c)}>
+                      {c === 1 ? 'Garsonieră / Studio' : c === 99 ? '4+ camere' : `${c} camere`}
+                    </option>
+                  ))}
                 </select>
               </div>
 
