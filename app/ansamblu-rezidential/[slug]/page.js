@@ -1,4 +1,3 @@
-// v24-force-rebuild
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Header from '@/components/Header'

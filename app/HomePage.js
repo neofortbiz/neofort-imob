@@ -55,7 +55,7 @@ const ZONE = [
 
 const STEP = 10
 
-export function HomePageClient({ sortedSlugs = [] }) {
+export default function HomePageClient() {
   const [tipFilter, setTipFilter] = useState('')
   const [camereFilter, setCamereFilter] = useState('')
   const [pretMin, setPretMin] = useState(5000)
@@ -71,15 +71,10 @@ export function HomePageClient({ sortedSlugs = [] }) {
     } catch {}
   }, [])
 
-  // sortedSlugs vine din server (Redis) cu ordinea corecta
-  // Cream un map pentru lookup rapid
-  const slugOrder = {}
-  sortedSlugs.forEach((slug, i) => { slugOrder[slug] = i })
-
   const sortedAnsambluri = [...ANSAMBLURI_ACTIVE].sort((a, b) => {
-    const idxA = slugOrder[a.slug] ?? 999
-    const idxB = slugOrder[b.slug] ?? 999
-    return idxA - idxB
+    if (a.slug === recentSlug) return -1
+    if (b.slug === recentSlug) return 1
+    return 0
   })
 
   const filtered = sortedAnsambluri.filter(a => {
