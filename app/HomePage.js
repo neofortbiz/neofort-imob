@@ -231,7 +231,13 @@ export default function HomePageClient() {
               {/* Tip proprietate */}
               <div className="flex flex-col gap-0.5 flex-shrink-0">
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Tip proprietate</label>
-                <select value={tipFilter} onChange={e => { setTipFilter(e.target.value); setShown(STEP) }}
+                <select value={tipFilter} onChange={e => {
+                    const val = e.target.value
+                    setTipFilter(val)
+                    if (val === 'garsonier') setCamereFilter('1')
+                    else if (camereFilter === '1') setCamereFilter('')
+                    setShown(STEP)
+                  }}
                   className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
                   <option value="">Toate tipurile</option>
                   {categoriiDinDate.map(c => (
@@ -250,7 +256,7 @@ export default function HomePageClient() {
                   <option value="">Toate camerele</option>
                   {camereDinDate.map(c => (
                     <option key={c} value={String(c)}>
-                      {c === 1 ? 'Garsonieră / Studio' : c === 99 ? '4+ camere' : `${c} camere`}
+                      {c === 1 ? '1 cameră' : c === 99 ? '4+ camere' : `${c} camere`}
                     </option>
                   ))}
                 </select>
