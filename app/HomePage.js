@@ -234,8 +234,18 @@ export default function HomePageClient() {
                 <select value={tipFilter} onChange={e => {
                     const val = e.target.value
                     setTipFilter(val)
-                    if (val === 'garsonier') setCamereFilter('1')
-                    else if (camereFilter === '1') setCamereFilter('')
+                    // Sincronizare Tip -> Camere
+                    if (val === 'garsonier') {
+                      setCamereFilter('1') // Garsoniere = mereu 1 camera
+                    } else if (val === 'penthouse') {
+                      setCamereFilter('99') // Penthouse = mereu 4+
+                    } else if (val === '') {
+                      setCamereFilter('') // Reset tip -> reset camere
+                    } else {
+                      // Apartamente/Casa/Comercial: daca era 1 camera (garso), resetam
+                      if (camereFilter === '1') setCamereFilter('')
+                      // altfel pastram selectia de camere
+                    }
                     setShown(STEP)
                   }}
                   className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
@@ -251,7 +261,24 @@ export default function HomePageClient() {
               {/* Numar camere */}
               <div className="flex flex-col gap-0.5 flex-shrink-0">
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Număr camere</label>
-                <select value={camereFilter} onChange={e => { setCamereFilter(e.target.value); setShown(STEP) }}
+                <select value={camereFilter} onChange={e => {
+                    const val = e.target.value
+                    setCamereFilter(val)
+                    // Sincronizare Camere -> Tip (sens invers)
+                    if (val === '1') {
+                      setTipFilter('garsonier') // 1 camera = mereu Garsoniere/Studio
+                    } else if (val === '99') {
+                      // 4+ camere: daca tipul era garsonier, resetam; daca era penthouse pastram
+                      if (tipFilter === 'garsonier') setTipFilter('')
+                    } else if (val !== '') {
+                      // 2, 3 camere: daca tip era garsonier sau penthouse, nu are sens -> resetam
+                      if (tipFilter === 'garsonier' || tipFilter === 'penthouse') setTipFilter('')
+                    } else {
+                      // Reset camere -> reset tip
+                      setTipFilter('')
+                    }
+                    setShown(STEP)
+                  }}
                   className="border-none bg-transparent text-xs text-gray-900 outline-none cursor-pointer font-medium">
                   <option value="">Toate camerele</option>
                   {camereDinDate.map(c => (
