@@ -1,10 +1,9 @@
-'use client'
 import { notFound } from 'next/navigation'
-import { useState } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import FormularRapid from '@/components/FormularRapid'
+import DescriereExpand from '@/components/DescriereExpand'
 import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
@@ -45,7 +44,6 @@ const POI_COLORS = {
 export default function AnsambluPage({ params }) {
   const a = getAnsamblu(params.slug)
   if (!a) notFound()
-  const [descriereExpandata, setDescriereExpandata] = useState(false)
 
   const sc = STATUS_CONFIG[a.status]
   const similare = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug && (x.zona === a.zona || x.sector === a.sector)).slice(0, 3)
@@ -281,31 +279,7 @@ export default function AnsambluPage({ params }) {
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Despre ansamblu</h2>
-                <div className="relative">
-                  <p className="text-sm text-gray-600 leading-relaxed"
-                    style={{
-                      display: '-webkit-box',
-                      WebkitLineClamp: descriereExpandata ? 'unset' : 8,
-                      WebkitBoxOrient: 'vertical',
-                      overflow: descriereExpandata ? 'visible' : 'hidden',
-                    }}>
-                    {a.descriere}
-                  </p>
-                  {!descriereExpandata && (
-                    <div className="absolute bottom-0 left-0 right-0 h-8"
-                      style={{ background: 'linear-gradient(transparent, white)' }} />
-                  )}
-                </div>
-                <button
-                  onClick={() => setDescriereExpandata(!descriereExpandata)}
-                  className="mt-2 text-xs font-medium flex items-center gap-1 transition-colors"
-                  style={{ color: '#2d7a3a' }}>
-                  {descriereExpandata ? (
-                    <>Vezi mai puțin <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="18 15 12 9 6 15"/></svg></>
-                  ) : (
-                    <>Citește mai mult <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="6 9 12 15 18 9"/></svg></>
-                  )}
-                </button>
+                <DescriereExpand text={a.descriere} />
               </div>
 
               {/* APARTAMENTE */}
