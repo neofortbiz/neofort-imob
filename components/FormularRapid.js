@@ -145,7 +145,7 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
         </div>
         <div>
           <div className="text-xs font-medium text-gray-900">{broker}</div>
-          <div className="text-[10px] text-gray-500">Reprezentant vânzări · {brokerTel}</div>
+          <div className="text-[10px] text-gray-500">Reprezentant vânzări</div>
         </div>
       </div>
     </div>
