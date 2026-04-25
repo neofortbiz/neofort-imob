@@ -29,9 +29,9 @@ export default function WAFloat() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactează-ne pe WhatsApp"
-      className={`fixed z-50 flex items-center justify-center shadow-lg transition-transform hover:scale-110 active:scale-95 ${isAnsamblu ? 'hidden md:flex' : 'flex'}`}
+      className="hidden md:flex fixed z-50 items-center justify-center shadow-lg transition-transform hover:scale-110 active:scale-95"
       style={{
-        bottom: isAnsamblu ? 24 : 90,
+        bottom: 24,
         right: 24,
         width: 56,
         height: 56,

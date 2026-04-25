@@ -1,5 +1,6 @@
 import './globals.css'
 import WAFloat from '@/components/WAFloat'
+import MobileBar from '@/components/MobileBar'
 
 const BASE = 'https://neofort-imob.vercel.app'
 
@@ -84,6 +85,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <WAFloat />
+        <MobileBar />
       </body>
     </html>
   )

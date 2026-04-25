@@ -95,16 +95,15 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
         </form>
       )}
 
-      {/* SEPARATOR */}
-      <div className="relative text-center my-3">
+      {/* SEPARATOR + BUTOANE — ascunse pe mobil, vizibile pe desktop */}
+      <div className="hidden md:block relative text-center my-3">
         <div className="absolute inset-0 flex items-center">
           <div className="w-full border-t border-gray-200"></div>
         </div>
         <span className="relative bg-gray-50 px-2 text-[10px] text-gray-400">sau contactează direct</span>
       </div>
 
-      {/* BUTOANE CONTACT — iconiță în container fix 20x20 pentru aliniere verticală */}
-      <div className="flex flex-col gap-1.5">
+      <div className="hidden md:flex flex-col gap-1.5">
         <a href={`tel:${TEL}`}
           className="w-full py-2.5 rounded-lg border text-sm font-medium transition-colors hover:bg-blue-50 flex items-center justify-center gap-2 px-4"
           style={{ borderColor: '#1565c0', color: '#1565c0' }}>
