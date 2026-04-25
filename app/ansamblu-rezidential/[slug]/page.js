@@ -208,7 +208,13 @@ export default function AnsambluPage({ params }) {
                 { val: [...new Set(a.tipuri.map(t => t.match(/\d+/)?.[0]).filter(Boolean))].sort((x,y) => x-y).join(', ') + ' cam.', lbl: 'Tipuri' },
                 { val: `de la ${formatPret(a.pretDeLa)}`, lbl: 'Preț de la' },
                 { val: a.apartamente.length > 0 ? `${a.apartamente[0].suprafata}–${a.apartamente[a.apartamente.length-1].suprafata}mp` : 'N/A', lbl: 'Suprafețe' },
-                { val: a.etaje, lbl: 'Regim înălțime' },
+                { val: (() => {
+                  const parts = (a.etaje || '').split('+')
+                  if (parts.length <= 4) return a.etaje
+                  // Pastram primul, unul din mijloc, ultimul
+                  const mid = parts[Math.floor(parts.length / 2)]
+                  return `${parts[0]}+...+${mid}+${parts[parts.length - 1]}`
+                })(), lbl: 'Regim înălțime' },
                 { val: a.puncteInteres[0]?.distanta || 'N/A', lbl: a.puncteInteres[0]?.tip === 'metrou' ? 'Până la metrou' : 'Distanță' },
                 { val: STATUS_CONFIG[a.status].label, lbl: 'Status', color: STATUS_CONFIG[a.status].dot },
               ].map((s, i) => (

@@ -26,7 +26,7 @@ function getContactInfo(pathname) {
     if (ansamblu?.brokerTel) {
       const tel = ansamblu.brokerTel.replace(/\s/g, '')
       const telDisplay = ansamblu.brokerTel
-      const waNum = tel.startsWith('0') ? '4' + tel.substring(1) : tel
+      const waNum = tel.startsWith('0') ? '40' + tel.substring(1) : tel
       const waMesaj = encodeURIComponent(`Bună ziua! Sunt interesat de ${ansamblu.nume} (Neofort ${ansamblu.numar}). Vă rog să mă contactați cu detalii și disponibilitate.`)
       return {
         tel,
