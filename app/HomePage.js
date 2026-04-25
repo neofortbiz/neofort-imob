@@ -6,6 +6,21 @@ import Footer from '@/components/Footer'
 import FormularCalificat from '@/components/FormularCalificat'
 import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
+// Zone generate automat din ansambluri
+function getZoneDinamice() {
+  const zoneMap = {}
+  ANSAMBLURI_ACTIVE.forEach(a => {
+    const zoneList = a.zone || [a.zona.toLowerCase().replace(/[^a-z0-9]+/g, '-')]
+    zoneList.forEach(z => {
+      if (!zoneMap[z]) {
+        zoneMap[z] = { slug: z, nume: a.zona, sector: a.sector, count: 0 }
+      }
+      zoneMap[z].count++
+    })
+  })
+  return Object.values(zoneMap).sort((a, b) => b.count - a.count)
+}
+
 
 function DualRangeSlider({ min, max, step, valueMin, valueMax, fillLeft, fillRight, onChangeMin, onChangeMax }) {
   return (
@@ -42,16 +57,7 @@ function DualRangeSlider({ min, max, step, valueMin, valueMax, fillLeft, fillRig
   )
 }
 
-const ZONE = [
-  { slug: 'titan-pallady', nume: 'Ansambluri rezidențiale Titan-Pallady', sector: 'Sector 3', count: 4, pct: 100 },
-  { slug: 'militari', nume: 'Ansambluri rezidențiale Militari', sector: 'Sector 6', count: 3, pct: 75 },
-  { slug: 'piata-muncii', nume: 'Ansambluri rezidențiale Piața Muncii', sector: 'Sector 2', count: 2, pct: 50 },
-  { slug: 'colentina-fundeni', nume: 'Ansambluri rezidențiale Colentina', sector: 'Sector 2', count: 2, pct: 50 },
-  { slug: 'unirii-dristor', nume: 'Ansambluri rezidențiale Unirii-Dristor', sector: 'Sector 3', count: 2, pct: 50 },
-  { slug: 'herastrau-aviatiei', nume: 'Ansambluri rezidențiale Herăstrău', sector: 'Sector 1', count: 1, pct: 25 },
-  { slug: 'sector-2-bucuresti', nume: 'Ansambluri rezidențiale Sector 2', sector: 'Sector 2', count: 3, pct: 75 },
-  { slug: 'sector-3-bucuresti', nume: 'Ansambluri rezidențiale Sector 3', sector: 'Sector 3', count: 4, pct: 100 },
-]
+const ZONE = getZoneDinamice()
 
 const STEP = 999
 
@@ -272,10 +278,10 @@ export default function HomePageClient() {
                 <Link key={z.slug} href={`/zona/${z.slug}`}
                   className="border border-gray-200 rounded-xl p-3.5 bg-gray-50 hover:border-[#2d7a3a] hover:bg-white transition-all">
                   <div className="text-xl font-medium mb-1" style={{ color: '#2d7a3a' }}>{z.count}</div>
-                  <div className="text-xs font-medium text-gray-900 leading-snug mb-0.5">{z.nume}</div>
+                  <div className="text-xs font-medium text-gray-900 leading-snug mb-0.5">Ansambluri rezidențiale {z.nume}</div>
                   <div className="text-[9px] text-gray-600">{z.sector} · București</div>
                   <div className="mt-2 h-1 bg-gray-200 rounded" style={{ overflow: 'hidden' }}>
-                    <div className="h-1 rounded" style={{ background: '#2d7a3a', width: `${z.pct}%`, minHeight: 4 }} />
+                    <div className="h-1 rounded" style={{ background: '#2d7a3a', width: `${Math.round(z.count / Math.max(...ZONE.map(x => x.count)) * 100)}%`, minHeight: 4 }} />
                   </div>
                 </Link>
               ))}

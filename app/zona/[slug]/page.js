@@ -2,68 +2,50 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
+import { ANSAMBLURI, ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
-const ZONE_CONFIG = {
-  'titan-pallady': {
-    nume: 'Titan-Pallady',
-    titlulSeo: 'Ansambluri Rezidențiale Titan-Pallady',
-    sector: 'Sector 3',
-    descriere: 'Zona Titan-Pallady din Sectorul 3 al Bucureștiului este una dintre cele mai dinamice zone rezidențiale, cu acces direct la metroul Nicolae Teclu, parcuri, școli și centre comerciale.',
-  },
-  'piata-muncii': {
-    nume: 'Piața Muncii',
-    titlulSeo: 'Ansambluri Rezidențiale Piața Muncii',
-    sector: 'Sector 2',
-    descriere: 'Zona Piața Muncii, Sector 2, oferă acces rapid la metrou, Parcul Lia Manoliu și centrul capitalei.',
-  },
-  'militari': {
-    nume: 'Militari',
-    titlulSeo: 'Ansambluri Rezidențiale Militari',
-    sector: 'Sector 6',
-    descriere: 'Zona Militari din Sectorul 6, cu acces la metrou Gorjului și Pacii, centre comerciale și școli.',
-  },
-  'herastrau-aviatiei': {
-    nume: 'Herăstrău-Aviației',
-    titlulSeo: 'Ansambluri Rezidențiale Herăstrău-Aviației',
-    sector: 'Sector 1',
-    descriere: 'Zona Herăstrău-Aviației, una dintre cele mai exclusiviste din București, cu Parcul Herăstrău și acces la toate facilitățile premium.',
-  },
-  'colentina-fundeni': {
-    nume: 'Colentina-Fundeni',
-    titlulSeo: 'Ansambluri Rezidențiale Colentina',
-    sector: 'Sector 2',
-    descriere: 'Zona Colentina-Fundeni din Sectorul 2, cu acces la Lacul Tei și infrastructură în continuă dezvoltare.',
-  },
-  'unirii-dristor': {
-    nume: 'Unirii-Dristor',
-    titlulSeo: 'Ansambluri Rezidențiale Unirii-Dristor',
-    sector: 'Sector 3',
-    descriere: 'Zona Unirii-Dristor, semicentrală, cu acces excelent la metrou și centrul Bucureștiului.',
-  },
+// Generare dinamica a configuratiei zonelor din date
+function getZoneConfig() {
+  const config = {}
+  ANSAMBLURI.forEach(a => {
+    const zoneList = a.zone || []
+    zoneList.forEach(z => {
+      if (!config[z]) {
+        config[z] = {
+          nume: a.zona,
+          sector: a.sector,
+          descriere: `Ansambluri rezidențiale în zona ${a.zona}, ${a.sector}, București.`,
+        }
+      }
+    })
+  })
+  return config
 }
 
 export function generateStaticParams() {
-  return Object.keys(ZONE_CONFIG).map(slug => ({ slug }))
+  const config = getZoneConfig()
+  return Object.keys(config).map(slug => ({ slug }))
 }
 
 export function generateMetadata({ params }) {
-  const z = ZONE_CONFIG[params.slug]
+  const config = getZoneConfig()
+  const z = config[params.slug]
   if (!z) return {}
   return {
-    title: `${z.titlulSeo} București | Neofort IMO`,
-    description: `${z.titlulSeo} în ${z.sector}, București. Apartamente noi direct de la dezvoltator Neofort IMO.`,
+    title: `Ansambluri Rezidențiale ${z.nume} | Neofort IMO`,
+    description: `Ansambluri rezidențiale în zona ${z.nume}, ${z.sector}, București. Apartamente noi direct de la dezvoltator Neofort IMO.`,
   }
 }
 
 export default function ZonaPage({ params }) {
-  const z = ZONE_CONFIG[params.slug]
+  const config = getZoneConfig()
+  const z = config[params.slug]
   if (!z) notFound()
 
+  // Filtrare exacta dupa campul zone[]
   const ansambluri = ANSAMBLURI_ACTIVE.filter(a =>
-    a.zona.toLowerCase().includes(z.nume.toLowerCase().split('-')[0]) ||
-    a.sector === z.sector
-  ).slice(0, 6)
+    a.zone && a.zone.includes(params.slug)
+  )
 
   return (
     <>
@@ -76,10 +58,10 @@ export default function ZonaPage({ params }) {
               <span>›</span>
               <Link href="/ansambluri-rezidentiale" className="hover:text-[#2d7a3a]">Ansambluri</Link>
               <span>›</span>
-              <span className="text-gray-900">{z.titlulSeo}</span>
+              <span className="text-gray-900">Ansambluri rezidențiale {z.nume}</span>
             </nav>
-            <h1 className="text-2xl font-medium text-gray-900">{z.titlulSeo}</h1>
-            <p className="text-sm text-gray-500 mt-1">{z.sector} · București</p>
+            <h1 className="text-2xl font-medium text-gray-900">Ansambluri Rezidențiale {z.nume}</h1>
+            <p className="text-sm text-gray-500 mt-1">{z.sector} · București · {ansambluri.length} ansambluri active</p>
           </div>
         </div>
 

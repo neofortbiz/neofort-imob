@@ -17,6 +17,7 @@ export const ANSAMBLURI = [
     broker: 'Raluca NISTOR',
     brokerTel: '0743 250 029',
     coordonate: { lat: 44.4268, lng: 26.1700 },
+    zone: ['titan-pallady'],
     tipuri: ['2 camere', '3 camere', '4 camere'],
     descriere: 'Ansamblul Rezidential Neofort 84 reprezinta cel mai nou proiect rezidential de anvergura al Neofort in zona Titan-Pallady, Sectorul 3 al Bucurestiului — una dintre cele mai dinamice zone rezidentiale ale capitalei, aflata intr-o continua dezvoltare si modernizare. Blocul cu regim P+10 etaje este in prezent in constructie, cu termen de predare in trimestrul I 2027, si este pozitionat strategic la cateva minute de mers pe jos de statia de metrou Nicolae Teclu si Anghel Saligny, oferind rezidentilor sai acces rapid si confortabil la orice colt al Bucurestiului. Din punct de vedere tehnic, constructia respecta cele mai inalte standarde: structura de cadre si diafragme din beton armat, completata cu zidarie din caramida Porotherm pentru izolatie termica si fonica superioara. Fiecare apartament este dotat cu incalzire in pardoseala pentru un confort termic uniform, tamplarie PVC Salamander cu geam tripan, centrala termica proprie si instalatii sanitare, electrice si termice complete. Apartamentele de la parter si etajul 10 beneficiaza de terase generoase cu privelistii spectaculoase. Zona Titan-Pallady este extrem de bine conectata: centrele comerciale IKEA Pallady, Auchan Titan, Jumbo, Metro, Leroy Merlin si Dedeman se afla la cateva minute, scolile si gradinitelele de renume — Waldorf, Spectrum School, Scoala nr. 149 si Victor Brauner — sunt in proximitate, iar Parcul Teilor ofera un spatiu verde ideal pentru relaxare. Servicii medicale de top — Regina Maria, MedLife, Clinica Pallady — completeaza tabloul unui cartier modern si complet. Ansamblul ofera apartamente cu 2, 3 si 4 camere, cu suprafete intre 47 si 175 mp, gandite pentru familii, tineri profesionisti si investitori. Preturile promotionale sunt valabile pentru primele 50 de unitati vandute.',
     apartamente: [
@@ -60,6 +61,7 @@ export const ANSAMBLURI = [
     broker: 'Ramona FLUERARU',
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4260, lng: 26.1720 },
+    zone: ['titan-pallady'],
     tipuri: ['Garsoniera', 'Studio', '2 camere', '3 camere', '4 camere'],
     descriere: 'Ansamblu rezidential Neofort 83 Faza 2, zona Titan, la 8 minute de metrou Nicolae Teclu. Format din 3 corpuri D+P+3E cu lift, garsoniere, studiouri, apartamente 2-4 camere. Spatii verzi amenajate, zone de promenada, locuri de joaca. Structura pe radier general, pereti beton armat, compartimentari BCA, incalzire prin pardoseala, tamplarie Salamander negru structurat. Toate apartamentele se predau la cheie.',
     apartamente: [
@@ -97,6 +99,7 @@ export const ANSAMBLURI = [
     broker: 'Svetlana CALUTU',
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.4410, lng: 26.1050 },
+    zone: ['mosilor-eminescu'],
     tipuri: ['2 camere', '3 camere', '4 camere'],
     descriere: 'Ansamblu rezidential Neofort 78 Faza 2, zona Mosilor-Eminescu, str. Ardeleni. 22 apartamente premium cu gradini la parter si terase generoase la etaje superioare. Finisaje de inalta calitate: parchet stejar stratificat, ceramica Italia, obiecte sanitare Rocca cu accesorii HansGrohe, tamplarie Salamander Blue Edition tripan. Metrou Piata Obor la 400m.',
     apartamente: [
@@ -132,6 +135,7 @@ export const ANSAMBLURI = [
     broker: 'Ramona FLUERARU',
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4320, lng: 26.0100 },
+    zone: ['militari'],
     tipuri: ['2 camere', '3 camere', '4 camere Penthouse'],
     descriere: 'Ansamblu rezidential Neofort 76 Faza 2 pe Bulevardul Iuliu Maniu, zona Militari. Regim S+P+7E+8/9Er cu vedere panoramica. Apartamente 2, 3 si 4 camere tip Penthouse. Parcare in sistem Klaus (10.000 euro TVA inclus) si boxe subsol (10.000 euro TVA inclus). Metrou Pacii la 500m, metrou Preciziei la 900m.',
     apartamente: [
@@ -165,6 +169,7 @@ export const ANSAMBLURI = [
     broker: 'Ramona FLUERARU',
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4250, lng: 26.1680 },
+    zone: ['titan-pallady'],
     tipuri: ['Studio', '2 camere', '3 camere', '4 camere'],
     descriere: 'Ansamblu rezidential Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E cu 84 unitati. Studio-uri moderne, apartamente 2, 3 si 4 camere, unele cu curte proprie. Smart Home Ready pentru controlul temperaturii, centrala proprie in condensare, tamplarie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler. Parcare cu statii incarcare electrica.',
     apartamente: [
@@ -198,6 +203,7 @@ export const ANSAMBLURI = [
     broker: 'Adrian PINTILIE',
     brokerTel: '0752 443 436',
     coordonate: { lat: 44.4180, lng: 26.1400 },
+    zone: ['titan-pallady'],
     tipuri: ['2 camere', '4 camere'],
     descriere: 'Ansamblu rezidential Neofort 50 Titan IOR, Bulevardul 1 Decembrie 1918, Sector 3. Cladire impresionanta de 11 etaje cu spatii comerciale la parter si parc de relaxare in incinta. Acces imediat la metrou Costin Georgian. Fundatie pe piloti cu adancime de 17m, 4 lifturi ORONA KRONLIFT, 2 subsoluri cu parcari si boxe, adaptPost ALA cu 3 iesiri de salvare.',
     apartamente: [
@@ -233,6 +239,7 @@ export const ANSAMBLURI = [
     broker: 'Ramona BAICU',
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4300, lng: 26.0150 },
+    zone: ['militari'],
     tipuri: ['Garsoniera', '2 camere'],
     descriere: 'Ansamblu rezidential boutique Neofort 49, Strada Vistiernicul Stavrinos, Sector 6, la cateva minute de metroul Gorjului si Pacii. Proiect compact cu 18 apartamente, structura beton armat C25/30, zidarie Porotherm 30cm, izolatie EPS100. Garsoniere si apartamente 2 camere predate la cheie cu finisaje moderne.',
     apartamente: [
@@ -265,6 +272,7 @@ export const ANSAMBLURI = [
     broker: 'Ramona BAICU',
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4255, lng: 26.1690 },
+    zone: ['titan-pallady'],
     tipuri: ['Garsoniera', '2 camere', '3 camere'],
     descriere: 'Ansamblu rezidential Neofort 44, cartierul Titan-Theodor Pallady, Sector 3. 3 corpuri de cladire Ds+3E+4Er, 84 apartamente: garsoniere, 2 si 3 camere, inclusiv apartamente cu terase generoase. Structura beton armat, zidarie BCA Ytong 30cm, termosistem EPS80 10cm. La cateva minute de mers pe jos de metrou Nicolae Teclu.',
     apartamente: [
@@ -301,6 +309,7 @@ export const ANSAMBLURI = [
     broker: 'Sasha CALUTU',
     brokerTel: '0757 077 057',
     coordonate: { lat: 44.4380, lng: 26.1250 },
+    zone: ['piata-muncii'],
     tipuri: ['2 camere', '4 camere'],
     descriere: 'Ansamblu rezidential premium Neofort 42 Piata Muncii, Sector 3. Metrou si Parcul National la 200-400m. Proiect optimizat la 64 apartamente de 2, 3 si 4 camere pentru o comunitate restransa. Structura beton armat S+P+4, piloti forati si radier general, adapost ALA. Panouri solare si fotovoltaice, statii incarcare auto electrica, termostat in fiecare camera.',
     apartamente: [
@@ -338,6 +347,7 @@ export const ANSAMBLURI = [
     broker: 'Adriana VESELU',
     brokerTel: '0752 443 437',
     coordonate: { lat: 44.4262, lng: 26.1710 },
+    zone: ['titan-pallady'],
     tipuri: ['2 camere', '3 camere'],
     descriere: 'Ansamblu rezidential Neofort 28 Fazele 4 si 5, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucatarii inchise, 2 si 3 camere, unele cu curte proprie ~50mp sau cu terasa. Fundatie radier general, structura beton armat, zidarie caramida 30cm, tamplarie Salamander tripan Low-E cu microventilatie, incalzire in pardoseala, ceramica Delta Studio, parchet rezistent trafic intens.',
     apartamente: [
@@ -377,6 +387,7 @@ export const ANSAMBLURI = [
     broker: 'Svetlana CALUTU',
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.4490, lng: 26.1080 },
+    zone: ['eminescu-viitorului'],
     tipuri: ['Studio', '2 camere', '3 camere'],
     descriere: 'Ansamblu rezidential boutique premium Neofort 11, zona Eminescu-Viitorului, Sector 2. Doar 13 apartamente: studio, garsoniera, 2 si 3 camere. Regim S+P+4E+5R, structura dual diafragme+beton armat, pereti Porotherm 30cm. Finisaje premium: gresie MARAZZI, parchet Kronotex, usi PINUM, obiecte sanitare GROHE/HansGrohe, centrala ARISTON 24kW in condensare. Predare estimata septembrie 2026.',
     apartamente: [
@@ -418,6 +429,7 @@ export const ANSAMBLURI = [
     broker: 'Svetlana CALUTU',
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.4360, lng: 26.1200 },
+    zone: ['tepes-voda-muncii', 'piata-muncii'],
     tipuri: ['Studio', '2 camere', '3 camere', '4 camere'],
     descriere: 'Ansamblu rezidential boutique exclusivist Neofort 8, zona Tepes Voda-Muncii-Maior Coravu, Sector 2. 32 apartamente cu arhitectura unica, spatii generoase, inaltime peste standard. Terase si gradini la parter. Pozitionare in inelul central, zona de case cu inaltime max 4 etaje. Inclus in planul de sistematizare Centrul Vechi Nou al Primariei Sector 2. Metrou Piata Muncii la 500m.',
     apartamente: [
