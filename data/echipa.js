@@ -1,5 +1,3 @@
-const BASE = 'https://neofort-imob.vercel.app'
-
 export const ECHIPA = [
   {
     id: 'adriana-veselu',

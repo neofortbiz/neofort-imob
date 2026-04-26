@@ -1,7 +1,7 @@
 import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
 
-const BASE = 'https://www.neofort.ro'
+const BASE = 'https://neofort-imob.vercel.app'
 
 export const metadata = {
   metadataBase: new URL(BASE),
@@ -60,7 +60,7 @@ const organizationSchema = {
     name: 'București',
   },
   telephone: '+40758090904',
-  email: 'lead.neo@neofort-biz.ro',
+  email: 'info@neofort-biz.ro',
   contactPoint: {
     '@type': 'ContactPoint',
     telephone: '+40758090904',
