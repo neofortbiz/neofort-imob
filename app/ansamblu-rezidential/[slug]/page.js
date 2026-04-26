@@ -34,11 +34,14 @@ export async function generateMetadata({ params }) {
 }
 
 const POI_COLORS = {
-  metrou: { bg: '#e3f2fd', color: '#1565c0', label: 'Metrou' },
-  mall: { bg: '#f3e5f5', color: '#6a1b9a', label: 'Mall' },
-  scoala: { bg: '#e8f5e9', color: '#2e7d32', label: 'Școală' },
-  parc: { bg: '#e0f2f1', color: '#00695c', label: 'Parc' },
-  medical: { bg: '#fce4ec', color: '#c62828', label: 'Medical' },
+  metrou:    { bg: '#e3f2fd', color: '#1565c0', label: 'Metrou',    icon: '🚇' },
+  mall:      { bg: '#f3e5f5', color: '#6a1b9a', label: 'Mall',      icon: '🛍️' },
+  scoala:    { bg: '#e8f5e9', color: '#2e7d32', label: 'Școală',    icon: '🎓' },
+  parc:      { bg: '#e0f2f1', color: '#00695c', label: 'Parc',      icon: '🌳' },
+  medical:   { bg: '#fce4ec', color: '#c62828', label: 'Medical',   icon: '🏥' },
+  transport: { bg: '#fff8e1', color: '#f57f17', label: 'Transport', icon: '🚌' },
+  business:  { bg: '#fafafa', color: '#424242', label: 'Business',  icon: '🏢' },
+  sport:     { bg: '#e8f5e9', color: '#1b5e20', label: 'Sport',     icon: '⚽' },
 }
 
 export default function AnsambluPage({ params }) {
@@ -329,8 +332,8 @@ export default function AnsambluPage({ params }) {
                     const cfg = POI_COLORS[p.tip] || { bg: '#f3f4f6', color: '#374151', label: p.tip }
                     return (
                       <div key={i} className="flex items-center gap-3 text-sm text-gray-600">
-                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full flex-shrink-0 whitespace-nowrap" style={{ background: cfg.bg, color: cfg.color }}>
-                          {cfg.label}
+                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full flex-shrink-0 whitespace-nowrap flex items-center gap-1" style={{ background: cfg.bg, color: cfg.color }}>
+                          <span>{cfg.icon}</span>{cfg.label}
                         </span>
                         <span>{p.nume}</span>
                         <span className="ml-auto text-xs text-gray-400 whitespace-nowrap">{p.distanta}</span>

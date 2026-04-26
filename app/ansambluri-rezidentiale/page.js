@@ -26,7 +26,7 @@ export default function AnsambluriPage() {
   const [camere, setCamere]     = useState('Toate')
   const [sortare, setSortare]   = useState('default')
   const [view, setView]         = useState('grid') // 'grid' | 'lista'
-  const [pretMax, setPretMax]   = useState(250000)
+  const [pretMax, setPretMax]   = useState(1500000)
   const [pretActiv, setPretActiv] = useState(false)
 
   // Camere disponibile din date
@@ -63,7 +63,7 @@ export default function AnsambluriPage() {
 
   function resetFiltre() {
     setSector('Toate'); setStatus('Toate'); setCamere('Toate')
-    setSortare('default'); setPretMax(250000); setPretActiv(false)
+    setSortare('default'); setPretMax(1500000); setPretActiv(false)
   }
 
   const filtreActive = sector !== 'Toate' || status !== 'Toate' || camere !== 'Toate' || pretActiv
@@ -169,14 +169,17 @@ export default function AnsambluriPage() {
                   <p className="text-xs mb-2" style={{ color: pretActiv ? '#2d7a3a' : '#9ca3af' }}>
                     {pretActiv ? `Până la ${formatPret(pretMax)}€` : 'Toate prețurile'}
                   </p>
-                  <input type="range" min={60000} max={250000} step={5000}
+                  <input type="range" min={60000} max={1500000} step={10000}
                     value={pretMax}
                     onChange={e => { setPretMax(Number(e.target.value)); setPretActiv(true) }}
-                    className="w-full accent-green-600"
-                    style={{ accentColor: '#2d7a3a' }}
+                    onMouseDown={e => e.stopPropagation()}
+                    onTouchStart={e => e.stopPropagation()}
+                    onTouchMove={e => e.stopPropagation()}
+                    className="w-full"
+                    style={{ accentColor: '#2d7a3a', touchAction: 'none' }}
                   />
                   <div className="flex justify-between text-[10px] text-gray-400 mt-0.5">
-                    <span>60K€</span><span>250K€</span>
+                    <span>60K€</span><span>1.5M€</span>
                   </div>
                 </div>
 
@@ -310,7 +313,7 @@ export default function AnsambluriPage() {
                   Apartamente noi în București — direct de la dezvoltator
                 </h2>
                 <p className="text-xs text-gray-500 leading-relaxed">
-                  Neofort IMO comercializează apartamente noi în ansambluri rezidențiale proprii din București, în Sectoarele 2, 3 și 6.
+                  Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, în Sectoarele 2, 3 și 6.
                   Toate proiectele sunt vândute direct de la sursă, fără comision de agenție.
                   Portofoliul activ include 12 ansambluri cu apartamente de la 1 cameră până la penthouse, în zone cu acces rapid la metrou,
                   centre comerciale și facilități urban-rezidențiale. Cu 17 ani de experiență și 85+ proiecte livrate din 2009,
