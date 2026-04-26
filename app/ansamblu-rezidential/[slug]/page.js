@@ -288,7 +288,7 @@ export default function AnsambluPage({ params }) {
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Despre ansamblu</h2>
-                <DescriereExpand text={a.descriere} />
+                <DescriereExpand text={a.descriereCompleta || a.descriere} />
               </div>
 
               {/* APARTAMENTE */}
