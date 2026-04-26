@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
-      <body>
+      <body style={{ overflowX: "hidden" }}>
         {children}
         <ClientProviders />
       </body>
