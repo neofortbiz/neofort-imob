@@ -44,6 +44,37 @@ export default function PortofoliuAnsambluPage({ params }) {
   const similare = ANSAMBLURI_PORTOFOLIU.filter(p => p.slug !== a.slug).slice(0, 4)
   const pretMin = a.preturi?.[0]?.pret
 
+  // Schema.org RealEstateListing pentru SEO portofoliu
+  const realEstateSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'RealEstateListing',
+    '@id': `${BASE}/portofoliu/${a.slug}`,
+    name: a.nume,
+    description: a.descriere,
+    url: `${BASE}/portofoliu/${a.slug}`,
+    image: `${BASE}/logo.avif`,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: a.adresa,
+      addressLocality: 'București',
+      addressRegion: a.sector,
+      addressCountry: 'RO',
+    },
+    numberOfRooms: { '@type': 'QuantitativeValue', value: a.tipuri.join(', ') },
+    seller: { '@type': 'Organization', name: 'Neofort IMO', url: BASE },
+    ...(a.preturi && a.preturi.length > 0 ? {
+      offers: a.preturi.map(p => ({
+        '@type': 'Offer',
+        name: p.tip,
+        price: p.pret,
+        priceCurrency: 'EUR',
+        availability: 'https://schema.org/SoldOut',
+        priceValidUntil: '2024-12-31',
+        seller: { '@type': 'Organization', name: 'Neofort IMO' },
+      })),
+    } : {}),
+  }
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -56,6 +87,7 @@ export default function PortofoliuAnsambluPage({ params }) {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(realEstateSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/portofoliu" />
       <main>

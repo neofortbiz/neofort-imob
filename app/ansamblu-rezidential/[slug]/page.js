@@ -19,9 +19,15 @@ export async function generateMetadata({ params }) {
   const a = getAnsamblu(params.slug)
   if (!a) return {}
   const url = `${BASE}/ansamblu-rezidential/${a.slug}`
+  // Folosim seoTitle/seoDescription din date daca exista, altfel formula dinamica
+  const title = a.seoTitle ||
+    `Apartamente noi ${a.zona} — ${a.nume} | De la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€ | Neofort IMO`
+  const description = a.seoDescription ||
+    `${a.tipuri.join(', ')} în ${a.zona}, ${a.sector} București. Prețuri de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA. ${a.dataPredare !== 'Finalizat' ? `Predare ${a.dataPredare}.` : 'Finalizat.'} ${a.puncteInteres[0] ? `${a.puncteInteres[0].nume} la ${a.puncteInteres[0].distanta}.` : ''}`
+
   return {
-    title: `Apartamente noi ${a.zona} | ${a.nume} | De la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€ | Neofort IMO`,
-    description: `${a.apartamente.length} tipuri de apartamente în ${a.zona}, ${a.sector} București. Prețuri de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA. ${a.dataPredare !== 'Finalizat' ? `Predare ${a.dataPredare}.` : 'Finalizat.'} ${a.puncteInteres[0] ? `${a.puncteInteres[0].tip === 'metrou' ? 'Metrou' : ''} ${a.puncteInteres[0].nume} la ${a.puncteInteres[0].distanta}.` : ''} ☎ ${TEL_DISPLAY}`,
+    title,
+    description,
     alternates: { canonical: url },
     openGraph: {
       title: `${a.nume} — Apartamente noi ${a.zona} | Neofort IMO`,
@@ -29,6 +35,11 @@ export async function generateMetadata({ params }) {
       url,
       type: 'website',
       locale: 'ro_RO',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
     },
   }
 }
@@ -60,7 +71,7 @@ export default function AnsambluPage({ params }) {
     '@type': 'RealEstateListing',
     '@id': `${BASE}/ansamblu-rezidential/${a.slug}`,
     name: a.nume,
-    description: a.descriere,
+    description: a.descriereCompleta || a.descriere,
     url: `${BASE}/ansamblu-rezidential/${a.slug}`,
     image: `${BASE}/logo.avif`,
     address: {

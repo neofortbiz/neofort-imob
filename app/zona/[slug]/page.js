@@ -1,4 +1,6 @@
 import { notFound } from 'next/navigation'
+
+const BASE = 'https://neofort-imob.vercel.app'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -44,9 +46,19 @@ export function generateMetadata({ params }) {
   const config = getZoneConfig()
   const z = config[params.slug]
   if (!z) return {}
+  const ansambluri = ANSAMBLURI_ACTIVE.filter(a => a.zone && a.zone.includes(params.slug))
+  const url = `${BASE}/zona/${params.slug}`
   return {
-    title: `Ansambluri Rezidențiale ${z.nume} | Neofort IMO`,
-    description: `Ansambluri rezidențiale în zona ${z.nume}, ${z.sector}, București. Apartamente noi direct de la dezvoltator Neofort IMO.`,
+    title: `Apartamente Noi ${z.nume}, ${z.sector} | Ansambluri Rezidențiale | Neofort IMO`,
+    description: `${ansambluri.length} ansambluri rezidențiale Neofort IMO în zona ${z.nume}, ${z.sector} București. Apartamente noi de la ${ansambluri.length > 0 ? new Intl.NumberFormat('ro-RO').format(Math.min(...ansambluri.map(a => a.pretDeLa))) : ''}€+TVA, direct de la sursă, fără comision.`,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `Apartamente Noi ${z.nume} | Neofort IMO`,
+      description: `${ansambluri.length} ansambluri disponibile în zona ${z.nume}, ${z.sector}.`,
+      url,
+      type: 'website',
+      locale: 'ro_RO',
+    },
   }
 }
 
@@ -60,8 +72,36 @@ export default function ZonaPage({ params }) {
     a.zone && a.zone.includes(params.slug)
   )
 
+  // Schema.org ItemList pentru ansambluri din zona
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Ansambluri rezidențiale ${z.nume}`,
+    description: `${ansambluri.length} ansambluri rezidențiale Neofort IMO în zona ${z.nume}, ${z.sector}, București.`,
+    url: `${BASE}/zona/${params.slug}`,
+    numberOfItems: ansambluri.length,
+    itemListElement: ansambluri.map((a, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${BASE}/ansamblu-rezidential/${a.slug}`,
+      name: a.nume,
+    })),
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Acasă', item: BASE },
+      { '@type': 'ListItem', position: 2, name: 'Zone', item: `${BASE}/zona` },
+      { '@type': 'ListItem', position: 3, name: z.nume, item: `${BASE}/zona/${params.slug}` },
+    ],
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/zona" />
       <main className="min-h-screen">
         <div className="bg-gray-50 border-b border-gray-100 py-6 px-6">
