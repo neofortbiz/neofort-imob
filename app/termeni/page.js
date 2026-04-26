@@ -1,6 +1,9 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-export const metadata = { title: 'Termeni și Condiții — Neofort IMO' }
+const BASE = 'https://neofort-imob.vercel.app'
+
+export const metadata = {
+  alternates: { canonical: `${BASE}/termeni` }, title: 'Termeni și Condiții — Neofort IMO' }
 export default function TermeniPage() {
   return (
     <>

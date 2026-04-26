@@ -2,7 +2,10 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
+const BASE = 'https://neofort-imob.vercel.app'
+
 export const metadata = {
+  alternates: { canonical: `${BASE}/blog` },
   title: 'Blog Imobiliar — Noutăți, Legislație și Piața Imobiliară | Neofort IMO',
   description: 'Articole despre piața imobiliară din București, legislație, evoluția prețurilor și sfaturi pentru cumpărători.',
 }

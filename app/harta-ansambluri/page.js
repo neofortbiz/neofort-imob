@@ -2,7 +2,10 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
+const BASE = 'https://neofort-imob.vercel.app'
+
 export const metadata = {
+  alternates: { canonical: `${BASE}/harta-ansambluri` },
   title: 'Harta Ansambluri Rezidențiale București — Neofort IMO',
   description: 'Harta interactivă cu toate ansamblurile rezidențiale Neofort IMO din București.',
 }

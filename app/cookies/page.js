@@ -1,6 +1,9 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-export const metadata = { title: 'Politica Cookies — Neofort IMO' }
+const BASE = 'https://neofort-imob.vercel.app'
+
+export const metadata = {
+  alternates: { canonical: `${BASE}/cookies` }, title: 'Politica Cookies — Neofort IMO' }
 export default function CookiesPage() {
   return (
     <>
