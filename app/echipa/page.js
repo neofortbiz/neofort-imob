@@ -44,7 +44,7 @@ export default function EchipaPage() {
             Reprezentanți Vânzări Neofort IMO
           </h1>
           <p className="text-sm text-gray-500 max-w-xl mx-auto">
-            Fiecare broker Neofort este specializat pe o zonă specifică din București și îți oferă consultanță directă, fără intermediari.
+            Fiecare ansamblu rezidențial Neofort are desemnat un reprezentant de vânzări dedicat, cu experiență în zona și proiectul respectiv.
           </p>
         </section>
 

@@ -31,9 +31,8 @@ export default function ContactPage() {
                 <div className="space-y-3 text-sm">
                   {[
                     { lbl: 'Adresă', val: 'Str. Theodor Aman Pictor nr. 11\nSector 1, București 010776' },
-                    { lbl: 'Telefon', val: '0758 090 904' },
-                    { lbl: 'Email', val: 'info@neofort-biz.ro' },
-                    { lbl: 'Email lead-uri', val: 'lead.neo@neofort-biz.ro' },
+                    { lbl: 'Telefon', val: '+40 758 090 904' },
+
                   ].map(r => (
                     <div key={r.lbl} className="flex gap-3 py-2.5 border-b border-gray-50">
                       <span className="text-gray-400 w-28 flex-shrink-0 text-xs">{r.lbl}</span>
@@ -41,6 +40,17 @@ export default function ContactPage() {
                     </div>
                   ))}
                 </div>
+              </div>
+
+              <div className="mt-2">
+                <a href="mailto:info@neofort-biz.ro"
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-gray-200 text-xs font-medium text-gray-700 hover:bg-gray-50 transition-colors">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                  Trimite email
+                </a>
               </div>
 
               <div>
@@ -59,19 +69,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="flex gap-3">
-                <a href="tel:+40758090904"
-                  className="flex-1 py-3 rounded-xl text-xs font-medium text-center text-white"
-                  style={{ background: '#2d7a3a' }}>
-                  Sună acum
-                </a>
-                <a href="https://wa.me/40758090904?text=Bun%C4%83%20ziua!%20Sunt%20interesat%20de%20apartamentele%20Neofort%20IMO."
-                  target="_blank" rel="noopener noreferrer"
-                  className="flex-1 py-3 rounded-xl text-xs font-medium text-center text-white"
-                  style={{ background: '#25a244' }}>
-                  WhatsApp
-                </a>
-              </div>
+
             </div>
 
             {/* HARTA */}
