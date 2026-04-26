@@ -5,7 +5,7 @@ const TEL = '0758090904'
 const TEL_DISPLAY = '0758 090 904'
 const WA_LINK = `https://wa.me/40${TEL.substring(1)}`
 
-export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B.', brokerTel = '0758 090 904' }) {
+export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B.', brokerTel = '0758 090 904', brokerFoto = '' }) {
   const [form, setForm] = useState({ nume: '', telefon: '', email: '', mesaj: '' })
   const [status, setStatus] = useState('idle') // idle | loading | success | error
 
@@ -139,8 +139,14 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
 
       {/* BROKER */}
       <div className="flex items-center gap-2 mt-3 pt-3 border-t border-gray-200">
-        <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-xs font-medium text-blue-700 flex-shrink-0">
-          {broker.split(' ').map(w => w[0]).join('').substring(0, 2).toUpperCase()}
+        <div className="w-8 h-8 rounded-full overflow-hidden bg-blue-100 flex-shrink-0">
+          {brokerFoto ? (
+            <img src={brokerFoto} alt={broker} className="w-full h-full object-cover" />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center text-xs font-medium text-blue-700">
+              {broker.split(' ').map(w => w[0]).join('').substring(0, 2).toUpperCase()}
+            </div>
+          )}
         </div>
         <div>
           <div className="text-xs font-medium text-gray-900">{broker}</div>

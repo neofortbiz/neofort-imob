@@ -343,7 +343,7 @@ export default function AnsambluPage({ params }) {
 
             {/* SIDEBAR */}
             <div className="md:sticky md:top-36 self-start">
-              <FormularRapid ansambluNume={a.nume} broker={a.broker} brokerTel={a.brokerTel} />
+              <FormularRapid ansambluNume={a.nume} broker={a.broker} brokerTel={a.brokerTel} brokerFoto={a.brokerFoto || ""} />
             </div>
           </div>
         </div>
