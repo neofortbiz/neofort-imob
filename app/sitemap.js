@@ -1,4 +1,5 @@
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE } from '@/data/ansambluri'
+import { ANSAMBLURI_PORTOFOLIU } from '@/data/portofoliu'
 
 const BASE = 'https://neofort-imob.vercel.app'
 
@@ -35,5 +36,12 @@ export default function sitemap() {
     priority: 0.9,
   }))
 
-  return [...staticPages, ...ansambluriActive, ...zonePages]
+  const portofoliuPages = ANSAMBLURI_PORTOFOLIU.map(a => ({
+    url: `${BASE}/portofoliu/${a.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'yearly',
+    priority: 0.5,
+  }))
+
+  return [...staticPages, ...ansambluriActive, ...zonePages, ...portofoliuPages]
 }
