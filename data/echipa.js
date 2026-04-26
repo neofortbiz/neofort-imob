@@ -80,8 +80,6 @@ export const ECHIPA = [
     id: 'info-neofort',
     nume: 'Info Neofort',
     rol: 'Birou Informații Neofort',
-    experienta: 0,
-    vechimeNeofort: 0,
     tel: '+40758090904',
     telDisplay: '0758 090 904',
     zona: 'GENERAL',

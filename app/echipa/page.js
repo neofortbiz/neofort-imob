@@ -67,11 +67,13 @@ export default function EchipaPage() {
                 {/* INFO */}
                 <h2 className="text-sm font-semibold text-gray-900 mb-1">{b.nume}</h2>
                 <p className="text-xs text-gray-500 mb-1">{b.rol}</p>
-                <div className="flex justify-center gap-3 text-xs text-gray-400 mb-4">
-                  <span>{b.experienta} ani experiență</span>
-                  <span>·</span>
-                  <span>{b.vechimeNeofort} ani Neofort</span>
-                </div>
+                {(b.experienta || b.vechimeNeofort) ? (
+                  <div className="flex justify-center gap-3 text-xs text-gray-400 mb-4">
+                    <span>{b.experienta} ani experiență</span>
+                    <span>·</span>
+                    <span>{b.vechimeNeofort} ani Neofort</span>
+                  </div>
+                ) : <div className="mb-4" />}
                 {/* CONTACT */}
                 <div className="flex gap-2 justify-center">
                   <a href={`tel:${b.tel}`}
