@@ -26,7 +26,9 @@ Zona Titan-Pallady este în prezent una dintre cele mai căutate zone rezidenți
 
 Infrastructura comercială din zonă este completă și matură: IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo, Metro, Leroy Merlin și Dedeman Pallady la 8 minute — cea mai densă concentrare de retail mare din estul Bucureștiului. Pentru familiile cu copii: Waldorf București și Spectrum School la 500m, Școala Gimnazială nr. 149 și Liceul Victor Brauner la 10 minute pe jos. Parcul Teilor la 10 minute oferă spațiu verde generos pentru relaxare zilnică. Campus Medical Regina Maria Titan la 10 minute și MedLife Titan la 8 minute acoperă integral nevoile medicale.
 
-Neofort 84 se comercializează direct de la sursă, fără comision de agenție — prețul publicat este prețul final, fără surprize la semnare. Prețurile promoționale sunt valabile pentru unitățile rezervate cu avans 45% și se pot modifica odată cu avansarea construcției. Rezervare cu 2.000€, consultanță juridică și bancară gratuită.`,
+Neofort 84 se comercializează direct de la sursă, fără comision de agenție — prețul publicat este prețul final, fără surprize la semnare. Prețurile promoționale sunt valabile pentru unitățile rezervate cu avans 45% și se pot modifica odată cu avansarea construcției. Rezervare cu 2.000€, consultanță juridică și bancară gratuită.
+
+Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervarea se face cu 2.000€, sumă restituibilă integral dacă nu se ajunge la antecontract din vina dezvoltatorului. Consultanța juridică și bancară este gratuită pe toată durata — Neofort IMO colaborează cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Prețurile promoționale la avans 45% sunt valabile pentru unități specifice și se pot modifica pe măsura avansării construcției. Vânzare directă de la sursă, fără comision de agenție.`,
     brokerTel: '0743 250 029',
     coordonate: { lat: 44.4268, lng: 26.1700 },
     zone: ['titan-pallady', 'sector-3'],
@@ -86,7 +88,11 @@ Titan-Pallady este zona cu cel mai mare ritm de creștere rezidențială din Sec
 
 IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute — retail complet la îndemână. Waldorf București și Spectrum School la 500m — ideal pentru familiile cu copii care valorizează alternativele educaționale. Școala Gimnazială nr. 149 și Liceul Internațional de Informatică la 10 minute pe jos. Parcul Teilor la 10 minute. Campus Medical Regina Maria Titan la 10 minute și Medikali Titan la 8 minute.
 
-Neofort 83 Faza 2 se adresează deopotrivă familiilor tinere aflate la prima achiziție și investitorilor care înțeleg că proximity față de metrou este cel mai puternic factor de apreciere a valorii pe termen lung în piața imobiliară din București.`,
+Neofort 83 Faza 2 se adresează deopotrivă familiilor tinere aflate la prima achiziție și investitorilor care înțeleg că proximity față de metrou este cel mai puternic factor de apreciere a valorii pe termen lung în piața imobiliară din București.
+
+Titan-Pallady este în prezent cea mai activă zonă de dezvoltare rezidențială din Sectorul 3. Datele de piață din 2024-2026 confirmă că apartamentele noi cu acces la metrou M2 în 3-8 minute au înregistrat creșteri de valoare de 12-18% față de 2023, depășind media națională. Cererea depășește constant oferta, în special pentru garsoniere și apartamente de 2 camere la prețuri sub 100.000€ — categoria în care Neofort 83 are cea mai competitivă ofertă din zonă.
+
+Pentru investitori: chiria medie pentru o garsonieră de 43 mp în Titan cu metrou la 3 minute este de 450-550€/lună, reprezentând un randament brut de 8-10% față de prețul de achiziție de la 64.800€. Apartamentele de 2 camere generează chirii de 650-750€/lună — randament 7-8,5%. Cererea de chirie în zonă este susținută de angajații din zona de est și din centrul Bucureștiului care preferă metroul față de mașina personală. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4260, lng: 26.1720 },
     zone: ['titan-pallady', 'sector-3'],
@@ -141,7 +147,9 @@ Finisajele Neofort 78 Faza 2 sunt în clasa Premium-Lux fără excepție. Parche
 
 Zona Moșilor-Eminescu beneficiază de o accesibilitate excepțională: Metrou Piața Obor (M2) la 400m asigură accesul spre Piața Universității în 5 minute și spre Piața Unirii în 8 minute. Piața Obor la 400m este cel mai mare complex comercial de tip open-air din București. Colegiul Național Mihai Eminescu la 5 minute pe jos și Liceul Teoretic Dimitrie Bolintineanu la 10 minute acoperă educația copiilor. Grădinița nr. 54 și nr. 82 la 5 minute pe jos. Parcul Circului la 10 minute pe jos. Spital Clinic Colentina și MedLife Obor la proximitate imediată. Autogara Obor și linii STB multiple la 400m.
 
-Cumpărătorii care apreciază un proiect mic, cu comunitate restrânsă, finisaje care se văd și se simt, și o localizare cu metrou la 5 minute pe jos vor găsi în Neofort 78 Faza 2 o opțiune greu de egalat în Sectorul 2. Predare Mai 2026. Vânzare directă, fără comision de agenție.`,
+Cumpărătorii care apreciază un proiect mic, cu comunitate restrânsă, finisaje care se văd și se simt, și o localizare cu metrou la 5 minute pe jos vor găsi în Neofort 78 Faza 2 o opțiune greu de egalat în Sectorul 2. Predare Mai 2026. Vânzare directă, fără comision de agenție.
+
+Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care înțeleg că un proiect de 22 de unități cu finisaje HansGrohe, Salamander Blue Edition și parchet stejar la 400m de metrou Obor este o oportunitate care nu se repetă. Proiectele boutique de această calitate în Sectorul 2 semicentral se vând integral în prima fază de lansare. Predare Mai 2026. Parcare subterană 30.000€ + TVA. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.4410, lng: 26.1050 },
     zone: ['mosilor-eminescu', 'eminescu-viitorului', 'sector-2'],
@@ -201,7 +209,9 @@ Zona Militari-Iuliu Maniu a cunoscut o transformare semnificativă în urma exti
 
 Penthouse-ul Neofort 76, cu 276,98 mp desfășurați pe două niveluri și terasă privată la etajele 8-9, este o propunere rară în Sectorul 6 — spațiu generos, finisaje la cheie, metrou la 6 minute pe jos. Vânzare directă fără comision.
 
-Investiția în Penthouse-ul Neofort 76 este justificată și de tendința pieței imobiliare din zona Militari-Iuliu Maniu: prețurile pe metru pătrat în Sectorul 6 cu acces la M3 au crescut constant în ultimii 3 ani, susținute de cererea în creștere și de investițiile publice în infrastructura de transport. Un Penthouse de 276,98 mp cu terasă privată panoramică în această zonă nu este doar o locuință — este o proprietate cu potențial real de apreciere. Procesul de achiziție include consultanță juridică și financiară gratuită. Fără comision de agenție.`,
+Investiția în Penthouse-ul Neofort 76 este justificată și de tendința pieței imobiliare din zona Militari-Iuliu Maniu: prețurile pe metru pătrat în Sectorul 6 cu acces la M3 au crescut constant în ultimii 3 ani, susținute de cererea în creștere și de investițiile publice în infrastructura de transport. Un Penthouse de 276,98 mp cu terasă privată panoramică în această zonă nu este doar o locuință — este o proprietate cu potențial real de apreciere. Procesul de achiziție include consultanță juridică și financiară gratuită. Fără comision de agenție.
+
+Penthouse-ul Neofort 76 cu 276,98 mp și terasă panoramică la etajele 8-9 pe Bulevardul Iuliu Maniu este o propunere unică în Sectorul 6: nu există altă unitate comparabilă ca suprafață, etaj și localizare față de metrou în această zonă la prețul de 218.409€ + TVA. Prețul pe metru pătrat — aproximativ 788€/mp — este semnificativ sub media penthouse-urilor comparabile din Sectoarele 1 și 2, unde prețurile similare pornesc de la 1.500€/mp. Parcare sistem Klaus 10.000€ TVA inclus. Rezervare cu 2.000€. Consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari-Iuliu Maniu continuă să se dezvolte susținut, cu investiții publice semnificative în infrastructura de transport și regenerare urbană.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4320, lng: 26.0100 },
     zone: ['militari', 'sector-6'],
@@ -256,7 +266,9 @@ Zona Titan-Pallady are avantajul rar al maturității urbane: nu mai este o zon�
 
 Apartamentele cu curte proprie la parter sunt extrem de rare în proiectele noi din Sectorul 3. La Neofort 56 Faza 2, această unitate are 133,54 mp utili plus curtea privată — un spațiu care transformă fundamental experiența de locuire la bloc. Vânzare directă, fără comision.
 
-Neofort 56 Faza 2 este, de asemenea, o alegere inteligentă pentru investitori: randamentul în chirie pentru apartamentele de 4 camere în zona Titan cu metrou la 3 minute variază între 4,5% și 5,5% anual, cu o cerere ridicată din partea familiilor relocate și a expats. Apartamentele cu curte la parter din acest proiect se închiriază cu o primă față de unitățile standard datorită rarității acestei configurații în oferta din Sectorul 3. Vânzare directă, fără comision.`,
+Neofort 56 Faza 2 este, de asemenea, o alegere inteligentă pentru investitori: randamentul în chirie pentru apartamentele de 4 camere în zona Titan cu metrou la 3 minute variază între 4,5% și 5,5% anual, cu o cerere ridicată din partea familiilor relocate și a expats. Apartamentele cu curte la parter din acest proiect se închiriază cu o primă față de unitățile standard datorită rarității acestei configurații în oferta din Sectorul 3. Vânzare directă, fără comision.
+
+De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Trei argumente concrete: Smart Home Ready integrat standard fără costuri suplimentare — o dotare pe care alte proiecte o oferă ca opțiune la 3.000-5.000€ în plus; stațiile de încărcare EV în parcare — un avantaj operațional permanent pe măsură ce mobilitatea electrică se extinde; și apartamentul cu curte proprie de la parter — o configurație imposibil de găsit în alte imobile noi din zonă la prețul de 235.208€. Parcare 8.900€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4250, lng: 26.1680 },
     zone: ['titan-pallady', 'sector-3'],
@@ -372,7 +384,11 @@ Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute, Bri
 
 Cu 18 unități finalizate, cheltuielile comune de întreținere sunt reduse și gestionabile, iar comunitatea de locatari este restrânsă și omogenă. Pentru cumpărătorii aflați la prima locuință sau pentru investitorii care caută randament bun în chirie — zona Militari generează chirii de 350-450€/lună pentru garsoniere — Neofort 49 reprezintă o oportunitate concretă și imediată. Vânzare directă, fără comision.
 
-Un argument suplimentar pentru Neofort 49 ca investiție: chiria lunară pentru o garsonieră de 38-40 mp în zona Militari cu metrou la 5 minute variază între 350€ și 430€ pe lună, ceea ce generează un randament brut de 5,5-6,7% anual față de prețul promoțional de 76.974€. Apartamentele de 2 camere se închiriază curent cu 550-650€/lună, randament 5,5-6,5% față de 118.947€. Zona Militari este în mod constant printre zonele cu cea mai ridicată cerere de chirie din București, alimentată de angajații din zona de business a Sectorului 6 și din centru. Vânzare directă, fără comision.`,
+Un argument suplimentar pentru Neofort 49 ca investiție: chiria lunară pentru o garsonieră de 38-40 mp în zona Militari cu metrou la 5 minute variază între 350€ și 430€ pe lună, ceea ce generează un randament brut de 5,5-6,7% anual față de prețul promoțional de 76.974€. Apartamentele de 2 camere se închiriază curent cu 550-650€/lună, randament 5,5-6,5% față de 118.947€. Zona Militari este în mod constant printre zonele cu cea mai ridicată cerere de chirie din București, alimentată de angajații din zona de business a Sectorului 6 și din centru. Vânzare directă, fără comision.
+
+Zona Militari-Gorjului are unul dintre cele mai bune rapoarte preț/conectivitate din București. La prețul de 76.974€ pentru o garsonieră finalizată cu metrou la câteva minute, alternativele comparabile din zone similare (Drumul Taberei, Militari-Pacii) pornesc de la 85.000-95.000€. Diferența de 8.000-18.000€ față de piață, combinată cu finisajele superioare mediei și cu stocul limitat de 18 unități, face din Neofort 49 o oportunitate imediată și concretă.
+
+Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Militari cu metrou la 5 minute cu 350-430€/lună — randament brut 5,5-6,7% anual. Apartamentele de 2 camere generează 550-650€/lună — randament 5,5-6,5%. Stocul este limitat la 18 unități — disponibilitatea se poate reduce rapid. Parcare subterană 15.000€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari generează constant una dintre cele mai ridicate cereri de chirie din București, alimentată de angajații din zona de business a Sectorului 6, din centru și din zona Drumul Taberei conectată pe M5. Cu doar 18 unități disponibile, stocul se poate epuiza rapid.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4300, lng: 26.0150 },
     zone: ['militari', 'sector-6'],
@@ -424,7 +440,11 @@ Zona Titan-Pallady este una dintre puținele zone din București unde maturitate
 
 Neofort 44 este disponibil imediat, fără perioadă de așteptare. Potrivit atât pentru prima locuință — inclusiv prin programul Prima Casă — cât și pentru investiție în chirie. Randamentul în chirie în zona Titan-Pallady pentru 2 camere este de 4,5-5,5% anual. Vânzare directă, fără comision de agenție.
 
-Neofort 44 intră în categoria apartamentelor eligibile pentru Prima Casă și pentru creditele ipotecare standard, cu avans de 15-25%. Consultantul Neofort IMO poate facilita gratuit legătura cu băncile partenere care oferă cele mai competitive dobânzi la momentul achiziției. Randamentul în chirie estimat: 2 camere 600-750€/lună, 3 camere 850-1.000€/lună — un calcul de investiție solid în una dintre zonele cu cea mai stabilă cerere locativă din Sectorul 3. Disponibil imediat, fără perioadă de așteptare. Vânzare directă, fără comision.`,
+Neofort 44 intră în categoria apartamentelor eligibile pentru Prima Casă și pentru creditele ipotecare standard, cu avans de 15-25%. Consultantul Neofort IMO poate facilita gratuit legătura cu băncile partenere care oferă cele mai competitive dobânzi la momentul achiziției. Randamentul în chirie estimat: 2 camere 600-750€/lună, 3 camere 850-1.000€/lună — un calcul de investiție solid în una dintre zonele cu cea mai stabilă cerere locativă din Sectorul 3. Disponibil imediat, fără perioadă de așteptare. Vânzare directă, fără comision.
+
+Titan-Pallady este zona din București cu cel mai consistent raport dintre prețul de achiziție și potențialul de apreciere pe termen mediu. Apartamentele noi finalizate cu metrou la 3 minute și-au menținut valoarea în toate ciclurile recente ale pieței imobiliare, datorită cererii structurale ridicate și ofertei limitate. Neofort 44 — finalizat și disponibil imediat — elimină riscul de întârziere specific proiectelor în construcție.
+
+Randamentul în chirie: 2 camere 62 mp se închiriază cu 600-750€/lună în zonă — randament 7-9% față de 100.208€; 3 camere 86 mp cu 800-950€/lună — randament 7-8,3% față de 137.919€. Eligibil Prima Casă și credite ipotecare standard cu avans 15-25%. Parcare 8.000€. Rezervare cu 2.000€. Consultanță bancară gratuită — identificăm cel mai mic cost total de finanțare din oferta bancară actuală. Vânzare directă de la sursă, fără comision. Titan-Pallady rămâne zona cu cel mai echilibrat raport dintre prețul de achiziție, calitatea ofertei comerciale și educaționale și accesul la metrou din estul Bucureștiului.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4255, lng: 26.1690 },
     zone: ['titan-pallady', 'sector-3'],
@@ -542,7 +562,9 @@ Titan-Pallady continuă să fie zona cu cel mai echilibrat raport cerere-ofertă
 
 Finalizat, disponibil imediat, cu tipologii unice pe piață. Vânzare directă, fără comision.
 
-Tipologia cu curte proprie la parter — atât 2 camere la 112.900€ cât și 3 camere la 143.500€ — reprezintă o raritate valoroasă pe piața Sectorului 3. Apartamentele cu curți private în blocuri noi se vând și se închiriază cu o primă de 15-25% față de unitățile standard, reflectând cererea ridicată din partea familiilor cu copii mici sau cu animale de companie. Incinta împrejmuită, accesul controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Vânzare directă, fără comision de agenție.`,
+Tipologia cu curte proprie la parter — atât 2 camere la 112.900€ cât și 3 camere la 143.500€ — reprezintă o raritate valoroasă pe piața Sectorului 3. Apartamentele cu curți private în blocuri noi se vând și se închiriază cu o primă de 15-25% față de unitățile standard, reflectând cererea ridicată din partea familiilor cu copii mici sau cu animale de companie. Incinta împrejmuită, accesul controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Vânzare directă, fără comision de agenție.
+
+Cumpărătorii care au ales apartamentele cu curte la Neofort 28 au plătit o primă de 26.000-29.000€ față de unitățile standard — o diferență pe deplin justificată de raritatea configurației și de cererea ridicată. Pe piața secundară, apartamentele cu grădini private în blocuri noi se vând cu prime similare față de unități identice fără exterior, confirmând că această tipologie păstrează valoarea adăugată pe termen lung. Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Parcare exterioară 7.500€, subterană 11.000€. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.`,
     brokerTel: '0752 443 437',
     coordonate: { lat: 44.4262, lng: 26.1710 },
     zone: ['titan-pallady', 'sector-3'],
@@ -668,7 +690,9 @@ Dotările tehnice sunt din clasa premium: uși blindate PINUM cu uși interioare
 
 Metrou Piața Muncii (M3) la 500m — 6 minute pe jos — spre Piața Unirii în 4 minute și spre Drumul Taberei în 8 minute. Metrou Dristor 1 la 12 minute pe jos. Kaufland Popa Nan la 5 minute pe jos, Mega Image Calea Călărașilor la 3 minute. Cartierul de case și vile din jur asigură liniștea și verdeața unui cartier rezidențial clasic. Parcul Național la 10 minute pe jos. Colegiul Național Matei Basarab la 10 minute pe jos, Liceul Ion Barbu la 8 minute. Spital Victor Babeș la 8 minute, MedLife și Regina Maria la 8 minute.
 
-Clasa A + metrou 6 minute + finisaje premium + cartier rezidențial liniștit: o combinație care justifică prețul și garantează aprecierea valorii. Vânzare directă, fără comision.`,
+Clasa A + metrou 6 minute + finisaje premium + cartier rezidențial liniștit: o combinație care justifică prețul și garantează aprecierea valorii. Vânzare directă, fără comision.
+
+Un argument final pentru Neofort 8 care merită menționat explicit: clasa energetică A nu este doar un certificat — înseamnă facturi de energie termică cu 20-30% mai mici față de clasa B, permanent, pe toți anii de locuire. La o factură medie de 200€/lună iarna, economia anuală este de 480-720€. Pe 20 de ani, economia cumulată depășește 10.000€ — o valoare concretă care justifică orice diferență de preț față de un imobil similar din clasa B. Parcare subterană cu lift 25.000€. Rezervare cu 2.000€. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.4360, lng: 26.1200 },
     zone: ['tepes-voda-muncii', 'piata-muncii', 'sector-2'],
