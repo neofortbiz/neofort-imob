@@ -81,11 +81,14 @@ Vânzarea integrală a celor 9 unități demonstrează că zona Titan-Gura Putne
     puncteInteres: [
       { tip: 'parc', nume: 'Parcul Teilor', distanta: 'în proximitate' },
       { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: 'câteva minute' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '8 min pe jos' },
       { tip: 'mall', nume: 'Auchan Titan / Auchan Pallady', distanta: 'câteva minute' },
       { tip: 'mall', nume: 'IKEA Pallady / Jumbo / Dedeman / Metro / Leroy Merlin', distanta: 'aproape' },
       { tip: 'mall', nume: 'LIDL / Kaufland / JYSK / Decathlon', distanta: 'aproape' },
+      { tip: 'scoala', nume: 'Waldorf București / Spectrum School', distanta: '500m' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '10 min' },
+      { tip: 'medical', nume: 'MedLife Titan / Medikali Titan', distanta: '8 min' },
       { tip: 'transport', nume: 'Bd. Theodor Pallady / Bd. 1 Decembrie 1918', distanta: 'câteva minute' },
-      { tip: 'parc', nume: 'Zona verde Codrii / Trapezului / Ozana', distanta: 'aproape' },
     ],
   },
   {

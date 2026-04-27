@@ -17,7 +17,7 @@ export default function ContactPage() {
 
         <section className="py-12 px-6 text-center border-b border-gray-100">
           <p className="text-xs font-medium uppercase tracking-widest mb-3" style={{ color: '#2d7a3a' }}>Contact</p>
-          <h1 className="text-2xl md:text-3xl font-medium text-gray-900 mb-3">Vino la noi sau sună acum</h1>
+          <h1 className="text-2xl md:text-3xl font-medium text-gray-900 mb-3">Programează o vizită sau cere info</h1>
           <p className="text-sm text-gray-500">Suntem disponibili luni–vineri între 10:00 și 18:00.</p>
         </section>
 

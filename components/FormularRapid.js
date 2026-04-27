@@ -124,7 +124,10 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
           </span>
           WhatsApp
         </a>
-        <a href="mailto:lead.neo@neofort-biz.ro"
+        <a href={ansambluNume
+            ? `mailto:lead.neo@neofort-biz.ro?subject=${encodeURIComponent('Solicitare informații — ' + ansambluNume)}&body=${encodeURIComponent('Bună ziua,\n\nSunt interesat de apartamentele din ' + ansambluNume + '.\n\nAș dori să primesc detalii despre disponibilitate și prețuri.\n\nVă mulțumesc.')}`
+            : `mailto:lead.neo@neofort-biz.ro?subject=${encodeURIComponent('Solicitare informații — Neofort IMO')}&body=${encodeURIComponent('Bună ziua,\n\nSunt interesat de apartamentele Neofort IMO și aș dori să primesc informații despre oferta disponibilă.\n\nVă mulțumesc.')}`
+          }
           className="w-full py-2.5 rounded-lg border text-sm font-medium transition-colors hover:bg-yellow-50 flex items-center justify-center gap-2 px-4"
           style={{ borderColor: '#c8922a', color: '#c8922a' }}>
           <span style={{ width: 20, height: 20, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
