@@ -18,7 +18,7 @@ const SECTOR_NAMES = {
 
 function getZoneConfig() {
   const config = {}
-  ANSAMBLURI.forEach(a => {
+  ANSAMBLURI_ACTIVE.forEach(a => {
     const zoneList = a.zone || []
     zoneList.forEach(z => {
       if (!config[z]) {

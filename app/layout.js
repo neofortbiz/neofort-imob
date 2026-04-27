@@ -55,6 +55,17 @@ const organizationSchema = {
   },
   description: 'Companie specializată în comercializarea ansamblurilor rezidențiale noi în București. Direct de la sursă, fără comision de agenție. 17 ani experiență, 85+ proiecte livrate din 2009.',
   foundingDate: '2009',
+  vatID: 'RO53874087',
+  legalName: 'Neofort IMO SRL',
+  identifier: { '@type': 'PropertyValue', name: 'Nr. Reg. Comertului', value: 'J2026008972000' },
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Str. Theodor Aman Pictor nr. 11',
+    addressLocality: 'București',
+    addressRegion: 'Sector 1',
+    postalCode: '010776',
+    addressCountry: 'RO',
+  },
   areaServed: {
     '@type': 'City',
     name: 'București',
