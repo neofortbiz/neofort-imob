@@ -837,7 +837,549 @@ Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei
 ]
 
 
-export const TOATE_PORTOFOLIU = [...ANSAMBLURI_PORTOFOLIU, ...ANSAMBLURI_PORTOFOLIU_EXTINSE]
+
+
+// ========== ANSAMBLURI N45-N62 ==========
+
+export const ANSAMBLURI_PORTOFOLIU_N45_N62 = [
+  {
+    numar: 62,
+    slug: 'neofort-62-militari-virtutii',
+    nume: 'Neofort 62 Militari — Șos. Virtutii',
+    zona: 'Militari-Virtutii',
+    sector: 'Sector 6',
+    adresa: 'Zona Militari — Șos. Virtutii — Pod Ciurel, Sector 6, București',
+    etaje: 'D+P+5E+Pod',
+    totalApartamente: 15,
+    tipuri: ['2 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 62, 15 apartamente D+P+5E+Pod în Militari-Virtutii, 3 apartamente pe etaj. Lift Schindler, vedere lac Morii. Între Metrou Petrache Poenaru și Lujerului la ~1,5km. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: '2 camere (40.75mp)', pret: 66660 },
+      { tip: '2 camere (54.96mp)', pret: 70476 },
+      { tip: '2 camere (59.99mp)', pret: 76700 },
+      { tip: '2 camere (64.67mp)', pret: 86190 },
+      { tip: '2 camere (63.65mp)', pret: 89047 },
+      { tip: '3 camere (65.71mp)', pret: 90952 },
+      { tip: '3 camere+loc parcare (171.58mp)', pret: 207000 },
+    ],
+    dotari: ['Lift Schindler ultima generație', 'Granit spații comune', 'Balustrade inox', 'Tâmplărie PVC Salamander Blue Evolution 3 foi Low-E Planitherm 4S', 'Balcoane închise Salamander', 'Bucătărie închisă', 'AC Hyundai inclus în preț', 'WC incastrat', 'Izolație Caparol polistiren 10cm', 'Radier general beton armat Porotherm 25cm'],
+    parcare: { exterior: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Petrache Poenaru (M3)', distanta: '~1.5km' },
+      { tip: 'metrou', nume: 'Metrou Lujerului (M3)', distanta: '~1.5km' },
+      { tip: 'parc', nume: 'Lacul Morii — vedere panoramică', distanta: 'vedere directă unele apt.' },
+      { tip: 'transport', nume: 'Șos. Virtutii / Podul Ciurel / Bd. Uverturii', distanta: 'în față' },
+      { tip: 'mall', nume: 'Cora Lujerului', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Pasajul Lujerului / Bd. Iuliu Maniu', distanta: 'acces rapid' },
+      { tip: 'transport', nume: 'Linii STB multiple', distanta: 'în față' },
+      { tip: 'parc', nume: 'Viitorul Pod Ciurel — zona în dezvoltare', distanta: 'în față' },
+    ],
+    descriereCompleta: `Neofort 62 Militari-Virtutii este unul dintre puținele proiecte rezidențiale din Sectorul 6 care oferă vedere directă la Lacul Morii — o priveliste panoramică spectaculoasă din care beneficiază o parte din cele 15 apartamente ale imobilului. Blocat D+P+5E+Pod cu numai 3 apartamente pe etaj, Neofort 62 asigură intimitate și liniște, elemente rare în zona Militari-Virtutii, zona de pod Ciurel.
+
+Prețurile la momentul comercializării: 2 camere 40,75 mp, 66.660€ + TVA; 2 camere 54,96 mp, 70.476€ + TVA; 2 camere 59,99 mp, 76.700€ + TVA; 2 camere 64,67 mp, 86.190€ + TVA; 2 camere 63,65 mp, 89.047€ + TVA; 3 camere 65,71 mp, 90.952€ + TVA; 3 camere cu loc parcare inclus 171,58 mp, 207.000€ + TVA. Parcare supraterană cu acces securizat.
+
+Un element inclus standard și rar în proiectele la aceste prețuri: aparatul de aer condiționat Hyundai montat în preț, cu locațiile precablate integrate estetic în fațada blocului — fără intervenții ulterioare, fără găuri în fațadă. Tâmplăria PVC Salamander Blue Evolution cu 3 foi de sticlă Low-E și protecție UV Planitherm 4S asigură izolație termică și solară superioară, relevantă în mod special pentru apartamentele cu orientare spre vest și lacul Morii. Liftul Schindler de ultimă generație, granitul în spațiile comune, balustradele din inox, balcoanele închise și bucătăria închisă completează standardul proiectului.
+
+Structura radier general cu grinzi și stâlpi de beton armat, cărămidă Porotherm 25 cm, izolație Caparol polistiren 10 cm — calitate constructivă solidă și durabilă.
+
+Imobilul este amplasat între două stații de metrou M3 — Petrache Poenaru și Lujerului — la aproximativ 1,5 km de fiecare. Zona Militari-Virtutii-Pod Ciurel beneficiază de Șoseaua Virtutii, Podul Ciurel, Bulevardul Uverturii și Pasajul Lujerului pentru accesul rapid în orice direcție din București. Cora Lujerului pentru cumpărături zilnice. Conexiunea spre Bulevardul Iuliu Maniu și spre Autostrada A1 este rapidă.
+
+Viitorul Pod Ciurel — unul dintre marile proiecte de infrastructură ale Capitalei — a poziționat zona pentru o apreciere semnificativă a valorilor imobiliare pe termen mediu, o tendință confirmată de creșterea cererii rezidențiale în Militari-Virtutii în ultimii ani.`,
+  },
+  {
+    numar: 61,
+    slug: 'neofort-61-popesti-leordeni-case',
+    nume: 'Neofort 61 Popești-Leordeni — Case Duplex',
+    zona: 'Popești-Leordeni',
+    sector: 'Ilfov',
+    adresa: 'Zona Popești-Leordeni, Sos. Olteniței — Autostrada Soarelui, Ilfov',
+    etaje: 'P+E1+M (duplex)',
+    totalApartamente: 20,
+    tipuri: ['Vilă 4 camere duplex'],
+    status: 'vandut',
+    descriere: 'Neofort 61, 20 case duplex în Popești-Leordeni, P+E1+M, 137,58mp utili+teren 116mp+2 locuri parcare. De la 144.990€ TVA inclus. Clasă energetică maximă. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Vilă 4 camere (137.58mp utili+teren 116.42mp+2 parcări)', pret: 144990 },
+    ],
+    dotari: ['Tâmplărie Deceunink tripan 7 foi', 'Tablă acoperiș Lindab', 'Termosistem 10cm', 'Prize și întrerupătoare modulare', 'Calorifere oțel', 'Instalații PPR', 'Perete dublu între case', 'Terasă, gazon, 2 locuri parcare', 'Certificare eficiență energetică maximă', 'Toate utilitățile individuale branșate'],
+    parcare: { exterior: { disponibil: true, pret: 0 } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'transport', nume: 'Autostrada Soarelui A2', distanta: 'acces rapid' },
+      { tip: 'transport', nume: 'Artera Piața Sudului — ieșire spre A2', distanta: 'în proximitate' },
+      { tip: 'parc', nume: 'Păduri, baltă pescuit, zone verzi', distanta: 'în zonă' },
+      { tip: 'transport', nume: 'Străzi asfaltate și iluminate', distanta: 'în complex' },
+      { tip: 'mall', nume: 'Puncte de interes social multiple', distanta: 'în proximitate' },
+    ],
+    descriereCompleta: `Neofort 61 Popești-Leordeni a marcat o premieră în portofoliul Neofort IMO: primul proiect de case duplex, destinat familiilor care caută spațiu, natură și liniște fără a renunța la proximitatea față de București. 20 de case duplex P+E1+M, cu 137,58 mp utili, teren de 116,42 mp și 2 locuri de parcare amenajate — toate la prețul de 144.990€ TVA inclus. Toate cele 20 de unități au fost vândute integral.
+
+Fiecare casă dispune de teren de jur-împrejur pentru grădinărit sau relaxare în aer liber, cu suprafețe vitrate generoase pentru lumină naturală maximă, ventilație naturală la toate cele 3 băi și bucătărie. Structura robustă din beton armat 25 cm cu completare cărămidă Porotherm și radier general asigură rezistența seismică maximă. BCA-ul pentru compartimentări interioare asigură izolație fonică excelentă — important în contextul caselor duplex cu perete comun. Termosistemul EPS100 la exterior garantează confort la temperaturi extreme. Tâmplăria Deceunink tripan 7 foi, tabla de acoperiș Lindab, instalații PPR și peretele dublu între case completează specificațiile tehnice de calitate.
+
+Certificarea de eficiență energetică maximă înseamnă costuri de întreținere predictibil reduse. Toate utilitățile — apă, curent, gaze, canalizare, cablu TV, internet — branșate individual și funcționale la predare. Finisajele personalizabile dintr-o gamă variată puse la dispoziție de dezvoltator.
+
+Amplasarea la intersecția arterei de la Piața Sudului cu ieșire directă pe Autostrada Soarelui A2 face din Popești-Leordeni o localizare excelentă pentru familiile care se deplasează zilnic spre centrul Capitalei sau spre Constanța. Păduri, baltă de pescuit, zone verzi și infrastructură completă în comunitate — o oază de liniște la 15 minute de centrul Bucureștiului.`,
+  },
+  {
+    numar: 60,
+    slug: 'neofort-60-metrou-tineretului-nerva-traian',
+    nume: 'Neofort 60 Metrou Tineretului — Nerva Traian',
+    zona: 'Tineretului-Nerva Traian',
+    sector: 'Sector 3',
+    adresa: 'Bulevardul Nerva Traian, zona Metrou Timpuri Noi, Sector 3, București',
+    etaje: '2S+P+10E',
+    totalApartamente: 200,
+    tipuri: ['Garsonieră', '2 camere', '3 camere', '4 camere', 'Duplex 5 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 60, ~200 apartamente pe Bd. Nerva Traian, 2S+P+10E. Garsoniere de la 72.000€, 4 camere de la 176.600€. Metrou Timpuri Noi. Încălzire pardoseală, lift Kone/Schindler. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip 1 (38.91mp)', pret: 72000 },
+      { tip: 'Garsonieră Tip 2 (40.64mp)', pret: 75500 },
+      { tip: '2 camere Tip 1 (52.04mp)', pret: 88500 },
+      { tip: '2 camere Tip 2 (55.31mp)', pret: 93000 },
+      { tip: '2 camere Tip 3 (55.57mp)', pret: 94000 },
+      { tip: '3 camere Tip 1 (94.02mp)', pret: 141500 },
+      { tip: '3 camere Tip 2 (97.68mp)', pret: 147100 },
+      { tip: '4 camere Tip 1 (117.29mp)', pret: 176600 },
+    ],
+    dotari: ['Tâmplărie aluminiu geam termopan vată bazaltică 100mm', 'Centrală termică Immergas', 'Încălzire în pardoseală', 'Lifturi Kone sau Schindler', 'Ușă intrare metalică', 'Uși interioare Pinum', 'Casă scări marmură și inox', 'Pereți cărămidă Porotherm', 'Parchet triplu stratificat', 'Gresie-faianță import', 'Băi mobilate GROHE', 'Contorizare individuală'],
+    parcare: { subteran: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: 'acces direct' },
+      { tip: 'parc', nume: 'Parcul Tineretului', distanta: '15 min pe jos' },
+      { tip: 'mall', nume: 'Mall Vitan / Unirea Shopping Center', distanta: '15 min pe jos' },
+      { tip: 'transport', nume: 'Linii STB multiple Nerva Traian', distanta: 'în față' },
+      { tip: 'scoala', nume: 'Școli și licee renumite zona Nerva Traian', distanta: 'aproape' },
+      { tip: 'medical', nume: 'Spitale zona Timpuri Noi', distanta: 'aproape' },
+    ],
+    descriereCompleta: `Pe singurul teren rămas disponibil cu deschidere generoasă la Bulevardul Nerva Traian, la Metrou Timpuri Noi — Neofort 60 a livrat ~200 de apartamente într-un imobil de 10 etaje cu 20 de variante de compartimentări diferite, de la garsoniere de 39 mp la duplexuri de 5 camere la etajele 11-12. Toate unitățile au fost vândute integral, confirmând cererea ridicată pentru această zonă semicentrală a Sectorului 3.
+
+Prețurile la momentul comercializării: garsonieră 38,91 mp, 72.000€ + TVA; garsonieră 40,64 mp, 75.500€ + TVA; 2 camere 52,04 mp, 88.500€ + TVA; 2 camere 55,31 mp, 93.000€ + TVA; 2 camere 55,57 mp, 94.000€ + TVA; 3 camere 94,02 mp, 141.500€ + TVA; 3 camere 97,68 mp, 147.100€ + TVA; 4 camere 117,29 mp, 176.600€ + TVA. Duplexurile de la etajele 11-12 cu până la 5 camere și vedere panoramică au fost vândute la prețuri premium față de unitățile standard.
+
+Dotările tehnice au plasat Neofort 60 în segmentul superior al Sectorului 3: vată bazaltică 100mm pe fațade — superioară polistirenului clasic termic și fonic, vată bazaltică 50mm pe balcoane, tâmplărie de aluminiu cu geam termopan cu 2 foi tratate și feronerie germană. 2 lifturi de mare viteză Kone sau Schindler, marmură și inox pe casa scărilor, balustrade din profile metalice cu geam duplex pe balcoane, glafuri de parapet din marmură bej. Fiecare apartament finalizat cu parchet triplu stratificat, gresie-faianță de import, băi complet utilate și mobilate calitate GROHE, uși interioare Pinum și centrală Immergas 24kW.
+
+Metrou Timpuri Noi în imediata apropiere — acces pe M2 spre Piața Universității în 3 minute și spre Piața Unirii în 4 minute. Parcul Tineretului la 15 minute pe jos. Mall Vitan și Unirea Shopping Center la 15 minute pe jos. Poziționarea stradală pe Nerva Traian — magistrala principală a zonei — cu linii STB multiple în față.`,
+  },
+  {
+    numar: 58,
+    slug: 'neofort-58-matei-basarab-calarasilor',
+    nume: 'Neofort 58 Matei Basarab — Calea Călărașilor',
+    zona: 'Matei Basarab-Calea Călărașilor',
+    sector: 'Sector 3',
+    adresa: 'Zona Matei Basarab — Calea Călărașilor, Sector 3, București',
+    etaje: 'S+P+3E',
+    totalApartamente: 31,
+    tipuri: ['2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 58, 31 apartamente S+P+3E în zona Matei Basarab-Calea Călărașilor, câteva minute de Piața Unirii. 2-3 camere cu grădini și curți de la 83.400€. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: '2 camere Tip A (55.60mp)', pret: 83400 },
+      { tip: '2 camere Tip B (55.60mp+balcon 20.5mp)', pret: 95700 },
+      { tip: '2 camere Tip C (66.57mp+balcon 4.72mp)', pret: 98580 },
+      { tip: '2 camere Tip D (55.15mp+curte 47mp)', pret: 106488 },
+      { tip: '3 camere Tip A (82mp)', pret: 123000 },
+      { tip: '3 camere Tip B (92.50mp+balcon 10mp)', pret: 144752 },
+      { tip: '3 camere Tip C (89.52mp+curte 80mp)', pret: 174989 },
+      { tip: '3 camere Tip D (79.66mp+curte 114mp)', pret: 180374 },
+      { tip: '3 camere Tip E (79.84mp+curte 123mp)', pret: 185818 },
+      { tip: '3 camere Tip F (94.86mp+curte 181mp)', pret: 240854 },
+    ],
+    dotari: ['Centrală de apartament cu senzori gaz', 'Contorizare gaz/apă/electricitate', 'Izolație polistiren 100mm', 'Cărămidă Porotherm 250mm exterior/115mm interior', 'Ușă exterioară metalică MULTILOCK', 'Uși interior furniruite', 'Tâmplărie PVC 6 camere', 'Obiecte sanitare Italia', 'Gresie-faianță Spania/Italia', 'Instalație electrică modulară', 'Finisaje personalizate'],
+    parcare: { subteran: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Piața Muncii (M3)', distanta: 'acces rapid' },
+      { tip: 'metrou', nume: 'Metrou Piața Unirii (M1/M3)', distanta: 'câteva minute' },
+      { tip: 'transport', nume: 'Bd. Decebal / Piața Alba Iulia', distanta: 'acces rapid' },
+      { tip: 'mall', nume: 'Centre comerciale Calea Călărașilor', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Zonă rezidențială centrală', distanta: 'în zonă' },
+      { tip: 'scoala', nume: 'Licee și universități zona centrală', distanta: 'aproape' },
+    ],
+    descriereCompleta: `La câteva minute de Piața Unirii, în zona Matei Basarab — Calea Călărașilor, Neofort 58 a livrat 31 de apartamente de 2 și 3 camere cu o trăsătură distinctivă: curți private de la 47 mp până la 181 mp la mai multe tipuri de unități — o raritate absolută în zona semicentrală a Sectorului 3. Toate unitățile au fost vândute integral.
+
+Prețurile la momentul comercializării acoperă o gamă largă: 2 camere 55,60 mp fără curte, 83.400€ + TVA; 2 camere cu balcon 20,5 mp, 95.700€ + TVA; 2 camere cu curte 47 mp, 106.488€ + TVA; 3 camere 82 mp, 123.000€ + TVA; 3 camere cu curte 80 mp, 174.989€ + TVA; 3 camere cu curte 114 mp, 180.374€ + TVA; 3 camere cu curte 123 mp, 185.818€ + TVA; 3 camere 94,86 mp cu curte 181 mp, 240.854€ + TVA. Prețul per mp de curte inclusă în contract — 150-250€/mp — a reprezentat o valoare adăugată concretă față de apartamentele fără exterior privat.
+
+Structura pe radier general, diafragme și grinzi de beton, cărămidă Porotherm 250mm la exterior și 115mm la interior, izolație polistiren 100mm. Ușă metalică MULTILOCK, tâmplărie PVC 6 camere cu geam termoizolant Low-E, obiecte sanitare Italia, gresie-faianță Spania/Italia, instalație electrică modulară, centrală de apartament cu senzori de gaz. Conceptul de bază a fost consistent: zonă centrală, preț corect, compartimentare funcțională, bucătărie închisă, regim de înălțime mic.
+
+Metrou Piața Muncii și Metrou Piața Unirii accesibile rapid. Bulevardul Decebal și Piața Alba Iulia pentru conectivitate rutieră. Centrul Vechi la câteva minute.`,
+  },
+  {
+    numar: 57,
+    slug: 'neofort-57-tepes-voda-popa-nan-traian',
+    nume: 'Neofort 57 Tepeș Vodă — Popa Nan — Traian',
+    zona: 'Tepeș Vodă-Traian',
+    sector: 'Sector 2',
+    adresa: 'Strada Tepeș Vodă 37-39, zona Popa Nan — Traian, Sector 2, București',
+    etaje: '2S+P+5E+6ER',
+    totalApartamente: 64,
+    tipuri: ['Garsonieră', 'Studio', '2 camere', '3 camere', '4 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 57, 64 apartamente pe str. Tepeș Vodă 37-39, Sector 2. Garsoniere de la 68.000€, 4 camere de la 215.000€, 2 lifturi sticlă 360°, 67 locuri parcare, pază perimetru. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip H (34mp util/45mp construit)', pret: 68000 },
+      { tip: 'Studio (60mp util/75mp construit)', pret: 92000 },
+      { tip: '2 camere (52mp util/67mp construit)', pret: 95000 },
+      { tip: '3 camere (76mp util/92mp construit)', pret: 128000 },
+      { tip: '4 camere (140mp util/182mp construit)', pret: 215000 },
+      { tip: 'Loc parcare subsol/demisol', pret: 15000 },
+    ],
+    dotari: ['Centrală de apartament Ariston', 'Izolație termică exterior 100mm', 'Uși interioare celulare Pinum', '2 lifturi sticlă 360° viteză', 'Ușă exterioară metalică Pinum', 'Parchet laminat 10mm', 'Geamuri Saint Gobain 3 foi', 'Tâmplărie PVC 7 camere Salamander', 'Pereți cărămidă Porotherm 25cm exterior/10cm interior', 'Rezervă intangibilă apă + Adăpost ALA', 'Pază perimetru circuit închis', 'Casă scări design iluminare naturală cupolă'],
+    parcare: { subteran: { disponibil: true, pret: 15000 } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Piața Muncii (M3)', distanta: 'câteva minute' },
+      { tip: 'metrou', nume: 'Metrou Unirii (M1/M3)', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Zonă istorică case și vile Tepeș Vodă', distanta: 'în zonă' },
+      { tip: 'transport', nume: 'Linii STB multiple Traian/Popa Nan', distanta: 'în față' },
+      { tip: 'mall', nume: 'Centre comerciale zona centrală', distanta: 'aproape' },
+      { tip: 'scoala', nume: 'Licee și universități zona Unirii', distanta: 'aproape' },
+    ],
+    descriereCompleta: `Pe strada Tepeș Vodă 37-39, într-o zonă istorică de case și vile din Sectorul 2, la câteva minute de Metrou Piața Muncii și Metrou Unirii — Neofort 57 a livrat 64 de apartamente cu o arhitectură distinctivă: casă scări cu iluminare naturală din zona cupolei și 2 lifturi de viteză cu pereți din sticlă ce permit vedere completă la 360 de grade — elemente de design rar întâlnite în proiectele rezidențiale din această zonă. Toate unitățile vândute integral.
+
+Prețurile la momentul comercializării: garsonieră 34 mp util, 45 mp construit, 68.000€ + TVA; studio 60 mp util, 75 mp construit, 92.000€ + TVA; 2 camere 52 mp util, 67 mp construit, 95.000€ + TVA; 3 camere 76 mp util, 92 mp construit, 128.000€ + TVA; 4 camere 140 mp util, 182 mp construit, 215.000€ + TVA. Loc parcare în subsol și demisol 15.000€ + TVA. 67 locuri de parcare subterane disponibile — o dotare rară pentru un proiect de 64 de unități.
+
+Proiectul include dotări tehnice de siguranță superioare: rezervă intangibilă de apă potabilă, adăpost ALA autorizat ISU, pază perimetru cu circuit închis. Toate cerințele antiseismice respectate: amprentă mare de bloc, regim de înălțime mediu, structură cadre-stâlpi-diafragme din beton armat. Pereți Porotherm 25cm la exterior și 10cm la interior, tâmplărie Salamander 7 camere cu 3 foi Saint Gobain, centrală Ariston individuală. Rezervarea cu 2.000€/apartament fixă indiferent de tipologie — o politică de prețuri transparentă.
+
+Zona Tepeș Vodă-Traian-Popa Nan combină caracterul rezidențial liniștit de case și vile cu accesul rapid la metroul M3 și la centrul Capitalei — o combinație valoroasă confirmată de cererea ridicată pentru toate tipologiile proiectului.`,
+  },
+  {
+    numar: 54,
+    slug: 'neofort-54-vitan-mihai-bravu',
+    nume: 'Neofort 54 Vitan — Mihai Bravu',
+    zona: 'Vitan-Mihai Bravu',
+    sector: 'Sector 3',
+    adresa: 'Zona Mall Vitan — Bulevardul Burebista, Sector 3, București',
+    etaje: 'P+4E',
+    totalApartamente: 14,
+    tipuri: ['Garsonieră', '2 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 54, 14 apartamente P+4E în zona Mall Vitan-Mihai Bravu. Garsonieră 33mp 57.850€, 2 camere 59mp de la 95.550€ TVA inclus. Metrou Dristor 5min, Mall Vitan 5min. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră (33mp)', pret: 57850 },
+      { tip: '2 camere Tip A (59mp)', pret: 95550 },
+      { tip: '2 camere Tip B (59mp)', pret: 98500 },
+    ],
+    dotari: ['Centrală apartament Ariston', 'Contorizare gaz/apă/electricitate', 'Izolație polistiren 100mm cărămidă Porotherm', 'Ușă exterioară metalică', 'Uși interior furniruite', 'Tâmplărie PVC 5 camere Rehau imitație lemn', 'Glafuri exterioare aluminiu', 'Obiecte sanitare Romstal', 'Gresie-faianță Spania/Italia', 'Parchet laminat', 'Spații comune granit integral', 'Finisaje la alegere'],
+    parcare: { exterior: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Dristor (M2)', distanta: '5 min pe jos' },
+      { tip: 'mall', nume: 'Mall Vitan', distanta: '5 min pe jos' },
+      { tip: 'transport', nume: 'Bd. Burebista — STB multiple', distanta: 'în față' },
+      { tip: 'parc', nume: 'Zonă verde liniștită plan secund', distanta: 'în zonă' },
+      { tip: 'mall', nume: 'Supermarketuri multiple', distanta: 'aproape' },
+    ],
+    descriereCompleta: `Cinci minute de mers pe jos până la Metrou Dristor și cinci minute până la Mall Vitan — Neofort 54 a ocupat una dintre cele mai convenabile localizări din estul Sectorului 3 pentru un proiect de 14 apartamente compact și bine executat. Retras în planul doi stradal față de Bulevardul Burebista, proiectul a oferit liniște și intimitate fără a sacrifica accesibilitatea. Toate unitățile vândute integral.
+
+Prețurile la momentul comercializării: garsonieră 33 mp, 57.850€ TVA inclus; 2 camere Tip A, 59 mp, 95.550€ TVA inclus; 2 camere Tip B, 59 mp, 98.500€ TVA inclus. Prețurile TVA inclus au simplificat calculul final pentru cumpărători — o practică transparentă a Neofort IMO.
+
+Construcția din cadre de beton cu zidărie Porotherm și termosistem polistiren 100 cm a asigurat calitate pe termen lung. Tâmplăria PVC Rehau 5 camere imitație lemn cu glafuri exterioare de aluminiu, obiecte sanitare Romstal, gresie și faianță Spania/Italia, spații comune integral placate cu granit. Fiecare apartament finalizat la cheie cu finisaje la alegere, centrală Ariston individuală și contorizare separată completă.
+
+Dimensiunea compactă de 14 unități pe 4 etaje cu 3 apartamente pe nivel a asigurat o comunitate de locatari restrânsă, costuri comune controlabile și liniștea unui imobil mic. Metrou Dristor la 5 minute pe jos — acces pe M2 spre Piața Universității în 5 minute. Mall Vitan, Park Lake Plaza la 1,5 km, Kaufland, Mega Image și Auchan în proximitate imediată. Piața IOR la 10 minute pe jos.`,
+  },
+  {
+    numar: 53,
+    slug: 'neofort-53-unirii-carol',
+    nume: 'Neofort 53 Unirii — Camera de Comerț',
+    zona: 'Unirii-Camera de Comerț',
+    sector: 'Sector 4',
+    adresa: 'Zona Unirii — Camera de Comerț, vecin Parcul Tineretului, Sector 4, București',
+    etaje: 'D+P+3E',
+    totalApartamente: 50,
+    tipuri: ['Garsonieră', '2 camere', '3 camere', '4 camere Duplex', '5 camere Duplex'],
+    status: 'vandut',
+    descriere: 'Neofort 53, 50 apartamente D+P+3E lângă Parcul Tineretului și Palatul Parlamentului. Garsoniere 105.000€, 5 camere Duplex 450.000€. Metrou Unirii 1km. Parcare la demisol și parter. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip 1 (45.20mp)', pret: 105000 },
+      { tip: 'Garsonieră Tip 2 (50mp)', pret: 110000 },
+      { tip: '2 camere Tip 1 (73.15mp)', pret: 145000 },
+      { tip: '2 camere Tip 2 (71.50mp)', pret: 148000 },
+      { tip: '2 camere Tip 3 (76.25mp)', pret: 153000 },
+      { tip: '3 camere Tip 1 (98.35mp)', pret: 194000 },
+      { tip: '3 camere Tip 2 (105.90mp)', pret: 205000 },
+      { tip: '3 camere Duplex (176.45mp)', pret: 305000 },
+      { tip: '4 camere Duplex (248.95mp)', pret: 398000 },
+      { tip: '5 camere Duplex (285mp)', pret: 450000 },
+    ],
+    dotari: ['Baie complet echipată', 'Centrală de apartament cu senzori gaz', 'Tâmplărie PVC Gealan 5 camere 3 foi sticlă', 'Ușă intrare metalică MDF', 'Uși interior celulare', 'Instalații PPR și obiecte sanitare', 'Izolație polistiren 100mm', 'Contorizare individuală', 'Parchet laminat 10mm + gresie-faianță', 'Lift Schindler per corp', 'Parcare demisol și parter', 'Finisaje personalizate'],
+    parcare: { subteran: { disponibil: true, pret: null }, exterior: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'parc', nume: 'Parcul Tineretului', distanta: '900m pietonal' },
+      { tip: 'parc', nume: 'Palatul Parlamentului', distanta: 'în proximitate' },
+      { tip: 'metrou', nume: 'Metrou Unirii (M1/M3)', distanta: '1000m' },
+      { tip: 'transport', nume: 'STB multiple max 200-300m', distanta: 'în față' },
+      { tip: 'business', nume: 'Camera de Comerț și Industrie', distanta: 'în vecinătate' },
+      { tip: 'medical', nume: 'Spitale zona Unirii', distanta: 'aproape' },
+    ],
+    descriereCompleta: `La 900 de metri de Parcul Tineretului, la 1000 de metri de Metrou Unirii și la maxim 200-300 de metri de orice mijloc de transport — Neofort 53 Unirii-Camera de Comerț a oferit 50 de apartamente D+P+3E într-o zonă mixtă de case și blocuri din Sectorul 4, retras pe o stradă liniștită față de bulevardele principale. Proiect definitiv, contracte semnabile imediat. Toate unitățile vândute integral.
+
+Tipologia a acoperit un spectru excepțional de larg: garsonieră 45,20 mp, 105.000€ + TVA; garsonieră 50 mp, 110.000€ + TVA; 2 camere 73,15 mp, 145.000€ + TVA; 2 camere 76,25 mp, 153.000€ + TVA; 3 camere 98,35 mp, 194.000€ + TVA; 3 camere 105,90 mp, 205.000€ + TVA; 3 camere Duplex 176,45 mp, 305.000€ + TVA; 4 camere Duplex 248,95 mp, 398.000€ + TVA; 5 camere Duplex 285 mp, 450.000€ + TVA. Duplexurile cu 176-285 mp au reprezentat soluții rezidențiale rare la această localizare față de Piața Unirii și Palatul Parlamentului.
+
+Structura pe cadre și stâlpi din beton, pereți exteriori și între apartamente cărămidă Porotherm 300mm, izolație polistiren 100mm, tâmplărie Gealan 5 camere cu 3 foi de sticlă termoizolatoare, încălzire prin pardoseală, lift Schindler per corp, parcare la demisol și parter.
+
+Parcul Tineretului la 900m pietonal — unul dintre cele mai mari și mai complete parcuri din București. Palatul Parlamentului în vecinătate — o raritate arhitecturală unică. Metrou Unirii — nodul M1+M3 — la 1000m. STB la maxim 300m în orice direcție.`,
+  },
+  {
+    numar: 52,
+    slug: 'neofort-52-calarasilor-hyperion',
+    nume: 'Neofort 52 Calea Călărașilor — Hyperion',
+    zona: 'Calea Călărașilor-Hyperion',
+    sector: 'Sector 3',
+    adresa: 'Zona Calea Călărașilor — Bd. Decebal — Hyperion, Sector 3, București',
+    etaje: 'S+D+P+10E',
+    totalApartamente: 160,
+    tipuri: ['Garsonieră', '2 camere', '3 camere', '4 camere', 'Penthouse'],
+    status: 'vandut',
+    descriere: 'Neofort 52, 160 apartamente S+D+P+10E pe Calea Călărașilor, Metrou Muncii 6-7min. Centru SPA 2000mp la parter cu piscină semiolimpică. 6 Penthouse-uri. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsoniere și apartamente diverse', pret: 0 },
+    ],
+    dotari: ['2 lifturi 6 persoane până în subsol', 'Pereți Porotherm 30cm exterior/25cm între apt./12cm interior', 'Fațadă polistiren ignifugat 100mm + tencuială structurată', 'Tâmplărie PVC tripan', 'Înălțime plafon 3,20m', 'Obiecte sanitare Romstal', 'Instalație beton armat dual cadre+stâlpi', 'Acces parcare degivrat', 'Centru SPA 2000mp la parter — sală forță, kangoo, cardio, aerobic, saună, piscină semiolimpică'],
+    parcare: { subteran: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Piața Muncii (M3)', distanta: '6-7 min pe jos / 1 statie tramvai' },
+      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '1-2 min pe jos' },
+      { tip: 'mall', nume: 'Restaurant La Mama', distanta: '1-2 min pe jos' },
+      { tip: 'transport', nume: 'STB în față + linii tramvai', distanta: 'în față' },
+      { tip: 'transport', nume: 'Bd. Decebal acces rapid centru', distanta: 'acces direct' },
+      { tip: 'sport', nume: 'Centru SPA intern — piscină semiolimpică', distanta: 'în imobil' },
+    ],
+    descriereCompleta: `Neofort 52 Calea Călărașilor-Hyperion este cel mai mare proiect rezidențial din portofoliul Neofort IMO: 160 de apartamente, 10 etaje, 6 penthouse-uri și un element unic în oferta rezidențială din Sectorul 3 — un Centru SPA de peste 2000 mp la parter, cu sală de forță, kangoo, cardio, aerobic, saună și piscină semiolimpică, disponibil pentru toți rezidenții. Toate unitățile vândute integral.
+
+Sistemul constructiv dual de cadre de beton armat și stâlpi, pereți Porotherm 30cm la exterior, 25cm între apartamente și 12cm la interior, fațadă anvelopată cu polistiren expandat ignifugat 100mm și tencuială structurată asigură rezistența și eficiența energetică pe termen lung. Înălțimea plafonului de 3,20m — superioară standardului de 2,70-2,80m — conferă apartamentelor o spațialitate vizibil superioară. Cele 2 lifturi de 6 persoane care coboară până în subsol și accesul în parcare cu degivrare completează infrastructura imobilului.
+
+Metrou Piața Muncii la 6-7 minute de mers pe jos sau la o stație de tramvai — conectivitate M3 directă. Universitatea Hyperion și restaurantul La Mama la 1-2 minute pe jos — localizare cu cerere ridicată de chirie. Stații STB și tramvai în față pentru acces în toate direcțiile. Bulevardul Decebal asigură accesul rapid spre centrul Capitalei.
+
+Investitorii care au achiziționat garsoniere și apartamente de 2 camere în Neofort 52 pentru randament în chirie au beneficiat de unul dintre cele mai bune rapoarte localizare-preț din Sectorul 3 al Bucureștiului — zona Calea Călărașilor cu Metrou Muncii la 7 minute și Hyperion la 2 minute a generat cerere constantă de chirie din partea studenților și tinerilor profesioniști.`,
+  },
+  {
+    numar: 51,
+    slug: 'neofort-51-dristor-metrou',
+    nume: 'Neofort 51 Dristor — Metrou Dristor',
+    zona: 'Dristor-Baba Novac',
+    sector: 'Sector 3',
+    adresa: 'Strada Dristorului, zona Baba Novac — Metrou Dristor 1, Sector 3, București',
+    etaje: 'S+P+2E+M',
+    totalApartamente: 8,
+    tipuri: ['Garsonieră', '2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 51 Faza II, 8 apartamente S+P+2E+M la 3 minute de Metrou Dristor 1. Garsoniere de la 52.615€, 2 camere de la 91.180€. Exclusiv 2 apartamente pe etaj. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip A (29.05mp) TVA inclus', pret: 62122 },
+      { tip: 'Garsonieră Tip B (29.39mp)', pret: 52615 },
+      { tip: 'Garsonieră Tip D (25.54mp+curte 38mp)', pret: 62200 },
+      { tip: '2 camere Tip A (49.09mp)', pret: 91180 },
+      { tip: '2 camere Tip B (50.74mp)', pret: 93537 },
+    ],
+    dotari: ['Baie complet mobilată și utilată materiale Spania/Italia', 'Centrală de apartament cu senzori gaz', 'Tâmplărie PVC 5 camere', 'Ușă intrare metalică + uși interior', 'Compartimentare exclusiv cărămidă Porotherm 25cm exterior/11.5cm interior', 'Izolație polistiren 10cm barieră termică 38cm total', 'Contorizare individuală apă/gaz/curent', 'Zero taxe mentenanță adiacente', 'Parcare subsol 10.000€+TVA'],
+    parcare: { subteran: { disponibil: true, pret: 10000 } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Dristor 1 (M2)', distanta: '3 min pe jos' },
+      { tip: 'mall', nume: 'Mall Vitan / Park Lake Plaza', distanta: '1.5km' },
+      { tip: 'mall', nume: 'Kaufland / Mega Image / Auchan / KFC / McDonald\'s', distanta: 'câteva sute de metri' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '10 min pe jos' },
+      { tip: 'transport', nume: 'Linii RATB 123, 135, troleibuz 79, tramvai 34', distanta: 'în față' },
+      { tip: 'mall', nume: 'Piața Agroalimentară Râmnicu Sărat', distanta: '8 min pe jos' },
+    ],
+    descriereCompleta: `La 3 minute de mers pe jos de Metrou Dristor 1 (M2), pe o stradă liniștită în spatele blocurilor de la stație — Neofort 51 Faza II a oferit 8 apartamente exclusive cu câte 2 unități pe etaj: intimitate maximă, costuri comune minime și acces instant la metrou. Toate unitățile vândute integral.
+
+Prețurile la momentul comercializării: garsonieră Tip B, 29,39 mp, 52.615€ + TVA; garsonieră Tip A, 29,05 mp, 62.122€ TVA inclus; garsonieră Tip D, 25,54 mp + curte proprie 38 mp, 62.200€ + TVA; 2 camere Tip A, 49,09 mp, 91.180€ + TVA; 2 camere Tip B, 50,74 mp, 93.537€ + TVA. Parcare la subsol 10.000€ + TVA. Garsoniera cu curte de 38 mp — un element rar la prețul respectiv, care a generat interes imediat.
+
+Construcția integral din cărămidă Porotherm — 25cm la exterior și 11,5cm la interior, completată cu polistiren 10cm — creează o barieră termică de 38cm la peretele exterior, superioară standardelor minime. Zero rigips sau BCA — izolație fonică reală între toate spațiile. Contorizare individuală completă și zero taxe de mentenanță adiacente.
+
+Metrou Dristor 1 la 3 minute pe jos — M2 spre Piața Universității în 5 minute și spre Piața Unirii în 6 minute. Mall Vitan și Park Lake Plaza la 1,5 km. Kaufland, Mega Image, Auchan, KFC și McDonald's la câteva sute de metri. Parcul IOR la 10 minute pe jos. Linii RATB 123 (Piața Unirii), 135 (Piața Romană), troleibuz 79 (Universitate) și tramvai 34 (Gara de Nord-Piața Victoriei-Berceni) în fața imobilului — conectivitate completă fără metrou.`,
+  },
+  {
+    numar: 48,
+    slug: 'neofort-48-bucurestii-noi-metrou-jiului',
+    nume: 'Neofort 48 Bucureștii Noi — Metrou Jiului',
+    zona: 'Bucureștii Noi-Jiului',
+    sector: 'Sector 1',
+    adresa: 'Zona Sector 1, Parc Bazilescu — Metrou Jiului, București',
+    etaje: 'S+P+2+M',
+    totalApartamente: 14,
+    tipuri: ['Studio', '2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 48 boutique, 14 apartamente S+P+2+M lângă Parc Bazilescu și Metrou Jiului, Sector 1. Studio de la 85.000€, 3 camere+curte 60mp de la 194.000€. Termen martie 2025. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Studio (39.37mp)', pret: 85000 },
+      { tip: '2 camere cu terasă (79.39mp)', pret: 115000 },
+      { tip: '2 camere cu terasă (92.42mp)', pret: 139000 },
+      { tip: '2 camere cu terasă (94.42mp)', pret: 139000 },
+      { tip: '3 camere (76.28mp)', pret: 145000 },
+      { tip: '3 camere+curte 60mp (108.40mp)', pret: 194000 },
+    ],
+    dotari: ['Cadre beton armat + cărămidă Porotherm 25cm', 'Compartimentare interior cărămidă Porotherm 10cm', 'Termoizolație polistiren 10cm', 'Șapă mecanizată 10cm izolare termică și fonică', 'Tâmplărie PVC 6 camere imitație lemn 3 foi sticlă', 'Centrală termică condensare', 'Obiecte sanitare Romstal', 'Gresie-faianță-parchet Italia/Spania', 'Uși interior furniruite', 'Piatră naturală casă scări', 'Parcare subterană 10.000€+TVA inclus'],
+    parcare: { subteran: { disponibil: true, pret: 10000 } },
+    broker: 'Svetlana CALUTU',
+    brokerTel: '0752443434',
+    brokerFoto: '/brokeri/svetlana-calutu.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Jiului (M4)', distanta: 'aproape' },
+      { tip: 'metrou', nume: 'Metrou Bazilescu (M4)', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Parcul Bazilescu', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Linii STB Bucureștii Noi', distanta: 'acces rapid' },
+      { tip: 'mall', nume: 'Spații comerciale zonă nord', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Acces rapid centru', distanta: 'facil' },
+    ],
+    descriereCompleta: `Neofort 48 Bucureștii Noi — un proiect boutique de 14 apartamente în Sectorul 1, în proximitatea Parcului Bazilescu și a Metroul Jiului (M4), cu tipologii care includ apartamente de 3 camere cu curte privată de 60 mp — o raritate în oferta de nord a Capitalei. Toate unitățile vândute integral.
+
+Prețurile la momentul comercializării: studio 39,37 mp, 85.000€ + TVA; 2 camere cu terasă 79,39 mp, 115.000€ + TVA; 2 camere cu terasă 92,42 mp, 139.000€ + TVA; 2 camere cu terasă 94,42 mp, 139.000€ + TVA; 3 camere 76,28 mp, 145.000€ + TVA; 3 camere cu curte proprie 60 mp, 108,40 mp, 194.000€ + TVA, parcare inclusă în preț. Parcare subterană separată 10.000€ + TVA.
+
+Sistemul constructiv de calitate superioară: cadre de beton armat cu cărămidă Porotherm 25cm, compartimentare interior Porotherm 10cm, șapă mecanizată de 10cm pentru izolare termică și fonică excelentă, termoizolație polistiren 10cm. Tâmplărie PVC 6 camere imitație lemn cu 3 foi de sticlă, centrală în condensare, obiecte sanitare Romstal, gresie-faianță-parchet Italia/Spania, piatră naturală pe casa scărilor. Proiectul este gestionat de Svetlana CALUTU, broker zona Centrală cu experiență de 18 ani.
+
+Metrou Jiului (M4) și Metrou Bazilescu asigurau accesul rapid la centrul Capitalei. Parcul Bazilescu pentru relaxare zilnică. Zona Bucureștii Noi-Chitila-Pajura-Domenii din Sectorul 1 oferă un cadru rezidențial liniștit, apreciat de familii și profesioniști. Consultanță bancară gratuită, taxe notariale reduse pentru clienții Neofort.`,
+  },
+  {
+    numar: 47,
+    slug: 'neofort-47-aviatiei-baneasa-boutique',
+    nume: 'Neofort 47 Aviației — Băneasa Boutique',
+    zona: 'Aviației-Băneasa',
+    sector: 'Sector 1',
+    adresa: 'Zona Aviației — Pod Băneasa — Bd. Aerogării — Medicover, Sector 1, București',
+    etaje: 'S+P+2+M',
+    totalApartamente: 4,
+    tipuri: ['2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 47 boutique exclusiv, 4 apartamente S+P+2+M în zona Aviației-Băneasa-Medicover. Un apartament pe etaj. 3 camere cu curte 33mp de la 320.000€, mansardă 2 camere+terasă 25mp 180.000€ TVA inclus. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: '3 camere parter (78mp+curte 33mp)', pret: 320000 },
+      { tip: '3 camere etaj 1-2 (88mp+balcon 3mp)', pret: 245000 },
+      { tip: '2 camere mansardă (51mp+terasă 25mp) TVA inclus', pret: 180000 },
+    ],
+    dotari: ['Centrală apartament Viessmann', 'Tâmplărie PVC Salamander 5 camere geam tratat', 'Feronerie Roto', 'Instalații electrice cupru', 'Ușă metalică multipunct', 'Uși interior Pinum', 'Încălzire în pardoseală', 'Contorizare individuală', 'Parchet trafic intens 12mm', 'Termosistem polistiren 100mm', 'Precablaj AC', 'Lift Kronlift', 'Parcare subterană 15.000€+TVA', 'Finisaje premium personalizate piatră naturală/granit spații comune'],
+    parcare: { subteran: { disponibil: true, pret: 15000 } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'medical', nume: 'Medicover', distanta: 'în vecinătate' },
+      { tip: 'transport', nume: 'Bd. Aerogării / Pod Băneasa', distanta: 'acces rapid' },
+      { tip: 'mall', nume: 'Băneasa Shopping City', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Aeroport Otopeni / DN1', distanta: 'acces rapid' },
+      { tip: 'parc', nume: 'Zona Aviației — business și rezidențial premium', distanta: 'în zonă' },
+      { tip: 'metrou', nume: 'Metrou Aurel Vlaicu / Pipera', distanta: 'acces facil' },
+    ],
+    descriereCompleta: `Patru apartamente. Un apartament pe etaj. Lângă Medicover, în zona Aviației-Băneasa — aceasta este Neofort 47, cel mai exclusivist proiect boutique din portofoliul Neofort IMO alături de Neofort 68. Intimitate absolută, finisaje premium personalizate și o localizare în nordul Capitalei apreciat de executivi și expats. Toate cele 4 unități vândute integral.
+
+Prețurile la momentul comercializării: apartament 3 camere la parter, 78 mp util + curte privată 33 mp, 320.000€ + TVA; apartament 3 camere la etajele 1 și 2, 88 mp util + balcon 3 mp, 245.000€ + TVA; apartament 2 camere la mansardă, 51 mp util + terasă 25 mp, 180.000€ TVA inclus. Parcare subterană 15.000€ + TVA.
+
+Dotările sunt la nivelul maxim disponibil: centrală Viessmann individuală — brandul premium de referință în industria de încălzire, încălzire în pardoseală, tâmplărie PVC Salamander 5 camere cu geam tratat Planitherm, feronerie Roto, instalații electrice din cupru, ușă metalică multipunct, uși interioare Pinum, parchet trafic intens 12mm, lift Kronlift, precablaj AC, termosistem polistiren 100mm, piatră naturală și granit în spațiile comune. Finisaje premium integral personalizabile.
+
+Zona Aviației-Băneasa concentrează cele mai valoroase adrese rezidențiale și de business din nordul Capitalei. Medicover în vecinătate imediată. Băneasa Shopping City în apropiere. Aeroportul Otopeni accesibil rapid pe DN1 — relevant pentru clienții cu deplasări frecvente. Metrou Aurel Vlaicu și Pipera pentru conectivitate. Hotel Ramada, Fenicia Grand și zona Cartierului Francez în proximitate. Consultanță bancară gratuită, suport specializat gratuit pentru finanțare.`,
+  },
+  {
+    numar: 46,
+    slug: 'neofort-46-lacul-tei-parcul-tei',
+    nume: 'Neofort 46 Lacul Tei — Parcul Tei',
+    zona: 'Lacul Tei-Parcul Tei',
+    sector: 'Sector 2',
+    adresa: 'Zona Lacul Tei — Bulevardul Lacul Tei, Sector 2, București',
+    etaje: 'S+P+3E+M',
+    totalApartamente: 20,
+    tipuri: ['2 camere', '3 camere', '3 camere Duplex'],
+    status: 'vandut',
+    descriere: 'Neofort 46 Faza III, 20 apartamente S+P+3E+M în zona Lacul Tei. 2 camere 47-52mp de la 94.000€, 3 camere Duplex 91mp 179.000€. Centrală Vaillant, Marazzi, Grohe. AC inclus. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: '2 camere (47.60mp)', pret: 94000 },
+      { tip: '2 camere (47.90mp)', pret: 95000 },
+      { tip: '2 camere (47.00mp)', pret: 94800 },
+      { tip: '2 camere (48.70mp)', pret: 97400 },
+      { tip: '2 camere+bucătărie mobilată (48.00mp)', pret: 98500 },
+      { tip: '2 camere (52.10mp)', pret: 104000 },
+      { tip: '2 camere+terasă (71.80mp)', pret: 115000 },
+      { tip: '3 camere Duplex (91.20mp)', pret: 179000 },
+      { tip: '3 camere (102.00mp)', pret: 209000 },
+    ],
+    dotari: ['Centrală termică condensare Vaillant', 'Uși metalice multipunct', 'Uși interioare furniruite Bella Casa', 'Parchet laminat 12mm', 'Gresie și faianță MARAZZI', 'Băi cu obiecte sanitare Cersanit/Teuco', 'Baterii baie GROHE', 'Videointerfon', 'Încălzire în pardoseală', 'Aparat AC inclus standard', 'Tâmplărie PVC SALAMANDER 7 camere', 'Compartimentare exclusiv cărămidă', 'Contorizare individuală', 'Parcare subterană 15.000€ TVA inclus', 'Boxe 3.900€+TVA'],
+    parcare: { subteran: { disponibil: true, pret: 15000 } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'parc', nume: 'Parcul Tei / Lacul Tei', distanta: 'în zonă' },
+      { tip: 'metrou', nume: 'Metrou Ștefan cel Mare / Obor (M2)', distanta: 'acces rapid' },
+      { tip: 'mall', nume: 'Rețea comercială complexă zonă', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Bd. Lacul Tei — STB multiple', distanta: 'acces rapid' },
+      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: 'aproape' },
+      { tip: 'business', nume: 'Zone business Nord București', distanta: 'acces rapid' },
+    ],
+    descriereCompleta: `Neofort 46 Faza III Lacul Tei a combinat localizarea verde din zona Lacului Tei cu dotări tehnice de nivel premium rar întâlnite la prețurile practicate: aparatul de aer condiționat inclus standard în prețul fiecărui apartament, centrala Vaillant — unul dintre brandurile premium din industria de încălzire, gresie și faianță MARAZZI, baterii GROHE și parchet Kronotex 12mm. Toate cele 20 de unități au fost vândute integral.
+
+Prețurile la momentul comercializării: 2 camere 47-52 mp de la 94.000€ + TVA; 2 camere cu terasă 71,80 mp, 115.000€ + TVA; 3 camere Duplex 91,20 mp, 179.000€ + TVA; 3 camere 102 mp, 209.000€ + TVA. Parcare subterană 15.000€ TVA inclus, boxe 3.900€ + TVA. Un apartament de 2 camere a fost livrat cu bucătăria mobilată inclusă în preț — un avantaj concret de 3.000-5.000€ față de alternativele fără mobilier.
+
+Construcție de calitate: cadre de beton și cărămidă Porotherm 25cm, compartimentare interior Porotherm 12cm, șapă mecanizată 10cm, polistiren 10cm, tâmplărie PVC SALAMANDER 7 camere imitație lemn cu 3 foi de sticlă — izolație termică și fonică superioară, finalizare noiembrie 2021. Videointerfon, ușă metalică multipunct, uși interioare Bella Casa Premium, piatră naturală pe casa scărilor.
+
+Lacul Tei și Parcul Tei în zonă pentru recreere zilnică. Metrou Ștefan cel Mare și Obor (M2) accesibile rapid pentru conectivitate cu întreg Bucureștiul. Rețeaua comercială completă pe Bulevardul Lacul Tei. Parcul Plumbuita în apropiere. Accesul rapid spre zona de business Nord prin noul pasaj Doamna Ghica.`,
+  },
+  {
+    numar: 45,
+    slug: 'neofort-45-constantin-brancoveanu',
+    nume: 'Neofort 45 Constantin Brâncoveanu',
+    zona: 'Constantin Brâncoveanu',
+    sector: 'Sector 4',
+    adresa: 'Zona Bd. Constantin Brâncoveanu — Al. Obregia — Metalurgiei, Sector 4, București',
+    etaje: 'P+4E',
+    totalApartamente: 25,
+    tipuri: ['Studio', '2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 45, P+4E la convergența Brâncoveanu-Obregia-Metalurgiei, Sector 4. 2 camere de la 59.290€, 3 camere de la 70.769€. Metrou Constantin Brâncoveanu, Mall Grand Arena. Clasa energetică maximă. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Studio (56.58mp)', pret: 66365 },
+      { tip: '2 camere (53.89mp)', pret: 59290 },
+      { tip: '2 camere (64.90mp)', pret: 65334 },
+      { tip: '3 camere (71.26mp)', pret: 70769 },
+      { tip: '3 camere (81.59mp)', pret: 82099 },
+    ],
+    dotari: ['Sistem încălzire în pardoseală', 'Lift silențios', 'Ferestre tip tripan', 'Termosistem 10cm', 'Instalații PPR', 'Acces închis cu poartă telecomandă', 'Centrală termică în condensare', 'Uși metalice multipunct', 'Pereți beton armat și BCA 30cm', 'Certificare eficiență energetică maximă', 'Toate utilitățile individuale branșate', 'Consultanță bancară gratuită'],
+    parcare: { exterior: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Constantin Brâncoveanu (M2)', distanta: 'în față' },
+      { tip: 'mall', nume: 'Mall Grand Arena', distanta: 'aproape' },
+      { tip: 'mall', nume: 'Jumbo / Kaufland / Lidl / Mega Image', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Parcul Tineretului', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Parcul Tudor Arghezi (nou)', distanta: 'aproape' },
+      { tip: 'medical', nume: 'Spital Copii Marie Curie / Spital Alexandru Bagdasar', distanta: 'aproape' },
+      { tip: 'scoala', nume: 'Liceu Miron Nicolescu / Gradinița 7 Ani / Școala Avram Iancu', distanta: 'aproape' },
+      { tip: 'transport', nume: 'STB în față + Metrou Constantin Brâncoveanu', distanta: 'în față' },
+    ],
+    descriereCompleta: `La convergența a trei bulevarde importante ale Sectorului 4 — Constantin Brâncoveanu, Alexandru Obregia și Metalurgiei — Neofort 45 a oferit apartamente cu prețuri extrem de competitive în zona Brâncoveanu: 2 camere de la 59.290€ și 3 camere de la 70.769€ + TVA, cu certificare de eficiență energetică maximă. Toate unitățile vândute integral.
+
+Prețurile la momentul comercializării: studio 56,58 mp, 66.365€ + TVA; 2 camere 53,89 mp, 59.290€ + TVA; 2 camere 64,90 mp, 65.334€ + TVA; 3 camere 71,26 mp, 70.769€ + TVA; 3 camere 81,59 mp, 82.099€ + TVA. Prețul per mp — 1.000-1.100€/mp — a reprezentat una dintre cele mai competitive oferte din zona Brâncoveanu la momentul comercializării.
+
+Fiecare apartament compartimentat inteligent pentru optimizarea maximă a spațiului interior, cu suprafețe vitrate ample pentru lumină naturală și ventilație naturală. Toate utilitățile individuale branșate la predare. Sistem de încălzire în pardoseală, lift silențios, ferestre tripan, termosistem 10cm, instalații PPR, centrală în condensare, uși metalice multipunct, acces securizat cu poartă telecomandă. Pasajul suprateran Obregia-Turnu Măgurele a îmbunătățit semnificativ fluidizarea traficului în zonă.
+
+Metrou Constantin Brâncoveanu (M2) în față. Mall Grand Arena și zona comercială Jumbo în apropiere. Piața de Gros București. Parcul Tineretului și noul Parc Tudor Arghezi. Spitalele Copii Marie Curie și Alexandru Bagdasar pentru servicii medicale de urgență. Liceul Miron Nicolescu, Grădinița 7 Ani cu after-school și Școala Avram Iancu pentru familii cu copii.`,
+  },
+]
+
+export const TOATE_PORTOFOLIU = [...ANSAMBLURI_PORTOFOLIU, ...ANSAMBLURI_PORTOFOLIU_EXTINSE, ...ANSAMBLURI_PORTOFOLIU_N45_N62]
 
 export function getOricareAnsambluPortofoliu(slug) {
   return TOATE_PORTOFOLIU.find(a => a.slug === slug) || null
