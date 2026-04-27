@@ -144,10 +144,9 @@ export default function ArticolPage({ params }) {
 
   return (
     <>
-      <Header activePath="/blog" />
-      <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-    <main className="min-h-screen">
+      <Header activePath="/blog" />
+      <main className="min-h-screen">
         <div className="max-w-3xl mx-auto px-6 py-8">
           <nav className="flex items-center gap-2 text-xs text-gray-500 mb-6">
             <Link href="/" className="hover:text-[#2d7a3a]">Acasă</Link>
