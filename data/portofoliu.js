@@ -366,3 +366,473 @@ export const SLUGURI_PORTOFOLIU = ANSAMBLURI_PORTOFOLIU.map(a => a.slug)
 export function getAnsambluPortofoliu(slug) {
   return ANSAMBLURI_PORTOFOLIU.find(a => a.slug === slug) || null
 }
+
+// ========== ANSAMBLURI N63-N73 ==========
+// Exportate separat - se adauga in portofoliu/page.js si portofoliu/[slug]/page.js
+
+export const ANSAMBLURI_PORTOFOLIU_EXTINSE = [
+  {
+    numar: 73,
+    slug: 'neofort-73-orhideea-metrou-grozavesti',
+    nume: 'Neofort 73 Orhideea — Metrou Grozăvești',
+    zona: 'Orhideea-Grozăvești',
+    sector: 'Sector 6',
+    adresa: 'Șoseaua Orhideelor, lângă Metrou Grozăvești, Sector 6, București',
+    etaje: '2S+P+9E+10R',
+    totalApartamente: 121,
+    tipuri: ['Garsonieră', 'Studio', '2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Ansamblu rezidențial Neofort 73 Orhideea, 121 apartamente în Sector 6, vis-a-vis de Carrefour Orhideea, la Metrou Grozăvești. Garsoniere de la 66.530€, 2 camere de la 92.080€. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip A (39.88mp)', pret: 66530 },
+      { tip: 'Garsonieră Tip B (46.28mp)', pret: 77206 },
+      { tip: '2 camere Tip A (57.55mp)', pret: 92080 },
+      { tip: '2 camere Tip B (66.64mp)', pret: 100227 },
+      { tip: '3 camere Tip A (72.55mp)', pret: 126080 },
+    ],
+    dotari: ['Baie utilată complet', 'Geam exterior aerisire', 'Contorizare curent/apă/gaz', 'Senzor gaz cu alarmă', 'Tâmplărie PVC Rehau Euro 70', 'Uși celulare Bellacasa', 'Ușă intrare metal și lemn Mega Doors', 'Sisteme auxiliare aerisire', 'Parcare exterioară', 'Bucătărie închisă cu fereastră'],
+    parcare: { exterior: { disponibil: true, pret: 8000 }, subteran: { disponibil: true, pret: 8000 } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Grozăvești (M3)', distanta: 'acces direct' },
+      { tip: 'mall', nume: 'AFI Palace Cotroceni', distanta: 'câteva minute' },
+      { tip: 'mall', nume: 'Carrefour Orhideea / BricoDepot / Media Galaxy', distanta: 'vis-a-vis' },
+      { tip: 'parc', nume: 'Parcul Grozăvești / Grădina Botanică', distanta: 'aproape' },
+      { tip: 'scoala', nume: 'Complex Studențesc Regie / Belvedere ASE', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Pasajul Basarab / Bd. Regiei / Splaidul Independenței', distanta: 'acces rapid' },
+      { tip: 'transport', nume: 'Autogara IDM Basarab', distanta: 'aproape' },
+      { tip: 'mall', nume: 'One Club / Club Princess', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Șos. Giulești / Calea Plevnei', distanta: 'acces rapid' },
+      { tip: 'business', nume: 'Zona de business Orhideea-Cotroceni', distanta: 'în zonă' },
+    ],
+    descriereCompleta: `Zona Orhideea-Grozăvești din Sectorul 6 al Bucureștiului a cunoscut o transformare remarcabilă în ultimii ani, devenind una dintre cele mai căutate zone rezidențiale din vestul capitalei. Factorul central al acestei transformări este simplu: Metrou Grozăvești (M3) cu acces direct și AFI Palace Cotroceni la câteva minute. Neofort 73 a exploatat perfect această combinație — 121 apartamente integral vândute, confirmare clară a aprecierii pieței pentru localizare și calitate.
+
+Imobilul cu regim 2S+P+9E+10R are o amprentă de 1.786 mp teren, cu structură pe diafragme, cadre, stâlpi și grinzi de beton armat, cu închideri din Verblock și izolație EPS 80 pentru eficiență termică sporită. Cele 2 scări beneficiază fiecare de câte 2 lifturi de mare viteză ce fac legătura între subsolul 2 și etajul 10 — eliminând complet problema timpilor de așteptare la un imobil de această înălțime.
+
+Prețurile la momentul comercializării: garsonieră Tip A, 39,88 mp, 66.530€ + TVA; garsonieră Tip B, 46,28 mp, 77.206€ + TVA; 2 camere Tip A, 57,55 mp, 92.080€ + TVA; 2 camere Tip B, 66,64 mp, 100.227€ + TVA; 3 camere Tip A, 72,55 mp, 126.080€ + TVA. Parcare în cele 2 subsoluri sau exterioară la 8.000€ TVA inclus — un preț competitiv pentru zona Sector 6.
+
+Dotările au inclus: baie complet utilată cu geam exterior pentru aerisire naturală — un detaliu important pentru calitatea aerului interior, contorizare individuală curent-apă-gaz, senzor gaz cu alarmă pentru siguranță maximă, tâmplărie PVC Rehau Euro 70 cu geam termopan Low-E, uși celulare Bellacasa, ușă de intrare metal și lemn Mega Doors antiefracție, sisteme auxiliare de aerisire și bucătărie închisă cu fereastră — o configurație cerută de marea majoritate a cumpărătorilor.
+
+Vis-a-vis de Carrefour Orhideea, BricoDepot Orhideea și Media Galaxy — cumpărăturile de orice tip la 2 minute pe jos. AFI Palace Cotroceni la câteva minute cu mașina — cel mai mare mall din zona de vest a Bucureștiului. Parcul Grozăvești și Grădina Botanică în proximitate pentru relaxare. Complexul Studențesc Regie și Belvedere ASE în apropierea imediată — relevant pentru investitori: zona generează cerere constantă de chirie din partea studenților și cadrelor universitare. Pasajul Basarab și Splaidul Independenței asigură conectivitate rapidă spre centrul Capitalei. Autogara IDM Basarab pentru deplasări în țară.
+
+Vânzarea integrală a 121 de unități confirmă că zona Orhideea, combinând Metrou Grozăvești cu AFI Cotroceni și prețuri competitive, a satisfăcut o cerere reală și diversificată — de la prima locuință la investiție în randament.`,
+  },
+  {
+    numar: 72,
+    slug: 'neofort-72-fundeni-dobroesti',
+    nume: 'Neofort 72 Fundeni — Dobroești',
+    zona: 'Fundeni-Dobroești',
+    sector: 'Sector 2',
+    adresa: 'Zona Șos. Fundeni – Dobroești, Sector 2, București',
+    etaje: 'P+3E',
+    totalApartamente: 26,
+    tipuri: ['Garsonieră', 'Studio', '2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Ansamblu rezidențial Neofort 72 Fundeni-Dobroești, P+3E, garsoniere și apartamente 2-3 camere cu grădini proprii. Centrală Ariston condensare. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip A (45.70mp)', pret: 52274 },
+      { tip: 'Garsonieră Tip B (47.03mp+grădină 18mp)', pret: 57605 },
+      { tip: 'Studio (43.86mp+grădină 20mp)', pret: 54411 },
+      { tip: '2 camere Tip A (59.32mp)', pret: 64969 },
+      { tip: '2 camere Tip B (53.10mp+grădină 41mp)', pret: 66987 },
+      { tip: '2 camere Tip C (61.60mp)', pret: 67466 },
+      { tip: '3 camere Tip A (83.14mp)', pret: 91058 },
+      { tip: '3 camere Tip B (92.73mp)', pret: 97145 },
+    ],
+    dotari: ['Tâmplărie PVC', 'Granit case scări și spații comune', 'Balustrade inox', 'Centrală termică condensare', 'Alarmă gaze și incendii', 'Interfon', 'Gresie și faianță băi', 'Parchet laminat', 'Uși interior', 'Obiecte sanitare'],
+    parcare: { exterior: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'transport', nume: 'Autobuz 343 (stație nouă)', distanta: 'în proximitate' },
+      { tip: 'mall', nume: 'Mega Image / Profi', distanta: 'în proximitate' },
+      { tip: 'transport', nume: 'Acces Autostrada A2 / A3', distanta: 'facil' },
+      { tip: 'mall', nume: 'LIDL / Penny / JYSK / PEPCO', distanta: 'aproape' },
+      { tip: 'scoala', nume: 'Școli și grădinițe private și de stat', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Zona verde Dobroești', distanta: 'în zonă' },
+      { tip: 'transport', nume: 'Linii STB multiple spre centru', distanta: 'acces facil' },
+      { tip: 'medical', nume: 'Spital Fundeni', distanta: 'aproape' },
+    ],
+    descriereCompleta: `Zona Fundeni-Dobroești a atras constant familii care caută liniștea suburbiei cu accesul facil la infrastructura Bucureștiului. Neofort 72 a răspuns exact acestei nevoi: P+3E pe o stradă puțin circulată, cu grădini proprii la parter și acces direct la autobuzul 343 — toate unitățile vândute integral.
+
+Un element distinctiv al Neofort 72 este diversitatea tipologică cu grădini private: garsonieră Tip B, 47,03 mp + grădină 18 mp, 57.605€ + TVA; studio, 43,86 mp + grădină 20 mp, 54.411€ + TVA; 2 camere Tip B, 53,10 mp + grădină 41 mp, 66.987€ + TVA. Grădinile private la apartamentele de parter — cu acces direct din apartament — au reprezentat o valoare adăugată rară la prețurile respective. 2 camere Tip A, 59,32 mp, 64.969€ + TVA; 2 camere Tip C, 61,60 mp, 67.466€ + TVA; 3 camere Tip A, 83,14 mp, 91.058€ + TVA; 3 camere Tip B, 92,73 mp, 97.145€ + TVA.
+
+Construcția a respectat standarde superioare: structură cadre și grinzi beton armat, cărămidă Porotherm 25cm la exterior și între apartamente, compartimentări interioare exclusiv din cărămidă Porotherm 11,5cm — izolație fonică reală, nu BCA sau gips-carton. Tencuieli mecanizate, instalație electrică din cupru, sanitară PPR, termosistem polistiren EPS 80 de 100mm. Tâmplărie PVC premium Salamander cu 7 camere de izolare și 2 foi de sticlă tratate — o specificație tehnică superioară pentru proiectele din această zonă.
+
+Centralele proprii în condensare marca Ariston au asigurat eficiență energetică maximă și facturi predictibile. Contorizarea separată pentru apă, curent și gaz a eliminat problemele tipice ale contorizării colective. Granitul pe casa scărilor și balustradele din inox în spațiile comune, alarmele pentru gaze și incendii și interfon-ul completează un standard complet.
+
+Autobuzul 343 în proximitate imediată conectează zona la Metrou Pipera și la rețeaua STB. Mega Image și Profi pentru cumpărăturile zilnice. LIDL, Penny, JYSK și PEPCO în apropiere. Școli și grădinițe atât private cât și de stat. Accesul spre Autostrada A2 și A3 este facil — o raritate valoroasă pentru deplasările spre Constanța și spre Ploiești-Brașov. Spitalul Fundeni — unul dintre cele mai importante centre medicale din România — în apropierea imediată.`,
+  },
+  {
+    numar: 71,
+    slug: 'neofort-71-colentina-andronache',
+    nume: 'Neofort 71 Colentina — Andronache',
+    zona: 'Colentina-Andronache',
+    sector: 'Sector 2',
+    adresa: 'Zona Șos. Colentina — Șos. Andronache, Sector 2, București',
+    etaje: 'S+P+3E+4ER',
+    totalApartamente: 43,
+    tipuri: ['Garsonieră', '2 camere', '3 camere', '4 camere'],
+    status: 'vandut',
+    descriere: 'Ansamblu rezidențial Neofort 71, 43 apartamente S+P+3E+4ER în Colentina-Andronache. Garsoniere, 2-4 camere, inclusiv cu terase mari și grădini la parter. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip 1 (30mp)', pret: 39840 },
+      { tip: 'Garsonieră Tip 2 (30.32mp)', pret: 40400 },
+      { tip: 'Garsonieră Tip 3 (30mp+curte 18.2mp)', pret: 46787 },
+      { tip: '2 camere (43.44mp)', pret: 57920 },
+      { tip: '2 camere (48.72mp)', pret: 64973 },
+      { tip: '2 camere (51.34mp)', pret: 68453 },
+      { tip: '3 camere (87.94mp+terasă 111mp)', pret: 163636 },
+      { tip: '4 camere (104mp+terasă 100mp)', pret: 172727 },
+    ],
+    dotari: ['Instalații electrice din cupru', 'Gresie și faianță', 'Parchet laminat', 'Uși interior', 'Obiecte sanitare', 'Sisteme aerisire auxiliare', 'Balustrade inox', 'Instalații sanitare PPR', 'Centrală de apartament', 'Senzor fum/gaz', 'Lift subteran'],
+    parcare: { subteran: { disponibil: true, pret: null }, exterior: { disponibil: false } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'transport', nume: 'Transport în comun', distanta: 'acces imediat' },
+      { tip: 'transport', nume: 'Autostrada A3 / zona Pipera', distanta: 'câteva minute' },
+      { tip: 'business', nume: 'Zona Pipera — Promenada', distanta: 'câteva minute' },
+      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: 'aproape' },
+      { tip: 'medical', nume: 'Clinici medicale Colentina', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Acces rapid Autostrada A3', distanta: 'câteva minute cu mașina' },
+    ],
+    descriereCompleta: `Ansamblul Neofort 71 Colentina-Andronache a adus pe piață o tipologie rar întâlnită în Sectorul 2: apartamente de 3 și 4 camere cu terase de 100-111 mp la un preț pe metru pătrat extrem de competitiv față de zona de nord a Bucureștiului. Etajul retras cu vedere panoramică și terase generoase a reprezentat principalul argument de vânzare pentru unitățile de vârf ale proiectului.
+
+Tipologia completă: garsonieră Tip 1, 30 mp, 39.840€; garsonieră Tip 2, 30,32 mp, 40.400€; garsonieră Tip 3, 30 mp + curte proprie 18,2 mp, 46.787€ — o raritate valoroasă; 2 camere, 43,44 mp, 57.920€; 2 camere, 48,72 mp, 64.973€; 2 camere, 51,34 mp, 68.453€; 3 camere, 87,94 mp + terasă generoasă de 111 mp, 163.636€; 4 camere, 104 mp + terasă de 100 mp, 172.727€. Prețul pe metru pătrat pentru tipologiile cu terase — sub 1.000€/mp inclusiv terasa — a reprezentat una dintre cele mai competitive oferte din Sectorul 2 la momentul comercializării.
+
+Structura de rezistență respectă toate cerințele antiseismice: amprentă mare de bloc, regim de înălțime mic, structură cadre-stâlpi-diafragme din beton armat. Toți pereții sunt din cărămidă Porotherm — la exterior 25 cm și 11,5 cm la interior, cu 25 cm plus tencuială între apartamente pentru izolație fonică superioară. Lift subteran. Contorizare individuală completă apă-curent-gaz. Instalații electrice din cupru, sanitare PPR, senzori fum și gaz în fiecare apartament.
+
+Amplasarea în zona de case din Colentina-Andronache oferă liniștea unui cartier rezidențial cu conectivitate urbană bună. Accesul rapid la Autostrada A3 și spre zona Pipera-Promenada — unul dintre cele mai importante districte de birouri din București — a făcut din Neofort 71 o alegere naturală pentru profesioniștii din zona de nord a capitalei. Consultanță bancară gratuită pe toată durata achiziției.`,
+  },
+  {
+    numar: 70,
+    slug: 'neofort-70-fundeni-dobroesti',
+    nume: 'Neofort 70 Fundeni — Dobroești',
+    zona: 'Fundeni-Dobroești',
+    sector: 'Sector 2',
+    adresa: 'Zona Șos. Colentina — Șos. Fundeni — Dobroești, Sector 2, București',
+    etaje: 'S+P+3E+M',
+    totalApartamente: 48,
+    tipuri: ['Garsonieră', '2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Ansamblu rezidențial Neofort 70, 48 unități S+P+3E+M în Fundeni-Dobroești, cu grădini private la parter, loc de joacă și foisor. Centrală Ariston condensare. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip 1 (43.80mp)', pret: 47971 },
+      { tip: '2 camere Tip 1 (65.30mp)', pret: 51100 },
+      { tip: '2 camere Tip 2 (65.30mp)', pret: 71519 },
+      { tip: '2 camere Tip 3 (66.90mp)', pret: 73271 },
+      { tip: '2 camere Tip 4 (67.80mp)', pret: 74257 },
+      { tip: '3 camere Tip 1 (75mp)', pret: 82142 },
+      { tip: '3 camere Tip 2 (83mp)', pret: 90940 },
+    ],
+    dotari: ['Granit case scări', 'Pereți cărămidă Porotherm', 'Balustrade inox', 'Instalații sanitare PPR', 'Instalații electrice cupru', 'Lift exterior din sticlă', 'Tâmplărie PVC Rehau 5 camere', 'Gresie și faianță', 'Parchet laminat', 'Uși interior', 'Obiecte sanitare', 'Sisteme aerisire auxiliare'],
+    parcare: { exterior: { disponibil: true, pret: null }, subteran: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'transport', nume: 'Autobuz 182 (capăt linie)', distanta: '50m' },
+      { tip: 'mall', nume: 'Mega Image / Profi', distanta: 'în proximitate' },
+      { tip: 'scoala', nume: 'Școli și grădinițe private și de stat', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Acces Autostrada A2 / A3', distanta: 'facil' },
+      { tip: 'parc', nume: 'Loc de joacă copii în incintă', distanta: 'în curte' },
+      { tip: 'medical', nume: 'Spital Fundeni', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Linii STB multiple', distanta: 'acces facil' },
+    ],
+    descriereCompleta: `La 50 de metri de capătul autobuzului 182, pe o stradă liniștită din zona Fundeni-Dobroești, Neofort 70 a oferit 48 de apartamente cu grădini private la parter și o curte comună amenajată cu foișor, spațiu verde și loc de grătar — facilități rare în oferta de apartamente noi din Sectorul 2. Toate unitățile au fost vândute integral.
+
+Tipologia completă: garsonieră Tip 1, 43,80 mp, 47.971€ + TVA; 2 camere Tip 1, 65,30 mp, 51.100€ + TVA; 2 camere Tip 2, 65,30 mp, 71.519€ + TVA; 2 camere Tip 3, 66,90 mp, 73.271€ + TVA; 2 camere Tip 4, 67,80 mp, 74.257€ + TVA; 3 camere Tip 1, 75 mp, 82.142€ + TVA; 3 camere Tip 2, 83 mp, 90.940€ + TVA. Apartamentele de la parter cu grădini proprii cu acces direct au reprezentat cele mai căutate unități — confortul casei la prețul unui apartament.
+
+Calitatea constructivă a fost superioară standardului zonei: structură cadre și grinzi de beton armat, cărămidă Porotherm 25 cm la exterior și între apartamente, compartimentări interioare exclusiv cărămidă Porotherm 11,5 cm. Tencuieli mecanizate, instalație electrică din cupru, sanitară PPR, termosistem polistiren EPS 80 de 100 mm. Tâmplărie PVC premium Salamander 7 camere cu 2 foi de sticlă tratate. Liftul exterior din sticlă — un element arhitectural distinctiv. Granit pe casa scărilor, balustrade din inox.
+
+Centralele proprii în condensare marca Ariston și contorizarea individuală completă au asigurat costuri de întreținere predictibile și gestionabile individual. Curtea cu acces pe bază de cartelă, loc de joacă pentru copii și spațiu comun cu foișor au creat un mediu rezidențial cu caracter de comunitate.
+
+Autobuz 182 la 50m, Mega Image și Profi în proximitate, accesul spre Autostrada A2 și A3 facil pentru deplasări în țară. Spitalul Fundeni în apropiere. Consultanță bancară gratuită.`,
+  },
+  {
+    numar: 69,
+    slug: 'neofort-69-foisorul-de-foc-mosilor',
+    nume: 'Neofort 69 Foișorul de Foc — Calea Moșilor',
+    zona: 'Foișorul de Foc-Moșilor',
+    sector: 'Sector 2',
+    adresa: 'Strada Călusei 54, zona Calea Moșilor — Foișorul de Foc — Ferdinand I, Sector 2, București',
+    etaje: 'S+P+4 și S+P+3',
+    totalApartamente: 21,
+    tipuri: ['2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Ansamblu rezidențial Neofort 69, 21 apartamente pe str. Călusei 54, zona Foișorul de Foc — Metrou Obor 580m. 2 și 3 camere cu terase. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: '2 camere cu terasă (98mp construit)', pret: 112000 },
+      { tip: '2 camere cu terasă (108mp construit)', pret: 130000 },
+      { tip: '2 camere (94mp construit)', pret: 131000 },
+      { tip: '3 camere (102mp construit)', pret: 142000 },
+      { tip: '3 camere (110mp construit)', pret: 150000 },
+      { tip: '3 camere (116mp construit)', pret: 162000 },
+    ],
+    dotari: ['Centrală apartament Immergas', 'Calorifere aluminiu', 'Tâmplărie PVC 7 camere Salamander', 'Ușă intrare metalică', 'Uși interior celulare', 'Compartimentare cărămidă', 'Izolație polistiren 100mm', 'Contorizare individuală', 'Placare părți comune piatră naturală'],
+    parcare: { subteran: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Piața Obor (M2)', distanta: '580m' },
+      { tip: 'transport', nume: 'Transport în comun', distanta: '200m' },
+      { tip: 'mall', nume: 'Piața Obor', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Zonă rezidențială case și vile', distanta: 'în zonă' },
+      { tip: 'scoala', nume: 'Licee și facultăți zona centrală', distanta: 'aproape' },
+      { tip: 'medical', nume: 'Clinici medicale zona Obor', distanta: 'aproape' },
+    ],
+    descriereCompleta: `Pe strada Călusei 54, retras de bulevardele principale într-o zonă liniștită de case și vile, la 580 de metri de Metrou Piața Obor (M2) — Neofort 69 Foișorul de Foc a oferit 21 de apartamente de 2 și 3 camere cu terase generoase, în una dintre cele mai bine cotate localizări semicentrale din Sectorul 2. Proiectul a răspuns direct cererii de apartamente mari, cu suprafețe construite de 94-116 mp, cu terase și acces facil la metrou.
+
+Prețurile la momentul comercializării: 2 camere cu terasă, 98 mp construit, 112.000€ TVA inclus; 2 camere cu terasă, 108 mp construit, 130.000€ TVA inclus; 2 camere, 94 mp construit, 131.000€ TVA inclus; 3 camere, 102 mp construit, 142.000€ TVA inclus; 3 camere, 110 mp construit, 150.000€ TVA inclus; 3 camere, 116 mp construit, 162.000€ TVA inclus. Parcare subterană disponibilă. Prețul pe metru pătrat construit — 1.100-1.400€/mp TVA inclus — a reflectat corect localizarea semicentrală la 580m de metrou.
+
+Conceptul Neofort 69 a plecat de la analiza detaliată a cerințelor cumpărătorilor: bucătărie închisă, geam la baie, balcoane cu dimensiuni rezonabile, regim de înălțime mic, materiale de construcție și finisaje premium. Structura de rezistență pe stâlpi, diafragme și grinzi de beton armat. Zidărie exterioară și contur apartamente cărămidă Porotherm 25 cm. Fără rigips sau BCA — un angajament explicit de calitate. Polistiren ignifugat 10 cm densitate sporită. Tâmplărie PVC Salamander 7 camere, finisaje și manoperă de înaltă calitate, placare spații comune cu piatră naturală.
+
+Metrou Piața Obor la 580m — acces direct pe M2 spre Piața Universității în 5 minute și spre Piața Unirii în 8 minute. Mijloace de transport în comun la 200m. Piața Obor în proximitate. Zona rezidențială de case și vile oferă liniștea unui cartier clasic la 580m de metrou — o combinație valoroasă.`,
+  },
+  {
+    numar: 68,
+    slug: 'neofort-68-piata-1-mai-herastrau',
+    nume: 'Neofort 68 Piața 1 Mai — Herăstrău',
+    zona: 'Piața 1 Mai-Herăstrău',
+    sector: 'Sector 1',
+    adresa: 'Strada Virgil Pleoșianu, zona Piața 1 Mai — Ion Mihalache, Sector 1, București',
+    etaje: 'S+P+2+M',
+    totalApartamente: 5,
+    tipuri: ['2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 68 boutique, 5 apartamente S+P+2+M pe str. Virgil Pleoșianu, Sector 1. Un apartament pe etaj, lângă Parcul Regina Maria și Herăstrău. 3 camere+curte de la 420.000€. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: '3 camere+curte 100mp parter (90mp)', pret: 420000 },
+      { tip: '3 camere+terasă 35mp etaj 2 (95mp)', pret: 310000 },
+      { tip: '2 camere+terasă 35mp mansardă (50mp)', pret: 185000 },
+    ],
+    dotari: ['Centrală de apartament', 'Tâmplărie PVC', 'Compartimentare exclusiv cărămidă', 'Izolație polistiren 100mm', 'Contorizare individuală apă/gaz/curent', 'Zero taxe mentenanță', 'Parcare subterană și supraterană', 'Finisaje premium personalizate'],
+    parcare: { subteran: { disponibil: true, pret: 15000 }, exterior: { disponibil: true, pret: 20000 } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'parc', nume: 'Parcul Regina Maria', distanta: 'în proximitate' },
+      { tip: 'parc', nume: 'Parcul Herăstrău (Regele Mihai I)', distanta: 'aproape' },
+      { tip: 'metrou', nume: 'Metrou 1 Mai', distanta: 'aproape' },
+      { tip: 'mall', nume: 'Restaurante, magazine, săli sport Ion Mihalache', distanta: 'la câțiva pași' },
+      { tip: 'scoala', nume: 'Școli de renume zona 1 Mai-Domenii', distanta: 'aproape' },
+      { tip: 'medical', nume: 'Spitale și clinici zona 1 Mai', distanta: 'aproape' },
+      { tip: 'business', nume: 'Zona de business Victoriei-Aviatorilor', distanta: 'aproape' },
+    ],
+    descriereCompleta: `Cinci apartamente. Un apartament pe etaj. Lângă Parcul Regina Maria și Parcul Herăstrău. Pe strada Virgil Pleoșianu din Sectorul 1 al Bucureștiului — aceasta este, în esență, propunerea Neofort 68 Piața 1 Mai. Un imobil de tip boutique extrem, cu nivelul maxim de intimitate și cu una dintre cele mai valoroase localizări din portofoliul Neofort IMO. Toate cele 5 unități au fost vândute integral.
+
+Tipologia a acoperit trei niveluri de exclusivitate: mansardă 2 camere, 50 mp + terasă 35 mp, 185.000€ TVA inclus; etaj 2, 3 camere, 95 mp + terasă 35 mp, 310.000€ TVA inclus; parter, 3 camere cu curte privată de 100 mp, 90 mp util, 420.000€ TVA inclus. Parcare supraterană 20.000€, subterană 15.000€ TVA inclus. Curte de 100 mp privată la un apartament de parter în Sectorul 1, la câteva minute de Parcul Herăstrău — o tipologie imposibil de replicat în proiectele rezidențiale standard.
+
+Finisajele premium personalizate — cu alegerea integrală din game largi de produse — au permis fiecărui cumpărător să creeze un apartament unic. Structura din cărămidă Porotherm la exterior 30 cm și 11,5 cm la interior, pereți între apartamente de 25 cm, izolație polistiren 10 cm. Centrală individuală în condensare. Contorizare individuală completă. Zero taxe de mentenanță adiacente — un avantaj operațional permanent pentru proprietarii care locuiesc sau închiriază.
+
+Parcul Regina Maria în proximitate imediată și Parcul Herăstrău la câteva minute — cel mai mare parc al Bucureștiului, cu lac artificial de 74 hectare. Metrou 1 Mai pentru mobilitate rapidă. Restaurante, magazine și săli de sport pe Ion Mihalache la câțiva pași. Zona de business Victoriei-Aviatorilor în apropierea imediată. Școli de renume și spitale de top în zonă. Neofort 68 s-a adresat exclusiv cumpărătorilor care prețuiesc intimitatea absolută, localizarea premium și finisajele personalizate.`,
+  },
+  {
+    numar: 67,
+    slug: 'neofort-67-damaroaia-bucurestii-noi',
+    nume: 'Neofort 67 Dămăroaia — Bucureștii Noi',
+    zona: 'Dămăroaia-Bucureștii Noi',
+    sector: 'Sector 1',
+    adresa: 'Zona Dămăroaia — Bucureștii Noi, Sector 1, București',
+    etaje: 'S+P+2',
+    totalApartamente: 6,
+    tipuri: ['3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 67 boutique, 6 apartamente S+P+2 în Dămăroaia-Bucureștii Noi, Sector 1. 3 camere cu terase mari de la 180.000€. Centrală Viessmann. Parcare subterană. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: '3 camere Tip 1 (73mp+terasă 34mp)', pret: 180000 },
+      { tip: '3 camere Tip 2 (85mp+terasă 20mp)', pret: 195000 },
+      { tip: '3 camere Tip 3 (70mp+balcon 10mp+terasă 40mp)', pret: 270000 },
+    ],
+    dotari: ['Centrală de apartament', 'Tâmplărie PVC 5 camere', 'Compartimentare exclusiv cărămidă', 'Izolație polistiren 100mm', 'Contorizare individuală', 'Zero taxe mentenanță', 'Parcare subterană', 'Finisaje premium', 'Centrală Viessmann 3 camere'],
+    parcare: { subteran: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Bazilescu', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Parcul Bazilescu', distanta: 'aproape' },
+      { tip: 'transport', nume: 'Transport în comun Dămăroaia', distanta: 'acces rapid' },
+      { tip: 'mall', nume: 'Spații comerciale zonă', distanta: 'aproape' },
+      { tip: 'business', nume: 'Zona de nord-vest București', distanta: 'acces facil' },
+    ],
+    descriereCompleta: `Șase apartamente de 3 camere cu terase de 20-40 mp în Dămăroaia-Bucureștii Noi, Sectorul 1 — Neofort 67 a oferit o soluție rezidențială boutique în zona de nord-vest a Capitalei, cu acces la Metrou Bazilescu și la parcul cu același nume. Toate cele 6 unități au fost vândute integral.
+
+Tipologia a inclus: 3 camere Tip 1, 73 mp + terasă 34 mp, 180.000€ TVA inclus; 3 camere Tip 2, 85 mp + terasă 20 mp, 195.000€ TVA inclus; 3 camere Tip 3, 70 mp + balcon 10 mp + terasă 40 mp, 270.000€ TVA inclus. Terasele de 20-40 mp au conferit fiecărui apartament un spațiu exterior privat generos — un avantaj major față de apartamentele standard din zonă.
+
+Apartamentele de 3 camere au fost dotate cu centrală Viessmann — unul dintre brandurile premium din industria de încălzire, cu eficiență în condensare și fiabilitate superioară pe termen lung. Celelalte unități cu centrală proprie în condensare. Structura pe cadre și grinzi de beton armat cu cărămidă Porotherm, pereți captușiți cu polistiren 10 cm. Compartimentare interioară exclusiv din cărămidă — izolație fonică reală. Contorizare individuală completă. Zero taxe de mentenanță. Parcare subterană disponibilă. Finisaje premium la alegere, complet personalizabile.
+
+Metrou Bazilescu asigura accesul rapid spre centrul Bucureștiului. Parcul Bazilescu în proximitate pentru relaxare zilnică. Zona Dămăroaia-Bucureștii Noi oferă caracterul unui cartier rezidențial liniștit din nordul Capitalei. Consultanță bancară și juridică gratuită pe toată durata achiziției.`,
+  },
+  {
+    numar: 66,
+    slug: 'neofort-66-universitate-calea-mosilor',
+    nume: 'Neofort 66 Universitate — Calea Moșilor',
+    zona: 'Universitate-Calea Moșilor',
+    sector: 'Sector 2',
+    adresa: 'Zona Calea Moșilor — Piața Universității, 900m Metrou Universitate, Sector 2, București',
+    etaje: 'S+P+multiple',
+    totalApartamente: 17,
+    tipuri: ['Studio', '2 camere', '3 camere', '4 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 66, 17 apartamente unice la 900m de Metrou Universitate, Sector 2. Studio 31mp de la 85.000€, 4 camere 96mp de la 199.900€. Fațadă ventilată fibrociment. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Studio Tip A (31.80mp)', pret: 85000 },
+      { tip: '2 camere Tip A (56.36mp)', pret: 115000 },
+      { tip: '2 camere Tip B (76.47mp)', pret: 149000 },
+      { tip: '3 camere Tip A (78.81mp)', pret: 159900 },
+      { tip: '3 camere Tip B (98.31mp)', pret: 189744 },
+      { tip: '4 camere Tip A (96.11mp)', pret: 199900 },
+    ],
+    dotari: ['Centrală termică Saunier Duval', 'Contorizare individuală', 'Izolație fațadă ventilată fibrociment', 'Ușă exterioară metalică 8 puncte închidere', 'Tâmplărie PVC Salamander 7 camere', 'Parchet laminat 8mm', 'Lift electric mare viteză 4 persoane', 'Toate spații comune piatră naturală', 'Sisteme electronice siguranță acces'],
+    parcare: { subteran: { disponibil: true, pret: null }, exterior: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Universitate (M1/M2)', distanta: '900m / 5 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Izvorul Rece', distanta: '3 min pe jos' },
+      { tip: 'transport', nume: 'Transport în comun multiple linii', distanta: 'în față' },
+      { tip: 'scoala', nume: 'Universități și licee zona centrală', distanta: 'aproape' },
+      { tip: 'medical', nume: 'Clinici medicale zona centrală', distanta: 'aproape' },
+      { tip: 'mall', nume: 'Magazine și restaurante zona Universitate', distanta: 'aproape' },
+    ],
+    descriereCompleta: `La 900 de metri — 5 minute de mers pe jos — de Metrou Universitate (M1/M2), nodul central al rețelei de metrou din București, Neofort 66 a oferit 17 apartamente unice cu un design arhitectural distinctiv: fațadă ventilată din fibrociment cu plăci de argilă arsă ce imită cărămida aparentă — o estetică net superioară față de finisajele standard cu tencuială decorativă. Toate cele 17 unități au fost vândute integral.
+
+Unicitatea fiecărui apartament a reprezentat filosofia de bază a proiectului: suprafețe și designuri individualizate, soluții arhitecturale elaborate de designeri specializați în decorări interioare, finisaje personalizate din game premium. Tipologia: studio Tip A, 31,80 mp util, 41,34 mp construit, 85.000€ TVA inclus; 2 camere Tip A, 56,36 mp util, 115.000€ TVA inclus; 2 camere Tip B, 76,47 mp util, 149.000€ TVA inclus; 3 camere Tip A, 78,81 mp util, 159.900€ TVA inclus; 3 camere Tip B, 98,31 mp util, 189.744€ TVA inclus; 4 camere Tip A, 96,11 mp util, 199.900€ TVA inclus.
+
+Construcția la standardele tehnice cele mai înalte: structură stâlpi-diafragme-grinzi-plăci beton armat, pereți Porotherm, izolație premium cu vatã bazaltică în fațada ventilată — superioară termic și fonic polistirenului clasic. Ușă exterioară metalică cu 8 puncte de închidere — standardul maxim antiefracție. Tâmplărie PVC Salamander 7 camere. Lift Schindler. Parcare subterană și supraterană cu acces controlat electronic. Toate spațiile comune placate cu piatră naturală.
+
+Metrou Universitate la 900m — 5 minute pe jos — spre Piața Victoriei în 2 minute și spre Piața Unirii în 3 minute. Parcul Izvorul Rece la 3 minute pe jos. Localizarea centrală a Neofort 66 a garantat o cerere constantă de chirie — randamentele pentru zona Universitate se situau la 5-7% anual, susținute de proximitatea față de universități, clinici și administrație centrală.`,
+  },
+  {
+    numar: 65,
+    slug: 'neofort-65-ghica-tei-colentina',
+    nume: 'Neofort 65 Ghica Tei — Colentina',
+    zona: 'Ghica Tei-Colentina',
+    sector: 'Sector 2',
+    adresa: 'Intersecția Doamna Ghica — str. Heliade între Vii, lângă Școala 145, Sector 2, București',
+    etaje: 'P+4E+5R',
+    totalApartamente: 22,
+    tipuri: ['2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 65 boutique P+4E+5R, 22 apartamente la intersecția Doamna Ghica — Heliade între Vii, Sector 2. 2 camere 58mp de la 95.238€. Parcare Klaus. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: '2 camere Tip 1 (58.04mp util)', pret: 95238 },
+      { tip: '2 camere Tip 2 (59.01mp util)', pret: 95238 },
+      { tip: '3 camere Tip 1 (88.91mp util)', pret: 117475 },
+    ],
+    dotari: ['Centrală termică apartament Immergas', 'Băi complet utilate', 'Uși interior celulare', 'Ușă intrare metalică multipunct Lock', 'Parchet 10mm', 'Obiecte sanitare Cersanit', 'Contorizare individuală', 'Predare la cheie finisaje la alegere', 'Parcare sistem hidraulic Klaus', 'Parcare exterioară acoperită'],
+    parcare: { exterior: { disponibil: true, pret: null }, interior: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: 'aproape' },
+      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: 'aproape' },
+      { tip: 'mall', nume: 'Kaufland Colentina', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '10-12 min pe jos' },
+      { tip: 'business', nume: 'Fabrica de Glucoză — Dimitrie Pompei — Barbu Văcărescu', distanta: 'acces rapid pasaj Doamna Ghica' },
+      { tip: 'scoala', nume: 'Școala 145', distanta: 'în față' },
+      { tip: 'transport', nume: 'Linii STB Colentina', distanta: 'aproape' },
+    ],
+    descriereCompleta: `La intersecția dintre Doamna Ghica și strada Heliade între Vii, lângă Școala 145, Neofort 65 Ghica Tei a ocupat o poziție strategică: între Mega Mall Pantelimon și Veranda Mall la vest, Kaufland Colentina la nord și Parcul Plumbuita la est. Imobil boutique P+4E+5R cu 22 de apartamente de 2 și 3 camere, integral vândute.
+
+Prețurile la momentul comercializării: 2 camere Tip 1, 58,04 mp util, 66,74 mp construit, 95.238€ + TVA; 2 camere Tip 2, 59,01 mp util, 72,76 mp construit, 95.238€ + TVA; 3 camere Tip 1, 88,91 mp util, 103,61 mp construit, 117.475€ + TVA. Prețul identic pentru ambele tipuri de 2 camere a reflectat o politică de prețuri transparentă și corectă față de cumpărători.
+
+Sistemul de parcare hidraulic independent Klaus cu bașă — instalat la parterul imobilului — a maximizat numărul locurilor disponibile în spațiul limitat, o soluție inovatoare la momentul construirii. Parcare exterioară acoperită disponibilă suplimentar. Centrala Immergas individuală, obiecte sanitare Cersanit, parchet 10mm, ușă de intrare metalică multipunct Lock, finisaje la alegere din game generoase.
+
+Pasajul suprateran de la Doamna Ghica a facilitat accesul rapid spre zona de business Fabrica de Glucoză — Dimitrie Pompei — Barbu Văcărescu — Calea Floreasca, cel mai important district de birouri din nordul Capitalei. Mega Mall Pantelimon și Veranda Mall asigurau oferta comercială completă. Parcul Plumbuita la 10-12 minute pe jos pentru recreere zilnică. Cerere constantă de chirie din partea profesioniștilor din zona de business nord.`,
+  },
+  {
+    numar: 64,
+    slug: 'neofort-64-calusei-mosilor-obor',
+    nume: 'Neofort 64 Călusei — Moșilor — Obor',
+    zona: 'Foișorul de Foc-Moșilor',
+    sector: 'Sector 2',
+    adresa: 'Strada Călusei 51B, zona Calea Moșilor — Foișorul de Foc — Metrou Obor, Sector 2, București',
+    etaje: 'S+P+mic',
+    totalApartamente: 34,
+    tipuri: ['Garsonieră', 'Studio', '2 camere', '4 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 64, 34 apartamente pe str. Călusei 51B, la 580m Metrou Obor. Garsoniere, 16 studiouri, 17 tipuri 2 camere, 1 tip 4 camere. Tâmplărie Salamander antracit. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip 1 (47.04mp construit)', pret: 71801 },
+      { tip: 'Garsonieră Tip 2 (42.04mp construit)', pret: 67242 },
+      { tip: 'Garsonieră Tip 3 (58.37mp construit)', pret: 83204 },
+      { tip: '2 camere Tip 1 (64.99mp construit)', pret: 94487 },
+      { tip: '2 camere Tip 2 (67.40mp construit)', pret: 95885 },
+      { tip: '2 camere Tip 3 (85.65mp construit)', pret: 99000 },
+      { tip: '4 camere (158mp construit)', pret: 230596 },
+    ],
+    dotari: ['Baie utilată', 'Centrală Immergas + senzor gaz', 'Placări scări și holuri piatră naturală', 'Obiecte sanitare Italia', 'Gresie și faianță Spania/Italia', 'Curte pavată cu spații verzi', 'Uși interior Porta Doors / Pinum', 'Ușă intrare metalică 6 puncte', '4 modele gresie/faianță', '4 nuanțe parchet 8mm Germania', 'Tâmplărie Salamander 7 camere', 'Contorizare gaz/apă/electricitate'],
+    parcare: { subteran: { disponibil: true, pret: 10000 } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Piața Obor (M2)', distanta: '580m' },
+      { tip: 'transport', nume: 'Transport în comun', distanta: '200m' },
+      { tip: 'mall', nume: 'Piața Obor', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Zonă rezidențială case și vile', distanta: 'în zonă' },
+      { tip: 'scoala', nume: 'Licee și facultăți zona centrală', distanta: 'aproape' },
+      { tip: 'medical', nume: 'Clinici medicale zona Obor-Moșilor', distanta: 'aproape' },
+    ],
+    descriereCompleta: `Strada Călusei 51B, la 580 de metri de Metrou Piața Obor — Neofort 64 a adus 34 de apartamente cu arhitectură distinctivă și o diversitate tipologică completă: 16 tipuri de garsoniere/studiouri, 17 tipuri de apartamente de 2 camere și un apartament de 4 camere de 158 mp construit. Proiectul, retras de bulevardele principale într-o zonă de case, a fost integral vândut.
+
+Prețurile la momentul comercializării: garsonieră Tip 2, 42,04 mp construit, 67.242€ + TVA; garsonieră Tip 1, 47,04 mp construit, 71.801€ + TVA; garsonieră Tip 3, 58,37 mp construit, 83.204€ + TVA; 2 camere Tip 1, 64,99 mp construit, 94.487€ + TVA; 2 camere Tip 2, 67,40 mp construit, 95.885€ + TVA; 2 camere Tip 3, 85,65 mp construit, 99.000€ + TVA; 4 camere, 158 mp construit, 230.596€ + TVA. Parcare subterană 10.000€ + TVA. Diversitatea de tipologii a permis satisfacerea celor mai variate nevoi — de la primul apartament la o locuință spațioasă de familie.
+
+Standardul de finisaje a depășit semnificativ oferta obișnuită din zonă: obiecte sanitare Italia, gresie și faianță Spania/Italia în 4 modele și nuanțe la alegere, parchet 8mm Germania în 4 nuanțe, uși interior Porta Doors / Pinum, ușă de intrare metalică cu 6 puncte de închidere, tâmplărie Salamander 7 camere gri antracit — o culoare modernă aleasă deliberat față de albul standard, curtea pavată și amenajată cu spații verzi, placări scări și holuri cu piatră naturală.
+
+Metrou Piața Obor la 580m — accesul la M2 spre întregul București în câteva minute. Mijloace de transport la 200m. Piața Obor în proximitate — cel mai mare complex comercial open-air din București. Cerere constantă de chirie în zonă datorită proximității față de centru și metrou.`,
+  },
+  {
+    numar: 63,
+    slug: 'neofort-63-fundeni-dobroesti',
+    nume: 'Neofort 63 Fundeni — Dobroești',
+    zona: 'Fundeni-Dobroești',
+    sector: 'Sector 2',
+    adresa: 'Strada Stejarului, Fundeni, Sector 2, București',
+    etaje: 'P+2E (4 scări)',
+    totalApartamente: 48,
+    tipuri: ['Garsonieră', '2 camere', '3 camere'],
+    status: 'vandut',
+    descriere: 'Neofort 63, 48 apartamente pe str. Stejarului, zona Fundeni-Dobroești. 4 scări P+2E, clasă energetică A, locuri parcare cu acte proprietate. Garsoniere de la 40.000€. Finalizat, stoc epuizat.',
+    preturi: [
+      { tip: 'Garsonieră Tip 1 (41.79mp)', pret: 40000 },
+      { tip: 'Garsonieră Tip 2 (42.50mp+curte 31mp)', pret: 44850 },
+      { tip: '2 camere Tip 1 (62.41mp)', pret: 61900 },
+      { tip: '2 camere Tip 2 (64.35mp+curte 14.25mp)', pret: 64750 },
+      { tip: '3 camere Tip 1 (86.20mp)', pret: 82100 },
+    ],
+    dotari: ['Centrală proprie condensare', 'Tâmplărie PVC GreenEvolution 7 camere', 'Gresie, faianță, parchet', 'Uși interioare celulare și exterioare metalice', 'Contorizare separată apă/gaz/electricitate', 'Parcare subterană și supraterană cu acte proprietate', 'Curte amenajată spații verzi', 'Clasa energetică A'],
+    parcare: { subteran: { disponibil: true, pret: null }, exterior: { disponibil: true, pret: null } },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    puncteInteres: [
+      { tip: 'transport', nume: 'Linii STB 343, 455, 253', distanta: 'în proximitate' },
+      { tip: 'transport', nume: 'Acces Autostrada A3 (Nord)', distanta: 'facil' },
+      { tip: 'transport', nume: 'Acces Autostrada A2 (Est)', distanta: 'facil' },
+      { tip: 'mall', nume: 'Mega Image / Profi în zonă', distanta: 'aproape' },
+      { tip: 'parc', nume: 'Zonă rezidențială liniștită case noi', distanta: 'în zonă' },
+      { tip: 'medical', nume: 'Spital Fundeni', distanta: 'aproape' },
+    ],
+    descriereCompleta: `Zona rezidențială de case noi din Fundeni-Dobroești, cu vecini deja mutați, zonă liniștită și aerisită — aceasta a fost premisa de la care a pornit Neofort 63 Strada Stejarului. 4 scări de bloc P+2E, clasă energetică A, locuri de parcare vândute cu acte de proprietate separate. Toate cele 48 de unități au fost vândute integral.
+
+Tipologia a inclus configurații cu grădini: garsonieră Tip 1, 41,79 mp, 40.000€ + TVA — una dintre cele mai accesibile prețuri din portofoliul Neofort IMO; garsonieră Tip 2, 42,50 mp + curte proprie de 31 mp, 44.850€ + TVA; 2 camere Tip 1, 62,41 mp, 61.900€ + TVA; 2 camere Tip 2, 64,35 mp + curte proprie de 14,25 mp, 64.750€ + TVA; 3 camere Tip 1, 86,20 mp, 82.100€ + TVA. Locurile de parcare vândute cu acte de proprietate separate — nu concesiune — au reprezentat o valoare distinctă față de proiectele cu parcare în concesiune.
+
+Construcția la standardul clasei energetice A: structură cadre-stâlpi-grinzi beton armat, cărămidă Porotherm 250mm, izolație polistiren 100mm complet ignifug cu tencuială decorativă cu hidroizolație. Tâmplărie PVC GreenEvolution cu feronerie Rotto și tratament Low-E. Centrale proprii în condensare. Contorizare individuală completă. Curtea amenajată cu spații verzi și locuri de joacă.
+
+Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei. Accesul spre Autostrada A3 spre nord și A2 spre est — ideal pentru deplasările în afara Bucureștiului. Zona Fundeni-Dobroești este incluzã în interiorul Bucureștiului și beneficiează de toate facilitățile urbane. Spitalul Fundeni în apropierea imediată. Consultanță bancară gratuită, taxe notariale reduse pentru clienții Neofort.`,
+  },
+]
+
