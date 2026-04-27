@@ -50,7 +50,7 @@ export default function PortofoliuAnsambluPage({ params }) {
     '@type': 'RealEstateListing',
     '@id': `${BASE}/portofoliu/${a.slug}`,
     name: a.nume,
-    description: a.descriere,
+    description: a.descriereCompleta || a.descriere,
     url: `${BASE}/portofoliu/${a.slug}`,
     image: `${BASE}/logo.avif`,
     address: {
@@ -154,7 +154,7 @@ export default function PortofoliuAnsambluPage({ params }) {
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Despre ansamblu</h2>
-                <p className="text-sm text-gray-600 leading-relaxed">{a.descriere}</p>
+                <p className="text-sm text-gray-600 leading-relaxed">{a.descriereCompleta || a.descriere}</p>
               </div>
 
               {/* PRETURI */}
