@@ -1,4 +1,6 @@
 import { notFound } from 'next/navigation'
+
+const BASE = 'https://neofort-imob.vercel.app'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -116,17 +118,36 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const a = ARTICOLE[params.slug]
   if (!a) return {}
-  return { title: a.titlu + ' | Blog Neofort IMO', description: a.descriere || a.continut.substring(0, 155) }
+  const url = `${BASE}/blog/${params.slug}`
+  return {
+    title: a.titlu + ' | Blog Neofort IMO',
+    description: a.descriere || a.continut.substring(0, 155),
+    alternates: { canonical: url },
+    openGraph: { title: a.titlu, description: a.descriere, url, type: 'article', locale: 'ro_RO' },
+  }
 }
 
 export default function ArticolPage({ params }) {
   const a = ARTICOLE[params.slug]
   if (!a) notFound()
 
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: a.titlu,
+    description: a.descriere,
+    datePublished: a.data,
+    author: { '@type': 'Organization', name: 'Neofort IMO', url: BASE },
+    publisher: { '@type': 'Organization', name: 'Neofort IMO', url: BASE },
+    url: `${BASE}/blog/${params.slug}`,
+  }
+
   return (
     <>
       <Header activePath="/blog" />
-      <main className="min-h-screen">
+      <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+    <main className="min-h-screen">
         <div className="max-w-3xl mx-auto px-6 py-8">
           <nav className="flex items-center gap-2 text-xs text-gray-500 mb-6">
             <Link href="/" className="hover:text-[#2d7a3a]">Acasă</Link>

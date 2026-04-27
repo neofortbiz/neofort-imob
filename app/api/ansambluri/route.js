@@ -23,6 +23,8 @@ export async function GET() {
       whatsapp: `https://wa.me/40${a.brokerTel?.replace(/\s/g, '').substring(1)}`,
     },
     url: `https://neofort-imob.vercel.app/ansamblu-rezidential/${a.slug}`,
+    descriere: a.descriere,
+    descriereCompleta: a.descriereCompleta || a.descriere,
   }))
 
   return NextResponse.json({
