@@ -836,3 +836,9 @@ Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei
   },
 ]
 
+
+export const TOATE_PORTOFOLIU = [...ANSAMBLURI_PORTOFOLIU, ...ANSAMBLURI_PORTOFOLIU_EXTINSE]
+
+export function getOricareAnsambluPortofoliu(slug) {
+  return TOATE_PORTOFOLIU.find(a => a.slug === slug) || null
+}

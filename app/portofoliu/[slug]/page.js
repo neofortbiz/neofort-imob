@@ -2,16 +2,16 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { ANSAMBLURI_PORTOFOLIU, getAnsambluPortofoliu } from '@/data/portofoliu'
+import { TOATE_PORTOFOLIU, getOricareAnsambluPortofoliu } from '@/data/portofoliu'
 
 const BASE = 'https://neofort-imob.vercel.app'
 
 export function generateStaticParams() {
-  return ANSAMBLURI_PORTOFOLIU.map(a => ({ slug: a.slug }))
+  return TOATE_PORTOFOLIU.map(a => ({ slug: a.slug }))
 }
 
 export function generateMetadata({ params }) {
-  const a = getAnsambluPortofoliu(params.slug)
+  const a = getOricareAnsambluPortofoliu(params.slug)
   if (!a) return {}
   const pretMin = a.preturi?.[0]?.pret
   return {
@@ -38,10 +38,10 @@ const TIP_CFG = {
 }
 
 export default function PortofoliuAnsambluPage({ params }) {
-  const a = getAnsambluPortofoliu(params.slug)
+  const a = getOricareAnsambluPortofoliu(params.slug)
   if (!a) notFound()
 
-  const similare = ANSAMBLURI_PORTOFOLIU.filter(p => p.slug !== a.slug).slice(0, 4)
+  const similare = TOATE_PORTOFOLIU.filter(p => p.slug !== a.slug).slice(0, 4)
   const pretMin = a.preturi?.[0]?.pret
 
   // Schema.org RealEstateListing pentru SEO portofoliu
