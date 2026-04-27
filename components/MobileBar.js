@@ -13,19 +13,24 @@ function getContactInfo(pathname) {
       const tel = ansamblu.brokerTel.replace(/\s/g, '')
       const waNum = tel.startsWith('0') ? '40' + tel.substring(1) : tel
       const waMesaj = encodeURIComponent(`Bună ziua! Sunt interesat de ${ansamblu.nume} (Neofort ${ansamblu.numar}). Vă rog să mă contactați cu detalii și disponibilitate.`)
-      return { tel, waLink: `https://wa.me/${waNum}?text=${waMesaj}` }
+      const emailSubiect = encodeURIComponent('Solicitare informații — ' + ansamblu.nume + ' (Neofort ' + ansamblu.numar + ')')
+      const emailCorps = encodeURIComponent('Bună ziua,\n\nSunt interesat de apartamentele din ' + ansamblu.nume + ' (Neofort ' + ansamblu.numar + ', ' + ansamblu.zona + ', ' + ansamblu.sector + ').\n\nAș dori să primesc detalii despre disponibilitate și prețuri.\n\nVă mulțumesc.')
+      return { tel, waLink: `https://wa.me/${waNum}?text=${waMesaj}`, emailLink: `mailto:${EMAIL}?subject=${emailSubiect}&body=${emailCorps}` }
     }
   }
   const waMesaj = encodeURIComponent('Bună ziua! Sunt interesat de apartamentele Neofort IMO. Vă rog să mă contactați.')
+  const emailSubiect = encodeURIComponent('Solicitare informații — Neofort IMO')
+  const emailCorps = encodeURIComponent('Bună ziua,\n\nSunt interesat de apartamentele Neofort IMO și aș dori să primesc informații despre oferta disponibilă.\n\nVă mulțumesc.')
   return {
     tel: TEL_GENERAL,
     waLink: `https://wa.me/40${TEL_GENERAL.substring(1)}?text=${waMesaj}`,
+    emailLink: `mailto:${EMAIL}?subject=${emailSubiect}&body=${emailCorps}`,
   }
 }
 
 export default function MobileBar() {
   const pathname = usePathname()
-  const { tel, waLink } = getContactInfo(pathname)
+  const { tel, waLink, emailLink } = getContactInfo(pathname)
 
   return (
     <>
@@ -47,7 +52,7 @@ export default function MobileBar() {
             </svg>
             <span className="text-[11px] font-medium" style={{ color: '#25a244' }}>WhatsApp</span>
           </a>
-          <a href={`mailto:${EMAIL}`}
+          <a href={emailLink}
             className="flex flex-col items-center justify-center py-3 gap-1 active:bg-gray-50">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c8922a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>

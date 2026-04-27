@@ -164,9 +164,9 @@ export default function PortofoliuAnsambluPage({ params }) {
                   <p className="text-xs text-gray-400 mb-3">Prețuri la momentul comercializării, cu titlu informativ. Stoc epuizat.</p>
                   <div className="space-y-2">
                     {a.preturi.map((p, i) => (
-                      <div key={i} className="flex items-center justify-between py-2.5 px-3 rounded-lg bg-gray-50 border border-gray-100">
-                        <span className="text-xs text-gray-600">{p.tip}</span>
-                        <span className="text-sm font-semibold text-gray-900">{p.pret.toLocaleString()}€ <span className="text-xs font-normal text-gray-400">+ TVA</span></span>
+                      <div key={i} className="flex flex-wrap items-start justify-between gap-1 py-2.5 px-3 rounded-lg bg-gray-50 border border-gray-100">
+                        <span className="text-xs text-gray-600 leading-relaxed" style={{ maxWidth: '65%' }}>{p.tip}</span>
+                        <span className="text-sm font-semibold text-gray-900 flex-shrink-0">{p.pret.toLocaleString()}€ <span className="text-xs font-normal text-gray-400">+ TVA</span></span>
                       </div>
                     ))}
                   </div>
