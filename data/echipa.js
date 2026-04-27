@@ -3,7 +3,7 @@ export const ECHIPA = [
     id: 'adriana-veselu',
     nume: 'Adriana VESELU',
     rol: 'Reprezentant vânzări zona CENTRALĂ',
-    experienta: 10,
+    experienta: 16,
     vechimeNeofort: 14,
     tel: '+40752443437',
     telDisplay: '0752 443 437',
