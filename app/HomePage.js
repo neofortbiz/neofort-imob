@@ -544,7 +544,7 @@ export default function HomePageClient() {
               </div>
             </Link>
           </div>
-        </div>        </div>
+        </div>
 
         {/* BLOG */}
         <section className="py-8 px-6 border-t border-gray-200">
