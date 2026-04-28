@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
@@ -185,10 +186,14 @@ export default function AnsambluriClient() {
                 return (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                     className="group bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-md transition-all hover:border-gray-200">
-                    <div className="relative bg-gray-100" style={{ aspectRatio: '16/9' }}>
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-xs text-gray-400">Foto</span>
-                      </div>
+                    <div className="relative bg-gray-100 overflow-hidden" style={{ aspectRatio: '16/9' }}>
+                      {a.imagini?.cover ? (
+                        <Image src={a.imagini.cover} alt={a.nume} fill sizes="(max-width:768px) 100vw, 400px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                      ) : (
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <span className="text-xs text-gray-400">Foto</span>
+                        </div>
+                      )}
                       <span className="absolute top-3 left-3 text-[10px] font-medium px-2 py-0.5 rounded-full"
                         style={{ background: sc.bg, color: sc.color }}>{sc.label}</span>
                       {a.dataPredare && a.dataPredare !== 'Finalizat' && (

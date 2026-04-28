@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
@@ -376,8 +377,14 @@ export default function HomePageClient() {
                     <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                       onClick={() => { try { localStorage.setItem('neofort_recent', a.slug) } catch {} }}
                       className="group border border-gray-100 rounded-xl overflow-hidden bg-white hover:border-gray-300 hover:shadow-sm transition-all">
-                      <div className="aspect-square bg-gray-100 relative flex items-center justify-center">
-                        <span className="text-xs text-gray-400">Foto</span>
+                      <div className="aspect-square bg-gray-100 relative overflow-hidden">
+                        {a.imagini?.cover ? (
+                          <Image src={a.imagini.cover} alt={a.nume} fill sizes="200px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                        ) : (
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <span className="text-xs text-gray-400">Foto</span>
+                          </div>
+                        )}
                         <div className={`absolute top-1.5 left-1.5 text-[9px] font-medium px-1.5 py-0.5 rounded ${sc.bg} ${sc.text}`}>
                           {sc.label}
                         </div>
