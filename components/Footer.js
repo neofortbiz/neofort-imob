@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import FormularCalificat from '@/components/FormularCalificat'
+import { ANSAMBLURI_ACTIVE } from '@/data/ansambluri'
 
 const TEL = '0743250029'
 const TEL_DISPLAY = '0743 250 029'
@@ -6,7 +8,21 @@ const WA_LINK = `https://wa.me/40${TEL.substring(1)}`
 
 export default function Footer() {
   return (
-    <footer style={{ background: '#050f09' }}>
+    <>
+      {/* FORMULAR CALIFICAT */}
+      <section style={{ background: '#081c12' }} className="py-12 px-6">
+        <div className="max-w-xl mx-auto">
+          <h2 className="text-xl font-medium text-white mb-2">
+            Solicită o ofertă <span style={{ color: '#e8b44e' }}>personalizată</span>
+          </h2>
+          <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.8)' }}>
+            Completează formularul și un consultant Neofort IMO te contactează în cel mult 2 ore cu o ofertă adaptată nevoilor tale.
+          </p>
+          <FormularCalificat />
+        </div>
+      </section>
+
+      <footer style={{ background: '#050f09' }}>
       <div className="max-w-7xl mx-auto px-6 pt-10 pb-6">
         {/* GRID 4 COLOANE */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
@@ -49,11 +65,32 @@ export default function Footer() {
           <div>
             <h4 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Zone</h4>
             {[
-              { href: '/zona/titan-pallady', label: 'Titan-Pallady' },
-              { href: '/zona/piata-muncii', label: 'Piața Muncii' },
-              { href: '/zona/militari', label: 'Militari' },
-              { href: '/zona/herastrau-aviatiei', label: 'Herăstrău' },
-              { href: '/zona/colentina-fundeni', label: 'Colentina' },
+  ...(() => {
+                // Zone dinamice din date — top 5 dupa numar ansambluri, fara sectoare
+                const count = {}
+                ANSAMBLURI_ACTIVE.forEach(a =>
+                  (a.zone || [])
+                    .filter(z => !z.startsWith('sector-'))
+                    .forEach(z => { count[z] = (count[z] || 0) + 1 })
+                )
+                const label = z => z
+                  .split('-')
+                  .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                  .join('-')
+                  .replace('Mosilor', 'Moșilor')
+                  .replace('Eminescu', 'Eminescu')
+                  .replace('Viitorului', 'Viitorului')
+                  .replace('Militari', 'Militari')
+                  .replace('Piata', 'Piața')
+                  .replace('Muncii', 'Muncii')
+                  .replace('Tepes', 'Țepeș')
+                  .replace('Voda', 'Vodă')
+                  .replace('Pallady', 'Pallady')
+                return Object.entries(count)
+                  .sort((a, b) => b[1] - a[1])
+                  .slice(0, 5)
+                  .map(([z]) => ({ href: `/zona/${z}`, label: label(z) }))
+              })(),
             ].map(l => (
               <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#777' }}>
                 {l.label}
@@ -99,5 +136,7 @@ export default function Footer() {
 
 
     </footer>
+    </footer>
+    </>
   )
 }

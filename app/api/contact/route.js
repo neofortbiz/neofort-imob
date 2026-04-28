@@ -51,7 +51,7 @@ Data: ${new Date().toLocaleString('ro-RO')}
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'noreply@neofort-imob.ro',
+          from: 'noreply@neofort-biz.ro',
           to: DEST_EMAIL,
           subject,
           text: body,

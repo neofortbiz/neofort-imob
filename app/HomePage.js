@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import FormularCalificat from '@/components/FormularCalificat'
 import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
 // Zone generate automat din ansambluri
@@ -560,19 +559,6 @@ export default function HomePageClient() {
                 </Link>
               ))}
             </div>
-          </div>
-        </section>
-
-        {/* FORMULAR CALIFICAT */}
-        <section style={{ background: '#081c12' }} className="py-12 px-6">
-          <div className="max-w-xl mx-auto">
-            <h2 className="text-xl font-medium text-white mb-2">
-              Solicită o ofertă <span style={{ color: '#e8b44e' }}>personalizată</span>
-            </h2>
-            <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.8)' }}>
-              Completează formularul și un consultant Neofort IMO te contactează în cel mult 2 ore cu o ofertă adaptată nevoilor tale.
-            </p>
-            <FormularCalificat />
           </div>
         </section>
 
