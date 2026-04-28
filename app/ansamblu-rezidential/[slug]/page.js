@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import FormularRapid from '@/components/FormularRapid'
+import GalerieAnsamblu from '@/components/GalerieAnsamblu'
 import DescriereExpand from '@/components/DescriereExpand'
 import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
@@ -248,52 +249,9 @@ export default function AnsambluPage({ params }) {
             {/* COLOANA MAIN */}
             <div className="space-y-0">
 
-              {/* GALERIE — slider pe mobil, grid pe desktop */}
+              {/* GALERIE — componenta cu imagini reale */}
               <div className="mb-6">
-                {/* DESKTOP: poza principala + miniaturi */}
-                <div className="hidden md:block">
-                  <div className="bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg" style={{ aspectRatio: '16/9' }}>
-                    <span className="text-sm text-gray-400">Fotografie principală</span>
-                  </div>
-                  <div className="grid gap-1 mt-1.5" style={{ gridTemplateColumns: 'repeat(7, 1fr)' }}>
-                    {[2,3,4,5,6,7].map(n => (
-                      <div key={n} className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
-                        <span className="text-[9px] text-gray-400">{n}</span>
-                      </div>
-                    ))}
-                    <div className="bg-gray-200 flex items-center justify-center cursor-pointer hover:bg-gray-300 transition-colors" style={{ aspectRatio: '16/9' }}>
-                      <span className="text-[9px] font-medium text-gray-600">+{a.galerie.length || 10}</span>
-                    </div>
-                  </div>
-                </div>
-                {/* MOBIL: swipe slider full-width */}
-                <div className="md:hidden relative">
-                  <div
-                    className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide rounded-lg"
-                    style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-                    {[1,2,3,4,5,6,7,8].map(n => (
-                      <div key={n}
-                        className="flex-none w-full snap-start bg-gray-100 flex items-center justify-center"
-                        style={{ aspectRatio: '16/9' }}>
-                        <span className="text-sm text-gray-400">{n === 1 ? 'Fotografie principală' : `Foto ${n}`}</span>
-                      </div>
-                    ))}
-                  </div>
-                  {/* Dots indicator */}
-                  <div className="flex justify-center gap-1 mt-2">
-                    {[0,1,2,3,4,5,6,7].map(i => (
-                      <div key={i} className="rounded-full transition-all"
-                        style={{ width: i === 0 ? 16 : 6, height: 6, background: i === 0 ? '#2d7a3a' : '#d1d5db' }} />
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              {/* TAB GALERIE — sub galerie */}
-              <div className="flex gap-2 overflow-x-auto nav-scroll" style={{ marginBottom: 24 }}>
-                {['Exterior', 'Interior', 'Randări', 'Plan etaj'].map((t, i) => (
-                  <span key={t} className={`text-xs px-3 py-1.5 rounded-full border cursor-pointer whitespace-nowrap flex-shrink-0 ${i === 0 ? 'bg-[#2d7a3a] border-[#2d7a3a] text-white' : 'border-gray-200 text-gray-500'}`}>{t}</span>
-                ))}
+                <GalerieAnsamblu imagini={a.imagini || {}} nume={a.nume} />
               </div>
 
               {/* DESCRIERE */}
