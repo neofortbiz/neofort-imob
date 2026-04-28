@@ -11,7 +11,7 @@ const STATUS_COLORS = {
 }
 
 const STATUS_LABELS = {
-  activ: 'Activ', constructie: 'In constructie',
+  activ: 'Finalizat', constructie: 'In constructie',
   promotie: 'Promotie', vandut: 'Vandut', retras: 'Retras',
 }
 

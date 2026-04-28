@@ -47,7 +47,7 @@ const COORDS = {
 }
 
 const STATUS_COLORS = {
-  activ:       { fill: '#2d7a3a', label: 'Activ' },
+  activ:       { fill: '#2d7a3a', label: 'Finalizat' },
   constructie: { fill: '#2563eb', label: 'In constructie' },
   promotie:    { fill: '#dc2626', label: 'Promotie' },
   vandut:      { fill: '#f97316', label: 'Vandut (portofoliu)' },
@@ -122,7 +122,7 @@ export default function HartaPage() {
                       borderColor: filter === s ? 'transparent' : '#e5e7eb',
                       color: filter === s ? 'white' : '#6b7280',
                     }}>
-                    {s === 'toate' ? 'Toate active' : STATUS_COLORS[s]?.label}
+                    {s === 'toate' ? 'Toate' : STATUS_COLORS[s]?.label}
                   </button>
                 ))}
               </div>
@@ -162,7 +162,7 @@ export default function HartaPage() {
             <div className="flex flex-col gap-2 overflow-y-auto pr-0.5" style={{ maxHeight: 580 }}>
 
               <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider px-1">
-                Active la vanzare ({filteredActive.length})
+                La vanzare ({filteredActive.length})
               </p>
 
               {filteredActive.map(a => {
