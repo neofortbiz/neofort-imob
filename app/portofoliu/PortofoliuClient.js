@@ -32,7 +32,7 @@ export default function PortofoliuClient() {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
           {TOATE_PORTOFOLIU.map(a => (
             <Link key={a.slug} href={`/portofoliu/${a.slug}`}
-              className="group bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-md transition-all hover:border-gray-200">
+              className="group bg-white rounded-xl border border-gray-300 overflow-hidden hover:shadow-md transition-all hover:border-gray-500">
               <div className="bg-gray-50 flex flex-col items-center justify-center py-5 border-b border-gray-100">
                 <div className="text-2xl font-bold text-gray-200">#{a.numar}</div>
                 <div className="text-[10px] text-gray-400 mt-0.5">{a.etaje}</div>
@@ -61,7 +61,7 @@ export default function PortofoliuClient() {
         <div className="space-y-2">
           {TOATE_PORTOFOLIU.map(a => (
             <Link key={a.slug} href={`/portofoliu/${a.slug}`}
-              className="group bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-md transition-all flex">
+              className="group bg-white rounded-xl border border-gray-300 overflow-hidden hover:shadow-md transition-all flex">
               <div className="w-20 flex-shrink-0 bg-gray-50 flex flex-col items-center justify-center border-r border-gray-100">
                 <div className="text-lg font-bold text-gray-200">#{a.numar}</div>
                 <div className="text-[9px] text-gray-400">{a.etaje}</div>

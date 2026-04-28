@@ -185,7 +185,7 @@ export default function AnsambluriClient() {
                 const sc = STATUS_CFG[a.status]
                 return (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
-                    className="group bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-md transition-all hover:border-gray-200">
+                    className="group bg-white rounded-xl border border-gray-300 overflow-hidden hover:shadow-md transition-all hover:border-gray-500">
                     <div className="relative bg-gray-100 overflow-hidden" style={{ aspectRatio: '16/9' }}>
                       {a.imagini?.cover ? (
                         <Image src={a.imagini.cover} alt={a.nume} fill sizes="(max-width:768px) 100vw, 400px" className="object-cover group-hover:scale-105 transition-transform duration-500" />

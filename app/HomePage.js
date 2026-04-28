@@ -369,14 +369,14 @@ export default function HomePageClient() {
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                 {displayed.map(a => {
                   const sc = STATUS_CONFIG[a.status]
                   const isRecent = a.slug === recentSlug
                   return (
                     <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                       onClick={() => { try { localStorage.setItem('neofort_recent', a.slug) } catch {} }}
-                      className="group border border-gray-100 rounded-xl overflow-hidden bg-white hover:border-gray-300 hover:shadow-sm transition-all">
+                      className="group border border-gray-300 rounded-xl overflow-hidden bg-white hover:border-gray-500 hover:shadow-sm transition-all">
                       <div className="aspect-square bg-gray-100 relative overflow-hidden">
                         {a.imagini?.cover ? (
                           <Image src={a.imagini.cover} alt={a.nume} fill sizes="200px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
@@ -502,7 +502,7 @@ export default function HomePageClient() {
                 { tag: 'Ghid', titlu: 'Ghid complet: cum cumperi un apartament nou în București', data: '10 Martie 2026', slug: 'ghid-cumparare-apartament-nou' },
               ].map(b => (
                 <Link key={b.slug} href={`/blog/${b.slug}`}
-                  className="border border-gray-100 rounded-xl overflow-hidden hover:border-gray-200 hover:shadow-sm transition-all group">
+                  className="border border-gray-300 rounded-xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all group">
                   <div className="h-28 bg-gray-100 flex items-center justify-center">
                     <span className="text-xs text-gray-500">Foto articol</span>
                   </div>
