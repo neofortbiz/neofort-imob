@@ -460,70 +460,55 @@ export default function HomePageClient() {
         <div className="px-6 pb-8">
           <div className="max-w-7xl mx-auto border border-gray-300 rounded-xl overflow-hidden shadow-md">
             <Link href="/harta-ansambluri" className="block group">
-
-              {/* Container harta cu tile OSM real */}
               <div className="relative overflow-hidden" style={{ height: 200 }}>
 
-                {/* Tile OpenStreetMap real ca imagine statica - centrat pe Bucuresti */}
-                <img
-                  src="https://tile.openstreetmap.org/12/2380/1489.png"
-                  alt=""
-                  className="absolute inset-0 w-full h-full object-cover"
-                  style={{ opacity: 0.85, filter: 'brightness(0.95) saturate(1.1)' }}
-                  aria-hidden="true"
+                {/* OpenStreetMap embed real ca fundal */}
+                <iframe
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=25.97%2C44.37%2C26.23%2C44.51&amp;layer=mapnik"
+                  style={{ width: '100%', height: '100%', border: 0, pointerEvents: 'none' }}
+                  title="Harta Bucuresti"
+                  loading="lazy"
                 />
-                {/* Tile adiacente pentru acoperire completa */}
-                <img src="https://tile.openstreetmap.org/12/2381/1489.png" alt="" aria-hidden="true"
-                  className="absolute inset-0 h-full object-cover" style={{ left: '33%', opacity: 0.85, filter: 'brightness(0.95) saturate(1.1)', width: '34%' }} />
-                <img src="https://tile.openstreetmap.org/12/2382/1489.png" alt="" aria-hidden="true"
-                  className="absolute inset-0 h-full object-cover" style={{ left: '66%', opacity: 0.85, filter: 'brightness(0.95) saturate(1.1)', width: '34%' }} />
 
-                {/* Overlay usor pentru lizibilitate */}
-                <div className="absolute inset-0" style={{ background: 'rgba(0,0,0,0.12)' }} />
-
-                {/* SVG pinuri peste harta */}
-                <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-                  {/* Pin SVG - forma corecta: cerc sus + triunghi jos */}
+                {/* SVG pinuri corecte peste iframe */}
+                <svg
+                  className="absolute inset-0 w-full h-full"
+                  viewBox="0 0 100 100"
+                  preserveAspectRatio="xMidYMid meet"
+                  style={{ pointerEvents: 'none' }}
+                >
+                  {/* Pin = cerc + triunghi jos, marime normala */}
                   {[
-                    { x: 72, y: 52, c: '#2563eb' }, { x: 68, y: 60, c: '#2563eb' },
-                    { x: 62, y: 48, c: '#2563eb' }, { x: 58, y: 56, c: '#2563eb' },
-                    { x: 78, y: 44, c: '#2563eb' }, { x: 76, y: 58, c: '#2563eb' },
-                    { x: 44, y: 50, c: '#2d7a3a' }, { x: 66, y: 65, c: '#2d7a3a' },
-                    { x: 54, y: 62, c: '#2d7a3a' }, { x: 82, y: 52, c: '#2d7a3a' },
-                    { x: 40, y: 58, c: '#dc2626' }, { x: 56, y: 50, c: '#dc2626' },
-                    { x: 34, y: 62, c: '#f97316' }, { x: 48, y: 42, c: '#f97316' },
-                    { x: 60, y: 72, c: '#f97316' }, { x: 70, y: 38, c: '#f97316' },
-                    { x: 86, y: 62, c: '#f97316' }, { x: 52, y: 76, c: '#f97316' },
-                    { x: 38, y: 46, c: '#f97316' }, { x: 64, y: 42, c: '#f97316' },
-                    { x: 28, y: 54, c: '#f97316' }, { x: 74, y: 70, c: '#f97316' },
-                    { x: 46, y: 68, c: '#f97316' }, { x: 82, y: 36, c: '#f97316' },
-                  ].map((p, i) => (
-                    <g key={i} transform={`translate(${p.x}, ${p.y})`}>
-                      {/* Corp pin */}
-                      <path
-                        d="M0,-5 C-2.5,-5 -4,-3.5 -4,-1.5 C-4,1.5 0,5 0,5 C0,5 4,1.5 4,-1.5 C4,-3.5 2.5,-5 0,-5 Z"
-                        fill={p.c} stroke="white" strokeWidth="0.8"
-                      />
-                      {/* Punct interior */}
-                      <circle cx="0" cy="-1.5" r="1.3" fill="white" opacity="0.9"/>
+                    {x:56,y:52,c:'#2563eb'},{x:60,y:58,c:'#2563eb'},{x:64,y:48,c:'#2563eb'},
+                    {x:52,y:56,c:'#2563eb'},{x:68,y:54,c:'#2563eb'},{x:58,y:44,c:'#2563eb'},
+                    {x:72,y:60,c:'#2d7a3a'},{x:48,y:62,c:'#2d7a3a'},{x:66,y:66,c:'#2d7a3a'},
+                    {x:76,y:48,c:'#2d7a3a'},{x:44,y:54,c:'#dc2626'},{x:62,y:70,c:'#dc2626'},
+                    {x:40,y:64,c:'#f97316'},{x:54,y:40,c:'#f97316'},{x:70,y:72,c:'#f97316'},
+                    {x:80,y:56,c:'#f97316'},{x:36,y:50,c:'#f97316'},{x:74,y:38,c:'#f97316'},
+                    {x:50,y:76,c:'#f97316'},{x:84,y:44,c:'#f97316'},{x:46,y:46,c:'#f97316'},
+                    {x:78,y:66,c:'#f97316'},{x:42,y:72,c:'#f97316'},{x:86,y:62,c:'#f97316'},
+                  ].map((p,i) => (
+                    <g key={i} transform={`translate(${p.x},${p.y})`}>
+                      <circle cx="0" cy="-2.5" r="3" fill={p.c} stroke="white" strokeWidth="0.8"/>
+                      <polygon points="0,2 -1.5,-1 1.5,-1" fill={p.c}/>
                     </g>
                   ))}
                 </svg>
 
-                {/* Gradient bottom */}
-                <div className="absolute bottom-0 left-0 right-0 h-16"
-                  style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 100%)' }} />
+                {/* Gradient bottom pentru text */}
+                <div className="absolute bottom-0 left-0 right-0 h-20 pointer-events-none"
+                  style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 100%)' }}/>
 
-                {/* Text */}
-                <div className="absolute bottom-3 left-4 right-4 flex items-end justify-between">
+                {/* Text overlay */}
+                <div className="absolute bottom-3 left-4 right-4 flex items-end justify-between pointer-events-none">
                   <div>
                     <p className="text-white font-semibold text-sm drop-shadow">Harta interactivă ansambluri</p>
-                    <p className="text-white/80 text-xs mt-0.5 drop-shadow">45 proiecte pe hartă OpenStreetMap București</p>
+                    <p className="text-white/80 text-xs mt-0.5">45 proiecte pe hartă OpenStreetMap București</p>
                   </div>
-                  <div className="flex gap-3">
+                  <div className="flex gap-3 flex-wrap justify-end">
                     {[['#2d7a3a','Finalizat'],['#2563eb','Construcție'],['#dc2626','Promoție'],['#f97316','Portofoliu']].map(([c,l]) => (
-                      <div key={l} className="flex items-center gap-1 text-[9px] text-white/90 drop-shadow">
-                        <div className="w-2 h-2 rounded-full" style={{ background: c }}/>
+                      <div key={l} className="flex items-center gap-1 text-[9px] text-white/90">
+                        <div className="w-2 h-2 rounded-full flex-shrink-0" style={{background:c}}/>
                         <span>{l}</span>
                       </div>
                     ))}
@@ -531,7 +516,7 @@ export default function HomePageClient() {
                 </div>
 
                 {/* Hover CTA */}
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/10">
                   <span className="bg-white text-gray-900 text-xs font-semibold px-5 py-2 rounded-full shadow-lg">
                     Deschide harta completă →
                   </span>
@@ -540,7 +525,7 @@ export default function HomePageClient() {
 
               <div className="px-4 py-2.5 flex justify-between items-center bg-white border-t border-gray-200">
                 <span className="text-xs text-gray-500">12 ansambluri active · 33 proiecte livrate în București din 2009</span>
-                <span className="text-xs font-medium" style={{ color: '#2d7a3a' }}>Vezi toate →</span>
+                <span className="text-xs font-medium" style={{color:'#2d7a3a'}}>Vezi toate →</span>
               </div>
             </Link>
           </div>
