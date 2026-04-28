@@ -458,89 +458,93 @@ export default function HomePageClient() {
 
         {/* HARTA TEASER */}
         <div className="px-6 pb-8">
-          <div className="max-w-7xl mx-auto border border-gray-300 rounded-xl overflow-hidden" style={{ background: '#1a1a2e' }}>
-            <Link href="/harta-ansambluri" className="block group relative">
-              {/* SVG mini-harta cu pinuri reale */}
-              <div className="relative overflow-hidden" style={{ height: 180 }}>
-                <svg viewBox="0 0 900 200" className="w-full h-full" style={{ opacity: 0.9 }}>
-                  {/* Fundal */}
-                  <rect width="900" height="200" fill="#1a1a2e"/>
-                  {/* Stradute principale - aspect urban schematic */}
-                  <line x1="0" y1="100" x2="900" y2="100" stroke="#2d3561" strokeWidth="8"/>
-                  <line x1="450" y1="0" x2="450" y2="200" stroke="#2d3561" strokeWidth="6"/>
-                  <line x1="0" y1="60" x2="900" y2="140" stroke="#252b50" strokeWidth="4"/>
-                  <line x1="0" y1="140" x2="900" y2="60" stroke="#252b50" strokeWidth="4"/>
-                  <line x1="200" y1="0" x2="200" y2="200" stroke="#252b50" strokeWidth="3"/>
-                  <line x1="700" y1="0" x2="700" y2="200" stroke="#252b50" strokeWidth="3"/>
-                  <line x1="0" y1="30" x2="900" y2="30" stroke="#252b50" strokeWidth="2"/>
-                  <line x1="0" y1="170" x2="900" y2="170" stroke="#252b50" strokeWidth="2"/>
-                  {/* Zona verde - parc central schematic */}
-                  <ellipse cx="420" cy="95" rx="55" ry="35" fill="#1e3a2a" opacity="0.6"/>
-                  <ellipse cx="680" cy="45" rx="30" ry="18" fill="#1e3a2a" opacity="0.5"/>
+          <div className="max-w-7xl mx-auto border border-gray-300 rounded-xl overflow-hidden shadow-md">
+            <Link href="/harta-ansambluri" className="block group">
 
-                  {/* PINURI - coordonate mapate din GPS real pe viewBox 900x200 */}
-                  {/* Active - Verde finalizat */}
-                  <circle cx="540" cy="115" r="7" fill="#2d7a3a" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="590" cy="128" r="7" fill="#2d7a3a" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="400" cy="130" r="7" fill="#2d7a3a" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="460" cy="105" r="7" fill="#2d7a3a" stroke="white" strokeWidth="1.5"/>
-                  {/* Active - Albastru constructie */}
-                  <circle cx="620" cy="110" r="7" fill="#2563eb" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="555" cy="130" r="7" fill="#2563eb" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="300" cy="98" r="7" fill="#2563eb" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="245" cy="115" r="7" fill="#2563eb" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="505" cy="95" r="7" fill="#2563eb" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="480" cy="128" r="7" fill="#2563eb" stroke="white" strokeWidth="1.5"/>
-                  {/* Active - Rosu promotie */}
-                  <circle cx="290" cy="118" r="7" fill="#dc2626" stroke="white" strokeWidth="1.5"/>
-                  <circle cx="440" cy="110" r="7" fill="#dc2626" stroke="white" strokeWidth="1.5"/>
-                  {/* Portofoliu - portocaliu mic */}
-                  {[350,380,410,430,460,480,510,540,560,590,620,650,680,710,730,760,200,230,270,310,340].map((x, i) => (
-                    <circle key={i} cx={x} cy={80 + (i % 5) * 18} r="4" fill="#f97316" stroke="white" strokeWidth="1" opacity="0.8"/>
+              {/* Container harta cu tile OSM real */}
+              <div className="relative overflow-hidden" style={{ height: 200 }}>
+
+                {/* Tile OpenStreetMap real ca imagine statica - centrat pe Bucuresti */}
+                <img
+                  src="https://tile.openstreetmap.org/12/2380/1489.png"
+                  alt=""
+                  className="absolute inset-0 w-full h-full object-cover"
+                  style={{ opacity: 0.85, filter: 'brightness(0.95) saturate(1.1)' }}
+                  aria-hidden="true"
+                />
+                {/* Tile adiacente pentru acoperire completa */}
+                <img src="https://tile.openstreetmap.org/12/2381/1489.png" alt="" aria-hidden="true"
+                  className="absolute inset-0 h-full object-cover" style={{ left: '33%', opacity: 0.85, filter: 'brightness(0.95) saturate(1.1)', width: '34%' }} />
+                <img src="https://tile.openstreetmap.org/12/2382/1489.png" alt="" aria-hidden="true"
+                  className="absolute inset-0 h-full object-cover" style={{ left: '66%', opacity: 0.85, filter: 'brightness(0.95) saturate(1.1)', width: '34%' }} />
+
+                {/* Overlay usor pentru lizibilitate */}
+                <div className="absolute inset-0" style={{ background: 'rgba(0,0,0,0.12)' }} />
+
+                {/* SVG pinuri peste harta */}
+                <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                  {/* Pin SVG - forma corecta: cerc sus + triunghi jos */}
+                  {[
+                    { x: 72, y: 52, c: '#2563eb' }, { x: 68, y: 60, c: '#2563eb' },
+                    { x: 62, y: 48, c: '#2563eb' }, { x: 58, y: 56, c: '#2563eb' },
+                    { x: 78, y: 44, c: '#2563eb' }, { x: 76, y: 58, c: '#2563eb' },
+                    { x: 44, y: 50, c: '#2d7a3a' }, { x: 66, y: 65, c: '#2d7a3a' },
+                    { x: 54, y: 62, c: '#2d7a3a' }, { x: 82, y: 52, c: '#2d7a3a' },
+                    { x: 40, y: 58, c: '#dc2626' }, { x: 56, y: 50, c: '#dc2626' },
+                    { x: 34, y: 62, c: '#f97316' }, { x: 48, y: 42, c: '#f97316' },
+                    { x: 60, y: 72, c: '#f97316' }, { x: 70, y: 38, c: '#f97316' },
+                    { x: 86, y: 62, c: '#f97316' }, { x: 52, y: 76, c: '#f97316' },
+                    { x: 38, y: 46, c: '#f97316' }, { x: 64, y: 42, c: '#f97316' },
+                    { x: 28, y: 54, c: '#f97316' }, { x: 74, y: 70, c: '#f97316' },
+                    { x: 46, y: 68, c: '#f97316' }, { x: 82, y: 36, c: '#f97316' },
+                  ].map((p, i) => (
+                    <g key={i} transform={`translate(${p.x}, ${p.y})`}>
+                      {/* Corp pin */}
+                      <path
+                        d="M0,-5 C-2.5,-5 -4,-3.5 -4,-1.5 C-4,1.5 0,5 0,5 C0,5 4,1.5 4,-1.5 C4,-3.5 2.5,-5 0,-5 Z"
+                        fill={p.c} stroke="white" strokeWidth="0.8"
+                      />
+                      {/* Punct interior */}
+                      <circle cx="0" cy="-1.5" r="1.3" fill="white" opacity="0.9"/>
+                    </g>
                   ))}
                 </svg>
 
-                {/* Overlay gradient bottom */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"/>
+                {/* Gradient bottom */}
+                <div className="absolute bottom-0 left-0 right-0 h-16"
+                  style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 100%)' }} />
 
-                {/* Text overlay */}
+                {/* Text */}
                 <div className="absolute bottom-3 left-4 right-4 flex items-end justify-between">
                   <div>
-                    <p className="text-white font-semibold text-sm leading-tight">Harta interactivă</p>
-                    <p className="text-white/70 text-xs mt-0.5">45 ansambluri pe hartă OpenStreetMap</p>
+                    <p className="text-white font-semibold text-sm drop-shadow">Harta interactivă ansambluri</p>
+                    <p className="text-white/80 text-xs mt-0.5 drop-shadow">45 proiecte pe hartă OpenStreetMap București</p>
                   </div>
-                  <div className="flex gap-2.5 items-center">
-                    {[
-                      { c: '#2d7a3a', l: 'Finalizat' },
-                      { c: '#2563eb', l: 'Constructie' },
-                      { c: '#dc2626', l: 'Promotie' },
-                      { c: '#f97316', l: 'Portofoliu' },
-                    ].map(m => (
-                      <div key={m.l} className="flex items-center gap-1 text-[9px] text-white/80">
-                        <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: m.c }}/>
-                        {m.l}
+                  <div className="flex gap-3">
+                    {[['#2d7a3a','Finalizat'],['#2563eb','Construcție'],['#dc2626','Promoție'],['#f97316','Portofoliu']].map(([c,l]) => (
+                      <div key={l} className="flex items-center gap-1 text-[9px] text-white/90 drop-shadow">
+                        <div className="w-2 h-2 rounded-full" style={{ background: c }}/>
+                        <span>{l}</span>
                       </div>
                     ))}
                   </div>
                 </div>
 
-                {/* Hover overlay */}
-                <div className="absolute inset-0 bg-white/0 group-hover:bg-white/5 transition-colors flex items-center justify-center">
-                  <span className="opacity-0 group-hover:opacity-100 transition-opacity bg-white text-gray-900 text-xs font-semibold px-4 py-2 rounded-full shadow-lg">
+                {/* Hover CTA */}
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                  <span className="bg-white text-gray-900 text-xs font-semibold px-5 py-2 rounded-full shadow-lg">
                     Deschide harta completă →
                   </span>
                 </div>
               </div>
 
-              <div className="px-4 py-3 flex justify-between items-center border-t border-white/10">
-                <span className="text-xs text-white/60">12 active la vânzare + 33 proiecte livrate în București</span>
-                <span className="text-xs font-medium" style={{ color: '#4ade80' }}>
-                  Deschide harta →
-                </span>
+              <div className="px-4 py-2.5 flex justify-between items-center bg-white border-t border-gray-200">
+                <span className="text-xs text-gray-500">12 ansambluri active · 33 proiecte livrate în București din 2009</span>
+                <span className="text-xs font-medium" style={{ color: '#2d7a3a' }}>Vezi toate →</span>
               </div>
             </Link>
           </div>
-        </div>
+        </div>        </div>
 
         {/* BLOG */}
         <section className="py-8 px-6 border-t border-gray-200">
