@@ -89,7 +89,7 @@ export default function HartaPage() {
 
             {/* SVG HARTA */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative" style={{ height: 560 }}>
-              <svg viewBox={\`0 0 \${W} \${H}\`} className="w-full h-full">
+              <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-full">
                 <rect x="0" y="0" width={W} height={H} fill="#f8fafc" />
                 {[0.2,0.4,0.6,0.8].map(t => (
                   <g key={t}>
@@ -116,7 +116,7 @@ export default function HartaPage() {
                     <g key={a.numar}
                       onClick={() => setSelected(selected === a.numar ? null : a.numar)}
                       style={{ cursor: 'pointer', opacity: isFiltered ? 0.15 : 1 }}
-                      transform={\`translate(\${pos.x}, \${pos.y})\`}
+                      transform={`translate(${pos.x}, ${pos.y})`}
                     >
                       {isSel && <circle r={r+8} fill={color} opacity="0.15" />}
                       <circle r={r} fill={color} stroke="white" strokeWidth="2.5" filter={isSel ? 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))' : undefined} />
@@ -176,7 +176,7 @@ export default function HartaPage() {
                       </span>
                     </div>
                     {isSel && (
-                      <Link href={\`/ansamblu-rezidential/\${a.slug}\`}
+                      <Link href={`/ansamblu-rezidential/${a.slug}`}
                         className="mt-2 block text-center text-xs py-1.5 rounded-lg text-white font-medium"
                         style={{ background: color }}
                         onClick={e => e.stopPropagation()}>
@@ -206,7 +206,7 @@ export default function HartaPage() {
                     </p>
                     <p className="text-xs text-gray-400">Pret de la</p>
                   </div>
-                  <Link href={\`/ansamblu-rezidential/\${sel.slug}\`}
+                  <Link href={`/ansamblu-rezidential/${sel.slug}`}
                     className="text-sm px-4 py-2 rounded-xl text-white font-medium"
                     style={{ background: STATUS_COLORS[sel.status] || '#2d7a3a' }}>
                     Detalii →
