@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { TOATE_PORTOFOLIU, getOricareAnsambluPortofoliu } from '@/data/portofoliu'
 
-const BASE = 'https://neofort-imob.vercel.app'
+const BASE = 'https://www.neofort.ro'
 
 export function generateStaticParams() {
   return TOATE_PORTOFOLIU.map(a => ({ slug: a.slug }))

@@ -3,7 +3,7 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 import AnsambluriClient from './AnsambluriClient'
 
-const BASE = 'https://neofort-imob.vercel.app'
+const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   title: 'Ansambluri Rezidențiale București — Apartamente Noi | Neofort IMO',

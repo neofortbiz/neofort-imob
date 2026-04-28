@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ECHIPA } from '@/data/echipa'
 
-const BASE = 'https://neofort-imob.vercel.app'
+const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   title: 'Echipa Neofort IMO — Reprezentanți Vânzări București',

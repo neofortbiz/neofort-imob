@@ -1,7 +1,7 @@
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE } from '@/data/ansambluri'
 import { ANSAMBLURI_PORTOFOLIU } from '@/data/portofoliu'
 
-const BASE = 'https://neofort-imob.vercel.app'
+const BASE = 'https://www.neofort.ro'
 
 export default function sitemap() {
   const staticPages = [

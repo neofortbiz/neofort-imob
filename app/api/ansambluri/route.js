@@ -22,7 +22,7 @@ export async function GET() {
       telefon: a.brokerTel,
       whatsapp: `https://wa.me/40${a.brokerTel?.replace(/\s/g, '').substring(1)}`,
     },
-    url: `https://neofort-imob.vercel.app/ansamblu-rezidential/${a.slug}`,
+    url: `https://www.neofort.ro/ansamblu-rezidential/${a.slug}`,
     descriere: a.descriere,
     descriereCompleta: a.descriereCompleta || a.descriere,
   }))
@@ -30,7 +30,7 @@ export async function GET() {
   return NextResponse.json({
     companie: 'Neofort IMO',
     descriere: 'Ansambluri rezidențiale noi în București — direct de la sursă',
-    website: 'https://neofort-imob.vercel.app',
+    website: 'https://www.neofort.ro',
     telefon: '0743 250 029',
     totalActive: data.length,
     ansambluri: data,

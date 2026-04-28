@@ -1,7 +1,7 @@
 import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
 
-const BASE = 'https://neofort-imob.vercel.app'
+const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   metadataBase: new URL(BASE),
