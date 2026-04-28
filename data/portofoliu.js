@@ -1277,7 +1277,7 @@ Prețurile la momentul comercializării: studio 56,58 mp, 66.365€ + TVA; 2 cam
 Fiecare apartament compartimentat inteligent pentru optimizarea maximă a spațiului interior, cu suprafețe vitrate ample pentru lumină naturală și ventilație naturală. Toate utilitățile individuale branșate la predare. Sistem de încălzire în pardoseală, lift silențios, ferestre tripan, termosistem 10cm, instalații PPR, centrală în condensare, uși metalice multipunct, acces securizat cu poartă telecomandă. Pasajul suprateran Obregia-Turnu Măgurele a îmbunătățit semnificativ fluidizarea traficului în zonă.
 
 Metrou Constantin Brâncoveanu (M2) în față. Mall Grand Arena și zona comercială Jumbo în apropiere. Piața de Gros București. Parcul Tineretului și noul Parc Tudor Arghezi. Spitalele Copii Marie Curie și Alexandru Bagdasar pentru servicii medicale de urgență. Liceul Miron Nicolescu, Grădinița 7 Ani cu after-school și Școala Avram Iancu pentru familii cu copii.`,
-  },,
+  },
   {
     numar: 59,
     slug: 'neofort-59-mihai-bravu-tineretului',
