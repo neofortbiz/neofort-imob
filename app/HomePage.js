@@ -539,14 +539,17 @@ export default function HomePageClient() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {[
-                { tag: 'Legislație', titlu: 'E-Proprietatea 2026 — noul sistem de impozitare explicat', data: '22 Aprilie 2026', slug: 'e-proprietatea-2026-noul-sistem-de-impozitare' },
-                { tag: 'Piață', titlu: 'Scad sau nu prețurile la apartamente în București în 2026', data: '15 Martie 2026', slug: 'preturi-apartamente-bucuresti-2026' },
-                { tag: 'Ghid', titlu: 'Ghid complet: cum cumperi un apartament nou în București', data: '10 Martie 2026', slug: 'ghid-cumparare-apartament-nou' },
+                { tag: 'Legislație', titlu: 'E-Proprietatea 2026 — noul sistem de impozitare explicat', data: '22 Aprilie 2026', slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif' },
+                { tag: 'Piață', titlu: 'Scad sau nu prețurile la apartamente în București în 2026', data: '15 Martie 2026', slug: 'preturi-apartamente-bucuresti-2026', image: '/blog/scad-preturile-apartamente-bucuresti-2026.avif' },
+                { tag: 'Ghid', titlu: 'Ghid complet: cum cumperi un apartament nou în București', data: '10 Martie 2026', slug: 'ghid-cumparare-apartament-nou', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif' },
               ].map(b => (
                 <Link key={b.slug} href={`/blog/${b.slug}`}
                   className="border border-gray-300 rounded-xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all group">
-                  <div className="h-28 bg-gray-100 flex items-center justify-center">
-                    <span className="text-xs text-gray-500">Foto articol</span>
+                  <div className="relative h-40 bg-gray-100 overflow-hidden">
+                    {b.image && (
+                      <Image src={b.image} alt={b.titlu} fill sizes="(max-width:768px) 100vw, 400px"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                    )}
                   </div>
                   <div className="p-4">
                     <div className="text-[9px] font-medium uppercase tracking-wider mb-2" style={{ color: '#2d7a3a' }}>{b.tag}</div>
