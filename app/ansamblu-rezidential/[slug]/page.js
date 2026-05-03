@@ -36,11 +36,17 @@ export async function generateMetadata({ params }) {
       url,
       type: 'website',
       locale: 'ro_RO',
+      images: a.imagini?.cover
+        ? [{ url: `https://www.neofort.ro${a.imagini.cover}`, width: 1200, height: 800, alt: a.nume }]
+        : [{ url: 'https://www.neofort.ro/og-image.jpg', width: 1200, height: 630, alt: 'Neofort IMO' }],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
+      images: a.imagini?.cover
+        ? [`https://www.neofort.ro${a.imagini.cover}`]
+        : ['https://www.neofort.ro/og-image.jpg'],
     },
   }
 }
@@ -64,7 +70,7 @@ export default function AnsambluPage({ params }) {
   const similare = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug && (x.zona === a.zona || x.sector === a.sector)).slice(0, 3)
 
   // Google Maps embed URL din coordonate
-  const mapsEmbedUrl = `https://maps.google.com/maps?q=${a.coordonate.lat},${a.coordonate.lng}&z=15&output=embed`
+  const osmEmbedUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${a.coordonate.lng - 0.008}%2C${a.coordonate.lat - 0.006}%2C${a.coordonate.lng + 0.008}%2C${a.coordonate.lat + 0.006}&layer=mapnik&marker=${a.coordonate.lat}%2C${a.coordonate.lng}`
 
   // Schema.org RealEstateListing
   const realEstateSchema = {
@@ -186,7 +192,7 @@ export default function AnsambluPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/ansambluri-rezidentiale" />
-      <main>
+      <main style={{ overflowX: 'hidden' }}>
         {/* BREADCRUMB */}
         <div className="hidden md:block border-b border-gray-100 px-6 py-2.5">
           <div className="max-w-7xl mx-auto flex items-center gap-2 text-xs text-gray-500">
@@ -286,7 +292,7 @@ export default function AnsambluPage({ params }) {
                 <h2 className="text-base font-medium text-gray-900 mb-4">Locație și transport</h2>
                 <div className="rounded-xl overflow-hidden mb-4" style={{ height: 280 }}>
                   <iframe
-                    src={mapsEmbedUrl}
+                    src={osmEmbedUrl}
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -330,9 +336,13 @@ export default function AnsambluPage({ params }) {
                   const ssc = STATUS_CONFIG[s.status]
                   return (
                     <Link key={s.slug} href={`/ansamblu-rezidential/${s.slug}`} className="border border-gray-100 rounded-xl overflow-hidden hover:border-gray-200 hover:shadow-sm transition-all group">
-                      <div className="h-16 bg-gray-100 flex items-center justify-center relative">
-                        <span className="text-[9px] text-gray-400">Foto</span>
-                        <div className={`absolute top-1.5 left-1.5 text-[8px] font-medium px-1 py-0.5 rounded ${ssc.bg} ${ssc.text}`}>{ssc.label}</div>
+                      <div className="h-28 bg-gray-100 relative overflow-hidden">
+                        {s.imagini?.cover ? (
+                          <Image src={s.imagini.cover} alt={s.nume} fill sizes="220px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                        ) : (
+                          <div className="absolute inset-0 bg-gray-100" />
+                        )}
+                        <div className={`absolute top-1.5 left-1.5 text-[8px] font-medium px-1.5 py-0.5 rounded ${ssc.bg} ${ssc.text}`}>{ssc.label}</div>
                       </div>
                       <div className="p-2">
                         <div className="text-[9px] text-gray-400">{s.zona}</div>

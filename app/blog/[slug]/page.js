@@ -123,7 +123,20 @@ export function generateMetadata({ params }) {
     title: a.titlu + ' | Blog Neofort IMO',
     description: a.descriere || a.continut.substring(0, 155),
     alternates: { canonical: url },
-    openGraph: { title: a.titlu, description: a.descriere, url, type: 'article', locale: 'ro_RO' },
+    openGraph: {
+      title: a.titlu,
+      description: a.descriere,
+      url,
+      type: 'article',
+      locale: 'ro_RO',
+      images: a.image
+        ? [{ url: `https://www.neofort.ro${a.image}`, width: 1200, height: 630, alt: a.titlu }]
+        : [{ url: 'https://www.neofort.ro/og-image.jpg', width: 1200, height: 630, alt: 'Neofort IMO Blog' }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: a.image ? [`https://www.neofort.ro${a.image}`] : ['https://www.neofort.ro/og-image.jpg'],
+    },
   }
 }
 

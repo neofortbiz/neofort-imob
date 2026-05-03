@@ -34,6 +34,7 @@ const ARTICOLE = [
     tag: 'Ghid',
     data: '10 Martie 2026',
     rezumat: 'Pași, sfaturi și capcane de evitat atunci când cumperi un apartament nou de la dezvoltator.',
+    image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
   },
 ]
 
