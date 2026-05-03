@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -249,7 +250,7 @@ export default function AnsambluPage({ params }) {
         </div>
 
         {/* BODY — 2 COLOANE */}
-        <div className="max-w-7xl mx-auto px-6 py-6">
+        <div className="max-w-7xl mx-auto px-6 py-6" style={{ overflowX: 'hidden' }}>
           <div className="grid grid-cols-1 md:grid-cols-[1fr_240px] gap-6">
 
             {/* COLOANA MAIN */}
@@ -269,7 +270,7 @@ export default function AnsambluPage({ params }) {
               {/* APARTAMENTE */}
               <div className="py-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Apartamente disponibile</h2>
-                <ApartamenteTable apartamente={a.apartamente} parcare={a.parcare} ansambluNume={a.nume} />
+                <div style={{ overflowX: 'hidden' }}><ApartamenteTable apartamente={a.apartamente} parcare={a.parcare} ansambluNume={a.nume} /></div>
               </div>
 
               {/* DOTARI */}
