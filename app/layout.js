@@ -30,13 +30,13 @@ export const metadata = {
     title: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă',
     description: 'Apartamente noi în București direct de la sursă, fără comision. 12 ansambluri active în Sectoarele 2, 3 și 6.',
     url: BASE,
-    images: [{ url: `${BASE}/logo.avif`, width: 1024, height: 701, alt: 'Neofort IMO' }],
+    images: [{ url: `${BASE}/og-image.jpg`, width: 1200, height: 630, alt: 'Neofort IMO — Apartamente Noi București' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Neofort IMO — Apartamente Noi București',
     description: 'Apartamente noi direct de la sursă, fără comision. 12 ansambluri active.',
-    images: [`${BASE}/logo.avif`],
+    images: [`${BASE}/og-image.jpg`],
   },
 }
 
@@ -55,6 +55,12 @@ const organizationSchema = {
   },
   description: 'Companie specializată în comercializarea ansamblurilor rezidențiale noi în București. Direct de la sursă, fără comision de agenție. 17 ani experiență, 85+ proiecte livrate din 2009.',
   foundingDate: '2009',
+  sameAs: [
+    'https://www.facebook.com/profile.php?id=100063782524105',
+    'https://www.instagram.com/neofortimobiliare/',
+    'https://www.youtube.com/user/neofortbizimobiliare',
+    'https://x.com/NeofortIMO',
+  ],
   vatID: 'RO53874087',
   legalName: 'Neofort IMO SRL',
   identifier: { '@type': 'PropertyValue', name: 'Nr. Reg. Comertului', value: 'J2026008972000' },

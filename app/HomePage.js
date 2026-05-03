@@ -85,19 +85,31 @@ export default function HomePageClient() {
   const [pretMax, setPretMax] = useState(1500000)
   const [pretMoved, setPretMoved] = useState(false)
   const [shown, setShown] = useState(STEP)
-  const [recentSlug, setRecentSlug] = useState(null)
+  const [recentSlugs, setRecentSlugs] = useState([])
 
   useEffect(() => {
     try {
-      const r = localStorage.getItem('neofort_recent')
-      if (r) setRecentSlug(r)
+      const r = localStorage.getItem('neofort_recent_v2')
+      if (r) setRecentSlugs(JSON.parse(r))
     } catch {}
   }, [])
 
+  function markRecent(slug) {
+    try {
+      const prev = JSON.parse(localStorage.getItem('neofort_recent_v2') || '[]')
+      const next = [slug, ...prev.filter(s => s !== slug)].slice(0, 6)
+      localStorage.setItem('neofort_recent_v2', JSON.stringify(next))
+      setRecentSlugs(next)
+    } catch {}
+  }
+
   const sortedAnsambluri = [...ANSAMBLURI_ACTIVE].sort((a, b) => {
-    if (a.slug === recentSlug) return -1
-    if (b.slug === recentSlug) return 1
-    return 0
+    const ai = recentSlugs.indexOf(a.slug)
+    const bi = recentSlugs.indexOf(b.slug)
+    if (ai === -1 && bi === -1) return 0
+    if (ai === -1) return 1
+    if (bi === -1) return -1
+    return ai - bi
   })
 
   // ── FILTRE DINAMICE DIN DATE ────────────────────────────────────────────
@@ -108,30 +120,15 @@ export default function HomePageClient() {
     return m ? Number(m[1]) : null
   }
 
-  // Categorii disponibile — generate strict din datele existente
-  const categoriiDinDate = (() => {
-    const set = new Set()
-    ANSAMBLURI_ACTIVE.forEach(a => a.tipuri.forEach(t => {
-      const tl = t.toLowerCase()
-      if (tl.includes('garsonier') || tl.includes('studio')) set.add('garsonier')
-      if (tl.includes('camere') && !tl.includes('penthouse') && !tl.includes('duplex')) set.add('apartament')
-      if (tl.includes('penthouse')) set.add('penthouse')
-      if (tl.includes('duplex')) set.add('duplex')
-      if (tl.includes('cas') || tl.includes('vil')) set.add('casa')
-      if (tl.includes('comercial') || tl.includes('spatiu') || tl.includes('birou')) set.add('comercial')
-    }))
-    // Ordine fixa afisare
-    const ordine = ['garsonier','apartament','penthouse','duplex','casa','comercial']
-    return ordine.filter(c => set.has(c))
-  })()
+  // Categorii afisate mereu in filtru (indiferent de datele curente)
+  const categoriiDinDate = ['garsonier','apartament','penthouse','casa','comercial']
 
   const LABEL_CATEGORIE = {
     garsonier: 'Garsoniere / Studiouri',
     apartament: 'Apartamente',
     penthouse: 'Penthouse',
-    duplex: 'Duplex',
     casa: 'Case / Vile',
-    comercial: 'Spații comerciale / Birouri',
+    comercial: 'Spații comerciale',
   }
 
   // Numere de camere disponibile — 1=garso/studio, 2, 3, 4+ grupate
@@ -194,7 +191,7 @@ export default function HomePageClient() {
   return (
     <>
       <Header activePath="/" />
-      <main>
+      <main style={{ overflowX: 'hidden' }}>
 
         {/* HERO */}
         <section style={{ background: '#081c12' }} className="pt-10 pb-10 md:pt-14 md:pb-14 px-6 text-center">
@@ -371,10 +368,10 @@ export default function HomePageClient() {
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                 {displayed.map(a => {
                   const sc = STATUS_CONFIG[a.status]
-                  const isRecent = a.slug === recentSlug
+                  const isRecent = recentSlugs.includes(a.slug) && recentSlugs.indexOf(a.slug) === 0
                   return (
                     <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
-                      onClick={() => { try { localStorage.setItem('neofort_recent', a.slug) } catch {} }}
+                      onClick={() => markRecent(a.slug)}
                       className="group border border-gray-300 rounded-xl overflow-hidden bg-white hover:border-gray-500 hover:shadow-sm transition-all">
                       <div className="aspect-square bg-gray-100 relative overflow-hidden">
                         {a.imagini?.cover ? (

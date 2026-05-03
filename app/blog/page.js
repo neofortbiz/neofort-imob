@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -17,6 +18,7 @@ const ARTICOLE = [
     tag: 'Legislație',
     data: '22 Aprilie 2026',
     rezumat: 'Tot ce trebuie să știi despre noul sistem de impozitare a proprietăților imobiliare din 2026.',
+    image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
   },
   {
     slug: 'preturi-apartamente-bucuresti-2026',
@@ -24,6 +26,7 @@ const ARTICOLE = [
     tag: 'Piață',
     data: '15 Martie 2026',
     rezumat: 'Analiza pieței imobiliare din București — evoluția prețurilor și tendințele pentru 2026.',
+    image: '/blog/scad-preturile-apartamente-bucuresti-2026.avif',
   },
   {
     slug: 'ghid-cumparare-apartament-nou',
@@ -55,9 +58,16 @@ export default function BlogPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {ARTICOLE.map(a => (
               <Link key={a.slug} href={`/blog/${a.slug}`}
-                className="border border-gray-100 rounded-xl overflow-hidden bg-white hover:shadow-sm transition-all group">
-                <div className="h-40 bg-gray-100 flex items-center justify-center">
-                  <span className="text-xs text-gray-400">Foto articol</span>
+                className="border border-gray-300 rounded-xl overflow-hidden bg-white hover:shadow-md transition-all group">
+                <div className="relative h-44 bg-gray-100 overflow-hidden">
+                  {a.image ? (
+                    <Image src={a.image} alt={a.titlu} fill sizes="(max-width:768px) 100vw, 400px"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                  ) : (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <span className="text-xs text-gray-400">Foto articol</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-4">
                   <div className="text-[9px] font-medium uppercase tracking-wider mb-2" style={{ color: '#2d7a3a' }}>{a.tag}</div>

@@ -71,11 +71,8 @@ export default function FormularCalificat() {
         <select name="tipImobil" value={form.tipImobil} onChange={handleChange} className={selectCls} style={{ color: form.tipImobil ? 'white' : 'rgba(255,255,255,0.65)' }}>
           <option value="" disabled>Tip imobil</option>
           <option value="garsoniera-studio" style={{ color: '#111' }}>Garsonieră / Studio</option>
-          <option value="apt-2" style={{ color: '#111' }}>Apartament 2 camere</option>
-          <option value="apt-2-3" style={{ color: '#111' }}>Apartament 2–3 camere</option>
-          <option value="apt-3" style={{ color: '#111' }}>Apartament 3 camere</option>
-          <option value="apt-3-4" style={{ color: '#111' }}>Apartament 3–4 camere</option>
-          <option value="apt-4" style={{ color: '#111' }}>Apartament 4+ camere</option>
+          <option value="apartament" style={{ color: '#111' }}>Apartament</option>
+          <option value="penthouse" style={{ color: '#111' }}>Penthouse</option>
           <option value="casa-vila" style={{ color: '#111' }}>Casă / Vilă</option>
           <option value="comercial" style={{ color: '#111' }}>Spațiu comercial</option>
         </select>
