@@ -4,6 +4,8 @@ const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   alternates: { canonical: BASE },
+  openGraph: { images: [{ url: 'https://www.neofort.ro/og-acasa.jpg', width: 1200, height: 630, alt: 'Neofort IMO' }] },
+  twitter: { card: 'summary_large_image', images: ['https://www.neofort.ro/og-acasa.jpg'] },
 }
 
 const webPageSchema = {

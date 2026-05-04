@@ -37,7 +37,7 @@ export const ARTICOLE = [
     data: '15 Martie 2026', dataISO: '2026-03-15', citire: '10 min',
     image: '/blog/scad-preturile-apartamente-bucuresti-2026.avif',
     rezumat: 'Analiză detaliată a evoluției prețurilor pe segmente, zone și tipologii. Date reale din tranzacțiile pieței bucureștene și perspectivele pentru restul anului 2026.',
-    autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false,
+    autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false,
   },
   {
     slug: 'ghid-cumparare-apartament-nou',

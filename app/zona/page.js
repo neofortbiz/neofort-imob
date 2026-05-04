@@ -9,6 +9,8 @@ export const metadata = {
   title: 'Zone Rezidențiale București — Apartamente Noi | Neofort IMO',
   description: 'Ansambluri rezidențiale Neofort IMO în toate zonele Bucureștiului. Titan-Pallady, Militari, Piața Muncii, Moșilor-Eminescu și altele. Apartamente noi direct de la sursă.',
   alternates: { canonical: `${BASE}/zona` },
+  openGraph: { images: [{ url: 'https://www.neofort.ro/og-zone.jpg', width: 1200, height: 630, alt: 'Neofort IMO' }] },
+  twitter: { card: 'summary_large_image', images: ['https://www.neofort.ro/og-zone.jpg'] },
 }
 
 // Generam zonele cu date reale

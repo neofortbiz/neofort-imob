@@ -556,7 +556,7 @@ export async function generateMetadata({ params }) {
       locale: 'ro_RO',
       publishedTime: a.dataISO,
       authors: [autor?.nume],
-      images: [{ url: `${BASE}${a.image}`, width: 1200, height: 630, alt: a.titlu }],
+      images: [{ url: `${BASE}${a.image?.replace('.avif', '.jpg') || '/og-blog.jpg'}`, width: 1200, height: 630, alt: a.titlu }],
     },
     twitter: { card: 'summary_large_image', images: [`${BASE}${a.image}`] },
   }
@@ -764,10 +764,11 @@ export default function ArticolPage({ params }) {
             </article>
 
             {/* SIDEBAR DESKTOP */}
-            <aside className="hidden lg:block space-y-5">
+            <aside className="hidden lg:block">
+              <div className="sticky top-6 space-y-5">
 
               {/* CUPRINS */}
-              <div className="border border-gray-200 rounded-xl p-5 sticky top-6">
+              <div className="border border-gray-200 rounded-xl p-5">
                 <p className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-4">Cuprins</p>
                 <ol className="space-y-2">
                   {a.cuprins.map((c, i) => (
@@ -845,6 +846,7 @@ export default function ArticolPage({ params }) {
                   </div>
                 </div>
               )}
+              </div>
             </aside>
           </div>
         </div>
