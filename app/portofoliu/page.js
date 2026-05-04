@@ -13,6 +13,11 @@ export const metadata = {
     title: 'Portofoliu Neofort IMO — 85+ Ansambluri Livrate',
     description: 'Ansambluri rezidențiale finalizate și vândute în București. 17 ani experiență, 4.000+ familii.',
     url: `${BASE}/portofoliu`,
+    images: [{ url: 'https://www.neofort.ro/og-portofoliu.jpg', width: 1200, height: 630, alt: 'Portofoliu Neofort IMO — 33 Proiecte Livrate' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['https://www.neofort.ro/og-portofoliu.jpg'],
   },
 }
 

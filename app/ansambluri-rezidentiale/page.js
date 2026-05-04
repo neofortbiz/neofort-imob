@@ -13,6 +13,11 @@ export const metadata = {
     title: 'Ansambluri Rezidențiale București | Neofort IMO',
     description: '12 ansambluri active în București. Apartamente noi direct de la sursă, fără comision.',
     url: `${BASE}/ansambluri-rezidentiale`,
+    images: [{ url: 'https://www.neofort.ro/og-ansambluri.jpg', width: 1200, height: 630, alt: 'Ansambluri Rezidențiale Neofort IMO București' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['https://www.neofort.ro/og-ansambluri.jpg'],
   },
 }
 
