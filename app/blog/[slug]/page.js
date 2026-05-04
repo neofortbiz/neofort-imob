@@ -8,18 +8,46 @@ const BASE = 'https://www.neofort.ro'
 
 const AUTORI = {
   'igor-calutu': {
-    nume: 'Igor Călutu',
-    titlu: 'Director General & Analist Senior Piață Imobiliară',
-    bio: 'Cu peste 22 de ani de experiență în piața imobiliară din București, Igor Călutu a coordonat livrarea a peste 85 de ansambluri rezidențiale și a finalizat mii de tranzacții imobiliare. Analist activ al tendințelor de piață, Igor contribuie cu date și perspective din interior pentru clienții Neofort IMO.',
+    nume: 'Igor Calutu',
+    titlu: 'Reprezentant Vanzari Zona Vest — 22 ani experienta',
+    bio: 'Cu peste 22 de ani de experienta in piata imobiliara din Bucuresti si 11 ani in Neofort IMO, Igor Calutu a finalizat sute de tranzactii in zona de vest a Capitalei. Ofera clientilor perspective bazate pe date reale din piata.',
     foto: '/brokeri/igor-calutu.avif',
-    linkedin: '#',
   },
   'adriana-veselu': {
-    nume: 'Adriana Veșelu',
-    titlu: 'Consultant Senior Vânzări — 16 ani experiență',
-    bio: 'Adriana Veșelu este consultant imobiliar senior în echipa Neofort IMO cu 14 ani în companie și peste 400 de tranzacții finalizate. Specializată în achiziții de apartamente noi și consiliere pentru cumpărătorii la primul apartament.',
+    nume: 'Adriana Veselu',
+    titlu: 'Reprezentant Vanzari Zona Centrala — 16 ani experienta',
+    bio: 'Adriana Veselu este consultant imobiliar senior cu 14 ani in Neofort IMO si peste 400 de tranzactii finalizate. Specializata in consiliere pentru cumparatorii la primul apartament din zona centrala a Capitalei.',
     foto: '/brokeri/adriana-veselu.avif',
-    linkedin: '#',
+  },
+  'ramona-baicu': {
+    nume: 'Ramona Baicu',
+    titlu: 'Reprezentant Vanzari Zona Sud-Vest — 17 ani experienta',
+    bio: 'Ramona Baicu activeaza in piata imobiliara de 17 ani, cu 11 ani in Neofort IMO. Expertiza sa acopera zona sud-vest a Capitalei: Militari, Gorjului, Pacii si proiectele conexe.',
+    foto: '/brokeri/ramona-baicu.avif',
+  },
+  'svetlana-calutu': {
+    nume: 'Svetlana Calutu',
+    titlu: 'Reprezentant Vanzari Zona Centrala — 21 ani experienta',
+    bio: 'Svetlana Calutu are 18 ani in Neofort IMO si 21 de ani in piata imobiliara. Expertiza sa acopera zona centrala si semicentrala, cu focus pe proiectele Mosilor, Eminescu si Viitorului.',
+    foto: '/brokeri/svetlana-calutu.avif',
+  },
+  'adrian-pintilie': {
+    nume: 'Adrian Pintilie',
+    titlu: 'Reprezentant Vanzari Zona Sud-Est — 15 ani experienta',
+    bio: 'Adrian Pintilie gestioneaza zona sud-est a Capitalei cu 14 ani in Neofort IMO. Specialitatea sa: Titan, Pallady si zona IOR, unde cunoaste piata in cel mai mic detaliu.',
+    foto: '/brokeri/adrian-pintilie.avif',
+  },
+  'sasha-calutu': {
+    nume: 'Sasha Calutu',
+    titlu: 'Reprezentant Vanzari Zona Centrala — 17 ani experienta',
+    bio: 'Sasha Calutu are toti cei 17 ani de experienta imobiliara petrecuti in Neofort IMO, ceea ce il face unul dintre cei mai longevivi consultanti ai companiei. Expertiza sa acopera zona centrala si proiectele premium.',
+    foto: '/brokeri/sasha-calutu.avif',
+  },
+  'raluca-nistor': {
+    nume: 'Raluca Nistor',
+    titlu: 'Reprezentant Vanzari Zona Est — 10 ani experienta',
+    bio: 'Raluca Nistor este consultantul de referinta pentru zona est a Capitalei in Neofort IMO. Cu focus pe Titan-Pallady, ofera clientilor analiza detaliata a celui mai dinamic sector rezidential din Bucuresti.',
+    foto: '/brokeri/raluca-nistor.avif',
   },
 }
 
@@ -160,7 +188,7 @@ Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțel
     titlu: 'Scad sau Nu Prețurile la Apartamente în București în 2026? Analiză Completă cu Date Reale',
     tag: 'Piață', tagColor: '#0369a1',
     data: '15 Martie 2026', dataISO: '2026-03-15', citire: '11 min',
-    autor: 'igor-calutu',
+    autor: 'sasha-calutu',
     image: '/blog/scad-preturile-apartamente-bucuresti-2026.avif',
     descriere: 'Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date reale din INS, ANCPI și tranzacții proprii: evoluție pe zone, segmente și tipologii. Ce să faci dacă vrei să cumperi acum.',
     keywords: ['preturi apartamente bucuresti 2026', 'scad preturile imobiliare 2026', 'evolutie pret apartamente bucuresti', 'investitie imobiliara bucuresti 2026', 'apartamente noi pret 2026'],

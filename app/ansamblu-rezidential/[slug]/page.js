@@ -37,17 +37,13 @@ export async function generateMetadata({ params }) {
       url,
       type: 'website',
       locale: 'ro_RO',
-      images: a.imagini?.cover
-        ? [{ url: `https://www.neofort.ro${a.imagini.cover}`, width: 1200, height: 800, alt: a.nume }]
-        : [{ url: 'https://www.neofort.ro/og-image.jpg', width: 1200, height: 630, alt: 'Neofort IMO' }],
+      images: [{ url: `https://www.neofort.ro/og-ansambluri/neo-${a.numar}.jpg`, width: 1200, height: 630, alt: a.nume }],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: a.imagini?.cover
-        ? [`https://www.neofort.ro${a.imagini.cover}`]
-        : ['https://www.neofort.ro/og-image.jpg'],
+      images: [`https://www.neofort.ro/og-ansambluri/neo-${a.numar}.jpg`],
     },
   }
 }

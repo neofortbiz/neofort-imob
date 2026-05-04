@@ -28,7 +28,7 @@ export const ARTICOLE = [
     data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '8 min',
     image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
     rezumat: 'Ce este E-Proprietatea, cum schimbă impozitarea imobiliară din 2026 și ce înseamnă concret pentru proprietarii și cumpărătorii de apartamente noi în București.',
-    autor: 'Igor Călutu', autorSlug: 'igor-calutu', featured: true,
+    autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: true,
   },
   {
     slug: 'preturi-apartamente-bucuresti-2026',
@@ -37,7 +37,7 @@ export const ARTICOLE = [
     data: '15 Martie 2026', dataISO: '2026-03-15', citire: '10 min',
     image: '/blog/scad-preturile-apartamente-bucuresti-2026.avif',
     rezumat: 'Analiză detaliată a evoluției prețurilor pe segmente, zone și tipologii. Date reale din tranzacțiile pieței bucureștene și perspectivele pentru restul anului 2026.',
-    autor: 'Igor Călutu', autorSlug: 'igor-calutu', featured: false,
+    autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false,
   },
   {
     slug: 'ghid-cumparare-apartament-nou',
@@ -46,19 +46,19 @@ export const ARTICOLE = [
     data: '10 Martie 2026', dataISO: '2026-03-10', citire: '12 min',
     image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
     rezumat: 'Toți pașii de la prima vizită până la predarea cheilor: ce verifici la contract, cum negociezi, ce capcane există și cum le eviți. Ghid scris de consultanți cu 15+ ani experiență.',
-    autor: 'Adriana Veșelu', autorSlug: 'adriana-veselu', featured: false,
+    autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false,
   },
 ]
 
 const AUTORI = {
   'igor-calutu': {
-    nume: 'Igor Călutu', titlu: 'Director General & Analist Piață Imobiliară',
-    bio: 'Cu peste 22 de ani de experiență în piața imobiliară bucureșteană, Igor Călutu a coordonat livrarea a peste 85 de ansambluri rezidențiale. Analist activ al tendințelor de piață.',
+    nume: 'Igor Calutu', titlu: 'Director General & Analist Piață Imobiliară',
+    bio: 'Cu peste 22 de ani de experiență în piața imobiliară bucureșteană, Igor Calutu a coordonat livrarea a peste 85 de ansambluri rezidențiale. Analist activ al tendințelor de piață.',
     foto: '/brokeri/igor-calutu.avif',
   },
   'adriana-veselu': {
-    nume: 'Adriana Veșelu', titlu: 'Consultant Senior Vânzări — 16 ani experiență',
-    bio: 'Adriana Veșelu este unul dintre cei mai experimentați consultanți imobiliari din echipa Neofort IMO, cu 14 ani în companie și peste 400 de tranzacții finalizate.',
+    nume: 'Adriana Veselu', titlu: 'Consultant Senior Vânzări — 16 ani experiență',
+    bio: 'Adriana Veselu este unul dintre cei mai experimentați consultanți imobiliari din echipa Neofort IMO, cu 14 ani în companie și peste 400 de tranzacții finalizate.',
     foto: '/brokeri/adriana-veselu.avif',
   },
 }
