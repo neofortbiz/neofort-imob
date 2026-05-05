@@ -375,9 +375,6 @@ Neofort 74 Șișești-Băneasa confirmă că proiectele de 9 unități, bine exe
     ],
   },
   // ========== ANSAMBLURI N63-N73 ==========
-// Exportate separat - se adauga in portofoliu/page.js si portofoliu/[slug]/page.js
-
-export const ANSAMBLURI_PORTOFOLIU_EXTINSE = [
   {
     numar: 73,
     slug: 'neofort-73-orhideea-metrou-grozavesti',
@@ -3286,9 +3283,8 @@ export function getAnsambluPortofoliu(slug) {
   return ANSAMBLURI_PORTOFOLIU.find(a => a.slug === slug) || null
 }
 
-]
 
-export const TOATE_PORTOFOLIU = [...ANSAMBLURI_PORTOFOLIU, ...ANSAMBLURI_PORTOFOLIU_EXTINSE, ...ANSAMBLURI_PORTOFOLIU_N45_N62]
+export const TOATE_PORTOFOLIU = [...ANSAMBLURI_PORTOFOLIU, ...ANSAMBLURI_PORTOFOLIU_N45_N62]
 
 export function getOricareAnsambluPortofoliu(slug) {
   return TOATE_PORTOFOLIU.find(a => a.slug === slug) || null
