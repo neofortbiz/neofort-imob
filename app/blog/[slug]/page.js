@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import BlogViews from '@/components/BlogViews'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -566,24 +567,6 @@ export async function generateMetadata({ params }) {
     },
     twitter: { card: 'summary_large_image', images: [`${BASE}${a.image}`] },
   }
-}
-
-'use client'
-function BlogViews({ slug }) {
-  const [views, setViews] = typeof window !== 'undefined'
-    ? require('react').useState(null)
-    : [null, () => {}]
-  typeof window !== 'undefined' && require('react').useEffect(() => {
-    try {
-      const key = 'neofort_views_' + slug
-      const current = parseInt(localStorage.getItem(key) || '0')
-      const newVal = current + 1
-      localStorage.setItem(key, newVal)
-      setViews(newVal)
-    } catch {}
-  }, [slug])
-  if (!views) return null
-  return <><span>·</span><span>{views} {views === 1 ? 'vizualizare' : 'vizualizări'}</span></>
 }
 
 export default function ArticolPage({ params }) {
