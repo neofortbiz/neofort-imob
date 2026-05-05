@@ -57,9 +57,34 @@ const AUTORI = {
     foto: '/brokeri/igor-calutu.avif',
   },
   'adriana-veselu': {
-    nume: 'Adriana Veselu', titlu: 'Consultant Senior Vânzări — 16 ani experiență',
-    bio: 'Adriana Veselu este unul dintre cei mai experimentați consultanți imobiliari din echipa Neofort IMO, cu 14 ani în companie și peste 400 de tranzacții finalizate.',
+    nume: 'Adriana Veselu', titlu: 'Reprezentant Vanzari Zona Centrala — 16 ani',
+    bio: 'Adriana Veselu are 14 ani in Neofort IMO si peste 400 de tranzactii finalizate.',
     foto: '/brokeri/adriana-veselu.avif',
+  },
+  'sasha-calutu': {
+    nume: 'Sasha Calutu', titlu: 'Reprezentant Vanzari Zona Centrala — 17 ani',
+    bio: 'Sasha Calutu are toti cei 17 ani de cariera imobiliara petrecuti in Neofort IMO.',
+    foto: '/brokeri/sasha-calutu.avif',
+  },
+  'ramona-baicu': {
+    nume: 'Ramona Baicu', titlu: 'Reprezentant Vanzari Zona Sud-Vest — 17 ani',
+    bio: 'Ramona Baicu activeaza in piata imobiliara de 17 ani, cu 11 ani in Neofort IMO.',
+    foto: '/brokeri/ramona-baicu.avif',
+  },
+  'svetlana-calutu': {
+    nume: 'Svetlana Calutu', titlu: 'Reprezentant Vanzari Zona Centrala — 21 ani',
+    bio: 'Svetlana Calutu are 18 ani in Neofort IMO, expertiza in zona centrala si semicentrala.',
+    foto: '/brokeri/svetlana-calutu.avif',
+  },
+  'adrian-pintilie': {
+    nume: 'Adrian Pintilie', titlu: 'Reprezentant Vanzari Zona Sud-Est — 15 ani',
+    bio: 'Adrian Pintilie - 14 ani in Neofort IMO, specialist zona Titan-Pallady-IOR.',
+    foto: '/brokeri/adrian-pintilie.avif',
+  },
+  'raluca-nistor': {
+    nume: 'Raluca Nistor', titlu: 'Reprezentant Vanzari Zona Est — 10 ani',
+    bio: 'Raluca Nistor, consultantul de referinta pentru zona est a Capitalei la Neofort IMO.',
+    foto: '/brokeri/raluca-nistor.avif',
   },
 }
 
@@ -177,7 +202,7 @@ export default function BlogPage() {
               </div>
             </div>
 
-            <aside className="space-y-5">
+            <aside className="space-y-5"><div className="sticky space-y-5" style={{ top: '96px' }}>
               <div className="border border-gray-200 rounded-xl p-5">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="relative w-10 h-10 flex-shrink-0"><Image src="/logo.avif" alt="Neofort IMO" fill className="object-contain" /></div>
@@ -241,6 +266,7 @@ export default function BlogPage() {
                   image: `${BASE}${a.image}`,
                 })),
               })}} />
+            </div>
             </aside>
           </div>
         </div>

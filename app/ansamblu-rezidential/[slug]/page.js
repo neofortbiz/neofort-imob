@@ -189,7 +189,7 @@ export default function AnsambluPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/ansambluri-rezidentiale" />
-      <main style={{ overflowX: 'hidden' }}>
+      <main>
         {/* BREADCRUMB */}
         <div className="hidden md:block border-b border-gray-100 px-6 py-2.5">
           <div className="max-w-7xl mx-auto flex items-center gap-2 text-xs text-gray-500">
@@ -246,7 +246,7 @@ export default function AnsambluPage({ params }) {
         </div>
 
         {/* BODY — 2 COLOANE */}
-        <div className="max-w-7xl mx-auto px-6 py-6" style={{ overflowX: 'hidden' }}>
+        <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_240px] gap-6">
 
             {/* COLOANA MAIN */}
@@ -317,7 +317,7 @@ export default function AnsambluPage({ params }) {
             </div>
 
             {/* SIDEBAR */}
-            <div className="md:sticky md:top-36 self-start">
+            <div className="md:sticky self-start" style={{ top: '96px' }}>
               <FormularRapid ansambluNume={a.nume} broker={a.broker} brokerTel={a.brokerTel} brokerFoto={a.brokerFoto || ""} />
             </div>
           </div>

@@ -534,6 +534,12 @@ const ARTICOLE_LIST = [
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou', data: '10 Martie 2026', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a' },
 ]
 
+// Calculeaza numarul de cuvinte din articol
+function getWordCount(a) {
+  const text = a.sectiuni.map(s => s.continut + ' ' + s.h2 + ' ' + (s.h3 || '')).join(' ')
+  return text.split(/\s+/).filter(w => w.length > 2).length
+}
+
 export async function generateStaticParams() {
   return Object.keys(ARTICOLE).map(slug => ({ slug }))
 }
@@ -560,6 +566,24 @@ export async function generateMetadata({ params }) {
     },
     twitter: { card: 'summary_large_image', images: [`${BASE}${a.image}`] },
   }
+}
+
+'use client'
+function BlogViews({ slug }) {
+  const [views, setViews] = typeof window !== 'undefined'
+    ? require('react').useState(null)
+    : [null, () => {}]
+  typeof window !== 'undefined' && require('react').useEffect(() => {
+    try {
+      const key = 'neofort_views_' + slug
+      const current = parseInt(localStorage.getItem(key) || '0')
+      const newVal = current + 1
+      localStorage.setItem(key, newVal)
+      setViews(newVal)
+    } catch {}
+  }, [slug])
+  if (!views) return null
+  return <><span>·</span><span>{views} {views === 1 ? 'vizualizare' : 'vizualizări'}</span></>
 }
 
 export default function ArticolPage({ params }) {
@@ -652,10 +676,13 @@ export default function ArticolPage({ params }) {
                     <p className="text-xs text-gray-400">{autor?.titlu}</p>
                   </div>
                 </div>
-                <div className="text-xs text-gray-400 flex items-center gap-3">
+                <div className="text-xs text-gray-400 flex items-center gap-3 flex-wrap">
                   <time dateTime={a.dataISO}>{a.data}</time>
                   <span>·</span>
                   <span>{a.citire} citire</span>
+                  <span>·</span>
+                  <span>{getWordCount(a).toLocaleString()} cuvinte</span>
+                  <BlogViews slug={params.slug} />
                 </div>
               </div>
 
@@ -765,7 +792,7 @@ export default function ArticolPage({ params }) {
 
             {/* SIDEBAR DESKTOP */}
             <aside className="hidden lg:block">
-              <div className="sticky top-6 space-y-5">
+              <div className="sticky space-y-5" style={{ top: '96px' }}>
 
               {/* CUPRINS */}
               <div className="border border-gray-200 rounded-xl p-5">
