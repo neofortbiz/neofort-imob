@@ -45,8 +45,6 @@ Neofort 85 ilustrează capacitatea Neofort IMO de a livra proiecte exclusiviste 
       { tip: 'transport', nume: 'Aeroport Henri Coanda', distanta: '23 min cu masina' },
     ],
   },
-  ,
-
   {
     numar: 82,
     slug: 'neofort-82-titan-gura-putnei',
@@ -93,7 +91,6 @@ Vânzarea integrală a celor 9 unități demonstrează că zona Titan-Gura Putne
       { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '10 min cu masina' },
     ],
   },
-  ,
   {
     numar: 81,
     slug: 'neofort-81-morarilor',
@@ -140,7 +137,6 @@ Vânzarea integrală a 32 de unități confirmă că zona Morarilor-Pantelimon, 
       { tip: 'metrou', nume: 'Metrou Stefan cel Mare (M2)', distanta: '13 min cu masina' },
     ],
   },
-  ,
   {
     numar: 80,
     slug: 'neofort-80-parcul-carol-unirii',
@@ -185,7 +181,6 @@ Livrarea cu succes a 96 de apartamente confirmă că Neofort IMO poate gestiona 
       { tip: 'mall', nume: 'AFI Palace Cotroceni', distanta: '11 min cu masina' },
     ],
   },
-  ,
   {
     numar: 79,
     slug: 'neofort-79-popa-nan-calarasilor',
@@ -233,7 +228,6 @@ Randamentul în chirie pentru garsonierele din această zonă se situa la 5,5-7%
       { tip: 'metrou', nume: 'Metrou Mihai Bravu (M2)', distanta: '7 min cu masina' },
     ],
   },
-  ,
   {
     numar: 77,
     slug: 'neofort-77-petricani',
@@ -281,7 +275,6 @@ Neofort 77 Petricani demonstrează că proiectele boutique cu vedere la apă și
       { tip: 'transport', nume: 'Aeroport Henri Coanda', distanta: '27 min cu masina' },
     ],
   },
-  ,
   {
     numar: 75,
     slug: 'neofort-75-petricani-a3',
@@ -327,7 +320,6 @@ Vânzarea integrală a 23 de unități confirma că zona Andronache-Petricani, c
       { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '16 min cu masina' },
     ],
   },
-  ,
   {
     numar: 74,
     slug: 'neofort-74-sisesti-baneasa',
@@ -423,7 +415,6 @@ Vis-a-vis de Carrefour Orhideea, BricoDepot Orhideea și Media Galaxy — cumpă
 
 Vânzarea integrală a 121 de unități confirmă că zona Orhideea, combinând Metrou Grozăvești cu AFI Cotroceni și prețuri competitive, a satisfăcut o cerere reală și diversificată — de la prima locuință la investiție în randament. Zona Orhideea-Grozăvești a cunoscut o transformare urbană majoră prin extinderea Pasajului Basarab și prin investițiile în infrastructura de transport public. Vis-a-vis de Carrefour Orhideea, BricoDepot Orhideea și Media Galaxy — retail complet la 2 minute pe jos. AFI Palace Cotroceni la 6 minute cu mașina. Complex Studențesc Regie și Belvedere ASE în apropiere — cerere constantă de chirie pentru garsoniere și 2 camere. Parcul Grozăvești și Grădina Botanică pentru recreere zilnică. Chiria pentru garsonierele din zonă: 500-600€/lună. Autogara IDM Basarab pentru deplasări în țară. Cele 4 lifturi de mare viteză eliminau problema timpilor de așteptare la un imobil de 10 etaje cu 121 de apartamente. Vânzare directă, fără comision de agenție. Metrou Grozăvești (M3) la 400m — 5 minute pe jos — conecta rezidenții cu AFI Palace Cotroceni în 2 minute și cu Piața Victoriei în 5 minute. Carrefour Orhideea, BricoDepot și Media Galaxy vis-a-vis — cumpărăturile zilnice la 2 minute pe jos. Complexul Studențesc Regie și Belvedere ASE în apropiere — cerere structurală ridicată de chirie din studenți. Parcul Grozăvești și Grădina Botanică pentru recreere zilnică. Pasajul Basarab și Splaidul Independenței asigurau conectivitate rapidă spre centrul Capitalei. Autogara IDM Basarab pentru deplasări în țară. Cele 4 lifturi de mare viteză pentru 2 scări și 121 apartamente eliminau așteptările. Chiria pentru garsoniere: 500-600€/lună față de 66.530-77.206€ — randament 9-11% anual. Parcare în cele 2 subsoluri sau exterioară. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru cele mai competitive oferte de credit ipotecar. Taxe notariale reduse. Rezervare cu 2.000€ fixe indiferent de tipul de apartament.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare.`,
   },
-  ,
   {
     numar: 72,
     slug: 'neofort-72-fundeni-dobroesti',
@@ -473,7 +464,6 @@ Centralele proprii în condensare marca Ariston au asigurat eficiență energeti
 
 Autobuzul 343 în proximitate imediată conectează zona la Metrou Pipera și la rețeaua STB. Mega Image și Profi pentru cumpărăturile zilnice. LIDL, Penny, JYSK și PEPCO în apropiere. Școli și grădinițe atât private cât și de stat. Accesul spre Autostrada A2 și A3 este facil — o raritate valoroasă pentru deplasările spre Constanța și spre Ploiești-Brașov. Spitalul Fundeni — unul dintre cele mai importante centre medicale din România — în apropierea imediată. Zona Fundeni-Dobroești reprezintă una dintre puținele zone din București unde spațiul, liniștea și verdeața coexistă cu accesul rapid la infrastructura urbană. Autobuzul 343 în proximitate imediată conecta zona la Metrou Pipera și la rețeaua STB. Spitalul Fundeni — unul dintre cele mai importante centre medicale din România — în apropiere imediată. Accesul spre Autostrada A2 și A3 era facil pentru deplasări în afara Bucureștiului. Grădinile private de 18-41 mp la apartamentele de parter au generat o primă de 15-25% față de unitățile standard. Chiria pentru 2 camere cu grădină: 650-750€/lună. Taxe notariale reduse și consultanță bancară gratuită pentru clienții Neofort. Vânzare directă de la sursă, fără comision de agenție. Autobuzul 343 în proximitate imediată conecta zona la Metrou Pipera (M2) și la rețeaua STB. Spital Clinic Fundeni la 12 minute pe jos — accesul rapid la servicii medicale de top. Accesul spre Autostrada A3 la nord și A2 spre est facilitau deplasările în afara Capitalei. LIDL, Penny, JYSK și PEPCO în zona apropiată pentru cumpărăturile zilnice. Grădinile private de 18-41 mp la apartamentele de parter reprezentau cel mai căutat produs al proiectului — absorbție integrală în primele zile de la lansare. Centrala proprie în condensare marca Ariston, tâmplărie PVC premium Salamander 7 camere, cărămidă Porotherm 25cm. Chiria pentru 2 camere cu grădină: 650-750€/lună. Consultanță bancară gratuită. Parcare cu acces controlat în incintă. Vânzare directă de la sursă, fără comision de agenție. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru cele mai competitive oferte de credit ipotecar. Taxe notariale reduse. Rezervare cu 2.000€ fixe indiferent de tipul de apartament.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009.`,
   },
-  ,
   {
     numar: 71,
     slug: 'neofort-71-colentina-andronache',
@@ -521,7 +511,6 @@ Structura de rezistență respectă toate cerințele antiseismice: amprentă mar
 
 Amplasarea în zona de case din Colentina-Andronache oferă liniștea unui cartier rezidențial cu conectivitate urbană bună. Accesul rapid la Autostrada A3 și spre zona Pipera-Promenada — unul dintre cele mai importante districte de birouri din București — a făcut din Neofort 71 o alegere naturală pentru profesioniștii din zona de nord a capitalei. Consultanță bancară gratuită pe toată durata achiziției. Zona Colentina-Andronache din Sectorul 2 beneficia de caracterul liniștit al unui cartier rezidențial cu case și vile, cu acces rapid spre zona de business din nordul Capitalei. Accesul la Autostrada A3 și spre zona Pipera-Promenada — cel mai important district de birouri din București — era unul dintre principalii factori care au alimentat vânzările. Mega Mall Pantelimon la 57 minute pe jos sau 12 minute cu mașina. Parcul Plumbuita la 15 minute pe jos pentru recreere. Spital Clinic Fundeni la 20 minute pe jos. Consultanță bancară gratuită pe toată durata achiziției. Terasele de 100-111 mp pentru tipurile de 3 și 4 camere au constituit principalul argument de vânzare al proiectului. Parcare în subsolul blocului. Vânzare directă, fără comision. Accesul rapid la Autostrada A3 și spre zona Pipera-Promenada — cel mai important district de birouri din nordul Capitalei — a reprezentat factorul principal de decizie pentru cumpărătorii profesioniști. Parcul Plumbuita la 19 minute pe jos sau 6 minute cu mașina. Mega Mall Pantelimon la 12 minute cu mașina. Spital Clinic Fundeni la 20 minute pe jos. Terasele de 100-111 mp la tipurile de 3 și 4 camere erau practic unice pe piața Sectorului 2 la prețurile practicate — sub 1.000€/mp inclusiv terasa. Garsoniera cu curte de 18,2 mp la parter la 46.787€ — o combinație imposibil de replicat în zonele cu metrou direct. Consultanță bancară gratuită pe toată durata achiziției. Lift subteran. Parcare disponibilă. Vânzare directă de la sursă, fără comision de agenție. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent.`,
   },
-  ,
   {
     numar: 70,
     slug: 'neofort-70-fundeni-dobroesti',
@@ -570,7 +559,6 @@ Centralele proprii în condensare marca Ariston și contorizarea individuală co
 
 Autobuz 182 la 50m, Mega Image și Profi în proximitate, accesul spre Autostrada A2 și A3 facil pentru deplasări în țară. Spitalul Fundeni în apropiere. Consultanță bancară gratuită. Zona Fundeni-Dobroești combina liniștea rezidențială cu accesul la infrastructura urbană completă. Autobuzul 182 la 50 de metri de intrare — conectivitate imediată fără deplasare. Spitalul Fundeni la 13 minute pe jos — un avantaj medical real pentru rezidenți. Mega Mall Pantelimon la 36 minute pe jos sau 8 minute cu mașina. Accesul spre Autostrada A3 la 13 minute cu mașina. Loc de joacă pentru copii și foișor cu spațiu de grătar în incintă — facilitate rar întâlnită în blocurile noi. Apartamentele cu grădini la parter au generat cea mai rapidă absorbție din oferta proiectului. Chiria pentru 2 camere: 550-650€/lună. Consultanță bancară gratuită, parcare externă cu acces pe cartelă. Vânzare directă, fără comision de agenție. Autobuzul 182 la 50 de metri asigura conectivitate la rețeaua STB fără deplasare. Spital Clinic Fundeni la 13 minute pe jos. Mega Mall Pantelimon la 36 minute pe jos sau 8 minute cu mașina. Accesul spre Autostrada A3 la 13 minute cu mașina pentru deplasări spre nord și A2 spre est. Curtea amenajată cu foișor, loc de grătar și spațiu verde era accesibilă tuturor locatarilor — o raritate în blocurile noi. Loc de joacă pentru copii în incintă. Apartamentele cu grădini la parter cu acces direct aveau absorbție imediată — tipologie cerută de familii cu copii mici sau animale de companie. Cărămidă Porotherm 25cm, Salamander 7 camere, centrală Ariston condensare. Chiria pentru 2 camere: 550-650€/lună. Consultanță bancară gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru cele mai competitive oferte de credit ipotecar. Taxe notariale reduse. Rezervare cu 2.000€ fixe indiferent de tipul de apartament.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro.`,
   },
-  ,
   {
     numar: 69,
     slug: 'neofort-69-foisorul-de-foc-mosilor',
@@ -616,7 +604,6 @@ Conceptul Neofort 69 a plecat de la analiza detaliată a cerințelor cumpărăto
 
 Metrou Piața Obor la 580m — acces direct pe M2 spre Piața Universității în 5 minute și spre Piața Unirii în 8 minute. Mijloace de transport în comun la 200m. Piața Obor în proximitate. Zona rezidențială de case și vile oferă liniștea unui cartier clasic la 580m de metrou — o combinație valoroasă. Zona Foișorul de Foc-Calea Moșilor din Sectorul 2 este una dintre cele mai bine conectate localizări semicentrale din București. Strada Călusei 54 era retrasă de bulevardele principale, oferind liniștea unui cartier de case la 580m de Metrou Piața Obor (M2). Mijloace de transport în comun la 200m. Piața Obor — cel mai mare complex comercial open-air din București. Zona rezidențială de case și vile în jur asigura caracterul liniștit permanent. Conceptul a prioritizat cerințele reale ale cumpărătorilor: bucătărie închisă, geam la baie, balcoane dimensionate rezonabil, materiale premium. Parcare subterană disponibilă. Spații comune cu piatră naturală. Chiria pentru 2 camere: 750-900€/lună în zona centrală Obor. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision. Strada Călusei 54 oferea intimitatea unui cartier de case și vile la 580m de Metrou Piața Obor (M2) — combinație rar disponibilă în Sectorul 2 la prețurile respective. Piața Obor — cel mai mare complex comercial open-air din București — la 6 minute pe jos. Mijloace de transport în comun la 200m. Colegiul Național Mihai Eminescu la 9 minute pe jos. Spital Clinic Colentina la 10 minute pe jos. Parcare subterană disponibilă. Apartamentele cu terase: 2 camere cu 98-108 mp construit la prețuri TVA inclus — o transparentă apreciată de cumpărători față de prețurile plus TVA. Chiria pentru 2 camere cu terasă: 750-900€/lună față de 112.000-130.000€ — randament 7-9% anual. Spații comune cu piatră naturală. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa.`,
   },
-  ,
   {
     numar: 68,
     slug: 'neofort-68-piata-1-mai-herastrau',
@@ -659,7 +646,6 @@ Finisajele premium personalizate — cu alegerea integrală din game largi de pr
 
 Parcul Regina Maria în proximitate imediată și Parcul Herăstrău la câteva minute — cel mai mare parc al Bucureștiului, cu lac artificial de 74 hectare. Metrou 1 Mai pentru mobilitate rapidă. Restaurante, magazine și săli de sport pe Ion Mihalache la câțiva pași. Zona de business Victoriei-Aviatorilor în apropierea imediată. Școli de renume și spitale de top în zonă. Neofort 68 s-a adresat exclusiv cumpărătorilor care prețuiesc intimitatea absolută, localizarea premium și finisajele personalizate. Zona Piața 1 Mai din Sectorul 1 al Bucureștiului combina liniștea unui cartier de case cu accesul rapid la metroul M3 și la parcurile din nord. Metrou 1 Mai (M3) la 450m — acces spre Piața Victoriei în 2 minute. Parcul Herăstrău și Parcul Regina Maria în proximitate imediată. Restaurante, cafenele și săli de sport pe Ion Mihalache la câțiva pași. Zona de business Victoriei-Aviatorilor la câteva minute. Conceput cu un singur apartament pe etaj, Neofort 68 oferea intimitate absolută: nu există vecini pe același palier, costurile comune sunt minime, administrarea clădirii este simplă și transparentă. Finisaje premium integral personalizabile. Parcare supraterană și subterană disponibile. Vânzare directă de la sursă, fără comision de agenție. Metrou 1 Mai (M3) la 450m asigura accesul spre Piața Victoriei în 2 minute și spre Piața Unirii în 6 minute — conectivitate premium în inima unui cartier liniștit de case. Parcul Herăstrău la 14 minute pe jos — cel mai mare parc al Capitalei. Parcul Regina Maria în vecinătate imediată. Restaurante, cafenele și săli de sport pe Ion Mihalache la câțiva pași. Zona de business Victoriei-Aviatorilor la 5 minute cu mașina. Curte de 100 mp la apartamentul de parter — un spațiu privat excepțional la o localizare premium din Sectorul 1. Terasa de 35 mp la etajele 1 și 2. Mansardă cu terasă de 35 mp la un preț de 185.000€ TVA inclus — cel mai accesibil tip din proiect. Zero taxe de mentenanță adiacente. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent.`,
   },
-  ,
   {
     numar: 67,
     slug: 'neofort-67-damaroaia-bucurestii-noi',
@@ -702,7 +688,6 @@ Apartamentele de 3 camere au fost dotate cu centrală Viessmann — unul dintre 
 
 Metrou Bazilescu asigura accesul rapid spre centrul Bucureștiului. Parcul Bazilescu în proximitate pentru relaxare zilnică. Zona Dămăroaia-Bucureștii Noi oferă caracterul unui cartier rezidențial liniștit din nordul Capitalei. Consultanță bancară și juridică gratuită pe toată durata achiziției. Zona Dămăroaia-Bucureștii Noi din Sectorul 1 a câștigat atractivitate prin extinderea liniei M4 și prin investițiile în regenerarea urbană. Metrou Bazilescu la 70m — practic în fața imobilului. Parcul Bazilescu la 12 minute pe jos pentru recreere. Metrou Jiului (M4) la 10 minute pe jos. Linii STB multiple pentru conectivitate la rețeaua STB. Terasele de 20-40 mp la fiecare apartament — un spațiu exterior privat generos imposibil de replicat în bloc standard. Centrala Viessmann pentru tipurile de 3 camere — cel mai performant brand din industria de încălzire, cu costuri de operare optimizate. Parcare subterană disponibilă. Zero taxe de mentenanță adiacente. Finisaje premium la alegere. Vânzare directă de la sursă, fără comision de agenție. Metrou Bazilescu (M4) la 70m — practic la ieșire din bloc — reprezenta conectivitatea maximă posibilă cu rețeaua de metrou din nordul Capitalei. Parcul Bazilescu la 12 minute pe jos pentru recreere zilnică. Metrou Jiului (M4) la 10 minute pe jos. Linii STB multiple în zonă. Zona Dămăroaia-Bucureștii Noi oferă un cadru rezidențial liniștit cu case și blocuri mici — regulamentul de urbanism limitând înălțimea construcțiilor. Terasele de 20-40 mp la toate cele 6 apartamente — spațiu exterior privat pentru fiecare rezident. Centrala Viessmann pentru tipurile de 3 camere — cel mai performant brand din industria de încălzire, cu garanție extinsă și consum optimizat. Zero taxe de mentenanță adiacente. Parcare subterană disponibilă. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision de agenție. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita.`,
   },
-  ,
   {
     numar: 66,
     slug: 'neofort-66-universitate-calea-mosilor',
@@ -748,7 +733,6 @@ Construcția la standardele tehnice cele mai înalte: structură stâlpi-diafrag
 
 Metrou Universitate la 900m — 5 minute pe jos — spre Piața Victoriei în 2 minute și spre Piața Unirii în 3 minute. Parcul Izvorul Rece la 3 minute pe jos. Localizarea centrală a Neofort 66 a garantat o cerere constantă de chirie — randamentele pentru zona Universitate se situau la 5-7% anual, susținute de proximitatea față de universități, clinici și administrație centrală. Neofort 66 Universitate-Calea Moșilor a exploatat perfect o localizare cu potențial investițional ridicat: 900m de Metrou Universitate (M1/M2) — nodul central al rețelei de metrou din București, 3 minute de Parcul Izvorul Rece, într-un context urban bogat în universități, clinici și administrație centrală. Cererea de chirie în zona Universitate este structural ridicată și nu a scăzut niciodată semnificativ în ultimii 15 ani. Randamentul brut pentru studio-uri: 6-8% anual. Fațada ventilată din fibrociment cu plăci de argilă arsă — design arhitectural distinctiv care conferea blocului o identitate vizuală premium față de vecinii cu fațadă tencuită. Parcare subterană și supraterană cu acces electronic. Lift Schindler. Vânzare directă de la sursă, fără comision. Metrou Universitate (M1/M2) la 900m — 11 minute pe jos — conecta rezidenții cu Piața Victoriei în 2 minute și cu Piața Unirii în 3 minute. Parcul Izvorul Rece la 3 minute pe jos pentru pauze de relaxare. Zona Universitate genera cerere structurală de chirie din studenți, cadre universitare și profesioniști din administrația centrală. Lift Schindler de mare viteză. Parcare subterană și supraterană cu acces electronic. Toate spațiile comune placate cu piatră naturală. Fațada ventilată din fibrociment cu plăci de argilă arsă — design premium față de fațadele tencuite standard. Fiecare apartament unic prin designul elaborat de designeri specializați în decorări interioare. Randamentul studio-urilor: 6-8% anual față de 85.000€ TVA inclus. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare.`,
   },
-  ,
   {
     numar: 65,
     slug: 'neofort-65-ghica-tei-colentina',
@@ -791,7 +775,6 @@ Sistemul de parcare hidraulic independent Klaus cu bașă — instalat la parter
 
 Pasajul suprateran de la Doamna Ghica a facilitat accesul rapid spre zona de business Fabrica de Glucoză — Dimitrie Pompei — Barbu Văcărescu — Calea Floreasca, cel mai important district de birouri din nordul Capitalei. Mega Mall Pantelimon și Veranda Mall asigurau oferta comercială completă. Parcul Plumbuita la 10-12 minute pe jos pentru recreere zilnică. Cerere constantă de chirie din partea profesioniștilor din zona de business nord. Zona Ghica Tei-Colentina din Sectorul 2 beneficia de o pozitionare strategică între Mega Mall Pantelimon la vest și Veranda Mall la est, cu Kaufland Colentina la nord și Parcul Plumbuita la 15 minute pe jos. Pasajul suprateran Doamna Ghica facilita accesul rapid spre zona de business Fabrica de Glucoză — Barbu Văcărescu. Metrou Piața Obor la 18 minute pe jos sau 5 minute cu mașina. Sistemul de parcare hidraulic Klaus cu bașă la parterul imobilului — soluție inovatoare care maximiza locurile în spațiu limitat. Centrala Immergas, obiecte sanitare Cersanit, parchet 10mm, finisaje la alegere. Cererea de chirie era alimentată constant de profesioniștii din zona de business nord. Vânzare directă de la sursă, fără comision de agenție. Mega Mall Pantelimon la 10 minute cu mașina, Veranda Mall Obor la 9 minute pe jos. Kaufland Colentina în apropiere imediată pentru cumpărăturile zilnice. Parcul Plumbuita la 15 minute pe jos. Metrou Piața Obor la 18 minute pe jos sau 4 minute cu mașina. Pasajul suprateran Doamna Ghica facilita accesul rapid spre zona de business nord. Sistemul de parcare hidraulic Klaus cu bașă — soluție inovatoare care maximiza locurile disponibile fără a ocupa spațiul de la parter. Centrala Immergas individuală, obiecte sanitare Cersanit, parchet 10mm, ușă de intrare metalică multipunct Lock. Chiria pentru 2 camere de 58-59 mp: 600-700€/lună față de 95.238€ + TVA — randament 7,5-8,8% anual. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision de agenție. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona.`,
   },
-  ,
   {
     numar: 64,
     slug: 'neofort-64-calusei-mosilor-obor',
@@ -838,7 +821,6 @@ Standardul de finisaje a depășit semnificativ oferta obișnuită din zonă: ob
 
 Metrou Piața Obor la 580m — accesul la M2 spre întregul București în câteva minute. Mijloace de transport la 200m. Piața Obor în proximitate — cel mai mare complex comercial open-air din București. Cerere constantă de chirie în zonă datorită proximității față de centru și metrou. Zona Călusei-Moșilor-Obor din Sectorul 2 a combinat proximitatea față de Metrou Obor (M2) — la 580m — cu caracterul liniștit al unui cartier de case retras de bulevardele principale. Cele 16 tipuri de garsoniere și 17 tipuri de apartamente de 2 camere au permis satisfacerea celor mai variate nevoi. Tâmplăria Salamander 7 camere în gri antracit — o alegere estetică modernă față de albul standard. Curte pavată și amenajată cu spații verzi, piatră naturală în holuri și scări, uși Porta Doors / Pinum, 4 nuanțe de parchet și gresie la alegere. Parcare subterană 10.000€ + TVA. Randamentul în chirie pentru garsoniere: 6-8% anual față de prețul de achiziție de 67.000-83.000€. Vânzare directă de la sursă, fără comision. Metrou Piața Obor (M2) la 580m — 7 minute pe jos — conecta rezidenții cu Piața Universității în 5 minute. Piața Obor la 7 minute pe jos. Metrou Ștefan cel Mare la 22 minute pe jos sau 6 minute cu mașina. Zona rezidențială de case și vile pe strada Călusei asigura liniștea unui cartier clasic la 580m de metrou — raritate valoroasă. Tâmplăria Salamander 7 camere în gri antracit — o alegere estetică modernă față de albul standard al concurenței. 4 nuanțe de gresie, faianță și parchet la alegere confereau fiecărui apartament individualitate. Uși Porta Doors / Pinum, piatră naturală în scări și holuri, curte pavată cu spații verzi. Chiria pentru garsoniere: 450-550€/lună față de 67.000-83.000€ — randament 6,5-8% anual. Vânzare directă de la sursă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati.`,
   },
-  ,
   {
     numar: 63,
     slug: 'neofort-63-fundeni-dobroesti',
@@ -883,7 +865,6 @@ Construcția la standardul clasei energetice A: structură cadre-stâlpi-grinzi 
 
 Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei. Accesul spre Autostrada A3 spre nord și A2 spre est — ideal pentru deplasările în afara Bucureștiului. Zona Fundeni-Dobroești este incluzã în interiorul Bucureștiului și beneficiează de toate facilitățile urbane. Spitalul Fundeni în apropierea imediată. Consultanță bancară gratuită, taxe notariale reduse pentru clienții Neofort. Neofort 63 Strada Stejarului a livrat clasa energetică A — o performanță rară în portofoliul de garsoniere sub 45.000€ din București. Locurile de parcare cu acte de proprietate separate — nu concesiune — reprezentau o valoare distinctă față de parcările în concesiune ale altor proiecte. Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei. Accesul spre Autostrada A3 la nord și A2 spre est. Curtea amenajată cu spații verzi și loc de joacă pentru copii. Garsonierele cu curte privată de 31 mp — tipologie rar disponibilă. Spitalul Fundeni la 15 minute pe jos. Consultanță bancară gratuită, taxe notariale reduse pentru clienții Neofort. Vânzare directă de la sursă, fără comision de agenție. Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei fără necesitatea mașinii personale. Accesul spre Autostrada A3 la 13 minute cu mașina spre nord și A2 spre est. Spital Clinic Fundeni la 15 minute pe jos. Mega Mall Pantelimon la 36 minute pe jos sau 8 minute cu mașina. Garsonierele cu curte privată de 31 mp — tipologie rar disponibilă în clasa de preț 40.000-45.000€. Clasa energetică A — costuri de întreținere cu 20-30% mai mici față de clasele B sau C. Locuri de parcare cu acte de proprietate separate — nu concesiune — reprezenta o valoare legală distinctă. Centrala proprie în condensare, tâmplărie GreenEvolution 7 camere. Chiria pentru garsoniere: 400-480€/lună față de 40.000-45.000€ — randament 12-14% brut anual. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa.`,
   },
-  ,
 ]
 
 
@@ -942,7 +923,6 @@ Imobilul este amplasat între două stații de metrou M3 — Petrache Poenaru ș
 
 Viitorul Pod Ciurel — unul dintre marile proiecte de infrastructură ale Capitalei — a poziționat zona pentru o apreciere semnificativă a valorilor imobiliare pe termen mediu, o tendință confirmată de creșterea cererii rezidențiale în Militari-Virtutii în ultimii ani. Neofort 62 Militari-Virtutii a valorificat două avantaje rare simultan: Metrou Petrache Poenaru (M3) la 180m — conectivitate M3 imediată — și vedere directă la Lacul Morii din apartamentele cu orientare vestică. Viitorul Pod Ciurel — unul dintre cele mai importante proiecte de infrastructură ale Capitalei — a crescut atractivitatea zonei pentru investiții imobiliare. Cora Lujerului la 8 minute pe jos. AFI Palace Cotroceni la 7 minute cu mașina. AC Hyundai inclus standard în prețul fiecărui apartament — un beneficiu imediat de 1.500-2.000€ față de proiectele similare fără această dotare. Tâmplărie Salamander Blue Evolution 3 foi Low-E Planitherm 4S — izolație solară și termică superioară. Parcare supraterană cu acces securizat. Vânzare directă, fără comision. Metrou Petrache Poenaru (M3) la 180m — 2 minute pe jos — asigura conectivitate imediată pe M3 spre Piața Unirii în 8 minute și spre Drumul Taberei în 6 minute. Cora Lujerului la 8 minute pe jos. AFI Palace Cotroceni la 7 minute cu mașina. Lacul Morii — vedere directă din apartamentele cu orientare vestică, un factor estetic permanent. Viitorul Pod Ciurel reprezenta un catalizator de creștere a valorii imobiliare în zonă. AC Hyundai inclus standard. Tâmplărie Salamander Blue Evolution 3 foi Low-E Planitherm 4S. Granit pe casa scărilor. Apartament de 3 camere plus loc de parcare la 207.000€ — o ofertă unică în portofoliu. Chiria pentru 2 camere: 600-700€/lună. Parcare supraterană cu acces securizat. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru cele mai competitive oferte de credit ipotecar. Taxe notariale reduse. Rezervare cu 2.000€ fixe indiferent de tipul de apartament.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare.`,
   },
-  ,
   {
     numar: 61,
     slug: 'neofort-61-popesti-leordeni-case',
@@ -983,7 +963,6 @@ Certificarea de eficiență energetică maximă înseamnă costuri de întrețin
 
 Amplasarea la intersecția arterei de la Piața Sudului cu ieșire directă pe Autostrada Soarelui A2 face din Popești-Leordeni o localizare excelentă pentru familiile care se deplasează zilnic spre centrul Capitalei sau spre Constanța. Păduri, baltă de pescuit, zone verzi și infrastructură completă în comunitate — o oază de liniște la 15 minute de centrul Bucureștiului. Neofort 61 Popești-Leordeni a demonstrat că formula duplex cu teren propriu și 2 locuri de parcare la prețul de 144.990€ TVA inclus poate genera absorbție rapidă. Accesul la Autostrada A2 în 4 minute cu mașina — ideal pentru deplasările frecvente spre Constanța sau spre centrul Capitalei venind din sud-est. Toate utilitățile individuale branșate la predare. Certificarea de eficiență energetică maximă — costuri de întreținere predictibil mai mici față de casele din clase inferioare. Peretele dublu între casele duplex — izolație fonică reală față de vecinul lateral. Tablă Lindab pe acoperiș — durabilitate de 40+ ani. Gazon inclus, terasă, 2 locuri de parcare amenajate. Consultanță financiară gratuită prin broker bancar dedicat. Vânzare directă, fără comision de agenție. Accesul la Autostrada A2 în 4 minute cu mașina facilita deplasările frecvente spre Constanța, Aeroportul Otopeni și centrul Capitalei dinspre sud-est. Păduri, baltă de pescuit și zone verzi în zonă — natură autentică la 15 minute de centrul Bucureștiului. Toate utilitățile individuale branșate și funcționale la predare — fără costuri suplimentare de racordare. Certificarea de eficiență energetică maximă. Peretele dublu între casele duplex asigura izolație fonică reală. Tablă Lindab pe acoperiș — durabilitate de 40 ani garantată. Gazon inclus și terasă amenajată. Tâmplărie Deceunink tripan 7 foi. 2 locuri de parcare incluse. Chiria pentru 4 camere duplex cu grădină: 750-900€/lună față de 144.990€ TVA inclus. Consultanță bancară gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009.`,
   },
-  ,
   {
     numar: 60,
     slug: 'neofort-60-metrou-tineretului-nerva-traian',
@@ -1031,7 +1010,6 @@ Dotările tehnice au plasat Neofort 60 în segmentul superior al Sectorului 3: v
 
 Metrou Timpuri Noi în imediata apropiere — acces pe M2 spre Piața Universității în 3 minute și spre Piața Unirii în 4 minute. Parcul Tineretului la 15 minute pe jos. Mall Vitan și Unirea Shopping Center la 15 minute pe jos. Poziționarea stradală pe Nerva Traian — magistrala principală a zonei — cu linii STB multiple în față. Neofort 60 Nerva Traian a valorificat unul dintre puținele terenuri rămase disponibile cu deschidere la bulevard în zona Timpuri Noi. Parcul Tineretului la 450m — cel mai complet parc din sudul Capitalei — reprezenta un avantaj de calitate a vieții permanent. Metrou Timpuri Noi la 12 minute pe jos. Mall Vitan la 13 minute pe jos. Cele 20 de variante de compartimentări diferite au permis satisfacerea oricărui tip de cumpărător. Duplexurile de la etajele 11-12 cu vedere panoramică reprezintau tipologia de vârf a proiectului — vânzare cu primă față de prețul standard. Marmură și inox pe casa scărilor, 2 lifturi Kone sau Schindler de mare viteză. Randamentul garsonierelor pentru investiție în chirie: 5,5-6,5% anual. Vânzare directă, fără comision. Metrou Timpuri Noi (M2) la 12 minute pe jos sau 3 minute cu mașina asigura accesul spre Piața Universității în 3 minute și spre Piața Unirii în 4 minute. Parcul Tineretului la 450m — unul dintre cele mai complete parcuri din București cu lac, pârtie de schi și facilități sportive. Mall Vitan la 13 minute pe jos. Cele 20 de variante de compartimentări — de la garsoniere de 39 mp la duplexuri de 5 camere — permiteau satisfacerea oricărui tip de cumpărător din un singur proiect. Marmură și inox pe casa scărilor, 2 lifturi Kone sau Schindler, balustrade balcoane sticlă duplex, glafuri marmură bej. Randamentul garsonierelor: 72.000-75.500€ față de chiria de 600-700€/lună — randament 9-12% anual. Vânzare directă de la sursă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru cele mai competitive oferte de credit ipotecar. Taxe notariale reduse. Rezervare cu 2.000€ fixe indiferent de tipul de apartament.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare.`,
   },
-  ,
   {
     numar: 59,
     slug: 'neofort-59-mihai-bravu-tineretului',
@@ -1086,7 +1064,6 @@ Structura S+P+4E+5R cu etajul retras asigură apartamentele de la ultimul nivel 
 
 Metrou Mihai Bravu la 5 minute pe jos și Metrou Tineretului la 7 minute — două stații M2 accesibile pe jos, conectivitate rară. Piața Unirii la 12 minute pe jos. Sun Plaza și București Mall Vitan în apropiere. Parcul Tineretului — unul dintre cele mai mari parcuri din București. Delta Văcărești — rezervație naturală unică în Europa în interiorul unui oraș. Colegii de renume și universități multiple fac zona ideală pentru investiție în chirie cu randament ridicat. Neofort 59 Mihai Bravu-Tineretului a oferit cele mai generoase exterioare din seria sa: studio cu curte 30 mp, 2 camere cu curte 35-37 mp, 3 camere cu curte 100 mp — configurații imposibil de replicat în proiectele standard din zonă. Metrou Mihai Bravu (M2) la 350m — 5 minute pe jos. Delta Văcărești — rezervație naturală unică în Europa în interiorul unui oraș — la 13 minute pe jos. Colegiul Național Gheorghe Șincai, Liceul Mihai Eminescu și Liceul Ion Creangă în zonă. Universități ASE, Titu Maiorescu, Cantemir, UNEFS în proximitate — cerere constantă de chirie. Sun Plaza și Mall Vitan la 22 și 15 minute pe jos. Arena Națională și Bazinul Olimpic Lia Manoliu la 5 minute pe jos. Vânzare directă, fără comision. Metrou Mihai Bravu (M2) la 350m — 4 minute pe jos. Delta Văcărești la 13 minute pe jos — rezervație naturală unică în Europa. Parcul Tineretului la 14 minute pe jos. Mall Vitan la 15 minute pe jos. Sun Plaza la 22 minute pe jos. Arena Națională și Bazinul Olimpic Lia Manoliu la 5-6 minute pe jos. Colegii și universități multiple în zonă. Curți private la studio și 2-3 camere: 6-100 mp. Băi GROHE, gresie faianță Italia, centrală Viessmann, parchet 12mm, Salamander Blue Evolution, lift Schindler, parcare sistem Klaus. Chiria pentru studio cu curte: 550-650€/lună față de 106.464-111.738€ — randament 6-7,3% anual. Chiria pentru 2 camere: 800-950€/lună. Consultanță bancară gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru cele mai competitive oferte de credit ipotecar. Taxe notariale reduse. Rezervare cu 2.000€ fixe indiferent de tipul de apartament.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona.`,
   },
-  ,
   {
     numar: 58,
     slug: 'neofort-58-matei-basarab-calarasilor',
@@ -1136,7 +1113,6 @@ Structura pe radier general, diafragme și grinzi de beton, cărămidă Porother
 
 Metrou Piața Muncii și Metrou Piața Unirii accesibile rapid. Bulevardul Decebal și Piața Alba Iulia pentru conectivitate rutieră. Centrul Vechi la câteva minute. Neofort 58 Matei Basarab-Calea Călărașilor a listat curți private de 47-181 mp la apartamentele de 2 și 3 camere — o ofertă imposibil de replicat în zona semicentrală a Sectorului 3. Prețul per mp de curte inclus în contract — 150-250€/mp — reprezenta o valoare concretă față de apartamentele fără exterior privat. Metrou Piața Unirii la 15 minute pe jos sau 4 minute cu mașina. Mall Vitan la 19 minute pe jos. Metrou Piața Muncii la 24 minute pe jos. Structura pe radier general, cărămidă Porotherm 250mm la exterior, finisaje personalizate din game premium. Randamentul în chirie: 2 camere 600-750€/lună, 3 camere 800-1.000€/lună. Consultanță bancară gratuită. Parcare subterană disponibilă. Vânzare directă de la sursă, fără comision. Metrou Piața Unirii la 15 minute pe jos sau 4 minute cu mașina. Mall Vitan la 19 minute pe jos. Kaufland Popa Nan la 8 minute pe jos. Parcul Național la 11 minute pe jos. Structura pe radier general, diafragme și grinzi de beton, cărămidă Porotherm 250mm, izolație polistiren 100mm, tâmplărie PVC 6 camere Low-E. Curțile private de 47-181 mp la apartamentele de parter reprezentau oferta principală — absorbite primele. Finisaje personalizate din game premium, centrală individuală cu senzori de gaz, contorizare completă. Chiria pentru 2 camere cu curte: 700-850€/lună față de 106.488€ — randament 7,9-9,6% anual. Bucătărie închisă standard, geam la baie standard — cerințele fundamentale ale cumpărătorilor respectate integral. Consultanță bancară gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa.`,
   },
-  ,
   {
     numar: 57,
     slug: 'neofort-57-tepes-voda-popa-nan-traian',
@@ -1182,7 +1158,6 @@ Proiectul include dotări tehnice de siguranță superioare: rezervă intangibil
 
 Zona Tepeș Vodă-Traian-Popa Nan combină caracterul rezidențial liniștit de case și vile cu accesul rapid la metroul M3 și la centrul Capitalei — o combinație valoroasă confirmată de cererea ridicată pentru toate tipologiile proiectului. Strada Tepeș Vodă 37-39 din Sectorul 2 oferea una dintre cele mai rare combinații din portofoliul rezidențial al Capitalei: zonă istorică de case și vile la 15 minute pe jos de Metrou Piața Muncii, cu 2 lifturi de sticlă 360° și 67 locuri de parcare subterane pentru 64 de apartamente. Casă scări cu iluminare naturală din cupolă — un element arhitectural unic. Rezervă intangibilă de apă potabilă și adăpost ALA autorizat ISU — dotări de siguranță superioare obligatoriu prezente. Garsoniere de la 68.000€, 4 camere de la 215.000€ — spectru larg de prețuri pentru o zonă semicentrală de această calitate. Randamentul garsonierelor: 6-8% anual. Vânzare directă, fără comision. Casa scărilor cu iluminare naturală din cupolă și cele 2 lifturi cu pereți din sticlă 360° reprezentau elemente arhitecturale unice în zona Tepeș Vodă-Traian. 67 locuri de parcare subterane pentru 64 de apartamente — un raport de 1,05 locuri per unitate, superior mediei proiectelor din zonă. Rezervă intangibilă de apă potabilă și adăpost ALA autorizat ISU — dotări obligatorii rar implementate corect. Pereți Porotherm 25cm la exterior și 10cm la interior, tâmplărie Salamander 7 camere 3 foi Saint Gobain. Garsoniere de la 68.000€, studio de la 92.000€, 2 camere de la 95.000€, 4 camere de la 215.000€. Metrou Piața Muncii la 22 minute pe jos sau 5 minute cu mașina. Randamentul garsonierelor: 500-600€/lună față de 68.000€ — randament 8,8-10,6% anual. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent.`,
   },
-  ,
   {
     numar: 55,
     slug: 'neofort-55-aviatiei-baneasa',
@@ -1237,7 +1212,6 @@ Regim S+P+4+5R cu 3 apartamente pe etaj și 2 penthouse-uri la etajul 5 cu teras
 
 Zona Aviației-Băneasa este una dintre ariile rezidențiale cele mai apreciate din București. Băneasa Shopping City la câteva minute. Parcul Herăstrău și Pădurea Băneasa pentru recreere. Metrou Aurel Vlaicu și Pipera pentru mobilitate. Școli internaționale în proximitate — relevant pentru expați și familii cu copii. Aeroportul Otopeni accesibil rapid pe DN1. Zone de business Aviației-Floreasca-Pipera — cel mai important district de birouri din nordul Capitalei. Neofort 55 Aviației-Băneasa a livrat cel mai înalt standard de finisaje din portofoliul Neofort IMO: ușă blindată NUSCO Silver, uși interioare PINUM linia SARA, gresie și faianță MARAZZI premium, obiecte sanitare ROCA/DALET, baterii GROHE și centrală VIESSMANN. Prețul per mp — 2.500-2.900€/mp — a reflectat corect nivelul Sector 1 premium Aviației. Băneasa Shopping City la 9 minute pe jos. Metrou Aurel Vlaicu și Pipera la 18-22 minute pe jos sau 4-5 minute cu mașina. Parcul Herăstrău la 28 minute pe jos. Aeroportul Otopeni la 23 minute cu mașina. Precablaj AC în toate camerele. Lift Schindler. Parcare subterană 17.000€ + TVA. Penthouse 5 camere cu 202 mp la 578.400€ + TVA — tipologia de vârf a proiectului. Vânzare directă, fără comision. Neofort 55 livra cel mai înalt standard de finisaje: ușă blindată NUSCO Silver, PINUM linia SARA, MARAZZI premium, ROCA/DALET, GROHE, VIESSMANN. Penthouse 5 camere cu 202 mp la etajul 5 la 578.400€ + TVA — tipologia exclusivistă de vârf. Penthouse 3 camere cu 138 mp la 350.000€ + TVA. Băneasa Shopping City la 9 minute pe jos. Parcul Herăstrău la 28 minute pe jos. Metrou Aurel Vlaicu la 18 minute pe jos sau 4 minute cu mașina. Aeroportul Otopeni la 23 minute cu mașina. Parcul Băneasa la 18 minute pe jos. Metrou Pipera la 22 minute pe jos sau 5 minute cu mașina. 3 apartamente pe etaj, lift Schindler, parcare subterană 17.000€ + TVA. Chiria pentru 2 camere 67 mp: 950-1.100€/lună. Consultanță specializată gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru cele mai competitive oferte de credit ipotecar. Taxe notariale reduse. Rezervare cu 2.000€ fixe indiferent de tipul de apartament.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare.`,
   },
-  ,
   {
     numar: 54,
     slug: 'neofort-54-vitan-mihai-bravu',
@@ -1283,7 +1257,6 @@ Construcția din cadre de beton cu zidărie Porotherm și termosistem polistiren
 
 Dimensiunea compactă de 14 unități pe 4 etaje cu 3 apartamente pe nivel a asigurat o comunitate de locatari restrânsă, costuri comune controlabile și liniștea unui imobil mic. Metrou Dristor la 5 minute pe jos — acces pe M2 spre Piața Universității în 5 minute. Mall Vitan, Park Lake Plaza la 1,5 km, Kaufland, Mega Image și Auchan în proximitate imediată. Piața IOR la 10 minute pe jos. Neofort 54 Vitan-Mihai Bravu a valorificat una dintre cele mai compacte și eficiente localizări din estul Sectorului 3: retras în planul doi față de Bulevardul Burebista, la 300m de Mall Vitan și la 10 minute pe jos de Metrou Dristor 1 (M2). Doar 3 apartamente pe etaj asigurau intimitate și costuri comune minime. Parcul IOR (Titan) la 8 minute cu mașina. Granit în spațiile comune, centrală Ariston individuală, tâmplărie Rehau 5 camere, finisaje la alegere. Chiria pentru 2 camere: 600-700€/lună față de prețul de 95.550-98.500€ — randament 7-8,8% anual. Park Lake Plaza la 8 minute pe jos. Parcare disponibilă. Vânzare directă de la sursă, fără comision de agenție. Consultanță bancară gratuită. Mall Vitan la 300m — 4 minute pe jos — cel mai apropiat mall față de locuință din portofoliul Neofort IMO. Park Lake Plaza la 14 minute pe jos. Metrou Dristor 1 la 10 minute pe jos. Metrou Mihai Bravu la 18 minute pe jos sau 4 minute cu mașina. Parcul IOR (Titan) la 8 minute cu mașina. Delta Văcărești la 13 minute pe jos — rezervație naturală unică. Granit în spațiile comune, centrală Ariston individuală, tâmplărie Rehau 5 camere. Finisaje la alegere complete. Construcție din cadre beton cu Porotherm și polistiren 100mm. Chiria pentru garsonieră de 33 mp: 450-550€/lună față de 57.850€ TVA inclus — randament 9,3-11,4% anual. Parcare disponibilă. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision de agenție. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent.`,
   },
-  ,
   {
     numar: 53,
     slug: 'neofort-53-unirii-carol',
@@ -1333,7 +1306,6 @@ Structura pe cadre și stâlpi din beton, pereți exteriori și între apartamen
 
 Parcul Tineretului la 900m pietonal — unul dintre cele mai mari și mai complete parcuri din București. Palatul Parlamentului în vecinătate — o raritate arhitecturală unică. Metrou Unirii — nodul M1+M3 — la 1000m. STB la maxim 300m în orice direcție. Neofort 53 Unirii-Camera de Comerț a oferit Duplexuri de 3, 4 și 5 camere cu 176-285 mp — o raritate absolutâ la 10 minute pe jos de Piața Unirii. Structura D+P+3E cu maxim 50 de apartamente a asigurat o comunitate de locatari omogenă și costuri comune controlabile. Parcul Tineretului la 12 minute pe jos. Palatul Parlamentului în vecinătate — un reper arhitectural de referință. Metrou Unirii la 1000m — nodul M1+M3 al Capitalei. Lifturi Schindler per corp. Finisaje personalizate dintr-o gamă largă. Randamentul pentru garsoniere: 5-6% anual. Consultanță bancară și juridică gratuită. Parcare la demisol și parter. Vânzare directă de la sursă, fără comision de agenție. Metrou Piața Unirii la 1.000m — 12 minute pe jos — nodul central M1+M3 al Capitalei. Parcul Tineretului la 900m — 11 minute pe jos. Palatul Parlamentului în vecinătate imediată. Structura D+P+3E cu 2 corpuri și 50 de apartamente. Duplexurile cu 3, 4 și 5 camere — 176-285 mp — reprezintau tipologia de vârf, imposibil de replicat la prețul respectiv în zona semicentrală. Lift Schindler per corp. Finisaje personalizate din game largi. Parchet laminat 10mm, gresie faianță import, băi complet echipate. Parcare la demisol și parter. Chiria pentru garsoniere: 600-700€/lună față de 105.000-110.000€ — randament 6,8-8% anual. Chiria pentru 2 camere: 800-1.000€/lună. Consultanță bancară și juridică gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona.`,
   },
-  ,
   {
     numar: 52,
     slug: 'neofort-52-calarasilor-hyperion',
@@ -1374,7 +1346,6 @@ Metrou Piața Muncii la 6-7 minute de mers pe jos sau la o stație de tramvai �
 
 Investitorii care au achiziționat garsoniere și apartamente de 2 camere în Neofort 52 pentru randament în chirie au beneficiat de unul dintre cele mai bune rapoarte localizare-preț din Sectorul 3 al Bucureștiului — zona Calea Călărașilor cu Metrou Muncii la 7 minute și Hyperion la 2 minute a generat cerere constantă de chirie din partea studenților și tinerilor profesioniști. Neofort 52 Calea Călărașilor-Hyperion a inclus un element unic: Centrul SPA de 2000 mp la parterul imobilului — sală de forță, kangoo, cardio, aerobic, saună și piscină semiolimpică — disponibil pentru toți cei 160 de rezidenți. Înălțimea de 3,20m a plafoanelor — cu 40-50cm mai mult față de standard — conferea apartamentelor o spațialitate distinctă. 6 apartamente Penthouse la ultimele etaje. Metrou Piața Muncii la 12 minute pe jos. Universitatea Hyperion la 500m. 2 lifturi de 6 persoane până în subsol. Acces degivrat în parcare. Zona Calea Călărașilor genera cerere permanentă de chirie din studenți și tineri profesioniști. Randament brut 5-7% anual. Vânzare directă, fără comision. Centrul SPA de 2.000 mp la parterul imobilului — sală forță, kangoo, cardio, aerobic, saună și piscină semiolimpică — disponibil pentru cei 160 de rezidenți. Înălțimea plafonului de 3,20m — cu 40-50cm mai mult față de standard. 6 Penthouse-uri la ultimele etaje cu vedere panoramică. Metrou Piața Muncii la 12 minute pe jos sau 3 minute cu mașina. Universitatea Hyperion la 500m. 2 lifturi de 6 persoane, parcare subterană cu acces degivrat. Pereți Porotherm 30cm exterior, polistiren 100mm. Chiria pentru garsoniere și 2 camere în zona Calea Călărașilor cu metrou la 12 minute: 550-700€/lună — randament 6-9% anual. Investitorii care au cumpărat garsoniere în 2016-2017 au obținut aprecieri de 40-60% în 2022-2024. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati.`,
   },
-  ,
   {
     numar: 51,
     slug: 'neofort-51-dristor-metrou',
@@ -1419,7 +1390,6 @@ Construcția integral din cărămidă Porotherm — 25cm la exterior și 11,5cm 
 
 Metrou Dristor 1 la 3 minute pe jos — M2 spre Piața Universității în 5 minute și spre Piața Unirii în 6 minute. Mall Vitan și Park Lake Plaza la 1,5 km. Kaufland, Mega Image, Auchan, KFC și McDonald's la câteva sute de metri. Parcul IOR la 10 minute pe jos. Linii RATB 123 (Piața Unirii), 135 (Piața Romană), troleibuz 79 (Universitate) și tramvai 34 (Gara de Nord-Piața Victoriei-Berceni) în fața imobilului — conectivitate completă fără metrou. Neofort 51 Faza II Dristor a oferit un produs rar: 8 apartamente exclusive cu 2 unități pe etaj, la 120m de Metrou Dristor 1 (M2) — cel mai mic număr de vecini posibil într-un bloc nou din această zonă. Garsoniera cu curte privată de 38 mp la prețul de 62.200€ + TVA — o combinație practic imposibil de replicat în zonele cu metrou la 200m. Zero rigips sau BCA — zidărie exclusiv Porotherm pentru izolație fonică reală. Zero taxe de mentenanță adiacente — un avantaj operațional permanent. Mall Vitan și Park Lake Plaza la 1,5 km. Parcul IOR la 10 minute pe jos. Linii RATB 123, 135, troleibuz 79 și tramvai 34 în față. Consultanță bancară gratuită. Vânzare directă, fără comision. Metrou Dristor 1 la 120m — 1-2 minute pe jos — conectivitate M2 imediată. Garsoniera cu curte de 38 mp la 62.200€ + TVA — combinație imposibil de replicat la această prețul și distanță față de metrou. Exclusiv 2 apartamente pe etaj — intimitate maximă, costuri comune minime. Zero rigips sau BCA — zidărie exclusiv Porotherm 25cm exterior și 11,5cm interior pentru izolație fonică reală. Park Lake Plaza la 9 minute pe jos. Mall Vitan la 13 minute pe jos. Kaufland, Mega Image, Auchan și KFC la câteva sute de metri. Parcul IOR la 10 minute pe jos. Chiria pentru garsoniere: 480-580€/lună față de 52.615-62.200€ — randament 9,3-13,3% anual. Parcare subsol 10.000€ + TVA. Consultanță bancară gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie.`,
   },
-  ,
   {
     numar: 48,
     slug: 'neofort-48-bucurestii-noi-metrou-jiului',
@@ -1465,7 +1435,6 @@ Sistemul constructiv de calitate superioară: cadre de beton armat cu cărămid�
 
 Metrou Jiului (M4) și Metrou Bazilescu asigurau accesul rapid la centrul Capitalei. Parcul Bazilescu pentru relaxare zilnică. Zona Bucureștii Noi-Chitila-Pajura-Domenii din Sectorul 1 oferă un cadru rezidențial liniștit, apreciat de familii și profesioniști. Consultanță bancară gratuită, taxe notariale reduse pentru clienții Neofort. Neofort 48 București Noi-Metrou Jiului a combinat localizarea din Sectorul 1 cu formatul boutique de 14 apartamente — un raport intimitate/preț greu de egalat în nordul Capitalei. Metrou Jiului și Bazilescu (M4) la 19-23 minute pe jos sau 5-6 minute cu mașina. Parcul Bazilescu în proximitate. Apartamentele de 3 camere cu curte de 60 mp — tipologie extrem de rară pentru Sectorul 1 la prețul de 194.000€ + TVA. Terasele generoase la apartamentele de 2 camere. Șapă mecanizată de 10cm pentru izolare fonică excelentă. Tâmplărie PVC 6 camere 3 foi sticlă, obiecte sanitare Romstal, piatră naturală pe casa scărilor. Gestionat de Svetlana Calutu, broker cu 18 ani experiență. Consultanță bancară gratuită. Vânzare directă, fără comision. Metrou Jiului (M4) la 19 minute pe jos sau 5 minute cu mașina. Metrou Bazilescu (M4) la 23 minute pe jos. Parcul Bazilescu la 10 minute cu mașina. Metrou Straulești (M4) la 9 minute cu mașina. Zona Bucureștii Noi din Sectorul 1 are un caracter rezidențial liniștit cu case și blocuri mici — construcțiile înalte sunt rare, luminozitatea și verdeața abundente. Apartament de 3 camere cu curte de 60 mp la 194.000€ — parcare inclusă în preț. Terase generoase la toate tipurile de 2 camere. Sâpă mecanizată 10cm pentru izolare fonică excelentă. Obiecte sanitare și instalații Romstal, gresie-faianță-parchet Italia/Spania. Chiria pentru 3 camere: 800-950€/lună față de 145.000-194.000€. Gestionat de Svetlana Calutu, 18 ani experiență. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa.`,
   },
-  ,
   {
     numar: 47,
     slug: 'neofort-47-aviatiei-baneasa-boutique',
@@ -1508,7 +1477,6 @@ Dotările sunt la nivelul maxim disponibil: centrală Viessmann individuală —
 
 Zona Aviației-Băneasa concentrează cele mai valoroase adrese rezidențiale și de business din nordul Capitalei. Medicover în vecinătate imediată. Băneasa Shopping City în apropiere. Aeroportul Otopeni accesibil rapid pe DN1 — relevant pentru clienții cu deplasări frecvente. Metrou Aurel Vlaicu și Pipera pentru conectivitate. Hotel Ramada, Fenicia Grand și zona Cartierului Francez în proximitate. Consultanță bancară gratuită, suport specializat gratuit pentru finanțare. Neofort 47 Aviației-Băneasa Boutique a livrat cel mai înalt nivel de exclusivitate din portofoliul Neofort IMO: 4 apartamente, unul pe etaj, cu centrală Viessmann, lift Kronlift și finisaje premium integral personalizabile. Parcare subterană 15.000€ + TVA. Băneasa Shopping City la 8 minute pe jos. Metrou Aurel Vlaicu și Pipera la 4-5 minute cu mașina. Aeroportul Otopeni la 23 minute cu mașina — relevant pentru proprietarii cu deplasări internaționale frecvente. Aer condiționat preinstalat și precablat. Radiator Grohe, gresie și faianță Italia, tâmplărie Salamander cu geam tratat Planitherm. Zona Aviației-Băneasa concentrează cele mai valoroase adrese rezidențiale din nordul Capitalei. Consultanță și suport specializat gratuit pentru finanțare. Vânzare directă, fără comision. Zona Aviației-Băneasa — Medicover oferea cel mai exclusivist cadru rezidențial din portofoliul Neofort IMO. Un singur apartament pe fiecare etaj asigura intimitate absolută. Băneasa Shopping City la 8 minute pe jos. Parcul Herăstrău la 14 minute pe jos. Metrou Aurel Vlaicu la 18 minute pe jos sau 4 minute cu mașina. Aeroportul Otopeni la 23 minute cu mașina. Hotel Ramada, Fenicia Grand și zona Cartierului Francez în proximitate imediată. Centrala Viessmann, finisaje premium personalizabile integral, lift Kronlift, tâmplărie Salamander Planitherm, parchet 12mm, băi complet utilate marca GROHE. Curte privată de 33 mp la apartamentul de parter, terase la etaje. Parcare subterană 15.000€ + TVA. Chiria pentru 3 camere: 1.200-1.500€/lună. Vânzare directă, fără comision de agenție. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona.`,
   },
-  ,
   {
     numar: 46,
     slug: 'neofort-46-lacul-tei-parcul-tei',
@@ -1557,7 +1525,6 @@ Construcție de calitate: cadre de beton și cărămidă Porotherm 25cm, compart
 
 Lacul Tei și Parcul Tei în zonă pentru recreere zilnică. Metrou Ștefan cel Mare și Obor (M2) accesibile rapid pentru conectivitate cu întreg Bucureștiul. Rețeaua comercială completă pe Bulevardul Lacul Tei. Parcul Plumbuita în apropiere. Accesul rapid spre zona de business Nord prin noul pasaj Doamna Ghica. Neofort 46 Faza III Lacul Tei a livrat un pachet de dotări unic la prețul practicat: aparatul de aer condiționat inclus standard, centrala Vaillant, gresie și faianță MARAZZI, baterii GROHE și parchet Kronotex 12mm. Lacul Tei și Parcul Tei la 350m — spațiu verde generos pentru recreere zilnică. Veranda Mall Obor la 9 minute pe jos. Metrou Piața Obor la 11 minute pe jos sau 3 minute cu mașina. Bucătăria mobilată inclusă la un tip de 2 camere — un avantaj concret de 3.000-5.000€ față de alternativele nemobilate. Parchet Kronotex 12mm — mai stabil și mai durabil față de parchetul 8mm standard. Boxe la subsol la 3.900€ + TVA. Parcare subterană 15.000€ TVA inclus. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision. Lacul Tei și Parcul Tei la 350m — spațiu verde de calitate accesibil zilnic. Veranda Mall Obor la 9 minute pe jos. Metrou Piața Obor la 11 minute pe jos sau 3 minute cu mașina. Metrou Ștefan cel Mare la 15 minute pe jos. Metrou Aurel Vlaicu la 24 minute pe jos sau 5 minute cu mașina. Aparatul AC inclus standard elimina un cost de 1.500-2.000€. Centrala Vaillant — brandul premium din industria de încălzire. Gresie și faianță MARAZZI, baterii GROHE, parchet Kronotex 12mm. Compartimentare exclusiv cărămidă, izolație polistiren 100mm, contorizare individuală. Chiria pentru 2 camere de 47-52 mp: 550-650€/lună față de 94.000-104.000€ — randament 7-8,3% anual. Parcare subterană 15.000€ TVA inclus. Consultanță bancară gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse.`,
   },
-  ,
   {
     numar: 45,
     slug: 'neofort-45-constantin-brancoveanu',
@@ -1602,8 +1569,6 @@ Fiecare apartament compartimentat inteligent pentru optimizarea maximă a spați
 
 Metrou Constantin Brâncoveanu (M2) în față. Mall Grand Arena și zona comercială Jumbo în apropiere. Piața de Gros București. Parcul Tineretului și noul Parc Tudor Arghezi. Spitalele Copii Marie Curie și Alexandru Bagdasar pentru servicii medicale de urgență. Liceul Miron Nicolescu, Grădinița 7 Ani cu after-school și Școala Avram Iancu pentru familii cu copii. Zona Constantin Brâncoveanu din Sectorul 4 a beneficiat de investiții majore în infrastructura de transport și de regenerare urbană: Pasajul suprateran Obregia-Turnu Măgurele a fluidizat traficul și a crescut accesibilitatea zonei. Metrou Constantin Brâncoveanu (M2) în față. Mall Grand Arena la 18 minute pe jos sau 5 minute cu mașina. Sun Plaza la 28 minute pe jos. Parcul Tineretului la 12 minute cu mașina. Spitalele Copii Marie Curie și Alexandru Bagdasar la 6-7 minute cu mașina — o concentrare rară de servicii medicale de urgență de înaltă specializare. Prețul de 59.290€ pentru 2 camere cu 53,89 mp reprezenta una dintre cele mai competitive oferte din Sectorul 4 la momentul comercializării. Sistem de încălzire în pardoseală, lift silențios, acces securizat cu telecomandă. Vânzare directă, fără comision. Metrou Constantin Brâncoveanu (M2) în față. Mall Grand Arena la 18 minute pe jos sau 5 minute cu mașina. Pasajul suprateran Obregia-Turnu Măgurele a fluidizat traficul și a crescut accesibilitatea. Sun Plaza la 28 minute pe jos sau 7 minute cu mașina. Parcul Tineretului la 12 minute cu mașina. Spital Copii Marie Curie și Alexandru Bagdasar la 6-7 minute cu mașina. Piața de Gros București în zonă. Prețul de 59.290€ pentru 2 camere cu 53,89 mp — una dintre cele mai competitive oferte din Sectorul 4. Sistem de încălzire în pardoseală, lift silențios, ferestre tripan, termosistem 10cm, centrală condensare. Chiria pentru 2 camere: 500-600€/lună față de 59.290€ — randament 10-12% anual. Consultanță financiară gratuită. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati.`,
   },
-  ,
-
   {
     numar: 43,
     slug: 'neofort-43-voluntari-pipera',
@@ -1645,7 +1610,6 @@ Structura P+3E, radier general cu grinzi si stalpi de beton armat, inchideri per
 
 Proximitatea A3 asigura acces rapid la centrul Bucurestiului (25-30 minute in trafic normal) si la aeroportul Henri Coanda (25 minute). Zona de business Pipera-Petricani-Fabrica de Glucoza la 10 minute. Transport public pe Sos. Andronache cu acces la metrou Aurel Vlaicu (M2) la 6 minute cu masina. Padurile Andronache si Boldu-Cretuleasca in vecinatate imediata — aer curat, spatiu verde, liniste. Toate unitatile vandute, confirmare a atractivitatii zonei nord pentru investitori si cumparatori finali.`,
   },
-  ,
   {
     numar: 41,
     slug: 'neofort-41-doamna-ghica',
@@ -1696,7 +1660,6 @@ Specificatii tehnice premium: structura radier general, diafragme si stalpi beto
 
 Parcul Plumbuita la 800 m pe jos — spatiu verde urban rar in zona Colentina. Spitalul Fundeni la 4 minute cu masina — o valoare adaugata semnificativa. Accesul rapid catre zona de business din nord (Fabrica de Glucoza-Petricani-Pipera) prin viitorul pasaj Doamna Ghica. Parcare subterana si supraterana disponibila. Contorizare individuala completa.`,
   },
-  ,
   {
     numar: 40,
     slug: 'neofort-40-mihai-bravu-vile',
@@ -1737,7 +1700,6 @@ Constructie din cadre de beton armat cu caramida Porotherm, izolatie exterioara 
 
 Metrou Mihai Bravu (M2) la 300 m — acces la Piata Unirii in 8 minute, Piata Victoriei in 15 minute. Lidl si Kaufland in proximitate imediata. Mall Vitan la 10 minute pe jos, Park Lake Plaza la 3 minute cu masina. Parcul Tineretului la 3 minute cu masina. Delta Vacaresti la 4 minute. Un produs rar — vile cu teren la metrou — care s-a vandut rapid datorita raportului calitate-locatie-pret.`,
   },
-  ,
   {
     numar: 39,
     slug: 'neofort-39-foisorul-de-foc-mosilor',
@@ -1782,7 +1744,6 @@ Constructie calitativa: stalpi, diafragme si grinzi din beton armat, caramida Po
 
 Metrou Piata Obor la 10 minute pe jos. Zona Dacia-Dorobanti-Floreasca la 10 minute cu masina. Piata Unirii la 5 minute cu masina. Accesibilitate excelenta pe axa Calea Mosilor. Consultanta bancara gratuita, taxe notariale reduse — serviciile standard Neofort IMO pentru toti clientii.`,
   },
-  ,
   {
     numar: 38,
     slug: 'neofort-38-vitan-mall-brandusilor',
@@ -1827,7 +1788,6 @@ Specificatii care il diferentiaza: tamplarie Salamander 7 camere gri-antracit la
 
 La 2 km de Piata Unirii, la 700m de Metrou Mihai Bravu, in imediata vecinatate a Mall Vitan, Park Lake Plaza si Complexului Zar. Retras fata de bulevardele principale — liniste si intimitate in inima Sectorului 3. Proiect finalizat si complet vandut, confirmare a raportului calitate-pret exceptional al locatiei.`,
   },
-  ,
   {
     numar: 37,
     slug: 'neofort-37-vitan-foisorului',
@@ -1867,7 +1827,6 @@ Preturile au fost stabilite deliberat sub media pietei pentru zona, cu posibilit
 
 Pozitionat in imediata apropiere a Complexului Comercial Vitan Mall si la cateva minute de Piata Unirii. Zona Foisorului a fost aleasa strategic: suficient de centrala pentru a fi atractiva, suficient de retrasa fata de bulevardele mari pentru a oferi liniste. Acces rapid pe Calea Vitan catre centru, pe Bulevardul Unirii catre Piata Unirii si pe Soseaua Mihai Bravu catre Metrou Mihai Bravu. Proiect adresat investitorilor ce cautau randamente bune din inchirieri in zona — cererea de garsoniere in Vitan-Foisorului a ramas constanta in toti acesti ani.`,
   },
-  ,
   {
     numar: 36,
     slug: 'neofort-36-mosilor-precupetii-vechi',
@@ -1917,7 +1876,6 @@ Specificatii de top: tamplarie Salamander 7 camere cu 3 foi de geam, usi blindat
 
 Metrou Piata Obor la 500 m. Zona Dacia-Dorobanti la 10 minute pe jos. Piata Victoriei la 15 minute. Proiect de referinta al Neofort IMO pentru segmentul premium, vandut in totalitate in ambele faze.`,
   },
-  ,
   {
     numar: 35,
     slug: 'neofort-35-matei-voievod-calarasilor',
@@ -1961,7 +1919,6 @@ Specificatii de calitate: radier general, structura stalpi si cadre beton, peret
 
 Parcul National (Parcul Unirii) la 350m. Metrou Dristor 2 la 7 minute pe jos. Metrou Dristor 1 la 11 minute pe jos. Mall Vitan la 6 minute pe jos. Kaufland Popa Nan si Park Lake la 3 minute cu masina. Transport RATB bogat in zona (linii 135, 311, 655, N102, 86, 90, 70, 92, 79, 14). Proiect finalizat in 2015 si vandut integral.`,
   },
-  ,
   {
     numar: 34,
     slug: 'neofort-34-unirii-udriste',
@@ -2006,7 +1963,6 @@ Structura antisezmica: amprenta mare la sol, regim de inaltime mic, structura pe
 
 Metrou Timpuri Noi la 400m. Metrou Unirii la 10 minute pe jos. Parcul Carol la 4 minute cu masina. Piata Unirii, Centrul Vechi la 10 minute pe jos. Zona istorica Banul Udriste — intimitate rezidentiala in inima Bucurestiului. Finalizat 2015, vandut integral.`,
   },
-  ,
   {
     numar: 32,
     slug: 'neofort-32-unirii-parcul-carol',
@@ -2049,7 +2005,6 @@ Un aspect distinctiv: AC inclus in living si precablaj la dormitoare — un stan
 
 Metrou Tineretului (M2) la 350m — acces rapid la Piata Unirii (3 statii), Piata Victoriei (8 statii). Sun Plaza la 3 minute cu masina. Parcul Tineretului la 11 minute pe jos. Parcul Carol la 6 minute. Statia de metrou Unirii la 6 minute cu masina. Un proiect cu vizibilitate si anvergura maxima in zona, vandut integral.`,
   },
-  ,
   {
     numar: 31,
     slug: 'neofort-31-dobroesti-lac',
@@ -2091,7 +2046,6 @@ Constructie de calitate: caramida Porotherm 25cm la exterior si intre apartament
 
 Apartamentele de la parter au gradini proprii. Toate unitatile au balcon sau gradina. Parcare exterioara inclusa in curte. Centrale individuale in condensatie pentru costuri reduse. Finisaje complete la alegere. Un proiect pentru familii care cauta spatiu, liniste si verde fara sa sacrifice accesul la facilitatile urbane.`,
   },
-  ,
   {
     numar: 30,
     slug: 'neofort-30-dristor-metrou',
@@ -2139,7 +2093,6 @@ Tamplarie premium Rehau 5 camere cu 2 foi de sticla cu control solar — o alege
 
 De la Metrou Dristor 2 ai acces pe M2 direct la Piata Unirii (4 statii, 7 minute), la Piata Romana (6 statii), la Piata Victoriei (9 statii), la Aeroport (28 minute). Mall Vitan la 800m. Kaufland, Mega Image, Auchan in proximitate imediata. O locatie de referinta in Sectorul 3 pentru raportul calitate-metrou-pret.`,
   },
-  ,
   {
     numar: 29,
     slug: 'neofort-29-mosilor-foisorul-de-foc',
@@ -2183,7 +2136,6 @@ Preturile la momentul comercializarii: 2 camere de la 86.000€+TVA (59 mp const
 
 Finalizat in doua etape: Corp B in martie 2019, Corp A in august 2019. Zona Calea Mosilor-Foisorul de Foc: atmosfera autentic bucuresteana, acces la multiple mijloace de transport, aproape de Parcul Eminescu si de zona istorica a orasului. Calea Mosilor — una dintre axele istorice ale Bucurestiului. Proiect mic, pentru cumparatori care valorizeaza calitatea si siguranta mai mult decat numarul de etaje.`,
   },
-  ,
   {
     numar: 27,
     slug: 'neofort-27-stefan-cel-mare-lizeanu',
@@ -2228,8 +2180,6 @@ Terasele generoase la etajele superioare au constituit principalul punct diferen
 
 Metrou Piata Obor (M2) la 400m pe jos — acces direct la centrul Capitalei, la Piata Victoriei sau la Aeroportul Aurel Vlaicu. Zona Lizeanu a beneficiat de regenerarea urbana din jurul Pietei Obor si accesul la Veranda Mall. Colegiul National Mihai Eminescu la aproape. Un proiect mic, de calitate, finalizat si vandut integral pana in 2018.`,
   },
-  ,
-
   {
     numar: 26,
     slug: 'neofort-26-pantelimon-vile',
@@ -2266,7 +2216,6 @@ Constructie la standarde 2021: structura beton armat, caramida Porotherm 280mm, 
 
 STB R454 cu acces direct la Metrou Pantelimon (M2). Mega Mall Pantelimon la 3 minute cu masina. Autostrada Soarelui si Centura in apropiere – mobilitate maxima. Zona linistita, cu acces restrictionat, inconjurata de alte vile rezidentiale. Un proiect de nisa pentru familii care prefera traiul la casa fara sa renunte la facilitatile urbane.`,
   },
-  ,
   {
     numar: 25,
     slug: 'neofort-25-decebal-piata-muncii',
@@ -2316,7 +2265,6 @@ Structura radier general, Porotherm 25cm, polistiren 10cm, tamplarie Salamander 
 
 De la Metrou Piata Muncii (M3) ai acces direct la Piata Unirii (3 statii), la Politehnica (7 statii), la Drumul Taberei. Zona Baba Novac-Dristor-Alba Iulia la maxim 5 minute. Parcul National (23 August) la 7 minute pe jos. Un proiect central cu acces metropolitan exceptional, vandut integral.`,
   },
-  ,
   {
     numar: 24,
     slug: 'neofort-24-agricultori-calarasilor',
@@ -2360,7 +2308,6 @@ Constructie solida: cadre si stalpi beton armat, Porotherm la exterior si interi
 
 La 5 minute cu masina de Piata Unirii, la 4 minute de Metrou Piata Muncii, la 3 minute de Metrou 8 Noiembrie. Supermarketurile Mega Image si Piata Traian la distanta de mers pe jos. Un proiect accesibil in zona centrala, vandut integral.`,
   },
-  ,
   {
     numar: 23,
     slug: 'neofort-23-13-septembrie-sirenelor',
@@ -2402,7 +2349,6 @@ Dotarile au justificat pretul premium: centrala Vaillant, geamuri Saint Gobain c
 
 Metrou Izvor (M2) la 350m pe jos — 8 minute pana la Piata Unirii, 12 minute pana la Piata Victoriei. Facultatea de Drept la 1.8 km, Carol Davila la 2 km — un proiect ideal pentru medicii si juristii din zonele universitare adiacente. Construit integral din fonduri proprii, fara creditare bancara. Vandut integral la finalizare.`,
   },
-  ,
   {
     numar: 22,
     slug: 'neofort-22-alba-iulia-decebal',
@@ -2447,7 +2393,6 @@ Tamplarie PVC imitatie lemn NUC — un element estetic distinctiv, mai cald deca
 
 Parcul National (23 August) la 200m — acces zilnic la 25 hectare de spatiu verde in Sectorul 3. Metrou Dristor 2 la 450m pe jos. Mall Vitan la 8 minute pe jos. Zona perfecta pentru investitii de inchiriere — cerere constanta din partea angajatilor din zona centrala si corporatiile din Bulevardul Unirii.`,
   },
-  ,
   {
     numar: 21,
     slug: 'neofort-21-pache-protopopescu',
@@ -2490,7 +2435,6 @@ Centrala Vaillant cu senzori gaz, tamplarie PVC 6 camere cu termopan 3 foi trata
 
 Constructie Porotherm fara rigips: cadre beton armat, plansee 15cm plus polistiren extrudat 3cm, sapa mecanizata 10cm — izolatie fonica si termica excelenta intre etaje. Instalatii electrice cupru trasate prin tencuiala. Vandut integral.`,
   },
-  ,
   {
     numar: 20,
     slug: 'neofort-20-mosilor-eminescu-faza-ii',
@@ -2539,7 +2483,6 @@ Specificatii premium: usi blindate MEGA, parchet Kronotex Mammut 12mm (cel mai b
 
 Construit din fonduri proprii fara creditare bancara — un angajament constant al Neofort IMO. Metrou Obor la 500m pe jos. Zona Dacia-Dorobanti la 10 minute. Piata Victoriei la 15 minute. Un proiect de referinta al segmentului boutique-premium din portofoliu, vandut integral.`,
   },
-  ,
   {
     numar: 19,
     slug: 'neofort-19-parcul-carol-viilor',
@@ -2584,7 +2527,6 @@ Tamplarie Salamander 7 camere cu termopan 3 foi — standard rar la acel moment.
 
 Rezervare cu suma fixa de 2.000€ indiferent de tipul apartamentului — un aranjament simplu si corect pentru cumparatori. Unirea Shopping Center si Palatul Parlamentului la maxim 7 minute cu masina. Parcul Tineretului la 3 minute. Sun Plaza la 4 minute. Vandut integral.`,
   },
-  ,
   {
     numar: 18,
     slug: 'neofort-18-traian-popa-nan',
@@ -2625,7 +2567,6 @@ Dotari de exceptie: plafon 2.85m — senzatia de spatiu superior standard, 2 bai
 
 Universitatea Hyperion la 400m — o vecinatate valoroasa pentru proprietarii care inchiriaza studentilor si profesorilor universitari. Metrou Piata Muncii la 3 minute cu masina. Zona Traian inconjurata de vile si zone verzi — liniste si intimitate la 10 minute de centru. Construit integral din fonduri proprii. Vandut integral.`,
   },
-  ,
   {
     numar: 17,
     slug: 'neofort-17-calea-calarasilor',
@@ -2669,7 +2610,6 @@ Preturile la comercializare: garsoniera 29.15 mp construiti la 66.800€+TVA, st
 
 Dotari de calitate: centrala Wessmann cu senzori gaz, calorifere aluminiu, baie cu portprosop inox, usi Pinum blindate la exterior si multiple nuante la interior, tamplarie PVC cu tripan Argon, precablaj AC, parchet laminat dublu click 12mm, instalatii electrice Le Grand, tencuiala mecanizata Baumit. Clasa energetica A+. Boxe la subsol. Parcare exterioara. Vandut integral.`,
   },
-  ,
   {
     numar: 16,
     slug: 'neofort-16-decebal-zepter',
@@ -2713,7 +2653,6 @@ Specificatii distincte: bai si bucatarie placate cu marmura — un standard mai 
 
 Metrou Piata Muncii (M3) la 250m — acces direct la Piata Unirii (2 statii), Piata Victoriei (6 statii). Zona Decebal — una dintre axele centrale ale Sectorului 3, cu numeroase cafenele si restaurante. Aproape de Piata Alba Iulia, Mall Vitan si Park Lake. Proiect complet vandut, confirmare a valorii locatiei.`,
   },
-  ,
   {
     numar: 15,
     slug: 'neofort-15-bucur-obor',
@@ -2755,7 +2694,6 @@ Tamplarie Salamander StreamLine 76 Hepta cu 7 camere si feronerie Roto NX de ult
 
 Piata Obor la 350m — accesul rapid la toate liniile RATB din zona (335, 66, 34, tramvai 21) plus Metrou Piata Obor la 8 minute pe jos. Kaufland, Mega Image, Billa in proximitate imediata. Clientii care achizitionau pentru investitie obtineau prima chirie pana la sfarsitul anului de predare. Proiect complet vandut.`,
   },
-  ,
   {
     numar: 14,
     slug: 'neofort-14-vitan-mall-calea-vitan',
@@ -2797,7 +2735,6 @@ Bai complet mobilate si utilate, materiale importate din Spania si Italia, tampl
 
 Localizare de exceptie: in imediata apropiere a Mall Vitan (cel mai mare mall al Sectorului 3 la acea vreme), la 7 minute pe jos de Metrou Dristor si la 5 minute cu masina de Piata Unirii. Park Lake Plaza la 400m. Zona Piata Alba Iulia in proximitate. Singurul ansamblu de aceasta anvergura in zona — nu mai poate fi replicat.`,
   },
-  ,
   {
     numar: 13,
     slug: 'neofort-13-barbu-vacarescu-lacul-tei',
@@ -2845,7 +2782,6 @@ Fundatie de exceptie: radier general cu 88 de piloni la adancime de 16 m — una
 
 Lacul Tei la 50m — plimbare de seara, sport, natura in inima orasului. Colegiul National Mihai Eminescu la 9 minute pe jos. Zona Barbu Vacarescu — conexiune rapida cu centrul de business din nordul Capitalei. Proiect vandut integral, confirmare a atractivitatii locatiei.`,
   },
-  ,
   {
     numar: 12,
     slug: 'neofort-12-dristor-metrou',
@@ -2890,7 +2826,6 @@ Fundatie cu piloti la 12 m adancime — stabilitate seismica ridicata. Tamplarie
 
 Metrou Dristor 1 (M2) la 150m — cel mai bun raport distanta-metrou din seria Dristor. La 1 km de Mall Vitan. Kaufland, Mega Image, Auchan, McDonalds, KFC in proximitate imediata. Linii RATB multiple in zona. Proiect complet vandut.`,
   },
-  ,
   {
     numar: 10,
     slug: 'neofort-10-dobroesti-fundeni',
@@ -2936,7 +2871,6 @@ Proiectul P+2E+3E+4R cu 56 de apartamente se deosebeste prin ferestre mari cu ta
 
 Spitalul Clinic Fundeni la 300m — un avantaj major pentru familii cu nevoi medicale. Zona langa lacul Dobroesti, linistita. Acces rapid la A3 (10 minute) pentru deplasari spre Ploiesti sau spre centrul Bucurestiului. Veranda Mall la 4 minute. Proiect complet vandut.`,
   },
-  ,
   {
     numar: 9,
     slug: 'neofort-9-dacia-sector2',
@@ -2977,7 +2911,6 @@ Preturile la momentul comercializarii (valabile pana la 15 mai 2013): stabilite 
 
 Zona Dacia — una dintre adresele cele mai apreciate ale Sectorului 2, cu viata de cafenea intensa, profilata pe tineri profesionisti si familii cu copii. Privelistea libera asupra zonei de case din jur. Acces rapid la mijloacele de transport de pe intersectia Dacia-Traian.`,
   },
-  ,
   {
     numar: 7,
     slug: 'neofort-7-decebal-delea-noua',
@@ -3020,7 +2953,6 @@ Calitate premium: tamplarie PVC 5 camere cu LOW-E (tripan), obiecte sanitare Gro
 
 La 200m de Metrou Piata Muncii — accesul direct la centrul Capitalei, Piata Unirii la 2 statii. Kaufland Popa Nan la 500m. Zona Decebal: viata de cafenea, restaurante premium, profil cosmopolit. Proiect vandut integral.`,
   },
-  ,
   {
     numar: 6,
     slug: 'neofort-6-bucurestii-noi',
@@ -3062,7 +2994,6 @@ Specificatii notabile: tamplarie PVC Salamander 7 camere cu 3 foi de sticla, bai
 
 Zona Bucurestii Noi a cunoscut o dezvoltare rapida dupa 2015. Metrou Jiului la 5 minute cu masina, Parcul Herastrau la 5 minute, Baneasa Shopping City la 7 minute. Proiect complet vandut ambele faze.`,
   },
-  ,
   {
     numar: 5,
     slug: 'neofort-5-calarasilor-decebal',
@@ -3105,7 +3036,6 @@ Specificatii de calitate: centrala Vaillant cu senzori de gaz, tamplarie PVC ger
 
 Parcul National la 7 minute pe jos. Mall Vitan la 8 minute pe jos. Zona Calea Calarasilor — conexiune directa la centrul Capitalei si la zona Decebal. Transport RATB abundant. Proiect complet vandut.`,
   },
-  ,
   {
     numar: 4,
     slug: 'neofort-4-pipera-tunari',
@@ -3142,7 +3072,6 @@ Fiecare vila: teren 433 mp, amprenta 143.22 mp, suprafata utila fara terase 187.
 
 Zona Pipera-Tunari: birourile corporatilor, expatii, companiile internationale. Acces rapid la A3, la Baneasa Shopping City (8 minute) si la aeroportul Henri Coanda (20 minute). Liniste totala intr-o zona rezidentiala de case, cu acces facil la toate facilitatile urbane. Proiect complet vandut.`,
   },
-  ,
   {
     numar: 3,
     slug: 'neofort-3-ferdinand-iancului',
@@ -3185,7 +3114,6 @@ Specificatii premium: tamplarie Salamander Streamline 7 camere cu tripan, obiect
 
 Metrou Piata Iancului la 4 minute cu masina. Transport STB autobuze 133, 135 si troleibuze 69, 85 la usa. Spitale in proximitate. Piata Obor la 4 minute. Veranda Mall la 5 minute. O adresa cu personalitate si calitate testata de timp pe unul dintre cele mai autentice bulevarde din Bucuresti.`,
   },
-  ,
   {
     numar: 2,
     slug: 'neofort-2-andronache-colentina',
@@ -3233,7 +3161,6 @@ Specificatii Smart Home: control integral prin wi-fi, aplicatie smartphone. Obie
 
 Penthouse-ul de la etajul 4 cu 2 terase pe 2 nivele — terasa inferioara extensibila la interior si terasa superioara cu vedere la 360 grade. Veranda Mall la 350m. Spital Fundeni la 4 minute. Accesul rapid la A3 (8 minute) pentru zone Ploiesti sau centru Bucuresti.`,
   },
-  ,
   {
     numar: 1,
     slug: 'neofort-1-calea-calarasilor',
@@ -3274,7 +3201,6 @@ Specificatii de referinta: tamplarie din aluminiu cu bariera termica Reynaers (n
 
 Parcul National la 400m, Mall Vitan la 500m. Metrou Piata Muncii la 3 minute cu masina. Restaurantul La Mama si Universitatea Hyperion la 2-3 minute. Statia de Metrou Muncii la 4-5 minute pe jos. Un proiect cu valoare istorica pentru Neofort IMO — totul a inceput de aici.`,
   },
-  ,
 ]
 
 export const SLUGURI_PORTOFOLIU = ANSAMBLURI_PORTOFOLIU.map(a => a.slug)
