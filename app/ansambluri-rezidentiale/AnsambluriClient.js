@@ -10,9 +10,6 @@ const STATUS_CFG = {
   promotie:     { label: 'Promoție',       bg: '#fff3e0', color: '#c8922a' },
   finalizat:    { label: 'Finalizat',      bg: '#f0fdf4', color: '#166534' },
   vandut:       { label: 'Vândut',         bg: '#fff7ed', color: '#c2410c' },
-},
-  activ:        { label: 'Disponibil',     bg: '#e3f2fd', color: '#1565c0' },
-  promotie:     { label: 'Promoție',       bg: '#fff3e0', color: '#c8922a' },
 }
 const SECTOARE = ['Toate', 'Sector 2', 'Sector 3', 'Sector 6']
 const STATUSURI = ['Toate', 'constructie', 'activ', 'promotie', 'finalizat']
