@@ -460,3 +460,51 @@ export function formatPret(n) {
 }
 
 export { ANSAMBLURI }
+
+export const STATUS_CONFIG = {
+  constructie: {
+    label: 'În construcție',
+    labelScurt: 'Construcție',
+    bg: 'bg-blue-100',
+    text: 'text-blue-800',
+    border: 'border-blue-200',
+    dot: 'bg-blue-500',
+    color: '#2563eb',
+  },
+  finalizat: {
+    label: 'Finalizat',
+    labelScurt: 'Finalizat',
+    bg: 'bg-green-100',
+    text: 'text-green-800',
+    border: 'border-green-200',
+    dot: 'bg-green-500',
+    color: '#2d7a3a',
+  },
+  activ: {
+    label: 'Disponibil',
+    labelScurt: 'Disponibil',
+    bg: 'bg-green-100',
+    text: 'text-green-800',
+    border: 'border-green-200',
+    dot: 'bg-green-500',
+    color: '#2d7a3a',
+  },
+  promotie: {
+    label: 'Promoție',
+    labelScurt: 'Promo',
+    bg: 'bg-red-100',
+    text: 'text-red-800',
+    border: 'border-red-200',
+    dot: 'bg-red-500',
+    color: '#dc2626',
+  },
+  vandut: {
+    label: 'Vândut',
+    labelScurt: 'Vândut',
+    bg: 'bg-orange-100',
+    text: 'text-orange-800',
+    border: 'border-orange-200',
+    dot: 'bg-orange-500',
+    color: '#f97316',
+  },
+}
