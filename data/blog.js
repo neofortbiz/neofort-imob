@@ -265,7 +265,7 @@ Ce să faci concret în 2026:
 Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțeleagă impactul E-Proprietatea specific pentru apartamentele pe care le achiziționează. Sună-ne la 0758 090 904 sau trimite-ne un mesaj prin formularul de pe neofort.ro.`,
       },
     ],
-  }
+  },
 
   'preturi-apartamente-bucuresti-2026': {
     titlu: `Prețurile Apartamentelor din București în 2026: Scad sau Nu? Analiză cu Date Reale`,
