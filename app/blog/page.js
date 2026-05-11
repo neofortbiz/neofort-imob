@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { AUTORI, ARTICOLE_LIST, CATEGORII } from '@/data/blog'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -21,9 +20,149 @@ export const metadata = {
   twitter: { card: 'summary_large_image', images: [`${BASE}/og-blog.jpg`] },
 }
 
+export const ARTICOLE = [
+  {
+    slug: 'e-proprietatea-2026-noul-sistem-de-impozitare',
+    titlu: 'E-Proprietatea 2026 — Noul sistem de impozitare a proprietăților explicat complet',
+    tag: 'Legislație', tagColor: '#7c3aed',
+    data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '12 min',
+    image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
+    rezumat: 'Ce este E-Proprietatea, cum schimbă impozitarea imobiliară din 2026 și ce înseamnă concret pentru proprietarii și cumpărătorii de apartamente noi în București.',
+    autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: true,
+  },
+  {
+    slug: 'preturi-apartamente-bucuresti-2026',
+    titlu: 'Prețurile Apartamentelor din București în 2026: Scad sau Nu? Analiză cu Date Reale',
+    tag: 'Piață', tagColor: '#0369a1',
+    data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min',
+    image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif',
+    rezumat: 'Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21% și ce înseamnă pentru cumpărătorii de azi.',
+    autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false,
+  },
+  {
+    slug: 'tva-apartamente-noi-2026',
+    titlu: 'TVA la Apartamente Noi în 2026: Cât Plătești și Cum Eviți Surprizele Fiscale',
+    tag: 'Legislație', tagColor: '#7c3aed',
+    data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min',
+    image: '/blog/tva-apartamente-noi-bucuresti-2026.avif',
+    rezumat: 'TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției.',
+    autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false,
+  },
+  {
+    slug: 'titan-pallady-cea-mai-cautata-zona',
+    titlu: 'Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă din București',
+    tag: 'Zone', tagColor: '#0891b2',
+    data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min',
+    image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif',
+    rezumat: 'De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.',
+    autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false,
+  },
+  {
+    slug: 'noua-casa-2026-ghid-complet',
+    titlu: 'Programul Noua Casă 2026: Ghid Complet — Condiții, Bănci, Avans',
+    tag: 'Finanțare', tagColor: '#0369a1',
+    data: '28 Aprilie 2026', dataISO: '2026-04-28', citire: '10 min',
+    image: '/blog/noua-casa-2026-ghid-complet.avif',
+    rezumat: 'Ghid complet Noua Casă 2026: plafon de 500 milioane lei, condiții de eligibilitate, avans minim, bănci partenere și ce apartamente se califică.',
+    autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false,
+  },
+  {
+    slug: 'cumparare-apartament-din-diaspora',
+    titlu: 'Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas',
+    tag: 'Ghid', tagColor: '#2d7a3a',
+    data: '1 Mai 2026', dataISO: '2026-05-01', citire: '12 min',
+    image: '/blog/cumparare-apartament-diaspora-ghid.avif',
+    rezumat: 'Ghid pentru românii din diasporă care vor să cumpere apartament în București fără să vină în țară: procuri, transfer valută, zone, sfaturi din experiența cu clienți din Germania, Austria, Israel și R. Moldova.',
+    autor: 'Svetlana Calutu', autorSlug: 'svetlana-calutu', featured: false,
+  },
+  {
+    slug: 'apartament-nou-vs-vechi-calcul-real',
+    titlu: 'Apartament Nou vs. Apartament Vechi în București: Calculul Real al Costurilor',
+    tag: 'Analiză', tagColor: '#c2410c',
+    data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min',
+    image: '/blog/apartament-nou-vs-vechi-calcul-real.avif',
+    rezumat: 'Apartament nou sau vechi în București? Calculul complet al costurilor reale: achiziție, renovare, risc seismic, impozit E-Proprietatea și randament închiriere.',
+    autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false,
+  },
+  {
+    slug: 'predare-la-cheie-ce-inseamna',
+    titlu: 'Predare la Cheie la Apartamente Noi: Ce Trebuie să Conțină și Ce să Verifici',
+    tag: 'Ghid', tagColor: '#2d7a3a',
+    data: '7 Mai 2026', dataISO: '2026-05-07', citire: '8 min',
+    image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif',
+    rezumat: 'Ce înseamnă predare la cheie la un apartament nou? Lista completă a finisajelor incluse, ce poate lipsi și checklist de verificare la predare.',
+    autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false,
+  },
+  {
+    slug: 'randament-inchiriere-zone-bucuresti',
+    titlu: 'Randament la Închiriere pe Zone din București în 2026',
+    tag: 'Investiții', tagColor: '#0369a1',
+    data: '10 Mai 2026', dataISO: '2026-05-10', citire: '10 min',
+    image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif',
+    rezumat: 'Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii.',
+    autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false,
+  },
+  {
+    slug: 'ghid-cumparare-apartament-nou',
+    titlu: 'Ghid complet 2026: Cum cumperi un apartament nou de la dezvoltator fără greșeli',
+    tag: 'Ghid', tagColor: '#2d7a3a',
+    data: '10 Martie 2026', dataISO: '2026-03-10', citire: '13 min',
+    image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
+    rezumat: 'Toți pașii de la prima vizită până la predarea cheilor: ce verifici la contract, cum negociezi, ce capcane există și cum le eviți.',
+    autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false,
+  },
+]
 
-const FEATURED = ARTICOLE_LIST.find(a => a.featured)
-const REST = ARTICOLE_LIST.filter(a => !a.featured)
+const AUTORI = {
+  'igor-calutu': {
+    nume: 'Igor Calutu', titlu: 'Director General & Analist Piață Imobiliară',
+    bio: 'Cu peste 22 de ani de experiență în piața imobiliară bucureșteană, Igor Calutu a coordonat livrarea a peste 85 de ansambluri rezidențiale. Analist activ al tendințelor de piață.',
+    foto: '/brokeri/igor-calutu.avif',
+  },
+  'adriana-veselu': {
+    nume: 'Adriana Veselu', titlu: 'Reprezentant Vanzari Zona Centrala — 16 ani',
+    bio: 'Adriana Veselu are 14 ani in Neofort IMO si peste 400 de tranzactii finalizate.',
+    foto: '/brokeri/adriana-veselu.avif',
+  },
+  'sasha-calutu': {
+    nume: 'Sasha Calutu', titlu: 'Reprezentant Vanzari Zona Centrala — 17 ani',
+    bio: 'Sasha Calutu are toti cei 17 ani de cariera imobiliara petrecuti in Neofort IMO.',
+    foto: '/brokeri/sasha-calutu.avif',
+  },
+  'ramona-baicu': {
+    nume: 'Ramona Baicu', titlu: 'Reprezentant Vanzari Zona Sud-Vest — 17 ani',
+    bio: 'Ramona Baicu activeaza in piata imobiliara de 17 ani, cu 11 ani in Neofort IMO.',
+    foto: '/brokeri/ramona-baicu.avif',
+  },
+  'svetlana-calutu': {
+    nume: 'Svetlana Calutu', titlu: 'Reprezentant Vanzari Zona Centrala — 21 ani',
+    bio: 'Svetlana Calutu are 18 ani in Neofort IMO, expertiza in zona centrala si semicentrala.',
+    foto: '/brokeri/svetlana-calutu.avif',
+  },
+  'adrian-pintilie': {
+    nume: 'Adrian Pintilie', titlu: 'Reprezentant Vanzari Zona Sud-Est — 15 ani',
+    bio: 'Adrian Pintilie - 14 ani in Neofort IMO, specialist zona Titan-Pallady-IOR.',
+    foto: '/brokeri/adrian-pintilie.avif',
+  },
+  'raluca-nistor': {
+    nume: 'Raluca Nistor', titlu: 'Reprezentant Vanzari Zona Est — 10 ani',
+    bio: 'Raluca Nistor, consultantul de referinta pentru zona est a Capitalei la Neofort IMO.',
+    foto: '/brokeri/raluca-nistor.avif',
+  },
+}
+
+const CATEGORII = [
+  { label: 'Ghid', count: 3, color: '#2d7a3a' },
+  { label: 'Legislație', count: 2, color: '#7c3aed' },
+  { label: 'Piață', count: 1, color: '#0369a1' },
+  { label: 'Finanțare', count: 1, color: '#0369a1' },
+  { label: 'Zone', count: 1, color: '#0891b2' },
+  { label: 'Analiză', count: 1, color: '#c2410c' },
+  { label: 'Investiții', count: 1, color: '#0369a1' },
+]
+
+const FEATURED = ARTICOLE.find(a => a.featured)
+const REST = ARTICOLE.filter(a => !a.featured)
 
 export default function BlogPage() {
   return (
@@ -57,8 +196,8 @@ export default function BlogPage() {
                 <div className="mb-10">
                   <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-3">Articol recomandat</p>
                   <Link href={`/blog/${FEATURED.slug}`} className="group block">
-                    <div className="relative rounded-2xl overflow-hidden mb-4" style={{ position: 'relative', paddingBottom: '43.75%', overflow: 'hidden' }}>
-                      {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" loading="eager" decoding="async" />}
+                    <div className="relative rounded-2xl overflow-hidden mb-4" style={{ paddingBottom: '43.75%', position: 'relative' }}>
+                      {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}
                       <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 60%)' }} />
                       <span className="absolute top-4 left-4 text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ background: FEATURED.tagColor }}>{FEATURED.tag}</span>
                     </div>
@@ -87,8 +226,8 @@ export default function BlogPage() {
                     <Link key={a.slug} href={`/blog/${a.slug}`} className="group border border-gray-200 rounded-xl overflow-hidden hover:border-gray-300 hover:shadow-md transition-all">
                       <div style={{ position: 'relative', paddingBottom: '56.25%', overflow: 'hidden' }}>
                         {a.image ? (
-                          <img src={a.image} alt={a.titlu} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-                        ) : <div className="absolute inset-0 bg-gray-100" />}
+                          <img src={a.image} alt={a.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                        ) : <div style={{ position: 'absolute', inset: 0, background: '#f3f4f6' }} />}
                         <span className="absolute top-3 left-3 text-[10px] font-semibold px-2 py-0.5 rounded-full text-white" style={{ background: a.tagColor }}>{a.tag}</span>
                       </div>
                       <div className="p-4">
@@ -161,10 +300,10 @@ export default function BlogPage() {
               <div className="border border-gray-200 rounded-xl p-5">
                 <h3 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Articole recente</h3>
                 <div className="space-y-3">
-                  {ARTICOLE_LIST.map(a => (
+                  {ARTICOLE.map(a => (
                     <Link key={a.slug} href={`/blog/${a.slug}`} className="flex gap-2 group">
                       <div className="relative w-14 h-10 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100">
-                        {a.image && <img src={a.image} alt={a.titlu} className="w-full h-full object-cover" loading="lazy" />}
+                        {a.image && <Image src={a.image} alt={a.titlu} fill className="object-cover" />}
                       </div>
                       <div>
                         <p className="text-[11px] text-gray-700 font-medium leading-tight group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{a.titlu}</p>
@@ -187,7 +326,7 @@ export default function BlogPage() {
                 '@context': 'https://schema.org', '@type': 'Blog',
                 name: 'Blog Imobiliar Neofort IMO', url: `${BASE}/blog`,
                 publisher: { '@type': 'Organization', name: 'Neofort IMO', url: BASE },
-                blogPost: ARTICOLE_LIST.map(a => ({
+                blogPost: ARTICOLE.map(a => ({
                   '@type': 'BlogPosting', headline: a.titlu,
                   url: `${BASE}/blog/${a.slug}`, datePublished: a.dataISO,
                   author: { '@type': 'Person', name: a.autor },
