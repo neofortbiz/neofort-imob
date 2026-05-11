@@ -808,7 +808,7 @@ Un argument final pentru Neofort 8 care merită menționat explicit: clasa energ
 
 // Ansambluri active (la vanzare, in constructie sau promotie)
 export const ANSAMBLURI_ACTIVE = ANSAMBLURI.filter(a =>
-  ['activ', 'constructie', 'promotie'].includes(a.status)
+  ['activ', 'constructie', 'promotie', 'finalizat'].includes(a.status)
 )
 
 // Ansambluri portofoliu (vandute)
