@@ -5,9 +5,9 @@ import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
 
 const STATUS_CFG = {
-  constructie: { label: 'În construcție', bg: '#e8f5e9', color: '#2d7a3a' },
-  activ:        { label: 'Disponibil',     bg: '#e3f2fd', color: '#1565c0' },
-  promotie:     { label: 'Promoție',       bg: '#fff3e0', color: '#c8922a' },
+  constructie: { label: 'În construcție', bg: '#e3f2fd', color: '#1565c0' },
+  activ:        { label: 'Finalizat',      bg: '#e8f5e9', color: '#2d7a3a' },
+  promotie:     { label: 'Promoție',       bg: '#fdecea', color: '#c0392b' },
 }
 const SECTOARE = ['Toate', 'Sector 2', 'Sector 3', 'Sector 6']
 const STATUSURI = ['Toate', 'constructie', 'activ', 'promotie']
