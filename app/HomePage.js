@@ -537,24 +537,22 @@ export default function HomePageClient() {
               </div>
               <Link href="/blog" className="text-xs text-[#2d7a3a] hover:underline font-medium">Vezi toate →</Link>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
                 { tag: 'Investiții', titlu: 'Randament la Închiriere pe Zone din București în 2026', data: '10 Mai 2026', slug: 'randament-inchiriere-zone-bucuresti', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif' },
                 { tag: 'Ghid', titlu: 'Predare la Cheie: Ce Trebuie să Conțină și Ce să Verifici', data: '7 Mai 2026', slug: 'predare-la-cheie-ce-inseamna', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif' },
                 { tag: 'Analiză', titlu: 'Apartament Nou vs. Vechi în București: Calculul Real al Costurilor', data: '4 Mai 2026', slug: 'apartament-nou-vs-vechi-calcul-real', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif' },
+                { tag: 'Ghid', titlu: 'Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas', data: '1 Mai 2026', slug: 'cumparare-apartament-din-diaspora', image: '/blog/cumparare-apartament-diaspora-ghid.avif' },
               ].map(b => (
                 <Link key={b.slug} href={`/blog/${b.slug}`}
-                  className="border border-gray-300 rounded-xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all group">
-                  <div className="relative h-40 bg-gray-100 overflow-hidden">
-                    {b.image && (
-                      <Image src={b.image} alt={b.titlu} fill sizes="(max-width:768px) 100vw, 400px"
-                        className="object-cover group-hover:scale-105 transition-transform duration-500" />
-                    )}
+                  className="border border-gray-200 rounded-xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all group">
+                  <div style={{ position: 'relative', paddingBottom: '60%', overflow: 'hidden', background: '#f3f4f6' }}>
+                    {b.image && <img src={b.image} alt={b.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />}
                   </div>
-                  <div className="p-4">
-                    <div className="text-[9px] font-medium uppercase tracking-wider mb-2" style={{ color: '#2d7a3a' }}>{b.tag}</div>
-                    <div className="text-sm font-medium text-gray-900 leading-snug mb-2 group-hover:text-[#2d7a3a] transition-colors">{b.titlu}</div>
-                    <div className="text-[10px] text-gray-600">{b.data}</div>
+                  <div className="p-3">
+                    <div className="text-[9px] font-medium uppercase tracking-wider mb-1" style={{ color: '#2d7a3a' }}>{b.tag}</div>
+                    <div className="text-xs font-medium text-gray-900 leading-snug mb-1 group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{b.titlu}</div>
+                    <div className="text-[10px] text-gray-400">{b.data}</div>
                   </div>
                 </Link>
               ))}
