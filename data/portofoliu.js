@@ -2,6 +2,7 @@ export const ANSAMBLURI_PORTOFOLIU = [
   {
     numar: 85,
     slug: 'neofort-85-herastrau-aviatiei',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-85-herastrau-aviatiei.avif',
     nume: 'Neofort 85 Herăstrău-Aviației',
     zona: 'Herăstrău-Aviației',
     sector: 'Sector 1',
@@ -48,6 +49,7 @@ Neofort 85 ilustrează capacitatea Neofort IMO de a livra proiecte exclusiviste 
   {
     numar: 82,
     slug: 'neofort-82-titan-gura-putnei',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-82-titan-gura-putnei.avif',
     nume: 'Neofort 82 Titan Gura Putnei',
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
@@ -94,6 +96,7 @@ Vânzarea integrală a celor 9 unități demonstrează că zona Titan-Gura Putne
   {
     numar: 81,
     slug: 'neofort-81-morarilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-81-morarilor.avif',
     nume: 'Neofort 81 Morarilor',
     zona: 'Morarilor-Pantelimon',
     sector: 'Sector 2',
@@ -140,6 +143,7 @@ Vânzarea integrală a 32 de unități confirmă că zona Morarilor-Pantelimon, 
   {
     numar: 80,
     slug: 'neofort-80-parcul-carol-unirii',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-80-parcul-carol-unirii.avif',
     nume: 'Neofort 80 Parcul Carol-Unirii',
     zona: 'Parcul Carol-Unirii',
     sector: 'Sector 5',
@@ -184,6 +188,7 @@ Livrarea cu succes a 96 de apartamente confirmă că Neofort IMO poate gestiona 
   {
     numar: 79,
     slug: 'neofort-79-popa-nan-calarasilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-79-popa-nan-calarasilor.avif',
     nume: 'Neofort 79 Popa Nan-Călărașilor',
     zona: 'Popa Nan-Călărașilor',
     sector: 'Sector 2',
@@ -231,6 +236,7 @@ Randamentul în chirie pentru garsonierele din această zonă se situa la 5,5-7%
   {
     numar: 77,
     slug: 'neofort-77-petricani',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-77-petricani.avif',
     nume: 'Neofort 77 Petricani',
     zona: 'Petricani-Plumbuita',
     sector: 'Sector 2',
@@ -278,6 +284,7 @@ Neofort 77 Petricani demonstrează că proiectele boutique cu vedere la apă și
   {
     numar: 75,
     slug: 'neofort-75-petricani-a3',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-75-petricani-a3.avif',
     nume: 'Neofort 75 Petricani-A3',
     zona: 'Andronache-Petricani',
     sector: 'Sector 2',
@@ -323,6 +330,7 @@ Vânzarea integrală a 23 de unități confirma că zona Andronache-Petricani, c
   {
     numar: 74,
     slug: 'neofort-74-sisesti-baneasa',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-74-sisesti-baneasa.avif',
     nume: 'Neofort 74 Șișești-Băneasa',
     zona: 'Șișești-Băneasa',
     sector: 'Sector 1',
@@ -370,6 +378,7 @@ Neofort 74 Șișești-Băneasa confirmă că proiectele de 9 unități, bine exe
   {
     numar: 73,
     slug: 'neofort-73-orhideea-metrou-grozavesti',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-73-orhideea-metrou-grozavesti.avif',
     nume: 'Neofort 73 Orhideea — Metrou Grozăvești',
     zona: 'Orhideea-Grozăvești',
     sector: 'Sector 6',
@@ -418,6 +427,7 @@ Vânzarea integrală a 121 de unități confirmă că zona Orhideea, combinând 
   {
     numar: 72,
     slug: 'neofort-72-fundeni-dobroesti',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-72-fundeni-dobroesti.avif',
     nume: 'Neofort 72 Fundeni — Dobroești',
     zona: 'Fundeni-Dobroești',
     sector: 'Sector 2',
@@ -467,6 +477,7 @@ Autobuzul 343 în proximitate imediată conectează zona la Metrou Pipera și la
   {
     numar: 71,
     slug: 'neofort-71-colentina-andronache',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-71-colentina-andronache.avif',
     nume: 'Neofort 71 Colentina — Andronache',
     zona: 'Colentina-Andronache',
     sector: 'Sector 2',
@@ -514,6 +525,7 @@ Amplasarea în zona de case din Colentina-Andronache oferă liniștea unui carti
   {
     numar: 70,
     slug: 'neofort-70-fundeni-dobroesti',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-70-fundeni-dobroesti.avif',
     nume: 'Neofort 70 Fundeni — Dobroești',
     zona: 'Fundeni-Dobroești',
     sector: 'Sector 2',
@@ -562,6 +574,7 @@ Autobuz 182 la 50m, Mega Image și Profi în proximitate, accesul spre Autostrad
   {
     numar: 69,
     slug: 'neofort-69-foisorul-de-foc-mosilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-69-foisorul-de-foc-mosilor.avif',
     nume: 'Neofort 69 Foișorul de Foc — Calea Moșilor',
     zona: 'Foișorul de Foc-Moșilor',
     sector: 'Sector 2',
@@ -607,6 +620,7 @@ Metrou Piața Obor la 580m — acces direct pe M2 spre Piața Universității î
   {
     numar: 68,
     slug: 'neofort-68-piata-1-mai-herastrau',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-68-piata-1-mai-herastrau.avif',
     nume: 'Neofort 68 Piața 1 Mai — Herăstrău',
     zona: 'Piața 1 Mai-Herăstrău',
     sector: 'Sector 1',
@@ -649,6 +663,7 @@ Parcul Regina Maria în proximitate imediată și Parcul Herăstrău la câteva 
   {
     numar: 67,
     slug: 'neofort-67-damaroaia-bucurestii-noi',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-67-damaroaia-bucurestii-noi.avif',
     nume: 'Neofort 67 Dămăroaia — Bucureștii Noi',
     zona: 'Dămăroaia-Bucureștii Noi',
     sector: 'Sector 1',
@@ -691,6 +706,7 @@ Metrou Bazilescu asigura accesul rapid spre centrul Bucureștiului. Parcul Bazil
   {
     numar: 66,
     slug: 'neofort-66-universitate-calea-mosilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-66-universitate-calea-mosilor.avif',
     nume: 'Neofort 66 Universitate — Calea Moșilor',
     zona: 'Universitate-Calea Moșilor',
     sector: 'Sector 2',
@@ -736,6 +752,7 @@ Metrou Universitate la 900m — 5 minute pe jos — spre Piața Victoriei în 2 
   {
     numar: 65,
     slug: 'neofort-65-ghica-tei-colentina',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-65-ghica-tei-colentina.avif',
     nume: 'Neofort 65 Ghica Tei — Colentina',
     zona: 'Ghica Tei-Colentina',
     sector: 'Sector 2',
@@ -778,6 +795,7 @@ Pasajul suprateran de la Doamna Ghica a facilitat accesul rapid spre zona de bus
   {
     numar: 64,
     slug: 'neofort-64-calusei-mosilor-obor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-64-calusei-mosilor-obor.avif',
     nume: 'Neofort 64 Călusei — Moșilor — Obor',
     zona: 'Foișorul de Foc-Moșilor',
     sector: 'Sector 2',
@@ -824,6 +842,7 @@ Metrou Piața Obor la 580m — accesul la M2 spre întregul București în câte
   {
     numar: 63,
     slug: 'neofort-63-fundeni-dobroesti',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-63-fundeni-dobroesti.avif',
     nume: 'Neofort 63 Fundeni — Dobroești',
     zona: 'Fundeni-Dobroești',
     sector: 'Sector 2',
@@ -876,6 +895,7 @@ export const ANSAMBLURI_PORTOFOLIU_N45_N62 = [
   {
     numar: 62,
     slug: 'neofort-62-militari-virtutii',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-62-militari-virtutii.avif',
     nume: 'Neofort 62 Militari — Șos. Virtutii',
     zona: 'Militari-Virtutii',
     sector: 'Sector 6',
@@ -926,6 +946,7 @@ Viitorul Pod Ciurel — unul dintre marile proiecte de infrastructură ale Capit
   {
     numar: 61,
     slug: 'neofort-61-popesti-leordeni-case',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-61-popesti-leordeni-case.avif',
     nume: 'Neofort 61 Popești-Leordeni — Case Duplex',
     zona: 'Popești-Leordeni',
     sector: 'Ilfov',
@@ -966,6 +987,7 @@ Amplasarea la intersecția arterei de la Piața Sudului cu ieșire directă pe A
   {
     numar: 60,
     slug: 'neofort-60-metrou-tineretului-nerva-traian',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-60-metrou-tineretului-nerva-traian.avif',
     nume: 'Neofort 60 Metrou Tineretului — Nerva Traian',
     zona: 'Tineretului-Nerva Traian',
     sector: 'Sector 3',
@@ -1013,6 +1035,7 @@ Metrou Timpuri Noi în imediata apropiere — acces pe M2 spre Piața Universit�
   {
     numar: 59,
     slug: 'neofort-59-mihai-bravu-tineretului',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-59-mihai-bravu-tineretului.avif',
     nume: 'Neofort 59 Mihai Bravu — Tineretului',
     zona: 'Mihai Bravu-Tineretului',
     sector: 'Sector 3',
@@ -1067,6 +1090,7 @@ Metrou Mihai Bravu la 5 minute pe jos și Metrou Tineretului la 7 minute — dou
   {
     numar: 58,
     slug: 'neofort-58-matei-basarab-calarasilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-58-matei-basarab-calarasilor.avif',
     nume: 'Neofort 58 Matei Basarab — Calea Călărașilor',
     zona: 'Matei Basarab-Calea Călărașilor',
     sector: 'Sector 3',
@@ -1116,6 +1140,7 @@ Metrou Piața Muncii și Metrou Piața Unirii accesibile rapid. Bulevardul Deceb
   {
     numar: 57,
     slug: 'neofort-57-tepes-voda-popa-nan-traian',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-57-tepes-voda-popa-nan-traian.avif',
     nume: 'Neofort 57 Tepeș Vodă — Popa Nan — Traian',
     zona: 'Tepeș Vodă-Traian',
     sector: 'Sector 2',
@@ -1161,6 +1186,7 @@ Zona Tepeș Vodă-Traian-Popa Nan combină caracterul rezidențial liniștit de 
   {
     numar: 55,
     slug: 'neofort-55-aviatiei-baneasa',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-55-aviatiei-baneasa.avif',
     nume: 'Neofort 55 Aviației — Băneasa',
     zona: 'Aviației-Băneasa',
     sector: 'Sector 1',
@@ -1215,6 +1241,7 @@ Zona Aviației-Băneasa este una dintre ariile rezidențiale cele mai apreciate 
   {
     numar: 54,
     slug: 'neofort-54-vitan-mihai-bravu',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-54-vitan-mihai-bravu.avif',
     nume: 'Neofort 54 Vitan — Mihai Bravu',
     zona: 'Vitan-Mihai Bravu',
     sector: 'Sector 3',
@@ -1260,6 +1287,7 @@ Dimensiunea compactă de 14 unități pe 4 etaje cu 3 apartamente pe nivel a asi
   {
     numar: 53,
     slug: 'neofort-53-unirii-carol',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-53-unirii-carol.avif',
     nume: 'Neofort 53 Unirii — Camera de Comerț',
     zona: 'Unirii-Camera de Comerț',
     sector: 'Sector 4',
@@ -1309,6 +1337,7 @@ Parcul Tineretului la 900m pietonal — unul dintre cele mai mari și mai comple
   {
     numar: 52,
     slug: 'neofort-52-calarasilor-hyperion',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-52-calarasilor-hyperion.avif',
     nume: 'Neofort 52 Calea Călărașilor — Hyperion',
     zona: 'Calea Călărașilor-Hyperion',
     sector: 'Sector 3',
@@ -1349,6 +1378,7 @@ Investitorii care au achiziționat garsoniere și apartamente de 2 camere în Ne
   {
     numar: 51,
     slug: 'neofort-51-dristor-metrou',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-51-dristor-metrou.avif',
     nume: 'Neofort 51 Dristor — Metrou Dristor',
     zona: 'Dristor-Baba Novac',
     sector: 'Sector 3',
@@ -1393,6 +1423,7 @@ Metrou Dristor 1 la 3 minute pe jos — M2 spre Piața Universității în 5 min
   {
     numar: 48,
     slug: 'neofort-48-bucurestii-noi-metrou-jiului',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-48-bucurestii-noi-metrou-jiului.avif',
     nume: 'Neofort 48 Bucureștii Noi — Metrou Jiului',
     zona: 'Bucureștii Noi-Jiului',
     sector: 'Sector 1',
@@ -1438,6 +1469,7 @@ Metrou Jiului (M4) și Metrou Bazilescu asigurau accesul rapid la centrul Capita
   {
     numar: 47,
     slug: 'neofort-47-aviatiei-baneasa-boutique',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-47-aviatiei-baneasa-boutique.avif',
     nume: 'Neofort 47 Aviației — Băneasa Boutique',
     zona: 'Aviației-Băneasa',
     sector: 'Sector 1',
@@ -1480,6 +1512,7 @@ Zona Aviației-Băneasa concentrează cele mai valoroase adrese rezidențiale ș
   {
     numar: 46,
     slug: 'neofort-46-lacul-tei-parcul-tei',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-46-lacul-tei-parcul-tei.avif',
     nume: 'Neofort 46 Lacul Tei — Parcul Tei',
     zona: 'Lacul Tei-Parcul Tei',
     sector: 'Sector 2',
@@ -1528,6 +1561,7 @@ Lacul Tei și Parcul Tei în zonă pentru recreere zilnică. Metrou Ștefan cel 
   {
     numar: 45,
     slug: 'neofort-45-constantin-brancoveanu',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-45-constantin-brancoveanu.avif',
     nume: 'Neofort 45 Constantin Brâncoveanu',
     zona: 'Constantin Brâncoveanu',
     sector: 'Sector 4',
@@ -1572,6 +1606,7 @@ Metrou Constantin Brâncoveanu (M2) în față. Mall Grand Arena și zona comerc
   {
     numar: 43,
     slug: 'neofort-43-voluntari-pipera',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-43-voluntari-pipera.avif',
     nume: 'Neofort 43 Voluntari — Pipera',
     zona: 'Voluntari-Pipera',
     sector: 'Voluntari, Ilfov',
@@ -1613,6 +1648,7 @@ Proximitatea A3 asigura acces rapid la centrul Bucurestiului (25-30 minute in tr
   {
     numar: 41,
     slug: 'neofort-41-doamna-ghica',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-41-doamna-ghica.avif',
     nume: 'Neofort 41 Doamna Ghica',
     zona: 'Doamna Ghica-Colentina',
     sector: 'Sector 2',
@@ -1663,6 +1699,7 @@ Parcul Plumbuita la 800 m pe jos — spatiu verde urban rar in zona Colentina. S
   {
     numar: 40,
     slug: 'neofort-40-mihai-bravu-vile',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-40-mihai-bravu-vile.avif',
     nume: 'Neofort 40 Mihai Bravu — Complex Vile',
     zona: 'Mihai Bravu',
     sector: 'Sector 3',
@@ -1703,6 +1740,7 @@ Metrou Mihai Bravu (M2) la 300 m — acces la Piata Unirii in 8 minute, Piata Vi
   {
     numar: 39,
     slug: 'neofort-39-foisorul-de-foc-mosilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-39-foisorul-de-foc-mosilor.avif',
     nume: 'Neofort 39 Foisorul de Foc — Mosilor',
     zona: 'Foisorul de Foc-Mosilor',
     sector: 'Sector 2',
@@ -1747,6 +1785,7 @@ Metrou Piata Obor la 10 minute pe jos. Zona Dacia-Dorobanti-Floreasca la 10 minu
   {
     numar: 38,
     slug: 'neofort-38-vitan-mall-brandusilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-38-vitan-mall-brandusilor.avif',
     nume: 'Neofort 38 Mall Vitan — Brandusilor',
     zona: 'Mall Vitan-Foisorului',
     sector: 'Sector 3',
@@ -1791,6 +1830,7 @@ La 2 km de Piata Unirii, la 700m de Metrou Mihai Bravu, in imediata vecinatate a
   {
     numar: 37,
     slug: 'neofort-37-vitan-foisorului',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-37-vitan-foisorului.avif',
     nume: 'Neofort 37 Vitan — Foisorului',
     zona: 'Vitan-Foisorului',
     sector: 'Sector 3',
@@ -1830,6 +1870,7 @@ Pozitionat in imediata apropiere a Complexului Comercial Vitan Mall si la cateva
   {
     numar: 36,
     slug: 'neofort-36-mosilor-precupetii-vechi',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-36-mosilor-precupetii-vechi.avif',
     nume: 'Neofort 36 Mosilor — Precupetii Vechi',
     zona: 'Mosilor-Eminescu',
     sector: 'Sector 2',
@@ -1879,6 +1920,7 @@ Metrou Piata Obor la 500 m. Zona Dacia-Dorobanti la 10 minute pe jos. Piata Vict
   {
     numar: 35,
     slug: 'neofort-35-matei-voievod-calarasilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-35-matei-voievod-calarasilor.avif',
     nume: 'Neofort 35 Matei Voievod — Calea Calarasilor',
     zona: 'Matei Voievod-Calea Calarasilor',
     sector: 'Sector 2',
@@ -1922,6 +1964,7 @@ Parcul National (Parcul Unirii) la 350m. Metrou Dristor 2 la 7 minute pe jos. Me
   {
     numar: 34,
     slug: 'neofort-34-unirii-udriste',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-34-unirii-udriste.avif',
     nume: 'Neofort 34 Unirii — Udriste',
     zona: 'Unirii-Udriste',
     sector: 'Sector 3',
@@ -1966,6 +2009,7 @@ Metrou Timpuri Noi la 400m. Metrou Unirii la 10 minute pe jos. Parcul Carol la 4
   {
     numar: 32,
     slug: 'neofort-32-unirii-parcul-carol',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-32-unirii-parcul-carol.avif',
     nume: 'Neofort 32 Unirii — Parcul Carol',
     zona: 'Unirii-Tineretului',
     sector: 'Sector 4',
@@ -2008,6 +2052,7 @@ Metrou Tineretului (M2) la 350m — acces rapid la Piata Unirii (3 statii), Piat
   {
     numar: 31,
     slug: 'neofort-31-dobroesti-lac',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-31-dobroesti-lac.avif',
     nume: 'Neofort 31 Dobroesti — Lac',
     zona: 'Dobroesti-Fundeni',
     sector: 'Sector 2 / Ilfov',
@@ -2049,6 +2094,7 @@ Apartamentele de la parter au gradini proprii. Toate unitatile au balcon sau gra
   {
     numar: 30,
     slug: 'neofort-30-dristor-metrou',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-30-dristor-metrou.avif',
     nume: 'Neofort 30 Dristor — Metrou',
     zona: 'Dristor',
     sector: 'Sector 3',
@@ -2096,6 +2142,7 @@ De la Metrou Dristor 2 ai acces pe M2 direct la Piata Unirii (4 statii, 7 minute
   {
     numar: 29,
     slug: 'neofort-29-mosilor-foisorul-de-foc',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-29-mosilor-foisorul-de-foc.avif',
     nume: 'Neofort 29 Mosilor — Foisorul de Foc',
     zona: 'Mosilor-Foisorul de Foc',
     sector: 'Sector 2',
@@ -2139,6 +2186,7 @@ Finalizat in doua etape: Corp B in martie 2019, Corp A in august 2019. Zona Cale
   {
     numar: 27,
     slug: 'neofort-27-stefan-cel-mare-lizeanu',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-27-stefan-cel-mare-lizeanu.avif',
     nume: 'Neofort 27 Stefan cel Mare — Lizeanu',
     zona: 'Stefan cel Mare-Lizeanu',
     sector: 'Sector 2',
@@ -2183,6 +2231,7 @@ Metrou Piata Obor (M2) la 400m pe jos — acces direct la centrul Capitalei, la 
   {
     numar: 26,
     slug: 'neofort-26-pantelimon-vile',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-26-pantelimon-vile.avif',
     nume: 'Neofort 26 Pantelimon — Vile Individuale',
     zona: 'Pantelimon',
     sector: 'Pantelimon, Ilfov',
@@ -2219,6 +2268,7 @@ STB R454 cu acces direct la Metrou Pantelimon (M2). Mega Mall Pantelimon la 3 mi
   {
     numar: 25,
     slug: 'neofort-25-decebal-piata-muncii',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-25-decebal-piata-muncii.avif',
     nume: 'Neofort 25 Decebal — Piata Muncii',
     zona: 'Decebal-Piata Muncii',
     sector: 'Sector 3',
@@ -2268,6 +2318,7 @@ De la Metrou Piata Muncii (M3) ai acces direct la Piata Unirii (3 statii), la Po
   {
     numar: 24,
     slug: 'neofort-24-agricultori-calarasilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-24-agricultori-calarasilor.avif',
     nume: 'Neofort 24 Agricultori — Calea Calarasilor',
     zona: 'Agricultori-Calea Calarasilor',
     sector: 'Sector 3',
@@ -2311,6 +2362,7 @@ La 5 minute cu masina de Piata Unirii, la 4 minute de Metrou Piata Muncii, la 3 
   {
     numar: 23,
     slug: 'neofort-23-13-septembrie-sirenelor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-23-13-septembrie-sirenelor.avif',
     nume: 'Neofort 23 13 Septembrie — Sirenelor',
     zona: '13 Septembrie-Catedrala Neamului',
     sector: 'Sector 5',
@@ -2352,6 +2404,7 @@ Metrou Izvor (M2) la 350m pe jos — 8 minute pana la Piata Unirii, 12 minute pa
   {
     numar: 22,
     slug: 'neofort-22-alba-iulia-decebal',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-22-alba-iulia-decebal.avif',
     nume: 'Neofort 22 Alba Iulia — Decebal',
     zona: 'Alba Iulia-Decebal',
     sector: 'Sector 3',
@@ -2396,6 +2449,7 @@ Parcul National (23 August) la 200m — acces zilnic la 25 hectare de spatiu ver
   {
     numar: 21,
     slug: 'neofort-21-pache-protopopescu',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-21-pache-protopopescu.avif',
     nume: 'Neofort 21 Pache Protopopescu',
     zona: 'Pache Protopopescu',
     sector: 'Sector 2',
@@ -2438,6 +2492,7 @@ Constructie Porotherm fara rigips: cadre beton armat, plansee 15cm plus polistir
   {
     numar: 20,
     slug: 'neofort-20-mosilor-eminescu-faza-ii',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-20-mosilor-eminescu-faza-ii.avif',
     nume: 'Neofort 20 Mosilor — Eminescu Faza II',
     zona: 'Mosilor-Eminescu',
     sector: 'Sector 2',
@@ -2486,6 +2541,7 @@ Construit din fonduri proprii fara creditare bancara — un angajament constant 
   {
     numar: 19,
     slug: 'neofort-19-parcul-carol-viilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-19-parcul-carol-viilor.avif',
     nume: 'Neofort 19 Parcul Carol — Viilor',
     zona: 'Parcul Carol-Viilor',
     sector: 'Sector 4',
@@ -2530,6 +2586,7 @@ Rezervare cu suma fixa de 2.000€ indiferent de tipul apartamentului — un ara
   {
     numar: 18,
     slug: 'neofort-18-traian-popa-nan',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-18-traian-popa-nan.avif',
     nume: 'Neofort 18 Traian — Popa Nan',
     zona: 'Traian-Popa Nan',
     sector: 'Sector 2',
@@ -2570,6 +2627,7 @@ Universitatea Hyperion la 400m — o vecinatate valoroasa pentru proprietarii ca
   {
     numar: 17,
     slug: 'neofort-17-calea-calarasilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-17-calea-calarasilor.avif',
     nume: 'Neofort 17 Calea Calarasilor',
     zona: 'Calea Calarasilor',
     sector: 'Sector 2',
@@ -2613,6 +2671,7 @@ Dotari de calitate: centrala Wessmann cu senzori gaz, calorifere aluminiu, baie 
   {
     numar: 16,
     slug: 'neofort-16-decebal-zepter',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-16-decebal-zepter.avif',
     nume: 'Neofort 16 Decebal — Zepter',
     zona: 'Decebal-Alba Iulia',
     sector: 'Sector 3',
@@ -2656,6 +2715,7 @@ Metrou Piata Muncii (M3) la 250m — acces direct la Piata Unirii (2 statii), Pi
   {
     numar: 15,
     slug: 'neofort-15-bucur-obor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-15-bucur-obor.avif',
     nume: 'Neofort 15 Bucur Obor',
     zona: 'Bucur Obor-Avrig',
     sector: 'Sector 2',
@@ -2697,6 +2757,7 @@ Piata Obor la 350m — accesul rapid la toate liniile RATB din zona (335, 66, 34
   {
     numar: 14,
     slug: 'neofort-14-vitan-mall-calea-vitan',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-14-vitan-mall-calea-vitan.avif',
     nume: 'Neofort 14 Mall Vitan — Calea Vitan',
     zona: 'Mall Vitan-Calea Vitan',
     sector: 'Sector 3',
@@ -2738,6 +2799,7 @@ Localizare de exceptie: in imediata apropiere a Mall Vitan (cel mai mare mall al
   {
     numar: 13,
     slug: 'neofort-13-barbu-vacarescu-lacul-tei',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-13-barbu-vacarescu-lacul-tei.avif',
     nume: 'Neofort 13 Barbu Vacarescu — Lacul Tei',
     zona: 'Barbu Vacarescu-Lacul Tei',
     sector: 'Sector 2',
@@ -2785,6 +2847,7 @@ Lacul Tei la 50m — plimbare de seara, sport, natura in inima orasului. Colegiu
   {
     numar: 12,
     slug: 'neofort-12-dristor-metrou',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-12-dristor-metrou.avif',
     nume: 'Neofort 12 Dristor — Metrou',
     zona: 'Dristor',
     sector: 'Sector 3',
@@ -2829,6 +2892,7 @@ Metrou Dristor 1 (M2) la 150m — cel mai bun raport distanta-metrou din seria D
   {
     numar: 10,
     slug: 'neofort-10-dobroesti-fundeni',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-10-dobroesti-fundeni.avif',
     nume: 'Neofort 10 Dobroesti — Fundeni',
     zona: 'Dobroesti-Fundeni',
     sector: 'Sector 2 / Ilfov',
@@ -2874,6 +2938,7 @@ Spitalul Clinic Fundeni la 300m — un avantaj major pentru familii cu nevoi med
   {
     numar: 9,
     slug: 'neofort-9-dacia-sector2',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-9-dacia-sector2.avif',
     nume: 'Neofort 9 Dacia',
     zona: 'Dacia-Mosilor',
     sector: 'Sector 2',
@@ -2914,6 +2979,7 @@ Zona Dacia — una dintre adresele cele mai apreciate ale Sectorului 2, cu viata
   {
     numar: 7,
     slug: 'neofort-7-decebal-delea-noua',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-7-decebal-delea-noua.avif',
     nume: 'Neofort 7 Decebal — Delea Noua',
     zona: 'Decebal-Delea Noua',
     sector: 'Sector 3',
@@ -2956,6 +3022,7 @@ La 200m de Metrou Piata Muncii — accesul direct la centrul Capitalei, Piata Un
   {
     numar: 6,
     slug: 'neofort-6-bucurestii-noi',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-6-bucurestii-noi.avif',
     nume: 'Neofort 6 Bucurestii Noi — Laminorului',
     zona: 'Bucurestii Noi-Laminorului',
     sector: 'Sector 1',
@@ -2997,6 +3064,7 @@ Zona Bucurestii Noi a cunoscut o dezvoltare rapida dupa 2015. Metrou Jiului la 5
   {
     numar: 5,
     slug: 'neofort-5-calarasilor-decebal',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-5-calarasilor-decebal.avif',
     nume: 'Neofort 5 Calarasilor — Decebal',
     zona: 'Calea Calarasilor-Decebal',
     sector: 'Sector 2',
@@ -3039,6 +3107,7 @@ Parcul National la 7 minute pe jos. Mall Vitan la 8 minute pe jos. Zona Calea Ca
   {
     numar: 4,
     slug: 'neofort-4-pipera-tunari',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-4-pipera-tunari.avif',
     nume: 'Neofort 4 Pipera — Tunari',
     zona: 'Pipera-Tunari',
     sector: 'Ilfov',
@@ -3075,6 +3144,7 @@ Zona Pipera-Tunari: birourile corporatilor, expatii, companiile internationale. 
   {
     numar: 3,
     slug: 'neofort-3-ferdinand-iancului',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-3-ferdinand-iancului.avif',
     nume: 'Neofort 3 Ferdinand — Iancului',
     zona: 'Ferdinand-Iancului',
     sector: 'Sector 2',
@@ -3117,6 +3187,7 @@ Metrou Piata Iancului la 4 minute cu masina. Transport STB autobuze 133, 135 si 
   {
     numar: 2,
     slug: 'neofort-2-andronache-colentina',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-2-andronache-colentina.avif',
     nume: 'Neofort 2 Andronache — Colentina',
     zona: 'Andronache-Colentina',
     sector: 'Sector 2',
@@ -3164,6 +3235,7 @@ Penthouse-ul de la etajul 4 cu 2 terase pe 2 nivele — terasa inferioara extens
   {
     numar: 1,
     slug: 'neofort-1-calea-calarasilor',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-1-calea-calarasilor.avif',
     nume: 'Neofort 1 Calea Calarasilor',
     zona: 'Calea Calarasilor-Delea Veche',
     sector: 'Sector 2',

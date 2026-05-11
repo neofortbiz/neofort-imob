@@ -132,6 +132,17 @@ export default function PortofoliuAnsambluPage({ params }) {
           </div>
         </section>
 
+        {/* POZA PROIECT */}
+        {a.cover && (
+          <div className="max-w-5xl mx-auto px-6 pt-8">
+            <div className="rounded-xl overflow-hidden" style={{ aspectRatio: '16/9' }}>
+              <img src={a.cover} alt={`${a.nume} - apartamente noi București`}
+                className="w-full h-full object-cover"
+                loading="eager" />
+            </div>
+          </div>
+        )}
+
         <div className="max-w-5xl mx-auto px-6 py-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
