@@ -184,7 +184,7 @@ Din perspectiva consultanților noștri care discută zilnic cu cumpărători: E
 Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțeleagă impactul E-Proprietatea specific apartamentelor pe care le achiziționează. Sună-ne la 0758 090 904.`,
       },
     ],
-  },,
+  },
 
   'preturi-apartamente-bucuresti-2026': {
     titlu: `Prețurile Apartamentelor din București în 2026: Scad sau Nu? Analiză cu Date Reale`,
@@ -356,7 +356,7 @@ Am văzut zeci de oameni așteptând prăbușirea pieței din 2020, din 2022, di
 Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții Neofort IMO oferă consiliere gratuită, fără angajamente. Sună la 0758 090 904.`,
       },
     ],
-  },,
+  },
 
   'tva-apartamente-noi-2026': {
     titlu: `TVA la Apartamente Noi în 2026: Cât Plătești și Cum Eviți Surprizele Fiscale`,
@@ -524,7 +524,7 @@ Dacă nu ești sigur ce cotă TVA se aplică în cazul tău:
 TVA este o parte importantă a costului total, dar nu singurul factor în decizia de cumpărare. Cu prețuri corecte, locație bună și un dezvoltator de încredere cu 17 ani de livrări în spate, investiția rămâne solidă pe termen lung chiar și la TVA 21%.`,
       },
     ],
-  },,
+  },
 
   'titan-pallady-cea-mai-cautata-zona': {
     titlu: `Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă Rezidențială din București`,
@@ -672,7 +672,7 @@ Sfatul meu: dacă bugetul permite, cumpărați în raza de 10 minute mers pe jos
 Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Sună la 0758 090 904 și te ajutăm să alegi locul exact potrivit pentru bugetul tău.`,
       },
     ],
-  },,
+  },
 
   'noua-casa-2026-ghid-complet': {
     titlu: `Programul Noua Casă 2026: Ghid Complet — Condiții, Bănci, Avans și Ce Apartamente Se Califică`,
@@ -827,7 +827,7 @@ Durata totală realistă: 6–10 săptămâni de la primul contact cu banca pân
 5. Verifică cu Neofort IMO — consultanții noștri știu exact care dintre proiectele active se califică pentru Noua Casă și pot coordona direct cu băncile partenere. Serviciu gratuit, fără comision. Sună la 0758 090 904.`,
       },
     ],
-  },,
+  },
 
   'cumparare-apartament-din-diaspora': {
     titlu: `Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas Fără să Vii în Țară`,
@@ -1017,7 +1017,7 @@ Nu ignorați costurile de după. Mobilarea și echiparea unui apartament de 2 ca
 Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. Consultanța este gratuită și fără obligații.`,
       },
     ],
-  },,
+  },
 
   'apartament-nou-vs-vechi-calcul-real': {
     titlu: `Apartament Nou vs. Apartament Vechi în București: Calculul Real al Costurilor Totale`,
@@ -1185,7 +1185,7 @@ Rezumând: dacă bugetul permite și zona cu apartamente noi corespunde criterii
 Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătăm opțiunile disponibile în bugetul tău și facem calculul comparativ împreună.`,
       },
     ],
-  },,
+  },
 
   'predare-la-cheie-ce-inseamna': {
     titlu: `Predare la Cheie la Apartamente Noi: Ce Trebuie să Conțină și Ce să Verifici`,
@@ -1388,7 +1388,7 @@ Locul de parcare: la fiecare proiect există opțiunea de achiziție parcare (ex
 Dacă ai întrebări despre specificațiile unui proiect specific, consultanții noștri sunt disponibili la 0758 090 904.`,
       },
     ],
-  },,
+  },
 
   'randament-inchiriere-zone-bucuresti': {
     titlu: `Randament la Închiriere pe Zone din București în 2026: Unde Investești Cel Mai Bine`,
