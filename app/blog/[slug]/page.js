@@ -1814,7 +1814,6 @@ Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sun
       },
     ],
   },
-},
 }
 
 const ARTICOLE_LIST = [
