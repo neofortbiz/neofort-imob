@@ -7,7 +7,8 @@ import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
 const STATUS_CFG = {
   constructie: { label: 'În construcție', bg: '#e3f2fd', color: '#1565c0' },
   activ:        { label: 'Finalizat',      bg: '#e8f5e9', color: '#2d7a3a' },
-  promotie:     { label: 'Promoție',       bg: '#fdecea', color: '#c0392b' },
+  promotie:     { label: 'Promoție',       bg: '#fff3e0', color: '#c8922a' },
+  vandut:        { label: 'Vândut',         bg: '#fff7ed', color: '#c2410c' },
 }
 const SECTOARE = ['Toate', 'Sector 2', 'Sector 3', 'Sector 6']
 const STATUSURI = ['Toate', 'constructie', 'activ', 'promotie']
@@ -188,7 +189,7 @@ export default function AnsambluriClient() {
                     className="group bg-white rounded-xl border border-gray-300 overflow-hidden hover:shadow-md transition-all hover:border-gray-500">
                     <div className="relative bg-gray-100 overflow-hidden" style={{ aspectRatio: '16/9' }}>
                       {a.imagini?.cover ? (
-                        <Image src={a.imagini.cover} alt={a.nume} fill sizes="(max-width:768px) 100vw, 400px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <img src={a.imagini.cover} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center">
                           <span className="text-xs text-gray-400">Foto</span>

@@ -335,7 +335,7 @@ export default function AnsambluPage({ params }) {
                     <Link key={s.slug} href={`/ansamblu-rezidential/${s.slug}`} className="border border-gray-100 rounded-xl overflow-hidden hover:border-gray-200 hover:shadow-sm transition-all group">
                       <div className="h-28 bg-gray-100 relative overflow-hidden">
                         {s.imagini?.cover ? (
-                          <Image src={s.imagini.cover} alt={s.nume} fill sizes="220px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                          <img src={s.imagini.cover} alt={s.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" />
                         ) : (
                           <div className="absolute inset-0 bg-gray-100" />
                         )}

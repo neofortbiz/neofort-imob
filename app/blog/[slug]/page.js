@@ -1945,7 +1945,7 @@ export default function ArticolPage({ params }) {
                 <div className="flex items-center gap-3">
                   {autor?.foto && (
                     <div className="relative w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
-                      <Image src={autor.foto} alt={autor.nume} fill className="object-cover" />
+                      <img src={autor.foto} alt={autor.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                     </div>
                   )}
                   <div>
@@ -2037,7 +2037,7 @@ export default function ArticolPage({ params }) {
                   <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4">Despre autor</p>
                   <div className="flex gap-4">
                     <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0 bg-gray-200">
-                      <Image src={autor.foto} alt={autor.nume} fill className="object-cover" />
+                      <img src={autor.foto} alt={autor.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                     </div>
                     <div>
                       <p className="text-base font-bold text-gray-900">{autor.nume}</p>
@@ -2055,7 +2055,7 @@ export default function ArticolPage({ params }) {
                   {altele.map(alt => (
                     <Link key={alt.slug} href={`/blog/${alt.slug}`} className="flex gap-3 group">
                       <div className="relative w-16 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100">
-                        {alt.image && <Image src={alt.image} alt={alt.titlu} fill className="object-cover" />}
+                        {alt.image && <img src={alt.image} alt={alt.titlu} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />}
                       </div>
                       <div>
                         <p className="text-xs font-medium text-gray-800 group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{alt.titlu}</p>
@@ -2093,7 +2093,7 @@ export default function ArticolPage({ params }) {
                   <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Autor</p>
                   <div className="flex gap-3 mb-3">
                     <div className="relative w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-gray-200">
-                      <Image src={autor.foto} alt={autor.nume} fill className="object-cover" />
+                      <img src={autor.foto} alt={autor.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                     </div>
                     <div>
                       <p className="text-sm font-bold text-gray-900">{autor.nume}</p>
@@ -2127,7 +2127,7 @@ export default function ArticolPage({ params }) {
                   {altele.map(alt => (
                     <Link key={alt.slug} href={`/blog/${alt.slug}`} className="flex gap-3 group">
                       <div className="relative w-16 h-11 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100">
-                        {alt.image && <Image src={alt.image} alt={alt.titlu} fill className="object-cover" />}
+                        {alt.image && <img src={alt.image} alt={alt.titlu} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />}
                       </div>
                       <div>
                         <span className="text-[9px] font-semibold px-1.5 py-0.5 rounded text-white" style={{ background: alt.tagColor }}>{alt.tag}</span>

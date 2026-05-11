@@ -204,7 +204,7 @@ export default function BlogPage() {
                     <p className="text-gray-500 text-sm mb-3 leading-relaxed">{FEATURED.rezumat}</p>
                     <div className="flex items-center gap-3 text-xs text-gray-400">
                       <div className="relative w-6 h-6 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
-                        <Image src={AUTORI[FEATURED.autorSlug]?.foto || '/logo.avif'} alt={FEATURED.autor} fill className="object-cover" />
+                        <img src={AUTORI[FEATURED.autorSlug]?.foto || '/logo.avif'} alt={FEATURED.autor} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                       </div>
                       <span className="font-medium text-gray-700">{FEATURED.autor}</span>
                       <span>·</span>
@@ -234,7 +234,7 @@ export default function BlogPage() {
                         <p className="text-xs text-gray-500 leading-relaxed mb-3 line-clamp-2">{a.rezumat}</p>
                         <div className="flex items-center gap-2 text-[10px] text-gray-400">
                           <div className="relative w-5 h-5 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
-                            <Image src={autor?.foto || '/logo.avif'} alt={a.autor} fill className="object-cover" />
+                            <img src={autor?.foto || '/logo.avif'} alt={a.autor} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                           </div>
                           <span className="font-medium text-gray-600">{a.autor}</span>
                           <span>·</span>
@@ -255,7 +255,7 @@ export default function BlogPage() {
                   {Object.values(AUTORI).map(a => (
                     <div key={a.nume} className="flex gap-3">
                       <div className="relative w-12 h-12 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
-                        <Image src={a.foto} alt={a.nume} fill className="object-cover" />
+                        <img src={a.foto} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                       </div>
                       <div>
                         <p className="text-xs font-semibold text-gray-900">{a.nume}</p>
@@ -271,7 +271,7 @@ export default function BlogPage() {
             <aside className="space-y-5"><div className="sticky space-y-5" style={{ top: '96px' }}>
               <div className="border border-gray-200 rounded-xl p-5">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="relative w-10 h-10 flex-shrink-0"><Image src="/logo.avif" alt="Neofort IMO" fill className="object-contain" /></div>
+                  <div className="relative w-10 h-10 flex-shrink-0"><img src="/logo.avif" alt="Neofort IMO" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "contain" }} loading="lazy" /></div>
                   <div>
                     <p className="text-sm font-semibold text-gray-900">Neofort IMO</p>
                     <p className="text-[10px] text-gray-400">Blog oficial · Din 2009</p>
@@ -306,7 +306,7 @@ export default function BlogPage() {
                       </div>
                       <div>
                         <p className="text-[11px] text-gray-700 font-medium leading-tight group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{a.titlu}</p>
-                        <p className="text-[10px] text-gray-400 mt-0.5">{a.data}</p>
+                        <p className="text-[10px] text-gray-500 mt-0.5">{a.data}</p>
                       </div>
                     </Link>
                   ))}

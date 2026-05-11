@@ -57,7 +57,7 @@ export default function Footer() {
               { href: '/ansambluri-rezidentiale?status=promotie', label: 'Promoție' },
               { href: '/harta-ansambluri', label: 'Hartă' },
             ].map(l => (
-              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
+              <Link key={l.href} href={l.href} className="block text-xs py-1 mb-0.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}
               </Link>
             ))}
@@ -94,7 +94,7 @@ export default function Footer() {
                   .map(([z]) => ({ href: `/zona/${z}`, label: label(z) }))
               })(),
             ].map(l => (
-              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
+              <Link key={l.href} href={l.href} className="block text-xs py-1 mb-0.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}
               </Link>
             ))}
@@ -110,7 +110,7 @@ export default function Footer() {
               { href: '/contact', label: 'Contact' },
               { href: '/gdpr', label: 'Politica GDPR' },
             ].map(l => (
-              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
+              <Link key={l.href} href={l.href} className="block text-xs py-1 mb-0.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}
               </Link>
             ))}

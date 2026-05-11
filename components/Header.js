@@ -88,7 +88,7 @@ export default function Header({ activePath = '/' }) {
       {/* DESKTOP */}
       <div className="hidden md:flex items-center max-w-7xl mx-auto px-6 h-[82px] gap-6">
         <Link href="/" className="flex-shrink-0">
-          <img src="/logo.avif" alt="Neofort IMO — Imobiliare București" className="h-[63px] w-auto" />
+          <img src="/logo.avif" alt="Neofort IMO — Imobiliare București" className="h-[63px] w-auto" width="92" height="63" />
         </Link>
         <nav className="flex-1 flex items-center justify-center overflow-x-auto nav-scroll">
           {NAV_LINKS.map(link => (
@@ -109,7 +109,7 @@ export default function Header({ activePath = '/' }) {
       <div className="md:hidden">
         <div className="px-4 h-16 flex items-center justify-between">
           <Link href="/" className="flex-shrink-0">
-            <img src="/logo.avif" alt="Neofort IMO — Imobiliare București" className="h-14 w-auto" />
+            <img src="/logo.avif" alt="Neofort IMO — Imobiliare București" className="h-14 w-auto" width="81" height="56" />
           </Link>
           <div className="flex items-center gap-2">
             <a href={`tel:${contact.tel}`}
