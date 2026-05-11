@@ -54,8 +54,6 @@ const AUTORI = {
 
 const ARTICOLE = {
 
-,
-
   'e-proprietatea-2026-noul-sistem-de-impozitare': {
     titlu: 'E-Proprietatea 2026: Tot ce Trebuie să Știi Despre Noul Sistem de Impozitare Imobiliară',
     tag: 'Legislație', tagColor: '#7c3aed',
