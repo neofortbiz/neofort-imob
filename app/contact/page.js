@@ -11,9 +11,35 @@ export const metadata = {
   twitter: { card: 'summary_large_image', images: ['https://www.neofort.ro/og-contact.jpg'] },
 }
 
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': ['LocalBusiness', 'RealEstateAgent'],
+  '@id': `${BASE}/#localbusiness`,
+  name: 'Neofort IMO',
+  url: BASE,
+  telephone: '+40758090904',
+  email: 'info@neofort-biz.ro',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Str. Theodor Aman Pictor nr. 11',
+    addressLocality: 'București',
+    addressRegion: 'Sector 1',
+    postalCode: '010776',
+    addressCountry: 'RO',
+  },
+  geo: { '@type': 'GeoCoordinates', latitude: 44.4474, longitude: 26.0935 },
+  openingHoursSpecification: [
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '10:00', closes: '18:00' },
+    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday','Sunday'], opens: '00:00', closes: '00:00' },
+  ],
+  legalName: 'Neofort IMO SRL',
+  vatID: 'RO53874087',
+}
+
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <Header activePath="/contact" />
       <main>
 

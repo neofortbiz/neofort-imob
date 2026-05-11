@@ -6,7 +6,10 @@ const BASE = 'https://www.neofort.ro'
 export const metadata = {
   metadataBase: new URL(BASE),
   icons: {
-    icon: '/logo.avif',
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+      { url: '/logo.avif' },
+    ],
     apple: '/logo.avif',
   },
   title: {

@@ -77,7 +77,7 @@ export default function AnsambluPage({ params }) {
     name: a.nume,
     description: a.descriereCompleta || a.descriere,
     url: `${BASE}/ansamblu-rezidential/${a.slug}`,
-    image: `${BASE}/logo.avif`,
+    image: a.imagini?.cover ? `${BASE}${a.imagini.cover}` : `${BASE}/og-ansambluri/neo-${a.numar}.jpg`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'București',

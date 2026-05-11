@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 import AnsambluriClient from './AnsambluriClient'
+import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -21,9 +22,27 @@ export const metadata = {
   },
 }
 
+function getItemListSchema(BASE) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Ansambluri Rezidențiale Active Neofort IMO',
+    description: 'Lista completă a ansamblurilor rezidențiale disponibile la vânzare în București',
+    url: `${BASE}/ansambluri-rezidentiale`,
+    numberOfItems: ANSAMBLURI_ACTIVE.length,
+    itemListElement: ANSAMBLURI_ACTIVE.map((a, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: a.nume,
+      url: `${BASE}/ansamblu-rezidential/${a.slug}`,
+    })),
+  }
+}
+
 export default function AnsambluriPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getItemListSchema('https://www.neofort.ro')) }} />
       <Header activePath="/ansambluri-rezidentiale" />
       <main className="min-h-screen bg-gray-50">
         {/* HEADER PAGINA */}

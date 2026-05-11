@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 import PortofoliuClient from './PortofoliuClient'
+import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -21,9 +22,27 @@ export const metadata = {
   },
 }
 
+function getPortofoliuSchema(BASE) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Portofoliu Ansambluri Finalizate Neofort IMO',
+    description: '85+ ansambluri rezidențiale livrate în București din 2009',
+    url: `${BASE}/portofoliu`,
+    numberOfItems: TOATE_PORTOFOLIU.length,
+    itemListElement: TOATE_PORTOFOLIU.slice(0, 50).map((a, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: a.nume,
+      url: `${BASE}/portofoliu/${a.slug}`,
+    })),
+  }
+}
+
 export default function PortofoliuPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getPortofoliuSchema('https://www.neofort.ro')) }} />
       <Header activePath="/portofoliu" />
       <main className="min-h-screen bg-gray-50">
         {/* HEADER */}

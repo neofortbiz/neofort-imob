@@ -8,6 +8,18 @@ export const metadata = {
   title: 'Despre Neofort IMO — 17 Ani de Imobiliare în București',
   description: 'Neofort IMO este o companie de imobiliare din București fondată în 2009. 85+ ansambluri rezidențiale livrate, 4.000+ familii, 17 ani experiență. Direct de la sursă, fără comision.',
   alternates: { canonical: `${BASE}/despre-noi` },
+  openGraph: {
+    title: 'Despre Neofort IMO — 17 Ani de Imobiliare în București',
+    description: 'Neofort IMO — fondată în 2009, 85+ ansambluri livrate, 4.000+ familii. Direct de la sursă, fără comision de agenție.',
+    url: `${BASE}/despre-noi`,
+    images: [{ url: `${BASE}/og-image.jpg`, width: 1200, height: 630, alt: 'Despre Neofort IMO' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Despre Neofort IMO — 17 Ani Experiență',
+    description: '85+ ansambluri livrate, 4.000+ familii. Direct de la sursă, fără comision.',
+    images: [`${BASE}/og-image.jpg`],
+  },
 }
 
 const localBusinessSchema = {

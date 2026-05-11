@@ -5,14 +5,13 @@ const BASE = 'https://www.neofort.ro'
 
 export default function sitemap() {
   const staticPages = [
-    { url: `${BASE}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
+    { url: `${BASE}/`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 1.0 },
     { url: `${BASE}/ansambluri-rezidentiale`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
     { url: `${BASE}/zona`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/harta-ansambluri`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/portofoliu`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE}/blog/e-proprietatea-2026-noul-sistem-de-impozitare`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE}/blog/preturi-apartamente-bucuresti-2026`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/blog/ghid-cumparare-apartament-nou`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/promotii`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/echipa`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
@@ -42,8 +41,8 @@ export default function sitemap() {
   const portofoliuPages = ANSAMBLURI_PORTOFOLIU.map(a => ({
     url: `${BASE}/portofoliu/${a.slug}`,
     lastModified: new Date(),
-    changeFrequency: 'yearly',
-    priority: 0.5,
+    changeFrequency: 'never',
+    priority: 0.6,
   }))
 
   return [...staticPages, ...ansambluriActive, ...zonePages, ...portofoliuPages]

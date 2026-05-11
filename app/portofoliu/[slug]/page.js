@@ -18,6 +18,18 @@ export function generateMetadata({ params }) {
     title: `${a.nume} — ${a.zona}, ${a.sector} | Neofort IMO`,
     description: `${a.nume}, ${a.zona}, ${a.sector} București. ${a.etaje}, ${a.totalApartamente} unități, ${a.tipuri.join(', ')}. ${pretMin ? `Prețuri de la ${pretMin.toLocaleString()}€+TVA.` : ''} Ansamblu finalizat Neofort IMO.`,
     alternates: { canonical: `${BASE}/portofoliu/${a.slug}` },
+    openGraph: {
+      title: `${a.nume} — Portofoliu Neofort IMO`,
+      description: `${a.nume}, ${a.zona}, ${a.sector} București. Ansamblu finalizat și vândut integral. ${a.etaje}, ${a.totalApartamente} unități.`,
+      url: `${BASE}/portofoliu/${a.slug}`,
+      images: [{ url: a.cover ? `${BASE}${a.cover}` : `${BASE}/og-portofoliu.jpg`, width: 1200, height: 630, alt: a.nume }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${a.nume} | Neofort IMO`,
+      description: `Ansamblu finalizat în ${a.zona}, ${a.sector}. ${a.totalApartamente} unități livrate.`,
+      images: [a.cover ? `${BASE}${a.cover}` : `${BASE}/og-portofoliu.jpg`],
+    },
   }
 }
 
@@ -52,7 +64,7 @@ export default function PortofoliuAnsambluPage({ params }) {
     name: a.nume,
     description: a.descriereCompleta || a.descriere,
     url: `${BASE}/portofoliu/${a.slug}`,
-    image: `${BASE}/logo.avif`,
+    image: a.cover ? `${BASE}${a.cover}` : `${BASE}/og-portofoliu.jpg`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: a.adresa,

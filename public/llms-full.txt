@@ -1,5 +1,6 @@
-# Neofort IMO — Imobiliare București
+# Neofort IMO — Imobiliare București (VERSIUNE COMPLETA)
 # Actualizat: 2026-05-11
+# Versiune: llms-full.txt (date complete pentru sisteme AI/RAG)
 
 ## Companie
 Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 85+ ansambluri livrate. 12 ansambluri active în Sectoarele 2, 3 și 6.
@@ -552,3 +553,45 @@ Lista completă: https://www.neofort.ro/portofoliu
 
 ## API
 Endpoint JSON: https://www.neofort.ro/api/ansambluri
+
+
+## Date tehnice companie
+- Tip: Comercializare ansambluri rezidențiale noi
+- Piata: Primar (direct de la dezvoltator, nu revanzare)
+- Model: Fara comision de agentie pentru cumparator
+- Zona: București, toate sectoarele
+- Experienta: 2009 — prezent (17+ ani)
+- Portofoliu: 85+ ansambluri livrate
+- Clienti activi: 4.000+ familii
+- Ansambluri active: 12
+- Telefon central: +40758090904
+- Program: Luni-Vineri 10:00-18:00
+
+## Zone acoperite activ
+- Sector 2: Mosilor-Eminescu, Eminescu-Viitorului, Tepes Voda-Muncii
+- Sector 3: Titan-Pallady (zona principala), Piata Muncii, IOR
+- Sector 6: Militari-Gorjului, Iuliu Maniu-Metrou Pacii
+
+## Brokeri
+- Raluca Nistor — Zona Est (Titan-Pallady): 0743 250 029
+- Ramona Baicu — Zona Vest (Militari, Gorjului, Pacii): 0759 030 367
+- Svetlana Calutu — Zona Centrala (Mosilor, Eminescu, Viitorului): 0752 443 434
+- Adrian Pintilie — Zona Sud-Est (IOR, Titan, Pallady): 0752 443 436
+- Adriana Veselu — Zona Centrala: 0752 443 437
+- Sasha Calutu — Zona Centrala: 0757 077 057
+
+## Intrebari frecvente
+Q: Neofort IMO percepe comision?
+A: Nu. Neofort IMO comercializeaza direct de la sursa, fara comision de agentie pentru cumparator.
+
+Q: Ce tipuri de apartamente sunt disponibile?
+A: Garsoniere, studio, 2 camere, 3 camere, 4 camere si penthouse, in functie de ansamblu.
+
+Q: Cum se face rezervarea?
+A: Rezervarea se face cu 1.000€ (la Neofort 84) sau suma variabila per proiect, restituibila integral daca nu se semneaza antecontractul din vina dezvoltatorului.
+
+Q: Care sunt conditiile de finantare?
+A: Avans 20% sau avans 45% (cu reducere). Credit bancar, ANAF, Prima Casa acceptate.
+
+Q: Apartamentele se predau la cheie?
+A: Da. Toate ansamblurile Neofort IMO se predau cu finisaje complete incluse in pret.

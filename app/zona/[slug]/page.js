@@ -59,6 +59,12 @@ export function generateMetadata({ params }) {
       type: 'website',
       locale: 'ro_RO',
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Apartamente Noi ${z.nume} | Neofort IMO`,
+      description: `${ansambluri.length} ansambluri disponibile în zona ${z.nume}, ${z.sector}.`,
+      images: [`${BASE}/og-zone.jpg`],
+    },
   }
 }
 
