@@ -52,7 +52,7 @@ Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervare
       { tip: '3 cam. Tip 4 terasa', etaj: 'p. înalt', suprafata: 119.52, avans20: 131985, avans45: 125082, promo: true, camere: 3 },
       { tip: '4 cam. terasa', etaj: 'et. 10', suprafata: 175.58, avans20: 190988, avans45: 181262, promo: true, camere: 4 },
     ],
-    parcare: { exterior: { disponibil: true, pret: 6000 }, interior: { disponibil: true, pret: 8500 }, subteran: { disponibil: false, pret: null } },
+    parcare: { exterior: { disponibil: true, pret: 6000, deLa: true }, interior: { disponibil: true, pret: 8500, deLa: true }, subteran: { disponibil: false, pret: null } },
     dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie caramida Porotherm'],
 
     puncteInteres: [
