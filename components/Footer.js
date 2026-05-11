@@ -32,11 +32,15 @@ export default function Footer() {
             <div className="mb-4">
               <div style={{ background: 'white', borderRadius: 8, padding: '6px 10px', display: 'inline-block' }}><img src="/logo.avif" alt="Neofort IMO" className="h-12 w-auto" /></div>
             </div>
-            <p className="text-xs leading-relaxed mb-4" style={{ color: '#aaa' }}>
+            {/* Titlu coloana (invizibil) — ocupa spatiul titlului din coloanele alaturate */}
+            <div className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: 'transparent', userSelect: 'none' }}>_</div>
+            {/* 3 linkuri din coloane = ~3 x (text-xs + mb-1.5) = ~54px — ocupa spatiul primelor 3 linkuri */}
+            <div style={{ height: '54px' }} />
+            <p className="text-xs leading-relaxed mb-3" style={{ color: '#aaa' }}>
               Dezvoltator și agenție imobiliară din București. Din 2009 livrăm ansambluri rezidențiale de calitate în toate sectoarele capitalei.
             </p>
-            {/* Social — aliniat cu ultimele randuri din coloanele alaturate */}
-            <div className="flex gap-2 mt-auto">
+            {/* Social */}
+            <div className="flex gap-2">
               <a href="https://www.facebook.com/profile.php?id=100063782524105" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
                 className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>f</a>
               <a href="https://www.instagram.com/neofortimobiliare/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
