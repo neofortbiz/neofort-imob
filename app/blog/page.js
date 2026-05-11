@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { AUTORI, ARTICOLE, CATEGORII } from '@/data/blog'
+import { AUTORI, ARTICOLE_LIST, CATEGORII } from '@/data/blog'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -22,8 +22,8 @@ export const metadata = {
 }
 
 
-const FEATURED = ARTICOLE.find(a => a.featured)
-const REST = ARTICOLE.filter(a => !a.featured)
+const FEATURED = ARTICOLE_LIST.find(a => a.featured)
+const REST = ARTICOLE_LIST.filter(a => !a.featured)
 
 export default function BlogPage() {
   return (
@@ -161,7 +161,7 @@ export default function BlogPage() {
               <div className="border border-gray-200 rounded-xl p-5">
                 <h3 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Articole recente</h3>
                 <div className="space-y-3">
-                  {ARTICOLE.map(a => (
+                  {ARTICOLE_LIST.map(a => (
                     <Link key={a.slug} href={`/blog/${a.slug}`} className="flex gap-2 group">
                       <div className="relative w-14 h-10 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100">
                         {a.image && <img src={a.image} alt={a.titlu} className="w-full h-full object-cover" loading="lazy" />}
@@ -187,7 +187,7 @@ export default function BlogPage() {
                 '@context': 'https://schema.org', '@type': 'Blog',
                 name: 'Blog Imobiliar Neofort IMO', url: `${BASE}/blog`,
                 publisher: { '@type': 'Organization', name: 'Neofort IMO', url: BASE },
-                blogPost: ARTICOLE.map(a => ({
+                blogPost: ARTICOLE_LIST.map(a => ({
                   '@type': 'BlogPosting', headline: a.titlu,
                   url: `${BASE}/blog/${a.slug}`, datePublished: a.dataISO,
                   author: { '@type': 'Person', name: a.autor },
