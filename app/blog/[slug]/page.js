@@ -56,134 +56,213 @@ const ARTICOLE = {
   'e-proprietatea-2026-noul-sistem-de-impozitare': {
     titlu: 'E-Proprietatea 2026: Tot ce Trebuie să Știi Despre Noul Sistem de Impozitare Imobiliară',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '9 min',
+    data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '12 min',
     autor: 'igor-calutu',
     image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
-    descriere: 'E-Proprietatea 2026 schimbă radical impozitarea imobiliară în România. Analiză completă: ce se schimbă, cât cresc impozitele, scutiri disponibile și ce înseamnă pentru cumpărătorii de apartamente noi în București.',
-    keywords: ['e-proprietatea 2026', 'impozit apartament 2026', 'impozitare imobiliara romania', 'impozit proprietate bucuresti', 'e-proprietatea cum functioneaza'],
-    hashtags: ['#EProprietatea', '#ImpozitApartament2026', '#LegislatieImobiliara', '#ApartamenteBucuresti', '#NeofortIMO'],
+    descriere: 'E-Proprietatea 2026 schimbă radical impozitarea imobiliară în România. Ghid complet: ce este, cum funcționează, cât cresc impozitele pe zone din București, scutiri disponibile, calendarul implementării și ce înseamnă concret pentru proprietari și cumpărători.',
+    keywords: ['e-proprietatea 2026', 'impozit apartament 2026', 'impozitare imobiliara romania 2026', 'impozit proprietate bucuresti', 'e-proprietatea cum functioneaza', 'calcul impozit apartament 2026', 'scutiri impozit locuinta'],
+    hashtags: ['#EProprietatea2026', '#ImpozitApartament', '#LegislatieImobiliara', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'ce-este', titlu: 'Ce este E-Proprietatea?' },
-      { id: 'cum-functioneaza', titlu: 'Cum funcționează în practică?' },
-      { id: 'impozite-mai-mari', titlu: 'Cu cât cresc impozitele în București?' },
+      { id: 'cum-functioneaza', titlu: 'Cum funcționează în practică' },
+      { id: 'impozite-mai-mari', titlu: 'Cu cât cresc impozitele în București' },
       { id: 'scutiri', titlu: 'Scutiri și reduceri disponibile' },
+      { id: 'calcul-complet', titlu: 'Calcul complet pe tipuri de apartamente' },
       { id: 'apartamente-noi', titlu: 'Impact pentru cumpărătorii de apartamente noi' },
+      { id: 'contestatie', titlu: 'Cum contești valoarea atribuită' },
       { id: 'calendar', titlu: 'Calendarul implementării' },
       { id: 'concluzii', titlu: 'Concluzie practică' },
     ],
     sectiuni: [
       {
         id: 'ce-este',
-        h2: 'Ce este E-Proprietatea și de ce contează pentru tine',
-        continut: `Dacă deții un apartament în București sau plănuiești să cumperi unul în 2026, E-Proprietatea îți va afecta direct portofelul. Nu exagerez când spun că este cea mai importantă reformă fiscală imobiliară din România din ultimii 25 de ani — și majoritatea proprietarilor nu știu cu ce se confruntă.
+        h2: 'Ce este E-Proprietatea și de ce este cea mai importantă reformă fiscală imobiliară din ultimii 25 de ani',
+        continut: `Dacă deții un apartament în București sau plănuiești să cumperi unul în 2026, E-Proprietatea îți va afecta direct portofelul. Nu exagerez când spun că este cea mai importantă reformă fiscală imobiliară din România de la Revoluție încoace — și majoritatea proprietarilor nu știu cu ce se confruntă.
 
-E-Proprietatea este o platformă digitală națională, lansată oficial prin Legea nr. 196/2018 și implementată gradual din 2021, cu accelerare semnificativă în 2025-2026. Sistemul centralizează toate datele despre proprietățile imobiliare din România — terenuri, clădiri, apartamente, spații comerciale — și calculează automat impozitele pe baza valorii de piață actualizate, nu pe baza valorii declarate de proprietar.
+E-Proprietatea este o platformă digitală națională implementată gradual din 2021, cu accelerare semnificativă în 2025-2026. Sistemul centralizează toate datele despre proprietățile imobiliare din România — terenuri, clădiri, apartamente, spații comerciale — și calculează automat impozitele pe baza valorii de piață actualizate, nu pe baza valorii declarate de proprietar.
 
-**Înainte de E-Proprietatea:** un proprietar cu un apartament de 70 mp în zona Titan putea declara o valoare de 50.000 lei, plătind un impozit anual de 250-300 lei. **După implementare:** același apartament este evaluat automat la valoarea de piață reală — circa 250.000-300.000 lei — iar impozitul creşte proporțional.
+Înainte de E-Proprietatea, un proprietar cu un apartament de 70 mp în zona Titan putea declara o valoare de 50.000 lei, plătind un impozit anual de 250-300 lei. După implementare, același apartament este evaluat automat la valoarea de piață reală — circa 250.000-300.000 lei — iar impozitul crește proporțional.
 
-Datele ANAF arată că în 2024, circa 2,8 milioane de proprietăți imobiliare din România erau sub-evaluate față de piața reală, unele cu discount de 60-80% față de prețul de tranzacționare. E-Proprietatea urmărește exact eliminarea acestui decalaj.`,
+Datele ANAF arată că în 2024, circa 2,8 milioane de proprietăți din România erau sub-evaluate față de piața reală, unele cu discount de 60-80% față de prețul de tranzacționare. E-Proprietatea urmărește exact eliminarea acestui decalaj.
+
+De ce se face această schimbare? România a intrat în procedură de deficit excesiv cu Comisia Europeană. Una dintre condițiile de corectare a deficitului este modernizarea sistemului de impozitare a proprietăților, care în prezent aduce la buget mult mai puțin decât media europeană (0,1% din PIB față de 1,1% media UE). Impozitarea realistă a proprietăților este inevitabilă și nu va fi dată înapoi.`,
       },
       {
         id: 'cum-functioneaza',
-        h2: 'Cum funcționează E-Proprietatea în practică — mecanismul tehnic',
-        continut: `Platforma E-Proprietatea funcționează pe baza a trei surse de date integrate:
+        h2: 'Cum funcționează E-Proprietatea în practică — mecanismul tehnic explicat simplu',
+        continut: `Platforma E-Proprietatea funcționează pe baza a trei surse de date integrate, actualizate permanent:
 
-**1. Cadastrul național (ANCPI)** — fiecare proprietate are un identificator unic (număr cadastral) legat de datele fizice: suprafață, adresă, tip construcție, an finalizare.
+1. Cadastrul național (ANCPI) — fiecare proprietate are un identificator unic (număr cadastral) legat de datele fizice: suprafață, adresă, tip construcție, an finalizare. Dacă apartamentul tău nu este intabulat sau are date incorecte în cadastru, aceasta este prioritatea numărul unu înainte de orice altceva.
 
-**2. Grile notariale actualizate trimestrial** — ANCPI publică tabele cu valorile minime de tranzacționare pe zone, actualizate pe baza tranzacțiilor înregistrate. În 2025, grila pentru zona Titan-Pallady din Sectorul 3 a crescut cu 18% față de 2024, ajungând la 1.850-2.200 EUR/mp pentru apartamente noi.
+2. Grile notariale actualizate trimestrial — ANCPI publică tabele cu valorile minime de tranzacționare pe zone, actualizate pe baza tranzacțiilor înregistrate. În 2025, grila pentru zona Titan-Pallady din Sectorul 3 a crescut cu 18% față de 2024, ajungând la 1.850-2.200 EUR/mp pentru apartamente noi.
 
-**3. Date din Agenția Națională de Cadastru** — informații despre clasa energetică, stare de degradare, utilități.
+3. Date din Agenția Națională de Cadastru — informații despre clasa energetică, stare de degradare, utilități racordate.
 
-Procesul concret pentru proprietar este simplifiat: ANAF generează automat notificarea de impunere și o trimite prin poșta electronică sau prin portal ANAF. Proprietarul nu mai depune declarații anuale — sistemul calculează automat. Singura obligație activă rămâne declararea modificărilor (renovări majore, extinderi, schimbări de destinație).
+Procesul concret pentru proprietar este simplificat maxim: ANAF generează automat notificarea de impunere și o trimite prin poșta electronică sau prin portalul ANAF online. Proprietarul nu mai depune declarații anuale — sistemul calculează automat. Singura obligație activă rămâne declararea modificărilor (renovări majore, extinderi, schimbări de destinație).
 
-Din perspectiva experienței mele practice cu clienți care au primit deja notificări-pilot în 2025: confuzia principală vine din faptul că suma din notificare poate fi de 3-5 ori mai mare decât impozitul plătit anterior. Nu este o eroare — este realitatea pieței în care trăim.`,
+Un aspect important pe care mulți proprietari nu îl înțeleg: valoarea stabilită de E-Proprietatea nu este negociabilă direct cu ANAF-ul local. Există o procedură formală de contestație (detalii în secțiunea dedicată), dar nu te poți duce pur și simplu la ghișeu și să spui că valorează mai puțin.
+
+Din perspectiva practică a consultanților noștri care discută zilnic cu proprietari: confuzia principală vine din faptul că suma din notificare poate fi de 3-5 ori mai mare decât impozitul plătit anterior. Nu este o eroare — este realitatea pieței în care trăim.`,
       },
       {
         id: 'impozite-mai-mari',
-        h2: 'Cu cât cresc impozitele în București? Date concrete pe zone',
-        h3: 'Creșteri estimate pe zonele principale din București (2025 → 2026)',
-        continut: `Am calculat, pe baza grilelor ANCPI și a cotelor de impozitare ale Primăriei București (0,1% pentru locuința principală, 0,2% pentru secundară), impozitele estimate pentru apartamente tipice:
+        h2: 'Cu cât cresc impozitele în București? Date concrete pe zone principale',
+        continut: `Am calculat, pe baza grilelor ANCPI și a cotelor de impozitare ale Primăriei București (0,1% pentru locuința principală, 0,2% pentru secundară), impozitele estimate pentru apartamente tipice în 2026:
 
-**Zona Titan-Pallady (Sectorul 3):**
-• Apartament 2 camere, 55 mp, apartament nou → valoare piață ~130.000€ → impozit estimat: 580-650 lei/an (față de 120-180 lei anterior)
+Zona Titan-Pallady (Sectorul 3):
+Apartament 2 camere, 55 mp, bloc nou → valoare piață ~130.000 EUR → impozit estimat: 580-650 lei/an (față de 120-180 lei anterior)
+Apartament 3 camere, 75 mp, bloc nou → valoare piață ~180.000 EUR → impozit estimat: 800-900 lei/an
 
-**Zona Floreasca-Dorobanți (Sectorul 1):**
-• Apartament 3 camere, 90 mp, apartament nou → valoare piață ~350.000€ → impozit estimat: 1.550-1.750 lei/an
+Zona Moșilor-Eminescu (Sectorul 2):
+Apartament 2 camere, 55 mp, bloc nou → valoare piață ~165.000 EUR → impozit estimat: 730-820 lei/an
+Apartament 3 camere, 75 mp, bloc nou → valoare piață ~230.000 EUR → impozit estimat: 1.020-1.150 lei/an
 
-**Zona Militari-Gorjului (Sectorul 6):**
-• Apartament 2 camere, 50 mp, apartament nou → valoare piață ~110.000€ → impozit estimat: 490-550 lei/an
+Zona Militari-Gorjului (Sectorul 6):
+Apartament 2 camere, 50 mp, bloc nou → valoare piață ~110.000 EUR → impozit estimat: 490-550 lei/an
 
-**Zona Pipera-Voluntari:**
-• Apartament 3 camere, 85 mp, bloc 2023 → valoare piață ~180.000€ → impozit estimat: 800-900 lei/an
+Zona Floreasca-Dorobanți (Sectorul 1):
+Apartament 3 camere, 90 mp, bloc nou → valoare piață ~350.000 EUR → impozit estimat: 1.550-1.750 lei/an
 
-**Concluzia matematică:** chiar și la creșteri de 3-4x față de impozitele vechi, vorbim de 50-150 lei în plus pe lună. Comparativ cu valoarea apartamentului, impozitul rămâne modest — sub 0,1% din valoare în cazul locuinței principale. Contextul european: în Germania, impozitul anual pe proprietate poate ajunge la 1,5-2% din valoare. Suntem încă mult sub media europeană.`,
+Zona Titan, bloc vechi (pre-1990):
+Apartament 2 camere, 50 mp → valoare piață ~85.000 EUR → impozit estimat: 380-420 lei/an
+
+Concluzia matematică: chiar și la creșteri de 3-4x față de impozitele vechi, vorbim de 50-150 lei în plus pe lună. Comparativ cu valoarea apartamentului, impozitul rămâne modest — sub 0,1% din valoare în cazul locuinței principale. Contextul european: în Germania, impozitul anual pe proprietate poate ajunge la 1,5-2% din valoare. Suntem încă mult sub media europeană.
+
+Locuința principală vs. secundară: cota de 0,2% pentru a doua locuință înseamnă că impozitele se dublează față de locuința principală. Dacă ai un apartament pe care îl închiriezi, calculează corespunzător.`,
       },
       {
         id: 'scutiri',
-        h2: 'Scutiri și reduceri fiscale — ce se aplică în 2026',
-        continut: `Legislația prevede mai multe categorii de reduceri și scutiri, iar cunoașterea lor poate face diferența:
+        h2: 'Scutiri și reduceri fiscale disponibile în 2026 — lista completă',
+        continut: `Legislația prevede mai multe categorii de reduceri și scutiri pe care mulți proprietari nu le cunosc:
 
-**Scutiri totale de impozit:**
-• Persoane cu handicap grav sau accentuat — pentru locuința principală
-• Veterani de război și văduve de veteran
-• Persoane cu venituri sub pragul de sărăcie (stabilit anual de MMSS)
-• Clădiri monumente istorice (clasă A sau B) — reducere 50-100% în funcție de gradul de protecție
+Scutiri totale de impozit:
+• Persoane cu handicap grav sau accentuat — pentru locuința principală, scutire 100%
+• Veterani de război și văduve de veteran — scutire 100% locuință principală
+• Persoane cu venituri sub pragul de sărăcie (stabilit anual de MMSS) — scutire 100%
+• Clădiri monumente istorice clasa A sau B — reducere 50-100% în funcție de grad
 
-**Reduceri procentuale:**
-• **Locuința principală:** cotă redusă de 0,1% față de 0,2% pentru secundare și terțiare
-• **Clasa energetică A sau A+:** reducere de 5% din impozitul calculat — relevantă pentru apartamentele noi din 2020+
-• **Clasa energetică B:** reducere de 2,5% — aplicabilă majorității apartamentelor noi post-2015
-• **Plată anticipată integrală până la 31 martie:** bonificație de 10% la unele primării
+Reduceri procentuale:
+• Locuința principală: cotă redusă 0,1% față de 0,2% pentru secundare
+• Clasa energetică A sau A+: reducere 5% din impozitul calculat — relevantă pentru apartamentele noi din 2020+
+• Clasa energetică B: reducere 2,5% — aplicabilă majorității apartamentelor noi post-2015
+• Plată anticipată integrală până la 31 martie: bonificație 10% la unele primării (verificați regulamentul local)
 
-**Regimul fiscal pentru apartamentele de la Neofort IMO:** toate ansamblurile active beneficiază de clase energetice B-A+, ceea ce înseamnă reduceri automate de 2,5-5% la impozit. Nu este mult în valoare absolută, dar confirmă că investiția în calitate energetică are și avantaje fiscale concrete.`,
+Regimul fiscal pentru apartamentele de la Neofort IMO: toate ansamblurile active beneficiază de clase energetice B-A+, ceea ce înseamnă reduceri automate de 2,5-5% la impozit din prima zi. Nu este mult în valoare absolută, dar confirmă că investiția în calitate energetică are și avantaje fiscale concrete.
+
+Cum verifici scutirile: accesează portalul ANAF sau adresează-te direct Direcției de Taxe și Impozite Locale a sectorului/orașului unde este situată proprietatea. Documentele necesare pentru scutiri se depun până la 31 martie al anului fiscal pentru care se solicită.`,
+      },
+      {
+        id: 'calcul-complet',
+        h2: 'Calcul complet — cât plătești efectiv în 2026 pentru diferite tipuri de apartamente',
+        continut: `Să facem calculul complet pentru 5 scenarii reale, să înțelegem exact cifrele:
+
+Scenariul 1 — Apartament nou 2 camere, 55 mp, Titan-Pallady, locuință principală:
+Valoare piață estimată: 130.000 EUR = 647.000 lei
+Cotă impozit locuință principală: 0,1%
+Impozit brut: 647 lei/an
+Reducere clasă energetică A: -5% → impozit final: ~615 lei/an = 51 lei/lună
+
+Scenariul 2 — Același apartament, dar ca a doua locuință (investiție/închiriere):
+Cotă 0,2% → impozit brut: 1.294 lei/an = 108 lei/lună
+
+Scenariul 3 — Apartament vechi 2 camere, 50 mp, Titan, bloc pre-1990, locuință principală:
+Valoare piață estimată: 85.000 EUR = 423.000 lei
+Cotă 0,1%, clasa energetică D (fără reducere)
+Impozit: 423 lei/an = 35 lei/lună
+
+Scenariul 4 — Apartament premium 3 camere, 85 mp, Moșilor, locuință principală:
+Valoare piață estimată: 220.000 EUR = 1.095.000 lei
+Cotă 0,1%, clasă B → reducere 2,5%
+Impozit: ~1.068 lei/an = 89 lei/lună
+
+Scenariul 5 — Penthouse 120 mp, Floreasca, a doua proprietate:
+Valoare piață estimată: 550.000 EUR = 2.737.000 lei
+Cotă 0,2%
+Impozit: 5.474 lei/an = 456 lei/lună
+
+Concluzia din aceste calcule: pentru marea majoritate a cumpărătorilor de apartamente noi din București (budget 100.000-200.000 EUR, locuință principală), impozitul anual va fi între 500-1.100 lei — adică 40-90 lei pe lună. Raportat la rata lunară a creditului (800-1.500 EUR), impozitul reprezintă 2-4% din costul total lunar. Nu este un obstacol financiar.`,
       },
       {
         id: 'apartamente-noi',
         h2: 'Ce înseamnă E-Proprietatea pentru cumpărătorii de apartamente noi în 2026',
         continut: `Dacă ești în procesul de achiziție sau plănuiești să cumperi un apartament nou în 2026, iată ce trebuie să știi:
 
-**Impozitarea în primul an:** se bazează pe valoarea din contractul de vânzare-cumpărare. Aceasta este și valoarea din grila notarială, deci nu există surprize — știi exact cât plătești.
+Impozitarea în primul an se bazează pe valoarea din contractul de vânzare-cumpărare, care coincide cu valoarea din grila notarială. Nu există surprize — știi exact cât plătești înainte să semnezi.
 
-**Avantajul clasei energetice:** apartamentele noi construite după normele din 2021 au obligatoriu clasa B sau mai bun. Aceasta înseamnă că beneficiezi automat de reducerea de 2,5-5% din prima zi.
+Avantajul clasei energetice: apartamentele noi construite după normele din 2021 au obligatoriu clasa B sau mai bun. Beneficiezi automat de reducerea de 2,5-5% din prima zi, fără a depune nicio cerere suplimentară.
 
-**Predictibilitate fiscală:** față de apartamentele vechi, unde impozitul poate varia mult în funcție de reevaluare și starea clădirii, apartamentele noi au o bază de calcul clară și stabilă.
+Predictibilitate fiscală completă: față de apartamentele vechi, unde impozitul variază în funcție de reevaluări și starea clădirii, apartamentele noi au o bază de calcul clară și stabilă pe termen lung.
 
-**Comparație practică:** dacă cumperi un apartament de 2 camere la Neofort 42 Piața Muncii la 197.056€ ca locuință principală, impozitul estimat este de 875-950 lei/an — adică 72-79 lei/lună. Pe fondul ratei lunare la bancă de 800-1.000 EUR, impozitul reprezintă sub 3% din costul total lunar.
+Comparație practică: dacă achiziționezi un apartament de 2 camere la Neofort 42 Piața Muncii la 150.000 EUR ca locuință principală, impozitul estimat este de 670-750 lei/an — adică 56-62 lei/lună. Pe fondul ratei lunare la bancă de 600-900 EUR, impozitul reprezintă sub 3% din costul total lunar.
 
-Din perspectiva consultanților noștri care discută zilnic cu cumpărători: E-Proprietatea a creat inițial îngrijorare nejustificată. Când oamenii văd cifrele reale, îngrijorarea dispare.`,
+Din perspectiva consultanților noștri care discută zilnic cu cumpărători: E-Proprietatea a creat inițial îngrijorare nejustificată. Când oamenii văd cifrele reale, îngrijorarea dispare complet. Impozitele rămân cu mult sub media europeană chiar și după reformă.
+
+Un aspect mai puțin discutat: E-Proprietatea creează și transparență de piață. Valorile de referință din sistem devin publice și pot fi consultate de oricine — inclusiv de potențialii cumpărători care vor să verifice dacă prețul cerut de vânzător este realist față de evaluarea oficială.`,
+      },
+      {
+        id: 'contestatie',
+        h2: 'Cum contești valoarea atribuită proprietății tale prin E-Proprietatea',
+        continut: `Dacă valoarea atribuită de E-Proprietatea ți se pare disproporționat de mare față de starea reală a proprietății, ai dreptul legal de a contesta. Procesul este formal dar accesibil:
+
+Pasul 1 — Verifică valoarea atribuită
+Accesează portalul ANAF (anaf.ro) sau aplicația e-Romania cu CNP-ul și parola de acces. Găsești valoarea atribuită fiecărei proprietăți înregistrate pe numele tău.
+
+Pasul 2 — Evaluează dacă merită contestat
+Evaluarea ANEVAR costă 800-2.000 lei în funcție de tipul proprietății. Are sens dacă diferența de impozit depășește 500-1.000 lei/an (adică câteva mii de lei economisiți pe 5-10 ani). Pentru diferențe mici, costul contestației poate depăși beneficiul.
+
+Pasul 3 — Angajează un evaluator autorizat ANEVAR
+Evaluatorul face o evaluare independentă a proprietății, bazată pe comparabile de tranzacții reale din zonă. Raportul de evaluare este documentul central al contestației.
+
+Pasul 4 — Depune contestația la ANAF
+Contestația se depune la Direcția Regională ANAF din județul proprietății. Documentele necesare: cerere de contestație, raport de evaluare ANEVAR, acte de proprietate, documente identitate. Termen de soluționare: 30 de zile de la înregistrare.
+
+Pasul 5 — Dacă contestația e respinsă
+Poți face plângere la instanța de contencios administrativ. Costul unui avocat specializat: 2.000-5.000 lei. Are sens doar pentru proprietăți de valoare ridicată sau contestații cu argumente tehnice solide.
+
+Situații în care contestația are șanse mari de succes: apartamente cu defecte structurale majore documentate, proprietăți în clădiri cu risc seismic ridicat (Clasa I sau II), apartamente cu suprafețe atipice sau cu probleme de carte funciară.`,
       },
       {
         id: 'calendar',
-        h2: 'Calendarul implementării E-Proprietatea — ce urmează',
-        continut: `Implementarea E-Proprietatea se face în etape:
+        h2: 'Calendarul implementării E-Proprietatea — unde suntem și ce urmează',
+        continut: `Implementarea se face în etape, iar cunoașterea calendarului te ajută să te pregătești:
 
-**2021-2023:** Pilot în 30 de comune, cadastrare masivă, digitalizarea datelor din arhivele locale.
+2021-2023: Pilot în 30 comune, cadastrare masivă, digitalizarea arhivelor locale. Proprietarii au primit notificări informative, fără obligații de plată.
 
-**2024:** Extindere la toate municipiile reședință de județ, inclusiv București. Proprietarii au primit notificări informative (fără obligații de plată).
+2024: Extindere la toate municipiile reședință de județ, inclusiv București. Primele notificări de impunere bazate pe valorile E-Proprietatea, cu perioadă de grație.
 
-**2025:** Implementare operațională în București și principalele orașe. Primele impozite calculate pe baza valorii de piață, cu o perioadă de grație de 6 luni pentru contestații.
+2025: Implementare operațională în București și principalele orașe. Primele impozite calculate pe baza valorii de piață, cu perioadă de grație de 6 luni pentru contestații.
 
-**2026:** Sistem complet operațional la nivel național. Impozitele bazate integral pe valorile E-Proprietatea, fără posibilitate de auto-declarare sub valoarea grilei.
+2026: Sistem complet operațional la nivel național. Impozitele bazate integral pe valorile E-Proprietatea. Actualizări semestriale ale grilelor de valoare.
 
-**2027+:** Actualizări trimestriale ale grilelor de valoare, integrare cu ONRC pentru proprietăți comerciale.
+2027+: Actualizări trimestriale ale grilelor, integrare cu ONRC pentru proprietăți comerciale, extindere la clădiri industriale și agricole.
 
-**Termen important pentru 2026:** dacă ai contestat valoarea atribuită proprietății tale prin sistemul E-Proprietatea, termenul pentru soluționarea contestației este de 30 de zile de la depunere. Depune la ANAF cu documentație justificativă: evaluare imobiliară realizată de evaluator autorizat ANEVAR, comparabile de vânzare din zonă.`,
+Termen important pentru 2026: dacă ai primit o notificare de impunere și vrei să o contești, termenul este de 30 de zile de la comunicarea notificării. Nu lăsa să treacă termenul — după aceea, valoarea devine definitivă pentru acel an fiscal.
+
+Ce să faci acum concret: verifică dacă proprietatea ta este corect intabulată în cadastru (poți verifica gratuit pe geoportal.ancpi.ro). Orice eroare în suprafață sau clasificare poate duce la o evaluare incorectă — și este mai ușor de corectat înainte de primirea notificării decât după.`,
       },
       {
         id: 'concluzii',
-        h2: 'Concluzie practică: ce faci acum',
-        continut: `E-Proprietatea nu este o catastrofă fiscală — este o normalizare mult întârziată a sistemului de impozitare imobiliară din România. Da, impozitele cresc. Nu, nu cu 1.000%. Creșterile reale sunt de 2-5x față de valorile istorice, dar raportat la prețurile actuale ale proprietăților, rămânem la niveluri comparabile cu media europeană sau chiar sub aceasta.
+        h2: 'Concluzie practică: ce faci acum cu E-Proprietatea',
+        continut: `E-Proprietatea nu este catastrofa fiscală pe care unii o prezintă — este o normalizare necesară și întârziată a impozitării imobiliare din România. Da, impozitele cresc. Nu, nu cu 1.000%. Creșterile reale sunt de 3-5x față de valorile istorice, dar raportat la prețurile actuale ale proprietăților, suntem la niveluri comparabile cu media europeană sau chiar sub aceasta.
 
-**Ce să faci concret:**
-1. Accesează portalul ANAF sau e-Romania.ro și verifică valoarea atribuită proprietății tale
-2. Dacă valoarea ți se pare disproporționat de mare față de starea reală a locuinței, contactează un evaluator autorizat ANEVAR pentru o evaluare de contestație
-3. Dacă ești chiriaș, nu ești afectat direct — dar landlord-ul tău s-ar putea să crească chiria ca să compenseze
-4. Dacă ești în procesul de achiziție, calculează impozitul estimat și include-l în bugetul lunar de cost total al proprietății
+Ce să faci concret în 2026:
 
-Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțeleagă impactul E-Proprietatea specific apartamentelor pe care le achiziționează. Sună-ne la 0758 090 904.`,
+1. Verifică-ți proprietatea în cadastru — asigură-te că suprafața și clasificarea sunt corecte pe geoportal.ancpi.ro
+
+2. Verifică valoarea atribuită de ANAF pe portalul e-Romania sau anaf.ro
+
+3. Dacă valoarea ți se pare disproporționat de mare față de starea reală a locuinței, contactează un evaluator autorizat ANEVAR pentru o evaluare de contestație
+
+4. Verifică dacă te califici pentru scutiri — persoane cu handicap, veterani, venituri mici — și depune cererea până la 31 martie
+
+5. Dacă ești chiriaș, nu ești afectat direct — dar proprietarul se poate să crească chiria pentru a acoperi impozitul suplimentar. Negociați transparent.
+
+6. Dacă ești în procesul de achiziție, calculează impozitul estimat și include-l în bugetul lunar total al proprietății
+
+Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțeleagă impactul E-Proprietatea specific pentru apartamentele pe care le achiziționează. Sună-ne la 0758 090 904 sau trimite-ne un mesaj prin formularul de pe neofort.ro.`,
       },
     ],
-  },
+  }
 
   'preturi-apartamente-bucuresti-2026': {
     titlu: `Prețurile Apartamentelor din București în 2026: Scad sau Nu? Analiză cu Date Reale`,

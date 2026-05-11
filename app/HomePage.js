@@ -586,9 +586,9 @@ export default function HomePageClient() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {[
-                { tag: 'Legislație', titlu: 'E-Proprietatea 2026 — noul sistem de impozitare explicat', data: '22 Aprilie 2026', slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif' },
-                { tag: 'Piață', titlu: 'Scad sau nu prețurile la apartamente în București în 2026', data: '15 Martie 2026', slug: 'preturi-apartamente-bucuresti-2026', image: '/blog/scad-preturile-apartamente-bucuresti-2026.avif' },
-                { tag: 'Ghid', titlu: 'Ghid complet: cum cumperi un apartament nou în București', data: '10 Martie 2026', slug: 'ghid-cumparare-apartament-nou', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif' },
+                { tag: 'Investiții', titlu: 'Randament la Închiriere pe Zone din București în 2026', data: '10 Mai 2026', slug: 'randament-inchiriere-zone-bucuresti', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif' },
+                { tag: 'Ghid', titlu: 'Predare la Cheie: Ce Trebuie să Conțină și Ce să Verifici', data: '7 Mai 2026', slug: 'predare-la-cheie-ce-inseamna', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif' },
+                { tag: 'Analiză', titlu: 'Apartament Nou vs. Vechi în București: Calculul Real al Costurilor', data: '4 Mai 2026', slug: 'apartament-nou-vs-vechi-calcul-real', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif' },
               ].map(b => (
                 <Link key={b.slug} href={`/blog/${b.slug}`}
                   className="border border-gray-300 rounded-xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all group">
