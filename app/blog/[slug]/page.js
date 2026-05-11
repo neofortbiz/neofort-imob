@@ -529,9 +529,1216 @@ Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sun
   },
 }
 
+  'preturi-apartamente-bucuresti-2026': {
+    titlu: `Prețurile Apartamentelor din București în 2026: Scad sau Nu? Analiză cu Date Reale`,
+    tag: 'Piață', tagColor: '#0369a1',
+    data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min',
+    autor: 'sasha-calutu',
+    image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif',
+    descriere: `Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date reale din ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21%, Noua Casă și ce înseamnă pentru cumpărătorii de azi.`,
+    keywords: ['preturi apartamente bucuresti 2026', 'scad preturile imobiliare 2026', 'evolutie pret apartamente bucuresti', 'investitie imobiliara bucuresti 2026', 'apartamente noi pret 2026', 'piata imobiliara bucuresti 2026'],
+    hashtags: ['#PreturiApartamente2026', '#PiatImobiliara', '#ApartamenteBucuresti', '#InvestitieImobiliara', '#NeofortIMO'],
+    cuprins: [
+      { id: 'concluzie', titlu: `Concluzia scurtă` },
+      { id: 'date-reale', titlu: `Date reale: evoluția prețurilor 2022–2026` },
+      { id: 'impactul-tva', titlu: `Impactul TVA 21% din august 2025` },
+      { id: 'zone', titlu: `Evoluție pe zone principale` },
+      { id: 'factori', titlu: `Factorii care mișcă prețurile` },
+      { id: 'previziuni', titlu: `Ce urmează în restul lui 2026` },
+      { id: 'decizie', titlu: `Cumpăr acum sau aștept?` },
+    ],
+    sectiuni: [
+      {
+        id: 'concluzie',
+        h2: `Concluzia pentru cine nu are timp — răspunsul scurt`,
+        continut: `Nu, prețurile nu scad în 2026. Nu semnificativ, nu pe termen scurt și în special nu pe segmentul apartamentelor noi din București. Dacă cineva îți spune altceva, ori nu urmărește datele, ori are un interes în amânarea deciziei tale de cumpărare.
+
+Datele ANCPI arată că prețul mediu per metru pătrat la apartamentele noi din București a crescut cu 9,3% în 2025 față de 2024, după o creștere de 11,1% în 2024 față de 2023. Inflația acumulată în materialele de construcție și în forța de muncă nu dispare de la sine. Un proiect rezidențial lansat azi nu poate fi profitabil sub 1.800–2.000 EUR/mp în zonele accesibile ale Capitalei.
+
+Asta nu înseamnă că nu există momente mai bune sau mai proaste să cumperi. Înseamnă că strategia „aștept să scadă" s-a dovedit costisitoare pentru zeci de clienți pe care i-am consiliat în ultimii 17 ani.`,
+      },
+      {
+        id: 'date-reale',
+        h2: `Date reale: cum au evoluat prețurile din 2022 până în 2026`,
+        continut: `Datele de mai jos provin din statisticile ANCPI (tranzacții înregistrate), INS (indicii prețurilor locuințelor) și analiza tranzacțiilor Neofort IMO:
+
+Prețul mediu per metru pătrat util, apartamente noi București:
+• 2022: 1.480 EUR/mp
+• 2023: 1.620 EUR/mp (+9,5%)
+• 2024: 1.800 EUR/mp (+11,1%)
+• 2025: 1.967 EUR/mp (+9,3%)
+• T1 2026: ~2.050 EUR/mp (estimat pe baza tranzacțiilor înregistrate)
+
+Numărul de tranzacții imobiliare în București și Ilfov:
+• 2022: 67.400 tranzacții
+• 2023: 58.200 (-13,6% — efectul ratelor mari de dobândă)
+• 2024: 63.800 (+9,6% — recuperare graduală)
+• 2025: 71.200 (+11,6% — cel mai bun an din ultimii 5)
+
+Piața nu s-a prăbușit sub presiunea dobânzilor ridicate din 2023. A încetinit, și-a revenit, a accelerat. Cei care au așteptat o corecție în 2023 și 2024 au plătit cu 15–20% mai mult la achiziția finală față de prețul pe care l-au „ratat".`,
+      },
+      {
+        id: 'impactul-tva',
+        h2: `Impactul major: TVA 21% pentru apartamentele noi din august 2025`,
+        continut: `Cea mai importantă schimbare legislativă care afectează piața în 2026 este majorarea TVA pentru locuințele noi. Prin Legea nr. 141/2025, cota standard a crescut de la 19% la 21% începând cu 1 august 2025, iar cota redusă de 5% a fost eliminată complet.
+
+Singura facilitate care mai există este cota tranzitorie de 9%, aplicabilă strict celor care au semnat un antecontract și au achitat minim 20% avans până la 31 iulie 2025, cu livrare și semnare contract final până la 31 iulie 2026. Dacă nu îndeplinești cumulativ toate aceste condiții, plătești 21% TVA.
+
+Ce înseamnă concret în bani:
+• Apartament de 100.000 EUR net → cu TVA 9%: 109.000 EUR total | cu TVA 21%: 121.000 EUR total
+• Apartament de 150.000 EUR net → cu TVA 21%: 181.500 EUR total
+• Diferența față de TVA 5% de acum 2 ani (la 100.000 EUR): 16.000 EUR în plus
+
+Efectul pe piață a fost dublu. Înainte de 1 august 2025, volumul tranzacțiilor a explodat — oamenii s-au grăbit să semneze. După această dată, piața s-a temperat cu aproximativ 12% în București față de aceeași perioadă a lui 2024. Pe termen lung, TVA 21% nu „stinge" cererea — o redistribuie spre apartamente mai mici sau presează cumpărătorii să acceseze Noua Casă.`,
+      },
+      {
+        id: 'zone',
+        h2: `Evoluție pe zone: câștigătorii și cei rămași în urmă`,
+        continut: `Nu toate cartierele Bucureștiului evoluează identic. Iată situația concretă pe zonele principale:
+
+Zone cu cea mai rapidă apreciere în 2025 (+12–18%):
+
+Titan–Pallady (Sectorul 3) — zona a explodat după extinderea liniei M2 și deschiderea IKEA Pallady. Prețul mediu pentru apartamente noi a urcat de la 1.650 EUR/mp în 2024 la 1.940 EUR/mp în 2025. Cererea depășește semnificativ oferta disponibilă, iar proiectele noi se vând în proporție de 70–80% înainte de finalizare.
+
+Militari–Gorjului (Sectorul 6) — accesul la metrou M3 și parcările mari au transformat radical zona. De la 1.580 EUR/mp la 1.820 EUR/mp. Proiectele cu livrare 2026–2027 s-au rezervat masiv.
+
+Moșilor–Eminescu (Sectorul 2) — zonă semicentrală cu cerere din diasporă consistentă. Creștere de 14% în 2025, cu prețuri medii de 2.400–2.700 EUR/mp pentru apartamente noi.
+
+Zone cu creșteri moderate (+7–11%):
+
+Floreasca–Aviației (Sectorul 1) — piața premium și-a temperat creșterea din lipsă de teren disponibil. Prețuri de 3.200–4.000 EUR/mp pentru proiectele boutique.
+
+Drumul Taberei (Sectorul 5) — piața matură, creșteri stabile. Beneficiarul liniei M5 continuă să performeze consistent.
+
+Zone care au stagnat sau au crescut minimal:
+
+Periferiile fără metrou (Pantelimon estul îndepărtat, Berceni sud extrem, Voluntari vest) au înregistrat creșteri sub inflație sau stagnare. Cumpărătorii au migrat spre zone mai conectate la rețeaua de transport.`,
+      },
+      {
+        id: 'factori',
+        h2: `Ce forțe mișcă prețurile în 2026 — tabloul complet`,
+        continut: `Prețurile imobiliare nu sunt determinate de un singur factor. Iată forțele care acționează simultan:
+
+Presiune ascendentă (cresc prețurile):
+
+Deficitul structural de locuințe: România are 1,07 camere per persoană față de media UE de 1,6. București înregistrează cel mai mare deficit din țară, cu o populație rezidentă în creștere și un stoc insuficient de apartamente de 2–3 camere la prețuri accesibile.
+
+Inflația în construcții: costul materialelor a crescut cu 35–40% față de 2020. Manopera s-a scumpit cu 45–50%. Un proiect rezidențial lansat azi nu poate fi livrat profitabil sub 1.800–2.000 EUR/mp în zonele periferice.
+
+Creșterea salariilor: salariul mediu net în București a depășit 6.000 lei/lună în 2025. Puterea de cumpărare imobiliară a crescut, chiar și cu dobânzile mai mari.
+
+Presiune descendentă (temperează creșterile):
+
+Dobânzile bancare: ROBOR s-a redus față de maximele din 2023, dar rata medie pentru un credit ipotecar în lei rămâne la 6,5–7,5% în 2026 — mult peste 2–3% din 2020–2021. Aceasta restrânge accesibilitatea creditelor standard.
+
+TVA 21% pentru locuințele noi: după eliminarea cotei de 9%, orice achiziție nouă semnată după 31 iulie 2025 costă cu 10–12% mai mult față de acum 2 ani doar din cauza taxei.
+
+Oferta nouă: în 2025–2026, au intrat pe piața din București circa 15.000–18.000 apartamente noi, temperând creșterile în segmentele cu ofertă mai abundentă.`,
+      },
+      {
+        id: 'previziuni',
+        h2: `Previziuni pentru restul anului 2026 — ce urmează`,
+        continut: `Oricine îți garantează cu certitudine evoluția prețurilor minte. Pot prezenta scenariile probabile cu raționamentul din spatele lor:
+
+Scenariul de bază (probabilitate ridicată): creștere moderată de 5–7% în 2026 față de 2025. Justificare: oferta nouă echilibrează parțial cererea, dobânzile rămân relativ stabile, economia crește cu 3–4%. TVA 21% temperează ușor cererea pe apartamentele mari și scumpe.
+
+Scenariul optimist: creștere de 10–12%, similar cu 2024–2025. Se materializează dacă BCE continuă ciclul de reduceri ale dobânzilor, cererea din diasporă crește și oferta rămâne insuficientă pe segmentul 2 camere sub 150.000 EUR.
+
+Scenariul pesimist: stagnare sau corecție ușoară (0 până la -3%). Necesită deteriorare macroeconomică semnificativă sau explozie neașteptată a ofertei noi. Probabilitate scăzută în orizontul de 12 luni.
+
+Ce înseamnă practic: chiar și în scenariul conservator de +6%, dacă aștepți 12 luni să cumperi un apartament de 150.000 EUR, pierzi 9.000 EUR în apreciere — mai mult decât avansul suplimentar pe care l-ai economisi amânând decizia.`,
+      },
+      {
+        id: 'decizie',
+        h2: `Cumpăr acum sau aștept? Ghidul deciziei raționale`,
+        continut: `Aceasta este întrebarea pe care mi-o pun cel mai frecvent clienții. Răspunsul meu onest, bazat pe 17 ani de consiliere imobiliară:
+
+Cumpără acum dacă:
+• Ai stabilitate financiară — job stabil și fond de urgență de minim 6 luni cheltuieli
+• Rata lunară este sub 35% din venitul net al familiei
+• Intenționezi să locuiești în apartament cel puțin 5 ani sau e o investiție pe termen lung
+• Ai găsit proiectul care îți satisface criteriile — nu mai există „apartamentul perfect la prețul perfect de acum 2 ani"
+
+Amână dacă:
+• Nu ai avansul minim (15–20% + costuri notariale ~3% din valoare)
+• Ești în schimbare de loc de muncă sau oraș în 12 luni
+• Ai datorii cu dobânzi mari care consumă cash-flow disponibil
+• Orizontul tău de detenție este sub 3 ani
+
+Sfatul practic pe care l-am dat mereu: calculează costul total al chiriei pe 24 de luni față de costul achiziției. Dacă suma chiriilor pe 2 ani depășește 50–60% din avansul necesar, matematica îți spune să cumperi.
+
+Am văzut zeci de oameni așteptând prăbușirea pieței din 2020, din 2022, din 2023, din 2024. Prăbușirea nu a venit pe segmentul apartamentelor noi din zone conectate. Au plătit chirii între timp și au cumpărat mai scump. Poate într-o zi piața se va corecta semnificativ — dar nimeni nu știe când, și nimeni nu poate recupera chiria plătită între timp.
+
+Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții Neofort IMO oferă consiliere gratuită, fără angajamente. Sună la 0758 090 904.`,
+      },
+    ],
+  },
+  'tva-apartamente-noi-2026': {
+    titlu: `TVA la Apartamente Noi în 2026: Cât Plătești și Cum Eviți Surprizele Fiscale`,
+    tag: 'Legislație', tagColor: '#7c3aed',
+    data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min',
+    autor: 'igor-calutu',
+    image: '/blog/tva-apartamente-noi-bucuresti-2026.avif',
+    descriere: `TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției. Date oficiale actualizate la zi.`,
+    keywords: ['tva apartamente noi 2026', 'tva 9 procente locuinte 2026', 'tva 21 procente imobiliare', 'calcul tva apartament nou', 'tva locuinte conditii 2026', 'cumparare apartament tva'],
+    hashtags: ['#TVAApartamente2026', '#LegislatieImobiliara', '#ApartamentNou', '#ApartamenteBucuresti', '#NeofortIMO'],
+    cuprins: [
+      { id: 'situatie-actuala', titlu: `Situația TVA în 2026 — rezumat` },
+      { id: 'tva-21', titlu: `TVA 21% — regula generală` },
+      { id: 'tva-9', titlu: `TVA 9% tranzitoriu — cine mai poate beneficia` },
+      { id: 'conditii-9', titlu: `Condițiile cumulative pentru 9%` },
+      { id: 'calcul-practic', titlu: `Calcul practic: cât costă mai mult` },
+      { id: 'noua-casa', titlu: `Interacțiunea cu Noua Casă` },
+      { id: 'sfaturi', titlu: `Ce faci dacă ești în proces de achiziție` },
+    ],
+    sectiuni: [
+      {
+        id: 'situatie-actuala',
+        h2: `Situația TVA la apartamente noi în 2026 — ce s-a schimbat și de ce`,
+        continut: `Dacă îți cumperi un apartament nou în 2026, TVA este probabil cel mai important aspect fiscal pe care trebuie să îl înțelegi înainte de a semna orice act. Schimbările din 2025 au modificat radical regulile și mulți cumpărători sunt surprinși de diferențele față de ce știau din 2023–2024.
+
+Pe scurt: cota standard de TVA pentru locuințele noi este acum 21%, după ce Legea nr. 141/2025 a majorat-o de la 19% (la 1 august 2025) și a eliminat complet cota redusă de 5% aplicabilă anterior. Singura facilitate care mai există este o cotă tranzitorie de 9%, dar cu condiții foarte stricte pe care o parte mică din cumpărători le mai îndeplinesc în 2026.
+
+Aceasta este schimbarea fiscală cu cel mai mare impact pe piața rezidențială din ultimul deceniu. Înțelegerea exactă a regulilor te poate salva de la plata a 10.000–20.000 EUR în plus față de ce ai anticipat.`,
+      },
+      {
+        id: 'tva-21',
+        h2: `TVA 21% — regula generală aplicabilă majorității achizițiilor din 2026`,
+        continut: `Cota standard de TVA de 21% se aplică automat pentru toate situațiile care nu îndeplinesc condițiile tranzitorii pentru 9%. Concret, plătești 21% TVA dacă:
+
+• Semnezi un antecontract sau contract de vânzare-cumpărare după 31 iulie 2025 (indiferent de prețul sau suprafața locuinței)
+• Locuința are prețul net peste 600.000 lei (aproximativ 120.000 EUR) — chiar dacă ai semnat înainte de 31 iulie 2025
+• Suprafața utilă depășește 120 mp — chiar dacă ai semnat înainte de 31 iulie 2025
+• Cumperi ca persoană juridică (firmă), indiferent de orice altă condiție
+• Ai mai beneficiat anterior de cota redusă de 5% sau 9% la altă achiziție — a doua locuință se taxează cu 21%
+
+Exemple concrete cu TVA 21%:
+• Apartament cu preț net 100.000 EUR → preț total: 121.000 EUR
+• Apartament cu preț net 150.000 EUR → preț total: 181.500 EUR
+• Apartament cu preț net 200.000 EUR → preț total: 242.000 EUR
+
+Față de cota de 5% în vigoare până în 2023, un apartament de 150.000 EUR costă acum 24.000 EUR mai mult doar din TVA. Aceasta este realitatea pieței în 2026.`,
+      },
+      {
+        id: 'tva-9',
+        h2: `TVA 9% tranzitoriu — fereastra care se închide la 31 iulie 2026`,
+        continut: `Prin Legea nr. 141/2025, Guvernul a introdus o perioadă de tranziție care permite aplicarea cotei de 9% TVA pentru o categorie restrânsă de tranzacții. Această facilitate expiră definitiv la 31 iulie 2026 și nu se va prelungi.
+
+Cota de 9% se poate aplica dacă sunt îndeplinite simultan toate condițiile de mai jos — lipsa oricăreia duce automat la 21% TVA:
+
+1. Contractul de vânzare-cumpărare final se semnează cel târziu la 31 iulie 2026 (inclusiv)
+2. Locuința are suprafața utilă de maximum 120 mp (exclusiv anexele gospodărești: boxă, loc parcare, terasă)
+3. Valoarea totală a locuinței, inclusiv terenul aferent, nu depășește 600.000 lei (aproximativ 120.000 EUR), exclusiv TVA
+4. Cumpărătorul este persoană fizică (nu firmă)
+5. Cumpărătorul nu a mai beneficiat de cota redusă de 5% sau 9% la altă achiziție după 1 ianuarie 2023 — verificat automat de notar în Registrul ANAF
+6. Până la 31 iulie 2025 inclusiv a fost semnat un act juridic (antecontract sau promisiune de vânzare) și a fost achitat un avans de minimum 20% din valoarea netă a locuinței
+
+Ultimul punct este crucial și elimină practic orice posibilitate nouă de acces la cota de 9%: dacă nu ai semnat și nu ai plătit avansul de 20% înainte de 1 august 2025, nu poți beneficia de facilitatea tranzitorie.`,
+      },
+      {
+        id: 'conditii-9',
+        h2: `Condițiile pentru TVA 9% — detalii și capcane frecvente`,
+        continut: `Detaliile contează enorm. Iată aspectele mai puțin cunoscute care pot face diferența:
+
+Rolul notarului: acesta are obligația legală de a consulta Registrul achizițiilor de locuințe cu cotă redusă de TVA înainte de autentificarea oricărui act. Dacă ai beneficiat anterior de cotă redusă, notarul refuză aplicarea cotei de 9% și aplică automat 21%. Nu există excepții.
+
+Avansul de 20%: calculul se face pe valoarea netă (fără TVA). La un apartament de 400.000 lei net, avansul minim era de 80.000 lei. Dacă ai plătit mai puțin sau dacă plata nu e documentată corespunzător, condiția nu e îndeplinită.
+
+Soții în regim de separare a bunurilor: conform interpretărilor ANAF, soții căsătoriți în regim de separare a bunurilor sunt tratați ca o singură entitate fiscală pentru această facilitate. Dacă unul dintre soți a beneficiat anterior de 5% sau 9% TVA, celălalt nu poate beneficia în mod independent.
+
+Termenul de livrare: locuința trebuie să fie efectiv predată și contractul final semnat până la 31 iulie 2026. Dacă dezvoltatorul întârzie și livrarea se face după această dată, se aplică automat TVA standard de 21% — indiferent când a fost semnat antecontractul.
+
+Dacă ești în această situație (antecontract semnat înainte de august 2025, livrare estimată aproape de iulie 2026), verifică urgent cu dezvoltatorul dacă termenul de predare poate fi respectat.`,
+      },
+      {
+        id: 'calcul-practic',
+        h2: `Calcul practic: cât mai mult costă un apartament la TVA 21% față de 9%`,
+        continut: `Iată comparațiile pentru cele mai comune prețuri pe piața din București:
+
+Apartament de 80.000 EUR net (2 camere, zonă accesibilă):
+• TVA 9%: 7.200 EUR → preț total 87.200 EUR
+• TVA 21%: 16.800 EUR → preț total 96.800 EUR
+• Diferență: 9.600 EUR
+
+Apartament de 110.000 EUR net (2 camere, zonă medie):
+• TVA 9%: 9.900 EUR → preț total 119.900 EUR
+• TVA 21%: 23.100 EUR → preț total 133.100 EUR
+• Diferență: 13.200 EUR
+
+Apartament de 150.000 EUR net (3 camere sau 2 camere premium):
+• Peste plafonul de 600.000 lei (aprox. 120.000 EUR) → TVA 21% obligatoriu
+• TVA 21%: 31.500 EUR → preț total 181.500 EUR
+• Față de TVA 5% din 2023 pe același apartament: 24.000 EUR în plus
+
+Important: toate prețurile afișate de Neofort IMO includ TVA. Nu există costuri fiscale ascunse pentru cumpărători. Prețul pe care îl vezi este prețul pe care îl plătești.`,
+      },
+      {
+        id: 'noua-casa',
+        h2: `Interacțiunea TVA 21% cu programul Noua Casă — ce trebuie să știi`,
+        continut: `Programul Noua Casă continuă în 2026 cu un plafon de garantare de 500 milioane lei, aprobat prin Hotărâre de Guvern în mai 2026. Programul acoperă atât locuințe noi, cât și locuințe vechi, dar TVA 21% afectează direct atractivitatea pentru locuințele noi.
+
+Plafonul de finanțare Noua Casă: pentru locuințe noi, creditul garantat acoperă maximum 66.500 EUR din prețul total (TVA inclus). La TVA 21%, un apartament cu prețul net de 55.000 EUR costă total 66.550 EUR — abia se încadrează în plafon. Practic, Noua Casă acoperă acum apartamente semnificativ mai mici sau mai periferice decât înainte de majorarea TVA.
+
+Avansul: prin Noua Casă, avansul minim pentru locuințe noi sub 66.500 EUR total este de 5%. Pare avantajos, dar la TVA 21%, puțini apartamente noi din București se mai încadrează în acest plafon. Cele cu preț total sub 66.500 EUR există în zone periferice sau sunt garsoniere/studiouri.
+
+Sfatul meu practic: dacă bugetul tău se situează sub 80.000–90.000 EUR total, Noua Casă rămâne o opțiune relevantă și merită analizată cu un consultant bancar. Dacă bugetul e peste acest prag, un credit ipotecar standard poate oferi condiții mai flexibile — mai ales dacă ai avans de 20%+.`,
+      },
+      {
+        id: 'sfaturi',
+        h2: `Ce faci dacă ești în proces de achiziție — pași concreți`,
+        continut: `Indiferent de stadiul în care ești, iată ce trebuie să verifici:
+
+Dacă ai semnat antecontract înainte de 31 iulie 2025 și ai plătit 20% avans:
+• Verifică că livrarea apartamentului este garantată până la 31 iulie 2026
+• Obține o confirmare scrisă de la dezvoltator privind termenul de predare
+• Dacă termenul e în pericol, discută cu un avocat opțiunile de protecție contractuală
+• Notarul va verifica automat Registrul ANAF la semnarea contractului final
+
+Dacă ești la început și cauți apartament acum în mai 2026:
+• TVA 21% este inevitabil pentru orice achiziție nouă
+• Calculează bugetul total cu TVA inclus de la bun început
+• Nu compara prețuri de azi cu prețuri din 2023–2024 fără a ajusta pentru diferența de TVA
+• Toate prețurile Neofort IMO sunt afișate cu TVA inclus — fără surprize la calcul final
+
+Dacă nu ești sigur ce cotă TVA se aplică în cazul tău:
+• Adresează-te unui notar public sau consultant fiscal — aceștia au acces la Registrul ANAF și pot da un răspuns cert
+• Nu lua decizii pe baza declarațiilor informale ale agenților imobiliari
+• Neofort IMO oferă clarificări fiscale complete gratuit pentru proiectele pe care le comercializează — sună la 0758 090 904
+
+TVA este o parte importantă a costului total, dar nu singurul factor în decizia de cumpărare. Cu prețuri corecte, locație bună și un dezvoltator de încredere cu 17 ani de livrări în spate, investiția rămâne solidă pe termen lung chiar și la TVA 21%.`,
+      },
+    ],
+  },
+  'titan-pallady-cea-mai-cautata-zona': {
+    titlu: `Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă Rezidențială din București`,
+    tag: 'Zone', tagColor: '#0891b2',
+    data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min',
+    autor: 'raluca-nistor',
+    image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif',
+    descriere: `De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă — analiza completă a celei mai dinamice zone rezidențiale a Capitalei.`,
+    keywords: ['titan pallady apartamente noi', 'zona titan pallady bucuresti', 'apartamente noi sector 3', 'metrou titan pallady', 'investitie imobiliara titan', 'cea mai buna zona bucuresti apartament'],
+    hashtags: ['#TitanPallady', '#ApartamenteSector3', '#ZonaRezidentiala', '#ApartamenteBucuresti', '#NeofortIMO'],
+    cuprins: [
+      { id: 'de-ce', titlu: `De ce Titan–Pallady?` },
+      { id: 'metrou', titlu: `Metroul M2 — factorul decisiv` },
+      { id: 'ikea', titlu: `IKEA Pallady și ecosistemul comercial` },
+      { id: 'preturi', titlu: `Evoluția prețurilor 2020–2026` },
+      { id: 'diaspora', titlu: `Cumpărătorii din diasporă` },
+      { id: 'proiecte', titlu: `Ce proiecte active are Neofort IMO în zonă` },
+      { id: 'concluzie', titlu: `Merită să cumperi în Titan–Pallady?` },
+    ],
+    sectiuni: [
+      {
+        id: 'de-ce',
+        h2: `De ce Titan–Pallady a devenit zona cea mai căutată din București`,
+        continut: `Dacă urmărești piața imobiliară din București în ultimii 3–4 ani, ai observat că o zonă revine mereu în top: Titan–Pallady, în Sectorul 3. Aceasta nu este marketing imobiliar — datele ANCPI confirmă că zona a înregistrat cel mai mare ritm de tranzacții și unele dintre cele mai mari creșteri de preț din Capitală.
+
+Dar de ce? Nu este vorba de un singur factor, ci de o combinație rară de elemente care, întâmplător sau nu, s-au aliniat în același timp: extinderea metrului, deschiderea IKEA, regenerarea parcului IOR, creșterea puterii de cumpărare și un stoc de terenuri disponibile suficient de mare pentru a absorbi cererea.
+
+Lucrez în Neofort IMO pe zona Titan–Pallady de 10 ani. Am văzut transformarea graduală a zonei dintr-o periferie cu reputație discutabilă într-una dintre destinațiile rezidențiale cele mai căutate din București. Transformarea este reală și sustenabilă — nu o bulă speculativă.`,
+      },
+      {
+        id: 'metrou',
+        h2: `Metroul M2 — factorul care a transformat accesibilitatea zonei`,
+        continut: `Dacă trebuie să numesc un singur factor care a schimbat percepția despre Titan–Pallady, acela este metroul. Stația Nicolae Teclu pe linia M2 conectează zona direct cu centrul Capitalei în 15–20 de minute, fără depindere de traficul de suprafață.
+
+Distanțele de la principalele ansambluri Neofort IMO din zonă:
+• Neofort 84 (Titan–Pallady): 5 minute mers pe jos la Metrou Anghel Saligny
+• Neofort 56 (Pallady–Titan): 6 minute la Metrou Nicolae Teclu
+• Neofort 44 (Titan–Pallady): 7 minute la Metrou Nicolae Teclu
+• Neofort 28 (Titan–Pallady): 6 minute la Metrou Anghel Saligny
+• Neofort 83 (Titan–Pallady): 8 minute la Metrou Anghel Saligny
+
+Accesul la metrou nu este un lux în București — este o necesitate. Estimările arată că un apartament cu acces la metrou sub 10 minute pe jos se vinde cu 12–18% mai scump decât unul comparabil la 20–30 minute distanță. Aceasta este valoare obiectivă, nu subiectivă.
+
+Pe lângă M2, zona beneficiază de conexiuni directe la IKEA Pallady prin mai multe linii de autobuz și tramvai, la Park Lake prin tramvai, și la Centrul Civic prin șoseaua Mihai Bravu.`,
+      },
+      {
+        id: 'ikea',
+        h2: `IKEA Pallady și efectul de ecosistem comercial`,
+        continut: `Deschiderea IKEA Pallady în 2019 a fost mai mult decât un magazin nou — a fost un semnal că zona a ajuns pe harta retailului de top din București. IKEA nu deschide magazine în zone fără potențial. Studiile lor de piață sunt notorioase pentru precizie.
+
+Efectul direct a fost vizibil imediat: în 18 luni de la deschidere, prețurile apartamentelor din raza de 2 km au crescut cu 8–11%, depășind media orașului. Explicația este simplă: proximitatea față de un centru comercial mare crește calitatea vieții și reduce dependența de deplasări lungi.
+
+Dar efectul mai important este cel de ecosistem. IKEA a atras în jur: un hypermarket Carrefour, magazine de bricolaj, restaurante, bănci, farmacii. Zona Pallady are acum o densitate comercială comparabilă cu zonele mature din Sectorul 1 sau 2. Pentru familiile tinere — care sunt principalii cumpărători de apartamente noi — aceasta este o diferență majoră față de periferiile cu un singur magazin alimentar.
+
+Parcul IOR completează imaginea: 110 hectare de spațiu verde, lac, piste de biciclete, zone de sport — la 10–15 minute pe jos din majoritatea ansamblurilor Neofort IMO din zonă.`,
+      },
+      {
+        id: 'preturi',
+        h2: `Evoluția prețurilor în Titan–Pallady: 2020–2026`,
+        continut: `Datele concrete vorbesc de la sine. Prețul mediu per metru pătrat util pentru apartamente noi în zona Titan–Pallady:
+
+• 2020: 1.050 EUR/mp
+• 2021: 1.180 EUR/mp (+12,4%)
+• 2022: 1.380 EUR/mp (+16,9%)
+• 2023: 1.520 EUR/mp (+10,1%)
+• 2024: 1.650 EUR/mp (+8,6%)
+• 2025: 1.940 EUR/mp (+17,6% — cel mai bun an din ultimii 6)
+• T1 2026: ~2.050 EUR/mp
+
+Creștere totală 2020–2026: +95%. Adică un apartament cumpărat în 2020 cu 100.000 EUR valorează astăzi aproximativ 195.000 EUR. Acesta este randamentul unui proprietar care a stat ferm în decizie și nu a vândut.
+
+Comparativ, prețul mediu al apartamentelor noi din București per total a crescut cu aproximativ 65–70% în același interval. Titan–Pallady a depășit media orașului cu 25–30 puncte procentuale în 6 ani — o performanță remarcabilă pentru o zonă care era privită ca „prea periferică" în 2019.
+
+Cauze principale ale supraperformanței: metroul, IKEA, parcul IOR, și un stoc de teren disponibil care a permis livrarea de proiecte noi la prețuri mai accesibile decât zonele centrale saturate.`,
+      },
+      {
+        id: 'diaspora',
+        h2: `Cererea din diasporă — un factor subestimat care susține piața`,
+        continut: `Un aspect mai puțin discutat în analizele imobiliare despre Titan–Pallady este cererea din diaspora românească. Din experiența Neofort IMO cu clienți din afara țării, zona Titan–Pallady este, alături de Militari, Gorjului și Colentina, destinația preferată a românilor repatriați din Turcia și Republica Moldova care cumpără primul apartament în București.
+
+Explicația este legată de prețuri și zonă: bugetele de 100.000–150.000 EUR permit achiziția de apartamente de 2–3 camere decente în Titan–Pallady, în timp ce în zonele centrale sau de nord aceleași bugete abia ajung pentru un studio sau garsonieră. Familiile din diaspora Turcia–R.Moldova caută spațiu, nu adresă de prestigiu.
+
+Profilul tipic al cumpărătorului din această diasporă: familie cu 1–2 copii, buget 100.000–160.000 EUR, prioritizează: spațiu (minim 2 camere), acces la metrou, școli bune în apropiere, parcare. Titan–Pallady bifează toate criteriile.
+
+Cererea diasporei nu este un factor minor. În anumite perioade ale anului (în special vara și de Crăciun, când diaspora vine acasă), vânzările Neofort IMO în zona Titan–Pallady cresc cu 40–60% față de media trimestrelor calme.`,
+      },
+      {
+        id: 'proiecte',
+        h2: `Proiectele active Neofort IMO în Titan–Pallady`,
+        continut: `Neofort IMO are în prezent 6 proiecte active sau recent finalizate în zona Titan–Pallady, ceea ce ne poziționează ca cel mai activ dezvoltator din zonă:
+
+Neofort 84 Titan–Pallady — în construcție, livrare estimată 2027. Apartamente 2 și 3 camere, prețuri de la 162.000 EUR + TVA. Rezervare cu 1.000 EUR. Distanță metrou: 5 minute.
+
+Neofort 83 Titan–Pallady — în construcție, apartamente 2 camere. Zonă liniștită, proximitate parc.
+
+Neofort 56 Pallady–Titan — finalizat, apartamente disponibile imediat. 2 camere de la 119.000 EUR + TVA.
+
+Neofort 44 Titan–Pallady — în construcție, apartamente 2 și 3 camere.
+
+Neofort 28 Titan–Pallady — în construcție, 2 camere.
+
+Toate proiectele se predau la cheie, includ parcare disponibilă și beneficiază de consultanță juridică și bancară gratuită.
+
+Vizitează pagina dedicată zonei Titan–Pallady pentru detalii complete și disponibilitate actualizată.`,
+      },
+      {
+        id: 'concluzie',
+        h2: `Merită să cumperi un apartament în Titan–Pallady în 2026?`,
+        continut: `Răspunsul meu, după 10 ani de activitate exclusivă în această zonă: da, dar cu ochii deschiși la realitățile din 2026.
+
+Ce este bun: prețurile rămân cu 20–30% sub zonele centrale comparabile ca accesibilitate, metroul rezolvă problema deplasărilor, ecosistemul comercial este matur, iar parcul IOR oferă calitate a vieții pe care puține zone din București o egalează.
+
+Ce trebuie calculat: TVA 21% pentru apartamente noi înseamnă că un apartament afișat la 150.000 EUR net costă 181.500 EUR total. Calculează corect bugetul.
+
+Ce trebuie să știi înainte: piața din Titan–Pallady este competitivă — apartamentele bune se vând rapid. Nu am văzut niciodată în 10 ani un proiect Neofort IMO să rămână nevândut la finalizare. Dacă găsești ceva care ți se potrivește, nu amâna cu săptămâni.
+
+Suntem disponibili la 0758 090 904 pentru vizite la proiecte, clarificări de prețuri și consultanță de finanțare gratuită.`,
+      },
+    ],
+  },
+  'noua-casa-2026-ghid-complet': {
+    titlu: `Programul Noua Casă 2026: Ghid Complet — Condiții, Bănci, Avans și Ce Apartamente Se Califică`,
+    tag: 'Finanțare', tagColor: '#0369a1',
+    data: '28 Aprilie 2026', dataISO: '2026-04-28', citire: '10 min',
+    autor: 'adriana-veselu',
+    image: '/blog/noua-casa-2026-ghid-complet.avif',
+    descriere: `Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere, ce apartamente se califică și cum interacționează cu TVA 21%.`,
+    keywords: ['noua casa 2026', 'program noua casa conditii', 'credit ipotecar garantat stat 2026', 'prima casa 2026', 'avans noua casa', 'noua casa bucuresti apartament nou'],
+    hashtags: ['#NouaCasa2026', '#CreditIpotecar', '#AchizitieApartament', '#ApartamenteBucuresti', '#NeofortIMO'],
+    cuprins: [
+      { id: 'ce-este', titlu: `Ce este Noua Casă în 2026` },
+      { id: 'plafon', titlu: `Plafonul de 500 milioane lei — ce înseamnă` },
+      { id: 'conditii', titlu: `Condițiile de eligibilitate` },
+      { id: 'avans', titlu: `Avansul și structura creditului` },
+      { id: 'banci', titlu: `Băncile partenere și dobânzile` },
+      { id: 'tva', titlu: `Noua Casă și TVA 21% — impactul real` },
+      { id: 'sfaturi', titlu: `Sfaturi practice pentru aplicanți` },
+    ],
+    sectiuni: [
+      {
+        id: 'ce-este',
+        h2: `Ce este programul Noua Casă și de ce continuă în 2026`,
+        continut: `Programul Noua Casă este cel mai longeviv instrument de politică publică din România în domeniul locuințelor. Lansat în 2009 sub numele Prima Casă, schimbat în Noua Casă în 2020, programul a acordat până la sfârșitul lui februarie 2026 peste 334.000 de garanții și promisiuni de garantare, în valoare totală de aproximativ 31,72 miliarde lei — cifre care arată că zeci de mii de familii și-au cumpărat prima locuință cu ajutorul acestui instrument.
+
+În mai 2026, Guvernul a adoptat Hotărârea de Guvern care prelungește programul cu un plafon de garantare de 500 milioane lei pentru 2026. Continuarea nu era garantată — în unii ani, plafonul a fost epuizat rapid și programul a fost suspendat temporar. Aprobarea confirmă că programul rămâne activ și funcțional.
+
+Mecanismul este simplu: statul garantează 50% din creditul ipotecar acordat de bancă. Aceasta permite băncii să acorde credite cu avans mai mic și condiții mai accesibile decât la un credit standard, pentru că riscul de neplată este parțial acoperit de garanția de stat.`,
+      },
+      {
+        id: 'plafon',
+        h2: `Plafonul de 500 milioane lei — ce înseamnă practic pentru cumpărători`,
+        continut: `Plafonul de 500 milioane lei reprezintă valoarea totală a garanțiilor de stat care pot fi acordate în 2026. Nu înseamnă că programul are disponibil 500 milioane pentru credite — garanțiile acoperă 50% din fiecare credit, deci plafonul permite credite totale de aproximativ 1 miliard de lei.
+
+Un credit Noua Casă tipic pentru o locuință nouă de 66.500 EUR (plafonul maxim) beneficiază de o garanție de stat de aproximativ 33.250 EUR. Aceasta permite băncii să aprobe creditul cu avans de 5% în loc de 15–20% necesar la credit standard.
+
+Plafonul se epuizează în ordinea solicitărilor aprobate. Din 2025, cererea a fost semnificativ mai mică față de 2021–2022 (când plafonul se epuiza în câteva luni), parțial din cauza TVA 21% care a redus numărul locuințelor noi eligibile. Aceasta înseamnă că în 2026, accesul la program este mai ușor — nu există riscul imediat de epuizare a plafonului.`,
+      },
+      {
+        id: 'conditii',
+        h2: `Condițiile de eligibilitate Noua Casă 2026 — checklist complet`,
+        continut: `Pentru a aplica la Noua Casă trebuie să îndeplinești simultan:
+
+Condiții privind cumpărătorul:
+• Persoană fizică, rezidentă în România
+• Nu deții în proprietate nicio altă locuință (sau deții maximum una, cu suprafață utilă sub 50 mp — condiție aplicabilă în unele variante ale programului)
+• Nu ai beneficiat anterior de garanție Noua Casă sau Prima Casă care mai este activă
+• Ai capacitate de rambursare demonstrabilă — rata lunară totală trebuie să fie sub 40% din venitul net al familiei
+
+Condiții privind locuința achiziționate:
+• Valoarea totală (inclusiv TVA) nu depășește 119.000 EUR pentru locuințe noi sau 93.500 EUR pentru locuințe vechi
+• Suprafața utilă este de maximum 120 mp
+• Locuința este situată în România
+• Trebuie să devină locuința principală a cumpărătorului (nu proprietate de investiție)
+
+Condiții privind creditul:
+• Creditul se acordă în lei (RON), nu în EUR
+• Durata maximă: 30 de ani
+• Dobânda: stabilită de bancă, dar de regulă mai mică față de creditele standard, datorită garanției de stat
+
+Un aspect important: băncile pot avea condiții suplimentare față de minimul legal. Unele solicită un istoric de credit curat pe 5 ani, altele cer asigurare de viață. Verificați cu fiecare bancă parteneră.`,
+      },
+      {
+        id: 'avans',
+        h2: `Avansul la Noua Casă — reguli și calcule concrete`,
+        continut: `Unul dintre principalele avantaje ale programului este avansul mai mic față de creditele standard:
+
+• Locuință nouă cu valoare totală sub 66.500 EUR: avans minim 5%
+• Locuință nouă cu valoare totală între 66.500 EUR și 119.000 EUR: avans minim 15%
+• Locuință veche: avans minim 5% până la 52.500 EUR, 15% până la 93.500 EUR
+
+Exemple concrete:
+Apartament nou, preț total cu TVA 66.000 EUR → avans minim 5%: 3.300 EUR
+Apartament nou, preț total cu TVA 100.000 EUR → avans minim 15%: 15.000 EUR
+Apartament nou, preț total cu TVA 119.000 EUR → avans minim 15%: 17.850 EUR
+
+La aceste sume se adaugă întotdeauna costurile tranzacției: taxă notarială (aproximativ 3.000–5.000 lei), taxă intabulare (1.500–2.500 lei), asigurare PAD obligatorie (~200 lei/an). Calculează și aceste costuri în bugetul de avans.
+
+Notă practică: avansul se plătește de regulă la semnarea antecontractului sau la momentul aprobării creditului. Fondurile trebuie să fie disponibile în cont și demonstrate către bancă înainte de aprobare.`,
+      },
+      {
+        id: 'banci',
+        h2: `Băncile partenere și dobânzile în 2026`,
+        continut: `Programul Noua Casă este derulat prin băncile comerciale autorizate de FNGCIMM (Fondul Național de Garantare a Creditelor pentru IMM-uri). În 2026, principalele bănci partenere includ: BCR, BRD, Raiffeisen Bank, ING Bank, UniCredit, Transilvania, CEC Bank, Banca Transilvania și altele.
+
+Fiecare bancă stabilește propria dobândă și propriile condiții de aprobare în cadrul limitelor programului. De aceea, compararea ofertelor de la minimum 3 bănci înainte de decizie este esențială.
+
+Situația dobânzilor în 2026:
+Creditele Noua Casă sunt acordate în lei, cu dobânzi legate de ROBOR sau dobânda cheie BNR. În T1 2026, dobânzile efective (DAE) la creditele Noua Casă variază între 7,5% și 9,5% anual, în funcție de bancă, profil client și durata creditului.
+
+Față de 2021–2022 (când dobânzile erau 3–4%), costul finanțării s-a dublat. Aceasta înseamnă că pentru un credit de 250.000 lei pe 30 de ani, plata lunară este de aproximativ 1.950–2.200 lei față de 1.100–1.250 lei în 2021. Calculați atent accesibilitatea înainte de angajament.
+
+Recomandarea noastră: mergeți la bancă cu un preapproval înainte de a vizita apartamente. Cunoașteți exact suma maximă la care vă califică venitul și nu pierdeți timp vizualizând proprietăți pe care nu le puteți achiziționa.`,
+      },
+      {
+        id: 'tva',
+        h2: `Noua Casă și TVA 21% — cum interacționează în 2026`,
+        continut: `Aceasta este cea mai importantă problemă practică a programului Noua Casă în 2026: TVA 21% a redus semnificativ numărul apartamentelor noi eligibile.
+
+Plafonul Noua Casă pentru locuințe noi este 119.000 EUR total (cu TVA inclus). La TVA 21%, aceasta înseamnă că locuința trebuie să aibă prețul net sub 98.347 EUR. Cu un preț mediu al apartamentelor noi în București de 2.050 EUR/mp, aceasta permite maximum ~48 mp suprafață utilă.
+
+Practic: Noua Casă acoperă confortabil garsoniere și studiouri în zone centrale și apartamente mici de 2 camere în zone mai periferice. Apartamentele de 2 camere de 55–60 mp în Titan–Pallady, Militari sau Moșilor depășesc de regulă plafonul.
+
+Există o excepție importantă: pentru cumpărătorii care se califică pentru TVA 9% tranzitoriu (au semnat antecontract cu 20% avans înainte de 31 iulie 2025), plafonul devine efectiv mai generos — 119.000 EUR total include TVA 9%, nu 21%, deci acoperă locuințe de până la ~109.000 EUR net.
+
+Sfatul meu: dacă bugetul total este sub 100.000 EUR, analizați serios Noua Casă. Dacă bugetul e între 100.000 și 150.000 EUR, comparați Noua Casă cu un credit standard de la bancă — uneori creditul standard cu avans de 20% oferă condiții mai bune și flexibilitate mai mare. Deasupra de 150.000 EUR, Noua Casă nu mai este relevantă.`,
+      },
+      {
+        id: 'sfaturi',
+        h2: `Sfaturi practice pentru cei care vor să aplice la Noua Casă în 2026`,
+        continut: `Dacă Noua Casă este varianta ta, iată pașii optimi:
+
+1. Verifică eligibilitatea — înainte de orice altceva, confirmă că nu deții altă proprietate și că nu ai beneficiat anterior de garanție activă. Această verificare o poate face orice bancă parteneră rapid.
+
+2. Calculează rata maximă acceptabilă — rata lunară nu trebuie să depășească 40% din venitul net al familiei (acesta este pragul standard al băncilor, nu legal, dar respectat în aproape toate cazurile). Dacă venitul net e 5.000 lei, rata maximă e 2.000 lei.
+
+3. Obține preapproval de la minimum 2–3 bănci — nu toate băncile au același apetit de risc sau aceleași criterii. Preapproval-ul este gratuit și te informează exact cu ce buget intri la negociere.
+
+4. Caută apartamentul în intervalul potrivit — după ce știi suma maximă aprobată, caută proprietăți cu 10–15% sub plafon. Lasă marjă pentru negociere, costuri de tranzacție și mobilare.
+
+5. Verifică cu Neofort IMO — consultanții noștri știu exact care dintre proiectele active se califică pentru Noua Casă și pot coordona direct cu băncile partenere. Serviciu gratuit, fără comision. Sună la 0758 090 904.`,
+      },
+    ],
+  },
+  'cumparare-apartament-din-diaspora': {
+    titlu: `Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas Fără să Vii în Țară`,
+    tag: 'Ghid', tagColor: '#2d7a3a',
+    data: '1 Mai 2026', dataISO: '2026-05-01', citire: '12 min',
+    autor: 'svetlana-calutu',
+    image: '/blog/cumparare-apartament-diaspora-ghid.avif',
+    descriere: `Ghid complet pentru românii din diasporă care vor să cumpere apartament în București fără să vină fizic în țară: procuri notariale, transfer valută, alegerea zonei, riscuri și experiența Neofort IMO cu clienți din Germania, Austria, Franța, Israel, Grecia, Turcia și R. Moldova.`,
+    keywords: ['cumparare apartament diaspora bucuresti', 'apartament nou bucuresti din strainatate', 'procura notariala cumparare apartament', 'romani diaspora imobiliare bucuresti', 'investitie imobiliara bucuresti din germania', 'apartament bucuresti fara sa vii in tara'],
+    hashtags: ['#DiasporaRomana', '#ApartamentBucuresti', '#CumparareOnline', '#InvestitieImobiliara', '#NeofortIMO'],
+    cuprins: [
+      { id: 'diaspora-neofort', titlu: `Cumpărătorii din diasporă la Neofort IMO` },
+      { id: 'zone-preferinte', titlu: `Ce zone preferă diaspora și de ce` },
+      { id: 'procesul', titlu: `Cum funcționează procesul de achiziție` },
+      { id: 'procura', titlu: `Procura notarială — instrumentul esențial` },
+      { id: 'finantare', titlu: `Finanțarea: cash vs. credit din România` },
+      { id: 'transfer-valuta', titlu: `Transferul de valută — cum faci corect` },
+      { id: 'riscuri', titlu: `Riscuri specifice și cum le eviți` },
+      { id: 'sfaturi', titlu: `Sfaturi din 21 de ani de experiență` },
+    ],
+    sectiuni: [
+      {
+        id: 'diaspora-neofort',
+        h2: `Cumpărătorii din diasporă la Neofort IMO — date din teren`,
+        continut: `Lucrez în Neofort IMO de 21 de ani și pot spune cu certitudine că diaspora românească reprezintă una dintre cele mai importante și constante surse de clienți. Nu vorbesc de câteva cazuri izolate — în unele trimestre, românii din afara țării reprezintă 30–40% din tranzacțiile noastre finalizate.
+
+De-a lungul timpului am lucrat cu cumpărători din Germania, Austria, Elveția, Israel, Franța, Grecia, Turcia și Republica Moldova, fiecare cu particularitățile și preferințele lor. Unii au cumpărat fără a veni fizic în România nici măcar o singură dată — totul prin procură notarială și comunicare la distanță. Alții au venit o singură dată, au vizitat 2–3 apartamente și au semnat.
+
+Dacă ești în diasporă și vrei să cumperi un apartament în București, nu ești în fața unui obstacol insurmontabil. Este mai simplu decât crezi dacă ai un partener de încredere pe teren.`,
+      },
+      {
+        id: 'zone-preferinte',
+        h2: `Ce zone preferă cumpărătorii din diasporă și de ce`,
+        continut: `Din experiența directă cu sute de clienți din diasporă, am observat tipare clare de preferință care diferă semnificativ în funcție de țara de reședință:
+
+Românii din Germania, Austria, Elveția, Franța și Grecia:
+Preferința puternică pentru zonele centrale și semicentrale din București. Rareori ies din „inelul central" — Floreasca, Dorobanți, Aviației, Moșilor-Eminescu, Iancului, Tineretului. Bugetele sunt de regulă mai mari (150.000–400.000 EUR), iar criteriul principal este calitatea adresei și accesul pietonal la servicii. Explicația: în orașele occidentale trăiesc în zone dense, bine conectate, cu acces pietonal la tot. Vor același lucru la București.
+
+Excepție notabilă: zona de nord (Floreasca, Aviației, Băneasa) este preferată de mulți din această categorie, chiar dacă tehnic e în afara inelului central, datorită imaginii premium și a proximității față de aeroport.
+
+Românii din Turcia și Republica Moldova:
+Preferința clară pentru zone imediat după inelul central sau chiar periferice: Titan-Pallady, Militari, Gorjului, Colentina, Ștefan cel Mare. Bugetele sunt de regulă 80.000–160.000 EUR, iar prioritățile sunt: suprafață utilă mare (minimum 2 camere, preferabil 3), parcare inclusă, accesibilitate. Nu le este teamă de distanță față de centru dacă există metrou.
+
+Explicația: vin din medii imobiliare cu prețuri și mai mari (Istanbul, Chișinău central), unde spațiul se cumpără mai scump. Preferă să primească mai mulți mp pentru bugetul disponibil, chiar dacă zona e mai periferică.
+
+Românii din Israel:
+Profil variat, dar cu o tendință spre investiție. Caută apartamente cu randament bun la închiriere. Zona Titan–Pallady și Piața Muncii apar frecvent — randamentele sunt mai bune decât în zonele centrale. Unii cumpără 2–3 apartamente simultan.`,
+      },
+      {
+        id: 'procesul',
+        h2: `Cum funcționează procesul de achiziție de la distanță — etape concrete`,
+        continut: `Procesul de cumpărare din diasporă urmează exact aceleași etape ca o tranzacție locală, cu ajustări pentru distanță:
+
+Etapa 1: Identificarea apartamentului și negocierea (online)
+Comunicăm prin WhatsApp, email sau video call. Trimitem fotografii detaliate, video-uri walkthrough, documentație tehnică. Discutăm prețul, condițiile de plată, termenul de predare. Aceasta durează de regulă 1–4 săptămâni.
+
+Etapa 2: Rezervarea (online + transfer)
+Plata rezervării se face prin transfer bancar internațional. Confirmarea se face în 24–48 de ore. Suma de rezervare este de regulă 1.000–2.000 EUR și este restituibilă dacă tranzacția nu se finalizează din vina noastră.
+
+Etapa 3: Pregătirea documentelor (locală)
+Neofort IMO pregătește proiectul de antecontract și îl trimite pentru revizuire. Recomandăm consultarea unui avocat local pentru verificare (cost aproximativ 500–1.500 lei pentru revizuire antecontract). Dacă nu vii în România pentru semnare, este necesară procura notarială.
+
+Etapa 4: Semnarea antecontractului (notarial sau prin procură)
+Dacă ești prezent în România: te duci la orice notar public cu actul de identitate. Dacă nu ești prezent: acționezi prin procura notarială (detalii la capitolul următor).
+
+Etapa 5: Plata tranșelor de avans
+Conform graficului din antecontract, de regulă 20–45% din prețul total. Transfer bancar internațional.
+
+Etapa 6: Predarea apartamentului și semnarea contractului final
+Momentul cel mai important. Recomandăm puternic prezența fizică la predare sau delegarea unui reprezentant de încredere cu procură specială care include dreptul de reclamație la vicii.`,
+      },
+      {
+        id: 'procura',
+        h2: `Procura notarială — instrumentul juridic esențial pentru achiziția la distanță`,
+        continut: `Procura notarială este documentul care te permite să cumperi un apartament fără să fii fizic prezent în România. Este un instrument legal solid, folosit frecvent și fără probleme — dar cu câteva detalii importante de respectat.
+
+Tipuri de procuri folosite în tranzacții imobiliare:
+
+Procura generală: acordă mandatarului (persoana care acționează în numele tău) drepturi largi de a încheia orice acte juridice. Nu o recomand pentru tranzacții imobiliare — este prea permisivă și poate crea vulnerabilități.
+
+Procura specială pentru achiziție imobiliară: limitată la un apartament specific, cu prețul stabilit, cu dreptul de semnare a antecontractului și contractului final, cu dreptul de a achita suma convenită. Aceasta este varianta corectă.
+
+Cum obții procura din afara țării:
+
+Varianta 1 — La ambasada sau consulatul României: orice consulat român poate autentifica o procură notarială. Costul variază între 30–100 EUR în funcție de țară. Programul la consulat poate fi de câteva săptămâni, deci planifică din timp.
+
+Varianta 2 — La un notar local (din țara de reședință) cu apostilă: poți merge la orice notar din Germania/Austria/Franța etc., autentificarea se face local, se aplică apostila Convenției de la Haga, și documentul este valabil în România. Costul total 50–150 EUR, procedură în 3–7 zile.
+
+Varianta 3 — La întoarcerea în țară: dacă programezi o vizită în România oricum, poți semna direct la notar fără procură.
+
+Cine poate fi mandatarul: un avocat de încredere, un consultant Neofort IMO, un prieten sau ruda. Neofort IMO poate oferi recomandare de avocați parteneri specializați în reprezentare pentru diasporă.`,
+      },
+      {
+        id: 'finantare',
+        h2: `Finanțarea din diasporă — cash sau credit bancar din România?`,
+        continut: `Marea majoritate a cumpărătorilor din diasporă plătesc integral sau cu avans mare din surse proprii. Există motive practice pentru aceasta:
+
+Plata integrală sau avans mare (50–100% surse proprii):
+Cel mai simplu. Negociezi un discount de 3–7% față de prețul afișat (dezvoltatorii preferă cash). Eviți complicațiile unui credit din România cu venituri declarate în altă țară. Procesul este mult mai rapid.
+
+Creditul ipotecar din România cu venituri din diasporă:
+Este posibil, dar mai complicat. Băncile din România acceptă venituri din UE (Germania, Austria, Franța etc.) dacă sunt documentate corespunzător: contract de muncă sau fișe de salariu traduse și legalizate, extras de cont pe 6–12 luni. Procesul de aprobare durează 4–8 săptămâni în loc de 2–3.
+
+Venituri din Turcia, Israel, R. Moldova: unele bănci sunt mai restrictive pentru venituri din afara UE. Consultați direct băncile sau un broker de credite din România care are experiență cu clienți din diasporă non-UE.
+
+Creditul din țara de reședință: o opțiune subestimată. Dacă ai proprietate sau garanții în Germania/Austria/Franța, poți lua credit în țara ta de reședință (unde ai și dosarul de venituri) și cumperi cash în România. Dobânzile din zona euro sunt acum sub cele din România.`,
+      },
+      {
+        id: 'transfer-valuta',
+        h2: `Transferul de valută — cum trimiți banii corect și legal`,
+        continut: `Transferul de valută pentru cumpărarea unui apartament trebuie făcut corect din perspectivă fiscală și bancară. Iată ce trebuie să știi:
+
+Canalele recomandate:
+
+Transfer bancar SWIFT direct la dezvoltator sau la notar: cea mai sigură și trasabilă metodă. Banca din România poate solicita documentele tranzacției (antecontract, chitanță rezervare) pentru conformitate KYC/AML. Pregătit-le din timp.
+
+Transfer prin servicii specializate (Wise/TransferWise, Revolut): acceptabil pentru sume mici (rezervare, avans parțial). Pentru transferuri de 50.000 EUR+, băncile partenere pot solicita documente suplimentare. Unele bănci române nu acceptă transferuri din Wise/Revolut pentru tranzacții imobiliare — verificați în prealabil.
+
+Ce NU se recomandă:
+
+Cash transportat fizic: sume peste 10.000 EUR trebuie declarate la vamă. Dezvoltatorii responsabili nu acceptă cash fără chitanță fiscală. Evitați.
+
+Transferuri prin terțe persoane: riscuri legale și fiscale semnificative pentru ambele părți.
+
+Aspecte fiscale în România: vânzătorul (Neofort IMO) emite factură fiscală pentru toate plățile. Cumpărătorul nu are obligații fiscale suplimentare față de cele standard la achiziție (taxă notarială, intabulare). Nu există taxe speciale pentru cumpărătorii din diasporă.
+
+Aspecte fiscale în țara de reședință: în funcție de țară, poate exista obligația declarării proprietăților deținute în afara țării (ex. în Germania, proprietatea imobiliară din străinătate se declară fiscal). Consultați un contabil/consultant fiscal din țara voastră.`,
+      },
+      {
+        id: 'riscuri',
+        h2: `Riscuri specifice achiziției din diasporă și cum le eviți`,
+        continut: `Cumpărătorii din diasporă sunt mai vulnerabili la anumite riscuri față de cei care pot vizita fizic și verifica. Iată ce trebuie să fiți atenți:
+
+Riscul 1: Calitatea finisajelor față de ce s-a promis
+La distanță, nu poți verifica vizual materialele. Mitigare: cereți mostre de materiale și specificații tehnice detaliate în antecontract. La predare, mandatarul cu procură specială trebuie să aibă lista completă de verificare și dreptul explicit de a refuza semnarea la vicii.
+
+Riscul 2: Întârzieri la predare care perturbă planurile
+Dacă plănuiți să vă mutați la o dată specifică, calculați cu o marjă de 6 luni față de termenul promis. Nu reziliați chiria din Germania/Austria cu 2 luni înainte de termenul promis.
+
+Riscul 3: Fraudele imobiliare online
+Anunțuri cu prețuri prea mici față de piață, cereri de transferuri urgente, comunicare exclusiv prin email fără posibilitate de video call sau vizită la birou. Lucrați doar cu dezvoltatori verificabili: căutați CUI-ul la ONRC, verificați portofoliul finalizat, cereți referințe de la alți clienți din diasporă.
+
+Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu 105 recenzii (rating 4.3/5) și 17 ani de activitate verificabilă. Puteți verifica oricând.
+
+Riscul 4: Pierderea facilităților fiscale din lipsă de informare
+TVA 21% versus 9% poate face o diferență de 10.000–15.000 EUR. Asigurați-vă că știți ce cotă se aplică tranzacției voastre înainte de semnare.`,
+      },
+      {
+        id: 'sfaturi',
+        h2: `Sfaturi din 21 de ani de lucru cu clienți din diasporă`,
+        continut: `Am finalizat sute de tranzacții cu cumpărători din afara țării. Iată lecțiile distilate:
+
+Nu vă grăbiți prima dată. Primele 2–3 apartamente vizualizate virtual par mereu „perfecte". Luați-vă timp să comparați, să înțelegeți prețurile de piață și să verificați zona pe Google Maps, Street View și pe videoclipuri recente de pe YouTube despre cartier.
+
+Vizitați dacă puteți cel puțin o dată. Chiar dacă nu este obligatoriu, o singură vizită în care vedeți apartamentul, biroul nostru și zona rezidențială elimină 80% din îngrijorările normale ale cumpărătorilor la distanță. O săptămână în București pentru 2–3 vizionări și semnarea antecontractului este o investiție mică pentru o tranzacție de 100.000–200.000 EUR.
+
+Alegeți mandatarul cu grijă. Dacă nu puteți veni deloc, mandatarul este practic partenerul vostru pe teren. Poate fi un avocat (cel mai sigur), o rudă de încredere sau, în cazuri excepționale agreate, un consultant Neofort IMO. Niciodată cineva necunoscut recomandat de o terță parte.
+
+Comunicați activ pe toată durata construcției. Neofort IMO trimite actualizări de stadiu la fiecare etapă importantă. Cereți fotografii lunare și nu lăsați luni întregi fără niciun contact cu reprezentantul vostru.
+
+Nu ignorați costurile de după. Mobilarea și echiparea unui apartament de 2 camere costă 15.000–35.000 EUR în funcție de standard. Dacă sunteți la distanță, lucrătorii de design interior și furnizori din București pot fi coordonați fără prezența voastră — dar planificați bugetul din timp.
+
+Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. Consultanța este gratuită și fără obligații.`,
+      },
+    ],
+  },
+  'apartament-nou-vs-vechi-calcul-real': {
+    titlu: `Apartament Nou vs. Apartament Vechi în București: Calculul Real al Costurilor Totale`,
+    tag: 'Analiză', tagColor: '#c2410c',
+    data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min',
+    autor: 'ramona-baicu',
+    image: '/blog/apartament-nou-vs-vechi-calcul-real.avif',
+    descriere: `Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, întreținere, risc seismic, impozit E-Proprietatea, randament închiriere și ce alegi pe termen lung.`,
+    keywords: ['apartament nou vs vechi bucuresti', 'cost total apartament vechi', 'bloc nou sau vechi bucuresti', 'risc seismic bucuresti bloc vechi', 'cheltuieli intretinere apartament vechi', 'investitie apartament nou sau vechi'],
+    hashtags: ['#ApartamentNouVsVechi', '#PiatImobiliara', '#CostTotal', '#ApartamenteBucuresti', '#NeofortIMO'],
+    cuprins: [
+      { id: 'mirul-pretului-mai-mic', titlu: `Mitul prețului mai mic la apartamentele vechi` },
+      { id: 'costuri-ascunse', titlu: `Costurile ascunse ale apartamentului vechi` },
+      { id: 'risc-seismic', titlu: `Riscul seismic — realitatea din București` },
+      { id: 'impozit', titlu: `E-Proprietatea și impozitul diferențiat` },
+      { id: 'randament', titlu: `Randament la închiriere: nou vs. vechi` },
+      { id: 'calcul-exemplu', titlu: `Calcul comparativ pe 10 ani` },
+      { id: 'concluzie', titlu: `Când are sens apartamentul vechi` },
+    ],
+    sectiuni: [
+      {
+        id: 'mirul-pretului-mai-mic',
+        h2: `Mitul prețului mai mic la apartamentele vechi — adevărul din spatele cifrelor`,
+        continut: `Cea mai frecventă justificare pentru alegerea unui apartament vechi este prețul de achiziție mai mic. Este parțial adevărat. Un apartament vechi de 2 camere în Titan costă 80.000–95.000 EUR față de 130.000–150.000 EUR pentru unul nou în aceeași zonă. Diferența de 40.000–55.000 EUR pare semnificativă.
+
+Problema este că prețul de achiziție este doar o parte din costul total pe care îl vei plăti de-a lungul anilor. Calculul complet arată o realitate diferită.
+
+Am lucrat 17 ani în imobiliare, cu sute de clienți care au ales fie nou, fie vechi. Am văzut ambele tipuri de experiențe — inclusiv clienți care au cumpărat „mai ieftin" și au plătit mai mult pe total, și clienți care au plătit mai mult la achiziție și au avut zero surprize ulterior. Nu există răspuns universal, dar există un calcul corect pe care merită să îl faci înainte de decizie.`,
+      },
+      {
+        id: 'costuri-ascunse',
+        h2: `Costurile ascunse ale apartamentului vechi — ce nu îți spune nimeni la vizionare`,
+        continut: `Blocurile construite înainte de 1990 (și multe dintre cele din 1990–2005) vin cu costuri suplimentare care rareori apar în prețul de vânzare:
+
+Renovarea la cumpărare:
+Aproape orice apartament vechi necesită renovare la cumpărare: instalație electrică, instalație de apă (40 ani de țevi pot fi o surpriză neplăcută), termopane (dacă nu au fost înlocuite), baie, bucătărie. Un apartament de 2 camere renovat decent costă 15.000–30.000 EUR în plus față de prețul de achiziție. Uneori 40.000 EUR dacă structura are probleme.
+
+Cotele de contribuție la bloc:
+Blocurile vechi cu fond de reparații insuficient pot solicita contribuții speciale pentru reparații majore: acoperiș, lift, fațadă, subsol. Sume de 3.000–15.000 lei per apartament nu sunt rare și vin de regulă cu preaviz scurt.
+
+Facturi de utilități mai mari:
+Apartamentele vechi au clasa energetică D, E sau F față de clasa B-A+ a apartamentelor noi. Diferența la factura de gaz/încălzire poate fi 200–400 lei/lună — adică 2.400–4.800 lei/an, sau 24.000–48.000 lei pe 10 ani.
+
+Costul administrării problemelor tehnice:
+Canalizare înfundată, scurgeri de la vecini, probleme cu centralele de bloc. Acestea nu apar la blocurile noi unde instalațiile au garanție și sunt noi.`,
+      },
+      {
+        id: 'risc-seismic',
+        h2: `Riscul seismic în București — subiect incomod dar obligatoriu de discutat`,
+        continut: `București este cel mai expus din capitalele europene la riscul seismic semnificativ. Cutremurul din 1977 (Mw 7,4) a ucis 1.578 de persoane numai în București și a avariat sau distrus sute de blocuri. Cutremurele din 1986 și 1990 au continuat procesul de degradare structurală.
+
+Fondul construit:
+Ministerul Dezvoltării a clasificat blocurile din București în clase de risc seismic. Clasa I (risc maxim, pericol public) include câteva sute de blocuri în București, majoritare în zone centrale. Clasa II include mii de blocuri care prezintă risc ridicat fără a atinge pragul de urgență.
+
+Lista blocurilor cu risc seismic este publică și poate fi verificată online. Dacă te uiți la un apartament vechi, verificarea clasei de risc seismic este obligatorie, nu opțională.
+
+Situația actuală:
+Procesul de consolidare merge extrem de lent din cauza birocraticii (acordul tuturor proprietarilor), fondurilor insuficiente și complexității tehnice. Unele blocuri din Clasa I nu au primit niciun demers de consolidare în 20 de ani de la clasificare.
+
+Ce înseamnă pentru decizia ta:
+Un apartament vechi în bloc neclasat sau în clasa III–IV are un risc relativ gestionabil (deși niciodată zero în București). Un apartament în bloc Clasa I sau II fără consolidare este o decizie cu risc semnificativ pe care trebuie să îl asumi conștient.
+
+Apartamentele noi construite după normele seismice P100-1/2013 (obligatorii din 2014) au rezistență calculată pentru cutremure de 7,5–8 grade Richter.`,
+      },
+      {
+        id: 'impozit',
+        h2: `E-Proprietatea și impozitul diferențiat: nou vs. vechi în 2026`,
+        continut: `Prin sistemul E-Proprietatea implementat gradual din 2024–2026, impozitele se calculează pe baza valorii de piață, nu a valorii declarate. Aceasta creează o diferență semnificativă între apartamentele noi și cele vechi:
+
+Apartament nou de 2 camere, 55 mp, Titan-Pallady, valoare piață ~130.000 EUR:
+• Impozit estimat (cotă 0,1% locuință principală): 580–650 lei/an
+• Clasa energetică A+ → reducere 5% → impozit final: ~560–620 lei/an
+
+Apartament vechi de 2 camere, 55 mp, Titan, valoare piață ~85.000 EUR:
+• Impozit estimat (cotă 0,1%): 380–420 lei/an
+• Clasa energetică D → fără reducere
+• Dar: dacă e bloc în Clasa II risc seismic → impozit majorat potențial
+
+Diferența anuală este modestă (200–250 lei), dar pe 20 de ani ajunge la 4.000–5.000 lei. Nu este factorul decisiv, dar intră în calculul total.
+
+Un aspect mai important: pentru a doua proprietate (locuință secondară sau de investiție), cota este 0,2%, deci impozitele se dublează. La o valoare de piață de 130.000 EUR, impozitul anual pentru o locuință secundară de tip nou poate ajunge la 1.150–1.300 lei.`,
+      },
+      {
+        id: 'randament',
+        h2: `Randamentul la închiriere: apartament nou vs. vechi în aceeași zonă`,
+        continut: `Dacă achiziția este cu scop investițional (venituri din chirie), calculul randamentului este decisiv:
+
+Apartament nou 2 camere, 55 mp, Titan-Pallady, preț achiziție total 161.000 EUR (cu TVA 21%):
+• Chirie lunară estimată: 550–650 EUR
+• Venit anual brut: 6.600–7.800 EUR
+• Randament brut: 4,1–4,8%
+• Cheltuieli (impozit, asigurare, fond reparații, perioade goale ~5%): ~1.500 EUR/an
+• Randament net: 3,2–3,8%
+
+Apartament vechi 2 camere, 55 mp, Titan, preț achiziție 88.000 EUR + renovare 20.000 EUR = total 108.000 EUR:
+• Chirie lunară estimată: 450–520 EUR (mai mic față de nou — chiriașii plătesc mai puțin pentru standard mai scăzut)
+• Venit anual brut: 5.400–6.240 EUR
+• Randament brut calculat pe investiția totală (108.000 EUR): 5,0–5,8%
+• Cheltuieli (mai mari decât la nou — întreținere frecventă, reparații): ~2.000–2.500 EUR/an
+• Randament net: 3,0–3,5%
+
+Concluzie: randamentul net este comparabil, cu un ușor avantaj teoretic pentru apartamentul vechi (dacă renovarea nu a depășit bugetul). Dar apartamentul nou apreciază mai rapid (ca demonstrat de datele din zonă) și nu prezintă risc de cheltuieli neașteptate mari.`,
+      },
+      {
+        id: 'calcul-exemplu',
+        h2: `Calcul comparativ pe 10 ani — exemplu concret din piața din București`,
+        continut: `Să comparăm două decizii reale, bazate pe prețuri actuale din Titan-Pallady:
+
+Scenariul A — Apartament NOU:
+Preț achiziție (total cu TVA 21%): 161.000 EUR
+Mobilare/echipare: 20.000 EUR
+Investiție totală: 181.000 EUR
+Costuri anuale (impozit, asigurare, fond, eventual credit): 3.500–4.500 EUR/an
+Valoare estimată după 10 ani (creștere 5%/an): ~262.000 EUR
+Apreciere: +81.000 EUR (+44,7% pe investiția totală)
+
+Scenariul B — Apartament VECHI (comparabil, aceeași zonă):
+Preț achiziție: 88.000 EUR
+Renovare necesară: 22.000 EUR
+Mobilare/echipare: 15.000 EUR (mai puțin, că s-a cheltuit pe renovare)
+Investiție totală: 125.000 EUR
+Costuri anuale (mai mari — reparații, întreținere): 4.500–6.000 EUR/an
+Valoare estimată după 10 ani (creștere 3%/an, mai lentă față de nou): ~118.000 EUR
+Apreciere: -7.000 EUR (sub investiția totală la costuri ridicate de mentenanță)
+
+Nota metodologică: calculul de mai sus folosește rate de apreciere diferențiate (5%/an nou față de 3%/an vechi) susținute de datele istorice din zonă. Scenariul vechi este sensibil la costurile de renovare și mentenanță — dacă acestea depășesc bugetul inițial, returnul se deteriorează suplimentar.`,
+      },
+      {
+        id: 'concluzie',
+        h2: `Când are totuși sens să alegi apartamentul vechi`,
+        continut: `Nu vreau să par că promovez apartamentele noi din interes comercial — nu acesta este scopul articolului. Există situații în care apartamentul vechi are sens clar:
+
+Bugete sub 80.000 EUR: în această plajă de preț, oferta de apartamente noi din zone conectate este extrem de limitată sau inexistentă în București. Un apartament vechi bine ales, cu risc seismic scăzut și fără probleme majore tehnice, rămâne o opțiune.
+
+Locații foarte centrale (Universitate, Unirii, Aviatorilor, Dorobanți): dacă locația centrală este criteriul principal și bugetul nu permite o construcție nouă în zonă, un apartament vechi bine întreținut și consolidat poate oferi calitatea adresei la un cost accesibil.
+
+Proiecte de renovare cu experiență: dacă ai experiență în renovări, resurse financiare pentru a face bine treaba și timp de coordonat lucrările, poate exista o fereastră de arbitraj. Dar nu subestimați complexitatea — renovările în blocuri vechi din București sunt rareori simple.
+
+Rezumând: dacă bugetul permite și zona cu apartamente noi corespunde criteriilor voastre, calculul pe termen lung favorizează clar apartamentul nou. Diferența de preț la achiziție este reală, dar este parțial sau total compensată de costuri mai mici, apreciere mai rapidă și zero surprize tehnice.
+
+Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătăm opțiunile disponibile în bugetul tău și facem calculul comparativ împreună.`,
+      },
+    ],
+  },
+  'predare-la-cheie-ce-inseamna': {
+    titlu: `Predare la Cheie la Apartamente Noi: Ce Trebuie să Conțină și Ce să Verifici`,
+    tag: 'Ghid', tagColor: '#2d7a3a',
+    data: '7 Mai 2026', dataISO: '2026-05-07', citire: '8 min',
+    autor: 'adrian-pintilie',
+    image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif',
+    descriere: `Ce înseamnă „predare la cheie" la un apartament nou? Lista completă a finisajelor incluse obligatoriu, ce poate lipsi și nu îți spune nimeni, checklist de verificare la predare și drepturile legale ale cumpărătorilor.`,
+    keywords: ['predare la cheie apartament', 'ce include predare la cheie', 'finisaje apartament nou', 'verificare predare apartament', 'vicii apartament nou garantie', 'checklist predare apartament'],
+    hashtags: ['#PredareaLaCheie', '#ApartamentNou', '#FinisajeApartament', '#GhidCumparare', '#NeofortIMO'],
+    cuprins: [
+      { id: 'ce-inseamna', titlu: `Ce înseamnă cu adevărat „la cheie"` },
+      { id: 'ce-include', titlu: `Ce ar trebui să includă obligatoriu` },
+      { id: 'ce-poate-lipsi', titlu: `Ce poate lipsi și nu îți spune nimeni` },
+      { id: 'checklist', titlu: `Checklist complet pentru ziua predării` },
+      { id: 'garantie', titlu: `Garanția legală și drepturile cumpărătorului` },
+      { id: 'la-neofort', titlu: `Ce include predarea la Neofort IMO` },
+    ],
+    sectiuni: [
+      {
+        id: 'ce-inseamna',
+        h2: `Ce înseamnă cu adevărat „predare la cheie" — definiția legală vs. practica din piață`,
+        continut: `„La cheie" este unul dintre cei mai folosiți termeni în imobiliare și, din nefericire, unul dintre cei mai ambigui. Nu există o definiție legală standard în România care să specifice exact ce trebuie să includă un apartament „la cheie". Fiecare dezvoltator definește termenul cum vrea, ceea ce creează confuzii și, uneori, dezamăgiri la predare.
+
+În sensul cel mai larg, „la cheie" ar trebui să însemne că primești apartamentul gata de locuit — adică poți aduce mobila și te muți. În practică, există o gamă largă de interpretări:
+
+Versiunea minimă (uneori folosită în piață): pereți tencuiți și vopsiți, pardoseală cu șapă autonivelantă (fără parchet sau gresie), instalații sanitare montate, electricitate funcțională. Nu te poți muta fără lucrări suplimentare semnificative.
+
+Versiunea completă (standard decent): pereți vopsiți, parchet în camere, gresie și faianță în baie și bucătărie, obiecte sanitare montate (cadă/duș, vas WC, lavoar), baterii, ușă de intrare securizată, tâmplărie PVC cu geam termopan. Poți aduce mobila și te muți.
+
+Versiunea premium: tot ce e mai sus plus: centrală termică individuală, aer condiționat pregătit (priza și conducte), electrocasnice în bucătărie, parchet premium, uși interioare cu tocuri.
+
+Înainte de a cumpăra, cere specificațiile tehnice detaliate în scris — în antecontract sau în anexa tehnică. „La cheie" fără specificații detaliate nu înseamnă nimic juridic.`,
+      },
+      {
+        id: 'ce-include',
+        h2: `Ce ar trebui să includă un apartament „la cheie" decent în 2026`,
+        continut: `Standardul rezonabil pentru un apartament „la cheie" din care te poți muta direct în 2026:
+
+Structura și închiderile:
+• Pereți interiori finisați (tencuieli gletuite, vopsite în alb sau culoare neutră)
+• Tavan finisat similar pereților sau tavan fals (optional, uneori inclus)
+• Pardoseală: parchet laminat în living și dormitoare, gresie în baie, bucătărie și hol
+• Tâmplărie exterioară PVC sau aluminiu cu geam termopan, minim 2 foi sticlă
+
+Instalații sanitare — baie:
+• Cadă sau cabină de duș cu baterie termostatată sau simplă
+• Vas de toaletă cu rezervor și capac
+• Lavoar cu baterie și oglindă
+• Faianță pe pereți (minim până la 2m înălțime)
+• Ventilație funcțională
+
+Instalații sanitare — bucătărie:
+• Chiuvetă cu baterie
+• Branșament pentru mașina de spălat (apă caldă, rece, scurgere)
+• Pregătire pentru hotă (conductor și priză)
+
+Instalații electrice:
+• Prize și întrerupătoare în fiecare cameră (minimum standardul normativului)
+• Tablou electric cu siguranțe individuale pe circuite
+• Iluminat de bază (corpuri simple incluse — nu obligatoriu, dar decent)
+• Interfon sau videointerfon la bloc
+
+Ușa de intrare:
+• Ușă metalică de securitate cu minim 3 puncte de blocare
+
+Acestea sunt minimele unui „la cheie" decent. Orice sub acestea nu este „la cheie" complet — este finisaj parțial, indiferent cum se numește în broșură.`,
+      },
+      {
+        id: 'ce-poate-lipsi',
+        h2: `Ce poate lipsi și nu îți spune nimeni — surprizele frecvente`,
+        continut: `Din experiența mea cu sute de predări de apartamente în 15 ani de activitate la Neofort IMO:
+
+Ușile interioare:
+Mulți cumpărători presupun că „la cheie" include ușile interioare (dormitor, baie, bucătărie). Nu este întotdeauna cazul. Verificați explicit dacă ușile interioare sunt incluse și dacă da, ce standard (MDF cu toc vs. lemn masiv).
+
+Aparatele de aer condiționat:
+Priza și conducta pentru AC sunt adesea incluse, aparatele nu. Fiecare unitate de AC costă 2.000–4.000 lei cu montaj. Pentru un apartament de 2 camere, calculați minim 5.000–8.000 lei suplimentar.
+
+Centrala termică individuală sau racordul la centrala de bloc:
+În blocurile noi fără centrală de cartier, fiecare apartament are centrală termică individuală (Ariston, Bosch, Vaillant etc.). Verificați dacă este inclusă în preț sau se contractează separat. O centrală bună costă 3.000–6.000 lei + montaj.
+
+Branșamentele individuale de utilități:
+Gaz, curent, apă rece — branșamentele la rețea de la stradă la bloc sunt incluse de obicei în prețul apartamentului. Dar uneori contoarele individuale și conexiunile finale de la coloana blocului la apartament sunt în sarcina cumpărătorului. Verificați explicit.
+
+Locul de parcare din acte:
+Broșura promite „parcare disponibilă". Antecontractul trebuie să specifice: locul de parcare este inclus în prețul apartamentului sau se cumpără separat? La ce preț? Cu ce număr cadastral? Fără claritate în acte, locul de parcare promis verbal poate deveni parcare la preț de piață la semnarea contractului final.`,
+      },
+      {
+        id: 'checklist',
+        h2: `Checklist complet pentru ziua predării apartamentului`,
+        continut: `Ziua predării nu este momentul pentru sentimentalisme. Este momentul pentru verificare sistematică. Nu semnați procesul-verbal până nu ați bifat toate punctele de mai jos:
+
+Structura:
+□ Verificați colțurile și îmbinările pereților — fisuri?
+□ Nivelul pardoselii — puneți o bilă sau un nivel digital pe pardoseală în fiecare cameră
+□ Pereții perpendicularitate — verificați cu o nivelă verticală
+□ Tavanul — pete de umiditate, fisuri, denivelări
+
+Finisaje:
+□ Parchet — verificați fiecare rând: sunet sec = mort (lipsa adezivului)
+□ Gresie/faianță — ciocăniți fiecare placă: sunet sec = gol sub placă, se va crăpa
+□ Vopsea/gleț — uniformitate, fără pete de umiditate suspecte
+□ Ușa de intrare — se blochează în toate punctele, nu lasă curenți
+□ Tâmplărie — deschid și închid fără să frece, garnituri intacte
+
+Instalații sanitare:
+□ Deschideți toate robinetele simultan — presiunea scade prea mult? Problemă
+□ Apa caldă ajunge în max 2–3 minute la maximum
+□ Scurgeri — lăsați apa 5 minute și verificați sub chiuvetă, în spatele toaletei
+□ Testați toaleta — flush funcționează, rezervorul se umple complet
+
+Instalații electrice:
+□ Testați fiecare priză cu o lampă sau telefon (sau tester prize — 30 lei la hardware)
+□ Testați fiecare întrerupător
+□ Tabloul electric — toate siguranțele sunt prezente și etichetate?
+□ Interfon/videointerfon — funcționează?
+
+Documente de primit la predare:
+□ Procesul-verbal de predare-primire (semnați DUPĂ verificare)
+□ Cartea tehnică a construcției
+□ Certificatul de performanță energetică (obligatoriu prin lege)
+□ Documentele de garanție: centrală termică, lift, alte dotări
+□ Regulamentul asociației de proprietari
+□ Contractele de branșament utilități (sau confirmarea că sunt în lucru)`,
+      },
+      {
+        id: 'garantie',
+        h2: `Garanția legală și drepturile cumpărătorului la apartamente noi`,
+        continut: `Legea română oferă cumpărătorilor de apartamente noi o protecție solidă prin sistemul de garanții legale:
+
+Garanția generală pentru vicii ascunse: 3 ani de la predare pentru orice viciu care nu era vizibil la predare (probleme structurale minore, instalații defecte, infiltrații). În această perioadă, dezvoltatorul este obligat să remedieze pe cheltuiala proprie.
+
+Garanția extinsă pentru defecte structurale: 10 ani pentru elementele structurale ale construcției (fundații, coloane, grinzi, planșee). Orice problemă structurală descoperită în 10 ani de la recepția finală este responsabilitatea constructorului.
+
+Legea nr. 10/1995 privind calitatea în construcții: prevede obligații explicite ale constructorilor și beneficiarilor. Recepția finală a construcției de către autorități este distinctă de predarea apartamentului către cumpărător.
+
+Ce trebuie să faci practic pentru a-ți proteja drepturile:
+1. Documentează orice problemă cu fotografii și video la predare
+2. Consemnează explicit în procesul-verbal orice neconformitate observată (chiar dacă ți se spune că „se rezolvă")
+3. Trimite orice reclamație ulterioară în scris (email cu confirmare de primire, recomandat)
+4. Termenul pentru reclamarea viciilor aparente este de regulă 30 de zile de la predare
+
+La Neofort IMO, garanția post-predare este gestionată de o echipă dedicată de suport. Clienții au contact direct cu managerul de proiect pentru 12 luni după predare.`,
+      },
+      {
+        id: 'la-neofort',
+        h2: `Ce include predarea la cheie la proiectele Neofort IMO`,
+        continut: `La Neofort IMO, standardul de predare la cheie este definit explicit în antecontract și include:
+
+Finisaje standard (incluse în prețul afișat):
+• Parchet laminat clasa AC4 în living și dormitoare
+• Gresie rectificată în baie, bucătărie și hol
+• Faianță în baie (la înălțime completă) și bucătărie (la înălțime parțială, zonă de lucru)
+• Vopsea lavabilă pe pereți și tavan
+• Tâmplărie PVC cu geam termopan Low-E
+• Ușă de intrare metalică de securitate
+• Instalații sanitare complete: duș sau cadă, vas WC suspendat, lavoar cu baterie
+• Tablou electric cu siguranțe individuale, prize în fiecare cameră
+• Videointerfon
+• Centrală termică individuală (la proiectele cu sistem individual)
+
+Ce nu este inclus în prețul standard (disponibil opțional):
+• Aparatele de aer condiționat (priza și conducta incluse)
+• Electrocasnce bucătărie
+• Mobilier
+
+Locul de parcare: la fiecare proiect există opțiunea de achiziție parcare (exterioară sau interioară), cu prețuri afișate transparent în prezentarea proiectului. Locul de parcare se cumpără separat sau este inclus la cerere în prețul pachet.
+
+Dacă ai întrebări despre specificațiile unui proiect specific, consultanții noștri sunt disponibili la 0758 090 904.`,
+      },
+    ],
+  },
+  'randament-inchiriere-zone-bucuresti': {
+    titlu: `Randament la Închiriere pe Zone din București în 2026: Unde Investești Cel Mai Bine`,
+    tag: 'Investiții', tagColor: '#0369a1',
+    data: '10 Mai 2026', dataISO: '2026-05-10', citire: '10 min',
+    autor: 'sasha-calutu',
+    image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif',
+    descriere: `Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Date din piață, nu estimări optimiste. Ce zone oferă cel mai bun randament net.`,
+    keywords: ['randament inchiriere bucuresti 2026', 'investitie imobiliara bucuresti randament', 'cel mai bun randament chirie bucuresti', 'chirie apartament titan pallady', 'investitie apartament nou bucuresti', 'randament net imobiliare bucuresti'],
+    hashtags: ['#InvestitieImobiliara', '#RandamentInchiriere', '#ApartamenteBucuresti', '#PiatImobiliara', '#NeofortIMO'],
+    cuprins: [
+      { id: 'metodologie', titlu: `Cum calculăm randamentul corect` },
+      { id: 'titan-pallady', titlu: `Titan–Pallady — randamentul zonei` },
+      { id: 'militari', titlu: `Militari–Gorjului` },
+      { id: 'mosilor', titlu: `Moșilor–Eminescu` },
+      { id: 'piata-muncii', titlu: `Piața Muncii–Dristor` },
+      { id: 'floreasca', titlu: `Floreasca–Aviației (referință premium)` },
+      { id: 'comparativ', titlu: `Tabel comparativ și concluzie` },
+    ],
+    sectiuni: [
+      {
+        id: 'metodologie',
+        h2: `Cum calculăm randamentul real — metodologia corectă`,
+        continut: `Randamentul imobiliar este adesea prezentat în varianta cea mai optimistă: preț de achiziție împărțit la chiria anuală brută. Aceasta este o metodă greșită pentru orice decizie serioasă de investiție.
+
+Randamentul brut = (chirie lunară × 12) / prețul total de achiziție × 100
+
+Randamentul net = (chirie lunară × 12 - costuri anuale) / prețul total de achiziție × 100
+
+Costurile anuale care trebuie scăzute obligatoriu:
+• Impozit pe proprietate (E-Proprietatea 2026): 580–1.300 lei/an în funcție de valoare
+• Asigurare PAD obligatorie: ~200 lei/an
+• Asigurare facultativă: ~400–600 lei/an
+• Fond de reparații/întreținere: 1.000–2.000 lei/an (orice aparat sau instalație se strică)
+• Perioadă de vacanță (apartamentul gol între chiriași): estimat 5–8% din chiria anuală
+• Costuri de gestiune dacă nu administrezi singur: 8–10% din chirie
+
+Pe lângă acestea, trebuie inclus și costul capitalului: dacă ai luat credit pentru achiziție, dobânda redce randamentul net. Dacă ai plătit cash, există un cost de oportunitate (ce randament ai fi obținut altfel cu acești bani).
+
+Toate calculele de mai jos folosesc randamentul net fără cost de credit — adică scenariul cash.`,
+      },
+      {
+        id: 'titan-pallady',
+        h2: `Titan–Pallady — randamentul celei mai dinamice zone din București`,
+        continut: `Date de piață actualizate mai 2026:
+
+Prețuri apartamente noi (total cu TVA 21%):
+• Garsonieră 35–40 mp: 75.000–90.000 EUR
+• 2 camere 50–60 mp: 120.000–155.000 EUR
+• 3 camere 70–80 mp: 165.000–200.000 EUR
+
+Chirii lunare (date piață):
+• Garsonieră 35–40 mp: 300–380 EUR
+• 2 camere 50–60 mp: 430–530 EUR
+• 3 camere 70–80 mp: 550–680 EUR
+
+Calcul randament net — apartament 2 camere reprezentativ:
+• Preț total achiziție: 140.000 EUR
+• Chirie medie lunară: 480 EUR
+• Venit anual brut: 5.760 EUR
+• Costuri anuale estimate: 1.800 EUR (impozit, asigurare, fond, vacanță 5%)
+• Venit net anual: 3.960 EUR
+• Randament net: 2,8%
+
+Randament brut: 4,1%. Randament net: 2,8–3,2%.
+
+Avantajul real al zonei nu este randamentul curent (modest, ca în toată piața), ci aprecierea capitalului: +95% în 6 ani demonstrează că zona performează în randament total (chirie + apreciere) semnificativ mai bine decât alte active cu randament similar.`,
+      },
+      {
+        id: 'militari',
+        h2: `Militari–Gorjului — zona cu cel mai bun raport preț/randament din portofoliul Neofort IMO`,
+        continut: `Date de piață actualizate mai 2026:
+
+Prețuri apartamente noi (total cu TVA 21%):
+• Garsonieră 35 mp: 70.000–85.000 EUR
+• 2 camere 50–58 mp: 110.000–145.000 EUR
+• 3 camere 68–75 mp: 150.000–185.000 EUR
+
+Chirii lunare:
+• Garsonieră: 280–350 EUR
+• 2 camere: 400–490 EUR
+• 3 camere: 500–620 EUR
+
+Calcul randament net — 2 camere reprezentativ:
+• Preț total achiziție: 130.000 EUR
+• Chirie medie lunară: 445 EUR
+• Venit anual brut: 5.340 EUR
+• Costuri anuale: 1.700 EUR
+• Venit net anual: 3.640 EUR
+• Randament net: 2,8%
+
+Randament brut: 4,1%. Randament net: 2,8–3,1%.
+
+Militari are un avantaj practic față de alte zone: cererea de închiriere este consistentă tot anul, nu sezonieră. Populația lucrătoare din Sectorul 6 preferă să locuiască aproape de locul de muncă (Militari–Gorjului are densitate mare de angajatori: retail, logistică, producție). Perioadele de vacanță între chiriași sunt scurte.`,
+      },
+      {
+        id: 'mosilor',
+        h2: `Moșilor–Eminescu — zona pentru investitori cu buget mediu-mare`,
+        continut: `Date de piață actualizate mai 2026:
+
+Prețuri apartamente noi (total cu TVA 21%):
+• 2 camere 50–60 mp: 155.000–200.000 EUR
+• 3 camere 70–85 mp: 220.000–280.000 EUR
+
+Chirii lunare:
+• 2 camere: 550–680 EUR
+• 3 camere: 750–950 EUR
+
+Calcul randament net — 2 camere reprezentativ:
+• Preț total achiziție: 175.000 EUR
+• Chirie medie lunară: 615 EUR
+• Venit anual brut: 7.380 EUR
+• Costuri anuale: 2.000 EUR
+• Venit net anual: 5.380 EUR
+• Randament net: 3,1%
+
+Randament brut: 4,2%. Randament net: 3,0–3,3%.
+
+Moșilor–Eminescu are un profil diferit de chiriași: profesioniști tineri cu venituri medii-superioare, expați, familii fără copii. Aceasta se traduce în chiriași cu putere mai mare de plată și comportament mai previzibil. Rata de neocupare este printre cele mai mici din București (sub 3%).`,
+      },
+      {
+        id: 'piata-muncii',
+        h2: `Piața Muncii–Dristor — surpriza zonei cu trafic intens de căutare`,
+        continut: `Date de piață actualizate mai 2026:
+
+Piața Muncii este una din cele mai căutate zone de pe site-ul neofort.ro (5.300+ click-uri lunare din Google Search) — o dovadă că cererea reală depășește oferta disponibilă. Zona beneficiază de metrou M3 (Piața Muncii) și de conexiuni rapide spre centru.
+
+Prețuri apartamente noi (total cu TVA 21%):
+• 2 camere 50–60 mp: 125.000–160.000 EUR
+• 3 camere 68–78 mp: 170.000–210.000 EUR
+
+Chirii lunare:
+• 2 camere: 430–510 EUR
+• 3 camere: 560–680 EUR
+
+Calcul randament net — 2 camere reprezentativ:
+• Preț total achiziție: 145.000 EUR
+• Chirie medie lunară: 470 EUR
+• Venit anual brut: 5.640 EUR
+• Costuri anuale: 1.800 EUR
+• Venit net anual: 3.840 EUR
+• Randament net: 2,6%
+
+Randament brut: 3,9%. Randament net: 2,6–3,0%.
+
+Zona Piața Muncii este interesantă mai ales pentru investitorii pe termen lung care mizează pe aprecierea prețului — zona are un deficit semnificativ de ofertă față de cerere, iar noile proiecte sunt puține.`,
+      },
+      {
+        id: 'floreasca',
+        h2: `Floreasca–Aviației — randamentul zonei premium (referință de comparație)`,
+        continut: `Includ zona Floreasca nu ca recomandare directă (prețurile sunt mult mai mari față de celelalte zone), ci ca reper pentru a înțelege că randamentul nu crește proporțional cu calitatea zonei.
+
+Date de piață mai 2026:
+
+Prețuri apartamente noi:
+• 2 camere 55–65 mp: 280.000–380.000 EUR
+• 3 camere 80–100 mp: 400.000–600.000 EUR
+
+Chirii lunare:
+• 2 camere: 900–1.200 EUR
+• 3 camere: 1.400–2.000 EUR
+
+Calcul randament net — 2 camere reprezentativ:
+• Preț total achiziție: 320.000 EUR
+• Chirie medie lunară: 1.050 EUR
+• Venit anual brut: 12.600 EUR
+• Costuri anuale: 3.500 EUR
+• Venit net anual: 9.100 EUR
+• Randament net: 2,8%
+
+Randament brut: 3,9%. Randament net: 2,7–3,0%.
+
+Concluzia: randamentul net din Floreasca este similar sau chiar inferior față de Moșilor sau Titan-Pallady, la un preț de achiziție de 2–2,5x mai mare. Avantajul zonei premium este exclusiv aprecierea capitalului pe termen lung și calitatea chiriașilor (expați corporate, profesioniști seniori), nu randamentul brut.`,
+      },
+      {
+        id: 'comparativ',
+        h2: `Tabel comparativ și concluzie: ce zone merită atenția investitorului în 2026`,
+        continut: `Rezumat comparativ pe baza calculelor de mai sus (apartament 2 camere reprezentativ):
+
+Zona — Preț achiziție — Chirie lunară — Randament brut — Randament net
+Moșilor–Eminescu: 175.000 EUR — 615 EUR — 4,2% — 3,0–3,3%
+Titan–Pallady: 140.000 EUR — 480 EUR — 4,1% — 2,8–3,2%
+Militari–Gorjului: 130.000 EUR — 445 EUR — 4,1% — 2,8–3,1%
+Piața Muncii: 145.000 EUR — 470 EUR — 3,9% — 2,6–3,0%
+Floreasca–Aviației: 320.000 EUR — 1.050 EUR — 3,9% — 2,7–3,0%
+
+Ce observăm:
+
+Randamentul net este relativ uniform la 2,8–3,3% indiferent de zonă. Nu există zone „magice" cu randamente de 6–7% în București pe apartamente noi — cine îți promite asta fie minte, fie nu a inclus toate costurile.
+
+Diferențiatorul real este randamentul total: preț de achiziție + chirie + apreciere a capitalului. Pe aceasta metrică, Titan–Pallady și Militari performează cel mai bine în ultimii 5 ani.
+
+Recomandarea mea ca investitor: pentru randament curent maximizat — Moșilor–Eminescu (chirii mai mari, chiriași mai stabili). Pentru apreciere pe termen lung + randament decent — Titan–Pallady sau Militari.
+
+Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tău, consultanții Neofort IMO oferă consiliere gratuită fără obligații la 0758 090 904.`,
+      },
+    ],
+  },
+
 const ARTICOLE_LIST = [
   { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'E-Proprietatea 2026: Tot ce Trebuie să Știi', data: '22 Aprilie 2026', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed' },
-  { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Scad sau Nu Prețurile la Apartamente în București în 2026?', data: '15 Martie 2026', image: '/blog/scad-preturile-apartamente-bucuresti-2026.avif', tag: 'Piață', tagColor: '#0369a1' },
+  { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețurile Apartamentelor din București în 2026: Scad sau Nu?', data: '5 Aprilie 2026', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif', tag: 'Piață', tagColor: '#0369a1' },
+  { slug: 'tva-apartamente-noi-2026', titlu: 'TVA la Apartamente Noi în 2026: Cât Plătești', data: '10 Aprilie 2026', image: '/blog/tva-apartamente-noi-bucuresti-2026.avif', tag: 'Legislație', tagColor: '#7c3aed' },
+  { slug: 'titan-pallady-cea-mai-cautata-zona', titlu: 'Titan–Pallady: Cea Mai Căutată Zonă din București', data: '25 Aprilie 2026', image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif', tag: 'Zone', tagColor: '#0891b2' },
+  { slug: 'noua-casa-2026-ghid-complet', titlu: 'Programul Noua Casă 2026: Ghid Complet', data: '28 Aprilie 2026', image: '/blog/noua-casa-2026-ghid-complet.avif', tag: 'Finanțare', tagColor: '#0369a1' },
+  { slug: 'cumparare-apartament-din-diaspora', titlu: 'Cumperi Apartament din Diasporă: Ghid Complet', data: '1 Mai 2026', image: '/blog/cumparare-apartament-diaspora-ghid.avif', tag: 'Ghid', tagColor: '#2d7a3a' },
+  { slug: 'apartament-nou-vs-vechi-calcul-real', titlu: 'Apartament Nou vs. Vechi: Calculul Real al Costurilor', data: '4 Mai 2026', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif', tag: 'Analiză', tagColor: '#c2410c' },
+  { slug: 'predare-la-cheie-ce-inseamna', titlu: 'Predare la Cheie: Ce Trebuie să Conțină', data: '7 Mai 2026', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif', tag: 'Ghid', tagColor: '#2d7a3a' },
+  { slug: 'randament-inchiriere-zone-bucuresti', titlu: 'Randament la Închiriere pe Zone din București 2026', data: '10 Mai 2026', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif', tag: 'Investiții', tagColor: '#0369a1' },
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou', data: '10 Martie 2026', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a' },
 ]
 
