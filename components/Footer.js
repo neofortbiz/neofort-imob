@@ -25,7 +25,7 @@ export default function Footer() {
       <footer style={{ background: '#050f09' }}>
       <div className="max-w-7xl mx-auto px-6 pt-10 pb-6">
         {/* GRID 4 COLOANE */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-5 mb-8">
 
           {/* COL 1 — BRAND */}
           <div className="col-span-2 md:col-span-1 flex flex-col">
