@@ -1610,6 +1610,8 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
     ],
   },
 
+}
+
 const ARTICOLE_LIST = [
   { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'E-Proprietatea 2026: Tot ce Trebuie să Știi', data: '22 Aprilie 2026', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed' },
   { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețurile Apartamentelor din București în 2026: Scad sau Nu?', data: '5 Aprilie 2026', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif', tag: 'Piață', tagColor: '#0369a1' },
