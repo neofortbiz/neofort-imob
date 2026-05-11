@@ -25,18 +25,18 @@ export default function Footer() {
       <footer style={{ background: '#050f09' }}>
       <div className="max-w-7xl mx-auto px-6 pt-10 pb-6">
         {/* GRID 4 COLOANE */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-8">
 
           {/* COL 1 — BRAND */}
-          <div className="col-span-2 md:col-span-1">
+          <div className="col-span-2 md:col-span-1 flex flex-col">
             <div className="mb-4">
               <div style={{ background: 'white', borderRadius: 8, padding: '6px 10px', display: 'inline-block' }}><img src="/logo.avif" alt="Neofort IMO" className="h-12 w-auto" /></div>
             </div>
             <p className="text-xs leading-relaxed mb-4" style={{ color: '#aaa' }}>
               Dezvoltator și agenție imobiliară din București. Din 2009 livrăm ansambluri rezidențiale de calitate în toate sectoarele capitalei.
             </p>
-            {/* Social */}
-            <div className="flex gap-2">
+            {/* Social — aliniat cu ultimele randuri din coloanele alaturate */}
+            <div className="flex gap-2 mt-auto">
               <a href="https://www.facebook.com/profile.php?id=100063782524105" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
                 className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>f</a>
               <a href="https://www.instagram.com/neofortimobiliare/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
@@ -45,6 +45,8 @@ export default function Footer() {
                 className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>yt</a>
               <a href="https://x.com/NeofortIMO" target="_blank" rel="noopener noreferrer" aria-label="X"
                 className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>x</a>
+              <a href="https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7" target="_blank" rel="noopener noreferrer" aria-label="Google Maps"
+                className="w-7 h-7 rounded-md flex items-center justify-center text-[10px] hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>gm</a>
             </div>
           </div>
 
@@ -116,18 +118,17 @@ export default function Footer() {
               </Link>
             ))}
           </div>
-        </div>
 
-        {/* DATE FIRMA */}
-        <div className="py-5 mb-2" style={{ borderTop: '0.5px solid rgba(255,255,255,0.06)' }}>
-          <div className="flex flex-wrap gap-x-6 gap-y-1 text-[10px]" style={{ color: '#888' }}>
-            <span>Neofort IMO SRL</span>
-            <span>CUI: RO53874087</span>
-            <span>Nr. Reg. Com.: J40/8972/2026</span>
-            <span>Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776</span>
-            <span>Program: L–V 10:00–18:00</span>
-            <a href="https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7" target="_blank" rel="noopener noreferrer"
-              className="hover:text-gray-300 transition-colors">Google Maps ↗</a>
+          {/* COL 5 — DATE FIRMA */}
+          <div className="col-span-2 md:col-span-4 lg:col-span-1">
+            <h4 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Neofort IMO SRL</h4>
+            <div className="text-xs space-y-1.5" style={{ color: '#bbb' }}>
+              <div>CUI: RO53874087</div>
+              <div>Nr. Reg. Com.: J40/8972/2026</div>
+              <div>Str. Theodor Aman Pictor nr. 11,</div>
+              <div>Sector 1, București 010776</div>
+              <div>Program: L–V 10:00–18:00</div>
+            </div>
           </div>
         </div>
 
