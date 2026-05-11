@@ -190,7 +190,7 @@ Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțel
     tag: 'Piață', tagColor: '#0369a1',
     data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min',
     autor: 'sasha-calutu',
-    image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif',
+    image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.jpg',
     descriere: `Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date reale din ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21%, Noua Casă și ce înseamnă pentru cumpărătorii de azi.`,
     keywords: ['preturi apartamente bucuresti 2026', 'scad preturile imobiliare 2026', 'evolutie pret apartamente bucuresti', 'investitie imobiliara bucuresti 2026', 'apartamente noi pret 2026', 'piata imobiliara bucuresti 2026'],
     hashtags: ['#PreturiApartamente2026', '#PiatImobiliara', '#ApartamenteBucuresti', '#InvestitieImobiliara', '#NeofortIMO'],
@@ -361,7 +361,7 @@ Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții 
     tag: 'Legislație', tagColor: '#7c3aed',
     data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min',
     autor: 'igor-calutu',
-    image: '/blog/tva-apartamente-noi-bucuresti-2026.avif',
+    image: '/blog/tva-apartamente-noi-bucuresti-2026.jpg',
     descriere: `TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției. Date oficiale actualizate la zi.`,
     keywords: ['tva apartamente noi 2026', 'tva 9 procente locuinte 2026', 'tva 21 procente imobiliare', 'calcul tva apartament nou', 'tva locuinte conditii 2026', 'cumparare apartament tva'],
     hashtags: ['#TVAApartamente2026', '#LegislatieImobiliara', '#ApartamentNou', '#ApartamenteBucuresti', '#NeofortIMO'],
@@ -528,7 +528,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
     tag: 'Zone', tagColor: '#0891b2',
     data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min',
     autor: 'raluca-nistor',
-    image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif',
+    image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.jpg',
     descriere: `De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă — analiza completă a celei mai dinamice zone rezidențiale a Capitalei.`,
     keywords: ['titan pallady apartamente noi', 'zona titan pallady bucuresti', 'apartamente noi sector 3', 'metrou titan pallady', 'investitie imobiliara titan', 'cea mai buna zona bucuresti apartament'],
     hashtags: ['#TitanPallady', '#ApartamenteSector3', '#ZonaRezidentiala', '#ApartamenteBucuresti', '#NeofortIMO'],
@@ -675,7 +675,7 @@ Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Su
     tag: 'Finanțare', tagColor: '#0369a1',
     data: '28 Aprilie 2026', dataISO: '2026-04-28', citire: '10 min',
     autor: 'adriana-veselu',
-    image: '/blog/noua-casa-2026-ghid-complet.avif',
+    image: '/blog/noua-casa-2026-ghid-complet.jpg',
     descriere: `Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere, ce apartamente se califică și cum interacționează cu TVA 21%.`,
     keywords: ['noua casa 2026', 'program noua casa conditii', 'credit ipotecar garantat stat 2026', 'prima casa 2026', 'avans noua casa', 'noua casa bucuresti apartament nou'],
     hashtags: ['#NouaCasa2026', '#CreditIpotecar', '#AchizitieApartament', '#ApartamenteBucuresti', '#NeofortIMO'],
@@ -829,7 +829,7 @@ Durata totală realistă: 6–10 săptămâni de la primul contact cu banca pân
     tag: 'Ghid', tagColor: '#2d7a3a',
     data: '1 Mai 2026', dataISO: '2026-05-01', citire: '12 min',
     autor: 'svetlana-calutu',
-    image: '/blog/cumparare-apartament-diaspora-ghid.avif',
+    image: '/blog/cumparare-apartament-diaspora-ghid.jpg',
     descriere: `Ghid complet pentru românii din diasporă care vor să cumpere apartament în București fără să vină fizic în țară: procuri notariale, transfer valută, alegerea zonei, riscuri și experiența Neofort IMO cu clienți din Germania, Austria, Franța, Israel, Grecia, Turcia și R. Moldova.`,
     keywords: ['cumparare apartament diaspora bucuresti', 'apartament nou bucuresti din strainatate', 'procura notariala cumparare apartament', 'romani diaspora imobiliare bucuresti', 'investitie imobiliara bucuresti din germania', 'apartament bucuresti fara sa vii in tara'],
     hashtags: ['#DiasporaRomana', '#ApartamentBucuresti', '#CumparareOnline', '#InvestitieImobiliara', '#NeofortIMO'],
@@ -1018,7 +1018,7 @@ Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. C
     tag: 'Analiză', tagColor: '#c2410c',
     data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min',
     autor: 'ramona-baicu',
-    image: '/blog/apartament-nou-vs-vechi-calcul-real.avif',
+    image: '/blog/apartament-nou-vs-vechi-calcul-real.jpg',
     descriere: `Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, întreținere, risc seismic, impozit E-Proprietatea, randament închiriere și ce alegi pe termen lung.`,
     keywords: ['apartament nou vs vechi bucuresti', 'cost total apartament vechi', 'bloc nou sau vechi bucuresti', 'risc seismic bucuresti bloc vechi', 'cheltuieli intretinere apartament vechi', 'investitie apartament nou sau vechi'],
     hashtags: ['#ApartamentNouVsVechi', '#PiatImobiliara', '#CostTotal', '#ApartamenteBucuresti', '#NeofortIMO'],
@@ -1185,7 +1185,7 @@ Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătă
     tag: 'Ghid', tagColor: '#2d7a3a',
     data: '7 Mai 2026', dataISO: '2026-05-07', citire: '8 min',
     autor: 'adrian-pintilie',
-    image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif',
+    image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.jpg',
     descriere: `Ce înseamnă „predare la cheie" la un apartament nou? Lista completă a finisajelor incluse obligatoriu, ce poate lipsi și nu îți spune nimeni, checklist de verificare la predare și drepturile legale ale cumpărătorilor.`,
     keywords: ['predare la cheie apartament', 'ce include predare la cheie', 'finisaje apartament nou', 'verificare predare apartament', 'vicii apartament nou garantie', 'checklist predare apartament'],
     hashtags: ['#PredareaLaCheie', '#ApartamentNou', '#FinisajeApartament', '#GhidCumparare', '#NeofortIMO'],
@@ -1387,7 +1387,7 @@ Dacă ai întrebări despre specificațiile unui proiect specific, consultanții
     tag: 'Investiții', tagColor: '#0369a1',
     data: '10 Mai 2026', dataISO: '2026-05-10', citire: '10 min',
     autor: 'sasha-calutu',
-    image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif',
+    image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.jpg',
     descriere: `Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Date din piață, nu estimări optimiste. Ce zone oferă cel mai bun randament net.`,
     keywords: ['randament inchiriere bucuresti 2026', 'investitie imobiliara bucuresti randament', 'cel mai bun randament chirie bucuresti', 'chirie apartament titan pallady', 'investitie apartament nou bucuresti', 'randament net imobiliare bucuresti'],
     hashtags: ['#InvestitieImobiliara', '#RandamentInchiriere', '#ApartamenteBucuresti', '#PiatImobiliara', '#NeofortIMO'],
@@ -1610,18 +1610,215 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
     ],
   },
 
+
+  'ghid-cumparare-apartament-nou': {
+    titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare',
+    tag: 'Ghid', tagColor: '#2d7a3a',
+    data: '10 Martie 2026', dataISO: '2026-03-10', citire: '13 min',
+    autor: 'adriana-veselu',
+    image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
+    descriere: 'Ghid practic și complet pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare cheie. Sfaturi de la consultant cu 400+ tranzacții.',
+    keywords: ['cum cumpar apartament nou 2026', 'ghid cumparare apartament nou', 'antecontract apartament nou', 'capcane cumparare apartament', 'pasi cumparare apartament nou bucuresti'],
+    hashtags: ['#GhidCumparareApartament', '#ApartamentNou2026', '#ApartamenteBucuresti', '#ConsultantaImobiliara', '#NeofortIMO'],
+    cuprins: [
+      { id: 'inainte', titlu: 'Înainte de a căuta: ce trebuie să stabilești' },
+      { id: 'cercetare', titlu: 'Cum analizezi un dezvoltator și un proiect' },
+      { id: 'finantare', titlu: 'Finanțarea: credit ipotecar vs. surse proprii' },
+      { id: 'antecontract', titlu: 'Antecontractul: ce verifici înainte să semnezi' },
+      { id: 'capcane', titlu: '8 capcane frecvente și cum le eviți' },
+      { id: 'predare', titlu: 'Predarea apartamentului: lista de verificare' },
+      { id: 'costuri', titlu: 'Toate costurile: ce nu îți spune nimeni' },
+    ],
+    sectiuni: [
+      {
+        id: 'inainte',
+        h2: 'Înainte de a căuta: ce trebuie să stabilești clar',
+        continut: `Cel mai frecvent greșeală pe care o văd după 16 ani de consultanță imobiliară: oamenii caută apartamente înainte să fi răspuns la câteva întrebări fundamentale. Rezultatul: decizie emoțională, compromisuri costisitoare, regrete.
+
+**Întrebările la care trebuie să ai răspuns înainte de prima vizionare:**
+
+*Bugetul real — nu cel optim, ci cel maxim:*
+Calculează: avansul disponibil + creditul maxim aprobat (sau pre-aprobat de bancă). Adaugă 3-5% pentru costuri de tranzacționare (taxă notarială, intabulare, comision). Acesta este bugetul tău real.
+
+Exemplu concret: venituri nete familie 8.000 lei/lună → credit ipotecar maxim ~260.000 lei (~52.000€) la rata de 35% din venit. Dacă ai avans de 30.000€, bugetul total este ~82.000€. Aceasta este căsuța în care cauți, nu mai sus.
+
+*Orizontul de timp:*
+Intenționezi să locuiești minim 5 ani? Sau e o investiție pe 2-3 ani? Dacă e pe termen scurt, calculul este complet diferit. Pe termen scurt, tranzacția (costuri intrare + ieșire) poate consuma tot profitul dintr-o piață cu creștere moderată.
+
+*Zona — non-negociabilă vs. preferată:*
+Fă lista: ce nu poți accepta (distanță maximă față de birou, lipsa metrului, zonă nesigură)? Ce preferi dar poți negocia? Mulți oameni confundă preferințele cu necesitățile și ratează apartamente excelente.`,
+      },
+      {
+        id: 'cercetare',
+        h2: 'Cum analizezi un dezvoltator și un proiect — checklist complet',
+        continut: `Nu toți dezvoltatorii sunt egali. Am văzut în 16 ani de activitate situații în care cumpărători entuziaști au semnat antecontracte cu dezvoltatori care ulterior au întârziat 2-3 ani sau au livrat calitate sub standarde. Iată cum să verifici:
+
+**Verificarea dezvoltatorului (obligatorie):**
+
+1. *Portofoliu anterior*: Caută proiectele finalizate. Vorbește cu locatari dacă poți (Facebookuri de cartier, grupuri). Întreabă: s-a livrat la timp? Sunt probleme tehnice nesoluționate?
+
+2. *Situație juridică*: Verifică CUI-ul la ONRC. Există procedure de insolvență sau faliment în derulare? Caută în dosare.justice.ro dacă există procese majore.
+
+3. *Autorizații disponibile*: Dezvoltatorul trebuie să îți pună la dispoziție Autorizația de Construire, Certificatul de Urbanism și dovada dreptului de proprietate/superficie pe teren. Dacă ezită — semnal roșu.
+
+4. *Finanțarea proiectului*: Proiectul este finanțat de bancă sau din fonduri proprii? Proiectele cu finanțare bancară au un nivel mai ridicat de supraveghere financiară — băncile nu finanțează proiecte fără documentație solidă.
+
+**Verificarea proiectului:**
+
+5. *Stadiu fizic vs. stadiu contractat*: Dacă plătești avans și construcția e la nivelul 0, riscul e mai mare decât dacă structura e finalizată.
+
+6. *Specificații tehnice în scris*: Tâmplărie, izolație, finisaje, dotări — trebuie să fie în antecontract, nu doar în broșura de vânzare.`,
+      },
+      {
+        id: 'finantare',
+        h2: 'Finanțarea apartamentului nou: credit ipotecar vs. surse proprii în 2026',
+        continut: `Aceasta este probabil cea mai importantă decizie financiară pe care o vei lua în viața ta. Nu o lua emoțional.
+
+**Credit ipotecar în 2026 — situația actuală:**
+
+Rata dobânzii de referință (ROBOR 3M) se află la 5,8-6,2% în Q1 2026. Adăugând marja băncii (2-3%), rata totală pentru un credit în lei este de 7,8-9,2% DAE efectiv. Aceasta înseamnă că pentru un credit de 250.000 lei pe 30 de ani, plătești în total circa 570.000-620.000 lei — adică 2,2-2,5x suma împrumutată.
+
+*Este creditare mai scumpă decât în 2020-2021?* Absolut. *Este prohibitivă?* Nu, dacă rata este sub 35% din venitul net.
+
+**Prima Casă / Noua Casă — avantaje concrete:**
+• Avans minim 5% (față de 15-20% la credit standard)
+• Garanție de stat pentru 50% din valoarea creditului
+• Plafonul maxim: 66.500€ (locuință nouă), 57.000€ (locuință veche)
+• Dezavantaj: nu poți deține o altă proprietate, comisioane mai mari
+
+**Credit ipotecar standard:**
+• Avans minim 15-20%
+• Fără plafon de preț
+• Flexibilitate mai mare în negocierea condițiilor
+• Recomandare: mergi la minim 3 bănci și cere oferte în scris înainte să te hotărăști
+
+**Plata integrală din surse proprii:**
+Dacă ai lichiditatea, este cea mai simplă variantă. Negociezi un discount de 3-7% cu dezvoltatorul (prețul cash este întotdeauna mai mic), elimini costul dobânzii și ești mai flexibil în decizie.`,
+      },
+      {
+        id: 'antecontract',
+        h2: 'Antecontractul: ce verifici înainte să semnezi',
+        continut: `Antecontractul (promisiunea bilaterală de vânzare-cumpărare) este documentul cel mai important în procesul de achiziție. Odată semnat, ești legat juridic. Înainte de semnătură, verifică obligatoriu:
+
+**Clauze esențiale care trebuie să fie prezente:**
+
+*1. Descrierea exactă a proprietății:* suprafața utilă, suprafața construită, etaj, număr cadastral apartament (dacă există), cota parte din spațiile comune, locul de parcare (dacă e inclus).
+
+*2. Prețul total și structura plăților:* prețul în EUR sau LEI, cursul de schimb (dacă e în EUR), graficul de plăți (avans, tranșe la etape de construcție, plată finală la predare). Fii atent la "prețul poate fi ajustat cu indicele inflației" — înseamnă că prețul nu e fixat.
+
+*3. Termenul de finalizare și penalități:* data estimată de predare și penalitățile dacă dezvoltatorul depășește termenul. Standard în piață: 0,05-0,1%/zi din avansul plătit. Dacă nu există penalități pentru întârziere, negociază sau evită.
+
+*4. Specificațiile tehnice în anexă:* tâmplărie, finisaje, dotări — în detaliu, nu generic ("tâmplărie de calitate").
+
+*5. Condițiile de reziliere:* în ce condiții poți ieși din contract și ce primești înapoi? Avansul este returnat integral sau există penalizări?
+
+**Clauzele abuzive frecvente (de evitat):**
+• "Prețul se ajustează în funcție de suprafața reală măsurată la predare" fără un plafon maxim de variație
+• "Termenul de predare se poate prelungi fără limitare din motive independente de voința vânzătorului"
+• "Cumpărătorul nu poate ceda antecontractul fără acordul scris al vânzătorului" — limitează opțiunile tale`,
+      },
+      {
+        id: 'capcane',
+        h2: '8 Capcane Frecvente în Cumpărarea Apartamentelor Noi — și Cum le Eviți',
+        continut: `Le-am văzut pe toate. Iată lista completă, cu exemple reale (anonimizate):
+
+**1. Suprafața utilă vs. suprafața construită**
+Dezvoltatorii afișează prețul "per mp util" dar suprafața utilă (ce folosești efectiv) este 75-85% din suprafața construită. Un apartament de "55 mp utili" are ~65-70 mp construiți. La 2.000 EUR/mp construit, prețul real e mai mic decât la 2.000 EUR/mp util.
+
+**2. Locul de parcare "gratuit" care nu există în acte**
+Am văzut situații unde broșura promite "loc de parcare inclus", dar antecontractul nu îl menționează. La predare, locul de parcare se vinde separat la 8.000-15.000€. Soluție: locul de parcare trebuie menționat explicit în antecontract, cu numărul cadastral dacă e posibil.
+
+**3. Termenul de predare — optimism vs. realitate**
+Statisticile Neofort IMO din ultimii 10 ani: 60% din proiectele livrate au depășit termenul inițial cu 3-18 luni. Calculează-ți planul financiar cu o marjă de 6 luni față de termenul promis.
+
+**4. Finisajele "la cheie" care nu includ ce crezi**
+"La cheie" este un termen ambiguu. Verifică în detaliu: include zugrăveli? Gresie? Parchet? Obiecte sanitare? Ușile interioare? Am văzut "la cheie" fără ușile interioare, fără aparate de aer condiționat deși priza AC era prevăzută.
+
+**5. Utilitățile — costuri ascunse la branșament**
+Branșamentele individuale (gaz, curent, apă) la un apartament nou pot costa 2.000-5.000 lei suplimentar dacă nu sunt incluse în preț. Verifică explicit.
+
+**6. Taxele de administrare înainte de predare**
+Unii dezvoltatori încep să perceapă taxe de administrare/asociație din momentul finalizării blocului, nu din momentul predării cheii. Poți plăti 3-6 luni de taxe pentru un apartament în care nu locuiești.
+
+**7. Rezoluțiunea unilaterală a antecontractului de către dezvoltator**
+Unele contracte prevăd că dezvoltatorul poate rezilia contractul cu returnarea avansului (fără dobânzi sau penalități) în anumite condiții vagi. Aceasta te lasă expus: ai blocat banii fără randament și poate piața s-a mișcat între timp.
+
+**8. Comisionul de intermediere ascuns**
+Dacă cumperi printr-un agent imobiliar, verifică clar: comisionul este plătit de cumpărător sau de dezvoltator? La Neofort IMO, cumpărătorii nu plătesc comision — este plătit de noi ca și companie de dezvoltare. Nu toți dezvoltatorii funcționează la fel.`,
+      },
+      {
+        id: 'predare',
+        h2: 'Predarea apartamentului: lista de verificare obligatorie',
+        continut: `Ziua predării este momentul în care trebuie să fii cel mai atent. Ce semnezi la predare este definitiv.
+
+**Ce verifici ÎNAINTE de a semna procesul-verbal de predare:**
+
+*Structural:*
+• Fisuri în pereți sau plafon — orice fisură mai mare de 0,3 mm la pereți portanți este problemă majoră
+• Nivel și planeitate pardoseli — verifică cu o bilă sau o nivelă de 1m
+• Ferestre și uși — deschid și se închid corect, fără să freceze sau să lase curent
+
+*Finisaje:*
+• Gresie și faianță — verifică bucată cu bucată, scoate zone goale (sunet sec = lipsa mortarului → se va crăpa)
+• Parchet — umflături, scârțâituri
+• Zugrăveli — pete de umiditate, imperfecțiuni majore
+
+*Instalații:*
+• Apa caldă și rece — deschide toate robinetele, verifică presiunea și temperatura
+• Canalizare — lasă apa să curgă 3 minute, verifică scurgerea (nu vrei să descoperi o teava înfundată după ce te muți)
+• Electricitate — verifică fiecare priză și întrerupător cu o lampă de test
+• Gaz — nu verifica singur, doar împreună cu reprezentantul Distrigaz/Engie
+
+*Documente primite la predare:*
+• Procesul-verbal de predare-primire (semnează DOAR după ce ai verificat tot)
+• Cartea tehnică a construcției
+• Certificatul de performanță energetică
+• Documentele de garanție pentru dotări (centrală termică, lift, etc.)
+• Regulamentul asociației de proprietari`,
+      },
+      {
+        id: 'costuri',
+        h2: 'Toate costurile cumpărării unui apartament nou — ce nu îți spune nimeni',
+        continut: `"Prețul apartamentului" nu este suma totală pe care o plătești. Iată calculul complet, cu valori reale pentru un apartament de 150.000€ în București în 2026:
+
+**Costul apartamentului:** 150.000€
+
+**Taxa notarială:** ~4.000-5.000 lei (variabilă în funcție de valoarea tranzacției, aproximativ 0,5-1%)
+
+**Taxa de intabulare (OCPI):** 1.500-2.500 lei (depinde de valoare)
+
+**Impozit la achiziție:** 0 lei (TVA 5% sau 9% este deja inclus în prețul apartamentelor noi, nu se plătește separat de cumpărător)
+
+**Asigurare obligatorie PAD:** ~200 lei/an (obligatorie prin lege)
+
+**Asigurare facultativă locuință:** 300-600 lei/an (recomandată)
+
+**Mobilare și echipare:** 15.000-40.000€ (în funcție de standard) — costul adesea uitat
+
+**Fond de urgență recomandat:** 3-6 luni cheltuieli lunare totale (criză financiară personală)
+
+**Costul total real pentru intrarea în apartamentul de 150.000€:**
+150.000€ + ~3.500 lei taxe + 20.000-40.000€ mobilare + fond urgență = 175.000-200.000€ buget total necesar
+
+**De ce contează:** mulți cumpărători intră în tranzacție cu exact avansul calculat și descoperă că au nevoie de 15-25% mai mult pentru a putea locui efectiv în apartamentul achiziționat. Planifică din timp.
+
+Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sună-ne la 0758 090 904 sau trimite-ne o solicitare prin formularul de contact — oferim consultanță gratuită fără angajamente.`,
+      },
+    ],
+  },
+}
 }
 
 const ARTICOLE_LIST = [
   { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'E-Proprietatea 2026: Tot ce Trebuie să Știi', data: '22 Aprilie 2026', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed' },
-  { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețurile Apartamentelor din București în 2026: Scad sau Nu?', data: '5 Aprilie 2026', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif', tag: 'Piață', tagColor: '#0369a1' },
-  { slug: 'tva-apartamente-noi-2026', titlu: 'TVA la Apartamente Noi în 2026: Cât Plătești', data: '10 Aprilie 2026', image: '/blog/tva-apartamente-noi-bucuresti-2026.avif', tag: 'Legislație', tagColor: '#7c3aed' },
-  { slug: 'titan-pallady-cea-mai-cautata-zona', titlu: 'Titan–Pallady: Cea Mai Căutată Zonă din București', data: '25 Aprilie 2026', image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif', tag: 'Zone', tagColor: '#0891b2' },
-  { slug: 'noua-casa-2026-ghid-complet', titlu: 'Programul Noua Casă 2026: Ghid Complet', data: '28 Aprilie 2026', image: '/blog/noua-casa-2026-ghid-complet.avif', tag: 'Finanțare', tagColor: '#0369a1' },
-  { slug: 'cumparare-apartament-din-diaspora', titlu: 'Cumperi Apartament din Diasporă: Ghid Complet', data: '1 Mai 2026', image: '/blog/cumparare-apartament-diaspora-ghid.avif', tag: 'Ghid', tagColor: '#2d7a3a' },
-  { slug: 'apartament-nou-vs-vechi-calcul-real', titlu: 'Apartament Nou vs. Vechi: Calculul Real al Costurilor', data: '4 Mai 2026', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif', tag: 'Analiză', tagColor: '#c2410c' },
-  { slug: 'predare-la-cheie-ce-inseamna', titlu: 'Predare la Cheie: Ce Trebuie să Conțină', data: '7 Mai 2026', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif', tag: 'Ghid', tagColor: '#2d7a3a' },
-  { slug: 'randament-inchiriere-zone-bucuresti', titlu: 'Randament la Închiriere pe Zone din București 2026', data: '10 Mai 2026', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif', tag: 'Investiții', tagColor: '#0369a1' },
+  { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețurile Apartamentelor din București în 2026: Scad sau Nu?', data: '5 Aprilie 2026', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.jpg', tag: 'Piață', tagColor: '#0369a1' },
+  { slug: 'tva-apartamente-noi-2026', titlu: 'TVA la Apartamente Noi în 2026: Cât Plătești', data: '10 Aprilie 2026', image: '/blog/tva-apartamente-noi-bucuresti-2026.jpg', tag: 'Legislație', tagColor: '#7c3aed' },
+  { slug: 'titan-pallady-cea-mai-cautata-zona', titlu: 'Titan–Pallady: Cea Mai Căutată Zonă din București', data: '25 Aprilie 2026', image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.jpg', tag: 'Zone', tagColor: '#0891b2' },
+  { slug: 'noua-casa-2026-ghid-complet', titlu: 'Programul Noua Casă 2026: Ghid Complet', data: '28 Aprilie 2026', image: '/blog/noua-casa-2026-ghid-complet.jpg', tag: 'Finanțare', tagColor: '#0369a1' },
+  { slug: 'cumparare-apartament-din-diaspora', titlu: 'Cumperi Apartament din Diasporă: Ghid Complet', data: '1 Mai 2026', image: '/blog/cumparare-apartament-diaspora-ghid.jpg', tag: 'Ghid', tagColor: '#2d7a3a' },
+  { slug: 'apartament-nou-vs-vechi-calcul-real', titlu: 'Apartament Nou vs. Vechi: Calculul Real al Costurilor', data: '4 Mai 2026', image: '/blog/apartament-nou-vs-vechi-calcul-real.jpg', tag: 'Analiză', tagColor: '#c2410c' },
+  { slug: 'predare-la-cheie-ce-inseamna', titlu: 'Predare la Cheie: Ce Trebuie să Conțină', data: '7 Mai 2026', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.jpg', tag: 'Ghid', tagColor: '#2d7a3a' },
+  { slug: 'randament-inchiriere-zone-bucuresti', titlu: 'Randament la Închiriere pe Zone din București 2026', data: '10 Mai 2026', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.jpg', tag: 'Investiții', tagColor: '#0369a1' },
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou', data: '10 Martie 2026', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a' },
 ]
 
