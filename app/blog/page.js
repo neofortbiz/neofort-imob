@@ -302,7 +302,7 @@ export default function BlogPage() {
                   {ARTICOLE.map(a => (
                     <Link key={a.slug} href={`/blog/${a.slug}`} className="flex gap-2 group">
                       <div className="relative w-14 h-10 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100">
-                        {a.image && <Image src={a.image} alt={a.titlu} fill className="object-cover" />}
+                        {a.image && <img src={a.image} alt={a.titlu} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />}
                       </div>
                       <div>
                         <p className="text-[11px] text-gray-700 font-medium leading-tight group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{a.titlu}</p>
