@@ -32,19 +32,19 @@ export default function Footer() {
             <div className="mb-4">
               <div style={{ background: 'white', borderRadius: 8, padding: '6px 10px', display: 'inline-block' }}><img src="/logo.avif" alt="Neofort IMO" className="h-12 w-auto" /></div>
             </div>
-            <p className="text-xs leading-relaxed mb-4" style={{ color: '#666' }}>
+            <p className="text-xs leading-relaxed mb-4" style={{ color: '#aaa' }}>
               Dezvoltator și agenție imobiliară din București. Din 2009 livrăm ansambluri rezidențiale de calitate în toate sectoarele capitalei.
             </p>
             {/* Social */}
             <div className="flex gap-2">
               <a href="https://www.facebook.com/profile.php?id=100063782524105" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
-                className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #333', color: '#666' }}>f</a>
+                className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>f</a>
               <a href="https://www.instagram.com/neofortimobiliare/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
-                className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #333', color: '#666' }}>in</a>
+                className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>in</a>
               <a href="https://www.youtube.com/user/neofortbizimobiliare" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
-                className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #333', color: '#666' }}>yt</a>
+                className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>yt</a>
               <a href="https://x.com/NeofortIMO" target="_blank" rel="noopener noreferrer" aria-label="X"
-                className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #333', color: '#666' }}>x</a>
+                className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>x</a>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
               { href: '/ansambluri-rezidentiale?status=promotie', label: 'Promoție' },
               { href: '/harta-ansambluri', label: 'Hartă' },
             ].map(l => (
-              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#777' }}>
+              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}
               </Link>
             ))}
@@ -95,7 +95,7 @@ export default function Footer() {
                   .map(([z]) => ({ href: `/zona/${z}`, label: label(z) }))
               })(),
             ].map(l => (
-              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#777' }}>
+              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}
               </Link>
             ))}
@@ -111,16 +111,29 @@ export default function Footer() {
               { href: '/contact', label: 'Contact' },
               { href: '/gdpr', label: 'Politica GDPR' },
             ].map(l => (
-              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#777' }}>
+              <Link key={l.href} href={l.href} className="block text-xs mb-1.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}
               </Link>
             ))}
           </div>
         </div>
 
+        {/* DATE FIRMA */}
+        <div className="py-5 mb-2" style={{ borderTop: '0.5px solid rgba(255,255,255,0.06)' }}>
+          <div className="flex flex-wrap gap-x-6 gap-y-1 text-[10px]" style={{ color: '#888' }}>
+            <span>Neofort IMO SRL</span>
+            <span>CUI: RO53874087</span>
+            <span>Nr. Reg. Com.: J40/8972/2026</span>
+            <span>Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776</span>
+            <span>Program: L–V 10:00–18:00</span>
+            <a href="https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7" target="_blank" rel="noopener noreferrer"
+              className="hover:text-gray-300 transition-colors">Google Maps ↗</a>
+          </div>
+        </div>
+
         {/* FOOTER BOTTOM */}
-        <div className="flex flex-col md:flex-row justify-between items-center pt-5 gap-2" style={{ borderTop: '0.5px solid rgba(255,255,255,0.06)' }}>
-          <p className="text-[10px]" style={{ color: '#444' }}>
+        <div className="flex flex-col md:flex-row justify-between items-center pt-4 gap-2">
+          <p className="text-[10px]" style={{ color: '#888' }}>
             © 2026 Neofort IMO® — Marcă înregistrată · București, România
           </p>
           <div className="flex gap-4">
@@ -129,7 +142,7 @@ export default function Footer() {
               { href: '/cookies', label: 'Cookies' },
               { href: '/termeni', label: 'Termeni' },
             ].map(l => (
-              <Link key={l.href} href={l.href} className="text-[10px] hover:text-gray-400 transition-colors" style={{ color: '#444' }}>
+              <Link key={l.href} href={l.href} className="text-[10px] hover:text-gray-400 transition-colors" style={{ color: '#888' }}>
                 {l.label}
               </Link>
             ))}

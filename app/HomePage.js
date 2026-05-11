@@ -217,6 +217,24 @@ export default function HomePageClient() {
               </div>
             ))}
           </div>
+
+          {/* RATING GOOGLE */}
+          <div className="mt-6 flex items-center justify-center gap-2">
+            <div className="flex items-center gap-1">
+              {[1,2,3,4,5].map(i => (
+                <svg key={i} width="14" height="14" viewBox="0 0 24 24"
+                  fill={i <= 4 ? '#e8b44e' : 'none'} stroke="#e8b44e" strokeWidth="1.5">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+              ))}
+            </div>
+            <span className="text-sm font-medium" style={{ color: '#e8b44e' }}>4.3</span>
+            <span className="text-xs" style={{ color: 'rgba(255,255,255,0.5)' }}>·</span>
+            <a href="https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7" target="_blank" rel="noopener noreferrer"
+              className="text-xs hover:underline" style={{ color: 'rgba(255,255,255,0.6)' }}>
+              105 recenzii Google
+            </a>
+          </div>
         </section>
 
         {/* FILTER STRIP */}
@@ -526,6 +544,35 @@ export default function HomePageClient() {
             </Link>
           </div>
         </div>
+
+        {/* FAQ */}
+        <section className="py-12 px-6 border-t border-gray-100" style={{ background: '#f9fafb' }}>
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-8">
+              <p className="text-xs font-medium uppercase tracking-widest mb-2" style={{ color: '#2d7a3a' }}>Întrebări frecvente</p>
+              <h2 className="text-xl font-medium text-gray-900">Tot ce trebuie să știi despre Neofort IMO</h2>
+            </div>
+            <div className="space-y-3">
+              {[
+                { q: 'Neofort IMO percepe comision de agenție?', a: 'Nu. Neofort IMO comercializează apartamente direct de la sursă, fără comision de agenție pentru cumpărător. Prețul afișat este prețul final, fără costuri ascunse.' },
+                { q: 'Câte proiecte rezidențiale a livrat Neofort IMO?', a: 'Neofort IMO a livrat peste 85 de ansambluri rezidențiale în București din 2009 până în prezent, ajutând peste 4.000 de familii să-și cumpere un apartament nou.' },
+                { q: 'În ce sectoare din București are Neofort IMO ansambluri active?', a: 'Ansambluri active în Sectorul 2 (Moșilor-Eminescu, Eminescu-Viitorului, Tepeș Vodă), Sectorul 3 (Titan-Pallady, Piața Muncii, IOR) și Sectorul 6 (Militari, Gorjului, Iuliu Maniu).' },
+                { q: 'Apartamentele Neofort IMO se predau la cheie?', a: 'Da. Toate apartamentele se predau cu finisaje complete incluse în preț: parchet, gresie, faianță, obiecte sanitare, tâmplărie, instalații complete. Te muți direct.' },
+                { q: 'Cum se face rezervarea unui apartament?', a: 'Rezervarea se face cu o sumă variabilă per proiect, restituibilă integral dacă nu se semnează antecontractul din vina dezvoltatorului. Consultanță juridică și bancară gratuită inclusă.' },
+                { q: 'Neofort IMO acceptă credite bancare și Noua Casă?', a: 'Da. Acceptăm finanțare prin credit bancar standard, Noua Casă și plată în avans. Consultanți bancari parteneri disponibili gratuit pentru analiza eligibilității.' },
+                { q: 'Care este programul și adresa Neofort IMO?', a: 'Str. Theodor Aman Pictor nr. 11, Sector 1, București. Program: Luni–Vineri 10:00–18:00. Telefon: 0758 090 904.' },
+              ].map((item, i) => (
+                <details key={i} className="group rounded-xl border border-gray-200 bg-white overflow-hidden">
+                  <summary className="flex items-center justify-between gap-3 px-5 py-4 cursor-pointer text-sm font-medium text-gray-900 select-none list-none">
+                    {item.q}
+                    <svg className="flex-shrink-0 w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                  </summary>
+                  <div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">{item.a}</div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
 
         {/* BLOG */}
         <section className="py-8 px-6 border-t border-gray-200">
