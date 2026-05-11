@@ -132,35 +132,22 @@ export default function PortofoliuAnsambluPage({ params }) {
           </div>
         </section>
 
-        {/* POZA PROIECT */}
-        {a.cover && (
-          <div className="max-w-5xl mx-auto px-6 pt-8">
-            <div className="rounded-xl overflow-hidden" style={{ aspectRatio: '16/9' }}>
-              <img src={a.cover} alt={`${a.nume} - apartamente noi București`}
-                className="w-full h-full object-cover"
-                loading="eager" />
-            </div>
-          </div>
-        )}
-
         <div className="max-w-5xl mx-auto px-6 py-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
             {/* MAIN */}
             <div className="md:col-span-2 space-y-8">
 
-              {/* GALERIE PLACEHOLDER */}
-              <div className="pb-6 border-b border-gray-100">
-                <h2 className="text-base font-medium text-gray-900 mb-4">Galerie foto</h2>
-                <div className="grid grid-cols-3 gap-2">
-                  {[1,2,3,4,5,6].map(i => (
-                    <div key={i} className="rounded-lg bg-gray-100 flex items-center justify-center"
-                      style={{ aspectRatio: '4/3' }}>
-                      <span className="text-xs text-gray-400">Foto {i}</span>
-                    </div>
-                  ))}
+              {/* POZA PROIECT */}
+              {a.cover && (
+                <div className="rounded-xl overflow-hidden" style={{ aspectRatio: '4/3', maxWidth: '480px' }}>
+                  <img src={a.cover} alt={`${a.nume} - apartamente noi București`}
+                    className="w-full h-full object-cover"
+                    loading="eager" />
                 </div>
-              </div>
+              )}
+
+
 
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
@@ -239,7 +226,7 @@ export default function PortofoliuAnsambluPage({ params }) {
             </div>
 
             {/* SIDEBAR */}
-            <div className="space-y-4">
+            <div className="space-y-4 sticky top-4 self-start">
 
               {/* STATUS */}
               <div className="rounded-xl border border-gray-100 p-5">
