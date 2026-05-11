@@ -28,15 +28,8 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-[1.8fr_1fr_1fr_1fr_1.2fr] gap-6 mb-8">
 
           {/* COL 1 — BRAND */}
-          <div className="col-span-2 md:col-span-1 flex flex-col">
-            <div className="mb-4">
-              <div style={{ background: 'white', borderRadius: 8, padding: '6px 10px', display: 'inline-block' }}><img src="/logo.avif" alt="Neofort IMO" className="h-12 w-auto" /></div>
-            </div>
-            {/* Titlu coloana (invizibil) — ocupa spatiul titlului din coloanele alaturate */}
-            <div className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: 'transparent', userSelect: 'none' }}>_</div>
-            {/* 3 linkuri din coloane = ~3 x (text-xs + mb-1.5) = ~54px — ocupa spatiul primelor 3 linkuri */}
-            <div style={{ height: '54px' }} />
-            <p className="text-xs leading-relaxed mb-3" style={{ color: '#aaa' }}>
+          <div className="col-span-2 md:col-span-1">
+            <p className="text-xs leading-relaxed mb-4" style={{ color: '#aaa' }}>
               Dezvoltator și agenție imobiliară din București. Din 2009 livrăm ansambluri rezidențiale de calitate în toate sectoarele capitalei.
             </p>
             {/* Social */}
