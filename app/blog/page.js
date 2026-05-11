@@ -219,20 +219,20 @@ export default function BlogPage() {
 
               <div className="border-t border-gray-100 mb-8" />
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
                 {REST.map(a => {
                   const autor = AUTORI[a.autorSlug]
                   return (
-                    <Link key={a.slug} href={`/blog/${a.slug}`} className="group border border-gray-200 rounded-xl overflow-hidden flex flex-col hover:border-[#2d7a3a] hover:shadow-lg transition-all duration-300">
-                      <div className="relative overflow-hidden" style={{ aspectRatio: '16/10' }}>
+                    <Link key={a.slug} href={`/blog/${a.slug}`} className="group border border-gray-200 rounded-xl overflow-hidden hover:border-gray-300 hover:shadow-md transition-all">
+                      <div className="relative overflow-hidden" style={{ aspectRatio: '16/9' }}>
                         {a.image ? (
-                          <Image src={a.image} alt={a.titlu} fill sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                          <Image src={a.image} alt={a.titlu} fill sizes="(max-width:768px) 100vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
                         ) : <div className="absolute inset-0 bg-gray-100" />}
                         <span className="absolute top-3 left-3 text-[10px] font-semibold px-2 py-0.5 rounded-full text-white" style={{ background: a.tagColor }}>{a.tag}</span>
                       </div>
                       <div className="p-4">
                         <h2 className="text-sm font-semibold text-gray-900 leading-snug mb-2 group-hover:text-[#2d7a3a] transition-colors">{a.titlu}</h2>
-                        <p className="text-xs text-gray-500 leading-relaxed mb-3 line-clamp-3 flex-1">{a.rezumat}</p>
+                        <p className="text-xs text-gray-500 leading-relaxed mb-3 line-clamp-2">{a.rezumat}</p>
                         <div className="flex items-center gap-2 text-[10px] text-gray-400">
                           <div className="relative w-5 h-5 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
                             <Image src={autor?.foto || '/logo.avif'} alt={a.autor} fill className="object-cover" />
