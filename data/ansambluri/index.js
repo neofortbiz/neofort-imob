@@ -827,6 +827,7 @@ export function formatPret(pret) {
 // Culori badge per status
 export const STATUS_CONFIG = {
   activ: { label: 'Finalizat', bg: 'bg-[#2d7a3a]', text: 'text-white', dot: '#2d7a3a' },
+  finalizat: { label: 'Finalizat', bg: 'bg-[#2d7a3a]', text: 'text-white', dot: '#2d7a3a' },
   constructie: { label: '\u00cen construc\u021bie', bg: 'bg-[#1565c0]', text: 'text-white', dot: '#1565c0' },
   promotie: { label: 'Promo\u021bie', bg: 'bg-[#c0392b]', text: 'text-white', dot: '#c0392b' },
   vandut: { label: 'V\u00e2ndut', bg: 'bg-[#c8922a]', text: 'text-white', dot: '#c8922a' },
