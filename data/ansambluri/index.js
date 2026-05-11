@@ -209,7 +209,7 @@ Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care 
     zona: 'Militari',
     sector: 'Sector 6',
     adresa: 'Bulevardul Iuliu Maniu, Sector 6, Bucuresti',
-    status: 'finalizat',
+    status: 'activ',
     dataPredare: 'In curand',
     pretDeLa: 218409,
     etaje: 'S+P+7E+8/9Er',
@@ -272,7 +272,7 @@ Penthouse-ul Neofort 76 cu 276,98 mp și terasă panoramică la etajele 8-9 pe B
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Zona Titan Nou, Sector 3, Bucuresti',
-    status: 'finalizat',
+    status: 'activ',
     dataPredare: 'In curand',
     pretDeLa: 184691,
     etaje: 'D+P+3E',
@@ -336,7 +336,7 @@ De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Tr
     zona: 'Titan-IOR',
     sector: 'Sector 3',
     adresa: 'Bulevardul 1 Decembrie 1918, Sector 3, Bucuresti',
-    status: 'finalizat',
+    status: 'activ',
     dataPredare: 'Finalizat',
     pretDeLa: 142545,
     etaje: '2S+P+5E-6/11R',
@@ -741,7 +741,7 @@ Predarea estimată în Septembrie 2026 permite finalizarea procesului de finanț
     zona: 'Tepes Voda-Muncii',
     sector: 'Sector 2',
     adresa: 'Zona Tepes Voda-Maior Coravu, Sector 2, Bucuresti',
-    status: 'finalizat',
+    status: 'activ',
     dataPredare: 'Ian. 2026',
     pretDeLa: 146000,
     etaje: 'S+P+2ET+M',
@@ -808,7 +808,7 @@ Un argument final pentru Neofort 8 care merită menționat explicit: clasa energ
 
 // Ansambluri active (la vanzare, in constructie sau promotie)
 export const ANSAMBLURI_ACTIVE = ANSAMBLURI.filter(a =>
-  ['activ', 'constructie', 'promotie', 'finalizat'].includes(a.status)
+  ['activ', 'constructie', 'promotie'].includes(a.status)
 )
 
 // Ansambluri portofoliu (vandute)
@@ -827,7 +827,6 @@ export function formatPret(pret) {
 // Culori badge per status
 export const STATUS_CONFIG = {
   activ: { label: 'Finalizat', bg: 'bg-[#2d7a3a]', text: 'text-white', dot: '#2d7a3a' },
-  finalizat: { label: 'Finalizat', bg: 'bg-[#2d7a3a]', text: 'text-white', dot: '#2d7a3a' },
   constructie: { label: '\u00cen construc\u021bie', bg: 'bg-[#1565c0]', text: 'text-white', dot: '#1565c0' },
   promotie: { label: 'Promo\u021bie', bg: 'bg-[#c0392b]', text: 'text-white', dot: '#c0392b' },
   vandut: { label: 'V\u00e2ndut', bg: 'bg-[#c8922a]', text: 'text-white', dot: '#c8922a' },
