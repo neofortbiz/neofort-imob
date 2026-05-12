@@ -34,7 +34,15 @@ Infrastructura comercială din zonă este completă și matură: IKEA Pallady la
 
 Neofort 84 se comercializează direct de la sursă, fără comision de agenție — prețul publicat este prețul final, fără surprize la semnare. Prețurile promoționale sunt valabile pentru unitățile rezervate cu avans 45% și se pot modifica odată cu avansarea construcției. Rezervare cu 1.000€, consultanță juridică și bancară gratuită.
 
-Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervarea se face cu 1.000€, sumă restituibilă integral dacă nu se ajunge la antecontract din vina dezvoltatorului. Consultanța juridică și bancară este gratuită pe toată durata — Neofort IMO colaborează cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Prețurile promoționale la avans 45% sunt valabile pentru unități specifice și se pot modifica pe măsura avansării construcției. Vânzare directă de la sursă, fără comision de agenție.`,
+Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervarea se face cu 1.000€, sumă restituibilă integral dacă nu se ajunge la antecontract din vina dezvoltatorului. Consultanța juridică și bancară este gratuită pe toată durata — Neofort IMO colaborează cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Prețurile promoționale la avans 45% sunt valabile pentru unități specifice și se pot modifica pe măsura avansării construcției. Vânzare directă de la sursă, fără comision de agenție.
+
+Prețul pe metru pătrat la Neofort 84 — între 1.300€ și 1.500€/mp util la prețurile promoționale — se situează sub media proiectelor noi cu metrou în Sectorul 3, care a atins 1.600-1.800€/mp în 2025. Această diferență nu reflectă o calitate inferioară, ci avantajul cumpărătorilor care intră în proiect în faza de construcție, înainte de finalizare. Tendința istorică a pieței imobiliare din București confirmă că prețurile la finalizare și după predare sunt în mod constant cu 8-15% mai mari față de prețurile din faza de construcție pentru proiecte comparabile.
+
+Neofort 84 oferă 10 tipuri de apartamente — cea mai diversificată ofertă din portofoliul Neofort activ — tocmai pentru că a fost proiectat să răspundă simultan mai multor categorii de cumpărători: tânărul care cumpără prima locuință (2 camere Tip 1 de la 62.114€), familia în expansiune (3 camere Tip 2 de la 112.190€) și cumpărătorul care prioritizează spațiul și vederea panoramică (4 camere cu terasă la etaj 10, 175,58 mp). Fiecare tip are o identitate distinctă — suprafețe, etaj și orientare diferite — nu variații nesemnificative ale aceluiași apartament.
+
+Un detaliu tehnic relevant pentru cumpărătorii atenți: structura P+10 este proiectată cu cadre și diafragme din beton armat C25/30, conform SR EN 1992-1-1, cu verificare la acțiuni seismice conform P100-1/2013. Zona Titan-Pallady este inclusă în zona seismică de calcul cu ag=0,30g — una dintre cele mai solicitate din București. Proiectele noi construite după normele actuale au un comportament seismic semnificativ superior fondului imobiliar construit înainte de 1989, o diferență relevantă în decizia de cumpărare.
+
+Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontract cu constructor, credit ipotecar facilitat gratuit prin băncile partenere Neofort IMO, contract de vânzare-cumpărare la notar la finalizare. Neofort IMO lucrează cu toate băncile majore din România — BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank — și poate facilita gratuit compararea ofertelor pentru cel mai mic cost total de finanțare. Vânzare directă, fără comision de agenție.`,
     brokerTel: '0743 250 029',
     coordonate: { lat: 44.418559, lng: 26.204754 },
     zone: ['titan-pallady', 'sector-3'],
@@ -55,18 +63,18 @@ Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervare
     parcare: { exterior: { disponibil: true, pret: 6000, deLa: true, notaTVA: '+TVA' }, interior: { disponibil: true, pret: 8500, deLa: true, notaTVA: '+TVA' }, subteran: { disponibil: false, pret: null } },
     dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie Porotherm/BCA Ytong'],
     puncteInteres: [
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '350m' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '7 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '3 min cu masina' },
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '4 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '5 min cu masina' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '7 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '7 min cu masina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '8 min cu masina' },
-      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '8 min cu masina' },
+      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '550m' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '8 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '11 min pe jos' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '3 min cu masina' },
+      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '6 min cu masina' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '8 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '8 min cu masina' },
+      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '8 min cu masina' },
+      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '9 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '9 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '12 min cu masina' },
+      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '17 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente noi Titan Pallady — Neofort 84 | Neofort IMO',
@@ -106,7 +114,15 @@ Neofort 83 Faza 2 se adresează deopotrivă familiilor tinere aflate la prima ac
 
 Titan-Pallady este în prezent cea mai activă zonă de dezvoltare rezidențială din Sectorul 3. Datele de piață din 2024-2026 confirmă că apartamentele noi cu acces la metrou M2 în 3-8 minute au înregistrat creșteri de valoare de 12-18% față de 2023, depășind media națională. Cererea depășește constant oferta, în special pentru garsoniere și apartamente de 2 camere la prețuri sub 100.000€ — categoria în care Neofort 83 are cea mai competitivă ofertă din zonă.
 
-Pentru investitori: chiria medie pentru o garsonieră de 43 mp în Titan cu metrou la 3 minute este de 450-550€/lună, reprezentând un randament brut de 8-10% față de prețul de achiziție de la 64.800€. Apartamentele de 2 camere generează chirii de 650-750€/lună — randament 7-8,5%. Cererea de chirie în zonă este susținută de angajații din zona de est și din centrul Bucureștiului care preferă metroul față de mașina personală. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision.`,
+Pentru investitori: chiria medie pentru o garsonieră de 43 mp în Titan cu metrou la 3 minute este de 450-550€/lună, reprezentând un randament brut de 8-10% față de prețul de achiziție de la 64.800€. Apartamentele de 2 camere generează chirii de 650-750€/lună — randament 7-8,5%. Cererea de chirie în zonă este susținută de angajații din zona de est și din centrul Bucureștiului care preferă metroul față de mașina personală. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision.
+
+Neofort 83 Faza 2 are un avantaj geografic rar în zona Titan-Pallady: distanța față de Metrou Anghel Saligny (M2) este de aproximativ 20 de metri în linie dreaptă — practic la ușa blocului. Aceasta înseamnă că pentru locuitorii acestui proiect, metroul nu este „la câteva minute", este la câțiva pași. Linia M2 merge direct spre centru: Dristor 2 în 2 minute, Piața Muncii în 5 minute, Piața Unirii în 8 minute, Piața Universității în 10 minute. În contextul traficului din București, această conectivitate transformă fundamental relația cu orașul — nu mai depinzi de mașina personală pentru deplasările zilnice.
+
+Fațada ventilată cu izolație din vată minerală bazaltică merită o explicație tehnică detaliată, pentru că este un avantaj adesea menționat dar rar înțeles. Spre deosebire de termoizolația clasică cu polistiren (EPS), vata bazaltică este incombustibilă — clasa de reacție la foc A1, cea mai înaltă posibilă. Nu absoarbe umiditate, nu se degradează în timp și asigură o izolare fonică reală, nu doar termică. Durata de viață estimată a sistemului depășește 50 de ani față de 20-25 ani pentru polistiren. Aceasta nu este o diferență de marketing — este o diferență structurală care afectează costurile de întreținere pe termen lung și valoarea de revânzare.
+
+Oferta tipologică a Neofort 83 Faza 2 este concepută deliberat pentru a acoperi toată scara de prețuri din zona Titan: de la garsoniera de 43,42 mp la 64.800€ — cea mai accesibilă unitate din întregul portofoliu Neofort activ — până la apartamentul de 4 camere de 100,63 mp la 150.945€. Diferența de 86.145€ între cel mai mic și cel mai mare apartament permite accesul în același proiect, în aceeași comunitate, al unor cumpărători cu bugete și nevoi foarte diferite. Acest mix tipologic echilibrat este un indicator de calitate al proiectului — nu o simplificare, ci o decizie deliberată de diversificare.
+
+Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat proiect activ din zona Titan: Waldorf București și Spectrum School la 8 minute cu mașina, Liceul Internațional de Informatică la 10 minute, Parcul Teilor la 8 minute. Combinația metrou la ușă + școli alternative + parc urban mare + retail complet în raza de 10 minute este extraordinar de rară în București la prețurile actuale.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.408482, lng: 26.19528 },
     zone: ['titan-pallady', 'sector-3'],
@@ -122,18 +138,18 @@ Pentru investitori: chiria medie pentru o garsonieră de 43 mp în Titan cu metr
     parcare: { exterior: { disponibil: true, pret: 9000, notaTVA: 'TVA inclus' }, interior: { disponibil: true, pret: 13000, notaTVA: 'TVA inclus' }, subteran: { disponibil: false, pret: null } },
     dotari: ['Centrala proprie in condensare', 'Incalzire prin pardoseala', 'Obiecte sanitare suspendate', 'Tamplarie Salamander negru structurat', 'Kit aer conditionat', 'Usa metalica multipunct antiefractie', 'Fatada ventilata', 'Izolatie vata minerala bazaltica', 'Lift silentios'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '100m' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '11 min pe jos' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '12 min pe jos' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '3 min cu masina' },
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '3 min cu masina' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '5 min cu masina' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '6 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '6 min cu masina' },
-      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '10 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '20m' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '17 min pe jos' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '7 min cu masina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '8 min cu masina' },
+      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '8 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '8 min cu masina' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '9 min cu masina' },
+      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '9 min cu masina' },
+      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '11 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '13 min cu masina' },
+      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '14 min cu masina' },
+      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '19 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 83',
@@ -169,7 +185,23 @@ Zona Moșilor-Eminescu beneficiază de o accesibilitate excepțională: Metrou P
 
 Cumpărătorii care apreciază un proiect mic, cu comunitate restrânsă, finisaje care se văd și se simt, și o localizare cu metrou la 5 minute pe jos vor găsi în Neofort 78 Faza 2 o opțiune greu de egalat în Sectorul 2. Predare Septembrie 2026. Vânzare directă, fără comision de agenție.
 
-Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care înțeleg că un proiect de 22 de unități cu finisaje HansGrohe, Salamander Blue Edition și parchet stejar la 400m de metrou Obor este o oportunitate care nu se repetă. Proiectele boutique de această calitate în Sectorul 2 semicentral se vând integral în prima fază de lansare. Predare Septembrie 2026. Parcare subterană 30.000€ + TVA. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
+Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care înțeleg că un proiect de 22 de unități cu finisaje HansGrohe, Salamander Blue Edition și parchet stejar la 400m de metrou Obor este o oportunitate care nu se repetă. Proiectele boutique de această calitate în Sectorul 2 semicentral se vând integral în prima fază de lansare. Predare Septembrie 2026. Parcare subterană 30.000€ + TVA. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.
+
+Neofort 78 Faza 2 este un proiect care se adresează unui profil de cumpărător bine definit: cel care a trăit în zone semicentrale ale Bucureștiului și știe valoarea lor, cel care a vizitat proiecte mari cu sute de unități și a simțit lipsa intimității, cel care înțelege că finisajele HansGrohe și Salamander Blue Edition nu sunt accesorii, ci standarde care afectează confortul zilnic pe zeci de ani.
+
+22 de apartamente înseamnă o comunitate de maximum 22 de familii. Costurile comune se împart la 22 — nu la 150 sau 300, cum se întâmplă în marile complexuri. Administrarea este simplă și transparentă, fără conflicte între sute de proprietari cu interese divergente.
+
+Zona Moșilor-Eminescu din Sectorul 2 a intrat într-un ciclu de revalorizare accelerat după 2020. Proximitatea față de Piața Obor și față de metroul Obor face zona extrem de atractivă pentru tinerii profesioniști care lucrează în centrul Bucureștiului. Piața imobiliară din zona Obor-Moșilor a înregistrat creșteri de 20-25% în 2023-2025, susținute de oferta limitată de proiecte noi de calitate și de cererea ridicată din partea cumpărătorilor care caută zona semicentrală la prețuri sub Sectoarele 1 și 2 premium.
+
+Apartamentele cu grădină la parter — 3 camere, 194,20 mp total incluzând grădina privată, de la 399.000€ — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată și metrou la 10 minute pe jos în semicentralul Bucureștiului este practic imposibil în altă parte. Această tipologie se revinde și se închiriază cu prime semnificative față de unitățile fără exterior, confirmând că raritatea se traduce în valoare adăugată pe termen lung. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision.
+
+Finisajele parchetului din stejar stratificat, ceramicii Italia și obiectelor sanitare Rocca cu armături HansGrohe sunt standarde care nu necesită înlocuire sau renovare în primii 20-30 de ani. Liftul Kone pentru 4 persoane, fațada ventilată din alucobond și fibrociment, videointerfon cu supraveghere video și fibră optică Internet/TV incluse completează un standard tehnic care justifică pe deplin încadrarea în segmentul Premium-Lux.`,Neofort 78 Faza 2 este un proiect care se adresează unui profil de cumpărător bine definit: cel care a trăit sau trăiește în zone semicentrale ale Bucureștiului și știe valoarea lor, cel care a vizitat proiecte mari cu sute de unități și a simțit lipsa intimității, cel care înțelege că finisajele HansGrohe și Salamander Blue Edition nu sunt accesorii, ci standarde care afectează confortul zilnic pe zeci de ani.
+
+22 de apartamente înseamnă o comunitate de maximum 22 de familii. Costurile comune se împart la 22 — nu la 150 sau 300, cum se întâmplă în marile complexuri. Administrarea este simplă: nu ai nevoie de o firmă de administrare cu contract de 2.000€/lună, nu ai conflicte între sute de proprietari cu interese divergente. Scara clădirii este umană, nu industrială.
+
+Zona Moșilor-Eminescu din Sectorul 2 a intrat într-un ciclu de revalorizare accelerat după 2020. Proximitatea față de Piața Obor — reconsolidată ca hub comercial și de transport — și față de metroul Obor face zona extrem de atractivă pentru tinerii profesioniști care lucrează în centrul Bucureștiului sau în zona de nord și nord-vest. Piața imobiliară din zona Obor-Moșilor a înregistrat creșteri de 20-25% în 2023-2025, susținute de oferta limitată de proiecte noi de calitate și de cererea ridicată.
+
+Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată și metrou la 10 minute pe jos în semicentralul Bucureștiului este practic imposibil în altă parte. Prețul de 399.000€ pentru 194,20 mp (205€/mp) cu grădină privată, față de media pieței semicentrale de 2.500-3.500€/mp, reprezintă o oportunitate greu de argumentat împotriva. Vânzare directă, fără comision de agenție.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.446553, lng: 26.119879 },
     zone: ['mosilor-eminescu', 'eminescu-viitorului', 'sector-2'],
@@ -186,17 +218,17 @@ Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care 
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 30000, notaTVA: '+TVA' } },
     dotari: ['Incalzire in pardoseala Tecce Germania', 'Centrala termica in condensatie', 'Tamplarie Salamander Blue Edition tripan', 'Lift Kone 4 persoane', 'Ceramica Italia bai si parti comune', 'Parchet stejar stratificat', 'Usi PINUM Italia', 'Obiecte sanitare Rocca / HansGrohe', 'Accesorii electrice BTicino Premium', 'Fatada ventilata alucobond+fibrociment', 'Videointerfon si supraveghere video', 'Internet/TV fibra optica'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Piata Obor (M2)', distanta: '8 min pe jos' },
-      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '11 min pe jos' },
-      { tip: 'transport', nume: 'Piata Obor / Autogara Obor', distanta: '11 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Stefan cel Mare (M2)', distanta: '3 min cu masina' },
-      { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '4 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '4 min cu masina' },
-      { tip: 'parc', nume: 'Parcul National', distanta: '6 min cu masina' },
-      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '6 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '9 min cu masina' },
-      { tip: 'medical', nume: 'Spital Clinic Fundeni', distanta: '10 min cu masina' },
+      { tip: 'transport', nume: 'Piata Obor / Autogara Obor', distanta: '8 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Piata Obor (M2)', distanta: '10 min pe jos' },
+      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '10 min pe jos' },
+      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '2 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '7 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Stefan cel Mare (M2)', distanta: '8 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '9 min cu masina' },
+      { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '9 min cu masina' },
+      { tip: 'parc', nume: 'Parcul National', distanta: '11 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '14 min cu masina' },
+      { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '8 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Moșilor-Obor | Neofort 78',
@@ -236,7 +268,15 @@ Penthouse-ul Neofort 76, cu 276,98 mp desfășurați pe două niveluri și teras
 
 Investiția în Penthouse-ul Neofort 76 este justificată și de tendința pieței imobiliare din zona Militari-Iuliu Maniu: prețurile pe metru pătrat în Sectorul 6 cu acces la M3 au crescut constant în ultimii 3 ani, susținute de cererea în creștere și de investițiile publice în infrastructura de transport. Un Penthouse de 276,98 mp cu terasă privată panoramică în această zonă nu este doar o locuință — este o proprietate cu potențial real de apreciere. Procesul de achiziție include consultanță juridică și financiară gratuită. Fără comision de agenție.
 
-Penthouse-ul Neofort 76 cu 276,98 mp și terasă panoramică la etajele 8-9 pe Bulevardul Iuliu Maniu este o propunere unică în Sectorul 6: nu există altă unitate comparabilă ca suprafață, etaj și localizare față de metrou în această zonă la prețul de 218.409€ + TVA. Prețul pe metru pătrat — aproximativ 788€/mp — este semnificativ sub media penthouse-urilor comparabile din Sectoarele 1 și 2, unde prețurile similare pornesc de la 1.500€/mp. Parcare sistem Klaus 10.000€ TVA inclus. Rezervare cu 2.000€. Consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari-Iuliu Maniu continuă să se dezvolte susținut, cu investiții publice semnificative în infrastructura de transport și regenerare urbană.`,
+Penthouse-ul Neofort 76 cu 276,98 mp și terasă panoramică la etajele 8-9 pe Bulevardul Iuliu Maniu este o propunere unică în Sectorul 6: nu există altă unitate comparabilă ca suprafață, etaj și localizare față de metrou în această zonă la prețul de 218.409€ + TVA. Prețul pe metru pătrat — aproximativ 788€/mp — este semnificativ sub media penthouse-urilor comparabile din Sectoarele 1 și 2, unde prețurile similare pornesc de la 1.500€/mp. Parcare sistem Klaus 10.000€ TVA inclus. Rezervare cu 2.000€. Consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari-Iuliu Maniu continuă să se dezvolte susținut, cu investiții publice semnificative în infrastructura de transport și regenerare urbană.
+
+Penthouse-ul Neofort 76 — 276,98 mp total, etajele 8 și 9 retrase, terasă privată panoramică — este o proprietate fără echivalent direct în Sectorul 6. Să desfășori 276 de metri pătrați util pe două niveluri, cu terasă privată și vedere spre Sectorul 6 și spre Câmpia de la vest de București, cu metrou la 550m, la prețul de 218.409€ + TVA (788€/mp), este o ofertă imposibil de regăsit în Sectoarele 1 sau 2 — unde echivalente pornesc de la 1.500-2.000€/mp.
+
+Bulevardul Iuliu Maniu este una dintre puținele artere principale din București care beneficiază simultan de trei stații de metrou diferite în raza de 2 km: Păcii, Gorjului și Preciziei, toate pe linia M3 (Magistrala 5). Aceasta înseamnă că din Penthouse-ul Neofort 76 poți ajunge la Piața Unirii în 8 minute, la Eroilor în 5 minute, la Politehnica în 4 minute și la Drumul Taberei (Favorit, Brâncuși, Râul Doamnei) în 6-8 minute. Nicio altă zonă din București nu oferă această densitate de conectivitate M3 la prețuri imobiliare sub 1.000€/mp.
+
+Parcul Liniei — cel mai lung parc liniar din Europa, cu 10 kilometri de alei pietonale continue, piste de biciclete și zone de agrement — este o resursă urbană de agrement cu totul specială pentru locuitorii zonei Militari-Iuliu Maniu. Nu este un parc punctual în care faci o tură și te întorci; este un coridor verde care pornește din Piața Unirii și se extinde spre vest, permițând alergatul, ciclismul și plimbările lungi fără a traversa intersecții majore. La 10 minute cu mașina din Penthouse-ul Neofort 76, Parcul Liniei devine o extensie naturală a spațiului de locuire.
+
+Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat sub 800€. Rezervare cu 2.000€, consultanță gratuită.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.43368, lng: 25.998051 },
     zone: ['militari', 'sector-6'],
@@ -248,18 +288,18 @@ Penthouse-ul Neofort 76 cu 276,98 mp și terasă panoramică la etajele 8-9 pe B
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: true, pret: 10000, notaTVA: 'TVA inclus' }, subteran: { disponibil: false, pret: null } },
     dotari: ['Apartamente complet finisate la cheie', 'Incalzire in pardoseala', 'Contorizare individuala', 'Dotari tehnice de top', 'Structura beton armat antisezmica', 'Parcare sistem Klaus'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Pacii (M3)', distanta: '400m' },
-      { tip: 'transport', nume: 'Autostrada A1', distanta: '10 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Gorjului (M3)', distanta: '3 min cu masina' },
-      { tip: 'medical', nume: 'Sanador Militari', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'Militari Shopping Center', distanta: '5 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Pacii (M3)', distanta: '550m' },
+      { tip: 'metrou', nume: 'Metrou Gorjului (M3)', distanta: '6 min cu masina' },
       { tip: 'metrou', nume: 'Metrou Preciziei (M3)', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Liniei', distanta: '7 min cu masina' },
-      { tip: 'mall', nume: 'Plaza Romania', distanta: '7 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Petrache Poenaru (M3)', distanta: '7 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Lujerului (M3)', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'Cora Lujerului', distanta: '9 min cu masina' },
-      { tip: 'mall', nume: 'AFI Palace Cotroceni', distanta: '11 min cu masina' },
+      { tip: 'medical', nume: 'Sanador Militari', distanta: '7 min cu masina' },
+      { tip: 'mall', nume: 'Militari Shopping Center', distanta: '7 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Liniei', distanta: '10 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Petrache Poenaru (M3)', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Cora Lujerului', distanta: '14 min cu masina' },
+      { tip: 'mall', nume: 'Plaza Romania', distanta: '18 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Lujerului (M3)', distanta: '16 min cu masina' },
+      { tip: 'mall', nume: 'AFI Palace Cotroceni', distanta: '23 min cu masina' },
+      { tip: 'transport', nume: 'Autostrada A1', distanta: '14 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Militari Metrou Păcii | N76',
@@ -299,7 +339,15 @@ Apartamentele cu curte proprie la parter sunt extrem de rare în proiectele noi 
 
 Neofort 56 Faza 2 este, de asemenea, o alegere inteligentă pentru investitori: randamentul în chirie pentru apartamentele de 4 camere în zona Titan cu metrou la 3 minute variază între 4,5% și 5,5% anual, cu o cerere ridicată din partea familiilor relocate și a expats. Apartamentele cu curte la parter din acest proiect se închiriază cu o primă față de unitățile standard datorită rarității acestei configurații în oferta din Sectorul 3. Vânzare directă, fără comision.
 
-De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Trei argumente concrete: Smart Home Ready integrat standard fără costuri suplimentare — o dotare pe care alte proiecte o oferă ca opțiune la 3.000-5.000€ în plus; stațiile de încărcare EV în parcare — un avantaj operațional permanent pe măsură ce mobilitatea electrică se extinde; și apartamentul cu curte proprie de la parter — o configurație imposibil de găsit în alte imobile noi din zonă la prețul de 235.208€. Parcare 8.900€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.`,
+De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Trei argumente concrete: Smart Home Ready integrat standard fără costuri suplimentare — o dotare pe care alte proiecte o oferă ca opțiune la 3.000-5.000€ în plus; stațiile de încărcare EV în parcare — un avantaj operațional permanent pe măsură ce mobilitatea electrică se extinde; și apartamentul cu curte proprie de la parter — o configurație imposibil de găsit în alte imobile noi din zonă la prețul de 235.208€. Parcare 8.900€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.
+
+Neofort 56 Faza 2 beneficiază de o localizare care combină două avantaje aparent contradictorii: liniștea unui cartier rezidențial cu clădiri mici și acces instant la cel mai mare concentrator de retail din estul Bucureștiului. Strada pe care se află proiectul are un profil rezidențial clar — nu este o arteră de tranzit, nu are trafic comercial intens — dar la 3 minute cu mașina se deschid IKEA Pallady, Leroy Merlin, Jumbo, Metro și Dedean, toate în același parc comercial. Aceasta nu este o combinație obișnuită în București.
+
+Dotarea Smart Home Ready merită o explicație concretă despre ce înseamnă în viața de zi cu zi. Apartamentul este pregătit din construcție cu: cablaj Cat6A pentru rețea locală de mare viteză, prize USB-C în toate camerele, breaker inteligent în tabloul electric cu posibilitate de monitorizare consum per circuit, tuburi de protecție pre-trase pentru instalare ulterioară de prize inteligente și senzori, și priza de alimentare pentru termostat wireless deja instalată. Adaugi un kit smart home de 500-1.000€ după mutare și ai automatizare completă — fără renovare, fără găuri în pereți, fără costuri suplimentare de instalare. La alte proiecte, pregătirea echivalentă se plătește ca upgrade la 3.000-5.000€.
+
+Stațiile de încărcare EV în parcare nu sunt o dotare de marketing — sunt o investiție în funcționalitatea parcării pe termen de 15-20 ani. Cota de autoturisme electrice și hibride plug-in în București a ajuns la 12% din vânzările noi în 2024 și este estimată la 35-40% în 2030. Într-o parcare fără stații EV, proprietarii vor fi nevoiți fie să instaleze ei individual la costuri de 2.000-4.000€ pe loc, fie să accepte că parcarea lor nu mai corespunde nevoilor reale ale locatarilor. Neofort 56 rezolvă această problemă structural, din construcție.
+
+Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar cu adevărat unic în Sectorul 3: 133,54 mp utili plus curtea privată, la 235.208€ + TVA. Această configurație permite crearea unui spațiu exterior personal care transformă trăitul la bloc — nu mai ești dependent de parcul public pentru ieșitul cu copiii sau cu animalele de companie. Pe piața secundară, unitățile cu curte din proiecte finalizate se tranzacționează cu prime de 20-30% față de echivalentele fără exterior.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.419894, lng: 26.182582 },
     zone: ['titan-pallady', 'sector-3'],
@@ -312,18 +360,18 @@ De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Tr
     parcare: { exterior: { disponibil: true, pret: 8900, notaTVA: 'TVA inclus' }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 8900, notaTVA: 'TVA inclus' } },
     dotari: ['Incalzire prin pardoseala INNOFLOW', 'Smart Home Ready', 'Centrala termica proprie in condensare', 'Tamplarie VEKA tripan 7 camere', 'Kit aer conditionat preinstalat', 'Obiecte sanitare suspendate Grohe', 'Prize Gewiss', 'Lift silentios Schindler', 'Balustrade sticla securizata', 'Statii incarcare auto electrica', 'Supraveghere video spatii comune'],
     puncteInteres: [
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '300m' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '350m' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '8 min pe jos' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '10 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '11 min pe jos' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '12 min pe jos' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '3 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '4 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '7 min cu masina' },
-      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '10 min cu masina' },
+      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '600m' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '8 min pe jos' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '10 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '18 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '7 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '7 min cu masina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '8 min cu masina' },
+      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '9 min cu masina' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '9 min cu masina' },
+      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '11 min cu masina' },
+      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '15 min cu masina' },
+      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '24 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Smart Home | Neofort 56',
@@ -363,7 +411,15 @@ Metrou la 1 minut + Parc IOR la 5 minute + imobil finalizat disponibil imediat: 
 
 Ce face Neofort 50 Titan IOR o alegere mai bună decât alternativele din zonă? Trei argumente concrete. Primul: metrou la 1 minut pe jos — nu la 5 minute, nu la 10 minute, ci la 1 minut. Aceasta înseamnă că deplasarea zilnică spre birou nu necesită mașina, nu implică trafic și nu depinde de vreme. Al doilea: Parcul IOR la 5 minute pe jos — unul dintre cele mai complete parcuri din București, cu lac artificial, pârtie de schi artificială iarna, piste de biciclete și terenuri sportive — un avantaj de calitate a vieții rar întâlnit în combinație cu accesul instant la metrou. Al treilea: imobilul este finalizat și disponibil imediat — nu aștepți 18-24 luni, te muți în 30-60 de zile de la semnare.
 
-Pentru investitori, zona Titan-IOR generează chirii lunare de 700-850€ pentru apartamentele de 2 camere și 1.200-1.500€ pentru cele de 4 camere, reprezentând randamente brute de 5,5-7% anual. Cererea de chirie este constantă, susținută de proximitatea față de metrou și parc. Consultanță bancară și juridică gratuită pe toată durata achiziției. Vânzare directă, fără comision.`,
+Pentru investitori, zona Titan-IOR generează chirii lunare de 700-850€ pentru apartamentele de 2 camere și 1.200-1.500€ pentru cele de 4 camere, reprezentând randamente brute de 5,5-7% anual. Cererea de chirie este constantă, susținută de proximitatea față de metrou și parc. Consultanță bancară și juridică gratuită pe toată durata achiziției. Vânzare directă, fără comision.
+
+Metrou la 90m în linie dreaptă — adică sub 2 minute de mers pe jos prin ieșirea laterală — înseamnă ceva concret pentru stilul de viață al locatarilor: nu mai ai nevoie de mașina personală pentru deplasările zilnice. La 2 minute de ieșire din apartament ești în metrou; la 8 minute ești la Piața Unirii; la 12 minute la Piața Victoriei. Asta înseamnă că poți renunța la un automobil — economie de 500-800€/lună în rate, asigurare, benzină, parcare și service — și să reinvestești banii în calitatea vieții.
+
+Parcul IOR — cunoscut oficial ca Parcul Titan — este cel mai complet parc urban din estul Bucureștiului și unul dintre cele mai dotate din capitală: lac artificial cu bărci, pârtie de schi artificială cu teleschi, piste de biciclete separate de alei pietonale, terenuri de tenis cu iluminat nocturn, bazin de înot olimpic Lia Manoliu, zone de fitness în aer liber, teatru în aer liber și locuri de joacă pentru toate vârstele. La 450m în linie dreaptă de Neofort 50, Parcul IOR este practic o extensie a spațiului de locuire — nu un parc pe care îl vizitezi o dată pe lună, ci un spațiu de agrement zilnic.
+
+Apartamentele de la etajele 10 și 11 — tip retras — au terase generoase cu vederi extinse spre Parcul IOR, spre lacul artificial și spre silueta Bucureștiului de est. La 176.900€ + TVA pentru 55 mp utili plus 87,20 mp terasă (preț promoțional), prețul pe metru pătrat al terasei este aproape zero — o oportunitate rară pe o piață în care terasele generează în mod obișnuit prime de 30-50% față de apartamentele fără exterior.
+
+Construcția pe piloți de 17 metri adâncime este un standard tehnic care depășește cerințele minime ale normativelor românești. Terenul din zona Bulevardul 1 Decembrie 1918 are caracteristici geotehnice care justifică această fundație adâncă — soluție care asigură stabilitatea structurală pe termen lung, independent de nivelul apei freatice și de natura solului. Cele 4 lifturi ORONA KRONLIFT elimină timpii de așteptare caracteristici imobilelor cu un singur lift în orele de vârf — o diferență de confort zilnică palpabilă în 11 etaje. Imobil finalizat, disponibil imediat. Vânzare directă, fără comision.`,
     brokerTel: '0752 443 436',
     coordonate: { lat: 44.433921, lng: 26.172411 },
     zone: ['titan-pallady', 'sector-3'],
@@ -379,18 +435,18 @@ Pentru investitori, zona Titan-IOR generează chirii lunare de 700-850€ pentru
     parcare: { exterior: { disponibil: true, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: null } },
     dotari: ['4 lifturi spatioase ORONA', 'Parcari subterane si supraterane', 'Parc de relaxare cu loc de joaca', 'Structura antiseismica piloti adancime', 'Vitraje mari SALAMANDER tripan', 'Usi PINUM / BENATI', 'Sanitare ROCA / CERSANIT / GROHE', 'Centrala SAUNIER DUVAL by VAILLANT', 'Termostat wireless Smart', 'Incalzire in pardoseala'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Costin Georgian (M2)', distanta: '20m' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '150m' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '3 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '3 min cu masina' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '3 min cu masina' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '4 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Costin Georgian (M2)', distanta: '90m' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '450m' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '5 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '5 min cu masina' },
       { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '5 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '7 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '4 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '10 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '12 min cu masina' },
+      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '14 min cu masina' },
+      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '15 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente noi Titan Parc IOR — Neofort 50 | Neofort IMO',
@@ -432,7 +488,15 @@ Un argument suplimentar pentru Neofort 49 ca investiție: chiria lunară pentru 
 
 Zona Militari-Gorjului are unul dintre cele mai bune rapoarte preț/conectivitate din București. La prețul de 76.974€ pentru o garsonieră finalizată cu metrou la câteva minute, alternativele comparabile din zone similare (Drumul Taberei, Militari-Pacii) pornesc de la 85.000-95.000€. Diferența de 8.000-18.000€ față de piață, combinată cu finisajele superioare mediei și cu stocul limitat de 18 unități, face din Neofort 49 o oportunitate imediată și concretă.
 
-Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Militari cu metrou la 5 minute cu 350-430€/lună — randament brut 5,5-6,7% anual. Apartamentele de 2 camere generează 550-650€/lună — randament 5,5-6,5%. Stocul este limitat la 18 unități — disponibilitatea se poate reduce rapid. Parcare subterană 15.000€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari generează constant una dintre cele mai ridicate cereri de chirie din București, alimentată de angajații din zona de business a Sectorului 6, din centru și din zona Drumul Taberei conectată pe M5. Cu doar 18 unități disponibile, stocul se poate epuiza rapid.`,
+Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Militari cu metrou la 5 minute cu 350-430€/lună — randament brut 5,5-6,7% anual. Apartamentele de 2 camere generează 550-650€/lună — randament 5,5-6,5%. Stocul este limitat la 18 unități — disponibilitatea se poate reduce rapid. Parcare subterană 15.000€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari generează constant una dintre cele mai ridicate cereri de chirie din București, alimentată de angajații din zona de business a Sectorului 6, din centru și din zona Drumul Taberei conectată pe M5. Cu doar 18 unități disponibile, stocul se poate epuiza rapid.
+
+Strada Vistiernicul Stavrinos se află la aproximativ 250m de Metrou Gorjului (M3) — aproximativ 3 minute de mers pe jos. Linia M3 este cea mai recentă și mai lungă magistrală de metrou din București, traversând Sectorul 6 de la Drumul Taberei spre est și conectând Sectorul 6 cu centrul și cu zona de est a capitalei. De la Gorjului: Eroilor în 4 minute, Piața Unirii în 8 minute, Piața Victoriei în 12 minute. Această conectivitate transformă zona Militari dintr-un cartier rezidențial îndepărtat de centru — percepție moștenită din epoca premergătoare M3 — într-o zonă cu acces urban complet.
+
+Proiectul boutique de 18 apartamente asigură un tip de comunitate rare în oferta imobiliară din București: toți locatarii se cunosc, costurile comune sunt reduse și transparente, întreținerea clădirii este simplă. Ascensorul, casa scării, spațiile comune — toate sunt gestionate de o comunitate mică, omogenă. Nu ai conflicte cu sute de vecini pe cheltuieli de întreținere, nu ai birocrația unui complex imobiliar mare.
+
+Zonele Militari-Gorjului și Militari-Preciziei au înregistrat cele mai mari creșteri de cerere de chirie din București în perioada 2022-2025, direct corelate cu extinderea M3. Angajații care lucrează în centru sau în zona de nord-vest preferă tot mai mult Militari față de zone mai scumpe, datorită conectivității îmbunătățite și raportului preț/calitate superior. Chiria pentru o garsonieră de 38-40 mp în zonă este de 350-430€/lună, reprezentând randamente brute de 5,5-6,7% anual față de prețul de achiziție. Cu 18 unități disponibile și un stoc limitat de proiecte noi în zonă, disponibilitatea se poate reduce rapid.
+
+Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pardoseală, tâmplărie Salamander cu geam tripan, kit aer condiționat preinstalat, obiecte sanitare suspendate, ușă metalică antiefracție, lift silențios — sunt complete fără compromis. Totul inclus în prețul publicat, fără extras sau opțiuni plătite suplimentar. Finalizat, disponibil imediat. Parcare subterană 15.000€ TVA inclus. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4311, lng: 26.012883 },
     zone: ['militari', 'sector-6'],
@@ -445,18 +509,18 @@ Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Milita
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 15000, notaTVA: 'TVA inclus' } },
     dotari: ['Centrala proprie de apartament', 'Incalzire prin pardoseala', 'Tamplarie Salamander negru structurat', 'Kit aer conditionat', 'Baie complet echipata', 'Obiecte sanitare incastrabile suspendate', 'Usa metalica multipunct antiefractie', 'Lift silentios'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Gorjului (M3)', distanta: '0m' },
-      { tip: 'medical', nume: 'Sanador Militari', distanta: '6 min pe jos' },
-      { tip: 'mall', nume: 'Militari Shopping Center', distanta: '11 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Pacii (M3)', distanta: '3 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Preciziei (M3)', distanta: '3 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Liniei', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'Plaza Romania', distanta: '4 min cu masina' },
-      { tip: 'transport', nume: 'Autostrada A1', distanta: '5 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Petrache Poenaru (M3)', distanta: '5 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Lujerului (M3)', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Cora Lujerului', distanta: '7 min cu masina' },
-      { tip: 'mall', nume: 'AFI Palace Cotroceni', distanta: '8 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Gorjului (M3)', distanta: '250m' },
+      { tip: 'mall', nume: 'Militari Shopping Center', distanta: '10 min pe jos' },
+      { tip: 'medical', nume: 'Sanador Militari', distanta: '13 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Pacii (M3)', distanta: '5 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Petrache Poenaru (M3)', distanta: '6 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Liniei', distanta: '7 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Preciziei (M3)', distanta: '8 min cu masina' },
+      { tip: 'mall', nume: 'Cora Lujerului', distanta: '10 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Lujerului (M3)', distanta: '11 min cu masina' },
+      { tip: 'mall', nume: 'Plaza Romania', distanta: '13 min cu masina' },
+      { tip: 'transport', nume: 'Autostrada A1', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'AFI Palace Cotroceni', distanta: '18 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Militari | Neofort 49 Promo',
@@ -496,7 +560,15 @@ Neofort 44 intră în categoria apartamentelor eligibile pentru Prima Casă și 
 
 Titan-Pallady este zona din București cu cel mai consistent raport dintre prețul de achiziție și potențialul de apreciere pe termen mediu. Apartamentele noi finalizate cu metrou la 3 minute și-au menținut valoarea în toate ciclurile recente ale pieței imobiliare, datorită cererii structurale ridicate și ofertei limitate. Neofort 44 — finalizat și disponibil imediat — elimină riscul de întârziere specific proiectelor în construcție.
 
-Randamentul în chirie: 2 camere 62 mp se închiriază cu 600-750€/lună în zonă — randament 7-9% față de 100.208€; 3 camere 86 mp cu 800-950€/lună — randament 7-8,3% față de 137.919€. Eligibil Prima Casă și credite ipotecare standard cu avans 15-25%. Parcare 8.000€. Rezervare cu 2.000€. Consultanță bancară gratuită — identificăm cel mai mic cost total de finanțare din oferta bancară actuală. Vânzare directă de la sursă, fără comision. Titan-Pallady rămâne zona cu cel mai echilibrat raport dintre prețul de achiziție, calitatea ofertei comerciale și educaționale și accesul la metrou din estul Bucureștiului.`,
+Randamentul în chirie: 2 camere 62 mp se închiriază cu 600-750€/lună în zonă — randament 7-9% față de 100.208€; 3 camere 86 mp cu 800-950€/lună — randament 7-8,3% față de 137.919€. Eligibil Prima Casă și credite ipotecare standard cu avans 15-25%. Parcare 8.000€. Rezervare cu 2.000€. Consultanță bancară gratuită — identificăm cel mai mic cost total de finanțare din oferta bancară actuală. Vânzare directă de la sursă, fără comision. Titan-Pallady rămâne zona cu cel mai echilibrat raport dintre prețul de achiziție, calitatea ofertei comerciale și educaționale și accesul la metrou din estul Bucureștiului.
+
+Neofort 44 este un proiect cu o ofertă excepțională ca raport calitate-preț în Sectorul 3: garsoniera de 38,61 mp la 61.775€ și apartamentul de 2 camere de 62,63 mp la 100.208€ sunt printre cele mai competitive prețuri pentru imobile finalizate cu metrou în zona Titan-Pallady. Prețul pe metru pătrat util — între 1.600€ și 1.700€/mp — este sub media proiectelor noi finalizate cu metrou în această zonă, care a atins 1.800-2.000€/mp în 2025.
+
+Apartamentul de 3 camere cu terasă generoasă la etajele 3-4, 157,87 mp total (suprafață utilă plus terasă), la 191.960€ + TVA, este tipologia de vârf a proiectului. Suprafața de terasă aferentă etajelor retrase creează un spațiu exterior privat rar întâlnit la acest preț în zona Titan — mai precis, o terasă generoasă de nivel superior în care poți mânca, te poți relaxa și poți privi deasupra acoperișurilor. La 191.960€ pentru o unitate cu această suprafață și această tipologie, prețul pe metru pătrat total rămâne sub 1.300€.
+
+Centrala termică proprie 24kW în condensare — individuală per apartament — este un detaliu tehnic cu impact financiar real. O centrală în condensare operează la randament de 95-98% față de 85-88% pentru centralele clasice, ceea ce înseamnă o reducere a consumului de gaz cu aproximativ 10-15% anual. La o factură medie de gazele de 150€/lună în sezonul rece (6 luni), economia anuală este de 90-135€. Pe 20 de ani de locuire, economia cumulată depășește 1.800-2.700€ — o valoare concretă care justifică diferența față de proiecte cu centrale cu eficiență mai scăzută.
+
+Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitecturală care asigură că dormitoarele sunt separate de zona de zi, fără circulație prin dormitor pentru accesul la baie. Acest detaliu de planimetrie, aparent minor, face o diferență reală în calitatea locuirii — mai ales pentru cupluri și familii cu copii. Eligibil Prima Casă și credite ipotecare standard. Disponibil imediat. Vânzare directă, fără comision.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.415636, lng: 26.177416 },
     zone: ['titan-pallady', 'sector-3'],
@@ -511,18 +583,18 @@ Randamentul în chirie: 2 camere 62 mp se închiriază cu 600-750€/lună în z
     parcare: { exterior: { disponibil: true, pret: 8000 }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 8000 } },
     dotari: ['Centrala termica proprie 24kW in condensare', 'Incalzire prin pardoseala', 'Tamplarie Salamander', 'Instalatii sanitare, electrice si termice', 'Obiecte sanitare suspendate', 'Ceramica import antiderapanta balcoane/terase', 'Usi metalice antiefractie multipunct'],
     puncteInteres: [
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '9 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '9 min pe jos' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '10 min pe jos' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '11 min pe jos' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '3 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '3 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '4 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '6 min cu masina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '9 min cu masina' },
-      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '10 min cu masina' },
+      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '14 min pe jos' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '19 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '25 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '4 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '7 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '8 min cu masina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '14 min cu masina' },
+      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '17 min cu masina' },
+      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '25 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 44',
@@ -560,7 +632,15 @@ Apartamentele Neofort 42 se adresează cumpărătorilor cu discernământ — ce
 
 De ce Piața Muncii este una dintre zonele cu cea mai rapidă apreciere imobiliară din București? Trei factori structurali: repoziționarea Parcului Național ca spațiu urban de referință, cu investiții publice de renovare și reamenajare; conectivitatea M3 care unește zona cu Drumul Taberei în vest și cu Anghel Saligny în est; și densitatea serviciilor medicale de top — Spital Victor Babeș, Spital Monza și Spital Copii Grigore Alexandrescu în raza de 10 minute. Acești factori susțin valoarea proprietăților pe termen lung independent de fluctuațiile pieței.
 
-Apartamentele de 2 camere din Neofort 42 se închiriază curent cu 900-1.100€/lună în zona Piața Muncii, generând randamente brute de 5,3-6,7% față de prețurile promoționale actuale. Apartamentele de 4 camere se adresează chirașilor premium — familii de expats și executivi care apreciază spațiul și localizarea semicentrală. Promoția este valabilă pentru stocul curent — prețurile se vor ajusta la finalizarea vânzărilor. Consultanță bancară gratuită. Vânzare directă, fără comision.`,
+Apartamentele de 2 camere din Neofort 42 se închiriază curent cu 900-1.100€/lună în zona Piața Muncii, generând randamente brute de 5,3-6,7% față de prețurile promoționale actuale. Apartamentele de 4 camere se adresează chirașilor premium — familii de expats și executivi care apreciază spațiul și localizarea semicentrală. Promoția este valabilă pentru stocul curent — prețurile se vor ajusta la finalizarea vânzărilor. Consultanță bancară gratuită. Vânzare directă, fără comision.
+
+Piața Muncii nu este o zonă periferică care „se dezvoltă" — este o zonă semicentrală cu identitate urbană consolidată, la 400m de Parcul Național (fostul Parc Carol I), la 200m de Arena Națională și la 300m de Bazinul Olimpic Lia Manoliu. Această concentrare de infrastructură culturală, sportivă și de agrement la distanță de mers pe jos este neobișnuită chiar și pentru standardele Bucureștiului semicentral.
+
+Metrou Piața Muncii (M3) la 400m, Metrou Dristor 2 (M2) la 350m — două linii diferite de metrou la distanță de mers pe jos — asigură conectivitate bidirecțională: M3 merge spre Eroilor, Politehnica și Drumul Taberei (vest); M2 merge spre Piața Unirii, Piața Victoriei și Pipera (nord). Combinarea celor două linii din același apartament este o raritate în oferta imobiliară din București și reduce semnificativ dependența de mașina personală.
+
+Panourile solare și fotovoltaice integrate în Neofort 42 — o investiție inițială de 100.000-150.000€ pentru întreg proiectul — generează economii reale la cheltuielile comune: factura de electricitate a spațiilor comune (iluminat casa scării, lifturi, circulații) se reduce cu 30-40%. La o clădire de 64 de apartamente cu cheltuieli comune tipice de 50-80€/lună per unitate, economia poate reprezenta 15-30€/lună per proprietar — 180-360€/an. Pe 20 de ani, fiecare proprietar economisește 3.600-7.200€ față de un proiect fără panouri. Această infrastructură verde crește și atractivitatea proprietăților pe piața de revânzare.
+
+Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.440€ în promoție — se adresează unui segment care caută suprafețe generoase în zona semicentrală la prețuri cu 30-40% sub echivalentele din Sectorul 1 și 2. Piața Muncii-Dristor este în prezent una dintre zonele cu cel mai bun raport suprafață-preț pentru apartamentele premium din București. Vânzare directă, fără comision.`,
     brokerTel: '0757 077 057',
     coordonate: { lat: 44.429112, lng: 26.140319 },
     zone: ['piata-muncii', 'sector-3'],
@@ -577,17 +657,17 @@ Apartamentele de 2 camere din Neofort 42 se închiriază curent cu 900-1.100€/
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 22500, notaTVA: '+TVA' } },
     dotari: ['2 lifturi SCHINDLER', 'Parcare subterana sistem Klaus', 'Adapost ALA / autorizare ISU', 'Tamplarie SALAMANDER/VEKA tripan', 'Usi PINUM/PORTA DOORS', 'Centrala Buderus', 'Termostat wireless Smart', 'Panouri solare/fotovoltaice', 'Balustrade sticla securizata', 'Gresie/faianta Marazzi rectificata', 'Incalzire in pardoseala'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Piata Muncii (M3)', distanta: '10m' },
-      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '300m' },
-      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '450m' },
-      { tip: 'metrou', nume: 'Metrou Dristor 1 (M2)', distanta: '8 min pe jos' },
-      { tip: 'parc', nume: 'Parcul National', distanta: '10 min pe jos' },
-      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '3 min cu masina' },
-      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '4 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '7 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '7 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '8 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '350m' },
+      { tip: 'metrou', nume: 'Metrou Piata Muncii (M3)', distanta: '400m' },
+      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '500m' },
+      { tip: 'metrou', nume: 'Metrou Dristor 1 (M2)', distanta: '10 min pe jos' },
+      { tip: 'parc', nume: 'Parcul National', distanta: '18 min pe jos' },
+      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '2 min cu masina' },
+      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '5 min cu masina' },
+      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '7 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '11 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '12 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '13 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Piața Muncii | Neofort 42',
@@ -627,7 +707,15 @@ Finalizat, disponibil imediat, cu tipologii unice pe piață. Vânzare directă,
 
 Tipologia cu curte proprie la parter — atât 2 camere la 112.900€ cât și 3 camere la 143.500€ — reprezintă o raritate valoroasă pe piața Sectorului 3. Apartamentele cu curți private în blocuri noi se vând și se închiriază cu o primă de 15-25% față de unitățile standard, reflectând cererea ridicată din partea familiilor cu copii mici sau cu animale de companie. Incinta împrejmuită, accesul controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Vânzare directă, fără comision de agenție.
 
-Cumpărătorii care au ales apartamentele cu curte la Neofort 28 au plătit o primă de 26.000-29.000€ față de unitățile standard — o diferență pe deplin justificată de raritatea configurației și de cererea ridicată. Pe piața secundară, apartamentele cu grădini private în blocuri noi se vând cu prime similare față de unități identice fără exterior, confirmând că această tipologie păstrează valoarea adăugată pe termen lung. Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Parcare exterioară 7.500€, subterană 11.000€. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.`,
+Cumpărătorii care au ales apartamentele cu curte la Neofort 28 au plătit o primă de 26.000-29.000€ față de unitățile standard — o diferență pe deplin justificată de raritatea configurației și de cererea ridicată. Pe piața secundară, apartamentele cu grădini private în blocuri noi se vând cu prime similare față de unități identice fără exterior, confirmând că această tipologie păstrează valoarea adăugată pe termen lung. Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Parcare exterioară 7.500€, subterană 11.000€. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.
+
+Neofort 28 Fazele 4 și 5 completează un ansamblu rezidențial cu o istorie de succes în zona Titan-Pallady: fazele anterioare au fost vândute integral, confirmând validarea pieței pentru acest proiect. Fazele 4 și 5 aduc 53 de apartamente noi, cu aceeași calitate constructivă și o ofertă tipologică extinsă față de fazele precedente — inclusiv variantele cu curte proprie, introduse ca răspuns direct la cererea din piață.
+
+Tâmplăria Salamander tripan Low-E cu microventilație este o dotare cu impact direct asupra sănătății locatarilor, nu doar a confortului termic. Microventilația asigură un flux controlat de aer proaspăt chiar și cu ferestrele închise — eliminând problema condensului pe geamuri care apare în apartamentele cu tâmplărie etanșă fără ventilație. Ceramica Delta Studio, parchetul rezistent la trafic intens și băile cu rezervor incastrat completează un standard tehnic solid, fără compromisuri vizibile.
+
+Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă asigură o securitate reală, nu aparentă: accesul auto și pietonal este controlat, iar imaginile video sunt disponibile pentru revizuire. Aceasta este o dotare valoroasă mai ales pentru familiile cu copii mici care se pot juca în incintă fără supraveghere permanentă.
+
+Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucureștiului: angajații care lucrează în zona centrală sau de est preferă accesul la M2 față de traficul rutier. Chiria pentru apartamente de 2 camere în Titan-Pallady este de 550-700€/lună în 2025, în creștere față de 450-550€ în 2022. Randamentul brut de 7-8,5% anual plasează Titan-Pallady printre cele mai atractive zone de investiție locativă din București. Apartamentele cu curte din Neofort 28 se închiriază cu o primă de 15-20% față de unitățile standard, datorită cererii ridicate din partea familiilor cu copii sau animale. Vânzare directă, fără comision.`,
     brokerTel: '0752 443 437',
     coordonate: { lat: 44.411192, lng: 26.198428 },
     zone: ['titan-pallady', 'sector-3'],
@@ -647,18 +735,18 @@ Cumpărătorii care au ales apartamentele cu curte la Neofort 28 au plătit o pr
     parcare: { exterior: { disponibil: true, pret: 7500 }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 11000 } },
     dotari: ['Incalzire in pardoseala', 'Centrala termica proprie', 'Tamplarie Salamander tripan Low-E microventilatie', 'Ceramica Delta Studio', 'Parchet rezistent trafic intens', 'Bai echipate complet rezervor incastrat', 'Videointerfon vedere nocturna', 'Incinta imprejmuita acces controlat'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '300m' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '8 min pe jos' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '9 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '500m' },
       { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '3 min cu masina' },
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '3 min cu masina' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '5 min cu masina' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '6 min cu masina' },
-      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '6 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '8 min cu masina' },
+      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '8 min cu masina' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '8 min cu masina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '9 min cu masina' },
+      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '9 min cu masina' },
+      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '12 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '13 min cu masina' },
+      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '18 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 28',
@@ -698,7 +786,15 @@ Zona Eminescu-Viitorului are un avantaj subtil pe care cumpărătorii atenți î
 
 Pentru familiile cu copii, zona oferă unele dintre cele mai reputate licee din București: Colegiul Național Iulia Hașdeu și Colegiul Național Mihai Eminescu la 5-8 minute pe jos — o valoare educațională greu de egalat la distanța de mers pe jos. Grădinița Bambi la 3 minute pe jos completează oferta pentru copiii mici.
 
-Predarea estimată în Septembrie 2026 permite finalizarea procesului de finanțare bancară fără presiune de timp. Consultanța bancară Neofort IMO este gratuită și include compararea ofertelor de la toate băncile partenere pentru cel mai mic cost total de finanțare. Apartamentele în promoție — 2 camere de la 176.000€ față de 192.000€ standard — reprezintă o economie imediată de 8-16.000€ față de prețul de listă. Parcare subterană 25.000€. Vânzare directă, fără comision.`,
+Predarea estimată în Septembrie 2026 permite finalizarea procesului de finanțare bancară fără presiune de timp. Consultanța bancară Neofort IMO este gratuită și include compararea ofertelor de la toate băncile partenere pentru cel mai mic cost total de finanțare. Apartamentele în promoție — 2 camere de la 176.000€ față de 192.000€ standard — reprezintă o economie imediată de 8-16.000€ față de prețul de listă. Parcare subterană 25.000€. Vânzare directă, fără comision.
+
+Zona Eminescu-Viitorului din Sectorul 2 are un caracter urban pe care proiectele imobiliare din zone noi nu îl pot replica: case interbelice bine conservate, blocuri mici din anii '70-'80, arbori maturi pe trotuare, magazine de cartier și o comunitate rezidențială stabilă care locuiește aici de generații. Este o zonă în care vecinii se cunosc, în care există o identitate de cartier autentică, în care arhitectura are personalitate. Neofort 11, cu cele 13 unități ale sale, se inserează în acest țesut urban fără a-l perturba.
+
+Colegiile Iulia Hașdeu și Mihai Eminescu — ambele cu tradiție academică de peste 100 de ani, ambele cu rezultate remarcabile la examene naționale și olimpiade — sunt la 5-8 minute pe jos din Neofort 11. Pentru familiile cu copii de vârstă școlară sau liceală, proximitatea față de liceele de top ale Bucureștiului reduce semnificativ stresul logistic al deplasărilor zilnice și deschide accesul la o educație de calitate fără taxe private. Aceasta este o valoare adăugată reală, cuantificabilă, care se reflectă și în prețurile imobiliare din zonă.
+
+Tâmplăria Salamander 7 camere cu geam tripan asigură o izolare fonică de 45dB — pragul la care zgomotul urban exterior devine imperceptibil în dormitor. Zona Eminescu-Viitorului nu este o arteră principală, deci zgomotul de fond este redus, dar izolarea tripan asigură că activitatea din stradă nu se aude în apartament indiferent de oră. Acesta este standardul premium al tâmplăriei PVC — nu toate produsele Salamander sunt la fel, iar 7 camere tripan reprezintă top-ul gamei.
+
+Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperit, securizat, în subsolul propriului imobil — este prețul corect pentru zona Sector 2 semicentral. Alternativa — parcare pe stradă sau în parcări publice din cartier — costă între 150€ și 300€/lună, adică 1.800-3.600€/an. La 25.000€ și 7% dobândă (cost de oportunitate), costul anual al locului de parcare propriu este de 1.750€ — sub prețul parcării publice și cu avantajul certitudinii și siguranței. Predare Septembrie 2026. Vânzare directă, fără comision.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.447354, lng: 26.108451 },
     zone: ['eminescu-viitorului', 'mosilor-eminescu', 'sector-2'],
@@ -718,18 +814,18 @@ Predarea estimată în Septembrie 2026 permite finalizarea procesului de finanț
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 25000 } },
     dotari: ['Usi PINUM blindate + interioare', 'Gresie/faianta MARAZZI', 'Parchet Kronotex PREMIUM', 'Obiecte sanitare GROHE/HansGrohe/Kludi', 'Centrala ARISTON 24kW in condensare', 'Incalzire in pardoseala', 'Contorizare individuala apa/gaz/electricitate', 'Preechipare aer conditionat', 'Lift SCHINDLER silentios', 'Adapost ALA / autorizare ISU', 'Termoizolatie EPS80 10cm', 'Tamplarie Salamander 7 camere tripan'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Stefan cel Mare (M2)', distanta: '9 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Piata Victoriei (M1/M2)', distanta: '12 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Piata Obor (M2)', distanta: '4 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '4 min cu masina' },
-      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '4 min cu masina' },
-      { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '5 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Piata Unirii (M1/M3)', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul National', distanta: '7 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '8 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '8 min cu masina' },
-      { tip: 'medical', nume: 'Spital Clinic Fundeni', distanta: '12 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Stefan cel Mare (M2)', distanta: '19 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Piata Obor (M2)', distanta: '2 min cu masina' },
+      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '2 min cu masina' },
+      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '3 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '5 min cu masina' },
+      { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '8 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Piata Unirii (M1/M3)', distanta: '9 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '11 min cu masina' },
+      { tip: 'parc', nume: 'Parcul National', distanta: '13 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '14 min cu masina' },
+      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '3 min cu masina' },
+      { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '9 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Eminescu-Viitorului | N11',
@@ -767,7 +863,15 @@ Metrou Piața Muncii (M3) la 500m — 6 minute pe jos — spre Piața Unirii în
 
 Clasa A + metrou 6 minute + finisaje premium + cartier rezidențial liniștit: o combinație care justifică prețul și garantează aprecierea valorii. Vânzare directă, fără comision.
 
-Un argument final pentru Neofort 8 care merită menționat explicit: clasa energetică A nu este doar un certificat — înseamnă facturi de energie termică cu 20-30% mai mici față de clasa B, permanent, pe toți anii de locuire. La o factură medie de 200€/lună iarna, economia anuală este de 480-720€. Pe 20 de ani, economia cumulată depășește 10.000€ — o valoare concretă care justifică orice diferență de preț față de un imobil similar din clasa B. Parcare subterană cu lift 25.000€. Rezervare cu 2.000€. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
+Un argument final pentru Neofort 8 care merită menționat explicit: clasa energetică A nu este doar un certificat — înseamnă facturi de energie termică cu 20-30% mai mici față de clasa B, permanent, pe toți anii de locuire. La o factură medie de 200€/lună iarna, economia anuală este de 480-720€. Pe 20 de ani, economia cumulată depășește 10.000€ — o valoare concretă care justifică orice diferență de preț față de un imobil similar din clasa B. Parcare subterană cu lift 25.000€. Rezervare cu 2.000€. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție.
+
+Clasa energetică A nu este o certificare abstractă — este un avantaj financiar concret și permanent. O clădire de clasa A consumă cu 20-30% mai puțin energie pentru încălzire și răcire față de clasa B și cu 40-50% față de clasa C (standardul majorității clădirilor noi construite în anii 2000-2015). La o factură medie de gaze de 150€/lună în sezonul rece (6 luni), economia față de o clădire din clasa B este de 180-270€/an. Pe 25 de ani de locuire, economia cumulată depășește 4.500-6.750€ per proprietar — o sumă care depășește costul inițial al upgrade-ului de dotări care face diferența dintre clase.
+
+Zona Tepeș Vodă — Maior Coravu este una dintre rarele zone ale Sectorului 2 unde caracterul rezidențial a fost protejat structural prin regulamentul local de urbanism: înălțimea maximă a construcțiilor este limitată la P+3 sau P+4, cu excepții punctuale. Aceasta înseamnă că vecinătatea Neofort 8 nu va fi modificată dramatic de noi proiecte tower — ceea ce protejează iluminarea naturală, vederea și caracterul de cartier liniștit pe termen lung. Este un avantaj subtil dar real față de zonele unde Certificatele de Urbanism permit construcții de orice înălțime.
+
+Tipologia de vârf a proiectului — 4 camere 6B cu grădină la parter, 156,80 mp + grădină privată, 465.000€ + TVA — este o proprietate fără echivalent direct în zona Tepeș Vodă-Muncii. A combina un apartament nou de 4 camere cu grădină privată, metrou la 6 minute, clasa energetică A și finisaje premium (MARAZZI, Kronotex, Bosch, PINUM) într-un cartier rezidențial liniștit din Sectorul 2, la prețul de 465.000€, este o combinație pe care piața nu o reproduce ușor. Terasele și grădinile private din blocuri noi au o cerere structurală care depășește oferta în Sectorul 2.
+
+Procesul de achiziție este complet transparent: prețul publicat este prețul final, fără costuri ascunse sau extra-uri obligatorii. Neofort IMO facilitează gratuit legătura cu toate băncile majore partenere — BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank — pentru identificarea celei mai competitive oferte de credit ipotecar disponibile la data achiziției. Consultanța juridică este gratuită pe toată durata procesului. Imobil finalizat, disponibil imediat, clasa energetică A. Vânzare directă, fără comision de agenție.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.435422, lng: 26.127951 },
     zone: ['tepes-voda-muncii', 'piata-muncii', 'sector-2'],
@@ -787,18 +891,18 @@ Un argument final pentru Neofort 8 care merită menționat explicit: clasa energ
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 25000 } },
     dotari: ['Usi blindate PINUM intrare + interioare', 'Gresie/faianta MARAZZI', 'Parchet Kronotex PREMIUM', 'Obiecte sanitare la alegere / baterii Kludi', 'Centrala 24kW in condensatie Bosch', 'Incalzire in pardoseala', 'Preechipare aer conditionat', 'Parcare subterana/lift', 'Tamplarie PVC Salamander 7 camere tripan', 'Termoizolatie EPS80 10cm', 'Fatada ventilata', 'Clasa energetica A'],
     puncteInteres: [
-      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '500m' },
-      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '12 min pe jos' },
-      { tip: 'parc', nume: 'Parcul National', distanta: '12 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '3 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Piata Muncii (M3)', distanta: '3 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '4 min cu masina' },
-      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '5 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Piata Unirii (M1/M3)', distanta: '6 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '7 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '9 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Piata Muncii (M3)', distanta: '6 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '5 min cu masina' },
+      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '14 min pe jos' },
+      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '7 min cu masina' },
+      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '8 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '8 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Piata Unirii (M1/M3)', distanta: '9 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '11 min cu masina' },
+      { tip: 'parc', nume: 'Parcul National', distanta: '11 min cu masina' },
+      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '8 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '16 min cu masina' },
     ],
     galerie: [],
     seoTitle: 'Apartamente Tepeș Vodă | Neofort 8',
