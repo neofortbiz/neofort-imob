@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
+import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII, NR_PORTOFOLIU } from '@/data/siteConfig'
 
 // Zone generate automat din ansambluri
@@ -402,6 +402,10 @@ export default function HomePageClient() {
                         <div className={`absolute top-1.5 left-1.5 text-[9px] font-medium px-1.5 py-0.5 rounded ${sc.bg} ${sc.text}`}>
                           {sc.label}
                         </div>
+                        {hasPromo(a) && (
+                          <div className="absolute top-1.5 left-1.5 mt-[18px] text-[9px] font-medium px-1.5 py-0.5 rounded text-white"
+                            style={{ background: '#c0392b' }}>Promoție</div>
+                        )}
                         {isRecent && (
                           <div className="absolute bottom-1.5 left-1.5 text-[8px] font-medium px-1.5 py-0.5 rounded"
                             style={{ background: 'rgba(232,180,78,0.95)', color: '#5a3800' }}>
