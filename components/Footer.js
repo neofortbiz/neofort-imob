@@ -49,7 +49,7 @@ export default function Footer() {
 
           {/* COL 2 — ANSAMBLURI */}
           <div>
-            <h4 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Ansambluri</h4>
+            <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Ansambluri</h3>
             {[
               { href: '/ansambluri-rezidentiale', label: 'La vânzare' },
               { href: '/ansambluri-rezidentiale?status=constructie', label: 'În construcție' },
@@ -65,7 +65,7 @@ export default function Footer() {
 
           {/* COL 3 — ZONE */}
           <div>
-            <h4 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Zone</h4>
+            <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Zone</h3>
             {[
   ...(() => {
                 // Zone dinamice din date — top 5 dupa numar ansambluri, fara sectoare
@@ -102,7 +102,7 @@ export default function Footer() {
 
           {/* COL 4 — COMPANIE */}
           <div>
-            <h4 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Companie</h4>
+            <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Companie</h3>
             {[
               { href: '/despre-noi', label: 'Despre noi' },
               { href: '/echipa', label: 'Echipă' },
@@ -118,7 +118,7 @@ export default function Footer() {
 
           {/* COL 5 — DATE FIRMA */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1">
-            <h4 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Neofort IMO SRL</h4>
+            <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Neofort IMO SRL</h3>
             <div className="text-xs space-y-1.5" style={{ color: '#bbb' }}>
               <div>CUI: RO53874087</div>
               <div>Nr. Reg. Com.: J40/8972/2026</div>

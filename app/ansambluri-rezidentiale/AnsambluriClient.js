@@ -142,7 +142,7 @@ export default function AnsambluriClient() {
               <p className="text-xs mb-2" style={{ color: pretActiv ? '#2d7a3a' : '#9ca3af' }}>
                 {pretActiv ? `Până la ${new Intl.NumberFormat('ro-RO').format(pretMax)}€` : 'Toate prețurile'}
               </p>
-              <input type="range" min={60000} max={1500000} step={10000}
+              <label className="sr-only" htmlFor="range-buget">Buget</label><input id="range-buget" type="range" min={60000} max={1500000} step={10000}
                 value={pretMax}
                 onChange={e => { setPretMax(Number(e.target.value)); setPretActiv(true) }}
                 onMouseDown={e => e.stopPropagation()}
@@ -189,7 +189,7 @@ export default function AnsambluriClient() {
                     className="group bg-white rounded-xl border border-gray-300 overflow-hidden hover:shadow-md transition-all hover:border-gray-500">
                     <div className="relative bg-gray-100 overflow-hidden" style={{ aspectRatio: '16/9' }}>
                       {a.imagini?.cover ? (
-                        <img src={a.imagini.cover} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                        <img src={a.imagini.cover} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading={idx === 0 ? "eager" : "lazy"} fetchPriority={idx === 0 ? "high" : "auto"} />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center">
                           <span className="text-xs text-gray-400">Foto</span>
