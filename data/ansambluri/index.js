@@ -26,20 +26,20 @@ export const ANSAMBLURI = [
 
 Oferta cuprinde 10 tipuri distincte de apartamente, gândite pentru orice buget și configurație familială. Apartamentele de 2 camere variază între 47,78 mp și 91,60 mp cu terasă, cu prețuri promoționale de la 62.114€ la avans 45% sau de la 66.892€ la avans 20%. Apartamentele de 3 camere acoperă suprafețe între 78,60 și 119,52 mp, de la 102.167€ la avans 45%. Vârful ofertei: apartamentul de 4 camere cu terasă panoramică la etajul 10, 175,58 mp, de la 181.262€ la avans 45%. Parcare exterioară de la 6.000€, parcare interioară de la 8.500€.
 
-Structura imobilului este realizată din cadre și diafragme din beton armat completate cu zidărie cărămidă Porotherm — unul dintre cele mai performante sisteme constructive disponibile, care asigură izolație termică și fonică superioară față de BCA sau panouri prefabricate. Dotările standard includ încălzire în pardoseală în toate camerele, tâmplărie PVC Salamander cu ferestre mari pentru lumină naturală maximă, lifturi silențioase, gresie și faianță de import, centrală termică proprie în condensare și instalații sanitare, electrice și termice complete.
+Structura imobilului este realizată din cadre și diafragme din beton armat completate cu zidărie cărămidă Porotherm sau BCA Ytong. Dotările standard includ încălzire în pardoseală în toate camerele, tâmplărie PVC Salamander cu ferestre mari pentru lumină naturală maximă, lifturi silențioase, gresie și faianță de import, centrală termică proprie în condensare și instalații sanitare, electrice și termice complete.
 
 Zona Titan-Pallady este în prezent una dintre cele mai căutate zone rezidențiale din București, cu o dinamică de creștere susținută. Datele din piață confirmă: apartamentele noi cu metrou în 3-8 minute și-au crescut valoarea cu 15-20% în ultimii 3 ani, iar cererea depășește constant oferta. Metrou Nicolae Teclu (M2) la câteva minute pe jos și Metrou Anghel Saligny (M2) la 8 minute asigură accesul rapid în orice punct al capitalei fără dependență de trafic.
 
 Infrastructura comercială din zonă este completă și matură: IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo, Metro, Leroy Merlin și Dedeman Pallady la 8 minute — cea mai densă concentrare de retail mare din estul Bucureștiului. Pentru familiile cu copii: Waldorf București și Spectrum School la 500m, Școala Gimnazială nr. 149 și Liceul Victor Brauner la 10 minute pe jos. Parcul Teilor la 10 minute oferă spațiu verde generos pentru relaxare zilnică. Campus Medical Regina Maria Titan la 10 minute și MedLife Titan la 8 minute acoperă integral nevoile medicale.
 
-Neofort 84 se comercializează direct de la sursă, fără comision de agenție — prețul publicat este prețul final, fără surprize la semnare. Prețurile promoționale sunt valabile pentru unitățile rezervate cu avans 45% și se pot modifica odată cu avansarea construcției. Rezervare cu 2.000€, consultanță juridică și bancară gratuită.
+Neofort 84 se comercializează direct de la sursă, fără comision de agenție — prețul publicat este prețul final, fără surprize la semnare. Prețurile promoționale sunt valabile pentru unitățile rezervate cu avans 45% și se pot modifica odată cu avansarea construcției. Rezervare cu 1.000€, consultanță juridică și bancară gratuită.
 
-Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervarea se face cu 2.000€, sumă restituibilă integral dacă nu se ajunge la antecontract din vina dezvoltatorului. Consultanța juridică și bancară este gratuită pe toată durata — Neofort IMO colaborează cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Prețurile promoționale la avans 45% sunt valabile pentru unități specifice și se pot modifica pe măsura avansării construcției. Vânzare directă de la sursă, fără comision de agenție.`,
+Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervarea se face cu 1.000€, sumă restituibilă integral dacă nu se ajunge la antecontract din vina dezvoltatorului. Consultanța juridică și bancară este gratuită pe toată durata — Neofort IMO colaborează cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Prețurile promoționale la avans 45% sunt valabile pentru unități specifice și se pot modifica pe măsura avansării construcției. Vânzare directă de la sursă, fără comision de agenție.`,
     brokerTel: '0743 250 029',
     coordonate: { lat: 44.418559, lng: 26.204754 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 84, zona Titan-Pallady, Sector 3. Bloc P+10 în construcție, predare T1 2027. Apartamente 2-4 camere de la 62.114€+TVA. Metrou Nicolae Teclu la câteva minute, IKEA Pallady, Auchan Titan, Parcul Teilor în proximitate. Încălzire pardoseală, tâmplărie Salamander tripan, centrală proprie, structură beton armat Porotherm.',
+    descriere: 'Ansamblul Rezidențial Neofort 84, zona Titan-Pallady, Sector 3. Bloc P+10 în construcție, predare T1 2027. Apartamente 2-4 camere de la 62.114€+TVA. Metrou Nicolae Teclu la câteva minute, IKEA Pallady, Auchan Titan, Parcul Teilor în proximitate. Încălzire pardoseală, tâmplărie Salamander tripan, centrală proprie, structură beton armat.',
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 10', suprafata: 47.78, avans20: 66892, avans45: 62114, promo: true, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 3-9', suprafata: 49.15, avans20: 68824, avans45: 63908, promo: true, camere: 2 },
@@ -52,8 +52,8 @@ Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervare
       { tip: '3 cam. Tip 4 terasa', etaj: 'p. înalt', suprafata: 119.52, avans20: 131985, avans45: 125082, promo: true, camere: 3 },
       { tip: '4 cam. terasa', etaj: 'et. 10', suprafata: 175.58, avans20: 190988, avans45: 181262, promo: true, camere: 4 },
     ],
-    parcare: { exterior: { disponibil: true, pret: 6000 }, interior: { disponibil: true, pret: 8500 }, subteran: { disponibil: false, pret: null } },
-    dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie caramida Porotherm'],
+    parcare: { exterior: { disponibil: true, pret: 6000, deLa: true, notaTVA: '+TVA' }, interior: { disponibil: true, pret: 8500, deLa: true, notaTVA: '+TVA' }, subteran: { disponibil: false, pret: null } },
+    dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie Porotherm/BCA Ytong'],
     puncteInteres: [
       { tip: 'mall', nume: 'IKEA Pallady', distanta: '350m' },
       { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '7 min pe jos' },
@@ -147,7 +147,7 @@ Pentru investitori: chiria medie pentru o garsonieră de 43 mp în Titan cu metr
     sector: 'Sector 2',
     adresa: 'Strada Ardeleni, Zona Mosilor-Eminescu, Sector 2, Bucuresti',
     status: 'constructie',
-    dataPredare: 'Mai 2026',
+    dataPredare: 'Septembrie 2026',
     pretDeLa: 185000,
     etaje: 'S+P+4ET+5R+6R+7R',
     telefon: '0752 443 434',
@@ -159,7 +159,7 @@ Pentru investitori: chiria medie pentru o garsonieră de 43 mp în Titan cu metr
       interior: ['/ansambluri/neo-78/interior-01.avif','/ansambluri/neo-78/interior-02.avif','/ansambluri/neo-78/interior-03.avif','/ansambluri/neo-78/interior-04.avif','/ansambluri/neo-78/interior-05.avif','/ansambluri/neo-78/interior-06.avif','/ansambluri/neo-78/interior-07.avif','/ansambluri/neo-78/interior-08.avif'],
       schite: ['/ansambluri/neo-78/schite-01.avif','/ansambluri/neo-78/schite-02.avif','/ansambluri/neo-78/schite-03.avif','/ansambluri/neo-78/schite-04.avif','/ansambluri/neo-78/schite-05.avif','/ansambluri/neo-78/schite-06.avif','/ansambluri/neo-78/schite-07.avif','/ansambluri/neo-78/schite-08.avif','/ansambluri/neo-78/schite-09.avif','/ansambluri/neo-78/schite-10.avif'],
     },
-    descriereCompleta: `Pe strada Ardeleni din zona Moșilor-Eminescu, Sectorul 2, la exact 400 de metri — 5 minute pe jos — de Metrou Piața Obor (M2), Neofort 78 Faza 2 propune ceva rar în oferta imobiliară a Bucureștiului: un proiect boutique de 22 de apartamente cu finisaje Premium-Lux, cu predare în Mai 2026, cu tipologii care merg de la 58 mp până la 495.000€ pentru un duplex exclusivist.
+    descriereCompleta: `Pe strada Ardeleni din zona Moșilor-Eminescu, Sectorul 2, la exact 400 de metri — 5 minute pe jos — de Metrou Piața Obor (M2), Neofort 78 Faza 2 propune ceva rar în oferta imobiliară a Bucureștiului: un proiect boutique de 22 de apartamente cu finisaje Premium-Lux, cu predare în Septembrie 2026, cu tipologii care merg de la 58 mp până la 495.000€ pentru un duplex exclusivist.
 
 Regimul S+P+4ET+5R+6R+7R cu etajele 5, 6 și 7 retrase creează apartamente cu terase generoase la ultimele niveluri și o siluetă arhitecturală distinctă. Oferta curentă: 2 camere Tip 8, 58,10 mp, de la 185.000€; 2 camere Tip 14, 63,40 mp, de la 199.000€; 3 camere Tip 5, 81,40 mp, de la 280.000€; 3 camere Tip 18, 84,00 mp, de la 300.000€; 3 camere cu grădină la parter, 194,20 mp total incluzând grădina privată, de la 399.000€ — o raritate absolută în oferta de apartamente noi din București; 4 camere Duplex Tip 15, etajele 5-6, 130,30 mp, de la 495.000€. Parcare subterană 30.000€ + TVA.
 
@@ -167,9 +167,9 @@ Finisajele Neofort 78 Faza 2 sunt în clasa Premium-Lux fără excepție. Parche
 
 Zona Moșilor-Eminescu beneficiază de o accesibilitate excepțională: Metrou Piața Obor (M2) la 400m asigură accesul spre Piața Universității în 5 minute și spre Piața Unirii în 8 minute. Piața Obor la 400m este cel mai mare complex comercial de tip open-air din București. Colegiul Național Mihai Eminescu la 5 minute pe jos și Liceul Teoretic Dimitrie Bolintineanu la 10 minute acoperă educația copiilor. Grădinița nr. 54 și nr. 82 la 5 minute pe jos. Parcul Circului la 10 minute pe jos. Spital Clinic Colentina și MedLife Obor la proximitate imediată. Autogara Obor și linii STB multiple la 400m.
 
-Cumpărătorii care apreciază un proiect mic, cu comunitate restrânsă, finisaje care se văd și se simt, și o localizare cu metrou la 5 minute pe jos vor găsi în Neofort 78 Faza 2 o opțiune greu de egalat în Sectorul 2. Predare Mai 2026. Vânzare directă, fără comision de agenție.
+Cumpărătorii care apreciază un proiect mic, cu comunitate restrânsă, finisaje care se văd și se simt, și o localizare cu metrou la 5 minute pe jos vor găsi în Neofort 78 Faza 2 o opțiune greu de egalat în Sectorul 2. Predare Septembrie 2026. Vânzare directă, fără comision de agenție.
 
-Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care înțeleg că un proiect de 22 de unități cu finisaje HansGrohe, Salamander Blue Edition și parchet stejar la 400m de metrou Obor este o oportunitate care nu se repetă. Proiectele boutique de această calitate în Sectorul 2 semicentral se vând integral în prima fază de lansare. Predare Mai 2026. Parcare subterană 30.000€ + TVA. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
+Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care înțeleg că un proiect de 22 de unități cu finisaje HansGrohe, Salamander Blue Edition și parchet stejar la 400m de metrou Obor este o oportunitate care nu se repetă. Proiectele boutique de această calitate în Sectorul 2 semicentral se vând integral în prima fază de lansare. Predare Septembrie 2026. Parcare subterană 30.000€ + TVA. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.446553, lng: 26.119879 },
     zone: ['mosilor-eminescu', 'eminescu-viitorului', 'sector-2'],
@@ -338,7 +338,7 @@ De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Tr
     adresa: 'Bulevardul 1 Decembrie 1918, Sector 3, Bucuresti',
     status: 'activ',
     dataPredare: 'Finalizat',
-    pretDeLa: 142545,
+    pretDeLa: 153860,
     etaje: '2S+P+5E-6/11R',
     telefon: '0752 443 436',
     broker: 'Adrian PINTILIE',
@@ -370,10 +370,11 @@ Pentru investitori, zona Titan-IOR generează chirii lunare de 700-850€ pentru
     tipuri: ['2 camere', '4 camere'],
     descriere: 'Ansamblul Rezidențial Neofort 50 Titan IOR, Bulevardul 1 Decembrie 1918, Sector 3. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 142.545€+TVA. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire pardoseală.',
     apartamente: [
-      { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 73.10, avans20: 142545, avans45: null, promo: false, camere: 2 },
-      { tip: '2 cam. cu terasa', etaj: 'et. 6', suprafata: 48.90, avans20: 144210, avans45: null, promo: false, camere: 2 },
-      { tip: '2 cam. cu terasa mare', etaj: 'et. 10-11', suprafata: 56.40, avans20: 176904, avans45: null, promo: false, camere: 2 },
-      { tip: '4 cam. cu terasa', etaj: 'et. 10-11', suprafata: 99.95, avans20: 255405, avans45: null, promo: true, camere: 4 },
+      { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 70.40, avans20: 161920, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. cu terasa', etaj: 'et. 6', suprafata: 47.80, avans20: 153860, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. cu terasa mare', etaj: 'et. 10-11', suprafata: 52.90, avans20: 162710, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. cu terasa PROMO', etaj: 'et. 10-11', suprafata: 55.00, avans20: 196260, avans45: null, promo: true, camere: 2, pretPromo: 176900 },
+      { tip: '4 cam. cu terasa PROMO', etaj: 'et. 10-11', suprafata: 99.20, avans20: 304760, avans45: null, promo: true, camere: 4, pretPromo: 281810 },
     ],
     parcare: { exterior: { disponibil: true, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: null } },
     dotari: ['4 lifturi spatioase ORONA', 'Parcari subterane si supraterane', 'Parc de relaxare cu loc de joaca', 'Structura antiseismica piloti adancime', 'Vitraje mari SALAMANDER tripan', 'Usi PINUM / BENATI', 'Sanitare ROCA / CERSANIT / GROHE', 'Centrala SAUNIER DUVAL by VAILLANT', 'Termostat wireless Smart', 'Incalzire in pardoseala'],
@@ -404,7 +405,7 @@ Pentru investitori, zona Titan-IOR generează chirii lunare de 700-850€ pentru
     adresa: 'Strada Vistiernicul Stavrinos, Sector 6, Bucuresti',
     status: 'constructie',
     dataPredare: 'Finalizat',
-    pretDeLa: 76974,
+    pretDeLa: 77800,
     etaje: 'S+P+3E',
     telefon: '0759 030 367',
     broker: 'Ramona BAICU',
@@ -438,8 +439,8 @@ Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Milita
     tipuri: ['Garsoniera', '2 camere'],
     descriere: 'Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 18 apartamente finalizat. Garsoniere și 2 camere de la 76.974€+TVA. Metrou Gorjului și Păcii la câteva minute. Centrală proprie, încălzire pardoseală, tâmplărie Salamander, kit aer condiționat, finisaje moderne la cheie.',
     apartamente: [
-      { tip: 'Garsoniera', etaj: 'et. 1-3', suprafata: 38.90, avans20: 77800, avans45: null, promo: true, camere: 1, pretPromo: 76974 },
-      { tip: '2 camere', etaj: 'et. 1-3', suprafata: 60.30, avans20: 120600, avans45: null, promo: true, camere: 2, pretPromo: 118947 },
+      { tip: 'Garsoniera', etaj: 'et. 1-3', suprafata: 38.90, avans20: 77800, avans45: null, promo: false, camere: 1 },
+      { tip: '2 camere', etaj: 'et. 1-3', suprafata: 60.30, avans20: 120600, avans45: null, promo: false, camere: 2 },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 15000, notaTVA: 'TVA inclus' } },
     dotari: ['Centrala proprie de apartament', 'Incalzire prin pardoseala', 'Tamplarie Salamander negru structurat', 'Kit aer conditionat', 'Baie complet echipata', 'Obiecte sanitare incastrabile suspendate', 'Usa metalica multipunct antiefractie', 'Lift silentios'],
@@ -773,16 +774,15 @@ Un argument final pentru Neofort 8 care merită menționat explicit: clasa energ
     tipuri: ['Studio', '2 camere', '3 camere', '4 camere'],
     descriere: 'Ansamblul Rezidențial Boutique Exclusivist Neofort 8, zona Tepeș Vodă-Muncii, Sector 2. 32 apartamente S+P+2ET+M finalizate, de la 146.000€+TVA. Studio, 2, 3 și 4 camere. Metrou Piața Muncii la 500m. Clasă energetică A, fațadă ventilată, centrală Bosch condensare, tâmplărie Salamander 7 camere, parchet Kronotex, uși PINUM.',
     apartamente: [
-      { tip: 'Studio Garsoniera', etaj: 'et. 1-2', suprafata: 39.92, avans20: 146000, avans45: null, promo: false, camere: 1 },
-      { tip: '2 cam. 8B', etaj: 'et. 1-2', suprafata: 67.80, avans20: 192000, avans45: null, promo: false, camere: 2 },
-      { tip: '2 cam. 17B', etaj: 'et. 1-2', suprafata: 67.80, avans20: 217000, avans45: null, promo: true, camere: 2, pretPromo: 205000 },
-      { tip: '2 cam. 14B', etaj: 'et. 1-2', suprafata: 64.10, avans20: 213000, avans45: null, promo: true, camere: 2, pretPromo: 176000 },
-      { tip: '2 cam. 7B', etaj: 'et. 1-2', suprafata: 60.35, avans20: 210000, avans45: null, promo: true, camere: 2, pretPromo: 174000 },
-      { tip: '2 cam. 20B', etaj: 'et. 1-2', suprafata: 62.80, avans20: 217000, avans45: null, promo: true, camere: 2, pretPromo: 205000 },
-      { tip: '3 cam. 22B', etaj: 'et. 1-2', suprafata: 80.15, avans20: 265000, avans45: null, promo: false, camere: 3 },
-      { tip: '3 cam. 4B', etaj: 'et. 1-2', suprafata: 113.60, avans20: 295000, avans45: null, promo: false, camere: 3 },
-      { tip: '3 cam. 25B terasa', etaj: 'mansarda', suprafata: 148.80, avans20: 345000, avans45: null, promo: false, camere: 3 },
-      { tip: '4 cam. 6B cu gradina', etaj: 'parter', suprafata: 237.83, avans20: 465000, avans45: null, promo: false, camere: 4 },
+      { tip: 'Studio Garsoniera', etaj: 'et. 1-2', suprafata: 36.10, avans20: 146000, avans45: null, promo: false, camere: 1 },
+      { tip: '2 cam. 8B', etaj: 'et. 1-2', suprafata: 54.30, avans20: 192000, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. 17B', etaj: 'et. 1-2', suprafata: 54.70, avans20: 217000, avans45: null, promo: true, camere: 2, pretPromo: 192000 },
+      { tip: '2 cam. 14B', etaj: 'et. 1-2', suprafata: 58.10, avans20: 213000, avans45: null, promo: true, camere: 2, pretPromo: 179000 },
+      { tip: '2 cam. 7B', etaj: 'et. 1-2', suprafata: 52.90, avans20: 210000, avans45: null, promo: true, camere: 2, pretPromo: 174000 },
+      { tip: '3 cam. 22B', etaj: 'et. 1-2', suprafata: 73.50, avans20: 265000, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. 4B', etaj: 'et. 1-2', suprafata: 111.20, avans20: 295000, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. 25B terasa', etaj: 'mansarda', suprafata: 137.50, avans20: 345000, avans45: null, promo: false, camere: 3 },
+      { tip: '4 cam. 6B cu gradina', etaj: 'parter', suprafata: 156.80, avans20: 465000, avans45: null, promo: false, camere: 4 },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 25000 } },
     dotari: ['Usi blindate PINUM intrare + interioare', 'Gresie/faianta MARAZZI', 'Parchet Kronotex PREMIUM', 'Obiecte sanitare la alegere / baterii Kludi', 'Centrala 24kW in condensatie Bosch', 'Incalzire in pardoseala', 'Preechipare aer conditionat', 'Parcare subterana/lift', 'Tamplarie PVC Salamander 7 camere tripan', 'Termoizolatie EPS80 10cm', 'Fatada ventilata', 'Clasa energetica A'],
