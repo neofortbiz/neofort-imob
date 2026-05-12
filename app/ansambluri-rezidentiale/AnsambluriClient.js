@@ -5,10 +5,10 @@ import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
 
 const STATUS_CFG = {
-  constructie: { label: 'În construcție', bg: '#e3f2fd', color: '#1565c0' },
-  activ:        { label: 'Finalizat',      bg: '#e8f5e9', color: '#2d7a3a' },
-  promotie:     { label: 'Promoție',       bg: '#fff3e0', color: '#c8922a' },
-  vandut:        { label: 'Vândut',         bg: '#fff7ed', color: '#c2410c' },
+  constructie: { label: 'În construcție', bg: '#1565c0', color: '#ffffff' },
+  activ:        { label: 'Finalizat',      bg: '#2d7a3a', color: '#ffffff' },
+  promotie:     { label: 'Promoție',       bg: '#c0392b', color: '#ffffff' },
+  vandut:        { label: 'Vândut',         bg: '#c8922a', color: '#ffffff' },
 }
 const SECTOARE = ['Toate', 'Sector 2', 'Sector 3', 'Sector 6']
 const STATUSURI = ['Toate', 'constructie', 'activ', 'promotie']
