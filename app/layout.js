@@ -1,5 +1,20 @@
 import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
+import { Barlow, Barlow_Condensed } from 'next/font/google'
+
+const barlow = Barlow({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+  variable: '--font-barlow',
+  display: 'swap',
+})
+
+const barlowCondensed = Barlow_Condensed({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-barlow-condensed',
+  display: 'swap',
+})
 
 const BASE = 'https://www.neofort.ro'
 
@@ -295,11 +310,9 @@ const faqSchema = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ro">
+    <html lang="ro" className={`${barlow.variable} ${barlowCondensed.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;600&display=swap" rel="stylesheet" />
+
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }} />

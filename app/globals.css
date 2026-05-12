@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  font-family: 'Barlow', system-ui, sans-serif;
+  font-family: var(--font-barlow), 'Barlow', system-ui, sans-serif;
   color: #1a1a1a;
   background: #ffffff;
   -webkit-font-smoothing: antialiased;

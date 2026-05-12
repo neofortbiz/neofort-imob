@@ -58,7 +58,7 @@ export default function FormularCalificat() {
       {/* Rând 2: Email + Finanțare */}
       <div className="grid grid-cols-2 gap-2 mb-2">
         <input name="email" type="email" value={form.email} onChange={handleChange} placeholder="Email *" required className={inputCls} />
-        <select name="finantare" value={form.finantare} onChange={handleChange} className={selectCls} style={{ color: form.finantare ? 'white' : 'rgba(255,255,255,0.65)' }}>
+        <label className="sr-only" htmlFor="form-finantare">Finanțare</label><select id="form-finantare" name="finantare" value={form.finantare} onChange={handleChange} className={selectCls} style={{ color: form.finantare ? 'white' : 'rgba(255,255,255,0.65)' }}>
           <option value="" disabled>Finanțare</option>
           <option value="surse-proprii" style={{ color: '#111' }}>Surse proprii</option>
           <option value="credit-ipotecar" style={{ color: '#111' }}>Credit ipotecar</option>
@@ -68,7 +68,7 @@ export default function FormularCalificat() {
       </div>
       {/* Rând 3: Tip imobil + Număr camere */}
       <div className="grid grid-cols-2 gap-2 mb-2">
-        <select name="tipImobil" value={form.tipImobil} onChange={handleChange} className={selectCls} style={{ color: form.tipImobil ? 'white' : 'rgba(255,255,255,0.65)' }}>
+        <label className="sr-only" htmlFor="form-tip">Tip imobil</label><select id="form-tip" name="tipImobil" value={form.tipImobil} onChange={handleChange} className={selectCls} style={{ color: form.tipImobil ? 'white' : 'rgba(255,255,255,0.65)' }}>
           <option value="" disabled>Tip imobil</option>
           <option value="garsoniera-studio" style={{ color: '#111' }}>Garsonieră / Studio</option>
           <option value="apartament" style={{ color: '#111' }}>Apartament</option>
@@ -76,7 +76,7 @@ export default function FormularCalificat() {
           <option value="casa-vila" style={{ color: '#111' }}>Casă / Vilă</option>
           <option value="comercial" style={{ color: '#111' }}>Spațiu comercial</option>
         </select>
-        <select name="camere" value={form.camere} onChange={handleChange} className={selectCls} style={{ color: form.camere ? 'white' : 'rgba(255,255,255,0.65)' }}>
+        <label className="sr-only" htmlFor="form-camere">Număr camere</label><select id="form-camere" name="camere" value={form.camere} onChange={handleChange} className={selectCls} style={{ color: form.camere ? 'white' : 'rgba(255,255,255,0.65)' }}>
           <option value="" disabled>Număr camere</option>
           <option value="1" style={{ color: '#111' }}>1 cameră</option>
           <option value="2" style={{ color: '#111' }}>2 camere</option>

@@ -157,7 +157,7 @@ export default function AnsambluriClient() {
             </div>
             <div className="mb-4">
               <p className="text-xs font-medium text-gray-700 mb-2">Sortare</p>
-              <select value={sortare} onChange={e => setSortare(e.target.value)}
+              <label className="sr-only" htmlFor="sortare-select">Sortare</label><select id="sortare-select" value={sortare} onChange={e => setSortare(e.target.value)}
                 className="w-full text-xs border border-gray-200 rounded-lg px-2.5 py-2 bg-white text-gray-700 outline-none">
                 {SORTARI.map(s => <option key={s.val} value={s.val}>{s.lbl}</option>)}
               </select>

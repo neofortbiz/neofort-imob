@@ -246,7 +246,7 @@ export default function HomePageClient() {
               {/* Tip proprietate */}
               <div className="flex flex-col gap-0.5 flex-shrink-0">
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Tip proprietate</label>
-                <select value={tipFilter} onChange={e => {
+                <label className="sr-only" htmlFor="tip-filter">Tip proprietate</label><select id="tip-filter" value={tipFilter} onChange={e => {
                     const val = e.target.value
                     setTipFilter(val)
                     // Sincronizare Tip -> Camere
@@ -276,7 +276,7 @@ export default function HomePageClient() {
               {/* Numar camere */}
               <div className="flex flex-col gap-0.5 flex-shrink-0">
                 <label className="text-[9px] text-gray-600 uppercase tracking-wider font-medium">Număr camere</label>
-                <select value={camereFilter} onChange={e => {
+                <label className="sr-only" htmlFor="camere-filter">Număr camere</label><select id="camere-filter" value={camereFilter} onChange={e => {
                     const val = e.target.value
                     setCamereFilter(val)
                     // Sincronizare Camere -> Tip (sens invers)
@@ -476,11 +476,11 @@ export default function HomePageClient() {
             <Link href="/harta-ansambluri" className="block group">
               <div className="relative overflow-hidden" style={{ height: 200 }}>
 
-                {/* OpenStreetMap embed real ca fundal */}
-                <iframe
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=25.97%2C44.37%2C26.23%2C44.51&amp;layer=mapnik"
-                  style={{ width: '100%', height: '100%', border: 0, pointerEvents: 'none' }}
-                  title="Harta Bucuresti"
+                {/* Harta statica - fara JS extern OSM */}
+                <img
+                  src="/harta-teaser.svg"
+                  alt="Harta ansambluri Neofort IMO București"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   loading="lazy"
                 />
 
