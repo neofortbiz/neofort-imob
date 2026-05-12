@@ -478,7 +478,7 @@ export default function HomePageClient() {
 
                 {/* Harta statica - fara JS extern OSM */}
                 <img
-                  src="/harta-teaser.svg"
+                  src="/harta-teaser.avif"
                   alt="Harta ansambluri Neofort IMO București"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   loading="lazy"

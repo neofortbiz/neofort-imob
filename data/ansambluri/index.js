@@ -374,7 +374,7 @@ Pentru investitori, zona Titan-IOR generează chirii lunare de 700-850€ pentru
       { tip: '2 cam. cu terasa (47.80+54.90mp)', etaj: 'et. 6', suprafata: 47.80, avans20: 153860, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. cu terasa (52.90+51.30mp)', etaj: 'et. 10-11', suprafata: 52.90, avans20: 162710, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. cu terasa (55.00+87.20mp)', etaj: 'et. 10-11', suprafata: 55.00, avans20: 196260, avans45: null, promo: true, camere: 2, pretPromo: 176900 },
-      { tip: '4 cam. cu terasa (99.20+91.90mp)', etaj: 'et. 10-11', suprafata: 99.20, avans20: 304760, avans45: null, promo: true, camere: 4, pretPromo: 281810 },
+      { tip: '4 cam. Scara 2 cu terasa (99.20+91.90mp)', etaj: 'et. 10-11', suprafata: 99.20, avans20: 304760, avans45: null, promo: true, camere: 4, pretPromo: 281810 },
     ],
     parcare: { exterior: { disponibil: true, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: null } },
     dotari: ['4 lifturi spatioase ORONA', 'Parcari subterane si supraterane', 'Parc de relaxare cu loc de joaca', 'Structura antiseismica piloti adancime', 'Vitraje mari SALAMANDER tripan', 'Usi PINUM / BENATI', 'Sanitare ROCA / CERSANIT / GROHE', 'Centrala SAUNIER DUVAL by VAILLANT', 'Termostat wireless Smart', 'Incalzire in pardoseala'],
