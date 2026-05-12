@@ -182,14 +182,14 @@ export default function AnsambluriClient() {
             </div>
           ) : view === 'grid' ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
-              {filtered.map(a => {
+              {filtered.map((a, cardIdx) => {
                 const sc = STATUS_CFG[a.status]
                 return (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                     className="group bg-white rounded-xl border border-gray-300 overflow-hidden hover:shadow-md transition-all hover:border-gray-500">
                     <div className="relative bg-gray-100 overflow-hidden" style={{ aspectRatio: '16/9' }}>
                       {a.imagini?.cover ? (
-                        <img src={a.imagini.cover} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading={idx === 0 ? "eager" : "lazy"} fetchPriority={idx === 0 ? "high" : "auto"} />
+                        <img src={a.imagini.cover} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading={cardIdx === 0 ? "eager" : "lazy"} fetchPriority={cardIdx === 0 ? "high" : "auto"} />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center">
                           <span className="text-xs text-gray-400">Foto</span>
@@ -223,7 +223,7 @@ export default function AnsambluriClient() {
             </div>
           ) : (
             <div className="space-y-3">
-              {filtered.map(a => {
+              {filtered.map((a, cardIdx) => {
                 const sc = STATUS_CFG[a.status]
                 return (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}

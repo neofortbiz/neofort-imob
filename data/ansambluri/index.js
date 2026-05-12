@@ -17,7 +17,7 @@ export const ANSAMBLURI = [
     broker: 'Raluca NISTOR',
     brokerFoto: '/brokeri/raluca-nistor.avif',
     imagini: {
-      cover: '/ansambluri/neo-84/exterior-01.jpg',
+      cover: '/ansambluri/neo-84/exterior-01.avif',
       exterior: ['/ansambluri/neo-84/exterior-01.avif','/ansambluri/neo-84/exterior-02.avif','/ansambluri/neo-84/exterior-03.avif'],
       interior: [],
       schite: ['/ansambluri/neo-84/schite-01.avif','/ansambluri/neo-84/schite-02.avif','/ansambluri/neo-84/schite-03.avif','/ansambluri/neo-84/schite-04.avif','/ansambluri/neo-84/schite-05.avif','/ansambluri/neo-84/schite-06.avif','/ansambluri/neo-84/schite-07.avif','/ansambluri/neo-84/schite-08.avif','/ansambluri/neo-84/schite-09.avif','/ansambluri/neo-84/schite-10.avif','/ansambluri/neo-84/schite-11.avif','/ansambluri/neo-84/schite-12.avif','/ansambluri/neo-84/schite-13.avif','/ansambluri/neo-84/schite-14.avif','/ansambluri/neo-84/schite-15.avif','/ansambluri/neo-84/schite-16.avif','/ansambluri/neo-84/schite-17.avif','/ansambluri/neo-84/schite-18.avif','/ansambluri/neo-84/schite-19.avif','/ansambluri/neo-84/schite-20.avif','/ansambluri/neo-84/schite-21.avif','/ansambluri/neo-84/schite-22.avif','/ansambluri/neo-84/schite-23.avif','/ansambluri/neo-84/schite-24.avif','/ansambluri/neo-84/schite-25.avif','/ansambluri/neo-84/schite-26.avif','/ansambluri/neo-84/schite-27.avif','/ansambluri/neo-84/schite-28.avif'],
@@ -87,7 +87,7 @@ Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervare
     broker: 'Ramona BAICU',
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
-      cover: '/ansambluri/neo-83/exterior-01.jpg',
+      cover: '/ansambluri/neo-83/exterior-01.avif',
       exterior: ['/ansambluri/neo-83/exterior-01.avif','/ansambluri/neo-83/exterior-02.avif','/ansambluri/neo-83/exterior-03.avif'],
       interior: ['/ansambluri/neo-83/interior-01.avif','/ansambluri/neo-83/interior-02.avif','/ansambluri/neo-83/interior-03.avif','/ansambluri/neo-83/interior-04.avif','/ansambluri/neo-83/interior-05.avif','/ansambluri/neo-83/interior-06.avif','/ansambluri/neo-83/interior-07.avif','/ansambluri/neo-83/interior-08.avif'],
       schite: ['/ansambluri/neo-83/schite-01.avif','/ansambluri/neo-83/schite-02.avif','/ansambluri/neo-83/schite-03.avif','/ansambluri/neo-83/schite-04.avif','/ansambluri/neo-83/schite-05.avif','/ansambluri/neo-83/schite-06.avif','/ansambluri/neo-83/schite-07.avif','/ansambluri/neo-83/schite-08.avif','/ansambluri/neo-83/schite-09.avif','/ansambluri/neo-83/schite-10.avif','/ansambluri/neo-83/schite-11.avif','/ansambluri/neo-83/schite-12.avif','/ansambluri/neo-83/schite-13.avif'],
@@ -154,7 +154,7 @@ Pentru investitori: chiria medie pentru o garsonieră de 43 mp în Titan cu metr
     broker: 'Svetlana CALUTU',
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
-      cover: '/ansambluri/neo-78/exterior-01.jpg',
+      cover: '/ansambluri/neo-78/exterior-01.avif',
       exterior: ['/ansambluri/neo-78/exterior-01.avif','/ansambluri/neo-78/exterior-02.avif','/ansambluri/neo-78/exterior-03.avif','/ansambluri/neo-78/exterior-04.avif','/ansambluri/neo-78/exterior-05.avif','/ansambluri/neo-78/exterior-06.avif'],
       interior: ['/ansambluri/neo-78/interior-01.avif','/ansambluri/neo-78/interior-02.avif','/ansambluri/neo-78/interior-03.avif','/ansambluri/neo-78/interior-04.avif','/ansambluri/neo-78/interior-05.avif','/ansambluri/neo-78/interior-06.avif','/ansambluri/neo-78/interior-07.avif','/ansambluri/neo-78/interior-08.avif'],
       schite: ['/ansambluri/neo-78/schite-01.avif','/ansambluri/neo-78/schite-02.avif','/ansambluri/neo-78/schite-03.avif','/ansambluri/neo-78/schite-04.avif','/ansambluri/neo-78/schite-05.avif','/ansambluri/neo-78/schite-06.avif','/ansambluri/neo-78/schite-07.avif','/ansambluri/neo-78/schite-08.avif','/ansambluri/neo-78/schite-09.avif','/ansambluri/neo-78/schite-10.avif'],
@@ -217,7 +217,7 @@ Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care 
     broker: 'Ramona BAICU',
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
-      cover: '/ansambluri/neo-76/exterior-01.jpg',
+      cover: '/ansambluri/neo-76/exterior-01.avif',
       exterior: ['/ansambluri/neo-76/exterior-01.avif','/ansambluri/neo-76/exterior-02.avif','/ansambluri/neo-76/exterior-03.avif'],
       interior: ['/ansambluri/neo-76/interior-01.avif','/ansambluri/neo-76/interior-02.avif','/ansambluri/neo-76/interior-03.avif','/ansambluri/neo-76/interior-04.avif','/ansambluri/neo-76/interior-05.avif','/ansambluri/neo-76/interior-06.avif','/ansambluri/neo-76/interior-07.avif','/ansambluri/neo-76/interior-08.avif','/ansambluri/neo-76/interior-09.avif','/ansambluri/neo-76/interior-10.avif','/ansambluri/neo-76/interior-11.avif','/ansambluri/neo-76/interior-12.avif'],
       schite: [],
@@ -280,7 +280,7 @@ Penthouse-ul Neofort 76 cu 276,98 mp și terasă panoramică la etajele 8-9 pe B
     broker: 'Ramona BAICU',
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
-      cover: '/ansambluri/neo-56/exterior-01.jpg',
+      cover: '/ansambluri/neo-56/exterior-01.avif',
       exterior: ['/ansambluri/neo-56/exterior-01.avif','/ansambluri/neo-56/exterior-02.avif','/ansambluri/neo-56/exterior-03.avif','/ansambluri/neo-56/exterior-04.avif'],
       interior: ['/ansambluri/neo-56/interior-01.avif','/ansambluri/neo-56/interior-02.avif','/ansambluri/neo-56/interior-03.avif','/ansambluri/neo-56/interior-04.avif','/ansambluri/neo-56/interior-05.avif','/ansambluri/neo-56/interior-06.avif','/ansambluri/neo-56/interior-07.avif','/ansambluri/neo-56/interior-08.avif','/ansambluri/neo-56/interior-09.avif','/ansambluri/neo-56/interior-10.avif'],
       schite: ['/ansambluri/neo-56/schite-01.avif','/ansambluri/neo-56/schite-02.avif'],
@@ -344,7 +344,7 @@ De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Tr
     broker: 'Adrian PINTILIE',
     brokerFoto: '/brokeri/adrian-pintilie.avif',
     imagini: {
-      cover: '/ansambluri/neo-50/exterior-01.jpg',
+      cover: '/ansambluri/neo-50/exterior-01.avif',
       exterior: ['/ansambluri/neo-50/exterior-01.avif','/ansambluri/neo-50/exterior-02.avif','/ansambluri/neo-50/exterior-03.avif','/ansambluri/neo-50/exterior-04.avif','/ansambluri/neo-50/exterior-05.avif'],
       interior: ['/ansambluri/neo-50/interior-01.avif','/ansambluri/neo-50/interior-02.avif','/ansambluri/neo-50/interior-03.avif','/ansambluri/neo-50/interior-04.avif','/ansambluri/neo-50/interior-05.avif','/ansambluri/neo-50/interior-06.avif','/ansambluri/neo-50/interior-07.avif','/ansambluri/neo-50/interior-08.avif','/ansambluri/neo-50/interior-09.avif','/ansambluri/neo-50/interior-10.avif','/ansambluri/neo-50/interior-11.avif','/ansambluri/neo-50/interior-12.avif','/ansambluri/neo-50/interior-13.avif','/ansambluri/neo-50/interior-14.avif','/ansambluri/neo-50/interior-15.avif'],
       schite: ['/ansambluri/neo-50/schite-01.avif','/ansambluri/neo-50/schite-02.avif','/ansambluri/neo-50/schite-03.avif','/ansambluri/neo-50/schite-04.avif','/ansambluri/neo-50/schite-05.avif','/ansambluri/neo-50/schite-06.avif','/ansambluri/neo-50/schite-07.avif','/ansambluri/neo-50/schite-08.avif','/ansambluri/neo-50/schite-09.avif','/ansambluri/neo-50/schite-10.avif'],
@@ -410,7 +410,7 @@ Pentru investitori, zona Titan-IOR generează chirii lunare de 700-850€ pentru
     broker: 'Ramona BAICU',
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
-      cover: '/ansambluri/neo-49/exterior-01.jpg',
+      cover: '/ansambluri/neo-49/exterior-01.avif',
       exterior: ['/ansambluri/neo-49/exterior-01.avif','/ansambluri/neo-49/exterior-02.avif','/ansambluri/neo-49/exterior-03.avif','/ansambluri/neo-49/exterior-04.avif','/ansambluri/neo-49/exterior-05.avif','/ansambluri/neo-49/exterior-06.avif','/ansambluri/neo-49/exterior-07.avif'],
       interior: ['/ansambluri/neo-49/interior-01.avif','/ansambluri/neo-49/interior-02.avif','/ansambluri/neo-49/interior-03.avif','/ansambluri/neo-49/interior-04.avif','/ansambluri/neo-49/interior-05.avif'],
       schite: ['/ansambluri/neo-49/schite-01.avif','/ansambluri/neo-49/schite-02.avif','/ansambluri/neo-49/schite-03.avif','/ansambluri/neo-49/schite-04.avif','/ansambluri/neo-49/schite-05.avif','/ansambluri/neo-49/schite-06.avif'],
@@ -476,7 +476,7 @@ Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Milita
     broker: 'Ramona BAICU',
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
-      cover: '/ansambluri/neo-44/exterior-01.jpg',
+      cover: '/ansambluri/neo-44/exterior-01.avif',
       exterior: ['/ansambluri/neo-44/exterior-01.avif','/ansambluri/neo-44/exterior-02.avif','/ansambluri/neo-44/exterior-03.avif'],
       interior: [],
       schite: ['/ansambluri/neo-44/schite-01.avif','/ansambluri/neo-44/schite-02.avif','/ansambluri/neo-44/schite-03.avif'],
@@ -542,7 +542,7 @@ Randamentul în chirie: 2 camere 62 mp se închiriază cu 600-750€/lună în z
     broker: 'Sasha CALUTU',
     brokerFoto: '/brokeri/sasha-calutu.avif',
     imagini: {
-      cover: '/ansambluri/neo-42/exterior-01.jpg',
+      cover: '/ansambluri/neo-42/exterior-01.avif',
       exterior: ['/ansambluri/neo-42/exterior-01.avif','/ansambluri/neo-42/exterior-02.avif','/ansambluri/neo-42/exterior-03.avif','/ansambluri/neo-42/exterior-04.avif','/ansambluri/neo-42/exterior-05.avif','/ansambluri/neo-42/exterior-06.avif','/ansambluri/neo-42/exterior-07.avif'],
       interior: ['/ansambluri/neo-42/interior-01.avif'],
       schite: ['/ansambluri/neo-42/schite-01.avif','/ansambluri/neo-42/schite-02.avif','/ansambluri/neo-42/schite-03.avif','/ansambluri/neo-42/schite-04.avif','/ansambluri/neo-42/schite-05.avif','/ansambluri/neo-42/schite-06.avif','/ansambluri/neo-42/schite-07.avif','/ansambluri/neo-42/schite-08.avif','/ansambluri/neo-42/schite-09.avif','/ansambluri/neo-42/schite-10.avif','/ansambluri/neo-42/schite-11.avif','/ansambluri/neo-42/schite-12.avif','/ansambluri/neo-42/schite-13.avif','/ansambluri/neo-42/schite-14.avif','/ansambluri/neo-42/schite-15.avif','/ansambluri/neo-42/schite-16.avif','/ansambluri/neo-42/schite-17.avif','/ansambluri/neo-42/schite-18.avif','/ansambluri/neo-42/schite-19.avif','/ansambluri/neo-42/schite-20.avif','/ansambluri/neo-42/schite-21.avif'],
@@ -607,7 +607,7 @@ Apartamentele de 2 camere din Neofort 42 se închiriază curent cu 900-1.100€/
     broker: 'Adriana VESELU',
     brokerFoto: '/brokeri/adriana-veselu.avif',
     imagini: {
-      cover: '/ansambluri/neo-28/exterior-01.jpg',
+      cover: '/ansambluri/neo-28/exterior-01.avif',
       exterior: ['/ansambluri/neo-28/exterior-01.avif'],
       interior: ['/ansambluri/neo-28/interior-01.avif','/ansambluri/neo-28/interior-02.avif','/ansambluri/neo-28/interior-03.avif','/ansambluri/neo-28/interior-04.avif','/ansambluri/neo-28/interior-05.avif'],
       schite: ['/ansambluri/neo-28/schite-01.avif','/ansambluri/neo-28/schite-02.avif','/ansambluri/neo-28/schite-03.avif','/ansambluri/neo-28/schite-04.avif','/ansambluri/neo-28/schite-05.avif','/ansambluri/neo-28/schite-06.avif','/ansambluri/neo-28/schite-07.avif','/ansambluri/neo-28/schite-08.avif','/ansambluri/neo-28/schite-09.avif','/ansambluri/neo-28/schite-10.avif','/ansambluri/neo-28/schite-11.avif','/ansambluri/neo-28/schite-12.avif','/ansambluri/neo-28/schite-13.avif','/ansambluri/neo-28/schite-14.avif','/ansambluri/neo-28/schite-15.avif','/ansambluri/neo-28/schite-16.avif','/ansambluri/neo-28/schite-17.avif','/ansambluri/neo-28/schite-18.avif','/ansambluri/neo-28/schite-19.avif','/ansambluri/neo-28/schite-20.avif','/ansambluri/neo-28/schite-21.avif','/ansambluri/neo-28/schite-22.avif','/ansambluri/neo-28/schite-23.avif','/ansambluri/neo-28/schite-24.avif','/ansambluri/neo-28/schite-25.avif','/ansambluri/neo-28/schite-26.avif','/ansambluri/neo-28/schite-27.avif'],
@@ -678,7 +678,7 @@ Cumpărătorii care au ales apartamentele cu curte la Neofort 28 au plătit o pr
     broker: 'Svetlana CALUTU',
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
-      cover: '/ansambluri/neo-11/exterior-01.jpg',
+      cover: '/ansambluri/neo-11/exterior-01.avif',
       exterior: ['/ansambluri/neo-11/exterior-01.avif','/ansambluri/neo-11/exterior-02.avif','/ansambluri/neo-11/exterior-03.avif','/ansambluri/neo-11/exterior-04.avif','/ansambluri/neo-11/exterior-05.avif','/ansambluri/neo-11/exterior-06.avif'],
       interior: [],
       schite: ['/ansambluri/neo-11/schite-01.avif','/ansambluri/neo-11/schite-02.avif','/ansambluri/neo-11/schite-03.avif','/ansambluri/neo-11/schite-04.avif','/ansambluri/neo-11/schite-05.avif','/ansambluri/neo-11/schite-06.avif','/ansambluri/neo-11/schite-07.avif','/ansambluri/neo-11/schite-08.avif','/ansambluri/neo-11/schite-09.avif','/ansambluri/neo-11/schite-10.avif','/ansambluri/neo-11/schite-11.avif','/ansambluri/neo-11/schite-12.avif','/ansambluri/neo-11/schite-13.avif'],
@@ -749,7 +749,7 @@ Predarea estimată în Septembrie 2026 permite finalizarea procesului de finanț
     broker: 'Svetlana CALUTU',
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
-      cover: '/ansambluri/neo-8/exterior-01.jpg',
+      cover: '/ansambluri/neo-8/exterior-01.avif',
       exterior: ['/ansambluri/neo-8/exterior-01.avif','/ansambluri/neo-8/exterior-02.avif','/ansambluri/neo-8/exterior-03.avif','/ansambluri/neo-8/exterior-04.avif'],
       interior: ['/ansambluri/neo-8/interior-01.avif','/ansambluri/neo-8/interior-02.avif','/ansambluri/neo-8/interior-03.avif','/ansambluri/neo-8/interior-04.avif','/ansambluri/neo-8/interior-05.avif','/ansambluri/neo-8/interior-06.avif','/ansambluri/neo-8/interior-07.avif','/ansambluri/neo-8/interior-08.avif','/ansambluri/neo-8/interior-09.avif'],
       schite: ['/ansambluri/neo-8/schite-01.avif','/ansambluri/neo-8/schite-02.avif','/ansambluri/neo-8/schite-03.avif'],
