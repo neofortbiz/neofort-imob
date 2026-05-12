@@ -49,12 +49,12 @@ export default function PromotiiPage() {
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded-full"
                           style={{ background: '#fff3e0', color: '#c8922a' }}>Promoție</span>
-                        <span className="text-[10px] text-gray-400">{a.zona}</span>
+                        <span className="text-[10px] text-gray-500">{a.zona}</span>
                       </div>
                       <h3 className="text-sm font-medium text-gray-900 mb-1">{a.nume}</h3>
                       <p className="text-xs text-gray-500 mb-3">{a.sector} · {a.etaje}</p>
                       <div className="flex items-baseline justify-between">
-                        <span className="text-xs text-gray-400">De la</span>
+                        <span className="text-xs text-gray-500">De la</span>
                         <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€</span>
                       </div>
                     </div>
@@ -81,12 +81,12 @@ export default function PromotiiPage() {
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded-full"
                           style={{ background: '#e8f5e9', color: '#2d7a3a' }}>În construcție</span>
-                        <span className="text-[10px] text-gray-400">{a.zona}</span>
+                        <span className="text-[10px] text-gray-500">{a.zona}</span>
                       </div>
                       <h3 className="text-sm font-medium text-gray-900 mb-1">{a.nume}</h3>
                       <p className="text-xs text-gray-500 mb-3">{a.sector} · Predare {a.dataPredare}</p>
                       <div className="flex items-baseline justify-between">
-                        <span className="text-xs text-gray-400">De la</span>
+                        <span className="text-xs text-gray-500">De la</span>
                         <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€</span>
                       </div>
                     </div>

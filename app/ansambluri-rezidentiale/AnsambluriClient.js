@@ -154,7 +154,7 @@ export default function AnsambluriClient() {
                 className="w-full"
                 style={{ accentColor: '#2d7a3a', touchAction: 'none' }}
               />
-              <div className="flex justify-between text-[10px] text-gray-400 mt-0.5">
+              <div className="flex justify-between text-[10px] text-gray-500 mt-0.5">
                 <span>60K€</span><span>1.5M€</span>
               </div>
             </div>
@@ -178,7 +178,7 @@ export default function AnsambluriClient() {
         <div className="flex-1 min-w-0">
           {filtered.length === 0 ? (
             <div className="bg-white rounded-xl border border-gray-100 p-12 text-center">
-              <p className="text-gray-400 text-sm mb-3">Niciun ansamblu nu corespunde filtrelor.</p>
+              <p className="text-gray-500 text-sm mb-3">Niciun ansamblu nu corespunde filtrelor.</p>
               <button onClick={resetFiltre} className="text-xs px-4 py-2 rounded-lg text-white" style={{ background: '#2d7a3a' }}>
                 Resetează filtrele
               </button>
@@ -211,7 +211,7 @@ export default function AnsambluriClient() {
                       )}
                     </div>
                     <div className="p-4">
-                      <p className="text-[10px] text-gray-400 uppercase tracking-wider mb-1">{a.zona}</p>
+                      <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">{a.zona}</p>
                       <h3 className="text-sm font-medium text-gray-900 mb-2 group-hover:text-green-700 transition-colors">{a.nume}</h3>
                       <p className="text-xs text-gray-500 mb-3">{a.sector} · {a.etaje}</p>
                       <div className="flex flex-wrap gap-1 mb-3">
@@ -220,7 +220,7 @@ export default function AnsambluriClient() {
                         ))}
                       </div>
                       <div className="flex items-baseline justify-between">
-                        <span className="text-[10px] text-gray-400">De la</span>
+                        <span className="text-[10px] text-gray-500">De la</span>
                         <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€</span>
                       </div>
                     </div>
@@ -247,11 +247,11 @@ export default function AnsambluriClient() {
                     <div className="flex-1 p-4 min-w-0">
                       <div className="flex items-start justify-between gap-4 flex-wrap">
                         <div className="min-w-0">
-                          <p className="text-[10px] text-gray-400 uppercase tracking-wider mb-0.5">{a.zona} · {a.sector}</p>
+                          <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-0.5">{a.zona} · {a.sector}</p>
                           <h3 className="text-sm font-medium text-gray-900 group-hover:text-green-700 transition-colors">{a.nume}</h3>
                         </div>
                         <div className="text-right flex-shrink-0">
-                          <div className="text-[10px] text-gray-400">De la</div>
+                          <div className="text-[10px] text-gray-500">De la</div>
                           <div className="text-base font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€</div>
                         </div>
                       </div>

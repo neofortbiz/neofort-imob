@@ -38,7 +38,7 @@ export default function ZonePage() {
       <main>
         <section className="py-10 px-6 border-b border-gray-100">
           <div className="max-w-5xl mx-auto">
-            <nav className="flex items-center gap-2 text-xs text-gray-400 mb-3">
+            <nav className="flex items-center gap-2 text-xs text-gray-500 mb-3">
               <Link href="/" className="hover:text-gray-600">Acasă</Link>
               <span>›</span>
               <span className="text-gray-700">Zone</span>
@@ -58,7 +58,7 @@ export default function ZonePage() {
                     <h2 className="text-sm font-medium text-gray-900 group-hover:text-green-700 transition-colors">
                       {z.nume}
                     </h2>
-                    <p className="text-xs text-gray-400 mt-0.5">{z.sector}</p>
+                    <p className="text-xs text-gray-500 mt-0.5">{z.sector}</p>
                   </div>
                   <span className="text-xs px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium">
                     {z.ansambluri.length} {z.ansambluri.length === 1 ? 'ansamblu' : 'ansambluri'}
@@ -68,11 +68,11 @@ export default function ZonePage() {
                   {z.ansambluri.slice(0, 3).map(a => (
                     <div key={a.slug} className="text-xs text-gray-500 flex items-center justify-between">
                       <span>{a.nume}</span>
-                      <span className="text-gray-400">de la {formatPret(a.pretDeLa)}€</span>
+                      <span className="text-gray-500">de la {formatPret(a.pretDeLa)}€</span>
                     </div>
                   ))}
                   {z.ansambluri.length > 3 && (
-                    <p className="text-xs text-gray-400">+{z.ansambluri.length - 3} mai multe</p>
+                    <p className="text-xs text-gray-500">+{z.ansambluri.length - 3} mai multe</p>
                   )}
                 </div>
                 <div className="mt-3 pt-3 border-t border-gray-50 text-xs font-medium" style={{ color: '#2d7a3a' }}>

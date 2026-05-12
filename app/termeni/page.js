@@ -36,7 +36,7 @@ export default function TermeniPage() {
       <main className="min-h-screen bg-white">
         <div className="border-b border-gray-100 bg-gray-50">
           <div className="max-w-4xl mx-auto px-6 py-10">
-            <nav className="flex items-center gap-2 text-xs text-gray-400 mb-4">
+            <nav className="flex items-center gap-2 text-xs text-gray-500 mb-4">
               <Link href="/" className="hover:text-[#2d7a3a]">Acasa</Link>
               <span>›</span>
               <span className="text-gray-700">Termeni si Conditii</span>
@@ -45,7 +45,7 @@ export default function TermeniPage() {
             <p className="text-gray-500 text-sm max-w-2xl leading-relaxed">
               Conditiile care guverneaza utilizarea site-ului www.neofort.ro si a serviciilor Neofort IMO.
             </p>
-            <p className="text-xs text-gray-400 mt-3">Ultima actualizare: Mai 2026 · Versiunea 1.0</p>
+            <p className="text-xs text-gray-500 mt-3">Ultima actualizare: Mai 2026 · Versiunea 1.0</p>
           </div>
         </div>
         <div className="max-w-4xl mx-auto px-6 py-10">

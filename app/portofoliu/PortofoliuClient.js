@@ -40,7 +40,7 @@ export default function PortofoliuClient() {
                 ) : (
                   <div className="w-full h-full flex flex-col items-center justify-center py-5">
                     <div className="text-2xl font-bold text-gray-200">#{a.numar}</div>
-                    <div className="text-[10px] text-gray-400 mt-0.5">{a.etaje}</div>
+                    <div className="text-[10px] text-gray-500 mt-0.5">{a.etaje}</div>
                   </div>
                 )}
               </div>
@@ -49,7 +49,7 @@ export default function PortofoliuClient() {
                 <h3 className="text-xs font-medium text-gray-900 mt-1.5 mb-0.5 group-hover:text-green-700 transition-colors leading-tight">
                   {a.nume}
                 </h3>
-                <p className="text-[10px] text-gray-400 mb-2">{a.zona} · {a.sector}</p>
+                <p className="text-[10px] text-gray-500 mb-2">{a.zona} · {a.sector}</p>
                 {a.preturi && (
                   <div className="space-y-0.5">
                     {a.preturi.slice(0, 2).map((p, i) => (
@@ -59,7 +59,7 @@ export default function PortofoliuClient() {
                     ))}
                   </div>
                 )}
-                <p className="text-[9px] text-gray-400 mt-1.5 italic">Stoc epuizat</p>
+                <p className="text-[9px] text-gray-500 mt-1.5 italic">Stoc epuizat</p>
               </div>
             </Link>
           ))}
@@ -75,7 +75,7 @@ export default function PortofoliuClient() {
                 ) : (
                   <>
                     <div className="text-lg font-bold text-gray-200">#{a.numar}</div>
-                    <div className="text-[9px] text-gray-400">{a.etaje}</div>
+                    <div className="text-[9px] text-gray-500">{a.etaje}</div>
                   </>
                 )}
               </div>

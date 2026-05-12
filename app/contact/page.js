@@ -62,7 +62,7 @@ export default function ContactPage() {
                     { lbl: 'Telefon', val: '+40 758 090 904' },
                   ].map(r => (
                     <div key={r.lbl} className="flex gap-3 py-2.5 border-b border-gray-50">
-                      <span className="text-gray-400 w-28 flex-shrink-0 text-xs">{r.lbl}</span>
+                      <span className="text-gray-500 w-28 flex-shrink-0 text-xs">{r.lbl}</span>
                       <span className="text-gray-800 text-xs whitespace-pre-line">{r.val}</span>
                     </div>
                   ))}
@@ -89,7 +89,7 @@ export default function ContactPage() {
                   ].map(p => (
                     <div key={p.zi} className="flex justify-between py-2 border-b border-gray-50">
                       <span className="text-gray-600">{p.zi}</span>
-                      <span className={p.deschis ? 'font-medium text-gray-900' : 'text-gray-400'}>{p.ore}</span>
+                      <span className={p.deschis ? 'font-medium text-gray-900' : 'text-gray-500'}>{p.ore}</span>
                     </div>
                   ))}
                 </div>

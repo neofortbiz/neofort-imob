@@ -163,7 +163,7 @@ export default function DespreNoiPage() {
                 { lbl: 'Email', val: 'info@neofort-biz.ro' },
               ].map(r => (
                 <div key={r.lbl} className="flex gap-3 py-3 border-b border-gray-50">
-                  <span className="text-gray-400 w-40 flex-shrink-0">{r.lbl}</span>
+                  <span className="text-gray-500 w-40 flex-shrink-0">{r.lbl}</span>
                   <span className="text-gray-800 font-medium">{r.val}</span>
                 </div>
               ))}

@@ -54,7 +54,7 @@ export default function CookiesPage() {
       <main className="min-h-screen bg-white">
         <div className="border-b border-gray-100 bg-gray-50">
           <div className="max-w-4xl mx-auto px-6 py-10">
-            <nav className="flex items-center gap-2 text-xs text-gray-400 mb-4">
+            <nav className="flex items-center gap-2 text-xs text-gray-500 mb-4">
               <Link href="/" className="hover:text-[#2d7a3a]">Acasa</Link>
               <span>›</span>
               <span className="text-gray-700">Politica Cookies</span>
@@ -63,7 +63,7 @@ export default function CookiesPage() {
             <p className="text-gray-500 text-sm max-w-2xl leading-relaxed">
               Aceasta pagina explica ce cookie-uri si tehnologii similare foloseste www.neofort.ro, in ce scop si cum le puteti gestiona.
             </p>
-            <p className="text-xs text-gray-400 mt-3">Ultima actualizare: Mai 2026</p>
+            <p className="text-xs text-gray-500 mt-3">Ultima actualizare: Mai 2026</p>
           </div>
         </div>
         <div className="max-w-4xl mx-auto px-6 py-10 space-y-8">
@@ -85,7 +85,7 @@ export default function CookiesPage() {
                     <p className="text-xs text-gray-500 mb-4">{ct.descriere}</p>
                     <table className="w-full text-xs">
                       <thead>
-                        <tr className="text-left text-gray-400 border-b border-gray-100">
+                        <tr className="text-left text-gray-500 border-b border-gray-100">
                           <th className="pb-2 pr-4 font-medium">Nume</th>
                           <th className="pb-2 pr-4 font-medium">Durata</th>
                           <th className="pb-2 font-medium">Scop</th>

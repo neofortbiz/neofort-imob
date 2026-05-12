@@ -91,7 +91,7 @@ export default function GalerieAnsamblu({ imagini = {}, nume = '' }) {
           {current.slice(0, 8).map((_, i) => (
             <div key={i} className="rounded-full" style={{ width: i === 0 ? 16 : 6, height: 6, background: i === 0 ? '#2d7a3a' : '#d1d5db' }} />
           ))}
-          {current.length > 8 && <span className="text-xs text-gray-400 ml-1">+{current.length - 8}</span>}
+          {current.length > 8 && <span className="text-xs text-gray-500 ml-1">+{current.length - 8}</span>}
         </div>
       </div>
 

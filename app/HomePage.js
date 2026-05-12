@@ -46,6 +46,7 @@ function DualRangeSlider({ min, max, step, valueMin, valueMax, fillLeft, fillRig
       <div className="flex items-center gap-2">
         <span className="text-[9px] text-gray-500 w-6 flex-shrink-0">Min</span>
         <input
+          aria-label="Preț minim"
           type="range"
           min={min} max={valueMax - step} step={step}
           value={valueMin}
@@ -60,6 +61,7 @@ function DualRangeSlider({ min, max, step, valueMin, valueMax, fillLeft, fillRig
       <div className="flex items-center gap-2">
         <span className="text-[9px] text-gray-500 w-6 flex-shrink-0">Max</span>
         <input
+          aria-label="Preț maxim"
           type="range"
           min={valueMin + step} max={max} step={step}
           value={valueMax}
@@ -315,15 +317,16 @@ export default function HomePageClient() {
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-[9px] text-gray-400 flex-shrink-0">5.000€</span>
+                  <span className="text-[9px] text-gray-500 flex-shrink-0">5.000€</span>
                   <input
+                    aria-label="Preț maxim"
                     type="range"
                     min={5000} max={1500000} step={5000}
                     value={pretMax}
                     onChange={e => { setPretMax(Number(e.target.value)); setPretMoved(true); setShown(STEP) }}
                     className="flex-1 h-1 accent-[#2d7a3a] cursor-pointer"
                   />
-                  <span className="text-[9px] text-gray-400 flex-shrink-0">1.500.000€+</span>
+                  <span className="text-[9px] text-gray-500 flex-shrink-0">1.500.000€+</span>
                 </div>
               </div>
 
@@ -345,15 +348,16 @@ export default function HomePageClient() {
                 </span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-[9px] text-gray-400 flex-shrink-0">5.000€</span>
+                <span className="text-[9px] text-gray-500 flex-shrink-0">5.000€</span>
                 <input
+                  aria-label="Preț maxim"
                   type="range"
                   min={5000} max={1500000} step={5000}
                   value={pretMax}
                   onChange={e => { setPretMax(Number(e.target.value)); setPretMoved(true); setShown(STEP) }}
                   className="flex-1 h-1 accent-[#2d7a3a] cursor-pointer"
                 />
-                <span className="text-[9px] text-gray-400 flex-shrink-0">1.500.000€+</span>
+                <span className="text-[9px] text-gray-500 flex-shrink-0">1.500.000€+</span>
               </div>
             </div>
 
@@ -384,7 +388,7 @@ export default function HomePageClient() {
               </div>
             ) : (
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                {displayed.map(a => {
+                {displayed.map((a, cardIdx) => {
                   const sc = STATUS_CONFIG[a.status]
                   const isRecent = recentSlugs.includes(a.slug) && recentSlugs.indexOf(a.slug) === 0
                   return (
@@ -393,7 +397,7 @@ export default function HomePageClient() {
                       className="group border border-gray-300 rounded-xl overflow-hidden bg-white hover:border-gray-500 hover:shadow-sm transition-all">
                       <div className="aspect-square bg-gray-100 relative overflow-hidden">
                         {a.imagini?.cover ? (
-                          <img src={a.imagini.cover} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                          <img src={a.imagini.cover} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading={cardIdx === 0 ? "eager" : "lazy"} fetchPriority={cardIdx === 0 ? "high" : "auto"} />
                         ) : (
                           <div className="absolute inset-0 flex items-center justify-center">
                             <span className="text-xs text-gray-400">Foto</span>
@@ -544,7 +548,7 @@ export default function HomePageClient() {
                 <details key={i} className="group rounded-xl border border-gray-200 bg-white overflow-hidden">
                   <summary className="flex items-center justify-between gap-3 px-5 py-4 cursor-pointer text-sm font-medium text-gray-900 select-none list-none">
                     {item.q}
-                    <svg className="flex-shrink-0 w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/></svg>
+                    <svg className="flex-shrink-0 w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/></svg>
                   </summary>
                   <div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">{item.a}</div>
                 </details>

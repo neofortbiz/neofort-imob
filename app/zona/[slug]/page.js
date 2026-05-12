@@ -139,9 +139,9 @@ export default function ZonaPage({ params }) {
                       <div className={`absolute top-2 left-2 text-[9px] font-medium px-1.5 py-0.5 rounded ${sc.bg} ${sc.text}`}>{sc.label}</div>
                     </div>
                     <div className="p-3">
-                      <div className="text-[9px] text-gray-400 uppercase tracking-wider mb-0.5">{a.zona} · {a.sector}</div>
+                      <div className="text-[9px] text-gray-500 uppercase tracking-wider mb-0.5">{a.zona} · {a.sector}</div>
                       <div className="text-sm font-medium text-gray-900 mb-1">{a.nume}</div>
-                      <div className="text-sm font-medium" style={{ color: '#2d7a3a' }}>de la {formatPret(a.pretDeLa)} <span className="text-[9px] text-gray-400 font-normal">+TVA</span></div>
+                      <div className="text-sm font-medium" style={{ color: '#2d7a3a' }}>de la {formatPret(a.pretDeLa)} <span className="text-[9px] text-gray-500 font-normal">+TVA</span></div>
                     </div>
                   </Link>
                 )

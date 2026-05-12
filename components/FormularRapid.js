@@ -100,7 +100,7 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
         <div className="absolute inset-0 flex items-center">
           <div className="w-full border-t border-gray-200"></div>
         </div>
-        <span className="relative bg-gray-50 px-2 text-[10px] text-gray-400">sau contactează direct</span>
+        <span className="relative bg-gray-50 px-2 text-[10px] text-gray-500">sau contactează direct</span>
       </div>
 
       <div className="hidden md:flex flex-col gap-1.5">

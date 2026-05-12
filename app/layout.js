@@ -313,6 +313,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ro" className={`${barlow.variable} ${barlowCondensed.variable}`}>
       <head>
+        {/* Preconnect pentru fonturi - reduce lantul CSS -> woff2 */}
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />

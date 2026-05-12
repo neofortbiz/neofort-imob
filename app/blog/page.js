@@ -30,7 +30,7 @@ export default function BlogPage() {
       <main className="min-h-screen bg-white">
         <div className="border-b border-gray-100" style={{ background: '#f8faf9' }}>
           <div className="max-w-7xl mx-auto px-6 py-8">
-            <nav className="flex items-center gap-2 text-xs text-gray-400 mb-4">
+            <nav className="flex items-center gap-2 text-xs text-gray-500 mb-4">
               <Link href="/" className="hover:text-[#2d7a3a]">Acasă</Link>
               <span>›</span>
               <span className="text-gray-700">Blog Imobiliar</span>
@@ -40,7 +40,7 @@ export default function BlogPage() {
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Blog Imobiliar București</h1>
                 <p className="text-gray-500 text-sm max-w-xl">Analize, legislație și ghiduri practice despre piața imobiliară din București — scrise de consultanți cu experiență reală din 2009.</p>
               </div>
-              <div className="flex items-center gap-4 text-xs text-gray-400">
+              <div className="flex items-center gap-4 text-xs text-gray-500">
                 <span><span className="text-[#2d7a3a]">✓</span> Conținut verificat de experți</span>
                 <span><span className="text-[#2d7a3a]">✓</span> Actualizat 2026</span>
               </div>
@@ -53,7 +53,7 @@ export default function BlogPage() {
             <div>
               {FEATURED && (
                 <div className="mb-10">
-                  <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-3">Articol recomandat</p>
+                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Articol recomandat</p>
                   <Link href={`/blog/${FEATURED.slug}`} className="group block">
                     <div className="relative rounded-2xl overflow-hidden mb-4" style={{ paddingBottom: '43.75%', position: 'relative' }}>
                       {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}
@@ -62,7 +62,7 @@ export default function BlogPage() {
                     </div>
                     <h2 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-[#2d7a3a] transition-colors leading-snug">{FEATURED.titlu}</h2>
                     <p className="text-gray-500 text-sm mb-3 leading-relaxed">{FEATURED.rezumat}</p>
-                    <div className="flex items-center gap-3 text-xs text-gray-400">
+                    <div className="flex items-center gap-3 text-xs text-gray-500">
                       <div className="relative w-6 h-6 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
                         <img src={AUTORI[FEATURED.autorSlug]?.foto || '/logo.avif'} alt={FEATURED.autor} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                       </div>
@@ -92,7 +92,7 @@ export default function BlogPage() {
                       <div className="p-4">
                         <h2 className="text-sm font-semibold text-gray-900 leading-snug mb-2 group-hover:text-[#2d7a3a] transition-colors">{a.titlu}</h2>
                         <p className="text-xs text-gray-500 leading-relaxed mb-3 line-clamp-2">{a.rezumat}</p>
-                        <div className="flex items-center gap-2 text-[10px] text-gray-400">
+                        <div className="flex items-center gap-2 text-[10px] text-gray-500">
                           <div className="relative w-5 h-5 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
                             <img src={autor?.foto || '/logo.avif'} alt={a.autor} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
                           </div>
@@ -134,7 +134,7 @@ export default function BlogPage() {
                   <div className="relative w-10 h-10 flex-shrink-0"><img src="/logo.avif" alt="Neofort IMO" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "contain" }} loading="lazy" /></div>
                   <div>
                     <p className="text-sm font-semibold text-gray-900">Neofort IMO</p>
-                    <p className="text-[10px] text-gray-400">Blog oficial · Din 2009</p>
+                    <p className="text-[10px] text-gray-500">Blog oficial · Din 2009</p>
                   </div>
                 </div>
                 <p className="text-xs text-gray-500 leading-relaxed mb-3">Analize și sfaturi imobiliare din interior — scrise de consultanții care au finalizat peste 85 de proiecte rezidențiale în București.</p>
@@ -150,7 +150,7 @@ export default function BlogPage() {
                         <div className="w-2 h-2 rounded-full" style={{ background: c.color }} />
                         <span className="text-xs text-gray-700">{c.label}</span>
                       </div>
-                      <span className="text-[10px] text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded">{c.count}</span>
+                      <span className="text-[10px] text-gray-500 bg-gray-100 px-1.5 py-0.5 rounded">{c.count}</span>
                     </div>
                   ))}
                 </div>

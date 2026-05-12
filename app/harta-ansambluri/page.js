@@ -227,7 +227,7 @@ export default function HartaPage() {
             {/* SIDEBAR */}
             <div className="flex flex-col gap-2 overflow-y-auto pr-0.5" style={{ maxHeight: 580 }}>
 
-              <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider px-1">
+              <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider px-1">
                 La vanzare ({filteredActive.length})
               </p>
 
@@ -244,7 +244,7 @@ export default function HartaPage() {
                         style={{ background: color }}>{a.numar}</div>
                       <div className="flex-1 min-w-0">
                         <p className="text-xs font-semibold text-gray-900 truncate">{a.zona}</p>
-                        <p className="text-[10px] text-gray-400">{a.sector} · {a.dataPredare}</p>
+                        <p className="text-[10px] text-gray-500">{a.sector} · {a.dataPredare}</p>
                       </div>
                       <span className="text-xs font-bold flex-shrink-0" style={{ color }}>
                         {formatPret(a.pretDeLa)}€
@@ -264,7 +264,7 @@ export default function HartaPage() {
 
               {showPortofoliu && (
                 <>
-                  <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider px-1 mt-2">
+                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider px-1 mt-2">
                     Portofoliu vandut ({portofoliuMarkers.length})
                   </p>
                   {portofoliuMarkers.map(a => {
@@ -280,7 +280,7 @@ export default function HartaPage() {
                             style={{ background: color }}>{a.numar}</div>
                           <div className="flex-1 min-w-0">
                             <p className="text-xs text-gray-700 truncate">{a.zona}</p>
-                            <p className="text-[10px] text-gray-400">{a.sector}</p>
+                            <p className="text-[10px] text-gray-500">{a.sector}</p>
                           </div>
                           <span className="text-[9px] px-1.5 py-0.5 rounded-full font-medium"
                             style={{ background: '#fff7ed', color: '#c2410c' }}>vandut</span>
@@ -318,7 +318,7 @@ export default function HartaPage() {
                       <p className="text-base font-bold" style={{ color: sel.categorie === 'portofoliu' ? STATUS_COLORS.vandut.fill : STATUS_COLORS[sel.status]?.fill }}>
                         {sel.pretDeLa.toLocaleString()}€
                       </p>
-                      <p className="text-xs text-gray-400">{sel.categorie === 'portofoliu' ? 'Pret istoric' : 'De la'}</p>
+                      <p className="text-xs text-gray-500">{sel.categorie === 'portofoliu' ? 'Pret istoric' : 'De la'}</p>
                     </div>
                   )}
                   <Link

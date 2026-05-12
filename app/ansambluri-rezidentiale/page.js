@@ -49,7 +49,7 @@ export default function AnsambluriPage() {
         {/* HEADER PAGINA */}
         <div className="bg-white border-b border-gray-100 px-6 py-6">
           <div className="max-w-7xl mx-auto">
-            <nav className="flex items-center gap-2 text-xs text-gray-400 mb-3">
+            <nav className="flex items-center gap-2 text-xs text-gray-500 mb-3">
               <Link href="/" className="hover:text-gray-600">Acasă</Link>
               <span>›</span>
               <span className="text-gray-700">Ansambluri rezidențiale</span>

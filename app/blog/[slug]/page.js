@@ -107,7 +107,7 @@ export default function ArticolPage({ params }) {
 
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-8">
           {/* BREADCRUMB */}
-          <nav className="flex items-center gap-2 text-xs text-gray-400 mb-6">
+          <nav className="flex items-center gap-2 text-xs text-gray-500 mb-6">
             <Link href="/" className="hover:text-[#2d7a3a]">Acasă</Link>
             <span>›</span>
             <Link href="/blog" className="hover:text-[#2d7a3a]">Blog</Link>
@@ -129,10 +129,10 @@ export default function ArticolPage({ params }) {
                   )}
                   <div>
                     <p className="text-sm font-semibold text-gray-900">{autor?.nume}</p>
-                    <p className="text-xs text-gray-400">{autor?.titlu}</p>
+                    <p className="text-xs text-gray-500">{autor?.titlu}</p>
                   </div>
                 </div>
-                <div className="text-xs text-gray-400 flex items-center gap-3 flex-wrap">
+                <div className="text-xs text-gray-500 flex items-center gap-3 flex-wrap">
                   <time dateTime={a.dataISO}>{a.data}</time>
                   <span>·</span>
                   <span>{a.citire} citire</span>
@@ -213,7 +213,7 @@ export default function ArticolPage({ params }) {
               {/* AUTOR BIO */}
               {autor && (
                 <div className="mt-10 border border-gray-200 rounded-2xl p-6 bg-gray-50">
-                  <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4">Despre autor</p>
+                  <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Despre autor</p>
                   <div className="flex gap-4">
                     <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0 bg-gray-200">
                       <img src={autor.foto} alt={autor.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
@@ -238,7 +238,7 @@ export default function ArticolPage({ params }) {
                       </div>
                       <div>
                         <p className="text-xs font-medium text-gray-800 group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{alt.titlu}</p>
-                        <p className="text-[10px] text-gray-400 mt-0.5">{alt.data}</p>
+                        <p className="text-[10px] text-gray-500 mt-0.5">{alt.data}</p>
                       </div>
                     </Link>
                   ))}
@@ -269,7 +269,7 @@ export default function ArticolPage({ params }) {
               {/* AUTOR */}
               {autor && (
                 <div className="border border-gray-200 rounded-xl p-5">
-                  <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Autor</p>
+                  <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">Autor</p>
                   <div className="flex gap-3 mb-3">
                     <div className="relative w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-gray-200">
                       <img src={autor.foto} alt={autor.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
@@ -311,7 +311,7 @@ export default function ArticolPage({ params }) {
                       <div>
                         <span className="text-[9px] font-semibold px-1.5 py-0.5 rounded text-white" style={{ background: alt.tagColor }}>{alt.tag}</span>
                         <p className="text-[11px] font-medium text-gray-800 group-hover:text-[#2d7a3a] transition-colors leading-snug mt-1 line-clamp-2">{alt.titlu}</p>
-                        <p className="text-[10px] text-gray-400 mt-0.5">{alt.data}</p>
+                        <p className="text-[10px] text-gray-500 mt-0.5">{alt.data}</p>
                       </div>
                     </Link>
                   ))}
@@ -321,7 +321,7 @@ export default function ArticolPage({ params }) {
               {/* KEYWORDS */}
               {a.keywords && (
                 <div className="border border-gray-100 rounded-xl p-4">
-                  <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider mb-3">Teme abordate</p>
+                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Teme abordate</p>
                   <div className="flex flex-wrap gap-1.5">
                     {a.keywords.map(k => (
                       <span key={k} className="text-[10px] px-2 py-0.5 bg-gray-100 text-gray-600 rounded-full">{k}</span>

@@ -70,7 +70,7 @@ export default function EchipaPage() {
                 <h2 className="text-sm font-semibold text-gray-900 mb-1">{b.nume}</h2>
                 <p className="text-xs text-gray-500 mb-1">{b.rol}</p>
                 {(b.experienta || b.vechimeNeofort) ? (
-                  <div className="flex justify-center gap-3 text-xs text-gray-400 mb-4">
+                  <div className="flex justify-center gap-3 text-xs text-gray-500 mb-4">
                     <span>{b.experienta} ani experiență</span>
                     <span>·</span>
                     <span>{b.vechimeNeofort} ani Neofort</span>

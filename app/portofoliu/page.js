@@ -49,7 +49,7 @@ export default function PortofoliuPage() {
         {/* HEADER */}
         <div className="bg-white border-b border-gray-100 px-6 py-8">
           <div className="max-w-7xl mx-auto">
-            <nav className="flex items-center gap-2 text-xs text-gray-400 mb-3">
+            <nav className="flex items-center gap-2 text-xs text-gray-500 mb-3">
               <Link href="/" className="hover:text-gray-600">Acasă</Link>
               <span>›</span>
               <span className="text-gray-700">Portofoliu</span>
@@ -67,7 +67,7 @@ export default function PortofoliuPage() {
                 ].map(s => (
                   <div key={s.lbl} className="text-center">
                     <div className="text-base font-semibold" style={{ color: '#2d7a3a' }}>{s.val}</div>
-                    <div className="text-[10px] text-gray-400">{s.lbl}</div>
+                    <div className="text-[10px] text-gray-500">{s.lbl}</div>
                   </div>
                 ))}
               </div>

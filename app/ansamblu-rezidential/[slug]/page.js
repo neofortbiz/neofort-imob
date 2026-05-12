@@ -315,7 +315,7 @@ export default function AnsambluPage({ params }) {
                           <span>{cfg.icon}</span>{cfg.label}
                         </span>
                         <span>{p.nume}</span>
-                        <span className="ml-auto text-xs text-gray-400 whitespace-nowrap">{p.distanta}</span>
+                        <span className="ml-auto text-xs text-gray-500 whitespace-nowrap">{p.distanta}</span>
                       </div>
                     )
                   })}
@@ -339,7 +339,7 @@ export default function AnsambluPage({ params }) {
                 <details key={i} className="group rounded-xl border border-gray-100 bg-white overflow-hidden">
                   <summary className="flex items-center justify-between gap-3 px-5 py-4 cursor-pointer text-sm font-medium text-gray-900 select-none list-none">
                     {item.name}
-                    <svg className="flex-shrink-0 w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <svg className="flex-shrink-0 w-4 h-4 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/>
                     </svg>
                   </summary>
@@ -371,7 +371,7 @@ export default function AnsambluPage({ params }) {
                         <div className={`absolute top-1.5 left-1.5 text-[8px] font-medium px-1.5 py-0.5 rounded ${ssc.bg} ${ssc.text}`}>{ssc.label}</div>
                       </div>
                       <div className="p-2">
-                        <div className="text-[9px] text-gray-400">{s.zona}</div>
+                        <div className="text-[9px] text-gray-500">{s.zona}</div>
                         <div className="text-xs font-medium text-gray-900">{s.nume}</div>
                         <div className="text-xs font-medium mt-0.5" style={{ color: '#2d7a3a' }}>de la {formatPret(s.pretDeLa)}</div>
                       </div>

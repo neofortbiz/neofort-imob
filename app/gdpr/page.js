@@ -38,7 +38,7 @@ export default function GdprPage() {
       <main className="min-h-screen bg-white">
         <div className="border-b border-gray-100 bg-gray-50">
           <div className="max-w-4xl mx-auto px-6 py-10">
-            <nav className="flex items-center gap-2 text-xs text-gray-400 mb-4">
+            <nav className="flex items-center gap-2 text-xs text-gray-500 mb-4">
               <Link href="/" className="hover:text-[#2d7a3a]">Acasa</Link>
               <span>›</span>
               <span className="text-gray-700">Politica GDPR</span>
@@ -47,7 +47,7 @@ export default function GdprPage() {
             <p className="text-gray-500 text-sm max-w-2xl leading-relaxed">
               Neofort IMO respecta confidentialitatea datelor dumneavoastra personale conform Regulamentului (UE) 2016/679 (GDPR).
             </p>
-            <p className="text-xs text-gray-400 mt-3">Ultima actualizare: Mai 2026 · Versiunea 2.0</p>
+            <p className="text-xs text-gray-500 mt-3">Ultima actualizare: Mai 2026 · Versiunea 2.0</p>
           </div>
         </div>
         <div className="max-w-4xl mx-auto px-6 py-10">

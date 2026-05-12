@@ -63,7 +63,7 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume })
                 {apt.pretPromo ? (
                   <div>
                     <span className="text-sm font-semibold" style={{ color: '#c0392b' }}>{fmt(apt.pretPromo)}</span>
-                    <span className="text-[9px] text-gray-400 ml-1">+TVA</span>
+                    <span className="text-[9px] text-gray-500 ml-1">+TVA</span>
                     <span className="text-[10px] text-gray-400 line-through ml-2">{fmt(apt.avans20)}</span>
                   </div>
                 ) : apt.avans45 ? (
@@ -76,12 +76,12 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume })
                       Avans 20%: <span className="font-medium text-gray-700">{fmt(apt.avans20)}€</span>
                       {apt.pretVechiAvans20 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans20)}€</span>}
                     </div>
-                    <div className="text-[9px] text-gray-400">+TVA</div>
+                    <div className="text-[9px] text-gray-500">+TVA</div>
                   </div>
                 ) : (
                   <div>
                     <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{fmt(apt.avans20)}</span>
-                    <span className="text-[9px] text-gray-400 ml-1">+TVA</span>
+                    <span className="text-[9px] text-gray-500 ml-1">+TVA</span>
                   </div>
                 )}
               </div>
@@ -145,7 +145,7 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume })
               </a>
             </div>
             <button onClick={() => setSelectedApt(null)}
-              className="mt-3 w-full py-2 text-xs text-gray-400 hover:text-gray-600">
+              className="mt-3 w-full py-2 text-xs text-gray-500 hover:text-gray-600">
               Închide
             </button>
           </div>

@@ -171,12 +171,12 @@ export default function PortofoliuAnsambluPage({ params }) {
               {a.preturi && a.preturi.length > 0 && (
                 <div className="pb-6 border-b border-gray-100">
                   <h2 className="text-base font-medium text-gray-900 mb-4">Prețuri de referință</h2>
-                  <p className="text-xs text-gray-400 mb-3">Prețuri la momentul comercializării, cu titlu informativ. Stoc epuizat.</p>
+                  <p className="text-xs text-gray-500 mb-3">Prețuri la momentul comercializării, cu titlu informativ. Stoc epuizat.</p>
                   <div className="space-y-2">
                     {a.preturi.map((p, i) => (
                       <div key={i} className="flex flex-wrap items-start justify-between gap-1 py-2.5 px-3 rounded-lg bg-gray-50 border border-gray-100">
                         <span className="text-xs text-gray-600 leading-relaxed" style={{ maxWidth: '65%' }}>{p.tip}</span>
-                        <span className="text-sm font-semibold text-gray-900 flex-shrink-0">{p.pret.toLocaleString()}€ <span className="text-xs font-normal text-gray-400">+ TVA</span></span>
+                        <span className="text-sm font-semibold text-gray-900 flex-shrink-0">{p.pret.toLocaleString()}€ <span className="text-xs font-normal text-gray-500">+ TVA</span></span>
                       </div>
                     ))}
                   </div>
@@ -211,7 +211,7 @@ export default function PortofoliuAnsambluPage({ params }) {
                           </span>
                           {p.nume}
                         </span>
-                        <span className="text-xs text-gray-400 flex-shrink-0 ml-4">{p.distanta}</span>
+                        <span className="text-xs text-gray-500 flex-shrink-0 ml-4">{p.distanta}</span>
                       </div>
                     )
                   })}
@@ -228,7 +228,7 @@ export default function PortofoliuAnsambluPage({ params }) {
                       <div className="text-xs font-medium text-gray-900 mb-0.5">{s.nume}</div>
                       <div className="text-[10px] text-gray-500">{s.zona} · {s.sector}</div>
                       {s.preturi?.[0] && (
-                        <div className="text-[10px] text-gray-400 mt-0.5">de la {s.preturi[0].pret.toLocaleString()}€</div>
+                        <div className="text-[10px] text-gray-500 mt-0.5">de la {s.preturi[0].pret.toLocaleString()}€</div>
                       )}
                     </Link>
                   ))}
@@ -259,7 +259,7 @@ export default function PortofoliuAnsambluPage({ params }) {
               {a.preturi && a.preturi.length > 0 && (
                 <div className="rounded-xl border border-gray-100 p-4 text-xs">
                   <h3 className="font-medium text-gray-900 mb-2">Prețuri de referință</h3>
-                  <div className="text-gray-400 mb-2 text-[10px]">La momentul comercializării</div>
+                  <div className="text-gray-500 mb-2 text-[10px]">La momentul comercializării</div>
                   {a.preturi.slice(0, 4).map((p, i) => (
                     <div key={i} className="flex justify-between py-1 border-b border-gray-50 last:border-0">
                       <span className="text-gray-500 truncate pr-2">{p.tip.split('(')[0].trim()}</span>
