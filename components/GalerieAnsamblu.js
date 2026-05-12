@@ -40,14 +40,7 @@ export default function GalerieAnsamblu({ imagini = {}, nume = '' }) {
             style={{ aspectRatio: '16/9' }}
             onClick={() => setLightbox(mainIdx)}
           >
-            <Image
-              src={mainImg}
-              alt={`${nume} - fotografie principală`}
-              fill
-              sizes="(max-width: 900px) 100vw, 800px"
-              className="object-cover hover:scale-105 transition-transform duration-500"
-              priority
-            />
+            <img src={mainImg} alt={`${nume} - fotografie principală`} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="eager" />
             <div className="absolute bottom-2 right-2 bg-black/60 text-white text-xs px-2 py-1 rounded-md">
               {mainIdx + 1} / {current.length}
             </div>
@@ -62,7 +55,7 @@ export default function GalerieAnsamblu({ imagini = {}, nume = '' }) {
                 style={{ aspectRatio: '16/9' }}
                 onClick={() => { setMainIdx(i + 1); }}
               >
-                <Image src={src} alt={`${nume} foto ${i + 2}`} fill sizes="140px" className="object-cover hover:brightness-110 transition" />
+                <img src={src} alt={`${nume} foto ${i + 2}`} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="hover:brightness-110 transition" loading="lazy" />
               </div>
             ))}
             {current.length > 7 && (
@@ -91,7 +84,7 @@ export default function GalerieAnsamblu({ imagini = {}, nume = '' }) {
               style={{ aspectRatio: '4/3' }}
               onClick={() => setLightbox(i)}
             >
-              <Image src={src} alt={`${nume} foto ${i + 1}`} fill sizes="100vw" className="object-cover" />
+              <img src={src} alt={`${nume} foto ${i + 1}`} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
             </div>
           ))}
         </div>
@@ -140,13 +133,7 @@ export default function GalerieAnsamblu({ imagini = {}, nume = '' }) {
           >‹</button>
           <div className="relative" style={{ width: '90vw', maxWidth: 1100, aspectRatio: '16/9' }}
             onClick={e => e.stopPropagation()}>
-            <Image
-              src={current[lightbox] || current[0]}
-              alt={`${nume} lightbox`}
-              fill
-              className="object-contain"
-              sizes="90vw"
-            />
+            <img src={current[lightbox] || current[0]} alt={`${nume} lightbox`} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "contain" }} />
           </div>
           <button
             className="absolute right-4 text-white text-4xl font-light px-4"
