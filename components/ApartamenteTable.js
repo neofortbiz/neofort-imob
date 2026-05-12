@@ -68,12 +68,15 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume })
                   </div>
                 ) : apt.avans45 ? (
                   <div className="space-y-0.5">
-                    <div className="text-[11px] text-gray-500">
-                      Avans 45%: <span className="font-semibold text-gray-900">{fmt(apt.avans45)}</span>
+                    <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
+                      Avans 45%: <span className="font-semibold text-gray-900">{fmt(apt.avans45)}€</span>
+                      {apt.pretVechiAvans45 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans45)}€</span>}
                     </div>
-                    <div className="text-[11px] text-gray-500">
-                      Avans 20%: <span className="font-medium text-gray-700">{fmt(apt.avans20)}</span>
+                    <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
+                      Avans 20%: <span className="font-medium text-gray-700">{fmt(apt.avans20)}€</span>
+                      {apt.pretVechiAvans20 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans20)}€</span>}
                     </div>
+                    <div className="text-[9px] text-gray-400">+TVA</div>
                   </div>
                 ) : (
                   <div>
