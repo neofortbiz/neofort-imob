@@ -1,23 +1,24 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
+import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   title: 'Despre Neofort IMO — 17 Ani de Imobiliare în București',
-  description: 'Neofort IMO este o companie de imobiliare din București fondată în 2009. 85+ ansambluri rezidențiale livrate, 4.000+ familii, 17 ani experiență. Direct de la sursă, fără comision.',
+  description: `Neofort IMO este o companie de imobiliare din București fondată în 2009. ${NR_LIVRATE}+ ansambluri rezidențiale livrate, ${NR_FAMILII} familii, ${ANI_EXPERIENTA} ani experiență. Direct de la sursă, fără comision.`,
   alternates: { canonical: `${BASE}/despre-noi` },
   openGraph: {
     title: 'Despre Neofort IMO — 17 Ani de Imobiliare în București',
-    description: 'Neofort IMO — fondată în 2009, 85+ ansambluri livrate, 4.000+ familii. Direct de la sursă, fără comision de agenție.',
+    description: `Neofort IMO — fondată în 2009, ${NR_LIVRATE}+ ansambluri livrate, ${NR_FAMILII} familii. Direct de la sursă, fără comision de agenție.`,
     url: `${BASE}/despre-noi`,
     images: [{ url: `${BASE}/og-image.jpg`, width: 1200, height: 630, alt: 'Despre Neofort IMO' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Despre Neofort IMO — 17 Ani Experiență',
-    description: '85+ ansambluri livrate, 4.000+ familii. Direct de la sursă, fără comision.',
+    description: `${NR_LIVRATE}+ ansambluri livrate, ${NR_FAMILII} familii. Direct de la sursă, fără comision.`,
     images: [`${BASE}/og-image.jpg`],
   },
 }
@@ -80,10 +81,10 @@ export default function DespreNoiPage() {
         <section className="py-12 px-6 border-b border-gray-100">
           <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { val: '85+', lbl: 'Ansambluri livrate' },
-              { val: '4.000+', lbl: 'Familii fericite' },
-              { val: '17 ani', lbl: 'Experiență' },
-              { val: '12', lbl: 'Active acum' },
+              { val: `${NR_LIVRATE}+`, lbl: 'Ansambluri livrate' },
+              { val: NR_FAMILII, lbl: 'Familii fericite' },
+              { val: `${ANI_EXPERIENTA} ani`, lbl: 'Experiență' },
+              { val: `${NR_ACTIVE}`, lbl: 'Active acum' },
             ].map(s => (
               <div key={s.lbl} className="p-4 rounded-xl border border-gray-100">
                 <div className="text-2xl font-semibold mb-1" style={{ color: '#2d7a3a' }}>{s.val}</div>
@@ -102,13 +103,13 @@ export default function DespreNoiPage() {
                 Neofort IMO a luat naștere în 2009, într-un moment în care piața imobiliară din București era în plin proces de transformare. Fondatorii companiei au identificat o nevoie clară: cumpărătorii de locuințe noi aveau nevoie de un partener de încredere care să îi ghideze direct la sursă, fără comisioane suplimentare și fără intermediari inutili.
               </p>
               <p>
-                De-a lungul celor 17 ani de activitate, Neofort IMO a livrat peste 85 de ansambluri rezidențiale în toate sectoarele Capitalei. Am asistat mii de familii să își găsească locuința potrivită — de la prima garsonieră până la penthouse-ul cu vedere panoramică.
+                De-a lungul celor {ANI_EXPERIENTA} ani de activitate, Neofort IMO a livrat peste {NR_LIVRATE} de ansambluri rezidențiale în toate sectoarele Capitalei. Am asistat mii de familii să își găsească locuința potrivită — de la prima garsonieră până la penthouse-ul cu vedere panoramică.
               </p>
               <p>
                 În 2026 am trecut printr-un proces de rebranding complet — identitate vizuală nouă, prezență digitală modernă și o echipă consolidată de șase reprezentanți specializați pe zone geografice specifice din București. Rămânem fideli principiului fondator: transparență totală, prețuri directe de la dezvoltator și consultanță personalizată.
               </p>
               <p>
-                Astăzi, cu 12 ansambluri active în Sectoarele 2, 3 și 6, Neofort IMO continuă să fie una dintre companiile de referință în domeniul comercializării locuințelor noi din București.
+                Astăzi, cu {NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6, Neofort IMO continuă să fie una dintre companiile de referință în domeniul comercializării locuințelor noi din București.
               </p>
             </div>
           </div>

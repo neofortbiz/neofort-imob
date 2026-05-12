@@ -3,16 +3,17 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 import AnsambluriClient from './AnsambluriClient'
 import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
+import { NR_ACTIVE } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   title: 'Ansambluri Rezidențiale București — Apartamente Noi | Neofort IMO',
-  description: 'Toate ansamblurile rezidențiale Neofort IMO disponibile în București. 12 ansambluri active în Sectoarele 2, 3 și 6. Apartamente 1-4 camere direct de la dezvoltator, fără comision.',
+  description: `Toate ansamblurile rezidențiale Neofort IMO disponibile în București. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6. Apartamente 1-4 camere direct de la dezvoltator, fără comision.`,
   alternates: { canonical: `${BASE}/ansambluri-rezidentiale` },
   openGraph: {
     title: 'Ansambluri Rezidențiale București | Neofort IMO',
-    description: '12 ansambluri active în București. Apartamente noi direct de la sursă, fără comision.',
+    description: `${NR_ACTIVE} ansambluri active în București. Apartamente noi direct de la sursă, fără comision.`,
     url: `${BASE}/ansambluri-rezidentiale`,
     images: [{ url: 'https://www.neofort.ro/og-ansambluri.jpg', width: 1200, height: 630, alt: 'Ansambluri Rezidențiale Neofort IMO București' }],
   },

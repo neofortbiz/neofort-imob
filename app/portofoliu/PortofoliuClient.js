@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
+import { ANI_EXPERIENTA, NR_LIVRATE } from '@/data/siteConfig'
 
 export default function PortofoliuClient() {
   const [view, setView] = useState('grid')
@@ -105,7 +106,7 @@ export default function PortofoliuClient() {
       <div className="mt-10 bg-white rounded-xl border border-gray-100 p-6">
         <h2 className="text-sm font-medium text-gray-900 mb-3">Despre portofoliul Neofort IMO</h2>
         <p className="text-xs text-gray-500 leading-relaxed">
-          Compania noastră a livrat peste 85 de ansambluri rezidențiale în București. Fiecare proiect reflectă angajamentul față de calitate, locații premium și finisaje superioare. Deși aceste ansambluri sunt integral vândute, ele demonstrează expertiza acumulată de-a lungul a 17 ani de activitate.
+          Compania noastră a livrat peste {NR_LIVRATE} de ansambluri rezidențiale în București. Fiecare proiect reflectă angajamentul față de calitate, locații premium și finisaje superioare. Deși aceste ansambluri sunt integral vândute, ele demonstrează expertiza acumulată de-a lungul a {ANI_EXPERIENTA} ani de activitate.
         </p>
         <Link href="/ansambluri-rezidentiale" className="inline-block mt-3 text-xs font-medium" style={{ color: '#2d7a3a' }}>
           Vezi ansambluri disponibile →

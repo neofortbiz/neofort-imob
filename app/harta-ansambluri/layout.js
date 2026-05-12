@@ -1,12 +1,14 @@
+import { NR_ACTIVE, NR_PORTOFOLIU } from '@/data/siteConfig'
+
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   title: 'Harta Ansambluri Rezidențiale București — Neofort IMO',
-  description: 'Hartă interactivă cu toate ansamblurile rezidențiale Neofort IMO din București. 12 proiecte active + 33 din portofoliu pe OpenStreetMap.',
+  description: `Hartă interactivă cu toate ansamblurile rezidențiale Neofort IMO din București. ${NR_ACTIVE} proiecte active + ${NR_PORTOFOLIU} din portofoliu pe OpenStreetMap.`,
   alternates: { canonical: `${BASE}/harta-ansambluri` },
   openGraph: {
     title: 'Harta Ansambluri Neofort IMO — București',
-    description: '45 de ansambluri rezidențiale pe hartă interactivă OpenStreetMap.',
+    description: `${NR_ACTIVE + NR_PORTOFOLIU} de ansambluri rezidențiale pe hartă interactivă OpenStreetMap.`,
     url: `${BASE}/harta-ansambluri`,
     type: 'website',
     locale: 'ro_RO',

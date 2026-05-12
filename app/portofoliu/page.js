@@ -3,18 +3,19 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 import PortofoliuClient from './PortofoliuClient'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
+import { ANI_EXPERIENTA, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
-  title: 'Portofoliu Ansambluri Vândute — Neofort IMO | 85+ Proiecte Livrate',
-  description: 'Portofoliul complet al ansamblurilor rezidențiale Neofort IMO finalizate și vândute în București. 85+ proiecte livrate din 2009 în toate sectoarele capitalei.',
+  title: `Portofoliu Ansambluri Vândute — Neofort IMO | ${NR_LIVRATE}+ Proiecte Livrate`,
+  description: `Portofoliul complet al ansamblurilor rezidențiale Neofort IMO finalizate și vândute în București. ${NR_LIVRATE}+ proiecte livrate din 2009 în toate sectoarele capitalei.`,
   alternates: { canonical: `${BASE}/portofoliu` },
   openGraph: {
-    title: 'Portofoliu Neofort IMO — 85+ Ansambluri Livrate',
-    description: 'Ansambluri rezidențiale finalizate și vândute în București. 17 ani experiență, 4.000+ familii.',
+    title: `Portofoliu Neofort IMO — ${NR_LIVRATE}+ Ansambluri Livrate`,
+    description: `Ansambluri rezidențiale finalizate și vândute în București. ${ANI_EXPERIENTA} ani experiență, ${NR_FAMILII} familii.`,
     url: `${BASE}/portofoliu`,
-    images: [{ url: 'https://www.neofort.ro/og-portofoliu.jpg', width: 1200, height: 630, alt: 'Portofoliu Neofort IMO — 33 Proiecte Livrate' }],
+    images: [{ url: 'https://www.neofort.ro/og-portofoliu.jpg', width: 1200, height: 630, alt: `Portofoliu Neofort IMO — ${NR_LIVRATE}+ Proiecte Livrate` }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -27,7 +28,7 @@ function getPortofoliuSchema(BASE) {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     name: 'Portofoliu Ansambluri Finalizate Neofort IMO',
-    description: '85+ ansambluri rezidențiale livrate în București din 2009',
+    description: `${NR_LIVRATE}+ ansambluri rezidențiale livrate în București din 2009`,
     url: `${BASE}/portofoliu`,
     numberOfItems: TOATE_PORTOFOLIU.length,
     itemListElement: TOATE_PORTOFOLIU.slice(0, 50).map((a, i) => ({
@@ -60,9 +61,9 @@ export default function PortofoliuPage() {
               </div>
               <div className="hidden md:flex gap-8">
                 {[
-                  { val: '85+', lbl: 'Ansambluri livrate' },
-                  { val: '17 ani', lbl: 'Experiență' },
-                  { val: '4.000+', lbl: 'Familii' },
+                  { val: `${NR_LIVRATE}+`, lbl: 'Ansambluri livrate' },
+                  { val: `${ANI_EXPERIENTA} ani`, lbl: 'Experiență' },
+                  { val: NR_FAMILII, lbl: 'Familii' },
                 ].map(s => (
                   <div key={s.lbl} className="text-center">
                     <div className="text-base font-semibold" style={{ color: '#2d7a3a' }}>{s.val}</div>

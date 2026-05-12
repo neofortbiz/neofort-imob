@@ -1,6 +1,7 @@
 import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
 import { Barlow, Barlow_Condensed } from 'next/font/google'
+import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
 
 const barlow = Barlow({
   subsets: ['latin'],
@@ -31,7 +32,7 @@ export const metadata = {
     default: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă',
     template: '%s | Neofort IMO',
   },
-  description: 'Apartamente noi în București direct de la sursă, fără comision. 12 ansambluri active în Sectoarele 2, 3 și 6. 17 ani experiență, 85+ proiecte livrate. Sună: 0758 090 904.',
+  description: `Apartamente noi în București direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6. ${ANI_EXPERIENTA} ani experiență, ${NR_LIVRATE}+ proiecte livrate. Sună: 0758 090 904.`,
   keywords: [
     'apartamente noi bucuresti', 'ansambluri rezidentiale bucuresti',
     'bloc nou bucuresti', 'apartamente titan pallady',
@@ -54,14 +55,14 @@ export const metadata = {
     localeAlternate: ['en_GB', 'de_DE', 'fr_FR', 'it_IT'],
     siteName: 'Neofort IMO',
     title: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă',
-    description: 'Apartamente noi în București direct de la sursă, fără comision. 12 ansambluri active în Sectoarele 2, 3 și 6.',
+    description: `Apartamente noi în București direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6.`,
     url: BASE,
     images: [{ url: `${BASE}/og-image.jpg`, width: 1200, height: 630, alt: 'Neofort IMO — Apartamente Noi București' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Neofort IMO — Apartamente Noi București',
-    description: 'Apartamente noi direct de la sursă, fără comision. 12 ansambluri active.',
+    description: `Apartamente noi direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active.`,
     images: [`${BASE}/og-image.jpg`],
   },
   verification: {
@@ -86,7 +87,7 @@ const organizationSchema = {
     caption: 'Neofort IMO — Apartamente Noi București',
   },
   image: `${BASE}/og-image.jpg`,
-  description: 'Companie specializată în comercializarea ansamblurilor rezidențiale noi în București. Direct de la sursă, fără comision de agenție. 17 ani experiență, 85+ proiecte livrate din 2009. Peste 4.000 de familii ajutate să-și cumpere prima casă.',
+  description: `Companie specializată în comercializarea ansamblurilor rezidențiale noi în București. Direct de la sursă, fără comision de agenție. ${ANI_EXPERIENTA} ani experiență, ${NR_LIVRATE}+ proiecte livrate din 2009. Peste ${NR_FAMILII} familii ajutate să-și cumpere prima casă.`,
   foundingDate: '2009',
   numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 10, maxValue: 50 },
   sameAs: [
@@ -198,7 +199,7 @@ const localBusinessSchema = {
   paymentAccepted: 'Cash, Bank Transfer, Mortgage',
   image: `${BASE}/og-image.jpg`,
   logo: `${BASE}/logo.avif`,
-  description: 'Comercializare apartamente noi în ansambluri rezidențiale din București. Direct de la sursă, fără comision. 17 ani experiență, 85+ proiecte livrate.',
+  description: `Comercializare apartamente noi în ansambluri rezidențiale din București. Direct de la sursă, fără comision. ${ANI_EXPERIENTA} ani experiență, ${NR_LIVRATE}+ proiecte livrate.`,
   foundingDate: '2009',
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -262,7 +263,7 @@ const faqSchema = {
       name: 'Câte proiecte rezidențiale a livrat Neofort IMO?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Neofort IMO a livrat peste 85 de ansambluri rezidențiale în București din 2009 până în prezent, totalizând peste 4.000 de familii ajutate să-și cumpere un apartament nou.',
+        text: `Neofort IMO a livrat peste ${NR_LIVRATE} de ansambluri rezidențiale în București din 2009 până în prezent, totalizând peste ${NR_FAMILII} familii ajutate să-și cumpere un apartament nou.`,
       },
     },
     {

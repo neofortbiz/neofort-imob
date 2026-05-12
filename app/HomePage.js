@@ -1,10 +1,10 @@
 'use client'
-import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
+import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
 
 // Zone generate automat din ansambluri
 const SECTOR_LABELS = {
@@ -206,9 +206,9 @@ export default function HomePageClient() {
           </p>
           <div className="inline-flex rounded-xl overflow-hidden max-w-lg w-full" style={{ border: '0.5px solid rgba(255,255,255,0.08)' }}>
             {[
-              { num: '85+', lbl: 'Ansambluri livrate' },
-              { num: ANSAMBLURI_ACTIVE.length, lbl: 'Active acum' },
-              { num: '17 ani', lbl: 'Experiență' },
+              { num: `${NR_LIVRATE}+`, lbl: 'Ansambluri livrate' },
+              { num: NR_ACTIVE, lbl: 'Active acum' },
+              { num: `${ANI_EXPERIENTA} ani`, lbl: 'Experiență' },
             ].map((s, i) => (
               <div key={i} className="flex-1 py-4 text-center" style={{ borderLeft: i > 0 ? '0.5px solid rgba(255,255,255,0.08)' : 'none' }}>
                 <div className="text-xl md:text-2xl font-medium" style={{ color: '#e8b44e' }}>{s.num}</div>
@@ -432,8 +432,8 @@ export default function HomePageClient() {
         <div className="border-t border-b border-gray-200 bg-gray-50 py-5 px-6">
           <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-0">
             {[
-              { num: '85+', lbl: 'Ansambluri rezidențiale livrate' },
-              { num: '17 ani', lbl: 'Experiență în imobiliare' },
+              { num: `${NR_LIVRATE}+`, lbl: 'Ansambluri rezidențiale livrate' },
+              { num: `${ANI_EXPERIENTA} ani`, lbl: 'Experiență în imobiliare' },
               { num: '2h', lbl: 'Timp mediu răspuns' },
               { num: '0%', lbl: 'Comision de agenție' },
             ].map((t, i) => (
@@ -538,7 +538,7 @@ export default function HomePageClient() {
               </div>
 
               <div className="px-4 py-2.5 flex justify-between items-center bg-white border-t border-gray-200">
-                <span className="text-xs text-gray-500">12 ansambluri active · 33 proiecte livrate în București din 2009</span>
+                <span className="text-xs text-gray-500">{NR_ACTIVE} ansambluri active · {NR_LIVRATE}+ proiecte livrate în București din 2009</span>
                 <span className="text-xs font-medium" style={{color:'#2d7a3a'}}>Vezi toate →</span>
               </div>
             </Link>
@@ -555,7 +555,7 @@ export default function HomePageClient() {
             <div className="space-y-3">
               {[
                 { q: 'Neofort IMO percepe comision de agenție?', a: 'Nu. Neofort IMO comercializează apartamente direct de la sursă, fără comision de agenție pentru cumpărător. Prețul afișat este prețul final, fără costuri ascunse.' },
-                { q: 'Câte proiecte rezidențiale a livrat Neofort IMO?', a: 'Neofort IMO a livrat peste 85 de ansambluri rezidențiale în București din 2009 până în prezent, ajutând peste 4.000 de familii să-și cumpere un apartament nou.' },
+                { q: 'Câte proiecte rezidențiale a livrat Neofort IMO?', a: `Neofort IMO a livrat peste ${NR_LIVRATE} de ansambluri rezidențiale în București din 2009 până în prezent, ajutând peste ${NR_FAMILII} familii să-și cumpere un apartament nou.` },
                 { q: 'În ce sectoare din București are Neofort IMO ansambluri active?', a: 'Ansambluri active în Sectorul 2 (Moșilor-Eminescu, Eminescu-Viitorului, Tepeș Vodă), Sectorul 3 (Titan-Pallady, Piața Muncii, IOR) și Sectorul 6 (Militari, Gorjului, Iuliu Maniu).' },
                 { q: 'Apartamentele Neofort IMO se predau la cheie?', a: 'Da. Toate apartamentele se predau cu finisaje complete incluse în preț: parchet, gresie, faianță, obiecte sanitare, tâmplărie, instalații complete. Te muți direct.' },
                 { q: 'Cum se face rezervarea unui apartament?', a: 'Rezervarea se face cu o sumă variabilă per proiect, restituibilă integral dacă nu se semnează antecontractul din vina dezvoltatorului. Consultanță juridică și bancară gratuită inclusă.' },

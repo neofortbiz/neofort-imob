@@ -1,8 +1,8 @@
 'use client'
-import Image from 'next/image'
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
+import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
 
 const STATUS_CFG = {
   constructie: { label: 'În construcție', bg: '#e3f2fd', color: '#1565c0' },
@@ -270,8 +270,8 @@ export default function AnsambluriClient() {
             <p className="text-xs text-gray-500 leading-relaxed">
               Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, în Sectoarele 2, 3 și 6.
               Toate proiectele sunt vândute direct de la sursă, fără comision de agenție.
-              Portofoliul activ include 12 ansambluri cu apartamente de la 1 cameră până la penthouse, în zone cu acces rapid la metrou,
-              centre comerciale și facilități urban-rezidențiale. Cu 17 ani de experiență și 85+ proiecte livrate din 2009,
+              Portofoliul activ include {NR_ACTIVE} ansambluri cu apartamente de la 1 cameră până la penthouse, în zone cu acces rapid la metrou,
+              centre comerciale și facilități urban-rezidențiale. Cu {ANI_EXPERIENTA} ani de experiență și {NR_LIVRATE}+ proiecte livrate din 2009,
               Neofort IMO este una dintre companiile de referință în domeniul locuințelor noi din București.
             </p>
           </div>

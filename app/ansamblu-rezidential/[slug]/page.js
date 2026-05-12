@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation'
-import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -319,6 +318,28 @@ export default function AnsambluPage({ params }) {
             {/* SIDEBAR */}
             <div className="md:sticky self-start" style={{ top: '96px' }}>
               <FormularRapid ansambluNume={a.nume} broker={a.broker} brokerTel={a.brokerTel} brokerFoto={a.brokerFoto || ""} />
+            </div>
+          </div>
+        </div>
+
+        {/* FAQ VIZIBIL */}
+        <div className="border-t border-gray-100 px-6 py-8">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-base font-medium text-gray-900 mb-4">Întrebări frecvente despre {a.nume}</h2>
+            <div className="space-y-2">
+              {faqSchema.mainEntity.map((item, i) => (
+                <details key={i} className="group rounded-xl border border-gray-100 bg-white overflow-hidden">
+                  <summary className="flex items-center justify-between gap-3 px-5 py-4 cursor-pointer text-sm font-medium text-gray-900 select-none list-none">
+                    {item.name}
+                    <svg className="flex-shrink-0 w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                  </summary>
+                  <div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                    {item.acceptedAnswer.text}
+                  </div>
+                </details>
+              ))}
             </div>
           </div>
         </div>

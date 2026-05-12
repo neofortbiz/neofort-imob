@@ -1,6 +1,5 @@
 'use client'
 import { useState } from 'react'
-import Image from 'next/image'
 
 export default function GalerieAnsamblu({ imagini = {}, nume = '' }) {
   const exterior = imagini.exterior || []

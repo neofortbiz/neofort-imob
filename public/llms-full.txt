@@ -1,9 +1,9 @@
 # Neofort IMO — Imobiliare București (VERSIUNE COMPLETA)
-# Actualizat: 2026-05-11
+# Actualizat: 2026-05-12
 # Versiune: llms-full.txt (date complete pentru sisteme AI/RAG)
 
 ## Companie
-Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 85+ ansambluri livrate. 12 ansambluri active în Sectoarele 2, 3 și 6.
+Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 12 ansambluri active în Sectoarele 2, 3 și 6.
 
 Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776
 Telefon: +40758090904
@@ -16,587 +16,699 @@ Google Maps: https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7
 Google Place ID: ChIJRfDdJdX_sUARTlBqmy1tpXw
 Rating Google: 4.3/5 (105 recenzii)
 
+## Statistici
+- Ansambluri active: 12
+- Ansambluri livrate total: 76+
+- Portofoliu (vândute integral): 72
+- Finalizate la vânzare: 4
+- Ani experiență: 17
+
 ## Ansambluri active la vânzare
 
 ### Neofort 84 Titan Pallady — Titan-Pallady, Sector 3
 Slug: neofort-84-titan-pallady
-Status: constructie
+Status: În construcție
 Etaje: P+10
 Tipuri: 2 camere, 3 camere, 4 camere
-Pret de la: 62,114€ + TVA
+Pret de la: 62.114€ + TVA
 Predare: T1 2027
 Adresa: Zona Titan-Pallady, Sector 3, București
-Coordonate: 44.4268, 26.17
+Coordonate: 44.418559, 26.204754
 Broker: Raluca NISTOR, 0743 250 029
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-84-titan-pallady
 
 Apartamente disponibile:
-- 2 cam. Tip 1 (47,78 mp, et. et. 10): de la 66,892€+TVA
-- 2 cam. Tip 2 (49,15 mp, et. et. 3-9): de la 68,824€+TVA
-- 2 cam. Tip 3 (61,5 mp, et. et. 1-10): de la 86,254€+TVA
-- 2 cam. Tip 4 (67,71 mp, et. p-et. 10): de la 94,794€+TVA
-- 2 cam. Tip 5 terasa (91,6 mp, et. p. înalt): de la 110,026€+TVA
-- 3 cam. Tip 1 (78,6 mp, et. et. 1 + p. înalt): de la 110,026€+TVA
-- 3 cam. Tip 2 (86,3 mp, et. et. 2-9): de la 120,820€+TVA
-- 3 cam. Tip 3 (90,62 mp, et. et. 1-8): de la 126,868€+TVA
-- 3 cam. Tip 4 terasa (119,52 mp, et. p. înalt): de la 131,985€+TVA
-- 4 cam. terasa (175,58 mp, et. et. 10): de la 190,988€+TVA
+- 2 cam. Tip 1 (47.78 mp, et. et. 10): avans 45% = 62.114€, avans 20% = 66.892€ (+TVA)
+- 2 cam. Tip 2 (49.15 mp, et. et. 3-9): avans 45% = 63.908€, avans 20% = 68.824€ (+TVA)
+- 2 cam. Tip 3 (61.5 mp, et. et. 1-10): avans 45% = 80.093€, avans 20% = 86.254€ (+TVA)
+- 2 cam. Tip 4 (67.71 mp, et. p-et. 10): avans 45% = 88.023€, avans 20% = 94.794€ (+TVA)
+- 2 cam. Tip 5 terasa (91.6 mp, et. p. înalt): avans 45% = 96.740€, avans 20% = 110.026€ (+TVA)
+- 3 cam. Tip 1 (78.6 mp, et. et. 1 + p. înalt): avans 45% = 102.167€, avans 20% = 110.026€ (+TVA)
+- 3 cam. Tip 2 (86.3 mp, et. et. 2-9): avans 45% = 112.190€, avans 20% = 120.820€ (+TVA)
+- 3 cam. Tip 3 (90.62 mp, et. et. 1-8): avans 45% = 117.806€, avans 20% = 126.868€ (+TVA)
+- 3 cam. Tip 4 terasa (119.52 mp, et. p. înalt): avans 45% = 125.082€, avans 20% = 131.985€ (+TVA)
+- 4 cam. terasa (175.58 mp, et. et. 10): avans 45% = 181.262€, avans 20% = 190.988€ (+TVA)
+Parcare interioară: 8.500€ + TVA
+Parcare exterioară: 6.000€ + TVA
 
-Parcare interioară: de la 8,500€ + TVA
-Parcare exterioară: de la 6,000€ + TVA
-
-Ansamblul Rezidențial Neofort 84 este cel mai recent proiect de anvergură al Neofort IMO în zona Titan-Pallady, Sectorul 3 din București. Imobilul cu regim P+10 etaje este în construcție, cu predare în Trimestrul I 2027, și oferă 10 tipuri diferite de apartamente — de la 2 camere la 4 camere cu terasă panoramică.
-
-Tipologia apartamentelor este diversificată pentru a răspunde oricărui buget: apartamente de 2 camere între 47,78 și 91,60 mp, cu prețuri promoționale de la 62.114€ la avans 45% sau de la 66.892€ la avans 20%; apartamente de 3 camere între 78,60 și 119,52 mp de la 102.167€; și apartamentul flagship — 4 camere cu terasă generoasă la etajul 10, 175,58 mp, de la 181.262€. Toate prețurile sunt + TVA. Parcare exterioară disponibilă de la 6.000€, parcare interioară de la 8.500€.
-
-Din punct de vedere tehnic, structura de cadre și diafragme din beton armat cu zidărie Porotherm sau BCA Ytong asigură rezistența seismică. Dotările includ: încălzire în pardoseală, tâmplărie PVC Salamander cu ferestre mari pentru lumină naturală maximă, lift silențios, gresie și faianță import, centrală termică proprie în condensare, instalații sanitare, electrice și termice complete. Apartamentele de la etajul 10 și parterul înalt dispun de terase generoase.
-
-Amplasamentul este strategic: Metrou Nicolae Teclu (M2) la câteva minute pe jos și Metrou Anghel Saligny (M2) la 8 minute pe jos asigură accesul rapid în orice punct al Bucureștiului. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo, Metro, Leroy Merlin și Dedeman Pallady la 8 minute — cea mai densă concentrare de retail din estul capitalei. Waldorf București și Spectrum School la 500m, Școala nr. 149 și Liceul Victor Brauner la 10 minute pe jos pentru familii cu copii. Parcul Teilor la 10 minute. Campus Medical Regina Maria Titan la 10 minute și MedLife Titan la 8 minute pentru servicii medicale de top.
-
-Neofort 84 se vinde direct de la sursă, fără comision de agenție. Rezervare cu 1.000€. Consultanță juridică și bancară gratuită.
+Dotări: Incalzire in pardoseala, Tamplarie PVC Salamander, Lifturi silentioase, Gresie si faianta import, Terase generoase, Instalatii sanitare, electrice si termice, Centrala termica proprie, Ferestre mari pentru lumina naturala
 
 Puncte de interes:
-- metrou: Metrou Nicolae Teclu (M2) — cateva minute pe jos
-- metrou: Metrou Anghel Saligny (M2) — 8 min pe jos
-- mall: IKEA Pallady — 5 min cu mașina
-- mall: Auchan Titan — 7 min cu mașina
-- mall: Jumbo / Metro / Leroy Merlin / Dedeman Pallady — 8 min cu mașina
-- scoala: Waldorf & Spectrum School — 500m
-- scoala: Școala nr. 149 / Liceul Victor Brauner — 10 min pe jos
-- parc: Parcul Teilor — 10 min pe jos
-- medical: Campus Medical Regina Maria Titan — 10 min
-- medical: MedLife Titan / Clinica Pallady — 8 min
+- mall: IKEA Pallady — 350m
+- mall: Jumbo / Leroy Merlin Pallady — 7 min pe jos
+- metrou: Metrou Anghel Saligny (M2) — 3 min cu masina
+- scoala: Waldorf Bucuresti / Spectrum School — 4 min cu masina
+- metrou: Metrou Nicolae Teclu (M2) — 4 min cu masina
+- mall: Auchan Titan / Pallady — 5 min cu masina
+- mall: Kaufland Pantelimon — 5 min cu masina
+- medical: Campus Medical Regina Maria Titan — 6 min cu masina
+- parc: Parcul Teilor — 7 min cu masina
+- parc: Parcul IOR (Titan) — 7 min cu masina
+- mall: Mega Mall Pantelimon — 8 min cu masina
+- transport: Acces Autostrada A2 — 8 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 84, zona Titan-Pallady, Sector 3. Bloc P+10 în construcție, predare T1 2027. Apartamente 2-4 camere de la 62.114€+TVA. Metrou Nicolae Teclu la câteva minute, IKEA Pallady, Auchan Titan, Parcul Teilor în proximitate. Încălzire pardoseală, tâmplărie Salamander tripan, centrală proprie, structură beton armat Porotherm.
 
 ### Neofort 83 Titan Pallady — Titan-Pallady, Sector 3
 Slug: neofort-83-titan-pallady
-Status: constructie
+Status: În construcție
 Etaje: D+P+3E
 Tipuri: Garsoniera, Studio, 2 camere, 3 camere, 4 camere
-Pret de la: 64,800€ + TVA
+Pret de la: 64.800€ + TVA
 Predare: In curand
 Adresa: Zona Titan-Pallady, Sector 3, Bucuresti
-Coordonate: 44.426, 26.172
+Coordonate: 44.408482, 26.19528
 Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-83-titan-pallady
 
 Apartamente disponibile:
-- Garsoniera (43,42 mp, et. et. 1-3): de la 64,800€+TVA
-- Studio 2 camere (56,12 mp, et. et. 1-3): de la 84,180€+TVA
-- 2 camere (69,91 mp, et. et. 1-3): de la 104,865€+TVA
-- 3 camere (74,91 mp, et. et. 1-3): de la 112,365€+TVA
-- 4 camere (100,63 mp, et. et. 1-3): de la 150,945€+TVA
+- Garsoniera (43.42 mp, et. et. 1-3): de la 64.800€+TVA
+- Studio 2 camere (56.12 mp, et. et. 1-3): de la 84.180€+TVA
+- 2 camere (69.91 mp, et. et. 1-3): de la 104.865€+TVA
+- 3 camere (74.91 mp, et. et. 1-3): de la 112.365€+TVA
+- 4 camere (100.63 mp, et. et. 1-3): de la 150.945€+TVA
+Parcare interioară: 13.000€ TVA inclus
+Parcare exterioară: 9.000€ TVA inclus
 
-Parcare interioară: 13,000€
-Parcare exterioară: 9,000€
-
-Ansamblul Rezidențial Neofort 83 Faza 2 este amplasat în zona Titan, Sectorul 3 din București, la 3 minute de mers pe jos de Metrou Nicolae Teclu (M2) — una dintre cele mai valoroase localizări față de metrou din oferta actuală de apartamente noi din Sectorul 3.
-
-Complexul este format din trei corpuri D+P+3E cu lift silențios în fiecare corp, spații verzi amenajate între blocuri și locuri de joacă. Oferta tipologică este completă: garsonieră 43,42 mp de la 64.800€, studio 2 camere 56,12 mp de la 84.180€, apartament 2 camere 69,91 mp de la 104.865€, 3 camere 74,91 mp de la 112.365€ și 4 camere 100,63 mp de la 150.945€ — toate prețurile la avans 20%, + TVA. Parcare exterioară 9.000€ TVA inclus, parcare interioară 13.000€ TVA inclus.
-
-Standardul tehnic este în segmentul premium al pieței: centrală proprie în condensare pentru eficiență energetică maximă, încălzire prin pardoseală în toate camerele, obiecte sanitare suspendate, tâmplărie Salamander negru structurat cu geam tripan, kit de aer condiționat preinstalat, ușă metalică multipunct antiefracție. Fațada ventilată cu izolație din vată minerală bazaltică — material superior polistirenului clasic în privința izolației fonice și durabilității pe termen lung.
-
-Metrou Nicolae Teclu la 3 minute și Metrou Anghel Saligny la 8 minute pe jos asigură mobilitate perfectă. IKEA Pallady la 5 minute, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman Pallady la 8 minute. Waldorf București și Spectrum School la 500m, Școala Gimnazială nr. 149 și Liceul Internațional de Informatică la 10 minute pe jos. Parcul Teilor la 10 minute pe jos. Campus Medical Regina Maria Titan la 10 minute și Medikali Titan la 8 minute. Toate apartamentele se predau la cheie, cu finisaje complete incluse în preț.
+Dotări: Centrala proprie in condensare, Incalzire prin pardoseala, Obiecte sanitare suspendate, Tamplarie Salamander negru structurat, Kit aer conditionat, Usa metalica multipunct antiefractie, Fatada ventilata, Izolatie vata minerala bazaltica
 
 Puncte de interes:
-- metrou: Metrou Nicolae Teclu (M2) — 3 min pe jos
-- metrou: Metrou Anghel Saligny (M2) — 8 min pe jos
-- mall: IKEA Pallady — 5 min cu mașina
-- mall: Auchan Titan — 7 min cu mașina
-- mall: Jumbo Pallady — 6 min cu mașina
-- mall: Leroy Merlin / Metro / Dedeman Pallady — 8 min cu mașina
-- scoala: Waldorf & Spectrum School — 500m
-- scoala: Școala Gimnazială nr. 149 — 10 min pe jos
-- scoala: Liceul International de Informatică — 10 min
-- parc: Parcul Teilor — 10 min pe jos
-- medical: Campus Medical Regina Maria Titan — 10 min
-- medical: Medikali Titan / MedLife Titan — 8 min
+- metrou: Metrou Anghel Saligny (M2) — 100m
+- metrou: Metrou Nicolae Teclu (M2) — 11 min pe jos
+- mall: Jumbo / Leroy Merlin Pallady — 12 min pe jos
+- mall: IKEA Pallady — 3 min cu masina
+- scoala: Waldorf Bucuresti / Spectrum School — 3 min cu masina
+- mall: Auchan Titan / Pallady — 5 min cu masina
+- medical: Campus Medical Regina Maria Titan — 6 min cu masina
+- mall: Kaufland Pantelimon — 6 min cu masina
+- transport: Acces Autostrada A2 — 6 min cu masina
+- parc: Parcul Teilor — 6 min cu masina
+- parc: Parcul IOR (Titan) — 8 min cu masina
+- mall: Mega Mall Pantelimon — 10 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 83 Faza 2, zona Titan, Sector 3. Trei corpuri D+P+3E cu lift, garsoniere, studiouri, apartamente 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu la 3 minute. Centrală condensare, fațadă ventilată, izolație vată minerală bazaltică, tâmplărie Salamander negru structurat. Predat la cheie.
 
 ### Neofort 78 Mosilor-Eminescu — Mosilor-Eminescu, Sector 2
 Slug: neofort-78-mosilor-eminescu
-Status: constructie
+Status: În construcție
 Etaje: S+P+4ET+5R+6R+7R
 Tipuri: 2 camere, 3 camere, 4 camere
-Pret de la: 185,000€ + TVA
+Pret de la: 185.000€ + TVA
 Predare: Mai 2026
 Adresa: Strada Ardeleni, Zona Mosilor-Eminescu, Sector 2, Bucuresti
-Coordonate: 44.441, 26.105
+Coordonate: 44.446553, 26.119879
 Broker: Svetlana CALUTU, 0752 443 434
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-78-mosilor-eminescu
 
 Apartamente disponibile:
-- 2 cam. Tip 8 (58,1 mp, et. et. 1-7): de la 185,000€+TVA
-- 2 cam. Tip 14 (63,4 mp, et. et. 1-7): de la 199,000€+TVA
-- 3 cam. Tip 5 (81,4 mp, et. et. 1-7): de la 280,000€+TVA
-- 3 cam. Tip 18 (84 mp, et. et. 1-7): de la 300,000€+TVA
-- 3 cam. cu gradina (194,2 mp, et. parter): de la 399,000€+TVA
-- 4 cam. Duplex Tip 15 (130,3 mp, et. et. 5-6): de la 495,000€+TVA
+- 2 cam. Tip 8 (58.1 mp, et. et. 1-7): de la 185.000€+TVA
+- 2 cam. Tip 14 (63.4 mp, et. et. 1-7): de la 199.000€+TVA
+- 3 cam. Tip 5 (81.4 mp, et. et. 1-7): de la 280.000€+TVA
+- 3 cam. Tip 18 (84 mp, et. et. 1-7): de la 300.000€+TVA
+- 3 cam. cu gradina (194.2 mp, et. parter): de la 399.000€+TVA
+- 4 cam. Duplex Tip 15 (130.3 mp, et. et. 5-6): de la 495.000€+TVA
+Parcare subterană: 30.000€ +TVA
 
-Parcare subterană: 30,000€
-
-Ansamblul Rezidențial Neofort 78 Faza 2 este un proiect boutique premium de excepție: 22 de apartamente pe strada Ardeleni, zona Moșilor-Eminescu, Sectorul 2, la 400m — 5 minute pe jos — de Metrou Piața Obor (M2). Regimul S+P+4ET+5R+6R+7R, cu etaje retrase la 5, 6 și 7, oferă priveliști generoase și terase private generoase.
-
-Tipologia este unică pe piața bucureșteană: apartament 2 camere Tip 8, 58,10 mp, de la 185.000€; apartament 2 camere Tip 14, 63,40 mp, de la 199.000€; apartament 3 camere Tip 5, 81,40 mp, de la 280.000€; apartament 3 camere Tip 18, 84,00 mp, de la 300.000€; apartament 3 camere cu grădină proprie la parter, 194,20 mp total, de la 399.000€ — o raritate absolută în oferta bucureșteană; și apartament 4 camere Duplex Tip 15, etajele 5-6, 130,30 mp, de la 495.000€. Toate prețurile + TVA. Parcare subterană 30.000€ +TVA.
-
-Finisajele sunt în clasa Premium-Lux fără excepție: încălzire în pardoseală cu sistem Tecce Germania, centrală termică în condensație, tâmplărie Salamander Blue Edition tripan, lift Kone pentru 4 persoane, ceramică Italia în băi și spații comune, parchet stejar stratificat, uși PINUM Italia, obiecte sanitare Rocca cu accesorii HansGrohe, accesorii electrice BTicino Premium, fațadă ventilată din alucobond și fibrociment, videointerfon cu supraveghere video și fibră optică Internet/TV incluse.
-
-Metrou Piața Obor (M2) la 400m — 5 minute pe jos. Metrou Iancului (M2) la 15 minute pe jos. Piața Obor la 400m — cel mai mare complex comercial open-air din București. Mega Mall Pantelimon la 10 minute cu mașina. Colegiul Național Mihai Eminescu la 5 minute pe jos, Liceul Dimitrie Bolintineanu la 10 minute, Grădinița nr. 54 și nr. 82 la 5 minute pe jos. Parcul Circului la 10 minute pe jos, Parcul Ioanid la 15 minute. Spital Clinic Colentina la 10 minute, MedLife Obor și Regina Maria la 5 minute. Autogara Obor și STB multiple la 400m. Predare Mai 2026.
+Dotări: Incalzire in pardoseala Tecce Germania, Centrala termica in condensatie, Tamplarie Salamander Blue Edition tripan, Lift Kone 4 persoane, Ceramica Italia bai si parti comune, Parchet stejar stratificat, Usi PINUM Italia, Obiecte sanitare Rocca / HansGrohe
 
 Puncte de interes:
-- metrou: Metrou Piața Obor (M2) — 400m / 5 min pe jos
-- metrou: Metrou Iancului (M2) — 15 min pe jos
-- mall: Mega Mall Pantelimon — 10 min cu mașina
-- mall: Piața Obor (cel mai mare complex Obor) — 400m
-- scoala: Colegiul Național Mihai Eminescu — 5 min pe jos
-- scoala: Liceul Teoretic Dimitrie Bolintineanu — 10 min
-- scoala: Grădinița nr. 54 / nr. 82 — 5 min pe jos
-- parc: Parcul Circului — 10 min pe jos
-- parc: Parcul Ioanid — 15 min pe jos
-- medical: Spital Clinic Colentina — 10 min
-- medical: MedLife Obor / Regina Maria — 5 min
-- transport: Autogara Obor / STB multiple linii — 400m
+- metrou: Metrou Piata Obor (M2) — 8 min pe jos
+- scoala: Colegiul National Mihai Eminescu — 11 min pe jos
+- transport: Piata Obor / Autogara Obor — 11 min pe jos
+- metrou: Metrou Stefan cel Mare (M2) — 3 min cu masina
+- parc: Lacul Tei / Parcul Tei — 4 min cu masina
+- metrou: Metrou 8 Noiembrie (M1) — 4 min cu masina
+- parc: Parcul National — 6 min cu masina
+- mall: Veranda Mall Obor — 6 min cu masina
+- parc: Parcul Plumbuita — 6 min cu masina
+- metrou: Metrou Timpuri Noi (M2) — 9 min cu masina
+- medical: Spital Clinic Fundeni — 10 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 78 Faza 2, zona Moșilor-Eminescu, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 185.000€+TVA, cu grădini la parter și terase generoase. Metrou Piața Obor la 400m. Parchet stejar, ceramică Italia, obiecte sanitare Rocca-HansGrohe, tâmplărie Salamander Blue Edition, lift Kone.
 
 ### Neofort 76 Iuliu Maniu Metrou Pacii — Militari, Sector 6
 Slug: neofort-76-iuliu-maniu-metrou-pacii
-Status: activ
+Status: Finalizat
 Etaje: S+P+7E+8/9Er
 Tipuri: 2 camere, 3 camere, 4 camere Penthouse
-Pret de la: 218,409€ + TVA
+Pret de la: 218.409€ + TVA
 Predare: In curand
 Adresa: Bulevardul Iuliu Maniu, Sector 6, Bucuresti
-Coordonate: 44.432, 26.01
+Coordonate: 44.43368, 25.998051
 Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii
 
 Apartamente disponibile:
-- Penthouse 4 cam. + Terasa (276,98 mp, et. et. 8-9): de la 218,409€+TVA
+- Penthouse 4 cam. + Terasa (276.98 mp, et. et. 8-9): de la 218.409€+TVA
+Parcare interioară: 10.000€ TVA inclus
 
-Parcare interioară: 10,000€
-
-Ansamblul Rezidențial Neofort 76 Faza 2 este amplasat pe Bulevardul Iuliu Maniu, Sectorul 6, la 500m — 6 minute pe jos — de Metrou Păcii (M3), cu acces suplimentar la Metrou Preciziei la 900m și Metrou Gorjului la 15 minute pe jos. Regimul S+P+7E+8/9Etaj retras oferă etajelor superioare vedere panoramică.
-
-Proiectul include apartamente de 2 camere, 3 camere și unitatea flagship: Penthouse 4 camere cu terasă, etajele 8-9, 276,98 mp, de la 218.409€ la avans 20%, + TVA. Parcare în sistem mecanic Klaus la 10.000€ TVA inclus — soluție inovatoare care maximizează numărul locurilor disponibile.
-
-Structura din beton armat antiSEismică, apartamente complet finisate la cheie, încălzire în pardoseală, contorizare individuală apă-gaz-electricitate și dotări tehnice de top definesc standardul Neofort 76. Cele două etaje retrase (8 și 9) conferă Penthouse-ului intimitate și terasă panoramică generoasă asupra Bucureștiului de vest.
-
-Metrou Păcii la 500m — acces pe M3 spre Piața Unirii în 8 minute. Metrou Preciziei la 900m — 11 minute pe jos. Metrou Gorjului la 15 minute pe jos. Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute, BricoDepot Militari la 10 minute. Parcul Liniei — cel mai lung parc liniar din Europa cu 10 km de alei — la 10 minute pe jos. Școala Internațională King George la 10 minute, Școala Gimnazială Regina Maria la 8 minute, Grădinița Prichindel nr. 195 la 5 minute. Sanador Militari și OK Medical la 8 minute, Clinica Regina Maria Militari la 10 minute.
+Dotări: Apartamente complet finisate la cheie, Incalzire in pardoseala, Contorizare individuala, Dotari tehnice de top, Structura beton armat antisezmica, Parcare sistem Klaus
 
 Puncte de interes:
-- metrou: Metrou Păcii (M3) — 500m / 6 min pe jos
-- metrou: Metrou Preciziei (M3) — 900m / 11 min pe jos
-- metrou: Metrou Gorjului (M3) — 15 min pe jos
-- mall: Plaza Romania — 10 min cu mașina
-- mall: Militari Shopping Center — 8 min cu mașina
-- mall: BricoDepot Militari — 10 min cu mașina
-- scoala: Scoala Internațională King George — 10 min
-- scoala: Școala Gimnazială Regina Maria — 8 min
-- scoala: Grădinița nr. 195 Prichindel — 5 min
-- parc: Parcul Liniei (cel mai lung parc liniar din Europa) — 10 min pe jos
-- medical: Sanador Militari / OK Medical — 8 min
-- medical: Clinica Regina Maria Militari — 10 min
+- metrou: Metrou Pacii (M3) — 400m
+- transport: Autostrada A1 — 10 min pe jos
+- metrou: Metrou Gorjului (M3) — 3 min cu masina
+- medical: Sanador Militari — 4 min cu masina
+- mall: Militari Shopping Center — 5 min cu masina
+- metrou: Metrou Preciziei (M3) — 6 min cu masina
+- parc: Parcul Liniei — 7 min cu masina
+- mall: Plaza Romania — 7 min cu masina
+- metrou: Metrou Petrache Poenaru (M3) — 7 min cu masina
+- metrou: Metrou Lujerului (M3) — 8 min cu masina
+- mall: Cora Lujerului — 9 min cu masina
+- mall: AFI Palace Cotroceni — 11 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 76 Faza 2, Bulevardul Iuliu Maniu, Sector 6. Regim S+P+7E+8/9Er, apartamente 2-3 camere și Penthouse de la 218.409€+TVA. Metrou Păcii la 500m, Metrou Preciziei la 900m. Parcare sistem Klaus, finisaje la cheie, încălzire pardoseală, structură antisismică.
 
 ### Neofort 56 Pallady Titan — Titan-Pallady, Sector 3
 Slug: neofort-56-pallady-titan-teclu
-Status: activ
+Status: Finalizat
 Etaje: D+P+3E
 Tipuri: Studio, 2 camere, 3 camere, 4 camere
-Pret de la: 184,691€ + TVA
+Pret de la: 184.691€ + TVA
 Predare: In curand
 Adresa: Zona Titan Nou, Sector 3, Bucuresti
-Coordonate: 44.425, 26.168
+Coordonate: 44.419894, 26.182582
 Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-56-pallady-titan-teclu
 
 Apartamente disponibile:
-- 4 cam. (125,64 mp, et. et. 1-3): de la 184,691€+TVA
-- 4 cam. cu curte (133,54 mp, et. parter): de la 235,208€+TVA
+- 4 cam. (125.64 mp, et. et. 1-3): de la 184.691€+TVA
+- 4 cam. cu curte (133.54 mp, et. parter): de la 235.208€+TVA
+Parcare subterană: 8.900€ TVA inclus
+Parcare exterioară: 8.900€ TVA inclus
 
-Parcare subterană: 8,900€
-Parcare exterioară: 8,900€
-
-Ansamblul Rezidențial Neofort 56 Faza 2 se situează în zona Titan Nou, Sectorul 3, la 3 minute de mers pe jos de Metrou Nicolae Teclu (M2). Trei blocuri D+P+3E cu 84 de unități, inclusiv apartamente cu curte proprie la parter — un avantaj rar pe piața bucureșteană.
-
-Oferta actuală cuprinde: apartament 4 camere 125,64 mp de la 184.691€ și apartament 4 camere cu curte proprie, parter, 133,54 mp de la 235.208€ (promoție). Prețuri + TVA. Parcare exterioară și subterană la 8.900€ TVA inclus.
-
-Neofort 56 Faza 2 este primul proiect Neofort cu Smart Home Ready integrat în standardul de bază: control temperatură din aplicație, pregătire pentru automatizarea completă a casei fără costuri suplimentare. Dotările includ: încălzire prin pardoseală INNOFLOW, centrală termică proprie în condensare, tâmplărie VEKA tripan cu 7 camere de izolare — performanța maximă disponibilă pe piață, kit de aer condiționat preinstalat, obiecte sanitare suspendate Grohe, prize Gewiss, lift silențios Schindler, balustrade din sticlă securizată, stații de încărcare auto electrică și supraveghere video a spațiilor comune.
-
-Metrou Nicolae Teclu (M2) la 3 minute pe jos, Metrou Anghel Saligny la 8 minute. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute. Waldorf București și Spectrum School la 500m. Parcul Teilor la 10 minute pe jos. Campus Medical Regina Maria Titan la 10 minute, Medikali Titan la 8 minute. Proiectul se adresează familiilor moderne care prioritizează tehnologia Smart Home, sustenabilitatea prin stații EV și standardul tehnic superior.
+Dotări: Incalzire prin pardoseala INNOFLOW, Smart Home Ready, Centrala termica proprie in condensare, Tamplarie VEKA tripan 7 camere, Kit aer conditionat preinstalat, Obiecte sanitare suspendate Grohe, Prize Gewiss, Lift silentios Schindler
 
 Puncte de interes:
-- metrou: Metrou Nicolae Teclu (M2) — 3 min pe jos
-- metrou: Metrou Anghel Saligny (M2) — 8 min pe jos
-- mall: IKEA Pallady — 5 min cu mașina
-- mall: Auchan Titan — 7 min cu mașina
-- mall: Jumbo Pallady — 6 min cu mașina
-- mall: Leroy Merlin / Metro / Dedeman Pallady — 8 min cu mașina
-- scoala: Waldorf & Spectrum School — 500m
-- scoala: Școala Gimnazială nr. 149 — 10 min pe jos
-- scoala: Liceul International de Informatică — 10 min
-- parc: Parcul Teilor — 10 min pe jos
-- medical: Campus Medical Regina Maria Titan — 10 min
-- medical: Medikali Titan / MedLife Titan — 8 min
+- scoala: Waldorf Bucuresti / Spectrum School — 300m
+- mall: Auchan Titan / Pallady — 350m
+- medical: Campus Medical Regina Maria Titan — 8 min pe jos
+- mall: Kaufland Pantelimon — 10 min pe jos
+- metrou: Metrou Nicolae Teclu (M2) — 11 min pe jos
+- parc: Parcul Teilor — 12 min pe jos
+- mall: Jumbo / Leroy Merlin Pallady — 3 min cu masina
+- metrou: Metrou Anghel Saligny (M2) — 4 min cu masina
+- parc: Parcul IOR (Titan) — 4 min cu masina
+- mall: IKEA Pallady — 5 min cu masina
+- mall: Mega Mall Pantelimon — 7 min cu masina
+- transport: Acces Autostrada A2 — 10 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Studiouri și apartamente 2-4 camere de la 184.691€+TVA. Metrou Nicolae Teclu la 3 minute. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.
 
 ### Neofort 50 Titan Parc IOR — Titan-IOR, Sector 3
 Slug: neofort-50-titan-parc-ior
-Status: activ
+Status: Finalizat
 Etaje: 2S+P+5E-6/11R
 Tipuri: 2 camere, 4 camere
-Pret de la: 142,545€ + TVA
+Pret de la: 142.545€ + TVA
 Predare: Finalizat
 Adresa: Bulevardul 1 Decembrie 1918, Sector 3, Bucuresti
-Coordonate: 44.418, 26.14
+Coordonate: 44.433921, 26.172411
 Broker: Adrian PINTILIE, 0752 443 436
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-50-titan-parc-ior
 
 Apartamente disponibile:
-- 2 cam. Scara 1 (73,1 mp, et. et. 1-5): de la 142,545€+TVA
-- 2 cam. cu terasa (48,9 mp, et. et. 6): de la 144,210€+TVA
-- 2 cam. cu terasa mare (56,4 mp, et. et. 10-11): de la 176,904€+TVA
-- 4 cam. cu terasa (99,95 mp, et. et. 10-11): de la 255,405€+TVA
+- 2 cam. Scara 1 (73.1 mp, et. et. 1-5): de la 142.545€+TVA
+- 2 cam. cu terasa (48.9 mp, et. et. 6): de la 144.210€+TVA
+- 2 cam. cu terasa mare (56.4 mp, et. et. 10-11): de la 176.904€+TVA
+- 4 cam. cu terasa (99.95 mp, et. et. 10-11): de la 255.405€+TVA
 
-
-Ansamblul Rezidențial Neofort 50 Titan IOR este amplasat pe Bulevardul 1 Decembrie 1918, Sectorul 3, cu ieșire directă la Metrou Costin Georgian (M2) — 1 minut de mers pe jos. Imobilul cu regim 2S+P+5E-6/11R dispune de 4 lifturi spatioase ORONA KRONLIFT, 2 subsoluri cu parcări și boxe, spații comerciale la parter și un parc de relaxare cu loc de joacă amenajat în incinta proprie.
-
-Oferta actuală: 2 camere Scara 1, etajele 1-5, 73,10 mp de la 142.545€; 2 camere cu terasă, etajul 6, 48,90 mp de la 144.210€; 2 camere cu terasă mare, etajele 10-11, 56,40 mp de la 176.904€; 4 camere cu terasă (promoție), etajele 10-11, 99,95 mp de la 255.405€. Prețuri + TVA. Parcare subterană și supraterană disponibile.
-
-Construcția pe piloți cu adâncime de 17 metri asigură stabilitatea maximă. Dotările includ: 4 lifturi ORONA KRONLIFT, vitrajele mari SALAMANDER tripan pentru lumină naturală maximă, uși PINUM și BENATI, obiecte sanitare ROCA, CERSANIT și GROHE, centrală SAUNIER DUVAL by VAILLANT, termostat wireless Smart pentru control inteligent și încălzire în pardoseală în toate spațiile. Adăpost ALA cu 3 ieșiri de salvare, autorizat ISU.
-
-Metrou Costin Georgian (M2) la 1 minut pe jos — acces instant spre centrul Bucureștiului. Metrou Nicolae Grigorescu la 10 minute pe jos. Parcul IOR — lac artificial, pârtie de schi, piste ciclistice, terenuri sport — la 5 minute pe jos. Parcul Teilor la 10 minute, Parcul Titanii la 8 minute. Auchan Titan la 5 minute cu mașina, IKEA Pallady la 10 minute, Piața Morarilor la 5 minute pe jos. Liceul Nichita Stănescu și Grădinița nr. 70 la 5 minute. Campus Medical Regina Maria la 10 minute. Bulevardul 1 Decembrie 1918 — magistrala principală de transport cu linii STB multiple.
+Dotări: 4 lifturi spatioase ORONA, Parcari subterane si supraterane, Parc de relaxare cu loc de joaca, Structura antiseismica piloti adancime, Vitraje mari SALAMANDER tripan, Usi PINUM / BENATI, Sanitare ROCA / CERSANIT / GROHE, Centrala SAUNIER DUVAL by VAILLANT
 
 Puncte de interes:
-- metrou: Metrou Costin Georgian (M2) — acces direct / 1 min pe jos
-- metrou: Metrou Nicolae Grigorescu (M2) — 10 min pe jos
-- mall: Auchan Titan — 5 min cu mașina
-- mall: IKEA Pallady — 10 min cu mașina
-- mall: Piața Morarilor / Piața Minis — 5 min pe jos
-- parc: Parcul IOR (Parc Titan) — 5 min pe jos
-- parc: Parcul Teilor — 10 min pe jos
-- parc: Parcul Titanii — 8 min pe jos
-- scoala: Liceul Nichita Stănescu — 5 min pe jos
-- scoala: Grădinița nr. 70 — 5 min pe jos
-- medical: Campus Medical Regina Maria — 10 min
-- transport: Bd. 1 Decembrie 1918 — magistrală transport — în față
+- metrou: Metrou Costin Georgian (M2) — 20m
+- parc: Parcul IOR (Titan) — 150m
+- parc: Parcul Teilor — 3 min cu masina
+- mall: Kaufland Pantelimon — 3 min cu masina
+- medical: Campus Medical Regina Maria Titan — 3 min cu masina
+- mall: Auchan Titan / Pallady — 4 min cu masina
+- scoala: Waldorf Bucuresti / Spectrum School — 5 min cu masina
+- metrou: Metrou Nicolae Teclu (M2) — 7 min cu masina
+- metrou: Metrou Dristor 2 (M2) — 8 min cu masina
+- mall: Park Lake Plaza — 8 min cu masina
+- mall: IKEA Pallady — 8 min cu masina
+- mall: Bucuresti Mall Vitan — 10 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 50 Titan IOR, Bulevardul 1 Decembrie 1918, Sector 3. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 142.545€+TVA. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire pardoseală.
 
 ### Neofort 49 Militari Metrou Gorjului — Militari, Sector 6
 Slug: neofort-49-militari-metrou-gorjului
-Status: constructie
+Status: În construcție
 Etaje: S+P+3E
 Tipuri: Garsoniera, 2 camere
-Pret de la: 76,974€ + TVA
+Pret de la: 76.974€ + TVA
 Predare: Finalizat
 Adresa: Strada Vistiernicul Stavrinos, Sector 6, Bucuresti
-Coordonate: 44.43, 26.015
+Coordonate: 44.4311, 26.012883
 Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-49-militari-metrou-gorjului
 
 Apartamente disponibile:
-- Garsoniera (38,9 mp, et. et. 1-3): de la 76,974€+TVA
-- 2 camere (60,3 mp, et. et. 1-3): de la 118,947€+TVA
+- Garsoniera (38.9 mp, et. et. 1-3): de la 76.974€+TVA (promoție)
+- 2 camere (60.3 mp, et. et. 1-3): de la 118.947€+TVA (promoție)
+Parcare subterană: 15.000€ TVA inclus
 
-Parcare subterană: 15,000€
-
-Ansamblul Rezidențial Neofort 49 este un proiect boutique finalizat de 18 apartamente pe Strada Vistiernicul Stavrinos, Sectorul 6, la câteva minute de mers pe jos de Metrou Gorjului și Metrou Păcii (M3). Disponibil în promoție.
-
-Oferta: garsonieră 38,90 mp la prețul promoțional de 76.974€ (față de 77.800€ preț standard); apartament 2 camere 60,30 mp la 118.947€ promoțional (față de 120.600€). Prețuri + TVA. Parcare subterană disponibilă la 15.000€ TVA inclus.
-
-Structura din beton armat C25/30 cu zidărie Porotherm 30cm și izolație EPS100 asigură calitatea constructivă pe termen lung. Fiecare apartament este predat la cheie cu finisaje moderne superioare mediei pieței: centrală proprie în condensare, încălzire prin pardoseală, tâmplărie Salamander negru structurat cu geam tripan, kit de aer condiționat preinstalat, baie complet echipată cu obiecte sanitare incastrabile suspendate, ușă metalică multipunct antiefracție și lift silențios.
-
-Metrou Gorjului (M3) și Metrou Păcii (M3) la câteva minute pe jos — acces direct spre Piața Unirii în 10 minute și spre centrul Capitalei fără trafic. Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute, BricoDepot Militari la 10 minute. Parcul Liniei la 10 minute pe jos. Școala Internațională King George la 10 minute, Școala Gimnazială Regina Maria la 8 minute. Sanador Militari, OK Medical la 8 minute, Clinica Regina Maria Militari la 10 minute. 18 apartamente — comunitate restrânsă, costuri comune minime, finalizat și disponibil imediat.
+Dotări: Centrala proprie de apartament, Incalzire prin pardoseala, Tamplarie Salamander negru structurat, Kit aer conditionat, Baie complet echipata, Obiecte sanitare incastrabile suspendate, Usa metalica multipunct antiefractie, Lift silentios
 
 Puncte de interes:
-- metrou: Metrou Gorjului (M3) — cateva minute pe jos
-- metrou: Metrou Păcii (M3) — cateva minute pe jos
-- mall: Plaza Romania — 10 min cu mașina
-- mall: Militari Shopping Center — 8 min cu mașina
-- mall: BricoDepot Militari — 10 min cu mașina
-- scoala: Școala Internațională King George — 10 min
-- scoala: Școala Gimnazială Regina Maria — 8 min
-- parc: Parcul Liniei — 10 min pe jos
-- medical: Sanador Militari / OK Medical — 8 min
-- medical: Clinica Regina Maria Militari — 10 min
+- metrou: Metrou Gorjului (M3) — 0m
+- medical: Sanador Militari — 6 min pe jos
+- mall: Militari Shopping Center — 11 min pe jos
+- metrou: Metrou Pacii (M3) — 3 min cu masina
+- metrou: Metrou Preciziei (M3) — 3 min cu masina
+- parc: Parcul Liniei — 4 min cu masina
+- mall: Plaza Romania — 4 min cu masina
+- transport: Autostrada A1 — 5 min cu masina
+- metrou: Metrou Petrache Poenaru (M3) — 5 min cu masina
+- metrou: Metrou Lujerului (M3) — 5 min cu masina
+- mall: Cora Lujerului — 7 min cu masina
+- mall: AFI Palace Cotroceni — 8 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 18 apartamente finalizat. Garsoniere și 2 camere de la 76.974€+TVA. Metrou Gorjului și Păcii la câteva minute. Centrală proprie, încălzire pardoseală, tâmplărie Salamander, kit aer condiționat, finisaje moderne la cheie.
 
 ### Neofort 44 Titan Pallady Teclu — Titan-Pallady, Sector 3
 Slug: neofort-44-titan-pallady-teclu
-Status: constructie
+Status: În construcție
 Etaje: Ds+3E+4Er
 Tipuri: Garsoniera, 2 camere, 3 camere
-Pret de la: 61,775€ + TVA
+Pret de la: 61.775€ + TVA
 Predare: Finalizat
 Adresa: Zona Titan-Theodor Pallady, Sector 3, Bucuresti
-Coordonate: 44.4255, 26.169
+Coordonate: 44.415636, 26.177416
 Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-44-titan-pallady-teclu
 
 Apartamente disponibile:
-- Garsoniera (38,61 mp, et. et. 1-3): de la 61,775€+TVA
-- 2 camere (62,63 mp, et. et. 1-3): de la 100,208€+TVA
-- 3 camere (86,2 mp, et. et. 1-3): de la 137,919€+TVA
-- 3 camere cu terasa (157,87 mp, et. et. 3-4): de la 191,960€+TVA
+- Garsoniera (38.61 mp, et. et. 1-3): de la 61.775€+TVA
+- 2 camere (62.63 mp, et. et. 1-3): de la 100.208€+TVA
+- 3 camere (86.2 mp, et. et. 1-3): de la 137.919€+TVA
+- 3 camere cu terasa (157.87 mp, et. et. 3-4): de la 191.960€+TVA
+Parcare subterană: 8.000€ + TVA
+Parcare exterioară: 8.000€ + TVA
 
-Parcare subterană: 8,000€
-Parcare exterioară: 8,000€
-
-Ansamblul Rezidențial Neofort 44 este amplasat în cartierul Titan-Theodor Pallady, Sectorul 3, la câteva minute de mers pe jos de Metrou Nicolae Teclu (M2). Trei corpuri Ds+3E+4Er cu 84 de apartamente, finalizat și disponibil imediat.
-
-Oferta actuală: garsonieră 38,61 mp de la 61.775€; 2 camere 62,63 mp de la 100.208€; 3 camere 86,20 mp de la 137.919€; 3 camere cu terasă generoasă, etajele 3-4, 157,87 mp de la 191.960€. Prețuri + TVA. Parcare exterioară și subterană de la 8.000€.
-
-Dotările tehnice includ: centrală termică proprie 24kW în condensare pentru eficiență energetică și facturi reduse, încălzire prin pardoseală în toate camerele, tâmplărie Salamander, instalații sanitare, electrice și termice complete, obiecte sanitare suspendate, ceramică de import antiderapantă pe balcoane și terase și uși metalice antiefracție multipunct. Structura din beton armat cu zidărie BCA Ytong 30cm și termosistem EPS80 de 10cm asigură izolația termică și fonică de calitate.
-
-Metrou Nicolae Teclu (M2) la câteva minute pe jos, Metrou Anghel Saligny la 8 minute. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute. Waldorf București și Spectrum School la 500m, Școala nr. 149 la 10 minute pe jos, Parcul Teilor la 10 minute. Campus Medical Regina Maria Titan la 10 minute, Medikali Titan la 8 minute. Una dintre cele mai bune oportunități de raport calitate-preț din Sectorul 3 — finalizat, disponibil imediat, fără comision de agenție.
+Dotări: Centrala termica proprie 24kW in condensare, Incalzire prin pardoseala, Tamplarie Salamander, Instalatii sanitare, electrice si termice, Obiecte sanitare suspendate, Ceramica import antiderapanta balcoane/terase, Usi metalice antiefractie multipunct
 
 Puncte de interes:
-- metrou: Metrou Nicolae Teclu (M2) — 3 min pe jos
-- metrou: Metrou Anghel Saligny (M2) — 8 min pe jos
-- mall: IKEA Pallady — 5 min cu mașina
-- mall: Auchan Titan — 7 min cu mașina
-- mall: Jumbo Pallady — 6 min cu mașina
-- mall: Leroy Merlin / Metro / Dedeman Pallady — 8 min cu mașina
-- scoala: Waldorf & Spectrum School — 500m
-- scoala: Școala Gimnazială nr. 149 — 10 min pe jos
-- scoala: Liceul International de Informatică — 10 min
-- parc: Parcul Teilor — 10 min pe jos
-- medical: Campus Medical Regina Maria Titan — 10 min
-- medical: Medikali Titan / MedLife Titan — 8 min
+- scoala: Waldorf Bucuresti / Spectrum School — 9 min pe jos
+- metrou: Metrou Nicolae Teclu (M2) — 9 min pe jos
+- medical: Campus Medical Regina Maria Titan — 10 min pe jos
+- mall: Auchan Titan / Pallady — 11 min pe jos
+- parc: Parcul Teilor — 3 min cu masina
+- mall: Kaufland Pantelimon — 3 min cu masina
+- metrou: Metrou Anghel Saligny (M2) — 4 min cu masina
+- mall: Jumbo / Leroy Merlin Pallady — 4 min cu masina
+- parc: Parcul IOR (Titan) — 5 min cu masina
+- mall: IKEA Pallady — 6 min cu masina
+- mall: Mega Mall Pantelimon — 9 min cu masina
+- transport: Acces Autostrada A2 — 10 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 44, zona Titan-Pallady, Sector 3. Trei corpuri Ds+3E+4Er, 84 apartamente. Garsoniere, 2 și 3 camere de la 61.775€+TVA. Metrou Nicolae Teclu la câteva minute. Centrală 24kW condensare, încălzire pardoseală, tâmplărie Salamander, uși metalice antiefracție. Finalizat, disponibil imediat.
 
 ### Neofort 42 Piata Muncii — Piata Muncii, Sector 3
 Slug: neofort-42-piata-muncii
-Status: constructie
+Status: În construcție
 Etaje: S+P+4
 Tipuri: 2 camere, 4 camere
-Pret de la: 197,056€ + TVA
+Pret de la: 197.056€ + TVA
 Predare: Finalizat
 Adresa: Strada Soldat Alexandru Magatti, Piata Muncii, Sector 3, Bucuresti
-Coordonate: 44.438, 26.125
+Coordonate: 44.429112, 26.140319
 Broker: Sasha CALUTU, 0757 077 057
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-42-piata-muncii
 
 Apartamente disponibile:
-- 2 cam. Tip 4 (61,58 mp, et. et. 1-4): de la 197,056€+TVA
-- 2 cam. Tip 5 (62,31 mp, et. et. 1-4): de la 199,392€+TVA
-- 2 cam. Tip 6 (63,47 mp, et. et. 1-4): de la 203,104€+TVA
-- 2 cam. Tip 7 (64,21 mp, et. et. 1-4): de la 208,672€+TVA
-- 4 cam. Tip 1 (139,2 mp, et. et. 1-4): de la 445,440€+TVA
-- 4 cam. Tip 2 (140,67 mp, et. et. 1-4): de la 450,144€+TVA
+- 2 cam. Tip 4 (61.58 mp, et. et. 1-4): de la 197.056€+TVA (promoție)
+- 2 cam. Tip 5 (62.31 mp, et. et. 1-4): de la 199.392€+TVA (promoție)
+- 2 cam. Tip 6 (63.47 mp, et. et. 1-4): de la 203.104€+TVA (promoție)
+- 2 cam. Tip 7 (64.21 mp, et. et. 1-4): de la 208.672€+TVA (promoție)
+- 4 cam. Tip 1 (139.2 mp, et. et. 1-4): de la 445.440€+TVA (promoție)
+- 4 cam. Tip 2 (140.67 mp, et. et. 1-4): de la 450.144€+TVA (promoție)
+Parcare subterană: 22.500€ +TVA
 
-Parcare subterană: 22,500€
-
-Ansamblul Rezidențial Premium Neofort 42 Piața Muncii este amplasat pe Strada Soldat Alexandru Magatti, Sectorul 3, la 200m — 3 minute pe jos — de Metrou Piața Muncii (M3) și la 400m de Parcul Național. Proiect de 64 apartamente S+P+4, finalizat, disponibil în promoție.
-
-Oferta curentă în promoție: 2 camere Tip 4, 61,58 mp, de la 197.056€ promoțional (față de 209.372€); 2 camere Tip 5, 62,31 mp, de la 199.392€; 2 camere Tip 6, 63,47 mp, de la 203.104€; 2 camere Tip 7, 64,21 mp, de la 208.672€; 4 camere Tip 1, 139,20 mp, de la 445.440€ promoțional; 4 camere Tip 2, 140,67 mp, de la 450.144€. Prețuri + TVA. Parcare subterană sistem Klaus la 22.500€ +TVA.
-
-Dotările tehnice de vârf: 2 lifturi SCHINDLER, parcare subterană sistem Klaus, adăpost ALA autorizat ISU, tâmplărie SALAMANDER/VEKA tripan, uși PINUM/PORTA DOORS, centrală Buderus de înaltă eficiență, termostat wireless Smart în fiecare cameră, panouri solare și fotovoltaice integrate, stații de încărcare auto electrică, balustrade din sticlă securizată, gresie și faianță Marazzi rectificată și încălzire în pardoseală. Pachetul verde și smart este inclus standard — un avantaj rar la această localizare.
-
-Metrou Piața Muncii (M3) la 200m — 3 minute pe jos, spre Piața Unirii în 4 minute. Metrou Dristor 2 la 10 minute pe jos. Parcul Național la 400m — 5 minute pe jos. Arena Națională la 5 minute pe jos. Bazin Olimpic Lia Manoliu la 5 minute pe jos. Kaufland Popa Nan la 5 minute pe jos, Mega Image la 5 minute. Spital Victor Babeș și Spital Monza la 8 minute, Spital Copii Grigore Alexandrescu la 10 minute. Colegiul Economic Costin C. Kirițescu la 8 minute pe jos, Liceul Petru Poni la 10 minute. Autogara Filaret și STB multiple la 10 minute.
+Dotări: 2 lifturi SCHINDLER, Parcare subterana sistem Klaus, Adapost ALA / autorizare ISU, Tamplarie SALAMANDER/VEKA tripan, Usi PINUM/PORTA DOORS, Centrala Buderus, Termostat wireless Smart, Panouri solare/fotovoltaice
 
 Puncte de interes:
-- metrou: Metrou Piața Muncii (M3) — 200m / 3 min pe jos
-- metrou: Metrou Dristor 2 (M3) — 10 min pe jos
-- mall: Kaufland Popa Nan — 5 min pe jos
-- mall: Mega Image Calea Călărașilor — 5 min pe jos
-- parc: Parcul Național (fost Parcul Carol) — 400m / 5 min pe jos
-- parc: Arena Națională — 5 min pe jos
-- scoala: Colegiul Economic Costin C. Kirițescu — 8 min pe jos
-- scoala: Liceul Tehnologic Petru Poni — 10 min pe jos
-- medical: Spital Clinic Copii Grigore Alexandrescu — 10 min
-- medical: Spital Victor Babeș / Spital Monza — 8 min
-- transport: Autogara Filaret / STB multiple linii — 10 min
-- sport: Bazin Olimpic Lia Manoliu — 5 min pe jos
+- metrou: Metrou Piata Muncii (M3) — 10m
+- mall: Kaufland Popa Nan — 300m
+- metrou: Metrou Dristor 2 (M2) — 450m
+- metrou: Metrou Dristor 1 (M2) — 8 min pe jos
+- parc: Parcul National — 10 min pe jos
+- mall: Park Lake Plaza — 3 min cu masina
+- scoala: Universitatea Hyperion — 4 min cu masina
+- mall: Bucuresti Mall Vitan — 4 min cu masina
+- metrou: Metrou 8 Noiembrie (M1) — 7 min cu masina
+- parc: Parcul IOR (Titan) — 7 min cu masina
+- metrou: Metrou Timpuri Noi (M2) — 8 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Premium Neofort 42 Piața Muncii, Sector 3. 64 apartamente S+P+4. Apartamente 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii la 200m, Parcul Național la 400m. Panouri solare și fotovoltaice, stații încărcare EV, 2 lifturi Schindler, tâmplărie Salamander tripan, finisaje Marazzi.
 
 ### Neofort 28 Titan Pallady Faza 4-5 — Titan-Pallady, Sector 3
 Slug: neofort-28-titan-pallady-teclu
-Status: constructie
+Status: În construcție
 Etaje: D+P+4
 Tipuri: 2 camere, 3 camere
-Pret de la: 83,900€ + TVA
+Pret de la: 83.900€ + TVA
 Predare: Finalizat
 Adresa: Zona Titan-Pallady, Sector 3, Bucuresti
-Coordonate: 44.4262, 26.171
+Coordonate: 44.411192, 26.198428
 Broker: Adriana VESELU, 0752 443 437
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-28-titan-pallady-teclu
 
 Apartamente disponibile:
-- 2 cam. Tip 1 (59,8 mp, et. et. 1-4): de la 83,900€+TVA
-- 2 cam. Tip 2 (60,4 mp, et. et. 1-4): de la 84,900€+TVA
-- 2 cam. Tip 3 (60,9 mp, et. et. 1-4): de la 85,500€+TVA
-- 2 cam. Tip 4 (61,5 mp, et. et. 1-4): de la 86,500€+TVA
-- 2 cam. Tip 5 (65,15 mp, et. et. 1-4): de la 91,900€+TVA
-- 2 cam. Tip 6 cu curte (61,55 mp, et. parter): de la 112,900€+TVA
-- 3 cam. Tip 1 (92 mp, et. et. 1-4): de la 128,900€+TVA
-- 3 cam. Tip 2 cu terasa (105 mp, et. et. 3-4): de la 131,900€+TVA
-- 3 cam. Tip 3 cu curte (86,65 mp, et. parter): de la 143,500€+TVA
+- 2 cam. Tip 1 (59.8 mp, et. et. 1-4): de la 83.900€+TVA
+- 2 cam. Tip 2 (60.4 mp, et. et. 1-4): de la 84.900€+TVA
+- 2 cam. Tip 3 (60.9 mp, et. et. 1-4): de la 85.500€+TVA
+- 2 cam. Tip 4 (61.5 mp, et. et. 1-4): de la 86.500€+TVA
+- 2 cam. Tip 5 (65.15 mp, et. et. 1-4): de la 91.900€+TVA
+- 2 cam. Tip 6 cu curte (61.55 mp, et. parter): de la 112.900€+TVA
+- 3 cam. Tip 1 (92 mp, et. et. 1-4): de la 128.900€+TVA
+- 3 cam. Tip 2 cu terasa (105 mp, et. et. 3-4): de la 131.900€+TVA
+- 3 cam. Tip 3 cu curte (86.65 mp, et. parter): de la 143.500€+TVA
+Parcare subterană: 11.000€ + TVA
+Parcare exterioară: 7.500€ + TVA
 
-Parcare subterană: 11,000€
-Parcare exterioară: 7,500€
-
-Ansamblul Rezidențial Neofort 28 Fazele 4 și 5 este amplasat în zona Titan-Pallady, Sectorul 3, la câteva minute de mers pe jos de Metrou Nicolae Teclu (M2). Proiect D+P+4 cu 53 de apartamente decomandate cu bucătării închise — 2 și 3 camere — finalizat și disponibil imediat.
-
-Oferta tipologică este bogată, cu opțiuni pentru orice nevoie: 2 camere Tip 1, 59,80 mp, de la 83.900€ (promoție); 2 camere Tip 2, 60,40 mp, de la 84.900€; Tip 3, 60,90 mp, 85.500€; Tip 4, 61,50 mp, 86.500€; Tip 5, 65,15 mp, 91.900€; 2 camere cu curte proprie ~50mp la parter, 61,55 mp, 112.900€; 3 camere Tip 1, 92,00 mp, 128.900€; 3 camere cu terasă, etajele 3-4, 105,00 mp, 131.900€; 3 camere cu curte proprie la parter, 86,65 mp, 143.500€. Prețuri + TVA. Parcare exterioară 7.500€, parcare subterană 11.000€.
-
-Apartamentele cu curte proprie de aproximativ 50mp — inclusiv trei variante: 2 camere și 3 camere cu grădină — reprezintă un avantaj unic pe piața Sectorului 3. Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă asigură securitatea comunității. Dotările tehnice includ: încălzire în pardoseală, centrală termică proprie, tâmplărie Salamander tripan Low-E cu microventilație pentru calitatea aerului interior, ceramică Delta Studio, parchet rezistent la trafic intens, băi complet echipate cu rezervor incastrat.
-
-Metrou Nicolae Teclu (M2) la câteva minute pe jos, Metrou Anghel Saligny la 8 minute. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute. Waldorf București și Spectrum School la 500m, Parcul Teilor la 10 minute. Campus Medical Regina Maria Titan la 10 minute, Medikali Titan la 8 minute.
+Dotări: Incalzire in pardoseala, Centrala termica proprie, Tamplarie Salamander tripan Low-E microventilatie, Ceramica Delta Studio, Parchet rezistent trafic intens, Bai echipate complet rezervor incastrat, Videointerfon vedere nocturna, Incinta imprejmuita acces controlat
 
 Puncte de interes:
-- metrou: Metrou Nicolae Teclu (M2) — 3 min pe jos
-- metrou: Metrou Anghel Saligny (M2) — 8 min pe jos
-- mall: IKEA Pallady — 5 min cu mașina
-- mall: Auchan Titan — 7 min cu mașina
-- mall: Jumbo Pallady — 6 min cu mașina
-- mall: Leroy Merlin / Metro / Dedeman Pallady — 8 min cu mașina
-- scoala: Waldorf & Spectrum School — 500m
-- scoala: Școala Gimnazială nr. 149 — 10 min pe jos
-- scoala: Liceul International de Informatică — 10 min
-- parc: Parcul Teilor — 10 min pe jos
-- medical: Campus Medical Regina Maria Titan — 10 min
-- medical: Medikali Titan / MedLife Titan — 8 min
+- metrou: Metrou Anghel Saligny (M2) — 300m
+- mall: Jumbo / Leroy Merlin Pallady — 8 min pe jos
+- mall: IKEA Pallady — 9 min pe jos
+- metrou: Metrou Nicolae Teclu (M2) — 3 min cu masina
+- scoala: Waldorf Bucuresti / Spectrum School — 3 min cu masina
+- mall: Auchan Titan / Pallady — 5 min cu masina
+- mall: Kaufland Pantelimon — 5 min cu masina
+- medical: Campus Medical Regina Maria Titan — 6 min cu masina
+- transport: Acces Autostrada A2 — 6 min cu masina
+- parc: Parcul Teilor — 6 min cu masina
+- parc: Parcul IOR (Titan) — 8 min cu masina
+- mall: Mega Mall Pantelimon — 10 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Neofort 28 Fazele 4 și 5, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 și 3 camere, de la 83.900€+TVA. Unele cu curte proprie 50mp. Metrou Nicolae Teclu la 3 minute. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.
 
 ### Neofort 11 Eminescu Viitorului — Eminescu-Viitorului, Sector 2
 Slug: neofort-11-eminescu-viitorului
-Status: constructie
+Status: În construcție
 Etaje: S+P+4E+5R
 Tipuri: Studio, 2 camere, 3 camere
-Pret de la: 104,640€ + TVA
+Pret de la: 104.640€ + TVA
 Predare: Sept. 2026
 Adresa: Zona Eminescu-Viitorului, Sector 2, Bucuresti
-Coordonate: 44.449, 26.108
+Coordonate: 44.447354, 26.108451
 Broker: Svetlana CALUTU, 0752 443 434
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-11-eminescu-viitorului
 
 Apartamente disponibile:
-- Studio Garsoniera (32,7 mp, et. et. 1-5): de la 104,640€+TVA
-- 2 cam. Tip 1 (60,4 mp, et. et. 1-5): de la 176,000€+TVA
-- 2 cam. Tip 2 (58,9 mp, et. et. 1-5): de la 179,000€+TVA
-- 2 cam. Tip 3 (59,1 mp, et. et. 1-5): de la 183,000€+TVA
-- 3 cam. Tip 1 (66 mp, et. et. 1-5): de la 199,000€+TVA
-- 3 cam. Tip 2 (90,3 mp, et. et. 1-5): de la 280,000€+TVA
-- 3 cam. Tip 3 (94,4 mp, et. et. 1-5): de la 289,000€+TVA
-- 3 cam. Tip 4 (94,2 mp, et. et. 1-5): de la 289,000€+TVA
-- 3 cam. Tip 5 (88,9 mp, et. et. 1-5): de la 284,800€+TVA
+- Studio Garsoniera (32.7 mp, et. et. 1-5): de la 104.640€+TVA
+- 2 cam. Tip 1 (60.4 mp, et. et. 1-5): de la 176.000€+TVA (promoție)
+- 2 cam. Tip 2 (58.9 mp, et. et. 1-5): de la 179.000€+TVA (promoție)
+- 2 cam. Tip 3 (59.1 mp, et. et. 1-5): de la 183.000€+TVA (promoție)
+- 3 cam. Tip 1 (66 mp, et. et. 1-5): de la 199.000€+TVA (promoție)
+- 3 cam. Tip 2 (90.3 mp, et. et. 1-5): de la 280.000€+TVA (promoție)
+- 3 cam. Tip 3 (94.4 mp, et. et. 1-5): de la 289.000€+TVA (promoție)
+- 3 cam. Tip 4 (94.2 mp, et. et. 1-5): de la 289.000€+TVA (promoție)
+- 3 cam. Tip 5 (88.9 mp, et. et. 1-5): de la 284.800€+TVA
+Parcare subterană: 25.000€ + TVA
 
-Parcare subterană: 25,000€
-
-Ansamblul Rezidențial Boutique Premium Neofort 11 este un proiect exclusivist de 13 apartamente în zona Eminescu-Viitorului, Sectorul 2 din București, cu predare estimată în Septembrie 2026. Regim S+P+4E+5R, structură dual diafragme + beton armat cu pereți Porotherm 30cm.
-
-Oferta completă: studio garsonieră 32,70 mp de la 104.640€; 2 camere Tip 1, 60,40 mp, de la 176.000€ promoțional (față de 192.000€); 2 camere Tip 2, 58,90 mp, de la 179.000€ promoțional; 2 camere Tip 3, 59,10 mp, de la 183.000€ promoțional; 3 camere Tip 1, 66,00 mp, de la 199.000€ promoțional; 3 camere Tip 2, 90,30 mp, de la 280.000€ promoțional; 3 camere Tip 3, 94,40 mp, de la 289.000€ promoțional; 3 camere Tip 4, 94,20 mp, de la 289.000€ promoțional; 3 camere Tip 5, 88,90 mp, de la 284.800€. Prețuri + TVA. Parcare subterană 25.000€.
-
-Finisajele sunt în clasa Premium fără excepție: gresie și faianță MARAZZI, parchet Kronotex PREMIUM, uși blindate PINUM la intrare cu uși interioare PINUM, obiecte sanitare GROHE, HansGrohe și Kludi, centrală ARISTON 24kW în condensare, încălzire în pardoseală în toate camerele, contorizare individuală apă-gaz-electricitate, preechipare aer condiționat, lift SCHINDLER silențios, adăpost ALA autorizat ISU, termoizolație EPS80 10cm și tâmplărie Salamander 7 camere tripan — izolație fonică 45dB și termică maximă.
-
-Tramvai Mihai Bravu și linii STB multiple la 2 minute pe jos. Metrou Obor (M2) la 10 minute pe jos, Metrou Ștefan cel Mare la 12 minute. Piața Obor la 15 minute pe jos, Mega Mall la 15 minute cu mașina. Colegiul Național Iulia Hașdeu la 5 minute pe jos, Colegiul Național Mihai Eminescu la 8 minute, Grădinița Bambi la 3 minute. Parcul Circului la 8 minute pe jos, Parcul Ioanid la 10 minute. Spital Clinic Colentina la 10 minute, MedLife, Regina Maria și Sanador la 10 minute. 13 apartamente — comunitate restrânsă, finisaje premium, predare septembrie 2026.
+Dotări: Usi PINUM blindate + interioare, Gresie/faianta MARAZZI, Parchet Kronotex PREMIUM, Obiecte sanitare GROHE/HansGrohe/Kludi, Centrala ARISTON 24kW in condensare, Incalzire in pardoseala, Contorizare individuala apa/gaz/electricitate, Preechipare aer conditionat
 
 Puncte de interes:
-- metrou: Metrou Obor (M2) — 10 min pe jos
-- metrou: Metrou Ștefan cel Mare (M2) — 12 min pe jos
-- mall: Piața Obor — 15 min pe jos
-- mall: Mega Mall — 15 min cu mașina
-- scoala: Colegiul Național Iulia Hașdeu — 5 min pe jos
-- scoala: Colegiul Național Mihai Eminescu — 8 min pe jos
-- scoala: Grădinița Bambi — 3 min pe jos
-- parc: Parcul Circului — 8 min pe jos
-- parc: Parcul Ioanid — 10 min pe jos
-- medical: Spital Colentina — 10 min
-- medical: MedLife / Regina Maria / Sanador — 10 min
-- transport: Tramvai Mihai Bravu + linii STB multiple — 2 min pe jos
+- metrou: Metrou Stefan cel Mare (M2) — 9 min pe jos
+- metrou: Metrou Piata Victoriei (M1/M2) — 12 min pe jos
+- metrou: Metrou Piata Obor (M2) — 4 min cu masina
+- metrou: Metrou 8 Noiembrie (M1) — 4 min cu masina
+- scoala: Colegiul National Mihai Eminescu — 4 min cu masina
+- parc: Lacul Tei / Parcul Tei — 5 min cu masina
+- metrou: Metrou Piata Unirii (M1/M3) — 6 min cu masina
+- parc: Parcul National — 7 min cu masina
+- parc: Parcul Plumbuita — 8 min cu masina
+- metrou: Metrou Timpuri Noi (M2) — 8 min cu masina
+- mall: Veranda Mall Obor — 8 min cu masina
+- medical: Spital Clinic Fundeni — 12 min cu masina
+
+Descriere scurtă: Ansamblul Rezidențial Boutique Premium Neofort 11, zona Eminescu-Viitorului, Sector 2. Doar 13 apartamente S+P+4E+5R. Studio, garsonieră, 2 și 3 camere de la 104.640€+TVA. Predare Septembrie 2026. Finisaje premium: gresie MARAZZI, parchet Kronotex, obiecte sanitare GROHE/HansGrohe, centrală ARISTON 24kW, lift SCHINDLER.
 
 ### Neofort 8 Tepes Voda Muncii — Tepes Voda-Muncii, Sector 2
 Slug: neofort-8-tepes-voda-muncii
-Status: activ
+Status: Finalizat
 Etaje: S+P+2ET+M
 Tipuri: Studio, 2 camere, 3 camere, 4 camere
-Pret de la: 146,000€ + TVA
+Pret de la: 146.000€ + TVA
 Predare: Ian. 2026
 Adresa: Zona Tepes Voda-Maior Coravu, Sector 2, Bucuresti
-Coordonate: 44.436, 26.12
+Coordonate: 44.435422, 26.127951
 Broker: Svetlana CALUTU, 0752 443 434
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-8-tepes-voda-muncii
 
 Apartamente disponibile:
-- Studio Garsoniera (39,92 mp, et. et. 1-2): de la 146,000€+TVA
-- 2 cam. 8B (67,8 mp, et. et. 1-2): de la 192,000€+TVA
-- 2 cam. 17B (67,8 mp, et. et. 1-2): de la 205,000€+TVA
-- 2 cam. 14B (64,1 mp, et. et. 1-2): de la 176,000€+TVA
-- 2 cam. 7B (60,35 mp, et. et. 1-2): de la 174,000€+TVA
-- 2 cam. 20B (62,8 mp, et. et. 1-2): de la 205,000€+TVA
-- 3 cam. 22B (80,15 mp, et. et. 1-2): de la 265,000€+TVA
-- 3 cam. 4B (113,6 mp, et. et. 1-2): de la 295,000€+TVA
-- 3 cam. 25B terasa (148,8 mp, et. mansarda): de la 345,000€+TVA
-- 4 cam. 6B cu gradina (237,83 mp, et. parter): de la 465,000€+TVA
+- Studio Garsoniera (39.92 mp, et. et. 1-2): de la 146.000€+TVA
+- 2 cam. 8B (67.8 mp, et. et. 1-2): de la 192.000€+TVA
+- 2 cam. 17B (67.8 mp, et. et. 1-2): de la 205.000€+TVA (promoție)
+- 2 cam. 14B (64.1 mp, et. et. 1-2): de la 176.000€+TVA (promoție)
+- 2 cam. 7B (60.35 mp, et. et. 1-2): de la 174.000€+TVA (promoție)
+- 2 cam. 20B (62.8 mp, et. et. 1-2): de la 205.000€+TVA (promoție)
+- 3 cam. 22B (80.15 mp, et. et. 1-2): de la 265.000€+TVA
+- 3 cam. 4B (113.6 mp, et. et. 1-2): de la 295.000€+TVA
+- 3 cam. 25B terasa (148.8 mp, et. mansarda): de la 345.000€+TVA
+- 4 cam. 6B cu gradina (237.83 mp, et. parter): de la 465.000€+TVA
+Parcare subterană: 25.000€ + TVA
 
-Parcare subterană: 25,000€
-
-Ansamblul Rezidențial Boutique Exclusivist Neofort 8 este amplasat în zona Tepeș Vodă-Maior Coravu, Sectorul 2 din București, la 500m — 6 minute pe jos — de Metrou Piața Muncii (M3). Proiect finalizat de 32 de apartamente cu regim S+P+2ET+M (mansardă), disponibil în promoție. Clasa energetică A.
-
-Oferta completă cu prețuri: studio garsonieră 39,92 mp de la 146.000€; 2 camere 8B, 67,80 mp, 192.000€; 2 camere 17B, 67,80 mp, de la 205.000€ promoțional; 2 camere 14B, 64,10 mp, de la 176.000€ promoțional; 2 camere 7B, 60,35 mp, de la 174.000€ promoțional; 2 camere 20B, 62,80 mp, de la 205.000€ promoțional; 3 camere 22B, 80,15 mp, 265.000€; 3 camere 4B, 113,60 mp, 295.000€; 3 camere 25B cu terasă mansardă, 148,80 mp, 345.000€; 4 camere 6B cu grădină la parter, 237,83 mp, 465.000€. Prețuri + TVA. Parcare subterană cu lift 25.000€.
-
-Fațadă ventilată, clasa energetică A și înălțime peste standard față de normele curente diferențiază Neofort 8 clar față de oferta generică. Dotările premium includ: uși blindate PINUM cu uși interioare PINUM, gresie și faianță MARAZZI, parchet Kronotex PREMIUM, obiecte sanitare la alegere cu baterii Kludi, centrală 24kW în condensație Bosch, încălzire în pardoseală, preechipare aer condiționat, parcare subterană cu lift, tâmplărie PVC Salamander 7 camere tripan și termoizolație EPS80 10cm. Terase la mansardă și grădini la parter pentru unitățile corespunzătoare.
-
-Metrou Piața Muncii (M3) la 500m — 6 minute pe jos, spre Piața Unirii în 4 minute. Metrou Dristor 1 la 12 minute pe jos. Kaufland Popa Nan la 5 minute pe jos, Mega Image Calea Călărașilor la 3 minute pe jos. Cartier rezidențial de case și vile cu înălțime maximă 4 etaje — liniște și verdeață. Parcul Național la 10 minute pe jos. Colegiul Național Matei Basarab la 10 minute pe jos, Liceul Ion Barbu la 8 minute. Spital Clinic Victor Babeș la 8 minute, MedLife și Regina Maria zona Muncii la 8 minute.
+Dotări: Usi blindate PINUM intrare + interioare, Gresie/faianta MARAZZI, Parchet Kronotex PREMIUM, Obiecte sanitare la alegere / baterii Kludi, Centrala 24kW in condensatie Bosch, Incalzire in pardoseala, Preechipare aer conditionat, Parcare subterana/lift
 
 Puncte de interes:
-- metrou: Metrou Piața Muncii (M3) — 500m / 6 min pe jos
-- metrou: Metrou Dristor 1 (M3) — 12 min pe jos
-- mall: Kaufland Popa Nan — 5 min pe jos
-- mall: Mega Image Calea Călărașilor — 3 min pe jos
-- parc: Zona rezidențială case și vile — liniște și verdeață — în zonă
-- parc: Parcul Național — 10 min pe jos
-- scoala: Colegiul Național Matei Basarab — 10 min pe jos
-- scoala: Liceul Teoretic Ion Barbu — 8 min pe jos
-- medical: Spital Clinic Victor Babeș — 8 min
-- medical: MedLife / Regina Maria zona Muncii — 8 min
+- scoala: Universitatea Hyperion — 500m
+- mall: Kaufland Popa Nan — 12 min pe jos
+- parc: Parcul National — 12 min pe jos
+- metrou: Metrou Dristor 2 (M2) — 3 min cu masina
+- metrou: Metrou Piata Muncii (M3) — 3 min cu masina
+- metrou: Metrou 8 Noiembrie (M1) — 4 min cu masina
+- scoala: Colegiul National Mihai Eminescu — 4 min cu masina
+- mall: Bucuresti Mall Vitan — 4 min cu masina
+- mall: Park Lake Plaza — 5 min cu masina
+- metrou: Metrou Piata Unirii (M1/M3) — 6 min cu masina
+- metrou: Metrou Timpuri Noi (M2) — 7 min cu masina
+- parc: Parcul IOR (Titan) — 9 min cu masina
 
-## Blog
-- E-Proprietatea 2026: https://www.neofort.ro/blog/e-proprietatea-2026-noul-sistem-de-impozitare
-- Ghid cumpărare apartament nou: https://www.neofort.ro/blog/ghid-cumparare-apartament-nou
+Descriere scurtă: Ansamblul Rezidențial Boutique Exclusivist Neofort 8, zona Tepeș Vodă-Muncii, Sector 2. 32 apartamente S+P+2ET+M finalizate, de la 146.000€+TVA. Studio, 2, 3 și 4 camere. Metrou Piața Muncii la 500m. Clasă energetică A, fațadă ventilată, centrală Bosch condensare, tâmplărie Salamander 7 camere, parchet Kronotex, uși PINUM.
 
-## Portofoliu finalizat (selecție)
-Neofort IMO a livrat 85+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:
-- Neofort 85 Herăstrău-Aviației — Sector 1 — boutique premium, vândut integral
-- Neofort 82 Titan Gura Putnei — Sector 3 — 60 apartamente, vândut integral
-- Neofort 80 Parcul Carol-Unirii — Sector 4 — vândut integral
-- Neofort 77 Petricani — Sector 1 — vândut integral
-- Neofort 75 Petricani A3 — Sector 1 — vândut integral
-- Neofort 74 Șișești-Băneasa — Sector 1 — vândut integral
-Lista completă: https://www.neofort.ro/portofoliu
+## Blog — articole publicate
+
+### E-Proprietatea 2026: Tot ce Trebuie să Știi Despre Noul Sistem de Impozitare
+Data: 22 Aprilie 2026
+Autor: Igor Calutu
+Tag: Legislație
+URL: https://www.neofort.ro/blog/e-proprietatea-2026-noul-sistem-de-impozitare
+Rezumat: Ce este E-Proprietatea, cum schimbă impozitarea imobiliară din 2026 și ce înseamnă concret pentru proprietarii și cumpărătorii de apartamente noi în București.
+
+### Prețurile Apartamentelor din București în 2026: Scad sau Nu?
+Data: 5 Aprilie 2026
+Autor: Sasha Calutu
+Tag: Piață
+URL: https://www.neofort.ro/blog/preturi-apartamente-bucuresti-2026
+Rezumat: Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21% și ce înseamnă pentru cumpărătorii de azi.
+
+### TVA la Apartamente Noi în 2026: Cât Plătești și Cum Eviți Surprizele Fiscale
+Data: 10 Aprilie 2026
+Autor: Igor Calutu
+Tag: Legislație
+URL: https://www.neofort.ro/blog/tva-apartamente-noi-2026
+Rezumat: TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției.
+
+### Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă din București
+Data: 25 Aprilie 2026
+Autor: Raluca Nistor
+Tag: Zone
+URL: https://www.neofort.ro/blog/titan-pallady-cea-mai-cautata-zona
+Rezumat: De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.
+
+### Programul Noua Casă 2026: Ghid Complet
+Data: 28 Aprilie 2026
+Autor: Adriana Veselu
+Tag: Finanțare
+URL: https://www.neofort.ro/blog/noua-casa-2026-ghid-complet
+Rezumat: Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere și ce apartamente se califică.
+
+### Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas
+Data: 1 Mai 2026
+Autor: Svetlana Calutu
+Tag: Ghid
+URL: https://www.neofort.ro/blog/cumparare-apartament-din-diaspora
+Rezumat: Ghid pentru românii din diasporă care vor să cumpere apartament în București: procuri notariale, transfer valută, alegerea zonei și sfaturi din experiența cu clienți din Germania, Austria, Israel, Franța, Turcia și R. Moldova.
+
+### Apartament Nou vs. Apartament Vechi în București: Calculul Real al Costurilor
+Data: 4 Mai 2026
+Autor: Ramona Baicu
+Tag: Analiză
+URL: https://www.neofort.ro/blog/apartament-nou-vs-vechi-calcul-real
+Rezumat: Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, risc seismic, impozit E-Proprietatea și randament închiriere.
+
+### Predare la Cheie la Apartamente Noi: Ce Trebuie să Conțină și Ce să Verifici
+Data: 7 Mai 2026
+Autor: Adrian Pintilie
+Tag: Ghid
+URL: https://www.neofort.ro/blog/predare-la-cheie-ce-inseamna
+Rezumat: Ce înseamnă predare la cheie la un apartament nou? Lista completă a finisajelor incluse, ce poate lipsi și checklist de verificare la predare.
+
+### Randament la Închiriere pe Zone din București în 2026
+Data: 10 Mai 2026
+Autor: Sasha Calutu
+Tag: Investiții
+URL: https://www.neofort.ro/blog/randament-inchiriere-zone-bucuresti
+Rezumat: Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Ce zone oferă cel mai bun randament net.
+
+### Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator
+Data: 10 Martie 2026
+Autor: Adriana Veselu
+Tag: Ghid
+URL: https://www.neofort.ro/blog/ghid-cumparare-apartament-nou
+Rezumat: Toți pașii de la prima vizită până la predarea cheilor: ce verifici la contract, cum negociezi, ce capcane există și cum le eviți.
+
+## Portofoliu finalizat (76+ ansambluri livrate)
+
+- Neofort 85 Herăstrău-Aviației (N85) — Herăstrău-Aviației, Sector 1 — 12 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-85-herastrau-aviatiei
+- Neofort 82 Titan Gura Putnei (N82) — Titan-Pallady, Sector 3 — 9 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-82-titan-gura-putnei
+- Neofort 81 Morarilor (N81) — Morarilor-Pantelimon, Sector 2 — 32 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-81-morarilor
+- Neofort 80 Parcul Carol-Unirii (N80) — Parcul Carol-Unirii, Sector 5 — 96 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-80-parcul-carol-unirii
+- Neofort 79 Popa Nan-Călărașilor (N79) — Popa Nan-Călărașilor, Sector 2 — 68 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-79-popa-nan-calarasilor
+- Neofort 77 Petricani (N77) — Petricani-Plumbuita, Sector 2 — 17 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-77-petricani
+- Neofort 75 Petricani-A3 (N75) — Andronache-Petricani, Sector 2 — 23 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-75-petricani-a3
+- Neofort 74 Șișești-Băneasa (N74) — Șișești-Băneasa, Sector 1 — 9 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-74-sisesti-baneasa
+- Neofort 73 Orhideea — Metrou Grozăvești (N73) — Orhideea-Grozăvești, Sector 6 — 121 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-73-orhideea-metrou-grozavesti
+- Neofort 72 Fundeni — Dobroești (N72) — Fundeni-Dobroești, Sector 2 — 26 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-72-fundeni-dobroesti
+- Neofort 71 Colentina — Andronache (N71) — Colentina-Andronache, Sector 2 — 43 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-71-colentina-andronache
+- Neofort 70 Fundeni — Dobroești (N70) — Fundeni-Dobroești, Sector 2 — 48 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-70-fundeni-dobroesti
+- Neofort 69 Foișorul de Foc — Calea Moșilor (N69) — Foișorul de Foc-Moșilor, Sector 2 — 21 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-69-foisorul-de-foc-mosilor
+- Neofort 68 Piața 1 Mai — Herăstrău (N68) — Piața 1 Mai-Herăstrău, Sector 1 — 5 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-68-piata-1-mai-herastrau
+- Neofort 67 Dămăroaia — Bucureștii Noi (N67) — Dămăroaia-Bucureștii Noi, Sector 1 — 6 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-67-damaroaia-bucurestii-noi
+- Neofort 66 Universitate — Calea Moșilor (N66) — Universitate-Calea Moșilor, Sector 2 — 17 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-66-universitate-calea-mosilor
+- Neofort 65 Ghica Tei — Colentina (N65) — Ghica Tei-Colentina, Sector 2 — 22 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-65-ghica-tei-colentina
+- Neofort 64 Călusei — Moșilor — Obor (N64) — Foișorul de Foc-Moșilor, Sector 2 — 34 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-64-calusei-mosilor-obor
+- Neofort 63 Fundeni — Dobroești (N63) — Fundeni-Dobroești, Sector 2 — 48 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-63-fundeni-dobroesti
+- Neofort 62 Militari — Șos. Virtutii (N62) — Militari-Virtutii, Sector 6 — 15 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-62-militari-virtutii
+- Neofort 61 Popești-Leordeni — Case Duplex (N61) — Popești-Leordeni, Ilfov — 20 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-61-popesti-leordeni-case
+- Neofort 60 Metrou Tineretului — Nerva Traian (N60) — Tineretului-Nerva Traian, Sector 3 — 200 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-60-metrou-tineretului-nerva-traian
+- Neofort 59 Mihai Bravu — Tineretului (N59) — Mihai Bravu-Tineretului, Sector 3 — 64 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-59-mihai-bravu-tineretului
+- Neofort 58 Matei Basarab — Calea Călărașilor (N58) — Matei Basarab-Calea Călărașilor, Sector 3 — 31 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-58-matei-basarab-calarasilor
+- Neofort 57 Tepeș Vodă — Popa Nan — Traian (N57) — Tepeș Vodă-Traian, Sector 2 — 64 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-57-tepes-voda-popa-nan-traian
+- Neofort 55 Aviației — Băneasa (N55) — Aviației-Băneasa, Sector 1 — 14 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-55-aviatiei-baneasa
+- Neofort 54 Vitan — Mihai Bravu (N54) — Vitan-Mihai Bravu, Sector 3 — 14 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-54-vitan-mihai-bravu
+- Neofort 53 Unirii — Camera de Comerț (N53) — Unirii-Camera de Comerț, Sector 4 — 50 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-53-unirii-carol
+- Neofort 52 Calea Călărașilor — Hyperion (N52) — Calea Călărașilor-Hyperion, Sector 3 — 160 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-52-calarasilor-hyperion
+- Neofort 51 Dristor — Metrou Dristor (N51) — Dristor-Baba Novac, Sector 3 — 8 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-51-dristor-metrou
+- Neofort 48 Bucureștii Noi — Metrou Jiului (N48) — Bucureștii Noi-Jiului, Sector 1 — 14 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-48-bucurestii-noi-metrou-jiului
+- Neofort 47 Aviației — Băneasa Boutique (N47) — Aviației-Băneasa, Sector 1 — 4 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-47-aviatiei-baneasa-boutique
+- Neofort 46 Lacul Tei — Parcul Tei (N46) — Lacul Tei-Parcul Tei, Sector 2 — 20 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-46-lacul-tei-parcul-tei
+- Neofort 45 Constantin Brâncoveanu (N45) — Constantin Brâncoveanu, Sector 4 — 25 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-45-constantin-brancoveanu
+- Neofort 43 Voluntari — Pipera (N43) — Voluntari-Pipera, Voluntari, Ilfov — 15 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-43-voluntari-pipera
+- Neofort 41 Doamna Ghica (N41) — Doamna Ghica-Colentina, Sector 2 — 35 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-41-doamna-ghica
+- Neofort 40 Mihai Bravu — Complex Vile (N40) — Mihai Bravu, Sector 3 — 4 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-40-mihai-bravu-vile
+- Neofort 39 Foisorul de Foc — Mosilor (N39) — Foisorul de Foc-Mosilor, Sector 2 — 12 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-39-foisorul-de-foc-mosilor
+- Neofort 38 Mall Vitan — Brandusilor (N38) — Mall Vitan-Foisorului, Sector 3 — 11 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-38-vitan-mall-brandusilor
+- Neofort 37 Vitan — Foisorului (N37) — Vitan-Foisorului, Sector 3 — 55 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-37-vitan-foisorului
+- Neofort 36 Mosilor — Precupetii Vechi (N36) — Mosilor-Eminescu, Sector 2 — 14 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-36-mosilor-precupetii-vechi
+- Neofort 35 Matei Voievod — Calea Calarasilor (N35) — Matei Voievod-Calea Calarasilor, Sector 2 — 37 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-35-matei-voievod-calarasilor
+- Neofort 34 Unirii — Udriste (N34) — Unirii-Udriste, Sector 3 — 67 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-34-unirii-udriste
+- Neofort 32 Unirii — Parcul Carol (N32) — Unirii-Tineretului, Sector 4 — 84 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-32-unirii-parcul-carol
+- Neofort 31 Dobroesti — Lac (N31) — Dobroesti-Fundeni, Sector 2 / Ilfov — 18 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-31-dobroesti-lac
+- Neofort 30 Dristor — Metrou (N30) — Dristor, Sector 3 — 84 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-30-dristor-metrou
+- Neofort 29 Mosilor — Foisorul de Foc (N29) — Mosilor-Foisorul de Foc, Sector 2 — 10 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-29-mosilor-foisorul-de-foc
+- Neofort 27 Stefan cel Mare — Lizeanu (N27) — Stefan cel Mare-Lizeanu, Sector 2 — 10 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-27-stefan-cel-mare-lizeanu
+- Neofort 26 Pantelimon — Vile Individuale (N26) — Pantelimon, Pantelimon, Ilfov — 7 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-26-pantelimon-vile
+- Neofort 25 Decebal — Piata Muncii (N25) — Decebal-Piata Muncii, Sector 3 — 40 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-25-decebal-piata-muncii
+- Neofort 24 Agricultori — Calea Calarasilor (N24) — Agricultori-Calea Calarasilor, Sector 3 — 35 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-24-agricultori-calarasilor
+- Neofort 23 13 Septembrie — Sirenelor (N23) — 13 Septembrie-Catedrala Neamului, Sector 5 — 21 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-23-13-septembrie-sirenelor
+- Neofort 22 Alba Iulia — Decebal (N22) — Alba Iulia-Decebal, Sector 3 — 80 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-22-alba-iulia-decebal
+- Neofort 21 Pache Protopopescu (N21) — Pache Protopopescu, Sector 2 — 28 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-21-pache-protopopescu
+- Neofort 20 Mosilor — Eminescu Faza II (N20) — Mosilor-Eminescu, Sector 2 — 16 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-20-mosilor-eminescu-faza-ii
+- Neofort 19 Parcul Carol — Viilor (N19) — Parcul Carol-Viilor, Sector 4 — 33 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-19-parcul-carol-viilor
+- Neofort 18 Traian — Popa Nan (N18) — Traian-Popa Nan, Sector 2 — 13 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-18-traian-popa-nan
+- Neofort 17 Calea Calarasilor (N17) — Calea Calarasilor, Sector 2 — 46 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-17-calea-calarasilor
+- Neofort 16 Decebal — Zepter (N16) — Decebal-Alba Iulia, Sector 3 — 30 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-16-decebal-zepter
+- Neofort 15 Bucur Obor (N15) — Bucur Obor-Avrig, Sector 2 — 32 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-15-bucur-obor
+- Neofort 14 Mall Vitan — Calea Vitan (N14) — Mall Vitan-Calea Vitan, Sector 3 — 100 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-14-vitan-mall-calea-vitan
+- Neofort 13 Barbu Vacarescu — Lacul Tei (N13) — Barbu Vacarescu-Lacul Tei, Sector 2 — 26 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-13-barbu-vacarescu-lacul-tei
+- Neofort 12 Dristor — Metrou (N12) — Dristor, Sector 3 — 60 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-12-dristor-metrou
+- Neofort 10 Dobroesti — Fundeni (N10) — Dobroesti-Fundeni, Sector 2 / Ilfov — 56 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-10-dobroesti-fundeni
+- Neofort 9 Dacia (N9) — Dacia-Mosilor, Sector 2 — 54 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-9-dacia-sector2
+- Neofort 7 Decebal — Delea Noua (N7) — Decebal-Delea Noua, Sector 3 — 12 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-7-decebal-delea-noua
+- Neofort 6 Bucurestii Noi — Laminorului (N6) — Bucurestii Noi-Laminorului, Sector 1 — 12 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-6-bucurestii-noi
+- Neofort 5 Calarasilor — Decebal (N5) — Calea Calarasilor-Decebal, Sector 2 — 45 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-5-calarasilor-decebal
+- Neofort 4 Pipera — Tunari (N4) — Pipera-Tunari, Ilfov — 7 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-4-pipera-tunari
+- Neofort 3 Ferdinand — Iancului (N3) — Ferdinand-Iancului, Sector 2 — 26 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-3-ferdinand-iancului
+- Neofort 2 Andronache — Colentina (N2) — Andronache-Colentina, Sector 2 — 12 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-2-andronache-colentina
+- Neofort 1 Calea Calarasilor (N1) — Calea Calarasilor-Delea Veche, Sector 2 — 25 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-1-calea-calarasilor
 
 ## API
-Endpoint JSON: https://www.neofort.ro/api/ansambluri
-
-
-## Date tehnice companie
-- Tip: Comercializare ansambluri rezidențiale noi
-- Piata: Primar (direct de la dezvoltator, nu revanzare)
-- Model: Fara comision de agentie pentru cumparator
-- Zona: București, toate sectoarele
-- Experienta: 2009 — prezent (17+ ani)
-- Portofoliu: 85+ ansambluri livrate
-- Clienti activi: 4.000+ familii
-- Ansambluri active: 12
-- Telefon central: +40758090904
-- Program: Luni-Vineri 10:00-18:00
-
-## Zone acoperite activ
-- Sector 2: Mosilor-Eminescu, Eminescu-Viitorului, Tepes Voda-Muncii
-- Sector 3: Titan-Pallady (zona principala), Piata Muncii, IOR
-- Sector 6: Militari-Gorjului, Iuliu Maniu-Metrou Pacii
-
-## Brokeri
-- Raluca Nistor — Zona Est (Titan-Pallady): 0743 250 029
-- Ramona Baicu — Zona Vest (Militari, Gorjului, Pacii): 0759 030 367
-- Svetlana Calutu — Zona Centrala (Mosilor, Eminescu, Viitorului): 0752 443 434
-- Adrian Pintilie — Zona Sud-Est (IOR, Titan, Pallady): 0752 443 436
-- Adriana Veselu — Zona Centrala: 0752 443 437
-- Sasha Calutu — Zona Centrala: 0757 077 057
-
-## Intrebari frecvente
-Q: Neofort IMO percepe comision?
-A: Nu. Neofort IMO comercializeaza direct de la sursa, fara comision de agentie pentru cumparator.
-
-Q: Ce tipuri de apartamente sunt disponibile?
-A: Garsoniere, studio, 2 camere, 3 camere, 4 camere si penthouse, in functie de ansamblu.
-
-Q: Cum se face rezervarea?
-A: Rezervarea se face cu 1.000€ (la Neofort 84) sau suma variabila per proiect, restituibila integral daca nu se semneaza antecontractul din vina dezvoltatorului.
-
-Q: Care sunt conditiile de finantare?
-A: Avans 20% sau avans 45% (cu reducere). Credit bancar, ANAF, Prima Casa acceptate.
-
-Q: Apartamentele se predau la cheie?
-A: Da. Toate ansamblurile Neofort IMO se predau cu finisaje complete incluse in pret.
+Endpoint JSON cu date complete: https://www.neofort.ro/api/ansambluri

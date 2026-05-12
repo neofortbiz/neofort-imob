@@ -6,14 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:llms": "node scripts/generate-llms.mjs",
+    "prebuild": "node scripts/generate-llms.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "react-leaflet": "^4.2.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

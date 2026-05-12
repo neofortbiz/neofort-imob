@@ -100,7 +100,7 @@ body{margin:0;padding:0;background:#f4f4f4;font-family:-apple-system,BlinkMacSys
   <div class="grid">
     <a href="${BASE}/ansambluri-rezidentiale" class="lnk"><div class="lnk-ic">🏢</div><div class="lnk-t">Ansambluri active</div><div class="lnk-d">12 proiecte disponibile</div></a>
     <a href="${BASE}/harta-ansambluri" class="lnk"><div class="lnk-ic">🗺️</div><div class="lnk-t">Harta interactivă</div><div class="lnk-d">45 proiecte pe hartă</div></a>
-    <a href="${BASE}/portofoliu" class="lnk"><div class="lnk-ic">🏆</div><div class="lnk-t">Portofoliu</div><div class="lnk-d">33 proiecte livrate</div></a>
+    <a href="${BASE}/portofoliu" class="lnk"><div class="lnk-ic">🏆</div><div class="lnk-t">Portofoliu</div><div class="lnk-d">76+ proiecte livrate</div></a>
     <a href="${BASE}/blog" class="lnk"><div class="lnk-ic">📰</div><div class="lnk-t">Blog imobiliar</div><div class="lnk-d">Noutăți și analize</div></a>
   </div>
   <div class="ctabox"><p>Sau ne poți contacta direct:</p><a href="tel:0758090904">0758 090 904</a></div>
