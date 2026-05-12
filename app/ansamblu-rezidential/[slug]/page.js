@@ -6,7 +6,7 @@ import FormularRapid from '@/components/FormularRapid'
 import GalerieAnsamblu from '@/components/GalerieAnsamblu'
 import DescriereExpand from '@/components/DescriereExpand'
 import ApartamenteTable from '@/components/ApartamenteTable'
-import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
+import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
 
 const BASE = 'https://www.neofort.ro'
 const TEL = '0743250029'
@@ -205,8 +205,16 @@ export default function AnsambluPage({ params }) {
           <div className="max-w-7xl mx-auto">
             <div className="flex items-start justify-between gap-4 mb-5">
               <div>
-                <div className={`inline-flex items-center gap-1.5 text-[10px] font-medium px-2.5 py-1 rounded-full mb-3 ${sc.bg} ${sc.text}`}>
-                  {sc.label}{a.dataPredare !== 'Finalizat' && ` · Predare ${a.dataPredare}`}
+                <div className="flex flex-wrap gap-2 mb-3">
+                  <div className={`inline-flex items-center gap-1.5 text-[10px] font-medium px-2.5 py-1 rounded-full ${sc.bg} ${sc.text}`}>
+                    {sc.label}{a.dataPredare !== 'Finalizat' && ` · Predare ${a.dataPredare}`}
+                  </div>
+                  {hasPromo(a) && (
+                    <div className="inline-flex items-center gap-1 text-[10px] font-medium px-2.5 py-1 rounded-full text-white"
+                      style={{ background: '#c0392b' }}>
+                      🏷 Promoție disponibilă
+                    </div>
+                  )}
                 </div>
                 <h1 className="text-xl md:text-2xl font-medium text-white leading-tight mb-2">
                   Ansamblu Rezidențial<br />{a.nume}

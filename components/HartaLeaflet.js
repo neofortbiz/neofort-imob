@@ -99,7 +99,7 @@ export default function HartaLeaflet({ activeMarkers, portofoliuMarkers, showPor
       const [lat, lng] = a.coords
       const color = a.categorie === 'portofoliu'
         ? STATUS_COLORS.vandut
-        : (STATUS_COLORS[a.status] || '#6b7280')
+        : (STATUS_COLORS[a.pinColor || a.status] || '#6b7280')
 
       const isSelected = selected === a.numar
       const size = a.categorie === 'portofoliu' ? 22 : 28

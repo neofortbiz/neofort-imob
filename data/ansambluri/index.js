@@ -820,6 +820,12 @@ export function getAnsamblu(slug) {
 }
 
 // Helper: formatare pret
+// Returneaza true daca ansamblul are cel putin un apartament cu promo: true
+// Folosit pentru badge si filtru Promotie fara a atinge campul status
+export function hasPromo(a) {
+  return Array.isArray(a.apartamente) && a.apartamente.some(apt => apt.promo === true)
+}
+
 export function formatPret(pret) {
   return new Intl.NumberFormat('ro-RO').format(pret) + '\u20ac'
 }

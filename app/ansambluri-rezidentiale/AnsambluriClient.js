@@ -1,7 +1,7 @@
 'use client'
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
+import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
 
 const STATUS_CFG = {
@@ -42,7 +42,10 @@ export default function AnsambluriClient() {
   const filtered = useMemo(() => {
     let list = [...ANSAMBLURI_ACTIVE]
     if (sector !== 'Toate') list = list.filter(a => a.sector === sector)
-    if (status !== 'Toate') list = list.filter(a => a.status === status)
+    if (status !== 'Toate') {
+      if (status === 'promotie') list = list.filter(a => hasPromo(a))
+      else list = list.filter(a => a.status === status)
+    }
     if (pretActiv) list = list.filter(a => a.pretDeLa <= pretMax)
     if (camere !== 'Toate') {
       list = list.filter(a => a.tipuri.some(t => {
@@ -197,6 +200,10 @@ export default function AnsambluriClient() {
                       )}
                       <span className="absolute top-3 left-3 text-[10px] font-medium px-2 py-0.5 rounded-full"
                         style={{ background: sc.bg, color: sc.color }}>{sc.label}</span>
+                      {hasPromo(a) && (
+                        <span className="absolute top-3 left-3 mt-[22px] text-[10px] font-medium px-2 py-0.5 rounded-full text-white"
+                          style={{ background: '#c0392b' }}>Promoție</span>
+                      )}
                       {a.dataPredare && a.dataPredare !== 'Finalizat' && (
                         <span className="absolute bottom-3 left-3 text-[10px] px-2 py-0.5 rounded-full bg-black/50 text-white">
                           Predare {a.dataPredare}
@@ -232,6 +239,10 @@ export default function AnsambluriClient() {
                       <span className="text-xs text-gray-400">Foto</span>
                       <span className="absolute top-2 left-2 text-[9px] font-medium px-1.5 py-0.5 rounded-full"
                         style={{ background: sc.bg, color: sc.color }}>{sc.label}</span>
+                      {hasPromo(a) && (
+                        <span className="absolute top-2 left-2 mt-[18px] text-[9px] font-medium px-1.5 py-0.5 rounded-full text-white"
+                          style={{ background: '#c0392b' }}>Promoție</span>
+                      )}
                     </div>
                     <div className="flex-1 p-4 min-w-0">
                       <div className="flex items-start justify-between gap-4 flex-wrap">

@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
-import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
+import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
 
 // Import dinamic - Leaflet nu merge cu SSR
@@ -124,7 +124,10 @@ export default function HartaPage() {
   useEffect(() => setMounted(true), [])
 
   const activeMarkers = ANSAMBLURI_ACTIVE.map(a => ({
-    ...a, coords: COORDS[a.numar], categorie: 'activ_vanzare',
+    ...a,
+    coords: COORDS[a.numar],
+    categorie: 'activ_vanzare',
+    pinColor: hasPromo(a) ? 'promotie' : a.status,
   })).filter(a => a.coords)
 
   const portofoliuMarkers = TOATE_PORTOFOLIU.map(a => ({
@@ -138,7 +141,9 @@ export default function HartaPage() {
 
   const filteredActive = filter === 'toate'
     ? activeMarkers
-    : activeMarkers.filter(a => a.status === filter)
+    : filter === 'promotie'
+      ? activeMarkers.filter(a => hasPromo(a))
+      : activeMarkers.filter(a => a.status === filter)
 
   const sel = selected
     ? [...activeMarkers, ...portofoliuMarkers].find(a => a.numar === selected)
@@ -228,7 +233,7 @@ export default function HartaPage() {
 
               {filteredActive.map(a => {
                 const isSel = selected === a.numar
-                const color = STATUS_COLORS[a.status]?.fill || '#2d7a3a'
+                const color = hasPromo(a) ? '#dc2626' : (STATUS_COLORS[a.status]?.fill || '#2d7a3a')
                 return (
                   <div key={a.numar}
                     onClick={() => setSelected(isSel ? null : a.numar)}
