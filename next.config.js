@@ -11,6 +11,14 @@ const nextConfig = {
   async headers() {
     return [
       {
+        // Blocheaza indexarea pe orice domeniu care nu e www.neofort.ro
+        source: '/(.*)',
+        has: [{ type: 'host', value: '(?!www\\.neofort\\.ro).*' }],
+        headers: [
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow, noarchive' },
+        ],
+      },
+      {
         source: '/(.*)',
         headers: [
           { key: 'X-Content-Type-Options', value: 'nosniff' },
