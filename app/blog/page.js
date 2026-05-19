@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import BlogListingViews from '@/components/BlogListingViews'
 import { ARTICOLE_LIST, AUTORI, CATEGORII } from '@/data/blog'
+import { NR_LIVRATE } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -20,8 +22,13 @@ export const metadata = {
   twitter: { card: 'summary_large_image', images: [`${BASE}/og-blog.jpg`] },
 }
 
-const FEATURED = ARTICOLE_LIST.find(a => a.featured)
-const REST = ARTICOLE_LIST.filter(a => !a.featured)
+// Sortare cronologica descrescatoare — cel mai nou primul (LIFO)
+const ARTICOLE_SORTATE = [...ARTICOLE_LIST].sort((a, b) =>
+  new Date(b.dataISO) - new Date(a.dataISO)
+)
+
+const FEATURED = ARTICOLE_SORTATE[0]
+const REST = ARTICOLE_SORTATE.slice(1)
 
 export default function BlogPage() {
   return (
@@ -51,14 +58,19 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-10">
             <div>
+              {/* FEATURED — cel mai nou articol */}
               {FEATURED && (
                 <div className="mb-10">
-                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Articol recomandat</p>
+                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Cel mai recent</p>
                   <Link href={`/blog/${FEATURED.slug}`} className="group block">
                     <div className="relative rounded-2xl overflow-hidden mb-4" style={{ paddingBottom: '43.75%', position: 'relative' }}>
                       {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}
                       <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 60%)' }} />
                       <span className="absolute top-4 left-4 text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ background: FEATURED.tagColor }}>{FEATURED.tag}</span>
+                      {/* Vizualizari pe cardul featured */}
+                      <div className="absolute bottom-4 right-4">
+                        <BlogListingViews slug={FEATURED.slug} />
+                      </div>
                     </div>
                     <h2 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-[#2d7a3a] transition-colors leading-snug">{FEATURED.titlu}</h2>
                     <p className="text-gray-500 text-sm mb-3 leading-relaxed">{FEATURED.rezumat}</p>
@@ -78,6 +90,7 @@ export default function BlogPage() {
 
               <div className="border-t border-gray-100 mb-8" />
 
+              {/* GRILA — restul articolelor in ordine cronologica */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
                 {REST.map(a => {
                   const autor = AUTORI[a.autorSlug]
@@ -88,6 +101,10 @@ export default function BlogPage() {
                           <img src={a.image} alt={a.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                         ) : <div style={{ position: 'absolute', inset: 0, background: '#f3f4f6' }} />}
                         <span className="absolute top-3 left-3 text-[10px] font-semibold px-2 py-0.5 rounded-full text-white" style={{ background: a.tagColor }}>{a.tag}</span>
+                        {/* Vizualizari pe card */}
+                        <div className="absolute bottom-2 right-2">
+                          <BlogListingViews slug={a.slug} />
+                        </div>
                       </div>
                       <div className="p-4">
                         <h2 className="text-sm font-semibold text-gray-900 leading-snug mb-2 group-hover:text-[#2d7a3a] transition-colors">{a.titlu}</h2>
@@ -108,6 +125,7 @@ export default function BlogPage() {
                 })}
               </div>
 
+              {/* AUTORI */}
               <div className="border border-gray-100 rounded-2xl p-6 bg-gray-50">
                 <h2 className="text-sm font-semibold text-gray-900 mb-1">Despre autorii acestui blog</h2>
                 <p className="text-xs text-gray-500 mb-5 leading-relaxed">Conținutul publicat pe blogul Neofort IMO este scris exclusiv de profesioniști cu experiență reală în piața imobiliară din București. Fiecare articol reflectă tranzacții reale, date verificate și perspectiva consultanților care lucrează zilnic în piață.</p>
@@ -137,7 +155,7 @@ export default function BlogPage() {
                     <p className="text-[10px] text-gray-500">Blog oficial · Din 2009</p>
                   </div>
                 </div>
-                <p className="text-xs text-gray-500 leading-relaxed mb-3">Analize și sfaturi imobiliare din interior — scrise de consultanții care au finalizat peste 85 de proiecte rezidențiale în București.</p>
+                <p className="text-xs text-gray-500 leading-relaxed mb-3">Analize și sfaturi imobiliare din interior — scrise de consultanții care au finalizat peste {NR_LIVRATE} de proiecte rezidențiale în București.</p>
                 <Link href="/despre-noi" className="text-xs font-medium text-[#2d7a3a] hover:underline">Află mai mult despre noi →</Link>
               </div>
 
@@ -159,7 +177,7 @@ export default function BlogPage() {
               <div className="border border-gray-200 rounded-xl p-5">
                 <h3 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Articole recente</h3>
                 <div className="space-y-3">
-                  {ARTICOLE_LIST.map(a => (
+                  {ARTICOLE_SORTATE.map(a => (
                     <Link key={a.slug} href={`/blog/${a.slug}`} className="flex gap-2 group">
                       <div className="relative w-14 h-10 rounded-lg overflow-hidden flex-shrink-0 bg-gray-100">
                         {a.image && <img src={a.image} alt={a.titlu} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />}
@@ -175,7 +193,7 @@ export default function BlogPage() {
 
               <div className="rounded-xl p-5 text-white" style={{ background: '#081c12' }}>
                 <p className="text-xs font-semibold mb-1" style={{ color: '#e8b44e' }}>Cauți apartament nou?</p>
-                <p className="text-xs mb-3" style={{ color: 'rgba(255,255,255,0.7)' }}>12 ansambluri active în București — direct de la sursă, fără comision.</p>
+                <p className="text-xs mb-3" style={{ color: 'rgba(255,255,255,0.7)' }}>Ansambluri active în București — direct de la sursă, fără comision.</p>
                 <Link href="/ansambluri-rezidentiale" className="block text-center text-xs py-2 rounded-lg font-medium" style={{ background: '#2d7a3a', color: 'white' }}>
                   Vezi ansambluri →
                 </Link>
@@ -185,7 +203,7 @@ export default function BlogPage() {
                 '@context': 'https://schema.org', '@type': 'Blog',
                 name: 'Blog Imobiliar Neofort IMO', url: `${BASE}/blog`,
                 publisher: { '@type': 'Organization', name: 'Neofort IMO', url: BASE },
-                blogPost: ARTICOLE_LIST.map(a => ({
+                blogPost: ARTICOLE_SORTATE.map(a => ({
                   '@type': 'BlogPosting', headline: a.titlu,
                   url: `${BASE}/blog/${a.slug}`, datePublished: a.dataISO,
                   author: { '@type': 'Person', name: a.autor },
