@@ -31,7 +31,7 @@ function getPortofoliuSchema(BASE) {
     description: `${NR_LIVRATE}+ ansambluri rezidențiale livrate în București din 2009`,
     url: `${BASE}/portofoliu`,
     numberOfItems: TOATE_PORTOFOLIU.length,
-    itemListElement: TOATE_PORTOFOLIU.slice(0, 50).map((a, i) => ({
+    itemListElement: TOATE_PORTOFOLIU.map((a, i) => ({
       '@type': 'ListItem',
       position: i + 1,
       name: a.nume,

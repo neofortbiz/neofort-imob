@@ -163,7 +163,7 @@ export async function POST(request) {
         }).catch(e => console.error('Client confirm error:', e))
       }
     } else {
-      console.log('--- DEV EMAIL ---', internal.subiect)
+      // Email confirmare client trimis in background
     }
 
     return NextResponse.json({ ok: true })

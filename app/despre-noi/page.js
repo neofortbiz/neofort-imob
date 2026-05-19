@@ -6,18 +6,18 @@ import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteCo
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
-  title: 'Despre Neofort IMO — 17 Ani de Imobiliare în București',
+  title: `Despre Neofort IMO — ${ANI_EXPERIENTA} Ani de Imobiliare în București`,
   description: `Neofort IMO este o companie de imobiliare din București fondată în 2009. ${NR_LIVRATE}+ ansambluri rezidențiale livrate, ${NR_FAMILII} familii, ${ANI_EXPERIENTA} ani experiență. Direct de la sursă, fără comision.`,
   alternates: { canonical: `${BASE}/despre-noi` },
   openGraph: {
-    title: 'Despre Neofort IMO — 17 Ani de Imobiliare în București',
+    title: `Despre Neofort IMO — ${ANI_EXPERIENTA} Ani de Imobiliare în București`,
     description: `Neofort IMO — fondată în 2009, ${NR_LIVRATE}+ ansambluri livrate, ${NR_FAMILII} familii. Direct de la sursă, fără comision de agenție.`,
     url: `${BASE}/despre-noi`,
     images: [{ url: `${BASE}/og-image.jpg`, width: 1200, height: 630, alt: 'Despre Neofort IMO' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Despre Neofort IMO — 17 Ani Experiență',
+    title: `Despre Neofort IMO — ${ANI_EXPERIENTA} Ani Experiență`,
     description: `${NR_LIVRATE}+ ansambluri livrate, ${NR_FAMILII} familii. Direct de la sursă, fără comision.`,
     images: [`${BASE}/og-image.jpg`],
   },
@@ -45,8 +45,8 @@ const localBusinessSchema = {
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 44.4474,
-    longitude: 26.0935,
+    latitude: 44.4429978,
+    longitude: 26.0886770,
   },
   openingHoursSpecification: [
     { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '10:00', closes: '18:00' },

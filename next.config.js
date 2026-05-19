@@ -22,7 +22,19 @@ const nextConfig = {
         ],
       },
       {
-        source: '/portofoliu/(.*)\.avif',
+        source: '/portofoliu/(.*)\\.avif',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+        ],
+      },
+      {
+        source: '/ansambluri/(.*)\\.avif',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+        ],
+      },
+      {
+        source: '/brokeri/(.*)\\.avif',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
         ],

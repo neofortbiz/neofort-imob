@@ -25,6 +25,7 @@ async function loadData() {
 }
 
 // ── Constante companie ────────────────────────────────────
+// FOUNDING_YEAR trebuie sa fie identic cu cel din data/siteConfig.js
 const FOUNDING_YEAR = 2009
 const ANI = new Date().getFullYear() - FOUNDING_YEAR
 const BASE = 'https://www.neofort.ro'

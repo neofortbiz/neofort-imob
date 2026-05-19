@@ -155,7 +155,7 @@ export default function AnsambluPage({ params }) {
         name: `Cum fac o rezervare pentru un apartament din ${a.nume}?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `Pentru a rezerva un apartament în ${a.nume} contactați-ne la ${TEL_DISPLAY} sau pe WhatsApp. Procesul de rezervare este simplu și transparent, conform noilor reglementări legislative în vigoare.`,
+          text: `Pentru a rezerva un apartament în ${a.nume} contactați-ne la ${a.brokerTel || TEL_DISPLAY} sau pe WhatsApp. Procesul de rezervare este simplu și transparent, conform noilor reglementări legislative în vigoare.`,
         },
       },
       {
@@ -273,7 +273,7 @@ export default function AnsambluPage({ params }) {
               {/* APARTAMENTE */}
               <div className="py-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Apartamente disponibile</h2>
-                <div style={{ overflowX: 'hidden' }}><ApartamenteTable apartamente={a.apartamente} parcare={a.parcare} ansambluNume={a.nume} /></div>
+                <div style={{ overflowX: 'hidden' }}><ApartamenteTable apartamente={a.apartamente} parcare={a.parcare} ansambluNume={a.nume} brokerTel={a.brokerTel} /></div>
               </div>
 
               {/* DOTARI */}

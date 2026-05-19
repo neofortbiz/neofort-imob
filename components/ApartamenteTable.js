@@ -1,13 +1,17 @@
 'use client'
 import { useState } from 'react'
 
-const TEL_DISPLAY = '0758 090 904'
-const TEL = '0758090904'
-const WA_LINK = `https://wa.me/40${TEL.substring(1)}`
+const TEL_GENERAL = '0758090904'
+const TEL_GENERAL_DISPLAY = '0758 090 904'
 
-export default function ApartamenteTable({ apartamente, parcare, ansambluNume }) {
+export default function ApartamenteTable({ apartamente, parcare, ansambluNume, brokerTel }) {
   const [selectedApt, setSelectedApt] = useState(null)
   const [filterCamere, setFilterCamere] = useState('')
+
+  // Folosim brokerTel din props daca exista, fallback la general
+  const telRaw = brokerTel ? brokerTel.replace(/\s/g, '') : TEL_GENERAL
+  const telDisplay = brokerTel || TEL_GENERAL_DISPLAY
+  const waNum = telRaw.startsWith('0') ? '40' + telRaw.substring(1) : telRaw
 
   const camereUnice = [...new Set(apartamente.map(a => a.camere))].sort()
   const filtered = filterCamere ? apartamente.filter(a => a.camere === parseInt(filterCamere)) : apartamente
@@ -69,12 +73,12 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume })
                 ) : apt.avans45 ? (
                   <div className="space-y-0.5">
                     <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
-                      Avans 45%: <span className="font-semibold text-gray-900">{fmt(apt.avans45)}€</span>
-                      {apt.pretVechiAvans45 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans45)}€</span>}
+                      Avans 45%: <span className="font-semibold text-gray-900">{fmt(apt.avans45)}</span>
+                      {apt.pretVechiAvans45 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans45)}</span>}
                     </div>
                     <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
-                      Avans 20%: <span className="font-medium text-gray-700">{fmt(apt.avans20)}€</span>
-                      {apt.pretVechiAvans20 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans20)}€</span>}
+                      Avans 20%: <span className="font-medium text-gray-700">{fmt(apt.avans20)}</span>
+                      {apt.pretVechiAvans20 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans20)}</span>}
                     </div>
                     <div className="text-[9px] text-gray-500">+TVA</div>
                   </div>
@@ -132,13 +136,13 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume })
             <h3 className="text-base font-medium text-gray-900 mb-1">{selectedApt.tip}</h3>
             <p className="text-xs text-gray-500 mb-4">{selectedApt.suprafata} mp · {ansambluNume}</p>
             <div className="space-y-2">
-              <a href={`tel:${TEL}`}
+              <a href={`tel:${telRaw}`}
                 className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-medium text-white"
                 style={{ background: '#2d7a3a' }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 10.8 19.79 19.79 0 01.86 2.18 2 2 0 012.83 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l.98-.97a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                Sună: {TEL_DISPLAY}
+                Sună: {telDisplay}
               </a>
-              <a href={`${WA_LINK}?text=${encodeURIComponent(`Bună ziua! Sunt interesat de ${selectedApt.tip} (${selectedApt.suprafata} mp) din ${ansambluNume}. Vă rog să mă contactați cu detalii și disponibilitate.`)}`}
+              <a href={`https://wa.me/${waNum}?text=${encodeURIComponent(`Bună ziua! Sunt interesat de ${selectedApt?.tip} (${selectedApt?.suprafata} mp) din ${ansambluNume}. Vă rog să mă contactați cu detalii și disponibilitate.`)}`}
                 target="_blank" rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-medium border border-green-200 text-green-700 bg-green-50 hover:bg-green-100 transition-colors">
                 WhatsApp

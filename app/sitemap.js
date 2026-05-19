@@ -8,15 +8,18 @@ export default function sitemap() {
   // Pagini statice cu date fixe (continut rar schimbat)
   const staticPages = [
     { url: `${BASE}/`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 1.0 },
-    { url: `${BASE}/ansambluri-rezidentiale`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${BASE}/zona`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${BASE}/harta-ansambluri`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${BASE}/portofoliu`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/blog`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${BASE}/promotii`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${BASE}/echipa`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${BASE}/despre-noi`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${BASE}/contact`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/ansambluri-rezidentiale`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 0.95 },
+    { url: `${BASE}/zona`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/harta-ansambluri`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/portofoliu`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.80 },
+    { url: `${BASE}/blog`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 0.75 },
+    { url: `${BASE}/promotii`, lastModified: new Date('2026-05-11'), changeFrequency: 'weekly', priority: 0.80 },
+    { url: `${BASE}/echipa`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.50 },
+    { url: `${BASE}/despre-noi`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.60 },
+    { url: `${BASE}/contact`, lastModified: new Date('2026-05-11'), changeFrequency: 'monthly', priority: 0.60 },
+    { url: `${BASE}/gdpr`, lastModified: new Date('2026-05-11'), changeFrequency: 'yearly', priority: 0.20 },
+    { url: `${BASE}/cookies`, lastModified: new Date('2026-05-11'), changeFrequency: 'yearly', priority: 0.20 },
+    { url: `${BASE}/termeni`, lastModified: new Date('2026-05-11'), changeFrequency: 'yearly', priority: 0.20 },
   ]
 
   // Ansambluri active - prioritate maxima, se actualizeaza frecvent
@@ -24,7 +27,7 @@ export default function sitemap() {
     url: `${BASE}/ansamblu-rezidential/${a.slug}`,
     lastModified: new Date('2026-05-11'),
     changeFrequency: 'weekly',
-    priority: 1.0,
+    priority: 0.95,
   }))
 
   // Zone generate dinamic din date

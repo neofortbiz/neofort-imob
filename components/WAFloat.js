@@ -1,27 +1,26 @@
 'use client'
 import { usePathname } from 'next/navigation'
+import { getAnsamblu } from '@/data/ansambluri'
 
-const WA_BASE = 'https://wa.me/40758090904'
+const WA_GENERAL = 'https://wa.me/40758090904'
 
-function getMesaj(pathname) {
-  // Extragem slug-ul din URL pentru mesaj personalizat
+function getWAInfo(pathname) {
   const match = pathname?.match(/ansamblu-rezidential\/([^/]+)/)
   if (match) {
-    const slug = match[1]
-    // Transformam slug in nume lizibil
-    const nume = slug.replace(/neofort-(\d+)-(.+)/, 'Neofort $1 $2')
-      .replace(/-/g, ' ')
-      .replace(/\b\w/g, c => c.toUpperCase())
-    return encodeURIComponent(`Bună ziua! Sunt interesat de apartamentele din ${nume}. Vă rog să mă contactați cu detalii și disponibilitate.`)
+    const ansamblu = getAnsamblu(match[1])
+    if (ansamblu) {
+      const tel = ansamblu.brokerTel?.replace(/\s/g, '') || '758090904'
+      const waNum = tel.startsWith('0') ? '40' + tel.substring(1) : tel
+      const mesaj = encodeURIComponent(`Bună ziua! Sunt interesat de apartamentele din ${ansamblu.nume}. Vă rog să mă contactați cu detalii și disponibilitate.`)
+      return `https://wa.me/${waNum}?text=${mesaj}`
+    }
   }
-  return encodeURIComponent('Bună ziua! Sunt interesat de apartamentele Neofort IMO. Vă rog să mă contactați.')
+  return `${WA_GENERAL}?text=${encodeURIComponent('Bună ziua! Sunt interesat de apartamentele Neofort IMO. Vă rog să mă contactați.')}`
 }
 
 export default function WAFloat() {
   const pathname = usePathname()
-  const mesaj = getMesaj(pathname)
-  const href = `${WA_BASE}?text=${mesaj}`
-  const isAnsamblu = pathname?.includes('/ansamblu-rezidential/')
+  const href = getWAInfo(pathname)
 
   return (
     <a

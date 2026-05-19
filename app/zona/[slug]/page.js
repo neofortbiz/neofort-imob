@@ -133,9 +133,12 @@ export default function ZonaPage({ params }) {
                 const sc = STATUS_CONFIG[a.status]
                 return (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
-                    className="border border-gray-100 rounded-xl overflow-hidden bg-white hover:shadow-sm transition-all">
-                    <div className="aspect-square bg-gray-100 relative flex items-center justify-center">
-                      <span className="text-xs text-gray-400">Foto</span>
+                    className="border border-gray-100 rounded-xl overflow-hidden bg-white hover:shadow-sm transition-all group">
+                    <div className="aspect-square bg-gray-100 relative overflow-hidden">
+                      {a.imagini?.cover
+                        ? <img src={a.imagini.cover} alt={a.nume} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                        : <span className="absolute inset-0 flex items-center justify-center text-xs text-gray-400">Foto</span>
+                      }
                       <div className={`absolute top-2 left-2 text-[9px] font-medium px-1.5 py-0.5 rounded ${sc.bg} ${sc.text}`}>{sc.label}</div>
                     </div>
                     <div className="p-3">

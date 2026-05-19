@@ -1,13 +1,18 @@
 'use client'
 import { useState } from 'react'
 
-const TEL = '0758090904'
-const TEL_DISPLAY = '0758 090 904'
-const WA_LINK = `https://wa.me/40${TEL.substring(1)}`
+const TEL_GENERAL = '0758090904'
+const TEL_GENERAL_DISPLAY = '0758 090 904'
 
 export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B.', brokerTel = '0758 090 904', brokerFoto = '' }) {
   const [form, setForm] = useState({ nume: '', telefon: '', email: '', mesaj: '' })
-  const [status, setStatus] = useState('idle') // idle | loading | success | error
+  const [status, setStatus] = useState('idle')
+
+  // Folosim brokerTel din props (specific per ansamblu), fallback la general
+  const telRaw = brokerTel.replace(/\s/g, '')
+  const telDisplay = brokerTel
+  const waNum = telRaw.startsWith('0') ? '40' + telRaw.substring(1) : telRaw
+  const waLink = `https://wa.me/${waNum}?text=${encodeURIComponent(`Bună ziua! Sunt interesat de apartamentele din ${ansambluNume || 'Neofort IMO'}. Vă rog să mă contactați cu detalii.`)}` // idle | loading | success | error
 
   function handleChange(e) {
     setForm(f => ({ ...f, [e.target.name]: e.target.value }))
@@ -104,7 +109,7 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
       </div>
 
       <div className="hidden md:flex flex-col gap-1.5">
-        <a href={`tel:${TEL}`}
+        <a href={`tel:${telRaw}`}
           className="w-full py-2.5 rounded-lg border text-sm font-medium transition-colors hover:bg-blue-50 flex items-center justify-center gap-2 px-4"
           style={{ borderColor: '#1565c0', color: '#1565c0' }}>
           <span style={{ width: 20, height: 20, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
@@ -112,9 +117,9 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
               <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 10.8 19.79 19.79 0 01.86 2.18 2 2 0 012.83 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l.98-.97a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
             </svg>
           </span>
-          {TEL_DISPLAY}
+          {telDisplay}
         </a>
-        <a href={WA_LINK} target="_blank" rel="noopener noreferrer"
+        <a href={waLink} target="_blank" rel="noopener noreferrer"
           className="w-full py-2.5 rounded-lg border text-sm font-medium transition-colors hover:bg-green-50 flex items-center justify-center gap-2 px-4"
           style={{ borderColor: '#25a244', color: '#25a244', paddingRight: 'calc(1rem + 10px)', paddingLeft: 'calc(1rem - 10px)' }}>
           <span style={{ width: 20, height: 20, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>

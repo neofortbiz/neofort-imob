@@ -1,5 +1,5 @@
 # Neofort IMO — Imobiliare București
-# Actualizat: 2026-05-12
+# Actualizat: 2026-05-19
 
 ## Companie
 Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 12 ansambluri active în Sectoarele 2, 3 și 6.
@@ -40,16 +40,16 @@ Apartamente disponibile:
 - 3 cam. Tip 3 (90.62 mp, et. et. 1-8): de la 117.806€+TVA
 - 3 cam. Tip 4 terasa (119.52 mp, et. p. înalt): de la 125.082€+TVA
 - 4 cam. terasa (175.58 mp, et. et. 10): de la 181.262€+TVA
-Parcare interioară: de la 8.500€ + TVA
-Parcare exterioară: de la 6.000€ + TVA
+Parcare interioară: de la 8.500€ +TVA
+Parcare exterioară: de la 6.000€ +TVA
 
 Puncte de interes:
-- mall: IKEA Pallady — 350m
-- mall: Jumbo / Leroy Merlin Pallady — 7 min pe jos
-- metrou: Metrou Anghel Saligny (M2) — 3 min cu masina
-- scoala: Waldorf Bucuresti / Spectrum School — 4 min cu masina
-- metrou: Metrou Nicolae Teclu (M2) — 4 min cu masina
-- mall: Auchan Titan / Pallady — 5 min cu masina
+- mall: Jumbo / Leroy Merlin Pallady — 550m
+- mall: IKEA Pallady — 8 min pe jos
+- metrou: Metrou Nicolae Teclu (M2) — 11 min pe jos
+- mall: Auchan Titan / Pallady — 3 min cu masina
+- mall: Kaufland Pantelimon — 6 min cu masina
+- medical: Campus Medical Regina Maria Titan — 8 min cu masina
 
 ### Neofort 83 Titan Pallady — Titan-Pallady, Sector 3
 Slug: neofort-83-titan-pallady
@@ -73,12 +73,12 @@ Parcare interioară: de la 13.000€ TVA inclus
 Parcare exterioară: de la 9.000€ TVA inclus
 
 Puncte de interes:
-- metrou: Metrou Anghel Saligny (M2) — 100m
-- metrou: Metrou Nicolae Teclu (M2) — 11 min pe jos
-- mall: Jumbo / Leroy Merlin Pallady — 12 min pe jos
-- mall: IKEA Pallady — 3 min cu masina
-- scoala: Waldorf Bucuresti / Spectrum School — 3 min cu masina
-- mall: Auchan Titan / Pallady — 5 min cu masina
+- metrou: Metrou Anghel Saligny (M2) — 20m
+- metrou: Metrou Nicolae Teclu (M2) — 17 min pe jos
+- mall: Auchan Titan / Pallady — 7 min cu masina
+- mall: IKEA Pallady — 8 min cu masina
+- scoala: Waldorf Bucuresti / Spectrum School — 8 min cu masina
+- parc: Parcul Teilor — 8 min cu masina
 
 ### Neofort 78 Mosilor-Eminescu — Mosilor-Eminescu, Sector 2
 Slug: neofort-78-mosilor-eminescu
@@ -86,7 +86,7 @@ Status: constructie
 Etaje: S+P+4ET+5R+6R+7R
 Tipuri: 2 camere, 3 camere, 4 camere
 Pret de la: 185.000€ + TVA
-Predare: Mai 2026
+Predare: Septembrie 2026
 Adresa: Strada Ardeleni, Zona Mosilor-Eminescu, Sector 2, Bucuresti
 Coordonate: 44.446553, 26.119879
 Broker: Svetlana CALUTU, 0752 443 434
@@ -102,12 +102,12 @@ Apartamente disponibile:
 Parcare subterană: de la 30.000€ +TVA
 
 Puncte de interes:
-- metrou: Metrou Piata Obor (M2) — 8 min pe jos
-- scoala: Colegiul National Mihai Eminescu — 11 min pe jos
-- transport: Piata Obor / Autogara Obor — 11 min pe jos
-- metrou: Metrou Stefan cel Mare (M2) — 3 min cu masina
-- parc: Lacul Tei / Parcul Tei — 4 min cu masina
-- metrou: Metrou 8 Noiembrie (M1) — 4 min cu masina
+- transport: Piata Obor / Autogara Obor — 8 min pe jos
+- metrou: Metrou Piata Obor (M2) — 10 min pe jos
+- scoala: Colegiul National Mihai Eminescu — 10 min pe jos
+- mall: Veranda Mall Obor — 2 min cu masina
+- metrou: Metrou 8 Noiembrie (M1) — 7 min cu masina
+- metrou: Metrou Stefan cel Mare (M2) — 8 min cu masina
 
 ### Neofort 76 Iuliu Maniu Metrou Pacii — Militari, Sector 6
 Slug: neofort-76-iuliu-maniu-metrou-pacii
@@ -115,7 +115,7 @@ Status: activ
 Etaje: S+P+7E+8/9Er
 Tipuri: 2 camere, 3 camere, 4 camere Penthouse
 Pret de la: 218.409€ + TVA
-Predare: In curand
+Predare: Finalizat
 Adresa: Bulevardul Iuliu Maniu, Sector 6, Bucuresti
 Coordonate: 44.43368, 25.998051
 Broker: Ramona BAICU, 0759 030 367
@@ -126,12 +126,12 @@ Apartamente disponibile:
 Parcare interioară: de la 10.000€ TVA inclus
 
 Puncte de interes:
-- metrou: Metrou Pacii (M3) — 400m
-- transport: Autostrada A1 — 10 min pe jos
-- metrou: Metrou Gorjului (M3) — 3 min cu masina
-- medical: Sanador Militari — 4 min cu masina
-- mall: Militari Shopping Center — 5 min cu masina
+- metrou: Metrou Pacii (M3) — 550m
+- metrou: Metrou Gorjului (M3) — 6 min cu masina
 - metrou: Metrou Preciziei (M3) — 6 min cu masina
+- medical: Sanador Militari — 7 min cu masina
+- mall: Militari Shopping Center — 7 min cu masina
+- parc: Parcul Liniei — 10 min cu masina
 
 ### Neofort 56 Pallady Titan — Titan-Pallady, Sector 3
 Slug: neofort-56-pallady-titan-teclu
@@ -139,7 +139,7 @@ Status: activ
 Etaje: D+P+3E
 Tipuri: Studio, 2 camere, 3 camere, 4 camere
 Pret de la: 184.691€ + TVA
-Predare: In curand
+Predare: Finalizat
 Adresa: Zona Titan Nou, Sector 3, Bucuresti
 Coordonate: 44.419894, 26.182582
 Broker: Ramona BAICU, 0759 030 367
@@ -152,19 +152,19 @@ Parcare subterană: de la 8.900€ TVA inclus
 Parcare exterioară: de la 8.900€ TVA inclus
 
 Puncte de interes:
-- scoala: Waldorf Bucuresti / Spectrum School — 300m
-- mall: Auchan Titan / Pallady — 350m
-- medical: Campus Medical Regina Maria Titan — 8 min pe jos
-- mall: Kaufland Pantelimon — 10 min pe jos
-- metrou: Metrou Nicolae Teclu (M2) — 11 min pe jos
-- parc: Parcul Teilor — 12 min pe jos
+- scoala: Waldorf Bucuresti / Spectrum School — 600m
+- parc: Parcul Teilor — 8 min pe jos
+- medical: Campus Medical Regina Maria Titan — 10 min pe jos
+- metrou: Metrou Nicolae Teclu (M2) — 18 min pe jos
+- metrou: Metrou Anghel Saligny (M2) — 7 min cu masina
+- parc: Parcul IOR (Titan) — 7 min cu masina
 
 ### Neofort 50 Titan Parc IOR — Titan-IOR, Sector 3
 Slug: neofort-50-titan-parc-ior
 Status: activ
 Etaje: 2S+P+5E-6/11R
 Tipuri: 2 camere, 4 camere
-Pret de la: 142.545€ + TVA
+Pret de la: 153.860€ + TVA
 Predare: Finalizat
 Adresa: Bulevardul 1 Decembrie 1918, Sector 3, Bucuresti
 Coordonate: 44.433921, 26.172411
@@ -172,25 +172,26 @@ Broker: Adrian PINTILIE, 0752 443 436
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-50-titan-parc-ior
 
 Apartamente disponibile:
-- 2 cam. Scara 1 (73.1 mp, et. et. 1-5): de la 142.545€+TVA
-- 2 cam. cu terasa (48.9 mp, et. et. 6): de la 144.210€+TVA
-- 2 cam. cu terasa mare (56.4 mp, et. et. 10-11): de la 176.904€+TVA
-- 4 cam. cu terasa (99.95 mp, et. et. 10-11): de la 255.405€+TVA
+- 2 cam. Scara 1 (70.4 mp, et. et. 1-5): de la 161.920€+TVA
+- 2 cam. cu terasa (47.80+54.90mp) (47.8 mp, et. et. 6): de la 153.860€+TVA
+- 2 cam. cu terasa (52.90+51.30mp) (52.9 mp, et. et. 10-11): de la 162.710€+TVA
+- 2 cam. cu terasa (55.00+87.20mp) (55 mp, et. et. 10-11): de la 176.900€+TVA
+- 4 cam. Scara 2 cu terasa (99.20+91.90mp) (99.2 mp, et. et. 10-11): de la 281.810€+TVA
 
 Puncte de interes:
-- metrou: Metrou Costin Georgian (M2) — 20m
-- parc: Parcul IOR (Titan) — 150m
-- parc: Parcul Teilor — 3 min cu masina
-- mall: Kaufland Pantelimon — 3 min cu masina
-- medical: Campus Medical Regina Maria Titan — 3 min cu masina
-- mall: Auchan Titan / Pallady — 4 min cu masina
+- metrou: Metrou Costin Georgian (M2) — 90m
+- parc: Parcul IOR (Titan) — 450m
+- medical: Campus Medical Regina Maria Titan — 5 min cu masina
+- parc: Parcul Teilor — 5 min cu masina
+- scoala: Waldorf Bucuresti / Spectrum School — 5 min cu masina
+- mall: Park Lake Plaza — 4 min cu masina
 
 ### Neofort 49 Militari Metrou Gorjului — Militari, Sector 6
 Slug: neofort-49-militari-metrou-gorjului
 Status: constructie
 Etaje: S+P+3E
 Tipuri: Garsoniera, 2 camere
-Pret de la: 76.974€ + TVA
+Pret de la: 77.800€ + TVA
 Predare: Finalizat
 Adresa: Strada Vistiernicul Stavrinos, Sector 6, Bucuresti
 Coordonate: 44.4311, 26.012883
@@ -198,17 +199,17 @@ Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-49-militari-metrou-gorjului
 
 Apartamente disponibile:
-- Garsoniera (38.9 mp, et. et. 1-3): de la 76.974€+TVA
-- 2 camere (60.3 mp, et. et. 1-3): de la 118.947€+TVA
+- Garsoniera (38.9 mp, et. et. 1-3): de la 77.800€+TVA
+- 2 camere (60.3 mp, et. et. 1-3): de la 120.600€+TVA
 Parcare subterană: de la 15.000€ TVA inclus
 
 Puncte de interes:
-- metrou: Metrou Gorjului (M3) — 0m
-- medical: Sanador Militari — 6 min pe jos
-- mall: Militari Shopping Center — 11 min pe jos
-- metrou: Metrou Pacii (M3) — 3 min cu masina
-- metrou: Metrou Preciziei (M3) — 3 min cu masina
-- parc: Parcul Liniei — 4 min cu masina
+- metrou: Metrou Gorjului (M3) — 250m
+- mall: Militari Shopping Center — 10 min pe jos
+- medical: Sanador Militari — 13 min pe jos
+- metrou: Metrou Pacii (M3) — 5 min cu masina
+- metrou: Metrou Petrache Poenaru (M3) — 6 min cu masina
+- parc: Parcul Liniei — 7 min cu masina
 
 ### Neofort 44 Titan Pallady Teclu — Titan-Pallady, Sector 3
 Slug: neofort-44-titan-pallady-teclu
@@ -231,12 +232,12 @@ Parcare subterană: de la 8.000€ + TVA
 Parcare exterioară: de la 8.000€ + TVA
 
 Puncte de interes:
-- scoala: Waldorf Bucuresti / Spectrum School — 9 min pe jos
-- metrou: Metrou Nicolae Teclu (M2) — 9 min pe jos
-- medical: Campus Medical Regina Maria Titan — 10 min pe jos
-- mall: Auchan Titan / Pallady — 11 min pe jos
-- parc: Parcul Teilor — 3 min cu masina
-- mall: Kaufland Pantelimon — 3 min cu masina
+- scoala: Waldorf Bucuresti / Spectrum School — 14 min pe jos
+- medical: Campus Medical Regina Maria Titan — 19 min pe jos
+- metrou: Metrou Nicolae Teclu (M2) — 25 min pe jos
+- parc: Parcul Teilor — 4 min cu masina
+- metrou: Metrou Anghel Saligny (M2) — 7 min cu masina
+- parc: Parcul IOR (Titan) — 8 min cu masina
 
 ### Neofort 42 Piata Muncii — Piata Muncii, Sector 3
 Slug: neofort-42-piata-muncii
@@ -260,12 +261,12 @@ Apartamente disponibile:
 Parcare subterană: de la 22.500€ +TVA
 
 Puncte de interes:
-- metrou: Metrou Piata Muncii (M3) — 10m
-- mall: Kaufland Popa Nan — 300m
-- metrou: Metrou Dristor 2 (M2) — 450m
-- metrou: Metrou Dristor 1 (M2) — 8 min pe jos
-- parc: Parcul National — 10 min pe jos
-- mall: Park Lake Plaza — 3 min cu masina
+- metrou: Metrou Dristor 2 (M2) — 350m
+- metrou: Metrou Piata Muncii (M3) — 400m
+- mall: Kaufland Popa Nan — 500m
+- metrou: Metrou Dristor 1 (M2) — 10 min pe jos
+- parc: Parcul National — 18 min pe jos
+- scoala: Universitatea Hyperion — 2 min cu masina
 
 ### Neofort 28 Titan Pallady Faza 4-5 — Titan-Pallady, Sector 3
 Slug: neofort-28-titan-pallady-teclu
@@ -293,12 +294,12 @@ Parcare subterană: de la 11.000€ + TVA
 Parcare exterioară: de la 7.500€ + TVA
 
 Puncte de interes:
-- metrou: Metrou Anghel Saligny (M2) — 300m
-- mall: Jumbo / Leroy Merlin Pallady — 8 min pe jos
-- mall: IKEA Pallady — 9 min pe jos
+- metrou: Metrou Anghel Saligny (M2) — 500m
 - metrou: Metrou Nicolae Teclu (M2) — 3 min cu masina
-- scoala: Waldorf Bucuresti / Spectrum School — 3 min cu masina
-- mall: Auchan Titan / Pallady — 5 min cu masina
+- mall: Auchan Titan / Pallady — 6 min cu masina
+- parc: Parcul Teilor — 8 min cu masina
+- scoala: Waldorf Bucuresti / Spectrum School — 8 min cu masina
+- medical: Campus Medical Regina Maria Titan — 8 min cu masina
 
 ### Neofort 11 Eminescu Viitorului — Eminescu-Viitorului, Sector 2
 Slug: neofort-11-eminescu-viitorului
@@ -325,12 +326,12 @@ Apartamente disponibile:
 Parcare subterană: de la 25.000€ + TVA
 
 Puncte de interes:
-- metrou: Metrou Stefan cel Mare (M2) — 9 min pe jos
-- metrou: Metrou Piata Victoriei (M1/M2) — 12 min pe jos
-- metrou: Metrou Piata Obor (M2) — 4 min cu masina
-- metrou: Metrou 8 Noiembrie (M1) — 4 min cu masina
-- scoala: Colegiul National Mihai Eminescu — 4 min cu masina
-- parc: Lacul Tei / Parcul Tei — 5 min cu masina
+- metrou: Metrou Stefan cel Mare (M2) — 19 min pe jos
+- metrou: Metrou Piata Obor (M2) — 2 min cu masina
+- scoala: Colegiul National Mihai Eminescu — 2 min cu masina
+- mall: Veranda Mall Obor — 3 min cu masina
+- metrou: Metrou 8 Noiembrie (M1) — 5 min cu masina
+- parc: Lacul Tei / Parcul Tei — 8 min cu masina
 
 ### Neofort 8 Tepes Voda Muncii — Tepes Voda-Muncii, Sector 2
 Slug: neofort-8-tepes-voda-muncii
@@ -338,32 +339,31 @@ Status: activ
 Etaje: S+P+2ET+M
 Tipuri: Studio, 2 camere, 3 camere, 4 camere
 Pret de la: 146.000€ + TVA
-Predare: Ian. 2026
+Predare: Finalizat
 Adresa: Zona Tepes Voda-Maior Coravu, Sector 2, Bucuresti
 Coordonate: 44.435422, 26.127951
 Broker: Svetlana CALUTU, 0752 443 434
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-8-tepes-voda-muncii
 
 Apartamente disponibile:
-- Studio Garsoniera (39.92 mp, et. et. 1-2): de la 146.000€+TVA
-- 2 cam. 8B (67.8 mp, et. et. 1-2): de la 192.000€+TVA
-- 2 cam. 17B (67.8 mp, et. et. 1-2): de la 205.000€+TVA
-- 2 cam. 14B (64.1 mp, et. et. 1-2): de la 176.000€+TVA
-- 2 cam. 7B (60.35 mp, et. et. 1-2): de la 174.000€+TVA
-- 2 cam. 20B (62.8 mp, et. et. 1-2): de la 205.000€+TVA
-- 3 cam. 22B (80.15 mp, et. et. 1-2): de la 265.000€+TVA
-- 3 cam. 4B (113.6 mp, et. et. 1-2): de la 295.000€+TVA
-- 3 cam. 25B terasa (148.8 mp, et. mansarda): de la 345.000€+TVA
-- 4 cam. 6B cu gradina (237.83 mp, et. parter): de la 465.000€+TVA
+- Studio Garsoniera (36.1 mp, et. et. 1-2): de la 146.000€+TVA
+- 2 cam. 8B (54.3 mp, et. et. 1-2): de la 192.000€+TVA
+- 2 cam. 17B (54.7 mp, et. et. 1-2): de la 217.000€+TVA
+- 2 cam. 14B (58.1 mp, et. et. 1-2): de la 213.000€+TVA
+- 2 cam. 7B (52.9 mp, et. et. 1-2): de la 210.000€+TVA
+- 3 cam. 22B (73.5 mp, et. et. 1-2): de la 265.000€+TVA
+- 3 cam. 4B (111.2 mp, et. et. 1-2): de la 295.000€+TVA
+- 3 cam. 25B terasa (137.5 mp, et. mansarda): de la 345.000€+TVA
+- 4 cam. 6B cu gradina (156.8 mp, et. parter): de la 465.000€+TVA
 Parcare subterană: de la 25.000€ + TVA
 
 Puncte de interes:
-- scoala: Universitatea Hyperion — 500m
-- mall: Kaufland Popa Nan — 12 min pe jos
-- parc: Parcul National — 12 min pe jos
-- metrou: Metrou Dristor 2 (M2) — 3 min cu masina
-- metrou: Metrou Piata Muncii (M3) — 3 min cu masina
-- metrou: Metrou 8 Noiembrie (M1) — 4 min cu masina
+- metrou: Metrou Piata Muncii (M3) — 6 min cu masina
+- metrou: Metrou Dristor 2 (M2) — 5 min cu masina
+- mall: Kaufland Popa Nan — 14 min pe jos
+- mall: Bucuresti Mall Vitan — 7 min cu masina
+- scoala: Colegiul National Mihai Eminescu — 8 min cu masina
+- metrou: Metrou 8 Noiembrie (M1) — 8 min cu masina
 
 ## Blog
 - E-Proprietatea 2026: Tot ce Trebuie să Știi Despre Noul Sistem de Impozitare: https://www.neofort.ro/blog/e-proprietatea-2026-noul-sistem-de-impozitare

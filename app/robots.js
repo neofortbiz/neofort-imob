@@ -7,6 +7,8 @@ export default function robots() {
       { userAgent: 'ClaudeBot', allow: '/' },
       { userAgent: 'anthropic-ai', allow: '/' },
       { userAgent: 'PerplexityBot', allow: '/' },
+      { userAgent: 'Google-Extended', allow: '/' },
+      { userAgent: 'cohere-ai', allow: '/' },
       { userAgent: 'Googlebot-Image', allow: '/portofoliu/' },
       { userAgent: 'Bingbot', allow: '/' },
     ],

@@ -27,7 +27,7 @@ const localBusinessSchema = {
     postalCode: '010776',
     addressCountry: 'RO',
   },
-  geo: { '@type': 'GeoCoordinates', latitude: 44.4474, longitude: 26.0935 },
+  geo: { '@type': 'GeoCoordinates', latitude: 44.4429978, longitude: 26.0886770 },
   openingHoursSpecification: [
     { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '10:00', closes: '18:00' },
     { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday','Sunday'], opens: '00:00', closes: '00:00' },

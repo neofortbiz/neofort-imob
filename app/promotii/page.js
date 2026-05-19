@@ -42,8 +42,11 @@ export default function PromotiiPage() {
                 {promotii.map(a => (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                     className="group border border-gray-100 rounded-xl overflow-hidden bg-white hover:shadow-md transition-shadow">
-                    <div className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
-                      <span className="text-xs text-gray-400">Foto</span>
+                    <div className="relative overflow-hidden bg-gray-100" style={{ aspectRatio: '16/9' }}>
+                      {a.imagini?.cover
+                        ? <img src={a.imagini.cover} alt={a.nume} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                        : <div className="absolute inset-0 flex items-center justify-center"><span className="text-xs text-gray-400">Foto</span></div>
+                      }
                     </div>
                     <div className="p-4">
                       <div className="flex items-center justify-between mb-2">
@@ -74,8 +77,11 @@ export default function PromotiiPage() {
                 {constructie.map(a => (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                     className="group border border-gray-100 rounded-xl overflow-hidden bg-white hover:shadow-md transition-shadow">
-                    <div className="bg-gray-100 flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
-                      <span className="text-xs text-gray-400">Foto</span>
+                    <div className="relative overflow-hidden bg-gray-100" style={{ aspectRatio: '16/9' }}>
+                      {a.imagini?.cover
+                        ? <img src={a.imagini.cover} alt={a.nume} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                        : <div className="absolute inset-0 flex items-center justify-center"><span className="text-xs text-gray-400">Foto</span></div>
+                      }
                     </div>
                     <div className="p-4">
                       <div className="flex items-center justify-between mb-2">
