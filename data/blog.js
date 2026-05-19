@@ -1888,9 +1888,556 @@ Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sun
       },
     ],
   },
+
+  'merita-apartament-titan-pallady-2026': {
+    titlu: `Merită să Cumperi Apartament Nou în Titan – Theodor Pallady în 2026? Analiză Completă`,
+    tag: 'Piață', tagColor: '#0369a1',
+    data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min',
+    autor: 'adrian-pintilie',
+    image: '/blog/merita-apartament-titan-pallady-2026.avif',
+    descriere: `Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă a pieței, prețurilor reale, avantajelor și riscurilor — cu date concrete din tranzacțiile Neofort IMO. Pentru cumpărători și investitori.`,
+    keywords: ['apartament nou titan pallady 2026', 'merita sa cumperi titan pallady', 'preturi apartamente pallady 2026', 'investitie imobiliara titan bucuresti', 'ansambluri rezidentiale titan pallady', 'apartament pallady metrou'],
+    hashtags: ['#TitanPallady', '#ApartamentNou2026', '#InvestitieImobiliara', '#BucurestiSector3', '#NeofortIMO'],
+    cuprins: [
+      { id: 'de-ce-titan-pallady', titlu: `De ce Titan–Pallady domină cererea în Sectorul 3` },
+      { id: 'preturi-reale', titlu: `Prețuri reale în 2026 — ce cumperi cu ce buget` },
+      { id: 'avantaje-reale', titlu: `Avantajele concrete ale zonei` },
+      { id: 'dezavantaje', titlu: `Dezavantajele pe care nimeni nu ți le spune` },
+      { id: 'pentru-locuit', titlu: `Pentru locuit — ce trebuie să știi` },
+      { id: 'pentru-investitie', titlu: `Pentru investiție — calculul real` },
+      { id: 'ce-sa-verifici', titlu: `Ce să verifici înainte să semnezi` },
+      { id: 'concluzie', titlu: `Concluzia noastră — pentru cine merită` },
+    ],
+    sectiuni: [
+      {
+        id: 'de-ce-titan-pallady',
+        h2: `De ce Titan–Pallady a devenit cea mai căutată zonă rezidențială din estul Bucureștiului`,
+        continut: `Titan și Theodor Pallady nu au ajuns zone de top accidental. Creșterea lor a fost alimentată de o convergență de factori structurali care nu existau simultan în nicio altă zonă din București la prețuri similare.
+
+Până în 2018, zona Pallady era percepută ca periferică — acces dificil, puțin retail, teren industrial reconvertit. Ce s-a schimbat?
+
+Metroul M2 a transformat totul. Stațiile Nicolae Teclu, 1 Decembrie 1918 și Anghel Saligny conectează zona cu centrul în 8–15 minute. Asta a transformat Pallady din „periferie accesibilă" în „zona cu metrou la prețuri rezonabile" — o combinație extrem de rară în București.
+
+IKEA Pallady (2019) și mega-parcul comercial din jur — Auchan, Leroy Merlin, Jumbo, Dedeman, Metro, Decathlon — au creat cel mai mare hub de retail din estul capitalei. Un locuitor din Titan nu mai are nevoie să meargă în altă parte pentru cumpărături majore.
+
+Parcul IOR și Parcul Teilor. La 450m–2km de majoritatea proiectelor din zonă, IOR este cel mai complet parc urban din Sectorul 3: lac artificial, pârtie de schi, bazin olimpic, piste de biciclete, terenuri sportive. Aceasta este o valoare de locuire reală, nu marketing.
+
+Accelerarea construcțiilor noi. Tocmai pentru că zona s-a dovedit validată de cumpărători, toți developerii majori și-au orientat portofoliile spre Titan–Pallady. Aceasta a creat o ofertă diversă care satisface toate bugetele — de la garsonieră la 65.000€ până la penthouse la 200.000€+.
+
+Rezultatul: site-ul neofort.ro înregistrează lunar peste 11.000 de vizite organice pe cuvintele cheie legate de Titan și Pallady — semnal clar că cererea reală depășește cu mult oferta disponibilă.`,
+      },
+      {
+        id: 'preturi-reale',
+        h2: `Prețuri reale în Titan–Pallady în mai 2026 — ce cumperi cu ce buget`,
+        continut: `Aceste prețuri reflectă tranzacțiile reale din portofoliul Neofort IMO și datele de piață verificate, nu estimările din publicitate.
+
+Prețuri proiecte noi (TVA 9% inclus, unde se aplică):
+• Garsonieră 35–43 mp: 62.000–90.000 EUR
+• 2 camere 47–67 mp: 120.000–175.000 EUR
+• 3 camere 75–95 mp: 165.000–220.000 EUR
+• 4 camere / penthouse: 250.000–420.000 EUR
+
+Prețuri pe metru pătrat (util):
+• Proiecte în construcție: 1.300–1.600 EUR/mp (faza promoțională, avans 45%)
+• Proiecte finalizate: 1.650–1.950 EUR/mp
+• Unități cu terasă generoasă sau etaje superioare: premium +15–25%
+
+Prețuri piață secundară (apartamente vechi din zonă):
+• Apartamente decomandate 3 camere (bloc 1980–1990): 110.000–145.000 EUR
+• Apartamente 2 camere semidecomandate: 85.000–115.000 EUR
+
+Concluzia: la buget egal, un apartament nou din Titan–Pallady este cu 30–45% mai ieftin pe metru pătrat față de un apartament echivalent în Sectoarele 1 sau 2. La aceeași suprafață utilă, primești structură nouă, eficiență energetică și dotări moderne față de bloc vechi care poate necesita renovare.
+
+Prețul pe mp al apartamentelor noi din Titan–Pallady a crescut cu aproximativ 85–95% față de 2018 — media anuală de ~11% este semnificativ peste inflație și randamentul depozitelor bancare din aceeași perioadă.`,
+      },
+      {
+        id: 'avantaje-reale',
+        h2: `Avantajele concrete ale zonei — ce îți oferă de fapt Titan–Pallady`,
+        continut: `Metroul — avantajul #1 fără echivoc. Stațiile Nicolae Teclu și 1 Decembrie (M2) sunt la 3–15 minute de mers pe jos din majoritatea proiectelor noi. Linia M2 merge direct: Dristor 2 (2 min), Piața Muncii (5 min), Piața Unirii (8 min), Piața Universității (10 min), Piața Victoriei (14 min). Un locuitor din Titan poate face dus-întors la serviciu în centru sau nord fără mașina, economisind 500–800 EUR/lună față de costul unui automobil.
+
+Infrastructura comercială completă. IKEA + Auchan + Leroy Merlin + Jumbo + Dedeman + Metro + Decathlon + Mega Mall Pantelimon = tot ce îți trebuie fără să ieși din zonă. Această densitate de retail nu are echivalent în alte zone cu prețuri similare din București.
+
+Parcuri și spații verzi. Parcul IOR (150 ha), Parcul Teilor (48 ha) și Parcul Tineretului (accesibil cu metroul) asigură o calitate a vieții în aer liber comparabilă cu zonele mult mai scumpe din București.
+
+Educație de calitate. Waldorf București și Spectrum School se află la 5–8 minute cu mașina. Liceele publice de referință din Sectorul 3 (Colegiul Național „Mihai Eminescu") sunt accesibile cu metroul.
+
+Oferta diversificată. Zona are simultan proiecte în toate fazele: pre-vânzare (prețuri promoționale), construcție (1–2 ani până la predare), finalizate (disponibile imediat). Această diversitate nu există în multe alte zone din București.`,
+      },
+      {
+        id: 'dezavantaje',
+        h2: `Dezavantajele pe care nimeni nu ți le spune despre Titan–Pallady`,
+        continut: `Orice analiză onestă include și dezavantajele reale. La Titan–Pallady există câteva aspecte care merită discutate fără marketing.
+
+Densitate urbană ridicată și în creștere. Zona Pallady a fost în mare parte teren industrial sau liber până în 2015. Dezvoltarea accelerată a construit zeci de blocuri în 10 ani, iar ritmul nu s-a oprit. Infrastructura stradală — lățimea drumurilor, semaforizare, parcări publice — nu a ținut pasul cu creșterea populației rezidențiale. Traficul în orele de vârf pe Bdul Theodor Pallady și pe strada Nicolae Teclu poate fi blocant.
+
+Calitate inegală a proiectelor. Zona atrage atât developeri serioși cu istoric verificabil, cât și proiecte mai modeste. Diferența de calitate între cel mai bun și cel mai slab proiect din zonă este mai mare decât în zone mai mature (ex: Floreasca). Verificarea atentă a developerului este obligatorie.
+
+Lipsa unei identități de cartier consolidate. Față de Floreasca sau Dorobanți care au o comunitate și o atmosferă de cartier definite de decenii, Pallady este o zonă rezidențială relativ nouă. Cafenelele, restaurantele și serviciile de proximitate sunt în dezvoltare — există, dar nu au densitatea dintr-un cartier cu tradiție.
+
+Dependența de metrou. Avantajul major al metrului devine și un risc: dacă metroul este suspendat (avarii, lucrări de întreținere), zona rămâne relativ izolată față de centru prin transport în comun. Autobuzele și tramvaiele nu compensează rapid.
+
+Distanța față de aeroport. Pentru profesioniștii care călătoresc frecvent, Pallady înseamnă 35–50 de minute până la Otopeni — semnificativ mai mult față de zonele de nord.`,
+      },
+      {
+        id: 'pentru-locuit',
+        h2: `Titan–Pallady pentru locuit — ce înseamnă concret în viața de zi cu zi`,
+        continut: `Profilul de rezident pentru care zona funcționează cel mai bine:
+
+Familii tinere cu copii. Combinația parc (IOR/Teilor), grădiniță și școală bune, transport cu metroul, suprafețe generose la prețuri accesibile, parcări în bloc — face zona extrem de funcțională pentru familii cu 1–2 copii. Garsoniera de 65.000€ nu are sens pentru o familie; apartamentul de 3 camere la 160.000–190.000€ da.
+
+Profesioniști care lucrează în centru sau zonele de nord. Metroul elimină complet stresul traficului. 8 minute până la Piața Unirii, 14 minute până la Victoriei — inferior față de Floreasca sau Pipera din perspectiva timpului de deplasare, dar la un preț de achiziție de 2–3x mai mic.
+
+Cupluri fără copii la prima locuință. Garsonierele și apartamentele de 2 camere între 62.000 și 135.000€ reprezintă cel mai accesibil punct de intrare în proprietatea imobiliară din București în zone cu metrou. Prima casă financiabil.
+
+Ce nu funcționează la fel de bine: pentru cei care lucrează în vest (Militari, Drumul Taberei), deplasarea implică un schimb de metrou la Piața Unirii — posibil, dar nu optim. Pentru cei care prioritizează atmosfera de cartier și viața stradală animată, zona nu este încă la nivelul Floreasca sau Dacia.`,
+      },
+      {
+        id: 'pentru-investitie',
+        h2: `Titan–Pallady pentru investiție în 2026 — calculul real al randamentului`,
+        continut: `Date concrete din piața locală — mai 2026:
+
+Chirii practicate pentru apartamente noi în zona Titan–Pallady:
+• Garsonieră 36–40 mp: 300–380 EUR/lună
+• 2 camere 50–60 mp: 430–530 EUR/lună
+• 3 camere 70–80 mp: 550–680 EUR/lună
+
+Calcul randament net — apartament 2 camere 55 mp (reprezentativ):
+• Preț total achiziție (TVA inclus): 135.000 EUR
+• Chirie medie lunară: 480 EUR
+• Venit anual brut: 5.760 EUR
+• Costuri anuale: impozit E-Proprietatea ~600 lei, asigurări ~800 lei, fond reparații ~1.000 lei, vacanță 5% (~290 EUR), total ~2.100 EUR echivalent
+• Venit net anual: ~3.900 EUR
+• Randament net curent: 2,9%
+
+Randamentul curent de ~3% pare modest față de dobânzile bancare. Dar investiția imobiliară în Titan–Pallady nu se justifică prin randamentul din chirii singur — se justifică prin randamentul total: chirie + apreciere capital.
+
+Aprecierea prețului 2018–2026: +90–95% în 8 ani, adică ~8,5% anual. Combinat cu randamentul din chirie de 3%, randamentul total a fost de ~11,5% anual — performanță superioară majorității alternativelor de investiție din România pe același orizont de timp.
+
+Va continua aprecierea? Fundamentele zonei (metrou, retail, parcuri, deficit ofertă vs cerere) sugerează că există în continuare potențial de creștere, dar la un ritm mai moderat față de 2018–2022. Estimarea consensuală a pieței: 5–8% anual apreciere pe termen mediu (3–5 ani), față de 10–15% din perioada anterioară.`,
+      },
+      {
+        id: 'ce-sa-verifici',
+        h2: `Ce trebuie verificat obligatoriu înainte să semnezi în Titan–Pallady`,
+        continut: `Developerul — cel mai important factor. Nu toate proiectele din Titan–Pallady sunt egale. Verificarea obligatorie include:
+• Proiectele anterioare livrate — există, sunt populate, clienții sunt mulțumiți?
+• Termenele de livrare respectate la proiectele anterioare — sau au existat întârzieri de 1–2 ani?
+• Recenzii reale pe Google, Facebook, forumuri de proprietari
+
+Localizarea exactă în zonă. „Titan–Pallady" înseamnă un perimetru mare. Diferența dintre un bloc la 300m de stația de metrou și unul la 1.5km este semnificativă ca valoare și calitate a vieții.
+
+Specificațiile tehnice în detaliu. Cere în scris:
+• Marca și modelul tâmplăriei (Salamander, Rehau, generic?)
+• Tipul structurii (beton armat, cărămidă Porotherm sau BCA?)
+• Ce include „la cheie" (parchetul, gresia, faianța, obiectele sanitare)
+• Marca și capacitatea centralei termice individuale
+• Clasa energetică certificată (A, B, C)
+
+Actele proiectului:
+• Autorizația de construire validă
+• Titlul de proprietate al terenului (nu concesiune sau litigii)
+• Recepția la terminarea lucrărilor (pentru proiecte finalizate)
+• Înscrierea în cartea funciară a apartamentului
+
+Finanțarea realistă. Calculul trebuie să includă: prețul apartamentului + TVA + parcare + taxa notarială (1–1,5%) + comision bancă dacă e credit + fondul de garanție FNGCIMM dacă e Noua Casă. Surprizele financiare la final sunt frecvente.`,
+      },
+      {
+        id: 'concluzie',
+        h2: `Concluzia — pentru cine merită cu adevărat Titan–Pallady în 2026`,
+        continut: `Titan–Pallady merită în 2026 pentru:
+
+✓ Familii tinere cu buget 130.000–200.000 EUR care caută suprafață generoasă, metrou și infrastructură completă — cel mai bun raport suprafață–facilitate–preț din București.
+
+✓ Investitori cu orizont de 5–10 ani care înțeleg că randamentul total (chirie + apreciere) este relevant, nu doar chiria curentă.
+
+✓ Cumpărători la prima locuință cu buget 65.000–120.000 EUR — zona oferă cel mai accesibil punct de intrare în proprietate cu metrou din București.
+
+✓ Cumpărători din diasporă care nu locuiesc zilnic în apartament și vor o investiție administrată ușor cu randament predictibil din chirii.
+
+Titan–Pallady merită mai puțin pentru:
+
+— Cei care prioritizează atmosfera de cartier consolidat, viața stradală animată și apropierea de centru în detrimentul prețului
+
+— Cei care lucrează în vestul sau nord-vestul Bucureștiului și vor evita metroul
+
+— Investitorii care caută randament din chirii pe termen scurt (Airbnb) — zona nu este optimă pentru această strategie
+
+Decizia finală depinde de trei lucruri: developerul ales, localizarea exactă în zonă și alinierrea la nevoile tale concrete. Neofort IMO comercializează direct, fără comision, 6 din cele mai bine poziționate proiecte active din Titan–Pallady. Contactați-ne pentru o consultanță fără obligații.`,
+      },
+    ],
+  },
+
+  'top-ansambluri-rezidentiale-noi-bucuresti-2026': {
+    titlu: `Top Ansambluri Rezidențiale Noi din București în 2026 — Ghid Complet pentru Cumpărători`,
+    tag: 'Ghid', tagColor: '#2d7a3a',
+    data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min',
+    autor: 'igor-calutu',
+    image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif',
+    descriere: `Cum alegi corect un ansamblu rezidențial nou din București în 2026? Ghid complet: cele mai căutate zone, cum verifici un developer, ce greșeli să eviți și criterii concrete de evaluare bazate pe 17 ani de experiență în piată.`,
+    keywords: ['top ansambluri rezidentiale bucuresti 2026', 'cele mai bune proiecte rezidentiale bucuresti', 'cum alegi ansamblu rezidential', 'ansambluri noi bucuresti 2026', 'ghid cumparare apartament nou bucuresti', 'developer imobiliar serios bucuresti'],
+    hashtags: ['#AnsambluriBucuresti', '#ApartamentNou2026', '#GhidCumparare', '#ImobiliareRomania', '#NeofortIMO'],
+    cuprins: [
+      { id: 'cum-alegi', titlu: `Cum alegi corect — criteriile care contează` },
+      { id: 'zone-top', titlu: `Zonele cu cel mai mare potențial în 2026` },
+      { id: 'cum-verifici-developer', titlu: `Cum verifici un developer imobiliar` },
+      { id: 'ce-sa-analizezi', titlu: `Ce să analizezi la un ansamblu rezidențial` },
+      { id: 'greseli', titlu: `Greșeli frecvente și cum le eviți` },
+      { id: 'direct-sau-agentie', titlu: `Cumpărare directă vs. prin agenție` },
+      { id: 'concluzie', titlu: `Cum iei decizia corectă` },
+    ],
+    sectiuni: [
+      {
+        id: 'cum-alegi',
+        h2: `Cum alegi corect un ansamblu rezidențial nou — criteriile care contează cu adevărat`,
+        continut: `Piața imobiliară din București are în 2026 aproximativ 200 de proiecte rezidențiale noi active simultan. Nu toate sunt egale. Diferența dintre cel mai bun și cel mai slab proiect din aceeași zonă poate fi de 20–30% la prețuri similare sau de 30–40% la calitate similară.
+
+Cum navighezi această diversitate? Nu cu randări frumoase și promisiuni de marketing, ci cu un cadru de evaluare structurat.
+
+Criteriul 1 — Localizarea față de transport public. Metroul este factorul #1 pentru valoarea pe termen lung a unui apartament din București. Proiectele la sub 10 minute de mers pe jos de o stație de metrou au o lichiditate (ușurința de a vinde sau închiria) semnificativ mai mare față de proiecte similare fără metrou. La nivel de piață, diferența de preț la revânzare poate fi 15–25%.
+
+Criteriul 2 — Developer-ul, nu proiectul. Poți vedea randarea unui proiect; nu poți vedea calitatea construcției înainte să fie finalizat. Singurul predictor al calității este istoricul developerului — ce proiecte a mai livrat și cum arată în realitate față de promisiuni.
+
+Criteriul 3 — Specificațiile tehnice verificabile. Tâmplăria, structura, centrala termică, clasa energetică — sunt detalii tehnice care determină confortul și costul de întreținere pe 20–30 de ani. Nu accepta descrieri vagi precum „finisaje premium" fără specificații de marcă și model.
+
+Criteriul 4 — Prețul total, nu prețul de ofertă. Prețul afișat nu include obligatoriu: TVA (9% sau 21% în funcție de situație), parcarea (5.000–25.000 EUR separat), boxa, taxa de rezervare, costurile notariale. Un preț de ofertă atractiv poate deveni 15–25% mai mare la costul total real.
+
+Criteriul 5 — Comunitatea deja constituită. Un bloc la jumătate din capacitate sau cu proprietari care au plecat în chirie spune ceva despre satisfacția cumpărătorilor inițiali. Vizitează proiectele finalizate ale developerului și discută cu locuitorii.`,
+      },
+      {
+        id: 'zone-top',
+        h2: `Zonele cu cel mai mare potențial pentru apartamente noi în București în 2026`,
+        continut: `Piața imobiliară din București nu este uniformă. Fiecare zonă are un profil distinct de cumpărători, prețuri, ritm de apreciere și nivel de risc. Iată o analiză obiectivă bazată pe date reale.
+
+Titan–Pallady (Sectorul 3) — zona cu cel mai mare volum de tranzacții
+Avantaje: 5 stații de metrou M2 în proximitate, cel mai mare hub de retail din estul capitalei (IKEA, Auchan, Leroy Merlin, Jumbo), Parcul IOR și Parcul Teilor, prețuri competitive față de vest sau nord.
+Prețuri 2026: 1.300–1.950 EUR/mp pentru apartamente noi
+Profil ideal: familii tinere, investitori, diasporă, cumpărători prima locuință
+Apreciere 2018–2026: +85–95%
+
+Moșilor–Eminescu (Sectorul 2) — zona semicentrală în ascensiune
+Avantaje: acces rapid la centru (Obor, Victoriei), cartier cu caracter urban autentic, ofertă limitată de proiecte noi (susținere a valorii), apropierea de Spitalul Colentina și instituții de educație de top.
+Prețuri 2026: 1.800–2.500 EUR/mp pentru proiecte boutique
+Profil ideal: profesioniști tineri, familii fără copii, investitori cu buget mediu-mare
+Apreciere 2020–2026: +60–70%
+
+Piața Muncii–Dristor (Sectoarele 2/3) — zona cu deficit de ofertă față de cerere
+Avantaje: două linii de metrou (M2 Dristor și M3 Piața Muncii), proximitate față de centru, Parcul Național la mers pe jos, Park Lake Plaza. Site-ul neofort.ro înregistrează lunar 5.300+ click-uri organice pe căutările din această zonă.
+Prețuri 2026: 1.500–2.100 EUR/mp
+Profil ideal: profesioniști, cupluri, investitori pe termen lung
+
+Militari–Gorjului (Sectorul 6) — zona cu cel mai bun randament din chirii
+Avantaje: metrou M3 (magistrala cea mai recentă din București), acces rapid la A1, densitate mare de angajatori în zonă (cerere stabilă din chirii), prețuri sub media Titanului.
+Prețuri 2026: 1.200–1.700 EUR/mp
+Profil ideal: investitori pentru chirii, familii cu buget mai mic, angajați în zona vest-nord-vest
+
+Eminescu–Viitorului (Sectorul 2) — zona boutique cu apreciere rapidă
+Avantaje: semicentral autentic, colegii și licee de top pe jos, metrou Stefan cel Mare la 15–20 minute pe jos, caracter rezidențial liniștit, ofertă extrem de limitată (raritate = valoare).
+Prețuri 2026: 2.200–3.000 EUR/mp pentru proiecte noi
+Profil ideal: cumpărători cu buget 200.000–500.000 EUR care prioritizează calitatea și zona față de suprafață`,
+      },
+      {
+        id: 'cum-verifici-developer',
+        h2: `Cum verifici un developer imobiliar înainte să îi dai avansul — ghid practic`,
+        continut: `Aceasta este, fără exagerare, cea mai importantă decizie din procesul de cumpărare. Prețul, zona și designul sunt secundare față de calitatea developerului.
+
+Pasul 1 — Vizitează fizic proiectele anterioare finalizate
+Nu te uita la randări sau la folderele de prezentare. Du-te pe șantierul sau în blocul finalizat de același developer acum 3–5 ani. Discută cu proprietarii actuali:
+• Livrarea a respectat termenul anunțat sau a întârziat?
+• Finisajele primite corespund specificațiilor din antecontract?
+• Există probleme recurente (infiltrații, defecțiuni la instalații, zgomot)?
+• Developer-ul a rezolvat prompt problemele de garanție?
+
+Pasul 2 — Verifică actele juridice ale proiectului
+Prin ANCPI (Agenția Națională de Cadastru și Publicitate Imobiliară) și Portalul Instanțelor poți verifica:
+• Proprietatea terenului — developer-ul este proprietar sau are concesiune/drept de superficie?
+• Ipoteci sau sarcini pe teren — există credite bancare garantate cu terenul?
+• Litigii în curs — developer-ul sau asociații sunt implicați în procese relevante?
+Autorizația de construire trebuie să fie valabilă și afișată la vedere pe șantier.
+
+Pasul 3 — Verifică capitalizarea financiară
+Un developer subcapitalizat este un risc major: dacă vânzările merg mai lent decât planificat, construcția se poate opri. Semnale de avertizare:
+• Proiect cu „100 apartamente" dar aparent niciun alt cumpărător vizibil
+• Prețuri semnificativ sub piață fără justificare clară
+• Presiune excesivă să semnezi rapid „oferta valabilă doar azi"
+• Refuzul de a furniza specificații tehnice detaliate în scris
+
+Pasul 4 — Citește antecontractul cu un avocat
+Contractul de vânzare-cumpărare al unui apartament nou este un document complex cu implicații pe 20–30 de ani. Orice clauze ambigue privind termenul de livrare, penalitățile pentru întârziere, ce se întâmplă dacă nu obții creditul, dreptul de retragere — trebuie clarificate de un avocat înainte de semnare. Costul consultanței juridice (200–500 EUR) este neglijabil față de valoarea tranzacției.`,
+      },
+      {
+        id: 'ce-sa-analizezi',
+        h2: `Ce să analizezi concret la un ansamblu rezidențial — checklist tehnic și financiar`,
+        continut: `Localizarea — analiza detaliată
+• Timp real până la cea mai apropiată stație de metrou (mersul efectiv, nu „în linie dreaptă")
+• Acces la școli, grădinițe, cabinete medicale — important pentru familii și pentru valoarea de revânzare
+• Traficul rutier în orele de vârf pe drumul de acces (verifică pe Google Maps un marți la 8:00)
+• Proiecte viitoare în vecinătate — verifică PUZ și PUG pe site-ul Primăriei Sectorului
+
+Compartimentarea și eficiența spațiului
+• Raportul suprafață utilă/suprafață construită — eficiențele sub 70% înseamnă că plătești mult pentru circulații și pereți
+• Orientarea față de punctele cardinale — apartamentele cu orientare sud sau sud-est au o valoare mai mare
+• Înălțimea liberă a pereților — standard decvent este 2.75m; sub 2.65m poate crea senzație de apăsare
+• Numărul și dimensiunea băilor față de numărul de camere — importantă la revânzare
+
+Specificații tehnice verificabile
+• Structura: beton armat C25/30 cu diafragme sau cadre cu umplutură din cărămidă/BCA?
+• Tâmplăria: Salamander 6–8 camere, Rehau, KBE sau brand generic? Geam tripan (Low-E) sau dublu?
+• Centrala termică individuală: marca, puterea, clasa de eficiență (A++ sau mai puțin?)
+• Clasa energetică certificată: A, A+, B? Ce consum anual de energie primară?
+• Lifturi: marca, capacitate, viteză? Câte lifturi la câte apartamente?
+
+Costul total real de achiziție
+• Prețul apartamentului + TVA (9% sau 21%)
+• Parcarea (de regulă 6.000–20.000 EUR — separat, nu inclus)
+• Boxa de depozitare (1.000–3.000 EUR)
+• Taxa de rezervare
+• Onorariu notar (1–1,5% din valoarea tranzacției)
+• Taxa ANCPI pentru intabulare
+• Asigurare obligatorie PAD + asigurare facultativă recomandată
+Total real față de prețul afișat: +8–15% în medie`,
+      },
+      {
+        id: 'greseli',
+        h2: `Greșelile frecvente când cumperi un apartament nou și cum le eviți`,
+        continut: `Greșeala #1 — Decizia după randări și broșuri, nu după specificații
+Randările 3D pot prezenta un proiect în lumea cea mai bună — orientare ideală, vegetație matură, copii fericiți în curte. Realitatea poate fi diferit. Verificarea obligatorie: specificații tehnice în scris în antecontract, vizita la proiectele finalizate ale aceluiași developer, dacă e posibil la șantier în faza de execuție.
+
+Greșeala #2 — Ignorarea costurilor totale și calculul pe „prețul de lista"
+„Apartament de 2 camere la 100.000 EUR" poate deveni 115.000–120.000 EUR după TVA, parcare, notariat și intabulare. Greșeala este fatală când ai aprobat un credit pentru 100.000 EUR și la semnare constați că ai nevoie de 115.000 EUR.
+
+Greșeala #3 — Semnarea antecontractului fără consultanță juridică
+Clauzele dezavantajoase pentru cumpărător pot include: penalități mici pentru întârzieri ale developerului vs. penalități mari pentru reziliere din partea cumpărătorului; definiții vagi ale „finisajelor incluse"; dreptul developerului de a modifica unilateral specificațiile tehnice; lipsa unui termen clar de livrare cu penalități.
+
+Greșeala #4 — Supraestimarea randamentului din chirie
+Calculele de randament prezentate de developeri sau agenți sunt adesea bazate pe chiria maximă posibilă (nu medie), fără costuri (impozit, asigurare, vacanță, reparații) și fără TVA în prețul de achiziție. Randamentul net real este tipic cu 30–40% mai mic față de randamentul brut prezentat.
+
+Greșeala #5 — Cumpărarea exclusiv pe baza prețului cel mai mic
+Cel mai ieftin proiect dintr-o zonă este adesea cel mai ieftin dintr-un motiv: calitate inferioară a construcției, developer fără experiență, localizare mai slabă sau acte cu probleme. Prețul mic la achiziție poate deveni scump la întreținere sau la revânzare.`,
+      },
+      {
+        id: 'direct-sau-agentie',
+        h2: `Cumpărare directă de la developer vs. prin agenție imobiliară — ce e mai avantajos`,
+        continut: `Aceasta este o întrebare pe care mulți cumpărători o pun și la care există un răspuns clar în piața din București în 2026.
+
+Cumpărarea directă de la developer înseamnă:
+• Prețul negociat direct cu echipa de vânzări a developerului
+• Informații complete despre proiect, specificații tehnice, stadiu construcție
+• Consultanță juridică și bancară gratuită (oferită de developerii serioși)
+• Fără comision de agenție pentru cumpărător (0%)
+• Posibilitate de negociere a prețului, inclusiv pentru parcări sau finisaje suplimentare
+
+Cumpărarea prin agenție imobiliară pentru un apartament nou:
+• Comision: 1,5–3% din valoarea tranzacției plătit de cumpărător (sau inclus în prețul majorat)
+• Agentul nu are neapărat mai multă informație decât echipa directă a developerului
+• Poate fi util dacă nu ai timp să compari singur mai multe proiecte din mai multe zone
+
+Concluzia: pentru apartamente noi vândute de developer cu echipă proprie de vânzări, cumpărarea directă este practic întotdeauna avantajoasă față de varianta prin agenție. Neofort IMO comercializează direct toate proiectele din portofoliu, cu consultanță juridică și bancară gratuită, fără comision de agenție. Economisești 3.000–5.000 EUR față de o tranzacție echivalentă prin agenție.`,
+      },
+      {
+        id: 'concluzie',
+        h2: `Cum iei decizia corectă — cadrul complet pentru alegerea unui ansamblu rezidențial`,
+        continut: `Decizia de a cumpăra un apartament nou este una dintre cele mai importante decizii financiare din viața unui om. Greșelile se plătesc scump; deciziile corecte creează valoare pe decenii.
+
+Cadrul de decizie în 5 pași:
+
+Pasul 1 — Clarifică scopul real: locuință sau investiție?
+Pentru locuință primează: compartimentarea, vecinătatea, accesul la servicii zilnice, calitatea construcției.
+Pentru investiție primează: randamentul total (chirie + apreciere), lichiditatea zonei, profilul de chiriași, costul total de achiziție.
+Mulți cumpărători confundă cele două scopuri și fac compromisuri care nu servesc niciunul.
+
+Pasul 2 — Stabilește un buget total real (nu prețul de lista)
+Include TVA, parcarea, notariatul, intabularea și un fond de rezervă de 5% pentru surprize.
+
+Pasul 3 — Selectează zona bazat pe fundamente, nu pe trend
+Zonele cu metrou, servicii complete și deficit structural de ofertă față de cerere sunt mai sigure pe termen lung față de zonele „la modă" fără aceste fundamente.
+
+Pasul 4 — Verifică developer-ul cu rigoare
+Un developer verificat cu proiecte livrate și locuite este mai important decât orice alt criteriu combinat. Nu compromite la acest pas.
+
+Pasul 5 — Calculează costul total și asigură finanțarea înainte de antecontract
+Pre-aprobarea bancară sau dovada fondurilor proprii trebuie să existe înainte de semnare, nu după.
+
+Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București din 2009 încoace. Echipa noastră este disponibilă pentru consultanță fără obligații — fie că ești în faza de informare, fie că ești gata să semnezi. Fără comision de agenție pentru cumpărători.`,
+      },
+    ],
+  },
+
+  'apartamente-noi-titan-pallady-teclu-promotii-2026': {
+    titlu: `Apartamente Noi în Titan, Pallady și Nicolae Teclu: Cele Mai Bune Promoții în 2026`,
+    tag: 'Piață', tagColor: '#0369a1',
+    data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min',
+    autor: 'sasha-calutu',
+    image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif',
+    descriere: `Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Ghid cu tipuri reale de promoții, cum identifici o reducere autentică și ce zone au cel mai mare potențial în prezent.`,
+    keywords: ['promotii apartamente titan pallady 2026', 'apartamente noi nicolae teclu promotii', 'discount apartament nou bucuresti 2026', 'apartament pallady pret bun', 'oferta apartament nou sector 3', 'apartamente noi avans mic bucuresti'],
+    hashtags: ['#PromoțiiApartamente', '#TitanPallady', '#NicolaeTeclu', '#ApartamentNou2026', '#NeofortIMO'],
+    cuprins: [
+      { id: 'ce-promotii-exista', titlu: `Ce tipuri de promoții există în 2026` },
+      { id: 'zone-active', titlu: `Zonele cu cele mai multe promoții active` },
+      { id: 'cum-identifici', titlu: `Cum identifici o promoție reală vs. marketing` },
+      { id: 'avans-mare', titlu: `Promoțiile cu avans mare — calculul real` },
+      { id: 'tva-redus', titlu: `TVA redus — cine mai beneficiază în 2026` },
+      { id: 'tipuri-cautate', titlu: `Tipurile de apartamente cu cele mai bune oferte` },
+      { id: 'faq', titlu: `Întrebări frecvente despre promoții` },
+    ],
+    sectiuni: [
+      {
+        id: 'ce-promotii-exista',
+        h2: `Ce tipuri de promoții există efectiv la apartamente noi în 2026 — faptele`,
+        continut: `Piața imobiliară din București în 2026 este o piată a vânzătorului în zonele cu metrou — cererea depășește oferta. Aceasta înseamnă că „promoțiile" funcționează altfel față de cum funcționează la produse de larg consum.
+
+Tipul 1 — Prețuri diferențiate în funcție de avans (cel mai comun)
+Acesta este cel mai frecvent mecanism de „promoție" la apartamentele noi. Developer-ul oferă două prețuri distincte:
+• Prețul cu avans 45% (plata majorității la semnarea antecontractului): mai mic cu 7–15%
+• Prețul cu avans 20% (plata majoritații la predare, compatibil cu creditul bancar): prețul standard
+
+Exemple reale din portofoliul Neofort IMO (mai 2026):
+Neofort 84 — 2 camere 47,78 mp: avans 45% = 62.114 EUR+TVA vs avans 20% = 66.892 EUR+TVA (diferență: 7,7%)
+Neofort 42 — 2 camere: avans 45% de la 98.736 EUR+TVA vs avans 20% de la 110.880 EUR+TVA (diferență: 11%)
+
+Tipul 2 — Prețuri de pre-lansare sau faza 1 de construcție
+Când un developer lansează un proiect nou sau o nouă fază, primele 20–30% din apartamente sunt oferite la un preț de pre-lansare cu 10–15% sub prețul final estimat. Această reducere compensează riscul asumat de cumpărător (timp de așteptare 18–30 luni, incertitudinea construcției).
+
+Tipul 3 — Pachete inclusiv parcarea sau boxa
+Unele proiecte includ locul de parcare în prețul apartamentului sau îl oferă la un preț redus față de tariful standard. Valoarea reală a unui loc de parcare subteran în zonă este 8.000–18.000 EUR — un pachet cu parcare inclusă poate reprezenta o economie semnificativă.
+
+Tipul 4 — Rate la developer
+Câțiva developeri oferă posibilitatea achitării prețului în rate directe (fără bancă), de regulă pe 12–36 luni. Dobânda implicită este de 3–6% anual — mai mică față de creditul bancar standard, dar cu riscuri mai mari (developer-ul nu este o bancă reglementată).
+
+Tipul 5 — Reduceri pentru pachete multiple
+Cumpărătorii care achiziționează 2+ apartamente din același proiect (investitori) pot negocia reduceri de 3–8% față de prețul individual.`,
+      },
+      {
+        id: 'zone-active',
+        h2: `Zonele din Titan, Pallady și Nicolae Teclu cu promoții active în mai 2026`,
+        continut: `Zona Titan–Pallady–Nicolae Teclu concentrează cel mai mare număr de proiecte rezidențiale noi active din București. Aceasta înseamnă și cea mai mare diversitate de oferte și prețuri.
+
+Pallady Est (zona Bdul Theodor Pallady, aproape de A2)
+Proiecte cu predare 2026–2027, prețuri de la 1.250–1.400 EUR/mp cu avans 45%. Zona profită de accesul rapid la autostradă și de mega-parcul comercial Pallady. Punctul slab: mai departe de metrou față de Pallady Vest.
+
+Pallady Vest – zona Nicolae Teclu (aproape de metrou)
+Prețuri 1.400–1.750 EUR/mp. Aceasta este zona cu cea mai mare cerere și cel mai mic discount disponibil — developer-ii nu trebuie să facă promoții agresive când vânzările merg bine. Totuși, prețurile cu avans 45% rămân cu 8–12% sub prețurile cu avans 20%.
+
+Titan Sud (zona Parcului IOR, Bdul 1 Decembrie)
+Proiecte cu prețuri 1.500–1.850 EUR/mp, avantaj unic: Parcul IOR la 300–600m, metrou Costin Georgian la 90m pentru unele proiecte. Zona are proiecte complet finalizate și disponibile imediat — fără risc de construcție.
+
+Zona Nicolae Teclu (stația de metrou)
+Cele mai valoroase proiecte din Titan–Pallady sunt concentrate în raza de 500m de stația Nicolae Teclu. Prețurile reflectă această raritate: 1.600–2.000 EUR/mp. Nu există practic reduceri de preț în această zonă pentru că cererea este mai mare decât oferta.`,
+      },
+      {
+        id: 'cum-identifici',
+        h2: `Cum identifici o promoție reală față de marketing — filtrul practic`,
+        continut: `Nu orice „promoție" este o reducere reală. Iată semnalele care diferențiază o ofertă autentică de una de marketing.
+
+Semnale că promoția este reală:
+• Reducerea este exprimată ca procent din prețul/mp față de alt apartament similar din același proiect (nu față de un preț „de referință" care nu a existat niciodată)
+• Prețul promoțional poate fi comparat cu prețuri din alte proiecte similare din zonă și rămâne competitiv
+• Condiția promoției este clară și verificabilă: „avans 45% până la 30 iunie" sau „primele 10 unități din această fază"
+• Developer-ul poate prezenta contracte de vânzare recente la același preț
+
+Semnale de avertizare pentru promoții de marketing:
+• „Reducere 25% față de prețul de catalog" — ce era prețul de catalog? A existat cineva care a plătit acel preț?
+• „Ultimele 3 apartamente la prețul vechi" — dar luna trecută tot „ultimele 3" erau
+• Prețul promoțional include TVA dar prețul de referință nu, sau invers
+• Comparații cu „prețul zonei" fără specificarea proiectelor concrete comparate
+
+Calculul corect al promoției:
+Compară prețul total (preț apartament + TVA + parcare + boxa dacă sunt separate) al ofertei cu proiecte similare (același nr de camere, suprafață comparabilă, distanță similară de metrou) din aceeași zonă. Aceasta este singura comparație corectă.`,
+      },
+      {
+        id: 'avans-mare',
+        h2: `Promoțiile cu avans mare — merită sau nu să plătești mai mult din start?`,
+        continut: `Aceasta este una dintre cele mai importante decizii financiare la cumpărarea unui apartament nou în construcție. Merită să dai avans 45% pentru a beneficia de prețul promoțional?
+
+Scenariul cu avans 45% — exemplu concret:
+• Preț apartament cu avans 45%: 130.000 EUR + TVA 9% = 141.700 EUR total
+• Prețul cu avans 20%: 140.000 EUR + TVA 9% = 152.600 EUR total
+• Diferență la prețul final: 10.900 EUR (7,7%)
+• Ai plătit 63.765 EUR din start (45%) vs 30.520 EUR (20% + câteva rate în construcție)
+
+Calculul costului de oportunitate:
+Diferența de avans blocată: 63.765 EUR vs 30.520 EUR = 33.245 EUR blocați suplimentar pe perioada construcției (să zicem 18 luni)
+La o dobândă bancară de 5% pe an, costul de oportunitate al acestor bani blocați: 33.245 × 5% × 1,5 ani = ~2.493 EUR
+
+Concluzia: economisești 10.900 EUR la prețul final vs blocați suplimentar ~33.000 EUR cu un cost de oportunitate de ~2.500 EUR. Câștigul net real: ~8.400 EUR — relevant dacă ai lichiditatea disponibilă.
+
+Dar dacă nu ai acei bani disponibili și trebuie să iei credit pentru avansul mare? Calculul se complică. La o dobândă bancară de 7% anual pe 33.245 EUR suplimentari creditați timp de 18 luni = ~3.490 EUR dobândă suplimentară. Câștigul net scade la ~7.400 EUR — în continuare pozitiv, dar mai redus.
+
+Concluzia: avansul 45% este avantajos dacă ai lichiditate proprie. Dacă trebuie să creditezi suplimentar pentru avans, câștigul se reduce dar rămâne de obicei pozitiv. Calculează specific pentru situația ta.`,
+      },
+      {
+        id: 'tva-redus',
+        h2: `TVA redus la apartamente noi în 2026 — cine mai beneficiază și în ce condiții`,
+        continut: `Legislația fiscală din 2026 a modificat semnificativ condițiile pentru TVA redus (9%) la apartamente noi. Este esențial să înțelegi corect regulile înainte de a planifica bugetul.
+
+Condiții pentru TVA 9% (în vigoare în 2026):
+• Suprafața utilă a apartamentului nu depășește 120 mp
+• Valoarea apartamentului (fără TVA) nu depășește 600.000 lei (aproximativ 120.000 EUR la cursul actual)
+• Cumpărătorul nu a mai beneficiat de TVA redus pentru o altă achiziție imobiliară
+• Cumpărătorul nu deține altă proprietate rezidențială în România la data achiziției
+
+Condiții pentru TVA 21% (se aplică când:):
+• Suprafața depășește 120 mp utili
+• Prețul apartamentului depășește 600.000 lei
+• Cumpărătorul mai are o altă proprietate în România
+• Este a doua achiziție cu TVA redus
+
+Implicații practice în 2026:
+Apartamentele de 2 camere cu prețuri sub 120.000 EUR se califică aproape toate pentru TVA 9%.
+Apartamentele de 3 camere și penthouse-urile depășesc frecvent limita de valoare și sunt impozitate cu TVA 21%.
+Diferența TVA 9% vs 21% la un apartament de 150.000 EUR (fără TVA): 13.500 EUR vs 31.500 EUR — o diferență de 18.000 EUR ce trebuie inclusă în planificarea bugetului.
+
+Important: verifică cu developer-ul și cu avocatul situația specifică TVA pentru apartamentul vizat și situația ta fiscală personală. Regulile se aplică individual.`,
+      },
+      {
+        id: 'tipuri-cautate',
+        h2: `Ce tipuri de apartamente au cele mai bune oferte în Titan–Pallady în 2026`,
+        continut: `Piața nu este uniformă. Anumite tipologii au promoții mai bune decât altele — din motive structurale.
+
+Garsonierele și apartamentele de 2 camere sub 65.000 EUR
+Cel mai competitiv segment. Developer-ii sunt mai motivați să mențină prețuri atractive pentru că:
+• Sunt cel mai vândut segment pe piață (volum mare = vânzare rapidă)
+• Finanțabile prin Noua Casă (program guvernamental)
+• Cerere mare din diasporă pentru investiții locative
+Promoțiile disponibile: avans 45% cu discount 8–12%, TVA 9% inclusiv, pachete cu parcare la preț redus.
+
+Apartamentele de 2 camere cu terase generoase (50–90 mp terasă)
+Tipologie rară, cu prime de 15–25% față de apartamentele fără terasă. Dar aceeași raritate face ca developer-ii să ofere prețuri promoționale pentru a stimula vânzarea — mai ales la etajele superioare unde prețul total poate fi peste bugetul cumpărătorilor tipici.
+Exemplu real: Neofort 50 are 2 camere cu terasă de 87,20 mp la preț promoțional 176.900 EUR+TVA față de prețul standard de 196.260 EUR+TVA.
+
+Apartamentele de 3 camere în faza de construcție (nu finalizate)
+Cel mai bun raport preț/suprafață se găsește la 3 camere în proiecte cu predare în 12–18 luni. Avansul 45% la 3 camere de 80–90 mp poate aduce prețul total sub 170.000 EUR+TVA în zona Pallady Est — echivalentul unor 3 camere vechi de bloc în aceeași zonă, dar cu toate avantajele construcției noi.
+
+Unitățile de parter cu grădini private
+Segment de nișă cu cerere specifică (familii cu copii mici, proprietari de animale). Developer-ii subevaluează uneori aceste unități față de etajele superioare — prețul/mp al parterului cu grădină poate fi mai mic cu 5–10% față de etajele medii ale aceluiași bloc, deși valoarea de utilizare e adesea superioară pentru profilul potrivit de cumpărător.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre promoțiile la apartamente noi în Titan–Pallady`,
+        h3: `Răspunsuri directe la cele mai comune întrebări`,
+        continut: `Merită să aștepți promoții mai bune sau să cumperi acum?
+Zona Titan–Pallady are un deficit structural de ofertă față de cerere. Prețurile au crescut în medie cu 8–11% anual în ultimii 8 ani fără întrerupere semnificativă. „A aștepta promoții mai bune" a costat cumpărătorii din 2020 aproximativ 30–40% din prețul apartamentului până în 2026. Prețul cu avans 45% disponibil acum este probabil mai mic decât prețul standard de mâine.
+
+Care e diferența reală între prețul de pre-lansare și prețul final?
+În mod normal 10–20% pentru proiecte noi din Titan–Pallady. Cu cât intri mai devreme în proiect, cu atât prețul este mai mic — dar cu atât mai mare este riscul (timp de așteptare mai lung, incertitudine construcție). Echilibrul optim este de obicei la faza în care structura este deja ridicată și predarea este la 12–18 luni.
+
+Locul de parcare trebuie luat odată cu apartamentul?
+Nu este obligatoriu din punct de vedere legal. Dar practic, developerii limitează numărul de locuri de parcare — după ce toate apartamentele sunt vândute, locurile de parcare rămase se vând separat la prețuri de piață (sau nu se mai vând deloc). Recomandarea: cumpără locul de parcare la avans odată cu apartamentul.
+
+Poate fi negociat prețul la un apartament nou?
+În proiecte cu vânzări bune (zona Nicolae Teclu), negocierea prețului/mp este practic imposibilă. Ce poate fi negociat: prețul parcării, includerea unor finisaje suplimentare, flexibilitate la calendar plăți. În proiecte cu vânzări mai lente sau în fazele avansate de construcție când developer-ul vrea să înțeze finanțarea pentru finalizare, există mai mult loc de negociere.
+
+Ce se întâmplă cu prețul promoțional dacă nu obții creditul?
+Depinde de contractul semnat. Un antecontract bine redactat include clauze de reziliere fără penalități dacă finanțarea nu este obținută. Verifică explicit această clauză înainte de semnare.`,
+      },
+    ],
+  },
+
 }
 
 export const ARTICOLE_LIST = [
+  { slug: 'merita-apartament-titan-pallady-2026', titlu: 'Merită să Cumperi Apartament Nou în Titan – Theodor Pallady în 2026? Analiză Completă', data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min', image: '/blog/merita-apartament-titan-pallady-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă cu prețuri reale, avantaje, dezavantaje, calcul randament și ce trebuie verificat înainte de semnare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
+  { slug: 'apartamente-noi-titan-pallady-teclu-promotii-2026', titlu: 'Apartamente Noi în Titan, Pallady și Nicolae Teclu: Cele Mai Bune Promoții în 2026', data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min', image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Tipuri reale de reduceri, cum identifici o ofertă autentică și calculul corect al avansului mare.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'top-ansambluri-rezidentiale-noi-bucuresti-2026', titlu: 'Top Ansambluri Rezidențiale Noi din București în 2026 — Ghid Complet pentru Cumpărători', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min', image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cum alegi corect un ansamblu rezidențial nou din București în 2026? Criterii de evaluare, zonele cu cel mai mare potențial, cum verifici un developer și greșelile frecvente de evitat.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'E-Proprietatea 2026: Tot ce Trebuie să Știi Despre Noul Sistem de Impozitare', data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '12 min', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Ce este E-Proprietatea, cum schimbă impozitarea imobiliară din 2026 și ce înseamnă concret pentru proprietarii și cumpărătorii de apartamente noi în București.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: true },
   { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețurile Apartamentelor din București în 2026: Scad sau Nu?', data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21% și ce înseamnă pentru cumpărătorii de azi.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'tva-apartamente-noi-2026', titlu: 'TVA la Apartamente Noi în 2026: Cât Plătești și Cum Eviți Surprizele Fiscale', data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min', image: '/blog/tva-apartamente-noi-bucuresti-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
