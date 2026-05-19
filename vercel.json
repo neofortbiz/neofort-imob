@@ -1,1 +1,10 @@
-{}
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "neofort-imob.vercel.app" }],
+      "destination": "https://www.neofort.ro/$1",
+      "permanent": true
+    }
+  ]
+}
