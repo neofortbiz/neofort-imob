@@ -314,6 +314,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ro" className={`${barlow.variable} ${barlowCondensed.variable}`}>
       <head>
+        {/* Google Tag Manager */}
+        <Script id="gtm-head" strategy="beforeInteractive">{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5H96CLHJ');`}</Script>
         {/* Preconnect pentru fonturi */}
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
@@ -321,16 +323,10 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }} />
       </head>
       <body>
+        {/* Google Tag Manager (noscript) */}
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H96CLHJ" height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe></noscript>
         {children}
         <ClientProviders />
-        {/* Google Analytics GA4 — next/script afterInteractive pentru Next.js App Router */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-S1SVYDK27J" strategy="afterInteractive" />
-        <Script id="ga4-init" strategy="afterInteractive">{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-S1SVYDK27J');
-        `}</Script>
       </body>
     </html>
   )
