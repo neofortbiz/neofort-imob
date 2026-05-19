@@ -2,6 +2,7 @@ import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
 import { Barlow, Barlow_Condensed } from 'next/font/google'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
+import Script from 'next/script'
 
 const barlow = Barlow({
   subsets: ['latin'],
@@ -313,14 +314,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ro" className={`${barlow.variable} ${barlowCondensed.variable}`}>
       <head>
-        {/* Google Analytics GA4 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1SVYDK27J" />
-        <script dangerouslySetInnerHTML={{ __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-S1SVYDK27J', { page_path: window.location.pathname });
-        `}} />
         {/* Preconnect pentru fonturi */}
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
@@ -330,6 +323,14 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <ClientProviders />
+        {/* Google Analytics GA4 — next/script afterInteractive pentru Next.js App Router */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-S1SVYDK27J" strategy="afterInteractive" />
+        <Script id="ga4-init" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-S1SVYDK27J');
+        `}</Script>
       </body>
     </html>
   )
