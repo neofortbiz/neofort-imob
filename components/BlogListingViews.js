@@ -1,17 +1,16 @@
 'use client'
 import { useState, useEffect } from 'react'
 
-// Badge vizualizari pentru cardurile din listing blog
-// Citeste din localStorage numarul de vizualizari per articol
-// Afiseaza doar daca > 0 (primul visitor nu vede 0 vizualizari)
+// Badge vizualizari pe cardurile din listing blog — citeste din Redis (global)
 export default function BlogListingViews({ slug }) {
   const [views, setViews] = useState(null)
 
   useEffect(() => {
-    try {
-      const v = parseInt(localStorage.getItem('neofort_views_' + slug) || '0')
-      if (v > 0) setViews(v)
-    } catch {}
+    // GET — doar citeste, nu incrementeaza
+    fetch(`/api/views?slug=${slug}`)
+      .then(r => r.json())
+      .then(d => { if (d.views > 0) setViews(d.views) })
+      .catch(() => {})
   }, [slug])
 
   if (!views) return null
@@ -23,7 +22,7 @@ export default function BlogListingViews({ slug }) {
         <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
         <circle cx="12" cy="12" r="3"/>
       </svg>
-      {views}
+      {views.toLocaleString('ro-RO')}
     </span>
   )
 }

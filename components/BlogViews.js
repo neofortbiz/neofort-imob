@@ -1,24 +1,23 @@
 'use client'
 import { useState, useEffect } from 'react'
 
+// Afiseaza si incrementeaza vizualizarile pe pagina articolului
 export default function BlogViews({ slug }) {
   const [views, setViews] = useState(null)
 
   useEffect(() => {
-    try {
-      const key = 'neofort_views_' + slug
-      const current = parseInt(localStorage.getItem(key) || '0')
-      const newVal = current + 1
-      localStorage.setItem(key, newVal)
-      setViews(newVal)
-    } catch {}
+    // POST — incrementeaza la intrarea pe pagina
+    fetch(`/api/views?slug=${slug}`, { method: 'POST' })
+      .then(r => r.json())
+      .then(d => setViews(d.views))
+      .catch(() => {})
   }, [slug])
 
   if (!views) return null
   return (
     <>
       <span>·</span>
-      <span>{views} {views === 1 ? 'vizualizare' : 'vizualizări'}</span>
+      <span>{views.toLocaleString('ro-RO')} {views === 1 ? 'vizualizare' : 'vizualizări'}</span>
     </>
   )
 }
