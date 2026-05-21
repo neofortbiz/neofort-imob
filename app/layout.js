@@ -27,7 +27,7 @@ export const metadata = {
       { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
       { url: '/logo.avif' },
     ],
-    apple: '/logo.avif',
+    apple: '/apple-touch-icon.png',
   },
   title: {
     default: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă',

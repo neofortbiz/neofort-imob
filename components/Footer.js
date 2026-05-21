@@ -24,7 +24,7 @@ export default function Footer() {
 
       <footer style={{ background: '#050f09' }}>
       <div className="max-w-7xl mx-auto px-6 pt-10 pb-6">
-        {/* GRID 4 COLOANE */}
+        {/* GRID 4 COLOANE — desktop: 5 col, mobile: 2x2 + brand full width */}
         <div className="grid grid-cols-2 md:grid-cols-[1.8fr_1fr_1fr_1fr_1.2fr] gap-6 mb-8">
 
           {/* COL 1 — BRAND */}
@@ -68,7 +68,6 @@ export default function Footer() {
             <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Zone</h3>
             {[
   ...(() => {
-                // Zone dinamice din date — top 5 dupa numar ansambluri, fara sectoare
                 const count = {}
                 ANSAMBLURI_ACTIVE.forEach(a =>
                   (a.zone || [])
@@ -116,16 +115,18 @@ export default function Footer() {
             ))}
           </div>
 
-          {/* COL 5 — DATE FIRMA */}
-          <div className="col-span-2 md:col-span-4 lg:col-span-1">
+          {/* COL 5 — DATE FIRMA — acelasi font/spatiere ca celelalte coloane */}
+          <div>
             <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Neofort IMO SRL</h3>
-            <div className="text-xs space-y-1.5" style={{ color: '#bbb' }}>
-              <div>CUI: RO53874087</div>
-              <div>Nr. Reg. Com.: J40/8972/2026</div>
-              <div>Str. Theodor Aman Pictor nr. 11,</div>
-              <div>Sector 1, București 010776</div>
-              <div>Program: L–V 10:00–18:00</div>
-            </div>
+            {[
+              'CUI: RO53874087',
+              'Nr. Reg. Com.: J40/8972/2026',
+              'Str. Theodor Aman Pictor nr. 11,',
+              'Sector 1, București 010776',
+              'Program: L–V 10:00–18:00',
+            ].map(line => (
+              <div key={line} className="block text-xs py-1 mb-0.5" style={{ color: '#bbb' }}>{line}</div>
+            ))}
           </div>
         </div>
 
