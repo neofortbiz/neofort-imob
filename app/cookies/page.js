@@ -33,8 +33,9 @@ const COOKIE_TYPES = [
     culoare: '#0369a1',
     descriere: 'Ne ajuta sa intelegem cum este folosit site-ul, in forma anonimizata.',
     exemple: [
-      { nume: '_ga, _gid', durata: '2 ani / 24 ore', scop: 'Google Analytics — masurarea traficului (IP anonim)' },
-      { nume: '_gat', durata: '1 minut', scop: 'Limitarea frecventei cererilor catre Google Analytics' },
+      { nume: '_ga', durata: '2 ani', scop: 'Google Analytics 4 — identifică sesiunile unice de utilizator' },
+      { nume: `_ga_GZHF3RNER3`, durata: '2 ani', scop: 'Google Analytics 4 — menține starea sesiunii pentru proprietatea neofort.ro' },
+      { nume: 'cookie_consent', durata: 'Permanent', scop: 'Salvează preferința dvs. privind cookie-urile (acceptat/refuzat)' },
     ],
   },
   {

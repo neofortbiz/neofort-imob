@@ -26,7 +26,17 @@ const SECTIUNI = [
   { id: '3', titlu: '3. Scopurile si Temeiul Legal al Prelucrarii', continut: `Prelucrarea datelor se face in baza: executarii unui contract (raspuns la solicitari, programare vizionari), interesului legitim (imbunatatirea serviciilor prin date analitice anonimizate), consimtamantului (marketing direct - retractabil oricand) si obligatiilor legale (contabilitate, raspuns autoritati).` },
   { id: '4', titlu: '4. Durata Pastrarii Datelor', continut: `Date de contact: 3 ani de la ultima interactiune. Date analitice: maxim 14 luni. Corespondenta email: 3 ani. Date contabile: 5 ani conform legii. La expirarea perioadei, datele sunt sterse sau anonimizate.` },
   { id: '5', titlu: '5. Drepturile Dumneavoastra', continut: `Conform GDPR aveti: dreptul de acces (Art. 15), dreptul la rectificare (Art. 16), dreptul la stergere (Art. 17), dreptul la restrictionarea prelucrarii (Art. 18), dreptul la portabilitate (Art. 20), dreptul la opozitie (Art. 21). Puteti depune plangere la ANSPDCP (www.dataprotection.ro). Trimiteti solicitari la info@neofort-biz.ro - raspundem in 30 de zile.` },
-  { id: '6', titlu: '6. Destinatarii Datelor', continut: `Nu vindem datele dumneavoastra. Datele pot fi accesate de: furnizori tehnici (Resend, Vercel - cu contracte GDPR), autoritati publice (la solicitare legala), consultantii nostri (pentru procesarea cererii). Toti furnizorii sunt in UE sau au mecanisme aprobate de transfer.` },
+  { id: '6', titlu: '6. Destinatarii Datelor', continut: `Datele dumneavoastra pot fi transmise catre:
+
+Google LLC (Google Analytics 4) — servicii de analiza web, exclusiv daca ati acordat consimtamantul prin bannerul de cookie-uri. Datele sunt anonimizate. Optare afara: tools.google.com/dlpage/gaoptout.
+
+Vercel Inc. — hosting si operare tehnica a site-ului.
+
+Resend — serviciu trimitere email pentru formularele de contact.
+
+Autoritati publice — exclusiv la solicitare legala.
+
+Nu vindem sau transferam datele catre terte parti in scopuri comerciale.` }
   { id: '7', titlu: '7. Securitatea Datelor', continut: `Implementam: conexiuni HTTPS/TLS, acces restrictionat pe baza need-to-know, politici de securitate interna, monitorizare pentru detectarea breselor, formare continua a personalului. In cazul unei brese, notificam ANSPDCP in 72h si utilizatorii afectati.` },
   { id: '8', titlu: '8. Modificari ale Politicii', continut: `Aceasta politica poate fi actualizata periodic. Data ultimei actualizari este indicata mai jos. Continuarea utilizarii site-ului constituie acceptarea politicii actualizate.\n\nUltima actualizare: Mai 2026` },
 ]
