@@ -36,7 +36,7 @@ Resend — serviciu trimitere email pentru formularele de contact.
 
 Autoritati publice — exclusiv la solicitare legala.
 
-Nu vindem sau transferam datele catre terte parti in scopuri comerciale.` }
+Nu vindem sau transferam datele catre terte parti in scopuri comerciale.` },
   { id: '7', titlu: '7. Securitatea Datelor', continut: `Implementam: conexiuni HTTPS/TLS, acces restrictionat pe baza need-to-know, politici de securitate interna, monitorizare pentru detectarea breselor, formare continua a personalului. In cazul unei brese, notificam ANSPDCP in 72h si utilizatorii afectati.` },
   { id: '8', titlu: '8. Modificari ale Politicii', continut: `Aceasta politica poate fi actualizata periodic. Data ultimei actualizari este indicata mai jos. Continuarea utilizarii site-ului constituie acceptarea politicii actualizate.\n\nUltima actualizare: Mai 2026` },
 ]
