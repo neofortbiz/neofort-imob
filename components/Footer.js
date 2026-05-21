@@ -25,7 +25,7 @@ export default function Footer() {
       <footer style={{ background: '#050f09' }}>
       <div className="max-w-7xl mx-auto px-6 pt-10 pb-6">
         {/* GRID 4 COLOANE — desktop: 5 col, mobile: 2x2 + brand full width */}
-        <div className="grid grid-cols-2 md:grid-cols-[1.8fr_1fr_1fr_1fr_1.2fr] gap-6 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-[1.8fr_1fr_1fr_1fr_1.2fr] gap-x-3 gap-y-6 mb-8">
 
           {/* COL 1 — BRAND */}
           <div className="col-span-2 md:col-span-1">
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
 
           {/* COL 2 — ANSAMBLURI */}
-          <div>
+          <div className="pl-2 md:pl-0">
             <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Ansambluri</h3>
             {[
               { href: '/ansambluri-rezidentiale', label: 'La vânzare' },
@@ -100,7 +100,7 @@ export default function Footer() {
           </div>
 
           {/* COL 4 — COMPANIE */}
-          <div>
+          <div className="pl-2 md:pl-0">
             <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Companie</h3>
             {[
               { href: '/despre-noi', label: 'Despre noi' },
@@ -120,10 +120,10 @@ export default function Footer() {
             <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Neofort IMO SRL</h3>
             {[
               'CUI: RO53874087',
-              'Nr. Reg. Com.: J40/8972/2026',
-              'Str. Theodor Aman Pictor nr. 11,',
-              'Sector 1, București 010776',
-              'Program: L–V 10:00–18:00',
+              'J40/8972/2026',
+              'Str. Aman Pictor nr. 11',
+              'Sector 1, Buc. 010776',
+              'L–V 10:00–18:00',
             ].map(line => (
               <div key={line} className="block text-xs py-1 mb-0.5" style={{ color: '#bbb' }}>{line}</div>
             ))}
