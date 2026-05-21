@@ -416,7 +416,6 @@ export default function HomePageClient() {
                             Recent accesat
                           </div>
                         )}
-                        <div className="absolute top-1.5 right-1.5 w-5 h-5 rounded bg-white bg-opacity-90 flex items-center justify-center text-[11px] text-gray-400">♡</div>
                       </div>
                       <div className="p-2">
                         <div className="text-[9px] text-gray-500 uppercase tracking-wider mb-0.5">{a.zona}</div>

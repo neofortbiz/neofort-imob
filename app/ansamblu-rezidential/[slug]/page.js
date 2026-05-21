@@ -224,8 +224,6 @@ export default function AnsambluPage({ params }) {
                   {a.adresa}
                 </div>
               </div>
-              <button className="w-8 h-8 rounded-lg flex items-center justify-center text-sm flex-shrink-0" style={{ border: '0.5px solid rgba(255,255,255,0.2)', background: 'rgba(255,255,255,0.07)', color: 'rgba(255,255,255,0.6)' }}>♡</button>
-            </div>
 
             {/* QUICK STATS */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
