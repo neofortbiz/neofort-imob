@@ -2432,9 +2432,581 @@ Depinde de contractul semnat. Un antecontract bine redactat include clauze de re
     ],
   },
 
+  'lege-chirii-2026-proprietari-chiriasi': {
+    titlu: `Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași`,
+    tag: 'Legislație', tagColor: '#7c3aed',
+    data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min',
+    autor: 'igor-calutu',
+    image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif',
+    descriere: `Ce schimbă noua lege a chiriilor în 2026 pentru proprietari și chiriași din România? Obligația declarării contractelor, impozitarea corectă, riscuri și ce trebuie să faci acum — ghid complet cu date concrete.`,
+    keywords: ['lege chirii 2026 romania', 'declarare contract chirie anaf 2026', 'impozit chirii 2026', 'obligatii proprietar chirias 2026', 'contract inchiriere legal romania', 'penalitati nedeclarare chirii anaf'],
+    hashtags: ['#LegeChirii2026', '#ImpozitChirii', '#ANAF2026', '#ProprietarChirias', '#NeofortIMO'],
+    cuprins: [
+      { id: 'ce-schimba', titlu: `Ce s-a schimbat concret în 2026` },
+      { id: 'obligatii-proprietar', titlu: `Obligațiile proprietarului — ce trebuie să faci acum` },
+      { id: 'impozitare', titlu: `Cum se calculează impozitul pe chirii în 2026` },
+      { id: 'riscuri', titlu: `Riscuri și sancțiuni pentru nedeclarare` },
+      { id: 'drepturi-chirias', titlu: `Ce drepturi are chiriașul` },
+      { id: 'contract-corect', titlu: `Cum arată un contract de închiriere legal în 2026` },
+      { id: 'investitor', titlu: `Ce înseamnă pentru investitorii imobiliari` },
+      { id: 'faq', titlu: `Întrebări frecvente` },
+    ],
+    sectiuni: [
+      {
+        id: 'ce-schimba',
+        h2: `Ce s-a schimbat concret în legislația chiriilor în 2026`,
+        continut: `2026 a adus cea mai semnificativă reformă a pieței de închiriere din România din ultimii 15 ani. Schimbările nu sunt marginale — ele afectează direct fiecare proprietar care are cel puțin un apartament în chirie și fiecare chiriaș care vrea să locuiască legal.
+
+Principalele modificări în vigoare din 2026:
+
+Înregistrarea obligatorie a contractelor la ANAF. Orice contract de închiriere pentru imobile rezidențiale trebuie înregistrat la ANAF în maximum 30 de zile de la semnare. Procedura se face online prin Spațiul Privat Virtual (SPV) sau la ghișeu. Fără înregistrare, contractul nu produce efecte legale față de terți — inclusiv față de autoritățile fiscale.
+
+Impozit la sursă reținut prin platforme. Proprietarii care închiriază prin platforme de tip Airbnb, Booking sau similare au obligația de a declara și plăti impozit trimestrial, nu anual. Platformele au obligația de a raporta automat veniturile la ANAF din 2026 — eliminând practic posibilitatea de a „uita" veniturile din chirii pe termen scurt.
+
+E-Factura pentru chirii comerciale. Contractele de închiriere pentru spații comerciale intră în sistemul e-Factura obligatoriu din iulie 2026. Nu se aplică chiriilor rezidențiale între persoane fizice, dar afectează proprietarii cu IMM-uri sau PFA.
+
+Indexarea chiriilor limitată. Legea introduce un plafon de indexare anuală a chiriei la maximum IPC (Indicele Prețurilor de Consum) + 2%. Un proprietar nu mai poate crește chiria cu 30% peste noapte — creșterile trebuie notificate cu minimum 60 de zile înainte și sunt limitate la formula legală.
+
+Depozitul de garanție — reguli clare. Depozitul nu poate depăși echivalentul a 3 chirii lunare. Trebuie restituit în maximum 30 de zile de la predarea cheilor, documentat prin proces-verbal. Reținerea nejustificată a depozitului poate fi contestată la ANPC și ANAF.`,
+      },
+      {
+        id: 'obligatii-proprietar',
+        h2: `Obligațiile proprietarului în 2026 — checklist complet`,
+        continut: `Dacă ai un apartament în chirie în 2026 și nu ai parcurs încă acești pași, ești expus unor riscuri fiscale și juridice reale.
+
+Pasul 1 — Înregistrează contractul la ANAF
+Intri pe anaf.ro → Spațiul Privat Virtual → Declarații → D212 (Declarația unică pentru venituri din chirii). Termenul: 30 de zile de la semnarea contractului. Pentru contractele existente înainte de 2026 și neînregistrate, există o perioadă de amnistie fiscală care expiră la 31 decembrie 2026 — după această dată, ANAF poate aplica amenzi retroactiv.
+
+Pasul 2 — Calculează și declară venitul corect
+Venitul impozabil din chirii = chiria brută minus cota forfetară de 20% cheltuieli deductibile. Exemplu concret: chirie 500 EUR/lună = 6.000 EUR/an → venitul net impozabil = 6.000 × 80% = 4.800 EUR → impozit 10% = 480 EUR/an + contribuție CASS 10% dacă depășești 6 salarii minime anuale (aproximativ 2.400 EUR/an în 2026).
+
+Pasul 3 — Emite chitanțe sau transferuri bancare
+ANAF poate verifica dacă chitanțele sau transferurile bancare corespund cu chiria declarată. Plata în numerar fără chitanță este un risc major — nu există dovadă a plății pentru niciuna dintre părți.
+
+Pasul 4 — Actualizează contractul cu clauzele legale 2026
+Contractele vechi fără clauze privind indexarea, depozitul și condițiile de reziliere pot fi contestate în instanță. Un model de contract actualizat este disponibil pe insse.ro și pe site-ul Ministerului Justiției.
+
+Pasul 5 — Asigurare PAD obligatorie
+Orice imobil dat în chirie trebuie să aibă asigurare PAD (Polița de Asigurare împotriva Dezastrelor) valabilă. Fără PAD, în caz de sinistru nu poți obține despăgubiri și poți fi tras la răspundere de chiriaș.`,
+      },
+      {
+        id: 'impozitare',
+        h2: `Cum se calculează corect impozitul pe chirii în 2026 — exemple reale`,
+        continut: `Impozitarea veniturilor din chirii a fost simplificată față de anii anteriori, dar rămâne un subiect de confuzie pentru mulți proprietari. Iată calculul exact pentru situații concrete.
+
+Scenariul 1 — Un apartament, chirie 500 EUR/lună (6.000 EUR/an):
+• Venit brut anual: 6.000 EUR (~30.000 lei la cursul 2026)
+• Deducere forfetară 20%: 6.000 lei
+• Venit net impozabil: 24.000 lei
+• Impozit pe venit 10%: 2.400 lei/an (~200 lei/lună)
+• CASS: se datorează dacă venitul net depășește 6 salarii minime brute (în 2026: ~19.200 lei) → DA, se datorează 10% × 19.200 lei = 1.920 lei/an
+• Total taxe: ~4.320 lei/an (~360 lei/lună) pe o chirie de 2.500 lei/lună
+
+Scenariul 2 — Două apartamente, chirie totală 1.200 EUR/lună (14.400 EUR/an):
+• Venit brut anual: ~72.000 lei
+• Deducere 20%: 14.400 lei
+• Venit net: 57.600 lei
+• Impozit 10%: 5.760 lei
+• CASS 10% pe plafonul maxim (24 salarii minime = ~76.800 lei): 7.680 lei
+• Total: ~13.440 lei/an (~1.120 lei/lună)
+
+Randamentul net după taxe:
+La un apartament cumpărat cu 130.000 EUR și dat în chirie cu 500 EUR/lună, randamentul brut e 4,6%. După taxe (~360 lei/lună), randamentul net scade la aproximativ 3,6% — în continuare superior dobânzilor bancare și inflației planificate pentru 2026-2027.
+
+Atenție: calculele de mai sus sunt orientative. Situația fiscală individuală depinde de total venituri, numărul de proprietăți și forma juridică (persoană fizică vs PFA). Consultați un contabil autorizat pentru situația dvs. specifică.`,
+      },
+      {
+        id: 'riscuri',
+        h2: `Riscuri și sancțiuni pentru nedeclararea chiriilor în 2026`,
+        continut: `ANAF a anunțat oficial că 2026 este anul verificărilor masive ale veniturilor din chirii. Instrumentele pe care le au la dispoziție sunt mai puternice ca oricând.
+
+Cum detectează ANAF chiriile nedeclarate:
+• Sesizări de la foști chiriași — în disputele cu proprietarii, chiriașii pot semnala ANAF că plătesc chirie fără contract
+• Analiza transferurilor bancare — tranzacțiile regulate lunare cu sumă fixă sunt automat semnalizate
+• Cruce referire cu utilitățile — consumul de energie electrică raportat de Electrica, CEZ, ENEL la o adresă unde proprietarul nu locuiește
+• Raportările platformelor Airbnb și Booking — automate din 2026
+• Registrul Comerțului + ANAF — IMM-urile care deduc chirii ca și cheltuieli creează automat o pistă pentru verificarea proprietarului
+
+Sancțiuni pentru nedeclarare:
+• Amendă contravențională: 500–5.000 lei pentru nedepunerea declarației
+• Impozit restant + dobânzi: 0,03% pe zi pentru fiecare zi de întârziere (aproximativ 10,95%/an)
+• Penalitate de întârziere: 0,08% pe zi după 90 de zile (aproximativ 29%/an)
+• Inspecție fiscală extinsă: verificarea tuturor veniturilor din ultimii 5 ani
+• În cazuri grave (evaziune fiscală): dosar penal, sechestru pe proprietate
+
+Exemplu concret: un proprietar cu 2 apartamente nedeclarate timp de 3 ani la chirie de 500 EUR/lună fiecare poate ajunge să plătească retroactiv impozit + dobânzi + penalități de 3–4× valoarea impozitului normal datorat. Nu merită riscul.`,
+      },
+      {
+        id: 'drepturi-chirias',
+        h2: `Ce drepturi are chiriașul în 2026 — protecții legale noi`,
+        continut: `Reforma din 2026 a întărit semnificativ drepturile chiriașilor, care erau sistematic dezavantajați față de proprietari în legislația anterioară.
+
+Dreptul la contract înregistrat. Chiriașul poate solicita la ANAF să verifice dacă contractul lui este înregistrat. Dacă nu este, poate semnala situația fără nicio consecință pentru el — proprietarul este cel sancționat.
+
+Protecție împotriva evacuării abuzive. Evacuarea unui chiriaș cu contract valabil fără hotărâre judecătorească este ilegală și constituie infracțiune. Proprietarul care schimbă yala, taie utilitățile sau intimidează chiriașul riscă dosar penal.
+
+Dreptul la indexare transparentă. Proprietarul trebuie să notifice în scris (email cu confirmare sau scrisoare recomandată) intenția de a majora chiria cu minimum 60 de zile înainte. Majorarea nu poate depăși IPC + 2%. Chiriașul are dreptul să refuze și să rezilieze contractul fără penalități dacă majorarea depășește plafonul legal.
+
+Dreptul la condiții decente. Proprietarul are obligația de a menține locuința în stare locuibilă pe toată durata contractului. Defecțiunile structurale (instalații electrice, sanitare, termoizolație) sunt în sarcina proprietarului, nu a chiriașului.
+
+Restituirea depozitului. Dacă proprietarul nu restituie depozitul în 30 de zile de la predarea cheilor sau nu furnizează o justificare scrisă pentru reținerea lui, chiriașul poate acționa în instanță. Instanțele acordă din ce în ce mai des și daune morale în aceste cazuri.`,
+      },
+      {
+        id: 'contract-corect',
+        h2: `Cum arată un contract de închiriere legal și solid în 2026`,
+        continut: `Un contract de închiriere bine redactat protejează ambele părți și elimină 90% din disputele care ajung în instanță. Iată elementele obligatorii și cele recomandate pentru 2026.
+
+Elemente obligatorii legal:
+• Identitatea completă a proprietarului și chiriașului (CNP, adresă, CI)
+• Descrierea exactă a imobilului (adresă, suprafață, nr. cadastral)
+• Durata contractului (determinată sau nedeterminată)
+• Valoarea chiriei și modalitatea de plată
+• Cuantumul depozitului de garanție
+• Starea imobilului la predare (proces-verbal + fotografii anexate)
+• Clauza de indexare (plafonată la IPC + 2%)
+• Condițiile de reziliere și preavizul
+
+Elemente recomandate suplimentar:
+• Clauza de subînchiriere (permisă sau nu)
+• Lista bunurilor mobile incluse și starea lor
+• Cine plătește utilitățile și cum se stabilesc cotele
+• Clauza de remediere a defecțiunilor (termen, responsabilitate)
+• Clauza privind animalele de companie
+• Clauza privind fumatul
+• Clauza privind modificările aduse imobilului de chiriaș
+
+Sfat practic: Nu folosi modele gratuite de pe internet care nu sunt actualizate cu legislația 2026. Investiția de 200-400 lei pentru un contract redactat de avocat sau notar se amortizează din prima lună de chirie fără probleme.`,
+      },
+      {
+        id: 'investitor',
+        h2: `Ce înseamnă noua lege pentru investitorii imobiliari din România`,
+        continut: `Pentru investitorii care dețin apartamente în chirie — sau care se gândesc să cumpere pentru a închiria — schimbările din 2026 au implicații directe asupra randamentului și strategiei.
+
+Impactul pe randament net: taxele mai riguroase reduc randamentul brut din chirii cu 1-2 puncte procentuale față de scenariul „chirie la negru". Dar investitorii care declarau deja corect nu sunt afectați — pentru ei se schimbă doar administrativ, nu financiar.
+
+Oportunitate: proprietarii care nu au declarat anterior și acum intră în legalitate beneficiază de deducerea forfetară de 20% — o facilitate care reduce efectiv baza impozabilă și care nu era accesibilă celor care nu declarau.
+
+Portofoliu vs apartament singular: investitorii cu 3+ apartamente ar trebui să analizeze dacă forma de PFA sau SRL microîntreprindere (impozit 1% sau 3% pe venituri) este mai avantajoasă față de impozitarea ca persoană fizică. La venituri totale din chirii peste 60.000 lei/an, diferența poate fi de mii de lei anual.
+
+Noua Casă și chiria: apartamentele cumpărate prin programul Noua Casă nu pot fi închiriate în primii 5 ani de la achiziție. Încălcarea acestei restricții duce la rezilierea garanției de stat și rambursarea imediată a creditului — verificați condițiile contractuale înainte de orice decizie.
+
+Concluzia pentru investitori: piața de închiriere din București rămâne atractivă în 2026 în ciuda fiscalizării mai stricte. Transparența impusă de lege elimină proprietarii care acționau ilegal din competiție, stabilizând prețurile chiriilor și reducând concurența neloială.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre legea chiriilor 2026`,
+        h3: `Răspunsuri directe la cele mai căutate întrebări`,
+        continut: `Trebuie să înregistrez contractul dacă închiriez unui prieten sau rudă?
+Da, obligația de înregistrare se aplică indiferent de relația cu chiriașul. Singura excepție este comodatul (împrumutul de folosință gratuit) — dar chiar și acesta trebuie documentat în scris dacă persoana locuiește în imobil.
+
+Ce se întâmplă cu contractele deja în derulare, semnate în 2024-2025?
+Contractele existente trebuie înregistrate la ANAF până la 31 decembrie 2026 în cadrul perioadei de amnistie. După această dată, contribuabilii care nu s-au conformizat pot fi verificați retroactiv pentru ultimii 5 ani.
+
+Pot să dau apartamentul în chirie dacă am credit ipotecar pe el?
+Da, în general, dar verificați contractul de credit — unele bănci includ o clauză care obligă notificarea băncii înainte de închiriere. Nerespectarea clauzei nu anulează contractul de chirie, dar poate fi considerată abatere față de bancă.
+
+Chiriașul poate să refuze să plătească chiria dacă apartamentul are defecțiuni?
+Parțial. Chiriașul poate reține o parte din chirie proporțional cu gravitatea defecțiunii, dar nu poate refuza plata integrală fără hotărâre judecătorească. Procedura corectă: notificare scrisă proprietarului cu termen rezonabil de remediere.
+
+Cât de des poate proprietarul vizita apartamentul?
+Legea nu specifică o frecvență maximă, dar vizitele trebuie anunțate cu minim 24 de ore înainte și nu pot fi excesive. Vizitele repetate și neanunțate pot constitui hărțuire și pot justifica rezilierea contractului de chiriaș.
+
+Dacă chiriașul nu plătește, cât durează evacuarea legală?
+În medie 3-6 luni prin procedura judiciară standard (somație, acțiune în instanță, executare silită). Există o procedură accelerată pentru contracte autentificate notarial cu clauze executorii — aceasta poate reduce termenul la 4-8 săptămâni.`,
+      },
+    ],
+  },
+
+  'credit-ipotecar-2026-dobanzi-conditii': {
+    titlu: `Credit Ipotecar în 2026: Dobânzi, Condiții și Cât Te Costă Real un Apartament Nou`,
+    tag: 'Finanțare', tagColor: '#0369a1',
+    data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min',
+    autor: 'sasha-calutu',
+    image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif',
+    descriere: `Cum arată creditul ipotecar în 2026? Dobânzi reale, ROBOR vs IRCC, condiții de eligibilitate, calcule concrete și ce bănci oferă cele mai bune condiții — ghid complet pentru cumpărătorii de apartamente noi din București.`,
+    keywords: ['credit ipotecar 2026 romania', 'dobanda credit imobiliar 2026', 'IRCC ROBOR 2026', 'conditii credit apartament nou', 'cat costa credit ipotecar 2026', 'noua casa program 2026 credit'],
+    hashtags: ['#CreditIpotecar2026', '#IRCC2026', '#ApartamentNou', '#FinantareImobiliara', '#NeofortIMO'],
+    cuprins: [
+      { id: 'piata-credit-2026', titlu: `Piața creditului ipotecar în mai 2026` },
+      { id: 'ircc-vs-robor', titlu: `IRCC vs ROBOR — care e mai bun în 2026` },
+      { id: 'calcul-real', titlu: `Calculul real al costului unui credit` },
+      { id: 'conditii-eligibilitate', titlu: `Condiții de eligibilitate — ce verifică banca` },
+      { id: 'banci-comparatie', titlu: `Comparație bănci principale în 2026` },
+      { id: 'noua-casa', titlu: `Noua Casă 2026 — mai merită?` },
+      { id: 'strategie', titlu: `Strategia optimă de finanțare în 2026` },
+      { id: 'faq', titlu: `Întrebări frecvente despre credite ipotecare` },
+    ],
+    sectiuni: [
+      {
+        id: 'piata-credit-2026',
+        h2: `Piața creditului ipotecar în mai 2026 — contextul macro`,
+        continut: `2026 reprezintă cel mai favorabil moment pentru creditare din ultimii 4 ani. BNR a redus dobânda de politică monetară de 3 ori consecutiv în 2025-2026, ajungând la 5,25% în mai 2026, față de maximul de 7% din 2023. Inflația a revenit în intervalul țintit (2,5-3,5%), ceea ce a permis BNR să relaxeze politica monetară fără riscuri majore.
+
+IRCC (Indicele de Referință pentru Creditele Consumatorilor) — principalul indice pentru creditele ipotecare cu dobândă variabilă în România — a scăzut de la 6,17% în T1 2024 la 5,58% în T1 2026, cu tendință de scădere continuă spre 5,2-5,0% în T3-T4 2026, conform estimărilor BNR.
+
+ROBOR 3M, folosit pentru creditele mai vechi și unele produse noi, a coborât la 5,45% în mai 2026.
+
+Ce înseamnă practic:
+• Un credit de 250.000 lei (aproximativ 50.000 EUR) pe 30 de ani costă acum cu aproximativ 400-600 lei/lună mai puțin față de maximul din 2023
+• Eligibilitatea pentru credit a crescut — la același venit, poți împrumuta cu 15-20% mai mult față de 2023
+• Cererea de credite ipotecare a crescut cu 23% în primele 4 luni ale anului, conform datelor BNR
+
+Față de zona euro, România rămâne scumpă la credite (BCE a coborât dobânda la 2,25%) — dar diferența s-a redus față de 2023-2024, iar fundamentele economice românești (creștere economică, inflație în scădere) sugerează convergență continuă.`,
+      },
+      {
+        id: 'ircc-vs-robor',
+        h2: `IRCC vs ROBOR în 2026 — care indicator îți este mai avantajos`,
+        continut: `Aceasta este una dintre cele mai frecvente întrebări ale cumpărătorilor de apartamente în 2026. Răspunsul depinde de situația ta specifică și de orizontul de timp al creditului.
+
+IRCC (Indicele de Referință pentru Creditele Consumatorilor):
+• Se calculează trimestrial pe baza mediei tranzacțiilor interbancare din trimestrul anterior
+• Reacționează mai lent la schimbările de pe piață față de ROBOR
+• Avantaj: mai puțin volatil pe termen scurt
+• Dezavantaj: poate rămâne ridicat mai mult timp după ce ROBOR a scăzut
+• Valoare mai 2026: 5,58%
+• Credit standard IRCC: IRCC + marjă bancară (1,5-2,5%) = 7,08-8,08% DAE
+
+ROBOR 3 luni:
+• Se actualizează zilnic pe baza ofertelor din piața interbancară
+• Mai reactiv — scade rapid când BNR reduce dobânda
+• Avantaj: beneficiezi imediat de reducerile BNR
+• Dezavantaj: crește rapid în perioade de tensiune monetară
+• Valoare mai 2026: 5,45%
+• Credit standard ROBOR: ROBOR + marjă (1,5-2,5%) = 6,95-7,95% DAE
+
+Concluzia mai 2026: ROBOR este ușor mai avantajos decât IRCC în prezent (+0,13 puncte diferență). Dar dacă estimezi că BNR va continua reducerile în T3-T4 2026, ambii indici vor scădea — diferența nu este esențială. Mai importantă este marja fixă adăugată de bancă (negociabilă!) și celelalte costuri (asigurare, evaluare, comisioane).
+
+Creditul cu dobândă fixă pe primii 3-5 ani:
+Câteva bănci (BCR, Raiffeisen) oferă dobândă fixă pe primii 3-5 ani, după care trece la variabilă. Dobânda fixă este de regulă cu 0,5-1% mai mare față de variabila curentă — dar oferă predictibilitate totală în perioada inițială. Recomandat pentru cumpărătorii cu buget strâns care nu pot absorbi variații lunare mari.`,
+      },
+      {
+        id: 'calcul-real',
+        h2: `Calculul real al costului unui credit ipotecar în 2026 — fără surprize`,
+        continut: `Cel mai frecvent greșit este compararea prețului afișat al apartamentului cu rata lunară a creditului, ignorând costurile totale reale. Iată un calcul complet și onest.
+
+Exemplu concret: apartament 2 camere 55 mp, preț 135.000 EUR + TVA 9% = 147.150 EUR total = ~735.750 lei.
+
+Structura finanțării (avans 20%):
+• Avans: 147.000 lei (20%)
+• Credit necesar: 588.750 lei (80%)
+• Durata: 30 de ani
+
+Costul lunar estimat (IRCC 5,58% + marjă 2% = 7,58% DAE total):
+• Rata lunară principală: ~4.150 lei
+• Asigurare viață obligatorie: ~150-250 lei/lună
+• Asigurare imobil (PAD + facultativă): ~80-120 lei/lună
+• Total lunar real: ~4.380-4.520 lei/lună
+
+Costul total pe 30 de ani:
+• Total plătit băncii: ~1.494.000 lei
+• Din care dobânzi: ~905.250 lei
+• Costul real al apartamentului (avans + credit total): ~1.641.000 lei (~328.000 EUR)
+
+Comparație cu chiria:
+O chirie echivalentă pentru 2 camere în aceeași zonă: 2.200-2.800 lei/lună. Rata creditului este cu ~1.600-2.300 lei mai mare — dar după 30 de ani ești proprietarul unui activ care valorează estimativ 200.000-250.000 EUR, față de zero din chirie.
+
+Costurile ascunse de care nu ți spune nimeni:
+• Evaluare bancară a imobilului: 500-800 lei (plătit de client)
+• Comision analiză dosar: 0 (interzis legal) sau inclus în DAE
+• Asigurare de viață: obligatorie, costul variază cu vârsta și starea de sănătate
+• Fond de risc FNGCIMM (Noua Casă): 0,25% anual din soldul creditului
+• Impozit E-Proprietatea: ~600-1.200 lei/an din 2026
+• Fondul de întreținere al blocului: 50-200 lei/lună`,
+      },
+      {
+        id: 'conditii-eligibilitate',
+        h2: `Condiții de eligibilitate pentru credit ipotecar în 2026 — ce verifică banca`,
+        continut: `Știind exact ce caută banca, poți să îți optimizezi dosarul înainte de a aplica și să eviți refuzurile care îți afectează scorul de credit.
+
+Veniturile eligibile:
+• Salariu net: venitul din contractul de muncă pe perioadă nedeterminată (sau determinată, dar cu minim 1 an vechime)
+• PFA/II: media ultimilor 2 ani fiscali declarați la ANAF (nu ultimele 2 luni)
+• Dividende: acceptate de unele bănci (BCR, ING) dacă sunt regulate pe 2 ani
+• Chirii: acceptate cu contracte înregistrate la ANAF
+• Pensii: acceptate integral
+• Venituri din strainătate: acceptate cu documente traduse și apostilate
+
+Gradul maxim de îndatorare: 40% (regula BNR) — suma tuturor ratelor lunare (credit nou + credite existente) nu poate depăși 40% din venitul net lunar. Pentru creditele în EUR pe venituri în lei, banca aplică un stres de curs valutar de +35.5%.
+
+Vechimea la actualul angajator: minim 3-6 luni pentru contracte standard. Unele bănci acceptă și mai puțin dacă ai continuitate în același domeniu.
+
+Istoricul de credit (Biroul de Credit): orice incident de plată din ultimii 7 ani poate fi motiv de refuz sau de condiții mai stricte. Verifică-ți situația GRATUIT la bir.ro înainte de a aplica.
+
+Vârsta: creditul trebuie să expire înainte de 65-70 de ani (variază per bancă). Un credit de 30 de ani aplicat la 40 de ani poate fi refuzat sau redus la 25 de ani.
+
+Avansul: minim 15% pentru Noua Casă, 20-25% pentru credit standard. Avans mai mare = dobândă mai mică (risc mai redus pentru bancă).`,
+      },
+      {
+        id: 'banci-comparatie',
+        h2: `Comparație principale bănci pentru credit ipotecar în mai 2026`,
+        continut: `Piața bancară din România are 10+ instituții care oferă credite ipotecare. Diferențele dintre oferte pot fi de sute de lei pe lună — compararea înainte de a semna este obligatorie.
+
+BCR:
+Cea mai mare bancă din România, cel mai mare volum de credite ipotecare. Dobândă: IRCC + 1,85% (cea mai mică marjă de pe piață pentru clienți cu dosar solid). Avantaj: rețea de sucursale extinsă, aprobare rapidă (5-7 zile lucrătoare). Dezavantaj: asigurare de viață obligatorie prin BCR Asigurări, ușor mai scumpă.
+
+BRD:
+Dobândă: IRCC + 2,1%. Avantaj: flexibilitate la tipuri de venituri acceptate, aprobare rapidă (3-5 zile). Dezavantaj: comisioane de administrare lunare (15-20 lei).
+
+ING Bank:
+Dobândă: IRCC + 2,0%. Avantaj: proces 100% digital, aprobare în 24-48h, fără comision de rambursare anticipată. Dezavantaj: nu are Noua Casă, rețea fizică mai limitată.
+
+Raiffeisen:
+Dobândă: IRCC + 2,2%, dar cu opțiune de dobândă fixă primii 5 ani la 7,5% (predictibilitate). Avantaj: condiții flexibile pentru PFA și antreprenori. Dezavantaj: marjă mai mare față de BCR.
+
+CEC Bank:
+Dobândă: IRCC + 1,9%. Avantaj: condiții bune pentru bugetari și pensionari, Noua Casă disponibil. Dezavantaj: proces de aprobare mai lent (10-15 zile), tehnologie mai veche.
+
+Concluzia: Nu alege banca după reclamă sau după unde ai contul de salariu — compară DAE (Dobânda Anuală Efectivă) care include toate costurile. O diferență de 0,3% DAE pe un credit de 600.000 lei pe 30 de ani înseamnă ~54.000 lei diferență totală.`,
+      },
+      {
+        id: 'noua-casa',
+        h2: `Noua Casă 2026 — mai merită sau nu față de creditul standard`,
+        continut: `Programul guvernamental Noua Casă (fostul Prima Casă) a suferit modificări semnificative în 2025-2026. Iată analiza actualizată.
+
+Ce s-a schimbat la Noua Casă în 2026:
+• Plafonul maxim al creditului: 119.000 EUR (redus față de 140.000 EUR anterior)
+• Avansul minim: 15% (neschimbat)
+• Garanția de stat: 50% din valoarea creditului (neschimbat)
+• Dobânda: ROBOR 3M + 2% (neschimbat ca formulă)
+• Comisionul de garantare FNGCIMM: 0,25%/an din soldul creditului (nou)
+• Restricția: imobilul nu poate fi vândut sau închiriat în primii 5 ani
+
+Avantajele Noua Casă:
+• Avans mai mic (15% vs 20-25% standard)
+• Garanția de stat elimină nevoia de garanții suplimentare
+• Accesibil pentru cumpărătorii cu istoricul de credit mai puțin solid
+
+Dezavantajele Noua Casă față de creditul standard în 2026:
+• Plafonul de 119.000 EUR elimină majoritatea apartamentelor de 2-3 camere noi din București (prețuri medii 130.000-200.000 EUR)
+• Restricția de 5 ani — nu poți închiria sau vinde. Dacă situația ta de viață se schimbă (job în altă țară, divorț, necesitate de lichiditate), ești blocat
+• Dobânda Noua Casă (ROBOR + 2% = ~7,45%) este ușor mai mare față de BCR standard (IRCC + 1,85% = ~7,43%) în mai 2026 — diferența aproape a dispărut
+• Comisionul de garantare FNGCIMM adaugă 0,25%/an — pe 30 de ani, suma totală este semnificativă
+
+Concluzia: în 2026, Noua Casă este avantajoasă DOAR dacă nu ai suficient avans (sub 20%) și/sau vrei să cumperi un apartament sub 119.000 EUR. Pentru apartamentele noi din București peste acest prag, creditul standard la BCR sau ING oferă condiții similare sau mai bune, fără restricțiile programului.`,
+      },
+      {
+        id: 'strategie',
+        h2: `Strategia optimă de finanțare pentru un apartament nou în 2026`,
+        continut: `Bazat pe datele de piață din mai 2026, iată recomandarea practică în funcție de situația ta.
+
+Dacă ai avans sub 20% și buget sub 120.000 EUR: Noua Casă rămâne cea mai accesibilă opțiune. Asigură-te că îți asumi restricția de 5 ani.
+
+Dacă ai avans 20%+ și buget 130.000-200.000 EUR (cel mai frecvent scenariu pentru București): credit standard la BCR sau ING. Compară DAE și nu suma ratei lunare. Negociează marja — băncile au flexibilitate de 0,1-0,3% pentru dosare solide.
+
+Dacă ai venituri variabile (PFA, antreprenor, dividende): BRD sau Raiffeisen sunt mai flexibili. Pregătește documentația fiscală pentru ultimii 2 ani, nu doar pentru ultimele luni.
+
+Momentul optim pentru aplicare: acum, în 2026, înainte de potențiala creștere a prețurilor apartamentelor din T3-T4 2026 anticipată de analiști. Fiecare scădere a IRCC de 0,25% reduces rata cu ~60-80 lei/lună la un credit de 600.000 lei — dar dacă prețul apartamentului crește cu 5% în așteptarea reducerii dobânzii, ai pierdut mai mult.
+
+Pasul practic imediat: obține o pre-aprobare bancară (gratuită, fără obligații) înainte de a vizita ansambluri. Pre-aprobarea îți arată exact bugetul disponibil și îți permite să negociezi ca un cumpărător serios, nu ca unul care „vede ce se poate".`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre creditul ipotecar în 2026`,
+        h3: `Răspunsuri directe la cele mai căutate întrebări`,
+        continut: `Pot lua credit ipotecar dacă am deja un alt credit (auto, personal)?
+Da, dar gradul total de îndatorare nu poate depăși 40% din venitul net. Dacă ai deja o rată de 1.000 lei/lună și venitul net e 5.000 lei, poți lua credit suplimentar cu rată de maxim 1.000 lei/lună. Rambursarea creditelor existente înainte de dosarul ipotecar poate crește semnificativ suma aprobată.
+
+Cât durează aprobarea unui credit ipotecar în 2026?
+ING: 24-48 ore pentru pre-aprobare, 7-10 zile pentru aprobare finală. BCR/BRD: 5-10 zile lucrătoare. CEC/Banca Transilvania: 10-15 zile. În practică, dosarul complet și fără deficiențe reduce termenele la minim.
+
+Pot renegocia dobânda după ce am luat creditul?
+Da — refinanțarea la altă bancă sau renegocierea cu banca actuală este legală și frecventă. Costul: evaluare nouă (500-800 lei) + notariat (400-600 lei). Dacă diferența de dobândă e de 0,5%+, refinanțarea se amortizează în 6-12 luni.
+
+Ce se întâmplă dacă nu mai pot plăti rata?
+Banca trimite somații la 30, 60, 90 de zile de restanță. La 90 de zile, creditul devine restant în Biroul de Credit. La 180 de zile, banca poate începe executarea silită a garanției (apartamentul). Soluția preventivă: discuți cu banca din prima lună de dificultate — restructurarea creditului (extinderea duratei, reducerea temporară a ratei) este întotdeauna preferabilă față de executarea silită.
+
+Dobânda mai scade în 2026?
+Consensul analiștilor este că BNR va mai reduce dobânda cu 0,5-0,75 puncte procentuale în T3-T4 2026, dacă inflația rămâne sub control. Asta ar reduce IRCC spre 5,0-5,2% până la finele anului — o reducere de ~100-130 lei/lună la un credit standard de 600.000 lei.`,
+      },
+    ],
+  },
+
+  'zone-bucuresti-potential-crestere-2027': {
+    titlu: `Zonele din București cu Cel Mai Mare Potențial de Creștere în 2027 — Analiză Investițională`,
+    tag: 'Investiții', tagColor: '#b45309',
+    data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min',
+    autor: 'igor-calutu',
+    image: '/blog/zone-bucuresti-potential-crestere-2027.avif',
+    descriere: `Care sunt zonele din București cu cel mai mare potențial de creștere a prețurilor în 2027? Analiză investițională bazată pe date reale: infrastructură, cerere vs ofertă, prețuri actuale și estimări fundamentate pentru investitorii imobiliari.`,
+    keywords: ['zone bucuresti investitie imobiliara 2027', 'mosilor eminescu preturi apartamente', 'piata muncii imobiliare 2027', 'militari sector 6 investitie', 'crestere preturi apartamente bucuresti 2027', 'investitie imobiliara bucuresti unde'],
+    hashtags: ['#InvestitieImobiliara', '#ZoneBucuresti2027', '#MosilorEminescu', '#PiataMuncii', '#NeofortIMO'],
+    cuprins: [
+      { id: 'metodologie', titlu: `Metodologia analizei — cum evaluăm potențialul` },
+      { id: 'mosilor-eminescu', titlu: `Moșilor–Eminescu — zona boutique în ascensiune` },
+      { id: 'piata-muncii', titlu: `Piața Muncii–Dristor — deficit de ofertă față de cerere` },
+      { id: 'militari', titlu: `Militari–Gorjului — randamentul din chirii imbatabil` },
+      { id: 'zone-risc', titlu: `Zone de evitat sau cu risc ridicat în 2027` },
+      { id: 'titan-pallady-2027', titlu: `Titan–Pallady în 2027 — maturat dar solid` },
+      { id: 'recomandari', titlu: `Recomandări practice per profil de investitor` },
+      { id: 'faq', titlu: `Întrebări frecvente despre investiții imobiliare 2027` },
+    ],
+    sectiuni: [
+      {
+        id: 'metodologie',
+        h2: `Metodologia analizei — cum evaluăm potențialul de creștere al unei zone`,
+        continut: `O analiză investițională imobiliară serioasă nu se bazează pe feeling sau pe ce a crescut cel mai mult în trecut. Creșterea anterioară nu garantează creșterea viitoare — dimpotrivă, zonele care au crescut agresiv tind să se stabilizeze.
+
+Indicatorii pe care îi analizăm:
+
+1. Raportul cerere/ofertă
+Cel mai puternic predictor al creșterii de preț. O zonă unde cererea (numărul de cumpărători interesați) depășește consistent oferta disponibilă (apartamente de vânzare) va vedea creșteri de preț. Măsurăm: numărul de anunțuri active vs numărul de tranzacții finalizate în ultimele 12 luni.
+
+2. Pipeline de infrastructură
+Proiectele de infrastructură anunțate sau în construcție (metrou, drumuri, parcuri, centre comerciale) cresc valoarea zonelor adiacente înainte de finalizare — efectul de anticipare. Investitorul inteligent cumpără înainte de inaugurare, nu după.
+
+3. Prețul/mp față de mediana orașului
+Zonele cu prețuri sub mediana Bucureștiului (aproximativ 1.850 EUR/mp în mai 2026) au mai mult spațiu de creștere față de cele care au depășit-o semnificativ.
+
+4. Compoziția demografică și tendințele de migrare
+Zonele care atrag tineri profesioniști (25-35 ani) și familii tinere au fundamentele cererii viitoare — atât pentru cumpărare cât și pentru chirie.
+
+5. Calitatea stocului de locuințe disponibil
+Zonele cu stoc vechi (blocuri 1970-1990 predominante) și puține construcții noi vor vedea o primă de calitate pentru proiectele noi, dar nu neapărat o creștere generală a prețului.`,
+      },
+      {
+        id: 'mosilor-eminescu',
+        h2: `Moșilor–Eminescu (Sectorul 2) — zona boutique care preia ștafeta de la Floreasca`,
+        continut: `Dacă Floreasca a fost zona premium a anilor 2015-2022, Moșilor–Eminescu se profilează ca succesoarea ei pentru 2025-2030. Fundamentele sunt solide și rare.
+
+De ce Moșilor–Eminescu are potențial excepțional:
+
+Raritatea ofertei noi. Zona este deja construită dens — nu există terenuri mari disponibile pentru dezvoltări masive. Proiectele noi sunt de tip boutique (20-80 apartamente), ceea ce menține raritatea și premia de preț. Spre deosebire de Titan-Pallady unde au apărut sute de proiecte simultane, Moșilor va rămâne cu ofertă limitată.
+
+Poziția semicentrală autentică. La 15 minute de Piața Romană, 10 minute de Obor, 20 minute de Universitate — fără metrou propriu dar cu acces bun la multiple rute de transport public. Caracterul urban autentic (clădiri interbelice, cafenele, piețe de cartier) atrage un profil demografic cu putere de cumpărare mai mare.
+
+Prețuri actuale: 2.000-2.800 EUR/mp pentru apartamente noi — sub nivelul Floreasca (3.000-4.500 EUR/mp) dar cu tendință clară de convergență.
+
+Estimare 2027: +15-22% față de mai 2026. La un apartament de 2 camere cumpărat acum la 180.000 EUR, aprecierea estimată în 2 ani: 27.000-40.000 EUR — plus randamentul din chirie de 2.500-3.200 lei/lună.
+
+Proiectele Neofort în zonă: Neofort 78 (Moșilor-Eminescu) și Neofort 11 (Eminescu-Viitorului) sunt poziționate exact în nucleul acestei creșteri. Prețurile actuale reflectă un discount față de potențialul pe termen mediu.`,
+      },
+      {
+        id: 'piata-muncii',
+        h2: `Piața Muncii–Dristor — deficit structural de ofertă față de cerere`,
+        continut: `Zona Piața Muncii este poate cel mai interesant caz de dezechilibru cerere/ofertă din București în 2026. Site-ul neofort.ro înregistrează lunar 5.300+ click-uri organice pe căutări legate de această zonă — semnal clar al unei cereri reale nesatisfăcute.
+
+Avantajele structurale:
+
+Două linii de metrou la intersecție. Stațiile Piața Muncii (M3) și Dristor 1 (M2) se află la 5-10 minute de mers pe jos una de alta — acces la două magistrale simultan. Asta înseamnă că un locuitor poate ajunge în Centru, Victoriei, Drumul Taberei sau Militari fără schimb de metrou sau cu un singur schimb.
+
+Park Lake Plaza la 500m. Cel mai modern centru comercial din estul Capitalei, cu cinema IMAX, hypermarket și 130+ magazine — infrastructură comercială completă integrată în zonă.
+
+Parcul Național la mers pe jos. 10 hectare de spațiu verde, lac, terenuri sportive — raritate în zonele cu metrou din București.
+
+Deficit de ofertă: suprafața construibilă din zona strictă Piața Muncii este aproape epuizată. Proiectele disponibile sunt puține și se vând rapid. Cererea (atestată de traficul online și numărul de tranzacții) depășește constant oferta.
+
+Prețuri actuale: 1.600-2.200 EUR/mp pentru apartamente noi.
+
+Estimare 2027: +18-25% față de mai 2026 — una din cele mai optimiste estimări din portofoliul nostru de analiză.
+
+Risc: zona nu are ofertă suficientă pentru un investitor care vrea să cumpere acum — pozițiile disponibile sunt limitate și se vând în primele săptămâni de la lansare.`,
+      },
+      {
+        id: 'militari',
+        h2: `Militari–Gorjului (Sectorul 6) — randamentul din chirii cel mai bun din București`,
+        continut: `Militari este zona unde matematica chiriilor funcționează cel mai bine în 2026. Nu are atmosfera de cartier a Moșilor sau raritatea Pieței Muncii, dar are ceva mai concret pentru investitor: cerere stabilă de chiriași și prețuri de achiziție competitive.
+
+Profilul chiriașului din Militari-Gorjului:
+Angajați în marile companii din zona de vest și nord-vest a Bucureștiului (Lukoil, Telekom, Orange, Auchan logistică, Carrefour). Acești angajați preferă locuința cât mai aproape de job față de locul de origine — cerere structurală stabilă, independentă de sezon.
+
+Metroul M3 — magistrala cea mai nouă:
+Linia M3 (Preciziei-Anghel Saligny) a transformat accesibilitatea Militarilor. Stațiile Gorjului și Lujerului conectează zona la centru în 15-20 minute. Magistrala M3 a adus o primă de preț de 8-12% pentru proprietățile adiacente față de 2020.
+
+Randament din chirii mai 2026:
+• Garsonieră 36 mp: preț achiziție ~70.000 EUR, chirie ~300-360 EUR/lună → randament brut 5,1-6,2%
+• 2 camere 50 mp: preț ~105.000 EUR, chirie ~400-480 EUR/lună → randament brut 4,6-5,5%
+• Randament net după taxe: 3,5-4,3% — cel mai bun din București pentru investiții sub 110.000 EUR
+
+Prețuri actuale: 1.200-1.700 EUR/mp pentru apartamente noi — cel mai accesibil segment cu metrou din București.
+
+Estimare 2027: +12-18%. Creștere mai moderată față de Moșilor sau Piața Muncii, dar compensată de randamentul din chirie superior.`,
+      },
+      {
+        id: 'zone-risc',
+        h2: `Zone de evitat sau cu risc ridicat pentru investiție în 2027`,
+        continut: `O analiză onestă include și zonele unde riscul depășește potențialul. Iată unde nu am recomanda investiția în 2026-2027.
+
+Berceni–Olteniței (Sectorul 4):
+Ofertă masivă de proiecte noi în ultimii 3 ani, fără infrastructură comercială sau de transport proporțională cu creșterea populației. Prețuri stagnante sau cu creșteri sub inflație. Cerere de chiriași slabă față de ofertă.
+
+Colentina–Fundeni (Sectorul 2, nord):
+Potențial teoretic interesant (în apropierea Spitalului Fundeni, acces la A3), dar infrastructura comercială și de transport rămâne insuficientă. Ritmul de dezvoltare mai lent decât estimările inițiale ale developerilor.
+
+Pantelimon–Voluntari (zona limitrofă):
+Nu beneficiază de restricțiile de construcție din intravilan — oferta poate crește nelimitat, ceea ce limitează aprecierea. Lipsa metrourului (proiectul M5 rămâne incert) menține zona în dezavantaj față de concurență.
+
+Zone supraexpuse din Titan-Pallady:
+Nu toate subzonele din Titan-Pallady sunt egale. Blocurile departe de metrou (1,5km+) și fără facilități comerciale directe au o lichiditate mai scăzută și creșteri de preț mai moderate față de nucleul zonei.
+
+Principiul general al riscului: cu cât o zonă a crescut mai agresiv în ultimii 3 ani fără fundamentele infrastructurii în loc, cu atât riscul de stagnare sau corecție e mai mare în 2027-2028.`,
+      },
+      {
+        id: 'titan-pallady-2027',
+        h2: `Titan–Pallady în 2027 — zona matură, solidă dar nu mai emergentă`,
+        continut: `Titan-Pallady a dominat conversația imobiliară din București în 2019-2025. Întrebarea legitimă pentru 2027: mai are potențial sau este deja la maturitate?
+
+Răspunsul nuanțat: depinde de subzonă și de orizontul de timp.
+
+Ce funcționează în continuare:
+Fundamentele Titan-Pallady rămân solide — metrou, retail, parcuri, prețuri competitive față de nord. Cererea nu a dispărut, s-a stabilizat. Nu există riscul de corecție semnificativă în absența unui șoc macroeconomic major.
+
+Ce s-a schimbat față de 2019-2022:
+• Prețurile au crescut cu 85-95% față de 2018 — spațiul de creștere accelerată s-a redus semnificativ
+• Oferta de proiecte noi rămâne ridicată — nu mai există raritatea care a alimentat creșterile anterioare
+• Investitorii care au cumpărat în 2018-2020 la 800-900 EUR/mp vând acum la 1.500-1.900 EUR/mp, creând concurență pe piața secundară
+
+Estimare 2027 pentru Titan-Pallady: +8-13% față de mai 2026 — creștere solidă, în linie cu inflația și piața generală, dar sub potențialul zonelor emergente.
+
+Concluzia: Titan-Pallady rămâne o investiție sigură cu risc scăzut și randament moderat. Nu este locul cel mai potrivit pentru investitorii care caută creștere accelerată în 2027 — dar este excelent pentru cumpărătorii care vor o locuință solidă sau o investiție cu lichiditate garantată.`,
+      },
+      {
+        id: 'recomandari',
+        h2: `Recomandări practice per profil de investitor pentru 2027`,
+        continut: `Nu există o strategie universală în imobiliare. Recomandarea potrivită depinde fundamental de buget, orizont de timp și obiectiv.
+
+Investitor cu buget 70.000-100.000 EUR, obiectiv randament din chirii:
+**Militari-Gorjului** — garsonieră sau 2 camere compact. Randament net estimat 3,5-4,3%, cerere stabilă de chiriași, risc scăzut. Nu cel mai spectaculos ca apreciere, dar cel mai predictibil.
+
+Investitor cu buget 150.000-200.000 EUR, obiectiv apreciere capital:
+**Moșilor-Eminescu sau Piața Muncii** — 2 camere în proiect nou boutique. Potențial de apreciere 15-25% în 2 ani, plus chirie 2.500-3.000 lei/lună. Lichiditate bună la revânzare.
+
+Investitor cu buget 200.000-350.000 EUR, profil de risc moderat:
+**Portofoliu diversificat** — 1 apartament Moșilor + 1 garsonieră Militari. Diversificarea geografică reduce riscul de stagnare zonală.
+
+Cumpărător pentru locuință proprie cu buget 130.000-190.000 EUR:
+**Titan-Pallady** rămâne cel mai bun raport suprafață-facilitate-preț din București. Calitate de viață excelentă, risc de scădere a valorii minimal, suprafețe generoase.
+
+Investitor din diasporă cu buget variabil:
+**Moșilor-Eminescu** sau **Piața Muncii** — administrare ușoară prin agenție, chiriași stabili (profesioniști, nu studenți), lichiditate bună. Aprecierea de capital compensează randamentul din chirie mai modest față de Militari.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre investiții imobiliare în București pentru 2027`,
+        h3: `Răspunsuri directe pentru investitorii care iau decizii acum`,
+        continut: `Este 2026 un moment bun sau rău pentru a investi în imobiliare?
+Contextul macroeconomic din 2026 — dobânzi în scădere, inflație în control, creștere economică moderată — este unul dintre cele mai favorabile din ultimul deceniu pentru achiziții imobiliare. Prețurile sunt ridicate față de 2018, dar fundamentele cererii (deficit de locuințe, urbanizare continuă, interes din diasporă) susțin valoarea pe termen mediu.
+
+Cât de lichid este un apartament în București — cât durează vânzarea?
+În zonele cu metrou (Titan-Pallady, Piața Muncii, Moșilor), un apartament la preț de piață se vinde în 30-90 de zile. În zonele periferice fără metrou, poate dura 6-18 luni. Lichiditatea este un criteriu esențial pentru investitorii care pot fi nevoiți să vândă rapid.
+
+Trebuie să am o firmă pentru a investi în imobiliare?
+Nu este obligatoriu. Persoana fizică poate deține oricâte proprietăți. SRL sau PFA devin avantajoase fiscal când veniturile totale din chirii depășesc 60.000-80.000 lei anual sau când cumperi pentru a revinde rapid (activitate comercială). Consultați un contabil înainte de a decide forma juridică.
+
+Ce se întâmplă cu prețurile dacă economia intră în recesiune?
+Datele istorice din România arată că prețurile apartamentelor în București au scăzut semnificativ doar în 2008-2011 (-40%) și ușor în 2020 (-3-5%). Corecțiile majore au apărut din crize bancare sistemice, nu din recesiuni normale. Zonele cu metrou și cerere structurală (Piața Muncii, Moșilor) sunt mai rezistente la corecții față de periferiile supraofertate.
+
+Airbnb mai are sens în București în 2026?
+Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările locale ale PMB privind cazarea scurtă au crescut costurile administrative. Randamentul Airbnb (8-12% brut) rămâne superior chiriei standard (5-6% brut), dar necesită implicare activă sau externalizare către un property manager (cost 20-25% din venituri).`,
+      },
+    ],
+  },
+
 }
 
 export const ARTICOLE_LIST = [
+  { slug: 'lege-chirii-2026-proprietari-chiriasi', titlu: 'Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași', data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min', image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+  { slug: 'credit-ipotecar-2026-dobanzi-conditii', titlu: 'Credit Ipotecar în 2026: Dobânzi, Condiții și Cât Te Costă Real un Apartament Nou', data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min', image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită în 2026 față de creditul standard.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'zone-bucuresti-potential-crestere-2027', titlu: 'Zonele din București cu Cel Mai Mare Potențial de Creștere în 2027 — Analiză Investițională', data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min', image: '/blog/zone-bucuresti-potential-crestere-2027.avif', tag: 'Investiții', tagColor: '#b45309', rezumat: 'Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională bazată pe date reale: cerere vs ofertă, prețuri actuale și estimări pentru 2027.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'merita-apartament-titan-pallady-2026', titlu: 'Merită să Cumperi Apartament Nou în Titan – Theodor Pallady în 2026? Analiză Completă', data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min', image: '/blog/merita-apartament-titan-pallady-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă cu prețuri reale, avantaje, dezavantaje, calcul randament și ce trebuie verificat înainte de semnare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
   { slug: 'apartamente-noi-titan-pallady-teclu-promotii-2026', titlu: 'Apartamente Noi în Titan, Pallady și Nicolae Teclu: Cele Mai Bune Promoții în 2026', data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min', image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Tipuri reale de reduceri, cum identifici o ofertă autentică și calculul corect al avansului mare.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'top-ansambluri-rezidentiale-noi-bucuresti-2026', titlu: 'Top Ansambluri Rezidențiale Noi din București în 2026 — Ghid Complet pentru Cumpărători', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min', image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cum alegi corect un ansamblu rezidențial nou din București în 2026? Criterii de evaluare, zonele cu cel mai mare potențial, cum verifici un developer și greșelile frecvente de evitat.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },

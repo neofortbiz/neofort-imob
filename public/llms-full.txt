@@ -1,5 +1,5 @@
 # Neofort IMO — Imobiliare București (VERSIUNE COMPLETA)
-# Actualizat: 2026-05-19
+# Actualizat: 2026-05-22
 # Versiune: llms-full.txt (date complete pentru sisteme AI/RAG)
 
 ## Companie
@@ -492,6 +492,27 @@ Puncte de interes:
 Descriere scurtă: Ansamblul Rezidențial Boutique Exclusivist Neofort 8, zona Tepeș Vodă-Muncii, Sector 2. 32 apartamente S+P+2ET+M finalizate, de la 146.000€+TVA. Studio, 2, 3 și 4 camere. Metrou Piața Muncii la 500m. Clasă energetică A, fațadă ventilată, centrală Bosch condensare, tâmplărie Salamander 7 camere, parchet Kronotex, uși PINUM.
 
 ## Blog — articole publicate
+
+### Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași
+Data: 20 Mai 2026
+Autor: Igor Calutu
+Tag: Legislație
+URL: https://www.neofort.ro/blog/lege-chirii-2026-proprietari-chiriasi
+Rezumat: Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.
+
+### Credit Ipotecar în 2026: Dobânzi, Condiții și Cât Te Costă Real un Apartament Nou
+Data: 18 Mai 2026
+Autor: Sasha Calutu
+Tag: Finanțare
+URL: https://www.neofort.ro/blog/credit-ipotecar-2026-dobanzi-conditii
+Rezumat: IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită în 2026 față de creditul standard.
+
+### Zonele din București cu Cel Mai Mare Potențial de Creștere în 2027 — Analiză Investițională
+Data: 15 Mai 2026
+Autor: Igor Calutu
+Tag: Investiții
+URL: https://www.neofort.ro/blog/zone-bucuresti-potential-crestere-2027
+Rezumat: Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională bazată pe date reale: cerere vs ofertă, prețuri actuale și estimări pentru 2027.
 
 ### Merită să Cumperi Apartament Nou în Titan – Theodor Pallady în 2026? Analiză Completă
 Data: 16 Mai 2026
