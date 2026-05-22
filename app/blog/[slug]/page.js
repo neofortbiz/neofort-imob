@@ -74,7 +74,37 @@ export default function ArticolPage({ params }) {
       logo: { '@type': 'ImageObject', url: `${BASE}/logo.avif` },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE}/blog/${params.slug}` },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', 'h2', '.article-lead', '.faq-answer'],
+      xpath: [
+        "/html/head/title",
+        "/html/head/meta[@name='description']/@content",
+      ],
+    },
   }
+
+  // FAQPage schema — generat din sectiunea faq a articolului
+  const faqSectiune = a.sectiuni?.find(s => s.id === 'faq')
+  const faqSchema = faqSectiune ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqSectiune.continut
+      .split('\n\n')
+      .filter(b => b.trim() && b.includes('\n'))
+      .map(block => {
+        const lines = block.trim().split('\n')
+        const q = lines[0]
+        const a2 = lines.slice(1).join(' ').trim()
+        if (!q || !a2) return null
+        return {
+          '@type': 'Question',
+          name: q,
+          acceptedAnswer: { '@type': 'Answer', text: a2 },
+        }
+      })
+      .filter(Boolean),
+  } : null
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -89,6 +119,7 @@ export default function ArticolPage({ params }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/blog" />
       <main className="min-h-screen bg-white">
@@ -164,9 +195,36 @@ export default function ArticolPage({ params }) {
                 <section key={s.id} id={s.id} className="mb-10">
                   <h2 className="text-xl font-bold text-gray-900 mb-4 mt-8">{s.h2}</h2>
                   {s.h3 && <h3 className="text-base font-semibold text-gray-700 mb-3">{s.h3}</h3>}
-                  <div className="text-sm text-gray-700 leading-8 whitespace-pre-line">
-                    {s.continut}
-                  </div>
+                  {s.id === 'faq'
+                    ? (
+                      <div className="space-y-4 mt-4">
+                        {s.continut.split('\n\n').filter(b => b.trim()).map((block, i) => {
+                          const lines = block.trim().split('\n')
+                          const question = lines[0]
+                          const answer = lines.slice(1).join('\n').trim()
+                          if (!answer) return (
+                            <div key={i} className="text-sm text-gray-700 leading-8">{block}</div>
+                          )
+                          return (
+                            <div key={i} className="rounded-xl overflow-hidden border border-gray-100">
+                              <div className="flex items-start gap-3 px-5 py-4" style={{ background: '#f8faf9' }}>
+                                <span className="text-sm font-bold flex-shrink-0 mt-0.5" style={{ color: '#2d7a3a' }}>?</span>
+                                <p className="text-sm font-semibold text-gray-900 leading-snug">{question}</p>
+                              </div>
+                              <div className="px-5 py-4 bg-white">
+                                <p className="text-sm text-gray-700 leading-7 whitespace-pre-line">{answer}</p>
+                              </div>
+                            </div>
+                          )
+                        })}
+                      </div>
+                    )
+                    : (
+                      <div className="text-sm text-gray-700 leading-8 whitespace-pre-line">
+                        {s.continut}
+                      </div>
+                    )
+                  }
                 </section>
               ))}
 
