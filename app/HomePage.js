@@ -5,6 +5,12 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_LITE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII, NR_PORTOFOLIU } from '@/data/siteConfig'
+import { ARTICOLE_LIST } from '@/data/blog'
+
+// Ultimele 4 articole sortate dupa data - se actualizeaza automat la articole noi
+const BLOG_RECENTE = [...ARTICOLE_LIST]
+  .sort((a, b) => new Date(b.dataISO) - new Date(a.dataISO))
+  .slice(0, 4)
 
 // Zone generate automat din ansambluri
 const SECTOR_LABELS = {
@@ -567,12 +573,7 @@ export default function HomePageClient() {
               <Link href="/blog" className="text-xs text-[#2d7a3a] hover:underline font-medium">Vezi toate articolele →</Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[
-                { tag: 'Investiții', titlu: 'Randament la Închiriere pe Zone din București în 2026', data: '10 Mai 2026', slug: 'randament-inchiriere-zone-bucuresti', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif' },
-                { tag: 'Ghid', titlu: 'Predare la Cheie: Ce Trebuie să Conțină și Ce să Verifici', data: '7 Mai 2026', slug: 'predare-la-cheie-ce-inseamna', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif' },
-                { tag: 'Analiză', titlu: 'Apartament Nou vs. Vechi în București: Calculul Real al Costurilor', data: '4 Mai 2026', slug: 'apartament-nou-vs-vechi-calcul-real', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif' },
-                { tag: 'Ghid', titlu: 'Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas', data: '1 Mai 2026', slug: 'cumparare-apartament-din-diaspora', image: '/blog/cumparare-apartament-diaspora-ghid.avif' },
-              ].map(b => (
+              {BLOG_RECENTE.map(b => (
                 <Link key={b.slug} href={`/blog/${b.slug}`}
                   className="border border-gray-200 rounded-xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all group">
                   <div style={{ position: 'relative', paddingBottom: '60%', overflow: 'hidden', background: '#f3f4f6' }}>

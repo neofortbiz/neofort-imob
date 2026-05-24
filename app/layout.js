@@ -314,12 +314,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ro" className={`${barlow.variable} ${barlowCondensed.variable}`}>
       <head>
-        {/* Consent Mode - implicit refuzat pana la acceptul utilizatorului */}
-        {/* Preload LCP image — primul card ansamblu, cel mai recent dupa dataISO */}
-        <link rel="preload" as="image" href="/ansambluri/neo-84/exterior-01.avif" type="image/avif" fetchPriority="high" />
-        {/* Preconnect GTM pentru reducerea latentei */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        {/* Preconnect pentru resurse critice */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* Consent Mode - setat inainte de GTM */}
         <Script id="consent-init" strategy="beforeInteractive">{`
           window.dataLayer = window.dataLayer || [];
@@ -332,8 +329,6 @@ export default function RootLayout({ children }) {
         `}</Script>
         {/* Google Tag Manager */}
         <Script id="gtm" strategy="beforeInteractive">{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5TWW86TF');`}</Script>
-        {/* Preconnect fonturi */}
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }} />
