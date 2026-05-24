@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
+import { ANSAMBLURI_LITE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII, NR_PORTOFOLIU } from '@/data/siteConfig'
 
 // Zone generate automat din ansambluri
@@ -15,7 +15,7 @@ const SECTOR_LABELS = {
 
 function getZoneDinamice() {
   const zoneMap = {}
-  ANSAMBLURI_ACTIVE.forEach(a => {
+  ANSAMBLURI_LITE.forEach(a => {
     const zoneList = a.zone || [a.zona.toLowerCase().replace(/[^a-z0-9]+/g, '-')]
     zoneList.forEach(z => {
       if (!zoneMap[z]) {
@@ -105,7 +105,7 @@ export default function HomePageClient() {
     } catch {}
   }
 
-  const sortedAnsambluri = [...ANSAMBLURI_ACTIVE].sort((a, b) => {
+  const sortedAnsambluri = [...ANSAMBLURI_LITE].sort((a, b) => {
     const ai = recentSlugs.indexOf(a.slug)
     const bi = recentSlugs.indexOf(b.slug)
     if (ai === -1 && bi === -1) return 0
@@ -136,7 +136,7 @@ export default function HomePageClient() {
   // Numere de camere disponibile — 1=garso/studio, 2, 3, 4+ grupate
   const camereDinDate = (() => {
     const maxCamere = new Set()
-    ANSAMBLURI_ACTIVE.forEach(a => a.tipuri.forEach(t => {
+    ANSAMBLURI_LITE.forEach(a => a.tipuri.forEach(t => {
       const tl = t.toLowerCase()
       if (tl.includes('garsonier') || tl.includes('studio')) maxCamere.add(1)
       const n = nrCamere(t)

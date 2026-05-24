@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import FormularCalificat from '@/components/FormularCalificat'
-import { ANSAMBLURI_ACTIVE } from '@/data/ansambluri'
+import { ANSAMBLURI_LITE } from '@/data/ansambluri'
 
 const TEL = '0743250029'
 const TEL_DISPLAY = '0743 250 029'
@@ -69,7 +69,7 @@ export default function Footer() {
             {[
   ...(() => {
                 const count = {}
-                ANSAMBLURI_ACTIVE.forEach(a =>
+                ANSAMBLURI_LITE.forEach(a =>
                   (a.zone || [])
                     .filter(z => !z.startsWith('sector-'))
                     .forEach(z => { count[z] = (count[z] || 0) + 1 })

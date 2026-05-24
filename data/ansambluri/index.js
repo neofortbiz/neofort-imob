@@ -917,6 +917,14 @@ export const ANSAMBLURI_ACTIVE = ANSAMBLURI.filter(a =>
   ['activ', 'constructie', 'promotie', 'finalizat'].includes(a.status)
 )
 
+// Versiune lightweight pentru homepage si componente client
+// Exclude campurile grele (descriereCompleta ~69KB, apartamente, dotari, puncteInteres)
+// Reduce bundle-ul client cu ~75%
+export const ANSAMBLURI_LITE = ANSAMBLURI_ACTIVE.map(({
+  descriereCompleta, apartamente, dotari, puncteInteres, parcare,
+  ...rest
+}) => rest)
+
 // Ansambluri portofoliu (vandute)
 export const ANSAMBLURI_PORTOFOLIU = ANSAMBLURI.filter(a => a.status === 'vandut')
 
