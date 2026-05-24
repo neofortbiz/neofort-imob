@@ -1,16 +1,65 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
-// Badge vizualizari pe cardurile din listing blog — citeste din Redis (global)
+// Cache global in memorie — un singur fetch batch per pagina
+// Toate instantele BlogListingViews de pe pagina trimit un singur request
+const cache = { data: null, pending: null, callbacks: [] }
+
+function fetchBatch(slugs) {
+  if (cache.data) return Promise.resolve(cache.data)
+
+  if (!cache.pending) {
+    cache.pending = fetch(`/api/views?slugs=${slugs.join(',')}`)
+      .then(r => r.json())
+      .then(data => {
+        cache.data = data
+        cache.pending = null
+        cache.callbacks.forEach(cb => cb(data))
+        cache.callbacks = []
+        return data
+      })
+      .catch(() => {
+        cache.pending = null
+        return {}
+      })
+  }
+
+  return new Promise(resolve => {
+    cache.callbacks.push(resolve)
+  })
+}
+
+// Colecteaza toate slug-urile din pagina intr-un singur batch
+let batchSlugs = new Set()
+let batchTimer = null
+
+function scheduleBatch(slug, onResult) {
+  batchSlugs.add(slug)
+  if (batchTimer) clearTimeout(batchTimer)
+  batchTimer = setTimeout(() => {
+    const slugs = [...batchSlugs]
+    batchSlugs = new Set()
+    batchTimer = null
+    fetchBatch(slugs).then(data => onResult(data))
+  }, 50) // asteapta 50ms ca toate componentele sa se monteze
+}
+
 export default function BlogListingViews({ slug }) {
   const [views, setViews] = useState(null)
 
   useEffect(() => {
-    // GET — doar citeste, nu incrementeaza
-    fetch(`/api/views?slug=${slug}`)
-      .then(r => r.json())
-      .then(d => { if (d.views > 0) setViews(d.views) })
-      .catch(() => {})
+    // Daca avem deja cache, folosim imediat
+    if (cache.data) {
+      const v = cache.data[slug] || 0
+      if (v > 0) setViews(v)
+      return
+    }
+
+    // Altfel, adaugam in batch
+    scheduleBatch(slug, (data) => {
+      const v = data[slug] || 0
+      if (v > 0) setViews(v)
+    })
   }, [slug])
 
   if (!views) return null

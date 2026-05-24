@@ -11,10 +11,33 @@ async function getClient() {
   return client
 }
 
-// GET /api/views?slug=xxx — returneaza numarul de vizualizari
+// GET /api/views?slug=xxx — un singur slug
+// GET /api/views?slugs=slug1,slug2,... — batch pentru mai multe sluguri
 // POST /api/views?slug=xxx — incrementeaza si returneaza
 export async function GET(request) {
   const { searchParams } = new URL(request.url)
+
+  // Batch request
+  const slugsParam = searchParams.get('slugs')
+  if (slugsParam) {
+    const slugs = slugsParam.split(',').filter(Boolean).slice(0, 50) // max 50
+    try {
+      const redis = await getClient()
+      const keys = slugs.map(s => `views:${s}`)
+      const values = await redis.mGet(keys)
+      const result = {}
+      slugs.forEach((s, i) => {
+        result[s] = parseInt(values[i] || '0')
+      })
+      return Response.json(result)
+    } catch {
+      const result = {}
+      slugs.forEach(s => { result[s] = 0 })
+      return Response.json(result)
+    }
+  }
+
+  // Single slug
   const slug = searchParams.get('slug')
   if (!slug) return Response.json({ views: 0 })
 
