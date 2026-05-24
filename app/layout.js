@@ -315,6 +315,8 @@ export default function RootLayout({ children }) {
     <html lang="ro" className={`${barlow.variable} ${barlowCondensed.variable}`}>
       <head>
         {/* Consent Mode - implicit refuzat pana la acceptul utilizatorului */}
+        {/* Preload LCP image — primul card ansamblu, cel mai recent dupa dataISO */}
+        <link rel="preload" as="image" href="/ansambluri/neo-84/exterior-01.avif" type="image/avif" fetchPriority="high" />
         {/* Preconnect GTM pentru reducerea latentei */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
