@@ -1,8 +1,8 @@
 # Neofort IMO — Imobiliare București
-# Actualizat: 2026-05-22
+# Actualizat: 2026-05-26
 
 ## Companie
-Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 12 ansambluri active în Sectoarele 2, 3 și 6.
+Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 77+ ansambluri livrate. 13 ansambluri active în Sectoarele 2, 3 și 6.
 
 Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776
 Telefon: +40758090904
@@ -268,6 +268,37 @@ Puncte de interes:
 - parc: Parcul National — 18 min pe jos
 - scoala: Universitatea Hyperion — 2 min cu masina
 
+### Neofort 28 Titan Pallady Faza 2 — Titan-Pallady, Sector 3
+Slug: neofort-28-titan-pallady-faza-2
+Status: activ
+Etaje: D+P+4E
+Tipuri: 2, 3
+Pret de la: 85.900€ + TVA
+Predare: Finalizat
+Adresa: Bulevardul Theodor Pallady, Sector 3, București
+Coordonate: 44.4114, 26.1986
+Broker: Ramona BAICU, 0759 030 367
+URL: https://www.neofort.ro/ansamblu-rezidential/neofort-28-titan-pallady-faza-2
+
+Apartamente disponibile:
+- 2 cam. Tip 1 (60.9 mp, et. et. 1-4): de la 85.900€+TVA
+- 2 cam. Tip 2 (62.15 mp, et. et. 1-4): de la 92.900€+TVA
+- 2 cam. cu curte (62.9 mp, et. parter): de la 100.900€+TVA
+- 2 cam. cu terasa (58.7 mp, et. et. 3-4): de la 120.080€+TVA
+- 3 cam. Tip 1 (75.3 mp, et. et. 1-4): de la 116.900€+TVA
+- 3 cam. cu terasa (85.5 mp, et. et. 3-4): de la 159.750€+TVA
+- 3 cam. cu curte (80.3 mp, et. parter): de la 136.900€+TVA
+Parcare subterană: de la 11.000€ +TVA
+Parcare exterioară: de la 7.500€ +TVA
+
+Puncte de interes:
+- metrou: Metrou Nicolae Teclu (M2) — 5 min pe jos
+- metrou: Metrou Anghel Saligny (M2) — 500m
+- mall: IKEA Pallady — 9 min cu mașina
+- mall: Auchan Pallady / 1 Decembrie — 6 min cu mașina
+- mall: Dedeman / Leroy Merlin / Jumbo Pallady — 10 min cu mașina
+- mall: Iris Mall — 8 min cu mașina
+
 ### Neofort 28 Titan Pallady Faza 4-5 — Titan-Pallady, Sector 3
 Slug: neofort-28-titan-pallady-teclu
 Status: constructie
@@ -384,7 +415,7 @@ Puncte de interes:
 - Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator: https://www.neofort.ro/blog/ghid-cumparare-apartament-nou
 
 ## Portofoliu finalizat (selecție)
-Neofort IMO a livrat 76+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:
+Neofort IMO a livrat 77+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:
 - Neofort 85 Herăstrău-Aviației — Sector 1 — vândut integral
 - Neofort 82 Titan Gura Putnei — Sector 3 — vândut integral
 - Neofort 81 Morarilor — Sector 2 — vândut integral

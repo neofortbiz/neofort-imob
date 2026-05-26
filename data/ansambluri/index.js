@@ -676,6 +676,116 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii 200m. Promoție activă.',
   },
   {
+    slug: 'neofort-28-titan-pallady-faza-2',
+    numar: 28,
+    nume: 'Neofort 28 Titan Pallady Faza 2',
+    zona: 'Titan-Pallady',
+    sector: 'Sector 3',
+    adresa: 'Bulevardul Theodor Pallady, Sector 3, București',
+    status: 'activ',
+    dataPredare: 'Finalizat',
+    pretDeLa: 85900,
+    etaje: 'D+P+4E',
+    telefon: '0759 030 367',
+    broker: 'Ramona BAICU',
+    brokerTel: '0759 030 367',
+    brokerFoto: '/brokeri/ramona-baicu.avif',
+    imagini: {
+      cover: '/ansambluri/neo-28f2/exterior-01.avif',
+      exterior: [
+        '/ansambluri/neo-28f2/exterior-01.avif',
+        '/ansambluri/neo-28f2/exterior-02.avif',
+        '/ansambluri/neo-28f2/exterior-03.avif',
+        '/ansambluri/neo-28f2/exterior-04.avif',
+      ],
+      interior: [
+        '/ansambluri/neo-28f2/interior-01.avif',
+        '/ansambluri/neo-28f2/interior-02.avif',
+        '/ansambluri/neo-28f2/interior-03.avif',
+        '/ansambluri/neo-28f2/interior-04.avif',
+        '/ansambluri/neo-28f2/interior-05.avif',
+      ],
+      schite: [
+        '/ansambluri/neo-28f2/schite-01.avif',
+        '/ansambluri/neo-28f2/schite-02.avif',
+        '/ansambluri/neo-28f2/schite-03.avif',
+        '/ansambluri/neo-28f2/schite-04.avif',
+        '/ansambluri/neo-28f2/schite-05.avif',
+        '/ansambluri/neo-28f2/schite-06.avif',
+        '/ansambluri/neo-28f2/schite-07.avif',
+      ],
+    },
+    descriereCompleta: `Neofort 28 Faza 2 este continuarea firească a unuia dintre cele mai apreciate proiecte rezidențiale din zona Titan-Pallady. Amplasat pe Bulevardul Theodor Pallady din Sectorul 3, complexul se ridică la standardele care au consacrat Neofort în piața imobiliară bucureșteană: structură solidă, finisaje premium importate din Italia și Spania, predare la cheie și localizare excelentă față de metroul Nicolae Teclu.
+
+Structura D+P+4E din beton armat de 30 cm cu compartimentări din cărămidă Porotherm garantează izolație termică și fonică superioară. Termosistemul de fațadă cu EPS 80 de 10 cm asigură eficiență energetică ridicată și costuri minime de întreținere pe termen lung.
+
+Fiecare apartament se predă complet finisat, cu încălzire prin pardoseală, centrală termică proprie în condensare, kit preinstalat pentru aer condiționat și sistem de microventilație — un standard rar întâlnit la prețuri competitive în zona Pallady.
+
+Dotările de calitate excepțională includ: uși de acces securizate PINUM BLINDO 3 (Italia), uși interioare celulare albe PINUM (Italia), tâmplărie PVC cu geam tripan (trei foi de sticlă), glafuri interioare din marmură naturală, glafuri exterioare din aluminiu, obiecte sanitare suspendate, portprosoave în băi, balustrade din inox pe scările interioare și lift silențios ORONA (Spania).
+
+Terasele și balcoanele beneficiază de hidroizolație dublă, gresie de proveniență italiană, picurătoare Profilitec (Italia), pardoseală flotantă și balustradă metalică vopsită în câmp electrostatic.
+
+Oferta de tipologii este completă: garsoniere cu curte proprie (stoc limitat), apartamente cu 2 camere de la 85.900€+TVA — inclusiv variante cu curte proprie la parter și variante cu terasă generoasă — și apartamente cu 3 camere de la 116.900€+TVA, inclusiv variante cu curte de 102 mp sau terasă de 34 mp.
+
+Parcările subterane (11.000€+TVA) și exterioare (7.500€+TVA) sunt disponibile separat, asigurând confort complet pentru rezidenți.
+
+Metroul Nicolae Teclu (M2) se află la câteva minute distanță, conectând zona cu Piața Unirii în 8 minute și cu Piața Victoriei în 14 minute. Polul comercial Pallady — IKEA, Auchan, Leroy Merlin, Dedeman, Metro, Jumbo — asigură acces la toate serviciile necesare fără a ieși din zonă.
+
+Complexul sportiv Titan, Parcul Teilor și unitățile medicale de referință (Campus Medical Regina Maria, MedLife Titan) completează infrastructura de calitate a cartierului. Liceul Internațional de Informatică ICHB și Școala Spectrum School sunt accesibile în câteva minute, ideale pentru familii cu copii.
+
+Neofort 28 Faza 2 se adresează familiilor tinere care caută un apartament nou finalizat, cu dotări premium, la un preț corect față de piață, și investitorilor interesați de randamente stabile din chirii — zona Pallady înregistrând cerere constantă și creșteri de valoare documentate.`,
+    apartamente: [
+      { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 60.90, avans20: 85900, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 62.15, avans20: 92900, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. cu curte', etaj: 'parter', suprafata: 62.90, suprafataExtra: 37, tipExtra: 'teren', avans20: 100900, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. cu terasa', etaj: 'et. 3-4', suprafata: 58.70, suprafataExtra: 32, tipExtra: 'terasa', avans20: 120080, avans45: null, promo: false, camere: 2 },
+      { tip: '3 cam. Tip 1', etaj: 'et. 1-4', suprafata: 75.30, avans20: 116900, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. cu terasa', etaj: 'et. 3-4', suprafata: 85.50, suprafataExtra: 34, tipExtra: 'terasa', avans20: 159750, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. cu curte', etaj: 'parter', suprafata: 80.30, suprafataExtra: 102, tipExtra: 'teren', avans20: 136900, avans45: null, promo: false, camere: 3 },
+    ],
+    parcare: {
+      subteran: { disponibil: true, pret: 11000, notaTVA: '+TVA' },
+      exterior: { disponibil: true, pret: 7500, notaTVA: '+TVA' },
+      interior: { disponibil: false, pret: null },
+    },
+    dotari: [
+      'Încălzire în pardoseală',
+      'Centrală termică proprie în condensare',
+      'Kit aer condiționat preinstalat',
+      'Sistem microventilație',
+      'Tâmplărie PVC geam tripan (3 foi)',
+      'Uși PINUM BLINDO 3 Italia',
+      'Uși interioare PINUM albe Italia',
+      'Glafuri interioare marmură naturală',
+      'Glafuri exterioare aluminiu',
+      'Obiecte sanitare suspendate',
+      'Lift silențios ORONA Spania',
+      'Hidroizolație dublă terase/balcoane',
+      'Balustrade inox scări interioare',
+      'Incintă împrejmuită acces controlat',
+    ],
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '5 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '500m' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '9 min cu mașina' },
+      { tip: 'mall', nume: 'Auchan Pallady / 1 Decembrie', distanta: '6 min cu mașina' },
+      { tip: 'mall', nume: 'Dedeman / Leroy Merlin / Jumbo Pallady', distanta: '10 min cu mașina' },
+      { tip: 'mall', nume: 'Iris Mall', distanta: '8 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '8 min cu mașina' },
+      { tip: 'parc', nume: 'Complex Sportiv Titan', distanta: '10 min cu mașina' },
+      { tip: 'scoala', nume: 'Liceul Internațional ICHB / Spectrum School', distanta: '8 min cu mașina' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '8 min cu mașina' },
+      { tip: 'medical', nume: 'MedLife Titan / Medikali Titan', distanta: '7 min cu mașina' },
+      { tip: 'transport', nume: 'Linii STB 19, 40, 246, 335, 408', distanta: 'în zonă' },
+    ],
+    coordonate: { lat: 44.411400, lng: 26.198600 },
+    zone: ['titan-pallady', 'sector-3'],
+    tipuri: [2, 3],
+    tag: null,
+    seoTitle: 'Neofort 28 Faza 2 — Apartamente Noi Titan Pallady, Metrou Nicolae Teclu',
+    seoDescription: 'Neofort 28 Faza 2 — apartamente noi finalizate în Titan-Pallady, Sector 3. 2 și 3 camere de la 85.900€+TVA. Metrou Nicolae Teclu la 5 minute. Finisaje premium PINUM Italia, ORONA Spania.',
+  },
+  {
     slug: 'neofort-28-titan-pallady-teclu',
     numar: 28,
     nume: 'Neofort 28 Titan Pallady Faza 4-5',
