@@ -780,9 +780,7 @@ Neofort 28 Faza 2 se adresează familiilor tinere care caută un apartament nou 
     ],
     coordonate: { lat: 44.411400, lng: 26.198600 },
     zone: ['titan-pallady', 'sector-3'],
-    tipuri: [2, 3],
-    tag: null,
-    seoTitle: 'Neofort 28 Faza 2 — Apartamente Noi Titan Pallady, Metrou Nicolae Teclu',
+    tipuri: ['2 camere', '3 camere'],
     seoDescription: 'Neofort 28 Faza 2 — apartamente noi finalizate în Titan-Pallady, Sector 3. 2 și 3 camere de la 85.900€+TVA. Metrou Nicolae Teclu la 5 minute. Finisaje premium PINUM Italia, ORONA Spania.',
   },
   {
