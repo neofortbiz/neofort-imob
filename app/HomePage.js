@@ -143,7 +143,7 @@ export default function HomePageClient() {
   const camereDinDate = (() => {
     const maxCamere = new Set()
     ANSAMBLURI_LITE.forEach(a => a.tipuri.forEach(t => {
-      const tl = t.toLowerCase()
+      const tl = String(t).toLowerCase()
       if (tl.includes('garsonier') || tl.includes('studio')) maxCamere.add(1)
       const n = nrCamere(t)
       if (n) maxCamere.add(n >= 4 ? 99 : n) // 99 = "4+"
@@ -156,7 +156,7 @@ export default function HomePageClient() {
 
     // FILTRU TIP PROPRIETATE
     if (tipFilter) {
-      const are = (fn) => a.tipuri.some(t => fn(t.toLowerCase()))
+      const are = (fn) => a.tipuri.some(t => fn(String(t).toLowerCase()))
       if (tipFilter === 'garsonier' && !are(t => t.includes('garsonier') || t.includes('studio'))) return false
       if (tipFilter === 'apartament' && !are(t => t.includes('camere') && !t.includes('penthouse') && !t.includes('duplex'))) return false
       if (tipFilter === 'penthouse' && !are(t => t.includes('penthouse'))) return false
@@ -169,7 +169,7 @@ export default function HomePageClient() {
     if (camereFilter) {
       const nrF = Number(camereFilter)
       const match = a.tipuri.some(t => {
-        const tl = t.toLowerCase()
+        const tl = String(t).toLowerCase()
         if (nrF === 1) return tl.includes('garsonier') || tl.includes('studio')
         const n = nrCamere(t)
         if (nrF === 99) return n !== null && n >= 4  // "4+" prinde 4, 5, 6... si Penthouse

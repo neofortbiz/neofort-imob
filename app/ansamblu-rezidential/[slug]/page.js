@@ -229,7 +229,7 @@ export default function AnsambluPage({ params }) {
             {/* QUICK STATS */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
               {[
-                { val: [...new Set(a.tipuri.map(t => t.match(/\d+/)?.[0]).filter(Boolean))].sort((x,y) => x-y).join(', ') + ' cam.', lbl: 'Tipuri' },
+                { val: [...new Set(a.tipuri.map(t => String(t).match(/\d+/)?.[0]).filter(Boolean))].sort((x,y) => x-y).join(', ') + ' cam.', lbl: 'Tipuri' },
                 { val: `de la ${formatPret(a.pretDeLa)}`, lbl: 'Preț de la' },
                 { val: a.apartamente.length > 0 ? `${a.apartamente[0].suprafata}–${a.apartamente[a.apartamente.length-1].suprafata}mp` : 'N/A', lbl: 'Suprafețe' },
                 { val: (() => {

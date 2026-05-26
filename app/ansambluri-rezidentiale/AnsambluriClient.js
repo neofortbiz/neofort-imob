@@ -31,7 +31,7 @@ export default function AnsambluriClient() {
   const camereDinDate = useMemo(() => {
     const set = new Set()
     ANSAMBLURI_ACTIVE.forEach(a => a.tipuri.forEach(t => {
-      const tl = t.toLowerCase()
+      const tl = String(t).toLowerCase()
       if (tl.includes('garsonier') || tl.includes('studio')) set.add('1')
       const m = t.match(/^(\d+)\s+camere/)
       if (m) set.add(Number(m[1]) >= 4 ? '4+' : m[1])
@@ -49,7 +49,7 @@ export default function AnsambluriClient() {
     if (pretActiv) list = list.filter(a => a.pretDeLa <= pretMax)
     if (camere !== 'Toate') {
       list = list.filter(a => a.tipuri.some(t => {
-        const tl = t.toLowerCase()
+        const tl = String(t).toLowerCase()
         if (camere === '1') return tl.includes('garsonier') || tl.includes('studio')
         if (camere === '4+') { const m = t.match(/^(\d+)\s+camere/); return m && Number(m[1]) >= 4 }
         const m = t.match(/^(\d+)\s+camere/)
