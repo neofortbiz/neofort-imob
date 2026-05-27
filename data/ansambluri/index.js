@@ -435,9 +435,9 @@ Apartamentele de la etajele 10 și 11, la nivelurile retrase ale imobilului, dis
 
 Zona Titan – IOR înregistrează o cerere constantă din partea cumpărătorilor și a chiriașilor, susținută de accesul la metrou, de infrastructura comercială completă și de parcurile din proximitate. Proximitatea față de metroul Costin Georgian rămâne unul dintre criteriile principale ale cumpărătorilor care caută apartamente în Sectorul 3, iar ansamblul Neofort 50 Titan IOR îndeplinește această condiție cu una dintre cele mai scurte distanțe față de metrou din oferta rezidențială a zonei.
 
-Disponibilitate
+Un element distinctiv al proiectului îl reprezintă apartamentele cu terase spectaculoase, amplasate atât la etaje intermediare, cât și la ultimele două niveluri, unde rezidenții se bucură de panorame impresionante asupra orașului și a zonelor verzi din jur.
 
-Mai sunt disponibile 5 apartamente: variante cu 2 camere la etajele intermediare și apartamente cu terasă la etajele superioare. Prețurile și disponibilitățile exacte se obțin contactând echipa de vânzări Neofort. Faza 2 a ansamblului este în construcție.`,
+Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat de ocupare confirmă calitatea construcției, poziționarea excelentă și nivelul ridicat al facilităților oferite. Odată cu începerea lucrărilor pentru Faza 2, Ansamblul Rezidențial Neofort 50 Titan IOR continuă să redefinească standardele locuirii moderne în zona Titan – IOR.`,
     brokerTel: '0752 443 436',
     coordonate: { lat: 44.433921, lng: 26.172411 },
     zone: ['titan-pallady', 'sector-3'],
