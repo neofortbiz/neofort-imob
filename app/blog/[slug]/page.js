@@ -212,7 +212,7 @@ export default function ArticolPage({ params }) {
                                 <p className="text-sm font-semibold text-gray-900 leading-snug">{question}</p>
                               </div>
                               <div className="px-5 py-4 bg-white">
-                                <p className="text-sm text-gray-700 leading-7 whitespace-pre-line">{answer}</p>
+                                <p className="text-sm text-gray-700 leading-7 whitespace-pre-line text-justify">{answer}</p>
                               </div>
                             </div>
                           )
@@ -220,7 +220,7 @@ export default function ArticolPage({ params }) {
                       </div>
                     )
                     : (
-                      <div className="text-sm text-gray-700 leading-8 whitespace-pre-line">
+                      <div className="text-sm text-gray-700 leading-8 whitespace-pre-line text-justify">
                         {s.continut}
                       </div>
                     )
