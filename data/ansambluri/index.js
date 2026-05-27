@@ -399,49 +399,49 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
       interior: ['/ansambluri/neo-50/interior-01.avif','/ansambluri/neo-50/interior-02.avif','/ansambluri/neo-50/interior-03.avif','/ansambluri/neo-50/interior-04.avif','/ansambluri/neo-50/interior-05.avif','/ansambluri/neo-50/interior-06.avif','/ansambluri/neo-50/interior-07.avif','/ansambluri/neo-50/interior-08.avif','/ansambluri/neo-50/interior-09.avif','/ansambluri/neo-50/interior-10.avif','/ansambluri/neo-50/interior-11.avif','/ansambluri/neo-50/interior-12.avif','/ansambluri/neo-50/interior-13.avif','/ansambluri/neo-50/interior-14.avif','/ansambluri/neo-50/interior-15.avif'],
       schite: ['/ansambluri/neo-50/schite-01.avif','/ansambluri/neo-50/schite-02.avif','/ansambluri/neo-50/schite-03.avif','/ansambluri/neo-50/schite-04.avif','/ansambluri/neo-50/schite-05.avif','/ansambluri/neo-50/schite-06.avif','/ansambluri/neo-50/schite-07.avif','/ansambluri/neo-50/schite-08.avif','/ansambluri/neo-50/schite-09.avif','/ansambluri/neo-50/schite-10.avif'],
     },
-    descriereCompleta: `Ansamblul Rezidențial Neofort 50 Titan IOR — Comunitate Matură, Ultimele Apartamente Disponibile
+    descriereCompleta: `Neofort 50 Titan IOR — Apartamente Noi în Zona Titan, Metrou Costin Georgian la 300 Metri
 
-Povestea merge mai departe la Ansamblul Rezidențial Neofort 50 Titan IOR, unul dintre cele mai apreciate proiecte rezidențiale dezvoltate în zona Titan – IOR din București. Un complex modern, finalizat și locuit în proporție de 98%, a cărui comunitate vibrantă confirmă succesul unui proiect gândit pentru o viață urbană de calitate. Interesul ridicat al cumpărătorilor a redus stocul la ultimele 5 apartamente disponibile — o raritate autentică într-un ansamblu deja consolidat. În paralel, dezvoltatorul a demarat lucrările pentru Faza 2 a ansamblului, continuând aceeași direcție premium care a consacrat proiectul.
+Ansamblul Rezidențial Neofort 50 Titan IOR este unul dintre cele mai apreciate proiecte rezidențiale din zona Titan – IOR din București. Astăzi, complexul este finalizat și locuit în proporție de 98% — semn că oamenii care au ales să locuiască aici au găsit ceea ce căutau. Mai sunt disponibile doar 5 apartamente, iar lucrările pentru Faza 2 a ansamblului au demarat deja.
 
-Localizare Excepțională — Metrou Costin Georgian la 300 Metri
+Amplasat pe Bulevardul 1 Decembrie 1918 din sectorul 3, ansamblul oferă o localizare pe care puțini o ating: metroul la 300 de metri, parcuri la câteva minute de mers pe jos și tot ce ai nevoie pentru viața de zi cu zi în imediata apropiere.
 
-Amplasat strategic pe Bulevardul 1 Decembrie 1918, în cel mai verde sector al Capitalei, Neofort 50 Titan IOR oferă rezidenților acces rapid la toate punctele de interes din estul Bucureștiului. Stația de metrou Costin Georgian (M2) se află la doar 300 de metri — 4 minute de mers pe jos — conectând zona cu Piața Unirii în 7 minute și cu nodurile de business ale Capitalei în mai puțin de 15 minute. Aceasta este una dintre cele mai bune localizări față de metrou din toate proiectele Neofort: nu la 5-10 minute, ci la câțiva pași din ușă.
+Metrou, Parcuri și Utilități la Distanță de Mers pe Jos
 
-Zona este extrem de bine conectată și apreciată pentru mixul perfect dintre spații verzi, centre comerciale de top, instituții de învățământ și servicii esențiale. Lidl se află la doar 50 de metri de intrarea în ansamblu, Kaufland la 200 de metri — shopping alimentar zilnic la câțiva pași. Auchan Titan este accesibil în aproximativ 1,5 km, ParkLake Shopping Center la 2,5 km și Mega Mall la 2,3 km — ambele la câteva minute cu metroul sau cu mașina. Liniile STB multiple de pe Bulevardul 1 Decembrie 1918 completează conectivitatea, oferind alternativă la metrou pentru orice destinație din București.
+Stația de metrou Costin Georgian (M2) se află la 300 de metri — 4 minute pe jos. De acolo ajungi în centrul orașului în aproximativ 10 minute și în zonele de nord ale Bucureștiului în 15-20 de minute, fără trafic și fără stres. Liniile STB de pe Bulevardul 1 Decembrie 1918 completează opțiunile de transport în comun.
 
-Spații Verzi Excepționale — Parc IOR, Parcul Sticlăriei, Parcul Morarilor
+Pentru cumpărăturile zilnice, Lidl este la 50 de metri de intrarea în ansamblu și Kaufland la 200 de metri. Auchan Titan se află la 1,5 km, ParkLake Shopping Center la 2,5 km și Mega Mall la 2,3 km — accesibile rapid cu metroul sau cu mașina.
 
-Unul dintre cele mai valoroase avantaje ale localizării Neofort 50 Titan IOR este accesul excepțional la zone verzi — un privilegiu rar în București. Parcul Sticlăriei se află la doar 300 de metri, Parcul Morarilor la 500 de metri, iar celebrul Parc IOR — cunoscut și ca Parcul Titan, unul dintre cele mai mari și mai iubite parcuri din București — este accesibil la aproximativ 1,2 km. Parcul IOR oferă lac artificial, pârtie de schi artificială iarna, piste de biciclete, terenuri de tenis, bazin de înot și facilități complete de agrement pentru toate vârstele. Arena Națională, situată la 1,6 km, consolidează atractivitatea zonei pentru rezidenții cu stil de viață activ și interese sportive sau culturale.
+Parcul Sticlăriei e la 300 de metri de ansamblu, Parcul Morarilor la 500 de metri, iar Parcul IOR — cu lac, piste de biciclete, terenuri de sport și zone de relaxare — la aproximativ 1,2 km. Arena Națională este la 1,6 km, un avantaj pentru cei care urmăresc evenimente sportive sau concerte.
 
-Infrastructură Completă pentru Familie
+Infrastructură pentru Familii
 
-Neofort 50 Titan IOR este ideal pentru familii cu copii. Grădinița nr. 70 se află la doar 20 de metri de intrarea în ansamblu — eliminând complet stresul transportului zilnic pentru părinți. Școala Waldorf este accesibilă la 1,9 km, Liceul Nichita Stănescu la 5 minute, iar Spitalul Clinic de Urgență Sfântul Pantelimon, la aproximativ 1 km, asigură acces rapid la servicii medicale de urgență. Campus Medical Regina Maria Titan, la 10 minute, completează infrastructura medicală disponibilă rezidenților.
+Grădinița nr. 70 se află la 20 de metri de intrarea în ansamblu — practic la câțiva pași. Școala Waldorf la 1,9 km, Liceul Nichita Stănescu la câteva minute pe jos. Spitalul Clinic de Urgență Sfântul Pantelimon este la 1 km, iar Campus Medical Regina Maria Titan la aproximativ 10 minute.
 
-Arhitectură Modernă — 2S+P+11 Etaje, 4 Lifturi ORONA
+Cum este Construit
 
-Neofort 50 Titan IOR impresionează prin arhitectura modernă și funcționalitatea atent gândită. Clădirea organizată pe două scări dispune de 4 lifturi ORONA KRONLIFT silențioase — câte 2 pe fiecare scară — garantând timpi de așteptare minimali chiar și la orele de vârf. Proiectul structurat pe 2 subsoluri, parter și 11 etaje include etaje retrase la ultimele două niveluri, unde apartamentele de terasă oferă panorame spectaculoase asupra zonei Titan – IOR și a parcurilor din împrejurimi.
+Fundația pe piloți forați la 17 metri adâncime, cu stâlpi, grinzi și diafragme din beton armat, asigură stabilitatea construcției pe termen lung. Compartimentările sunt din cărămidă Porotherm — bun pentru izolarea termică și fonică între apartamente și față de exterior. Fațada este izolată cu polistiren EPS 100 mm clasa A+.
 
-Parterul integrează spații comerciale și parcări acoperite, iar cele două niveluri subterane includ parcări individuale și boxe de depozitare. Curtea interioară privată a complexului reunește spații verzi amenajate, alei moderne, locuri de parcare exterioare și un parc cu loc de joacă pentru copii — o oază urbană de liniște și comunitate.
+Imobilul are regim 2S+P+11 etaje, cu niveluri retrase la ultimele două etaje. Cele două subsoluri includ parcări individuale și boxe de depozitare. Parterul integrează spații comerciale și parcări acoperite. Clădirea are două scări cu câte 2 lifturi ORONA KRONLIFT fiecare — 4 lifturi în total, ceea ce face așteptarea la lift neobișnuit de scurtă pentru un imobil de această înălțime.
 
-Construcție pe Piloți la 17 Metri — Standard Tehnic de Excepție
+În curtea interioară privată sunt amenajate spații verzi, alei, locuri de parcare și un loc de joacă pentru copii, accesibile exclusiv rezidenților.
 
-Fundația pe piloți forați la 17 metri adâncime este o soluție structurală utilizată pentru clădirile de înălțime medie care necesită stabilitate maximă, indiferent de natura terenului. Structura cu stâlpi, grinzi și diafragme din beton armat este completată de compartimentări din cărămidă Porotherm, cu proprietăți superioare de izolație termică și fonică. Fațada izolată cu polistiren EPS 100 mm clasa A+ asigură o performanță energetică ridicată și facturi de întreținere reduse pe termen lung.
+Ce Primești în Apartament
 
-Dotări Premium — SALAMANDER, GROHE, VAILLANT, EGGER
+Tâmplăria SALAMANDER Green Evolution cu geam tripan 4 anotimpuri oferă lumină naturală bună și o izolație termică și fonică serioasă. Balcoanele tip logie, finisate cu sticlă securizată dublă, sunt spațioase și practice.
 
-Fiecare apartament beneficiază de suprafețe vitrate mari și lumină naturală abundentă datorită tâmplăriei premium SALAMANDER Green Evolution cu geam tripan 4 anotimpuri — izolație termică și fonică maximă. Balcoanele tip logie, finisate cu sticlă securizată dublă, sunt spațioase și elegante.
+Fiecare apartament are centrală proprie în condensare SAUNIER DUVAL by VAILLANT cu termostat wireless Smart Home — controlezi temperatura din telefon, de oriunde. Instalațiile electrice sunt modulare, iar sistemele sanitare sunt ROMSTAL VISION.
 
-Confortul termic este asigurat prin centrale individuale în condensare SAUNIER DUVAL by VAILLANT, echipate cu termostat wireless Smart Home — control complet al temperaturii din aplicația de telefon, de oriunde. Instalațiile electrice modulare și sistemele sanitare ROMSTAL VISION completează standardul tehnic al proiectului.
+Finisajele sunt concrete: parchet EGGER PRO, uși de intrare metalice BENATI, uși interioare PINUM alb vopsit, gresie și faianță CRISTACER import Spania în formate 60x60 și 60x120, obiecte sanitare CERSANIT și ROCA, baterii GROHE. Fiecare cameră are încălzire în pardoseală.
 
-Finisajele interioare reflectă o selecție riguroasă: parchet EGGER PRO, uși metalice de intrare BENATI, uși interioare PINUM alb vopsit, gresie și faianță CRISTACER import Spania în dimensiuni premium 60x60 și 60x120, obiecte sanitare CERSANIT și ROCA, baterii GROHE. Combinația acestor mărci europene de referință plasează Neofort 50 Titan IOR în categoria proiectelor premium cu preț accesibil.
+Apartamentele de la etajele 10-11 au terase generoase cu priveliște spre zona Titan – IOR și parcurile din jur — una dintre caracteristicile cel mai frecvent menționate de rezidenți.
 
-Ultimele 5 Apartamente — Oportunitate Documentată
+Zona Titan-IOR în 2026
 
-Gradul de ocupare de 98% și comunitatea deja formată transformă achiziția unuia dintre ultimele 5 apartamente disponibile din Neofort 50 Titan IOR într-o oportunitate reală și documentată. Cumpărătorul intră direct într-o comunitate funcțională, cu infrastructura comună complet operațională și vecini stabili instalați. Nu există riscul specific proiectelor în pre-vânzare sau construcție — totul este real, finalizat și funcționează.
+Zona Titan – IOR a înregistrat o creștere constantă a interesului din partea cumpărătorilor în ultimii ani, susținută de infrastructura de transport bine pusă la punct, de spațiile verzi abundente și de apropierea față de centrul Bucureștiului. Prețul pe metru pătrat util rămâne mai accesibil față de zonele de nord ale capitalei, în condițiile în care calitatea vieții — în termeni de acces la parc, metrou și servicii — este comparabilă.
 
-Oferta cuprinde apartamente cu 2 camere și apartamente cu terase panoramice la etajele superioare. Contactați-ne pentru disponibilități exacte și prețuri actualizate — stocul este limitat și se reduce rapid.
+Ultimele 5 Apartamente
 
-Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat de ocupare confirmă calitatea construcției, poziționarea strategică și nivelul ridicat al facilităților. Neofort, developer imobiliar în București din 2009 cu peste 73 de proiecte livrate, continuă această tradiție și cu Faza 2 a ansamblului Neofort 50, deja în lucru — pentru cei care vor să fie primii în noul capitol al acestei comunități.`,
+Mai sunt disponibile 5 apartamente — 2 camere standard și variante cu terasă la etajele superioare. Contactați-ne pentru disponibilități și prețuri actuale. Faza 2 a ansamblului este în construcție pentru cei care doresc să fie printre primii rezidenți ai noului bloc.`,
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 60.90, avans20: 85900, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 62.15, avans20: 92900, avans45: null, promo: false, camere: 2 },
