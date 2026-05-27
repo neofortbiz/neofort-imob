@@ -4,7 +4,7 @@ const BASE = 'https://www.neofort.ro'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { ANSAMBLURI, ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
+import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 
 // Generare dinamica a configuratiei zonelor din date
 const SECTOR_NAMES = {

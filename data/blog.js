@@ -1696,7 +1696,7 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
   'ghid-cumparare-apartament-nou': {
     titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare',
     tag: 'Ghid', tagColor: '#2d7a3a',
-    data: '10 Martie 2026', dataISO: '2026-03-10', citire: '13 min',
+    data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min',
     autor: 'adriana-veselu',
     image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
     descriere: 'Ghid practic și complet pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare cheie. Sfaturi de la consultant cu 400+ tranzacții.',
@@ -3004,6 +3004,7 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
 }
 
 export const ARTICOLE_LIST = [
+  { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
   { slug: 'lege-chirii-2026-proprietari-chiriasi', titlu: 'Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași', data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min', image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'credit-ipotecar-2026-dobanzi-conditii', titlu: 'Credit Ipotecar în 2026: Dobânzi, Condiții și Cât Te Costă Real un Apartament Nou', data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min', image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită în 2026 față de creditul standard.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'zone-bucuresti-potential-crestere-2027', titlu: 'Zonele din București cu Cel Mai Mare Potențial de Creștere în 2027 — Analiză Investițională', data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min', image: '/blog/zone-bucuresti-potential-crestere-2027.avif', tag: 'Investiții', tagColor: '#b45309', rezumat: 'Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională bazată pe date reale: cerere vs ofertă, prețuri actuale și estimări pentru 2027.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
