@@ -399,49 +399,43 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
       interior: ['/ansambluri/neo-50/interior-01.avif','/ansambluri/neo-50/interior-02.avif','/ansambluri/neo-50/interior-03.avif','/ansambluri/neo-50/interior-04.avif','/ansambluri/neo-50/interior-05.avif','/ansambluri/neo-50/interior-06.avif','/ansambluri/neo-50/interior-07.avif','/ansambluri/neo-50/interior-08.avif','/ansambluri/neo-50/interior-09.avif','/ansambluri/neo-50/interior-10.avif','/ansambluri/neo-50/interior-11.avif','/ansambluri/neo-50/interior-12.avif','/ansambluri/neo-50/interior-13.avif','/ansambluri/neo-50/interior-14.avif','/ansambluri/neo-50/interior-15.avif'],
       schite: ['/ansambluri/neo-50/schite-01.avif','/ansambluri/neo-50/schite-02.avif','/ansambluri/neo-50/schite-03.avif','/ansambluri/neo-50/schite-04.avif','/ansambluri/neo-50/schite-05.avif','/ansambluri/neo-50/schite-06.avif','/ansambluri/neo-50/schite-07.avif','/ansambluri/neo-50/schite-08.avif','/ansambluri/neo-50/schite-09.avif','/ansambluri/neo-50/schite-10.avif'],
     },
-    descriereCompleta: `Neofort 50 Titan IOR — Apartamente Noi în Zona Titan, Metrou Costin Georgian la 300 Metri
+    descriereCompleta: `Ansamblul Rezidențial Neofort 50 Titan IOR se află pe Bulevardul 1 Decembrie 1918 din Sectorul 3, într-o zonă cu acces bun la transport în comun, spații verzi extinse și servicii comerciale și medicale complete. Complexul este finalizat și locuit în proporție de 98%, cu lucrările pentru Faza 2 deja demarate. Mai sunt disponibile doar 5 apartamente.
 
-Ansamblul Rezidențial Neofort 50 Titan IOR este unul dintre cele mai apreciate proiecte rezidențiale din zona Titan – IOR din București. Astăzi, complexul este finalizat și locuit în proporție de 98% — semn că oamenii care au ales să locuiască aici au găsit ceea ce căutau. Mai sunt disponibile doar 5 apartamente, iar lucrările pentru Faza 2 a ansamblului au demarat deja.
+Metrou, Transport și Conectivitate
 
-Amplasat pe Bulevardul 1 Decembrie 1918 din sectorul 3, ansamblul oferă o localizare pe care puțini o ating: metroul la 300 de metri, parcuri la câteva minute de mers pe jos și tot ce ai nevoie pentru viața de zi cu zi în imediata apropiere.
+Stația de metrou Costin Georgian (M2) se află la 300 de metri de ansamblu — aproximativ 4 minute pe jos — asigurând acces rapid la centrul orașului și la principalele zone de business ale Capitalei. Linia M2 conectează direct cu Piața Unirii, Piața Universității și stațiile de nord ale Bucureștiului, fără schimb de linie. Bulevardul 1 Decembrie 1918 este deservit de mai multe linii STB, oferind alternative utile pentru destinațiile mai puțin accesibile cu metroul.
 
-Metrou, Parcuri și Utilități la Distanță de Mers pe Jos
+Servicii și Comercial în Proximitate
 
-Stația de metrou Costin Georgian (M2) se află la 300 de metri — 4 minute pe jos. De acolo ajungi în centrul orașului în aproximativ 10 minute și în zonele de nord ale Bucureștiului în 15-20 de minute, fără trafic și fără stres. Liniile STB de pe Bulevardul 1 Decembrie 1918 completează opțiunile de transport în comun.
+Infrastructura comercială din zonă este completă și accesibilă zilnic. Lidl se află la 50 de metri de intrarea în ansamblu, Kaufland la 200 de metri. Auchan Titan este la 1,5 km, ParkLake Shopping Center la 2,5 km, Mega Mall la 2,3 km. Piața Morarilor și Piața Minis completează oferta pentru cumpărăturile de zi cu zi, ambele la câteva minute pe jos.
 
-Pentru cumpărăturile zilnice, Lidl este la 50 de metri de intrarea în ansamblu și Kaufland la 200 de metri. Auchan Titan se află la 1,5 km, ParkLake Shopping Center la 2,5 km și Mega Mall la 2,3 km — accesibile rapid cu metroul sau cu mașina.
+Spații Verzi
 
-Parcul Sticlăriei e la 300 de metri de ansamblu, Parcul Morarilor la 500 de metri, iar Parcul IOR — cu lac, piste de biciclete, terenuri de sport și zone de relaxare — la aproximativ 1,2 km. Arena Națională este la 1,6 km, un avantaj pentru cei care urmăresc evenimente sportive sau concerte.
+Parcul Sticlăriei se află la 300 de metri de ansamblu, Parcul Morarilor la 500 de metri. Parcul IOR — unul dintre cele mai mari parcuri din București, cu lac, piste de biciclete, terenuri de sport și zone de relaxare — este accesibil la 1,2 km, aproximativ 15 minute pe jos sau 5 minute cu bicicleta. Arena Națională se află la 1,6 km.
 
-Infrastructură pentru Familii
+Educație și Sănătate
 
-Grădinița nr. 70 se află la 20 de metri de intrarea în ansamblu — practic la câțiva pași. Școala Waldorf la 1,9 km, Liceul Nichita Stănescu la câteva minute pe jos. Spitalul Clinic de Urgență Sfântul Pantelimon este la 1 km, iar Campus Medical Regina Maria Titan la aproximativ 10 minute.
+Grădinița nr. 70 se află la 20 de metri de intrarea în ansamblu. Școala Waldorf este la 1,9 km, iar Liceul Nichita Stănescu la câteva minute pe jos. Spitalul Clinic de Urgență Sfântul Pantelimon este la 1 km, Campus Medical Regina Maria Titan la aproximativ 10 minute.
 
-Cum este Construit
+Structura și Construcția
 
-Fundația pe piloți forați la 17 metri adâncime, cu stâlpi, grinzi și diafragme din beton armat, asigură stabilitatea construcției pe termen lung. Compartimentările sunt din cărămidă Porotherm — bun pentru izolarea termică și fonică între apartamente și față de exterior. Fațada este izolată cu polistiren EPS 100 mm clasa A+.
+Imobilul are regim 2S+P+11 etaje, cu etaje retrase la ultimele două niveluri. Fundația este realizată pe piloți forați la 17 metri adâncime, cu structură din stâlpi, grinzi și diafragme din beton armat — o soluție care asigură stabilitate pe termen lung indiferent de natura terenului. Compartimentările interioare sunt din cărămidă Porotherm, cu proprietăți bune de izolație termică și fonică, iar fațada este izolată cu polistiren EPS 100 mm clasa A+.
 
-Imobilul are regim 2S+P+11 etaje, cu niveluri retrase la ultimele două etaje. Cele două subsoluri includ parcări individuale și boxe de depozitare. Parterul integrează spații comerciale și parcări acoperite. Clădirea are două scări cu câte 2 lifturi ORONA KRONLIFT fiecare — 4 lifturi în total, ceea ce face așteptarea la lift neobișnuit de scurtă pentru un imobil de această înălțime.
+Clădirea este organizată pe două scări, fiecare dotată cu câte 2 lifturi ORONA KRONLIFT — 4 lifturi în total. Cele două subsoluri includ parcări individuale și boxe de depozitare, rezolvând complet necesarul de spațiu suplimentar pentru rezidenți. Parterul integrează spații comerciale și parcări acoperite. Ultimele etaje retrase oferă apartamente cu terase cu vedere spre zona Titan – IOR și parcurile din jur. Curtea interioară privată include spații verzi amenajate, alei, locuri de parcare și un loc de joacă pentru copii.
 
-În curtea interioară privată sunt amenajate spații verzi, alei, locuri de parcare și un loc de joacă pentru copii, accesibile exclusiv rezidenților.
+Dotările și Finisajele Apartamentelor
 
-Ce Primești în Apartament
+Tâmplăria SALAMANDER Green Evolution cu geam tripan 4 anotimpuri asigură izolație termică și fonică bună și lumină naturală abundentă prin suprafețele vitrate mari. Balcoanele tip logie sunt finisate cu sticlă securizată dublă.
 
-Tâmplăria SALAMANDER Green Evolution cu geam tripan 4 anotimpuri oferă lumină naturală bună și o izolație termică și fonică serioasă. Balcoanele tip logie, finisate cu sticlă securizată dublă, sunt spațioase și practice.
+Fiecare apartament are centrală proprie în condensare SAUNIER DUVAL by VAILLANT, echipată cu termostat wireless Smart Home pentru controlul temperaturii din aplicație. Instalațiile electrice sunt modulare, sistemele sanitare sunt ROMSTAL VISION, iar încălzirea se realizează prin pardoseală în toate camerele.
 
-Fiecare apartament are centrală proprie în condensare SAUNIER DUVAL by VAILLANT cu termostat wireless Smart Home — controlezi temperatura din telefon, de oriunde. Instalațiile electrice sunt modulare, iar sistemele sanitare sunt ROMSTAL VISION.
+Finisajele interioare cuprind: parchet EGGER PRO, uși de intrare metalice BENATI, uși interioare PINUM alb vopsit, gresie și faianță CRISTACER import Spania în dimensiuni 60x60 și 60x120, obiecte sanitare CERSANIT și ROCA, baterii GROHE.
 
-Finisajele sunt concrete: parchet EGGER PRO, uși de intrare metalice BENATI, uși interioare PINUM alb vopsit, gresie și faianță CRISTACER import Spania în formate 60x60 și 60x120, obiecte sanitare CERSANIT și ROCA, baterii GROHE. Fiecare cameră are încălzire în pardoseală.
+Apartamentele de la etajele 10-11, cu terase la nivelurile retrase, oferă priveliști spre zona Titan – IOR și spre parcurile din apropiere.
 
-Apartamentele de la etajele 10-11 au terase generoase cu priveliște spre zona Titan – IOR și parcurile din jur — una dintre caracteristicile cel mai frecvent menționate de rezidenți.
+Disponibilitate
 
-Zona Titan-IOR în 2026
-
-Zona Titan – IOR a înregistrat o creștere constantă a interesului din partea cumpărătorilor în ultimii ani, susținută de infrastructura de transport bine pusă la punct, de spațiile verzi abundente și de apropierea față de centrul Bucureștiului. Prețul pe metru pătrat util rămâne mai accesibil față de zonele de nord ale capitalei, în condițiile în care calitatea vieții — în termeni de acces la parc, metrou și servicii — este comparabilă.
-
-Ultimele 5 Apartamente
-
-Mai sunt disponibile 5 apartamente — 2 camere standard și variante cu terasă la etajele superioare. Contactați-ne pentru disponibilități și prețuri actuale. Faza 2 a ansamblului este în construcție pentru cei care doresc să fie printre primii rezidenți ai noului bloc.`,
+Mai sunt disponibile 5 apartamente — 2 camere standard și variante cu terasă la etajele superioare. Prețurile și disponibilitățile exacte se pot obține contactând echipa de vânzări Neofort. Faza 2 a ansamblului este în construcție.`,
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 60.90, avans20: 85900, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 62.15, avans20: 92900, avans45: null, promo: false, camere: 2 },
