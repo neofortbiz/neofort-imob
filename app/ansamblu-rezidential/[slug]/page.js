@@ -63,7 +63,7 @@ export default function AnsambluPage({ params }) {
   if (!a) notFound()
 
   const sc = STATUS_CONFIG[a.status]
-  const similare = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug && (x.zona === a.zona || x.sector === a.sector)).slice(0, 3)
+  const similare = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug && (x.zona === a.zona || x.sector === a.sector)).slice(0, 5)
 
   // Google Maps embed URL din coordonate
   const osmEmbedUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${a.coordonate.lng - 0.008}%2C${a.coordonate.lat - 0.006}%2C${a.coordonate.lng + 0.008}%2C${a.coordonate.lat + 0.006}&layer=mapnik&marker=${a.coordonate.lat}%2C${a.coordonate.lng}`
@@ -356,12 +356,12 @@ export default function AnsambluPage({ params }) {
           <div className="border-t border-gray-100 px-6 py-8">
             <div className="max-w-7xl mx-auto">
               <h2 className="text-base font-medium text-gray-900 mb-4">Ansambluri similare în zonă</h2>
-              <div className="grid grid-cols-3 gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                 {similare.map(s => {
                   const ssc = STATUS_CONFIG[s.status]
                   return (
                     <Link key={s.slug} href={`/ansamblu-rezidential/${s.slug}`} className="border border-gray-100 rounded-xl overflow-hidden hover:border-gray-200 hover:shadow-sm transition-all group">
-                      <div className="h-28 bg-gray-100 relative overflow-hidden">
+                      <div className="h-24 bg-gray-100 relative overflow-hidden">
                         {s.imagini?.cover ? (
                           <img src={s.imagini.cover} alt={s.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" />
                         ) : (
@@ -371,8 +371,8 @@ export default function AnsambluPage({ params }) {
                       </div>
                       <div className="p-2">
                         <div className="text-[9px] text-gray-500">{s.zona}</div>
-                        <div className="text-xs font-medium text-gray-900">{s.nume}</div>
-                        <div className="text-xs font-medium mt-0.5" style={{ color: '#2d7a3a' }}>de la {formatPret(s.pretDeLa)}</div>
+                        <div className="text-[11px] font-medium text-gray-900 leading-tight">{s.nume}</div>
+                        <div className="text-[11px] font-medium mt-0.5" style={{ color: '#2d7a3a' }}>de la {formatPret(s.pretDeLa)}</div>
                       </div>
                     </Link>
                   )
