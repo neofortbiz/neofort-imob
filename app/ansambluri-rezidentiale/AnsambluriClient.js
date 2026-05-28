@@ -186,7 +186,7 @@ export default function AnsambluriClient() {
           ) : view === 'grid' ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
               {filtered.map((a, cardIdx) => {
-                const sc = STATUS_CFG[a.status]
+                const sc = STATUS_CFG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie']
                 return (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                     className="group bg-white rounded-xl border border-gray-300 overflow-hidden hover:shadow-md transition-all hover:border-gray-500">
@@ -231,7 +231,7 @@ export default function AnsambluriClient() {
           ) : (
             <div className="space-y-3">
               {filtered.map((a, cardIdx) => {
-                const sc = STATUS_CFG[a.status]
+                const sc = STATUS_CFG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie']
                 return (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                     className="group bg-white rounded-xl border border-gray-100 overflow-hidden hover:shadow-md transition-all hover:border-gray-200 flex">

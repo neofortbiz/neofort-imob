@@ -62,7 +62,7 @@ export default function AnsambluPage({ params }) {
   const a = getAnsamblu(params.slug)
   if (!a) notFound()
 
-  const sc = STATUS_CONFIG[a.status]
+  const sc = STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie']
   const similare = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug && (x.zona === a.zona || x.sector === a.sector)).slice(0, 5)
 
   // Google Maps embed URL din coordonate
@@ -240,7 +240,7 @@ export default function AnsambluPage({ params }) {
                   return `${parts[0]}+...+${mid}+${parts[parts.length - 1]}`
                 })(), lbl: 'Regim înălțime' },
                 { val: a.puncteInteres[0]?.distanta || 'N/A', lbl: a.puncteInteres[0]?.tip === 'metrou' ? 'Până la metrou' : 'Distanță' },
-                { val: STATUS_CONFIG[a.status].label, lbl: 'Status', color: STATUS_CONFIG[a.status].dot },
+                { val: STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie'].label, lbl: 'Status', color: STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie'].dot },
               ].map((s, i) => (
                 <div key={i} className="rounded-lg p-2.5 text-center" style={{ background: 'rgba(255,255,255,0.07)', border: '0.5px solid rgba(255,255,255,0.1)' }}>
                   <div className="text-sm font-medium leading-snug" style={{ color: s.color || '#e8b44e' }}>{s.val}</div>

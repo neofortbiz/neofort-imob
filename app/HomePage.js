@@ -395,7 +395,7 @@ export default function HomePageClient() {
             ) : (
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                 {displayed.map((a, cardIdx) => {
-                  const sc = STATUS_CONFIG[a.status]
+                  const sc = STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie']
                   const isRecent = recentSlugs.includes(a.slug) && recentSlugs.indexOf(a.slug) === 0
                   return (
                     <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}

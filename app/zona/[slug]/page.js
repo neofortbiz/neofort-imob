@@ -130,7 +130,7 @@ export default function ZonaPage({ params }) {
           {ansambluri.length > 0 ? (
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {ansambluri.map(a => {
-                const sc = STATUS_CONFIG[a.status]
+                const sc = STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie']
                 return (
                   <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
                     className="border border-gray-100 rounded-xl overflow-hidden bg-white hover:shadow-sm transition-all group">
