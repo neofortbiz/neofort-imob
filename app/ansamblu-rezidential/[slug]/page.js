@@ -207,7 +207,7 @@ export default function AnsambluPage({ params }) {
               <div>
                 <div className="flex flex-wrap gap-2 mb-3">
                   <div className={`inline-flex items-center gap-1.5 text-[10px] font-medium px-2.5 py-1 rounded-full ${sc.bg} ${sc.text}`}>
-                    {sc.label}{a.dataPredare !== 'Finalizat' && ` · Predare ${a.dataPredare}`}
+                    {a.dataPredare && a.dataPredare !== 'Finalizat' ? 'În construcție' : sc.label}{a.dataPredare !== 'Finalizat' && ` · Predare ${a.dataPredare}`}
                   </div>
                   {hasPromo(a) && (
                     <div className="inline-flex items-center gap-1 text-[10px] font-medium px-2.5 py-1 rounded-full text-white"

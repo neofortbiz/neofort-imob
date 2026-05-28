@@ -440,7 +440,7 @@ Puncte de interes:
 - parc: Parcul IOR (Titan) — 13 min cu masina
 - transport: Acces Autostrada A2 — 18 min cu masina
 
-Descriere scurtă: Ansamblul Rezidențial Neofort 28 Fazele 4 și 5, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 și 3 camere, de la 83.900€+TVA. Unele cu curte proprie 50mp. Metrou Nicolae Teclu la 3 minute. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.
+Descriere scurtă: Ansamblul Rezidențial Neofort 28 ansamblul, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 și 3 camere, de la 83.900€+TVA. Unele cu curte proprie 50mp. Metrou Nicolae Teclu la 3 minute. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.
 
 ### Neofort 11 Eminescu Viitorului — Eminescu-Viitorului, Sector 2
 Slug: neofort-11-eminescu-viitorului

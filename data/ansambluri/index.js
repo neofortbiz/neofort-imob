@@ -791,7 +791,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
       interior: ['/ansambluri/neo-28/interior-01.avif','/ansambluri/neo-28/interior-02.avif','/ansambluri/neo-28/interior-03.avif','/ansambluri/neo-28/interior-04.avif','/ansambluri/neo-28/interior-05.avif'],
       schite: ['/ansambluri/neo-28/schite-01.avif','/ansambluri/neo-28/schite-02.avif','/ansambluri/neo-28/schite-03.avif','/ansambluri/neo-28/schite-04.avif','/ansambluri/neo-28/schite-05.avif','/ansambluri/neo-28/schite-06.avif','/ansambluri/neo-28/schite-07.avif','/ansambluri/neo-28/schite-08.avif','/ansambluri/neo-28/schite-09.avif','/ansambluri/neo-28/schite-10.avif','/ansambluri/neo-28/schite-11.avif','/ansambluri/neo-28/schite-12.avif','/ansambluri/neo-28/schite-13.avif','/ansambluri/neo-28/schite-14.avif','/ansambluri/neo-28/schite-15.avif','/ansambluri/neo-28/schite-16.avif','/ansambluri/neo-28/schite-17.avif','/ansambluri/neo-28/schite-18.avif','/ansambluri/neo-28/schite-19.avif','/ansambluri/neo-28/schite-20.avif','/ansambluri/neo-28/schite-21.avif','/ansambluri/neo-28/schite-22.avif','/ansambluri/neo-28/schite-23.avif','/ansambluri/neo-28/schite-24.avif','/ansambluri/neo-28/schite-25.avif','/ansambluri/neo-28/schite-26.avif','/ansambluri/neo-28/schite-27.avif'],
     },
-    descriereCompleta: `Dacă ai copii sau vrei un spațiu exterior privat fără a cumpăra o casă, Neofort 28 Fazele 4 și 5 din zona Titan-Pallady, Sectorul 3, merită toată atenția: 53 de apartamente decomandate cu bucătării închise, inclusiv unități cu curte proprie de ~50 mp și unități cu terasă, finalizate, cu Metrou Nicolae Teclu (M2) la câteva minute pe jos.
+    descriereCompleta: `Dacă ai copii sau vrei un spațiu exterior privat fără a cumpăra o casă, Neofort 28 din zona Titan-Pallady, Sectorul 3, merită toată atenția: 53 de apartamente decomandate cu bucătării închise, inclusiv unități cu curte proprie de ~50 mp și unități cu terasă, finalizate, cu Metrou Nicolae Teclu (M2) la câteva minute pe jos.
 
 Oferta este bogată și acoperă orice configurație: 2 camere Tip 1, 59,80 mp, 83.900€ (promoție); 2 camere Tip 2-5, 60-65 mp, 84.900-91.900€; 2 camere cu curte proprie ~50mp la parter, 61,55 mp, 112.900€; 3 camere Tip 1, 92 mp, 128.900€; 3 camere cu terasă, 105 mp, etajele 3-4, 131.900€; 3 camere cu curte proprie la parter, 86,65 mp, 143.500€. Toate + TVA. Parcare exterioară 7.500€, subterană 11.000€.
 
@@ -807,7 +807,7 @@ Tipologia cu curte proprie la parter — atât 2 camere la 112.900€ cât și 3
 
 Cumpărătorii care au ales apartamentele cu curte la Neofort 28 au plătit o primă de 26.000-29.000€ față de unitățile standard — o diferență pe deplin justificată de raritatea configurației și de cererea ridicată. Pe piața secundară, apartamentele cu grădini private în blocuri noi se vând cu prime similare față de unități identice fără exterior, confirmând că această tipologie păstrează valoarea adăugată pe termen lung. Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Parcare exterioară 7.500€, subterană 11.000€. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.
 
-Neofort 28 Fazele 4 și 5 completează un ansamblu rezidențial cu o istorie de succes în zona Titan-Pallady: fazele anterioare au fost vândute integral, confirmând validarea pieței pentru acest proiect. Fazele 4 și 5 aduc 53 de apartamente noi, cu aceeași calitate constructivă și o ofertă tipologică extinsă față de fazele precedente — inclusiv variantele cu curte proprie, introduse ca răspuns direct la cererea din piață.
+Neofort 28 completează un ansamblu rezidențial cu o istorie de succes în zona Titan-Pallady: fazele anterioare au fost vândute integral, confirmând validarea pieței pentru acest proiect. Ansamblul aduce 53 de apartamente noi, cu aceeași calitate constructivă și o ofertă tipologică extinsă față de fazele precedente — inclusiv variantele cu curte proprie, introduse ca răspuns direct la cererea din piață.
 
 Tâmplăria Salamander tripan Low-E cu microventilație este o dotare cu impact direct asupra sănătății locatarilor, nu doar a confortului termic. Microventilația asigură un flux controlat de aer proaspăt chiar și cu ferestrele închise — eliminând problema condensului pe geamuri care apare în apartamentele cu tâmplărie etanșă fără ventilație. Ceramica Delta Studio, parchetul rezistent la trafic intens și băile cu rezervor incastrat completează un standard tehnic solid, fără compromisuri vizibile.
 
@@ -818,7 +818,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     coordonate: { lat: 44.411192, lng: 26.198428 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '3 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 28 Fazele 4 și 5, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 și 3 camere, de la 83.900€+TVA. Unele cu curte proprie 50mp. Metrou Nicolae Teclu la 3 minute. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.',
+    descriere: 'Ansamblul Rezidențial Neofort 28 ansamblul, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 și 3 camere, de la 83.900€+TVA. Unele cu curte proprie 50mp. Metrou Nicolae Teclu la 3 minute. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.',
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 59.80, avans20: 83900, avans45: null, promo: true, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 60.40, avans20: 84900, avans45: null, promo: true, camere: 2 },
@@ -848,7 +848,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 28',
-    seoDescription: 'Neofort 28 Faza 4-5, Titan-Pallady, Sector 3. 2-3 camere de la 83.900€+TVA. Unele cu curte proprie 50mp.',
+    seoDescription: 'Neofort 28 Titan-Pallady, Sector 3. 2-3 camere de la 83.900€+TVA. Unele cu curte proprie 50mp.',
   },
   {
     slug: 'neofort-11-eminescu-viitorului',

@@ -199,7 +199,7 @@ export default function AnsambluriClient() {
                         </div>
                       )}
                       <span className="absolute top-3 left-3 text-[10px] font-medium px-2 py-0.5 rounded-full"
-                        style={{ background: sc.bg, color: sc.color }}>{sc.label}</span>
+                        style={{ background: sc.bg, color: sc.color }}>{a.dataPredare && a.dataPredare !== 'Finalizat' ? 'În construcție' : sc.label}</span>
                       {hasPromo(a) && (
                         <span className="absolute top-3 left-3 mt-[22px] text-[10px] font-medium px-2 py-0.5 rounded-full text-white"
                           style={{ background: '#c0392b' }}>Promoție</span>
