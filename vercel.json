@@ -5,6 +5,21 @@
       "has": [{ "type": "host", "value": "neofort-imob.vercel.app" }],
       "destination": "https://www.neofort.ro/$1",
       "permanent": true
+    },
+    {
+      "source": "/servicii",
+      "destination": "/despre-noi",
+      "permanent": true
+    },
+    {
+      "source": "/ro",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ro/contact",
+      "destination": "/contact",
+      "permanent": true
     }
   ]
 }
