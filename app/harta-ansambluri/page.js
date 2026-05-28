@@ -125,7 +125,7 @@ export default function HartaPage() {
 
   const activeMarkers = ANSAMBLURI_ACTIVE.map(a => ({
     ...a,
-    coords: COORDS[a.numar],
+    coords: a.coordonate ? [a.coordonate.lat, a.coordonate.lng] : COORDS[a.numar],
     categorie: 'activ_vanzare',
     pinColor: hasPromo(a) ? 'promotie' : a.status,
   })).filter(a => a.coords)

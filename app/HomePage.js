@@ -410,7 +410,7 @@ export default function HomePageClient() {
                           </div>
                         )}
                         <div className={`absolute top-1.5 left-1.5 text-[9px] font-medium px-1.5 py-0.5 rounded ${sc.bg} ${sc.text}`}>
-                          {sc.label}
+                          {a.dataPredare && a.dataPredare !== 'Finalizat' ? 'În construcție' : sc.label}
                         </div>
                         {hasPromo(a) && (
                           <div className="absolute top-1.5 left-1.5 mt-[18px] text-[9px] font-medium px-1.5 py-0.5 rounded text-white"
