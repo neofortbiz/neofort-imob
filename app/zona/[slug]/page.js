@@ -139,7 +139,7 @@ export default function ZonaPage({ params }) {
                         ? <img src={a.imagini.cover} alt={a.nume} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                         : <span className="absolute inset-0 flex items-center justify-center text-xs text-gray-400">Foto</span>
                       }
-                      <div className={`absolute top-2 left-2 text-[9px] font-medium px-1.5 py-0.5 rounded ${sc.bg} ${sc.text}`}>{sc.label}</div>
+                      <div className={`absolute top-2 left-2 text-[9px] font-medium px-1.5 py-0.5 rounded ${sc.bg} ${sc.text}`}>{a.dataPredare && a.dataPredare !== 'Finalizat' ? 'În construcție' : sc.label}</div>
                     </div>
                     <div className="p-3">
                       <div className="text-[9px] text-gray-500 uppercase tracking-wider mb-0.5">{a.zona} · {a.sector}</div>
