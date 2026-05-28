@@ -127,7 +127,7 @@ export default function HartaPage() {
     ...a,
     coords: a.coordonate ? [a.coordonate.lat, a.coordonate.lng] : COORDS[a.numar],
     categorie: 'activ_vanzare',
-    pinColor: hasPromo(a) ? 'promotie' : a.status,
+    pinColor: hasPromo(a) ? 'promotie' : (a.dataPredare === 'Finalizat' ? 'activ' : 'constructie'),
   })).filter(a => a.coords)
 
   const portofoliuMarkers = TOATE_PORTOFOLIU.map(a => ({

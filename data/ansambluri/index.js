@@ -1017,9 +1017,13 @@ export const ANSAMBLURI_ACTIVE = ANSAMBLURI.filter(a =>
 // Exclude campurile grele (descriereCompleta ~69KB, apartamente, dotari, puncteInteres)
 // Reduce bundle-ul client cu ~75%
 export const ANSAMBLURI_LITE = ANSAMBLURI_ACTIVE.map(({
-  descriereCompleta, apartamente, dotari, puncteInteres, parcare,
+  descriereCompleta, dotari, puncteInteres, parcare,
+  apartamente,
   ...rest
-}) => rest)
+}) => ({
+  ...rest,
+  _hasPromo: Array.isArray(apartamente) && apartamente.some(apt => apt.promo === true),
+}))
 
 // Ansambluri portofoliu (vandute)
 export const ANSAMBLURI_PORTOFOLIU = ANSAMBLURI.filter(a => a.status === 'vandut')
