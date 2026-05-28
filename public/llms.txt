@@ -1,5 +1,5 @@
 # Neofort IMO — Imobiliare București
-# Actualizat: 2026-05-27
+# Actualizat: 2026-05-28
 
 ## Companie
 Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 77+ ansambluri livrate. 13 ansambluri active în Sectoarele 2, 3 și 6.
@@ -274,7 +274,7 @@ Status: activ
 Etaje: D+P+4E
 Tipuri: 2 camere, 3 camere
 Pret de la: 85.900€ + TVA
-Predare: Finalizat
+Predare: 30.09.2026
 Adresa: Bulevardul Theodor Pallady, Sector 3, București
 Coordonate: 44.4114, 26.1986
 Broker: Ramona BAICU, 0759 030 367
@@ -299,7 +299,7 @@ Puncte de interes:
 - parc: Parcul Teilor — 8 min cu mașina
 - scoala: Liceul Internațional ICHB / Spectrum School — 8 min cu mașina
 
-### Neofort 28 Titan Pallady Faza 4-5 — Titan-Pallady, Sector 3
+### Neofort 28 Titan Pallady — Titan-Pallady, Sector 3
 Slug: neofort-28-titan-pallady-teclu
 Status: constructie
 Etaje: D+P+4

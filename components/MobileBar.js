@@ -36,7 +36,7 @@ export default function MobileBar() {
     <>
       <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden"
         style={{ background: 'white', borderTop: '1px solid #e5e7eb', paddingBottom: 'env(safe-area-inset-bottom)' }}>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-4">
           <a href={`tel:${tel}`}
             className="flex flex-col items-center justify-center py-3 gap-1 active:bg-gray-50">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565c0" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -53,12 +53,24 @@ export default function MobileBar() {
             <span className="text-[11px] font-medium" style={{ color: '#1a7a32' }}>WhatsApp</span>
           </a>
           <a href={emailLink}
-            className="flex flex-col items-center justify-center py-3 gap-1 active:bg-gray-50">
+            className="flex flex-col items-center justify-center py-3 gap-1 active:bg-gray-50"
+            style={{ borderRight: '1px solid #e5e7eb' }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c8922a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
               <polyline points="22,6 12,13 2,6"/>
             </svg>
             <span className="text-[11px] font-medium" style={{ color: '#8a6218' }}>Email</span>
+          </a>
+          <a href="/blog"
+            className="flex flex-col items-center justify-center py-3 gap-1 active:bg-gray-50">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6b7280" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+              <polyline points="14,2 14,8 20,8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10,9 9,9 8,9"/>
+            </svg>
+            <span className="text-[11px] font-medium" style={{ color: '#6b7280' }}>Blog</span>
           </a>
         </div>
       </div>

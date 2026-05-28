@@ -1,5 +1,5 @@
 # Neofort IMO — Imobiliare București (VERSIUNE COMPLETA)
-# Actualizat: 2026-05-27
+# Actualizat: 2026-05-28
 # Versiune: llms-full.txt (date complete pentru sisteme AI/RAG)
 
 ## Companie
@@ -370,7 +370,7 @@ Status: Finalizat
 Etaje: D+P+4E
 Tipuri: 2 camere, 3 camere
 Pret de la: 85.900€ + TVA
-Predare: Finalizat
+Predare: 30.09.2026
 Adresa: Bulevardul Theodor Pallady, Sector 3, București
 Coordonate: 44.4114, 26.1986
 Broker: Ramona BAICU, 0759 030 367
@@ -399,7 +399,7 @@ Puncte de interes:
 - medical: Campus Medical Regina Maria Titan — 8 min cu mașina
 - transport: Linii STB 19, 40, 246, 335, 408 — în zonă
 
-### Neofort 28 Titan Pallady Faza 4-5 — Titan-Pallady, Sector 3
+### Neofort 28 Titan Pallady — Titan-Pallady, Sector 3
 Slug: neofort-28-titan-pallady-teclu
 Status: În construcție
 Etaje: D+P+4

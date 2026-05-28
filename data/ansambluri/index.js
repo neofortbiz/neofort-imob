@@ -26,7 +26,7 @@ export const ANSAMBLURI = [
 
 Oferta cuprinde 10 tipuri distincte de apartamente, gândite pentru orice buget și configurație familială. Apartamentele de 2 camere variază între 47,78 mp și 91,60 mp cu terasă, cu prețuri promoționale de la 62.114€ la avans 45% sau de la 66.892€ la avans 20%. Apartamentele de 3 camere acoperă suprafețe între 78,60 și 119,52 mp, de la 102.167€ la avans 45%. Vârful ofertei: apartamentul de 4 camere cu terasă panoramică la etajul 10, 175,58 mp, de la 181.262€ la avans 45%. Parcare exterioară de la 6.000€, parcare interioară de la 8.500€.
 
-Structura imobilului este realizată din cadre și diafragme din beton armat completate cu zidărie cărămidă Porotherm sau BCA Ytong. Dotările standard includ încălzire în pardoseală în toate camerele, tâmplărie PVC Salamander cu ferestre mari pentru lumină naturală maximă, lifturi silențioase, gresie și faianță de import, centrală termică proprie în condensare și instalații sanitare, electrice și termice complete.
+Structura imobilului este realizată din cadre și diafragme din beton armat completate cu zidărie BCA Ytong. Dotările standard includ încălzire în pardoseală în toate camerele, tâmplărie PVC Salamander cu ferestre mari pentru lumină naturală maximă, lifturi silențioase, gresie și faianță de import, centrală termică proprie în condensare și instalații sanitare, electrice și termice complete.
 
 Zona Titan-Pallady este în prezent una dintre cele mai căutate zone rezidențiale din București, cu o dinamică de creștere susținută. Datele din piață confirmă: apartamentele noi cu metrou în 3-8 minute și-au crescut valoarea cu 15-20% în ultimii 3 ani, iar cererea depășește constant oferta. Metrou Nicolae Teclu (M2) la câteva minute pe jos și Metrou Anghel Saligny (M2) la 8 minute asigură accesul rapid în orice punct al capitalei fără dependență de trafic.
 
@@ -61,7 +61,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
       { tip: '4 cam. terasa', etaj: 'et. 10', suprafata: 175.58, avans20: 190988, avans45: 181262, pretVechiAvans45: 241000, pretVechiAvans20: 277000, promo: true, camere: 4 },
     ],
     parcare: { exterior: { disponibil: true, pret: 6000, deLa: true, notaTVA: '+TVA' }, interior: { disponibil: true, pret: 8500, deLa: true, notaTVA: '+TVA' }, subteran: { disponibil: false, pret: null } },
-    dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie Porotherm/BCA Ytong'],
+    dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie BCA Ytong'],
     puncteInteres: [
       { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '550m' },
       { tip: 'mall', nume: 'IKEA Pallady', distanta: '8 min pe jos' },
@@ -699,7 +699,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     sector: 'Sector 3',
     adresa: 'Bulevardul Theodor Pallady, Sector 3, București',
     status: 'activ',
-    dataPredare: 'Finalizat',
+    dataPredare: '30.09.2026',
     pretDeLa: 85900,
     etaje: 'D+P+4E',
     telefon: '0759 030 367',
@@ -774,7 +774,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
   {
     slug: 'neofort-28-titan-pallady-teclu',
     numar: 28,
-    nume: 'Neofort 28 Titan Pallady Faza 4-5',
+    nume: 'Neofort 28 Titan Pallady',
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Zona Titan-Pallady, Sector 3, Bucuresti',
