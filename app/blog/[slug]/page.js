@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import BlogViews from '@/components/BlogViews'
 import { AUTORI, ARTICOLE, ARTICOLE_LIST } from '@/data/blog'
+import { NR_ACTIVE } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -46,7 +47,11 @@ export default function ArticolPage({ params }) {
   const a = ARTICOLE[params.slug]
   if (!a) notFound()
   const autor = AUTORI[a.autor]
-  const altele = ARTICOLE_LIST.filter(x => x.slug !== params.slug).slice(0, 2)
+  const altele = (() => {
+    const sameTag = ARTICOLE_LIST.filter(x => x.slug !== params.slug && x.tag === a.tag)
+    const rest = ARTICOLE_LIST.filter(x => x.slug !== params.slug && x.tag !== a.tag)
+    return [...sameTag, ...rest].slice(0, 3)
+  })()
   const shareUrl = `${BASE}/blog/${params.slug}`
 
   const articleSchema = {
@@ -56,7 +61,7 @@ export default function ArticolPage({ params }) {
     description: a.descriere,
     image: `${BASE}${a.image}`,
     datePublished: a.dataISO,
-    dateModified: a.dataISO,
+    dateModified: a.dataModificata || a.dataISO,
     url: `${BASE}/blog/${params.slug}`,
     inLanguage: 'ro-RO',
     keywords: a.keywords?.join(', '),
@@ -74,6 +79,7 @@ export default function ArticolPage({ params }) {
       logo: { '@type': 'ImageObject', url: `${BASE}/logo.avif` },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE}/blog/${params.slug}` },
+    wordCount: getWordCount(a),
     speakable: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['h1', 'h2', '.article-lead', '.faq-answer'],
@@ -237,6 +243,41 @@ export default function ArticolPage({ params }) {
                 </div>
               )}
 
+              {/* LINKURI INTERNE CONTEXTUALE */}
+              <div className="mt-8 p-5 rounded-2xl border border-gray-100 bg-gray-50">
+                <p className="text-xs font-semibold text-gray-700 uppercase tracking-wider mb-4">Resurse utile de pe Neofort IMO</p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <Link href="/ansambluri-rezidentiale" className="flex items-center gap-3 p-3 bg-white rounded-xl border border-gray-200 hover:border-[#2d7a3a] hover:shadow-sm transition-all group">
+                    <span className="text-xl">🏢</span>
+                    <div>
+                      <p className="text-xs font-semibold text-gray-900 group-hover:text-[#2d7a3a] transition-colors">Ansambluri la vânzare</p>
+                      <p className="text-[10px] text-gray-500">{NR_ACTIVE} proiecte active în București</p>
+                    </div>
+                  </Link>
+                  <Link href="/harta-ansambluri" className="flex items-center gap-3 p-3 bg-white rounded-xl border border-gray-200 hover:border-[#2d7a3a] hover:shadow-sm transition-all group">
+                    <span className="text-xl">🗺️</span>
+                    <div>
+                      <p className="text-xs font-semibold text-gray-900 group-hover:text-[#2d7a3a] transition-colors">Hartă ansambluri</p>
+                      <p className="text-[10px] text-gray-500">Toate proiectele pe hartă interactivă</p>
+                    </div>
+                  </Link>
+                  <Link href="/blog" className="flex items-center gap-3 p-3 bg-white rounded-xl border border-gray-200 hover:border-[#2d7a3a] hover:shadow-sm transition-all group">
+                    <span className="text-xl">📖</span>
+                    <div>
+                      <p className="text-xs font-semibold text-gray-900 group-hover:text-[#2d7a3a] transition-colors">Blog imobiliar</p>
+                      <p className="text-[10px] text-gray-500">Ghiduri, analize și legislație</p>
+                    </div>
+                  </Link>
+                  <Link href="/contact" className="flex items-center gap-3 p-3 bg-white rounded-xl border border-gray-200 hover:border-[#2d7a3a] hover:shadow-sm transition-all group">
+                    <span className="text-xl">💬</span>
+                    <div>
+                      <p className="text-xs font-semibold text-gray-900 group-hover:text-[#2d7a3a] transition-colors">Consultanță gratuită</p>
+                      <p className="text-[10px] text-gray-500">Fără comision de agenție</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+
               {/* SHARE */}
               <div className="mt-8 pt-6 border-t border-gray-100">
                 <p className="text-xs font-semibold text-gray-700 mb-3 uppercase tracking-wider">Distribuie articolul</p>
@@ -344,7 +385,7 @@ export default function ArticolPage({ params }) {
               {/* CTA */}
               <div className="rounded-xl p-5 text-white" style={{ background: '#081c12' }}>
                 <p className="text-xs font-semibold mb-1" style={{ color: '#e8b44e' }}>Cauți apartament nou?</p>
-                <p className="text-xs mb-4 leading-relaxed" style={{ color: 'rgba(255,255,255,0.7)' }}>12 ansambluri active în București. Consultanță gratuită, fără comision.</p>
+                <p className="text-xs mb-4 leading-relaxed" style={{ color: 'rgba(255,255,255,0.7)' }}>{NR_ACTIVE} ansambluri active în București. Consultanță gratuită, fără comision.</p>
                 <Link href="/ansambluri-rezidentiale"
                   className="block text-center text-xs py-2.5 rounded-lg font-semibold mb-2"
                   style={{ background: '#2d7a3a', color: 'white' }}>
