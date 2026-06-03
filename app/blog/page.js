@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import BlogListingViews from '@/components/BlogListingViews'
 import { ARTICOLE_LIST, AUTORI, CATEGORII } from '@/data/blog'
 import { NR_LIVRATE } from '@/data/siteConfig'
 
@@ -75,10 +74,6 @@ export default async function BlogPage() {
                       {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}
                       <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 60%)' }} />
                       <span className="absolute top-4 left-4 text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ background: FEATURED.tagColor }}>{FEATURED.tag}</span>
-                      {/* Vizualizari pe cardul featured */}
-                      <div className="absolute bottom-4 right-4">
-                        <BlogListingViews slug={FEATURED.slug} />
-                      </div>
                     </div>
                     <h2 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-[#2d7a3a] transition-colors leading-snug">{FEATURED.titlu}</h2>
                     <p className="text-gray-500 text-sm mb-3 leading-relaxed">{FEATURED.rezumat}</p>
@@ -91,6 +86,7 @@ export default async function BlogPage() {
                       <time dateTime={FEATURED.dataISO}>{FEATURED.data}</time>
                       <span>·</span>
                       <span>{FEATURED.citire} citire</span>
+                      {views[FEATURED.slug] > 0 && <><span>·</span><span className="inline-flex items-center gap-1"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>{views[FEATURED.slug].toLocaleString('ro-RO')}</span></>}
                     </div>
                   </Link>
                 </div>
@@ -109,10 +105,6 @@ export default async function BlogPage() {
                           <img src={a.image} alt={a.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                         ) : <div style={{ position: 'absolute', inset: 0, background: '#f3f4f6' }} />}
                         <span className="absolute top-3 left-3 text-[10px] font-semibold px-2 py-0.5 rounded-full text-white" style={{ background: a.tagColor }}>{a.tag}</span>
-                        {/* Vizualizari pe card */}
-                        <div className="absolute bottom-2 right-2">
-                          <BlogListingViews slug={a.slug} />
-                        </div>
                       </div>
                       <div className="p-4">
                         <h2 className="text-sm font-semibold text-gray-900 leading-snug mb-2 group-hover:text-[#2d7a3a] transition-colors">{a.titlu}</h2>
@@ -126,6 +118,7 @@ export default async function BlogPage() {
                           <time dateTime={a.dataISO}>{a.data}</time>
                           <span>·</span>
                           <span>{a.citire}</span>
+                          {views[a.slug] > 0 && <><span>·</span><span className="inline-flex items-center gap-1"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>{views[a.slug].toLocaleString('ro-RO')}</span></>}
                         </div>
                       </div>
                     </Link>
