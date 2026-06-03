@@ -79,10 +79,6 @@ export default async function BlogPage() {
                       {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}
                       <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 60%)' }} />
                       <span className="absolute top-4 left-4 text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ background: FEATURED.tagColor }}>{FEATURED.tag}</span>
-                      {/* Vizualizari pe cardul featured */}
-                      <div className="absolute bottom-4 right-4">
-                        <BlogListingViews slug={FEATURED.slug} />
-                      </div>
                     </div>
                     <h2 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-[#2d7a3a] transition-colors leading-snug">{FEATURED.titlu}</h2>
                     <p className="text-gray-500 text-sm mb-3 leading-relaxed">{FEATURED.rezumat}</p>
