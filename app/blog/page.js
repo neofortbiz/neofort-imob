@@ -35,9 +35,13 @@ export default async function BlogPage() {
   const ARTICOLE_SORTATE = [...ARTICOLE_LIST].sort((a, b) =>
     new Date(b.dataISO) - new Date(a.dataISO)
   )
-  const FEATURED = ARTICOLE_SORTATE[0]
-  const REST = ARTICOLE_SORTATE.slice(1)
   const views = await getViews(ARTICOLE_SORTATE.map(a => a.slug))
+  // Featured = articolul cu cele mai multe vizualizari
+  const featured_slug = ARTICOLE_SORTATE.reduce((best, a) =>
+    (views[a.slug] || 0) > (views[best.slug] || 0) ? a : best
+  , ARTICOLE_SORTATE[0])
+  const FEATURED = featured_slug
+  const REST = ARTICOLE_SORTATE.filter(a => a.slug !== FEATURED.slug)
   return (
     <>
       <Header activePath="/blog" />
