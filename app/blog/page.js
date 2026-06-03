@@ -30,7 +30,19 @@ const ARTICOLE_SORTATE = [...ARTICOLE_LIST].sort((a, b) =>
 const FEATURED = ARTICOLE_SORTATE[0]
 const REST = ARTICOLE_SORTATE.slice(1)
 
-export default function BlogPage() {
+async function getViews() {
+  try {
+    const slugs = ARTICOLE_SORTATE.map(a => a.slug).join(',')
+    const res = await fetch(`${BASE}/api/views?slugs=${slugs}`, { next: { revalidate: 60 } })
+    if (!res.ok) return {}
+    return await res.json()
+  } catch {
+    return {}
+  }
+}
+
+export default async function BlogPage() {
+  const views = await getViews()
   return (
     <>
       <Header activePath="/blog" />
@@ -83,8 +95,7 @@ export default function BlogPage() {
                       <time dateTime={FEATURED.dataISO}>{FEATURED.data}</time>
                       <span>·</span>
                       <span>{FEATURED.citire} citire</span>
-                      <span>·</span>
-                      <BlogListingViews slug={FEATURED.slug} inline />
+                      {views[FEATURED.slug] > 0 && <><span>·</span><span className="inline-flex items-center gap-1"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>{views[FEATURED.slug].toLocaleString('ro-RO')}</span></>}
                     </div>
                   </Link>
                 </div>
@@ -120,8 +131,7 @@ export default function BlogPage() {
                           <time dateTime={a.dataISO}>{a.data}</time>
                           <span>·</span>
                           <span>{a.citire}</span>
-                          <span>·</span>
-                          <BlogListingViews slug={a.slug} inline />
+                          {views[a.slug] > 0 && <><span>·</span><span className="inline-flex items-center gap-1"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>{views[a.slug].toLocaleString('ro-RO')}</span></>}
                         </div>
                       </div>
                     </Link>
