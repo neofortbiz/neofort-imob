@@ -23,17 +23,9 @@ export const metadata = {
 }
 
 // Sortare cronologica descrescatoare — cel mai nou primul (LIFO)
-const ARTICOLE_SORTATE = [...ARTICOLE_LIST].sort((a, b) =>
-  new Date(b.dataISO) - new Date(a.dataISO)
-)
-
-const FEATURED = ARTICOLE_SORTATE[0]
-const REST = ARTICOLE_SORTATE.slice(1)
-
-async function getViews() {
+async function getViews(slugs) {
   try {
-    const slugs = ARTICOLE_SORTATE.map(a => a.slug).join(',')
-    const res = await fetch(`${BASE}/api/views?slugs=${slugs}`, { next: { revalidate: 60 } })
+    const res = await fetch(`${BASE}/api/views?slugs=${slugs.join(',')}`, { next: { revalidate: 60 } })
     if (!res.ok) return {}
     return await res.json()
   } catch {
@@ -42,7 +34,12 @@ async function getViews() {
 }
 
 export default async function BlogPage() {
-  const views = await getViews()
+  const ARTICOLE_SORTATE = [...ARTICOLE_LIST].sort((a, b) =>
+    new Date(b.dataISO) - new Date(a.dataISO)
+  )
+  const FEATURED = ARTICOLE_SORTATE[0]
+  const REST = ARTICOLE_SORTATE.slice(1)
+  const views = await getViews(ARTICOLE_SORTATE.map(a => a.slug))
   return (
     <>
       <Header activePath="/blog" />
