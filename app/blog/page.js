@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import BlogListingViews from '@/components/BlogListingViews'
 import { ARTICOLE_LIST, AUTORI, CATEGORII } from '@/data/blog'
 import { NR_LIVRATE } from '@/data/siteConfig'
 
@@ -107,10 +106,6 @@ export default async function BlogPage() {
                           <img src={a.image} alt={a.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                         ) : <div style={{ position: 'absolute', inset: 0, background: '#f3f4f6' }} />}
                         <span className="absolute top-3 left-3 text-[10px] font-semibold px-2 py-0.5 rounded-full text-white" style={{ background: a.tagColor }}>{a.tag}</span>
-                        {/* Vizualizari pe card */}
-                        <div className="absolute bottom-2 right-2">
-                          <BlogListingViews slug={a.slug} />
-                        </div>
                       </div>
                       <div className="p-4">
                         <h2 className="text-sm font-semibold text-gray-900 leading-snug mb-2 group-hover:text-[#2d7a3a] transition-colors">{a.titlu}</h2>
