@@ -83,6 +83,8 @@ export default function BlogPage() {
                       <time dateTime={FEATURED.dataISO}>{FEATURED.data}</time>
                       <span>·</span>
                       <span>{FEATURED.citire} citire</span>
+                      <span>·</span>
+                      <BlogListingViews slug={FEATURED.slug} inline />
                     </div>
                   </Link>
                 </div>
@@ -118,6 +120,8 @@ export default function BlogPage() {
                           <time dateTime={a.dataISO}>{a.data}</time>
                           <span>·</span>
                           <span>{a.citire}</span>
+                          <span>·</span>
+                          <BlogListingViews slug={a.slug} inline />
                         </div>
                       </div>
                     </Link>

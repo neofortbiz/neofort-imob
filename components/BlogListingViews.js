@@ -44,18 +44,15 @@ function scheduleBatch(slug, onResult) {
   }, 50) // asteapta 50ms ca toate componentele sa se monteze
 }
 
-export default function BlogListingViews({ slug }) {
+export default function BlogListingViews({ slug, inline }) {
   const [views, setViews] = useState(null)
 
   useEffect(() => {
-    // Daca avem deja cache, folosim imediat
     if (cache.data) {
       const v = cache.data[slug] || 0
       if (v > 0) setViews(v)
       return
     }
-
-    // Altfel, adaugam in batch
     scheduleBatch(slug, (data) => {
       const v = data[slug] || 0
       if (v > 0) setViews(v)
@@ -63,6 +60,18 @@ export default function BlogListingViews({ slug }) {
   }, [slug])
 
   if (!views) return null
+
+  if (inline) {
+    return (
+      <span className="inline-flex items-center gap-1">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+        {views.toLocaleString('ro-RO')}
+      </span>
+    )
+  }
 
   return (
     <span className="inline-flex items-center gap-1 text-[10px] font-medium text-white px-2 py-0.5 rounded-full"
