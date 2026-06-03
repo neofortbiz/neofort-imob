@@ -15,6 +15,16 @@ function getWordCount(a) {
   return text.split(/\s+/).filter(w => w.length > 2).length
 }
 
+// Parseaza [text](url) in linkuri interne
+function parseLinks(text) {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g)
+  return parts.map((part, i) => {
+    const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
+    if (m) return <Link key={i} href={m[2]} className="text-[#2d7a3a] underline underline-offset-2 hover:text-[#1a5c2a] transition-colors">{m[1]}</Link>
+    return part
+  })
+}
+
 export async function generateStaticParams() {
   return Object.keys(ARTICOLE).map(slug => ({ slug }))
 }
@@ -227,7 +237,9 @@ export default function ArticolPage({ params }) {
                     )
                     : (
                       <div className="text-sm text-gray-700 leading-8 whitespace-pre-line text-justify">
-                        {s.continut}
+                        {s.continut.split('\n').map((line, i) => (
+                          <span key={i}>{parseLinks(line)}{i < s.continut.split('\n').length - 1 ? '\n' : ''}</span>
+                        ))}
                       </div>
                     )
                   }

@@ -336,11 +336,11 @@ Efectul pe piață a fost dublu. Înainte de 1 august 2025, volumul tranzacțiil
 
 Zone cu cea mai rapidă apreciere în 2025 (+12–18%):
 
-Titan–Pallady (Sectorul 3) — zona a explodat după extinderea liniei M2 și deschiderea IKEA Pallady. Prețul mediu pentru apartamente noi a urcat de la 1.650 EUR/mp în 2024 la 1.940 EUR/mp în 2025. Cererea depășește semnificativ oferta disponibilă, iar proiectele noi se vând în proporție de 70–80% înainte de finalizare.
+[Titan–Pallady](/zona/titan-pallady) (Sectorul 3) — zona a explodat după extinderea liniei M2 și deschiderea IKEA Pallady. Prețul mediu pentru apartamente noi a urcat de la 1.650 EUR/mp în 2024 la 1.940 EUR/mp în 2025. Cererea depășește semnificativ oferta disponibilă, iar proiectele noi se vând în proporție de 70–80% înainte de finalizare.
 
-Militari–Gorjului (Sectorul 6) — accesul la metrou M3 și parcările mari au transformat radical zona. De la 1.580 EUR/mp la 1.820 EUR/mp. Proiectele cu livrare 2026–2027 s-au rezervat masiv.
+[Militari–Gorjului](/zona/militari) (Sectorul 6) — accesul la metrou M3 și parcările mari au transformat radical zona. De la 1.580 EUR/mp la 1.820 EUR/mp. Proiectele cu livrare 2026–2027 s-au rezervat masiv.
 
-Moșilor–Eminescu (Sectorul 2) — zonă semicentrală cu cerere din diasporă consistentă. Creștere de 14% în 2025, cu prețuri medii de 2.400–2.700 EUR/mp pentru apartamente noi.
+[Moșilor–Eminescu](/zona/mosilor-eminescu) (Sectorul 2) — zonă semicentrală cu cerere din diasporă consistentă. Creștere de 14% în 2025, cu prețuri medii de 2.400–2.700 EUR/mp pentru apartamente noi.
 
 Zone cu creșteri moderate (+7–11%):
 
@@ -462,7 +462,7 @@ Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții 
         h2: `Situația TVA la apartamente noi în 2026 — ce s-a schimbat și de ce`,
         continut: `Dacă îți cumperi un apartament nou în 2026, TVA este probabil cel mai important aspect fiscal pe care trebuie să îl înțelegi înainte de a semna orice act. Schimbările din 2025 au modificat radical regulile și mulți cumpărători sunt surprinși de diferențele față de ce știau din 2023–2024.
 
-Pe scurt: cota standard de TVA pentru locuințele noi este acum 21%, după ce Legea nr. 141/2025 a majorat-o de la 19% (la 1 august 2025) și a eliminat complet cota redusă de 5% aplicabilă anterior. Singura facilitate care mai există este o cotă tranzitorie de 9%, dar cu condiții foarte stricte pe care o parte mică din cumpărători le mai îndeplinesc în 2026.
+Pe scurt: [cota standard de TVA pentru locuințele noi este acum 21%](/blog/tva-apartamente-noi-2026), după ce Legea nr. 141/2025 a majorat-o de la 19% (la 1 august 2025) și a eliminat complet cota redusă de 5% aplicabilă anterior. Singura facilitate care mai există este o cotă tranzitorie de 9%, dar cu condiții foarte stricte pe care o parte mică din cumpărători le mai îndeplinesc în 2026.
 
 Aceasta este schimbarea fiscală cu cel mai mare impact pe piața rezidențială din ultimul deceniu. Înțelegerea exactă a regulilor te poate salva de la plata a 10.000–20.000 EUR în plus față de ce ai anticipat.`,
       },
@@ -540,7 +540,7 @@ Important: toate prețurile afișate de Neofort IMO includ TVA. Nu există costu
       {
         id: 'noua-casa',
         h2: `Interacțiunea TVA 21% cu programul Noua Casă — ce trebuie să știi`,
-        continut: `Programul Noua Casă continuă în 2026 cu un plafon de garantare de 500 milioane lei, aprobat prin Hotărâre de Guvern în mai 2026. Programul acoperă atât locuințe noi, cât și locuințe vechi, dar TVA 21% afectează direct atractivitatea pentru locuințele noi.
+        continut: `[Programul Noua Casă](/blog/noua-casa-2026-ghid-complet) continuă în 2026 cu un plafon de garantare de 500 milioane lei, aprobat prin Hotărâre de Guvern în mai 2026. Programul acoperă atât locuințe noi, cât și locuințe vechi, dar TVA 21% afectează direct atractivitatea pentru locuințele noi.
 
 Plafonul de finanțare Noua Casă: pentru locuințe noi, creditul garantat acoperă maximum 66.500 EUR din prețul total (TVA inclus). La TVA 21%, un apartament cu prețul net de 55.000 EUR costă total 66.550 EUR — abia se încadrează în plafon. Practic, Noua Casă acoperă acum apartamente semnificativ mai mici sau mai periferice decât înainte de majorarea TVA.
 
@@ -631,7 +631,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
 
 Dar de ce? Nu este vorba de un singur factor, ci de o combinație rară de elemente care, întâmplător sau nu, s-au aliniat în același timp: extinderea metrului, deschiderea IKEA, regenerarea parcului IOR, creșterea puterii de cumpărare și un stoc de terenuri disponibile suficient de mare pentru a absorbi cererea.
 
-Lucrez în Neofort IMO pe zona Titan–Pallady de 10 ani. Am văzut transformarea graduală a zonei dintr-o periferie cu reputație discutabilă într-una dintre destinațiile rezidențiale cele mai căutate din București. Transformarea este reală și sustenabilă — nu o bulă speculativă.`,
+Lucrez în Neofort IMO pe [zona Titan–Pallady](/zona/titan-pallady) de 10 ani. Am văzut transformarea graduală a zonei dintr-o periferie cu reputație discutabilă într-una dintre destinațiile rezidențiale cele mai căutate din București. Transformarea este reală și sustenabilă — nu o bulă speculativă.`,
       },
       {
         id: 'metrou',
@@ -654,7 +654,7 @@ Pe lângă M2, zona beneficiază de conexiuni directe la IKEA Pallady prin mai m
         h2: `IKEA Pallady și efectul de ecosistem comercial`,
         continut: `Deschiderea IKEA Pallady în 2019 a fost mai mult decât un magazin nou — a fost un semnal că zona a ajuns pe harta retailului de top din București. IKEA nu deschide magazine în zone fără potențial. Studiile lor de piață sunt notorioase pentru precizie.
 
-Efectul direct a fost vizibil imediat: în 18 luni de la deschidere, prețurile apartamentelor din raza de 2 km au crescut cu 8–11%, depășind media orașului. Explicația este simplă: proximitatea față de un centru comercial mare crește calitatea vieții și reduce dependența de deplasări lungi.
+Efectul direct a fost vizibil imediat: în 18 luni de la deschidere, [prețurile apartamentelor](/blog/preturi-apartamente-bucuresti-2026) din raza de 2 km au crescut cu 8–11%, depășind media orașului. Explicația este simplă: proximitatea față de un centru comercial mare crește calitatea vieții și reduce dependența de deplasări lungi.
 
 Dar efectul mai important este cel de ecosistem. IKEA a atras în jur: un hypermarket Carrefour, magazine de bricolaj, restaurante, bănci, farmacii. Zona Pallady are acum o densitate comercială comparabilă cu zonele mature din Sectorul 1 sau 2. Pentru familiile tinere — care sunt principalii cumpărători de apartamente noi — aceasta este o diferență majoră față de periferiile cu un singur magazin alimentar.
 
@@ -759,7 +759,7 @@ Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Su
     autor: 'adriana-veselu',
     image: '/blog/noua-casa-2026-ghid-complet.avif',
     descriere: `Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere, ce apartamente se califică și cum interacționează cu TVA 21%.`,
-    keywords: ['noua casa 2026', 'program noua casa conditii', 'credit ipotecar garantat stat 2026', 'prima casa 2026', 'avans noua casa', 'noua casa bucuresti apartament nou'],
+    keywords: ['noua casa 2026', 'program noua casa conditii', '[credit ipotecar](/blog/credit-ipotecar-2026-dobanzi-conditii) garantat stat 2026', 'prima casa 2026', 'avans noua casa', 'noua casa bucuresti apartament nou'],
     hashtags: ['#NouaCasa2026', '#CreditIpotecar', '#AchizitieApartament', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'ce-este', titlu: `Ce este Noua Casă în 2026` },
@@ -951,7 +951,7 @@ Preferința clară pentru zone imediat după inelul central sau chiar periferice
 Explicația: vin din medii imobiliare cu prețuri și mai mari (Istanbul, Chișinău central), unde spațiul se cumpără mai scump. Preferă să primească mai mulți mp pentru bugetul disponibil, chiar dacă zona e mai periferică.
 
 Românii din Israel:
-Profil variat, dar cu o tendință spre investiție. Caută apartamente cu randament bun la închiriere. Zona Titan–Pallady și Piața Muncii apar frecvent — randamentele sunt mai bune decât în zonele centrale. Unii cumpără 2–3 apartamente simultan.`,
+Profil variat, dar cu o tendință spre investiție. Caută apartamente cu [randament bun la închiriere](/blog/randament-inchiriere-zone-bucuresti). Zona Titan–Pallady și Piața Muncii apar frecvent — randamentele sunt mai bune decât în zonele centrale. Unii cumpără 2–3 apartamente simultan.`,
       },
       {
         id: 'procesul',
@@ -959,7 +959,7 @@ Profil variat, dar cu o tendință spre investiție. Caută apartamente cu randa
         continut: `Procesul de cumpărare din diasporă urmează exact aceleași etape ca o tranzacție locală, cu ajustări pentru distanță:
 
 Etapa 1: Identificarea apartamentului și negocierea (online)
-Comunicăm prin WhatsApp, email sau video call. Trimitem fotografii detaliate, video-uri walkthrough, documentație tehnică. Discutăm prețul, condițiile de plată, termenul de predare. Aceasta durează de regulă 1–4 săptămâni.
+Comunicăm prin WhatsApp, email sau video call. Trimitem fotografii detaliate, video-uri walkthrough, documentație tehnică. Discutăm prețul, condițiile de plată, [termenul de predare](/blog/predare-la-cheie-ce-inseamna). Aceasta durează de regulă 1–4 săptămâni.
 
 Etapa 2: Rezervarea (online + transfer)
 Plata rezervării se face prin transfer bancar internațional. Confirmarea se face în 24–48 de ore. Suma de rezervare este de regulă 1.000–2.000 EUR și este restituibilă dacă tranzacția nu se finalizează din vina noastră.
@@ -1050,7 +1050,7 @@ Anunțuri cu prețuri prea mici față de piață, cereri de transferuri urgente
 Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu 105 recenzii (rating 4.3/5) și 17 ani de activitate verificabilă. Puteți verifica oricând.
 
 Riscul 4: Pierderea facilităților fiscale din lipsă de informare
-TVA 21% versus 9% poate face o diferență de 10.000–15.000 EUR. Asigurați-vă că știți ce cotă se aplică tranzacției voastre înainte de semnare.`,
+[TVA 21% versus 9%](/blog/tva-apartamente-noi-2026) poate face o diferență de 10.000–15.000 EUR. Asigurați-vă că știți ce cotă se aplică tranzacției voastre înainte de semnare.`,
       },
       {
         id: 'fiscalitate-diaspora',
@@ -1181,7 +1181,7 @@ Un aspect mai important: pentru a doua proprietate (locuință secondară sau de
         h2: `Randamentul la închiriere: apartament nou vs. vechi în aceeași zonă`,
         continut: `Dacă achiziția este cu scop investițional (venituri din chirie), calculul randamentului este decisiv:
 
-Apartament nou 2 camere, 55 mp, Titan-Pallady, preț achiziție total 161.000 EUR (cu TVA 21%):
+Apartament nou 2 camere, 55 mp, Titan-Pallady, preț achiziție total 161.000 EUR (cu [TVA 21%](/blog/tva-apartamente-noi-2026)):
 • Chirie lunară estimată: 550–650 EUR
 • Venit anual brut: 6.600–7.800 EUR
 • Randament brut: 4,1–4,8%
@@ -1478,7 +1478,7 @@ Dacă ai întrebări despre specificațiile unui proiect specific, consultanții
       { id: 'titan-pallady', titlu: `Titan–Pallady — randamentul zonei` },
       { id: 'militari', titlu: `Militari–Gorjului` },
       { id: 'mosilor', titlu: `Moșilor–Eminescu` },
-      { id: 'piata-muncii', titlu: `Piața Muncii–Dristor` },
+      { id: 'piata-muncii', titlu: `[Piața Muncii–Dristor](/zona/piata-muncii-dristor)` },
       { id: 'floreasca', titlu: `Floreasca–Aviației (referință premium)` },
       { id: 'comparativ', titlu: `Tabel comparativ și concluzie` },
     ],
@@ -1506,7 +1506,7 @@ Toate calculele de mai jos folosesc randamentul net fără cost de credit — ad
       },
       {
         id: 'titan-pallady',
-        h2: `Titan–Pallady — randamentul celei mai dinamice zone din București`,
+        h2: `[Titan–Pallady](/zona/titan-pallady) — randamentul celei mai dinamice zone din București`,
         continut: `Date de piață actualizate mai 2026:
 
 Prețuri apartamente noi (total cu TVA 21%):
@@ -1705,7 +1705,7 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
     cuprins: [
       { id: 'inainte', titlu: 'Înainte de a căuta: ce trebuie să stabilești' },
       { id: 'cercetare', titlu: 'Cum analizezi un dezvoltator și un proiect' },
-      { id: 'finantare', titlu: 'Finanțarea: credit ipotecar vs. surse proprii' },
+      { id: 'finantare', titlu: 'Finanțarea: [credit ipotecar](/blog/credit-ipotecar-2026-dobanzi-conditii) vs. surse proprii' },
       { id: 'antecontract', titlu: 'Antecontractul: ce verifici înainte să semnezi' },
       { id: 'capcane', titlu: '8 capcane frecvente și cum le eviți' },
       { id: 'predare', titlu: 'Predarea apartamentului: lista de verificare' },
@@ -1884,7 +1884,7 @@ Dacă cumperi printr-un agent imobiliar, verifică clar: comisionul este plătit
 
 **De ce contează:** mulți cumpărători intră în tranzacție cu exact avansul calculat și descoperă că au nevoie de 15-25% mai mult pentru a putea locui efectiv în apartamentul achiziționat. Planifică din timp.
 
-Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sună-ne la 0758 090 904 sau trimite-ne o solicitare prin formularul de contact — oferim consultanță gratuită fără angajamente.`,
+Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sună-ne la 0758 090 904 sau trimite-ne o solicitare prin formularul de contact — oferim [consultanță gratuită](/contact) fără angajamente.`,
       },
     ],
   },
@@ -1996,7 +1996,7 @@ Ce nu funcționează la fel de bine: pentru cei care lucrează în vest (Militar
         h2: `Titan–Pallady pentru investiție în 2026 — calculul real al randamentului`,
         continut: `Date concrete din piața locală — mai 2026:
 
-Chirii practicate pentru apartamente noi în zona Titan–Pallady:
+Chirii practicate pentru apartamente noi în [zona Titan–Pallady](/zona/titan-pallady):
 • Garsonieră 36–40 mp: 300–380 EUR/lună
 • 2 camere 50–60 mp: 430–530 EUR/lună
 • 3 camere 70–80 mp: 550–680 EUR/lună
@@ -2511,7 +2511,7 @@ Scenariul 2 — Două apartamente, chirie totală 1.200 EUR/lună (14.400 EUR/an
 • Total: ~13.440 lei/an (~1.120 lei/lună)
 
 Randamentul net după taxe:
-La un apartament cumpărat cu 130.000 EUR și dat în chirie cu 500 EUR/lună, randamentul brut e 4,6%. După taxe (~360 lei/lună), randamentul net scade la aproximativ 3,6% — în continuare superior dobânzilor bancare și inflației planificate pentru 2026-2027.
+La un apartament cumpărat cu 130.000 EUR și dat în chirie cu 500 EUR/lună, [randamentul brut](/blog/randament-inchiriere-zone-bucuresti) e 4,6%. După taxe (~360 lei/lună), randamentul net scade la aproximativ 3,6% — în continuare superior dobânzilor bancare și inflației planificate pentru 2026-2027.
 
 Atenție: calculele de mai sus sunt orientative. Situația fiscală individuală depinde de total venituri, numărul de proprietăți și forma juridică (persoană fizică vs PFA). Consultați un contabil autorizat pentru situația dvs. specifică.`,
       },
@@ -2588,7 +2588,7 @@ Oportunitate: proprietarii care nu au declarat anterior și acum intră în lega
 
 Portofoliu vs apartament singular: investitorii cu 3+ apartamente ar trebui să analizeze dacă forma de PFA sau SRL microîntreprindere (impozit 1% sau 3% pe venituri) este mai avantajoasă față de impozitarea ca persoană fizică. La venituri totale din chirii peste 60.000 lei/an, diferența poate fi de mii de lei anual.
 
-Noua Casă și chiria: apartamentele cumpărate prin programul Noua Casă nu pot fi închiriate în primii 5 ani de la achiziție. Încălcarea acestei restricții duce la rezilierea garanției de stat și rambursarea imediată a creditului — verificați condițiile contractuale înainte de orice decizie.
+[Noua Casă](/blog/noua-casa-2026-ghid-complet) și chiria: apartamentele cumpărate prin programul Noua Casă nu pot fi închiriate în primii 5 ani de la achiziție. Încălcarea acestei restricții duce la rezilierea garanției de stat și rambursarea imediată a creditului — verificați condițiile contractuale înainte de orice decizie.
 
 Concluzia pentru investitori: piața de închiriere din București rămâne atractivă în 2026 în ciuda fiscalizării mai stricte. Transparența impusă de lege elimină proprietarii care acționau ilegal din competiție, stabilizând prețurile chiriilor și reducând concurența neloială.`,
       },
@@ -2832,11 +2832,11 @@ Consensul analiștilor este că BNR va mai reduce dobânda cu 0,5-0,75 puncte pr
     hashtags: ['#InvestitieImobiliara', '#ZoneBucuresti2027', '#MosilorEminescu', '#PiataMuncii', '#NeofortIMO'],
     cuprins: [
       { id: 'metodologie', titlu: `Metodologia analizei — cum evaluăm potențialul` },
-      { id: 'mosilor-eminescu', titlu: `Moșilor–Eminescu — zona boutique în ascensiune` },
+      { id: 'mosilor-eminescu', titlu: `[Moșilor–Eminescu](/zona/mosilor-eminescu) — zona boutique în ascensiune` },
       { id: 'piata-muncii', titlu: `Piața Muncii–Dristor — deficit de ofertă față de cerere` },
-      { id: 'militari', titlu: `Militari–Gorjului — randamentul din chirii imbatabil` },
+      { id: 'militari', titlu: `[Militari–Gorjului](/zona/militari) — randamentul din chirii imbatabil` },
       { id: 'zone-risc', titlu: `Zone de evitat sau cu risc ridicat în 2027` },
-      { id: 'titan-pallady-2027', titlu: `Titan–Pallady în 2027 — maturat dar solid` },
+      { id: 'titan-pallady-2027', titlu: `[Titan–Pallady](/zona/titan-pallady) în 2027 — maturat dar solid` },
       { id: 'recomandari', titlu: `Recomandări practice per profil de investitor` },
       { id: 'faq', titlu: `Întrebări frecvente despre investiții imobiliare 2027` },
     ],
@@ -2993,7 +2993,7 @@ Trebuie să am o firmă pentru a investi în imobiliare?
 Nu este obligatoriu. Persoana fizică poate deține oricâte proprietăți. SRL sau PFA devin avantajoase fiscal când veniturile totale din chirii depășesc 60.000-80.000 lei anual sau când cumperi pentru a revinde rapid (activitate comercială). Consultați un contabil înainte de a decide forma juridică.
 
 Ce se întâmplă cu prețurile dacă economia intră în recesiune?
-Datele istorice din România arată că prețurile apartamentelor în București au scăzut semnificativ doar în 2008-2011 (-40%) și ușor în 2020 (-3-5%). Corecțiile majore au apărut din crize bancare sistemice, nu din recesiuni normale. Zonele cu metrou și cerere structurală (Piața Muncii, Moșilor) sunt mai rezistente la corecții față de periferiile supraofertate.
+Datele istorice din România arată că [prețurile apartamentelor](/blog/preturi-apartamente-bucuresti-2026) în București au scăzut semnificativ doar în 2008-2011 (-40%) și ușor în 2020 (-3-5%). Corecțiile majore au apărut din crize bancare sistemice, nu din recesiuni normale. Zonele cu metrou și cerere structurală (Piața Muncii, Moșilor) sunt mai rezistente la corecții față de periferiile supraofertate.
 
 Airbnb mai are sens în București în 2026?
 Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările locale ale PMB privind cazarea scurtă au crescut costurile administrative. Randamentul Airbnb (8-12% brut) rămâne superior chiriei standard (5-6% brut), dar necesită implicare activă sau externalizare către un property manager (cost 20-25% din venituri).`,
@@ -3080,7 +3080,7 @@ Branduri recomandate pentru raport durabilitate/preț: Beko și Indesit pentru e
 
 Evită electrocasnicele de marcă necunoscută sau ultra-ieftine — costul unui apel de service plus transport plus eventualul înlocuitor temporar depășește rapid economia inițială. Un frigider Beko de 1.400 lei va dura 8-10 ani fără intervenții majore.
 
-Documentează tot cu fotografii la predare — starea electrocasnicelor, seria și modelul fiecăruia. Include în contractul de închiriere o clauză clară privind responsabilitatea pentru defecțiuni. Această documentare previne 80% din disputele la final de contract.`,
+[Documentează](/blog/predare-la-cheie-ce-inseamna) tot cu fotografii la predare — starea electrocasnicelor, seria și modelul fiecăruia. Include în contractul de închiriere o clauză clară privind responsabilitatea pentru defecțiuni. Această documentare previne 80% din disputele la final de contract.`,
       },
       {
         id: 'internet-smart',
@@ -3100,7 +3100,7 @@ Termostat smart — relevant pentru apartamentele cu centrală proprie. Un termo
         h2: `Calculul real al investiției în dotare vs. randament suplimentar`,
         continut: `Să cuantificăm concret: cât costă dotarea completă a unui apartament cu 2 camere și câte luni de chirie suplimentară generează fiecare categorie de investiție.
 
-Scenariul de bază: apartament 2 camere, 55 mp, zona Titan-Pallady. Chirie nedotat: 350 EUR/lună. Perioadă medie neocupare: 45 zile/an = 525 EUR pierdut anual.
+Scenariul de bază: apartament 2 camere, 55 mp, [zona Titan-Pallady](/zona/titan-pallady). Chirie nedotat: 350 EUR/lună. Perioadă medie neocupare: 45 zile/an = 525 EUR pierdut anual.
 
 Pachet dotare minimă (mașină spălat, frigider, mobilier funcțional): 8.000-12.000 lei. Chirie justificată: 450 EUR/lună (+100 EUR). Perioadă medie neocupare redusă la: 20 zile/an = 233 EUR pierdut. Câștig net anual: 100×12 + (525-233) = 1.492 EUR. Recuperare investiție: 6-8 luni.
 
