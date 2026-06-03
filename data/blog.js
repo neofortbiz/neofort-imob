@@ -3003,7 +3003,133 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
 
 }
 
+  'dotari-apartament-inchiriat': {
+    titlu: `Cele Mai Importante Dotări pentru un Apartament de Închiriat în 2026: Ce Cer Chiriașii și Ce Merită Investit`,
+    tag: 'Investiții', tagColor: '#0369a1',
+    data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min',
+    autor: 'sasha-calutu',
+    image: '/blog/dotari-apartament-inchiriat-bucuresti.avif',
+    descriere: `Ce dotări caută chiriașii în 2026 și care investiții îți cresc cel mai mult randamentul. Date din piață: ce dotări reduc perioadele goale, ce preț de chirie justifică și cât costă fiecare upgrade. Ghid practic pentru proprietarii din București.`,
+    keywords: ['dotari apartament inchiriat 2026', 'ce dotari apartament inchiriat bucuresti', 'cum cresti chiria apartament dotari', 'investitii apartament inchiriere bucuresti', 'apartament utilat inchiriat randament', 'dotari necesare apartament chirie'],
+    hashtags: ['#InvestitieImobiliara', '#ApartamentInchiriat', '#DotariApartament', '#ChirieBucuresti', '#NeofortIMO'],
+    cuprins: [
+      { id: 'context', titlu: `Ce s-a schimbat în 2025–2026` },
+      { id: 'dotari-obligatorii', titlu: `Dotările obligatorii — fără acestea nu închiriezi` },
+      { id: 'dotari-premium', titlu: `Dotările premium — ce justifică un preț mai mare` },
+      { id: 'electrocasnice', titlu: `Electrocasnice: ce branduri și ce calitate` },
+      { id: 'internet-smart', titlu: `Internet și smart home` },
+      { id: 'calcul-investitie', titlu: `Calculul investiției vs. randament` },
+      { id: 'greseli', titlu: `Greșeli frecvente ale proprietarilor` },
+    ],
+    sectiuni: [
+      {
+        id: 'context',
+        h2: `Ce s-a schimbat în cerințele chiriașilor în 2025–2026`,
+        continut: `Piața de închirieri din București a trecut printr-o transformare accelerată în ultimii doi ani. Conform datelor Imobiliare.ro pentru T1 2026, timpul mediu de ocupare al unui apartament utilat complet a scăzut la 18 zile față de 34 de zile în 2023 — aproape la jumătate. Apartamentele neutil sau utilate sumar stau în medie 52 de zile neocupate, ceea ce înseamnă costuri directe pentru proprietar.
+
+Trei factori au transformat așteptările chiriașilor:
+
+Primul este creșterea segmentului de chiriași profesioniști și corporatiști. Companiile din sectoarele IT, BPO și financiar preferă apartamente care permit work from home fără investiții suplimentare din partea angajatului. Un birou dedicat, conexiune internet stabilă și spațiu de depozitare suficient sunt acum priorități, nu opțiuni.
+
+Al doilea factor este digitalizarea procesului de căutare. Pe platformele de anunțuri, filtrele după dotări sunt folosite de 68% dintre utilizatori (Imobiliare.ro, Raport 2025). Un apartament fără aparate de aer condiționat nu apare în rezultatele a peste jumătate din căutări. Fiecare dotare lipsă reduce automat pool-ul de potențiali chiriași.
+
+Al treilea factor este segmentul diaspora. Românii întorși din UK, Germania sau Austria vin cu standarde formate de chiriile europene — unde apartamentele complet dotate sunt norma, nu excepția. Ei caută apartamente ready-to-live, sunt dispuși să plătească mai mult și rămân în medie 2–3 ani față de media generală de 14 luni.`,
+      },
+      {
+        id: 'dotari-obligatorii',
+        h2: `Dotările obligatorii — fără acestea nu închiriezi competitiv în 2026`,
+        continut: `Există un set de dotări sub care apartamentul tău devine practic incompetitiv în piața actuală din București. Nu vorbim de lux — vorbim de standarde minime așteptate de chiriașii activi.
+
+Aparate de aer condiționat — obligatoriu în fiecare cameră de locuit. Costul instalării unui aparat de 9.000 BTU, inclusiv montaj, este 2.200–2.800 lei. Un apartament cu 2 camere necesită 2 aparate — investiție totală 4.500–5.600 lei. Chiria justificată crește cu 150–200 EUR/lună față de un apartament fără AC, ceea ce înseamnă recuperarea investiției în 2–3 luni. Este cea mai eficientă investiție în dotare pe care o poți face.
+
+Mașină de spălat rufe — fără aceasta, 94% dintre chiriași nici nu iau în considerare apartamentul (date Imobiliare.ro 2025). O mașină de spălat de 7 kg, brand mediu (Beko, Indesit), costă 1.100–1.400 lei. Nu există justificare financiară pentru a nu o include.
+
+Frigider cu congelator — standard minim A++. Consumul redus de energie este important pentru chiriași care suportă facturile. Costul: 1.200–2.000 lei pentru un frigider combinat de 300L.
+
+Mașină de spălat vase — a trecut din categoria premium în categoria obligatorie în apartamentele noi. 72% dintre chiriașii de apartamente noi o consideră esențială (sondaj OLX Imobiliare, T4 2025). Costul unui model de intrare (Beko, Indesit): 1.400–1.800 lei.
+
+Mobilier funcțional complet — dormitor cu pat dublu și saltea calitate medie-superioară, șifonier, noptiere. Living cu canapea extensibilă sau pat de oaspeți, masă și scaune. Bucătărie cu mese de lucru suficiente și corpuri de depozitare. Baie cu oglinzi, suport prosoape, cuier.
+
+Covoare și perdele/jaluzele — protecția intimității și acustica sunt factori subestimați de proprietari. Apartamentele cu jaluzele sau draperii la dormitor primesc evaluări semnificativ mai bune pe platformele de review.`,
+      },
+      {
+        id: 'dotari-premium',
+        h2: `Dotările premium — ce justifică o chirie mai mare cu 15–25%`,
+        continut: `Dincolo de standardul minim, există un al doilea nivel de dotări care justifică un preț de chirie cu 15–25% mai mare și atrage un profil de chiriaș mai stabil, cu venituri mai mari și perioadă de ședere mai lungă.
+
+Birou dedicat work from home — nu neapărat o cameră separată, ci un spațiu amenajat funcțional: birou cu suprafață de minimum 120 cm, scaun ergonomic, iluminat adecvat și priză accesibilă. Costul amenajării unui colț de birou funcțional: 1.800–3.500 lei. Justifică o chirie cu 75–100 EUR mai mare lunar în rândul chiriașilor IT și corporate.
+
+Televizor smart 50+ inch — standard practic așteptat în 2026. Un Samsung sau LG de 50 inch costă 2.200–3.000 lei și rămâne funcțional 7–10 ani. Este vizibil în fotografii și crește percepția generală a calității apartamentului.
+
+Mașină de spălat cu uscător sau uscător separat — în apartamentele fără balcon sau cu balcon mic, uscătorul separă apartamentele competitive de cele necompetitive. Costul unui uscător de condensare: 1.800–2.400 lei. Justifică 50–75 EUR în plus la chirie.
+
+Espressor sau mașină de cafea — detaliu mic cu impact psihologic semnificativ. Costul: 300–800 lei. Semnalizează că proprietarul gândește experiența chiriașului, nu doar funcționalul.
+
+Spațiu de depozitare suficient — dulapuri suplimentare, cutii de depozitare sub pat, beci sau boxă. Lipsa spațiului de depozitare este unul dintre primele motive de nemulțumire ale chiriașilor în apartamentele mici.
+
+Saltea de calitate superioară — saltelele ieftine sunt sursa principală de reclamații în primele 30 de zile. O saltea Dormeo sau Ikea de calitate medie-superioară costă 1.200–2.000 lei și reduce semnificativ frecvența reclamațiilor și dorința de schimbare a apartamentului.`,
+      },
+      {
+        id: 'electrocasnice',
+        h2: `Electrocasnice: ce branduri și ce calitate pentru apartamente de închiriat`,
+        continut: `Alegerea electrocasnicelor pentru un apartament de închiriat urmează o logică diferită față de alegerea pentru uzul personal. Criteriile relevante sunt: durabilitate, ușurință în service, disponibilitate piese de schimb și cost de înlocuire, nu performanță maximă sau design premium.
+
+Clasa A sau superioară pentru tot ce consumă energie — frigider, mașină de spălat, mașină de vase. Chiriașii plătesc facturile și vor observa și reclamă consumul ridicat. Din 2026, etichetele energetice noi (A-G) au redefinit clasele — asigură-te că cumperi conform noilor standarde, nu vechi stocuri.
+
+Branduri recomandate pentru raport durabilitate/preț: Beko și Indesit pentru electrocasnice mari (piese disponibile larg, service acreditat în toată țara, prețuri accesibile). Samsung și LG pentru televizoare și aparate de aer condiționat (randament bun, piese disponibile, garantie 3-5 ani). Tefal și Bosch pentru electrocasnice mici.
+
+Evită electrocasnicele de marcă necunoscută sau ultra-ieftine — costul unui apel de service plus transport plus eventualul înlocuitor temporar depășește rapid economia inițială. Un frigider Beko de 1.400 lei va dura 8–10 ani fără intervenții majore. Un frigider generic de 700 lei va necesita service în 2–3 ani.
+
+Documentează tot cu fotografii la predare — starea electrocasnicelor, seria și modelul fiecăruia. Include în contractul de închiriere o clauză clară privind responsabilitatea pentru defecțiuni (uzură normală vs. utilizare incorectă). Această documentare previne 80% din disputele la final de contract.`,
+      },
+      {
+        id: 'internet-smart',
+        h2: `Internet și smart home — investiții cu ROI ridicat`,
+        continut: `Internetul a depășit apa caldă ca prioritate pentru chiriașii profesioniști. Un apartament fără internet instalat sau cu acoperire Wi-Fi slabă este eliminat din start de chiriașii care lucrează remote sau hibrid — segment în creștere care reprezintă peste 35% din piața de închirieri din București (date ANCOM 2025).
+
+Abonament internet fibră optic preinstalat — costul unui abonament Digi sau Orange fibră: 25–40 lei/lună. Proprietarul poate include abonamentul în prețul chiriei sau poate negocia transferul contractului. Această facilitate justifică 30–50 EUR mai mult la chirie și elimină frecarea inițială a chiriașului cu ISP-ul.
+
+Router Wi-Fi cu acoperire completă — un router standard dintr-un ISP acoperă slab apartamentele cu pereți de beton. Un router Mesh (TP-Link Deco, Xiaomi Mesh) de 350–600 lei asigură acoperire uniformă în toate camerele. Diferența se simte imediat în calitatea conexiunii și în satisfacția chiriașului.
+
+Iluminat smart — înlocuirea unui bec clasic cu un bec smart Philips Hue sau Yeelight costă 60–150 lei. Nu este o investiție prioritară, dar poate fi un diferențiator vizual în fotografii și în vizionare.
+
+Cameră video la intrare sau interfon video — securitatea este o preocupare crescândă. Un interfon video Tuya sau Xiaomi, instalat la ușa apartamentului, costă 250–400 lei și crește percepția de siguranță. Relevant mai ales pentru apartamentele la parter sau la etaje mici.
+
+Termostat smart — relevant pentru apartamentele cu centrală proprie. Un termostat Nest sau Tado costă 400–700 lei, permite controlul temperaturii de pe telefon și reduce consumul de gaz cu 15–25% prin programare inteligentă. Chiriașii care știu să îl folosească apreciază economia la factură.`,
+      },
+      {
+        id: 'calcul-investitie',
+        h2: `Calculul real al investiției în dotare vs. randament suplimentar`,
+        continut: `Să cuantificăm concret: cât costă dotarea completă a unui apartament cu 2 camere și câte luni de chirie suplimentară generează fiecare categorie de investiție.
+
+Scenariul de bază: apartament 2 camere, 55 mp, zona Titan-Pallady. Chirie nedotat: 350 EUR/lună. Perioadă medie neocupare: 45 zile/an = 525 EUR pierdut anual.
+
+Pachet dotare minimă (mașină spălat, frigider, mobilier funcțional): 8.000–12.000 lei. Chirie justificată după dotare minimă: 450 EUR/lună (+100 EUR). Perioadă medie neocupare redusă la: 20 zile/an = 233 EUR pierdut. Câștig net anual: 100×12 + (525-233) = 1.200 + 292 = 1.492 EUR. Recuperare investiție: 6–8 luni.
+
+Pachet dotare completă (toate cele de mai sus + AC 2 camere, mașină vase, TV smart, birou WFH): 18.000–25.000 lei. Chirie justificată: 550–600 EUR/lună (+200 EUR față de nedotat). Perioadă neocupare: 15 zile/an = 175 EUR pierdut. Câștig net anual față de varianta nedotată: 200×12 + (525-175) = 2.400 + 350 = 2.750 EUR. Recuperare investiție: 8–11 luni.
+
+Concluzia calculului: dotarea completă a unui apartament de 2 camere se recuperează în mai puțin de un an din chiria suplimentară și din reducerea perioadelor de neocupare. Cel mai important: chiriașii din segmentul premium de dotare rămân în medie 26 de luni față de 14 luni pentru apartamente subdotate — diferența în stabilitate și reducerea costurilor de rotație (curățenie, mici reparații, fotografie, anunțuri) este semnificativă.`,
+      },
+      {
+        id: 'greseli',
+        h2: `Greșelile frecvente ale proprietarilor care reduc randamentul`,
+        continut: `În 12 ani de activitate pe piața din București, consultanții Neofort IMO au identificat tipare repetate de decizii greșite ale proprietarilor care le reduc randamentul și atrag chiriași de calitate mai scăzută.
+
+Supraaglomerarea cu mobilier vechi sau de calitate slabă — multe apartamente de închiriat au mobilă adusă din locuința proprie anterioară, de calitate și stil neuniform. Fotografiile rezultate sunt respingătoare. O investiție de 3.000–5.000 lei în mobilier nou de la Ikea sau Dedeman, coordonat ca stil, crește dramatic calitatea fotografiilor și percepția apartamentului.
+
+Neglijarea stării zugrăvelii și a curățeniei la predare — chiriașii moderni evaluează starea apartamentului cu ochi critici. O zugrăveală proaspătă (cost 1.500–3.000 lei pentru un 2 camere) este probabil cel mai bun raport investiție/impact vizual disponibil.
+
+Absența unui spațiu de depozitare pentru biciclete — în 2026, peste 30% dintre chiriașii activi din București folosesc bicicleta sau trotineta electric ca mijloc de transport. Un apartament fără posibilitatea de depozitare a acestora pierde un segment semnificativ.
+
+Setarea unui preț de chirie fără analiza de piață actualizată — proprietarii care nu și-au actualizat prețul în 2024–2025 pot fi fie sub piață (pierd venit), fie peste piață (stau goi inutil). Platformele Imobiliare.ro și Storia oferă date comparative actualizate gratuit.
+
+Contracte fără clauze clare privind dotările — absența unui inventar fotografiat și semnat la predare duce invariabil la dispute la final de contract. Un inventar de 2 pagini cu fotografii, atașat la contract, previne 80% din conflicte și îți protejează investiția.`,
+      },
+    ],
+  },
+
 export const ARTICOLE_LIST = [
+  { slug: 'dotari-apartament-inchiriat', titlu: 'Cele Mai Importante Dotări pentru un Apartament de Închiriat în 2026', data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min', image: '/blog/dotari-apartament-inchiriat-bucuresti.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Ce dotări caută chiriașii în 2026 și care investiții îți cresc cel mai mult randamentul. Date din piață: ce reduce perioadele goale și ce preț de chirie justifică fiecare upgrade.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
   { slug: 'lege-chirii-2026-proprietari-chiriasi', titlu: 'Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași', data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min', image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'credit-ipotecar-2026-dobanzi-conditii', titlu: 'Credit Ipotecar în 2026: Dobânzi, Condiții și Cât Te Costă Real un Apartament Nou', data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min', image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită în 2026 față de creditul standard.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
