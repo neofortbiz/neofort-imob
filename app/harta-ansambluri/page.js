@@ -109,11 +109,9 @@ const COORDS = {
 
 const STATUS_COLORS = {
   finalizat:   { fill: '#2d7a3a', label: 'Finalizat' },
-  activ:       { fill: '#2d7a3a', label: 'Finalizat' },
   constructie: { fill: '#2563eb', label: 'In constructie' },
   promotie:    { fill: '#dc2626', label: 'Promotie' },
   vandut:      { fill: '#f97316', label: 'Vandut (portofoliu)' },
-  retras:      { fill: '#9ca3af', label: 'Retras' },
 }
 
 export default function HartaPage() {
