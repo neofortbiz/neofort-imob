@@ -101,7 +101,7 @@ export default function HartaLeaflet({ activeMarkers, portofoliuMarkers, showPor
         ? STATUS_COLORS.vandut
         : (STATUS_COLORS[a.pinColor || a.status] || '#6b7280')
 
-      const isSelected = selected === a.numar
+      const isSelected = selected === a.slug
       const size = a.categorie === 'portofoliu' ? 22 : 28
       const iconSize = isSelected ? [size * 1.3, size * 1.3 * 1.4] : [size, size * 1.4]
 
@@ -115,7 +115,7 @@ export default function HartaLeaflet({ activeMarkers, portofoliuMarkers, showPor
       const marker = L.marker([lat, lng], { icon })
         .addTo(map)
         .on('click', () => {
-          if (onSelect) onSelect(a.numar === selected ? null : a.numar)
+          if (onSelect) onSelect(a.slug === selected ? null : a.slug)
         })
 
       // Popup la click

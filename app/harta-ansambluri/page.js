@@ -108,6 +108,7 @@ const COORDS = {
 }
 
 const STATUS_COLORS = {
+  finalizat:   { fill: '#2d7a3a', label: 'Finalizat' },
   activ:       { fill: '#2d7a3a', label: 'Finalizat' },
   constructie: { fill: '#2563eb', label: 'In constructie' },
   promotie:    { fill: '#dc2626', label: 'Promotie' },
@@ -143,10 +144,11 @@ export default function HartaPage() {
     ? activeMarkers
     : filter === 'promotie'
       ? activeMarkers.filter(a => hasPromo(a))
-      : activeMarkers.filter(a => a.status === filter)
+      : filter === 'finalizat' ? activeMarkers.filter(a => a.dataPredare === 'Finalizat')
+      : activeMarkers.filter(a => a.dataPredare !== 'Finalizat')
 
   const sel = selected
-    ? [...activeMarkers, ...portofoliuMarkers].find(a => a.numar === selected)
+    ? [...activeMarkers, ...portofoliuMarkers].find(a => a.slug === selected)
     : null
 
   return (
@@ -180,7 +182,7 @@ export default function HartaPage() {
                   }}>
                   {showPortofoliu ? '● Portofoliu vizibil' : '○ Portofoliu ascuns'}
                 </button>
-                {['toate','activ','constructie','promotie'].map(s => (
+                {['toate','finalizat','constructie','promotie'].map(s => (
                   <button key={s} onClick={() => setFilter(s)}
                     className="text-xs px-3 py-1.5 rounded-full border transition-colors"
                     style={{
@@ -232,11 +234,11 @@ export default function HartaPage() {
               </p>
 
               {filteredActive.map(a => {
-                const isSel = selected === a.numar
-                const color = hasPromo(a) ? '#dc2626' : (STATUS_COLORS[a.status]?.fill || '#2d7a3a')
+                const isSel = selected === a.slug
+                const color = hasPromo(a) ? '#dc2626' : (a.dataPredare === 'Finalizat' ? STATUS_COLORS['finalizat'].fill : STATUS_COLORS['constructie'].fill)
                 return (
                   <div key={a.numar}
-                    onClick={() => setSelected(isSel ? null : a.numar)}
+                    onClick={() => setSelected(isSel ? null : a.slug)}
                     className="bg-white rounded-xl border p-3 cursor-pointer transition-all hover:shadow-md flex-shrink-0"
                     style={{ borderColor: isSel ? color : '#e5e7eb', borderWidth: isSel ? 2 : 1 }}>
                     <div className="flex items-center gap-2">
@@ -268,11 +270,11 @@ export default function HartaPage() {
                     Portofoliu vandut ({portofoliuMarkers.length})
                   </p>
                   {portofoliuMarkers.map(a => {
-                    const isSel = selected === a.numar
+                    const isSel = selected === a.slug
                     const color = STATUS_COLORS.vandut.fill
                     return (
-                      <div key={a.numar}
-                        onClick={() => setSelected(isSel ? null : a.numar)}
+                      <div key={a.slug}
+                        onClick={() => setSelected(isSel ? null : a.slug)}
                         className="bg-white rounded-xl border p-2.5 cursor-pointer transition-all hover:shadow-sm flex-shrink-0"
                         style={{ borderColor: isSel ? color : '#f3f4f6', borderWidth: isSel ? 2 : 1 }}>
                         <div className="flex items-center gap-2">
