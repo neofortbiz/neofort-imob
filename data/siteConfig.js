@@ -23,7 +23,7 @@ export const NR_ACTIVE = ANSAMBLURI_ACTIVE.length
 export const NR_PORTOFOLIU = TOATE_PORTOFOLIU.length
 
 // Numarul de ansambluri finalizate (status 'activ') — livrate dar inca la vanzare
-export const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.status === 'activ').length
+export const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Finalizat').length
 
 // Total proiecte livrate = portofoliu complet vandut + cele finalizate in vanzare
 // NU include proiectele in constructie

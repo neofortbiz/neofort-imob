@@ -429,7 +429,7 @@ export default function HomePageClient() {
                         <div className="text-xs font-medium" style={{ color: '#2d7a3a' }}>
                           de la {formatPret(a.pretDeLa)} <span className="text-[9px] text-gray-500 font-normal">+TVA</span>
                         </div>
-                        <div className="text-[9px] text-gray-500 mt-0.5">{a.dataPredare}</div>
+                        {a.dataPredare && a.dataPredare !== 'Finalizat' && <div className="text-[9px] text-gray-500 mt-0.5">{a.dataPredare}</div>}
                       </div>
                     </Link>
                   )

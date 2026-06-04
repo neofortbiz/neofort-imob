@@ -5,13 +5,14 @@ import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
 
 const STATUS_CFG = {
-  constructie: { label: 'În construcție', bg: '#1565c0', color: '#ffffff' },
+  finalizat:    { label: 'Finalizat',      bg: '#2d7a3a', color: '#ffffff' },
+  constructie:  { label: 'În construcție', bg: '#1565c0', color: '#ffffff' },
   activ:        { label: 'Finalizat',      bg: '#2d7a3a', color: '#ffffff' },
   promotie:     { label: 'Promoție',       bg: '#c0392b', color: '#ffffff' },
   vandut:        { label: 'Vândut',         bg: '#c8922a', color: '#ffffff' },
 }
 const SECTOARE = ['Toate', 'Sector 2', 'Sector 3', 'Sector 6']
-const STATUSURI = ['Toate', 'constructie', 'activ', 'promotie']
+const STATUSURI = ['Toate', 'finalizat', 'constructie', 'promotie']
 const SORTARI = [
   { val: 'default',    lbl: 'Relevanță' },
   { val: 'pret_asc',   lbl: 'Preț ↑' },
@@ -44,7 +45,8 @@ export default function AnsambluriClient() {
     if (sector !== 'Toate') list = list.filter(a => a.sector === sector)
     if (status !== 'Toate') {
       if (status === 'promotie') list = list.filter(a => hasPromo(a))
-      else list = list.filter(a => a.status === status)
+      else if (status === 'finalizat') list = list.filter(a => a.dataPredare === 'Finalizat')
+      else if (status === 'constructie') list = list.filter(a => a.dataPredare !== 'Finalizat')
     }
     if (pretActiv) list = list.filter(a => a.pretDeLa <= pretMax)
     if (camere !== 'Toate') {
