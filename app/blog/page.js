@@ -69,7 +69,7 @@ export default async function BlogPage() {
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-10">
             <div>
-              {/* FEATURED — cel mai nou articol */}
+              {/* FEATURED — articolul cu cele mai multe vizualizari */}
               {FEATURED && (
                 <div className="mb-10">
                   <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Cel mai recent</p>

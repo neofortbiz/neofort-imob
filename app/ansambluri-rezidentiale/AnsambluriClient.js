@@ -34,7 +34,7 @@ export default function AnsambluriClient() {
     ANSAMBLURI_ACTIVE.forEach(a => a.tipuri.forEach(t => {
       const tl = String(t).toLowerCase()
       if (tl.includes('garsonier') || tl.includes('studio')) set.add('1')
-      const m = t.match(/^(\d+)\s+camere/)
+      const m = String(t).match(/^(\d+)\s+camere/)
       if (m) set.add(Number(m[1]) >= 4 ? '4+' : m[1])
     }))
     return ['Toate', ...['1','2','3','4+'].filter(c => set.has(c))]
@@ -53,8 +53,8 @@ export default function AnsambluriClient() {
       list = list.filter(a => a.tipuri.some(t => {
         const tl = String(t).toLowerCase()
         if (camere === '1') return tl.includes('garsonier') || tl.includes('studio')
-        if (camere === '4+') { const m = t.match(/^(\d+)\s+camere/); return m && Number(m[1]) >= 4 }
-        const m = t.match(/^(\d+)\s+camere/)
+        if (camere === '4+') { const m = String(t).match(/^(\d+)\s+camere/); return m && Number(m[1]) >= 4 }
+        const m = String(t).match(/^(\d+)\s+camere/)
         return m && m[1] === camere
       }))
     }

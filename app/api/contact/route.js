@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server'
+import { NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
 
 const DEST_EMAIL = 'lead.neo@neofort-biz.ro'
 const FROM_EMAIL = 'noreply@neofort-biz.ro'
@@ -98,9 +99,9 @@ body{margin:0;padding:0;background:#f4f4f4;font-family:-apple-system,BlinkMacSys
   <div class="hl">${ansamblu ? `Solicitare înregistrată: ${ansamblu}` : 'Cererea ta a fost înregistrată cu succes ✓'}</div>
   <div style="font-size:12px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px">Explorează între timp</div>
   <div class="grid">
-    <a href="${BASE}/ansambluri-rezidentiale" class="lnk"><div class="lnk-ic">🏢</div><div class="lnk-t">Ansambluri active</div><div class="lnk-d">13 proiecte disponibile</div></a>
-    <a href="${BASE}/harta-ansambluri" class="lnk"><div class="lnk-ic">🗺️</div><div class="lnk-t">Harta interactivă</div><div class="lnk-d">86 proiecte pe hartă</div></a>
-    <a href="${BASE}/portofoliu" class="lnk"><div class="lnk-ic">🏆</div><div class="lnk-t">Portofoliu</div><div class="lnk-d">85+ proiecte livrate</div></a>
+    <a href="${BASE}/ansambluri-rezidentiale" class="lnk"><div class="lnk-ic">🏢</div><div class="lnk-t">Ansambluri active</div><div class="lnk-d">${NR_ACTIVE} proiecte disponibile</div></a>
+    <a href="${BASE}/harta-ansambluri" class="lnk"><div class="lnk-ic">🗺️</div><div class="lnk-t">Harta interactivă</div><div class="lnk-d">${NR_LIVRATE + NR_ACTIVE}+ proiecte pe hartă</div></a>
+    <a href="${BASE}/portofoliu" class="lnk"><div class="lnk-ic">🏆</div><div class="lnk-t">Portofoliu</div><div class="lnk-d">${NR_LIVRATE}+ proiecte livrate</div></a>
     <a href="${BASE}/blog" class="lnk"><div class="lnk-ic">📰</div><div class="lnk-t">Blog imobiliar</div><div class="lnk-d">Noutăți și analize</div></a>
   </div>
   <div class="ctabox"><p>Sau ne poți contacta direct:</p><a href="tel:0758090904">0758 090 904</a></div>

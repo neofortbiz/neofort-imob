@@ -244,7 +244,7 @@ export default function HartaPage() {
                         style={{ background: color }}>{a.numar}</div>
                       <div className="flex-1 min-w-0">
                         <p className="text-xs font-semibold text-gray-900 truncate">{a.zona}</p>
-                        <p className="text-[10px] text-gray-500">{a.sector} · {a.dataPredare}</p>
+                        <p className="text-[10px] text-gray-500">{a.sector}{a.dataPredare && a.dataPredare !== 'Finalizat' ? ' · ' + a.dataPredare : ''}</p>
                       </div>
                       <span className="text-xs font-bold flex-shrink-0" style={{ color }}>
                         {formatPret(a.pretDeLa)}€
@@ -309,7 +309,7 @@ export default function HartaPage() {
                   <h2 className="text-base font-semibold text-gray-900">{sel.zona} — N{sel.numar}</h2>
                   <p className="text-sm text-gray-500">{sel.adresa || sel.zona + ', ' + sel.sector}</p>
                   <p className="text-[10px] font-mono text-gray-300 mt-0.5">
-                    {COORDS[sel.numar]?.[0].toFixed(5)}, {COORDS[sel.numar]?.[1].toFixed(5)}
+                    {(sel.coordonate?.lat || COORDS[sel.numar]?.[0])?.toFixed(5)}, {(sel.coordonate?.lng || COORDS[sel.numar]?.[1])?.toFixed(5)}
                   </p>
                 </div>
                 <div className="flex items-center gap-3">

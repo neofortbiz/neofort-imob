@@ -158,6 +158,7 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
   {
     slug: 'neofort-78-mosilor-eminescu',
     numar: 78,
+    coordonate: { lat: 44.4465529, lng: 26.1198788 },
     nume: 'Neofort 78 Mosilor-Eminescu',
     zona: 'Mosilor-Eminescu',
     sector: 'Sector 2',
@@ -694,6 +695,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
   {
     slug: 'neofort-28-titan-pallady-faza-2',
     numar: 28,
+    coordonate: { lat: 44.4114, lng: 26.1986 },
     nume: 'Neofort 28 Titan Pallady Faza 2',
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
