@@ -358,7 +358,7 @@ export default function AnsambluPage({ params }) {
               <h2 className="text-base font-medium text-gray-900 mb-4">Ansambluri similare în zonă</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                 {similare.map(s => {
-                  const ssc = STATUS_CONFIG[s.status]
+                  const ssc = STATUS_CONFIG[s.dataPredare === 'Finalizat' ? 'activ' : 'constructie']
                   return (
                     <Link key={s.slug} href={`/ansamblu-rezidential/${s.slug}`} className="border border-gray-100 rounded-xl overflow-hidden hover:border-gray-200 hover:shadow-sm transition-all group">
                       <div className="h-24 bg-gray-100 relative overflow-hidden">

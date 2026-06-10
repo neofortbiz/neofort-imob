@@ -1,7 +1,7 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
-import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
+import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -12,8 +12,8 @@ export const metadata = {
 }
 
 export default function PromotiiPage() {
-  const promotii = ANSAMBLURI_ACTIVE.filter(a => a.status === 'promotie')
-  const constructie = ANSAMBLURI_ACTIVE.filter(a => a.status === 'constructie')
+  const promotii = ANSAMBLURI_ACTIVE.filter(a => hasPromo(a))
+  const constructie = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare !== 'Finalizat' && !hasPromo(a))
 
   return (
     <>
