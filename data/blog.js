@@ -3140,11 +3140,256 @@ Ce tip de chiriaș atrag dotările premium?
 Dotările complete și de calitate atrag chiriași profesioniști care rămân în medie 26 de luni față de 14 luni pentru apartamentele subdotate, generând mai puține rotații și mai puțină uzură a proprietății.`,
       },
     ],
+  },,
+
+    'apartamente-de-vanzare-titan-pallady-teclu': {
+    titlu: `Apartamente de Vânzare în Titan, Theodor Pallady și Nicolae Teclu — Ghid Complet 2026`,
+    tag: 'Piață', tagColor: '#0369a1',
+    data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min',
+    autor: 'ramona-baicu',
+    image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif',
+    descriere: `Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.`,
+    keywords: ['apartamente de vanzare titan', 'apartamente de vanzare theodor pallady', 'apartamente de vanzare nicolae teclu', 'apartamente noi titan pallady 2026', 'apartamente vanzare sector 3 metrou', 'bloc nou titan pallady teclu', 'pret apartament titan pallady 2026', 'ansambluri rezidentiale titan pallady teclu'],
+    hashtags: ['#ApartamenteVanzare', '#TitanPallady', '#NicolaeTeclu', '#ApartamentNou2026', '#NeofortIMO'],
+    cuprins: [
+      { id: 'zona-titan-pallady-teclu', titlu: `Titan, Theodor Pallady și Nicolae Teclu — cum diferă cele trei zone` },
+      { id: 'preturi-reale-2026', titlu: `Prețuri reale în 2026 — ce cumperi cu ce buget` },
+      { id: 'ansambluri-active', titlu: `Cele 6 ansambluri active Neofort IMO din zonă` },
+      { id: 'comparatie-localizare', titlu: `Comparație pe localizare — care bloc e mai aproape de metrou` },
+      { id: 'pentru-locuit-vs-investitie', titlu: `Pentru locuit vs. pentru investiție — ce să alegi` },
+      { id: 'cost-total-real', titlu: `Calculul costului total real — fără surprize` },
+      { id: 'cum-verifici-developer', titlu: `Cum verifici un developer înainte să dai avansul` },
+      { id: 'intrebari-frecvente', titlu: `Întrebări frecvente despre achizițiile din zonă` },
+      { id: 'concluzie', titlu: `Concluzie — care ansamblu ți se potrivește` },
+    ],
+    sectiuni: [
+      {
+        id: 'zona-titan-pallady-teclu',
+        h2: `Titan, Theodor Pallady și Nicolae Teclu — cum diferă cele trei zone și de ce contează pentru decizia ta`,
+        continut: `Dacă ești în procesul de căutare a unui apartament de vânzare în estul Bucureștiului, ai observat că platformele imobiliare listează alternativ trei denumiri: Titan, Theodor Pallady și Nicolae Teclu. Nu sunt același lucru, deși sunt conectate — iar diferențele dintre ele influențează direct prețul, accesul la metrou și calitatea vieții de zi cu zi.
+
+Titan este cel mai vechi și mai extins dintre cele trei teritorii. Se întinde de la Parcul IOR în vest până dincolo de Bulevardul Nicolae Grigorescu în est, și cuprinde atât fond locativ vechi (blocuri din anii '70–'80) cât și proiecte noi ridicate după 2010. Infrastructura de servicii este matură: școli, spitale, piețe, transport în comun diversificat. Stația de metrou Piața Muncii (M2) este principalul nod de transport din vest, iar Dristor 2 asigură legătura spre centru.
+
+Theodor Pallady este denumirea dată zonei de dezvoltare rezidențială nouă din estul Sectorului 3, situată de-a lungul Bulevardului Theodor Pallady. A explodat ca zonă rezidențială după 2015, alimentată de proximitatea față de IKEA Pallady (2019) și de extinderea liniei M2 cu stațiile Nicolae Teclu și 1 Decembrie 1918. Spre deosebire de Titan clasic, Pallady este aproape exclusiv construit nou — nu găsești fond locativ vechi din comunism, ci blocuri ridicate în ultimul deceniu.
+
+Nicolae Teclu este micro-zona definită de stația de metrou cu același nume de pe linia M2. Este subzona cu cel mai direct acces la metrou din întreg perimetrul Titan–Pallady — distanțele de 50m–800m față de stație fac diferența față de restul zonei. Proiectele din raza stației Nicolae Teclu sunt printre cele mai căutate din Sectorul 3 tocmai pentru această proximitate.
+
+Concluzia practică: dacă prioritatea ta este metroul la 3–5 minute pe jos, caută în zona Nicolae Teclu. Dacă vrei oferta cea mai diversificată ca tipologii și prețuri, Pallady oferă mai mult. Dacă vrei infrastructura de cartier matură (școli, spitale, piețe) plus proiecte noi, Titan clasic este răspunsul.`,
+      },
+      {
+        id: 'preturi-reale-2026',
+        h2: `Prețuri reale la apartamentele de vânzare în Titan–Pallady–Teclu în iunie 2026`,
+        continut: `Prețurile de mai jos reflectă oferta reală din zona Titan–Pallady–Teclu în iunie 2026, pe baza ansamblurilor active comercializate de Neofort IMO și a datelor de piață verificate. Nu sunt estimări — sunt prețuri la care poți cumpăra azi.
+
+Garsoniere și studiouri (35–56 mp):
+Prețul de start pentru o garsonieră nouă de calitate în zonă este de 64.800 EUR (TVA exclus), la avans 20%. Nu există oferte serioase sub 60.000 EUR în proiecte cu metrou accesibil și dotări complete — orice preț sub acest prag merită analizat cu atenție la specificații și localizare.
+
+Apartamente 2 camere (47–69 mp):
+Cea mai căutată categorie din zonă. Prețurile variază între 62.114 EUR (avans 45%, apartament în construcție Neofort 84) și 115.000 EUR pentru apartamente finalizate cu terasă. La avans 20%, intervalul real este 66.892 EUR–120.000 EUR în funcție de suprafață, etaj și proiect. Media pentru un 2 camere de 55–60 mp în bloc nou cu metrou la 10 minute: 90.000–105.000 EUR.
+
+Apartamente 3 camere (74–95 mp):
+Intervalul de preț este 102.000 EUR–175.000 EUR, cu cele mai accesibile oferte la proiectele în construcție cu avans 45%. Un 3 camere de 80 mp în bloc nou finalizat, zona Teclu, costă în medie 130.000–150.000 EUR la avans 20%.
+
+Apartamente 4 camere și tipologii mari (100–175 mp):
+De la 150.945 EUR pentru un 4 camere de 100 mp până la 181.262 EUR pentru un 4 camere cu terasă panoramică la etajul 10, suprafață de 175 mp. Această categorie include și apartamentele cu terase generoase la etaje superioare, care beneficiază de prime de 15–25% față de unități similare la etaje joase.
+
+Prețul pe metru pătrat util în proiecte noi:
+• Proiecte în construcție (faza promoțională, avans 45%): 1.300–1.500 EUR/mp
+• Proiecte în construcție (avans 20%): 1.400–1.650 EUR/mp
+• Proiecte finalizate: 1.700–2.000 EUR/mp
+• Apartamente vechi (fond locativ '70–'90): 1.400–1.750 EUR/mp
+
+Comparație cu piața: aceste prețuri sunt cu 35–50% sub prețul pe mp al apartamentelor noi din Sectoarele 1 și 2, și cu 15–20% sub media noilor proiecte din Sectoarele 4, 5 și 6 cu acces similar la metrou.`,
+      },
+      {
+        id: 'ansambluri-active',
+        h2: `Cele 6 ansambluri active Neofort IMO în zona Titan–Pallady–Teclu — prezentare detaliată`,
+        continut: `Neofort IMO are în prezent 6 proiecte active în zona Titan–Pallady–Teclu, fiecare cu o identitate distinctă ca localizare, tipologii și prețuri. Vânzare directă de la sursă, fără comision de agenție.
+
+[Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) — bloc P+10 în construcție, predare T1 2027
+Cea mai diversificată ofertă din zona Pallady: 10 tipuri de apartamente de 2, 3 și 4 camere, de la 47,78 mp până la 175,58 mp cu terasă panoramică la etajul 10. Prețuri promoționale (avans 45%) de la 62.114 EUR — cel mai mic preț de intrare pentru un apartament de 2 camere nou în zona Pallady. Metrou Nicolae Teclu la 11 minute pe jos, IKEA Pallady la 8 minute pe jos, Auchan Titan la 3 minute cu mașina. Structură beton armat C25/30, tâmplărie PVC Salamander, încălzire în pardoseală, centrală termică proprie. Parcare exterioară de la 6.000 EUR, interioară de la 8.500 EUR.
+
+[Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) — 3 corpuri D+P+3E, predare în curând
+Cel mai bine conectat la metrou dintre toate proiectele active Neofort din zonă: Metrou Anghel Saligny (M2) la 20 de metri. Ofertă completă: garsonieră 43,42 mp de la 64.800 EUR, studio 2 camere 56,12 mp de la 84.180 EUR, 2 camere 69,91 mp de la 104.865 EUR, 3 camere 74,91 mp de la 112.365 EUR, 4 camere 100,63 mp de la 150.945 EUR — toate la avans 20%, TVA exclus. Dotări superioare: centrală proprie în condensare, fațadă ventilată cu izolație din vată minerală bazaltică (incombustibilă, clasa A1), tâmplărie Salamander negru structurat cu geam tripan, obiecte sanitare suspendate, kit aer condiționat, ușă metalică multipunct antiefracție, lift silențios.
+
+[Neofort 56 Pallady Titan Teclu](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) — finalizat, disponibil imediat
+Proiect finalizat în zona Teclu, disponibil pentru mutare imediată. Potrivit pentru cumpărători care nu pot sau nu vor să aștepte finalizarea unui proiect în construcție. Contactați-ne pentru prețuri și disponibilitate actualizată.
+
+[Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) — predare în curând
+Proiect în construcție în zona Teclu–Pallady. Contactați echipa Neofort pentru configurații disponibile și prețuri actualizate.
+
+[Neofort 28 Titan Pallady Faza 2](/ansamblu-rezidential/neofort-28-titan-pallady-faza-2) — predare 30.09.2026
+Faza 2 a unuia dintre proiectele cu cea mai îndelungată prezență Neofort în zonă. Predare planificată pentru septembrie 2026.
+
+[Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) — predare în curând
+Proiect cu numărul de ansamblu 28, localizare distinctă față de Faza 2. Contactați-ne pentru detalii despre configurații și disponibilitate.
+
+Avantajul comun al tuturor celor 6 proiecte: vânzare directă de la Neofort IMO, fără comision de agenție. Prețul publicat este prețul final. Consultanță juridică și bancară gratuită pentru toți cumpărătorii.`,
+      },
+      {
+        id: 'comparatie-localizare',
+        h2: `Comparație pe localizare — care bloc este mai aproape de metrou și de ce contează`,
+        continut: `Distanța față de metrou este factorul singular cel mai important în valoarea unui apartament din zona Titan–Pallady–Teclu. Datele din piață confirmă că diferența de preț la revânzare între un apartament la 200m față de metrou și unul la 1.500m în aceeași zonă poate fi de 15–20%. Mai important, diferența de calitate a vieții zilnice este semnificativă.
+
+Harta accesului la metrou pentru proiectele active Neofort:
+
+Neofort 83 — Metrou Anghel Saligny (M2) la 20m. Practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întreg portofoliul Neofort activ și dintre cele mai bune din zona Pallady în general. Metrou Teclu la 17 minute pe jos.
+
+Neofort 28 Faza 2 și Neofort 28 Teclu — în zona stației Nicolae Teclu, la câteva minute pe jos. Stația Nicolae Teclu (M2) asigură accesul direct spre centru: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute.
+
+Neofort 44 și Neofort 56 — zona Teclu–Pallady, acces metrou în 5–12 minute pe jos la stațiile Nicolae Teclu sau 1 Decembrie 1918.
+
+Neofort 84 — Metrou Nicolae Teclu la 11 minute pe jos. Nu cel mai aproape din portofoliu, dar compensat prin cel mai mare număr de tipologii disponibile și prețul promoțional de la 62.114 EUR.
+
+Ruta pe metrou M2 din zona Teclu–Pallady:
+• Piața Muncii: 3–5 minute
+• Dristor 2: 1–2 minute
+• Piața Unirii: 6–8 minute
+• Piața Universității: 8–10 minute
+• Piața Victoriei: 14–16 minute
+• Autogara Militari: 20–22 minute
+
+Pentru profesioniștii care lucrează în centrul sau nordul Bucureștiului și folosesc metroul zilnic, diferența dintre 5 și 15 minute de mers pe jos la stație înseamnă 20–40 de minute câștigate zilnic față de alternativa cu mașina sau traficul de la suprafață.`,
+      },
+      {
+        id: 'pentru-locuit-vs-investitie',
+        h2: `Apartament în Titan–Pallady–Teclu pentru locuit sau pentru investiție — ce să alegi în 2026`,
+        continut: `Cei 17 ani de experiență ai Neofort IMO în zonă ne-au dat ocazia să observăm cu precizie ce tip de cumpărător este satisfăcut pe termen lung și ce tip are regrete. Iat-o pe Ramona Baicu, consultant senior, cu o analiză directă.
+
+Pentru locuit — profilul ideal:
+
+Familii tinere cu 1–2 copii, buget 110.000–180.000 EUR. Un 3 camere de 75–90 mp în Neofort 83 sau Neofort 84 acoperă integral nevoile: spațiu generos, metrou la câteva minute, Waldorf București și Spectrum School la 8 minute, Parcul IOR la 10–15 minute, Auchan și IKEA la 5–8 minute. Este combinația care, la prețuri între 110.000 și 160.000 EUR, nu are echivalent în altă zonă din București.
+
+Profesioniști singuri sau cupluri, buget 65.000–110.000 EUR. Garsonierele și 2 camerele din Neofort 83 (de la 64.800 EUR) și Neofort 84 (de la 62.114 EUR cu avans 45%) sunt punctele de intrare cele mai accesibile în proprietate din București cu acces la metrou. Un profesionist care lucrează în centru economisește 400–600 EUR/lună în costuri de transport față de o locuință periferică fără metrou — economie care compensează rata lunară suplimentară față de o chirie echivalentă.
+
+Cumpărători din diasporă. Titan–Pallady este prima destinație de căutare pentru românii din diasporă care revin sau investesc de la distanță. Motivele: prețuri inteligibile față de piețele occidentale (un 2 camere de 90.000 EUR vs. 250.000–400.000 EUR în Germania sau Austria), randament din chirie predictibil, administrare facilă. Neofort IMO are experiență directă cu zeci de achiziții din UK, Germania, Austria, Franța și Israel.
+
+Pentru investiție — calculul real:
+
+Chirii practicate în Titan–Pallady–Teclu (iunie 2026, date din piața locală):
+• Garsonieră 40–43 mp, bloc nou, metrou 3–5 min: 350–420 EUR/lună
+• 2 camere 50–60 mp, bloc nou, metrou 5–10 min: 450–550 EUR/lună
+• 3 camere 75–85 mp, bloc nou: 580–700 EUR/lună
+• 4 camere 100+ mp, bloc nou: 750–950 EUR/lună
+
+Exemplu calcul randament brut — garsonieră Neofort 83 (43 mp, 64.800 EUR):
+Chirie medie: 385 EUR/lună → 4.620 EUR/an → randament brut: 7,1%
+Randament net (după impozit PF, fond reparații, perioade goale ~5%): 5,2–5,8%
+
+Exemplu calcul randament brut — 2 camere Neofort 84 (55 mp, 90.000 EUR la avans 20%):
+Chirie medie: 480 EUR/lună → 5.760 EUR/an → randament brut: 6,4%
+Randament net: 4,7–5,3%
+
+Aceste randamente nete de 5–6% sunt superioare depozitelor bancare în lei (3,5–4,5%) și comparabile cu fondurile de obligațiuni. Adăugând aprecierea capitalului estimată la 5–7% anual pe termen mediu, randamentul total estimat este de 10–13% — performanță solidă pentru o investiție cu risc scăzut și activ tangibil.`,
+      },
+      {
+        id: 'cost-total-real',
+        h2: `Calculul costului total real al achiziției — fără surprize la notar`,
+        continut: `Unul dintre cele mai frecvente surse de frustrare în achiziția unui apartament nou este diferența dintre prețul anunțat și costul total real la semnarea contractului. La Neofort IMO vânzarea este directă și transparentă, dar tot îți recomandăm să faci calculul complet înainte să-ți stabilești bugetul.
+
+Componentele costului total:
+
+1. Prețul apartamentului (TVA exclus): suma publicată în ofertă
+2. TVA: 9% dacă prețul total (TVA inclus) nu depășește 600.000 lei (~120.000 EUR); 21% dacă depășește. Calculul: pentru un apartament de 90.000 EUR → TVA 9% → 98.100 EUR total
+3. Parcarea: dacă o incluzi (recomandată puternic — chiria unui loc de parcare în zonă este 50–80 EUR/lună). Exterior: 6.000–9.000 EUR, Interior: 8.500–13.000 EUR
+4. Taxa notarială: 0,5–1% din prețul tranzacției + TVA 21% pe onorarul notarului. Estimare realistă pentru o tranzacție de 100.000 EUR: 800–1.500 EUR
+5. Taxa de intabulare (OCPI): 0,15% din valoarea din cartea funciară, de regulă 200–500 EUR
+6. Comision bancă (dacă folosești credit): 0,5–1% din valoarea creditului, unele bănci au eliminat-o complet. Verifică oferta băncii tale
+7. Fondul de garanție FNGCIMM (dacă folosești Noua Casă): 0,45% anual din valoarea garantată — inclus în rata lunară, nu la semnare
+8. Asigurarea PAD (obligatorie): 20 EUR/an. Nu uitați asigurarea facultativă (70–150 EUR/an) dacă aveți credit
+
+Exemplu calcul complet — apartament 2 camere Neofort 84 la avans 45%:
+• Preț apartament: 62.114 EUR
+• TVA 9% (sub plafonul de 120.000 EUR): 5.590 EUR
+• Total apartament cu TVA: 67.704 EUR
+• Parcare exterioară: 6.000 EUR + TVA 21% = 7.260 EUR
+• Notar + intabulare: ~900 EUR
+• Total complet: ~75.864 EUR
+
+Consultanță bancară gratuită: Neofort IMO colaborează cu toate băncile majore din România (BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank) și poate facilita gratuit compararea ofertelor de credit ipotecar. Nu lucrăm cu o singură bancă — îți identificăm cel mai mic cost total de finanțare.`,
+      },
+      {
+        id: 'cum-verifici-developer',
+        h2: `Cum verifici un developer imobiliar înainte să dai avansul — lista de verificare`,
+        continut: `Zona Titan–Pallady–Teclu are zeci de proiecte active simultan. Nu toate developerele sunt egale ca seriozitate, calitate a construcției și respectare a termenelor. Iată lista completă de verificare pe care o recomandăm oricărui cumpărător, indiferent de developer:
+
+Istoricul proiectelor livrate:
+• Câte proiecte a finalizat developerul în ultimii 5–10 ani?
+• Există comunități de proprietari active în proiectele anterioare? Vizitează dacă poți
+• Termenele promise au fost respectate sau au existat întârzieri? Dacă da, de cât timp?
+• Calitatea construcției este conformă cu specificațiile din contract?
+
+Documentele proiectului (obligatoriu de verificat cu un avocat):
+• Autorizația de construire validă și neexpirată
+• Titlul de proprietate al terenului — fără litigii, fără ipoteci neachitate
+• Recepția la terminarea lucrărilor (pentru proiecte finalizate)
+• Înscrierea în cartea funciară a apartamentului (dacă este finalizat)
+• Contractul de construcție cu un antreprenor serios
+
+Specificațiile tehnice în scris:
+• Marca și modelul tâmplăriei (nu „PVC premium\" — cere marca exactă)
+• Tipul structurii: beton armat vs. zidărie portantă
+• Clasa energetică certificată
+• Ce include exact „la cheie": parchet, gresie, faianță, obiecte sanitare, centrală
+• Marca centralei termice individuale (putere, tip — condensare sau convențională)
+
+Recenzii independente:
+• Google Reviews ale firmei developer — citește recenziile negative cu atenție
+• Forumuri specializate (imobiliare.ro, OLX, grupuri Facebook de proprietari)
+• Discuții directe cu proprietari din proiectele anterioare ale aceluiași developer
+
+Neofort IMO funcționează din 2009 în București. 85+ proiecte livrate, 4.000+ familii. Documentele sunt disponibile pentru verificare, referințele sunt publice, iar proprietarii din proiectele anterioare pot fi contactați direct. Transparența este singurul standard pe care îl acceptăm.`,
+      },
+      {
+        id: 'intrebari-frecvente',
+        h2: `Întrebări frecvente despre cumpărarea unui apartament în Titan–Pallady–Teclu`,
+        continut: `Din experiența cu mii de clienți de-a lungul a 17 ani, acestea sunt întrebările care revin cel mai des:
+
+Pot cumpăra cu credit ipotecar un apartament în construcție de la Neofort IMO?
+Da. Neofort IMO colaborează cu toate băncile majore (BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank). Pentru apartamentele în construcție, banca eliberează creditul în tranșe legate de stadiul construcției. Avansul minim este de 15–20% din prețul total, iar Neofort IMO poate facilita integral procesul de documentație bancară, gratuit.
+
+Ce TVA se aplică la apartamentele noi în 2026?
+TVA 9% se aplică dacă prețul total al apartamentului cu TVA inclus nu depășește 600.000 lei (aproximativ 120.000 EUR). TVA 21% se aplică dacă prețul depășește pragul. Toate calculele de preț publicate de Neofort IMO afișează prețul TVA exclus — cere clarificarea explicită la vizita de informare.
+
+Pot folosi Programul Noua Casă pentru un apartament Neofort?
+Da, pentru proiectele eligibile. Condiția principală: este prima locuință a cumpărătorului și prețul total nu depășește plafonul programului. Consultanța pentru Noua Casă este inclusă gratuit.
+
+Cum funcționează rezervarea?
+Rezervarea se face cu 1.000–2.000 EUR (diferă pe proiect), sumă restituibilă integral dacă nu se ajunge la antecontract din vina Neofort IMO. Antecontractul se semnează în termen de 30 de zile de la rezervare și conține toate detaliile tehnice și financiare ale tranzacției.
+
+Ce garanții primesc pentru apartamentul cumpărat?
+Garanția legală pentru vicii ascunse este de 10 ani pentru structură și 3 ani pentru finisaje, conform legislației în vigoare. Neofort IMO oferă suport post-vânzare și pentru probleme apărute după predare.
+
+Pot vizita un apartament model înainte să semnez?
+Da, pentru proiectele cu apartamente model disponibile. Contactați brokerul responsabil de proiectul care vă interesează pentru programarea vizitei.`,
+      },
+      {
+        id: 'concluzie',
+        h2: `Concluzie — care ansamblu din Titan–Pallady–Teclu ți se potrivește în funcție de nevoile tale`,
+        continut: `Zona Titan–Pallady–Teclu este în 2026 cel mai bun răspuns din piața imobiliară bucureșteană pentru cumpărătorul care vrea metrou accesibil, infrastructură completă și preț corect față de calitate. Cu 6 proiecte active, Neofort IMO acoperă aproape orice profil de cumpărător din această zonă.
+
+Dacă vrei prețul cel mai mic de intrare: Neofort 84 cu avans 45% pornește de la 62.114 EUR pentru un 2 camere. Potrivit pentru cei cu capital disponibil pentru avans mare și orizont de 12–15 luni până la predare (T1 2027).
+
+Dacă vrei metroul la ușă (literalmente): Neofort 83, cu Metrou Anghel Saligny la 20m. Prețul de start este 64.800 EUR pentru garsonieră la avans 20%. Fără echivalent în portofoliu ca proximitate față de metrou.
+
+Dacă vrei un apartament finalizat, disponibil imediat: Neofort 56 este opțiunea pentru cei care nu vor să aștepte și caută mutare în termen scurt.
+
+Dacă bugetul este mediu-mare (110.000–180.000 EUR): alege dintre Neofort 83 (3–4 camere) sau Neofort 84 (3 camere Tip 2–4) în funcție de localizarea exactă preferată și termenul de predare acceptat.
+
+Dacă ești investitor: Neofort 83 oferă cel mai bun randament brut estimat (7,1% pentru garsonieră) datorită prețului de intrare competitiv și proximității față de metrou — cel mai important factor pentru atractivitatea la închiriere.
+
+Dacă ești din diasporă și cumperi fără să fii prezent fizic: Neofort IMO are experiență directă cu zeci de tranzacții cu clienți din UK, Germania, Austria, Franța și Israel. Procesul este integral gestionabil de la distanță, cu procură notarială și consultanță dedicată.
+
+Pasul următor: contactați direct brokerul responsabil de zona și proiectul care vă interesează. Consultanța este gratuită, fără obligații, iar prețurile publicate sunt prețurile reale — fără surprize la semnare.`,
+      },
+    ],
   },
+
 
 }
 
 export const ARTICOLE_LIST = [
+    { slug: 'apartamente-de-vanzare-titan-pallady-teclu', titlu: 'Apartamente de Vânzare în Titan, Theodor Pallady și Nicolae Teclu — Ghid Complet 2026', data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min', image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
   { slug: 'dotari-apartament-inchiriat', titlu: 'Cele Mai Importante Dotări pentru un Apartament de Închiriat în 2026', data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min', image: '/blog/dotari-apartament-inchiriat-bucuresti.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practic pentru proprietarii din București.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
   { slug: 'lege-chirii-2026-proprietari-chiriasi', titlu: 'Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași', data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min', image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
