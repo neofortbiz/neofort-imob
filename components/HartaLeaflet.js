@@ -125,7 +125,7 @@ export default function HartaLeaflet({ activeMarkers, portofoliuMarkers, showPor
           <div style="font-size:11px;color:#666;margin-bottom:6px">${a.sector || ''}</div>
           <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px">
             <span style="background:${color};color:white;font-size:9px;padding:2px 6px;border-radius:10px;font-weight:600">
-              ${a.categorie === 'portofoliu' ? 'VANDUT' : (STATUS_LABELS[a.status] || '').toUpperCase()}
+              ${a.categorie === 'portofoliu' ? 'VÂNDUT' : a.dataPredare === 'Finalizat' ? 'FINALIZAT' : 'ÎN CONSTRUCȚIE'}
             </span>
             ${a.pretDeLa ? `<span style="font-size:12px;font-weight:700;color:${color}">${a.pretDeLa.toLocaleString()}€</span>` : ''}
           </div>

@@ -315,7 +315,7 @@ export default function HartaPage() {
                 <div className="flex items-center gap-3">
                   {sel.pretDeLa > 0 && (
                     <div>
-                      <p className="text-base font-bold" style={{ color: sel.categorie === 'portofoliu' ? STATUS_COLORS.vandut.fill : STATUS_COLORS[sel.status]?.fill }}>
+                      <p className="text-base font-bold" style={{ color: sel.categorie === 'portofoliu' ? STATUS_COLORS.vandut.fill : (sel.dataPredare === 'Finalizat' ? STATUS_COLORS.finalizat.fill : STATUS_COLORS.constructie.fill) }}>
                         {sel.pretDeLa.toLocaleString()}€
                       </p>
                       <p className="text-xs text-gray-500">{sel.categorie === 'portofoliu' ? 'Pret istoric' : 'De la'}</p>
@@ -324,7 +324,7 @@ export default function HartaPage() {
                   <Link
                     href={sel.categorie === 'portofoliu' ? '/portofoliu/' + sel.slug : '/ansamblu-rezidential/' + sel.slug}
                     className="text-sm px-4 py-2 rounded-xl text-white font-medium"
-                    style={{ background: sel.categorie === 'portofoliu' ? STATUS_COLORS.vandut.fill : STATUS_COLORS[sel.status]?.fill || '#2d7a3a' }}>
+                    style={{ background: sel.categorie === 'portofoliu' ? STATUS_COLORS.vandut.fill : (sel.dataPredare === 'Finalizat' ? STATUS_COLORS.finalizat.fill : STATUS_COLORS.constructie.fill) }}>
                     Detalii →
                   </Link>
                 </div>
