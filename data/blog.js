@@ -3140,9 +3140,9 @@ Ce tip de chiriaș atrag dotările premium?
 Dotările complete și de calitate atrag chiriași profesioniști care rămân în medie 26 de luni față de 14 luni pentru apartamentele subdotate, generând mai puține rotații și mai puțină uzură a proprietății.`,
       },
     ],
-  },,
+  },
 
-    'apartamente-de-vanzare-titan-pallady-teclu': {
+  'apartamente-de-vanzare-titan-pallady-teclu': {
     titlu: `Apartamente de Vânzare în Titan, Theodor Pallady și Nicolae Teclu — Ghid Complet 2026`,
     tag: 'Piață', tagColor: '#0369a1',
     data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min',
@@ -3389,7 +3389,7 @@ Pasul următor: contactați direct brokerul responsabil de zona și proiectul ca
 }
 
 export const ARTICOLE_LIST = [
-    { slug: 'apartamente-de-vanzare-titan-pallady-teclu', titlu: 'Apartamente de Vânzare în Titan, Theodor Pallady și Nicolae Teclu — Ghid Complet 2026', data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min', image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
+  { slug: 'apartamente-de-vanzare-titan-pallady-teclu', titlu: 'Apartamente de Vânzare în Titan, Theodor Pallady și Nicolae Teclu — Ghid Complet 2026', data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min', image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
   { slug: 'dotari-apartament-inchiriat', titlu: 'Cele Mai Importante Dotări pentru un Apartament de Închiriat în 2026', data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min', image: '/blog/dotari-apartament-inchiriat-bucuresti.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practic pentru proprietarii din București.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
   { slug: 'lege-chirii-2026-proprietari-chiriasi', titlu: 'Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași', data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min', image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
