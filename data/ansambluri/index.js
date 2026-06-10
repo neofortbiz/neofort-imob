@@ -305,7 +305,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
       { tip: 'transport', nume: 'Autostrada A1', distanta: '14 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Militari Metrou Păcii | N76',
+    seoTitle: 'Apartamente Militari Metrou Păcii | Neofort 76',
     seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Apartamente și Penthouse de la 218.409€+TVA. Metrou Păcii 500m.',
   },
   {
@@ -928,7 +928,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
       { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '9 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Eminescu-Viitorului | N11',
+    seoTitle: 'Apartamente Eminescu-Viitorului | Neofort 11',
     seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium, 2-3 camere de la 104.640€+TVA. Predare sept. 2026.',
   },
   {
