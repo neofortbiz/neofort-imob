@@ -3161,6 +3161,7 @@ Dotările complete și de calitate atrag chiriași profesioniști care rămân �
       { id: 'cum-verifici-developer', titlu: `Cum verifici un developer înainte să dai avansul` },
       { id: 'intrebari-frecvente', titlu: `Întrebări frecvente despre achizițiile din zonă` },
       { id: 'concluzie', titlu: `Concluzie — care ansamblu ți se potrivește` },
+      { id: 'faq', titlu: `Întrebări frecvente despre apartamentele de vânzare în Titan–Pallady–Teclu` },
     ],
     sectiuni: [
       {
@@ -3364,6 +3365,27 @@ Pot vizita un apartament model înainte să semnez?
 Da, pentru proiectele cu apartamente model disponibile. Contactați brokerul responsabil de proiectul care vă interesează pentru programarea vizitei.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre apartamentele de vânzare în Titan, Theodor Pallady și Nicolae Teclu`,
+        continut: `Care este prețul minim pentru un apartament nou în zona Titan–Pallady–Teclu în 2026?
+Prețul de start pentru un apartament nou de 2 camere în zona Titan–Pallady–Teclu este 62.114 EUR (TVA exclus) la Neofort 84, cu avans 45%. La avans 20%, prețul de intrare este de 64.800 EUR pentru o garsonieră la Neofort 83. Sunt cele mai accesibile prețuri pentru apartamente noi cu acces la metrou în București.
+
+Care ansamblu din Titan–Pallady–Teclu este cel mai aproape de metrou?
+Neofort 83 Titan Pallady are Metroul Anghel Saligny (M2) la 20 de metri — practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întregul portofoliu Neofort activ. Neofort 28 Faza 2 și Neofort 28 Teclu se află și ele în proximitatea stației Nicolae Teclu.
+
+Pot cumpăra un apartament în Titan–Pallady prin programul Noua Casă?
+Da, pentru proiectele eligibile unde prețul total (TVA inclus) nu depășește plafonul programului. Neofort IMO colaborează cu toate băncile majore (BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank) și facilitează gratuit procesul de documentație pentru Noua Casă.
+
+Care este randamentul la închiriere pentru un apartament în zona Titan–Pallady în 2026?
+Randamentul brut estimat este de 6,4–7,1% anual, cu randament net de 5–6% după impozit și cheltuieli. O garsonieră de 43 mp cumpărată cu 64.800 EUR generează o chirie medie de 385 EUR/lună, rezultând un randament brut de 7,1% — superior depozitelor bancare și comparabil cu fondurile de obligațiuni.
+
+Cât durează procesul de achiziție de la rezervare la semnarea contractului?
+Rezervarea se face cu 1.000–2.000 EUR (restituibil). Antecontractul se semnează în termen de 30 de zile. Contractul final se semnează la predarea apartamentului. Pentru proiecte în construcție, intervalul dintre antecontract și predare este de 6–18 luni în funcție de stadiul proiectului.
+
+Există apartamente disponibile imediat, fără să aștept finalizarea construcției?
+Da. Neofort 56 Pallady Titan Teclu este finalizat și disponibil pentru mutare imediată. Contactați echipa Neofort pentru disponibilitatea actualizată și prețuri.`,
+      },
+      {
         id: 'concluzie',
         h2: `Concluzie — care ansamblu din Titan–Pallady–Teclu ți se potrivește în funcție de nevoile tale`,
         continut: `Zona Titan–Pallady–Teclu este în 2026 cel mai bun răspuns din piața imobiliară bucureșteană pentru cumpărătorul care vrea metrou accesibil, infrastructură completă și preț corect față de calitate. Cu 6 proiecte active, Neofort IMO acoperă aproape orice profil de cumpărător din această zonă.
@@ -3405,6 +3427,7 @@ Pasul următor: contactați direct brokerul responsabil de zona și proiectul ca
       { id: 'impact-bucuresti', titlu: `Impactul concret în București — ce se întâmplă pe piața locală` },
       { id: 'sfat-cumparator', titlu: `Sfatul practic: cum te protejezi ca și cumpărător în 2026` },
       { id: 'concluzie', titlu: `Concluzie: o lecție despre cum reglementarea greșit calibrată produce efecte inverse` },
+      { id: 'faq', titlu: `Întrebări frecvente despre Legea Nordis și piața imobiliară 2026` },
     ],
     sectiuni: [
       {
@@ -3601,6 +3624,27 @@ Un avocat specializat în drept imobiliar costă 200–500 EUR pentru revizuirea
 
 Neofort IMO și transparența față de clienți:
 Cu 17 ani de activitate și 85+ proiecte livrate în București, Neofort IMO a traversat multiple cicluri legislative și de piață. Toate contractele noastre sunt revizuibile de avocați independenți înainte de semnare, toate documentele de proiect sunt disponibile pentru verificare, iar consultanța juridică și bancară este gratuită pentru clienții noștri. Dacă ai întrebări despre situația legislativă actuală și cum ne afectează proiectele active, echipa noastră este disponibilă la 0758 090 904.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre Legea Nordis și efectele ei pe piața imobiliară`,
+        continut: `Ce este Legea Nordis și de ce a fost adoptată?
+Legea nr. 207/2025, supranumită Legea Nordis, modifică normele privind calitatea în construcții și cadastrul, introducând restricții privind utilizarea avansurilor încasate de dezvoltatori și cerința de preapartamentare. A fost adoptată ca răspuns la cazul grupului Nordis, în care mii de cumpărători au plătit avansuri pentru apartamente neterminate, fără ca banii să fie utilizați conform destinației.
+
+Cât de mult au scăzut tranzacțiile imobiliare din cauza Legii Nordis?
+Tranzacțiile imobiliare rezidențiale au scăzut cu 30% în 2025 față de 2024, iar ianuarie 2026 a înregistrat o scădere de 25% față de ianuarie 2025. Scăderea este efectul combinat al Legii Nordis și al majorării TVA de la 5% la 21% — două măsuri legislative care au acționat simultan în aceeași perioadă.
+
+De ce Legea Nordis afectează mai mult dezvoltatorii serioși decât pe cei nesărioși?
+Companiile care au generat problema — prin utilizarea neconformă a avansurilor — au structuri juridice construite pentru a ocoli reglementările. Companiile serioase, care doresc să respecte legea, sunt paralizate de ambiguitatea privind utilizarea celor 55% din avans nespecificați explicit, riscând litigii la orice cheltuială. Efectul pervers: legea protejează mai mult de companiile corecte decât de cele necorecte.
+
+Ce schimbări sunt necesare urgent în Legea Nordis?
+Specialiștii din industrie (FIDES) solicită: clarificarea utilizării celor 55% din avans nereglementați, specificarea momentului de pe parcursul construcției când pot fi utilizate avansurile, desemnarea autorităților de verificare și sancționare, introducerea noțiunii de investitor calificat pentru persoane juridice și soluționarea blocajului ANCPI cauzat de cerința de preapartamentare simultană.
+
+Poate fi rezolvată situația rapid prin ordonanță de urgență?
+Da. Corecturile necesare nu implică modificarea principiului legii, ci clarificarea procedurilor de aplicare. O ordonanță de urgență bine concepută poate elimina ambiguitatea juridică principală în câteva săptămâni. Voința politică este singurul element lipsă.
+
+Cum mă afectează Legea Nordis dacă vreau să cumpăr un apartament nou acum?
+Ca și cumpărător, efectele sunt indirecte dar reale: prețuri mai mari cu 5–12% față de scenariul fără blocaj, ofertă mai limitată și termene de livrare mai lungi. Recomandat: verificați că preapartamentarea proiectului este finalizată, solicitați clarificări contractuale privind utilizarea avansului și consultați un avocat înainte de semnare.`,
       },
       {
         id: 'concluzie',
