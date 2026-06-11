@@ -3385,10 +3385,252 @@ Pasul următor: contactați direct brokerul responsabil de zona și proiectul ca
     ],
   },
 
+  'legea-nordis-efect-bumerang-piata-imobiliara': {
+    titlu: `Legea Nordis: Efect de Bumerang pe Piața Imobiliară — Cum o Lege de Protecție a Devenit o Frână pentru Construcții`,
+    tag: 'Legislație', tagColor: '#7c3aed',
+    data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min',
+    autor: 'igor-calutu',
+    image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif',
+    descriere: `Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25-30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre și consecințe reale.`,
+    keywords: ['legea nordis imobiliare 2026', 'legea 207 2025 constructii', 'efect legea nordis piata imobiliara', 'blocaj constructii rezidentiale 2026', 'scadere tranzactii imobiliare 2026', 'legea nordis avans apartament', 'legea nordis dezvoltatori', 'piata imobiliara romania 2026 criza', 'preapartamentare ancpi 2026', 'investitii imobiliare blocate 2026'],
+    hashtags: ['#LegeaNordis', '#PiataImobiliara2026', '#Constructii2026', '#LegislatieImobiliara', '#NeofortIMO'],
+    cuprins: [
+      { id: 'context', titlu: `Ce este Legea Nordis și de unde a pornit` },
+      { id: 'cifre-impact', titlu: `Cifrele dezastrului: -30% tranzacții în 2025, -25% în ianuarie 2026` },
+      { id: 'mecanismul-blocajului', titlu: `Cum blochează concret legea fluxul de capital` },
+      { id: 'cine-pierde', titlu: `Cine pierde: cumpărătorii, dezvoltatorii serioși și statul` },
+      { id: 'furtuna-perfecta', titlu: `„Furtuna perfectă": TVA 21% + Legea Nordis + ANCPI supraaglomerat` },
+      { id: 'distinctia-lipsa', titlu: `Eroarea fundamentală: legea nu distinge între cumpărători și investitori` },
+      { id: 'ce-trebuie-corectat', titlu: `Ce trebuie corectat urgent și cum` },
+      { id: 'impact-bucuresti', titlu: `Impactul concret în București — ce se întâmplă pe piața locală` },
+      { id: 'sfat-cumparator', titlu: `Sfatul practic: cum te protejezi ca și cumpărător în 2026` },
+      { id: 'concluzie', titlu: `Concluzie: o lecție despre cum reglementarea greșit calibrată produce efecte inverse` },
+    ],
+    sectiuni: [
+      {
+        id: 'context',
+        h2: `Ce este Legea Nordis și de unde a pornit`,
+        continut: `Dacă urmărești piața imobiliară din România, ultimele 12 luni au adus o schimbare legislativă pe care specialiștii o compară cu modificarea TVA din 2025 ca impact negativ: Legea nr. 207/2025, supranumită „Legea Nordis".
+
+Contextul apariției sale este, în sine, legitim. Cazul grupului Nordis — în care mii de cumpărători au achitat avansuri și tranșe pentru apartamente neterminate, banii au dispărut în structuri financiare opace și proiectele au fost înghețate — a generat o indignare publică justificată. Parlamentul a reacționat rapid: o lege care să protejeze cumpărătorii de situații similare părea o necesitate clară.
+
+Legea nr. 207/2025 modifică normele privind calitatea în construcții și cadastrul, introducând restricții privind utilizarea avansurilor încasate de dezvoltatori, obligații noi de preapartamentare și cerințe suplimentare față de ANCPI (Agenția Națională de Cadastru și Publicitate Imobiliară). Intenția declarată: asigurarea că banii cumpărătorilor sunt utilizați exclusiv în construcția apartamentului pentru care s-a plătit.
+
+Problema nu este intenția. Problema este execuția.
+
+Legea a intrat în vigoare cu prevederi insuficient de clare, fără norme de aplicare complete și fără o evaluare a impactului asupra dezvoltatorilor de bună-credință. Rezultatul, vizibil azi la 12 luni de la adoptare, este unul de bumerang: tocmai cumpărătorii pe care legea trebuia să îi protejeze sunt cei care plătesc cel mai scump prețul, prin ofertă redusă și prețuri mai mari.`,
+      },
+      {
+        id: 'cifre-impact',
+        h2: `Cifrele dezastrului: -30% tranzacții în 2025, -25% în ianuarie 2026`,
+        continut: `Datele disponibile până la jumătatea anului 2026 conturează un tablou îngrijorător, confirmat atât de surse oficiale, cât și de federațiile profesionale din industrie.
+
+Tranzacții imobiliare rezidențiale — evoluție:
+• 2024: an de referință cu activitate normalizată post-pandemie
+• 2025: scădere de 30% față de 2024 — cel mai abrupt declin anual din ultimul deceniu
+• Ianuarie 2026: scădere de 25% față de ianuarie 2025 la nivel național în vânzări de unități individuale
+• T1 2026 estimat: -20% față de T1 2025
+
+Este important să contextualizăm aceste cifre. Scăderea din 2025 are două cauze principale, care s-au suprapus în același an cu efecte cumulate: majorarea TVA de la 5% la 21% pentru locuințele noi (Legea nr. 141/2025, în vigoare de la 1 august 2025) și intrarea în vigoare a Legii nr. 207/2025. Cele două măsuri legislative au acționat simultan, amplificând reciproc efectele negative.
+
+Impactul asupra autorizațiilor de construire:
+Datele INSSE pentru 2025 arată o scădere semnificativă a autorizațiilor de construire pentru clădiri rezidențiale față de 2024 — un indicator leading care semnalează că efectele se vor resimți și mai puternic în 2027–2028 ca ofertă livrata. Un proiect autorizat azi livrează apartamente în 2–3 ani. Dacă autorizațiile scad azi, oferta de mâine se contractă.
+
+Impactul fiscal pentru statul român:
+Sectorul imobiliar contribuie direct cu peste 7% din PIB și indirect, prin industriile antrenate, cu aproape 20%. O scădere de 25–30% a tranzacțiilor înseamnă pierderi masive de TVA, impozit pe profit și contribuții salariale. Estimările FIDES (Federația Investitorilor și Dezvoltatorilor pentru o Economie Sustenabilă) indică pierderi de sute de milioane de lei la bugetul de stat din această cauză în 2025.
+
+Constantin Sebeșanu, președintele FIDES, a sintetizat situația în termeni clari: „Ceea ce vedem astăzi este rezultatul unei furtuni perfecte — context creat deopotrivă prin decizii fiscale și blocaje administrative. Scăderea de 30% a tranzacțiilor în 2025 nu este doar o cifră statistică, ci dovada că modificarea regimului TVA a nimicit pur și simplu segmentul de mijloc al pieței."`,
+      },
+      {
+        id: 'mecanismul-blocajului',
+        h2: `Cum blochează concret legea fluxul de capital în construcțiile rezidențiale`,
+        continut: `Pentru a înțelege de ce Legea Nordis produce blocaje, trebuie să înțelegi cum funcționează finanțarea unui proiect rezidențial. Nu este un detaliu tehnic — este esența problemei.
+
+Un proiect rezidențial tipic se finanțează dintr-o combinație de capital propriu al dezvoltatorului (~30–40%), credit bancar (~30–40%) și avansuri de la cumpărători (~20–30%). Avansurile încasate de la cumpărători în faza de construcție nu sunt „profit anticipat" — ele sunt parte integrantă din fluxul de finanțare care permite continuarea lucrărilor.
+
+Legea nr. 207/2025 permite încasarea avansului integral la semnarea promisiunii de vânzare, dar introduce restricții privind utilizarea sumelor:
+• 25% din avans poate fi utilizat pentru structură
+• 20% din avans poate fi utilizat pentru instalații
+• 55% rămâne într-o zonă de interpretare ambiguă
+
+Problema este că un proiect imobiliar include mult mai multe categorii de costuri decât „structură" și „instalații":
+• Proiectare și obținere avize (5–8% din valoarea proiectului)
+• Terenul și costurile de achiziție a acestuia
+• Amenajări exterioare și infrastructură de conectare
+• Lucrări de finisaje interioare (parchet, gresie, faianță, tâmplărie)
+• Costurile de vânzare și marketing
+• Dobânzile la creditele bancare pe durata construcției
+• Garanțiile bancare și asigurările obligatorii
+
+Fără clarificarea explicită a modului în care pot fi utilizate celelalte 55% din avans, orice utilizare devine potențial contestabilă juridic. Dezvoltatorii serioși — exact cei care vor să respecte legea — sunt paralizați de riscul litigios.
+
+Rezultatul practic: dezvoltatorii au două opțiuni. Prima: înghețează utilizarea avansurilor și se bazează exclusiv pe credit bancar și capital propriu, majorând costurile de finanțare cu 2–4% anual — costuri care se transferă inevitabil în prețul final. A doua: întârzie sau abandonează proiectele cu finanțare insuficientă fără avansuri, reducând oferta de apartamente disponibile.
+
+Ambele variante duc la prețuri mai mari și ofertă mai mică. Efectul opus celui intenționat.`,
+      },
+      {
+        id: 'cine-pierde',
+        h2: `Cine pierde efectiv: cumpărătorii, dezvoltatorii serioși și statul român`,
+        continut: `Paradoxul fundamental al Legii Nordis este că lezează exact grupurile pe care trebuia să le protejeze sau să le lase neafectate.
+
+Cumpărătorii de apartamente — grupul-țintă al protecției:
+Legea a fost concepută să-i protejeze pe cei care cumpără apartamente de la dezvoltatori în faza de construcție. În realitate, consecințele pentru ei sunt negative pe toate dimensiunile:
+• Prețuri mai mari — din cauza costurilor suplimentare de finanțare suportate de dezvoltatori
+• Ofertă mai mică — din cauza proiectelor înghețate sau abandonate
+• Termene de livrare mai lungi — din cauza blocajelor administrative la ANCPI
+• Acces mai dificil la locuințe noi — din cauza contracției pieței în ansamblu
+
+Un cumpărător care voia să achiziționeze un apartament de 100.000 EUR net în 2026 plătește azi, cumulat cu TVA 21%, 121.000 EUR și concurează pe o ofertă mai redusă față de 2024. Legea Nordis a adăugat presiune suplimentară la o piață deja tensionată de majorarea TVA.
+
+Dezvoltatorii serioși — practic singurii afectați:
+Acesta este probabil cel mai flagrant efect pervers al legii. Cazul Nordis a implicat un grup care nu a respectat regulile existente, nu a utilizat avansurile conform destinației și a operat cu o transparență minimă. Legea răspunde acestui comportament... prin reglementarea strictă a tuturor dezvoltatorilor, inclusiv a celor cu 15–20 de ani de livrări conforme și mii de clienți mulțumiți.
+
+Companiile care au operat în afara regulilor — și care au generat problemele reale — au deja structuri juridice și financiare construite pentru a evita orice reglementare. Vor găsi căi de a ocoli și această lege. Companiile serioase, care vor să respecte legea, sunt paralizate de ambiguitate.
+
+IMM-urile din construcții — victimele colaterale:
+Blocajul din piața rezidențială lovește direct în companii de construcții, instalații, finisaje și materiale de construcții. Ele depind de comenzile venite de la dezvoltatori rezidențiali. Reducerea activității de construcție se traduce direct în reduceri de personal, insolvențe și pierderi fiscale pentru buget.
+
+Statul român — pierderi fiscale în lanț:
+Mai puține tranzacții → mai puțin TVA colectat. Mai puțin TVA colectat → venituri fiscale mai mici. Proiecte blocate → mai puțin impozit pe profit și contribuții salariale. Estimările FIDES indică că pierderile fiscale din blocajul pieței imobiliare depășesc cu mult orice câștig teoretic din protecția suplimentară oferită cumpărătorilor.`,
+      },
+      {
+        id: 'furtuna-perfecta',
+        h2: `„Furtuna perfectă": cum TVA 21%, Legea Nordis și ANCPI supraaglomerat s-au combinat în 2025–2026`,
+        continut: `Președintele FIDES, Constantin Sebeșanu, a descris situația cu o metaforă exactă: „furtuna perfectă". Nu o singură cauză, ci trei valuri simultane care s-au lovit una de alta și și-au amplificat efectele.
+
+Valul 1 — Majorarea TVA (august 2025):
+Legea nr. 141/2025 a eliminat cota redusă de 5% TVA și a impus 21% pentru toate achizițiile noi care nu îndeplinesc condițiile tranzitorii stricte. Efectul imediat: o avalanșă de tranzacții finalizate înainte de 1 august 2025 (pentru a prinde 5% sau 9%) urmată de o prăbușire a vânzărilor în septembrie–decembrie 2025. „Mulți clienți s-au aglomerat în a putea încheia tranzacții pe vechiul procent, mai mic, lăsând finalul de an cu foarte puține vânzări", a explicat Sebeșanu.
+
+Valul 2 — Legea Nordis (2025):
+Peste impactul TVA s-a suprapus blocajul generat de Legea nr. 207/2025. Restricțiile privind utilizarea avansurilor, cerința de preapartamentare și incertitudinea juridică au înghețat fluxurile de capital ale proiectelor în derulare. Proiectele planificate pe doi ani, brusc confruntate cu costuri de finanțare mai mari și restricții de cash-flow, fie s-au scumpit, fie s-au oprit.
+
+Valul 3 — Suprasolicitarea ANCPI:
+Legea introduce cerința de preapartamentare — un proces birocratic prin care apartamentele dintr-un bloc trebuie individualizate cadastral înainte de a putea fi vândute. Toate proiectele existente care nu aveau preapartamentarea finalizată s-au înghesuit simultan la ghișeele ANCPI. Rezultatul previzibil: cozi de luni de zile, procese administrative blocate, proiecte care nu pot fi comercializate legal până nu obțin documentele — deși construcția fizică avansează normal.
+
+Constantin Sebeșanu a atras atenția explicit: „Asaltul asupra oficiilor ANCPI, pentru a implementa preapartamentările, depășește puterea de lucru a funcționarilor de acolo."
+
+Efectul combinat al celor trei valuri explică de ce datele din T1 2026 sunt mai îngrijorătoare decât datele din 2025: tulburările structurale din 2025 nu s-au rezolvat, ci s-au cronicizat.`,
+      },
+      {
+        id: 'distinctia-lipsa',
+        h2: `Eroarea fundamentală: legea nu distinge între cumpărători vulnerabili și investitori calificați`,
+        continut: `Orice reglementare bine concepută identifică precis grupul care are nevoie de protecție și calibrează măsurile proporțional cu vulnerabilitatea acestuia. Legea Nordis ratează exact această calibrare.
+
+Există două categorii fundamental diferite de cumpărători de apartamente în faza de construcție:
+
+Categoria 1 — Persoane fizice cumpărători de locuință principală:
+Familia care economisește ani pentru avansul la un apartament de 2–3 camere, care nu are expertiză juridică sau financiară și care nu are resursele pentru a gestiona un litigiu cu un developer neserious. Aceasta este exact categoria vulnerabilă pe care legea trebuia să o protejeze. Protecția suplimentară pentru acest grup este justificată.
+
+Categoria 2 — Investitori calificați (persoane juridice):
+Fonduri de investiții, companii de real estate, antreprenori care achiziționează 10–50 de unități dintr-un singur proiect, în scop comercial. Aceste entități operează în cunoștință completă de cauză, au echipe juridice și financiare, evaluează riscurile profesionist și nu au nevoie de protecția gândită pentru familia cu economii de 15 ani.
+
+Legea nr. 207/2025 nu face această distincție. Aplică aceleași restricții și pentru un investitor profesionist cu capital de 5 milioane EUR cât și pentru o familie care cumpără primul apartament. Constantin Sebeșanu a formulat explicit această critică: „Legea nu distinge între subjecții de drept. Mai simplu spus, nu face diferența între cumpărătorii persoane fizice și investitorii calificați persoane juridice."
+
+FIDES a propus introducerea noțiunii de „investitor calificat" în legislație — o categorie de cumpărători persoane juridice care ar fi excluși de la restricțiile privind avansurile, deoarece sunt în afara grupului-țintă al protecției.
+
+Această distincție nu este o favoare acordată marilor jucători. Este logică legislativă de bază: măsurile de protecție trebuie aplicate grupurilor vulnerabile, nu celor care nu au nevoie de ele. Aplicarea uniformă a restricțiilor produce birocrație excesivă fără beneficiu real și costuri suplimentare care se duc inevitabil în prețul final plătit de... cumpărătorul vulnerabil pe care legea vrea să îl protejeze.`,
+      },
+      {
+        id: 'ce-trebuie-corectat',
+        h2: `Ce trebuie corectat urgent și cum — propunerile specialiștilor`,
+        continut: `Specialiștii din industrie, federațiile profesionale și asociațiile de experți sunt unanimi: Legea Nordis nu trebuie abrogată, ci corectată rapid și precis. Existența ei este justificată — dar în forma actuală face mai mult rău decât bine.
+
+Corecturile necesare, în ordinea urgenței:
+
+1. Clarificarea modului de utilizare a avansurilor:
+Legea specifică 25% pentru structură și 20% pentru instalații, dar tace asupra restului de 55%. Este nevoie de o enumerare exhaustivă a cheltuielilor eligibile — proiectare, avize, finisaje, marketing, dobânzi bancare, taxe — care să elimine ambiguitatea juridică. Această clarificare poate fi introdusă prin ordonanță de urgență fără a modifica principiul legii.
+
+2. Procedura clară de calcul a plafoanelor:
+„Trebuie explicitată formula de calcul a plafoanelor maxime ce pot fi cheltuite", a precizat Sebeșanu. Fără o formulă de calcul, orice cheltuială a dezvoltatorului poate fi contestată ulterior, descurajând orice utilizare a fondurilor.
+
+3. Momentul exact al utilizării avansurilor:
+„Trebuie specificat momentul de pe parcursul proiectului la care pot fi utilizate sumele încasate ca avans." Un proiect rezidențial are faze distincte: fundație, structură, instalații brute, finisaje, recepție. Momentul în care avansurile pot fi deblocate trebuie corelat cu progresul fizic verificabil al construcției.
+
+4. Desemnarea autorităților de verificare și sancționare:
+Legea nu precizează clar care autoritate verifică respectarea restricțiilor și aplică sancțiunile. Fără executor, orice normă devine simbolică. Totodată, fără un mecanism clar de verificare, legea nu îi protejează efectiv nici pe cumpărătorii vulnerabili.
+
+5. Introducerea noțiunii de „investitor calificat":
+Persoanele juridice cu activitate imobiliară comercială dovedită să fie excluse de la restricțiile privind avansurile, rămânând supuse altor forme de transparență și raportare.
+
+6. Soluționarea blocajului ANCPI:
+Cerința de preapartamentare simultană pentru toate proiectele existente a suprasolicitat capacitatea operațională a ANCPI. Soluțiile posibile: termene eșalonate pe tipuri de proiecte, proceduri digitalizate accelerate, sau excepții temporare pentru proiectele cu stadiu avansat de construcție.
+
+Constantin Sebeșanu a subliniat că toate acestea „pot fi rapid introduse prin ordonanță de urgență" — nu necesită un proces legislativ lung. Voința politică este singurul element lipsă.`,
+      },
+      {
+        id: 'impact-bucuresti',
+        h2: `Impactul concret în București — ce se întâmplă pe piața din Capitală în 2026`,
+        continut: `Bucureștiul concentrează aproximativ 35–40% din totalul tranzacțiilor imobiliare rezidențiale din România, ceea ce înseamnă că efectele naționale descrise mai sus se regăsesc amplificate în Capitală.
+
+Proiecte înghețate și șantiere oprite:
+Semnele sunt vizibile: proiecte care aveau autorizații și planuri de lansare în 2025 au amânat sau anulat comercializarea din cauza imposibilității de a utiliza avansurile conform modelului de finanțare planificat. Unii dezvoltatori au ales să nu înceapă vânzările până la clarificarea legislativă, preferând să suporte costul de așteptare față de riscul litigios.
+
+Prețuri sub presiune ascendentă:
+Paradoxal, deși volumul de tranzacții a scăzut semnificativ, prețurile nu au urmat același trend descendent. Motivul: oferta s-a contractat simultan cu cererea. Mai puțini cumpărători activi, dar și mai puțini dezvoltatori care lansează proiecte noi. Echilibrul s-a menținut la prețuri similare sau ușor crescute față de 2024, dar cu volum mult redus.
+
+În zona Titan–Pallady–Teclu, unde Neofort IMO are 6 proiecte active, situația este mai stabilă față de media pieței din două motive: proiectele noastre erau deja în stadii avansate de autorizare și comercializare la intrarea în vigoare a legii, iar structura financiară solidă ne permite să absorbim costurile suplimentare fără a transfera integral presiunea în prețuri.
+
+Cererea latentă — un indicator de optimism:
+Datele interne din primele luni ale anului 2026 indică o cerere latentă semnificativă: există cumpărători cu finanțare pregătită care așteaptă clarificarea situației legislative înainte de a semna. Această cerere acumulată va reveni rapid pe piață odată ce ambiguitatea juridică va fi rezolvată — și ar putea genera un rebound semnificativ în H2 2026 sau H1 2027 dacă corecțiile legislative se produc.
+
+Chirii în creștere — semnalul supraîncălzirii segmentului locativ:
+Contracția ofertei de apartamente noi de cumpărat se transferă direct în segmentul chiriilor. Cu mai puțini cumpărători care reușesc să achiziționeze, mai mulți rămân în chirie — iar cererea crescută pe un fond de ofertă limitată a dus la creșteri de 10–18% ale chiriilor în zonele cu metrou din București în ultimele 12 luni. Aceasta este o consecință directă, deși indirectă, a blocajului legislativ.`,
+      },
+      {
+        id: 'sfat-cumparator',
+        h2: `Sfatul practic: cum te protejezi ca și cumpărător de apartament în 2026`,
+        continut: `Dacă ești în proces de cumpărare a unui apartament nou în 2026, contextul legislativ actual impune câteva verificări suplimentare față de anii precedenți. Iată lista completă:
+
+Verifică istoricul developerului cu prioritate maximă:
+Legea Nordis a apărut exact pentru că unii cumpărători nu au verificat suficient. Înainte de orice altceva:
+• Câte proiecte a finalizat developerul? Există clienți din proiectele anterioare pe care îi poți contacta?
+• Are litigii active sau dosare penale? Verificare gratuită pe portal.just.ro și ONRC
+• Finanțarea proiectului este proprie sau 100% dependentă de avansuri? Un developer cu capital propriu solid rezistă mai bine în perioade de blocaj
+
+Solicită clarificări explicite privind regimul avansului:
+În contextul Legii nr. 207/2025:
+• Cere să ți se explice cum sunt utilizate avansurile tale și conform cărei proceduri
+• Verifică dacă preapartamentarea este finalizată sau în curs — blocajele ANCPI pot întârzia predarea
+• Solicită o clauză contractuală care să specifice termenul de predare și penalitățile pentru întârziere
+
+Contractul — nu semna fără revizuire juridică:
+Un avocat specializat în drept imobiliar costă 200–500 EUR pentru revizuirea unui antecontract. Față de o tranzacție de 100.000–200.000 EUR, este probabil cea mai bună investiție din toată tranzacția. Verifică în special:
+• Clauza privind utilizarea avansului și returnarea acestuia în caz de nefinalizare
+• Termenul de predare și penalitățile de întârziere (minim 0,1%/zi din prețul contractului)
+• Condițiile de reziliere și mecanismul de restituire a sumelor plătite
+
+Neofort IMO și transparența față de clienți:
+Cu 17 ani de activitate și 85+ proiecte livrate în București, Neofort IMO a traversat multiple cicluri legislative și de piață. Toate contractele noastre sunt revizuibile de avocați independenți înainte de semnare, toate documentele de proiect sunt disponibile pentru verificare, iar consultanța juridică și bancară este gratuită pentru clienții noștri. Dacă ai întrebări despre situația legislativă actuală și cum ne afectează proiectele active, echipa noastră este disponibilă la 0758 090 904.`,
+      },
+      {
+        id: 'concluzie',
+        h2: `Concluzie: o lecție despre cum reglementarea greșit calibrată produce efecte inverse`,
+        continut: `Legea Nordis este un studiu de caz valoros despre cum o inițiativă legislativă cu intenții bune poate produce efecte diametral opuse dacă nu este calibrată corect.
+
+Cazul Nordis a demonstrat că există un risc real în piața rezidențială românească: dezvoltatori neonești care colectează avansuri și nu livrează. Reglementarea acestui risc este justificată și necesară. Cumpărătorii de locuințe au dreptul la mecanisme de protecție clare.
+
+Problema nu este principiul — este implementarea. O lege care nu distinge între subiectele de drept, care nu clarifică procedurile de utilizare a fondurilor și care supraîncarcă o singură autoritate (ANCPI) fără să îi aloce resurse suplimentare nu poate produce altceva decât ce produce azi: blocaj generalizat, prețuri crescute și ofertă redusă.
+
+Paradoxul suprem este că, în urma Legii Nordis, cumpărătorul vulnerabil pe care legea trebuia să îl protejeze se confruntă azi cu:
+• Prețuri mai mari cu 5–12% față de ce ar fi existat fără blocaj
+• Alegeri mai limitate din cauza proiectelor înghețate
+• Termene de livrare mai lungi din cauza blocajului ANCPI
+• Un acces mai dificil la proprietate — tocmai când accesibilitatea era deja erodată de TVA 21%
+
+Industria, prin FIDES și alte organizații, a oferit soluții concrete și rapide. Corecturile nu necesită ani de dezbateri parlamentare — o ordonanță de urgență bine concepută poate elimina ambiguitatea principală în câteva săptămâni.
+
+Până atunci, piața imobiliară din România navighează prin ce Constantin Sebeșanu a numit corect „furtuna perfectă". Și, din nefericire, cei mai expuși la furtună rămân exact cei mai vulnerabili: familiile care caută un apartament în care să trăiască.
+
+Neofort IMO continuă să construiască și să livreze în acest context dificil — pentru că 17 ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o discuție gratuită, fără obligații.`,
+      },
+    ],
+  },
+
 
 }
 
 export const ARTICOLE_LIST = [
+    { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piața Imobiliară — Cum o Lege de Protecție a Devenit o Frână pentru Construcții', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'apartamente-de-vanzare-titan-pallady-teclu', titlu: 'Apartamente de Vânzare în Titan, Theodor Pallady și Nicolae Teclu — Ghid Complet 2026', data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min', image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
   { slug: 'dotari-apartament-inchiriat', titlu: 'Cele Mai Importante Dotări pentru un Apartament de Închiriat în 2026', data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min', image: '/blog/dotari-apartament-inchiriat-bucuresti.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practic pentru proprietarii din București.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
