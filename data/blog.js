@@ -3499,7 +3499,7 @@ Mai puține tranzacții → mai puțin TVA colectat. Mai puțin TVA colectat →
         continut: `Președintele FIDES, Constantin Sebeșanu, a descris situația cu o metaforă exactă: „furtuna perfectă". Nu o singură cauză, ci trei valuri simultane care s-au lovit una de alta și și-au amplificat efectele.
 
 Valul 1 — Majorarea TVA (august 2025):
-Legea nr. 141/2025 a eliminat cota redusă de 5% TVA și a impus 21% pentru toate achizițiile noi care nu îndeplinesc condițiile tranzitorii stricte. Efectul imediat: o avalanșă de tranzacții finalizate înainte de 1 august 2025 (pentru a prinde 5% sau 9%) urmată de o prăbușire a vânzărilor în septembrie–decembrie 2025. „Mulți clienți s-au aglomerat în a putea încheia tranzacții pe vechiul procent, mai mic, lăsând finalul de an cu foarte puține vânzări", a explicat Sebeșanu.
+Legea nr. 141/2025 a eliminat cota redusă de 5% TVA și a impus [21% TVA pentru apartamente noi](/blog/tva-apartamente-noi-2026) pentru toate achizițiile care nu îndeplinesc condițiile tranzitorii stricte. Efectul imediat: o avalanșă de tranzacții finalizate înainte de 1 august 2025 (pentru a prinde 5% sau 9%) urmată de o prăbușire a vânzărilor în septembrie–decembrie 2025. „Mulți clienți s-au aglomerat în a putea încheia tranzacții pe vechiul procent, mai mic, lăsând finalul de an cu foarte puține vânzări", a explicat Sebeșanu.
 
 Valul 2 — Legea Nordis (2025):
 Peste impactul TVA s-a suprapus blocajul generat de Legea nr. 207/2025. Restricțiile privind utilizarea avansurilor, cerința de preapartamentare și incertitudinea juridică au înghețat fluxurile de capital ale proiectelor în derulare. Proiectele planificate pe doi ani, brusc confruntate cu costuri de finanțare mai mari și restricții de cash-flow, fie s-au scumpit, fie s-au oprit.
@@ -3568,7 +3568,7 @@ Semnele sunt vizibile: proiecte care aveau autorizații și planuri de lansare �
 Prețuri sub presiune ascendentă:
 Paradoxal, deși volumul de tranzacții a scăzut semnificativ, prețurile nu au urmat același trend descendent. Motivul: oferta s-a contractat simultan cu cererea. Mai puțini cumpărători activi, dar și mai puțini dezvoltatori care lansează proiecte noi. Echilibrul s-a menținut la prețuri similare sau ușor crescute față de 2024, dar cu volum mult redus.
 
-În zona Titan–Pallady–Teclu, unde Neofort IMO are 6 proiecte active, situația este mai stabilă față de media pieței din două motive: proiectele noastre erau deja în stadii avansate de autorizare și comercializare la intrarea în vigoare a legii, iar structura financiară solidă ne permite să absorbim costurile suplimentare fără a transfera integral presiunea în prețuri.
+În zona Titan–Pallady–Teclu, unde Neofort IMO are [6 proiecte rezidențiale active](/ansambluri-rezidentiale), situația este mai stabilă față de media pieței din două motive: proiectele noastre erau deja în stadii avansate de autorizare și comercializare la intrarea în vigoare a legii, iar structura financiară solidă ne permite să absorbim costurile suplimentare fără a transfera integral presiunea în prețuri.
 
 Cererea latentă — un indicator de optimism:
 Datele interne din primele luni ale anului 2026 indică o cerere latentă semnificativă: există cumpărători cu finanțare pregătită care așteaptă clarificarea situației legislative înainte de a semna. Această cerere acumulată va reveni rapid pe piață odată ce ambiguitatea juridică va fi rezolvată — și ar putea genera un rebound semnificativ în H2 2026 sau H1 2027 dacă corecțiile legislative se produc.
@@ -3582,7 +3582,7 @@ Contracția ofertei de apartamente noi de cumpărat se transferă direct în seg
         continut: `Dacă ești în proces de cumpărare a unui apartament nou în 2026, contextul legislativ actual impune câteva verificări suplimentare față de anii precedenți. Iată lista completă:
 
 Verifică istoricul developerului cu prioritate maximă:
-Legea Nordis a apărut exact pentru că unii cumpărători nu au verificat suficient. Înainte de orice altceva:
+Legea Nordis a apărut exact pentru că unii cumpărători nu au verificat suficient. Înainte de orice altceva — citește și [ghidul complet pentru cumpărarea unui apartament nou](/blog/ghid-cumparare-apartament-nou):
 • Câte proiecte a finalizat developerul? Există clienți din proiectele anterioare pe care îi poți contacta?
 • Are litigii active sau dosare penale? Verificare gratuită pe portal.just.ro și ONRC
 • Finanțarea proiectului este proprie sau 100% dependentă de avansuri? Un developer cu capital propriu solid rezistă mai bine în perioade de blocaj
@@ -3621,7 +3621,7 @@ Industria, prin FIDES și alte organizații, a oferit soluții concrete și rapi
 
 Până atunci, piața imobiliară din România navighează prin ce Constantin Sebeșanu a numit corect „furtuna perfectă". Și, din nefericire, cei mai expuși la furtună rămân exact cei mai vulnerabili: familiile care caută un apartament în care să trăiască.
 
-Neofort IMO continuă să construiască și să livreze în acest context dificil — pentru că 17 ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o discuție gratuită, fără obligații.`,
+Neofort IMO continuă să construiască și să livreze în acest context dificil — pentru că 17 ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o [discuție gratuită despre achiziția ta](/contact), fără obligații.`,
       },
     ],
   },
