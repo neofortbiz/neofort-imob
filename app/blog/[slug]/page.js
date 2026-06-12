@@ -142,8 +142,8 @@ export default function ArticolPage({ params }) {
 
         {/* HERO IMAGE */}
         {a.image && (
-          <div className="relative w-full overflow-hidden" style={{ height: 420, maxHeight: '55vw' }}>
-            <img src={a.image} alt={a.titlu} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} loading="eager" />
+          <div className="relative w-full overflow-hidden" style={{ height: 420, maxHeight: '65vw' }}>
+            <img src={a.image} alt={a.titlu} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center center' }} loading="eager" />
             <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.6) 100%)' }} />
             <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 max-w-4xl mx-auto">
               <span className="inline-block text-xs font-semibold px-3 py-1 rounded-full text-white mb-3" style={{ background: a.tagColor }}>{a.tag}</span>

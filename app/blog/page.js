@@ -74,7 +74,7 @@ export default async function BlogPage() {
                 <div className="mb-10">
                   <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Cel mai recent</p>
                   <Link href={`/blog/${FEATURED.slug}`} className="group block">
-                    <div className="relative rounded-2xl overflow-hidden mb-4" style={{ paddingBottom: '43.75%', position: 'relative' }}>
+                    <div className="relative rounded-2xl overflow-hidden mb-4" style={{ paddingBottom: '56.25%', position: 'relative' }}>
                       {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}
                       <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 60%)' }} />
                       <span className="absolute top-4 left-4 text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ background: FEATURED.tagColor }}>{FEATURED.tag}</span>
