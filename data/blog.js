@@ -63,7 +63,7 @@ export const ARTICOLE = {
     autor: 'igor-calutu',
     image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
     descriere: 'E-Proprietatea 2026 schimbă radical impozitarea imobiliară în România. Ghid complet: ce este, cum funcționează, cât cresc impozitele pe zone din București, scutiri disponibile, calendarul implementării și ce înseamnă concret pentru proprietari și cumpărători.',
-    keywords: ['e-proprietatea 2026', 'impozit apartament 2026', 'impozitare imobiliara romania 2026', 'impozit proprietate bucuresti', 'e-proprietatea cum functioneaza', 'calcul impozit apartament 2026', 'scutiri impozit locuinta'],
+    keywords: ['e-proprietatea 2026', 'impozit apartament 2026', 'impozitare imobiliara romania 2026', 'impozit proprietate bucuresti', 'e-proprietatea cum functioneaza', 'calcul impozit apartament 2026', 'scutiri impozit locuinta', 'contestatie impozit proprietate 2026', 'e-proprietatea apartament nou'],
     hashtags: ['#EProprietatea2026', '#ImpozitApartament', '#LegislatieImobiliara', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'ce-este', titlu: 'Ce este E-Proprietatea?' },
@@ -75,6 +75,7 @@ export const ARTICOLE = {
       { id: 'contestatie', titlu: 'Cum contești valoarea atribuită' },
       { id: 'calendar', titlu: 'Calendarul implementării' },
       { id: 'concluzii', titlu: 'Concluzie practică' },
+      { id: 'faq', titlu: `Întrebări frecvente despre E-Proprietatea și impozitul 2026` },
     ],
     sectiuni: [
       {
@@ -244,6 +245,27 @@ Termen important pentru 2026: dacă ai primit o notificare de impunere și vrei 
 Ce să faci acum concret: verifică dacă proprietatea ta este corect intabulată în cadastru (poți verifica gratuit pe geoportal.ancpi.ro). Orice eroare în suprafață sau clasificare poate duce la o evaluare incorectă — și este mai ușor de corectat înainte de primirea notificării decât după.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre sistemul E-Proprietatea și impozitarea imobiliară 2026`,
+        continut: `Ce este sistemul E-Proprietatea și cum afectează impozitul meu?
+E-Proprietatea este noul sistem național de evidență a proprietăților imobiliare care calculează impozitul pe baza valorii de piață, nu a valorii declarate de proprietar. Din 2026, impozitul se aplică la valoarea reală de piață evaluată de autorități, ceea ce înseamnă creșteri semnificative pentru proprietățile subevaluate anterior.
+
+Cum se calculează impozitul pe apartament în 2026 prin E-Proprietatea?
+Impozitul se calculează aplicând cota de 0,1% din valoarea de piață pentru locuința principală și 0,2% pentru locuințele secundare sau de investiție. Exemplu: apartament cu valoare de piață 130.000 EUR → impozit anual ~580-650 lei pentru locuința principală.
+
+Există scutiri de impozit disponibile prin E-Proprietatea?
+Da. Locuințele cu clasa energetică A sau A+ beneficiază de reducere de 5%. Persoanele cu handicap grav sau accentuat sunt scutite integral. Veteranii de război și văduvele lor sunt scutiți. Imobilele din zone defavorizate pot beneficia de reduceri suplimentare stabilite de consiliul local.
+
+Pot contesta valoarea impusă de E-Proprietatea dacă consider că e prea mare?
+Da. Există o procedură de contestație administrativă în termen de 30 de zile de la notificare. Contestația trebuie susținută cu o evaluare independentă realizată de un evaluator ANEVAR autorizat. Dacă evaluarea proprie este semnificativ mai mică decât cea a autorităților, contestația are șanse reale de succes.
+
+Apartamentele noi cumpărate în 2026 intră imediat în sistemul E-Proprietatea?
+Da, imediat după intabulare. Valoarea din cartea funciară constituie baza de impozitare. Apartamentele noi cumpărate cu TVA 21% au de regulă o valoare de piață mai mare, deci și impozit mai mare față de apartamentele vechi din aceeași zonă.
+
+Ce se întâmplă dacă nu plătesc impozitul la timp?
+Se aplică penalități de 2% pentru prima lună de întârziere și 0,02% pe zi ulterior. La acumularea unor restanțe semnificative, autoritățile pot iniția proceduri de executare silită inclusiv asupra proprietății.`,
+      },
+      {
         id: 'concluzii',
         h2: 'Concluzie practică: ce faci acum cu E-Proprietatea',
         continut: `E-Proprietatea nu este catastrofa fiscală pe care unii o prezintă — este o normalizare necesară și întârziată a impozitării imobiliare din România. Da, impozitele cresc. Nu, nu cu 1.000%. Creșterile reale sunt de 3-5x față de valorile istorice, dar raportat la prețurile actuale ale proprietăților, suntem la niveluri comparabile cu media europeană sau chiar sub aceasta.
@@ -262,7 +284,7 @@ Ce să faci concret în 2026:
 
 6. Dacă ești în procesul de achiziție, calculează impozitul estimat și include-l în bugetul lunar total al proprietății
 
-Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțeleagă impactul E-Proprietatea specific pentru apartamentele pe care le achiziționează. Sună-ne la 0758 090 904 sau trimite-ne un mesaj prin formularul de pe neofort.ro.`,
+Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțeleagă impactul E-Proprietatea specific pentru apartamentele pe care le achiziționează. Sună-ne la 0758 090 904 sau [trimite-ne un mesaj](/contact). Citește și [ghidul de cumpărare](/blog/ghid-cumparare-apartament-nou), [calculul TVA 2026](/blog/tva-apartamente-noi-2026) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
       },
     ],
   },
@@ -274,7 +296,7 @@ Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțel
     autor: 'sasha-calutu',
     image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif',
     descriere: `Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date reale din ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21%, Noua Casă și ce înseamnă pentru cumpărătorii de azi.`,
-    keywords: ['preturi apartamente bucuresti 2026', 'scad preturile imobiliare 2026', 'evolutie pret apartamente bucuresti', 'investitie imobiliara bucuresti 2026', 'apartamente noi pret 2026', 'piata imobiliara bucuresti 2026'],
+    keywords: ['preturi apartamente bucuresti 2026', 'scad preturile imobiliare 2026', 'evolutie pret apartamente bucuresti', 'investitie imobiliara bucuresti 2026', 'apartamente noi pret 2026', 'piata imobiliara bucuresti 2026', 'pret metru patrat apartament bucuresti 2026', 'crestere preturi imobiliare 2026'],
     hashtags: ['#PreturiApartamente2026', '#PiatImobiliara', '#ApartamenteBucuresti', '#InvestitieImobiliara', '#NeofortIMO'],
     cuprins: [
       { id: 'concluzie', titlu: `Concluzia scurtă` },
@@ -284,6 +306,7 @@ Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțel
       { id: 'factori', titlu: `Factorii care mișcă prețurile` },
       { id: 'previziuni', titlu: `Ce urmează în restul lui 2026` },
       { id: 'decizie', titlu: `Cumpăr acum sau aștept?` },
+      { id: 'faq', titlu: `Întrebări frecvente despre prețurile apartamentelor din București 2026` },
     ],
     sectiuni: [
       {
@@ -414,6 +437,42 @@ Un alt indicator util: raportul preț/venit (câți ani de salariu mediu costă 
 Față de media europeană de 8–12 ani, București se află în linie — piața nu este nici subevaluată dramatic, nici în bulă speculativă. Este o piață matură în curs de convergență.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre prețurile apartamentelor din București în 2026`,
+        continut: `Prețurile apartamentelor din București scad în 2026?
+Nu există o scădere generalizată. Datele din piață arată o stagnare sau ușoară comprimare a volumului de tranzacții din cauza TVA 21%, dar prețurile pe metru pătrat s-au menținut stabile sau au crescut ușor în zonele cu metrou. Zonele centrale și semicentrale au înregistrat creșteri de 3-7% față de 2025.
+
+Care este prețul mediu pe metru pătrat pentru apartamente noi în București în 2026?
+Prețul mediu pe metru pătrat pentru apartamente noi variază între 1.300-1.500 EUR/mp în proiecte în construcție cu avans mare și 1.700-2.200 EUR/mp pentru proiecte finalizate sau în zone premium. Zona Titan-Pallady: ~2.050 EUR/mp. Sectorul 1 central: 3.000-5.000 EUR/mp. Militari-Gorjului: ~1.800 EUR/mp.
+
+Cum a afectat TVA 21% prețurile apartamentelor noi?
+TVA 21% a crescut costul total al achiziției cu 12-16% față de regimul TVA 5% din 2023. Prețurile nete afișate de dezvoltatori nu au scăzut proporțional — diferența s-a transferat integral cumpărătorilor. Un apartament de 150.000 EUR net costă acum 181.500 EUR total față de 157.500 EUR la TVA 5%.
+
+Este 2026 un moment bun pentru cumpărarea unui apartament sau ar trebui să aștept?
+Datele istorice arată că perioadele cu volum redus de tranzacții sunt de regulă favorabile cumpărătorilor cu finanțare pregătită: concurența este mai mică, negocierea este posibilă. Așteptarea nu garantează prețuri mai mici — oferta se contractează simultan cu cererea, menținând prețurile stabile.
+
+Care zone din București au înregistrat cele mai mari creșteri de preț în ultimii 3 ani?
+Titan-Pallady (+95% din 2020 la T1 2026), Moșilor-Eminescu (+70%), Militari-Gorjului (+65%). Aceste zone au depășit media orașului datorită extinderii metrului, deschiderii centrelor comerciale și regenerării spațiului public.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre prețurile apartamentelor din București în 2026`,
+        continut: `Prețurile apartamentelor din București scad în 2026?
+Nu există o scădere generalizată. Datele din piață arată o stagnare sau ușoară comprimare a volumului de tranzacții din cauza TVA 21%, dar prețurile pe metru pătrat s-au menținut stabile sau au crescut ușor în zonele cu metrou. Zonele centrale și semicentrale au înregistrat creșteri de 3-7% față de 2025.
+
+Care este prețul mediu pe metru pătrat pentru apartamente noi în București în 2026?
+Prețul mediu pe metru pătrat variază între 1.300-1.500 EUR/mp în proiecte în construcție cu avans mare și 1.700-2.200 EUR/mp pentru proiecte finalizate. Zona Titan-Pallady: ~2.050 EUR/mp. Sectorul 1 central: 3.000-5.000 EUR/mp. Militari-Gorjului: ~1.800 EUR/mp.
+
+Cum a afectat TVA 21% prețurile apartamentelor noi?
+TVA 21% a crescut costul total al achiziției cu 12-16% față de regimul TVA 5% din 2023. Prețurile nete afișate de dezvoltatori nu au scăzut proporțional — diferența s-a transferat integral cumpărătorilor. Un apartament de 150.000 EUR net costă acum 181.500 EUR total față de 157.500 EUR la TVA 5%.
+
+Este 2026 un moment bun pentru cumpărarea unui apartament sau ar trebui să aștept?
+Datele istorice arată că perioadele cu volum redus de tranzacții sunt favorabile cumpărătorilor cu finanțare pregătită: concurența este mai mică, negocierea este posibilă. Așteptarea nu garantează prețuri mai mici — oferta se contractează simultan cu cererea.
+
+Care zone din București au înregistrat cele mai mari creșteri de preț din 2020 până azi?
+Titan-Pallady (+95%), Moșilor-Eminescu (+70%), Militari-Gorjului (+65%). Aceste zone au depășit media orașului datorită extinderii metrului, deschiderii centrelor comerciale și regenerării spațiului public. Citește și [analiza completă a zonei Titan-Pallady](/blog/titan-pallady-cea-mai-cautata-zona).`,
+      },
+      {
         id: 'decizie',
         h2: `Cumpăr acum sau aștept? Ghidul deciziei raționale`,
         continut: `Aceasta este întrebarea pe care mi-o pun cel mai frecvent clienții. Răspunsul meu onest, bazat pe 17 ani de consiliere imobiliară:
@@ -434,7 +493,7 @@ Sfatul practic pe care l-am dat mereu: calculează costul total al chiriei pe 24
 
 Am văzut zeci de oameni așteptând prăbușirea pieței din 2020, din 2022, din 2023, din 2024. Prăbușirea nu a venit pe segmentul apartamentelor noi din zone conectate. Au plătit chirii între timp și au cumpărat mai scump. Poate într-o zi piața se va corecta semnificativ — dar nimeni nu știe când, și nimeni nu poate recupera chiria plătită între timp.
 
-Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții Neofort IMO oferă consiliere gratuită, fără angajamente. Sună la 0758 090 904.`,
+Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții Neofort IMO oferă consiliere gratuită, fără angajamente. Sună la 0758 090 904. Citește și [ghidul complet Noua Casă 2026](/blog/noua-casa-2026-ghid-complet) și [analizele de randament pe zone din București](/blog/randament-inchiriere-zone-bucuresti). Vezi [ansamblurile active](/ansambluri-rezidentiale) pentru oferta actualizată.`,
       },
     ],
   },
@@ -445,7 +504,7 @@ Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții 
     autor: 'igor-calutu',
     image: '/blog/tva-apartamente-noi-bucuresti-2026.avif',
     descriere: `TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției. Date oficiale actualizate la zi.`,
-    keywords: ['tva apartamente noi 2026', 'tva 9 procente locuinte 2026', 'tva 21 procente imobiliare', 'calcul tva apartament nou', 'tva locuinte conditii 2026', 'cumparare apartament tva'],
+    keywords: ['tva apartamente noi 2026', 'tva 9 procente locuinte 2026', 'tva 21 procente imobiliare', 'calcul tva apartament nou', 'tva locuinte conditii 2026', 'cumparare apartament tva', 'tva apartament 2026 cat platesti', 'tva 9 conditii tranzitorii 2026'],
     hashtags: ['#TVAApartamente2026', '#LegislatieImobiliara', '#ApartamentNou', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'situatie-actuala', titlu: `Situația TVA în 2026 — rezumat` },
@@ -455,6 +514,7 @@ Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții 
       { id: 'calcul-practic', titlu: `Calcul practic: cât costă mai mult` },
       { id: 'noua-casa', titlu: `Interacțiunea cu Noua Casă` },
       { id: 'sfaturi', titlu: `Ce faci dacă ești în proces de achiziție` },
+      { id: 'faq', titlu: `Întrebări frecvente despre TVA la apartamente noi 2026` },
     ],
     sectiuni: [
       {
@@ -582,6 +642,24 @@ Scenariul 5 — Apartament 3 camere 85 mp, preț net 180.000 EUR (depășește 6
 Concluzie practică: singura situație în care mai poți beneficia de TVA 9% în 2026 este dacă ai semnat antecontract cu 20% avans înainte de 31 iulie 2025, locuința e sub 600.000 lei și sub 120 mp, ești persoană fizică și semnezi contractul final până la 31 iulie 2026. Orice altă situație → 21% TVA este inevitabil.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre TVA la apartamente noi în 2026`,
+        continut: `Ce TVA se aplică la cumpărarea unui apartament nou în 2026?
+Regula generală în 2026 este TVA 21% pentru orice achiziție nouă de locuință. Cota de 9% mai este disponibilă exclusiv pentru tranzacții tranzitorii — dacă ai semnat antecontract și ai achitat minim 20% avans până la 31 iulie 2025 și semnezi contractul final până la 31 iulie 2026.
+
+Pot beneficia de TVA redus dacă cumpăr un apartament acum în 2026?
+Nu, dacă nu ai semnat antecontract cu 20% avans înainte de 1 august 2025. Orice achiziție nouă inițiată din august 2025 încoace se supune TVA 21% obligatoriu, indiferent de prețul sau suprafața apartamentului.
+
+Cum calculez TVA-ul pentru un apartament de 100.000 EUR?
+La TVA 21%: 100.000 EUR × 1,21 = 121.000 EUR total. La TVA 9% (dacă ești eligibil tranzitoriu): 100.000 EUR × 1,09 = 109.000 EUR total. Diferența de 12.000 EUR reprezintă costul suplimentar al regimului actual față de cel tranzitoriu.
+
+Prețurile afișate de Neofort IMO includ sau exclud TVA?
+Prețurile afișate de Neofort IMO sunt TVA exclus. La prețul afișat se adaugă TVA 21% (sau 9% dacă ești eligibil tranzitoriu), rezultând prețul total de plată. La vizita de informare, consultantul calculează costul total exact pentru situația ta.
+
+Programul Noua Casă acoperă și TVA 21%?
+Plafonul Noua Casă de 119.000 EUR include TVA. La TVA 21%, aceasta înseamnă că prețul net maxim al locuinței este ~98.347 EUR. Programul acoperă în continuare garsoniere și apartamente mici în zone mai accesibile din București.`,
+      },
+      {
         id: 'sfaturi',
         h2: `Ce faci dacă ești în proces de achiziție — pași concreți`,
         continut: `Indiferent de stadiul în care ești, iată ce trebuie să verifici:
@@ -601,7 +679,7 @@ Dacă ești la început și cauți apartament acum în mai 2026:
 Dacă nu ești sigur ce cotă TVA se aplică în cazul tău:
 • Adresează-te unui notar public sau consultant fiscal — aceștia au acces la Registrul ANAF și pot da un răspuns cert
 • Nu lua decizii pe baza declarațiilor informale ale agenților imobiliari
-• Neofort IMO oferă clarificări fiscale complete gratuit pentru proiectele pe care le comercializează — sună la 0758 090 904
+• Neofort IMO oferă clarificări fiscale complete gratuit — sună la 0758 090 904. Citește și [ghidul programului Noua Casă 2026](/blog/noua-casa-2026-ghid-complet) și [ansamblurile active cu prețuri actualizate](/ansambluri-rezidentiale)
 
 TVA este o parte importantă a costului total, dar nu singurul factor în decizia de cumpărare. Cu prețuri corecte, locație bună și un dezvoltator de încredere cu 17 ani de livrări în spate, investiția rămâne solidă pe termen lung chiar și la TVA 21%.`,
       },
@@ -614,7 +692,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
     autor: 'raluca-nistor',
     image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif',
     descriere: `De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă — analiza completă a celei mai dinamice zone rezidențiale a Capitalei.`,
-    keywords: ['titan pallady apartamente noi', 'zona titan pallady bucuresti', 'apartamente noi sector 3', 'metrou titan pallady', 'investitie imobiliara titan', 'cea mai buna zona bucuresti apartament'],
+    keywords: ['titan pallady apartamente noi', 'zona titan pallady bucuresti', 'apartamente noi sector 3', 'metrou titan pallady', 'investitie imobiliara titan', 'cea mai buna zona bucuresti apartament', 'titan pallady pret apartament 2026', 'crestere preturi titan pallady 2020 2026'],
     hashtags: ['#TitanPallady', '#ApartamenteSector3', '#ZonaRezidentiala', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'de-ce', titlu: `De ce Titan–Pallady?` },
@@ -624,6 +702,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
       { id: 'diaspora', titlu: `Cumpărătorii din diasporă` },
       { id: 'proiecte', titlu: `Ce proiecte active are Neofort IMO în zonă` },
       { id: 'concluzie', titlu: `Merită să cumperi în Titan–Pallady?` },
+      { id: 'faq', titlu: `Întrebări frecvente despre zona Titan–Pallady` },
     ],
     sectiuni: [
       {
@@ -734,6 +813,24 @@ Primăria Sectorului 3 a demarat mai multe proiecte de modernizare a spațiului 
 Privind 5 ani înainte, Titan–Pallady va fi o zonă semnificativ mai bine echipată decât azi. Pentru cumpărătorii care achiziționează acum, aceasta înseamnă că activele lor vor beneficia nu doar de inflația generală, ci și de investițiile publice programate.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre zona Titan–Pallady din București`,
+        continut: `De ce este Titan–Pallady cea mai căutată zonă rezidențială din București?
+Combinația unică de metrou M2 accesibil, IKEA Pallady, Parcul IOR (110 hectare), prețuri cu 20-30% sub zonele centrale comparabile și un stoc de teren disponibil pentru construcție nouă a generat o cerere constant ridicată. Datele ANCPI confirmă cel mai mare ritm de tranzacții din Capitală în ultimii 4 ani.
+
+Care stație de metrou deserveș zona Titan–Pallady?
+Zona este deservită de stațiile Nicolae Teclu și Anghel Saligny de pe linia M2 (albastră). De la Nicolae Teclu: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute. Neofort 83 are Metroul Anghel Saligny la 20 de metri.
+
+Cu cât au crescut prețurile în Titan–Pallady față de 2020?
+Prețul mediu pe metru pătrat a crescut de la 1.050 EUR/mp în 2020 la ~2.050 EUR/mp în T1 2026 — o creștere de 95% în 6 ani, față de media orașului de 65-70%. Această supraperformanță de 25-30 puncte procentuale este susținută de investițiile în infrastructură și cererea din diasporă.
+
+Titan–Pallady este potrivit și pentru investiție, nu doar pentru locuit?
+Da. Randamentul brut la închiriere este de 4,1% și randamentul net de 2,8-3,2% — modest ca randament curent, dar completat de aprecierea capitalului de 95% în 6 ani. Investitorii din diasporă reprezintă 30-40% din tranzacțiile Neofort IMO în zonă în anumite perioade.
+
+Ce ansambluri active are Neofort IMO în zona Titan–Pallady în 2026?
+Neofort IMO are 6 proiecte active în zonă: [Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady), [Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady), [Neofort 56](/ansamblu-rezidential/neofort-56-pallady-titan-teclu), [Neofort 44](/ansamblu-rezidential/neofort-44-titan-pallady-teclu), [Neofort 28 Faza 2](/ansamblu-rezidential/neofort-28-titan-pallady-faza-2) și [Neofort 28 Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu). Vânzare directă, fără comision de agenție.`,
+      },
+      {
         id: 'concluzie',
         h2: `Merită să cumperi un apartament în Titan–Pallady în 2026?`,
         continut: `Răspunsul meu, după 10 ani de activitate exclusivă în această zonă: da, dar cu ochii deschiși la realitățile din 2026.
@@ -761,7 +858,7 @@ Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Su
     autor: 'adriana-veselu',
     image: '/blog/noua-casa-2026-ghid-complet.avif',
     descriere: `Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere, ce apartamente se califică și cum interacționează cu TVA 21%.`,
-    keywords: ['noua casa 2026', 'program noua casa conditii', '[credit ipotecar](/blog/credit-ipotecar-2026-dobanzi-conditii) garantat stat 2026', 'prima casa 2026', 'avans noua casa', 'noua casa bucuresti apartament nou'],
+    keywords: ['noua casa 2026', 'program noua casa conditii', 'avans noua casa 2026', 'noua casa plafon 2026', 'noua casa vs credit standard', 'eligibilitate noua casa 2026', 'noua casa apartament nou bucuresti', 'credit garantat stat 2026'], '[credit ipotecar](/blog/credit-ipotecar-2026-dobanzi-conditii) garantat stat 2026', 'prima casa 2026', 'avans noua casa', 'noua casa bucuresti apartament nou'],
     hashtags: ['#NouaCasa2026', '#CreditIpotecar', '#AchizitieApartament', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'ce-este', titlu: `Ce este Noua Casă în 2026` },
@@ -771,6 +868,7 @@ Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Su
       { id: 'banci', titlu: `Băncile partenere și dobânzile` },
       { id: 'tva', titlu: `Noua Casă și TVA 21% — impactul real` },
       { id: 'sfaturi', titlu: `Sfaturi practice pentru aplicanți` },
+      { id: 'faq', titlu: `Întrebări frecvente despre Programul Noua Casă 2026` },
     ],
     sectiuni: [
       {
@@ -845,7 +943,7 @@ Creditele Noua Casă sunt acordate în lei, cu dobânzi legate de ROBOR sau dob�
 
 Față de 2021–2022 (când dobânzile erau 3–4%), costul finanțării s-a dublat. Aceasta înseamnă că pentru un credit de 250.000 lei pe 30 de ani, plata lunară este de aproximativ 1.950–2.200 lei față de 1.100–1.250 lei în 2021. Calculați atent accesibilitatea înainte de angajament.
 
-Recomandarea noastră: mergeți la bancă cu un preapproval înainte de a vizita apartamente. Cunoașteți exact suma maximă la care vă califică venitul și nu pierdeți timp vizualizând proprietăți pe care nu le puteți achiziționa.`,
+Recomandarea noastră: mergeți la bancă cu un preapproval înainte de a vizita apartamente. Citește și [programul Noua Casă 2026](/blog/noua-casa-2026-ghid-complet), [costul total real al achiziției](/blog/apartamente-de-vanzare-titan-pallady-teclu) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale). Cunoașteți exact suma maximă la care vă califică venitul și nu pierdeți timp vizualizând proprietăți pe care nu le puteți achiziționa.`,
       },
       {
         id: 'tva',
@@ -892,6 +990,24 @@ Se semnează simultan contractul de credit ipotecar la bancă și contractul de 
 Durata totală realistă: 6–10 săptămâni de la primul contact cu banca până la semnarea finală. Planificați în consecință și nu dați termene imposibile vânzătorului.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre Programul Noua Casă 2026`,
+        continut: `Ce este Programul Noua Casă și cine poate aplica în 2026?
+Noua Casă este un program guvernamental prin care statul garantează 50% din creditul ipotecar acordat de bancă, permițând cumpărătorilor să acceseze un credit cu avans mai mic (5-15%) față de 15-20% la creditele standard. Pot aplica persoanele fizice care nu dețin altă locuință și cumpără prima lor proprietate rezidențială.
+
+Care este plafonul programului Noua Casă în 2026?
+Guvernul a aprobat un plafon de garantare de 500 milioane lei pentru 2026 prin Hotărâre de Guvern. Valoarea maximă a locuinței finanțate prin program este 119.000 EUR (total cu TVA) pentru locuințe noi și 93.500 EUR pentru locuințe vechi.
+
+Care este avansul minim la Noua Casă în 2026?
+5% pentru locuințe cu valoare totală sub 66.500 EUR și 15% pentru locuințe între 66.500 EUR și 119.000 EUR. La TVA 21%, puține apartamente noi din București se mai încadrează sub pragul de 66.500 EUR — programul acoperă în principal garsoniere și apartamente mici în zone mai accesibile.
+
+Noua Casă sau credit ipotecar standard — ce e mai avantajos în 2026?
+Dacă bugetul total este sub 100.000 EUR, Noua Casă rămâne avantajos prin avansul mai mic. Dacă bugetul este 100.000-150.000 EUR, un credit standard cu avans 20% poate oferi dobândă mai mică și flexibilitate mai mare. Peste 150.000 EUR, Noua Casă nu mai este relevantă — depășește plafonul programului.
+
+Cât durează aprobarea unui credit Noua Casă față de un credit standard?
+Procesul Noua Casă durează 6-10 săptămâni de la primul contact cu banca, față de 3-5 săptămâni pentru un credit standard. Diferența vine din pasul suplimentar de confirmare a garanției de stat de către FNGCIMM, care adaugă 3-5 zile la procesul standard de aprobare bancară.`,
+      },
+      {
         id: 'sfaturi',
         h2: `Sfaturi practice pentru cei care vor să aplice la Noua Casă în 2026`,
         continut: `Dacă Noua Casă este varianta ta, iată pașii optimi:
@@ -904,7 +1020,7 @@ Durata totală realistă: 6–10 săptămâni de la primul contact cu banca pân
 
 4. Caută apartamentul în intervalul potrivit — după ce știi suma maximă aprobată, caută proprietăți cu 10–15% sub plafon. Lasă marjă pentru negociere, costuri de tranzacție și mobilare.
 
-5. Verifică cu Neofort IMO — consultanții noștri știu exact care dintre proiectele active se califică pentru Noua Casă și pot coordona direct cu băncile partenere. Serviciu gratuit, fără comision. Sună la 0758 090 904.`,
+5. Verifică cu Neofort IMO — consultanții noștri știu exact care dintre proiectele active se califică pentru Noua Casă și pot coordona direct cu băncile partenere. Serviciu gratuit, fără comision. Sună la 0758 090 904. Citește și [ce TVA se aplică în 2026](/blog/tva-apartamente-noi-2026) și [cum calculezi costul total real](/blog/apartamente-de-vanzare-titan-pallady-teclu). [Contactează-ne](/contact) pentru ofertă personalizată.`,
       },
     ],
   },
@@ -915,7 +1031,7 @@ Durata totală realistă: 6–10 săptămâni de la primul contact cu banca pân
     autor: 'svetlana-calutu',
     image: '/blog/cumparare-apartament-diaspora-ghid.avif',
     descriere: `Ghid complet pentru românii din diasporă care vor să cumpere apartament în București fără să vină fizic în țară: procuri notariale, transfer valută, alegerea zonei, riscuri și experiența Neofort IMO cu clienți din Germania, Austria, Franța, Israel, Grecia, Turcia și R. Moldova.`,
-    keywords: ['cumparare apartament diaspora bucuresti', 'apartament nou bucuresti din strainatate', 'procura notariala cumparare apartament', 'romani diaspora imobiliare bucuresti', 'investitie imobiliara bucuresti din germania', 'apartament bucuresti fara sa vii in tara'],
+    keywords: ['cumparare apartament diaspora bucuresti', 'apartament nou bucuresti din strainatate', 'procura notariala cumparare apartament', 'romani diaspora imobiliare bucuresti', 'investitie imobiliara bucuresti din germania', 'apartament bucuresti fara sa vii in tara', 'credit ipotecar romania venituri strainatate', 'transfer bani din strainatate cumparare apartament'],
     hashtags: ['#DiasporaRomana', '#ApartamentBucuresti', '#CumparareOnline', '#InvestitieImobiliara', '#NeofortIMO'],
     cuprins: [
       { id: 'diaspora-neofort', titlu: `Cumpărătorii din diasporă la Neofort IMO` },
@@ -926,6 +1042,7 @@ Durata totală realistă: 6–10 săptămâni de la primul contact cu banca pân
       { id: 'transfer-valuta', titlu: `Transferul de valută — cum faci corect` },
       { id: 'riscuri', titlu: `Riscuri specifice și cum le eviți` },
       { id: 'sfaturi', titlu: `Sfaturi din 21 de ani de experiență` },
+      { id: 'faq', titlu: `Întrebări frecvente despre cumpărarea din diasporă` },
     ],
     sectiuni: [
       {
@@ -1079,6 +1196,24 @@ Israel: are convenție de evitare a dublei impuneri cu România. Proprietățile
 Recomandarea fermă: consultați un contabil/consultant fiscal specializat din țara dumneavoastră de reședință înainte de achiziție. Costul unui sfat fiscal de 200–500 EUR vă poate evita amenzi de zeci de mii de euro pentru nedeclarare.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre cumpărarea unui apartament în București din diasporă`,
+        continut: `Pot cumpăra un apartament în București fără să vin fizic în România?
+Da. Procesul complet poate fi gestionat de la distanță prin procură notarială specială. Procura se obține la consulatul român din țara de reședință sau la orice notar local cu apostilă. Zeci de clienți Neofort IMO din Germania, Austria, Israel și Franța au finalizat achiziții fără a fi prezent fizic.
+
+Ce este procura notarială specială și cum o obțin din afara României?
+Procura notarială specială pentru achiziție imobiliară este un document care autorizează un mandatar (avocat sau persoană de încredere) să semneze actele tranzacției în numele tău. O obții la consulatul român din țara de reședință (30-100 EUR) sau la orice notar local cu apostila Convenției de la Haga (50-150 EUR, 3-7 zile).
+
+Ce bănci din România acordă credite ipotecare pentru persoane cu venituri din diasporă?
+BCR, BRD, Raiffeisen, ING, UniCredit și Banca Transilvania acordă credite cu venituri din UE (Germania, Austria, Franța) dacă sunt documentate: contract de muncă, fluturași de salariu traduse și legalizate, extras de cont 6-12 luni. Pentru venituri din afara UE (Israel, Turcia), unele bănci sunt mai restrictive — recomandăm consultarea unui broker de credite din România.
+
+Cum trimit banii din străinătate pentru a cumpăra un apartament în România?
+Transfer bancar SWIFT direct la dezvoltator sau la notar — cea mai sigură și trasabilă metodă. Serviciile Wise/Revolut funcționează pentru sume mici (rezervare, avans parțial), dar băncile române pot solicita documente suplimentare pentru transferuri de 50.000 EUR+. Cash-ul transportat fizic peste 10.000 EUR trebuie declarat la vamă.
+
+Există taxe speciale pentru cumpărătorii din diasporă în România?
+Nu există taxe speciale pentru nerezidenți la achiziție. Taxele sunt identice cu cele pentru rezidenți: notarială (0,5-1% din valoarea tranzacției), intabulare (0,15%), TVA (9% tranzitoriu sau 21% standard). Atenție: în țara de reședință poate exista obligația declarării proprietății din România — consultați un contabil fiscal local.`,
+      },
+      {
         id: 'sfaturi',
         h2: `Sfaturi din 21 de ani de lucru cu clienți din diasporă`,
         continut: `Am finalizat sute de tranzacții cu cumpărători din afara țării. Iată lecțiile distilate:
@@ -1093,7 +1228,7 @@ Comunicați activ pe toată durata construcției. Neofort IMO trimite actualiză
 
 Nu ignorați costurile de după. Mobilarea și echiparea unui apartament de 2 camere costă 15.000–35.000 EUR în funcție de standard. Dacă sunteți la distanță, lucrătorii de design interior și furnizori din București pot fi coordonați fără prezența voastră — dar planificați bugetul din timp.
 
-Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. Consultanța este gratuită și fără obligații.`,
+Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. Consultanța este gratuită și fără obligații. Citește și [ghidul pentru cumpărătorii din diasporă](/blog/cumparare-apartament-din-diaspora) sau [ghidul complet de cumpărare](/blog/ghid-cumparare-apartament-nou). [Contactează-ne](/contact) pentru detalii.`,
       },
     ],
   },
@@ -1104,7 +1239,7 @@ Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. C
     autor: 'ramona-baicu',
     image: '/blog/apartament-nou-vs-vechi-calcul-real.avif',
     descriere: `Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, întreținere, risc seismic, impozit E-Proprietatea, randament închiriere și ce alegi pe termen lung.`,
-    keywords: ['apartament nou vs vechi bucuresti', 'cost total apartament vechi', 'bloc nou sau vechi bucuresti', 'risc seismic bucuresti bloc vechi', 'cheltuieli intretinere apartament vechi', 'investitie apartament nou sau vechi'],
+    keywords: ['apartament nou vs vechi bucuresti', 'cost total apartament vechi', 'bloc nou sau vechi bucuresti', 'risc seismic bucuresti bloc vechi', 'cheltuieli intretinere apartament vechi', 'investitie apartament nou sau vechi', 'diferenta pret apartament nou vechi bucuresti', 'renovare apartament vechi cost total'],
     hashtags: ['#ApartamentNouVsVechi', '#PiatImobiliara', '#CostTotal', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'mirul-pretului-mai-mic', titlu: `Mitul prețului mai mic la apartamentele vechi` },
@@ -1114,6 +1249,7 @@ Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. C
       { id: 'randament', titlu: `Randament la închiriere: nou vs. vechi` },
       { id: 'calcul-exemplu', titlu: `Calcul comparativ pe 10 ani` },
       { id: 'concluzie', titlu: `Când are sens apartamentul vechi` },
+      { id: 'faq', titlu: `Întrebări frecvente: apartament nou vs. vechi în București` },
     ],
     sectiuni: [
       {
@@ -1248,6 +1384,24 @@ A economisit la achiziție și, pentru că NU are scop investițional sau de re�
 Morala: nu există răspuns universal. Dacă scopul e investițional pe termen lung, calculul favorizează nou. Dacă scopul e utilizare personală cu buget limitat și zona nu are alternativă nouă accesibilă, vechiul poate fi alegerea corectă — cu condiția să fie verificat riguros.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente: apartament nou vs. apartament vechi în București`,
+        continut: `Care este diferența reală de preț între un apartament nou și unul vechi în aceeași zonă?
+În zona Titan-Pallady, un apartament vechi de 2 camere costă 80.000-95.000 EUR față de 130.000-150.000 EUR pentru unul nou. Diferența aparentă de 40.000-55.000 EUR se reduce semnificativ după calculul costurilor de renovare (15.000-30.000 EUR) și al costurilor de întreținere mai mari pe termen lung.
+
+Apartamentele vechi din București prezintă risc seismic?
+Da. București este cel mai expus din capitalele europene la risc seismic. Clasa I de risc seismic include sute de blocuri, majoritatea în zone centrale. Lista este publică și poate fi verificată online. Blocurile construite după 2014 respectă normele P100-1/2013 pentru cutremure de 7,5-8 grade Richter.
+
+Care este diferența la factura de utilități între un apartament nou și unul vechi?
+Apartamentele noi au clasa energetică A sau B față de D-F pentru cele vechi. Diferența la factura de încălzire poate fi 200-400 lei/lună — adică 2.400-4.800 lei/an sau 24.000-48.000 lei pe 10 ani. Acest cost suplimentar al apartamentului vechi trebuie inclus în calculul total.
+
+Care este randamentul la închiriere: apartament nou vs. vechi în aceeași zonă?
+Randamentul net este comparabil (3,0-3,8% pentru ambele), dar apartamentul nou apreciază mai rapid (+95% în Titan-Pallady față de +50-60% pentru apartamentele vechi din aceeași zonă în 6 ani). Pe termen lung de 10+ ani, apartamentul nou generează un randament total mai bun.
+
+Când are sens să aleg totuși un apartament vechi?
+Buget sub 80.000 EUR (oferta de apartamente noi cu metrou este limitată), locații foarte centrale unde nu există construcții noi accesibile, sau dacă ai experiență în renovări și resurse pentru a gestiona lucrările. În toate celelalte cazuri, calculul pe 10 ani favorizează apartamentul nou.`,
+      },
+      {
         id: 'concluzie',
         h2: `Când are totuși sens să alegi apartamentul vechi`,
         continut: `Nu vreau să par că promovez apartamentele noi din interes comercial — nu acesta este scopul articolului. Există situații în care apartamentul vechi are sens clar:
@@ -1260,7 +1414,7 @@ Proiecte de renovare cu experiență: dacă ai experiență în renovări, resur
 
 Rezumând: dacă bugetul permite și zona cu apartamente noi corespunde criteriilor voastre, calculul pe termen lung favorizează clar apartamentul nou. Diferența de preț la achiziție este reală, dar este parțial sau total compensată de costuri mai mici, apreciere mai rapidă și zero surprize tehnice.
 
-Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătăm opțiunile disponibile în bugetul tău și facem calculul comparativ împreună.`,
+Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătăm opțiunile disponibile în bugetul tău. Citește și [randamentul la închiriere pe zone](/blog/randament-inchiriere-zone-bucuresti) și [ghidul de cumpărare](/blog/ghid-cumparare-apartament-nou). [Contactează-ne](/contact).`,
       },
     ],
   },
@@ -1271,7 +1425,7 @@ Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătă
     autor: 'adrian-pintilie',
     image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif',
     descriere: `Ce înseamnă „predare la cheie" la un apartament nou? Lista completă a finisajelor incluse obligatoriu, ce poate lipsi și nu îți spune nimeni, checklist de verificare la predare și drepturile legale ale cumpărătorilor.`,
-    keywords: ['predare la cheie apartament', 'ce include predare la cheie', 'finisaje apartament nou', 'verificare predare apartament', 'vicii apartament nou garantie', 'checklist predare apartament'],
+    keywords: ['predare la cheie apartament', 'ce include predare la cheie', 'finisaje apartament nou', 'verificare predare apartament', 'vicii apartament nou garantie', 'checklist predare apartament', 'ce inseamna la cheie apartament nou', 'garantie apartament nou 2026'],
     hashtags: ['#PredareaLaCheie', '#ApartamentNou', '#FinisajeApartament', '#GhidCumparare', '#NeofortIMO'],
     cuprins: [
       { id: 'ce-inseamna', titlu: `Ce înseamnă cu adevărat „la cheie"` },
@@ -1280,6 +1434,7 @@ Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătă
       { id: 'checklist', titlu: `Checklist complet pentru ziua predării` },
       { id: 'garantie', titlu: `Garanția legală și drepturile cumpărătorului` },
       { id: 'la-neofort', titlu: `Ce include predarea la Neofort IMO` },
+      { id: 'faq', titlu: `Întrebări frecvente despre predarea la cheie` },
     ],
     sectiuni: [
       {
@@ -1439,6 +1594,24 @@ Nu semnați procesul-verbal cu mențiunea „fără obiecțiuni" dacă există p
 La Neofort IMO, procesul-verbal de predare include o secțiune dedicată observațiilor cumpărătorului, iar echipa de suport post-predare are termen contractual de 30 de zile pentru remedierea viciilor constatate la predare.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre predarea la cheie la apartamente noi`,
+        continut: `Ce înseamnă exact „predare la cheie" pentru un apartament nou?
+„La cheie" înseamnă că primești apartamentul gata de locuit — poți aduce mobila și te muți. Standardul decent include: parchet în camere, gresie și faianță în baie și bucătărie, obiecte sanitare montate, instalații electrice complete, ușă de intrare securizată, tâmplărie PVC cu geam termopan. Fără o anexă tehnică detaliată în contract, termenul nu are valoare juridică precisă.
+
+Centrala termică este inclusă în „predare la cheie"?
+Depinde de proiect. La Neofort IMO, centrala termică individuală este inclusă în prețul standard. La alte proiecte poate fi opțională sau contractată separat (cost 3.000-6.000 lei + montaj). Verificați explicit înainte de semnarea antecontractului.
+
+Ce documente trebuie să primesc la predarea apartamentului?
+Obligatoriu: procesul-verbal de predare-primire semnat după verificare, cartea tehnică a construcției, certificatul de performanță energetică, documentele de garanție pentru centrală și lift, regulamentul asociației de proprietari, confirmarea branșamentelor de utilități.
+
+Pot refuza semnarea procesului-verbal dacă găsesc probleme la predare?
+Da, și este recomandat. Nu semnați cu mențiunea „fără obiecțiuni" dacă există probleme. Consemnați explicit în procesul-verbal orice neconformitate și termenul de remediere. Garanția legală pentru vicii aparente este de 3 ani pentru finisaje și 10 ani pentru structură.
+
+Care sunt cele mai frecvente probleme descoperite la predarea unui apartament nou?
+Microfisuri în tencuială la colțuri (frecvente, minore — se remediază simplu), prize fără curent din erori de conectare (verificați cu tester), scurgeri lente la canalizare, tâmplărie care nu etanșează perfect și centrale termice cu setări incorecte. Toate se remediază în garanție dacă sunt consemnate la predare.`,
+      },
+      {
         id: 'la-neofort',
         h2: `Ce include predarea la cheie la proiectele Neofort IMO`,
         continut: `La Neofort IMO, standardul de predare la cheie este definit explicit în antecontract și include:
@@ -1462,7 +1635,7 @@ Ce nu este inclus în prețul standard (disponibil opțional):
 
 Locul de parcare: la fiecare proiect există opțiunea de achiziție parcare (exterioară sau interioară), cu prețuri afișate transparent în prezentarea proiectului. Locul de parcare se cumpără separat sau este inclus la cerere în prețul pachet.
 
-Dacă ai întrebări despre specificațiile unui proiect specific, consultanții noștri sunt disponibili la 0758 090 904.`,
+Dacă ai întrebări despre specificațiile unui proiect specific, consultanții noștri sunt disponibili la 0758 090 904. Citește și [ghidul complet de cumpărare](/blog/ghid-cumparare-apartament-nou), [ce include costul total real](/blog/apartamente-de-vanzare-titan-pallady-teclu) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
       },
     ],
   },
@@ -1473,7 +1646,7 @@ Dacă ai întrebări despre specificațiile unui proiect specific, consultanții
     autor: 'sasha-calutu',
     image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif',
     descriere: `Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Date din piață, nu estimări optimiste. Ce zone oferă cel mai bun randament net.`,
-    keywords: ['randament inchiriere bucuresti 2026', 'investitie imobiliara bucuresti randament', 'cel mai bun randament chirie bucuresti', 'chirie apartament titan pallady', 'investitie apartament nou bucuresti', 'randament net imobiliare bucuresti'],
+    keywords: ['randament inchiriere bucuresti 2026', 'investitie imobiliara bucuresti randament', 'cel mai bun randament chirie bucuresti', 'chirie apartament titan pallady', 'investitie apartament nou bucuresti', 'randament net imobiliare bucuresti', 'randament brut net apartament inchiriat', 'investitie imobiliara chirie vs depozit bancar'],
     hashtags: ['#InvestitieImobiliara', '#RandamentInchiriere', '#ApartamenteBucuresti', '#PiatImobiliara', '#NeofortIMO'],
     cuprins: [
       { id: 'metodologie', titlu: `Cum calculăm randamentul corect` },
@@ -1483,6 +1656,7 @@ Dacă ai întrebări despre specificațiile unui proiect specific, consultanții
       { id: 'piata-muncii', titlu: `[Piața Muncii–Dristor](/zona/piata-muncii-dristor)` },
       { id: 'floreasca', titlu: `Floreasca–Aviației (referință premium)` },
       { id: 'comparativ', titlu: `Tabel comparativ și concluzie` },
+      { id: 'faq', titlu: `Întrebări frecvente despre randamentul la închiriere în București` },
     ],
     sectiuni: [
       {
@@ -1667,7 +1841,25 @@ Investitorii experimentați din diasporă cumpără 2–4 apartamente de valoare
 
 Indiferent de strategie, regula de bază rămâne aceeași: cumpărați în zone cu fundamente solide (metrou, servicii, cerere de închiriere demonstrabilă) și cu un dezvoltator care a mai livrat proiecte finalizate și populate. Randamentele pe hârtie sunt frumoase — randamentele reale depind de execuție.
 
-Neofort IMO are consultanți specializați în strategii de investiție imobiliară. Apelați la 0758 090 904 pentru o analiză personalizată.`,
+Neofort IMO are consultanți specializați în strategii de investiție imobiliară. Apelați la 0758 090 904 sau [contactați-ne online](/contact) pentru o analiză personalizată. Citește și [ghidul apartament nou vs. vechi](/blog/apartament-nou-vs-vechi-calcul-real) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre randamentul la închiriere în București 2026`,
+        continut: `Care este randamentul net real la închiriere pentru un apartament nou în București în 2026?
+Randamentul net (după impozit, asigurare, fond de reparații și perioadele goale estimate la 5%) este de 2,8-3,3% în funcție de zonă. Randamentul brut este de 3,9-4,2%. Aceste cifre sunt mai mici decât depozitele bancare actuale (~4,5-5,5%), dar imobiliarele generează și apreciere a capitalului și protecție împotriva inflației.
+
+Care zonă din București oferă cel mai bun randament la închiriere în 2026?
+Moșilor-Eminescu oferă cel mai bun randament net din calculele prezentate (3,0-3,3%), urmat de Titan-Pallady și Militari-Gorjului (2,8-3,2%). Floreasca-Aviației are randament similar sau inferior, la un preț de achiziție de 2-2,5 ori mai mare.
+
+Merită să cumpăr un apartament pentru închiriere dacă randamentul e sub dobânda bancară?
+Imobiliarele nu se evaluează exclusiv pe randamentul din chirie. Randamentul total include: chiria netă (2,8-3,3%) + aprecierea capitalului (estimat 5-7%/an în Titan-Pallady) = randament total compus estimat de 8-10% anual. Aceasta depășește semnificativ depozitele bancare pe termen mediu-lung.
+
+Cât costă dotarea unui apartament pentru a maximiza chiria?
+Dotarea completă (electrocasnice + mobilier funcțional) costă 15.000-25.000 lei pentru un apartament de 2 camere. Această investiție reduce perioada de neocupare de la 45 la 15-20 zile/an și permite o chirie cu 80-120 EUR/lună mai mare — recuperare în 8-12 luni din chiria suplimentară.
+
+Care tip de chiriaș generează cel mai stabil venit din chirie?
+Profesioniștii cu contract de muncă stabil (nu freelanceri), familiile cu copii mici și expații corporate reprezintă cel mai stabil profil. Aceștia rămân în medie 18-26 luni față de 10-14 luni pentru chiriașii ocazionali, reducând costurile de rotație și uzura proprietății.`,
       },
       {
         id: 'comparativ',
@@ -1702,7 +1894,7 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
     autor: 'adriana-veselu',
     image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
     descriere: 'Ghid practic și complet pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare cheie. Sfaturi de la consultant cu 400+ tranzacții.',
-    keywords: ['cum cumpar apartament nou 2026', 'ghid cumparare apartament nou', 'antecontract apartament nou', 'capcane cumparare apartament', 'pasi cumparare apartament nou bucuresti'],
+    keywords: ['cum cumpar apartament nou 2026', 'ghid cumparare apartament nou', 'antecontract apartament nou', 'capcane cumparare apartament', 'pasi cumparare apartament nou bucuresti', 'ghid primul apartament nou bucuresti', 'diferenta antecontract contract vanzare', 'vanzare directa fara comision apartament'],
     hashtags: ['#GhidCumparareApartament', '#ApartamentNou2026', '#ApartamenteBucuresti', '#ConsultantaImobiliara', '#NeofortIMO'],
     cuprins: [
       { id: 'inainte', titlu: 'Înainte de a căuta: ce trebuie să stabilești' },
@@ -1712,6 +1904,7 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
       { id: 'capcane', titlu: '8 capcane frecvente și cum le eviți' },
       { id: 'predare', titlu: 'Predarea apartamentului: lista de verificare' },
       { id: 'costuri', titlu: 'Toate costurile: ce nu îți spune nimeni' },
+      { id: 'faq', titlu: `Întrebări frecvente despre cumpărarea unui apartament nou` },
     ],
     sectiuni: [
       {
@@ -1861,6 +2054,24 @@ Dacă cumperi printr-un agent imobiliar, verifică clar: comisionul este plătit
 • Regulamentul asociației de proprietari`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre cumpărarea unui apartament nou în București`,
+        continut: `De unde încep dacă vreau să cumpăr primul meu apartament nou?
+Primul pas este stabilirea bugetului total real (inclusiv TVA, notar, intabulare, mobilare). Al doilea, obținerea unui preapproval de la 2-3 bănci pentru a ști exact suma la care te califici. Abia după acești pași începi vizionarea apartamentelor. Invers — a te îndrăgosti de un apartament și apoi a vedea că nu te încadrezi la credit — este cea mai frecventă greșeală.
+
+Care este diferența dintre antecontract și contractul final de vânzare?
+Antecontractul este acordul prin care te angajezi să cumperi apartamentul la prețul stabilit și plătești avansul (20-45%). Contractul final se semnează la notar la predarea apartamentului și transferă proprietatea legal. Între cele două pot trece 6-18 luni pentru proiecte în construcție.
+
+Ce înseamnă vânzare directă fără comision de agenție?
+Înseamnă că cumperi direct de la developer (Neofort IMO), fără intermediar imobiliar. Nu plătești comision de agenție (de regulă 2-3% din prețul tranzacției). Prețul publicat este prețul final. Consultanța juridică și bancară este gratuită. Citește și [ghidul complet despre costul total real](/blog/apartamente-de-vanzare-titan-pallady-teclu).
+
+Ce capcane trebuie să evit la cumpărarea unui apartament nou?
+Cele mai frecvente: a nu verifica dacă preapartamentarea este finalizată, a nu solicita specificații tehnice detaliate în scris, a nu verifica istoricul developerului (proiecte finalizate, litigii la ONRC) și a nu consulta un avocat înainte de semnarea antecontractului.
+
+Pot negocia prețul unui apartament nou cu dezvoltatorul?
+Da, în special în faza de pre-lansare sau cu avans mare (45%). Discounturile obișnuite sunt 3-7% față de prețul de listă. La Neofort IMO prețurile promoționale sunt publice — nu există negocieri opace. [Contactează-ne](/contact) pentru oferta actualizată.`,
+      },
+      {
         id: 'costuri',
         h2: 'Toate costurile cumpărării unui apartament nou — ce nu îți spune nimeni',
         continut: `"Prețul apartamentului" nu este suma totală pe care o plătești. Iată calculul complet, cu valori reale pentru un apartament de 150.000€ în București în 2026:
@@ -1898,7 +2109,7 @@ Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sun
     autor: 'adrian-pintilie',
     image: '/blog/merita-apartament-titan-pallady-2026.avif',
     descriere: `Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă a pieței, prețurilor reale, avantajelor și riscurilor — cu date concrete din tranzacțiile Neofort IMO. Pentru cumpărători și investitori.`,
-    keywords: ['apartament nou titan pallady 2026', 'merita sa cumperi titan pallady', 'preturi apartamente pallady 2026', 'investitie imobiliara titan bucuresti', 'ansambluri rezidentiale titan pallady', 'apartament pallady metrou'],
+    keywords: ['apartament nou titan pallady 2026', 'merita sa cumperi titan pallady', 'preturi apartamente pallady 2026', 'investitie imobiliara titan bucuresti', 'ansambluri rezidentiale titan pallady', 'apartament pallady metrou', 'pret minim apartament titan pallady 2026', 'randament investitie titan pallady 2026'],
     hashtags: ['#TitanPallady', '#ApartamentNou2026', '#InvestitieImobiliara', '#BucurestiSector3', '#NeofortIMO'],
     cuprins: [
       { id: 'de-ce-titan-pallady', titlu: `De ce Titan–Pallady domină cererea în Sectorul 3` },
@@ -1909,6 +2120,7 @@ Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sun
       { id: 'pentru-investitie', titlu: `Pentru investiție — calculul real` },
       { id: 'ce-sa-verifici', titlu: `Ce să verifici înainte să semnezi` },
       { id: 'concluzie', titlu: `Concluzia noastră — pentru cine merită` },
+      { id: 'faq', titlu: `Întrebări frecvente: merită apartament în Titan–Pallady 2026?` },
     ],
     sectiuni: [
       {
@@ -2043,6 +2255,24 @@ Actele proiectului:
 Finanțarea realistă. Calculul trebuie să includă: prețul apartamentului + TVA + parcare + taxa notarială (1–1,5%) + comision bancă dacă e credit + fondul de garanție FNGCIMM dacă e Noua Casă. Surprizele financiare la final sunt frecvente.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente: merită să cumperi apartament în Titan–Pallady în 2026?`,
+        continut: `Care este prețul minim pentru un apartament nou în Titan–Pallady în 2026?
+Prețul de start este 62.114 EUR (TVA exclus) pentru un apartament de 2 camere la [Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady) cu avans 45%, sau 64.800 EUR pentru o garsonieră la [Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) cu avans 20%. Sunt cele mai accesibile prețuri pentru apartamente noi cu acces la metrou din București.
+
+Care ansamblu din Titan–Pallady are cel mai bun acces la metrou?
+Neofort 83 are Metroul Anghel Saligny (M2) la 20 de metri — cel mai scurt acces la metrou din întreg portofoliul Neofort activ. Neofort 84 are Metroul Nicolae Teclu la 11 minute pe jos. Ambele sunt conectate la linia M2 care ajunge în centrul Bucureștiului în 6-8 minute.
+
+Titan–Pallady este potrivit pentru prima locuință sau pentru investiție?
+Este potrivit pentru ambele. Pentru prima locuință: prețuri accesibile, metrou, infrastructură matură. Pentru investiție: randament brut 4,1% și apreciere capital +95% din 2020. Citește și [analiza completă a randamentului pe zone](/blog/randament-inchiriere-zone-bucuresti).
+
+Cât a crescut valoarea apartamentelor în Titan–Pallady față de 2020?
+De la 1.050 EUR/mp în 2020 la ~2.050 EUR/mp în T1 2026 — creștere de 95% față de media Bucureștiului de 65-70%. Un apartament cumpărat cu 100.000 EUR în 2020 valorează azi aproximativ 195.000 EUR.
+
+Care sunt dezavantajele zonei Titan–Pallady față de alte zone din București?
+Principalele dezavantaje: distanța față de centru (compensată de metrou), traficul pe Bulevardul Pallady în orele de vârf și lipsa unor spitale de specialitate de top în proximitate imediată. Față de zonele din nordul Bucureștiului, prețurile sunt cu 50-70% mai mici la calitate comparabilă a construcțiilor noi.`,
+      },
+      {
         id: 'concluzie',
         h2: `Concluzia — pentru cine merită cu adevărat Titan–Pallady în 2026`,
         continut: `Titan–Pallady merită în 2026 pentru:
@@ -2075,7 +2305,7 @@ Decizia finală depinde de trei lucruri: developerul ales, localizarea exactă �
     autor: 'igor-calutu',
     image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif',
     descriere: `Cum alegi corect un ansamblu rezidențial nou din București în 2026? Ghid complet: cele mai căutate zone, cum verifici un developer, ce greșeli să eviți și criterii concrete de evaluare bazate pe 17 ani de experiență în piată.`,
-    keywords: ['top ansambluri rezidentiale bucuresti 2026', 'cele mai bune proiecte rezidentiale bucuresti', 'cum alegi ansamblu rezidential', 'ansambluri noi bucuresti 2026', 'ghid cumparare apartament nou bucuresti', 'developer imobiliar serios bucuresti'],
+    keywords: ['top ansambluri rezidentiale bucuresti 2026', 'cele mai bune proiecte rezidentiale bucuresti', 'cum alegi ansamblu rezidential', 'ansambluri noi bucuresti 2026', 'ghid cumparare apartament nou bucuresti', 'developer imobiliar serios bucuresti', 'cum verifici developer imobiliar', 'ansamblu rezidential finalizat disponibil imediat bucuresti'],
     hashtags: ['#AnsambluriBucuresti', '#ApartamentNou2026', '#GhidCumparare', '#ImobiliareRomania', '#NeofortIMO'],
     cuprins: [
       { id: 'cum-alegi', titlu: `Cum alegi corect — criteriile care contează` },
@@ -2085,6 +2315,7 @@ Decizia finală depinde de trei lucruri: developerul ales, localizarea exactă �
       { id: 'greseli', titlu: `Greșeli frecvente și cum le eviți` },
       { id: 'direct-sau-agentie', titlu: `Cumpărare directă vs. prin agenție` },
       { id: 'concluzie', titlu: `Cum iei decizia corectă` },
+      { id: 'faq', titlu: `Întrebări frecvente despre ansamblurile rezidențiale noi din București 2026` },
     ],
     sectiuni: [
       {
@@ -2235,6 +2466,24 @@ Cumpărarea prin agenție imobiliară pentru un apartament nou:
 Concluzia: pentru apartamente noi vândute de developer cu echipă proprie de vânzări, cumpărarea directă este practic întotdeauna avantajoasă față de varianta prin agenție. Neofort IMO comercializează direct toate proiectele din portofoliu, cu consultanță juridică și bancară gratuită, fără comision de agenție. Economisești 3.000–5.000 EUR față de o tranzacție echivalentă prin agenție.`,
       },
       {
+        id: 'faq',
+        h2: `Întrebări frecvente despre ansamblurile rezidențiale noi din București în 2026`,
+        continut: `Cum verific dacă un developer imobiliar este serios înainte să dau avansul?
+Verifică: câte proiecte a finalizat (minim 5-10), dacă există comunități active de proprietari în proiectele anterioare, titlul de proprietate al terenului fără litigii la ONRC, autorizația de construire validă și recenzii Google independente. Citește și [ghidul complet de cumpărare](/blog/ghid-cumparare-apartament-nou).
+
+Ce zonă din București oferă cel mai bun raport calitate-preț pentru apartamente noi în 2026?
+Titan-Pallady și Militari-Gorjului oferă cel mai bun raport: prețuri cu 30-50% sub zonele centrale, acces la metrou la 5-15 minute, infrastructură comercială matură și spații verzi. Moșilor-Eminescu oferă calitate premium la prețuri medii.
+
+Care este diferența dintre a cumpăra de la developer direct față de prin agenție?
+Cumpărând direct de la developer nu plătești comision de agenție (2-3% din preț = 2.000-6.000 EUR). Consultanța juridică și bancară este gratuită. Ai acces direct la documentație și echipa de suport post-vânzare. [Vezi ansamblurile active Neofort IMO](/ansambluri-rezidentiale).
+
+Ce înseamnă în construcție vs. finalizat la un ansamblu rezidențial?
+Proiect în construcție: discount 10-20%, predare în 12-24 luni, risc de întârziere. Proiect finalizat: disponibil imediat, vezi exact ce cumperi, fără risc de întârziere. Alegerea depinde de buget și toleranța la risc.
+
+Neofort IMO are proiecte disponibile imediat în 2026?
+Da. [Neofort 56 Pallady Titan Teclu](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) este finalizat și disponibil imediat. [Contactează-ne](/contact) pentru disponibilitate actualizată la toate proiectele active.`,
+      },
+      {
         id: 'concluzie',
         h2: `Cum iei decizia corectă — cadrul complet pentru alegerea unui ansamblu rezidențial`,
         continut: `Decizia de a cumpăra un apartament nou este una dintre cele mai importante decizii financiare din viața unui om. Greșelile se plătesc scump; deciziile corecte creează valoare pe decenii.
@@ -2270,7 +2519,7 @@ Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București 
     autor: 'sasha-calutu',
     image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif',
     descriere: `Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Ghid cu tipuri reale de promoții, cum identifici o reducere autentică și ce zone au cel mai mare potențial în prezent.`,
-    keywords: ['promotii apartamente titan pallady 2026', 'apartamente noi nicolae teclu promotii', 'discount apartament nou bucuresti 2026', 'apartament pallady pret bun', 'oferta apartament nou sector 3', 'apartamente noi avans mic bucuresti'],
+    keywords: ['promotii apartamente titan pallady 2026', 'apartamente noi nicolae teclu promotii', 'discount apartament nou bucuresti 2026', 'apartament pallady pret bun', 'oferta apartament nou sector 3', 'apartamente noi avans mic bucuresti', 'avans 45 procente promotie apartament', 'apartamente noi titan pallady pret minim 2026'],
     hashtags: ['#PromoțiiApartamente', '#TitanPallady', '#NicolaeTeclu', '#ApartamentNou2026', '#NeofortIMO'],
     cuprins: [
       { id: 'ce-promotii-exista', titlu: `Ce tipuri de promoții există în 2026` },
@@ -2429,7 +2678,7 @@ Poate fi negociat prețul la un apartament nou?
 În proiecte cu vânzări bune (zona Nicolae Teclu), negocierea prețului/mp este practic imposibilă. Ce poate fi negociat: prețul parcării, includerea unor finisaje suplimentare, flexibilitate la calendar plăți. În proiecte cu vânzări mai lente sau în fazele avansate de construcție când developer-ul vrea să înțeze finanțarea pentru finalizare, există mai mult loc de negociere.
 
 Ce se întâmplă cu prețul promoțional dacă nu obții creditul?
-Depinde de contractul semnat. Un antecontract bine redactat include clauze de reziliere fără penalități dacă finanțarea nu este obținută. Verifică explicit această clauză înainte de semnare.`,
+Depinde de contractul semnat. Un antecontract bine redactat include clauze de reziliere fără penalități dacă finanțarea nu este obținută. Verifică explicit această clauză înainte de semnare. Citește și [ghidul complet de cumpărare](/blog/ghid-cumparare-apartament-nou), [analiza completă zona Titan-Pallady](/blog/titan-pallady-cea-mai-cautata-zona) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
       },
     ],
   },
@@ -2441,7 +2690,7 @@ Depinde de contractul semnat. Un antecontract bine redactat include clauze de re
     autor: 'igor-calutu',
     image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif',
     descriere: `Ce schimbă noua lege a chiriilor în 2026 pentru proprietari și chiriași din România? Obligația declarării contractelor, impozitarea corectă, riscuri și ce trebuie să faci acum — ghid complet cu date concrete.`,
-    keywords: ['lege chirii 2026 romania', 'declarare contract chirie anaf 2026', 'impozit chirii 2026', 'obligatii proprietar chirias 2026', 'contract inchiriere legal romania', 'penalitati nedeclarare chirii anaf'],
+    keywords: ['lege chirii 2026 romania', 'declarare contract chirie anaf 2026', 'impozit chirii 2026', 'obligatii proprietar chirias 2026', 'contract inchiriere legal romania', 'penalitati nedeclarare chirii anaf', 'model contract inchiriere 2026', 'chirii declarare anaf termen 2026'],
     hashtags: ['#LegeChirii2026', '#ImpozitChirii', '#ANAF2026', '#ProprietarChirias', '#NeofortIMO'],
     cuprins: [
       { id: 'ce-schimba', titlu: `Ce s-a schimbat concret în 2026` },
@@ -2614,7 +2863,7 @@ Cât de des poate proprietarul vizita apartamentul?
 Legea nu specifică o frecvență maximă, dar vizitele trebuie anunțate cu minim 24 de ore înainte și nu pot fi excesive. Vizitele repetate și neanunțate pot constitui hărțuire și pot justifica rezilierea contractului de chiriaș.
 
 Dacă chiriașul nu plătește, cât durează evacuarea legală?
-În medie 3-6 luni prin procedura judiciară standard (somație, acțiune în instanță, executare silită). Există o procedură accelerată pentru contracte autentificate notarial cu clauze executorii — aceasta poate reduce termenul la 4-8 săptămâni.`,
+În medie 3-6 luni prin procedura judiciară standard (somație, acțiune în instanță, executare silită). Există o procedură accelerată pentru contracte autentificate notarial cu clauze executorii — aceasta poate reduce termenul la 4-8 săptămâni. Citește și [ghidul de dotări pentru apartamentul de închiriat](/blog/dotari-apartament-inchiriat), [randamentul la închiriere pe zone](/blog/randament-inchiriere-zone-bucuresti) și [contactează-ne](/contact) pentru consultanță.`,
       },
     ],
   },
@@ -2626,7 +2875,7 @@ Dacă chiriașul nu plătește, cât durează evacuarea legală?
     autor: 'sasha-calutu',
     image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif',
     descriere: `Cum arată creditul ipotecar în 2026? Dobânzi reale, ROBOR vs IRCC, condiții de eligibilitate, calcule concrete și ce bănci oferă cele mai bune condiții — ghid complet pentru cumpărătorii de apartamente noi din București.`,
-    keywords: ['credit ipotecar 2026 romania', 'dobanda credit imobiliar 2026', 'IRCC ROBOR 2026', 'conditii credit apartament nou', 'cat costa credit ipotecar 2026', 'noua casa program 2026 credit'],
+    keywords: ['credit ipotecar 2026 romania', 'dobanda credit imobiliar 2026', 'IRCC ROBOR 2026', 'conditii credit apartament nou', 'cat costa credit ipotecar 2026', 'noua casa program 2026 credit', 'rata lunara credit ipotecar 2026', 'credit ipotecar conditii aprobare 2026'],
     hashtags: ['#CreditIpotecar2026', '#IRCC2026', '#ApartamentNou', '#FinantareImobiliara', '#NeofortIMO'],
     cuprins: [
       { id: 'piata-credit-2026', titlu: `Piața creditului ipotecar în mai 2026` },
@@ -2818,7 +3067,7 @@ Ce se întâmplă dacă nu mai pot plăti rata?
 Banca trimite somații la 30, 60, 90 de zile de restanță. La 90 de zile, creditul devine restant în Biroul de Credit. La 180 de zile, banca poate începe executarea silită a garanției (apartamentul). Soluția preventivă: discuți cu banca din prima lună de dificultate — restructurarea creditului (extinderea duratei, reducerea temporară a ratei) este întotdeauna preferabilă față de executarea silită.
 
 Dobânda mai scade în 2026?
-Consensul analiștilor este că BNR va mai reduce dobânda cu 0,5-0,75 puncte procentuale în T3-T4 2026, dacă inflația rămâne sub control. Asta ar reduce IRCC spre 5,0-5,2% până la finele anului — o reducere de ~100-130 lei/lună la un credit standard de 600.000 lei.`,
+Consensul analiștilor este că BNR va mai reduce dobânda cu 0,5-0,75 puncte procentuale în T3-T4 2026, dacă inflația rămâne sub control. Asta ar reduce IRCC spre 5,0-5,2% până la finele anului — o reducere de ~100-130 lei/lună la un credit standard de 600.000 lei. Citește și [programul Noua Casă 2026](/blog/noua-casa-2026-ghid-complet), [costul total real al achiziției](/blog/apartamente-de-vanzare-titan-pallady-teclu) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
       },
     ],
   },
@@ -2830,7 +3079,7 @@ Consensul analiștilor este că BNR va mai reduce dobânda cu 0,5-0,75 puncte pr
     autor: 'igor-calutu',
     image: '/blog/zone-bucuresti-potential-crestere-2027.avif',
     descriere: `Care sunt zonele din București cu cel mai mare potențial de creștere a prețurilor în 2027? Analiză investițională bazată pe date reale: infrastructură, cerere vs ofertă, prețuri actuale și estimări fundamentate pentru investitorii imobiliari.`,
-    keywords: ['zone bucuresti investitie imobiliara 2027', 'mosilor eminescu preturi apartamente', 'piata muncii imobiliare 2027', 'militari sector 6 investitie', 'crestere preturi apartamente bucuresti 2027', 'investitie imobiliara bucuresti unde'],
+    keywords: ['zone bucuresti investitie imobiliara 2027', 'mosilor eminescu preturi apartamente', 'piata muncii imobiliare 2027', 'militari sector 6 investitie', 'crestere preturi apartamente bucuresti 2027', 'investitie imobiliara bucuresti unde', 'cele mai bune zone investitie bucuresti 2027', 'zone rezidentiale potential crestere bucuresti'],
     hashtags: ['#InvestitieImobiliara', '#ZoneBucuresti2027', '#MosilorEminescu', '#PiataMuncii', '#NeofortIMO'],
     cuprins: [
       { id: 'metodologie', titlu: `Metodologia analizei — cum evaluăm potențialul` },
@@ -3011,7 +3260,7 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
     autor: 'sasha-calutu',
     image: '/blog/dotari-apartament-inchiriat-bucuresti.avif',
     descriere: `Ce dotări caută chiriașii în 2026 și care investiții îți cresc cel mai mult randamentul. Date din piață: ce dotări reduc perioadele goale, ce preț de chirie justifică și cât costă fiecare upgrade. Ghid practic pentru proprietarii din București.`,
-    keywords: ['dotari apartament inchiriat 2026', 'ce dotari apartament inchiriat bucuresti', 'cum cresti chiria apartament dotari', 'investitii apartament inchiriere bucuresti', 'apartament utilat inchiriat randament', 'dotari necesare apartament chirie'],
+    keywords: ['dotari apartament inchiriat 2026', 'ce dotari apartament inchiriat bucuresti', 'cum cresti chiria apartament dotari', 'investitii apartament inchiriere bucuresti', 'apartament utilat inchiriat randament', 'dotari necesare apartament chirie', 'electrocasnice apartament inchiriat bucuresti', 'cost dotare apartament inchiriat complet'],
     hashtags: ['#InvestitieImobiliara', '#ApartamentInchiriat', '#DotariApartament', '#ChirieBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'context', titlu: `Ce s-a schimbat în 2025-2026` },
@@ -3139,7 +3388,7 @@ Internetul inclus în chirie crește valoarea apartamentului?
 Da semnificativ. Un abonament fibră optică de 25-40 lei/lună inclus în chirie justifică 30-50 EUR în plus la prețul lunar. 35% dintre chiriașii activi din București lucrează remote sau hibrid și consideră internetul stabil o prioritate.
 
 Ce tip de chiriaș atrag dotările premium?
-Dotările complete și de calitate atrag chiriași profesioniști care rămân în medie 26 de luni față de 14 luni pentru apartamentele subdotate, generând mai puține rotații și mai puțină uzură a proprietății.`,
+Dotările complete și de calitate atrag chiriași profesioniști care rămân în medie 26 de luni față de 14 luni pentru apartamentele subdotate, generând mai puține rotații și mai puțină uzură a proprietății. Citește și [legea chiriilor 2026](/blog/lege-chirii-2026-proprietari-chiriasi), [randamentul la închiriere pe zone din București](/blog/randament-inchiriere-zone-bucuresti) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
       },
     ],
   },
