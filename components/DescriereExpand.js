@@ -7,7 +7,7 @@ export default function DescriereExpand({ text }) {
   return (
     <div>
       <div className="relative">
-        <p className="text-sm text-gray-600 leading-relaxed text-justify"
+        <p className="text-[15px] text-gray-700 leading-relaxed text-justify"
           style={{
             display: '-webkit-box',
             WebkitLineClamp: expandat ? 'unset' : 8,

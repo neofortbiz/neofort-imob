@@ -191,7 +191,7 @@ export default function AnsambluPage({ params }) {
       <main>
         {/* BREADCRUMB */}
         <div className="hidden md:block border-b border-gray-100 px-6 py-2.5">
-          <div className="max-w-7xl mx-auto flex items-center gap-2 text-xs text-gray-500">
+          <div className="max-w-7xl mx-auto flex items-center gap-2 text-xs text-gray-600">
             <Link href="/" className="hover:text-[#2d7a3a]">Acasă</Link>
             <span>›</span>
             <Link href="/ansambluri-rezidentiale" className="hover:text-[#2d7a3a]">Ansambluri rezidențiale</Link>
@@ -280,7 +280,7 @@ export default function AnsambluPage({ params }) {
                 <h2 className="text-base font-medium text-gray-900 mb-4">Dotări și finisaje</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {a.dotari.map(d => (
-                    <div key={d} className="flex items-center gap-2 text-sm text-gray-600">
+                    <div key={d} className="flex items-center gap-2 text-sm text-gray-700">
                       <div className="w-4 h-4 rounded flex items-center justify-center flex-shrink-0" style={{ background: '#e8f5e9' }}>
                         <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#2d7a3a" strokeWidth="3"><polyline points="20 6 9 17 4 12"/></svg>
                       </div>
@@ -309,12 +309,12 @@ export default function AnsambluPage({ params }) {
                   {a.puncteInteres.map((p, i) => {
                     const cfg = POI_COLORS[p.tip] || { bg: '#f3f4f6', color: '#374151', label: p.tip }
                     return (
-                      <div key={i} className="flex items-center gap-3 text-sm text-gray-600">
+                      <div key={i} className="flex items-center gap-3 text-sm text-gray-700">
                         <span className="text-[10px] font-medium px-2 py-0.5 rounded-full flex-shrink-0 whitespace-nowrap flex items-center gap-1" style={{ background: cfg.bg, color: cfg.color }}>
                           <span>{cfg.icon}</span>{cfg.label}
                         </span>
                         <span>{p.nume}</span>
-                        <span className="ml-auto text-xs text-gray-500 whitespace-nowrap">{p.distanta}</span>
+                        <span className="ml-auto text-xs text-gray-600 whitespace-nowrap">{p.distanta}</span>
                       </div>
                     )
                   })}
@@ -342,7 +342,7 @@ export default function AnsambluPage({ params }) {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7"/>
                     </svg>
                   </summary>
-                  <div className="px-5 pb-4 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                  <div className="px-5 pb-4 text-sm text-gray-700 leading-relaxed border-t border-gray-100 pt-3">
                     {item.acceptedAnswer.text}
                   </div>
                 </details>

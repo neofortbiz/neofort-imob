@@ -154,7 +154,7 @@ export default function ArticolPage({ params }) {
 
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-8">
           {/* BREADCRUMB */}
-          <nav className="flex items-center gap-2 text-xs text-gray-500 mb-6">
+          <nav className="flex items-center gap-2 text-xs text-gray-600 mb-6">
             <Link href="/" className="hover:text-[#2d7a3a]">Acasă</Link>
             <span>›</span>
             <Link href="/blog" className="hover:text-[#2d7a3a]">Blog</Link>
@@ -176,10 +176,10 @@ export default function ArticolPage({ params }) {
                   )}
                   <div>
                     <p className="text-sm font-semibold text-gray-900">{autor?.nume}</p>
-                    <p className="text-xs text-gray-500">{autor?.titlu}</p>
+                    <p className="text-xs text-gray-600">{autor?.titlu}</p>
                   </div>
                 </div>
-                <div className="text-xs text-gray-500 flex items-center gap-3 flex-wrap">
+                <div className="text-xs text-gray-600 flex items-center gap-3 flex-wrap">
                   <time dateTime={a.dataISO}>{a.data}</time>
                   <span>·</span>
                   <span>{a.citire} citire</span>
@@ -204,7 +204,7 @@ export default function ArticolPage({ params }) {
               </div>
 
               {/* LEAD */}
-              <p className="text-base text-gray-600 leading-relaxed mb-8 font-medium border-l-4 border-[#2d7a3a] pl-4">{a.descriere}</p>
+              <p className="text-base text-gray-700 leading-relaxed mb-8 font-medium border-l-4 border-[#2d7a3a] pl-4">{a.descriere}</p>
 
               {/* SECTIUNI */}
               {a.sectiuni.map(s => (
@@ -219,7 +219,7 @@ export default function ArticolPage({ params }) {
                           const question = lines[0]
                           const answer = lines.slice(1).join('\n').trim()
                           if (!answer) return (
-                            <div key={i} className="text-sm text-gray-700 leading-8">{block}</div>
+                            <div key={i} className="text-[15px] text-gray-800 leading-8">{block}</div>
                           )
                           return (
                             <div key={i} className="rounded-xl overflow-hidden border border-gray-100">
@@ -228,7 +228,7 @@ export default function ArticolPage({ params }) {
                                 <p className="text-sm font-semibold text-gray-900 leading-snug">{question}</p>
                               </div>
                               <div className="px-5 py-4 bg-white">
-                                <p className="text-sm text-gray-700 leading-7 whitespace-pre-line text-justify">{answer}</p>
+                                <p className="text-[15px] text-gray-800 leading-7 whitespace-pre-line text-justify">{answer}</p>
                               </div>
                             </div>
                           )
@@ -236,7 +236,7 @@ export default function ArticolPage({ params }) {
                       </div>
                     )
                     : (
-                      <div className="text-sm text-gray-700 leading-8 whitespace-pre-line text-justify">
+                      <div className="text-[15px] text-gray-800 leading-8 whitespace-pre-line text-justify">
                         {s.continut.split('\n').map((line, i) => (
                           <span key={i}>{parseLinks(line)}{i < s.continut.split('\n').length - 1 ? '\n' : ''}</span>
                         ))}
@@ -332,7 +332,7 @@ export default function ArticolPage({ params }) {
                     <div>
                       <p className="text-base font-bold text-gray-900">{autor.nume}</p>
                       <p className="text-xs mb-2" style={{ color: '#2d7a3a' }}>{autor.titlu}</p>
-                      <p className="text-xs text-gray-600 leading-relaxed">{autor.bio}</p>
+                      <p className="text-xs text-gray-700 leading-relaxed">{autor.bio}</p>
                     </div>
                   </div>
                 </div>
@@ -368,7 +368,7 @@ export default function ArticolPage({ params }) {
                   {a.cuprins.map((c, i) => (
                     <li key={c.id}>
                       <a href={`#${c.id}`}
-                        className="flex gap-2 text-xs text-gray-600 hover:text-[#2d7a3a] transition-colors leading-snug group">
+                        className="flex gap-2 text-xs text-gray-700 hover:text-[#2d7a3a] transition-colors leading-snug group">
                         <span className="font-semibold text-[#2d7a3a] flex-shrink-0">{i + 1}.</span>
                         <span className="group-hover:underline">{c.titlu}</span>
                       </a>
@@ -390,7 +390,7 @@ export default function ArticolPage({ params }) {
                       <p className="text-[10px]" style={{ color: '#2d7a3a' }}>{autor.titlu}</p>
                     </div>
                   </div>
-                  <p className="text-[11px] text-gray-500 leading-relaxed">{autor.bio}</p>
+                  <p className="text-[11px] text-gray-600 leading-relaxed">{autor.bio}</p>
                 </div>
               )}
 
