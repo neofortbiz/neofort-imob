@@ -858,7 +858,7 @@ Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Su
     autor: 'adriana-veselu',
     image: '/blog/noua-casa-2026-ghid-complet.avif',
     descriere: `Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere, ce apartamente se califică și cum interacționează cu TVA 21%.`,
-    keywords: ['noua casa 2026', 'program noua casa conditii', 'avans noua casa 2026', 'noua casa plafon 2026', 'noua casa vs credit standard', 'eligibilitate noua casa 2026', 'noua casa apartament nou bucuresti', 'credit garantat stat 2026'], '[credit ipotecar](/blog/credit-ipotecar-2026-dobanzi-conditii) garantat stat 2026', 'prima casa 2026', 'avans noua casa', 'noua casa bucuresti apartament nou'],
+    keywords: ['noua casa 2026', 'program noua casa conditii', 'avans noua casa 2026', 'noua casa plafon 2026', 'noua casa vs credit standard', 'eligibilitate noua casa 2026', 'noua casa apartament nou bucuresti', 'credit garantat stat 2026'],
     hashtags: ['#NouaCasa2026', '#CreditIpotecar', '#AchizitieApartament', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'ce-este', titlu: `Ce este Noua Casă în 2026` },
@@ -3921,8 +3921,6 @@ Neofort IMO continuă să construiască și să livreze în acest context difici
     ],
   },
 
-
-}
 
 export const ARTICOLE_LIST = [
     { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piața Imobiliară — Cum o Lege de Protecție a Devenit o Frână pentru Construcții', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
