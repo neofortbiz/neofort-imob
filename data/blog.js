@@ -486,8 +486,10 @@ Față de cota de 5% în vigoare până în 2023, un apartament de 150.000 EUR c
       },
       {
         id: 'tva-9',
-        h2: `TVA 9% tranzitoriu — fereastra care se închide la 31 iulie 2026`,
+        h2: `TVA 9% tranzitoriu — valabil doar dacă ai semnat și plătit avans înainte de august 2025`,
         continut: `Prin Legea nr. 141/2025, Guvernul a introdus o perioadă de tranziție care permite aplicarea cotei de 9% TVA pentru o categorie restrânsă de tranzacții. Această facilitate expiră definitiv la 31 iulie 2026 și nu se va prelungi.
+
+Atenție: această cotă tranzitorie se aplică EXCLUSIV tranzacțiilor în care cumpărătorul a semnat un antecontract și a achitat un avans de minimum 20% până la 31 iulie 2025. Orice achiziție nouă din august 2025 încoace este supusă automat TVA 21%.
 
 Cota de 9% se poate aplica dacă sunt îndeplinite simultan toate condițiile de mai jos — lipsa oricăreia duce automat la 21% TVA:
 
@@ -3291,7 +3293,7 @@ Aceste randamente nete de 5–6% sunt superioare depozitelor bancare în lei (3,
 Componentele costului total:
 
 1. Prețul apartamentului (TVA exclus): suma publicată în ofertă
-2. TVA: 9% dacă prețul total (TVA inclus) nu depășește 600.000 lei (~120.000 EUR); 21% dacă depășește. Calculul: pentru un apartament de 90.000 EUR → TVA 9% → 98.100 EUR total
+2. TVA: regula generală în 2026 este 21%. Cota de 9% sau 5% (după caz) se mai aplică exclusiv tranzacțiilor tranzitorii — dacă ai semnat un antecontract și ai achitat un avans de minimum 20% până la 31 iulie 2025, beneficiezi de cota veche de TVA, cu condiția semnării contractului final până la 31 iulie 2026. Calculul pentru achiziții noi (fără antecontract din iulie 2025): pentru un apartament de 90.000 EUR → TVA 21% → 108.900 EUR total
 3. Parcarea: dacă o incluzi (recomandată puternic — chiria unui loc de parcare în zonă este 50–80 EUR/lună). Exterior: 6.000–9.000 EUR, Interior: 8.500–13.000 EUR
 4. Taxa notarială: 0,5–1% din prețul tranzacției + TVA 21% pe onorarul notarului. Estimare realistă pentru o tranzacție de 100.000 EUR: 800–1.500 EUR
 5. Taxa de intabulare (OCPI): 0,15% din valoarea din cartea funciară, de regulă 200–500 EUR
