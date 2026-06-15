@@ -445,7 +445,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     tipuri: ['2 camere', '4 camere'],
     descriere: 'Ansamblul Rezidențial Neofort 50 Titan IOR, Bulevardul 1 Decembrie 1918, Sector 3. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 142.545€+TVA. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire pardoseală.',
     apartamente: [
-      { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 70.40, avans20: 161920, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 70.40, avans20: 155000, pretVechiAvans20: 161920, avans45: null, promo: true, camere: 2 },
       { tip: '2 cam. cu terasa (47.80+54.90mp)', etaj: 'et. 6', suprafata: 47.80, avans20: 153860, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. cu terasa (52.90+51.30mp)', etaj: 'et. 10-11', suprafata: 52.90, avans20: 162710, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. cu terasa (55.00+87.20mp)', etaj: 'et. 10-11', suprafata: 55.00, avans20: 196260, avans45: null, promo: true, camere: 2, pretPromo: 176900 },
