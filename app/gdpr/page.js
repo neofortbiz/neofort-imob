@@ -5,13 +5,13 @@ import Footer from '@/components/Footer'
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
-  title: 'Politica de Confidentialitate GDPR — Neofort IMO | Protectia Datelor',
-  description: 'Politica de confidentialitate Neofort IMO conform GDPR (Regulamentul UE 2016/679). Aflati cum colectam, procesam si protejam datele dumneavoastra personale.',
+  title: 'Politica GDPR — Protecția Datelor | Neofort IMO',
+  description: 'Politica de confidențialitate Neofort IMO conform GDPR (UE 2016/679). Aflați cum colectăm, procesăm și protejăm datele dumneavoastră personale.',
   alternates: { canonical: `${BASE}/gdpr` },
   robots: { index: true, follow: true },
   openGraph: {
-    title: 'Politica GDPR — Neofort IMO',
-    description: 'Politica de confidentialitate si protectia datelor personale conform GDPR.',
+    title: 'Politica GDPR — Protecția Datelor | Neofort IMO',
+    description: 'Politica de confidențialitate și protecția datelor personale conform Regulamentului UE 2016/679.',
     url: `${BASE}/gdpr`,
     type: 'website',
     locale: 'ro_RO',

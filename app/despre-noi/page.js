@@ -7,7 +7,7 @@ const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   title: `Despre Neofort IMO — ${ANI_EXPERIENTA} Ani de Imobiliare în București`,
-  description: `Neofort IMO este o companie de imobiliare din București fondată în 2009. ${NR_LIVRATE}+ ansambluri rezidențiale livrate, ${NR_FAMILII} familii, ${ANI_EXPERIENTA} ani experiență. Direct de la sursă, fără comision.`,
+  description: `Neofort IMO — fondată în 2009, ${NR_LIVRATE}+ ansambluri livrate în București, ${NR_FAMILII} familii. Direct de la sursă, fără comision. ${ANI_EXPERIENTA} ani de experiență imobiliară.`,
   alternates: { canonical: `${BASE}/despre-noi` },
   openGraph: {
     title: `Despre Neofort IMO — ${ANI_EXPERIENTA} Ani de Imobiliare în București`,

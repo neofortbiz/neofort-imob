@@ -6,10 +6,10 @@ const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   title: 'Politica Cookies — Neofort IMO | Ce Cookies Folosim',
-  description: 'Politica de utilizare a cookie-urilor pe www.neofort.ro. Aflati ce cookie-uri folosim, in ce scop si cum le puteti controla.',
+  description: 'Politica de utilizare a cookie-urilor pe www.neofort.ro. Aflați ce cookie-uri folosim, în ce scop și cum le puteți controla.',
   alternates: { canonical: `${BASE}/cookies` },
   openGraph: {
-    title: 'Politica Cookies — Neofort IMO',
+    title: 'Politica Cookies — Ce Cookie-uri Folosim | Neofort IMO',
     url: `${BASE}/cookies`,
     type: 'website',
     locale: 'ro_RO',

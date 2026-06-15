@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Contact Neofort IMO — Program & Adresă București',
   description: 'Contactează Neofort IMO: Str. Theodor Aman Pictor nr. 11, Sector 1, București. Program L-V 10:00-18:00. Tel: +40 758 090 904.',
   alternates: { canonical: `${BASE}/contact` },
-  openGraph: { images: [{ url: 'https://www.neofort.ro/og-contact.jpg', width: 1200, height: 630, alt: 'Neofort IMO' }] },
+  openGraph: { title: 'Contact Neofort IMO — Program & Adresă', description: 'Str. Theodor Aman Pictor nr. 11, Sector 1, București. Program L-V 10:00-18:00. Tel: +40 758 090 904.', images: [{ url: 'https://www.neofort.ro/og-contact.jpg', width: 1200, height: 630, alt: 'Contact Neofort IMO București' }] },
   twitter: { card: 'summary_large_image', images: ['https://www.neofort.ro/og-contact.jpg'] },
 }
 

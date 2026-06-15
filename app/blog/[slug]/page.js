@@ -33,15 +33,17 @@ export async function generateMetadata({ params }) {
   const a = ARTICOLE[params.slug]
   if (!a) return {}
   const autor = AUTORI[a.autor]
+  const metaTitle = a.seoTitle || a.titlu
+  const metaDesc = a.seoDesc || a.descriere
   return {
-    title: a.titlu,
-    description: a.descriere,
+    title: metaTitle,
+    description: metaDesc,
     alternates: { canonical: `${BASE}/blog/${params.slug}` },
     keywords: a.keywords?.join(', '),
     authors: [{ name: autor?.nume }],
     openGraph: {
-      title: a.titlu,
-      description: a.descriere,
+      title: metaTitle,
+      description: metaDesc,
       url: `${BASE}/blog/${params.slug}`,
       type: 'article',
       locale: 'ro_RO',

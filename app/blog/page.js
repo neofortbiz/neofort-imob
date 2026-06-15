@@ -11,7 +11,7 @@ export const metadata = {
   description: 'Articole despre piața imobiliară din București: prețuri, legislație, ghiduri de cumpărare și tendințe. Expertiză Neofort IMO din 2009.',
   alternates: { canonical: `${BASE}/blog` },
   openGraph: {
-    title: 'Blog Imobiliar București — Neofort IMO',
+    title: 'Blog Imobiliar București — Analize și Ghiduri | Neofort IMO',
     description: 'Analize și noutăți despre piața imobiliară din București de la experții Neofort IMO — din 2009 în piață.',
     url: `${BASE}/blog`,
     type: 'website',

@@ -5,11 +5,11 @@ import Footer from '@/components/Footer'
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
-  title: 'Termeni si Conditii — Neofort IMO | Conditii de Utilizare',
-  description: 'Termenii si conditiile de utilizare a site-ului www.neofort.ro. Informatii despre serviciile Neofort IMO, limitari de raspundere si proprietate intelectuala.',
+  title: 'Termeni și Condiții — Neofort IMO | Condiții de Utilizare',
+  description: 'Termenii și condițiile de utilizare a site-ului www.neofort.ro. Informații despre serviciile Neofort IMO, limitări de răspundere și proprietate intelectuală.',
   alternates: { canonical: `${BASE}/termeni` },
   openGraph: {
-    title: 'Termeni si Conditii — Neofort IMO',
+    title: 'Termeni și Condiții de Utilizare | Neofort IMO',
     url: `${BASE}/termeni`,
     type: 'website',
     locale: 'ro_RO',
