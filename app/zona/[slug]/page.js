@@ -49,7 +49,7 @@ export function generateMetadata({ params }) {
   const ansambluri = ANSAMBLURI_ACTIVE.filter(a => a.zone && a.zone.includes(params.slug))
   const url = `${BASE}/zona/${params.slug}`
   return {
-    title: `Apartamente Noi ${z.nume}, ${z.sector} | Ansambluri Rezidențiale | Neofort IMO`,
+    title: `Apartamente Noi ${z.nume}, ${z.sector} — Ansambluri Rezidențiale`,
     description: `${ansambluri.length} ansambluri rezidențiale Neofort IMO în zona ${z.nume}, ${z.sector} București. Apartamente noi de la ${ansambluri.length > 0 ? new Intl.NumberFormat('ro-RO').format(Math.min(...ansambluri.map(a => a.pretDeLa))) : ''}€+TVA, direct de la sursă, fără comision.`,
     alternates: { canonical: url },
     openGraph: {

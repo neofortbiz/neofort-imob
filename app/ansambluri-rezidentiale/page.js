@@ -8,8 +8,8 @@ import { NR_ACTIVE } from '@/data/siteConfig'
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
-  title: 'Ansambluri Rezidențiale București — Apartamente Noi | Neofort IMO',
-  description: `Toate ansamblurile rezidențiale Neofort IMO disponibile în București. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6. Apartamente 1-4 camere direct de la dezvoltator, fără comision.`,
+  title: 'Ansambluri Rezidențiale București — Apartamente Noi',
+  description: `Toate ansamblurile Neofort IMO disponibile în București. ${NR_ACTIVE} proiecte active în Sectoarele 2, 3 și 6. Apartamente 1-4 camere direct de la sursă, fără comision.`,
   alternates: { canonical: `${BASE}/ansambluri-rezidentiale` },
   openGraph: {
     title: 'Ansambluri Rezidențiale București | Neofort IMO',

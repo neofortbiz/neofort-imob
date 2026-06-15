@@ -6,7 +6,7 @@ import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
-  title: 'Zone Rezidențiale București — Apartamente Noi | Neofort IMO',
+  title: 'Zone Rezidențiale București — Apartamente Noi',
   description: 'Ansambluri rezidențiale Neofort IMO în toate zonele Bucureștiului. Titan-Pallady, Militari, Piața Muncii, Moșilor-Eminescu și altele. Apartamente noi direct de la sursă.',
   alternates: { canonical: `${BASE}/zona` },
   openGraph: { images: [{ url: 'https://www.neofort.ro/og-zone.jpg', width: 1200, height: 630, alt: 'Neofort IMO' }] },

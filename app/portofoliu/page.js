@@ -8,8 +8,8 @@ import { ANI_EXPERIENTA, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
-  title: `Portofoliu Ansambluri Vândute — Neofort IMO | ${NR_LIVRATE}+ Proiecte Livrate`,
-  description: `Portofoliul complet al ansamblurilor rezidențiale Neofort IMO finalizate și vândute în București. ${NR_LIVRATE}+ proiecte livrate din 2009 în toate sectoarele capitalei.`,
+  title: { absolute: `Portofoliu — ${NR_LIVRATE}+ Ansambluri Livrate | Neofort IMO` },
+  description: `Portofoliul complet Neofort IMO — ${NR_LIVRATE}+ ansambluri rezidențiale finalizate în București din 2009, în toate sectoarele capitalei.`,
   alternates: { canonical: `${BASE}/portofoliu` },
   openGraph: {
     title: `Portofoliu Neofort IMO — ${NR_LIVRATE}+ Ansambluri Livrate`,

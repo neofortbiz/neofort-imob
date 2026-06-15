@@ -34,7 +34,7 @@ export async function generateMetadata({ params }) {
   if (!a) return {}
   const autor = AUTORI[a.autor]
   return {
-    title: a.titlu + ' | Neofort IMO Blog',
+    title: a.titlu,
     description: a.descriere,
     alternates: { canonical: `${BASE}/blog/${params.slug}` },
     keywords: a.keywords?.join(', '),

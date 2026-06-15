@@ -7,8 +7,8 @@ import { NR_LIVRATE } from '@/data/siteConfig'
 const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
-  title: 'Blog Imobiliar București — Noutăți, Analize, Legislație | Neofort IMO',
-  description: 'Articole de specialitate despre piața imobiliară din București: evoluția prețurilor, legislație, ghiduri de cumpărare și tendințe. Expertiză din 2009.',
+  title: 'Blog Imobiliar București — Analize, Ghiduri & Legislație',
+  description: 'Articole despre piața imobiliară din București: prețuri, legislație, ghiduri de cumpărare și tendințe. Expertiză Neofort IMO din 2009.',
   alternates: { canonical: `${BASE}/blog` },
   openGraph: {
     title: 'Blog Imobiliar București — Neofort IMO',

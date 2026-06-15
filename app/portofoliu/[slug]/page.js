@@ -15,8 +15,8 @@ export function generateMetadata({ params }) {
   if (!a) return {}
   const pretMin = a.preturi?.[0]?.pret
   return {
-    title: `${a.nume} — ${a.zona}, ${a.sector} | Neofort IMO`,
-    description: `${a.nume}, ${a.zona}, ${a.sector} București. ${a.etaje}, ${a.totalApartamente} unități, ${a.tipuri.join(', ')}. ${pretMin ? `Prețuri de la ${pretMin.toLocaleString()}€+TVA.` : ''} Ansamblu finalizat Neofort IMO.`,
+    title: { absolute: `${a.nume} — ${a.zona} | Neofort IMO` },
+    description: `${a.nume}, ${a.zona}, ${a.sector} București. ${a.etaje}, ${a.totalApartamente} unități. Ansamblu finalizat și vândut integral de Neofort IMO.`,
     alternates: { canonical: `${BASE}/portofoliu/${a.slug}` },
     openGraph: {
       title: `${a.nume} — Portofoliu Neofort IMO`,

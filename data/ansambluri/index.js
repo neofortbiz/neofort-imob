@@ -77,7 +77,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '17 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente noi Titan Pallady — Neofort 84 | Neofort IMO',
+    seoTitle: 'Apartamente noi Titan Pallady — Neofort 84',
     seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3 Bucuresti. Apartamente 2-4 camere de la 62.114 euro+TVA. Predare T1 2027, langa metrou Nicolae Teclu.',
   },
   {
@@ -468,7 +468,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
       { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '15 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente noi Titan Parc IOR — Neofort 50 | Neofort IMO',
+    seoTitle: 'Apartamente noi Titan Parc IOR — Neofort 50',
     seoDescription: 'Ansamblu rezidential Neofort 50 Titan IOR, Bd. 1 Decembrie 1918, Sector 3 Bucuresti. Apartamente 2-4 camere de la 142.545 euro+TVA. Metrou Costin Georgian.',
   },
   {
@@ -770,8 +770,8 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '3 camere'],
     tag: null,
-    seoTitle: 'Neofort 28 Faza 2 — Apartamente Noi Titan Pallady, Metrou Nicolae Teclu',
-    seoDescription: 'Neofort 28 Faza 2 — apartamente noi finalizate Titan-Pallady, Sector 3. 2 și 3 camere de la 85.900€+TVA. Metrou Nicolae Teclu 5 minute. Finisaje premium PINUM Italia, ORONA Spania.',
+    seoTitle: 'Apartamente Finalizate Pallady — Neofort 28 F2',
+    seoDescription: 'Neofort 28 Faza 2, Titan-Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje premium PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
   },
   {
     slug: 'neofort-28-titan-pallady-teclu',
@@ -850,7 +850,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 28',
-    seoDescription: 'Neofort 28 Titan-Pallady, Sector 3. 2-3 camere de la 83.900€+TVA. Unele cu curte proprie 50mp.',
+    seoDescription: 'Neofort 28 Titan-Pallady, Sector 3. Apartamente 2-3 camere de la 83.900€+TVA, unele cu curte proprie 50mp. Metrou Nicolae Teclu în apropiere.',
   },
   {
     slug: 'neofort-11-eminescu-viitorului',

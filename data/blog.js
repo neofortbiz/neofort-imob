@@ -57,12 +57,12 @@ export const AUTORI = {
 
 export const ARTICOLE = {
   'e-proprietatea-2026-noul-sistem-de-impozitare': {
-    titlu: 'E-Proprietatea 2026: Tot ce Trebuie să Știi Despre Noul Sistem de Impozitare Imobiliară',
+    titlu: 'E-Proprietatea 2026: Ghid Complet Impozitare Imobiliară',
     tag: 'Legislație', tagColor: '#7c3aed',
     data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '12 min',
     autor: 'igor-calutu',
     image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
-    descriere: 'E-Proprietatea 2026 schimbă radical impozitarea imobiliară în România. Ghid complet: ce este, cum funcționează, cât cresc impozitele pe zone din București, scutiri disponibile, calendarul implementării și ce înseamnă concret pentru proprietari și cumpărători.',
+    descriere: 'Ce este E-Proprietatea și cum schimbă impozitarea imobiliară din 2026. Calcule pe zone, scutiri disponibile și ce înseamnă pentru cumpărători.',
     keywords: ['e-proprietatea 2026', 'impozit apartament 2026', 'impozitare imobiliara romania 2026', 'impozit proprietate bucuresti', 'e-proprietatea cum functioneaza', 'calcul impozit apartament 2026', 'scutiri impozit locuinta', 'contestatie impozit proprietate 2026', 'e-proprietatea apartament nou'],
     hashtags: ['#EProprietatea2026', '#ImpozitApartament', '#LegislatieImobiliara', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
@@ -290,7 +290,8 @@ Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțel
   },
 
   'preturi-apartamente-bucuresti-2026': {
-    titlu: `Prețurile Apartamentelor din București în 2026: Scad sau Nu? Analiză cu Date Reale`,
+    titlu: `Prețuri Apartamente București 2026: Scad? Analiză cu Date Reale`,
+    descriere: 'Prețurile apartamentelor din București 2026: scad sau cresc? Analiză cu date ANCPI și INS pe zone, impactul TVA 21% și Noua Casă.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min',
     autor: 'sasha-calutu',
@@ -498,7 +499,8 @@ Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții 
     ],
   },
   'tva-apartamente-noi-2026': {
-    titlu: `TVA la Apartamente Noi în 2026: Cât Plătești și Cum Eviți Surprizele Fiscale`,
+    titlu: `TVA Apartamente Noi 2026: Cât Plătești Real`,
+    descriere: 'TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul real.',
     tag: 'Legislație', tagColor: '#7c3aed',
     data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min',
     autor: 'igor-calutu',
@@ -687,6 +689,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
   },
   'titan-pallady-cea-mai-cautata-zona': {
     titlu: `Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă Rezidențială din București`,
+    descriere: 'De ce Titan–Pallady e cea mai căutată zonă din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.',
     tag: 'Zone', tagColor: '#0891b2',
     data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min',
     autor: 'raluca-nistor',
@@ -853,6 +856,7 @@ Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Su
   },
   'noua-casa-2026-ghid-complet': {
     titlu: `Programul Noua Casă 2026: Ghid Complet — Condiții, Bănci, Avans și Ce Apartamente Se Califică`,
+    descriere: 'Noua Casă 2026: plafon 500 milioane lei, condiții de eligibilitate, avans minim, bănci partenere și cum se combină cu TVA 21%.',
     tag: 'Finanțare', tagColor: '#0369a1',
     data: '28 Aprilie 2026', dataISO: '2026-04-28', citire: '10 min',
     autor: 'adriana-veselu',
@@ -1025,7 +1029,8 @@ Procesul Noua Casă durează 6-10 săptămâni de la primul contact cu banca, fa
     ],
   },
   'cumparare-apartament-din-diaspora': {
-    titlu: `Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas Fără să Vii în Țară`,
+    titlu: `Cumperi Apartament în București din Diasporă Fără să Vii în Țară`,
+    descriere: 'Cumperi apartament în București din diasporă: procuri notariale, transfer valutar, alegerea zonei și experiența Neofort cu clienți din Europa.',
     tag: 'Ghid', tagColor: '#2d7a3a',
     data: '1 Mai 2026', dataISO: '2026-05-01', citire: '12 min',
     autor: 'svetlana-calutu',
@@ -1233,7 +1238,8 @@ Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. C
     ],
   },
   'apartament-nou-vs-vechi-calcul-real': {
-    titlu: `Apartament Nou vs. Apartament Vechi în București: Calculul Real al Costurilor Totale`,
+    titlu: `Apartament Nou vs. Vechi: Calculul Costurilor Totale`,
+    descriere: 'Apartament nou sau vechi în București? Costurile reale: preț achiziție, costuri ascunse, risc seismic, impozit și randament la închiriere.',
     tag: 'Analiză', tagColor: '#c2410c',
     data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min',
     autor: 'ramona-baicu',
@@ -1419,7 +1425,8 @@ Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătă
     ],
   },
   'predare-la-cheie-ce-inseamna': {
-    titlu: `Predare la Cheie la Apartamente Noi: Ce Trebuie să Conțină și Ce să Verifici`,
+    titlu: `Predare la Cheie: Ce Conține și Ce Verifici`,
+    descriere: 'Ce include predarea la cheie la apartamentele noi, ce poate lipsi și checklist complet de verificare la predare cu drepturile cumpărătorului.',
     tag: 'Ghid', tagColor: '#2d7a3a',
     data: '7 Mai 2026', dataISO: '2026-05-07', citire: '8 min',
     autor: 'adrian-pintilie',
@@ -1640,7 +1647,8 @@ Dacă ai întrebări despre specificațiile unui proiect specific, consultanții
     ],
   },
   'randament-inchiriere-zone-bucuresti': {
-    titlu: `Randament la Închiriere pe Zone din București în 2026: Unde Investești Cel Mai Bine`,
+    titlu: `Randament la Închiriere pe Zone București 2026: Unde Investești Cel Mai Bine`,
+    descriere: 'Randament la închiriere pe zone București 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor și Floreasca. Date din piață.',
     tag: 'Investiții', tagColor: '#0369a1',
     data: '10 Mai 2026', dataISO: '2026-05-10', citire: '10 min',
     autor: 'sasha-calutu',
@@ -1888,12 +1896,12 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
 
 
   'ghid-cumparare-apartament-nou': {
-    titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare',
+    titlu: 'Cum Cumperi Apartament Nou de la Dezvoltator',
     tag: 'Ghid', tagColor: '#2d7a3a',
     data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min',
     autor: 'adriana-veselu',
     image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
-    descriere: 'Ghid practic și complet pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare cheie. Sfaturi de la consultant cu 400+ tranzacții.',
+    descriere: 'Cum cumperi apartament nou de la dezvoltator în 2026: avans, contract, capcane de evitat, finanțare și predare la cheie. Sfaturi din 400+ tranzacții.',
     keywords: ['cum cumpar apartament nou 2026', 'ghid cumparare apartament nou', 'antecontract apartament nou', 'capcane cumparare apartament', 'pasi cumparare apartament nou bucuresti', 'ghid primul apartament nou bucuresti', 'diferenta antecontract contract vanzare', 'vanzare directa fara comision apartament'],
     hashtags: ['#GhidCumparareApartament', '#ApartamentNou2026', '#ApartamenteBucuresti', '#ConsultantaImobiliara', '#NeofortIMO'],
     cuprins: [
@@ -2103,7 +2111,8 @@ Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sun
   },
 
   'merita-apartament-titan-pallady-2026': {
-    titlu: `Merită să Cumperi Apartament Nou în Titan – Theodor Pallady în 2026? Analiză Completă`,
+    titlu: `Merită Apartament în Titan–Pallady în 2026?`,
+    descriere: 'Merită să cumperi în Titan–Pallady în 2026? Prețuri reale, avantaje, dezavantaje, calcul randament și ce verifici înainte de semnare.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min',
     autor: 'adrian-pintilie',
@@ -2299,7 +2308,8 @@ Decizia finală depinde de trei lucruri: developerul ales, localizarea exactă �
   },
 
   'top-ansambluri-rezidentiale-noi-bucuresti-2026': {
-    titlu: `Top Ansambluri Rezidențiale Noi din București în 2026 — Ghid Complet pentru Cumpărători`,
+    titlu: `Top Ansambluri Rezidențiale București 2026`,
+    descriere: 'Cum alegi corect un ansamblu rezidențial nou în București 2026: criterii de evaluare, zonele cu potențial și ce să eviți.',
     tag: 'Ghid', tagColor: '#2d7a3a',
     data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min',
     autor: 'igor-calutu',
@@ -2513,7 +2523,8 @@ Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București 
   },
 
   'apartamente-noi-titan-pallady-teclu-promotii-2026': {
-    titlu: `Apartamente Noi în Titan, Pallady și Nicolae Teclu: Cele Mai Bune Promoții în 2026`,
+    titlu: `Promoții Apartamente Titan–Pallady 2026`,
+    descriere: 'Promoțiile reale la apartamente noi în Titan, Pallady și Teclu în 2026: tipuri de reduceri, cum le identifici și ce zone au potențial.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min',
     autor: 'sasha-calutu',
@@ -2684,7 +2695,8 @@ Depinde de contractul semnat. Un antecontract bine redactat include clauze de re
   },
 
   'lege-chirii-2026-proprietari-chiriasi': {
-    titlu: `Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași`,
+    titlu: `Legea Chiriilor 2026: Ce Se Schimbă`,
+    descriere: 'Legea chiriilor 2026: înregistrare obligatorie ANAF, indexare plafonată, drepturi noi pentru chiriași și riscuri pentru proprietari.',
     tag: 'Legislație', tagColor: '#7c3aed',
     data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min',
     autor: 'igor-calutu',
@@ -2869,7 +2881,8 @@ Dacă chiriașul nu plătește, cât durează evacuarea legală?
   },
 
   'credit-ipotecar-2026-dobanzi-conditii': {
-    titlu: `Credit Ipotecar în 2026: Dobânzi, Condiții și Cât Te Costă Real un Apartament Nou`,
+    titlu: `Credit Ipotecar 2026: Dobânzi și Costuri Reale`,
+    descriere: 'IRCC vs ROBOR, costul real al unui credit pe 30 de ani și comparație între bănci. Ghid complet credit ipotecar 2026 pentru apartamente noi.',
     tag: 'Finanțare', tagColor: '#0369a1',
     data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min',
     autor: 'sasha-calutu',
@@ -3073,7 +3086,8 @@ Consensul analiștilor este că BNR va mai reduce dobânda cu 0,5-0,75 puncte pr
   },
 
   'zone-bucuresti-potential-crestere-2027': {
-    titlu: `Zonele din București cu Cel Mai Mare Potențial de Creștere în 2027 — Analiză Investițională`,
+    titlu: `Zone București cu Potențial de Creștere 2027`,
+    descriere: 'Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională cu date reale: cerere vs ofertă, prețuri și estimări pentru 2027.',
     tag: 'Investiții', tagColor: '#b45309',
     data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min',
     autor: 'igor-calutu',
@@ -3254,7 +3268,8 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
 
 
   'dotari-apartament-inchiriat': {
-    titlu: `Cele Mai Importante Dotări pentru un Apartament de Închiriat în 2026: Ce Cer Chiriașii și Ce Merită Investit`,
+    titlu: `Dotările unui Apartament de Închiriat în 2026: Ce Cer Chiriașii și Ce Merită Investit`,
+    descriere: 'Ce dotări caută chiriașii în 2026 și care investiții cresc randamentul. Calcule reale și ghid practic pentru proprietarii din București.',
     tag: 'Investiții', tagColor: '#0369a1',
     data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min',
     autor: 'sasha-calutu',
@@ -3394,7 +3409,8 @@ Dotările complete și de calitate atrag chiriași profesioniști care rămân �
   },
 
   'apartamente-de-vanzare-titan-pallady-teclu': {
-    titlu: `Apartamente de Vânzare în Titan, Theodor Pallady și Nicolae Teclu — Ghid Complet 2026`,
+    titlu: `Apartamente Noi Titan–Pallady și Teclu 2026`,
+    descriere: 'Apartamente noi Titan, Theodor Pallady, Nicolae Teclu 2026: prețuri reale, ansambluri Neofort IMO active, comparație pe localizare și buget.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min',
     autor: 'ramona-baicu',
@@ -3659,7 +3675,8 @@ Pasul următor: contactați direct brokerul responsabil de zona și proiectul ca
   },
 
   'legea-nordis-efect-bumerang-piata-imobiliara': {
-    titlu: `Legea Nordis: Efect de Bumerang pe Piața Imobiliară — Cum o Lege de Protecție a Devenit o Frână pentru Construcții`,
+    titlu: `Legea Nordis: Efect de Bumerang pe Piață`,
+    descriere: 'Legea Nordis (nr. 207/2025) a blocat șantiere și a scăzut tranzacțiile cu 25–30%. Cum o lege de protecție a cumpărătorilor a produs efectul opus.',
     tag: 'Legislație', tagColor: '#7c3aed',
     data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min',
     autor: 'igor-calutu',
@@ -3924,25 +3941,25 @@ Neofort IMO continuă să construiască și să livreze în acest context difici
 }
 
 export const ARTICOLE_LIST = [
-    { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piața Imobiliară — Cum o Lege de Protecție a Devenit o Frână pentru Construcții', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'apartamente-de-vanzare-titan-pallady-teclu', titlu: 'Apartamente de Vânzare în Titan, Theodor Pallady și Nicolae Teclu — Ghid Complet 2026', data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min', image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
-  { slug: 'dotari-apartament-inchiriat', titlu: 'Cele Mai Importante Dotări pentru un Apartament de Închiriat în 2026', data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min', image: '/blog/dotari-apartament-inchiriat-bucuresti.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practic pentru proprietarii din București.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
-  { slug: 'ghid-cumparare-apartament-nou', titlu: 'Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
-  { slug: 'lege-chirii-2026-proprietari-chiriasi', titlu: 'Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași', data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min', image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'credit-ipotecar-2026-dobanzi-conditii', titlu: 'Credit Ipotecar în 2026: Dobânzi, Condiții și Cât Te Costă Real un Apartament Nou', data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min', image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită în 2026 față de creditul standard.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
-  { slug: 'zone-bucuresti-potential-crestere-2027', titlu: 'Zonele din București cu Cel Mai Mare Potențial de Creștere în 2027 — Analiză Investițională', data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min', image: '/blog/zone-bucuresti-potential-crestere-2027.avif', tag: 'Investiții', tagColor: '#b45309', rezumat: 'Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională bazată pe date reale: cerere vs ofertă, prețuri actuale și estimări pentru 2027.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'merita-apartament-titan-pallady-2026', titlu: 'Merită să Cumperi Apartament Nou în Titan – Theodor Pallady în 2026? Analiză Completă', data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min', image: '/blog/merita-apartament-titan-pallady-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă cu prețuri reale, avantaje, dezavantaje, calcul randament și ce trebuie verificat înainte de semnare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
-  { slug: 'apartamente-noi-titan-pallady-teclu-promotii-2026', titlu: 'Apartamente Noi în Titan, Pallady și Nicolae Teclu: Cele Mai Bune Promoții în 2026', data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min', image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Tipuri reale de reduceri, cum identifici o ofertă autentică și calculul corect al avansului mare.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
-  { slug: 'top-ansambluri-rezidentiale-noi-bucuresti-2026', titlu: 'Top Ansambluri Rezidențiale Noi din București în 2026 — Ghid Complet pentru Cumpărători', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min', image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cum alegi corect un ansamblu rezidențial nou din București în 2026? Criterii de evaluare, zonele cu cel mai mare potențial, cum verifici un developer și greșelile frecvente de evitat.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'E-Proprietatea 2026: Tot ce Trebuie să Știi Despre Noul Sistem de Impozitare', data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '12 min', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Ce este E-Proprietatea, cum schimbă impozitarea imobiliară din 2026 și ce înseamnă concret pentru proprietarii și cumpărătorii de apartamente noi în București.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: true },
-  { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețurile Apartamentelor din București în 2026: Scad sau Nu?', data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21% și ce înseamnă pentru cumpărătorii de azi.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
-  { slug: 'tva-apartamente-noi-2026', titlu: 'TVA la Apartamente Noi în 2026: Cât Plătești și Cum Eviți Surprizele Fiscale', data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min', image: '/blog/tva-apartamente-noi-bucuresti-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'titan-pallady-cea-mai-cautata-zona', titlu: 'Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă din București', data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min', image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
+    { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piață', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+  { slug: 'apartamente-de-vanzare-titan-pallady-teclu', titlu: 'Apartamente Noi Titan–Pallady și Teclu 2026', data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min', image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
+  { slug: 'dotari-apartament-inchiriat', titlu: 'Dotările unui Apartament de Închiriat în 2026', data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min', image: '/blog/dotari-apartament-inchiriat-bucuresti.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practic pentru proprietarii din București.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'ghid-cumparare-apartament-nou', titlu: 'Cum Cumperi Apartament Nou de la Dezvoltator', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
+  { slug: 'lege-chirii-2026-proprietari-chiriasi', titlu: 'Legea Chiriilor 2026: Ce Se Schimbă', data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min', image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+  { slug: 'credit-ipotecar-2026-dobanzi-conditii', titlu: 'Credit Ipotecar 2026: Dobânzi și Costuri Reale', data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min', image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită în 2026 față de creditul standard.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'zone-bucuresti-potential-crestere-2027', titlu: 'Zone București cu Potențial de Creștere 2027', data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min', image: '/blog/zone-bucuresti-potential-crestere-2027.avif', tag: 'Investiții', tagColor: '#b45309', rezumat: 'Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională bazată pe date reale: cerere vs ofertă, prețuri actuale și estimări pentru 2027.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+  { slug: 'merita-apartament-titan-pallady-2026', titlu: 'Merită Apartament în Titan–Pallady în 2026?', data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min', image: '/blog/merita-apartament-titan-pallady-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă cu prețuri reale, avantaje, dezavantaje, calcul randament și ce trebuie verificat înainte de semnare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
+  { slug: 'apartamente-noi-titan-pallady-teclu-promotii-2026', titlu: 'Promoții Apartamente Titan–Pallady 2026', data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min', image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Tipuri reale de reduceri, cum identifici o ofertă autentică și calculul corect al avansului mare.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'top-ansambluri-rezidentiale-noi-bucuresti-2026', titlu: 'Top Ansambluri Rezidențiale București 2026', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min', image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cum alegi corect un ansamblu rezidențial nou din București în 2026? Criterii de evaluare, zonele cu cel mai mare potențial, cum verifici un developer și greșelile frecvente de evitat.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+  { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'E-Proprietatea 2026: Ghid Complet Impozitare', data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '12 min', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Ce este E-Proprietatea, cum schimbă impozitarea imobiliară din 2026 și ce înseamnă concret pentru proprietarii și cumpărătorii de apartamente noi în București.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: true },
+  { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețuri Apartamente București 2026: Scad?', data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21% și ce înseamnă pentru cumpărătorii de azi.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'tva-apartamente-noi-2026', titlu: 'TVA Apartamente Noi 2026: Cât Plătești Real', data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min', image: '/blog/tva-apartamente-noi-bucuresti-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+  { slug: 'titan-pallady-cea-mai-cautata-zona', titlu: 'Titan–Pallady: Cea Mai Căutată Zonă Sector 3', data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min', image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
   { slug: 'noua-casa-2026-ghid-complet', titlu: 'Programul Noua Casă 2026: Ghid Complet', data: '28 Aprilie 2026', dataISO: '2026-04-28', citire: '10 min', image: '/blog/noua-casa-2026-ghid-complet.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere și ce apartamente se califică.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
-  { slug: 'cumparare-apartament-din-diaspora', titlu: 'Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas', data: '1 Mai 2026', dataISO: '2026-05-01', citire: '12 min', image: '/blog/cumparare-apartament-diaspora-ghid.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid pentru românii din diasporă care vor să cumpere apartament în București: procuri notariale, transfer valută, alegerea zonei și sfaturi din experiența cu clienți din Germania, Austria, Israel, Franța, Turcia și R. Moldova.', autor: 'Svetlana Calutu', autorSlug: 'svetlana-calutu', featured: false },
-  { slug: 'apartament-nou-vs-vechi-calcul-real', titlu: 'Apartament Nou vs. Apartament Vechi în București: Calculul Real al Costurilor', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, risc seismic, impozit E-Proprietatea și randament închiriere.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
-  { slug: 'predare-la-cheie-ce-inseamna', titlu: 'Predare la Cheie la Apartamente Noi: Ce Trebuie să Conțină și Ce să Verifici', data: '7 Mai 2026', dataISO: '2026-05-07', citire: '8 min', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ce înseamnă predare la cheie la un apartament nou? Lista completă a finisajelor incluse, ce poate lipsi și checklist de verificare la predare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
-  { slug: 'randament-inchiriere-zone-bucuresti', titlu: 'Randament la Închiriere pe Zone din București în 2026', data: '10 Mai 2026', dataISO: '2026-05-10', citire: '10 min', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Ce zone oferă cel mai bun randament net.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'cumparare-apartament-din-diaspora', titlu: 'Cumperi Apartament în București din Diasporă', data: '1 Mai 2026', dataISO: '2026-05-01', citire: '12 min', image: '/blog/cumparare-apartament-diaspora-ghid.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid pentru românii din diasporă care vor să cumpere apartament în București: procuri notariale, transfer valută, alegerea zonei și sfaturi din experiența cu clienți din Germania, Austria, Israel, Franța, Turcia și R. Moldova.', autor: 'Svetlana Calutu', autorSlug: 'svetlana-calutu', featured: false },
+  { slug: 'apartament-nou-vs-vechi-calcul-real', titlu: 'Apartament Nou vs. Vechi: Calculul Costurilor', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, risc seismic, impozit E-Proprietatea și randament închiriere.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
+  { slug: 'predare-la-cheie-ce-inseamna', titlu: 'Predare la Cheie: Ce Conține și Ce Verifici', data: '7 Mai 2026', dataISO: '2026-05-07', citire: '8 min', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ce înseamnă predare la cheie la un apartament nou? Lista completă a finisajelor incluse, ce poate lipsi și checklist de verificare la predare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
+  { slug: 'randament-inchiriere-zone-bucuresti', titlu: 'Randament la Închiriere pe Zone București 2026', data: '10 Mai 2026', dataISO: '2026-05-10', citire: '10 min', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Ce zone oferă cel mai bun randament net.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
 ]
 
 export const CATEGORII = [
