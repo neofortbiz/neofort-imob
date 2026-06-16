@@ -12,7 +12,7 @@ export default function sitemap() {
   const staticPages = [
     { url: `${BASE}/`, lastModified: TODAY, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${BASE}/ansambluri-rezidentiale`, lastModified: TODAY, changeFrequency: 'weekly', priority: 0.95 },
-    { url: `${BASE}/zona`, lastModified: TODAY, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/zona`, lastModified: TODAY, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${BASE}/harta-ansambluri`, lastModified: LAST_WEEK, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${BASE}/portofoliu`, lastModified: LAST_WEEK, changeFrequency: 'monthly', priority: 0.80 },
     { url: `${BASE}/blog`, lastModified: TODAY, changeFrequency: 'weekly', priority: 0.75 },

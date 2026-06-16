@@ -24,6 +24,8 @@ export async function GET() {
     },
     url: `https://www.neofort.ro/ansamblu-rezidential/${a.slug}`,
     descriere: a.descriere,
+    seoTitle: a.seoTitle || null,
+    seoDescription: a.seoDescription || null,
     descriereCompleta: a.descriereCompleta || a.descriere,
   }))
 
@@ -31,7 +33,7 @@ export async function GET() {
     companie: 'Neofort IMO',
     descriere: 'Ansambluri rezidențiale noi în București — direct de la sursă',
     website: 'https://www.neofort.ro',
-    telefon: '0743 250 029',
+    telefon: '0758 090 904',
     totalActive: data.length,
     ansambluri: data,
     generatLa: new Date().toISOString(),

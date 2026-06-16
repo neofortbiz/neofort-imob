@@ -2,8 +2,8 @@ import Link from 'next/link'
 import FormularCalificat from '@/components/FormularCalificat'
 import { ANSAMBLURI_LITE } from '@/data/ansambluri'
 
-const TEL = '0743250029'
-const TEL_DISPLAY = '0743 250 029'
+const TEL = '0758090904'
+const TEL_DISPLAY = '0758 090 904'
 const WA_LINK = `https://wa.me/40${TEL.substring(1)}`
 
 export default function Footer() {
@@ -119,13 +119,16 @@ export default function Footer() {
           <div>
             <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Neofort IMO SRL</h3>
             {[
+              '0758 090 904',
               'CUI: RO53874087',
               'J40/8972/2026',
               'Str. Aman Pictor nr. 11',
               'Sector 1, Buc. 010776',
               'L–V 10:00–18:00',
             ].map(line => (
-              <div key={line} className="block text-xs py-1 mb-0.5" style={{ color: '#bbb' }}>{line}</div>
+              line.startsWith('0') ?
+                <a key={line} href={`tel:${line.replace(/\s/g, '')}`} className="block text-xs py-1 mb-0.5 hover:text-white transition-colors" style={{ color: '#bbb' }}>{line}</a> :
+                <div key={line} className="block text-xs py-1 mb-0.5" style={{ color: '#bbb' }}>{line}</div>
             ))}
           </div>
         </div>
