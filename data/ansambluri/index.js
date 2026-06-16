@@ -378,7 +378,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Smart Home | Neofort 56',
-    seoDescription: 'Neofort 56 Pallady Titan Teclu, Sector 3. Studio și 2–4 camere de la 184.691€+TVA, sistem Smart Home integrat. Metrou Nicolae Teclu 3 min, Parcul IOR 10 min.',
+    seoDescription: 'Neofort 56 Pallady Titan Teclu, Sector 3. Studio și 2–4 camere de la 184.691€+TVA, Smart Home integrat. Metrou Nicolae Teclu 3 min, Parcul IOR 10 min.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
@@ -543,7 +543,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     ],
     galerie: [],
     seoTitle: 'Apartamente Militari | Neofort 49 Promo',
-    seoDescription: 'Neofort 49 Militari Gorjului, Sector 6. Garsoniere și 2 camere de la 76.974€+TVA cu promoție activă. Metrou Gorjului 5 min, acces rapid Autostrada A1. Fără comision.',
+    seoDescription: 'Neofort 49 Militari Gorjului, Sector 6. Garsoniere și 2 camere de la 76.974€+TVA, promoție activă. Metrou Gorjului 5 min, acces rapid A1. Fără comision.',
   },
   {
     slug: 'neofort-44-titan-pallady-teclu',
@@ -690,7 +690,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     ],
     galerie: [],
     seoTitle: 'Apartamente Piața Muncii | Neofort 42',
-    seoDescription: 'Neofort 42 Piața Muncii, Sector 3. Apartamente 2 și 4 camere premium de la 197.056€+TVA. Metrou Piața Muncii la 200m. Promoție activă. Vânzare directă fără comision.',
+    seoDescription: 'Neofort 42 Piața Muncii, Sector 3. Apartamente 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii 200m. Promoție activă. Fără comision.',
   },
   {
     slug: 'neofort-28-titan-pallady-faza-2',
@@ -771,7 +771,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     tipuri: ['2 camere', '3 camere'],
     tag: null,
     seoTitle: 'Apartamente Finalizate Pallady — Neofort 28 F2',
-    seoDescription: 'Neofort 28 Faza 2 Titan Pallady, Sector 3. Apartamente 2–3 camere finalizate de la 85.900€+TVA. Finisaje PINUM Italia, lift ORONA, metrou Teclu 5 min.',
+    seoDescription: 'Neofort 28 Faza 2, Titan Pallady, Sector 3. Apartamente 2–3 camere finalizate de la 85.900€+TVA. Finisaje PINUM Italia, lift ORONA, metrou Teclu 5 min.',
   },
   {
     slug: 'neofort-28-titan-pallady-teclu',
@@ -1006,7 +1006,7 @@ Procesul de achiziție este complet transparent: prețul publicat este prețul f
     ],
     galerie: [],
     seoTitle: 'Apartamente Tepeș Vodă | Neofort 8',
-    seoDescription: 'Neofort 8, Str. Tepeș Vodă, Sector 2. Studio și 2–4 camere de la 146.000€+TVA. Clasa A, metrou Piața Muncii 500m. Bloc exclusivist, finisaje premium.',
+    seoDescription: 'Neofort 8, Str. Tepeș Vodă, Sector 2. Studio și 2–4 camere de la 146.000€+TVA. Clasa A energetică, metrou Piața Muncii 500m. Bloc exclusivist.',
   },
 ]
 

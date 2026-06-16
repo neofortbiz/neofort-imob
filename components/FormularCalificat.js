@@ -16,21 +16,17 @@ export default function FormularCalificat() {
   async function handleSubmit(e) {
     e.preventDefault()
     if (!form.nume || !form.telefon || !form.email) return
-    if (form._hp) return // honeypot
+    if (form._hp) return
     setStatus('loading')
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          nume: form.nume, telefon: form.telefon, email: form.email,
-          finantare: form.finantare, tipImobil: form.tipImobil, camere: form.camere,
-          buget: form.buget, zona: form.zona, mesaj: form.mesaj, tip: 'calificat'
-        }),
+        body: JSON.stringify({ nume: form.nume, telefon: form.telefon, email: form.email, finantare: form.finantare, tipImobil: form.tipImobil, camere: form.camere, buget: form.buget, zona: form.zona, mesaj: form.mesaj, tip: 'calificat' }),
       })
       if (res.ok) {
         setStatus('success')
-        setForm({ nume: '', telefon: '', email: '', finantare: '', tipImobil: '', camere: '', buget: '', zona: '', mesaj: '', _hp: '' })
+        setForm({ nume: '', telefon: '', email: '', finantare: '', tipImobil: '', camere: '', buget: '', zona: '', mesaj: '' })
       } else {
         setStatus('error')
       }
@@ -97,10 +93,7 @@ export default function FormularCalificat() {
       {/* Mesaj */}
       <input name="mesaj" type="text" value={form.mesaj} onChange={handleChange} placeholder="Mesaj (opțional)" className={`${inputCls} mb-3 w-full`} />
 
-      {/* Honeypot anti-spam */}
-      <input name="_hp" type="text" value={form._hp} onChange={handleChange}
-        tabIndex={-1} autoComplete="off" aria-hidden="true"
-        style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0 }} />
+      <input name="_hp" type="text" value={form._hp} onChange={handleChange} tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0 }} />
       <button
         type="submit"
         disabled={status === 'loading'}

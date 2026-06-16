@@ -21,16 +21,13 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
   async function handleSubmit(e) {
     e.preventDefault()
     if (!form.nume || !form.telefon) return
-    if (form._hp) return // honeypot — bot detectat
+    if (form._hp) return
     setStatus('loading')
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          nume: form.nume, telefon: form.telefon, email: form.email,
-          mesaj: form.mesaj, ansamblu: ansambluNume, tip: 'rapid'
-        }),
+        body: JSON.stringify({ nume: form.nume, telefon: form.telefon, email: form.email, mesaj: form.mesaj, ansamblu: ansambluNume, tip: 'rapid' }),
       })
       if (res.ok) {
         setStatus('success')
@@ -90,17 +87,7 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
             placeholder="Mesaj (opțional)"
             className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-900 placeholder-gray-400 mb-3 focus:outline-none focus:border-[#2d7a3a] bg-white"
           />
-          {/* Honeypot anti-spam — ascuns utilizatorilor, completat de boți */}
-          <input
-            name="_hp"
-            type="text"
-            value={form._hp}
-            onChange={handleChange}
-            tabIndex={-1}
-            autoComplete="off"
-            aria-hidden="true"
-            style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0 }}
-          />
+          <input name="_hp" type="text" value={form._hp} onChange={handleChange} tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0 }} />
           <button
             type="submit"
             disabled={status === 'loading'}

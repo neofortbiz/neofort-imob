@@ -70,7 +70,7 @@ export default function ArticolPage({ params }) {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: a.titlu,
-    description: a.seoDesc || a.descriere,
+    description: a.descriere,
     image: `${BASE}${a.image}`,
     datePublished: a.dataISO,
     dateModified: a.dataModificata || a.dataISO,
