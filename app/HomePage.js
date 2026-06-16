@@ -453,7 +453,7 @@ export default function HomePageClient() {
                       className="group border border-gray-300 rounded-xl overflow-hidden bg-white hover:border-gray-500 hover:shadow-sm transition-all">
                       <div className="aspect-square bg-gray-100 relative overflow-hidden">
                         {a.imagini?.cover ? (
-                          <img src={a.imagini.cover} alt={a.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading={cardIdx === 0 ? "eager" : "lazy"} fetchPriority={cardIdx === 0 ? "high" : "auto"} />
+                          <img src={a.imagini.cover} alt={a.nume} width={400} height={400} sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 17vw" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" loading={cardIdx === 0 ? "eager" : "lazy"} fetchPriority={cardIdx === 0 ? "high" : "auto"} />
                         ) : (
                           <div className="absolute inset-0 flex items-center justify-center">
                             <span className="text-xs text-gray-400">Foto</span>
@@ -542,6 +542,9 @@ export default function HomePageClient() {
                 <img
                   src="/harta-teaser.avif"
                   alt="Harta ansambluri Neofort IMO București"
+                  width={1200}
+                  height={200}
+                  sizes="100vw"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   loading="lazy"
                   className="group-hover:scale-105 transition-transform duration-500"
@@ -627,7 +630,7 @@ export default function HomePageClient() {
                 <Link key={b.slug} href={`/blog/${b.slug}`}
                   className="border border-gray-200 rounded-xl overflow-hidden hover:border-gray-400 hover:shadow-sm transition-all group">
                   <div style={{ position: 'relative', paddingBottom: '60%', overflow: 'hidden', background: '#f3f4f6' }}>
-                    {b.image && <img src={b.image} alt={b.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />}
+                    {b.image && <img src={b.image} alt={b.titlu} width={600} height={360} sizes="(max-width: 768px) 50vw, 25vw" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />}
                   </div>
                   <div className="p-3">
                     <div className="text-[9px] font-medium uppercase tracking-wider mb-1" style={{ color: '#2d7a3a' }}>{b.tag}</div>
