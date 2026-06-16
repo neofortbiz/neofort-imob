@@ -286,11 +286,11 @@ export default function HomePageClient() {
                 </svg>
               ))}
             </div>
-            <span className="text-sm font-medium" style={{ color: '#e8b44e' }}>4.3</span>
+            <span className="text-sm font-medium" style={{ color: '#e8b44e' }}>4.1</span>
             <span className="text-xs" style={{ color: 'rgba(255,255,255,0.5)' }}>·</span>
             <a href="https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7" target="_blank" rel="noopener noreferrer"
               className="text-xs hover:underline" style={{ color: 'rgba(255,255,255,0.6)' }}>
-              105 recenzii Google
+              108 recenzii Google
             </a>
           </div>
         </section>
