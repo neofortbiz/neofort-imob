@@ -5,14 +5,14 @@ import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteCo
 import Script from 'next/script'
 
 const barlow = Barlow({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext'],
   weight: ['300', '400', '500', '600'],
   variable: '--font-barlow',
   display: 'swap',
 })
 
 const barlowCondensed = Barlow_Condensed({
-  subsets: ['latin'],
+  subsets: ['latin', 'latin-ext'],
   weight: ['400', '500', '600'],
   variable: '--font-barlow-condensed',
   display: 'swap',
@@ -53,7 +53,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'ro_RO',
-    localeAlternate: ['en_GB', 'de_DE', 'fr_FR', 'it_IT'],
+    // localeAlternate eliminat — site-ul nu are pagini multilingv activ
     siteName: 'Neofort IMO',
     title: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă',
     description: `Apartamente noi în București direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6.`,
@@ -317,6 +317,8 @@ export default function RootLayout({ children }) {
         {/* Preconnect pentru resurse critice */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://tile.openstreetmap.org" />
+        <link rel="dns-prefetch" href="https://tile.openstreetmap.org" />
         {/* Consent Mode - setat inainte de GTM */}
         <Script id="consent-init" strategy="beforeInteractive">{`
           window.dataLayer = window.dataLayer || [];
@@ -331,7 +333,9 @@ export default function RootLayout({ children }) {
         <Script id="gtm" strategy="beforeInteractive">{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5TWW86TF');`}</Script>
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       </head>
       <body>
         {/* Google Tag Manager noscript */}

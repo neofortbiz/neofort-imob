@@ -114,6 +114,22 @@ const STATUS_COLORS = {
   vandut:      { fill: '#f97316', label: 'Vandut (portofoliu)' },
 }
 
+
+
+// Schema Map pentru LLM-uri și Google
+const mapPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Map',
+  name: 'Harta Ansambluri Rezidențiale Neofort IMO București',
+  description: `Hartă interactivă cu ${NR_ACTIVE + NR_PORTOFOLIU} ansambluri rezidențiale Neofort IMO din București`,
+  url: `${BASE}/harta-ansambluri`,
+  provider: {
+    '@type': 'Organization',
+    name: 'Neofort IMO',
+    url: BASE,
+  },
+}
+
 export default function HartaPage() {
   const [selected, setSelected] = useState(null)
   const [filter, setFilter] = useState('toate')

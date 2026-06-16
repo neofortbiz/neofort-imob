@@ -37,8 +37,26 @@ export default function HartaLeaflet({ activeMarkers, portofoliuMarkers, showPor
     if (typeof window === 'undefined') return
     if (leafletMapRef.current) return
 
-    // Importam Leaflet dinamic
-    import('leaflet').then(L => {
+    // Importam Leaflet + MarkerCluster dinamic
+    Promise.all([
+      import('leaflet'),
+      new Promise(resolve => {
+        if (typeof window !== 'undefined' && !window._leafletMCLoaded) {
+          const css1 = document.createElement('link')
+          css1.rel = 'stylesheet'
+          css1.href = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css'
+          document.head.appendChild(css1)
+          const css2 = document.createElement('link')
+          css2.rel = 'stylesheet'
+          css2.href = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css'
+          document.head.appendChild(css2)
+          const script = document.createElement('script')
+          script.src = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js'
+          script.onload = () => { window._leafletMCLoaded = true; resolve() }
+          document.head.appendChild(script)
+        } else { resolve() }
+      })
+    ]).then(([L]) => {
       // Fix iconite default Leaflet
       delete L.Icon.Default.prototype._getIconUrl
       L.Icon.Default.mergeOptions({
@@ -93,6 +111,12 @@ export default function HartaLeaflet({ activeMarkers, portofoliuMarkers, showPor
       ...activeMarkers,
       ...(showPortofoliu ? portofoliuMarkers : []),
     ]
+
+    // Clustering pentru markeri portofoliu (73 pini) — activi nu se clusterizează
+    const clusterGroup = window._mcLoaded && L.MarkerClusterGroup
+      ? L.markerClusterGroup({ maxClusterRadius: 40, disableClusteringAtZoom: 15 })
+      : null
+    if (clusterGroup) clusterGroup.addTo(map)
 
     allMarkers.forEach(a => {
       if (!a.coords) return

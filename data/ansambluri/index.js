@@ -42,7 +42,7 @@ Neofort 84 oferă 10 tipuri de apartamente — cea mai diversificată ofertă di
 
 Un detaliu tehnic relevant pentru cumpărătorii atenți: structura P+10 este proiectată cu cadre și diafragme din beton armat C25/30, conform SR EN 1992-1-1, cu verificare la acțiuni seismice conform P100-1/2013. Zona Titan-Pallady este inclusă în zona seismică de calcul cu ag=0,30g — una dintre cele mai solicitate din București. Proiectele noi construite după normele actuale au un comportament seismic semnificativ superior fondului imobiliar construit înainte de 1989, o diferență relevantă în decizia de cumpărare.
 
-Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontract cu constructor, credit ipotecar facilitat gratuit prin băncile partenere Neofort IMO, contract de vânzare-cumpărare la notar la finalizare. Neofort IMO lucrează cu toate băncile majore din România — BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank — și poate facilita gratuit compararea ofertelor pentru cel mai mic cost total de finanțare. Vânzare directă, fără comision de agenție.`,
+Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontract cu constructor, credit ipotecar facilitat gratuit prin băncile partenere Neofort IMO, contract de vânzare-cumpărare la notar la finalizare. Neofort IMO lucrează cu toate băncile majore din România — BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank — și poate facilita gratuit compararea ofertelor pentru cel mai mic cost total de finanțare. Vânzare directă, fără comision de agenție. Descoperiți și [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) — cu metroul la 20 de metri — sau [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) pentru o altă opțiune în zonă.`,
     brokerTel: '0743 250 029',
     coordonate: { lat: 44.418559, lng: 26.204754 },
     zone: ['titan-pallady', 'sector-3'],
@@ -77,8 +77,8 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '17 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Noi Titan–Pallady | Neofort 84',
-    seoDescription: 'Neofort 84 Titan Pallady, Sector 3. Apartamente 2–4 camere de la 62.114€+TVA. Predare T1 2027. Metrou Teclu 11 min, IKEA Pallady 8 min. Fără comision.',
+    seoTitle: 'Apartamente noi Titan Pallady — Neofort 84',
+    seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3 Bucuresti. Apartamente 2-4 camere de la 62.114 euro+TVA. Predare T1 2027, langa metrou Nicolae Teclu.',
   },
   {
     slug: 'neofort-83-titan-pallady',
@@ -122,7 +122,7 @@ Fațada ventilată cu izolație din vată minerală bazaltică merită o explica
 
 Oferta tipologică a Neofort 83 Faza 2 este concepută deliberat pentru a acoperi toată scara de prețuri din zona Titan: de la garsoniera de 43,42 mp la 64.800€ — cea mai accesibilă unitate din întregul portofoliu Neofort activ — până la apartamentul de 4 camere de 100,63 mp la 150.945€. Diferența de 86.145€ între cel mai mic și cel mai mare apartament permite accesul în același proiect, în aceeași comunitate, al unor cumpărători cu bugete și nevoi foarte diferite. Acest mix tipologic echilibrat este un indicator de calitate al proiectului — nu o simplificare, ci o decizie deliberată de diversificare.
 
-Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat proiect activ din zona Titan: Waldorf București și Spectrum School la 8 minute cu mașina, Liceul Internațional de Informatică la 10 minute, Parcul Teilor la 8 minute. Combinația metrou la ușă + școli alternative + parc urban mare + retail complet în raza de 10 minute este extraordinar de rară în București la prețurile actuale.`,
+Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat proiect activ din zona Titan: Waldorf București și Spectrum School la 8 minute cu mașina, Liceul Internațional de Informatică la 10 minute, Parcul Teilor la 8 minute. Combinația metrou la ușă + școli alternative + parc urban mare + retail complet în raza de 10 minute este extraordinar de rară în București la prețurile actuale. Vedeți și [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) pentru mai multe tipologii, sau [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) cu apartamente cu curte proprie.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.408482, lng: 26.19528 },
     zone: ['titan-pallady', 'sector-3'],
@@ -152,8 +152,8 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '19 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente cu Metrou la 20m — Neofort 83 Titan',
-    seoDescription: 'Neofort 83 Titan Pallady, Sector 3. Garsoniere–4 camere de la 64.800€+TVA. Metrou Anghel Saligny la 20m. Finisaje premium, centrală proprie, fără comision.',
+    seoTitle: 'Apartamente Titan Pallady | Neofort 83',
+    seoDescription: 'Neofort 83 Faza 2, zona Titan, Sector 3. Garsoniere, studio, 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu 3 min.',
   },
   {
     slug: 'neofort-78-mosilor-eminescu',
@@ -204,7 +204,7 @@ Neofort 78 Faza 2 este un proiect care se adresează unui profil de cumpărător
 
 Zona Moșilor-Eminescu din Sectorul 2 a intrat într-un ciclu de revalorizare accelerat după 2020. Proximitatea față de Piața Obor — reconsolidată ca hub comercial și de transport — și față de metroul Obor face zona extrem de atractivă pentru tinerii profesioniști care lucrează în centrul Bucureștiului sau în zona de nord și nord-vest. Piața imobiliară din zona Obor-Moșilor a înregistrat creșteri de 20-25% în 2023-2025, susținute de oferta limitată de proiecte noi de calitate și de cererea ridicată.
 
-Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată și metrou la 10 minute pe jos în semicentralul Bucureștiului este practic imposibil în altă parte. Prețul de 399.000€ pentru 194,20 mp (205€/mp) cu grădină privată, față de media pieței semicentrale de 2.500-3.500€/mp, reprezintă o oportunitate greu de argumentat împotriva. Vânzare directă, fără comision de agenție.`,
+Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată și metrou la 10 minute pe jos în semicentralul Bucureștiului este practic imposibil în altă parte. Prețul de 399.000€ pentru 194,20 mp (205€/mp) cu grădină privată, față de media pieței semicentrale de 2.500-3.500€/mp, reprezintă o oportunitate greu de argumentat împotriva. Vânzare directă, fără comision de agenție. În Sectorul 2, descoperiți și [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) — 13 apartamente boutique — sau [Neofort 8 Tepeș Vodă](/ansamblu-rezidential/neofort-8-tepes-voda-muncii) în apropiere de Piața Muncii.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.446553, lng: 26.119879 },
     zone: ['mosilor-eminescu', 'eminescu-viitorului', 'sector-2'],
@@ -234,8 +234,8 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
       { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '8 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Premium Moșilor–Obor | Neofort 78',
-    seoDescription: 'Neofort 78, Str. Ardeleni, Sector 2. 22 apartamente premium 2–4 camere de la 190.000€+TVA. Metrou Piața Obor 400m. Finisaje italiene, lift panoramic.',
+    seoTitle: 'Apartamente Moșilor-Obor | Neofort 78',
+    seoDescription: 'Neofort 78, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Piața Obor 400m.',
   },
   {
     slug: 'neofort-76-iuliu-maniu-metrou-pacii',
@@ -279,7 +279,7 @@ Bulevardul Iuliu Maniu este una dintre puținele artere principale din Bucureșt
 
 Parcul Liniei — cel mai lung parc liniar din Europa, cu 10 kilometri de alei pietonale continue, piste de biciclete și zone de agrement — este o resursă urbană de agrement cu totul specială pentru locuitorii zonei Militari-Iuliu Maniu. Nu este un parc punctual în care faci o tură și te întorci; este un coridor verde care pornește din Piața Unirii și se extinde spre vest, permițând alergatul, ciclismul și plimbările lungi fără a traversa intersecții majore. La 10 minute cu mașina din Penthouse-ul Neofort 76, Parcul Liniei devine o extensie naturală a spațiului de locuire.
 
-Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat sub 800€. Rezervare cu 2.000€, consultanță gratuită.`,
+Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat sub 800€. Rezervare cu 2.000€, consultanță gratuită. În zona Militari, vedeți și [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — garsoniere și 2 camere de la 76.974€+TVA în promoție activă.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.43368, lng: 25.998051 },
     zone: ['militari', 'sector-6'],
@@ -305,8 +305,8 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
       { tip: 'transport', nume: 'Autostrada A1', distanta: '14 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente și Penthouse Metrou Păcii | Neofort 76',
-    seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Apartamente și Penthouse de la 218.409€+TVA. Metrou Păcii 500m. Fațadă ventilată, finisaje superioare.',
+    seoTitle: 'Apartamente Militari Metrou Păcii | Neofort 76',
+    seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Apartamente și Penthouse de la 218.409€+TVA. Metrou Păcii 500m.',
   },
   {
     slug: 'neofort-56-pallady-titan-teclu',
@@ -350,7 +350,7 @@ Dotarea Smart Home Ready merită o explicație concretă despre ce înseamnă î
 
 Stațiile de încărcare EV în parcare nu sunt o dotare de marketing — sunt o investiție în funcționalitatea parcării pe termen de 15-20 ani. Cota de autoturisme electrice și hibride plug-in în București a ajuns la 12% din vânzările noi în 2024 și este estimată la 35-40% în 2030. Într-o parcare fără stații EV, proprietarii vor fi nevoiți fie să instaleze ei individual la costuri de 2.000-4.000€ pe loc, fie să accepte că parcarea lor nu mai corespunde nevoilor reale ale locatarilor. Neofort 56 rezolvă această problemă structural, din construcție.
 
-Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar cu adevărat unic în Sectorul 3: 133,54 mp utili plus curtea privată, la 235.208€ + TVA. Această configurație permite crearea unui spațiu exterior personal care transformă trăitul la bloc — nu mai ești dependent de parcul public pentru ieșitul cu copiii sau cu animalele de companie. Pe piața secundară, unitățile cu curte din proiecte finalizate se tranzacționează cu prime de 20-30% față de echivalentele fără exterior.`,
+Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar cu adevărat unic în Sectorul 3: 133,54 mp utili plus curtea privată, la 235.208€ + TVA. Această configurație permite crearea unui spațiu exterior personal care transformă trăitul la bloc — nu mai ești dependent de parcul public pentru ieșitul cu copiii sau cu animalele de companie. Pe piața secundară, unitățile cu curte din proiecte finalizate se tranzacționează cu prime de 20-30% față de echivalentele fără exterior. Explorați și [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) pentru alte opțiuni în zona Teclu–Pallady.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.419894, lng: 26.182582 },
     zone: ['titan-pallady', 'sector-3'],
@@ -377,8 +377,8 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '24 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Smart Home Titan Teclu | Neofort 56',
-    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Studio și 2–4 camere de la 184.691€+TVA. Sistem Smart Home integrat, Metrou Nicolae Teclu 3 min, Parcul IOR 10 min.',
+    seoTitle: 'Apartamente Titan Smart Home | Neofort 56',
+    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Studio, 2-4 camere de la 184.691€+TVA. Smart Home Ready, metrou Teclu 3 min.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
@@ -438,7 +438,7 @@ Zona Titan – IOR înregistrează o cerere constantă din partea cumpărătoril
 
 Un element distinctiv al proiectului îl reprezintă apartamentele cu terase spectaculoase, amplasate atât la etaje intermediare, cât și la ultimele două niveluri, unde rezidenții se bucură de panorame impresionante asupra orașului și a zonelor verzi din jur.
 
-Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat de ocupare confirmă calitatea construcției, poziționarea excelentă și nivelul ridicat al facilităților oferite. Odată cu începerea lucrărilor pentru Faza 2, Ansamblul Rezidențial Neofort 50 Titan IOR continuă să redefinească standardele locuirii moderne în zona Titan – IOR.`,
+Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat de ocupare confirmă calitatea construcției, poziționarea excelentă și nivelul ridicat al facilităților oferite. Odată cu începerea lucrărilor pentru Faza 2, Ansamblul Rezidențial Neofort 50 Titan IOR continuă să redefinească standardele locuirii moderne în zona Titan – IOR. Vedeți și [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) — apartamente premium cu metroul la 200m — sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) în zona Pallady.`,
     brokerTel: '0752 443 436',
     coordonate: { lat: 44.433921, lng: 26.172411 },
     zone: ['titan-pallady', 'sector-3'],
@@ -468,8 +468,8 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
       { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '15 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Titan Parc IOR | Neofort 50',
-    seoDescription: 'Neofort 50 Titan IOR, Bd. 1 Decembrie 1918, Sector 3. Apartamente 2–4 camere de la 142.545€+TVA. Metrou Costin Georgian 5 min, Parc IOR 350m.',
+    seoTitle: 'Apartamente noi Titan Parc IOR — Neofort 50',
+    seoDescription: 'Ansamblu rezidential Neofort 50 Titan IOR, Bd. 1 Decembrie 1918, Sector 3 Bucuresti. Apartamente 2-4 camere de la 142.545 euro+TVA. Metrou Costin Georgian.',
   },
   {
     slug: 'neofort-49-militari-metrou-gorjului',
@@ -515,7 +515,7 @@ Proiectul boutique de 18 apartamente asigură un tip de comunitate rare în ofer
 
 Zonele Militari-Gorjului și Militari-Preciziei au înregistrat cele mai mari creșteri de cerere de chirie din București în perioada 2022-2025, direct corelate cu extinderea M3. Angajații care lucrează în centru sau în zona de nord-vest preferă tot mai mult Militari față de zone mai scumpe, datorită conectivității îmbunătățite și raportului preț/calitate superior. Chiria pentru o garsonieră de 38-40 mp în zonă este de 350-430€/lună, reprezentând randamente brute de 5,5-6,7% anual față de prețul de achiziție. Cu 18 unități disponibile și un stoc limitat de proiecte noi în zonă, disponibilitatea se poate reduce rapid.
 
-Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pardoseală, tâmplărie Salamander cu geam tripan, kit aer condiționat preinstalat, obiecte sanitare suspendate, ușă metalică antiefracție, lift silențios — sunt complete fără compromis. Totul inclus în prețul publicat, fără extras sau opțiuni plătite suplimentar. Finalizat, disponibil imediat. Parcare subterană 15.000€ TVA inclus. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision.`,
+Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pardoseală, tâmplărie Salamander cu geam tripan, kit aer condiționat preinstalat, obiecte sanitare suspendate, ușă metalică antiefracție, lift silențios — sunt complete fără compromis. Totul inclus în prețul publicat, fără extras sau opțiuni plătite suplimentar. Finalizat, disponibil imediat. Parcare subterană 15.000€ TVA inclus. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision. Tot în Sectorul 6, descoperiți [Neofort 76 Iuliu Maniu](/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii) — apartamente și penthouse de la 218.409€+TVA lângă Metroul Păcii.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4311, lng: 26.012883 },
     zone: ['militari', 'sector-6'],
@@ -542,8 +542,8 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
       { tip: 'mall', nume: 'AFI Palace Cotroceni', distanta: '18 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Militari Gorjului Promoție | Neofort 49',
-    seoDescription: 'Neofort 49 Militari, Sector 6. Garsoniere și 2 camere de la 76.974€+TVA, promoție activă. Metrou Gorjului 5 min, acces rapid A1. Finalizat, disponibil imediat.',
+    seoTitle: 'Apartamente Militari | Neofort 49 Promo',
+    seoDescription: 'Neofort 49, Sector 6. Garsoniere și 2 camere de la 76.974€+TVA. Promoție activă. Metrou Gorjului câteva minute.',
   },
   {
     slug: 'neofort-44-titan-pallady-teclu',
@@ -587,7 +587,7 @@ Apartamentul de 3 camere cu terasă generoasă la etajele 3-4, 157,87 mp total (
 
 Centrala termică proprie 24kW în condensare — individuală per apartament — este un detaliu tehnic cu impact financiar real. O centrală în condensare operează la randament de 95-98% față de 85-88% pentru centralele clasice, ceea ce înseamnă o reducere a consumului de gaz cu aproximativ 10-15% anual. La o factură medie de gazele de 150€/lună în sezonul rece (6 luni), economia anuală este de 90-135€. Pe 20 de ani de locuire, economia cumulată depășește 1.800-2.700€ — o valoare concretă care justifică diferența față de proiecte cu centrale cu eficiență mai scăzută.
 
-Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitecturală care asigură că dormitoarele sunt separate de zona de zi, fără circulație prin dormitor pentru accesul la baie. Acest detaliu de planimetrie, aparent minor, face o diferență reală în calitatea locuirii — mai ales pentru cupluri și familii cu copii. Eligibil Prima Casă și credite ipotecare standard. Disponibil imediat. Vânzare directă, fără comision.`,
+Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitecturală care asigură că dormitoarele sunt separate de zona de zi, fără circulație prin dormitor pentru accesul la baie. Acest detaliu de planimetrie, aparent minor, face o diferență reală în calitatea locuirii — mai ales pentru cupluri și familii cu copii. Eligibil Prima Casă și credite ipotecare standard. Disponibil imediat. Vânzare directă, fără comision. Descoperiți și [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) cu metroul la 20m, sau [Neofort 56 Pallady Titan Teclu](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) cu sistem Smart Home.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.415636, lng: 26.177416 },
     zone: ['titan-pallady', 'sector-3'],
@@ -616,8 +616,8 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '25 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Titan Pallady Metrou Teclu | Neofort 44',
-    seoDescription: 'Neofort 44 Titan–Pallady, Sector 3. Garsoniere și apartamente 2–3 camere de la 61.775€+TVA. Metrou Nicolae Teclu 3 min, IKEA Pallady 7 min. Predare în curând.',
+    seoTitle: 'Apartamente Titan Pallady | Neofort 44',
+    seoDescription: 'Neofort 44, Titan-Pallady, Sector 3. Garsoniere, 2-3 camere de la 61.775€+TVA. Metrou Nicolae Teclu 3 min.',
   },
   {
     slug: 'neofort-42-piata-muncii',
@@ -659,7 +659,7 @@ Metrou Piața Muncii (M3) la 400m, Metrou Dristor 2 (M2) la 350m — două linii
 
 Panourile solare și fotovoltaice integrate în Neofort 42 — o investiție inițială de 100.000-150.000€ pentru întreg proiectul — generează economii reale la cheltuielile comune: factura de electricitate a spațiilor comune (iluminat casa scării, lifturi, circulații) se reduce cu 30-40%. La o clădire de 64 de apartamente cu cheltuieli comune tipice de 50-80€/lună per unitate, economia poate reprezenta 15-30€/lună per proprietar — 180-360€/an. Pe 20 de ani, fiecare proprietar economisește 3.600-7.200€ față de un proiect fără panouri. Această infrastructură verde crește și atractivitatea proprietăților pe piața de revânzare.
 
-Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.440€ în promoție — se adresează unui segment care caută suprafețe generoase în zona semicentrală la prețuri cu 30-40% sub echivalentele din Sectorul 1 și 2. Piața Muncii-Dristor este în prezent una dintre zonele cu cel mai bun raport suprafață-preț pentru apartamentele premium din București. Vânzare directă, fără comision.`,
+Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.440€ în promoție — se adresează unui segment care caută suprafețe generoase în zona semicentrală la prețuri cu 30-40% sub echivalentele din Sectorul 1 și 2. Piața Muncii-Dristor este în prezent una dintre zonele cu cel mai bun raport suprafață-preț pentru apartamentele premium din București. Vânzare directă, fără comision. Vedeți și [Neofort 50 Titan Parc IOR](/ansamblu-rezidential/neofort-50-titan-parc-ior) cu acces direct la Parcul IOR, sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) în zona Pallady.`,
     brokerTel: '0757 077 057',
     coordonate: { lat: 44.429112, lng: 26.140319 },
     zone: ['piata-muncii', 'sector-3'],
@@ -689,8 +689,8 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
       { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '13 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Premium Piața Muncii | Neofort 42',
-    seoDescription: 'Neofort 42 premium, Sector 3. Apartamente 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii 200m — acces direct. Promoție activă, finisaje superioare.',
+    seoTitle: 'Apartamente Piața Muncii | Neofort 42',
+    seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii 200m. Promoție activă.',
   },
   {
     slug: 'neofort-28-titan-pallady-faza-2',
@@ -740,7 +740,7 @@ Potențial de Investiție în Zona Titan-Pallady
 
 Zona Titan-Pallady înregistrează o cerere constantă de chiriași, susținută de proximitatea față de metroul Nicolae Teclu, polul comercial Pallady și companiile din estul Capitalei. Un apartament cu 2 camere finalizat în această zonă generează o chirie de 400-500 EUR/lună, rezultând un randament brut de 4,5-5,5% anual față de prețul de achiziție. Proiectul se predă complet finisat și echipat, fără costuri suplimentare de amenajare pentru investitor.
 
-Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competitiv față de media zonei Pallady pentru proiecte finalizate cu dotări comparabile. Creșterile de valoare documentate în zona Titan-Pallady din ultimii ani confirmă potențialul de apreciere al capitalului investit pe termen mediu și lung. Neofort 28 Faza 2 se adresează atât familiilor tinere care caută un apartament nou finalizat cu dotări complete, cât și investitorilor interesați de randamente stabile din chirii în una dintre cele mai căutate zone rezidențiale din Sectorul 3 al Bucureștiului. Calitatea construcției, dotările complete și localizarea față de metrou și polul comercial Pallady asigură o lichiditate ridicată a proprietății atât la revânzare cât și pe piața de închiriere pe termen lung.`,
+Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competitiv față de media zonei Pallady pentru proiecte finalizate cu dotări comparabile. Creșterile de valoare documentate în zona Titan-Pallady din ultimii ani confirmă potențialul de apreciere al capitalului investit pe termen mediu și lung. Neofort 28 Faza 2 se adresează atât familiilor tinere care caută un apartament nou finalizat cu dotări complete, cât și investitorilor interesați de randamente stabile din chirii în una dintre cele mai căutate zone rezidențiale din Sectorul 3 al Bucureștiului. Calitatea construcției, dotările complete și localizarea față de metrou și polul comercial Pallady asigură o lichiditate ridicată a proprietății atât la revânzare cât și pe piața de închiriere pe termen lung. Explorați și [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) — apartamente cu curte proprie 50mp — sau [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) în aceeași zonă.`,
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 60.90, avans20: 85900, promo: false, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 62.15, avans20: 92900, promo: false, camere: 2 },
@@ -770,8 +770,8 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '3 camere'],
     tag: null,
-    seoTitle: 'Apartamente Finalizate Titan–Pallady | Neofort 28 F2',
-    seoDescription: 'Neofort 28 Faza 2 Titan–Pallady, Sector 3. Apartamente 2–3 camere finalizate de la 85.900€+TVA. Finisaje PINUM Italia, lift ORONA, metrou Nicolae Teclu 5 min.',
+    seoTitle: 'Apartamente Finalizate Pallady — Neofort 28 F2',
+    seoDescription: 'Neofort 28 Faza 2, Titan-Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje premium PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
   },
   {
     slug: 'neofort-28-titan-pallady-teclu',
@@ -815,7 +815,7 @@ Tâmplăria Salamander tripan Low-E cu microventilație este o dotare cu impact 
 
 Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă asigură o securitate reală, nu aparentă: accesul auto și pietonal este controlat, iar imaginile video sunt disponibile pentru revizuire. Aceasta este o dotare valoroasă mai ales pentru familiile cu copii mici care se pot juca în incintă fără supraveghere permanentă.
 
-Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucureștiului: angajații care lucrează în zona centrală sau de est preferă accesul la M2 față de traficul rutier. Chiria pentru apartamente de 2 camere în Titan-Pallady este de 550-700€/lună în 2025, în creștere față de 450-550€ în 2022. Randamentul brut de 7-8,5% anual plasează Titan-Pallady printre cele mai atractive zone de investiție locativă din București. Apartamentele cu curte din Neofort 28 se închiriază cu o primă de 15-20% față de unitățile standard, datorită cererii ridicate din partea familiilor cu copii sau animale. Vânzare directă, fără comision.`,
+Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucureștiului: angajații care lucrează în zona centrală sau de est preferă accesul la M2 față de traficul rutier. Chiria pentru apartamente de 2 camere în Titan-Pallady este de 550-700€/lună în 2025, în creștere față de 450-550€ în 2022. Randamentul brut de 7-8,5% anual plasează Titan-Pallady printre cele mai atractive zone de investiție locativă din București. Apartamentele cu curte din Neofort 28 se închiriază cu o primă de 15-20% față de unitățile standard, datorită cererii ridicate din partea familiilor cu copii sau animale. Vânzare directă, fără comision. Vedeți și [Neofort 28 Titan Pallady Faza 2](/ansamblu-rezidential/neofort-28-titan-pallady-faza-2) cu finisaje PINUM Italia, sau [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) cu metroul la 20m.`,
     brokerTel: '0752 443 437',
     coordonate: { lat: 44.411192, lng: 26.198428 },
     zone: ['titan-pallady', 'sector-3'],
@@ -849,8 +849,8 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '18 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente cu Curte Titan–Pallady Teclu | Neofort 28',
-    seoDescription: 'Neofort 28 Titan–Pallady, Sector 3. Apartamente 2–3 camere de la 83.900€+TVA, unele cu curte proprie 50mp. Metrou Nicolae Teclu în apropiere, finisaje premium.',
+    seoTitle: 'Apartamente Titan Pallady | Neofort 28',
+    seoDescription: 'Neofort 28 Titan-Pallady, Sector 3. Apartamente 2-3 camere de la 83.900€+TVA, unele cu curte proprie 50mp. Metrou Nicolae Teclu în apropiere.',
   },
   {
     slug: 'neofort-11-eminescu-viitorului',
@@ -894,7 +894,7 @@ Colegiile Iulia Hașdeu și Mihai Eminescu — ambele cu tradiție academică de
 
 Tâmplăria Salamander 7 camere cu geam tripan asigură o izolare fonică de 45dB — pragul la care zgomotul urban exterior devine imperceptibil în dormitor. Zona Eminescu-Viitorului nu este o arteră principală, deci zgomotul de fond este redus, dar izolarea tripan asigură că activitatea din stradă nu se aude în apartament indiferent de oră. Acesta este standardul premium al tâmplăriei PVC — nu toate produsele Salamander sunt la fel, iar 7 camere tripan reprezintă top-ul gamei.
 
-Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperit, securizat, în subsolul propriului imobil — este prețul corect pentru zona Sector 2 semicentral. Alternativa — parcare pe stradă sau în parcări publice din cartier — costă între 150€ și 300€/lună, adică 1.800-3.600€/an. La 25.000€ și 7% dobândă (cost de oportunitate), costul anual al locului de parcare propriu este de 1.750€ — sub prețul parcării publice și cu avantajul certitudinii și siguranței. Predare Septembrie 2026. Vânzare directă, fără comision.`,
+Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperit, securizat, în subsolul propriului imobil — este prețul corect pentru zona Sector 2 semicentral. Alternativa — parcare pe stradă sau în parcări publice din cartier — costă între 150€ și 300€/lună, adică 1.800-3.600€/an. La 25.000€ și 7% dobândă (cost de oportunitate), costul anual al locului de parcare propriu este de 1.750€ — sub prețul parcării publice și cu avantajul certitudinii și siguranței. Predare Septembrie 2026. Vânzare directă, fără comision. Tot în Sectorul 2, descoperiți [Neofort 78 Moșilor Eminescu](/ansamblu-rezidential/neofort-78-mosilor-eminescu) — 22 apartamente premium lângă Piața Obor — sau [Neofort 8 Tepeș Vodă](/ansamblu-rezidential/neofort-8-tepes-voda-muncii).`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.447354, lng: 26.108451 },
     zone: ['eminescu-viitorului', 'mosilor-eminescu', 'sector-2'],
@@ -928,8 +928,8 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
       { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '9 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Boutique Eminescu | Neofort 11',
-    seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium 2–3 camere de la 104.640€+TVA. Predare septembrie 2026. Finisaje superioare, clădire exclusivistă.',
+    seoTitle: 'Apartamente Eminescu-Viitorului | Neofort 11',
+    seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium, 2-3 camere de la 104.640€+TVA. Predare sept. 2026.',
   },
   {
     slug: 'neofort-8-tepes-voda-muncii',
@@ -971,7 +971,7 @@ Zona Tepeș Vodă — Maior Coravu este una dintre rarele zone ale Sectorului 2 
 
 Tipologia de vârf a proiectului — 4 camere 6B cu grădină la parter, 156,80 mp + grădină privată, 465.000€ + TVA — este o proprietate fără echivalent direct în zona Tepeș Vodă-Muncii. A combina un apartament nou de 4 camere cu grădină privată, metrou la 6 minute, clasa energetică A și finisaje premium (MARAZZI, Kronotex, Bosch, PINUM) într-un cartier rezidențial liniștit din Sectorul 2, la prețul de 465.000€, este o combinație pe care piața nu o reproduce ușor. Terasele și grădinile private din blocuri noi au o cerere structurală care depășește oferta în Sectorul 2.
 
-Procesul de achiziție este complet transparent: prețul publicat este prețul final, fără costuri ascunse sau extra-uri obligatorii. Neofort IMO facilitează gratuit legătura cu toate băncile majore partenere — BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank — pentru identificarea celei mai competitive oferte de credit ipotecar disponibile la data achiziției. Consultanța juridică este gratuită pe toată durata procesului. Imobil finalizat, disponibil imediat, clasa energetică A. Vânzare directă, fără comision de agenție.`,
+Procesul de achiziție este complet transparent: prețul publicat este prețul final, fără costuri ascunse sau extra-uri obligatorii. Neofort IMO facilitează gratuit legătura cu toate băncile majore partenere — BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank — pentru identificarea celei mai competitive oferte de credit ipotecar disponibile la data achiziției. Consultanța juridică este gratuită pe toată durata procesului. Imobil finalizat, disponibil imediat, clasa energetică A. Vânzare directă, fără comision de agenție. Explorați și [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) — boutique 13 apartamente — sau [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) cu metroul la 200m.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.435422, lng: 26.127951 },
     zone: ['tepes-voda-muncii', 'piata-muncii', 'sector-2'],
@@ -1005,8 +1005,8 @@ Procesul de achiziție este complet transparent: prețul publicat este prețul f
       { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '16 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Exclusiviste Tepeș Vodă | Neofort 8',
-    seoDescription: 'Neofort 8, Str. Tepeș Vodă, Sector 2. Studio și 2–4 camere de la 146.000€+TVA. Clasa A energetică, metrou Piața Muncii 500m. Bloc exclusivist, finisaje premium.',
+    seoTitle: 'Apartamente Tepeș Vodă | Neofort 8',
+    seoDescription: 'Neofort 8 exclusivist, Sector 2. Studio, 2-4 camere de la 146.000€+TVA. Clasa A. Metrou Piața Muncii 500m.',
   },
 ]
 

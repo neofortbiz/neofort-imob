@@ -1,15 +1,13 @@
 export default function robots() {
   return {
     rules: [
-      // Blocheaza tot pe domeniile de preview/staging
+      // Reguli principale pentru www.neofort.ro
       {
         userAgent: '*',
-        disallow: '/',
-        // Aplicat pe neofort-imob.vercel.app si orice alt domeniu non-production
-        // via next.config.js X-Robots-Tag header
+        allow: '/',
+        disallow: ['/api/'],
       },
-      // Reguli pentru www.neofort.ro
-      { userAgent: '*', allow: '/', disallow: ['/api/'] },
+      // LLM crawlers — acces complet pentru indexare AI
       { userAgent: 'GPTBot', allow: '/' },
       { userAgent: 'ChatGPT-User', allow: '/' },
       { userAgent: 'ClaudeBot', allow: '/' },
@@ -20,6 +18,8 @@ export default function robots() {
       { userAgent: 'Googlebot-Image', allow: '/portofoliu/' },
       { userAgent: 'Bingbot', allow: '/' },
     ],
+    // Domeniile de staging sunt blocate prin X-Robots-Tag header în next.config.js
+    // nu prin robots.txt (robots.txt nu suportă condiții de host)
     sitemap: 'https://www.neofort.ro/sitemap.xml',
   }
 }

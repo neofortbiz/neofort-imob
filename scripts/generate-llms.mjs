@@ -35,15 +35,15 @@ function fmt(n) {
   return new Intl.NumberFormat('ro-RO').format(n)
 }
 
-function statusLabel(s) {
-  return s === 'activ' ? 'Finalizat' : s === 'constructie' ? 'În construcție' : s === 'promotie' ? 'Promoție' : s
+function statusLabel(dataPredare) {
+  return dataPredare === 'Finalizat' ? 'Finalizat' : 'În construcție'
 }
 
 // ── Generare llms.txt (sumar) ─────────────────────────────
 function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   const NR_ACTIVE = ANSAMBLURI_ACTIVE.length
   const NR_PORTOFOLIU = TOATE_PORTOFOLIU.length
-  const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.status === 'activ').length
+  const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Finalizat').length
   const NR_LIVRATE = NR_PORTOFOLIU + NR_FINALIZATE
 
   let out = `# Neofort IMO — Imobiliare București\n# Actualizat: ${TODAY}\n\n`
@@ -123,7 +123,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
 function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   const NR_ACTIVE = ANSAMBLURI_ACTIVE.length
   const NR_PORTOFOLIU = TOATE_PORTOFOLIU.length
-  const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.status === 'activ').length
+  const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Finalizat').length
   const NR_LIVRATE = NR_PORTOFOLIU + NR_FINALIZATE
 
   let out = `# Neofort IMO — Imobiliare București (VERSIUNE COMPLETA)\n# Actualizat: ${TODAY}\n# Versiune: llms-full.txt (date complete pentru sisteme AI/RAG)\n\n`
@@ -153,7 +153,7 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   for (const a of ANSAMBLURI_ACTIVE) {
     out += `### ${a.nume} — ${a.zona}, ${a.sector}\n`
     out += `Slug: ${a.slug}\n`
-    out += `Status: ${statusLabel(a.status)}\n`
+    out += `Status: ${statusLabel(a.dataPredare)}\n`
     out += `Etaje: ${a.etaje}\n`
     out += `Tipuri: ${a.tipuri.join(', ')}\n`
     out += `Pret de la: ${fmt(a.pretDeLa)}€ + TVA\n`
