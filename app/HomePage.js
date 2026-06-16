@@ -210,7 +210,7 @@ export default function HomePageClient() {
       item: {
         '@type': 'RealEstateListing',
         name: a.nume,
-        url: \`https://www.neofort.ro/ansamblu-rezidential/\${a.slug}\`,
+        url: `https://www.neofort.ro/ansamblu-rezidential/${a.slug}`,
         description: a.seoDescription || a.descriere,
         offers: {
           '@type': 'Offer',
