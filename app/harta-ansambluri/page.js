@@ -122,11 +122,11 @@ const mapPageSchema = {
   '@type': 'Map',
   name: 'Harta Ansambluri Rezidențiale Neofort IMO București',
   description: `Hartă interactivă cu ${ANSAMBLURI_ACTIVE.length + TOATE_PORTOFOLIU.length} ansambluri rezidențiale Neofort IMO din București`,
-  url: `${BASE}/harta-ansambluri`,
+  url: 'https://www.neofort.ro/harta-ansambluri',
   provider: {
     '@type': 'Organization',
     name: 'Neofort IMO',
-    url: BASE,
+    url: 'https://www.neofort.ro',
   },
 }
 
@@ -167,6 +167,7 @@ export default function HartaPage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(mapPageSchema) }} />
       <Header activePath="/harta-ansambluri" />
       <main className="min-h-screen bg-gray-50">
 
