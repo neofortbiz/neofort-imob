@@ -121,7 +121,7 @@ const mapPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'Map',
   name: 'Harta Ansambluri Rezidențiale Neofort IMO București',
-  description: `Hartă interactivă cu ${NR_ACTIVE + NR_PORTOFOLIU} ansambluri rezidențiale Neofort IMO din București`,
+  description: `Hartă interactivă cu ${ANSAMBLURI_ACTIVE.length + TOATE_PORTOFOLIU.length} ansambluri rezidențiale Neofort IMO din București`,
   url: `${BASE}/harta-ansambluri`,
   provider: {
     '@type': 'Organization',
