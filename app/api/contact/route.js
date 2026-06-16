@@ -1,6 +1,36 @@
 import { NextResponse } from 'next/server'
 import { NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
 
+// Rate limiting simplu în-memory — max 5 request-uri pe IP per 10 minute
+const RATE_LIMIT_WINDOW = 10 * 60 * 1000 // 10 minute
+const RATE_LIMIT_MAX = 5
+const rateLimitMap = new Map()
+
+function checkRateLimit(ip) {
+  const now = Date.now()
+  const entry = rateLimitMap.get(ip)
+  
+  if (!entry || now - entry.start > RATE_LIMIT_WINDOW) {
+    rateLimitMap.set(ip, { start: now, count: 1 })
+    return true
+  }
+  
+  if (entry.count >= RATE_LIMIT_MAX) return false
+  
+  entry.count++
+  return true
+}
+
+// Curăță map-ul periodic pentru a evita memory leak
+if (typeof setInterval !== 'undefined') {
+  setInterval(() => {
+    const now = Date.now()
+    for (const [ip, entry] of rateLimitMap.entries()) {
+      if (now - entry.start > RATE_LIMIT_WINDOW) rateLimitMap.delete(ip)
+    }
+  }, RATE_LIMIT_WINDOW)
+}
+
 const DEST_EMAIL = 'lead.neo@neofort-biz.ro'
 const FROM_EMAIL = 'noreply@neofort-biz.ro'
 const BASE = 'https://www.neofort.ro'
