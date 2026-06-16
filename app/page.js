@@ -1,5 +1,6 @@
 import HomePageClient from './HomePage'
 import { NR_ACTIVE } from '@/data/siteConfig'
+import { ANSAMBLURI_LITE } from '@/data/ansambluri'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -88,8 +89,22 @@ const faqSchema = {
 }
 
 export default function Page() {
+  // Preload LCP — prima imagine din grid (primul ansamblu activ)
+  const firstCover = ANSAMBLURI_LITE[0]?.imagini?.cover
+  
   return (
     <>
+      {/* Preload imagine LCP — primul card din grid ansambluri */}
+      {firstCover && (
+        <link
+          rel="preload"
+          as="image"
+          href={firstCover}
+          imageSrcSet={firstCover}
+          imageSizes="(max-width: 640px) 50vw, 17vw"
+          fetchPriority="high"
+        />
+      )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <HomePageClient />

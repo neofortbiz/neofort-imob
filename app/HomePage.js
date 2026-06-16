@@ -232,7 +232,7 @@ export default function HomePageClient() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Header activePath="/" />
-      <main style={{ overflowX: 'hidden' }}>
+      <main id="main-content" style={{ overflowX: 'hidden' }}>
 
         {/* HERO */}
         <section style={{ background: '#081c12' }} className="pt-10 pb-10 md:pt-14 md:pb-14 px-6 text-center">
