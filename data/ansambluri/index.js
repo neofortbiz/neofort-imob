@@ -18,7 +18,6 @@ export const ANSAMBLURI = [
     brokerFoto: '/brokeri/raluca-nistor.avif',
     imagini: {
       cover: '/ansambluri/neo-84/exterior-01.avif',
-      altTextExterior: 'Ansamblu rezidential Neofort 84 Titan Pallady, apartamente noi 2-4 camere, Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-84/exterior-01.avif','/ansambluri/neo-84/exterior-02.avif','/ansambluri/neo-84/exterior-03.avif'],
       interior: [],
       schite: ['/ansambluri/neo-84/schite-01.avif','/ansambluri/neo-84/schite-02.avif','/ansambluri/neo-84/schite-03.avif','/ansambluri/neo-84/schite-04.avif','/ansambluri/neo-84/schite-05.avif','/ansambluri/neo-84/schite-06.avif','/ansambluri/neo-84/schite-07.avif','/ansambluri/neo-84/schite-08.avif','/ansambluri/neo-84/schite-09.avif','/ansambluri/neo-84/schite-10.avif','/ansambluri/neo-84/schite-11.avif','/ansambluri/neo-84/schite-12.avif','/ansambluri/neo-84/schite-13.avif','/ansambluri/neo-84/schite-14.avif','/ansambluri/neo-84/schite-15.avif','/ansambluri/neo-84/schite-16.avif','/ansambluri/neo-84/schite-17.avif','/ansambluri/neo-84/schite-18.avif','/ansambluri/neo-84/schite-19.avif','/ansambluri/neo-84/schite-20.avif','/ansambluri/neo-84/schite-21.avif','/ansambluri/neo-84/schite-22.avif','/ansambluri/neo-84/schite-23.avif','/ansambluri/neo-84/schite-24.avif','/ansambluri/neo-84/schite-25.avif','/ansambluri/neo-84/schite-26.avif','/ansambluri/neo-84/schite-27.avif','/ansambluri/neo-84/schite-28.avif'],
@@ -97,7 +96,6 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-83/exterior-01.avif',
-      altTextExterior: 'Bloc rezidential Neofort 83 Titan Pallady, apartamente noi langa Metrou Anghel Saligny, Sector 3',
       exterior: ['/ansambluri/neo-83/exterior-01.avif','/ansambluri/neo-83/exterior-02.avif','/ansambluri/neo-83/exterior-03.avif'],
       interior: ['/ansambluri/neo-83/interior-01.avif','/ansambluri/neo-83/interior-02.avif','/ansambluri/neo-83/interior-03.avif','/ansambluri/neo-83/interior-04.avif','/ansambluri/neo-83/interior-05.avif','/ansambluri/neo-83/interior-06.avif','/ansambluri/neo-83/interior-07.avif','/ansambluri/neo-83/interior-08.avif'],
       schite: ['/ansambluri/neo-83/schite-01.avif','/ansambluri/neo-83/schite-02.avif','/ansambluri/neo-83/schite-03.avif','/ansambluri/neo-83/schite-04.avif','/ansambluri/neo-83/schite-05.avif','/ansambluri/neo-83/schite-06.avif','/ansambluri/neo-83/schite-07.avif','/ansambluri/neo-83/schite-08.avif','/ansambluri/neo-83/schite-09.avif','/ansambluri/neo-83/schite-10.avif','/ansambluri/neo-83/schite-11.avif','/ansambluri/neo-83/schite-12.avif','/ansambluri/neo-83/schite-13.avif'],
@@ -155,7 +153,7 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 83',
-    seoDescription: 'Neofort 83 Faza 2, Titan, Sector 3. Garsoniere, 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu la 3 min. Centrală condensare, fațadă ventilată bazaltică.',
+    seoDescription: 'Neofort 83 Faza 2, zona Titan, Sector 3. Garsoniere, studio, 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu 3 min.',
   },
   {
     slug: 'neofort-78-mosilor-eminescu',
@@ -174,7 +172,6 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-78/exterior-01.avif',
-      altTextExterior: 'Ansamblu premium Neofort 78 Mosilor Eminescu, apartamente 2-4 camere Sector 2 Bucuresti',
       exterior: ['/ansambluri/neo-78/exterior-01.avif','/ansambluri/neo-78/exterior-02.avif','/ansambluri/neo-78/exterior-03.avif','/ansambluri/neo-78/exterior-04.avif','/ansambluri/neo-78/exterior-05.avif','/ansambluri/neo-78/exterior-06.avif'],
       interior: ['/ansambluri/neo-78/interior-01.avif','/ansambluri/neo-78/interior-02.avif','/ansambluri/neo-78/interior-03.avif','/ansambluri/neo-78/interior-04.avif','/ansambluri/neo-78/interior-05.avif','/ansambluri/neo-78/interior-06.avif','/ansambluri/neo-78/interior-07.avif','/ansambluri/neo-78/interior-08.avif'],
       schite: ['/ansambluri/neo-78/schite-01.avif','/ansambluri/neo-78/schite-02.avif','/ansambluri/neo-78/schite-03.avif','/ansambluri/neo-78/schite-04.avif','/ansambluri/neo-78/schite-05.avif','/ansambluri/neo-78/schite-06.avif','/ansambluri/neo-78/schite-07.avif','/ansambluri/neo-78/schite-08.avif','/ansambluri/neo-78/schite-09.avif','/ansambluri/neo-78/schite-10.avif'],
@@ -238,7 +235,7 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     ],
     galerie: [],
     seoTitle: 'Apartamente Moșilor-Obor | Neofort 78',
-    seoDescription: 'Neofort 78 Faza 2, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Piața Obor 400m. Finisaje HansGrohe, predare sept. 2026.',
+    seoDescription: 'Neofort 78, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Piața Obor 400m.',
   },
   {
     slug: 'neofort-76-iuliu-maniu-metrou-pacii',
@@ -256,7 +253,6 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-76/exterior-01.avif',
-      altTextExterior: 'Neofort 76 Iuliu Maniu Metrou Pacii, apartamente finalizate disponibile imediat Sector 6 Bucuresti',
       exterior: ['/ansambluri/neo-76/exterior-01.avif','/ansambluri/neo-76/exterior-02.avif','/ansambluri/neo-76/exterior-03.avif'],
       interior: ['/ansambluri/neo-76/interior-01.avif','/ansambluri/neo-76/interior-02.avif','/ansambluri/neo-76/interior-03.avif','/ansambluri/neo-76/interior-04.avif','/ansambluri/neo-76/interior-05.avif','/ansambluri/neo-76/interior-06.avif','/ansambluri/neo-76/interior-07.avif','/ansambluri/neo-76/interior-08.avif','/ansambluri/neo-76/interior-09.avif','/ansambluri/neo-76/interior-10.avif','/ansambluri/neo-76/interior-11.avif','/ansambluri/neo-76/interior-12.avif'],
       schite: [],
@@ -310,7 +306,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     ],
     galerie: [],
     seoTitle: 'Apartamente Militari Metrou Păcii | Neofort 76',
-    seoDescription: 'Neofort 76 Iuliu Maniu, Sector 6. Apartamente 2-4 camere și Penthouse de la 218.409€+TVA. Metrou Iuliu Maniu (Păcii) la 500m. Finalizat, predare imediată.',
+    seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Apartamente și Penthouse de la 218.409€+TVA. Metrou Păcii 500m.',
   },
   {
     slug: 'neofort-56-pallady-titan-teclu',
@@ -328,7 +324,6 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-56/exterior-01.avif',
-      altTextExterior: 'Ansamblu Neofort 56 Smart Home Titan Pallady, apartamente finalizate 2-4 camere Sector 3',
       exterior: ['/ansambluri/neo-56/exterior-01.avif','/ansambluri/neo-56/exterior-02.avif','/ansambluri/neo-56/exterior-03.avif','/ansambluri/neo-56/exterior-04.avif'],
       interior: ['/ansambluri/neo-56/interior-01.avif','/ansambluri/neo-56/interior-02.avif','/ansambluri/neo-56/interior-03.avif','/ansambluri/neo-56/interior-04.avif','/ansambluri/neo-56/interior-05.avif','/ansambluri/neo-56/interior-06.avif','/ansambluri/neo-56/interior-07.avif','/ansambluri/neo-56/interior-08.avif','/ansambluri/neo-56/interior-09.avif','/ansambluri/neo-56/interior-10.avif'],
       schite: ['/ansambluri/neo-56/schite-01.avif','/ansambluri/neo-56/schite-02.avif'],
@@ -383,7 +378,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Smart Home | Neofort 56',
-    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Studio, 2-4 camere de la 184.691€+TVA. Smart Home Ready, metrou Nicolae Teclu 3 min. Finalizat, disponibil imediat.',
+    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Studio, 2-4 camere de la 184.691€+TVA. Smart Home Ready, metrou Teclu 3 min.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
@@ -401,7 +396,6 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     brokerFoto: '/brokeri/adrian-pintilie.avif',
     imagini: {
       cover: '/ansambluri/neo-50/exterior-01.avif',
-      altTextExterior: 'Neofort 50 Titan Parc IOR, ansamblu rezidential finalizat Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-50/exterior-01.avif','/ansambluri/neo-50/exterior-02.avif','/ansambluri/neo-50/exterior-03.avif','/ansambluri/neo-50/exterior-04.avif','/ansambluri/neo-50/exterior-05.avif'],
       interior: ['/ansambluri/neo-50/interior-01.avif','/ansambluri/neo-50/interior-02.avif','/ansambluri/neo-50/interior-03.avif','/ansambluri/neo-50/interior-04.avif','/ansambluri/neo-50/interior-05.avif','/ansambluri/neo-50/interior-06.avif','/ansambluri/neo-50/interior-07.avif','/ansambluri/neo-50/interior-08.avif','/ansambluri/neo-50/interior-09.avif','/ansambluri/neo-50/interior-10.avif','/ansambluri/neo-50/interior-11.avif','/ansambluri/neo-50/interior-12.avif','/ansambluri/neo-50/interior-13.avif','/ansambluri/neo-50/interior-14.avif','/ansambluri/neo-50/interior-15.avif'],
       schite: ['/ansambluri/neo-50/schite-01.avif','/ansambluri/neo-50/schite-02.avif','/ansambluri/neo-50/schite-03.avif','/ansambluri/neo-50/schite-04.avif','/ansambluri/neo-50/schite-05.avif','/ansambluri/neo-50/schite-06.avif','/ansambluri/neo-50/schite-07.avif','/ansambluri/neo-50/schite-08.avif','/ansambluri/neo-50/schite-09.avif','/ansambluri/neo-50/schite-10.avif'],
@@ -493,54 +487,54 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-49/exterior-01.avif',
-      altTextExterior: 'Randare exterioara ansamblu Neofort 49 Militari, apartamente noi garsoniere si 2 camere langa Metrou Gorjului Sector 6',
       exterior: ['/ansambluri/neo-49/exterior-01.avif','/ansambluri/neo-49/exterior-02.avif','/ansambluri/neo-49/exterior-03.avif','/ansambluri/neo-49/exterior-04.avif','/ansambluri/neo-49/exterior-05.avif','/ansambluri/neo-49/exterior-06.avif','/ansambluri/neo-49/exterior-07.avif'],
       interior: ['/ansambluri/neo-49/interior-01.avif','/ansambluri/neo-49/interior-02.avif','/ansambluri/neo-49/interior-03.avif','/ansambluri/neo-49/interior-04.avif','/ansambluri/neo-49/interior-05.avif'],
       schite: ['/ansambluri/neo-49/schite-01.avif','/ansambluri/neo-49/schite-02.avif','/ansambluri/neo-49/schite-03.avif','/ansambluri/neo-49/schite-04.avif','/ansambluri/neo-49/schite-05.avif','/ansambluri/neo-49/schite-06.avif'],
     },
-    descriereCompleta: `Neofort 49 este răspunsul Neofort IMO pentru cumpărătorii care caută un apartament finalizat în zona Militari, la prețuri accesibile și cu acces direct la metroul M3: un proiect boutique de 18 apartamente pe Strada Vistiernicul Stavrinos, Sectorul 6, disponibil în promoție.
+    descriereCompleta: `Neofort 49 este răspunsul Neofort IMO pentru cumpărătorii care caută un apartament în curs de construire în zona Militari, la prețuri accesibile și cu acces direct la metroul M3: un proiect boutique de 16 apartamente pe Strada Vistiernicul Stavrinos, Sectorul 6, disponibil în promoție.
 
-Garsonieră 38,90 mp: 76.974€ preț promoțional + TVA. Apartament 2 camere 60,30 mp: 118.947€ preț promoțional + TVA. Parcare subterană 15.000€ TVA inclus. Prețurile promoționale sunt valabile pentru stocul curent disponibil.
+Garsonieră 38,90 mp: 77.800 €+ TVA. Apartament 2 camere 60,30 mp: 120.600 € + TVA. Parcare subterană 15.000€ TVA inclus. Prețurile promoționale sunt valabile pentru stocul curent disponibil.
 
 Zona Militari-Gorjului a câștigat semnificativ în atractivitate după extinderea liniei M3 spre Drumul Taberei. Metroul Gorjului și Metroul Păcii — ambele accesibile la câteva minute pe jos — asigură accesul spre Piața Unirii în 10 minute și spre Drumul Taberei în 5 minute, fără dependență de traficul consistent al Bulevardului Iuliu Maniu sau al Bulevardului Timișoara. Această conectivitate face zona extrem de atractivă pentru angajații care lucrează în centrul Bucureștiului sau în zona de vest.
 
 Structura din beton armat C25/30 cu zidărie Porotherm 30cm și izolație EPS100 depășește standardele minime impuse de legislație. Dotările sunt complete fără compromis: centrală proprie în condensare pentru eficiență energetică, încălzire prin pardoseală, tâmplărie Salamander negru structurat cu geam tripan, kit de aer condiționat preinstalat, baie complet echipată cu obiecte sanitare incastrabile suspendate, ușă metalică multipunct antiefracție și lift silențios. Totul inclus în prețul publicat.
 
-Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute, BricoDepot Militari la 10 minute. Parcul Liniei — cel mai lung parc liniar din Europa cu 10 km de alei — la 10 minute pe jos. Școala Internațională King George la 10 minute și Școala Gimnazială Regina Maria la 8 minute. Sanador Militari și OK Medical la 8 minute, Clinica Regina Maria Militari la 10 minute.
+Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute, BricoDepot Militari la 10 minute. Parcul Liniei — cel mai lung parc liniar din Europa cu 10 km de alei — la 5 minute pe jos. Școala Internațională King George la 10 minute și Școala Gimnazială Regina Maria la 8 minute. Sanador Militari și OK Medical la 8 minute, Clinica Regina Maria Militari la 10 minute.
 
-Cu 18 unități finalizate, cheltuielile comune de întreținere sunt reduse și gestionabile, iar comunitatea de locatari este restrânsă și omogenă. Pentru cumpărătorii aflați la prima locuință sau pentru investitorii care caută randament bun în chirie — zona Militari generează chirii de 350-450€/lună pentru garsoniere — Neofort 49 reprezintă o oportunitate concretă și imediată. Vânzare directă, fără comision.
+Cu 18 unități finalizate, cheltuielile comune de întreținere sunt reduse și gestionabile, iar comunitatea de locatari este restrânsă și omogenă. Pentru cumpărătorii aflați la prima locuință sau pentru investitorii care caută randament bun în chirie — zona Militari generează chirii de 450-550€/lună pentru garsoniere — Neofort 49 reprezintă o oportunitate concretă și imediată. Vânzare directă, fără comision.
 
-Un argument suplimentar pentru Neofort 49 ca investiție: chiria lunară pentru o garsonieră de 38-40 mp în zona Militari cu metrou la 5 minute variază între 350€ și 430€ pe lună, ceea ce generează un randament brut de 5,5-6,7% anual față de prețul promoțional de 76.974€. Apartamentele de 2 camere se închiriază curent cu 550-650€/lună, randament 5,5-6,5% față de 118.947€. Zona Militari este în mod constant printre zonele cu cea mai ridicată cerere de chirie din București, alimentată de angajații din zona de business a Sectorului 6 și din centru. Vânzare directă, fără comision.
+Un argument suplimentar pentru Neofort 49 ca investiție: chiria lunară pentru o garsonieră de 38-40 mp în zona Militari cu metrou la 5 minute variază între 450€ și 530€ pe lună, ceea ce generează un randament brut de 6% estimativ anual față de prețul de 77.800 €. Apartamentele de 2 camere se închiriază curent cu 550-650€/lună, randament 5,5-6,5% față de 120.600 €. Zona Militari este în mod constant printre zonele cu cea mai ridicată cerere de chirie din București, alimentată de angajații din zona de business a Sectorului 6 și din centru. Vânzare directă, fără comision.
 
-Zona Militari-Gorjului are unul dintre cele mai bune rapoarte preț/conectivitate din București. La prețul de 76.974€ pentru o garsonieră finalizată cu metrou la câteva minute, alternativele comparabile din zone similare (Drumul Taberei, Militari-Pacii) pornesc de la 85.000-95.000€. Diferența de 8.000-18.000€ față de piață, combinată cu finisajele superioare mediei și cu stocul limitat de 18 unități, face din Neofort 49 o oportunitate imediată și concretă.
+Zona Militari-Gorjului are unul dintre cele mai bune rapoarte preț/conectivitate din București. La prețul de 76.974€ pentru o garsonieră finalizată cu metrou la câteva minute, alternativele comparabile din zone similare (Drumul Taberei, Militari-Pacii) pornesc de la 85.000-95.000€. Diferența de 8.000-18.000€ față de piață, combinată cu finisajele superioare mediei și cu stocul limitat de 16 unități, face din Neofort 49 o oportunitate imediată și concretă.
 
-Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Militari cu metrou la 5 minute cu 350-430€/lună — randament brut 5,5-6,7% anual. Apartamentele de 2 camere generează 550-650€/lună — randament 5,5-6,5%. Stocul este limitat la 18 unități — disponibilitatea se poate reduce rapid. Parcare subterană 15.000€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari generează constant una dintre cele mai ridicate cereri de chirie din București, alimentată de angajații din zona de business a Sectorului 6, din centru și din zona Drumul Taberei conectată pe M5. Cu doar 18 unități disponibile, stocul se poate epuiza rapid.
+Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Militari cu metrou la 5 minute cu 450-530€/lună — randament brut 6% estimativ anual. Apartamentele de 2 camere generează 550-650€/lună — randament 5,5-6,5%. Stocul este limitat la 16 unități — disponibilitatea se poate reduce rapid. Parcare subterană 15.000€ TVA inclus. Rezervare cu 5% din pret. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari generează constant una dintre cele mai ridicate cereri de chirie din București, alimentată de angajații din zona de business a Sectorului 6, din centru și din zona Drumul Taberei conectată pe M5. Cu doar 16 unități disponibile, stocul se poate epuiza rapid.
 
-Strada Vistiernicul Stavrinos se află la aproximativ 250m de Metrou Gorjului (M3) — aproximativ 3 minute de mers pe jos. Linia M3 este cea mai recentă și mai lungă magistrală de metrou din București, traversând Sectorul 6 de la Drumul Taberei spre est și conectând Sectorul 6 cu centrul și cu zona de est a capitalei. De la Gorjului: Eroilor în 4 minute, Piața Unirii în 8 minute, Piața Victoriei în 12 minute. Această conectivitate transformă zona Militari dintr-un cartier rezidențial îndepărtat de centru — percepție moștenită din epoca premergătoare M3 — într-o zonă cu acces urban complet.
+Strada Vistiernicul Stavrinos se află la aproximativ 950m de Metrou Gorjului (M3) — aproximativ 12 minute de mers pe jos. Linia M3 este cea mai recentă și mai lungă magistrală de metrou din București, traversând Sectorul 6 de la Drumul Taberei spre est și conectând Sectorul 6 cu centrul și cu zona de est a capitalei. De la Gorjului: Eroilor în 10 minute, Piața Unirii în 20 minute, Piața Victoriei în 20 minute. Această conectivitate transformă zona Militari dintr-un cartier rezidențial îndepărtat de centru — percepție moștenită din epoca premergătoare M3 — într-o zonă cu acces urban complet.
 
-Proiectul boutique de 18 apartamente asigură un tip de comunitate rare în oferta imobiliară din București: toți locatarii se cunosc, costurile comune sunt reduse și transparente, întreținerea clădirii este simplă. Ascensorul, casa scării, spațiile comune — toate sunt gestionate de o comunitate mică, omogenă. Nu ai conflicte cu sute de vecini pe cheltuieli de întreținere, nu ai birocrația unui complex imobiliar mare.
+Proiectul boutique de 16 apartamente asigură un tip de comunitate rare în oferta imobiliară din București: toți locatarii se cunosc, costurile comune sunt reduse și transparente, întreținerea clădirii este simplă. Ascensorul, casa scării, spațiile comune — toate sunt gestionate de o comunitate mică, omogenă. Nu ai conflicte cu sute de vecini pe cheltuieli de întreținere, nu ai birocrația unui complex imobiliar mare.
 
-Zonele Militari-Gorjului și Militari-Preciziei au înregistrat cele mai mari creșteri de cerere de chirie din București în perioada 2022-2025, direct corelate cu extinderea M3. Angajații care lucrează în centru sau în zona de nord-vest preferă tot mai mult Militari față de zone mai scumpe, datorită conectivității îmbunătățite și raportului preț/calitate superior. Chiria pentru o garsonieră de 38-40 mp în zonă este de 350-430€/lună, reprezentând randamente brute de 5,5-6,7% anual față de prețul de achiziție. Cu 18 unități disponibile și un stoc limitat de proiecte noi în zonă, disponibilitatea se poate reduce rapid.
+Zonele Militari-Gorjului și Militari-Preciziei au înregistrat cele mai mari creșteri de cerere de chirie din București în perioada 2022-2025, direct corelate cu extinderea M3. Angajații care lucrează în centru sau în zona de nord-vest preferă tot mai mult Militari față de zone mai scumpe, datorită conectivității îmbunătățite și raportului preț/calitate superior. Chiria pentru o garsonieră de 38-40 mp în zonă este de 450-530€/lună, reprezentând randamente brute de 6% estimativ anual față de prețul de achiziție. Cu 16 unități disponibile și un stoc limitat de proiecte noi în zonă, disponibilitatea se poate reduce rapid.
 
-Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pardoseală, tâmplărie Salamander cu geam tripan, kit aer condiționat preinstalat, obiecte sanitare suspendate, ușă metalică antiefracție, lift silențios — sunt complete fără compromis. Totul inclus în prețul publicat, fără extras sau opțiuni plătite suplimentar. Finalizat, disponibil imediat. Parcare subterană 15.000€ TVA inclus. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision. Tot în Sectorul 6, descoperiți [Neofort 76 Iuliu Maniu](/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii) — apartamente și penthouse de la 218.409€+TVA lângă Metroul Păcii.`,
+Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pardoseală, tâmplărie Salamander cu geam tripan, kit aer condiționat preinstalat, obiecte sanitare suspendate, ușă metalică antiefracție, lift silențios — sunt complete fără compromis. Totul inclus în prețul publicat, fără extras sau opțiuni plătite suplimentar.  Parcare subterană 15.000€ TVA inclus. Rezervare cu 5% din pret, consultanță bancară gratuită, vânzare directă fără comision. Tot în Sectorul 6, descoperiți [Neofort 76 Iuliu Maniu](/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii) — apartamente și penthouse de la 218.409€+TVA lângă Metroul Păcii.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4311, lng: 26.012883 },
     zone: ['militari', 'sector-6'],
     tipuri: ['Garsoniera', '2 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 18 apartamente finalizat. Garsoniere și 2 camere de la 76.974€+TVA. Metrou Gorjului și Păcii la câteva minute. Centrală proprie, încălzire pardoseală, tâmplărie Salamander, kit aer condiționat, finisaje moderne la cheie.',
+    descriere: 'Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 16 apartamente în construcție. Garsoniere (38,9 mp) și 2 camere (38,9-71,4 mp) de la 77.800€+TVA. Metrou Gorjului (M3) la 950m. Centrală proprie, încălzire pardoseală, tâmplărie Salamander tripan, kit aer condiționat, finisaje complete.',
     apartamente: [
       { tip: 'Garsoniera', etaj: 'et. 1-3', suprafata: 38.90, avans20: 77800, avans45: null, promo: false, camere: 1 },
-      { tip: '2 camere', etaj: 'et. 1-3', suprafata: 60.30, avans20: 120600, avans45: null, promo: false, camere: 2 },
+      { tip: '2 camere tip 1', etaj: 'et. 1-3', suprafata: 60.30, avans20: 120600, avans45: null, promo: false, camere: 2 },
+      { tip: '2 camere tip 2', etaj: 'et. 1-3', suprafata: 71.40, avans20: 120600, avans45: null, promo: false, camere: 2 },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 15000, notaTVA: 'TVA inclus' } },
     dotari: ['Centrala proprie de apartament', 'Incalzire prin pardoseala', 'Tamplarie Salamander negru structurat', 'Kit aer conditionat', 'Baie complet echipata', 'Obiecte sanitare incastrabile suspendate', 'Usa metalica multipunct antiefractie', 'Lift silentios'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Gorjului (M3)', distanta: '250m' },
+      { tip: 'metrou', nume: 'Metrou Gorjului (M3)', distanta: '950m' },
       { tip: 'mall', nume: 'Militari Shopping Center', distanta: '10 min pe jos' },
       { tip: 'medical', nume: 'Sanador Militari', distanta: '13 min pe jos' },
       { tip: 'metrou', nume: 'Metrou Pacii (M3)', distanta: '5 min cu masina' },
       { tip: 'metrou', nume: 'Metrou Petrache Poenaru (M3)', distanta: '6 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Liniei', distanta: '7 min cu masina' },
+      { tip: 'parc', nume: 'Parcul Liniei', distanta: '5 min pe jos' },
       { tip: 'metrou', nume: 'Metrou Preciziei (M3)', distanta: '8 min cu masina' },
       { tip: 'mall', nume: 'Cora Lujerului', distanta: '10 min cu masina' },
       { tip: 'metrou', nume: 'Metrou Lujerului (M3)', distanta: '11 min cu masina' },
@@ -550,7 +544,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     ],
     galerie: [],
     seoTitle: 'Apartamente Militari | Neofort 49 Promo',
-    seoDescription: 'Neofort 49 Militari, Sector 6. Garsoniere și apartamente 2 camere de la 76.974€+TVA. Promoție activă, prețuri reduse. Metrou Gorjului la câteva minute pe jos.',
+    seoDescription: 'Neofort 49, Sector 6. Garsoniere și 2 camere de la 76.974€+TVA. Promoție activă. Metrou Gorjului câteva minute.',
   },
   {
     slug: 'neofort-44-titan-pallady-teclu',
@@ -559,7 +553,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Zona Titan-Theodor Pallady, Sector 3, Bucuresti',
-    status: 'constructie',
+    status: 'activ',
     dataPredare: 'In curand',
     pretDeLa: 61775,
     etaje: 'Ds+3E+4Er',
@@ -568,7 +562,6 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-44/exterior-01.avif',
-      altTextExterior: 'Bloc nou Neofort 44 Titan Pallady Teclu, garsoniere si apartamente 2-3 camere Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-44/exterior-01.avif','/ansambluri/neo-44/exterior-02.avif','/ansambluri/neo-44/exterior-03.avif'],
       interior: [],
       schite: ['/ansambluri/neo-44/schite-01.avif','/ansambluri/neo-44/schite-02.avif','/ansambluri/neo-44/schite-03.avif'],
@@ -625,7 +618,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 44',
-    seoDescription: 'Neofort 44 Titan-Pallady, Sector 3. Garsoniere, 2-3 camere de la 61.775€+TVA. Metrou Nicolae Teclu la 3 minute pe jos. Predare curând, direct de la sursă.',
+    seoDescription: 'Neofort 44, Titan-Pallady, Sector 3. Garsoniere, 2-3 camere de la 61.775€+TVA. Metrou Nicolae Teclu 3 min.',
   },
   {
     slug: 'neofort-42-piata-muncii',
@@ -634,7 +627,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     zona: 'Piata Muncii',
     sector: 'Sector 3',
     adresa: 'Strada Soldat Alexandru Magatti, Piata Muncii, Sector 3, Bucuresti',
-    status: 'constructie',
+    status: 'activ',
     dataPredare: 'In curand',
     pretDeLa: 197056,
     etaje: 'S+P+4',
@@ -643,7 +636,6 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     brokerFoto: '/brokeri/sasha-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-42/exterior-01.avif',
-      altTextExterior: 'Ansamblu premium Neofort 42 Piata Muncii, apartamente 2 si 4 camere Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-42/exterior-01.avif','/ansambluri/neo-42/exterior-02.avif','/ansambluri/neo-42/exterior-03.avif','/ansambluri/neo-42/exterior-04.avif','/ansambluri/neo-42/exterior-05.avif','/ansambluri/neo-42/exterior-06.avif','/ansambluri/neo-42/exterior-07.avif'],
       interior: ['/ansambluri/neo-42/interior-01.avif'],
       schite: ['/ansambluri/neo-42/schite-01.avif','/ansambluri/neo-42/schite-02.avif','/ansambluri/neo-42/schite-03.avif','/ansambluri/neo-42/schite-04.avif','/ansambluri/neo-42/schite-05.avif','/ansambluri/neo-42/schite-06.avif','/ansambluri/neo-42/schite-07.avif','/ansambluri/neo-42/schite-08.avif','/ansambluri/neo-42/schite-09.avif','/ansambluri/neo-42/schite-10.avif','/ansambluri/neo-42/schite-11.avif','/ansambluri/neo-42/schite-12.avif','/ansambluri/neo-42/schite-13.avif','/ansambluri/neo-42/schite-14.avif','/ansambluri/neo-42/schite-15.avif','/ansambluri/neo-42/schite-16.avif','/ansambluri/neo-42/schite-17.avif','/ansambluri/neo-42/schite-18.avif','/ansambluri/neo-42/schite-19.avif','/ansambluri/neo-42/schite-20.avif','/ansambluri/neo-42/schite-21.avif'],
@@ -699,7 +691,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     ],
     galerie: [],
     seoTitle: 'Apartamente Piața Muncii | Neofort 42',
-    seoDescription: 'Neofort 42 premium, Sector 3. Apartamente 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii la 200m. Promoție activă, finisaje premium incluse.',
+    seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii 200m. Promoție activă.',
   },
   {
     slug: 'neofort-28-titan-pallady-faza-2',
@@ -709,7 +701,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Bulevardul Theodor Pallady, Sector 3, București',
-    status: 'constructie',
+    status: 'activ',
     dataPredare: '30.09.2026',
     pretDeLa: 85900,
     etaje: 'D+P+4E',
@@ -719,7 +711,6 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-28f2/exterior-01.avif',
-      altTextExterior: 'Neofort 28 Faza 2 Titan Pallady, apartamente finalizate 2-3 camere Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-28f2/exterior-01.avif','/ansambluri/neo-28f2/exterior-02.avif','/ansambluri/neo-28f2/exterior-03.avif','/ansambluri/neo-28f2/exterior-04.avif'],
       interior: ['/ansambluri/neo-28f2/interior-01.avif','/ansambluri/neo-28f2/interior-02.avif','/ansambluri/neo-28f2/interior-03.avif','/ansambluri/neo-28f2/interior-04.avif','/ansambluri/neo-28f2/interior-05.avif'],
       schite: ['/ansambluri/neo-28f2/schite-01.avif','/ansambluri/neo-28f2/schite-02.avif','/ansambluri/neo-28f2/schite-03.avif','/ansambluri/neo-28f2/schite-04.avif','/ansambluri/neo-28f2/schite-05.avif','/ansambluri/neo-28f2/schite-06.avif','/ansambluri/neo-28f2/schite-07.avif'],
@@ -781,7 +772,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     tipuri: ['2 camere', '3 camere'],
     tag: null,
     seoTitle: 'Apartamente Finalizate Pallady — Neofort 28 F2',
-    seoDescription: 'Neofort 28 Faza 2, Titan-Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
+    seoDescription: 'Neofort 28 Faza 2, Titan-Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje premium PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
   },
   {
     slug: 'neofort-28-titan-pallady-teclu',
@@ -790,7 +781,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Zona Titan-Pallady, Sector 3, Bucuresti',
-    status: 'constructie',
+    status: 'activ',
     dataPredare: 'In curand',
     pretDeLa: 83900,
     etaje: 'D+P+4',
@@ -799,7 +790,6 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     brokerFoto: '/brokeri/adriana-veselu.avif',
     imagini: {
       cover: '/ansambluri/neo-28/exterior-01.avif',
-      altTextExterior: 'Ansamblu Neofort 28 Titan Pallady Teclu, apartamente 2-3 camere langa metrou Sector 3',
       exterior: ['/ansambluri/neo-28/exterior-01.avif'],
       interior: ['/ansambluri/neo-28/interior-01.avif','/ansambluri/neo-28/interior-02.avif','/ansambluri/neo-28/interior-03.avif','/ansambluri/neo-28/interior-04.avif','/ansambluri/neo-28/interior-05.avif'],
       schite: ['/ansambluri/neo-28/schite-01.avif','/ansambluri/neo-28/schite-02.avif','/ansambluri/neo-28/schite-03.avif','/ansambluri/neo-28/schite-04.avif','/ansambluri/neo-28/schite-05.avif','/ansambluri/neo-28/schite-06.avif','/ansambluri/neo-28/schite-07.avif','/ansambluri/neo-28/schite-08.avif','/ansambluri/neo-28/schite-09.avif','/ansambluri/neo-28/schite-10.avif','/ansambluri/neo-28/schite-11.avif','/ansambluri/neo-28/schite-12.avif','/ansambluri/neo-28/schite-13.avif','/ansambluri/neo-28/schite-14.avif','/ansambluri/neo-28/schite-15.avif','/ansambluri/neo-28/schite-16.avif','/ansambluri/neo-28/schite-17.avif','/ansambluri/neo-28/schite-18.avif','/ansambluri/neo-28/schite-19.avif','/ansambluri/neo-28/schite-20.avif','/ansambluri/neo-28/schite-21.avif','/ansambluri/neo-28/schite-22.avif','/ansambluri/neo-28/schite-23.avif','/ansambluri/neo-28/schite-24.avif','/ansambluri/neo-28/schite-25.avif','/ansambluri/neo-28/schite-26.avif','/ansambluri/neo-28/schite-27.avif'],
@@ -879,7 +869,6 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-11/exterior-01.avif',
-      altTextExterior: 'Neofort 11 boutique Eminescu Viitorului, apartamente premium 1-3 camere Sector 2 Bucuresti',
       exterior: ['/ansambluri/neo-11/exterior-01.avif','/ansambluri/neo-11/exterior-02.avif','/ansambluri/neo-11/exterior-03.avif','/ansambluri/neo-11/exterior-04.avif','/ansambluri/neo-11/exterior-05.avif','/ansambluri/neo-11/exterior-06.avif'],
       interior: [],
       schite: ['/ansambluri/neo-11/schite-01.avif','/ansambluri/neo-11/schite-02.avif','/ansambluri/neo-11/schite-03.avif','/ansambluri/neo-11/schite-04.avif','/ansambluri/neo-11/schite-05.avif','/ansambluri/neo-11/schite-06.avif','/ansambluri/neo-11/schite-07.avif','/ansambluri/neo-11/schite-08.avif','/ansambluri/neo-11/schite-09.avif','/ansambluri/neo-11/schite-10.avif','/ansambluri/neo-11/schite-11.avif','/ansambluri/neo-11/schite-12.avif','/ansambluri/neo-11/schite-13.avif'],
@@ -941,7 +930,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     ],
     galerie: [],
     seoTitle: 'Apartamente Eminescu-Viitorului | Neofort 11',
-    seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium 2-3 camere de la 104.640€+TVA. Predare septembrie 2026. Zona Eminescu-Viitorului, finisaje de excepție.',
+    seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium, 2-3 camere de la 104.640€+TVA. Predare sept. 2026.',
   },
   {
     slug: 'neofort-8-tepes-voda-muncii',
@@ -959,7 +948,6 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-8/exterior-01.avif',
-      altTextExterior: 'Ansamblu exclusivist Neofort 8 Tepes Voda Piata Muncii, apartamente clasa A Sector 2',
       exterior: ['/ansambluri/neo-8/exterior-01.avif','/ansambluri/neo-8/exterior-02.avif','/ansambluri/neo-8/exterior-03.avif','/ansambluri/neo-8/exterior-04.avif'],
       interior: ['/ansambluri/neo-8/interior-01.avif','/ansambluri/neo-8/interior-02.avif','/ansambluri/neo-8/interior-03.avif','/ansambluri/neo-8/interior-04.avif','/ansambluri/neo-8/interior-05.avif','/ansambluri/neo-8/interior-06.avif','/ansambluri/neo-8/interior-07.avif','/ansambluri/neo-8/interior-08.avif','/ansambluri/neo-8/interior-09.avif'],
       schite: ['/ansambluri/neo-8/schite-01.avif','/ansambluri/neo-8/schite-02.avif','/ansambluri/neo-8/schite-03.avif'],
@@ -1019,13 +1007,13 @@ Procesul de achiziție este complet transparent: prețul publicat este prețul f
     ],
     galerie: [],
     seoTitle: 'Apartamente Tepeș Vodă | Neofort 8',
-    seoDescription: 'Neofort 8 exclusivist, Sector 2. Studio, 2-4 camere de la 146.000€+TVA. Clasa A, finisaje premium. Metrou Piața Muncii la 500m. Finalizat, disponibil imediat.',
+    seoDescription: 'Neofort 8 exclusivist, Sector 2. Studio, 2-4 camere de la 146.000€+TVA. Clasa A. Metrou Piața Muncii 500m.',
   },
 ]
 
 // Ansambluri active (la vanzare, in constructie sau promotie)
 export const ANSAMBLURI_ACTIVE = ANSAMBLURI.filter(a =>
-  ['activ', 'constructie', 'promotie'].includes(a.status)
+  ['activ', 'constructie', 'promotie', 'finalizat'].includes(a.status)
 )
 
 // Versiune lightweight pentru homepage si componente client
