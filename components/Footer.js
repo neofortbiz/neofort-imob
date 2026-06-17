@@ -56,6 +56,8 @@ export default function Footer() {
               { href: '/portofoliu', label: 'Portofoliu' },
               { href: '/ansambluri-rezidentiale?status=promotie', label: 'Promoție' },
               { href: '/harta-ansambluri', label: 'Hartă' },
+              { href: '/apartamente/apartamente-2-camere-bucuresti', label: '2 Camere' },
+              { href: '/apartamente/garsoniere-bucuresti', label: 'Garsoniere' },
             ].map(l => (
               <Link key={l.href} href={l.href} className="block text-xs py-1 mb-0.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}

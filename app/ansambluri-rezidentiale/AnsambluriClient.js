@@ -1,5 +1,5 @@
 'use client'
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
@@ -20,7 +20,7 @@ const SORTARI = [
   { val: 'numar_desc', lbl: 'Cel mai nou' },
 ]
 
-export default function AnsambluriClient() {
+export default function AnsambluriClient({ initialQuery = '' }) {
   const [sector, setSector]       = useState('Toate')
   const [status, setStatus]       = useState('Toate')
   const [camere, setCamere]       = useState('Toate')
@@ -28,6 +28,9 @@ export default function AnsambluriClient() {
   const [view, setView]           = useState('grid')
   const [pretMax, setPretMax]     = useState(1500000)
   const [pretActiv, setPretActiv] = useState(false)
+  const [query, setQuery]         = useState(initialQuery)
+
+  useEffect(() => { if (initialQuery) setQuery(initialQuery) }, [initialQuery])
 
   const camereDinDate = useMemo(() => {
     const set = new Set()
@@ -42,6 +45,16 @@ export default function AnsambluriClient() {
 
   const filtered = useMemo(() => {
     let list = [...ANSAMBLURI_ACTIVE]
+    if (query.trim()) {
+      const q = query.trim().toLowerCase()
+      list = list.filter(a =>
+        a.nume.toLowerCase().includes(q) ||
+        a.zona.toLowerCase().includes(q) ||
+        a.sector.toLowerCase().includes(q) ||
+        a.descriere?.toLowerCase().includes(q) ||
+        a.tipuri.some(t => String(t).toLowerCase().includes(q))
+      )
+    }
     if (sector !== 'Toate') list = list.filter(a => a.sector === sector)
     if (status !== 'Toate') {
       if (status === 'promotie') list = list.filter(a => hasPromo(a))
@@ -62,14 +75,14 @@ export default function AnsambluriClient() {
     if (sortare === 'pret_desc')  list.sort((a, b) => b.pretDeLa - a.pretDeLa)
     if (sortare === 'numar_desc') list.sort((a, b) => b.numar - a.numar)
     return list
-  }, [sector, status, camere, sortare, pretMax, pretActiv])
+  }, [sector, status, camere, sortare, pretMax, pretActiv, query])
 
   function resetFiltre() {
     setSector('Toate'); setStatus('Toate'); setCamere('Toate')
-    setSortare('default'); setPretMax(1500000); setPretActiv(false)
+    setSortare('default'); setPretMax(1500000); setPretActiv(false); setQuery('')
   }
 
-  const filtreActive = sector !== 'Toate' || status !== 'Toate' || camere !== 'Toate' || pretActiv
+  const filtreActive = sector !== 'Toate' || status !== 'Toate' || camere !== 'Toate' || pretActiv || query.trim() !== ''
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-6">
@@ -106,6 +119,23 @@ export default function AnsambluriClient() {
         <aside className="lg:w-56 flex-shrink-0">
           <div className="bg-white rounded-xl border border-gray-100 p-5 sticky top-[82px]">
             <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-4">Filtre</h2>
+            <div className="mb-5">
+              <label htmlFor="search-ansambluri" className="text-xs font-medium text-gray-700 mb-2 block">Caută ansamblu</label>
+              <div className="relative">
+                <input
+                  id="search-ansambluri"
+                  type="search"
+                  value={query}
+                  onChange={e => setQuery(e.target.value)}
+                  placeholder="Zona, tip, sector..."
+                  className="w-full text-xs border border-gray-200 rounded-lg pl-8 pr-3 py-2 bg-white text-gray-700 outline-none focus:border-green-500 transition-colors"
+                />
+                <svg className="absolute left-2.5 top-2 text-gray-400" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                {query && (
+                  <button onClick={() => setQuery('')} className="absolute right-2 top-1.5 text-gray-400 hover:text-gray-600 text-xs px-1">✕</button>
+                )}
+              </div>
+            </div>
             <div className="mb-5">
               <p className="text-xs font-medium text-gray-700 mb-2">Sector</p>
               <div className="space-y-1">

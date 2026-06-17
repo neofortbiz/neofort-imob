@@ -25,6 +25,22 @@ export default function sitemap() {
     { url: `${BASE}/termeni`, lastModified: new Date('2026-01-01'), changeFrequency: 'yearly', priority: 0.20 },
   ]
 
+  // Pagini tip apartamente — SEO pentru query-uri de tip proprietate
+  const TIP_SLUGURI = [
+    'garsoniere-bucuresti',
+    'apartamente-2-camere-bucuresti',
+    'apartamente-3-camere-bucuresti',
+    'apartamente-4-camere-bucuresti',
+    'apartamente-noi-cu-metrou-bucuresti',
+    'apartamente-noi-finalizate-bucuresti',
+  ]
+  const tipPages = TIP_SLUGURI.map(tip => ({
+    url: `${BASE}/apartamente/${tip}`,
+    lastModified: TODAY,
+    changeFrequency: 'weekly',
+    priority: 0.85,
+  }))
+
   // Ansambluri active - prioritate maxima, se actualizeaza frecvent
   const ansambluriActive = ANSAMBLURI_ACTIVE.map(a => ({
     url: `${BASE}/ansamblu-rezidential/${a.slug}`,
@@ -62,5 +78,5 @@ export default function sitemap() {
     priority: 0.6,
   }))
 
-  return [...staticPages, ...ansambluriActive, ...zonePages, ...blogPages, ...portofoliuPages]
+  return [...staticPages, ...tipPages, ...ansambluriActive, ...zonePages, ...blogPages, ...portofoliuPages]
 }

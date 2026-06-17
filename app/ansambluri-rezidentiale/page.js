@@ -49,7 +49,7 @@ const breadcrumbSchema = {
   ],
 }
 
-export default function AnsambluriPage() {
+export default function AnsambluriPage({ searchParams }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getItemListSchema('https://www.neofort.ro')) }} />
@@ -68,7 +68,7 @@ export default function AnsambluriPage() {
             <p className="text-sm text-gray-500 mt-1">Apartamente noi direct de la sursă, fără comision</p>
           </div>
         </div>
-        <AnsambluriClient />
+        <AnsambluriClient initialQuery={searchParams?.q || ""} />
       </main>
       <Footer />
     </>
