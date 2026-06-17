@@ -9,8 +9,8 @@ import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
 
 const BASE = 'https://www.neofort.ro'
-const TEL = '0743250029'
-const TEL_DISPLAY = '0743 250 029'
+const TEL = '0758090904'
+const TEL_DISPLAY = '0758 090 904'
 
 export async function generateStaticParams() {
   return ANSAMBLURI.map(a => ({ slug: a.slug }))

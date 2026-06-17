@@ -153,7 +153,7 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 83',
-    seoDescription: 'Neofort 83 Faza 2, zona Titan, Sector 3. Garsoniere, studio, 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu 3 min.',
+    seoDescription: 'Neofort 83 Faza 2, Titan, Sector 3. Garsoniere, 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu la 3 min. Centrală condensare, fațadă ventilată bazaltică.',
   },
   {
     slug: 'neofort-78-mosilor-eminescu',
@@ -235,7 +235,7 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     ],
     galerie: [],
     seoTitle: 'Apartamente Moșilor-Obor | Neofort 78',
-    seoDescription: 'Neofort 78, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Piața Obor 400m.',
+    seoDescription: 'Neofort 78 Faza 2, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Piața Obor 400m. Finisaje HansGrohe, predare sept. 2026.',
   },
   {
     slug: 'neofort-76-iuliu-maniu-metrou-pacii',
@@ -306,7 +306,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     ],
     galerie: [],
     seoTitle: 'Apartamente Militari Metrou Păcii | Neofort 76',
-    seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Apartamente și Penthouse de la 218.409€+TVA. Metrou Păcii 500m.',
+    seoDescription: 'Neofort 76 Iuliu Maniu, Sector 6. Apartamente 2-4 camere și Penthouse de la 218.409€+TVA. Metrou Iuliu Maniu (Păcii) la 500m. Finalizat, predare imediată.',
   },
   {
     slug: 'neofort-56-pallady-titan-teclu',
@@ -378,7 +378,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Smart Home | Neofort 56',
-    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Studio, 2-4 camere de la 184.691€+TVA. Smart Home Ready, metrou Teclu 3 min.',
+    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Studio, 2-4 camere de la 184.691€+TVA. Smart Home Ready, metrou Nicolae Teclu 3 min. Finalizat, disponibil imediat.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
@@ -478,7 +478,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     zona: 'Militari',
     sector: 'Sector 6',
     adresa: 'Strada Vistiernicul Stavrinos, Sector 6, Bucuresti',
-    status: 'activ',
+    status: 'constructie',
     dataPredare: 'In curand',
     pretDeLa: 77800,
     etaje: 'S+P+3E',
@@ -543,7 +543,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     ],
     galerie: [],
     seoTitle: 'Apartamente Militari | Neofort 49 Promo',
-    seoDescription: 'Neofort 49, Sector 6. Garsoniere și 2 camere de la 76.974€+TVA. Promoție activă. Metrou Gorjului câteva minute.',
+    seoDescription: 'Neofort 49 Militari, Sector 6. Garsoniere și apartamente 2 camere de la 76.974€+TVA. Promoție activă, prețuri reduse. Metrou Gorjului la câteva minute pe jos.',
   },
   {
     slug: 'neofort-44-titan-pallady-teclu',
@@ -552,7 +552,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Zona Titan-Theodor Pallady, Sector 3, Bucuresti',
-    status: 'activ',
+    status: 'constructie',
     dataPredare: 'In curand',
     pretDeLa: 61775,
     etaje: 'Ds+3E+4Er',
@@ -617,7 +617,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     ],
     galerie: [],
     seoTitle: 'Apartamente Titan Pallady | Neofort 44',
-    seoDescription: 'Neofort 44, Titan-Pallady, Sector 3. Garsoniere, 2-3 camere de la 61.775€+TVA. Metrou Nicolae Teclu 3 min.',
+    seoDescription: 'Neofort 44 Titan-Pallady, Sector 3. Garsoniere, 2-3 camere de la 61.775€+TVA. Metrou Nicolae Teclu la 3 minute pe jos. Predare curând, direct de la sursă.',
   },
   {
     slug: 'neofort-42-piata-muncii',
@@ -626,7 +626,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     zona: 'Piata Muncii',
     sector: 'Sector 3',
     adresa: 'Strada Soldat Alexandru Magatti, Piata Muncii, Sector 3, Bucuresti',
-    status: 'activ',
+    status: 'constructie',
     dataPredare: 'In curand',
     pretDeLa: 197056,
     etaje: 'S+P+4',
@@ -690,7 +690,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     ],
     galerie: [],
     seoTitle: 'Apartamente Piața Muncii | Neofort 42',
-    seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii 200m. Promoție activă.',
+    seoDescription: 'Neofort 42 premium, Sector 3. Apartamente 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii la 200m. Promoție activă, finisaje premium incluse.',
   },
   {
     slug: 'neofort-28-titan-pallady-faza-2',
@@ -700,7 +700,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Bulevardul Theodor Pallady, Sector 3, București',
-    status: 'activ',
+    status: 'constructie',
     dataPredare: '30.09.2026',
     pretDeLa: 85900,
     etaje: 'D+P+4E',
@@ -771,7 +771,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     tipuri: ['2 camere', '3 camere'],
     tag: null,
     seoTitle: 'Apartamente Finalizate Pallady — Neofort 28 F2',
-    seoDescription: 'Neofort 28 Faza 2, Titan-Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje premium PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
+    seoDescription: 'Neofort 28 Faza 2, Titan-Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
   },
   {
     slug: 'neofort-28-titan-pallady-teclu',
@@ -780,7 +780,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Zona Titan-Pallady, Sector 3, Bucuresti',
-    status: 'activ',
+    status: 'constructie',
     dataPredare: 'In curand',
     pretDeLa: 83900,
     etaje: 'D+P+4',
@@ -929,7 +929,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     ],
     galerie: [],
     seoTitle: 'Apartamente Eminescu-Viitorului | Neofort 11',
-    seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium, 2-3 camere de la 104.640€+TVA. Predare sept. 2026.',
+    seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium 2-3 camere de la 104.640€+TVA. Predare septembrie 2026. Zona Eminescu-Viitorului, finisaje de excepție.',
   },
   {
     slug: 'neofort-8-tepes-voda-muncii',
@@ -1006,13 +1006,13 @@ Procesul de achiziție este complet transparent: prețul publicat este prețul f
     ],
     galerie: [],
     seoTitle: 'Apartamente Tepeș Vodă | Neofort 8',
-    seoDescription: 'Neofort 8 exclusivist, Sector 2. Studio, 2-4 camere de la 146.000€+TVA. Clasa A. Metrou Piața Muncii 500m.',
+    seoDescription: 'Neofort 8 exclusivist, Sector 2. Studio, 2-4 camere de la 146.000€+TVA. Clasa A, finisaje premium. Metrou Piața Muncii la 500m. Finalizat, disponibil imediat.',
   },
 ]
 
 // Ansambluri active (la vanzare, in constructie sau promotie)
 export const ANSAMBLURI_ACTIVE = ANSAMBLURI.filter(a =>
-  ['activ', 'constructie', 'promotie', 'finalizat'].includes(a.status)
+  ['activ', 'constructie', 'promotie'].includes(a.status)
 )
 
 // Versiune lightweight pentru homepage si componente client

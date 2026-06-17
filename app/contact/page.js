@@ -34,6 +34,17 @@ const localBusinessSchema = {
   ],
   legalName: 'Neofort IMO SRL',
   vatID: 'RO53874087',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.2',
+    reviewCount: '108',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  sameAs: [
+    'https://www.facebook.com/profile.php?id=100063782524105',
+    'https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7',
+  ],
 }
 
 export default function ContactPage() {

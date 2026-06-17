@@ -31,6 +31,15 @@ async function getViews(slugs) {
   }
 }
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Acasă', item: 'https://www.neofort.ro' },
+    { '@type': 'ListItem', position: 2, name: 'Blog Imobiliar', item: 'https://www.neofort.ro/blog' },
+  ],
+}
+
 export default async function BlogPage() {
   const ARTICOLE_SORTATE = [...ARTICOLE_LIST].sort((a, b) =>
     new Date(b.dataISO) - new Date(a.dataISO)
@@ -44,6 +53,7 @@ export default async function BlogPage() {
   const REST = ARTICOLE_SORTATE.filter(a => a.slug !== FEATURED.slug)
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/blog" />
       <main className="min-h-screen bg-white">
         <div className="border-b border-gray-100" style={{ background: '#f8faf9' }}>

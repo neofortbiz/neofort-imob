@@ -736,7 +736,7 @@ Dotările complete și de calitate atrag chiriași profesioniști care rămân �
 
   'ghid-cumparare-apartament-nou': {
     titlu: 'Cum Cumperi Apartament Nou de la Dezvoltator',
-    seoTitle: 'Ghid 2026: Cum Cumperi Apartament Nou Fără Greșeli',
+    seoTitle: 'Ghid 2026: Cum Cumperi Apartament Nou',
     seoDesc: 'Ghid practic pentru cumpărarea unui apartament nou de la developer în București 2026: avans, antecontract, capcane de evitat, finanțare și verificare predare.',
     tag: 'Ghid', tagColor: '#2d7a3a',
     data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min',
@@ -1534,8 +1534,6 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
     titlu: `Merită Apartament în Titan–Pallady în 2026?`,
     seoTitle: 'Merită Apartament în Titan–Pallady în 2026?',
     seoDesc: 'Analiză completă Titan–Pallady 2026: prețuri reale de la 62.114€, randament, avantaje și dezavantaje față de alte zone, pentru locuit sau investiție.',
-    seoTitle: 'Ghid 2026: Cum Cumperi Apartament Nou Fără Greșeli',
-    seoDesc: 'Ghid practic pentru cumpărarea unui apartament nou de la developer în București 2026: avans, antecontract, capcane de evitat, finanțare și verificare predare.',
     descriere: 'Merită să cumperi în Titan–Pallady în 2026? Prețuri reale, avantaje, dezavantaje, calcul randament și ce verifici înainte de semnare.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min',
@@ -2359,10 +2357,8 @@ Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțel
 
   'preturi-apartamente-bucuresti-2026': {
     titlu: `Prețuri Apartamente București 2026: Scad? Analiză cu Date Reale`,
-    seoTitle: 'Prețuri Apartamente București 2026: Scad sau Cresc?',
+    seoTitle: 'Prețuri Apartamente 2026: Scad sau Cresc?',
     seoDesc: 'Prețurile apartamentelor din București în 2026: date reale din ANCPI, evoluție pe zone, impactul TVA 21% și în ce condiții are sens să cumperi sau să aștepți.',
-    seoTitle: 'E-Proprietatea 2026: Impozit pe Apartament',
-    seoDesc: 'E-Proprietatea 2026 schimbă baza de impozitare la valoarea de piață. Cum se calculează impozitul, ce scutiri există și cum contestați valoarea impusă de autorități.',
     descriere: 'Prețurile apartamentelor din București 2026: scad sau cresc? Analiză cu date ANCPI și INS pe zone, impactul TVA 21% și Noua Casă.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min',
@@ -2763,7 +2759,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
   },
   'titan-pallady-cea-mai-cautata-zona': {
     titlu: `Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă Rezidențială din București`,
-    seoTitle: 'Titan–Pallady: Cea Mai Căutată Zonă din București',
+    seoTitle: 'Titan–Pallady: Cea Mai Căutată Zonă 2026',
     seoDesc: 'Titan–Pallady: metrou M2, IKEA, Parcul IOR și prețuri cu 30% sub centru. De ce a devenit cea mai căutată zonă din București și ce ansambluri sunt active.',
     descriere: 'De ce Titan–Pallady e cea mai căutată zonă din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.',
     tag: 'Zone', tagColor: '#0891b2',

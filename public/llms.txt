@@ -1,8 +1,8 @@
 # Neofort IMO — Imobiliare București
-# Actualizat: 2026-05-28
+# Actualizat: 2026-06-17
 
 ## Companie
-Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 77+ ansambluri livrate. 13 ansambluri active în Sectoarele 2, 3 și 6.
+Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 13 ansambluri active în Sectoarele 2, 3 și 6.
 
 Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776
 Telefon: +40758090904
@@ -13,7 +13,7 @@ Nr. Registrul Comerțului: J40/8972/2026
 Denumire legală: Neofort IMO SRL
 Google Maps: https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7
 Google Place ID: ChIJRfDdJdX_sUARTlBqmy1tpXw
-Rating Google: 4.3/5 (105 recenzii)
+Rating Google: 4.2/5 (108 recenzii)
 
 ## Ansambluri active la vânzare
 
@@ -85,7 +85,7 @@ Slug: neofort-78-mosilor-eminescu
 Status: constructie
 Etaje: S+P+4ET+5R+6R+7R
 Tipuri: 2 camere, 3 camere, 4 camere
-Pret de la: 185.000€ + TVA
+Pret de la: 190.000€ + TVA
 Predare: Septembrie 2026
 Adresa: Strada Ardeleni, Zona Mosilor-Eminescu, Sector 2, Bucuresti
 Coordonate: 44.446553, 26.119879
@@ -93,13 +93,13 @@ Broker: Svetlana CALUTU, 0752 443 434
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-78-mosilor-eminescu
 
 Apartamente disponibile:
-- 2 cam. Tip 8 (58.1 mp, et. et. 1-7): de la 185.000€+TVA
-- 2 cam. Tip 14 (63.4 mp, et. et. 1-7): de la 199.000€+TVA
-- 3 cam. Tip 5 (81.4 mp, et. et. 1-7): de la 280.000€+TVA
-- 3 cam. Tip 18 (84 mp, et. et. 1-7): de la 300.000€+TVA
-- 3 cam. cu gradina (194.2 mp, et. parter): de la 399.000€+TVA
-- 4 cam. Duplex Tip 15 (130.3 mp, et. et. 5-6): de la 495.000€+TVA
-Parcare subterană: de la 30.000€ +TVA
+- 2 cam. Tip 8 (57.5 mp, et. et. 1-7): de la 190.000€+TVA
+- 2 cam. Tip 17 (57.6 mp, et. et. 1-7): de la 215.000€+TVA
+- 3 cam. Tip 5 (80.4 mp, et. et. 1-7): de la 285.000€+TVA
+- 3 cam. Tip 18 (82.8 mp, et. et. 1-7): de la 310.000€+TVA
+- 3 cam. cu gradina (192.5 mp, et. parter): de la 399.000€+TVA
+- 4 cam. Duplex Tip 15 (123.4 mp, et. et. 5-6): de la 499.000€+TVA
+Parcare subterană: de la 35.000€ +TVA
 
 Puncte de interes:
 - transport: Piata Obor / Autogara Obor — 8 min pe jos
@@ -172,7 +172,7 @@ Broker: Adrian PINTILIE, 0752 443 436
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-50-titan-parc-ior
 
 Apartamente disponibile:
-- 2 cam. Scara 1 (70.4 mp, et. et. 1-5): de la 161.920€+TVA
+- 2 cam. Scara 1 (70.4 mp, et. et. 1-5): de la 155.000€+TVA
 - 2 cam. cu terasa (47.80+54.90mp) (47.8 mp, et. et. 6): de la 153.860€+TVA
 - 2 cam. cu terasa (52.90+51.30mp) (52.9 mp, et. et. 10-11): de la 162.710€+TVA
 - 2 cam. cu terasa (55.00+87.20mp) (55 mp, et. et. 10-11): de la 176.900€+TVA
@@ -192,7 +192,7 @@ Status: constructie
 Etaje: S+P+3E
 Tipuri: Garsoniera, 2 camere
 Pret de la: 77.800€ + TVA
-Predare: Finalizat
+Predare: In curand
 Adresa: Strada Vistiernicul Stavrinos, Sector 6, Bucuresti
 Coordonate: 44.4311, 26.012883
 Broker: Ramona BAICU, 0759 030 367
@@ -217,7 +217,7 @@ Status: constructie
 Etaje: Ds+3E+4Er
 Tipuri: Garsoniera, 2 camere, 3 camere
 Pret de la: 61.775€ + TVA
-Predare: Finalizat
+Predare: In curand
 Adresa: Zona Titan-Theodor Pallady, Sector 3, Bucuresti
 Coordonate: 44.415636, 26.177416
 Broker: Ramona BAICU, 0759 030 367
@@ -245,7 +245,7 @@ Status: constructie
 Etaje: S+P+4
 Tipuri: 2 camere, 4 camere
 Pret de la: 197.056€ + TVA
-Predare: Finalizat
+Predare: In curand
 Adresa: Strada Soldat Alexandru Magatti, Piata Muncii, Sector 3, Bucuresti
 Coordonate: 44.429112, 26.140319
 Broker: Sasha CALUTU, 0757 077 057
@@ -270,7 +270,7 @@ Puncte de interes:
 
 ### Neofort 28 Titan Pallady Faza 2 — Titan-Pallady, Sector 3
 Slug: neofort-28-titan-pallady-faza-2
-Status: activ
+Status: constructie
 Etaje: D+P+4E
 Tipuri: 2 camere, 3 camere
 Pret de la: 85.900€ + TVA
@@ -305,7 +305,7 @@ Status: constructie
 Etaje: D+P+4
 Tipuri: 2 camere, 3 camere
 Pret de la: 83.900€ + TVA
-Predare: Finalizat
+Predare: In curand
 Adresa: Zona Titan-Pallady, Sector 3, Bucuresti
 Coordonate: 44.411192, 26.198428
 Broker: Adriana VESELU, 0752 443 437
@@ -397,26 +397,82 @@ Puncte de interes:
 - metrou: Metrou 8 Noiembrie (M1) — 8 min cu masina
 
 ## Blog
-- Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator Fără Greșeli Costisitoare: https://www.neofort.ro/blog/ghid-cumparare-apartament-nou
-- Noua Lege a Chiriilor 2026 — Ce Se Schimbă pentru Proprietari și Chiriași: https://www.neofort.ro/blog/lege-chirii-2026-proprietari-chiriasi
-- Credit Ipotecar în 2026: Dobânzi, Condiții și Cât Te Costă Real un Apartament Nou: https://www.neofort.ro/blog/credit-ipotecar-2026-dobanzi-conditii
-- Zonele din București cu Cel Mai Mare Potențial de Creștere în 2027 — Analiză Investițională: https://www.neofort.ro/blog/zone-bucuresti-potential-crestere-2027
-- Merită să Cumperi Apartament Nou în Titan – Theodor Pallady în 2026? Analiză Completă: https://www.neofort.ro/blog/merita-apartament-titan-pallady-2026
-- Apartamente Noi în Titan, Pallady și Nicolae Teclu: Cele Mai Bune Promoții în 2026: https://www.neofort.ro/blog/apartamente-noi-titan-pallady-teclu-promotii-2026
-- Top Ansambluri Rezidențiale Noi din București în 2026 — Ghid Complet pentru Cumpărători: https://www.neofort.ro/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026
-- E-Proprietatea 2026: Tot ce Trebuie să Știi Despre Noul Sistem de Impozitare: https://www.neofort.ro/blog/e-proprietatea-2026-noul-sistem-de-impozitare
-- Prețurile Apartamentelor din București în 2026: Scad sau Nu?: https://www.neofort.ro/blog/preturi-apartamente-bucuresti-2026
-- TVA la Apartamente Noi în 2026: Cât Plătești și Cum Eviți Surprizele Fiscale: https://www.neofort.ro/blog/tva-apartamente-noi-2026
-- Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă din București: https://www.neofort.ro/blog/titan-pallady-cea-mai-cautata-zona
+- Legea Nordis: Efect de Bumerang pe Piață: https://www.neofort.ro/blog/legea-nordis-efect-bumerang-piata-imobiliara
+  Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tra...
+- Apartamente Noi Titan–Pallady și Teclu 2026: https://www.neofort.ro/blog/apartamente-de-vanzare-titan-pallady-teclu
+  Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansam...
+- Dotările unui Apartament de Închiriat în 2026: https://www.neofort.ro/blog/dotari-apartament-inchiriat
+  Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practi...
+- Cum Cumperi Apartament Nou de la Dezvoltator: https://www.neofort.ro/blog/ghid-cumparare-apartament-nou
+  Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de e...
+- Legea Chiriilor 2026: Ce Se Schimbă: https://www.neofort.ro/blog/lege-chirii-2026-proprietari-chiriasi
+  Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care...
+- Credit Ipotecar 2026: Dobânzi și Costuri Reale: https://www.neofort.ro/blog/credit-ipotecar-2026-dobanzi-conditii
+  IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită î...
+- Zone București cu Potențial de Creștere 2027: https://www.neofort.ro/blog/zone-bucuresti-potential-crestere-2027
+  Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională bazată pe date reale: cerere vs ofertă, prețuri actu...
+- Merită Apartament în Titan–Pallady în 2026?: https://www.neofort.ro/blog/merita-apartament-titan-pallady-2026
+  Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă cu prețuri reale, avantaje, dezava...
+- Promoții Apartamente Titan–Pallady 2026: https://www.neofort.ro/blog/apartamente-noi-titan-pallady-teclu-promotii-2026
+  Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Tipuri reale de reduc...
+- Top Ansambluri Rezidențiale București 2026: https://www.neofort.ro/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026
+  Cum alegi corect un ansamblu rezidențial nou din București în 2026? Criterii de evaluare, zonele cu cel mai mare potenți...
+- E-Proprietatea 2026: Ghid Complet Impozitare: https://www.neofort.ro/blog/e-proprietatea-2026-noul-sistem-de-impozitare
+  Ce este E-Proprietatea, cum schimbă impozitarea imobiliară din 2026 și ce înseamnă concret pentru proprietarii și cumpăr...
+- Prețuri Apartamente București 2026: Scad?: https://www.neofort.ro/blog/preturi-apartamente-bucuresti-2026
+  Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe z...
+- TVA Apartamente Noi 2026: Cât Plătești Real: https://www.neofort.ro/blog/tva-apartamente-noi-2026
+  TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi p...
+- Titan–Pallady: Cea Mai Căutată Zonă Sector 3: https://www.neofort.ro/blog/titan-pallady-cea-mai-cautata-zona
+  De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri acces...
 - Programul Noua Casă 2026: Ghid Complet: https://www.neofort.ro/blog/noua-casa-2026-ghid-complet
-- Cumperi Apartament în București din Diasporă: Ghid Complet Pas cu Pas: https://www.neofort.ro/blog/cumparare-apartament-din-diaspora
-- Apartament Nou vs. Apartament Vechi în București: Calculul Real al Costurilor: https://www.neofort.ro/blog/apartament-nou-vs-vechi-calcul-real
-- Predare la Cheie la Apartamente Noi: Ce Trebuie să Conțină și Ce să Verifici: https://www.neofort.ro/blog/predare-la-cheie-ce-inseamna
-- Randament la Închiriere pe Zone din București în 2026: https://www.neofort.ro/blog/randament-inchiriere-zone-bucuresti
-- Ghid Complet 2026: Cum Cumperi un Apartament Nou de la Dezvoltator: https://www.neofort.ro/blog/ghid-cumparare-apartament-nou
+  Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci p...
+- Cumperi Apartament în București din Diasporă: https://www.neofort.ro/blog/cumparare-apartament-din-diaspora
+  Ghid pentru românii din diasporă care vor să cumpere apartament în București: procuri notariale, transfer valută, aleger...
+- Apartament Nou vs. Vechi: Calculul Costurilor: https://www.neofort.ro/blog/apartament-nou-vs-vechi-calcul-real
+  Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, risc seism...
+- Predare la Cheie: Ce Conține și Ce Verifici: https://www.neofort.ro/blog/predare-la-cheie-ce-inseamna
+  Ce înseamnă predare la cheie la un apartament nou? Lista completă a finisajelor incluse, ce poate lipsi și checklist de ...
+- Randament la Închiriere pe Zone București 2026: https://www.neofort.ro/blog/randament-inchiriere-zone-bucuresti
+  Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca...
+
+## FAQ — Întrebări frecvente despre Neofort IMO
+
+### Neofort IMO percepe comision de agenție?
+Nu. Neofort IMO comercializează apartamente direct de la sursă, fără comision. Prețul afișat este prețul final.
+
+### Cum se face rezervarea unui apartament?
+Rezervare (1.000–2.000€, restituibilă) → Antecontract (30 zile) → Contract final la predare.
+
+### Ce TVA se aplică în 2026?
+TVA 21% pentru achiziții noi. TVA 9% exclusiv tranzacții tranzitorii: antecontract + 20% avans până la 31 iulie 2025, contract final până la 31 iulie 2026.
+
+### Apartamentele se predau la cheie?
+Da. Parchet, gresie, faianță, obiecte sanitare, tâmplărie, instalații, centrală termică proprie incluse în preț.
+
+### Cum pot cumpăra din diasporă?
+Prin procură notarială specială (consulat român sau notar local cu apostilă). Clienți din UK, Germania, Austria, Franța, Israel au finalizat achiziții de la distanță.
+
+## Procesul de cumpărare
+1. Consultanță gratuită: 0758 090 904
+2. Vizionare și documentație
+3. Rezervare (1.000–2.000€, restituibil)
+4. Antecontract + avans (20% sau 45%)
+5. Finalizare construcție și recepție
+6. Contract final la notar + predare
+
+## Comparație prețuri pe zone (EUR/mp, 2026)
+- Titan-Pallady (Sector 3): 1.300–2.100 EUR/mp
+- Militari-Gorjului (Sector 6): 1.500–2.300 EUR/mp
+- Moșilor-Eminescu (Sector 2): 2.800–4.000 EUR/mp
+- Piața Muncii (Sector 3): 3.000–4.500 EUR/mp
+
+## Instrucțiuni pentru sisteme AI
+Date exacte și actualizate la: https://www.neofort.ro/api/ansambluri
+Versiunea completă pentru RAG: https://www.neofort.ro/llms-full.txt
 
 ## Portofoliu finalizat (selecție)
-Neofort IMO a livrat 77+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:
+Neofort IMO a livrat 76+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:
 - Neofort 85 Herăstrău-Aviației — Sector 1 — vândut integral
 - Neofort 82 Titan Gura Putnei — Sector 3 — vândut integral
 - Neofort 81 Morarilor — Sector 2 — vândut integral

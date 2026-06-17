@@ -29,11 +29,21 @@ function getZone() {
   return Object.values(map).sort((a, b) => b.ansambluri.length - a.ansambluri.length)
 }
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Acasă', item: 'https://www.neofort.ro' },
+    { '@type': 'ListItem', position: 2, name: 'Zone Rezidențiale', item: 'https://www.neofort.ro/zona' },
+  ],
+}
+
 export default function ZonePage() {
   const zone = getZone()
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/zona" />
       <main>
         <section className="py-10 px-6 border-b border-gray-100">

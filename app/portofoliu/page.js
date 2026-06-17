@@ -40,10 +40,20 @@ function getPortofoliuSchema(BASE) {
   }
 }
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Acasă', item: 'https://www.neofort.ro' },
+    { '@type': 'ListItem', position: 2, name: 'Portofoliu', item: 'https://www.neofort.ro/portofoliu' },
+  ],
+}
+
 export default function PortofoliuPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getPortofoliuSchema('https://www.neofort.ro')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/portofoliu" />
       <main className="min-h-screen bg-gray-50">
         {/* HEADER */}

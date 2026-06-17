@@ -17,6 +17,9 @@ export default function robots() {
       { userAgent: 'cohere-ai', allow: '/' },
       { userAgent: 'Googlebot-Image', allow: '/portofoliu/' },
       { userAgent: 'Bingbot', allow: '/' },
+      { userAgent: 'meta-externalagent', allow: '/' },
+      { userAgent: 'Applebot-Extended', allow: '/' },
+      { userAgent: 'Amazonbot', allow: '/' },
     ],
     // Domeniile de staging sunt blocate prin X-Robots-Tag header în next.config.js
     // nu prin robots.txt (robots.txt nu suportă condiții de host)

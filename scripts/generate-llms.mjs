@@ -59,7 +59,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `Denumire legală: Neofort IMO SRL\n`
   out += `Google Maps: https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7\n`
   out += `Google Place ID: ChIJRfDdJdX_sUARTlBqmy1tpXw\n`
-  out += `Rating Google: 4.3/5 (105 recenzii)\n\n`
+  out += `Rating Google: 4.2/5 (108 recenzii)\n\n`
 
   out += `## Ansambluri active la vânzare\n\n`
 
@@ -165,7 +165,7 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   out += `Denumire legală: Neofort IMO SRL\n`
   out += `Google Maps: https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7\n`
   out += `Google Place ID: ChIJRfDdJdX_sUARTlBqmy1tpXw\n`
-  out += `Rating Google: 4.3/5 (105 recenzii)\n\n`
+  out += `Rating Google: 4.2/5 (108 recenzii)\n\n`
 
   out += `## Statistici\n`
   out += `- Ansambluri active: ${NR_ACTIVE}\n`

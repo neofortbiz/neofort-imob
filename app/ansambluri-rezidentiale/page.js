@@ -40,10 +40,20 @@ function getItemListSchema(BASE) {
   }
 }
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Acasă', item: 'https://www.neofort.ro' },
+    { '@type': 'ListItem', position: 2, name: 'Ansambluri Rezidențiale', item: 'https://www.neofort.ro/ansambluri-rezidentiale' },
+  ],
+}
+
 export default function AnsambluriPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(getItemListSchema('https://www.neofort.ro')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/ansambluri-rezidentiale" />
       <main className="min-h-screen bg-gray-50">
         {/* HEADER PAGINA */}
