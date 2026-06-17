@@ -239,6 +239,27 @@ Dezavantajul: prețurile reflect valoarea de piață la finalizare, nu prețuril
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
+// Returnează prețul minim din ansamblul `a` pentru tipul de cameră specificat de `tip`
+function getPretMinTip(a, tip) {
+  if (!a.apartamente?.length) return a.pretDeLa
+  let apts = []
+  if (tip === 'garsoniere-bucuresti') {
+    apts = a.apartamente.filter(apt => apt.camere === 1)
+  } else if (tip === 'apartamente-2-camere-bucuresti') {
+    apts = a.apartamente.filter(apt => apt.camere === 2)
+  } else if (tip === 'apartamente-3-camere-bucuresti') {
+    apts = a.apartamente.filter(apt => apt.camere === 3)
+  } else if (tip === 'apartamente-4-camere-bucuresti') {
+    apts = a.apartamente.filter(apt => apt.camere >= 4)
+  } else {
+    // pentru 'cu-metrou' și 'finalizate' — pretDeLa din proiect
+    return a.pretDeLa
+  }
+  if (!apts.length) return a.pretDeLa
+  const preturi = apts.map(apt => apt.avans45 || apt.avans20).filter(Boolean)
+  return preturi.length ? Math.min(...preturi) : a.pretDeLa
+}
+
 export function generateStaticParams() {
   return Object.keys(TIP_CONFIG).map(tip => ({ tip }))
 }
@@ -280,7 +301,7 @@ export default function TipPage({ params }) {
 
   const ansambluri = getAnsambluri(params.tip)
   const pretMin = ansambluri.length > 0
-    ? Math.min(...ansambluri.map(a => a.pretDeLa))
+    ? Math.min(...ansambluri.map(a => getPretMinTip(a, params.tip)))
     : null
 
   // Schema ItemList
@@ -405,7 +426,7 @@ export default function TipPage({ params }) {
                         <p className="text-xs text-gray-500 mb-3">{a.tipuri.join(', ')}</p>
                         <div className="flex items-center justify-between">
                           <span className="text-xs text-gray-500">De la</span>
-                          <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€ <span className="text-xs font-normal text-gray-500">+TVA</span></span>
+                          <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(getPretMinTip(a, params.tip))}€ <span className="text-xs font-normal text-gray-500">+TVA</span></span>
                         </div>
                         {a.dataPredare && a.dataPredare !== 'Finalizat' && (
                           <p className="text-[10px] text-gray-400 mt-1">Predare {a.dataPredare}</p>

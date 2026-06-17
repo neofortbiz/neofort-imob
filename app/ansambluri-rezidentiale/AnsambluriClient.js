@@ -85,16 +85,45 @@ export default function AnsambluriClient({ initialQuery = '' }) {
 
   const filtreActive = sector !== 'Toate' || status !== 'Toate' || camere !== 'Toate' || pretActiv || query.trim() !== ''
   const nrFiltreActive = [
-    sector !== 'Toate',
-    status !== 'Toate',
-    camere !== 'Toate',
-    pretActiv,
-    query.trim() !== '',
+    sector !== 'Toate', status !== 'Toate', camere !== 'Toate', pretActiv, query.trim() !== '',
   ].filter(Boolean).length
 
-  // Continutul sidebar-ului — acelasi pe desktop (permanent) si mobil (collapsible)
+  // Search input — folosit în sidebar desktop SI în panel mobil prin SidebarContent
+  const SearchInput = (
+    <div className="mb-5">
+      <label htmlFor="search-ansambluri" className="text-xs font-medium text-gray-700 mb-2 block">Caută</label>
+      <div className="relative">
+        <input
+          id="search-ansambluri"
+          type="text"
+          value={query}
+          onChange={e => setQuery(e.target.value)}
+          placeholder="Zonă, tip, sector..."
+          className="w-full text-xs border border-gray-200 rounded-lg pl-8 pr-7 py-2 bg-white text-gray-700 outline-none focus:border-green-500 transition-colors"
+        />
+        <svg className="absolute left-2.5 top-2 text-gray-400 pointer-events-none" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        {query && (
+          <button onClick={() => setQuery('')} aria-label="Șterge căutarea"
+            className="absolute right-2 top-1.5 text-gray-400 hover:text-gray-600 text-xs leading-none w-4 h-4 flex items-center justify-center">✕</button>
+        )}
+      </div>
+      {query.trim() && (
+        <p className="text-[10px] text-gray-400 mt-1">
+          {filtered.length === 0 ? 'Niciun rezultat' : `${filtered.length} rezultate`}
+          {filtered.length === 0 && (
+            <button onClick={() => setQuery('')} className="ml-1 underline" style={{ color: '#2d7a3a' }}>Șterge</button>
+          )}
+        </p>
+      )}
+    </div>
+  )
+
+  // Continutul filtrelor — identic pe desktop sidebar si mobil panel
   const SidebarContent = (
     <>
+      {SearchInput}
       <div className="mb-5">
         <p className="text-xs font-medium text-gray-700 mb-2">Sector</p>
         <div className="space-y-1">
@@ -189,7 +218,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
     <div className="max-w-7xl mx-auto px-6 py-6">
 
       {/* REZULTATE COUNT + VIEW TOGGLE */}
-      <div className="flex items-center justify-between mb-4 flex-wrap gap-3">
+      <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
         <p className="text-sm text-gray-500">
           {filtered.length} din {ANSAMBLURI_ACTIVE.length} ansambluri
           {filtreActive && (
@@ -216,38 +245,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
         </div>
       </div>
 
-      {/* SEARCH BAR — vizibil mereu, pe toate device-urile */}
-      <div className="mb-3">
-        <div className="relative">
-          <label htmlFor="search-ansambluri" className="sr-only">Caută ansamblu</label>
-          <input
-            id="search-ansambluri"
-            type="text"
-            value={query}
-            onChange={e => setQuery(e.target.value)}
-            placeholder="Caută după zonă, tip, sector... (ex: Titan, 2 camere)"
-            className="w-full text-sm border border-gray-200 rounded-xl pl-10 pr-8 py-2.5 bg-white text-gray-700 outline-none focus:border-green-500 transition-colors"
-          />
-          <svg className="absolute left-3.5 top-3 text-gray-400 pointer-events-none" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-          </svg>
-          {query && (
-            <button onClick={() => setQuery('')} aria-label="Șterge căutarea"
-              className="absolute right-3 top-2.5 text-gray-400 hover:text-gray-600 text-sm leading-none px-0.5">✕</button>
-          )}
-        </div>
-        {query.trim() && (
-          <p className="text-xs text-gray-500 mt-1.5 ml-1">
-            {filtered.length === 0 ? 'Niciun rezultat pentru ' : `${filtered.length} rezultate pentru `}
-            <span className="font-medium text-gray-700">"{query}"</span>
-            {filtered.length === 0 && (
-              <button onClick={() => setQuery('')} className="ml-2 underline" style={{ color: '#2d7a3a' }}>Șterge</button>
-            )}
-          </p>
-        )}
-      </div>
-
-      {/* BUTON FILTRE — doar pe mobil (lg: ascuns) */}
+      {/* BUTON FILTRE — doar pe mobil */}
       <div className="lg:hidden mb-3">
         <button
           onClick={() => setFiltreOpen(o => !o)}
@@ -260,7 +258,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="10" y1="18" x2="14" y2="18"/>
           </svg>
-          Filtre
+          Filtre &amp; Căutare
           {nrFiltreActive > 0 && (
             <span className="text-[10px] font-medium px-1.5 py-0.5 rounded-full text-white ml-1" style={{ background: '#2d7a3a' }}>
               {nrFiltreActive}
@@ -271,8 +269,6 @@ export default function AnsambluriClient({ initialQuery = '' }) {
             <path d="M6 9l6 6 6-6"/>
           </svg>
         </button>
-
-        {/* PANEL COLLAPSIBLE — exact stilul sidebar-ului, dar horizontal pe mobil */}
         {filtreOpen && (
           <div className="mt-1 bg-white rounded-xl border border-gray-100 p-5">
             <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-4">Filtre</h2>
@@ -283,7 +279,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
 
       <div className="flex flex-col lg:flex-row gap-6">
 
-        {/* SIDEBAR FILTRE — doar pe desktop (lg: vizibil permanent) */}
+        {/* SIDEBAR FILTRE — doar desktop, permanent vizibil */}
         <aside className="hidden lg:block lg:w-56 flex-shrink-0">
           <div className="bg-white rounded-xl border border-gray-100 p-5 sticky top-[82px]">
             <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-4">Filtre</h2>
@@ -291,7 +287,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
           </div>
         </aside>
 
-        {/* REZULTATE */}
+        {/* REZULTATE — carduri încep la același nivel cu sidebar-ul */}
         <div className="flex-1 min-w-0">
           {filtered.length === 0 ? (
             <div className="bg-white rounded-xl border border-gray-100 p-12 text-center">
@@ -373,8 +369,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
                         </div>
                       </div>
                       <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500">
-                        <span>{a.etaje}</span>
-                        <span>·</span>
+                        <span>{a.etaje}</span><span>·</span>
                         <span>{a.tipuri.join(', ')}</span>
                         {a.dataPredare && a.dataPredare !== 'Finalizat' && <><span>·</span><span>Predare {a.dataPredare}</span></>}
                       </div>
