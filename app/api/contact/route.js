@@ -184,8 +184,10 @@ export async function POST(request) {
         }),
       })
       if (!r1.ok) {
-        console.error('Resend internal error:', await r1.text())
-        return NextResponse.json({ error: 'Email error' }, { status: 500 })
+        const errText = await r1.text()
+        console.error('Resend internal error:', errText)
+        // Nu blocam userul — lead-ul se inregistreaza oricum
+        // Continuam sa trimitem ok:true
       }
 
       // WhatsApp via CallMeBot

@@ -116,7 +116,7 @@ export default function CalculatorClient({ faqItems = [] }) {
 
   async function submitLead(e) {
     e.preventDefault()
-    if (!fNume.trim() || !fTel.trim()) { setSendErr('Numele și telefonul sunt obligatorii.'); return }
+    if (!fNume.trim() || !fTel.trim() || !fEmail.trim()) { setSendErr('Toate câmpurile marcate cu * sunt obligatorii.'); return }
     setSending(true); setSendErr('')
     try {
       const payload = {
@@ -479,20 +479,20 @@ export default function CalculatorClient({ faqItems = [] }) {
                     <input type="tel" value={fTel} onChange={e => setFTel(e.target.value)} placeholder="07xx xxx xxx" required style={inputStyle} />
                   </div>
                   <div style={{ marginBottom: 18 }}>
-                    <label style={labelStyle}>Email (opțional)</label>
-                    <input type="email" value={fEmail} onChange={e => setFEmail(e.target.value)} placeholder="ion@email.com" style={inputStyle} />
+                    <label style={labelStyle}>Email *</label>
+                    <input type="email" value={fEmail} onChange={e => setFEmail(e.target.value)} placeholder="ion@email.com" required style={inputStyle} />
                   </div>
 
                   {sendErr && <p style={{ fontSize: 12, color: '#dc2626', background: '#fef2f2', borderRadius: 8, padding: '10px 12px', marginBottom: 12 }}>{sendErr}</p>}
 
                   <div style={{ display: 'flex', gap: 10, marginBottom: 10 }}>
                     <button type="button" onClick={() => setStep(2)} style={{ flex: 1, border: '1.5px solid #e5e7eb', background: '#fff', color: '#374151', borderRadius: 10, padding: '12px', fontSize: 13, cursor: 'pointer' }}>← Înapoi</button>
-                    <button type="submit" disabled={sending || !fNume || !fTel} style={{ ...btnStyle(!sending && !!fNume && !!fTel), width: 'auto', flex: 2 }}>
+                    <button type="submit" disabled={sending || !fNume || !fTel || !fEmail} style={{ ...btnStyle(!sending && !!fNume && !!fTel && !!fEmail), width: 'auto', flex: 2 }}>
                       {sending ? 'Se trimite…' : 'Trimite cererea →'}
                     </button>
                   </div>
                   <p style={{ fontSize: 10, color: '#9ca3af', textAlign: 'center', margin: 0 }}>
-                    Date confidențiale. Consultanță gratuită, fără obligații.
+                    Datele tale sunt confidențiale și nu vor fi partajate cu terți.
                   </p>
                 </form>
               )}
