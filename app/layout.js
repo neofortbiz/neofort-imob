@@ -146,8 +146,8 @@ const organizationSchema = {
   ],
   aggregateRating: {
     '@type': 'AggregateRating',
-    ratingValue: '4.2',
-    reviewCount: '108',
+    ratingValue: GOOGLE_RATING,
+    reviewCount: GOOGLE_REVIEWS,
     bestRating: '5',
     worstRating: '1',
   },
@@ -204,8 +204,8 @@ const localBusinessSchema = {
   foundingDate: '2009',
   aggregateRating: {
     '@type': 'AggregateRating',
-    ratingValue: '4.2',
-    reviewCount: '108',
+    ratingValue: GOOGLE_RATING,
+    reviewCount: GOOGLE_REVIEWS,
     bestRating: '5',
     worstRating: '1',
   },

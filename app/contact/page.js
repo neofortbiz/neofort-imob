@@ -1,3 +1,4 @@
+import { GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
@@ -36,8 +37,8 @@ const localBusinessSchema = {
   vatID: 'RO53874087',
   aggregateRating: {
     '@type': 'AggregateRating',
-    ratingValue: '4.2',
-    reviewCount: '108',
+    ratingValue: GOOGLE_RATING,
+    reviewCount: GOOGLE_REVIEWS,
     bestRating: '5',
     worstRating: '1',
   },

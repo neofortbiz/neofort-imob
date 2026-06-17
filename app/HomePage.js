@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_LITE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
-import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII, NR_PORTOFOLIU } from '@/data/siteConfig'
+import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 import { ARTICOLE_LIST } from '@/data/blog'
 
 // Ultimele 4 articole sortate dupa data - se actualizeaza automat la articole noi
@@ -286,11 +286,11 @@ export default function HomePageClient() {
                 </svg>
               ))}
             </div>
-            <span className="text-sm font-medium" style={{ color: '#e8b44e' }}>4.2</span>
+            <span className="text-sm font-medium" style={{ color: '#e8b44e' }}>{GOOGLE_RATING}</span>
             <span className="text-xs" style={{ color: 'rgba(255,255,255,0.5)' }}>·</span>
             <a href="https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7" target="_blank" rel="noopener noreferrer"
               className="text-xs hover:underline" style={{ color: 'rgba(255,255,255,0.6)' }}>
-              108 recenzii Google
+              {GOOGLE_REVIEWS} recenzii Google
             </a>
           </div>
         </section>

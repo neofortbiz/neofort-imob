@@ -85,12 +85,12 @@ export default function CalculatorClient({ faqItems = [] }) {
   // ── Fetch curs live ─────────────────────────────────────
   function fetchCurs() {
     setCursLoading(true); setCursError(false)
-    fetch('https://api.frankfurter.app/latest?from=EUR&to=RON')
+    fetch('/api/curs')
       .then(r => r.json())
       .then(d => {
-        if (d?.rates?.RON) {
-          setCurs(d.rates.RON)
-          setCursDate(new Date().toLocaleTimeString('ro-RO', { hour: '2-digit', minute: '2-digit' }))
+        if (d?.rate) {
+          setCurs(d.rate)
+          setCursDate(d.date || new Date().toISOString().slice(0,10))
         } else setCursError(true)
       })
       .catch(() => setCursError(true))
@@ -162,11 +162,11 @@ export default function CalculatorClient({ faqItems = [] }) {
   return (
     <div style={{ fontFamily: 'Barlow, sans-serif' }}>
       <style>{`
-        input[type=range] { -webkit-appearance: none; appearance: none; height: 5px; background: #e5e7eb; border-radius: 3px; outline: none; }
-        input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #2d7a3a; cursor: pointer; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.2); }
-        input[type=range]::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: #2d7a3a; cursor: pointer; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.2); }
-        input[type=range]::-webkit-slider-runnable-track { height: 5px; border-radius: 3px; }
-        input[type=range]::-moz-range-track { height: 5px; background: #e5e7eb; border-radius: 3px; }
+        input[type=range] { -webkit-appearance: none; appearance: none; height: 3px; background: #d1d5db; border-radius: 2px; outline: none; cursor: pointer; }
+        input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #2d7a3a; cursor: pointer; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.18); margin-top: -6.5px; }
+        input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: #2d7a3a; cursor: pointer; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.18); }
+        input[type=range]::-webkit-slider-runnable-track { height: 3px; border-radius: 2px; background: #d1d5db; }
+        input[type=range]::-moz-range-track { height: 3px; background: #d1d5db; border-radius: 2px; }
       `}</style>
 
       {/* HERO */}
@@ -180,16 +180,16 @@ export default function CalculatorClient({ faqItems = [] }) {
           <h1 style={{ color: '#fff', fontSize: 'clamp(22px,4vw,32px)', fontWeight: 600, margin: '0 0 8px', lineHeight: 1.25 }}>
             Calculator Credit Ipotecar <span style={{ color: '#e8b44e' }}>2026</span>
           </h1>
-          <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: 14, margin: 0, maxWidth: 680 }}>
+          <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: 13, margin: 0, maxWidth: 760, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
             Simulare orientativă instantă — curs EUR/RON actualizat zilnic, DAE real din piață (6–12%), ofertă bancară în 24h.
           </p>
         </div>
       </section>
 
       {/* CALCULATOR */}
-      <section style={{ background: '#f8faf9', padding: '32px 16px 48px' }}>
-        <div style={{ maxWidth: 800, margin: '0 auto', width: '100%' }}>
-          <div style={{ background: '#fff', borderRadius: 16, border: '1px solid #e5e7eb', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.06)' }}>
+      <section style={{ background: '#f8faf9', padding: '32px 16px 48px', boxSizing: 'border-box' }}>
+        <div style={{ maxWidth: 800, margin: '0 auto', width: '100%', boxSizing: 'border-box' }}>
+          <div style={{ background: '#fff', borderRadius: 16, border: '1px solid #e5e7eb', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', boxSizing: 'border-box' }}>
 
             {/* Curs live */}
             <div style={{ background: cursError ? '#fff7ed' : '#f0faf2', borderBottom: '1px solid #e5e7eb', padding: '8px 24px', display: 'flex', alignItems: 'center', gap: 8 }}>
@@ -207,7 +207,7 @@ export default function CalculatorClient({ faqItems = [] }) {
               )}
             </div>
 
-            <div style={{ padding: '28px 28px 32px' }}>
+            <div style={{ padding: '20px 16px 24px' }}>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 32 }}>
 
                 {/* Coloana stânga — sliders */}
