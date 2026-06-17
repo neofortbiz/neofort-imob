@@ -1,5 +1,5 @@
 'use client'
-import { useState, useMemo, useEffect, useCallback } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
@@ -9,7 +9,7 @@ const STATUS_CFG = {
   constructie:  { label: 'În construcție', bg: '#1565c0', color: '#ffffff' },
   activ:        { label: 'Finalizat',      bg: '#2d7a3a', color: '#ffffff' },
   promotie:     { label: 'Promoție',       bg: '#c0392b', color: '#ffffff' },
-  vandut:        { label: 'Vândut',         bg: '#c8922a', color: '#ffffff' },
+  vandut:       { label: 'Vândut',         bg: '#c8922a', color: '#ffffff' },
 }
 const SECTOARE = ['Toate', 'Sector 2', 'Sector 3', 'Sector 6']
 const STATUSURI = ['Toate', 'finalizat', 'constructie', 'promotie']
@@ -21,14 +21,15 @@ const SORTARI = [
 ]
 
 export default function AnsambluriClient({ initialQuery = '' }) {
-  const [sector, setSector]       = useState('Toate')
-  const [status, setStatus]       = useState('Toate')
-  const [camere, setCamere]       = useState('Toate')
-  const [sortare, setSortare]     = useState('default')
-  const [view, setView]           = useState('grid')
-  const [pretMax, setPretMax]     = useState(1500000)
-  const [pretActiv, setPretActiv] = useState(false)
-  const [query, setQuery]         = useState(initialQuery)
+  const [sector, setSector]         = useState('Toate')
+  const [status, setStatus]         = useState('Toate')
+  const [camere, setCamere]         = useState('Toate')
+  const [sortare, setSortare]       = useState('default')
+  const [view, setView]             = useState('grid')
+  const [pretMax, setPretMax]       = useState(1500000)
+  const [pretActiv, setPretActiv]   = useState(false)
+  const [query, setQuery]           = useState(initialQuery)
+  const [filtreOpen, setFiltreOpen] = useState(false)
 
   useEffect(() => { if (initialQuery) setQuery(initialQuery) }, [initialQuery])
 
@@ -83,11 +84,112 @@ export default function AnsambluriClient({ initialQuery = '' }) {
   }
 
   const filtreActive = sector !== 'Toate' || status !== 'Toate' || camere !== 'Toate' || pretActiv || query.trim() !== ''
+  const nrFiltreActive = [
+    sector !== 'Toate',
+    status !== 'Toate',
+    camere !== 'Toate',
+    pretActiv,
+    query.trim() !== '',
+  ].filter(Boolean).length
+
+  // Continutul sidebar-ului — acelasi pe desktop (permanent) si mobil (collapsible)
+  const SidebarContent = (
+    <>
+      <div className="mb-5">
+        <p className="text-xs font-medium text-gray-700 mb-2">Sector</p>
+        <div className="space-y-1">
+          {SECTOARE.map(s => (
+            <button key={s} onClick={() => setSector(s)}
+              className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-all ${sector === s ? 'font-medium text-white' : 'text-gray-600 hover:bg-gray-50'}`}
+              style={sector === s ? { background: '#2d7a3a' } : {}}>
+              {s}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="mb-5">
+        <p className="text-xs font-medium text-gray-700 mb-2">Status</p>
+        <div className="space-y-1">
+          {STATUSURI.map(s => (
+            <button key={s} onClick={() => setStatus(s)}
+              className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-all ${status === s ? 'font-medium text-white' : 'text-gray-600 hover:bg-gray-50'}`}
+              style={status === s ? { background: '#2d7a3a' } : {}}>
+              {s === 'Toate' ? 'Toate' : STATUS_CFG[s]?.label}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="mb-5">
+        <p className="text-xs font-medium text-gray-700 mb-2">Camere</p>
+        <div className="flex flex-wrap gap-1.5">
+          {camereDinDate.map(c => (
+            <button key={c} onClick={() => setCamere(c)}
+              className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${camere === c ? 'text-white border-transparent' : 'border-gray-200 text-gray-600 hover:border-gray-300'}`}
+              style={camere === c ? { background: '#2d7a3a', borderColor: '#2d7a3a' } : {}}>
+              {c === '1' ? 'Garso' : c === 'Toate' ? 'Toate' : `${c} cam.`}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="mb-5">
+        <p className="text-xs font-medium text-gray-700 mb-1">Preț maxim</p>
+        <p className="text-xs mb-2" style={{ color: pretActiv ? '#2d7a3a' : '#9ca3af' }}>
+          {pretActiv ? `Până la ${new Intl.NumberFormat('ro-RO').format(pretMax)}€` : 'Toate prețurile'}
+        </p>
+        <label className="sr-only" htmlFor="range-buget">Buget</label>
+        <input id="range-buget" type="range" min={60000} max={1500000} step={10000}
+          value={pretMax}
+          onChange={e => { setPretMax(Number(e.target.value)); setPretActiv(true) }}
+          onMouseDown={e => e.stopPropagation()}
+          onTouchStart={e => e.stopPropagation()}
+          onTouchMove={e => e.stopPropagation()}
+          className="w-full"
+          style={{ accentColor: '#2d7a3a', touchAction: 'none' }}
+        />
+        <div className="flex justify-between text-[10px] text-gray-500 mt-0.5">
+          <span>60K€</span><span>1.5M€</span>
+        </div>
+      </div>
+      <div className="mb-4">
+        <p className="text-xs font-medium text-gray-700 mb-2">Sortare</p>
+        <label className="sr-only" htmlFor="sortare-select">Sortare</label>
+        <select id="sortare-select" value={sortare} onChange={e => setSortare(e.target.value)}
+          className="w-full text-xs border border-gray-200 rounded-lg px-2.5 py-2 bg-white text-gray-700 outline-none">
+          {SORTARI.map(s => <option key={s.val} value={s.val}>{s.lbl}</option>)}
+        </select>
+      </div>
+      <div className="mb-4">
+        <p className="text-xs font-medium text-gray-700 mb-2">Tipuri</p>
+        <div className="space-y-1">
+          {[
+            { href: '/apartamente/garsoniere-bucuresti', label: 'Garsoniere' },
+            { href: '/apartamente/apartamente-2-camere-bucuresti', label: '2 camere' },
+            { href: '/apartamente/apartamente-3-camere-bucuresti', label: '3 camere' },
+            { href: '/apartamente/apartamente-4-camere-bucuresti', label: '4 camere' },
+            { href: '/apartamente/apartamente-noi-cu-metrou-bucuresti', label: 'Cu metrou' },
+            { href: '/apartamente/apartamente-noi-finalizate-bucuresti', label: 'Finalizate' },
+          ].map(l => (
+            <a key={l.href} href={l.href}
+              className="block text-xs px-3 py-1.5 rounded-lg text-gray-500 hover:bg-gray-50 hover:text-gray-700 transition-all">
+              → {l.label}
+            </a>
+          ))}
+        </div>
+      </div>
+      {filtreActive && (
+        <button onClick={resetFiltre}
+          className="w-full py-2 rounded-lg text-xs border border-gray-200 text-gray-500 hover:bg-gray-50">
+          Resetează toate
+        </button>
+      )}
+    </>
+  )
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-6">
+
       {/* REZULTATE COUNT + VIEW TOGGLE */}
-      <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
+      <div className="flex items-center justify-between mb-4 flex-wrap gap-3">
         <p className="text-sm text-gray-500">
           {filtered.length} din {ANSAMBLURI_ACTIVE.length} ansambluri
           {filtreActive && (
@@ -114,21 +216,24 @@ export default function AnsambluriClient({ initialQuery = '' }) {
         </div>
       </div>
 
-      {/* SEARCH BAR — vizibil pe toate device-urile */}
-      <div className="mb-5">
-        <div className="relative max-w-md">
+      {/* SEARCH BAR — vizibil mereu, pe toate device-urile */}
+      <div className="mb-3">
+        <div className="relative">
           <label htmlFor="search-ansambluri" className="sr-only">Caută ansamblu</label>
           <input
             id="search-ansambluri"
-            type="search"
+            type="text"
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="Caută după zonă, tip, sector... (ex: Titan, 2 camere, Sector 3)"
-            className="w-full text-sm border border-gray-200 rounded-xl pl-10 pr-10 py-2.5 bg-white text-gray-700 outline-none focus:border-green-500 transition-colors shadow-sm"
+            placeholder="Caută după zonă, tip, sector... (ex: Titan, 2 camere)"
+            className="w-full text-sm border border-gray-200 rounded-xl pl-10 pr-8 py-2.5 bg-white text-gray-700 outline-none focus:border-green-500 transition-colors"
           />
-          <svg className="absolute left-3.5 top-3 text-gray-400 pointer-events-none" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <svg className="absolute left-3.5 top-3 text-gray-400 pointer-events-none" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
           {query && (
-            <button onClick={() => setQuery('')} className="absolute right-3 top-2.5 text-gray-400 hover:text-gray-600 text-sm px-1" aria-label="Șterge căutarea">✕</button>
+            <button onClick={() => setQuery('')} aria-label="Șterge căutarea"
+              className="absolute right-3 top-2.5 text-gray-400 hover:text-gray-600 text-sm leading-none px-0.5">✕</button>
           )}
         </div>
         {query.trim() && (
@@ -142,97 +247,47 @@ export default function AnsambluriClient({ initialQuery = '' }) {
         )}
       </div>
 
+      {/* BUTON FILTRE — doar pe mobil (lg: ascuns) */}
+      <div className="lg:hidden mb-3">
+        <button
+          onClick={() => setFiltreOpen(o => !o)}
+          className="flex items-center gap-2 w-full px-4 py-2.5 rounded-xl border text-sm font-medium transition-all"
+          style={{
+            borderColor: filtreOpen ? '#2d7a3a' : '#e5e7eb',
+            background: filtreOpen ? '#f0faf2' : '#fff',
+            color: filtreOpen ? '#2d7a3a' : '#374151',
+          }}>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="10" y1="18" x2="14" y2="18"/>
+          </svg>
+          Filtre
+          {nrFiltreActive > 0 && (
+            <span className="text-[10px] font-medium px-1.5 py-0.5 rounded-full text-white ml-1" style={{ background: '#2d7a3a' }}>
+              {nrFiltreActive}
+            </span>
+          )}
+          <svg className="ml-auto transition-transform" style={{ transform: filtreOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+            width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </button>
+
+        {/* PANEL COLLAPSIBLE — exact stilul sidebar-ului, dar horizontal pe mobil */}
+        {filtreOpen && (
+          <div className="mt-1 bg-white rounded-xl border border-gray-100 p-5">
+            <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-4">Filtre</h2>
+            {SidebarContent}
+          </div>
+        )}
+      </div>
+
       <div className="flex flex-col lg:flex-row gap-6">
-        {/* SIDEBAR FILTRE */}
-        <aside className="lg:w-56 flex-shrink-0">
+
+        {/* SIDEBAR FILTRE — doar pe desktop (lg: vizibil permanent) */}
+        <aside className="hidden lg:block lg:w-56 flex-shrink-0">
           <div className="bg-white rounded-xl border border-gray-100 p-5 sticky top-[82px]">
             <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-4">Filtre</h2>
-            <div className="mb-5">
-              <p className="text-xs font-medium text-gray-700 mb-2">Sector</p>
-              <div className="space-y-1">
-                {SECTOARE.map(s => (
-                  <button key={s} onClick={() => setSector(s)}
-                    className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-all ${sector === s ? 'font-medium text-white' : 'text-gray-600 hover:bg-gray-50'}`}
-                    style={sector === s ? { background: '#2d7a3a' } : {}}>
-                    {s}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <div className="mb-5">
-              <p className="text-xs font-medium text-gray-700 mb-2">Status</p>
-              <div className="space-y-1">
-                {STATUSURI.map(s => (
-                  <button key={s} onClick={() => setStatus(s)}
-                    className={`w-full text-left px-3 py-1.5 rounded-lg text-xs transition-all ${status === s ? 'font-medium text-white' : 'text-gray-600 hover:bg-gray-50'}`}
-                    style={status === s ? { background: '#2d7a3a' } : {}}>
-                    {s === 'Toate' ? 'Toate' : STATUS_CFG[s]?.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <div className="mb-5">
-              <p className="text-xs font-medium text-gray-700 mb-2">Camere</p>
-              <div className="flex flex-wrap gap-1.5">
-                {camereDinDate.map(c => (
-                  <button key={c} onClick={() => setCamere(c)}
-                    className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${camere === c ? 'text-white border-transparent' : 'border-gray-200 text-gray-600 hover:border-gray-300'}`}
-                    style={camere === c ? { background: '#2d7a3a', borderColor: '#2d7a3a' } : {}}>
-                    {c === '1' ? 'Garso' : c === 'Toate' ? 'Toate' : `${c} cam.`}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <div className="mb-5">
-              <p className="text-xs font-medium text-gray-700 mb-1">Preț maxim</p>
-              <p className="text-xs mb-2" style={{ color: pretActiv ? '#2d7a3a' : '#9ca3af' }}>
-                {pretActiv ? `Până la ${new Intl.NumberFormat('ro-RO').format(pretMax)}€` : 'Toate prețurile'}
-              </p>
-              <label className="sr-only" htmlFor="range-buget">Buget</label><input id="range-buget" type="range" min={60000} max={1500000} step={10000}
-                value={pretMax}
-                onChange={e => { setPretMax(Number(e.target.value)); setPretActiv(true) }}
-                onMouseDown={e => e.stopPropagation()}
-                onTouchStart={e => e.stopPropagation()}
-                onTouchMove={e => e.stopPropagation()}
-                className="w-full"
-                style={{ accentColor: '#2d7a3a', touchAction: 'none' }}
-              />
-              <div className="flex justify-between text-[10px] text-gray-500 mt-0.5">
-                <span>60K€</span><span>1.5M€</span>
-              </div>
-            </div>
-            <div className="mb-4">
-              <p className="text-xs font-medium text-gray-700 mb-2">Sortare</p>
-              <label className="sr-only" htmlFor="sortare-select">Sortare</label><select id="sortare-select" value={sortare} onChange={e => setSortare(e.target.value)}
-                className="w-full text-xs border border-gray-200 rounded-lg px-2.5 py-2 bg-white text-gray-700 outline-none">
-                {SORTARI.map(s => <option key={s.val} value={s.val}>{s.lbl}</option>)}
-              </select>
-            </div>
-            {/* Tipuri apartamente */}
-            <div className="mb-4">
-              <p className="text-xs font-medium text-gray-700 mb-2">Tipuri</p>
-              <div className="space-y-1">
-                {[
-                  { href: '/apartamente/garsoniere-bucuresti', label: 'Garsoniere' },
-                  { href: '/apartamente/apartamente-2-camere-bucuresti', label: '2 camere' },
-                  { href: '/apartamente/apartamente-3-camere-bucuresti', label: '3 camere' },
-                  { href: '/apartamente/apartamente-4-camere-bucuresti', label: '4 camere' },
-                  { href: '/apartamente/apartamente-noi-cu-metrou-bucuresti', label: 'Cu metrou' },
-                  { href: '/apartamente/apartamente-noi-finalizate-bucuresti', label: 'Finalizate' },
-                ].map(l => (
-                  <a key={l.href} href={l.href}
-                    className="block text-xs px-3 py-1.5 rounded-lg text-gray-500 hover:bg-gray-50 hover:text-gray-700 transition-all">
-                    → {l.label}
-                  </a>
-                ))}
-              </div>
-            </div>
-            {filtreActive && (
-              <button onClick={resetFiltre}
-                className="w-full py-2 rounded-lg text-xs border border-gray-200 text-gray-500 hover:bg-gray-50">
-                Resetează toate
-              </button>
-            )}
+            {SidebarContent}
           </div>
         </aside>
 
