@@ -32,13 +32,18 @@ if (typeof setInterval !== 'undefined') {
 }
 
 const DEST_EMAIL = 'lead.neo@neofort-biz.ro'
+const WA_NUMBER = '40758090904'
+const WA_API = `https://api.callmebot.com/whatsapp.php?phone=${WA_NUMBER}&apikey=${process.env.WA_API_KEY || ''}&text=`
 const FROM_EMAIL = 'noreply@neofort-biz.ro'
 const BASE = 'https://www.neofort.ro'
 
 function buildInternalEmail({ nume, telefon, email, mesaj, finantare, tipImobil, camere, buget, zona, ansamblu, tip }) {
   const isRapid = tip === 'rapid'
+  const isCredit = tip === 'credit'
   const subiect = isRapid
     ? `Lead rapid — ${ansamblu || 'Site'} — ${nume}`
+    : isCredit
+    ? `Lead credit ipotecar — ${nume}${ansamblu ? ' — ' + ansamblu : ''}`
     : `Lead calificat — ${nume} — ${tipImobil || ''}`
 
   const html = `<!DOCTYPE html><html lang="ro"><head><meta charset="UTF-8">
@@ -79,6 +84,12 @@ body{margin:0;padding:0;background:#f4f4f4;font-family:-apple-system,BlinkMacSys
   ${!isRapid && finantare ? `<div class="row"><div class="lbl">Finanțare</div><div class="val">${finantare}</div></div>` : ''}
   ${!isRapid && buget ? `<div class="row"><div class="lbl">Buget</div><div class="val">${buget}</div></div>` : ''}
   ${!isRapid && zona ? `<div class="row"><div class="lbl">Zonă</div><div class="val">${zona}</div></div>` : ''}
+  ${isCredit && data.simulare ? `<div class="row"><div class="lbl">Simulare</div><div class="val" style="font-weight:600;color:#2d7a3a">${data.simulare}</div></div>` : ''}
+  ${isCredit && data.pretApartament ? `<div class="row"><div class="lbl">Preț apartament</div><div class="val">${data.pretApartament}</div></div>` : ''}
+  ${isCredit && data.avansDisponibil ? `<div class="row"><div class="lbl">Avans disponibil</div><div class="val">${data.avansDisponibil}</div></div>` : ''}
+  ${isCredit && data.venitLunarNet ? `<div class="row"><div class="lbl">Venit lunar net</div><div class="val">${data.venitLunarNet}</div></div>` : ''}
+  ${isCredit && data.areRate ? `<div class="row"><div class="lbl">Rate în curs</div><div class="val">${data.areRate}</div></div>` : ''}
+  ${isCredit && data.varsta ? `<div class="row"><div class="lbl">Vârstă</div><div class="val">${data.varsta} ani</div></div>` : ''}
   ${mesaj ? `<div class="row"><div class="lbl">Mesaj</div><div class="val" style="font-style:italic">"${mesaj}"</div></div>` : ''}
   <div class="btns">
     ${telefon ? `<a href="tel:${telefon.replace(/\s/g,'')}" class="btn btn-g">📞 Sună acum</a>` : ''}
@@ -175,6 +186,19 @@ export async function POST(request) {
       if (!r1.ok) {
         console.error('Resend internal error:', await r1.text())
         return NextResponse.json({ error: 'Email error' }, { status: 500 })
+      }
+
+      // WhatsApp via CallMeBot
+      if (process.env.WA_API_KEY) {
+        const waMsg = encodeURIComponent([
+          `🏠 Lead ${data.tip === 'credit' ? 'CREDIT' : data.tip === 'rapid' ? 'RAPID' : 'CALIFICAT'} — ${nume}`,
+          `📞 ${telefon}`,
+          email ? `✉️ ${email}` : '',
+          ansamblu ? `🏢 ${ansamblu}` : '',
+          data.simulare ? `💰 ${data.simulare}` : '',
+          data.venitLunarNet ? `💼 Venit: ${data.venitLunarNet}` : '',
+        ].filter(Boolean).join('\n'))
+        fetch(`${WA_API}${waMsg}`).catch(e => console.error('WA error:', e))
       }
 
       if (email) {

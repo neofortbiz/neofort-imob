@@ -25,6 +25,14 @@ export default function sitemap() {
     { url: `${BASE}/termeni`, lastModified: new Date('2026-01-01'), changeFrequency: 'yearly', priority: 0.20 },
   ]
 
+  // Calculator credit
+  const calculatorPage = [{
+    url: `${BASE}/calculator-credit`,
+    lastModified: TODAY,
+    changeFrequency: 'monthly',
+    priority: 0.85,
+  }]
+
   // Pagini tip apartamente — SEO pentru query-uri de tip proprietate
   const TIP_SLUGURI = [
     'garsoniere-bucuresti',
@@ -78,5 +86,5 @@ export default function sitemap() {
     priority: 0.6,
   }))
 
-  return [...staticPages, ...tipPages, ...ansambluriActive, ...zonePages, ...blogPages, ...portofoliuPages]
+  return [...staticPages, ...calculatorPage, ...tipPages, ...ansambluriActive, ...zonePages, ...blogPages, ...portofoliuPages]
 }
