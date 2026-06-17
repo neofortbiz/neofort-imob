@@ -1,7 +1,7 @@
 import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
 import { Barlow, Barlow_Condensed } from 'next/font/google'
-import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
+import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 import Script from 'next/script'
 
 const barlow = Barlow({
