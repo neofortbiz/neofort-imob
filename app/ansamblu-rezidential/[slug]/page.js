@@ -260,7 +260,7 @@ export default function AnsambluPage({ params }) {
 
               {/* GALERIE — componenta cu imagini reale */}
               <div className="mb-6">
-                <GalerieAnsamblu imagini={a.imagini || {}} nume={a.nume} />
+                <GalerieAnsamblu imagini={a.imagini || {}} nume={a.nume} altText={a.imagini?.altTextExterior || ""} />
               </div>
 
               {/* DESCRIERE */}
@@ -363,7 +363,7 @@ export default function AnsambluPage({ params }) {
                     <Link key={s.slug} href={`/ansamblu-rezidential/${s.slug}`} className="border border-gray-100 rounded-xl overflow-hidden hover:border-gray-200 hover:shadow-sm transition-all group">
                       <div className="h-24 bg-gray-100 relative overflow-hidden">
                         {s.imagini?.cover ? (
-                          <img src={s.imagini.cover} alt={s.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" />
+                          <img src={s.imagini.cover} alt={s.imagini?.altTextExterior || s.nume} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} className="group-hover:scale-105 transition-transform duration-500" />
                         ) : (
                           <div className="absolute inset-0 bg-gray-100" />
                         )}

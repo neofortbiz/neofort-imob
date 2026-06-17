@@ -18,6 +18,7 @@ export const ANSAMBLURI = [
     brokerFoto: '/brokeri/raluca-nistor.avif',
     imagini: {
       cover: '/ansambluri/neo-84/exterior-01.avif',
+      altTextExterior: 'Ansamblu rezidential Neofort 84 Titan Pallady, apartamente noi 2-4 camere, Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-84/exterior-01.avif','/ansambluri/neo-84/exterior-02.avif','/ansambluri/neo-84/exterior-03.avif'],
       interior: [],
       schite: ['/ansambluri/neo-84/schite-01.avif','/ansambluri/neo-84/schite-02.avif','/ansambluri/neo-84/schite-03.avif','/ansambluri/neo-84/schite-04.avif','/ansambluri/neo-84/schite-05.avif','/ansambluri/neo-84/schite-06.avif','/ansambluri/neo-84/schite-07.avif','/ansambluri/neo-84/schite-08.avif','/ansambluri/neo-84/schite-09.avif','/ansambluri/neo-84/schite-10.avif','/ansambluri/neo-84/schite-11.avif','/ansambluri/neo-84/schite-12.avif','/ansambluri/neo-84/schite-13.avif','/ansambluri/neo-84/schite-14.avif','/ansambluri/neo-84/schite-15.avif','/ansambluri/neo-84/schite-16.avif','/ansambluri/neo-84/schite-17.avif','/ansambluri/neo-84/schite-18.avif','/ansambluri/neo-84/schite-19.avif','/ansambluri/neo-84/schite-20.avif','/ansambluri/neo-84/schite-21.avif','/ansambluri/neo-84/schite-22.avif','/ansambluri/neo-84/schite-23.avif','/ansambluri/neo-84/schite-24.avif','/ansambluri/neo-84/schite-25.avif','/ansambluri/neo-84/schite-26.avif','/ansambluri/neo-84/schite-27.avif','/ansambluri/neo-84/schite-28.avif'],
@@ -96,6 +97,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-83/exterior-01.avif',
+      altTextExterior: 'Bloc rezidential Neofort 83 Titan Pallady, apartamente noi langa Metrou Anghel Saligny, Sector 3',
       exterior: ['/ansambluri/neo-83/exterior-01.avif','/ansambluri/neo-83/exterior-02.avif','/ansambluri/neo-83/exterior-03.avif'],
       interior: ['/ansambluri/neo-83/interior-01.avif','/ansambluri/neo-83/interior-02.avif','/ansambluri/neo-83/interior-03.avif','/ansambluri/neo-83/interior-04.avif','/ansambluri/neo-83/interior-05.avif','/ansambluri/neo-83/interior-06.avif','/ansambluri/neo-83/interior-07.avif','/ansambluri/neo-83/interior-08.avif'],
       schite: ['/ansambluri/neo-83/schite-01.avif','/ansambluri/neo-83/schite-02.avif','/ansambluri/neo-83/schite-03.avif','/ansambluri/neo-83/schite-04.avif','/ansambluri/neo-83/schite-05.avif','/ansambluri/neo-83/schite-06.avif','/ansambluri/neo-83/schite-07.avif','/ansambluri/neo-83/schite-08.avif','/ansambluri/neo-83/schite-09.avif','/ansambluri/neo-83/schite-10.avif','/ansambluri/neo-83/schite-11.avif','/ansambluri/neo-83/schite-12.avif','/ansambluri/neo-83/schite-13.avif'],
@@ -172,6 +174,7 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-78/exterior-01.avif',
+      altTextExterior: 'Ansamblu premium Neofort 78 Mosilor Eminescu, apartamente 2-4 camere Sector 2 Bucuresti',
       exterior: ['/ansambluri/neo-78/exterior-01.avif','/ansambluri/neo-78/exterior-02.avif','/ansambluri/neo-78/exterior-03.avif','/ansambluri/neo-78/exterior-04.avif','/ansambluri/neo-78/exterior-05.avif','/ansambluri/neo-78/exterior-06.avif'],
       interior: ['/ansambluri/neo-78/interior-01.avif','/ansambluri/neo-78/interior-02.avif','/ansambluri/neo-78/interior-03.avif','/ansambluri/neo-78/interior-04.avif','/ansambluri/neo-78/interior-05.avif','/ansambluri/neo-78/interior-06.avif','/ansambluri/neo-78/interior-07.avif','/ansambluri/neo-78/interior-08.avif'],
       schite: ['/ansambluri/neo-78/schite-01.avif','/ansambluri/neo-78/schite-02.avif','/ansambluri/neo-78/schite-03.avif','/ansambluri/neo-78/schite-04.avif','/ansambluri/neo-78/schite-05.avif','/ansambluri/neo-78/schite-06.avif','/ansambluri/neo-78/schite-07.avif','/ansambluri/neo-78/schite-08.avif','/ansambluri/neo-78/schite-09.avif','/ansambluri/neo-78/schite-10.avif'],
@@ -253,6 +256,7 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-76/exterior-01.avif',
+      altTextExterior: 'Neofort 76 Iuliu Maniu Metrou Pacii, apartamente finalizate disponibile imediat Sector 6 Bucuresti',
       exterior: ['/ansambluri/neo-76/exterior-01.avif','/ansambluri/neo-76/exterior-02.avif','/ansambluri/neo-76/exterior-03.avif'],
       interior: ['/ansambluri/neo-76/interior-01.avif','/ansambluri/neo-76/interior-02.avif','/ansambluri/neo-76/interior-03.avif','/ansambluri/neo-76/interior-04.avif','/ansambluri/neo-76/interior-05.avif','/ansambluri/neo-76/interior-06.avif','/ansambluri/neo-76/interior-07.avif','/ansambluri/neo-76/interior-08.avif','/ansambluri/neo-76/interior-09.avif','/ansambluri/neo-76/interior-10.avif','/ansambluri/neo-76/interior-11.avif','/ansambluri/neo-76/interior-12.avif'],
       schite: [],
@@ -324,6 +328,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-56/exterior-01.avif',
+      altTextExterior: 'Ansamblu Neofort 56 Smart Home Titan Pallady, apartamente finalizate 2-4 camere Sector 3',
       exterior: ['/ansambluri/neo-56/exterior-01.avif','/ansambluri/neo-56/exterior-02.avif','/ansambluri/neo-56/exterior-03.avif','/ansambluri/neo-56/exterior-04.avif'],
       interior: ['/ansambluri/neo-56/interior-01.avif','/ansambluri/neo-56/interior-02.avif','/ansambluri/neo-56/interior-03.avif','/ansambluri/neo-56/interior-04.avif','/ansambluri/neo-56/interior-05.avif','/ansambluri/neo-56/interior-06.avif','/ansambluri/neo-56/interior-07.avif','/ansambluri/neo-56/interior-08.avif','/ansambluri/neo-56/interior-09.avif','/ansambluri/neo-56/interior-10.avif'],
       schite: ['/ansambluri/neo-56/schite-01.avif','/ansambluri/neo-56/schite-02.avif'],
@@ -396,6 +401,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     brokerFoto: '/brokeri/adrian-pintilie.avif',
     imagini: {
       cover: '/ansambluri/neo-50/exterior-01.avif',
+      altTextExterior: 'Neofort 50 Titan Parc IOR, ansamblu rezidential finalizat Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-50/exterior-01.avif','/ansambluri/neo-50/exterior-02.avif','/ansambluri/neo-50/exterior-03.avif','/ansambluri/neo-50/exterior-04.avif','/ansambluri/neo-50/exterior-05.avif'],
       interior: ['/ansambluri/neo-50/interior-01.avif','/ansambluri/neo-50/interior-02.avif','/ansambluri/neo-50/interior-03.avif','/ansambluri/neo-50/interior-04.avif','/ansambluri/neo-50/interior-05.avif','/ansambluri/neo-50/interior-06.avif','/ansambluri/neo-50/interior-07.avif','/ansambluri/neo-50/interior-08.avif','/ansambluri/neo-50/interior-09.avif','/ansambluri/neo-50/interior-10.avif','/ansambluri/neo-50/interior-11.avif','/ansambluri/neo-50/interior-12.avif','/ansambluri/neo-50/interior-13.avif','/ansambluri/neo-50/interior-14.avif','/ansambluri/neo-50/interior-15.avif'],
       schite: ['/ansambluri/neo-50/schite-01.avif','/ansambluri/neo-50/schite-02.avif','/ansambluri/neo-50/schite-03.avif','/ansambluri/neo-50/schite-04.avif','/ansambluri/neo-50/schite-05.avif','/ansambluri/neo-50/schite-06.avif','/ansambluri/neo-50/schite-07.avif','/ansambluri/neo-50/schite-08.avif','/ansambluri/neo-50/schite-09.avif','/ansambluri/neo-50/schite-10.avif'],
@@ -487,6 +493,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-49/exterior-01.avif',
+      altTextExterior: 'Ansamblu Neofort 49 Militari Metrou Gorjului, apartamente noi garsoniere si 2 camere Sector 6',
       exterior: ['/ansambluri/neo-49/exterior-01.avif','/ansambluri/neo-49/exterior-02.avif','/ansambluri/neo-49/exterior-03.avif','/ansambluri/neo-49/exterior-04.avif','/ansambluri/neo-49/exterior-05.avif','/ansambluri/neo-49/exterior-06.avif','/ansambluri/neo-49/exterior-07.avif'],
       interior: ['/ansambluri/neo-49/interior-01.avif','/ansambluri/neo-49/interior-02.avif','/ansambluri/neo-49/interior-03.avif','/ansambluri/neo-49/interior-04.avif','/ansambluri/neo-49/interior-05.avif'],
       schite: ['/ansambluri/neo-49/schite-01.avif','/ansambluri/neo-49/schite-02.avif','/ansambluri/neo-49/schite-03.avif','/ansambluri/neo-49/schite-04.avif','/ansambluri/neo-49/schite-05.avif','/ansambluri/neo-49/schite-06.avif'],
@@ -561,6 +568,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-44/exterior-01.avif',
+      altTextExterior: 'Bloc nou Neofort 44 Titan Pallady Teclu, garsoniere si apartamente 2-3 camere Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-44/exterior-01.avif','/ansambluri/neo-44/exterior-02.avif','/ansambluri/neo-44/exterior-03.avif'],
       interior: [],
       schite: ['/ansambluri/neo-44/schite-01.avif','/ansambluri/neo-44/schite-02.avif','/ansambluri/neo-44/schite-03.avif'],
@@ -635,6 +643,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     brokerFoto: '/brokeri/sasha-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-42/exterior-01.avif',
+      altTextExterior: 'Ansamblu premium Neofort 42 Piata Muncii, apartamente 2 si 4 camere Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-42/exterior-01.avif','/ansambluri/neo-42/exterior-02.avif','/ansambluri/neo-42/exterior-03.avif','/ansambluri/neo-42/exterior-04.avif','/ansambluri/neo-42/exterior-05.avif','/ansambluri/neo-42/exterior-06.avif','/ansambluri/neo-42/exterior-07.avif'],
       interior: ['/ansambluri/neo-42/interior-01.avif'],
       schite: ['/ansambluri/neo-42/schite-01.avif','/ansambluri/neo-42/schite-02.avif','/ansambluri/neo-42/schite-03.avif','/ansambluri/neo-42/schite-04.avif','/ansambluri/neo-42/schite-05.avif','/ansambluri/neo-42/schite-06.avif','/ansambluri/neo-42/schite-07.avif','/ansambluri/neo-42/schite-08.avif','/ansambluri/neo-42/schite-09.avif','/ansambluri/neo-42/schite-10.avif','/ansambluri/neo-42/schite-11.avif','/ansambluri/neo-42/schite-12.avif','/ansambluri/neo-42/schite-13.avif','/ansambluri/neo-42/schite-14.avif','/ansambluri/neo-42/schite-15.avif','/ansambluri/neo-42/schite-16.avif','/ansambluri/neo-42/schite-17.avif','/ansambluri/neo-42/schite-18.avif','/ansambluri/neo-42/schite-19.avif','/ansambluri/neo-42/schite-20.avif','/ansambluri/neo-42/schite-21.avif'],
@@ -710,6 +719,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-28f2/exterior-01.avif',
+      altTextExterior: 'Neofort 28 Faza 2 Titan Pallady, apartamente finalizate 2-3 camere Sector 3 Bucuresti',
       exterior: ['/ansambluri/neo-28f2/exterior-01.avif','/ansambluri/neo-28f2/exterior-02.avif','/ansambluri/neo-28f2/exterior-03.avif','/ansambluri/neo-28f2/exterior-04.avif'],
       interior: ['/ansambluri/neo-28f2/interior-01.avif','/ansambluri/neo-28f2/interior-02.avif','/ansambluri/neo-28f2/interior-03.avif','/ansambluri/neo-28f2/interior-04.avif','/ansambluri/neo-28f2/interior-05.avif'],
       schite: ['/ansambluri/neo-28f2/schite-01.avif','/ansambluri/neo-28f2/schite-02.avif','/ansambluri/neo-28f2/schite-03.avif','/ansambluri/neo-28f2/schite-04.avif','/ansambluri/neo-28f2/schite-05.avif','/ansambluri/neo-28f2/schite-06.avif','/ansambluri/neo-28f2/schite-07.avif'],
@@ -789,6 +799,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     brokerFoto: '/brokeri/adriana-veselu.avif',
     imagini: {
       cover: '/ansambluri/neo-28/exterior-01.avif',
+      altTextExterior: 'Ansamblu Neofort 28 Titan Pallady Teclu, apartamente 2-3 camere langa metrou Sector 3',
       exterior: ['/ansambluri/neo-28/exterior-01.avif'],
       interior: ['/ansambluri/neo-28/interior-01.avif','/ansambluri/neo-28/interior-02.avif','/ansambluri/neo-28/interior-03.avif','/ansambluri/neo-28/interior-04.avif','/ansambluri/neo-28/interior-05.avif'],
       schite: ['/ansambluri/neo-28/schite-01.avif','/ansambluri/neo-28/schite-02.avif','/ansambluri/neo-28/schite-03.avif','/ansambluri/neo-28/schite-04.avif','/ansambluri/neo-28/schite-05.avif','/ansambluri/neo-28/schite-06.avif','/ansambluri/neo-28/schite-07.avif','/ansambluri/neo-28/schite-08.avif','/ansambluri/neo-28/schite-09.avif','/ansambluri/neo-28/schite-10.avif','/ansambluri/neo-28/schite-11.avif','/ansambluri/neo-28/schite-12.avif','/ansambluri/neo-28/schite-13.avif','/ansambluri/neo-28/schite-14.avif','/ansambluri/neo-28/schite-15.avif','/ansambluri/neo-28/schite-16.avif','/ansambluri/neo-28/schite-17.avif','/ansambluri/neo-28/schite-18.avif','/ansambluri/neo-28/schite-19.avif','/ansambluri/neo-28/schite-20.avif','/ansambluri/neo-28/schite-21.avif','/ansambluri/neo-28/schite-22.avif','/ansambluri/neo-28/schite-23.avif','/ansambluri/neo-28/schite-24.avif','/ansambluri/neo-28/schite-25.avif','/ansambluri/neo-28/schite-26.avif','/ansambluri/neo-28/schite-27.avif'],
@@ -868,6 +879,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-11/exterior-01.avif',
+      altTextExterior: 'Neofort 11 boutique Eminescu Viitorului, apartamente premium 1-3 camere Sector 2 Bucuresti',
       exterior: ['/ansambluri/neo-11/exterior-01.avif','/ansambluri/neo-11/exterior-02.avif','/ansambluri/neo-11/exterior-03.avif','/ansambluri/neo-11/exterior-04.avif','/ansambluri/neo-11/exterior-05.avif','/ansambluri/neo-11/exterior-06.avif'],
       interior: [],
       schite: ['/ansambluri/neo-11/schite-01.avif','/ansambluri/neo-11/schite-02.avif','/ansambluri/neo-11/schite-03.avif','/ansambluri/neo-11/schite-04.avif','/ansambluri/neo-11/schite-05.avif','/ansambluri/neo-11/schite-06.avif','/ansambluri/neo-11/schite-07.avif','/ansambluri/neo-11/schite-08.avif','/ansambluri/neo-11/schite-09.avif','/ansambluri/neo-11/schite-10.avif','/ansambluri/neo-11/schite-11.avif','/ansambluri/neo-11/schite-12.avif','/ansambluri/neo-11/schite-13.avif'],
@@ -947,6 +959,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-8/exterior-01.avif',
+      altTextExterior: 'Ansamblu exclusivist Neofort 8 Tepes Voda Piata Muncii, apartamente clasa A Sector 2',
       exterior: ['/ansambluri/neo-8/exterior-01.avif','/ansambluri/neo-8/exterior-02.avif','/ansambluri/neo-8/exterior-03.avif','/ansambluri/neo-8/exterior-04.avif'],
       interior: ['/ansambluri/neo-8/interior-01.avif','/ansambluri/neo-8/interior-02.avif','/ansambluri/neo-8/interior-03.avif','/ansambluri/neo-8/interior-04.avif','/ansambluri/neo-8/interior-05.avif','/ansambluri/neo-8/interior-06.avif','/ansambluri/neo-8/interior-07.avif','/ansambluri/neo-8/interior-08.avif','/ansambluri/neo-8/interior-09.avif'],
       schite: ['/ansambluri/neo-8/schite-01.avif','/ansambluri/neo-8/schite-02.avif','/ansambluri/neo-8/schite-03.avif'],

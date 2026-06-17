@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 
-export default function GalerieAnsamblu({ imagini = {}, nume = '' }) {
+export default function GalerieAnsamblu({ imagini = {}, nume = '', altText = '' }) {
   const exterior = imagini.exterior || []
   const interior = imagini.interior || []
   const schite = imagini.schite || []
