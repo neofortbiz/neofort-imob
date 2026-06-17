@@ -114,28 +114,39 @@ export default function AnsambluriClient({ initialQuery = '' }) {
         </div>
       </div>
 
+      {/* SEARCH BAR — vizibil pe toate device-urile */}
+      <div className="mb-5">
+        <div className="relative max-w-md">
+          <label htmlFor="search-ansambluri" className="sr-only">Caută ansamblu</label>
+          <input
+            id="search-ansambluri"
+            type="search"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            placeholder="Caută după zonă, tip, sector... (ex: Titan, 2 camere, Sector 3)"
+            className="w-full text-sm border border-gray-200 rounded-xl pl-10 pr-10 py-2.5 bg-white text-gray-700 outline-none focus:border-green-500 transition-colors shadow-sm"
+          />
+          <svg className="absolute left-3.5 top-3 text-gray-400 pointer-events-none" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          {query && (
+            <button onClick={() => setQuery('')} className="absolute right-3 top-2.5 text-gray-400 hover:text-gray-600 text-sm px-1" aria-label="Șterge căutarea">✕</button>
+          )}
+        </div>
+        {query.trim() && (
+          <p className="text-xs text-gray-500 mt-1.5 ml-1">
+            {filtered.length === 0 ? 'Niciun rezultat pentru ' : `${filtered.length} rezultate pentru `}
+            <span className="font-medium text-gray-700">"{query}"</span>
+            {filtered.length === 0 && (
+              <button onClick={() => setQuery('')} className="ml-2 underline" style={{ color: '#2d7a3a' }}>Șterge</button>
+            )}
+          </p>
+        )}
+      </div>
+
       <div className="flex flex-col lg:flex-row gap-6">
         {/* SIDEBAR FILTRE */}
         <aside className="lg:w-56 flex-shrink-0">
           <div className="bg-white rounded-xl border border-gray-100 p-5 sticky top-[82px]">
             <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-4">Filtre</h2>
-            <div className="mb-5">
-              <label htmlFor="search-ansambluri" className="text-xs font-medium text-gray-700 mb-2 block">Caută ansamblu</label>
-              <div className="relative">
-                <input
-                  id="search-ansambluri"
-                  type="search"
-                  value={query}
-                  onChange={e => setQuery(e.target.value)}
-                  placeholder="Zona, tip, sector..."
-                  className="w-full text-xs border border-gray-200 rounded-lg pl-8 pr-3 py-2 bg-white text-gray-700 outline-none focus:border-green-500 transition-colors"
-                />
-                <svg className="absolute left-2.5 top-2 text-gray-400" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-                {query && (
-                  <button onClick={() => setQuery('')} className="absolute right-2 top-1.5 text-gray-400 hover:text-gray-600 text-xs px-1">✕</button>
-                )}
-              </div>
-            </div>
             <div className="mb-5">
               <p className="text-xs font-medium text-gray-700 mb-2">Sector</p>
               <div className="space-y-1">
@@ -196,6 +207,25 @@ export default function AnsambluriClient({ initialQuery = '' }) {
                 className="w-full text-xs border border-gray-200 rounded-lg px-2.5 py-2 bg-white text-gray-700 outline-none">
                 {SORTARI.map(s => <option key={s.val} value={s.val}>{s.lbl}</option>)}
               </select>
+            </div>
+            {/* Tipuri apartamente */}
+            <div className="mb-4">
+              <p className="text-xs font-medium text-gray-700 mb-2">Tipuri</p>
+              <div className="space-y-1">
+                {[
+                  { href: '/apartamente/garsoniere-bucuresti', label: 'Garsoniere' },
+                  { href: '/apartamente/apartamente-2-camere-bucuresti', label: '2 camere' },
+                  { href: '/apartamente/apartamente-3-camere-bucuresti', label: '3 camere' },
+                  { href: '/apartamente/apartamente-4-camere-bucuresti', label: '4 camere' },
+                  { href: '/apartamente/apartamente-noi-cu-metrou-bucuresti', label: 'Cu metrou' },
+                  { href: '/apartamente/apartamente-noi-finalizate-bucuresti', label: 'Finalizate' },
+                ].map(l => (
+                  <a key={l.href} href={l.href}
+                    className="block text-xs px-3 py-1.5 rounded-lg text-gray-500 hover:bg-gray-50 hover:text-gray-700 transition-all">
+                    → {l.label}
+                  </a>
+                ))}
+              </div>
             </div>
             {filtreActive && (
               <button onClick={resetFiltre}

@@ -390,8 +390,8 @@ export default function TipPage({ params }) {
                             width={480} height={270}
                           />
                         )}
-                        <span className="absolute top-2 left-2 text-[10px] font-medium px-2 py-0.5 rounded-full"
-                          style={{ background: sc.bg, color: sc.color }}>
+                        <span className="absolute top-2 left-2 text-[10px] font-medium px-2 py-0.5 rounded-full text-white"
+                          style={{ background: sc.dot }}>
                           {a.dataPredare === 'Finalizat' ? 'Finalizat' : 'În construcție'}
                         </span>
                         {hasPromo(a) && (

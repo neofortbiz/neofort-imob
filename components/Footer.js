@@ -33,7 +33,7 @@ export default function Footer() {
               Dezvoltator și agenție imobiliară din București. Din 2009 livrăm ansambluri rezidențiale de calitate în toate sectoarele capitalei.
             </p>
             {/* Social */}
-            <div className="flex gap-2">
+            <div className="flex gap-2 mb-5">
               <a href="https://www.facebook.com/profile.php?id=100063782524105" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
                 className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>f</a>
               <a href="https://www.instagram.com/neofortimobiliare/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
@@ -44,6 +44,22 @@ export default function Footer() {
                 className="w-7 h-7 rounded-md flex items-center justify-center text-xs hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>x</a>
               <a href="https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7" target="_blank" rel="noopener noreferrer" aria-label="Google Maps"
                 className="w-7 h-7 rounded-md flex items-center justify-center text-[10px] hover:border-gray-500 transition-colors" style={{ border: '0.5px solid #555', color: '#aaa' }}>gm</a>
+            </div>
+            {/* Tipuri apartamente */}
+            <div>
+              <p className="text-[10px] uppercase tracking-wider mb-2 font-medium" style={{ color: '#666' }}>Tipuri</p>
+              <div className="flex flex-wrap gap-x-3 gap-y-1">
+                {[
+                  { href: '/apartamente/garsoniere-bucuresti', label: 'Garsoniere' },
+                  { href: '/apartamente/apartamente-2-camere-bucuresti', label: '2 camere' },
+                  { href: '/apartamente/apartamente-3-camere-bucuresti', label: '3 camere' },
+                  { href: '/apartamente/apartamente-4-camere-bucuresti', label: '4 camere' },
+                ].map(l => (
+                  <Link key={l.href} href={l.href} className="text-[11px] hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
+                    {l.label}
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -56,8 +72,6 @@ export default function Footer() {
               { href: '/portofoliu', label: 'Portofoliu' },
               { href: '/ansambluri-rezidentiale?status=promotie', label: 'Promoție' },
               { href: '/harta-ansambluri', label: 'Hartă' },
-              { href: '/apartamente/apartamente-2-camere-bucuresti', label: '2 Camere' },
-              { href: '/apartamente/garsoniere-bucuresti', label: 'Garsoniere' },
             ].map(l => (
               <Link key={l.href} href={l.href} className="block text-xs py-1 mb-0.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}
