@@ -317,11 +317,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
                         <span className="absolute top-3 left-3 mt-[22px] text-[10px] font-medium px-2 py-0.5 rounded-full text-white"
                           style={{ background: '#c0392b' }}>Promoție</span>
                       )}
-                      {a.dataPredare && a.dataPredare !== 'Finalizat' && (
-                        <span className="absolute bottom-3 left-3 text-[10px] px-2 py-0.5 rounded-full bg-black/50 text-white">
-                          Predare {a.dataPredare}
-                        </span>
-                      )}
+
                     </div>
                     <div className="p-4">
                       <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">{a.zona}</p>
@@ -371,7 +367,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
                       <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500">
                         <span>{a.etaje}</span><span>·</span>
                         <span>{a.tipuri.join(', ')}</span>
-                        {a.dataPredare && a.dataPredare !== 'Finalizat' && <><span>·</span><span>Predare {a.dataPredare}</span></>}
+                        
                       </div>
                       <div className="mt-2 flex flex-wrap gap-1">
                         {a.puncteInteres?.filter(p => p.tip === 'metrou').slice(0, 2).map(p => (

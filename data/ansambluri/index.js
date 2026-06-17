@@ -493,7 +493,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-49/exterior-01.avif',
-      altTextExterior: 'Ansamblu Neofort 49 Militari Metrou Gorjului, apartamente noi garsoniere si 2 camere Sector 6',
+      altTextExterior: 'Randare exterioara ansamblu Neofort 49 Militari, apartamente noi garsoniere si 2 camere langa Metrou Gorjului Sector 6',
       exterior: ['/ansambluri/neo-49/exterior-01.avif','/ansambluri/neo-49/exterior-02.avif','/ansambluri/neo-49/exterior-03.avif','/ansambluri/neo-49/exterior-04.avif','/ansambluri/neo-49/exterior-05.avif','/ansambluri/neo-49/exterior-06.avif','/ansambluri/neo-49/exterior-07.avif'],
       interior: ['/ansambluri/neo-49/interior-01.avif','/ansambluri/neo-49/interior-02.avif','/ansambluri/neo-49/interior-03.avif','/ansambluri/neo-49/interior-04.avif','/ansambluri/neo-49/interior-05.avif'],
       schite: ['/ansambluri/neo-49/schite-01.avif','/ansambluri/neo-49/schite-02.avif','/ansambluri/neo-49/schite-03.avif','/ansambluri/neo-49/schite-04.avif','/ansambluri/neo-49/schite-05.avif','/ansambluri/neo-49/schite-06.avif'],
