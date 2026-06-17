@@ -37,7 +37,8 @@ const WA_API = `https://api.callmebot.com/whatsapp.php?phone=${WA_NUMBER}&apikey
 const FROM_EMAIL = 'noreply@neofort-biz.ro'
 const BASE = 'https://www.neofort.ro'
 
-function buildInternalEmail({ nume, telefon, email, mesaj, finantare, tipImobil, camere, buget, zona, ansamblu, tip }) {
+function buildInternalEmail(data) {
+  const { nume, telefon, email, mesaj, finantare, tipImobil, camere, buget, zona, ansamblu, tip } = data
   const isRapid = tip === 'rapid'
   const isCredit = tip === 'credit'
   const subiect = isRapid
