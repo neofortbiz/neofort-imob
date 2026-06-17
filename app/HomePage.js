@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_LITE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
-import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
+import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_PORTOFOLIU, NR_FAMILII, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 import { ARTICOLE_LIST } from '@/data/blog'
 
 // Ultimele 4 articole sortate dupa data - se actualizeaza automat la articole noi
