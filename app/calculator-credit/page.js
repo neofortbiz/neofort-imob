@@ -15,7 +15,7 @@ export const metadata = {
     url: `${BASE}/calculator-credit`,
     type: 'website',
     locale: 'ro_RO',
-    images: [{ url: `${BASE}/og-default.jpg`, width: 1200, height: 630, alt: 'Calculator credit ipotecar Neofort IMO' }],
+    images: [{ url: `${BASE}/og-calculator-credit.jpg`, width: 1200, height: 630, alt: 'Calculator credit ipotecar 2026 — Neofort IMO București' }],
   },
   twitter: {
     card: 'summary_large_image',

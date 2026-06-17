@@ -11,7 +11,7 @@ const NAV_LINKS = [
   { href: '/harta-ansambluri', label: 'Hartă' },
   { href: '/portofoliu', label: 'Portofoliu' },
   { href: '/blog', label: 'Blog' },
-  { href: '/calculator-credit', label: 'Calculator' },
+  { href: '/calculator-credit', label: 'Calculator Credite' },
   { href: '/echipa', label: 'Echipă' },
   { href: '/contact', label: 'Contact' },
 ]
