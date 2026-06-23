@@ -85,7 +85,7 @@ export default async function BlogPage() {
                   <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Cel mai recent</p>
                   <Link href={`/blog/${FEATURED.slug}`} className="group block">
                     <div className="relative rounded-2xl overflow-hidden mb-4" style={{ paddingBottom: '56.25%', position: 'relative' }}>
-                      {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}
+                      {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: FEATURED.imagePosition || 'center center' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}
                       <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 60%)' }} />
                       <span className="absolute top-4 left-4 text-xs font-semibold px-3 py-1 rounded-full text-white" style={{ background: FEATURED.tagColor }}>{FEATURED.tag}</span>
                     </div>
@@ -116,7 +116,7 @@ export default async function BlogPage() {
                     <Link key={a.slug} href={`/blog/${a.slug}`} className="group border border-gray-200 rounded-xl overflow-hidden hover:border-gray-300 hover:shadow-md transition-all">
                       <div style={{ position: 'relative', paddingBottom: '56.25%', overflow: 'hidden' }}>
                         {a.image ? (
-                          <img src={a.image} alt={a.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                          <img src={a.image} alt={a.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: a.imagePosition || 'center center' }} className="group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                         ) : <div style={{ position: 'absolute', inset: 0, background: '#f3f4f6' }} />}
                         <span className="absolute top-3 left-3 text-[10px] font-semibold px-2 py-0.5 rounded-full text-white" style={{ background: a.tagColor }}>{a.tag}</span>
                       </div>
