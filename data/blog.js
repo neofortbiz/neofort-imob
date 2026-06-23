@@ -56,6 +56,126 @@ export const AUTORI = {
 }
 
 export const ARTICOLE = {
+  'neofort-10-colentina-fundeni-lansare': {
+    titlu: `Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire — Ce Trebuie să Știi`,
+    seoTitle: 'Neofort 10 Colentina Fundeni — Lansare',
+    seoDesc: 'Neofort 10 Colentina Fundeni, strada Pasarani, Sector 2. Garsoniere, studiouri, 2-4 camere cu gradini si terase. Predare T1 2028. Rezervari din iulie 2026.',
+    descriere: 'Un nou proiect Neofort IMO se pregătește de lansare în zona Colentina-Fundeni: garsoniere, studiouri, apartamente de 2-4 camere cu grădini și terase, pe o stradă liniștită din Sectorul 2.',
+    tag: 'Lansare', tagColor: '#c8922a',
+    data: '23 Iunie 2026', dataISO: '2026-06-23', citire: '6 min',
+    autor: 'raluca-nistor',
+    image: '/blog/neofort-10-colentina-fundeni-lansare.avif',
+    keywords: ['neofort 10 colentina', 'apartamente noi colentina fundeni', 'strada pasarani bucuresti', 'apartamente noi sector 2 2026', 'lansare proiect imobiliar bucuresti', 'garsoniere colentina', 'apartamente gradina bucuresti'],
+    hashtags: ['#Neofort10', '#ColentinaFundeni', '#LansareNoua', '#Sector2Bucuresti', '#NeofortIMO'],
+    cuprins: [
+      { id: 'context-lansare', titlu: 'Un proiect nou se pregătește în Colentina-Fundeni' },
+      { id: 'arhitectura', titlu: 'Arhitectura și regimul de înălțime' },
+      { id: 'tehnic-finisaje', titlu: 'Structură, dotări și finisaje' },
+      { id: 'tipologii', titlu: 'Tipologiile disponibile' },
+      { id: 'zona', titlu: 'Zona și vecinătățile' },
+      { id: 'faq', titlu: 'Întrebări frecvente despre Neofort 10 Colentina Fundeni' },
+    ],
+    sectiuni: [
+      {
+        id: 'context-lansare',
+        h2: `Un proiect nou se pregătește în Colentina-Fundeni`,
+        continut: `Neofort IMO pregătește lansarea unui nou ansamblu rezidențial pe Strada Pasarani 63-65, Sectorul 2 — o zonă care combină liniștea unui cartier de case cu accesul rapid către centrul Bucureștiului, zona de nord și Autostrada A3.
+
+Proiectul, denumit Neofort 10 Colentina Fundeni, se află încă în pregătire: prima scară este programată pentru predare în Trimestrul I 2028, iar startul rezervărilor este planificat pentru iulie 2026. Prețurile și disponibilitatea completă a tipologiilor vor fi anunțate odată cu deschiderea oficială a vânzărilor.
+
+Acest articol este un teaser — o privire de ansamblu asupra a ceea ce se construiește, înainte ca informațiile complete despre prețuri și apartamentele individuale să fie publice. Dacă vrei să fii printre primii care primesc oferta completă, poți lăsa datele de contact la finalul articolului.`,
+      },
+      {
+        id: 'arhitectura',
+        h2: `Arhitectura și regimul de înălțime`,
+        continut: `Clădirea este proiectată pe un regim de înălțime Demisol + Parter + 4 Etaje + Etaj 5 retras — un concept arhitectural echilibrat, fără să domine vizual o stradă secundară încă marcată de case joase din zona Colentina.
+
+Demisolul este destinat integral parcărilor subterane, completate de locuri de parcare supraterane la exterior pentru un plus de confort. Particularitatea proiectului: apartamentele de la parter beneficiază de grădini proprii — o tipologie rar disponibilă în blocuri noi din București, care oferă intimitatea unei case alături de avantajele unui ansamblu nou, cu toate dotările tehnice moderne. La polul opus, locuințele de la etajul 5 retras dispun de terase generoase, ideale pentru relaxare și pentru cei care prioritizează spațiul exterior privat.
+
+Această combinație — grădini la parter, terase la ultimul etaj — înseamnă că proiectul se adresează simultan unor profiluri foarte diferite de cumpărători: familii care vor un spațiu exterior propriu fără să renunțe la un apartament nou, și cumpărători care caută o vedere generoasă și un etaj înalt.`,
+      },
+      {
+        id: 'tehnic-finisaje',
+        h2: `Structură, dotări și finisaje`,
+        continut: `**Structura de rezistență**
+
+Structura este realizată din beton armat cu placă de 25 cm și radier general — o soluție care asigură o distribuție optimă a încărcărilor și o stabilitate ridicată a întregii clădiri. Hidroizolația de tip cuvă la fundație elimină riscul infiltrațiilor și asigură stabilitate pe termen lung. Structura de rezistență este completată cu diafragme din beton armat, oferind un comportament antiseismic superior, conform celor mai exigente standarde de proiectare actuale.
+
+Compartimentările interioare sunt executate din cărămidă Porotherm de 25 cm — o soluție recunoscută pentru izolarea termică și fonică superioară, tradusă direct în facturi mai mici la încălzire iarna și răcoare naturală vara. Fațada este termoizolată cu polistiren de 100mm sau vată bazaltică de 100mm, iar acoperișul tip terasă, realizat pe placă din beton armat, are un sistem de termoizolare și hidroizolare de 75 cm pentru confort termic și durabilitate pe termen lung.
+
+**Tâmplărie și sisteme de încălzire**
+
+Fiecare apartament va fi dotat cu tâmplărie PVC Salamander cu geam tripan, sticlă cu protecție UV și suprafețe vitrate cu efect de reflexie și intimitate (privacy glass) — o soluție care oferă simultan eficiență energetică ridicată și confort vizual sporit față de stradă.
+
+Sistemul de încălzire este individual și complet: centrală proprie în condensare de 24 kW, încălzire în pardoseală în toate încăperile și termostat wireless compatibil Smart Home pentru control facil al temperaturii direct din telefon. Instalațiile sanitare și termice vor fi realizate cu echipamente Romstal, alese pentru fiabilitate și performanță pe termen lung în exploatare.
+
+**Finisaje**
+
+Fiecare locuință va fi livrată cu finisaje de la producători consacrați: uși de interior Pinum finisate prin vopsire, obiecte sanitare premium Roca și Grohe, parchet laminat Egger PRO clasa de trafic 32 (rezistență ridicată, potrivită pentru trafic intens) și gresie și faianță Cristacer, import Spania, calitatea I. Cumpărătorii vor putea personaliza finisajele interioare dintr-o gamă variată, înainte de finalizarea construcției — un avantaj important față de proiectele unde finisajele sunt fixe și nenegociabile.`,
+      },
+      {
+        id: 'tipologii',
+        h2: `Tipologiile disponibile`,
+        continut: `Oferta Neofort 10 Colentina Fundeni va cuprinde 5 tipologii distincte, gândite să acopere o gamă largă de bugete și nevoi:
+
+- **Garsoniere**, de la 42,05 mp suprafață utilă totală
+- **Studiouri**, de la 50,05 mp suprafață utilă totală
+- **Apartamente 2 camere**, de la 52,45 mp suprafață utilă totală
+- **Apartamente 3 camere**, de la 77,35 mp suprafață utilă totală
+- **Apartamente 4 camere cu terasă**, de la 122 mp suprafață utilă totală
+
+Diversitatea tipologică — de la garsonieră compactă la apartament generos cu terasă — înseamnă că proiectul nu se adresează unui singur profil de cumpărător. Tinerii la prima achiziție, cuplurile care vor un studio funcțional, familiile care au nevoie de 3 camere și grădină, sau cumpărătorii care prioritizează spațiul generos la 4 camere cu terasă — toți găsesc o variantă potrivită în același ansamblu.
+
+Prețurile exacte pentru fiecare tipologie nu sunt încă publice. Vor fi anunțate odată cu deschiderea oficială a rezervărilor, estimată pentru iulie 2026.`,
+      },
+      {
+        id: 'zona',
+        h2: `Zona și vecinătățile`,
+        continut: `**Transport**
+
+Strada Pasarani este o stradă secundară, ferită de traficul intens al arterelor principale, dar conectarea către oraș rămâne rapidă. Stația STB pentru liniile 66 și 253 se află la doar 500 de metri distanță, iar la 800m este tramvaiul 21, care are linie directă spre stația de metrou Obor. Șoseaua Fabrica de Glucoză și centrul de business Pipera sunt accesibile în 15 minute cu mașina sau 30 de minute cu STB 343.
+
+**Cumpărături și relaxare**
+
+Pentru cumpărături, un centru comercial se află la 950m, cu supermarket Carrefour, magazine Dedeman, Altex, farmacii, restaurante fast-food și prize de încărcare pentru mașini electrice. Piața Obor și Veranda Mall sunt la 15 minute cu mașina, iar Aeroportul Henri Coandă la 25 de minute.
+
+Pentru relaxare în natură, Parcul Morodom este accesibil în 18 minute de mers pe jos, iar Parcul Plumbuita — cu lac și spații verzi generoase — la doar 8 minute cu mașina.
+
+**Educație și sănătate**
+
+Familiile cu copii au în imediata vecinătate grădinițele Zuppy, Suflet de Copil și Primii Pași. Școlile generale 32, 40 și 41, Grădinița și Școala Spectrum, plus Liceul Teoretic Internațional de Informatică completează oferta educațională, de la creșă până la liceu.
+
+Pentru sănătate, la 850m de ansamblu se află complexul de spitale și centre medicale de pe Șoseaua Fundeni — unul dintre cele mai mari hub-uri medicale din București, care include Institutul Clinic Fundeni.
+
+**De ce Colentina-Fundeni**
+
+Pe strada Pasarani, într-o zonă liniștită de case din Colentina, Neofort 10 oferă un echilibru rar între accesul rapid către oraș și confortul unei străzi secundare, ferite de trafic intens. Este alegerea potrivită pentru cei care caută apartamente noi în Colentina, într-un bloc mic, cu comunitate restrânsă — alege un apartament într-un loc unde te întorci pentru liniște.
+
+Oferta de lansare se pregătește. Prețurile și disponibilitatea completă vor fi publice în curând. Dacă vrei să le primești primul, lasă-ne datele de contact mai jos — [contactează un consultant Neofort IMO](/contact) sau explorează deocamdată [ansamblurile active din portofoliul Neofort IMO](/ansambluri-rezidentiale), inclusiv [Neofort 78 Mosilor-Eminescu](/ansamblu-rezidential/neofort-78-mosilor-eminescu) — un alt proiect din Sectorul 2.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre Neofort 10 Colentina Fundeni`,
+        continut: `Când vor fi disponibile prețurile pentru Neofort 10 Colentina Fundeni?
+Prețurile și disponibilitatea completă a tipologiilor vor fi publicate odată cu deschiderea oficială a rezervărilor, estimată pentru iulie 2026. Cei care lasă datele de contact vor fi informați primii.
+
+Când se predă Neofort 10 Colentina Fundeni?
+Prima scară a ansamblului este programată pentru predare în Trimestrul I 2028, conform planificării actuale a constructorului.
+
+Ce tipuri de apartamente vor fi disponibile?
+Cinci tipologii: garsoniere de la 42,05 mp, studiouri de la 50,05 mp, apartamente de 2 camere de la 52,45 mp, apartamente de 3 camere de la 77,35 mp și apartamente de 4 camere cu terasă de la 122 mp.
+
+Apartamentele au grădină sau terasă?
+Da. Apartamentele de la parter beneficiază de grădini proprii, iar cele de la etajul 5 retras au terase generoase.
+
+Unde este situat exact ansamblul?
+Pe Strada Pasarani 63-65, Sectorul 2, în zona Colentina-Fundeni — o stradă secundară liniștită, la 500m de stația STB pentru liniile 66 și 253 și la 850m de complexul medical Fundeni.
+
+Cum pot afla primul despre lansarea oficială?
+Poți lăsa datele tale de contact la finalul acestui articol sau poți contacta direct un consultant Neofort IMO. Vei fi informat imediat ce prețurile și disponibilitatea completă devin publice.`,
+      },
+    ],
+  },
   'legea-nordis-efect-bumerang-piata-imobiliara': {
     titlu: `Legea Nordis: Efect de Bumerang pe Piață`,
     seoTitle: 'Legea Nordis: Efect de Bumerang pe Piață',
@@ -4606,6 +4726,7 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
 }
 
 export const ARTICOLE_LIST = [
+    { slug: 'neofort-10-colentina-fundeni-lansare', titlu: 'Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire', data: '23 Iunie 2026', dataISO: '2026-06-23', citire: '6 min', image: '/blog/neofort-10-colentina-fundeni-lansare.avif', tag: 'Lansare', tagColor: '#c8922a', rezumat: 'Un nou proiect Neofort IMO se pregătește de lansare în Colentina-Fundeni: garsoniere, studiouri, apartamente 2-4 camere cu grădini și terase. Predare T1 2028, rezervări din iulie 2026.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piață', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'credit-ipotecar-2026-ghid-complet-rate-dobanzi', titlu: 'Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie', data: '17 Iunie 2026', dataISO: '2026-06-17', citire: '16 min', image: '/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Ghid complet credit ipotecar 2026: IRCC 5,58%, calcule reale pe 4 scenarii, comparație bănci (BCR, BRD, Raiffeisen, ING, CEC), grad de îndatorare 40%, Noua Casă vs credit standard. Date actualizate BNR iunie 2026.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'gradul-de-indatorare-credit-ipotecar', titlu: 'Gradul de Îndatorare 40%: Cum Calculezi și Maximizezi Creditul', data: '14 Iunie 2026', dataISO: '2026-06-14', citire: '13 min', image: '/blog/gradul-de-indatorare-credit-ipotecar-2026.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Gradul de îndatorare 40% impus de BNR: formula exactă de calcul, ce datorii invizibile îți blochează creditul, 7 greșeli frecvente, strategii de maximizare și tabel complet credite pe niveluri de venit.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
