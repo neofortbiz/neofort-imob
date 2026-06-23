@@ -1,5 +1,5 @@
 # Neofort IMO — Imobiliare București (VERSIUNE COMPLETA)
-# Actualizat: 2026-06-17
+# Actualizat: 2026-06-23
 # Versiune: llms-full.txt (date complete pentru sisteme AI/RAG)
 
 ## Companie
@@ -258,7 +258,7 @@ Slug: neofort-49-militari-metrou-gorjului
 Status: În construcție
 Etaje: S+P+3E
 Tipuri: Garsoniera, 2 camere
-Pret de la: 77.800€ + TVA
+Pret de la: 120.600€ + TVA
 Predare: In curand
 Adresa: Strada Vistiernicul Stavrinos, Sector 6, Bucuresti
 Coordonate: 44.4311, 26.012883
@@ -266,19 +266,22 @@ Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-49-militari-metrou-gorjului
 
 Apartamente disponibile:
-- Garsoniera (38.9 mp, et. et. 1-3): de la 77.800€+TVA
-- 2 camere (60.3 mp, et. et. 1-3): de la 120.600€+TVA
+- 2 camere tip 2 (60.85 mp, et. et. 1-3): de la 121.700€+TVA
+- 2 camere tip 3 (63.25 mp, et. et. 1-3): de la 126.500€+TVA
+- 2 camere tip 4 (60.45 mp, et. et. 1-3): de la 120.900€+TVA
+- 2 camere tip 5 (60.3 mp, et. et. 1-3): de la 120.600€+TVA
+- 2 camere tip 6 (71.4 mp, et. et. 1-3): de la 142.800€+TVA
 Parcare subterană: 15.000€ TVA inclus
 
 Dotări: Centrala proprie de apartament, Incalzire prin pardoseala, Tamplarie Salamander negru structurat, Kit aer conditionat, Baie complet echipata, Obiecte sanitare incastrabile suspendate, Usa metalica multipunct antiefractie, Lift silentios
 
 Puncte de interes:
-- metrou: Metrou Gorjului (M3) — 250m
+- metrou: Metrou Gorjului (M3) — 950m
 - mall: Militari Shopping Center — 10 min pe jos
 - medical: Sanador Militari — 13 min pe jos
 - metrou: Metrou Pacii (M3) — 5 min cu masina
 - metrou: Metrou Petrache Poenaru (M3) — 6 min cu masina
-- parc: Parcul Liniei — 7 min cu masina
+- parc: Parcul Liniei — 5 min pe jos
 - metrou: Metrou Preciziei (M3) — 8 min cu masina
 - mall: Cora Lujerului — 10 min cu masina
 - metrou: Metrou Lujerului (M3) — 11 min cu masina
@@ -286,7 +289,7 @@ Puncte de interes:
 - transport: Autostrada A1 — 10 min cu masina
 - mall: AFI Palace Cotroceni — 18 min cu masina
 
-Descriere scurtă: Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 18 apartamente finalizat. Garsoniere și 2 camere de la 76.974€+TVA. Metrou Gorjului și Păcii la câteva minute. Centrală proprie, încălzire pardoseală, tâmplărie Salamander, kit aer condiționat, finisaje moderne la cheie.
+Descriere scurtă: Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 16 apartamente în construcție. Garsoniere (38,9 mp) și 2 camere (38,9-71,4 mp) de la 77.800€+TVA. Metrou Gorjului (M3) la 950m. Centrală proprie, încălzire pardoseală, tâmplărie Salamander tripan, kit aer condiționat, finisaje complete.
 
 ### Neofort 44 Titan Pallady Teclu — Titan-Pallady, Sector 3
 Slug: neofort-44-titan-pallady-teclu
@@ -534,6 +537,20 @@ Autor: Igor Calutu
 Tag: Legislație
 URL: https://www.neofort.ro/blog/legea-nordis-efect-bumerang-piata-imobiliara
 Rezumat: Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.
+
+### Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie
+Data: 17 Iunie 2026
+Autor: Sasha Calutu
+Tag: Finanțare
+URL: https://www.neofort.ro/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi
+Rezumat: Ghid complet credit ipotecar 2026: IRCC 5,58%, calcule reale pe 4 scenarii, comparație bănci (BCR, BRD, Raiffeisen, ING, CEC), grad de îndatorare 40%, Noua Casă vs credit standard. Date actualizate BNR iunie 2026.
+
+### Gradul de Îndatorare 40%: Cum Calculezi și Maximizezi Creditul
+Data: 14 Iunie 2026
+Autor: Adrian Pintilie
+Tag: Finanțare
+URL: https://www.neofort.ro/blog/gradul-de-indatorare-credit-ipotecar
+Rezumat: Gradul de îndatorare 40% impus de BNR: formula exactă de calcul, ce datorii invizibile îți blochează creditul, 7 greșeli frecvente, strategii de maximizare și tabel complet credite pe niveluri de venit.
 
 ### Apartamente Noi Titan–Pallady și Teclu 2026
 Data: 11 Iunie 2026

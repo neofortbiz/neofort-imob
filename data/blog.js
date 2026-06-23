@@ -323,6 +323,629 @@ Neofort IMO continuă să construiască și să livreze în acest context difici
   },
 
 
+  'credit-ipotecar-2026-ghid-complet-rate-dobanzi': {
+    titlu: `Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie`,
+    seoTitle: 'Credit Ipotecar 2026: Rate, Dobânzi, Strategie',
+    seoDesc: 'Ghid complet credit ipotecar 2026: IRCC 5.58%, calcule reale rate, comparație bănci, grad de îndatorare 40%, Noua Casă vs credit standard.',
+    descriere: 'Tot ce trebuie să știi despre creditul ipotecar în 2026: dobânzi reale, calcule pe scenarii, comparație bănci, grad de îndatorare și strategia optimă pentru cumpărătorii de apartamente noi.',
+    tag: 'Finanțare', tagColor: '#0369a1',
+    data: '17 Iunie 2026', dataISO: '2026-06-17', citire: '16 min',
+    autor: 'sasha-calutu',
+    image: '/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi.avif',
+    keywords: ['credit ipotecar 2026 romania', 'rata lunara credit ipotecar 2026', 'IRCC 2026 valoare', 'dobanda credit imobiliar 2026', 'grad de indatorare credit 2026', 'noua casa 2026 conditii', 'credit ipotecar DAE 2026', 'banci credit ipotecar 2026 comparatie', 'eligibilitate credit apartament nou', 'calcul rata credit ipotecar 2026'],
+    hashtags: ['#CreditIpotecar2026', '#IRCC2026', '#GradIndatorare', '#NouaCasa2026', '#NeofortIMO'],
+    cuprins: [
+      { id: 'context-macro', titlu: 'Contextul macro: de ce 2026 este momentul creditului' },
+      { id: 'ircc-robor-2026', titlu: 'IRCC și ROBOR în 2026 — valorile reale și tendința' },
+      { id: 'calcul-rata', titlu: 'Calcul concret: rata lunară pe 4 scenarii reale' },
+      { id: 'dae-cost-total', titlu: 'DAE vs dobândă nominală — costul real al creditului' },
+      { id: 'grad-indatorare', titlu: 'Gradul de îndatorare 40% — cum îl calculezi' },
+      { id: 'conditii-eligibilitate', titlu: 'Condiții de eligibilitate — ce verifică banca în 2026' },
+      { id: 'banci-comparatie', titlu: 'Comparație bănci — BCR, BRD, Raiffeisen, ING, CEC' },
+      { id: 'noua-casa-2026', titlu: 'Noua Casă 2026 — avantaje reale și limitări' },
+      { id: 'strategie-finantare', titlu: 'Strategia optimă: avans, durată, bancă' },
+      { id: 'faq', titlu: 'Întrebări frecvente — credit ipotecar 2026' },
+    ],
+    sectiuni: [
+      {
+        id: 'context-macro',
+        h2: `Contextul macro: de ce 2026 este cel mai favorabil moment pentru creditare din ultimii 5 ani`,
+        continut: `Dacă ai amânat achiziția unui apartament din cauza dobânzilor ridicate din 2022-2024, momentul să recalculezi a venit. 2026 aduce convergența a trei factori favorabili simultan — o situație care nu s-a mai întâlnit din 2019-2020.
+
+**Banca Națională a României a redus dobânda de politică monetară de 4 ori consecutiv:**
+- Octombrie 2024: 6,50% → 6,25%
+- Ianuarie 2025: 6,25% → 6,00%
+- Aprilie 2025: 6,00% → 5,75%
+- Ianuarie 2026: 5,75% → 5,50%
+
+Aceasta este cea mai lungă serie de reduceri consecutive din istoria recentă a BNR, posibilă datorită revenirii inflației în banda țintă: 3,1% în mai 2026, față de maximul de 16,4% din noiembrie 2022.
+
+**Ce înseamnă practic pentru cumpărători:**
+Un credit de 300.000 RON (~60.000€) pe 30 de ani costă în iunie 2026 cu aproximativ 580 RON/lună mai puțin față de aceeași structură în octombrie 2023 (vârful dobânzilor). Pe durata întregului credit, diferența depășește 208.000 RON — suma avansului pentru un apartament în [zona Titan-Pallady](/zona/titan-pallady).
+
+**Perspectiva pe 12 luni:** BNR semnalizează o reducere suplimentară de 50-75 de puncte de bază până la sfârșitul lui 2026, ceea ce ar aduce IRCC sub 5% — un nivel nevăzut din 2022. Cumpărătorii care achiziționează acum cu dobândă variabilă pot beneficia de reduceri automate ale ratei pe măsură ce IRCC scade.`,
+      },
+      {
+        id: 'ircc-robor-2026',
+        h2: `IRCC și ROBOR în 2026 — valorile reale, diferențele și care te avantajează`,
+        continut: `România are două sisteme de referință pentru dobânzile la credite ipotecare variabile, cu implicații foarte diferite în funcție de momentul contractării.
+
+**IRCC (Indicele de Referință pentru Creditele Consumatorilor):**
+Introdus prin OUG 19/2019 pentru a înlocui ROBOR ca indice de referință pentru creditele noi. Se calculează trimestrial de BNR, ca medie aritmetică a ratelor dobânzilor la depozitele plasate de populație.
+
+Evoluția IRCC:
+| Trimestru | Valoare IRCC |
+|---|---|
+| T2 2023 | 6,00% |
+| T4 2023 | 5,87% |
+| T2 2024 | 5,84% |
+| T4 2024 | 5,68% |
+| T1 2025 | 5,63% |
+| T3 2025 | 5,58% |
+| T1 2026 | 5,58% |
+
+Tendința clară: scădere constantă, cu probabilitate ridicată de a ajunge la 5,0-5,2% în T3-T4 2026.
+
+**ROBOR 3M (în mai 2026): 5,45%**
+Folosit pentru creditele contractate înainte de 2019. Teoretic mai mic decât IRCC momentan, dar mult mai volatil — a atins 9,65% în august 2022.
+
+**Care să alegi în 2026?**
+*Credit nou variabil (IRCC + marjă bancă):* DAE real 7,5-8,5%. Beneficiezi automat de reducerile IRCC anticipate.
+
+*Credit fix 5 ani, apoi variabil:* Unele bănci oferă dobândă fixă de 7,0-7,5% pe primii 5 ani. Protecție pe termen scurt, flexibilitate pe termen lung.
+
+*Credit fix pe toată durata:* Disponibil la CEC Bank, la dobânzi de 8,5-9,5%. Nu îl recomandăm în contextul actual de scădere a dobânzilor.
+
+Simulează-ți rata pe [calculatorul de credit Neofort IMO](/calculator-credit) — include slider DAE de la 6% la 12% și curs EUR/RON live.`,
+      },
+      {
+        id: 'calcul-rata',
+        h2: `Calcul concret: rata lunară pentru 4 scenarii reale de achiziție în București 2026`,
+        continut: `Am calculat rata lunară pentru 4 tipologii reale de apartamente din piața bucureșteană, folosind dobânda medie de piață (DAE 8,0%) și durata de 25 de ani.
+
+**Formula de calcul (anuitate standard):**
+Rata = Principal × [r(1+r)^n] / [(1+r)^n - 1], unde r = DAE/12, n = ani × 12
+
+---
+
+**Scenariul 1: Apartament 2 camere 60 mp — zona Militari ([Neofort 49](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului), 120.600€)**
+- Avans 15% = 18.090€ → Principal creditabil: 102.510€ (~512.500 RON)
+- Rata lunară: ~3.762 RON (~757€)
+- Total dobândă: ~616.000 RON pe 25 ani
+- Venit minim net necesar (40% grad): ~9.400 RON/lună
+- Randament chirie: 550-650€/lună → acoperire parțială a ratei
+
+---
+
+**Scenariul 2: Apartament 2 camere 60 mp — zona Titan-Pallady ([Neofort 28](/ansamblu-rezidential/neofort-28-titan-pallady-teclu), 83.900€)**
+- Avans 15% = 12.585€ → Principal: 71.315€ (~356.000 RON)
+- Rata lunară: ~2.618 RON (~527€)
+- Venit minim net necesar: ~6.500 RON/lună
+- Cu avans 20% (16.780€): rată scade la ~2.457 RON, necesar venit 6.100 RON
+
+---
+
+**Scenariul 3: Apartament 2 camere premium — Moșilor-Eminescu ([Neofort 78](/ansamblu-rezidential/neofort-78-mosilor-eminescu), 190.000€)**
+- Avans 20% = 38.000€ → Principal: 152.000€ (~759.000 RON)
+- Rata lunară: ~5.580 RON (~1.122€)
+- Venit minim net familie: 13.950 RON/lună
+- Alternativă 30 ani: rată 5.148 RON, necesar venit 12.870 RON
+
+---
+
+**Scenariul 4: Apartament 3 camere 90 mp — zona Titan ([Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady), ~120.000€)**
+- Avans 20% = 24.000€ → Principal: 96.000€ (~479.000 RON)
+- Rata lunară: ~3.522 RON (~709€)
+- Venit minim net cuplu: 8.800 RON/lună
+- Cu durată 30 ani: rată 3.249 RON, necesar venit 8.123 RON
+
+---
+
+**Concluzie practică:** Verifică propriul scenariu în timp real pe [calculatorul de credit](/calculator-credit) — include slider avans, durată și DAE.`,
+      },
+      {
+        id: 'dae-cost-total',
+        h2: `DAE vs dobândă nominală — de ce costul real al creditului este întotdeauna mai mare`,
+        continut: `Una dintre cele mai frecvente surse de confuzie: diferența dintre dobânda nominală și DAE (Dobânda Anuală Efectivă).
+
+**Dobânda nominală:** rata dobânzii aplicată soldului creditului. Exemplu: IRCC 5,58% + marjă 2,0% = 7,58%.
+
+**DAE include dobânda nominală PLUS:**
+- Comision de administrare lunar (0-0,05%/lună)
+- Asigurare PAD obligatorie: 20-45€/an
+- Asigurare imobil: 0,08-0,15% din valoarea imobilului/an
+- Asigurare de viață: 0,02-0,08% din soldul creditului/an
+- Taxa evaluare imobil: 300-600 RON (o dată)
+- Comision de acordare: 0-1% din credit
+
+**Exemplu concret — credit 300.000 RON, 25 ani:**
+
+| Cost | Valoare anuală | Total 25 ani |
+|---|---|---|
+| Dobândă nominală 7,58% | ~22.740 RON (an 1) | ~273.000 RON |
+| Asigurare PAD | ~220 RON | ~5.500 RON |
+| Asigurare imobil 0,10% | ~1.500 RON | ~37.500 RON |
+| Asigurare viață 0,04% | ~1.200 RON | ~15.000 RON |
+| Comision administrare | ~360 RON | ~9.000 RON |
+| **Total costuri adiționale** | **~3.280 RON** | **~67.000 RON** |
+
+DAE real = dobândă nominală + 1,0-1,8 puncte procentuale. Un credit cu 7,58% nominal are DAE real de 8,3-9,2%.
+
+**Regula de aur:** compară întotdeauna DAE, nu dobânda nominală. O bancă cu nominal mai mic poate fi mai scumpă prin comisioane și asigurări.`,
+      },
+      {
+        id: 'grad-indatorare',
+        h2: `Gradul de îndatorare 40% — cum îl calculezi și cum îți maximizezi creditul`,
+        continut: `Gradul de îndatorare este limita impusă de BNR (Regulamentul 17/2012) care determină cât poți împrumuta. Limita standard: **40% din venitul net lunar** pentru credite ipotecare.
+
+**Formula:**
+Grad îndatorare = (Suma tuturor ratelor lunare / Venitul net lunar) × 100 ≤ 40%
+
+**Exemplu familie:**
+- Soț 5.500 RON + Soție 4.200 RON = 9.700 RON venit total
+- Limita 40%: 3.880 RON disponibil pentru rate
+- Credit auto existent: 800 RON/lună
+- Disponibil pentru ipotecă: 3.080 RON → Credit maxim (25 ani, 8%): ~395.000 RON (~79.400€)
+
+**Ce intră obligatoriu în calcul:**
+✓ Rate credite existente ✓ Rate leasing ✓ Carduri de credit (5% din limită/lună, chiar dacă nu le folosești!) ✓ Overdraft (5% din limită/lună)
+
+**Atenție la carduri:** Card neutilizat cu limită 10.000 RON = 500 RON obligație lunară calculată de bancă. Anulează sau reduce limitele cardurilor cu 60 de zile înainte de aplicare.
+
+Pentru detalii complete despre maximizarea creditului prin gestiunea gradului de îndatorare, citește [ghidul complet despre gradul de îndatorare](/blog/gradul-de-indatorare-credit-ipotecar).`,
+      },
+      {
+        id: 'conditii-eligibilitate',
+        h2: `Condiții de eligibilitate în 2026 — ce verifică banca pas cu pas`,
+        continut: `**1. SCORING FINANCIAR (primele minute):**
+- Venit minim net: 3.500-4.000 RON/lună individual (variază pe bancă)
+- Tip contract: nedeterminat preferat; determinat acceptat după 3-6 luni la angajator
+- Birou de Credit: fără restanțe active; incidente recente (sub 12 luni) afectează scorul
+
+**2. ANALIZA CREDITULUI:**
+- LTV maxim: 85% (avans minim 15%)
+- Excepție Noua Casă: LTV 95% (avans 5%)
+- Vârsta la final de credit: maximum 65-70 ani (depinde de bancă)
+- Stabilitate profesională: minimum 2 ani în același domeniu
+
+**3. EVALUAREA IMOBILULUI:**
+- Evaluator autorizat ANEVAR, agreat de bancă
+- Valoarea de evaluare ≥ prețul de achiziție
+- Imobilul trebuie să fie finalizat și intabulat pentru credit standard
+
+**4. ANALIZA JURIDICĂ:**
+- Titlul de proprietate clar, fără litigii sau ipoteci active
+- Cartea funciară fără notări negative
+
+**Timp de aprobare:** Pre-aprobare 3-5 zile; aprobare finală (cu evaluare imobil) 15-25 zile; total 30-45 zile.
+
+**Documentele standard:** Adeverință salariu (max 30 zile), 3 fluturași salariu, extrase de cont 3-6 luni, CI, antecontract + dovadă avans.`,
+      },
+      {
+        id: 'banci-comparatie',
+        h2: `Comparație bănci principale în 2026 — unde obții cel mai bun credit ipotecar`,
+        continut: `Diferența dintre cea mai bună și cea mai puțin avantajoasă ofertă poate ajunge la 120.000-180.000 RON pe un credit de 300.000 RON pe 25 ani.
+
+**Date orientative mai-iunie 2026:**
+
+| Bancă | Dobândă | DAE aprox. | Comision acordare | Punct forte |
+|---|---|---|---|---|
+| BCR | IRCC + 2,25% = 7,83% | ~8,6% | 0% | Aprobare rapidă, rețea mare |
+| BRD | IRCC + 2,10% = 7,68% | ~8,4% | 0,5% | Flexibil la tipuri venit |
+| Raiffeisen | IRCC + 2,15% = 7,73% | ~8,5% | 0% | Aplicație digitală, viteză |
+| ING | IRCC + 1,95% = 7,53% | ~8,2% | 0% | Cea mai mică marjă standard |
+| CEC Bank | Fix 7,90% (5 ani) | ~8,8% | 0% | Predictibilitate, fără IRCC risc |
+| UniCredit | IRCC + 2,20% = 7,78% | ~8,5% | 1% | Soluții specializate |
+| OTP | IRCC + 2,30% = 7,88% | ~8,7% | 0% | Flexibil la scoring |
+
+**Strategie negociere:**
+1. Obține pre-aprobare de la minimum 3 bănci simultan
+2. Folosește ofertele concurente ca instrument de negociere (marjele sunt elastice cu 0,15-0,40pp)
+3. Verifică dacă angajatorul are convenție cu vreo bancă — reduceri suplimentare frecvente
+
+Neofort IMO oferă consultanță bancară gratuită și comparare oferte pentru toate proiectele active — [contactează un consultant](/contact).`,
+      },
+      {
+        id: 'noua-casa-2026',
+        h2: `Noua Casă 2026 — avantaje reale, limitări și când nu merită`,
+        continut: `Programul Noua Casă rămâne activ în 2026 cu un plafon de garantare de 1,5 miliarde RON. Iată realitatea completă.
+
+**Avantajele reale:**
+- **Avans minim 5%** față de 15% standard — economie imediată la avans
+- Garantul este statul (FNGCIMM) — nu ai nevoie de garant personal
+- **Plafon maxim: 140.000€**
+- **Grad de îndatorare maxim: 45%** față de 40% standard
+
+**Limitările pe care puțini le menționează:**
+- Imobilul trebuie **finalizat și intabulat** — nu funcționează direct pentru apartamente în construcție
+- Nu poți deține altă proprietate în România la momentul achiziției
+- Obligatoriu prima reședință — restricții de înstrăinare 5 ani
+- **Comision garantare FNGCIMM: 0,30%/an** din soldul garantat (cost invizibil!)
+
+**Calcul comparativ — 80.000€ apartament, 25 ani:**
+
+*Credit standard (avans 15% = 12.000€):*
+- Principal: 68.000€ → Rată: ~500€/lună
+- Avans necesar: 12.000€
+
+*Noua Casă (avans 5% = 4.000€):*
+- Principal: 76.000€ → Rată: ~559€/lună (+59€/lună)
+- Comision FNGCIMM: ~228€/an în primii ani
+- Economie la avans: 8.000€ față de credit standard
+
+**Concluzie:** Noua Casă merită dacă nu ai avansul de 15% disponibil. Nu merită dacă ai avansul disponibil și vrei flexibilitate maximă (fără restricții de înstrăinare). Apartamentele [Neofort IMO disponibile prin Noua Casă](/ansambluri-rezidentiale) includ proiectele finalizate cu preț sub 140.000€.`,
+      },
+      {
+        id: 'strategie-finantare',
+        h2: `Strategia optimă de finanțare în 2026 — ghid pe profil`,
+        continut: `**Profil 1 — Prima locuință, buget 80.000-120.000€:**
+- Dacă ai avans 15%+: credit standard IRCC+marjă, 25 ani, ING sau Raiffeisen
+- Dacă avansul e sub 12.000€: Noua Casă cu 5% avans
+- Rezervă 5.000-8.000€ pentru costuri de tranzacționare + mobilare
+
+**Profil 2 — Investitor randament chirie:**
+- Avans 20-30% → rată lunară mai mică → cashflow pozitiv
+- Durată 25-30 ani → minimizare rată → maximizare cashflow
+- Calcul: chirie netă ≥ rată + cheltuieli administrative
+- [Apartamentele 2 camere Neofort 49 Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului): de la 120.600€, chirie 550-650€, randament ~5,5-6,5%
+
+**Profil 3 — Familie cu 2 venituri, buget 140.000-200.000€:**
+- Avans 20-25% → LTV 75-80% → cele mai bune condiții de negociere
+- Consideră durata 20 ani dacă venitul permite — economie semnificativă la dobândă totală
+
+**Reguli universale:**
+1. Nu aloca mai mult de 35% din venit pe rată — 40% e maximul legal, nu optimul
+2. Rezervă 3-6 luni cheltuieli ca fond de urgență, separat de avans
+3. Pre-aprobarea bancară **înainte** de semnarea antecontractului — niciodată invers
+4. Negociază întotdeauna — marjele bancare sunt elastice cu 0,15-0,40pp`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente — credit ipotecar 2026`,
+        continut: `**Cât timp durează aprobarea unui credit ipotecar în 2026?**
+Pre-aprobarea (scoring inițial) durează 3-5 zile lucrătoare. Aprobarea finală, cu evaluarea imobilului, 15-25 zile. Total de la dosarul complet la semnare: 30-45 zile. Recomandăm să pornești procesul de creditare simultan cu căutarea apartamentului.
+
+**Ce se întâmplă cu rata dacă IRCC crește?**
+La credit variabil (IRCC+marjă), rata se ajustează trimestrial. O creștere a IRCC cu 1pp înseamnă ~50-80 RON/lună suplimentar per 100.000 RON credit, la 25 ani. BNR semnalizează scădere în 2026-2027, nu creștere.
+
+**Pot lua credit ipotecar cu contract pe perioadă determinată?**
+Da, cu restricții. Băncile cer minimum 3-6 luni la actualul angajator și dovada continuității în domeniu. CEC Bank și OTP sunt mai flexibile. Termenul contractului trebuie să depășească perioada de analiză.
+
+**Cât avans am nevoie pentru 100.000€?**
+Minim 15.000€ (15%) pentru credit standard. Minim 5.000€ prin Noua Casă. Optimal: 20.000-25.000€ — rata scade și condițiile bancare se îmbunătățesc.
+
+**Se poate refinanța dacă dobânzile scad?**
+Da. Costurile de refinanțare: comision rambursare anticipată (0-1% primii 3 ani), taxe notariale 1.500-3.000 RON, reevaluare 300-500 RON. Refinanțarea devine avantajoasă la o diferență de dobândă peste 0,5pp față de costul total al operațiunii.
+
+**Cum calculez creditul maxim cu venitul meu?**
+Credit maxim (RON) = [Venit net × 40% - Rate existente] × factor (depinde de ani și DAE). La 8% DAE și 25 ani, factorul este ~129. Exemplu: venit 7.000 RON, rate existente 500 RON → disponibil 2.300 RON → credit maxim ~296.700 RON (~59.500€). Calculează exact pe [calculator-credit](/calculator-credit).`,
+      },
+    ],
+  },
+
+  'gradul-de-indatorare-credit-ipotecar': {
+    titlu: `Gradul de Îndatorare 40%: Cum Calculezi și Maximizezi Creditul`,
+    seoTitle: 'Grad Îndatorare 40%: Calcul Credit 2026',
+    seoDesc: 'Gradul de îndatorare la credite ipotecare 2026: limita 40% BNR, formula exactă, ce datorii blochează creditul și strategii de maximizare a creditului.',
+    descriere: 'Ghid complet despre gradul de îndatorare 40% impus de BNR: formula de calcul, ce datorii sunt incluse, strategii pentru maximizarea creditului și greșelile care îți reduc suma aprobată.',
+    tag: 'Finanțare', tagColor: '#0369a1',
+    data: '14 Iunie 2026', dataISO: '2026-06-14', citire: '13 min',
+    autor: 'adrian-pintilie',
+    image: '/blog/gradul-de-indatorare-credit-ipotecar-2026.avif',
+    keywords: ['grad de indatorare credit ipotecar 2026', 'limita indatorare BNR 40 procente', 'calcul grad indatorare credit', 'cum calculez rata maxima credit', 'venituri acceptate credit ipotecar 2026', 'datorii excludere credit 2026', 'credit ipotecar venit minim necesar', 'maximizare credit ipotecar romania', 'BNR regulament credit 2026', 'ce datorii blocheaza creditul ipotecar'],
+    hashtags: ['#GradIndatorare', '#CreditIpotecar2026', '#BNR2026', '#FinantareImobiliara', '#NeofortIMO'],
+    cuprins: [
+      { id: 'ce-este', titlu: 'Ce este gradul de îndatorare și de unde vine limita de 40%' },
+      { id: 'formula-calcul', titlu: 'Formula exactă de calcul — pas cu pas' },
+      { id: 'ce-intra', titlu: 'Ce intră în calculul gradului de îndatorare' },
+      { id: 'venituri-acceptate', titlu: 'Ce venituri acceptă băncile în 2026' },
+      { id: 'greselile', titlu: 'Cele 7 greșeli care îți reduc creditul aprobat' },
+      { id: 'strategii-maximizare', titlu: 'Strategii legale pentru maximizarea creditului' },
+      { id: 'scenarii-reale', titlu: 'Scenarii reale — cât credit obții cu venitul tău' },
+      { id: 'noua-casa-45', titlu: 'Noua Casă și limita de 45% — când merită excepția' },
+      { id: 'faq', titlu: 'Întrebări frecvente despre gradul de îndatorare' },
+    ],
+    sectiuni: [
+      {
+        id: 'ce-este',
+        h2: `Ce este gradul de îndatorare și de unde vine limita de 40%`,
+        continut: `Gradul de îndatorare este indicatorul prin care băncile din România verifică dacă poți susține financiar un credit nou fără să îți compromiți nivelul de trai. Este raportul procentual dintre totalul obligațiilor lunare de plată și venitul net lunar.
+
+**Baza legală: Regulamentul BNR nr. 17/2012** (modificat prin Regulamentele 6/2018 și 4/2019):
+- Credite ipotecare standard: grad de îndatorare ≤ **40%**
+- Programul Noua Casă: grad de îndatorare ≤ **45%**
+- Credite de consum fără ipotecă: grad de îndatorare ≤ **40%**
+
+**De unde vine cifra de 40%?**
+BNR a calculat că, la un grad de îndatorare de 40%, probabilitatea de nerambursare (default) rămâne sub 2% pe un portofoliu de credite, în scenarii de stres moderate (creștere dobânzi cu 3pp, scădere venit cu 15%). Peste 40%, rata de nerambursare crește exponențial.
+
+Datele din Raportul de Stabilitate Financiară BNR 2025 confirmă: creditele cu grad de îndatorare peste 45% acordate în 2018-2022 au generat 68% din volumul creditelor neperformante din 2023-2024. Limita de 40% nu este birocratică — este o protecție reală.
+
+**Contextul european:**
+| Țară | Limita grad îndatorare |
+|---|---|
+| România | 40% (45% Noua Casă) |
+| Franța | 35% din salariu net |
+| Germania | 50% (neoficială) |
+| Ungaria | 50% |
+| Cehia | Fără limită reglementată |
+| Polonia | 40% |
+
+**Cine verifică gradul de îndatorare?**
+Fiecare bancă verifică independent folosind datele din CRC (Centrala Riscurilor de Credit, administrată de BNR) — baza de date comună cu toate creditele și angajamentele din sistem. Nu te poți „ascunde" de datorii declarând că nu le ai.`,
+      },
+      {
+        id: 'formula-calcul',
+        h2: `Formula exactă de calcul al gradului de îndatorare — pas cu pas`,
+        continut: `**Formula BNR (Regulamentul 17/2012, Art. 15):**
+
+**Grad de îndatorare (%) = (Σ Rate lunare / Venit net eligibil) × 100 ≤ 40%**
+
+Σ Rate lunare = suma TUTUROR ratelor lunare din sistemul bancar (inclusiv creditul nou solicitat)
+Venit net eligibil = venitul acceptat de bancă conform normelor interne
+
+---
+
+**Exemplu complet — familie cu 2 venituri:**
+
+*Venituri:*
+- Soț: salariu net 6.200 RON + bonus documentat 600 RON/lună = 6.800 RON eligibil
+- Soție: salariu net 4.500 RON
+- **Total venit eligibil: 11.300 RON**
+
+*Obligații financiare existente:*
+- Credit auto soț: 750 RON/lună
+- Card credit soție, limită 5.000 RON: 5.000 × 5% = **250 RON/lună** (chiar dacă soldul e 0!)
+- Overdraft cont soț, limită 3.000 RON: 3.000 × 5% = **150 RON/lună** (chiar dacă nu e folosit!)
+- **Total obligații existente: 1.150 RON/lună**
+
+*Calculul creditului maxim:*
+- Limita 40% × 11.300 = **4.520 RON** disponibil total pentru rate
+- Disponibil pentru credit ipotecar: 4.520 - 1.150 = **3.370 RON/lună**
+- Credit maxim (25 ani, DAE 8%): **~435.000 RON (~87.500€)**
+
+*Dacă familia elimină cardul și overdraftul:*
+- Obligații reduse: 750 RON (doar creditul auto)
+- Disponibil pentru ipotecă: 4.520 - 750 = **3.770 RON/lună**
+- Credit maxim (25 ani, DAE 8%): **~486.000 RON (~97.800€)**
+- **Diferență: +51.000 RON credit suplimentar prin eliminarea unui card neutilizat și a overdraftului. Cost: zero.**
+
+---
+
+Verifică-ți creditul maxim pe [calculatorul Neofort IMO](/calculator-credit) sau citește [ghidul complet de credit ipotecar 2026](/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi) pentru strategii complete.`,
+      },
+      {
+        id: 'ce-intra',
+        h2: `Ce intră exact în calculul gradului de îndatorare — lista completă`,
+        continut: `Aceasta este zona cu cele mai frecvente surprize neplăcute. Mulți solicitanți descoperă la bancă că au obligații „invizibile" care le reduc semnificativ suma aprobată.
+
+**INTRĂ în calculul gradului de îndatorare:**
+
+✓ **Rate credite ipotecare** — toate creditele cu ipotecă, inclusiv la alte bănci
+✓ **Rate credite de consum** — credite personale, nevoi personale
+✓ **Rate leasing** — auto sau echipamente, operațional sau financiar
+✓ **Carduri de credit** — **5% din limita totală/lună, INDIFERENT de soldul utilizat**
+✓ **Overdraft/descoperit de cont** — **5% din limita aprobată/lună, indiferent dacă e folosit**
+✓ **Garanții personale/fidejusiuni** — ești garant pentru altcineva → rată celui garantat intră parțial în calculul tău
+✓ **Linii de credit aprobate dar netrase** — dacă nu le anulezi formal, rămân în CRC
+
+**NU intră în calculul gradului de îndatorare:**
+
+✗ Chiria plătită lunar
+✗ Cheltuieli de întreținere, utilități
+✗ Prime de asigurare personală
+✗ Abonamente telefon/internet
+✗ Cheltuieli medicale
+✗ Alocație copii
+
+**Cazuri speciale de știut:**
+
+*Co-debitor vs garant:* Dacă ești co-debitor pe creditul altcuiva (nu garant), toată rata intră 100% în calculul tău. Ca garant, băncile aplică politici diferite (0-50% din rată).
+
+*Chirie încasată ca venit:* Dacă declari chiria ca venit (contract ANAF + extrase cont 12 luni), băncile acceptă 70-80% din valoarea contractuală. Chirie nedeclarată = 0 RON venit.
+
+*Dividende:* Acceptate dacă sunt regulate pe 2 ani fiscali, documentate prin declarații ANAF. Coeficient acceptare: 70-80% din media anuală.`,
+      },
+      {
+        id: 'venituri-acceptate',
+        h2: `Ce venituri acceptă băncile în 2026 — complet și detaliat`,
+        continut: `Băncile nu acceptă orice venit la valoarea nominală. Fiecare sursă are un coeficient de eligibilitate specific.
+
+**Venituri acceptate 100%:**
+- Salariu net din contract pe durată nedeterminată (CIM/NEL)
+- Pensie de stat (BAS)
+- Indemnizație handicap grad grav/accentuat
+
+**Venituri acceptate 70-80%:**
+- Bonusuri și prime documentate (media ultimelor 12 luni × 70-80%)
+- Chirie din proprietăți închiriate (contract ANAF + extras cont) × 70-80%
+- Dividende regulate (medie 2 ani × 70-80%)
+- Venituri PFA/II (declarație unică ANAF, medie 2 ani × 70-80%)
+
+**Venituri acceptate 50%:**
+- Bonusuri ocazionale (prime de performanță, al 13-lea salariu) × 50%
+- Drepturi de autor sau licențe × 50%
+
+**Venituri NEACCEPTATE (standard):**
+✗ Diurnă și decontări cheltuieli
+✗ Alocație copii
+✗ Indemnizație creștere copil (temporară)
+✗ Ajutor social, VMSD
+✗ Venituri din tranzacții imobiliare ocazionale
+✗ Venituri nedeclarate fiscal
+
+**Diferențe importante între bănci:**
+
+| Bancă | Specificitate |
+|---|---|
+| BCR | Acceptă bonusuri lunare documentate la 100% |
+| BRD | Acceptă venituri din diaspora cu apostilă |
+| Raiffeisen | Cea mai permisivă cu PFA/activitate independentă |
+| ING | Strictă la tipuri venit, dar oferă cea mai mică marjă |
+| CEC Bank | Acceptă pensii din străinătate și venituri agricole |
+| OTP | Flexibilă cu contracte determinat și venituri mixte |
+
+**Sfat practic:** Dacă ai bonusuri, cere angajatorului o adeverință detaliată cu bonusurile din ultimele 12 luni. Documentează toate veniturile cu extrase de cont — nu te baza doar pe adeverința standard de salariu.`,
+      },
+      {
+        id: 'greselile',
+        h2: `Cele 7 greșeli care îți reduc creditul aprobat — și cum le eviți`,
+        continut: `Peste 60% din dosarele care primesc o sumă mai mică decât așteptată suferă din cauza uneia dintre aceste greșeli evitabile.
+
+**Greșeala 1: Carduri de credit cu limite mari neutilizate**
+Impactul: Card limită 10.000 RON = 500 RON/lună obligație în calcul.
+Soluție: Anulează sau reduce limitele cu minimum 60 zile înainte de aplicare.
+Câștig: Eliminarea a 2 carduri cu limite totale 20.000 RON → +130.000 RON credit posibil.
+
+**Greșeala 2: Overdraft activ**
+Impactul: Overdraft 5.000 RON = 250 RON/lună în calcul.
+Soluție: Renunță la overdraft cu 2 luni înainte. Procesul e gratuit la orice bancă.
+
+**Greșeala 3: Ești garant pentru creditele altora**
+Impactul: Acea rată poate intra parțial sau total în calculul tău (depinde de bancă).
+Soluție: Verifică în CRC toate angajamentele. Cere scoaterea din garanție cu acordul creditorului.
+
+**Greșeala 4: Aplici la credit înainte de preaprobarea bancară**
+Impactul: Semnezi antecontract cu termen 30-45 zile, descoperi că nu te încadrezi, poți pierde avansul.
+Soluție: Obține preaprobarea scrisă de la bancă ÎNAINTE de semnarea antecontractului.
+
+**Greșeala 5: Nu declari toate veniturile**
+Impactul: Chirie 400€/lună nedeclarată = 0 RON venit eligibil → potențial -130.000 RON credit.
+Soluție: Înregistrează contractele la ANAF. Impozitul 10% pe chirie se amortizează prin creditul suplimentar.
+
+**Greșeala 6: Schimbi angajatorul cu 3-6 luni înainte de aplicare**
+Impactul: Unele bănci cer minimum 3-12 luni la actualul angajator → poți fi refuzat.
+Soluție: Planifică schimbarea după obținerea creditului sau asigură-te că noul angajator te primește cu probă scurtă.
+
+**Greșeala 7: Ignori scorul de credit**
+Impactul: Scor Birou de Credit sub 650 → refuz sau marjă bancară cu 0,5-1pp mai mare.
+Soluție: Verifică gratuit pe biroulecredit.ro. Plătește restanțele vechi (chiar și cele mici). Nu lua credite noi cu 6 luni înainte de aplicare.`,
+      },
+      {
+        id: 'strategii-maximizare',
+        h2: `Strategii legale pentru maximizarea creditului aprobat`,
+        continut: `Maximizarea creditului înseamnă organizarea corectă a profilului financiar pentru a reflecta capacitatea reală de plată — nu trucuri sau ascunderea datoriilor.
+
+**Strategia 1: Adăugarea unui co-debitor (cel mai eficient)**
+Solo: venit 5.000 RON → credit max ~265.000 RON (25 ani, 8%)
+Cu partener 4.000 RON: venit total 9.000 RON → credit max ~467.000 RON (**+202.000 RON!**)
+Condiție: co-debitorul devine co-proprietar cu toate implicațiile juridice.
+
+**Strategia 2: Prelungirea duratei creditului**
+Credit 350.000 RON, venit net 7.500 RON, fără alte datorii:
+- 20 ani: rată ~2.953 RON → grad îndatorare 39,4% (la limită)
+- 25 ani: rată ~2.571 RON → grad îndatorare 34,3% (confortabil)
+- 30 ani: rată ~2.371 RON → grad îndatorare 31,6% (maxim flexibilitate)
+Dezavantaj: 30 ani vs 25 ani adaugă ~80.000-120.000 RON dobândă totală.
+
+**Strategia 3: Rambursarea anticipată a datoriilor mici**
+Ai un credit consum: 18 luni rămase, rată 800 RON/lună, sold 12.000 RON.
+Dacă îl plătești: eliberezi 800 RON/lună → credit suplimentar ~103.200 RON (la 25 ani, 8%).
+Ai cheltuit 12.000 RON, ai câștigat acces la 103.200 RON credit suplimentar.
+
+**Strategia 4: Majorarea salariului documentat**
+Creștere salarială +1.000 RON net/lună → credit suplimentar:
+- 25 ani, 8%: **~129.000 RON** suplimentar
+- 30 ani, 8%: **~150.000 RON** suplimentar
+Dacă ești la momentul negocierii salariale, amână aplicarea la credit cu 1-2 luni.
+
+**Strategia 5: Regularizarea veniturilor suplimentare**
+Chirie 400€/lună nedeclarată = 0 RON eligibil.
+Chirie 400€/lună declarată ANAF = ~1.990 RON/lună × 70% = 1.393 RON eligibil.
+Credit suplimentar: ~179.000 RON.
+Cost: 10% impozit × 1.990 RON/lună = 199 RON/lună — amortizat în câteva luni prin creditul mai mare.`,
+      },
+      {
+        id: 'scenarii-reale',
+        h2: `Scenarii reale — cât credit obții cu venitul tău (tabel de referință 2026)`,
+        continut: `**Credit maxim aprobat — 40% grad îndatorare, DAE 8%, fără alte datorii:**
+
+| Venit net lunar | Rată max. | Credit 20 ani | Credit 25 ani | Credit 30 ani |
+|---|---|---|---|---|
+| 4.000 RON | 1.600 RON | ~194.000 RON | ~212.000 RON | ~226.000 RON |
+| 5.000 RON | 2.000 RON | ~242.000 RON | ~265.000 RON | ~282.000 RON |
+| 6.000 RON | 2.400 RON | ~291.000 RON | ~318.000 RON | ~338.000 RON |
+| 7.000 RON | 2.800 RON | ~339.000 RON | ~371.000 RON | ~395.000 RON |
+| 8.000 RON | 3.200 RON | ~387.000 RON | ~424.000 RON | ~451.000 RON |
+| 10.000 RON | 4.000 RON | ~484.000 RON | ~530.000 RON | ~564.000 RON |
+| 12.000 RON | 4.800 RON | ~581.000 RON | ~636.000 RON | ~677.000 RON |
+| 15.000 RON | 6.000 RON | ~726.000 RON | ~795.000 RON | ~846.000 RON |
+
+*La cursul ~5,00 RON/EUR: 200.000 RON ≈ 40.000€*
+
+---
+
+**Interpretare practică pentru piața București 2026:**
+
+*[Apartament 2 camere Neofort 49 Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — 120.600€ (~603.000 RON):*
+- Avans 15% = 18.090€ → principalul = 102.510€ (~512.550 RON)
+- Venit minim net solo (25 ani, 8%): **9.400 RON/lună**
+
+*[Apartament 2 camere Neofort 44](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) — 61.775€ (~308.875 RON):*
+- Avans 15% = 9.266€ → principalul = 52.509€ (~262.545 RON)
+- Venit minim net solo (25 ani): **4.000 RON/lună**
+
+*[Apartament 3 camere Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady) — ~120.000€ (~600.000 RON):*
+- Avans 20% = 24.000€ → principalul = 96.000€ (~480.000 RON)
+- Venit minim net cuplu (25 ani): **9.000-9.500 RON total**
+
+Calculează exact pe [neofort.ro/calculator-credit](/calculator-credit).`,
+      },
+      {
+        id: 'noua-casa-45',
+        h2: `Noua Casă 2026 și limita de 45% — când excepția chiar contează`,
+        continut: `Programul Noua Casă oferă o derogare importantă: gradul maxim de îndatorare crește de la 40% la 45%. Diferența de 5 puncte procentuale poate fi decisivă.
+
+**Calculul diferenței concrete:**
+
+Venit net: 7.000 RON/lună
+- Limita 40%: 2.800 RON disponibil → credit max (25 ani, 8%): **~371.000 RON (~74.200€)**
+- Limita 45%: 3.150 RON disponibil → credit max (25 ani, 8%): **~417.000 RON (~83.400€)**
+- **Diferența: +46.000 RON (~9.200€) credit suplimentar** datorită excepției Noua Casă
+
+**Când merită Noua Casă strict pentru excepția 45%:**
+✓ Venitul tău se încadrează la 40% dar nu și la 45% pentru suma dorită
+✓ Imobilul are valoare sub 140.000€ (plafonul programului)
+✓ Nu ai altă proprietate în România
+✓ Ești la prima locuință
+
+**Când excepția 45% nu ajută:**
+✗ Dacă ești deja confortabil sub 40% → diferența nu contează
+✗ Dacă imobilul depășește 140.000€ → nu ești eligibil
+✗ Dacă ai altă proprietate → criteriu care exclude programul
+
+**Costul financiar real al gradului 45%:**
+La 45% grad de îndatorare, 45 din 100 RON câștigați se duc pe rate. La orice scădere a venitului sau creștere a dobânzii, presiunea financiară devine critică. BNR a calibrat 40% ca limita sustenabilă pe termen lung.
+
+Recomandăm 45% doar dacă ai fond de urgență de minimum 6 luni cheltuieli și stabilitate profesională ridicată. Apartamentele [Neofort IMO finalizate](/apartamente/apartamente-noi-finalizate-bucuresti) sub 140.000€ sunt eligibile pentru Noua Casă.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre gradul de îndatorare`,
+        continut: `**Dacă am soțul/soția cu venituri separate, se cumulează pentru grad de îndatorare?**
+Da. La credit contractat împreună (co-debitori), veniturile se cumulează și obligațiile ambilor parteneri intră în calcul. Venit soț 6.000 RON + soție 5.000 RON = 11.000 RON total → limita 40% = 4.400 RON disponibil pentru rate.
+
+**Cardul pe care nu îl folosesc chiar intră în calcul?**
+Da, obligatoriu. Băncile sunt obligate prin regulamentul BNR să calculeze 5% din limita oricărui card drept obligație lunară, indiferent dacă e utilizat sau dacă soldul e 0. Soluție: anulează cardul sau reduce limita la minimum (1.000-2.000 RON) cu cel puțin 60 de zile înainte de aplicare.
+
+**Pot solicita o excepție de la limita de 40%?**
+Băncile nu pot acorda excepții de la limita BNR pentru credite standard. Singurele excepții legale: Noua Casă (45%), refinanțare în anumite condiții, angajați ai băncii creditoare (politici interne, tot în cadrul reglementărilor).
+
+**Cum verifică banca datoriile mele?**
+Prin Biroul de Credit (biroulecredit.ro) și CRC (Centrala Riscurilor de Credit, administrată de BNR). Poți accesa gratuit Biroul de Credit o dată pe an. Verifică cu 1-2 luni înainte de aplicare pentru a corecta eventuale erori.
+
+**Rată de leasing auto — cum intră în calcul?**
+Leasingul operațional și cel financiar intră ambele în grad de îndatorare la valoarea ratei lunare contractuale. Rată leasing 800 RON/lună = 800 RON din limita disponibilă. La venit 7.000 RON și limita 40% = 2.800 RON total, leasingul de 800 RON lasă 2.000 RON pentru ipotecă → credit cu ~80.000 RON mai mic față de situația fără leasing.
+
+**Pot lua credit ipotecar dacă am restanțe vechi plătite?**
+Depinde de vechime și politica băncii. Datele din Biroul de Credit se păstrează 7 ani de la plată. Restanțe plătite cu 4-5 ani în urmă sunt în general ignorate. Restanțe recente (sub 12-24 luni) pot determina refuzul sau marjă mai mare cu 0,25-0,75pp. OTP și CEC sunt mai permisive cu istoricul negativ vechi.
+
+**Ce venituri suplimentare pot declara pentru credit mai mare?**
+Chirie documentată (contract ANAF + extras cont 12 luni): acceptată 70-80%. Dividende regulate (2 ani declarații ANAF): 70-80%. Bonusuri lunare documentate: 70-100% (depinde de bancă). Drepturi de autor sau licențe: 50%. Toate trebuie justificate cu documente fiscale — nu se acceptă verbal. Detalii în [ghidul complet de credit ipotecar 2026](/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi).`,
+      },
+    ],
+  },
+
   'apartamente-de-vanzare-titan-pallady-teclu': {
     titlu: `Apartamente Noi Titan–Pallady și Teclu 2026`,
     seoTitle: 'Apartamente Noi Titan–Pallady și Teclu 2026',
@@ -736,7 +1359,7 @@ Dotările complete și de calitate atrag chiriași profesioniști care rămân �
 
   'ghid-cumparare-apartament-nou': {
     titlu: 'Cum Cumperi Apartament Nou de la Dezvoltator',
-    seoTitle: 'Ghid 2026: Cum Cumperi Apartament Nou',
+    seoTitle: 'Ghid 2026: Cum Cumperi Apartament Nou Fără Greșeli',
     seoDesc: 'Ghid practic pentru cumpărarea unui apartament nou de la developer în București 2026: avans, antecontract, capcane de evitat, finanțare și verificare predare.',
     tag: 'Ghid', tagColor: '#2d7a3a',
     data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min',
@@ -1534,6 +2157,8 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
     titlu: `Merită Apartament în Titan–Pallady în 2026?`,
     seoTitle: 'Merită Apartament în Titan–Pallady în 2026?',
     seoDesc: 'Analiză completă Titan–Pallady 2026: prețuri reale de la 62.114€, randament, avantaje și dezavantaje față de alte zone, pentru locuit sau investiție.',
+    seoTitle: 'Ghid 2026: Cum Cumperi Apartament Nou Fără Greșeli',
+    seoDesc: 'Ghid practic pentru cumpărarea unui apartament nou de la developer în București 2026: avans, antecontract, capcane de evitat, finanțare și verificare predare.',
     descriere: 'Merită să cumperi în Titan–Pallady în 2026? Prețuri reale, avantaje, dezavantaje, calcul randament și ce verifici înainte de semnare.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min',
@@ -2357,8 +2982,10 @@ Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțel
 
   'preturi-apartamente-bucuresti-2026': {
     titlu: `Prețuri Apartamente București 2026: Scad? Analiză cu Date Reale`,
-    seoTitle: 'Prețuri Apartamente 2026: Scad sau Cresc?',
+    seoTitle: 'Prețuri Apartamente București 2026: Scad sau Cresc?',
     seoDesc: 'Prețurile apartamentelor din București în 2026: date reale din ANCPI, evoluție pe zone, impactul TVA 21% și în ce condiții are sens să cumperi sau să aștepți.',
+    seoTitle: 'E-Proprietatea 2026: Impozit pe Apartament',
+    seoDesc: 'E-Proprietatea 2026 schimbă baza de impozitare la valoarea de piață. Cum se calculează impozitul, ce scutiri există și cum contestați valoarea impusă de autorități.',
     descriere: 'Prețurile apartamentelor din București 2026: scad sau cresc? Analiză cu date ANCPI și INS pe zone, impactul TVA 21% și Noua Casă.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min',
@@ -2759,7 +3386,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
   },
   'titan-pallady-cea-mai-cautata-zona': {
     titlu: `Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă Rezidențială din București`,
-    seoTitle: 'Titan–Pallady: Cea Mai Căutată Zonă 2026',
+    seoTitle: 'Titan–Pallady: Cea Mai Căutată Zonă din București',
     seoDesc: 'Titan–Pallady: metrou M2, IKEA, Parcul IOR și prețuri cu 30% sub centru. De ce a devenit cea mai căutată zonă din București și ce ansambluri sunt active.',
     descriere: 'De ce Titan–Pallady e cea mai căutată zonă din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.',
     tag: 'Zone', tagColor: '#0891b2',
@@ -3980,6 +4607,8 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
 
 export const ARTICOLE_LIST = [
     { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piață', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+  { slug: 'credit-ipotecar-2026-ghid-complet-rate-dobanzi', titlu: 'Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie', data: '17 Iunie 2026', dataISO: '2026-06-17', citire: '16 min', image: '/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Ghid complet credit ipotecar 2026: IRCC 5,58%, calcule reale pe 4 scenarii, comparație bănci (BCR, BRD, Raiffeisen, ING, CEC), grad de îndatorare 40%, Noua Casă vs credit standard. Date actualizate BNR iunie 2026.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'gradul-de-indatorare-credit-ipotecar', titlu: 'Gradul de Îndatorare 40%: Cum Calculezi și Maximizezi Creditul', data: '14 Iunie 2026', dataISO: '2026-06-14', citire: '13 min', image: '/blog/gradul-de-indatorare-credit-ipotecar-2026.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Gradul de îndatorare 40% impus de BNR: formula exactă de calcul, ce datorii invizibile îți blochează creditul, 7 greșeli frecvente, strategii de maximizare și tabel complet credite pe niveluri de venit.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
   { slug: 'apartamente-de-vanzare-titan-pallady-teclu', titlu: 'Apartamente Noi Titan–Pallady și Teclu 2026', data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min', image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
   { slug: 'dotari-apartament-inchiriat', titlu: 'Dotările unui Apartament de Închiriat în 2026', data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min', image: '/blog/dotari-apartament-inchiriat-bucuresti.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practic pentru proprietarii din București.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Cum Cumperi Apartament Nou de la Dezvoltator', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },

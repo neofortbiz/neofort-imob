@@ -1,5 +1,5 @@
 # Neofort IMO — Imobiliare București
-# Actualizat: 2026-06-17
+# Actualizat: 2026-06-23
 
 ## Companie
 Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 13 ansambluri active în Sectoarele 2, 3 și 6.
@@ -191,7 +191,7 @@ Slug: neofort-49-militari-metrou-gorjului
 Status: constructie
 Etaje: S+P+3E
 Tipuri: Garsoniera, 2 camere
-Pret de la: 77.800€ + TVA
+Pret de la: 120.600€ + TVA
 Predare: In curand
 Adresa: Strada Vistiernicul Stavrinos, Sector 6, Bucuresti
 Coordonate: 44.4311, 26.012883
@@ -199,21 +199,24 @@ Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-49-militari-metrou-gorjului
 
 Apartamente disponibile:
-- Garsoniera (38.9 mp, et. et. 1-3): de la 77.800€+TVA
-- 2 camere (60.3 mp, et. et. 1-3): de la 120.600€+TVA
+- 2 camere tip 2 (60.85 mp, et. et. 1-3): de la 121.700€+TVA
+- 2 camere tip 3 (63.25 mp, et. et. 1-3): de la 126.500€+TVA
+- 2 camere tip 4 (60.45 mp, et. et. 1-3): de la 120.900€+TVA
+- 2 camere tip 5 (60.3 mp, et. et. 1-3): de la 120.600€+TVA
+- 2 camere tip 6 (71.4 mp, et. et. 1-3): de la 142.800€+TVA
 Parcare subterană: de la 15.000€ TVA inclus
 
 Puncte de interes:
-- metrou: Metrou Gorjului (M3) — 250m
+- metrou: Metrou Gorjului (M3) — 950m
 - mall: Militari Shopping Center — 10 min pe jos
 - medical: Sanador Militari — 13 min pe jos
 - metrou: Metrou Pacii (M3) — 5 min cu masina
 - metrou: Metrou Petrache Poenaru (M3) — 6 min cu masina
-- parc: Parcul Liniei — 7 min cu masina
+- parc: Parcul Liniei — 5 min pe jos
 
 ### Neofort 44 Titan Pallady Teclu — Titan-Pallady, Sector 3
 Slug: neofort-44-titan-pallady-teclu
-Status: constructie
+Status: activ
 Etaje: Ds+3E+4Er
 Tipuri: Garsoniera, 2 camere, 3 camere
 Pret de la: 61.775€ + TVA
@@ -241,7 +244,7 @@ Puncte de interes:
 
 ### Neofort 42 Piata Muncii — Piata Muncii, Sector 3
 Slug: neofort-42-piata-muncii
-Status: constructie
+Status: activ
 Etaje: S+P+4
 Tipuri: 2 camere, 4 camere
 Pret de la: 197.056€ + TVA
@@ -270,7 +273,7 @@ Puncte de interes:
 
 ### Neofort 28 Titan Pallady Faza 2 — Titan-Pallady, Sector 3
 Slug: neofort-28-titan-pallady-faza-2
-Status: constructie
+Status: activ
 Etaje: D+P+4E
 Tipuri: 2 camere, 3 camere
 Pret de la: 85.900€ + TVA
@@ -301,7 +304,7 @@ Puncte de interes:
 
 ### Neofort 28 Titan Pallady — Titan-Pallady, Sector 3
 Slug: neofort-28-titan-pallady-teclu
-Status: constructie
+Status: activ
 Etaje: D+P+4
 Tipuri: 2 camere, 3 camere
 Pret de la: 83.900€ + TVA
@@ -399,6 +402,10 @@ Puncte de interes:
 ## Blog
 - Legea Nordis: Efect de Bumerang pe Piață: https://www.neofort.ro/blog/legea-nordis-efect-bumerang-piata-imobiliara
   Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tra...
+- Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie: https://www.neofort.ro/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi
+  Ghid complet credit ipotecar 2026: IRCC 5,58%, calcule reale pe 4 scenarii, comparație bănci (BCR, BRD, Raiffeisen, ING,...
+- Gradul de Îndatorare 40%: Cum Calculezi și Maximizezi Creditul: https://www.neofort.ro/blog/gradul-de-indatorare-credit-ipotecar
+  Gradul de îndatorare 40% impus de BNR: formula exactă de calcul, ce datorii invizibile îți blochează creditul, 7 greșeli...
 - Apartamente Noi Titan–Pallady și Teclu 2026: https://www.neofort.ro/blog/apartamente-de-vanzare-titan-pallady-teclu
   Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansam...
 - Dotările unui Apartament de Închiriat în 2026: https://www.neofort.ro/blog/dotari-apartament-inchiriat
