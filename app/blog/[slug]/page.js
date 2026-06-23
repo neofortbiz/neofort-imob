@@ -53,9 +53,9 @@ export async function generateMetadata({ params }) {
       locale: 'ro_RO',
       publishedTime: a.dataISO,
       authors: [autor?.nume],
-      images: [{ url: `${BASE}${a.image?.replace('.avif', '.jpg') || '/og-blog.jpg'}`, width: 1200, height: 630, alt: a.titlu }],
+      images: [{ url: `${BASE}${a.ogImage || a.image?.replace('.avif', '.jpg') || '/og-blog.jpg'}`, width: 1200, height: 630, alt: a.titlu }],
     },
-    twitter: { card: 'summary_large_image', images: [`${BASE}${a.image?.replace('.avif', '.jpg') || '/og-blog.jpg'}`] },
+    twitter: { card: 'summary_large_image', images: [`${BASE}${a.ogImage || a.image?.replace('.avif', '.jpg') || '/og-blog.jpg'}`] },
   }
 }
 

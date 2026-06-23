@@ -65,6 +65,7 @@ export const ARTICOLE = {
     data: '23 Iunie 2026', dataISO: '2026-06-23', citire: '6 min',
     autor: 'raluca-nistor',
     image: '/blog/neofort-10-colentina-fundeni-lansare.avif',
+    ogImage: '/blog/neofort-10-colentina-fundeni-lansare-og.jpg',
     keywords: ['neofort 10 colentina', 'apartamente noi colentina fundeni', 'strada pasarani bucuresti', 'apartamente noi sector 2 2026', 'lansare proiect imobiliar bucuresti', 'garsoniere colentina', 'apartamente gradina bucuresti'],
     hashtags: ['#Neofort10', '#ColentinaFundeni', '#LansareNoua', '#Sector2Bucuresti', '#NeofortIMO'],
     cuprins: [
