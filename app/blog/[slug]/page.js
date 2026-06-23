@@ -15,12 +15,16 @@ function getWordCount(a) {
   return text.split(/\s+/).filter(w => w.length > 2).length
 }
 
-// Parseaza [text](url) in linkuri interne
-function parseLinks(text) {
-  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g)
-  return parts.map((part, i) => {
-    const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
-    if (m) return <Link key={i} href={m[2]} className="text-[#2d7a3a] underline underline-offset-2 hover:text-[#1a5c2a] transition-colors">{m[1]}</Link>
+// Parseaza [text](url) in linkuri interne SI **text** in bold
+function parseLinks(text, keyPrefix = '') {
+  if (!text) return text
+  // Despicam mai intai pe linkuri, apoi pe bold, pastrand ordinea
+  const tokens = text.split(/(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*)/g)
+  return tokens.map((part, i) => {
+    const linkM = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
+    if (linkM) return <Link key={`${keyPrefix}l${i}`} href={linkM[2]} className="text-[#2d7a3a] underline underline-offset-2 hover:text-[#1a5c2a] transition-colors">{linkM[1]}</Link>
+    const boldM = part.match(/^\*\*([^*]+)\*\*$/)
+    if (boldM) return <strong key={`${keyPrefix}b${i}`} className="font-semibold text-gray-900">{boldM[1]}</strong>
     return part
   })
 }
@@ -218,10 +222,10 @@ export default function ArticolPage({ params }) {
                       <div className="space-y-4 mt-4">
                         {s.continut.split('\n\n').filter(b => b.trim()).map((block, i) => {
                           const lines = block.trim().split('\n')
-                          const question = lines[0]
+                          const question = lines[0].replace(/^\*\*|\*\*$/g, '')
                           const answer = lines.slice(1).join('\n').trim()
                           if (!answer) return (
-                            <div key={i} className="text-[15px] text-gray-800 leading-8">{block}</div>
+                            <div key={i} className="text-[15px] text-gray-800 leading-8">{parseLinks(block, `faq${i}-`)}</div>
                           )
                           return (
                             <div key={i} className="rounded-xl overflow-hidden border border-gray-100">
@@ -230,7 +234,11 @@ export default function ArticolPage({ params }) {
                                 <p className="text-sm font-semibold text-gray-900 leading-snug">{question}</p>
                               </div>
                               <div className="px-5 py-4 bg-white">
-                                <p className="text-[15px] text-gray-800 leading-7 whitespace-pre-line text-justify">{answer}</p>
+                                <p className="text-[15px] text-gray-800 leading-7 whitespace-pre-line text-justify">
+                                  {answer.split('\n').map((line, li) => (
+                                    <span key={li}>{parseLinks(line, `faq${i}-${li}-`)}{li < answer.split('\n').length - 1 ? '\n' : ''}</span>
+                                  ))}
+                                </p>
                               </div>
                             </div>
                           )
