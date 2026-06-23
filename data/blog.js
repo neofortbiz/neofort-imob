@@ -361,7 +361,7 @@ Neofort IMO continuă să construiască și să livreze în acest context difici
 Aceasta este cea mai lungă serie de reduceri consecutive din istoria recentă a BNR, posibilă datorită revenirii inflației în banda țintă: 3,1% în mai 2026, față de maximul de 16,4% din noiembrie 2022.
 
 **Ce înseamnă practic pentru cumpărători:**
-Un credit de 300.000 RON (~60.000€) pe 30 de ani costă în iunie 2026 cu aproximativ 580 RON/lună mai puțin față de aceeași structură în octombrie 2023 (vârful dobânzilor). Pe durata întregului credit, diferența depășește 208.000 RON — suma avansului pentru un apartament în [zona Titan-Pallady](/zona/titan-pallady).
+Un credit de 300.000 RON (~57.400€) pe 30 de ani costă în iunie 2026 cu aproximativ 580 RON/lună mai puțin față de aceeași structură în octombrie 2023 (vârful dobânzilor). Pe durata întregului credit, diferența depășește 208.000 RON — suma avansului pentru un apartament în [zona Titan-Pallady](/zona/titan-pallady).
 
 **Perspectiva pe 12 luni:** BNR semnalizează o reducere suplimentară de 50-75 de puncte de bază până la sfârșitul lui 2026, ceea ce ar aduce IRCC sub 5% — un nivel nevăzut din 2022. Cumpărătorii care achiziționează acum cu dobândă variabilă pot beneficia de reduceri automate ale ratei pe măsură ce IRCC scade.`,
       },
@@ -409,35 +409,35 @@ Rata = Principal × [r(1+r)^n] / [(1+r)^n - 1], unde r = DAE/12, n = ani × 12
 ---
 
 **Scenariul 1: Apartament 2 camere 60 mp — zona Militari ([Neofort 49](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului), 120.600€)**
-- Avans 15% = 18.090€ → Principal creditabil: 102.510€ (~512.500 RON)
-- Rata lunară: ~3.762 RON (~757€)
-- Total dobândă: ~616.000 RON pe 25 ani
-- Venit minim net necesar (40% grad): ~9.400 RON/lună
+- Avans 15% = 18.090€ → Principal creditabil: 102.510€ (~536.100 RON)
+- Rata lunară: ~4.138 RON (~791€)
+- Total dobândă: ~705.000 RON pe 25 ani
+- Venit minim net necesar (40% grad): ~10.350 RON/lună
 - Randament chirie: 550-650€/lună → acoperire parțială a ratei
 
 ---
 
 **Scenariul 2: Apartament 2 camere 60 mp — zona Titan-Pallady ([Neofort 28](/ansamblu-rezidential/neofort-28-titan-pallady-teclu), 83.900€)**
-- Avans 15% = 12.585€ → Principal: 71.315€ (~356.000 RON)
-- Rata lunară: ~2.618 RON (~527€)
-- Venit minim net necesar: ~6.500 RON/lună
-- Cu avans 20% (16.780€): rată scade la ~2.457 RON, necesar venit 6.100 RON
+- Avans 15% = 12.585€ → Principal: 71.315€ (~373.000 RON)
+- Rata lunară: ~2.879 RON (~550€)
+- Venit minim net necesar: ~7.200 RON/lună
+- Cu avans 20% (16.780€): rată scade la ~2.709 RON, necesar venit 6.800 RON
 
 ---
 
 **Scenariul 3: Apartament 2 camere premium — Moșilor-Eminescu ([Neofort 78](/ansamblu-rezidential/neofort-78-mosilor-eminescu), 190.000€)**
-- Avans 20% = 38.000€ → Principal: 152.000€ (~759.000 RON)
-- Rata lunară: ~5.580 RON (~1.122€)
-- Venit minim net familie: 13.950 RON/lună
-- Alternativă 30 ani: rată 5.148 RON, necesar venit 12.870 RON
+- Avans 20% = 38.000€ → Principal: 152.000€ (~795.000 RON)
+- Rata lunară: ~6.136 RON (~1.173€)
+- Venit minim net familie: 15.340 RON/lună
+- Alternativă 30 ani: rată 5.833 RON, necesar venit 14.580 RON
 
 ---
 
 **Scenariul 4: Apartament 3 camere 90 mp — zona Titan ([Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady), ~120.000€)**
-- Avans 20% = 24.000€ → Principal: 96.000€ (~479.000 RON)
-- Rata lunară: ~3.522 RON (~709€)
-- Venit minim net cuplu: 8.800 RON/lună
-- Cu durată 30 ani: rată 3.249 RON, necesar venit 8.123 RON
+- Avans 20% = 24.000€ → Principal: 96.000€ (~502.000 RON)
+- Rata lunară: ~3.875 RON (~741€)
+- Venit minim net cuplu: 9.690 RON/lună
+- Cu durată 30 ani: rată 3.684 RON, necesar venit 9.210 RON
 
 ---
 
@@ -485,7 +485,7 @@ Grad îndatorare = (Suma tuturor ratelor lunare / Venitul net lunar) × 100 ≤ 
 - Soț 5.500 RON + Soție 4.200 RON = 9.700 RON venit total
 - Limita 40%: 3.880 RON disponibil pentru rate
 - Credit auto existent: 800 RON/lună
-- Disponibil pentru ipotecă: 3.080 RON → Credit maxim (25 ani, 8%): ~395.000 RON (~79.400€)
+- Disponibil pentru ipotecă: 3.080 RON → Credit maxim (25 ani, 8%): ~395.000 RON (~75.500€)
 
 **Ce intră obligatoriu în calcul:**
 ✓ Rate credite existente ✓ Rate leasing ✓ Carduri de credit (5% din limită/lună, chiar dacă nu le folosești!) ✓ Overdraft (5% din limită/lună)
@@ -618,7 +618,7 @@ Minim 15.000€ (15%) pentru credit standard. Minim 5.000€ prin Noua Casă. Op
 Da. Costurile de refinanțare: comision rambursare anticipată (0-1% primii 3 ani), taxe notariale 1.500-3.000 RON, reevaluare 300-500 RON. Refinanțarea devine avantajoasă la o diferență de dobândă peste 0,5pp față de costul total al operațiunii.
 
 **Cum calculez creditul maxim cu venitul meu?**
-Credit maxim (RON) = [Venit net × 40% - Rate existente] × factor (depinde de ani și DAE). La 8% DAE și 25 ani, factorul este ~129. Exemplu: venit 7.000 RON, rate existente 500 RON → disponibil 2.300 RON → credit maxim ~296.700 RON (~59.500€). Calculează exact pe [calculator-credit](/calculator-credit).`,
+Credit maxim (RON) = [Venit net × 40% - Rate existente] × factor (depinde de ani și DAE). La 8% DAE și 25 ani, factorul este ~129. Exemplu: venit 7.000 RON, rate existente 500 RON → disponibil 2.300 RON → credit maxim ~296.700 RON (~56.700€). Calculează exact pe [calculatorul de credit Neofort IMO](/calculator-credit).`,
       },
     ],
   },
@@ -702,12 +702,12 @@ Venit net eligibil = venitul acceptat de bancă conform normelor interne
 *Calculul creditului maxim:*
 - Limita 40% × 11.300 = **4.520 RON** disponibil total pentru rate
 - Disponibil pentru credit ipotecar: 4.520 - 1.150 = **3.370 RON/lună**
-- Credit maxim (25 ani, DAE 8%): **~435.000 RON (~87.500€)**
+- Credit maxim (25 ani, DAE 8%): **~435.000 RON (~83.200€)**
 
 *Dacă familia elimină cardul și overdraftul:*
 - Obligații reduse: 750 RON (doar creditul auto)
 - Disponibil pentru ipotecă: 4.520 - 750 = **3.770 RON/lună**
-- Credit maxim (25 ani, DAE 8%): **~486.000 RON (~97.800€)**
+- Credit maxim (25 ani, DAE 8%): **~486.000 RON (~92.900€)**
 - **Diferență: +51.000 RON credit suplimentar prin eliminarea unui card neutilizat și a overdraftului. Cost: zero.**
 
 ---
@@ -877,17 +877,17 @@ Cost: 10% impozit × 1.990 RON/lună = 199 RON/lună — amortizat în câteva l
 
 **Interpretare practică pentru piața București 2026:**
 
-*[Apartament 2 camere Neofort 49 Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — 120.600€ (~603.000 RON):*
-- Avans 15% = 18.090€ → principalul = 102.510€ (~512.550 RON)
-- Venit minim net solo (25 ani, 8%): **9.400 RON/lună**
+*[Apartament 2 camere Neofort 49 Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — 120.600€ (~630.700 RON):*
+- Avans 15% = 18.090€ → principalul = 102.510€ (~536.100 RON)
+- Venit minim net solo (25 ani, 8%): **10.350 RON/lună**
 
-*[Apartament 2 camere Neofort 44](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) — 61.775€ (~308.875 RON):*
-- Avans 15% = 9.266€ → principalul = 52.509€ (~262.545 RON)
-- Venit minim net solo (25 ani): **4.000 RON/lună**
+*[Apartament 2 camere Neofort 44](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) — 61.775€ (~323.100 RON):*
+- Avans 15% = 9.266€ → principalul = 52.509€ (~274.600 RON)
+- Venit minim net solo (25 ani): **5.300 RON/lună**
 
-*[Apartament 3 camere Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady) — ~120.000€ (~600.000 RON):*
-- Avans 20% = 24.000€ → principalul = 96.000€ (~480.000 RON)
-- Venit minim net cuplu (25 ani): **9.000-9.500 RON total**
+*[Apartament 3 camere Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady) — ~120.000€ (~627.600 RON):*
+- Avans 20% = 24.000€ → principalul = 96.000€ (~502.100 RON)
+- Venit minim net cuplu (25 ani): **9.700 RON total**
 
 Calculează exact pe [neofort.ro/calculator-credit](/calculator-credit).`,
       },
@@ -899,9 +899,9 @@ Calculează exact pe [neofort.ro/calculator-credit](/calculator-credit).`,
 **Calculul diferenței concrete:**
 
 Venit net: 7.000 RON/lună
-- Limita 40%: 2.800 RON disponibil → credit max (25 ani, 8%): **~371.000 RON (~74.200€)**
-- Limita 45%: 3.150 RON disponibil → credit max (25 ani, 8%): **~417.000 RON (~83.400€)**
-- **Diferența: +46.000 RON (~9.200€) credit suplimentar** datorită excepției Noua Casă
+- Limita 40%: 2.800 RON disponibil → credit max (25 ani, 8%): **~371.000 RON (~70.900€)**
+- Limita 45%: 3.150 RON disponibil → credit max (25 ani, 8%): **~417.000 RON (~79.700€)**
+- **Diferența: +46.000 RON (~8.800€) credit suplimentar** datorită excepției Noua Casă
 
 **Când merită Noua Casă strict pentru excepția 45%:**
 ✓ Venitul tău se încadrează la 40% dar nu și la 45% pentru suma dorită
