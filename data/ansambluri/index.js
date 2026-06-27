@@ -50,7 +50,6 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     descriere: 'Ansamblul Rezidențial Neofort 84, zona Titan-Pallady, Sector 3. Bloc P+10 în construcție, predare T1 2027. Apartamente 2-4 camere de la 62.114€+TVA. Metrou Nicolae Teclu la câteva minute, IKEA Pallady, Auchan Titan, Parcul Teilor în proximitate. Încălzire pardoseală, tâmplărie Salamander tripan, centrală proprie, structură beton armat.',
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 10', suprafata: 47.78, avans20: 66892, avans45: 62114, pretVechiAvans45: 67000, pretVechiAvans20: 74000, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 2', etaj: 'et. 3-9', suprafata: 49.15, avans20: 68824, avans45: 63908, pretVechiAvans45: 69000, pretVechiAvans20: 76000, promo: true, camere: 2 },
       { tip: '2 cam. Tip 3', etaj: 'et. 1-10', suprafata: 61.50, avans20: 86254, avans45: 80093, pretVechiAvans45: 91500, pretVechiAvans20: 105000, promo: true, camere: 2 },
       { tip: '2 cam. Tip 4', etaj: 'p-et. 10', suprafata: 67.71, avans20: 94794, avans45: 88023, pretVechiAvans45: 98000, pretVechiAvans20: 113000, promo: true, camere: 2 },
       { tip: '2 cam. Tip 5 terasa', etaj: 'p. înalt', suprafata: 91.60, avans20: 110026, avans45: 96740, pretVechiAvans45: 126000, pretVechiAvans20: 136000, promo: true, camere: 2 },
