@@ -14,7 +14,6 @@ const ANSAMBLURI = [
   { slug: 'neofort-28-titan-pallady-faza-2',     nume: 'Neofort 28 Faza 2',              pret: 85900  },
   { slug: 'neofort-28-titan-pallady-teclu',      nume: 'Neofort 28 Pallady Teclu',       pret: 83900  },
   { slug: 'neofort-11-eminescu-viitorului',      nume: 'Neofort 11 Eminescu',            pret: 104640 },
-  { slug: 'neofort-8-tepes-voda-muncii',         nume: 'Neofort 8 Tepeș Vodă',           pret: 146000 },
 ]
 
 const DAE_MIN = 6.0

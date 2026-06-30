@@ -2,7 +2,12 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "neofort-imob.vercel.app" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "neofort-imob.vercel.app"
+        }
+      ],
       "destination": "https://www.neofort.ro/$1",
       "permanent": true
     },
@@ -19,6 +24,11 @@
     {
       "source": "/ro/contact",
       "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/ansamblu-rezidential/neofort-8-tepes-voda-muncii",
+      "destination": "/portofoliu/neofort-8-tepes-voda-muncii",
       "permanent": true
     }
   ]

@@ -203,7 +203,7 @@ Neofort 78 Faza 2 este un proiect care se adresează unui profil de cumpărător
 
 Zona Moșilor-Eminescu din Sectorul 2 a intrat într-un ciclu de revalorizare accelerat după 2020. Proximitatea față de Piața Obor — reconsolidată ca hub comercial și de transport — și față de metroul Obor face zona extrem de atractivă pentru tinerii profesioniști care lucrează în centrul Bucureștiului sau în zona de nord și nord-vest. Piața imobiliară din zona Obor-Moșilor a înregistrat creșteri de 20-25% în 2023-2025, susținute de oferta limitată de proiecte noi de calitate și de cererea ridicată.
 
-Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată și metrou la 10 minute pe jos în semicentralul Bucureștiului este practic imposibil în altă parte. Prețul de 399.000€ pentru 194,20 mp (205€/mp) cu grădină privată, față de media pieței semicentrale de 2.500-3.500€/mp, reprezintă o oportunitate greu de argumentat împotriva. Vânzare directă, fără comision de agenție. În Sectorul 2, descoperiți și [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) — 13 apartamente boutique — sau [Neofort 8 Tepeș Vodă](/ansamblu-rezidential/neofort-8-tepes-voda-muncii) în apropiere de Piața Muncii.`,
+Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată și metrou la 10 minute pe jos în semicentralul Bucureștiului este practic imposibil în altă parte. Prețul de 399.000€ pentru 194,20 mp (205€/mp) cu grădină privată, față de media pieței semicentrale de 2.500-3.500€/mp, reprezintă o oportunitate greu de argumentat împotriva. Vânzare directă, fără comision de agenție. În Sectorul 2, descoperiți și [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) — 13 apartamente boutique — sau [Neofort 8 Tepeș Vodă](/portofoliu/neofort-8-tepes-voda-muncii) — proiect vândut integral — în apropiere de Piața Muncii.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.446553, lng: 26.119879 },
     zone: ['mosilor-eminescu', 'eminescu-viitorului', 'sector-2'],
@@ -896,7 +896,7 @@ Colegiile Iulia Hașdeu și Mihai Eminescu — ambele cu tradiție academică de
 
 Tâmplăria Salamander 7 camere cu geam tripan asigură o izolare fonică de 45dB — pragul la care zgomotul urban exterior devine imperceptibil în dormitor. Zona Eminescu-Viitorului nu este o arteră principală, deci zgomotul de fond este redus, dar izolarea tripan asigură că activitatea din stradă nu se aude în apartament indiferent de oră. Acesta este standardul premium al tâmplăriei PVC — nu toate produsele Salamander sunt la fel, iar 7 camere tripan reprezintă top-ul gamei.
 
-Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperit, securizat, în subsolul propriului imobil — este prețul corect pentru zona Sector 2 semicentral. Alternativa — parcare pe stradă sau în parcări publice din cartier — costă între 150€ și 300€/lună, adică 1.800-3.600€/an. La 25.000€ și 7% dobândă (cost de oportunitate), costul anual al locului de parcare propriu este de 1.750€ — sub prețul parcării publice și cu avantajul certitudinii și siguranței. Predare Septembrie 2026. Vânzare directă, fără comision. Tot în Sectorul 2, descoperiți [Neofort 78 Moșilor Eminescu](/ansamblu-rezidential/neofort-78-mosilor-eminescu) — 22 apartamente premium lângă Piața Obor — sau [Neofort 8 Tepeș Vodă](/ansamblu-rezidential/neofort-8-tepes-voda-muncii).`,
+Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperit, securizat, în subsolul propriului imobil — este prețul corect pentru zona Sector 2 semicentral. Alternativa — parcare pe stradă sau în parcări publice din cartier — costă între 150€ și 300€/lună, adică 1.800-3.600€/an. La 25.000€ și 7% dobândă (cost de oportunitate), costul anual al locului de parcare propriu este de 1.750€ — sub prețul parcării publice și cu avantajul certitudinii și siguranței. Predare Septembrie 2026. Vânzare directă, fără comision. Tot în Sectorul 2, descoperiți [Neofort 78 Moșilor Eminescu](/ansamblu-rezidential/neofort-78-mosilor-eminescu) — 22 apartamente premium lângă Piața Obor — sau [Neofort 8 Tepeș Vodă](/portofoliu/neofort-8-tepes-voda-muncii) — proiect vândut integral.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.447354, lng: 26.108451 },
     zone: ['eminescu-viitorului', 'mosilor-eminescu', 'sector-2'],
@@ -933,83 +933,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     seoTitle: 'Apartamente Eminescu-Viitorului | Neofort 11',
     seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium, 2-3 camere de la 104.640€+TVA. Predare sept. 2026.',
   },
-  {
-    slug: 'neofort-8-tepes-voda-muncii',
-    numar: 8,
-    nume: 'Neofort 8 Tepes Voda Muncii',
-    zona: 'Tepes Voda-Muncii',
-    sector: 'Sector 2',
-    adresa: 'Zona Tepes Voda-Maior Coravu, Sector 2, Bucuresti',
-    status: 'activ',
-    dataPredare: 'Finalizat',
-    pretDeLa: 146000,
-    etaje: 'S+P+2ET+M',
-    telefon: '0752 443 434',
-    broker: 'Svetlana CALUTU',
-    brokerFoto: '/brokeri/svetlana-calutu.avif',
-    imagini: {
-      cover: '/ansambluri/neo-8/exterior-01.avif',
-      exterior: ['/ansambluri/neo-8/exterior-01.avif','/ansambluri/neo-8/exterior-02.avif','/ansambluri/neo-8/exterior-03.avif','/ansambluri/neo-8/exterior-04.avif'],
-      interior: ['/ansambluri/neo-8/interior-01.avif','/ansambluri/neo-8/interior-02.avif','/ansambluri/neo-8/interior-03.avif','/ansambluri/neo-8/interior-04.avif','/ansambluri/neo-8/interior-05.avif','/ansambluri/neo-8/interior-06.avif','/ansambluri/neo-8/interior-07.avif','/ansambluri/neo-8/interior-08.avif','/ansambluri/neo-8/interior-09.avif'],
-      schite: ['/ansambluri/neo-8/schite-01.avif','/ansambluri/neo-8/schite-02.avif','/ansambluri/neo-8/schite-03.avif'],
-    },
-    descriereCompleta: `Zona Tepeș Vodă — Maior Coravu din Sectorul 2 al Bucureștiului are o particularitate valoroasă în peisajul imobiliar al capitalei: este dominată de case și blocuri mici cu maxim 4 etaje, ceea ce îi conferă un caracter rezidențial rar întâlnit la 6 minute de mers pe jos de metrou. Neofort 8 se înscrie natural în acest peisaj — 32 de apartamente S+P+2ET+M finalizate, disponibile în promoție, cu clasa energetică A.
 
-10 tipuri de apartamente pentru orice configurație: studio garsonieră 39,92 mp, 146.000€; 2 camere 7B 60,35 mp, de la 174.000€ promoțional; 2 camere 14B 64,10 mp, de la 176.000€ promoțional; 2 camere 20B 62,80 mp, de la 205.000€ promoțional; 2 camere 17B 67,80 mp, de la 205.000€ promoțional; 2 camere 8B 67,80 mp, 192.000€; 3 camere 22B 80,15 mp, 265.000€; 3 camere 4B 113,60 mp, 295.000€; 3 camere 25B cu terasă mansardă, 148,80 mp, 345.000€; 4 camere 6B cu grădină la parter, 237,83 mp, 465.000€. Toate + TVA. Parcare subterană cu lift 25.000€.
-
-Clasa energetică A este un avantaj concret și permanent: facturile la energie termică sunt cu 20-30% mai mici față de clădirile din clasa B sau C. În contextul creșterii costurilor energetice din ultimii ani, această diferență se traduce în economii reale de 800-1.500€ anual, ani la rând. Fațada ventilată contribuie la menținerea temperaturii interioare și reduce condensul. Înălțimea peste standard față de normele curente conferă spațialitate vizibilă în fiecare cameră.
-
-Dotările tehnice sunt din clasa premium: uși blindate PINUM cu uși interioare PINUM, gresie și faianță MARAZZI, parchet Kronotex PREMIUM, obiecte sanitare la alegere cu baterii Kludi, centrală 24kW în condensație Bosch, încălzire în pardoseală, preechipare aer condiționat, tâmplărie PVC Salamander 7 camere tripan și termoizolație EPS80 10cm. Unitatea cu grădină la parter — 237,83 mp cu grădină privată — este tipologia de vârf a proiectului.
-
-Metrou Piața Muncii (M3) la 500m — 6 minute pe jos — spre Piața Unirii în 4 minute și spre Drumul Taberei în 8 minute. Metrou Dristor 1 la 12 minute pe jos. Kaufland Popa Nan la 5 minute pe jos, Mega Image Calea Călărașilor la 3 minute. Cartierul de case și vile din jur asigură liniștea și verdeața unui cartier rezidențial clasic. Parcul Național la 10 minute pe jos. Colegiul Național Matei Basarab la 10 minute pe jos, Liceul Ion Barbu la 8 minute. Spital Victor Babeș la 8 minute, MedLife și Regina Maria la 8 minute.
-
-Clasa A + metrou 6 minute + finisaje premium + cartier rezidențial liniștit: o combinație care justifică prețul și garantează aprecierea valorii. Vânzare directă, fără comision.
-
-Un argument final pentru Neofort 8 care merită menționat explicit: clasa energetică A nu este doar un certificat — înseamnă facturi de energie termică cu 20-30% mai mici față de clasa B, permanent, pe toți anii de locuire. La o factură medie de 200€/lună iarna, economia anuală este de 480-720€. Pe 20 de ani, economia cumulată depășește 10.000€ — o valoare concretă care justifică orice diferență de preț față de un imobil similar din clasa B. Parcare subterană cu lift 25.000€. Rezervare cu 2.000€. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție.
-
-Clasa energetică A nu este o certificare abstractă — este un avantaj financiar concret și permanent. O clădire de clasa A consumă cu 20-30% mai puțin energie pentru încălzire și răcire față de clasa B și cu 40-50% față de clasa C (standardul majorității clădirilor noi construite în anii 2000-2015). La o factură medie de gaze de 150€/lună în sezonul rece (6 luni), economia față de o clădire din clasa B este de 180-270€/an. Pe 25 de ani de locuire, economia cumulată depășește 4.500-6.750€ per proprietar — o sumă care depășește costul inițial al upgrade-ului de dotări care face diferența dintre clase.
-
-Zona Tepeș Vodă — Maior Coravu este una dintre rarele zone ale Sectorului 2 unde caracterul rezidențial a fost protejat structural prin regulamentul local de urbanism: înălțimea maximă a construcțiilor este limitată la P+3 sau P+4, cu excepții punctuale. Aceasta înseamnă că vecinătatea Neofort 8 nu va fi modificată dramatic de noi proiecte tower — ceea ce protejează iluminarea naturală, vederea și caracterul de cartier liniștit pe termen lung. Este un avantaj subtil dar real față de zonele unde Certificatele de Urbanism permit construcții de orice înălțime.
-
-Tipologia de vârf a proiectului — 4 camere 6B cu grădină la parter, 156,80 mp + grădină privată, 465.000€ + TVA — este o proprietate fără echivalent direct în zona Tepeș Vodă-Muncii. A combina un apartament nou de 4 camere cu grădină privată, metrou la 6 minute, clasa energetică A și finisaje premium (MARAZZI, Kronotex, Bosch, PINUM) într-un cartier rezidențial liniștit din Sectorul 2, la prețul de 465.000€, este o combinație pe care piața nu o reproduce ușor. Terasele și grădinile private din blocuri noi au o cerere structurală care depășește oferta în Sectorul 2.
-
-Procesul de achiziție este complet transparent: prețul publicat este prețul final, fără costuri ascunse sau extra-uri obligatorii. Neofort IMO facilitează gratuit legătura cu toate băncile majore partenere — BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank — pentru identificarea celei mai competitive oferte de credit ipotecar disponibile la data achiziției. Consultanța juridică este gratuită pe toată durata procesului. Imobil finalizat, disponibil imediat, clasa energetică A. Vânzare directă, fără comision de agenție. Explorați și [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) — boutique 13 apartamente — sau [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) cu metroul la 200m.`,
-    brokerTel: '0752 443 434',
-    coordonate: { lat: 44.435422, lng: 26.127951 },
-    zone: ['tepes-voda-muncii', 'piata-muncii', 'sector-2'],
-    tipuri: ['Studio', '2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Boutique Exclusivist Neofort 8, zona Tepeș Vodă-Muncii, Sector 2. 32 apartamente S+P+2ET+M finalizate, de la 146.000€+TVA. Studio, 2, 3 și 4 camere. Metrou Piața Muncii la 500m. Clasă energetică A, fațadă ventilată, centrală Bosch condensare, tâmplărie Salamander 7 camere, parchet Kronotex, uși PINUM.',
-    apartamente: [
-      { tip: 'Studio Garsoniera', etaj: 'et. 1-2', suprafata: 36.10, avans20: 146000, avans45: null, promo: false, camere: 1 },
-      { tip: '2 cam. 8B', etaj: 'et. 1-2', suprafata: 54.30, avans20: 192000, avans45: null, promo: false, camere: 2 },
-      { tip: '2 cam. 17B', etaj: 'et. 1-2', suprafata: 54.70, avans20: 217000, avans45: null, promo: false, camere: 2 },
-      { tip: '2 cam. 14B', etaj: 'et. 1-2', suprafata: 58.10, avans20: 213000, avans45: null, promo: false, camere: 2 },
-      { tip: '2 cam. 7B', etaj: 'et. 1-2', suprafata: 52.90, avans20: 210000, avans45: null, promo: false, camere: 2 },
-      { tip: '3 cam. 22B', etaj: 'et. 1-2', suprafata: 73.50, avans20: 265000, avans45: null, promo: false, camere: 3 },
-      { tip: '3 cam. 4B', etaj: 'et. 1-2', suprafata: 111.20, avans20: 295000, avans45: null, promo: false, camere: 3 },
-      { tip: '3 cam. 25B terasa', etaj: 'mansarda', suprafata: 137.50, avans20: 345000, avans45: null, promo: false, camere: 3 },
-      { tip: '4 cam. 6B cu gradina', etaj: 'parter', suprafata: 156.80, avans20: 465000, avans45: null, promo: false, camere: 4 },
-    ],
-    parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 25000 } },
-    dotari: ['Usi blindate PINUM intrare + interioare', 'Gresie/faianta MARAZZI', 'Parchet Kronotex PREMIUM', 'Obiecte sanitare la alegere / baterii Kludi', 'Centrala 24kW in condensatie Bosch', 'Incalzire in pardoseala', 'Preechipare aer conditionat', 'Parcare subterana/lift', 'Tamplarie PVC Salamander 7 camere tripan', 'Termoizolatie EPS80 10cm', 'Fatada ventilata', 'Clasa energetica A'],
-    puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Piata Muncii (M3)', distanta: '6 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '14 min pe jos' },
-      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '7 min cu masina' },
-      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '8 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '8 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Piata Unirii (M1/M3)', distanta: '9 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '10 min cu masina' },
-      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '11 min cu masina' },
-      { tip: 'parc', nume: 'Parcul National', distanta: '11 min cu masina' },
-      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '8 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '16 min cu masina' },
-    ],
-    galerie: [],
-    seoTitle: 'Apartamente Tepeș Vodă | Neofort 8',
-    seoDescription: 'Neofort 8 exclusivist, Sector 2. Studio, 2-4 camere de la 146.000€+TVA. Clasa A. Metrou Piața Muncii 500m.',
-  },
 ]
 
 // Ansambluri active (la vanzare, in constructie sau promotie)

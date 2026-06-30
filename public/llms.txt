@@ -1,8 +1,8 @@
 # Neofort IMO — Imobiliare București
-# Actualizat: 2026-06-23
+# Actualizat: 2026-06-30
 
 ## Companie
-Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 13 ansambluri active în Sectoarele 2, 3 și 6.
+Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 12 ansambluri active în Sectoarele 2, 3 și 6.
 
 Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776
 Telefon: +40758090904
@@ -31,7 +31,6 @@ URL: https://www.neofort.ro/ansamblu-rezidential/neofort-84-titan-pallady
 
 Apartamente disponibile:
 - 2 cam. Tip 1 (47.78 mp, et. et. 10): de la 62.114€+TVA
-- 2 cam. Tip 2 (49.15 mp, et. et. 3-9): de la 63.908€+TVA
 - 2 cam. Tip 3 (61.5 mp, et. et. 1-10): de la 80.093€+TVA
 - 2 cam. Tip 4 (67.71 mp, et. p-et. 10): de la 88.023€+TVA
 - 2 cam. Tip 5 terasa (91.6 mp, et. p. înalt): de la 96.740€+TVA
@@ -366,38 +365,6 @@ Puncte de interes:
 - mall: Veranda Mall Obor — 3 min cu masina
 - metrou: Metrou 8 Noiembrie (M1) — 5 min cu masina
 - parc: Lacul Tei / Parcul Tei — 8 min cu masina
-
-### Neofort 8 Tepes Voda Muncii — Tepes Voda-Muncii, Sector 2
-Slug: neofort-8-tepes-voda-muncii
-Status: activ
-Etaje: S+P+2ET+M
-Tipuri: Studio, 2 camere, 3 camere, 4 camere
-Pret de la: 146.000€ + TVA
-Predare: Finalizat
-Adresa: Zona Tepes Voda-Maior Coravu, Sector 2, Bucuresti
-Coordonate: 44.435422, 26.127951
-Broker: Svetlana CALUTU, 0752 443 434
-URL: https://www.neofort.ro/ansamblu-rezidential/neofort-8-tepes-voda-muncii
-
-Apartamente disponibile:
-- Studio Garsoniera (36.1 mp, et. et. 1-2): de la 146.000€+TVA
-- 2 cam. 8B (54.3 mp, et. et. 1-2): de la 192.000€+TVA
-- 2 cam. 17B (54.7 mp, et. et. 1-2): de la 217.000€+TVA
-- 2 cam. 14B (58.1 mp, et. et. 1-2): de la 213.000€+TVA
-- 2 cam. 7B (52.9 mp, et. et. 1-2): de la 210.000€+TVA
-- 3 cam. 22B (73.5 mp, et. et. 1-2): de la 265.000€+TVA
-- 3 cam. 4B (111.2 mp, et. et. 1-2): de la 295.000€+TVA
-- 3 cam. 25B terasa (137.5 mp, et. mansarda): de la 345.000€+TVA
-- 4 cam. 6B cu gradina (156.8 mp, et. parter): de la 465.000€+TVA
-Parcare subterană: de la 25.000€ + TVA
-
-Puncte de interes:
-- metrou: Metrou Piata Muncii (M3) — 6 min cu masina
-- metrou: Metrou Dristor 2 (M2) — 5 min cu masina
-- mall: Kaufland Popa Nan — 14 min pe jos
-- mall: Bucuresti Mall Vitan — 7 min cu masina
-- scoala: Colegiul National Mihai Eminescu — 8 min cu masina
-- metrou: Metrou 8 Noiembrie (M1) — 8 min cu masina
 
 ## Blog
 - Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire: https://www.neofort.ro/blog/neofort-10-colentina-fundeni-lansare

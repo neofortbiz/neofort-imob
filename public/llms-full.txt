@@ -1,9 +1,9 @@
 # Neofort IMO — Imobiliare București (VERSIUNE COMPLETA)
-# Actualizat: 2026-06-23
+# Actualizat: 2026-06-30
 # Versiune: llms-full.txt (date complete pentru sisteme AI/RAG)
 
 ## Companie
-Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 13 ansambluri active în Sectoarele 2, 3 și 6.
+Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 12 ansambluri active în Sectoarele 2, 3 și 6.
 
 Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776
 Telefon: +40758090904
@@ -17,10 +17,10 @@ Google Place ID: ChIJRfDdJdX_sUARTlBqmy1tpXw
 Rating Google: 4.3/5 (107 recenzii)
 
 ## Statistici
-- Ansambluri active: 13
+- Ansambluri active: 12
 - Ansambluri livrate total: 76+
-- Portofoliu (vândute integral): 72
-- Finalizate la vânzare: 4
+- Portofoliu (vândute integral): 73
+- Finalizate la vânzare: 3
 - Ani experiență: 17
 
 ## Ansambluri active la vânzare
@@ -39,7 +39,6 @@ URL: https://www.neofort.ro/ansamblu-rezidential/neofort-84-titan-pallady
 
 Apartamente disponibile:
 - 2 cam. Tip 1 (47.78 mp, et. et. 10): avans 45% = 62.114€, avans 20% = 66.892€ (+TVA)
-- 2 cam. Tip 2 (49.15 mp, et. et. 3-9): avans 45% = 63.908€, avans 20% = 68.824€ (+TVA)
 - 2 cam. Tip 3 (61.5 mp, et. et. 1-10): avans 45% = 80.093€, avans 20% = 86.254€ (+TVA)
 - 2 cam. Tip 4 (67.71 mp, et. p-et. 10): avans 45% = 88.023€, avans 20% = 94.794€ (+TVA)
 - 2 cam. Tip 5 terasa (91.6 mp, et. p. înalt): avans 45% = 96.740€, avans 20% = 110.026€ (+TVA)
@@ -487,48 +486,6 @@ Puncte de interes:
 
 Descriere scurtă: Ansamblul Rezidențial Boutique Premium Neofort 11, zona Eminescu-Viitorului, Sector 2. Doar 13 apartamente S+P+4E+5R. Studio, garsonieră, 2 și 3 camere de la 104.640€+TVA. Predare Septembrie 2026. Finisaje premium: gresie MARAZZI, parchet Kronotex, obiecte sanitare GROHE/HansGrohe, centrală ARISTON 24kW, lift SCHINDLER.
 
-### Neofort 8 Tepes Voda Muncii — Tepes Voda-Muncii, Sector 2
-Slug: neofort-8-tepes-voda-muncii
-Status: Finalizat
-Etaje: S+P+2ET+M
-Tipuri: Studio, 2 camere, 3 camere, 4 camere
-Pret de la: 146.000€ + TVA
-Predare: Finalizat
-Adresa: Zona Tepes Voda-Maior Coravu, Sector 2, Bucuresti
-Coordonate: 44.435422, 26.127951
-Broker: Svetlana CALUTU, 0752 443 434
-URL: https://www.neofort.ro/ansamblu-rezidential/neofort-8-tepes-voda-muncii
-
-Apartamente disponibile:
-- Studio Garsoniera (36.1 mp, et. et. 1-2): de la 146.000€+TVA
-- 2 cam. 8B (54.3 mp, et. et. 1-2): de la 192.000€+TVA
-- 2 cam. 17B (54.7 mp, et. et. 1-2): de la 217.000€+TVA
-- 2 cam. 14B (58.1 mp, et. et. 1-2): de la 213.000€+TVA
-- 2 cam. 7B (52.9 mp, et. et. 1-2): de la 210.000€+TVA
-- 3 cam. 22B (73.5 mp, et. et. 1-2): de la 265.000€+TVA
-- 3 cam. 4B (111.2 mp, et. et. 1-2): de la 295.000€+TVA
-- 3 cam. 25B terasa (137.5 mp, et. mansarda): de la 345.000€+TVA
-- 4 cam. 6B cu gradina (156.8 mp, et. parter): de la 465.000€+TVA
-Parcare subterană: 25.000€ + TVA
-
-Dotări: Usi blindate PINUM intrare + interioare, Gresie/faianta MARAZZI, Parchet Kronotex PREMIUM, Obiecte sanitare la alegere / baterii Kludi, Centrala 24kW in condensatie Bosch, Incalzire in pardoseala, Preechipare aer conditionat, Parcare subterana/lift
-
-Puncte de interes:
-- metrou: Metrou Piata Muncii (M3) — 6 min cu masina
-- metrou: Metrou Dristor 2 (M2) — 5 min cu masina
-- mall: Kaufland Popa Nan — 14 min pe jos
-- mall: Bucuresti Mall Vitan — 7 min cu masina
-- scoala: Colegiul National Mihai Eminescu — 8 min cu masina
-- metrou: Metrou 8 Noiembrie (M1) — 8 min cu masina
-- metrou: Metrou Piata Unirii (M1/M3) — 9 min cu masina
-- metrou: Metrou Timpuri Noi (M2) — 10 min cu masina
-- mall: Park Lake Plaza — 11 min cu masina
-- parc: Parcul National — 11 min cu masina
-- scoala: Universitatea Hyperion — 8 min cu masina
-- parc: Parcul IOR (Titan) — 16 min cu masina
-
-Descriere scurtă: Ansamblul Rezidențial Boutique Exclusivist Neofort 8, zona Tepeș Vodă-Muncii, Sector 2. 32 apartamente S+P+2ET+M finalizate, de la 146.000€+TVA. Studio, 2, 3 și 4 camere. Metrou Piața Muncii la 500m. Clasă energetică A, fațadă ventilată, centrală Bosch condensare, tâmplărie Salamander 7 camere, parchet Kronotex, uși PINUM.
-
 ## Blog — articole publicate
 
 ### Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire
@@ -725,6 +682,8 @@ Rezumat: Randamentul la închiriere în București pe zone în 2026: calcule rea
   URL: https://www.neofort.ro/portofoliu/neofort-64-calusei-mosilor-obor
 - Neofort 63 Fundeni — Dobroești (N63) — Fundeni-Dobroești, Sector 2 — 48 unități — vândut integral
   URL: https://www.neofort.ro/portofoliu/neofort-63-fundeni-dobroesti
+- Neofort 8 Tepes Voda Muncii (N8) — Tepes Voda-Muncii, Sector 2 — 32 unități — vândut integral
+  URL: https://www.neofort.ro/portofoliu/neofort-8-tepes-voda-muncii
 - Neofort 62 Militari — Șos. Virtutii (N62) — Militari-Virtutii, Sector 6 — 15 unități — vândut integral
   URL: https://www.neofort.ro/portofoliu/neofort-62-militari-virtutii
 - Neofort 61 Popești-Leordeni — Case Duplex (N61) — Popești-Leordeni, Ilfov — 20 unități — vândut integral
