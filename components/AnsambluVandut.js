@@ -198,7 +198,7 @@ export default function AnsambluVandut({ a, basePath = '/portofoliu' }) {
                 <h2 className="text-base font-medium text-gray-900 mb-4">Alte ansambluri Neofort</h2>
                 <div className="grid grid-cols-2 gap-3">
                   {similare.map(s => (
-                    <Link key={s.slug} href={`/portofoliu/${s.slug}`}
+                    <Link key={s.slug} href={`/ansamblu-rezidential/${s.slug}`}
                       className="p-3 rounded-lg border border-gray-100 hover:border-green-200 hover:bg-green-50 transition-all">
                       <div className="text-xs font-medium text-gray-900 mb-0.5">{s.nume}</div>
                       <div className="text-[10px] text-gray-500">{s.zona} · {s.sector}</div>

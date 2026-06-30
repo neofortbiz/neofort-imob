@@ -35,7 +35,7 @@ function getPortofoliuSchema(BASE) {
       '@type': 'ListItem',
       position: i + 1,
       name: a.nume,
-      url: `${BASE}/portofoliu/${a.slug}`,
+      url: `${BASE}/ansamblu-rezidential/${a.slug}`,
     })),
   }
 }

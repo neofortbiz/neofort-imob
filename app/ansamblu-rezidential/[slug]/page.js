@@ -7,24 +7,24 @@ import GalerieAnsamblu from '@/components/GalerieAnsamblu'
 import DescriereExpand from '@/components/DescriereExpand'
 import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
-import { getOricareAnsambluPortofoliu } from '@/data/portofoliu'
+import { getOricareAnsambluPortofoliu, TOATE_PORTOFOLIU } from '@/data/portofoliu'
 import AnsambluVandut from '@/components/AnsambluVandut'
 
 const BASE = 'https://www.neofort.ro'
 const TEL = '0758090904'
 const TEL_DISPLAY = '0758 090 904'
 
-// Ansambluri vandute servite la URL-ul canonic /ansamblu-rezidential/<slug>,
-// ca sa-si pastreze adresa de cand erau la vanzare (fara redirect la schimbarea
-// de status). /portofoliu/<slug> redirectioneaza 301 catre acest URL.
-const SLUGURI_VANDUT_CANONIC = ['neofort-8-tepes-voda-muncii']
-const getVandutCanonic = (slug) =>
-  SLUGURI_VANDUT_CANONIC.includes(slug) ? getOricareAnsambluPortofoliu(slug) : null
+// Toate ansamblurile (active + vandute) sunt servite canonic la
+// /ansamblu-rezidential/<slug>. Cele active randeaza modul de vanzare; cele
+// vandute (din portofoliu) randeaza modul "stoc epuizat". /portofoliu/<slug>
+// redirectioneaza 301 catre acest URL. Astfel un proiect nu-si schimba niciodata
+// adresa intre vanzare si vandut (zero churn SEO).
+const getVandutCanonic = (slug) => getOricareAnsambluPortofoliu(slug)
 
 export async function generateStaticParams() {
   return [
     ...ANSAMBLURI.map(a => ({ slug: a.slug })),
-    ...SLUGURI_VANDUT_CANONIC.map(slug => ({ slug })),
+    ...TOATE_PORTOFOLIU.map(a => ({ slug: a.slug })),
   ]
 }
 
