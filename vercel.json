@@ -27,8 +27,8 @@
       "permanent": true
     },
     {
-      "source": "/ansamblu-rezidential/neofort-8-tepes-voda-muncii",
-      "destination": "/portofoliu/neofort-8-tepes-voda-muncii",
+      "source": "/portofoliu/neofort-8-tepes-voda-muncii",
+      "destination": "/ansamblu-rezidential/neofort-8-tepes-voda-muncii",
       "permanent": true
     }
   ]

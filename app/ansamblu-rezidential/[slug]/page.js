@@ -7,18 +7,53 @@ import GalerieAnsamblu from '@/components/GalerieAnsamblu'
 import DescriereExpand from '@/components/DescriereExpand'
 import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
+import { getOricareAnsambluPortofoliu } from '@/data/portofoliu'
+import AnsambluVandut from '@/components/AnsambluVandut'
 
 const BASE = 'https://www.neofort.ro'
 const TEL = '0758090904'
 const TEL_DISPLAY = '0758 090 904'
 
+// Ansambluri vandute servite la URL-ul canonic /ansamblu-rezidential/<slug>,
+// ca sa-si pastreze adresa de cand erau la vanzare (fara redirect la schimbarea
+// de status). /portofoliu/<slug> redirectioneaza 301 catre acest URL.
+const SLUGURI_VANDUT_CANONIC = ['neofort-8-tepes-voda-muncii']
+const getVandutCanonic = (slug) =>
+  SLUGURI_VANDUT_CANONIC.includes(slug) ? getOricareAnsambluPortofoliu(slug) : null
+
 export async function generateStaticParams() {
-  return ANSAMBLURI.map(a => ({ slug: a.slug }))
+  return [
+    ...ANSAMBLURI.map(a => ({ slug: a.slug })),
+    ...SLUGURI_VANDUT_CANONIC.map(slug => ({ slug })),
+  ]
 }
 
 export async function generateMetadata({ params }) {
   const a = getAnsamblu(params.slug)
-  if (!a) return {}
+  if (!a) {
+    const v = getVandutCanonic(params.slug)
+    if (v) {
+      const url = `${BASE}/ansamblu-rezidential/${v.slug}`
+      return {
+        title: { absolute: `Ansamblu Rezidențial ${v.zona} — ${v.nume} | Neofort IMO` },
+        description: `${v.nume}, ${v.zona}, ${v.sector} București. ${v.etaje}, ${v.totalApartamente} unități. Ansamblu finalizat și vândut integral de Neofort IMO.`,
+        alternates: { canonical: url },
+        openGraph: {
+          title: `${v.nume} — Ansamblu Rezidențial ${v.zona}`,
+          description: `${v.nume}, ${v.zona}, ${v.sector}. Ansamblu finalizat și vândut integral. ${v.etaje}, ${v.totalApartamente} unități.`,
+          url,
+          images: [{ url: v.cover ? `${BASE}${v.cover}` : `${BASE}/og-portofoliu.jpg`, width: 1200, height: 630, alt: v.nume }],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: `${v.nume} | Neofort IMO`,
+          description: `Ansamblu finalizat în ${v.zona}, ${v.sector}. ${v.totalApartamente} unități livrate.`,
+          images: [v.cover ? `${BASE}${v.cover}` : `${BASE}/og-portofoliu.jpg`],
+        },
+      }
+    }
+    return {}
+  }
   const url = `${BASE}/ansamblu-rezidential/${a.slug}`
   // Folosim seoTitle/seoDescription din date daca exista, altfel formula dinamica
   const title = a.seoTitle ||
@@ -60,7 +95,11 @@ const POI_COLORS = {
 
 export default function AnsambluPage({ params }) {
   const a = getAnsamblu(params.slug)
-  if (!a) notFound()
+  if (!a) {
+    const v = getVandutCanonic(params.slug)
+    if (v) return <AnsambluVandut a={v} basePath="/ansamblu-rezidential" />
+    notFound()
+  }
 
   const sc = STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie']
   const similare = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug && (x.zona === a.zona || x.sector === a.sector)).slice(0, 5)

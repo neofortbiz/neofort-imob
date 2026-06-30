@@ -78,13 +78,26 @@ export default function sitemap() {
   }))
 
   // Portofoliu - TOATE_PORTOFOLIU include ambele arrays (72 total)
-  // Continut permanent
-  const portofoliuPages = TOATE_PORTOFOLIU.map(a => ({
-    url: `${BASE}/portofoliu/${a.slug}`,
-    lastModified: new Date('2026-01-01'),
-    changeFrequency: 'never',
-    priority: 0.6,
-  }))
+  // Continut permanent. N8 e servit la URL-ul canonic /ansamblu-rezidential/ (exclus aici).
+  const SLUGURI_VANDUT_CANONIC = ['neofort-8-tepes-voda-muncii']
+  const portofoliuPages = TOATE_PORTOFOLIU
+    .filter(a => !SLUGURI_VANDUT_CANONIC.includes(a.slug))
+    .map(a => ({
+      url: `${BASE}/portofoliu/${a.slug}`,
+      lastModified: new Date('2026-01-01'),
+      changeFrequency: 'never',
+      priority: 0.6,
+    }))
 
-  return [...staticPages, ...calculatorPage, ...tipPages, ...ansambluriActive, ...zonePages, ...blogPages, ...portofoliuPages]
+  // Ansambluri vandute servite la URL canonic /ansamblu-rezidential/<slug>
+  const vandutCanonic = TOATE_PORTOFOLIU
+    .filter(a => SLUGURI_VANDUT_CANONIC.includes(a.slug))
+    .map(a => ({
+      url: `${BASE}/ansamblu-rezidential/${a.slug}`,
+      lastModified: LAST_WEEK,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    }))
+
+  return [...staticPages, ...calculatorPage, ...tipPages, ...ansambluriActive, ...zonePages, ...blogPages, ...portofoliuPages, ...vandutCanonic]
 }
