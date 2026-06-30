@@ -5,7 +5,7 @@ const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   alternates: { canonical: BASE },
-  openGraph: { title: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă', description: 'Apartamente noi în București direct de la sursă, fără comision. 13 ansambluri active în Sectoarele 2, 3 și 6. 17 ani experiență.', images: [{ url: 'https://www.neofort.ro/og-acasa.jpg', width: 1200, height: 630, alt: 'Neofort IMO — Apartamente Noi București' }] },
+  openGraph: { title: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă', description: `Apartamente noi în București direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6. ${ANI_EXPERIENTA} ani experiență.`, images: [{ url: 'https://www.neofort.ro/og-acasa.jpg', width: 1200, height: 630, alt: 'Neofort IMO — Apartamente Noi București' }] },
   twitter: { card: 'summary_large_image', images: ['https://www.neofort.ro/og-acasa.jpg'] },
 }
 

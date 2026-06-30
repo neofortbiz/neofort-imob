@@ -51,7 +51,7 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
     h1: 'Apartamente 2 Camere Noi în București',
     descriere: 'Apartamente noi de 2 camere în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
     seoTitle: 'Apartamente 2 Camere Noi București 2026',
-    seoDesc: 'Apartamente 2 camere noi în București de la 62.114€+TVA. Neofort IMO: 13 ansambluri active în Sectoarele 2, 3, 6. Direct de la sursă, fără comision.',
+    seoDesc: `Apartamente 2 camere noi în București de la 62.114€+TVA. Neofort IMO: ${ANSAMBLURI_ACTIVE.length} ansambluri active în Sectoarele 2, 3, 6. Direct de la sursă, fără comision.`,
     ogDesc: 'Apartamente 2 camere noi în București. Direct de la Neofort IMO, fără comision de agenție.',
     match: (tipuri) => tipuri.some(t => {
       const m = String(t).toLowerCase().match(/^(\d+)\s+camere/)
@@ -194,7 +194,7 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
         a: 'M2 (est-vest) acoperă mai mulți poli de activitate (Unirii, Universitate, Obor, Dristor) și are fluxuri mai mari de pasageri. Zona Titan-Pallady pe M2 a crescut mai rapid în ultimii 3 ani. M3 este mai puțin aglomerat și deservește Militari și Gorjului — cerere bună dar mai concentrată.',
       },
     ],
-    textEditorial: `Accesul la metrou este factorul care diferențiază cel mai clar valorile imobiliare în București. Toate cele 13 ansambluri active Neofort IMO se află în apropierea unei stații de metrou — de la 20 de metri (Neofort 83) la maxim 15 minute pe jos.
+    textEditorial: `Accesul la metrou este factorul care diferențiază cel mai clar valorile imobiliare în București. Toate cele ${ANSAMBLURI_ACTIVE.length} ansambluri active Neofort IMO se află în apropierea unei stații de metrou — de la 20 de metri (Neofort 83) la maxim 15 minute pe jos.
 
 Linia M2 deservește zona Titan-Pallady cu două stații: Nicolae Teclu și Anghel Saligny, creând un coridor rezidențial excepțional de bine conectat. Linia M3 acoperă Militari, Gorjului și Piața Muncii. Combinația metrou + prețuri sub media pieței explică de ce aceste zone au înregistrat cel mai mare ritm de creștere a valorii apartamentelor noi din București în 2024-2026.
 

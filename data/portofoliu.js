@@ -884,66 +884,6 @@ Construcția la standardul clasei energetice A: structură cadre-stâlpi-grinzi 
 
 Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei. Accesul spre Autostrada A3 spre nord și A2 spre est — ideal pentru deplasările în afara Bucureștiului. Zona Fundeni-Dobroești este incluzã în interiorul Bucureștiului și beneficiează de toate facilitățile urbane. Spitalul Fundeni în apropierea imediată. Consultanță bancară gratuită, taxe notariale reduse pentru clienții Neofort. Neofort 63 Strada Stejarului a livrat clasa energetică A — o performanță rară în portofoliul de garsoniere sub 45.000€ din București. Locurile de parcare cu acte de proprietate separate — nu concesiune — reprezentau o valoare distinctă față de parcările în concesiune ale altor proiecte. Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei. Accesul spre Autostrada A3 la nord și A2 spre est. Curtea amenajată cu spații verzi și loc de joacă pentru copii. Garsonierele cu curte privată de 31 mp — tipologie rar disponibilă. Spitalul Fundeni la 15 minute pe jos. Consultanță bancară gratuită, taxe notariale reduse pentru clienții Neofort. Vânzare directă de la sursă, fără comision de agenție. Linii STB 343, 455 și 253 asigurau accesul la rețeaua de transport a Capitalei fără necesitatea mașinii personale. Accesul spre Autostrada A3 la 13 minute cu mașina spre nord și A2 spre est. Spital Clinic Fundeni la 15 minute pe jos. Mega Mall Pantelimon la 36 minute pe jos sau 8 minute cu mașina. Garsonierele cu curte privată de 31 mp — tipologie rar disponibilă în clasa de preț 40.000-45.000€. Clasa energetică A — costuri de întreținere cu 20-30% mai mici față de clasele B sau C. Locuri de parcare cu acte de proprietate separate — nu concesiune — reprezenta o valoare legală distinctă. Centrala proprie în condensare, tâmplărie GreenEvolution 7 camere. Chiria pentru garsoniere: 400-480€/lună față de 40.000-45.000€ — randament 12-14% brut anual. Vânzare directă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică și bancară gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru identificarea celui mai avantajos credit ipotecar. Taxe notariale reduse pentru clienții Neofort. Rezervare cu 2.000€ fixe indiferent de tipul de apartament ales. Procesul de achiziție era transparent și simplificat: semnare antecontract, acces la finanțare bancară facilitată gratuit, semnare contract de vânzare-cumpărare în fața notarului.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa. Fara comision de agentie. Neofort IMO cu experienta din 2009. 85 de proiecte livrate in Bucuresti. Cea mai buna optiune din zona. Garantie constructie inclusa. Asistenta bancara prin brokeri dedicati. Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare. Rezervare cu 2.000 euro. Taxe notariale reduse. Livrare la cheie cu finisaje complete. Vanzare directa de la sursa.`,
   },
-  {
-    numar: 8,
-    slug: 'neofort-8-tepes-voda-muncii',
-    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-8-tepes-voda-muncii.avif',
-    nume: 'Neofort 8 Tepes Voda Muncii',
-    zona: 'Tepes Voda-Muncii',
-    sector: 'Sector 2',
-    adresa: 'Zona Tepes Voda-Maior Coravu, Sector 2, Bucuresti',
-    coordonate: { lat: 44.435422, lng: 26.127951 },
-    etaje: 'S+P+2ET+M',
-    totalApartamente: 32,
-    tipuri: ['Studio', '2 camere', '3 camere', '4 camere'],
-    status: 'vandut',
-    descriere: 'Ansamblul Rezidențial Boutique Exclusivist Neofort 8, zona Tepeș Vodă-Muncii, Sector 2. 32 apartamente S+P+2ET+M, vândute integral. Studio, 2, 3 și 4 camere de la 146.000€+TVA. Metrou Piața Muncii la 500m. Clasă energetică A, fațadă ventilată, centrală Bosch condensare, tâmplărie Salamander 7 camere, parchet Kronotex, uși PINUM.',
-    dotari: ['Uși blindate PINUM intrare + interioare', 'Gresie/faianță MARAZZI', 'Parchet Kronotex PREMIUM', 'Obiecte sanitare la alegere / baterii Kludi', 'Centrală 24kW în condensație Bosch', 'Încălzire în pardoseală', 'Preechipare aer condiționat', 'Parcare subterană/lift', 'Tâmplărie PVC Salamander 7 camere tripan', 'Termoizolație EPS80 10cm', 'Fațadă ventilată', 'Clasă energetică A'],
-    preturi: [
-      { tip: 'Studio Garsonieră (36,1mp)', pret: 146000 },
-      { tip: '2 cam. 8B (54,3mp)', pret: 192000 },
-      { tip: '2 cam. 7B (52,9mp)', pret: 210000 },
-      { tip: '2 cam. 14B (58,1mp)', pret: 213000 },
-      { tip: '2 cam. 17B (54,7mp)', pret: 217000 },
-      { tip: '3 cam. 22B (73,5mp)', pret: 265000 },
-      { tip: '3 cam. 4B (111,2mp)', pret: 295000 },
-      { tip: '3 cam. 25B terasă mansardă (137,5mp)', pret: 345000 },
-      { tip: '4 cam. 6B cu grădină la parter (156,8mp)', pret: 465000 },
-    ],
-    parcare: { suprateran: false, subteran: true, pretSubteran: 25000 },
-    broker: 'Info Neofort',
-    brokerTel: '0758090904',
-    brokerFoto: '/brokeri/info-neofort.avif',
-    descriereCompleta: `Zona Tepeș Vodă — Maior Coravu din Sectorul 2 al Bucureștiului are o particularitate valoroasă în peisajul imobiliar al capitalei: este dominată de case și blocuri mici cu maxim 4 etaje, ceea ce îi conferea un caracter rezidențial rar întâlnit la 6 minute de mers pe jos de metrou. Neofort 8 s-a înscris natural în acest peisaj — 32 de apartamente S+P+2ET+M finalizate, vândute integral, cu clasa energetică A.
-
-9 tipuri de apartamente au acoperit orice configurație: studio garsonieră 36,10 mp, 146.000€; 2 camere 8B 54,30 mp, 192.000€; 2 camere 7B 52,90 mp, 210.000€; 2 camere 14B 58,10 mp, 213.000€; 2 camere 17B 54,70 mp, 217.000€; 3 camere 22B 73,50 mp, 265.000€; 3 camere 4B 111,20 mp, 295.000€; 3 camere 25B cu terasă mansardă, 137,50 mp, 345.000€; 4 camere 6B cu grădină la parter, 156,80 mp, 465.000€. Toate + TVA. Parcare subterană cu lift 25.000€.
-
-Clasa energetică A a reprezentat un avantaj concret și permanent: facturile la energie termică au fost cu 20-30% mai mici față de clădirile din clasa B sau C. Fațada ventilată a contribuit la menținerea temperaturii interioare și a redus condensul. Înălțimea peste standard față de normele curente a conferit spațialitate vizibilă în fiecare cameră.
-
-Dotările tehnice au fost din clasa premium: uși blindate PINUM cu uși interioare PINUM, gresie și faianță MARAZZI, parchet Kronotex PREMIUM, obiecte sanitare la alegere cu baterii Kludi, centrală 24kW în condensație Bosch, încălzire în pardoseală, preechipare aer condiționat, tâmplărie PVC Salamander 7 camere tripan și termoizolație EPS80 10cm. Unitatea cu grădină la parter — 156,80 mp cu grădină privată — a fost tipologia de vârf a proiectului.
-
-Metrou Piața Muncii (M3) la 500m — 6 minute pe jos — spre Piața Unirii în 4 minute și spre Drumul Taberei în 8 minute. Metrou Dristor 1 la 12 minute pe jos. Kaufland Popa Nan la 5 minute pe jos, Mega Image Calea Călărașilor la 3 minute. Cartierul de case și vile din jur a asigurat liniștea și verdeața unui cartier rezidențial clasic. Parcul Național la 10 minute pe jos. Colegiul Național Matei Basarab la 10 minute pe jos, Liceul Ion Barbu la 8 minute. Spital Victor Babeș la 8 minute, MedLife și Regina Maria la 8 minute.
-
-Clasa A, metrou la 6 minute, finisaje premium și un cartier rezidențial liniștit au format o combinație care a justificat prețul și a confirmat aprecierea valorii — proiectul s-a vândut integral. Neofort IMO a comercializat acest proiect direct de la sursă, fără comision de agenție, cu consultanță juridică și bancară gratuită pe toată durata procesului.
-
-Zona Tepeș Vodă — Maior Coravu este una dintre rarele zone ale Sectorului 2 unde caracterul rezidențial a fost protejat structural prin regulamentul local de urbanism: înălțimea maximă a construcțiilor este limitată la P+3 sau P+4, cu excepții punctuale. Aceasta a însemnat că vecinătatea Neofort 8 nu a fost modificată dramatic de noi proiecte tower — un avantaj care a protejat iluminarea naturală, vederea și caracterul de cartier liniștit pe termen lung.
-
-Tipologia de vârf a proiectului — 4 camere 6B cu grădină la parter, 156,80 mp + grădină privată, 465.000€ + TVA — a fost o proprietate fără echivalent direct în zona Tepeș Vodă-Muncii la momentul comercializării. A combina un apartament nou de 4 camere cu grădină privată, metrou la 6 minute, clasa energetică A și finisaje premium (MARAZZI, Kronotex, Bosch, PINUM) într-un cartier rezidențial liniștit din Sectorul 2 a fost o ofertă rar întâlnită pe piață, motiv pentru care s-a vândut rapid.`,
-    puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Piata Muncii (M3)', distanta: '6 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '14 min pe jos' },
-      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '7 min cu masina' },
-      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '8 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '8 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Piata Unirii (M1/M3)', distanta: '9 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '10 min cu masina' },
-      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '11 min cu masina' },
-      { tip: 'parc', nume: 'Parcul National', distanta: '11 min cu masina' },
-      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '8 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '16 min cu masina' },
-    ],
-  }
 ]
 
 
@@ -3035,6 +2975,66 @@ Preturile la momentul comercializarii (valabile pana la 15 mai 2013): stabilite 
 10 unitati pe etaj: 5 apartamente de 2 camere, 4 apartamente de 3 camere si o garsoniera — mix optim pentru o comunitate echilibrata. Bucatarii inchise sau open-space, balcoane cu acces simplu sau dublu. Zero rigips. Lift. Clasa energetica A.
 
 Zona Dacia — una dintre adresele cele mai apreciate ale Sectorului 2, cu viata de cafenea intensa, profilata pe tineri profesionisti si familii cu copii. Privelistea libera asupra zonei de case din jur. Acces rapid la mijloacele de transport de pe intersectia Dacia-Traian.`,
+  },
+  {
+    numar: 8,
+    slug: 'neofort-8-tepes-voda-muncii',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-8-tepes-voda-muncii.avif',
+    nume: 'Neofort 8 Tepes Voda Muncii',
+    zona: 'Tepes Voda-Muncii',
+    sector: 'Sector 2',
+    adresa: 'Zona Tepes Voda-Maior Coravu, Sector 2, Bucuresti',
+    coordonate: { lat: 44.435422, lng: 26.127951 },
+    etaje: 'S+P+2ET+M',
+    totalApartamente: 32,
+    tipuri: ['Studio', '2 camere', '3 camere', '4 camere'],
+    status: 'vandut',
+    descriere: 'Ansamblul Rezidențial Boutique Exclusivist Neofort 8, zona Tepeș Vodă-Muncii, Sector 2. 32 apartamente S+P+2ET+M, vândute integral. Studio, 2, 3 și 4 camere de la 146.000€+TVA. Metrou Piața Muncii la 500m. Clasă energetică A, fațadă ventilată, centrală Bosch condensare, tâmplărie Salamander 7 camere, parchet Kronotex, uși PINUM.',
+    dotari: ['Uși blindate PINUM intrare + interioare', 'Gresie/faianță MARAZZI', 'Parchet Kronotex PREMIUM', 'Obiecte sanitare la alegere / baterii Kludi', 'Centrală 24kW în condensație Bosch', 'Încălzire în pardoseală', 'Preechipare aer condiționat', 'Parcare subterană/lift', 'Tâmplărie PVC Salamander 7 camere tripan', 'Termoizolație EPS80 10cm', 'Fațadă ventilată', 'Clasă energetică A'],
+    preturi: [
+      { tip: 'Studio Garsonieră (36,1mp)', pret: 146000 },
+      { tip: '2 cam. 8B (54,3mp)', pret: 192000 },
+      { tip: '2 cam. 7B (52,9mp)', pret: 210000 },
+      { tip: '2 cam. 14B (58,1mp)', pret: 213000 },
+      { tip: '2 cam. 17B (54,7mp)', pret: 217000 },
+      { tip: '3 cam. 22B (73,5mp)', pret: 265000 },
+      { tip: '3 cam. 4B (111,2mp)', pret: 295000 },
+      { tip: '3 cam. 25B terasă mansardă (137,5mp)', pret: 345000 },
+      { tip: '4 cam. 6B cu grădină la parter (156,8mp)', pret: 465000 },
+    ],
+    parcare: { suprateran: false, subteran: true, pretSubteran: 25000 },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    descriereCompleta: `Zona Tepeș Vodă — Maior Coravu din Sectorul 2 al Bucureștiului are o particularitate valoroasă în peisajul imobiliar al capitalei: este dominată de case și blocuri mici cu maxim 4 etaje, ceea ce îi conferea un caracter rezidențial rar întâlnit la 6 minute de mers pe jos de metrou. Neofort 8 s-a înscris natural în acest peisaj — 32 de apartamente S+P+2ET+M finalizate, vândute integral, cu clasa energetică A.
+
+9 tipuri de apartamente au acoperit orice configurație: studio garsonieră 36,10 mp, 146.000€; 2 camere 8B 54,30 mp, 192.000€; 2 camere 7B 52,90 mp, 210.000€; 2 camere 14B 58,10 mp, 213.000€; 2 camere 17B 54,70 mp, 217.000€; 3 camere 22B 73,50 mp, 265.000€; 3 camere 4B 111,20 mp, 295.000€; 3 camere 25B cu terasă mansardă, 137,50 mp, 345.000€; 4 camere 6B cu grădină la parter, 156,80 mp, 465.000€. Toate + TVA. Parcare subterană cu lift 25.000€.
+
+Clasa energetică A a reprezentat un avantaj concret și permanent: facturile la energie termică au fost cu 20-30% mai mici față de clădirile din clasa B sau C. Fațada ventilată a contribuit la menținerea temperaturii interioare și a redus condensul. Înălțimea peste standard față de normele curente a conferit spațialitate vizibilă în fiecare cameră.
+
+Dotările tehnice au fost din clasa premium: uși blindate PINUM cu uși interioare PINUM, gresie și faianță MARAZZI, parchet Kronotex PREMIUM, obiecte sanitare la alegere cu baterii Kludi, centrală 24kW în condensație Bosch, încălzire în pardoseală, preechipare aer condiționat, tâmplărie PVC Salamander 7 camere tripan și termoizolație EPS80 10cm. Unitatea cu grădină la parter — 156,80 mp cu grădină privată — a fost tipologia de vârf a proiectului.
+
+Metrou Piața Muncii (M3) la 500m — 6 minute pe jos — spre Piața Unirii în 4 minute și spre Drumul Taberei în 8 minute. Metrou Dristor 1 la 12 minute pe jos. Kaufland Popa Nan la 5 minute pe jos, Mega Image Calea Călărașilor la 3 minute. Cartierul de case și vile din jur a asigurat liniștea și verdeața unui cartier rezidențial clasic. Parcul Național la 10 minute pe jos. Colegiul Național Matei Basarab la 10 minute pe jos, Liceul Ion Barbu la 8 minute. Spital Victor Babeș la 8 minute, MedLife și Regina Maria la 8 minute.
+
+Clasa A, metrou la 6 minute, finisaje premium și un cartier rezidențial liniștit au format o combinație care a justificat prețul și a confirmat aprecierea valorii — proiectul s-a vândut integral. Neofort IMO a comercializat acest proiect direct de la sursă, fără comision de agenție, cu consultanță juridică și bancară gratuită pe toată durata procesului.
+
+Zona Tepeș Vodă — Maior Coravu este una dintre rarele zone ale Sectorului 2 unde caracterul rezidențial a fost protejat structural prin regulamentul local de urbanism: înălțimea maximă a construcțiilor este limitată la P+3 sau P+4, cu excepții punctuale. Aceasta a însemnat că vecinătatea Neofort 8 nu a fost modificată dramatic de noi proiecte tower — un avantaj care a protejat iluminarea naturală, vederea și caracterul de cartier liniștit pe termen lung.
+
+Tipologia de vârf a proiectului — 4 camere 6B cu grădină la parter, 156,80 mp + grădină privată, 465.000€ + TVA — a fost o proprietate fără echivalent direct în zona Tepeș Vodă-Muncii la momentul comercializării. A combina un apartament nou de 4 camere cu grădină privată, metrou la 6 minute, clasa energetică A și finisaje premium (MARAZZI, Kronotex, Bosch, PINUM) într-un cartier rezidențial liniștit din Sectorul 2 a fost o ofertă rar întâlnită pe piață, motiv pentru care s-a vândut rapid.`,
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Piata Muncii (M3)', distanta: '6 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '5 min cu masina' },
+      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '14 min pe jos' },
+      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '7 min cu masina' },
+      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '8 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '8 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Piata Unirii (M1/M3)', distanta: '9 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '10 min cu masina' },
+      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '11 min cu masina' },
+      { tip: 'parc', nume: 'Parcul National', distanta: '11 min cu masina' },
+      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '8 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '16 min cu masina' },
+    ],
   },
   {
     numar: 7,
