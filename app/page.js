@@ -5,7 +5,7 @@ const BASE = 'https://www.neofort.ro'
 
 export const metadata = {
   alternates: { canonical: BASE },
-  openGraph: { title: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă', description: `Apartamente noi în București direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6. ${ANI_EXPERIENTA} ani experiență.`, images: [{ url: 'https://www.neofort.ro/og-acasa.jpg', width: 1200, height: 630, alt: 'Neofort IMO — Apartamente Noi București' }] },
+  openGraph: { title: 'Ansambluri Rezidențiale Noi București — Neofort IMO', description: `Apartamente noi în București direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6. ${ANI_EXPERIENTA} ani experiență.`, images: [{ url: 'https://www.neofort.ro/og-acasa.jpg', width: 1200, height: 630, alt: 'Ansambluri Rezidențiale Noi București' }] },
   twitter: { card: 'summary_large_image', images: ['https://www.neofort.ro/og-acasa.jpg'] },
 }
 
@@ -14,7 +14,7 @@ const webPageSchema = {
   '@type': 'WebPage',
   '@id': `${BASE}/#webpage`,
   url: BASE,
-  name: 'Neofort IMO — Apartamente Noi București | Direct de la Sursă',
+  name: 'Ansambluri Rezidențiale Noi București — Neofort IMO',
   description: `Apartamente noi în ansambluri rezidențiale din București. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6. Direct de la sursă, fără comision.`,
   inLanguage: 'ro',
   isPartOf: { '@type': 'WebSite', '@id': `${BASE}/#website`, url: BASE, name: 'Neofort IMO' },

@@ -76,7 +76,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '17 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente noi Titan Pallady — Neofort 84',
+    seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 84',
     seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3 Bucuresti. Apartamente 2-4 camere de la 62.114 euro+TVA. Predare T1 2027, langa metrou Nicolae Teclu.',
   },
   {
@@ -151,7 +151,7 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '19 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Titan Pallady | Neofort 83',
+    seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 83',
     seoDescription: 'Neofort 83 Faza 2, zona Titan, Sector 3. Garsoniere, studio, 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu 3 min.',
   },
   {
@@ -233,7 +233,7 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
       { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '8 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Moșilor-Obor | Neofort 78',
+    seoTitle: 'Ansamblu Rezidențial Moșilor Eminescu — Neofort 78',
     seoDescription: 'Neofort 78, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Piața Obor 400m.',
   },
   {
@@ -304,7 +304,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
       { tip: 'transport', nume: 'Autostrada A1', distanta: '14 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Militari Metrou Păcii | Neofort 76',
+    seoTitle: 'Ansamblu Rezidențial Militari Metrou Păcii — Neofort 76',
     seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Apartamente și Penthouse de la 218.409€+TVA. Metrou Păcii 500m.',
   },
   {
@@ -376,7 +376,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '24 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Titan Smart Home | Neofort 56',
+    seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 56',
     seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Studio, 2-4 camere de la 184.691€+TVA. Smart Home Ready, metrou Teclu 3 min.',
   },
   {
@@ -467,7 +467,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
       { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '15 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente noi Titan Parc IOR — Neofort 50',
+    seoTitle: 'Ansamblu Rezidențial Titan IOR — Neofort 50',
     seoDescription: 'Ansamblu rezidential Neofort 50 Titan IOR, Bd. 1 Decembrie 1918, Sector 3 Bucuresti. Apartamente 2-4 camere de la 142.545 euro+TVA. Metrou Costin Georgian.',
   },
   {
@@ -544,7 +544,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
       { tip: 'mall', nume: 'AFI Palace Cotroceni', distanta: '18 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Militari | Neofort 49 Promo',
+    seoTitle: 'Ansamblu Rezidențial Militari Gorjului — Neofort 49',
     seoDescription: 'Neofort 49, Sector 6. Garsoniere și 2 camere de la 76.974€+TVA. Promoție activă. Metrou Gorjului câteva minute.',
   },
   {
@@ -618,7 +618,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '25 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Titan Pallady | Neofort 44',
+    seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 44',
     seoDescription: 'Neofort 44, Titan-Pallady, Sector 3. Garsoniere, 2-3 camere de la 61.775€+TVA. Metrou Nicolae Teclu 3 min.',
   },
   {
@@ -691,7 +691,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
       { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '13 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Piața Muncii | Neofort 42',
+    seoTitle: 'Ansamblu Rezidențial Piața Muncii — Neofort 42',
     seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii 200m. Promoție activă.',
   },
   {
@@ -772,7 +772,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '3 camere'],
     tag: null,
-    seoTitle: 'Apartamente Finalizate Pallady — Neofort 28 F2',
+    seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 28 Faza 2',
     seoDescription: 'Neofort 28 Faza 2, Titan-Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje premium PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
   },
   {
@@ -851,7 +851,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '18 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Titan Pallady | Neofort 28',
+    seoTitle: 'Ansamblu Rezidențial Pallady Teclu — Neofort 28',
     seoDescription: 'Neofort 28 Titan-Pallady, Sector 3. Apartamente 2-3 camere de la 83.900€+TVA, unele cu curte proprie 50mp. Metrou Nicolae Teclu în apropiere.',
   },
   {
@@ -930,7 +930,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
       { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '9 min cu masina' },
     ],
     galerie: [],
-    seoTitle: 'Apartamente Eminescu-Viitorului | Neofort 11',
+    seoTitle: 'Ansamblu Rezidențial Eminescu Viitorului — Neofort 11',
     seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium, 2-3 camere de la 104.640€+TVA. Predare sept. 2026.',
   },
 

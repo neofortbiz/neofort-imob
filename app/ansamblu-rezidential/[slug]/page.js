@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
     if (v) {
       const url = `${BASE}/ansamblu-rezidential/${v.slug}`
       return {
-        title: { absolute: `Ansamblu Rezidențial ${v.zona} — ${v.nume} | Neofort IMO` },
+        title: { absolute: `Ansamblu Rezidențial ${v.zona} — Neofort ${v.numar}` },
         description: `${v.nume}, ${v.zona}, ${v.sector} București. ${v.etaje}, ${v.totalApartamente} unități. Ansamblu finalizat și vândut integral de Neofort IMO.`,
         alternates: { canonical: url },
         openGraph: {
@@ -57,16 +57,16 @@ export async function generateMetadata({ params }) {
   const url = `${BASE}/ansamblu-rezidential/${a.slug}`
   // Folosim seoTitle/seoDescription din date daca exista, altfel formula dinamica
   const title = a.seoTitle ||
-    `Apartamente noi ${a.zona} — ${a.nume} | De la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€ | Neofort IMO`
+    `Ansamblu Rezidențial ${a.zona} — ${a.nume}`
   const description = a.seoDescription ||
     `${a.tipuri.join(', ')} în ${a.zona}, ${a.sector} București. Prețuri de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA. ${a.dataPredare !== 'Finalizat' ? `Predare ${a.dataPredare}.` : 'Finalizat.'} ${a.puncteInteres[0] ? `${a.puncteInteres[0].nume} la ${a.puncteInteres[0].distanta}.` : ''}`
 
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: { canonical: url },
     openGraph: {
-      title: `${a.nume} — Apartamente noi ${a.zona} | Neofort IMO`,
+      title: `${title} | Neofort IMO`,
       description: `Apartamente ${a.tipuri.join(', ')} în ${a.zona}, ${a.sector}. De la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA.`,
       url,
       type: 'website',
