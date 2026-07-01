@@ -27,7 +27,7 @@
       "permanent": true
     },
     {
-      "source": "/portofoliu/:slug",
+      "source": "/portofoliu/:slug([^.]+)",
       "destination": "/ansamblu-rezidential/:slug",
       "permanent": true
     }
