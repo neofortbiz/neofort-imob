@@ -42,13 +42,13 @@ export async function generateMetadata({ params }) {
           title: `${v.nume} — Ansamblu Rezidențial ${v.zona}`,
           description: `${v.nume}, ${v.zona}, ${v.sector}. Ansamblu finalizat și vândut integral. ${v.etaje}, ${v.totalApartamente} unități.`,
           url,
-          images: [{ url: v.cover ? `${BASE}${v.cover}` : `${BASE}/og-portofoliu.jpg`, width: 1200, height: 630, alt: v.nume }],
+          images: [{ url: `${BASE}/og-portofoliu.jpg`, width: 1200, height: 630, alt: v.nume }],
         },
         twitter: {
           card: 'summary_large_image',
           title: `${v.nume} | Neofort IMO`,
           description: `Ansamblu finalizat în ${v.zona}, ${v.sector}. ${v.totalApartamente} unități livrate.`,
-          images: [v.cover ? `${BASE}${v.cover}` : `${BASE}/og-portofoliu.jpg`],
+          images: [`${BASE}/og-portofoliu.jpg`],
         },
       }
     }

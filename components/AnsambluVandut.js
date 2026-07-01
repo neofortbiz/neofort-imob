@@ -28,9 +28,9 @@ const TIP_CFG = {
 export default function AnsambluVandut({ a, basePath = '/portofoliu' }) {
   const pretMin = a.preturi?.[0]?.pret
   const selfUrl = `${BASE}${basePath}/${a.slug}`
-  const crumb = basePath === '/ansamblu-rezidential'
-    ? { label: 'Ansambluri rezidențiale', href: '/ansambluri-rezidentiale', active: '/ansambluri-rezidentiale' }
-    : { label: 'Portofoliu', href: '/portofoliu', active: '/portofoliu' }
+  // Ansamblurile vandute apartin sectiunii Portofoliu (acolo sunt listate si de acolo
+  // vine userul), chiar daca URL-ul canonic e sub /ansamblu-rezidential/.
+  const crumb = { label: 'Portofoliu', href: '/portofoliu', active: '/portofoliu' }
 
   const similare = TOATE_PORTOFOLIU.filter(p => p.slug !== a.slug).slice(0, 4)
 
