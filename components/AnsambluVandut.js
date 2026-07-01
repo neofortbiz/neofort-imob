@@ -41,7 +41,7 @@ export default function AnsambluVandut({ a, basePath = '/portofoliu' }) {
     name: a.nume,
     description: a.descriereCompleta || a.descriere,
     url: selfUrl,
-    image: a.cover ? `${BASE}${a.cover}` : `${BASE}/og-portofoliu.jpg`,
+    image: `${BASE}/og-portofoliu/${a.slug}.jpg`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: a.adresa,
