@@ -51,6 +51,13 @@ export default async function BlogPage() {
   , ARTICOLE_SORTATE[0])
   const FEATURED = featured_slug
   const REST = ARTICOLE_SORTATE.filter(a => a.slug !== FEATURED.slug)
+  // Categorii cu numar calculat DINAMIC din articole (nu hardcodat) — reflecta mereu realitatea
+  const CULORI_CAT = Object.fromEntries(CATEGORII.map(c => [c.label, c.color]))
+  const CATEGORII_LIVE = Object.entries(
+    ARTICOLE_LIST.reduce((acc, a) => { acc[a.tag] = (acc[a.tag] || 0) + 1; return acc }, {})
+  )
+    .map(([label, count]) => ({ label, count, color: CULORI_CAT[label] || '#6b7280' }))
+    .sort((a, b) => b.count - a.count)
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -177,7 +184,7 @@ export default async function BlogPage() {
               <div className="border border-gray-200 rounded-xl p-5">
                 <h3 className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Categorii</h3>
                 <div className="space-y-2">
-                  {CATEGORII.map(c => (
+                  {CATEGORII_LIVE.map(c => (
                     <div key={c.label} className="flex items-center justify-between">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 rounded-full" style={{ background: c.color }} />
