@@ -246,70 +246,6 @@ const webSiteSchema = {
   },
 }
 
-// Schema FAQ global — intrebari frecvente despre Neofort IMO
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'Neofort IMO percepe comision de agenție?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Nu. Neofort IMO comercializează apartamente direct de la sursă, fără comision de agenție pentru cumpărător. Prețul plătit este prețul afișat, fără costuri ascunse.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Câte proiecte rezidențiale a livrat Neofort IMO?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Neofort IMO a livrat peste ${NR_LIVRATE} de ansambluri rezidențiale în București din 2009 până în prezent, totalizând peste ${NR_FAMILII} familii ajutate să-și cumpere un apartament nou.`,
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'În ce sectoare din București are Neofort IMO ansambluri active?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Neofort IMO are ansambluri rezidențiale active în Sectorul 2 (Moșilor-Eminescu, Eminescu-Viitorului, Tepeș Vodă), Sectorul 3 (Titan-Pallady, Piața Muncii, IOR) și Sectorul 6 (Militari, Gorjului, Iuliu Maniu).',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Apartamentele Neofort IMO se predau la cheie?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Da. Toate apartamentele Neofort IMO se predau cu finisaje complete incluse în preț: parchet, gresie, faianță, obiecte sanitare, tâmplărie, instalații complete. Vă mutați direct fără costuri suplimentare de amenajare.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Cum se face rezervarea unui apartament la Neofort IMO?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Rezervarea se face cu o sumă variabilă per proiect (ex: 1.000€ la Neofort 84), restituibilă integral dacă nu se semnează antecontractul din vina dezvoltatorului. Consultanță juridică și bancară gratuită inclusă.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Neofort IMO acceptă credite bancare și Prima Casă?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Da. Neofort IMO acceptă finanțare prin credit bancar standard, Noua Casă (fosta Prima Casă) și plată în avans. Consultanți bancari parteneri disponibili gratuit pentru analiza eligibilității.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Care este adresa și programul Neofort IMO?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Neofort IMO este situată pe Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776. Program: Luni-Vineri 10:00-18:00. Telefon: 0758 090 904.',
-      },
-    },
-  ],
-}
-
 export default function RootLayout({ children }) {
   return (
     <html lang="ro" className={`${barlow.variable} ${barlowCondensed.variable}`}>
@@ -335,7 +271,6 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webSiteSchema) }} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       </head>
       <body>
         {/* Google Tag Manager noscript */}
