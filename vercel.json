@@ -27,6 +27,26 @@
       "permanent": true
     },
     {
+      "source": "/en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/uk",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/uk/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
       "source": "/portofoliu/:slug([^.]+)",
       "destination": "/ansamblu-rezidential/:slug",
       "permanent": true

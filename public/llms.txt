@@ -1,5 +1,16 @@
 # Neofort IMO — Imobiliare București
-# Actualizat: 2026-06-30
+
+> Dezvoltator rezidențial din București din 2009. Apartamente noi în ansambluri rezidențiale, direct de la sursă, fără comision. 12 ansambluri active, 76+ livrate. Actualizat: 2026-07-02.
+
+## Pagini principale
+- [Ansambluri rezidențiale active](https://www.neofort.ro/ansambluri-rezidentiale): toate ansamblurile în vânzare
+- [Zone](https://www.neofort.ro/zona): ansambluri pe zone și sectoare
+- [Portofoliu](https://www.neofort.ro/portofoliu): ansambluri finalizate și vândute
+- [Blog](https://www.neofort.ro/blog): ghiduri, legislație și analize imobiliare
+- [Calculator credit ipotecar](https://www.neofort.ro/calculator-credit): estimare rată lunară
+- [Hartă ansambluri](https://www.neofort.ro/harta-ansambluri): toate proiectele pe hartă
+- [Contact](https://www.neofort.ro/contact): birou vânzări, telefon, program
+- [Despre Neofort IMO](https://www.neofort.ro/despre-noi): companie și experiență
 
 ## Companie
 Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 76+ ansambluri livrate. 12 ansambluri active în Sectoarele 2, 3 și 6.
@@ -17,7 +28,7 @@ Rating Google: 4.3/5 (107 recenzii)
 
 ## Ansambluri active la vânzare
 
-### Neofort 84 Titan Pallady — Titan-Pallady, Sector 3
+### [Neofort 84 Titan Pallady — Titan-Pallady, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-84-titan-pallady)
 Slug: neofort-84-titan-pallady
 Status: constructie
 Etaje: P+10
@@ -50,7 +61,7 @@ Puncte de interes:
 - mall: Kaufland Pantelimon — 6 min cu masina
 - medical: Campus Medical Regina Maria Titan — 8 min cu masina
 
-### Neofort 83 Titan Pallady — Titan-Pallady, Sector 3
+### [Neofort 83 Titan Pallady — Titan-Pallady, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-83-titan-pallady)
 Slug: neofort-83-titan-pallady
 Status: constructie
 Etaje: D+P+3E
@@ -79,7 +90,7 @@ Puncte de interes:
 - scoala: Waldorf Bucuresti / Spectrum School — 8 min cu masina
 - parc: Parcul Teilor — 8 min cu masina
 
-### Neofort 78 Mosilor-Eminescu — Mosilor-Eminescu, Sector 2
+### [Neofort 78 Mosilor-Eminescu — Mosilor-Eminescu, Sector 2](https://www.neofort.ro/ansamblu-rezidential/neofort-78-mosilor-eminescu)
 Slug: neofort-78-mosilor-eminescu
 Status: constructie
 Etaje: S+P+4ET+5R+6R+7R
@@ -108,7 +119,7 @@ Puncte de interes:
 - metrou: Metrou 8 Noiembrie (M1) — 7 min cu masina
 - metrou: Metrou Stefan cel Mare (M2) — 8 min cu masina
 
-### Neofort 76 Iuliu Maniu Metrou Pacii — Militari, Sector 6
+### [Neofort 76 Iuliu Maniu Metrou Pacii — Militari, Sector 6](https://www.neofort.ro/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii)
 Slug: neofort-76-iuliu-maniu-metrou-pacii
 Status: activ
 Etaje: S+P+7E+8/9Er
@@ -132,7 +143,7 @@ Puncte de interes:
 - mall: Militari Shopping Center — 7 min cu masina
 - parc: Parcul Liniei — 10 min cu masina
 
-### Neofort 56 Pallady Titan — Titan-Pallady, Sector 3
+### [Neofort 56 Pallady Titan — Titan-Pallady, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-56-pallady-titan-teclu)
 Slug: neofort-56-pallady-titan-teclu
 Status: activ
 Etaje: D+P+3E
@@ -158,7 +169,7 @@ Puncte de interes:
 - metrou: Metrou Anghel Saligny (M2) — 7 min cu masina
 - parc: Parcul IOR (Titan) — 7 min cu masina
 
-### Neofort 50 Titan Parc IOR — Titan-IOR, Sector 3
+### [Neofort 50 Titan Parc IOR — Titan-IOR, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-50-titan-parc-ior)
 Slug: neofort-50-titan-parc-ior
 Status: activ
 Etaje: 2S+P+5E-6/11R
@@ -185,7 +196,7 @@ Puncte de interes:
 - scoala: Waldorf Bucuresti / Spectrum School — 5 min cu masina
 - mall: Park Lake Plaza — 4 min cu masina
 
-### Neofort 49 Militari Metrou Gorjului — Militari, Sector 6
+### [Neofort 49 Militari Metrou Gorjului — Militari, Sector 6](https://www.neofort.ro/ansamblu-rezidential/neofort-49-militari-metrou-gorjului)
 Slug: neofort-49-militari-metrou-gorjului
 Status: constructie
 Etaje: S+P+3E
@@ -213,7 +224,7 @@ Puncte de interes:
 - metrou: Metrou Petrache Poenaru (M3) — 6 min cu masina
 - parc: Parcul Liniei — 5 min pe jos
 
-### Neofort 44 Titan Pallady Teclu — Titan-Pallady, Sector 3
+### [Neofort 44 Titan Pallady Teclu — Titan-Pallady, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-44-titan-pallady-teclu)
 Slug: neofort-44-titan-pallady-teclu
 Status: activ
 Etaje: Ds+3E+4Er
@@ -241,7 +252,7 @@ Puncte de interes:
 - metrou: Metrou Anghel Saligny (M2) — 7 min cu masina
 - parc: Parcul IOR (Titan) — 8 min cu masina
 
-### Neofort 42 Piata Muncii — Piata Muncii, Sector 3
+### [Neofort 42 Piata Muncii — Piata Muncii, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-42-piata-muncii)
 Slug: neofort-42-piata-muncii
 Status: activ
 Etaje: S+P+4
@@ -270,7 +281,7 @@ Puncte de interes:
 - parc: Parcul National — 18 min pe jos
 - scoala: Universitatea Hyperion — 2 min cu masina
 
-### Neofort 28 Titan Pallady Faza 2 — Titan-Pallady, Sector 3
+### [Neofort 28 Titan Pallady Faza 2 — Titan-Pallady, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-28-titan-pallady-faza-2)
 Slug: neofort-28-titan-pallady-faza-2
 Status: activ
 Etaje: D+P+4E
@@ -301,7 +312,7 @@ Puncte de interes:
 - parc: Parcul Teilor — 8 min cu mașina
 - scoala: Liceul Internațional ICHB / Spectrum School — 8 min cu mașina
 
-### Neofort 28 Titan Pallady — Titan-Pallady, Sector 3
+### [Neofort 28 Titan Pallady — Titan-Pallady, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-28-titan-pallady-teclu)
 Slug: neofort-28-titan-pallady-teclu
 Status: activ
 Etaje: D+P+4
@@ -334,7 +345,7 @@ Puncte de interes:
 - scoala: Waldorf Bucuresti / Spectrum School — 8 min cu masina
 - medical: Campus Medical Regina Maria Titan — 8 min cu masina
 
-### Neofort 11 Eminescu Viitorului — Eminescu-Viitorului, Sector 2
+### [Neofort 11 Eminescu Viitorului — Eminescu-Viitorului, Sector 2](https://www.neofort.ro/ansamblu-rezidential/neofort-11-eminescu-viitorului)
 Slug: neofort-11-eminescu-viitorului
 Status: constructie
 Etaje: S+P+4E+5R
@@ -367,49 +378,49 @@ Puncte de interes:
 - parc: Lacul Tei / Parcul Tei — 8 min cu masina
 
 ## Blog
-- Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire: https://www.neofort.ro/blog/neofort-10-colentina-fundeni-lansare
+- [Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire](https://www.neofort.ro/blog/neofort-10-colentina-fundeni-lansare)
   Un nou proiect Neofort IMO se pregătește de lansare în Colentina-Fundeni: garsoniere, studiouri, apartamente 2-4 camere ...
-- Legea Nordis: Efect de Bumerang pe Piață: https://www.neofort.ro/blog/legea-nordis-efect-bumerang-piata-imobiliara
+- [Legea Nordis: Efect de Bumerang pe Piață](https://www.neofort.ro/blog/legea-nordis-efect-bumerang-piata-imobiliara)
   Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tra...
-- Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie: https://www.neofort.ro/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi
+- [Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie](https://www.neofort.ro/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi)
   Ghid complet credit ipotecar 2026: IRCC 5,58%, calcule reale pe 4 scenarii, comparație bănci (BCR, BRD, Raiffeisen, ING,...
-- Gradul de Îndatorare 40%: Cum Calculezi și Maximizezi Creditul: https://www.neofort.ro/blog/gradul-de-indatorare-credit-ipotecar
+- [Gradul de Îndatorare 40%: Cum Calculezi și Maximizezi Creditul](https://www.neofort.ro/blog/gradul-de-indatorare-credit-ipotecar)
   Gradul de îndatorare 40% impus de BNR: formula exactă de calcul, ce datorii invizibile îți blochează creditul, 7 greșeli...
-- Apartamente Noi Titan–Pallady și Teclu 2026: https://www.neofort.ro/blog/apartamente-de-vanzare-titan-pallady-teclu
+- [Apartamente Noi Titan–Pallady și Teclu 2026](https://www.neofort.ro/blog/apartamente-de-vanzare-titan-pallady-teclu)
   Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansam...
-- Dotările unui Apartament de Închiriat în 2026: https://www.neofort.ro/blog/dotari-apartament-inchiriat
+- [Dotările unui Apartament de Închiriat în 2026](https://www.neofort.ro/blog/dotari-apartament-inchiriat)
   Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practi...
-- Cum Cumperi Apartament Nou de la Dezvoltator: https://www.neofort.ro/blog/ghid-cumparare-apartament-nou
+- [Cum Cumperi Apartament Nou de la Dezvoltator](https://www.neofort.ro/blog/ghid-cumparare-apartament-nou)
   Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de e...
-- Legea Chiriilor 2026: Ce Se Schimbă: https://www.neofort.ro/blog/lege-chirii-2026-proprietari-chiriasi
+- [Legea Chiriilor 2026: Ce Se Schimbă](https://www.neofort.ro/blog/lege-chirii-2026-proprietari-chiriasi)
   Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care...
-- Credit Ipotecar 2026: Dobânzi și Costuri Reale: https://www.neofort.ro/blog/credit-ipotecar-2026-dobanzi-conditii
+- [Credit Ipotecar 2026: Dobânzi și Costuri Reale](https://www.neofort.ro/blog/credit-ipotecar-2026-dobanzi-conditii)
   IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită î...
-- Zone București cu Potențial de Creștere 2027: https://www.neofort.ro/blog/zone-bucuresti-potential-crestere-2027
+- [Zone București cu Potențial de Creștere 2027](https://www.neofort.ro/blog/zone-bucuresti-potential-crestere-2027)
   Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională bazată pe date reale: cerere vs ofertă, prețuri actu...
-- Merită Apartament în Titan–Pallady în 2026?: https://www.neofort.ro/blog/merita-apartament-titan-pallady-2026
+- [Merită Apartament în Titan–Pallady în 2026?](https://www.neofort.ro/blog/merita-apartament-titan-pallady-2026)
   Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă cu prețuri reale, avantaje, dezava...
-- Promoții Apartamente Titan–Pallady 2026: https://www.neofort.ro/blog/apartamente-noi-titan-pallady-teclu-promotii-2026
+- [Promoții Apartamente Titan–Pallady 2026](https://www.neofort.ro/blog/apartamente-noi-titan-pallady-teclu-promotii-2026)
   Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Tipuri reale de reduc...
-- Top Ansambluri Rezidențiale București 2026: https://www.neofort.ro/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026
+- [Top Ansambluri Rezidențiale București 2026](https://www.neofort.ro/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026)
   Cum alegi corect un ansamblu rezidențial nou din București în 2026? Criterii de evaluare, zonele cu cel mai mare potenți...
-- E-Proprietatea 2026: Ghid Complet Impozitare: https://www.neofort.ro/blog/e-proprietatea-2026-noul-sistem-de-impozitare
+- [E-Proprietatea 2026: Ghid Complet Impozitare](https://www.neofort.ro/blog/e-proprietatea-2026-noul-sistem-de-impozitare)
   Ce este E-Proprietatea, cum schimbă impozitarea imobiliară din 2026 și ce înseamnă concret pentru proprietarii și cumpăr...
-- Prețuri Apartamente București 2026: Scad?: https://www.neofort.ro/blog/preturi-apartamente-bucuresti-2026
+- [Prețuri Apartamente București 2026: Scad?](https://www.neofort.ro/blog/preturi-apartamente-bucuresti-2026)
   Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe z...
-- TVA Apartamente Noi 2026: Cât Plătești Real: https://www.neofort.ro/blog/tva-apartamente-noi-2026
+- [TVA Apartamente Noi 2026: Cât Plătești Real](https://www.neofort.ro/blog/tva-apartamente-noi-2026)
   TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi p...
-- Titan–Pallady: Cea Mai Căutată Zonă Sector 3: https://www.neofort.ro/blog/titan-pallady-cea-mai-cautata-zona
+- [Titan–Pallady: Cea Mai Căutată Zonă Sector 3](https://www.neofort.ro/blog/titan-pallady-cea-mai-cautata-zona)
   De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri acces...
-- Programul Noua Casă 2026: Ghid Complet: https://www.neofort.ro/blog/noua-casa-2026-ghid-complet
+- [Programul Noua Casă 2026: Ghid Complet](https://www.neofort.ro/blog/noua-casa-2026-ghid-complet)
   Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci p...
-- Cumperi Apartament în București din Diasporă: https://www.neofort.ro/blog/cumparare-apartament-din-diaspora
+- [Cumperi Apartament în București din Diasporă](https://www.neofort.ro/blog/cumparare-apartament-din-diaspora)
   Ghid pentru românii din diasporă care vor să cumpere apartament în București: procuri notariale, transfer valută, aleger...
-- Apartament Nou vs. Vechi: Calculul Costurilor: https://www.neofort.ro/blog/apartament-nou-vs-vechi-calcul-real
+- [Apartament Nou vs. Vechi: Calculul Costurilor](https://www.neofort.ro/blog/apartament-nou-vs-vechi-calcul-real)
   Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, risc seism...
-- Predare la Cheie: Ce Conține și Ce Verifici: https://www.neofort.ro/blog/predare-la-cheie-ce-inseamna
+- [Predare la Cheie: Ce Conține și Ce Verifici](https://www.neofort.ro/blog/predare-la-cheie-ce-inseamna)
   Ce înseamnă predare la cheie la un apartament nou? Lista completă a finisajelor incluse, ce poate lipsi și checklist de ...
-- Randament la Închiriere pe Zone București 2026: https://www.neofort.ro/blog/randament-inchiriere-zone-bucuresti
+- [Randament la Închiriere pe Zone București 2026](https://www.neofort.ro/blog/randament-inchiriere-zone-bucuresti)
   Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca...
 
 ## FAQ — Întrebări frecvente despre Neofort IMO
@@ -449,12 +460,12 @@ Versiunea completă pentru RAG: https://www.neofort.ro/llms-full.txt
 
 ## Portofoliu finalizat (selecție)
 Neofort IMO a livrat 76+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:
-- Neofort 85 Herăstrău-Aviației — Sector 1 — vândut integral
-- Neofort 82 Titan Gura Putnei — Sector 3 — vândut integral
-- Neofort 81 Morarilor — Sector 2 — vândut integral
-- Neofort 80 Parcul Carol-Unirii — Sector 5 — vândut integral
-- Neofort 79 Popa Nan-Călărașilor — Sector 2 — vândut integral
-- Neofort 77 Petricani — Sector 2 — vândut integral
+- [Neofort 85 Herăstrău-Aviației — Sector 1](https://www.neofort.ro/ansamblu-rezidential/neofort-85-herastrau-aviatiei): vândut integral
+- [Neofort 82 Titan Gura Putnei — Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-82-titan-gura-putnei): vândut integral
+- [Neofort 81 Morarilor — Sector 2](https://www.neofort.ro/ansamblu-rezidential/neofort-81-morarilor): vândut integral
+- [Neofort 80 Parcul Carol-Unirii — Sector 5](https://www.neofort.ro/ansamblu-rezidential/neofort-80-parcul-carol-unirii): vândut integral
+- [Neofort 79 Popa Nan-Călărașilor — Sector 2](https://www.neofort.ro/ansamblu-rezidential/neofort-79-popa-nan-calarasilor): vândut integral
+- [Neofort 77 Petricani — Sector 2](https://www.neofort.ro/ansamblu-rezidential/neofort-77-petricani): vândut integral
 Lista completă: https://www.neofort.ro/portofoliu
 
 ## API

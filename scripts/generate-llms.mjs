@@ -48,7 +48,17 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Finalizat').length
   const NR_LIVRATE = NR_PORTOFOLIU + NR_FINALIZATE
 
-  let out = `# Neofort IMO — Imobiliare București\n# Actualizat: ${TODAY}\n\n`
+  let out = `# Neofort IMO — Imobiliare București\n\n`
+  out += `> Dezvoltator rezidențial din București din 2009. Apartamente noi în ansambluri rezidențiale, direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active, 76+ livrate. Actualizat: ${TODAY}.\n\n`
+  out += `## Pagini principale\n`
+  out += `- [Ansambluri rezidențiale active](${BASE}/ansambluri-rezidentiale): toate ansamblurile în vânzare\n`
+  out += `- [Zone](${BASE}/zona): ansambluri pe zone și sectoare\n`
+  out += `- [Portofoliu](${BASE}/portofoliu): ansambluri finalizate și vândute\n`
+  out += `- [Blog](${BASE}/blog): ghiduri, legislație și analize imobiliare\n`
+  out += `- [Calculator credit ipotecar](${BASE}/calculator-credit): estimare rată lunară\n`
+  out += `- [Hartă ansambluri](${BASE}/harta-ansambluri): toate proiectele pe hartă\n`
+  out += `- [Contact](${BASE}/contact): birou vânzări, telefon, program\n`
+  out += `- [Despre Neofort IMO](${BASE}/despre-noi): companie și experiență\n\n`
 
   out += `## Companie\n`
   out += `Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste ${ANI} ani de experiență și ${NR_LIVRATE}+ ansambluri livrate. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6.\n\n`
@@ -66,7 +76,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `## Ansambluri active la vânzare\n\n`
 
   for (const a of ANSAMBLURI_ACTIVE) {
-    out += `### ${a.nume} — ${a.zona}, ${a.sector}\n`
+    out += `### [${a.nume} — ${a.zona}, ${a.sector}](${BASE}/ansamblu-rezidential/${a.slug})\n`
     out += `Slug: ${a.slug}\n`
     out += `Status: ${a.status}\n`
     out += `Etaje: ${a.etaje}\n`
@@ -103,7 +113,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
 
   out += `## Blog\n`
   for (const art of ARTICOLE_LIST) {
-    out += `- ${art.titlu}: ${BASE}/blog/${art.slug}\n`
+    out += `- [${art.titlu}](${BASE}/blog/${art.slug})\n`
     if (art.rezumat) out += `  ${art.rezumat.substring(0, 120)}...\n`
   }
   out += `\n`
@@ -137,7 +147,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `Neofort IMO a livrat ${NR_LIVRATE}+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:\n`
   const sample = TOATE_PORTOFOLIU.slice(0, 6)
   for (const p of sample) {
-    out += `- ${p.nume} — ${p.sector} — vândut integral\n`
+    out += `- [${p.nume} — ${p.sector}](${BASE}/ansamblu-rezidential/${p.slug}): vândut integral\n`
   }
   out += `Lista completă: ${BASE}/portofoliu\n\n`
 
@@ -154,7 +164,8 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Finalizat').length
   const NR_LIVRATE = NR_PORTOFOLIU + NR_FINALIZATE
 
-  let out = `# Neofort IMO — Imobiliare București (VERSIUNE COMPLETA)\n# Actualizat: ${TODAY}\n# Versiune: llms-full.txt (date complete pentru sisteme AI/RAG)\n\n`
+  let out = `# Neofort IMO — Imobiliare București (versiune completă)\n\n`
+  out += `> Versiune completă pentru sisteme AI/RAG cu date detaliate despre toate ansamblurile. Actualizat: ${TODAY}.\n\n`
 
   out += `## Companie\n`
   out += `Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste ${ANI} ani de experiență și ${NR_LIVRATE}+ ansambluri livrate. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6.\n\n`
@@ -179,7 +190,7 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   out += `## Ansambluri active la vânzare\n\n`
 
   for (const a of ANSAMBLURI_ACTIVE) {
-    out += `### ${a.nume} — ${a.zona}, ${a.sector}\n`
+    out += `### [${a.nume} — ${a.zona}, ${a.sector}](${BASE}/ansamblu-rezidential/${a.slug})\n`
     out += `Slug: ${a.slug}\n`
     out += `Status: ${statusLabel(a.dataPredare)}\n`
     out += `Etaje: ${a.etaje}\n`
