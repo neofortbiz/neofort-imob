@@ -145,6 +145,40 @@ export default function AnsambluPage({ params }) {
     },
   }
 
+  // Schema.org ApartmentComplex — descrie ansamblul ca entitate fizica rezidentiala
+  // (complementar cu RealEstateListing, care descrie oferta). Ajuta Google sa inteleaga
+  // proiectul ca un complex de apartamente, nu doar ca o listare.
+  const apartmentComplexSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ApartmentComplex',
+    '@id': `${BASE}/ansamblu-rezidential/${a.slug}#complex`,
+    name: a.nume,
+    url: `${BASE}/ansamblu-rezidential/${a.slug}`,
+    description: a.descriereCompleta || a.descriere,
+    image: a.imagini?.cover ? `${BASE}${a.imagini.cover}` : `${BASE}/og-ansambluri/${a.slug === 'neofort-28-titan-pallady-faza-2' ? 'neo-28f2' : 'neo-' + a.numar}.jpg`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'București',
+      addressRegion: a.sector,
+      addressCountry: 'RO',
+      streetAddress: a.adresa,
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: a.coordonate.lat,
+      longitude: a.coordonate.lng,
+    },
+    amenityFeature: (a.dotari || []).slice(0, 12).map(d => ({
+      '@type': 'LocationFeatureSpecification',
+      name: d,
+      value: true,
+    })),
+    containedInPlace: {
+      '@type': 'Place',
+      name: `${a.zona}, ${a.sector}, București`,
+    },
+  }
+
   // Schema.org FAQPage
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -224,6 +258,7 @@ export default function AnsambluPage({ params }) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(realEstateSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(apartmentComplexSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/ansambluri-rezidentiale" />

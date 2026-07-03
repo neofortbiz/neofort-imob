@@ -1,5 +1,5 @@
 import HomePageClient from './HomePage'
-import { NR_ACTIVE } from '@/data/siteConfig'
+import { NR_ACTIVE, NR_LIVRATE, NR_FAMILII, ANI_EXPERIENTA } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -22,8 +22,6 @@ const webPageSchema = {
 
 // FAQPage pe homepage — intrebari frecvente despre companie
 // Mutat din layout.js pentru a evita emiterea pe toate paginile
-import { NR_LIVRATE, NR_FAMILII, ANI_EXPERIENTA } from '@/data/siteConfig'
-
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
