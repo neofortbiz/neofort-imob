@@ -2151,7 +2151,7 @@ Prețuri actuale: 2.000-2.800 EUR/mp pentru apartamente noi — sub nivelul Flor
 
 Estimare 2027: +15-22% față de mai 2026. La un apartament de 2 camere cumpărat acum la 180.000 EUR, aprecierea estimată în 2 ani: 27.000-40.000 EUR — plus randamentul din chirie de 2.500-3.200 lei/lună.
 
-Proiectele Neofort în zonă: Neofort 78 (Moșilor-Eminescu) și Neofort 11 (Eminescu-Viitorului) sunt poziționate exact în nucleul acestei creșteri. Prețurile actuale reflectă un discount față de potențialul pe termen mediu.`,
+Proiectele Neofort în zonă: [Neofort 78](/ansamblu-rezidential/neofort-78-mosilor-eminescu) (Moșilor-Eminescu) și [Neofort 11](/ansamblu-rezidential/neofort-11-eminescu-viitorului) (Eminescu-Viitorului) sunt poziționate exact în nucleul acestei creșteri. Prețurile actuale reflectă un discount față de potențialul pe termen mediu.`,
       },
       {
         id: 'piata-muncii',
@@ -2439,7 +2439,7 @@ Finanțarea realistă. Calculul trebuie să includă: prețul apartamentului + T
 Prețul de start este 62.114 EUR (TVA exclus) pentru un apartament de 2 camere la [Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady) cu avans 45%, sau 64.800 EUR pentru o garsonieră la [Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) cu avans 20%. Sunt cele mai accesibile prețuri pentru apartamente noi cu acces la metrou din București.
 
 Care ansamblu din Titan–Pallady are cel mai bun acces la metrou?
-Neofort 83 are Metroul Anghel Saligny (M2) la 20 de metri — cel mai scurt acces la metrou din întreg portofoliul Neofort activ. Neofort 84 are Metroul Nicolae Teclu la 11 minute pe jos. Ambele sunt conectate la linia M2 care ajunge în centrul Bucureștiului în 6-8 minute.
+[Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) are Metroul Anghel Saligny (M2) la 20 de metri — cel mai scurt acces la metrou din întreg portofoliul Neofort activ. Neofort 84 are Metroul Nicolae Teclu la 11 minute pe jos. Ambele sunt conectate la linia M2 care ajunge în centrul Bucureștiului în 6-8 minute.
 
 Titan–Pallady este potrivit pentru prima locuință sau pentru investiție?
 Este potrivit pentru ambele. Pentru prima locuință: prețuri accesibile, metrou, infrastructură matură. Pentru investiție: randament brut 4,1% și apreciere capital +95% din 2020. Citește și [analiza completă a randamentului pe zone](/blog/randament-inchiriere-zone-bucuresti).
@@ -2509,8 +2509,8 @@ Acesta este cel mai frecvent mecanism de „promoție" la apartamentele noi. Dev
 • Prețul cu avans 20% (plata majoritații la predare, compatibil cu creditul bancar): prețul standard
 
 Exemple reale din portofoliul Neofort IMO (mai 2026):
-Neofort 84 — 2 camere 47,78 mp: avans 45% = 62.114 EUR+TVA vs avans 20% = 66.892 EUR+TVA (diferență: 7,7%)
-Neofort 42 — 2 camere: avans 45% de la 98.736 EUR+TVA vs avans 20% de la 110.880 EUR+TVA (diferență: 11%)
+[Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady) — 2 camere 47,78 mp: avans 45% = 62.114 EUR+TVA vs avans 20% = 66.892 EUR+TVA (diferență: 7,7%)
+Neofort 42 — 2 camere: avans 45% de la 98.736 EUR+TVA vs avans 20% de la 110.880 EUR+TVA (diferență: 11%)\n[Neofort 56](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) Titan-Pallady (Teclu) — apartamente în promoție de la 235.208 EUR+TVA\n[Neofort 28](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) Titan-Pallady (Teclu) — 2-3 camere în promoție de la 83.900 EUR+TVA
 
 Tipul 2 — Prețuri de pre-lansare sau faza 1 de construcție
 Când un developer lansează un proiect nou sau o nouă fază, primele 20–30% din apartamente sunt oferite la un preț de pre-lansare cu 10–15% sub prețul final estimat. Această reducere compensează riscul asumat de cumpărător (timp de așteptare 18–30 luni, incertitudinea construcției).
@@ -2620,7 +2620,7 @@ Promoțiile disponibile: avans 45% cu discount 8–12%, TVA 9% inclusiv, pachete
 
 Apartamentele de 2 camere cu terase generoase (50–90 mp terasă)
 Tipologie rară, cu prime de 15–25% față de apartamentele fără terasă. Dar aceeași raritate face ca developer-ii să ofere prețuri promoționale pentru a stimula vânzarea — mai ales la etajele superioare unde prețul total poate fi peste bugetul cumpărătorilor tipici.
-Exemplu real: Neofort 50 are 2 camere cu terasă de 87,20 mp la preț promoțional 176.900 EUR+TVA față de prețul standard de 196.260 EUR+TVA.
+Exemplu real: [Neofort 50](/ansamblu-rezidential/neofort-50-titan-parc-ior) are 2 camere cu terasă de 87,20 mp la preț promoțional 176.900 EUR+TVA față de prețul standard de 196.260 EUR+TVA.
 
 Apartamentele de 3 camere în faza de construcție (nu finalizate)
 Cel mai bun raport preț/suprafață se găsește la 3 camere în proiecte cu predare în 12–18 luni. Avansul 45% la 3 camere de 80–90 mp poate aduce prețul total sub 170.000 EUR+TVA în zona Pallady Est — echivalentul unor 3 camere vechi de bloc în aceeași zonă, dar cu toate avantajele construcției noi.
@@ -3010,7 +3010,7 @@ Avantajul clasei energetice: apartamentele noi construite după normele din 2021
 
 Predictibilitate fiscală completă: față de apartamentele vechi, unde impozitul variază în funcție de reevaluări și starea clădirii, apartamentele noi au o bază de calcul clară și stabilă pe termen lung.
 
-Comparație practică: dacă achiziționezi un apartament de 2 camere la Neofort 42 Piața Muncii la 150.000 EUR ca locuință principală, impozitul estimat este de 670-750 lei/an — adică 56-62 lei/lună. Pe fondul ratei lunare la bancă de 600-900 EUR, impozitul reprezintă sub 3% din costul total lunar.
+Comparație practică: dacă achiziționezi un apartament de 2 camere la [Neofort 42](/ansamblu-rezidential/neofort-42-piata-muncii) Piața Muncii la 150.000 EUR ca locuință principală, impozitul estimat este de 670-750 lei/an — adică 56-62 lei/lună. Pe fondul ratei lunare la bancă de 600-900 EUR, impozitul reprezintă sub 3% din costul total lunar.
 
 Din perspectiva consultanților noștri care discută zilnic cu cumpărători: E-Proprietatea a creat inițial îngrijorare nejustificată. Când oamenii văd cifrele reale, îngrijorarea dispare complet. Impozitele rămân cu mult sub media europeană chiar și după reformă.
 
