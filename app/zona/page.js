@@ -29,6 +29,17 @@ function getZone() {
   return Object.values(map).sort((a, b) => b.ansambluri.length - a.ansambluri.length)
 }
 
+// Sectoare — pentru internal linking catre /zona/sector-X (altfel orfane, doar in sitemap)
+function getSectoare() {
+  const set = new Set()
+  ANSAMBLURI_ACTIVE.forEach(a => (a.zone || []).filter(z => z.startsWith('sector-')).forEach(z => set.add(z)))
+  return [...set].sort().map(slug => ({
+    slug,
+    nume: 'Sector ' + slug.split('-')[1],
+    count: ANSAMBLURI_ACTIVE.filter(a => (a.zone || []).includes(slug)).length,
+  }))
+}
+
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -40,6 +51,7 @@ const breadcrumbSchema = {
 
 export default function ZonePage() {
   const zone = getZone()
+  const sectoare = getSectoare()
 
   return (
     <>
@@ -92,6 +104,23 @@ export default function ZonePage() {
             ))}
           </div>
         </section>
+
+        {sectoare.length > 0 && (
+          <section className="pb-12 px-6">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-sm font-medium text-gray-900 mb-4">Ansambluri rezidențiale pe sector</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                {sectoare.map(s => (
+                  <Link key={s.slug} href={`/zona/${s.slug}`}
+                    className="group bg-white rounded-xl border border-gray-100 p-4 hover:shadow-md transition-all hover:border-green-200 flex items-center justify-between">
+                    <span className="text-sm font-medium text-gray-900 group-hover:text-green-700 transition-colors">Ansambluri Rezidențiale {s.nume}</span>
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium flex-shrink-0">{s.count}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
       </main>
       <Footer />
     </>

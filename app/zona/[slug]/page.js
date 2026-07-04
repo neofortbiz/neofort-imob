@@ -16,20 +16,30 @@ const SECTOR_NAMES = {
   'sector-6': { nume: 'Sector 6', sector: 'Sector 6', descriere: 'Ansambluri rezidențiale noi în Sectorul 6 București.' },
 }
 
+// slug din numele zonei (ex. 'Eminescu-Viitorului' -> 'eminescu-viitorului')
+function slugZona(zona) {
+  return zona.toLowerCase().replace(/\s+/g, '-')
+}
+
 function getZoneConfig() {
   const config = {}
+  const exact = {}
   ANSAMBLURI_ACTIVE.forEach(a => {
     const zoneList = a.zone || []
     zoneList.forEach(z => {
-      if (!config[z]) {
-        if (SECTOR_NAMES[z]) {
-          config[z] = SECTOR_NAMES[z]
-        } else {
+      if (SECTOR_NAMES[z]) {
+        if (!config[z]) config[z] = SECTOR_NAMES[z]
+      } else {
+        // Prefera ansamblul al carui nume de zona se potriveste EXACT cu slug-ul,
+        // ca /zona/eminescu-viitorului sa nu preia numele altui ansamblu cross-listat.
+        const isExact = slugZona(a.zona) === z
+        if (!config[z] || (isExact && !exact[z])) {
           config[z] = {
             nume: a.zona,
             sector: a.sector,
             descriere: `Ansambluri rezidențiale în zona ${a.zona}, ${a.sector}, București.`,
           }
+          if (isExact) exact[z] = true
         }
       }
     })
@@ -48,13 +58,19 @@ export function generateMetadata({ params }) {
   if (!z) return {}
   const ansambluri = ANSAMBLURI_ACTIVE.filter(a => a.zone && a.zone.includes(params.slug))
   const url = `${BASE}/zona/${params.slug}`
+  // Sectoarele au nume === sector (ex. 'Sector 3') -> evitam dublura 'Sector 3, Sector 3'
+  const isSector = params.slug.startsWith('sector-')
+  const titleLoc = isSector ? `${z.nume}, București` : `${z.nume}, ${z.sector}`
+  const descLoc = isSector ? `${z.nume}, București` : `zona ${z.nume}, ${z.sector} București`
+  const ogLoc = isSector ? `${z.nume}, București` : `${z.nume}, ${z.sector} București`
+  const pretMin = ansambluri.length > 0 ? new Intl.NumberFormat('ro-RO').format(Math.min(...ansambluri.map(a => a.pretDeLa))) : ''
   return {
-    title: `Ansambluri Rezidențiale ${z.nume}, ${z.sector}`,
-    description: `${ansambluri.length} ansambluri rezidențiale Neofort IMO în zona ${z.nume}, ${z.sector} București. Apartamente noi de la ${ansambluri.length > 0 ? new Intl.NumberFormat('ro-RO').format(Math.min(...ansambluri.map(a => a.pretDeLa))) : ''}€+TVA, direct de la sursă, fără comision.`,
+    title: `Ansambluri Rezidențiale ${titleLoc}`,
+    description: `${ansambluri.length} ansambluri rezidențiale Neofort IMO în ${descLoc}. Apartamente noi de la ${pretMin}€+TVA, direct de la sursă, fără comision.`,
     alternates: { canonical: url },
     openGraph: {
       title: `Ansambluri Rezidențiale ${z.nume} | Neofort IMO`,
-      description: `${ansambluri.length} ansambluri Neofort IMO disponibile în ${z.nume}, ${z.sector} București.`,
+      description: `${ansambluri.length} ansambluri Neofort IMO disponibile în ${ogLoc}.`,
       url,
       type: 'website',
       locale: 'ro_RO',
@@ -62,7 +78,7 @@ export function generateMetadata({ params }) {
     twitter: {
       card: 'summary_large_image',
       title: `Ansambluri Rezidențiale ${z.nume} | Neofort IMO`,
-      description: `${ansambluri.length} ansambluri Neofort IMO în ${z.nume}, ${z.sector} București. Apartamente noi de la ${ansambluri.length > 0 ? new Intl.NumberFormat('ro-RO').format(Math.min(...ansambluri.map(a => a.pretDeLa))) : ''}€+TVA, fără comision.`,
+      description: `${ansambluri.length} ansambluri Neofort IMO în ${ogLoc}. Apartamente noi de la ${pretMin}€+TVA, fără comision.`,
       images: [`${BASE}/og-zone.jpg`],
     },
   }
