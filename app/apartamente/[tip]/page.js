@@ -50,7 +50,7 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
   'apartamente-2-camere-bucuresti': {
     h1: 'Apartamente 2 Camere Noi în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 2 camere în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
-    seoTitle: 'Apartamente 2 Camere în Ansambluri Rezidențiale',
+    seoTitle: 'Apartamente 2 Camere, Ansambluri Rezidențiale',
     seoDesc: `Apartamente 2 camere noi în București de la 62.114€+TVA. Neofort IMO: ${ANSAMBLURI_ACTIVE.length} ansambluri active în Sectoarele 2, 3, 6. Direct de la sursă, fără comision.`,
     ogDesc: 'Apartamente 2 camere noi în București. Direct de la Neofort IMO, fără comision de agenție.',
     match: (tipuri) => tipuri.some(t => {
@@ -89,7 +89,7 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
   'apartamente-3-camere-bucuresti': {
     h1: 'Apartamente 3 Camere Noi în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 3 camere în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
-    seoTitle: 'Apartamente 3 Camere în Ansambluri Rezidențiale',
+    seoTitle: 'Apartamente 3 Camere, Ansambluri Rezidențiale',
     seoDesc: 'Apartamente 3 camere noi în București de la 102.167€+TVA. Neofort IMO: ansambluri active Sectoarele 2, 3, 6. Finisaje complete, direct de la sursă.',
     ogDesc: 'Apartamente 3 camere noi în București. Direct de la Neofort IMO, fără comision de agenție.',
     match: (tipuri) => tipuri.some(t => {
@@ -128,7 +128,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
   'apartamente-4-camere-bucuresti': {
     h1: 'Apartamente 4 Camere și Penthouse în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 4 camere și penthouse în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
-    seoTitle: 'Apartamente 4 Camere în Ansambluri Rezidențiale',
+    seoTitle: 'Apartamente 4 Camere, Ansambluri Rezidențiale',
     seoDesc: 'Apartamente 4 camere și penthouse noi în București de la 150.945€+TVA. Neofort IMO, Sectoarele 2, 3, 6. Terase panoramice, finisaje premium.',
     ogDesc: 'Apartamente 4 camere și penthouse noi în București. Neofort IMO, direct de la sursă.',
     match: (tipuri) => tipuri.some(t => {
