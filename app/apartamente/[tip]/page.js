@@ -48,9 +48,9 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
   },
 
   'apartamente-2-camere-bucuresti': {
-    h1: 'Apartamente 2 Camere Noi în București',
+    h1: 'Apartamente 2 Camere Noi în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 2 camere în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
-    seoTitle: 'Apartamente 2 Camere Noi București 2026',
+    seoTitle: 'Apartamente 2 Camere în Ansambluri Rezidențiale',
     seoDesc: `Apartamente 2 camere noi în București de la 62.114€+TVA. Neofort IMO: ${ANSAMBLURI_ACTIVE.length} ansambluri active în Sectoarele 2, 3, 6. Direct de la sursă, fără comision.`,
     ogDesc: 'Apartamente 2 camere noi în București. Direct de la Neofort IMO, fără comision de agenție.',
     match: (tipuri) => tipuri.some(t => {
@@ -87,9 +87,9 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
   },
 
   'apartamente-3-camere-bucuresti': {
-    h1: 'Apartamente 3 Camere Noi în București',
+    h1: 'Apartamente 3 Camere Noi în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 3 camere în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
-    seoTitle: 'Apartamente 3 Camere Noi București 2026',
+    seoTitle: 'Apartamente 3 Camere în Ansambluri Rezidențiale',
     seoDesc: 'Apartamente 3 camere noi în București de la 102.167€+TVA. Neofort IMO: ansambluri active Sectoarele 2, 3, 6. Finisaje complete, direct de la sursă.',
     ogDesc: 'Apartamente 3 camere noi în București. Direct de la Neofort IMO, fără comision de agenție.',
     match: (tipuri) => tipuri.some(t => {
@@ -126,9 +126,9 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
   },
 
   'apartamente-4-camere-bucuresti': {
-    h1: 'Apartamente 4 Camere și Penthouse Noi în București',
+    h1: 'Apartamente 4 Camere și Penthouse în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 4 camere și penthouse în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
-    seoTitle: 'Apartamente 4 Camere Noi București 2026',
+    seoTitle: 'Apartamente 4 Camere în Ansambluri Rezidențiale',
     seoDesc: 'Apartamente 4 camere și penthouse noi în București de la 150.945€+TVA. Neofort IMO, Sectoarele 2, 3, 6. Terase panoramice, finisaje premium.',
     ogDesc: 'Apartamente 4 camere și penthouse noi în București. Neofort IMO, direct de la sursă.',
     match: (tipuri) => tipuri.some(t => {
@@ -166,9 +166,9 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
   },
 
   'apartamente-noi-cu-metrou-bucuresti': {
-    h1: 'Apartamente Noi cu Metrou în București',
+    h1: 'Ansambluri Rezidențiale cu Metrou în București',
     descriere: 'Apartamente noi lângă metrou în București, în toate sectoarele active. Direct de la Neofort IMO, fără comision.',
-    seoTitle: 'Apartamente Noi cu Metrou București 2026',
+    seoTitle: 'Ansambluri Rezidențiale cu Metrou București',
     seoDesc: 'Apartamente noi lângă metrou în București: M2 Titan-Pallady (20m–11min), M2 Obor (400m), M3 Militari, M3 Gorjului. Neofort IMO, fără comision.',
     ogDesc: 'Apartamente noi lângă metrou în București. Direct de la Neofort IMO, fără comision.',
     match: (tipuri, ansamblu) => ansamblu.puncteInteres?.some(p => p.tip === 'metrou'),
@@ -202,9 +202,9 @@ Toate informațiile despre distanțele exacte față de metrou sunt verificate �
   },
 
   'apartamente-noi-finalizate-bucuresti': {
-    h1: 'Apartamente Noi Finalizate în București — Disponibile Imediat',
+    h1: 'Ansambluri Rezidențiale Finalizate în București — Disponibile Imediat',
     descriere: 'Apartamente noi finalizate, disponibile imediat în București. Direct de la Neofort IMO, fără comision.',
-    seoTitle: 'Apartamente Noi Finalizate București 2026',
+    seoTitle: 'Ansambluri Rezidențiale Finalizate București',
     seoDesc: 'Apartamente noi finalizate disponibile imediat în București: Neofort 76, 56, 50, 8. De la 76.974€+TVA. Direct de la sursă, fără comision.',
     ogDesc: 'Apartamente noi finalizate, disponibile imediat în București. Neofort IMO, fără comision.',
     match: (tipuri, ansamblu) => ansamblu.dataPredare === 'Finalizat',
