@@ -54,6 +54,14 @@ const nextConfig = {
         ],
       },
       {
+        // Imaginile .jpg din blog nu erau acoperite de nicio regula de cache
+        // (regula de mai sus prinde doar .avif) -> se re-transfereau de la origine.
+        source: '/blog/(.*)\\.jpg',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+        ],
+      },
+      {
         source: '/og-(.*)\\.jpg',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=2592000, immutable' },
