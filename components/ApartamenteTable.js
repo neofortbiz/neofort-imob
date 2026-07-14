@@ -2,6 +2,13 @@
 import { useState } from 'react'
 
 const TEL_GENERAL = '0758090904'
+
+// Eticheta pentru suprafata suplimentara (terasa / curte)
+const EXTRA_LABEL = { terasa: 'terasă', teren: 'curte' }
+const fmtSuprafata = (apt) =>
+  apt.suprafataExtra
+    ? `${apt.suprafata} mp + ${EXTRA_LABEL[apt.tipExtra] || apt.tipExtra} ${apt.suprafataExtra} mp`
+    : `${apt.suprafata} mp`
 const TEL_GENERAL_DISPLAY = '0758 090 904'
 
 export default function ApartamenteTable({ apartamente, parcare, ansambluNume, brokerTel }) {
@@ -59,7 +66,7 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
                   <span className="text-[9px] px-1.5 py-0.5 rounded" style={{ background: '#f5f5f5', color: '#999' }}>EPUIZAT</span>
                 )}
               </div>
-              <span className="text-xs text-gray-500 flex-shrink-0">{apt.suprafata} mp</span>
+              <span className="text-xs text-gray-500 flex-shrink-0">{fmtSuprafata(apt)}</span>
             </div>
             {/* LINIA 2: Pret + buton */}
             <div className="flex items-start justify-between gap-2 flex-wrap">
@@ -134,7 +141,7 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
           <div className="bg-white rounded-2xl p-6 w-full max-w-sm shadow-xl"
             onClick={e => e.stopPropagation()}>
             <h3 className="text-base font-medium text-gray-900 mb-1">{selectedApt.tip}</h3>
-            <p className="text-xs text-gray-500 mb-4">{selectedApt.suprafata} mp · {ansambluNume}</p>
+            <p className="text-xs text-gray-500 mb-4">{fmtSuprafata(selectedApt)} · {ansambluNume}</p>
             <div className="space-y-2">
               <a href={`tel:${telRaw}`}
                 className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-medium text-white"
@@ -142,7 +149,7 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 10.8 19.79 19.79 0 01.86 2.18 2 2 0 012.83 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l.98-.97a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
                 Sună: {telDisplay}
               </a>
-              <a href={`https://wa.me/${waNum}?text=${encodeURIComponent(`Bună ziua! Sunt interesat de ${selectedApt?.tip} (${selectedApt?.suprafata} mp) din ${ansambluNume}. Vă rog să mă contactați cu detalii și disponibilitate.`)}`}
+              <a href={`https://wa.me/${waNum}?text=${encodeURIComponent(`Bună ziua! Sunt interesat de ${selectedApt?.tip} (${selectedApt ? fmtSuprafata(selectedApt) : ''}) din ${ansambluNume}. Vă rog să mă contactați cu detalii și disponibilitate.`)}`}
                 target="_blank" rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-medium border border-green-200 text-green-700 bg-green-50 hover:bg-green-100 transition-colors">
                 WhatsApp
