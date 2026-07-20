@@ -30,6 +30,16 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
         body: JSON.stringify({ nume: form.nume, telefon: form.telefon, email: form.email, mesaj: form.mesaj, ansamblu: ansambluNume, tip: 'rapid' }),
       })
       if (res.ok) {
+        // Eveniment conversie GA4/GTM (dataLayer exista deja; ?. = sigur daca GTM e blocat)
+        if (typeof window !== 'undefined') {
+          window.dataLayer = window.dataLayer || []
+          window.dataLayer.push({
+            event: 'generate_lead',
+            form_type: 'rapid',
+            ansamblu: ansambluNume || '(general)',
+            page_path: window.location.pathname,
+          })
+        }
         setStatus('success')
         setForm({ nume: '', telefon: '', email: '', mesaj: '', _hp: '' })
       } else {
@@ -56,6 +66,7 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
           <input
             name="nume"
             type="text"
+            autoComplete="name"
             value={form.nume}
             onChange={handleChange}
             placeholder="Nume *"
@@ -64,7 +75,9 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
           />
           <input
             name="telefon"
-            type="text"
+            type="tel"
+            inputMode="tel"
+            autoComplete="tel"
             value={form.telefon}
             onChange={handleChange}
             placeholder="Telefon *"
@@ -74,6 +87,7 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
           <input
             name="email"
             type="email"
+            autoComplete="email"
             value={form.email}
             onChange={handleChange}
             placeholder="Email (opțional)"

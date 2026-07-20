@@ -25,6 +25,18 @@ export default function FormularCalificat() {
         body: JSON.stringify({ nume: form.nume, telefon: form.telefon, email: form.email, finantare: form.finantare, tipImobil: form.tipImobil, camere: form.camere, buget: form.buget, zona: form.zona, mesaj: form.mesaj, tip: 'calificat' }),
       })
       if (res.ok) {
+        // Eveniment conversie GA4/GTM
+        if (typeof window !== 'undefined') {
+          window.dataLayer = window.dataLayer || []
+          window.dataLayer.push({
+            event: 'generate_lead',
+            form_type: 'calificat',
+            zona: form.zona || '(nespecificat)',
+            camere: form.camere || '(nespecificat)',
+            buget: form.buget || '(nespecificat)',
+            page_path: window.location.pathname,
+          })
+        }
         setStatus('success')
         setForm({ nume: '', telefon: '', email: '', finantare: '', tipImobil: '', camere: '', buget: '', zona: '', mesaj: '' })
       } else {
@@ -53,12 +65,12 @@ export default function FormularCalificat() {
     <form onSubmit={handleSubmit} className="form-dark">
       {/* Rând 1: Nume + Telefon */}
       <div className="grid grid-cols-2 gap-2 mb-2">
-        <input name="nume" type="text" value={form.nume} onChange={handleChange} placeholder="Nume *" required className={inputCls} style={{ color: 'white' }} />
-        <input name="telefon" type="text" value={form.telefon} onChange={handleChange} placeholder="Telefon *" required className={inputCls} />
+        <input name="nume" type="text" autoComplete="name" value={form.nume} onChange={handleChange} placeholder="Nume *" required className={inputCls} style={{ color: 'white' }} />
+        <input name="telefon" type="tel" inputMode="tel" autoComplete="tel" value={form.telefon} onChange={handleChange} placeholder="Telefon *" required className={inputCls} />
       </div>
       {/* Rând 2: Email + Finanțare */}
       <div className="grid grid-cols-2 gap-2 mb-2">
-        <input name="email" type="email" value={form.email} onChange={handleChange} placeholder="Email *" required className={inputCls} />
+        <input name="email" type="email" autoComplete="email" value={form.email} onChange={handleChange} placeholder="Email *" required className={inputCls} />
         <label className="sr-only" htmlFor="form-finantare">Finanțare</label><select id="form-finantare" name="finantare" value={form.finantare} onChange={handleChange} className={selectCls} style={{ color: form.finantare ? 'white' : 'rgba(255,255,255,0.65)' }}>
           <option value="" disabled>Finanțare</option>
           <option value="surse-proprii" style={{ color: '#111' }}>Surse proprii</option>

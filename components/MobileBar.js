@@ -3,6 +3,15 @@ import { usePathname } from 'next/navigation'
 import { getAnsamblu } from '@/data/ansambluri'
 
 const TEL_GENERAL = '0758090904'
+
+// Eveniment GTM/GA4 pentru click pe CTA de contact (fara scripturi noi, doar dataLayer existent)
+function trackContact(method, path) {
+  if (typeof window === 'undefined') return
+  const m = path?.match(/ansamblu-rezidential\/([^/]+)/)
+  window.dataLayer = window.dataLayer || []
+  window.dataLayer.push({ event: 'contact_click', method, source: 'mobilebar', ansamblu: m ? m[1] : '(general)', page_path: path || '' })
+}
+
 const EMAIL = 'lead.neo@neofort-biz.ro'
 
 function getContactInfo(pathname) {
@@ -37,14 +46,14 @@ export default function MobileBar() {
       <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden"
         style={{ background: 'white', borderTop: '1px solid #e5e7eb', paddingBottom: 'env(safe-area-inset-bottom)' }}>
         <div className="grid grid-cols-4">
-          <a href={`tel:${tel}`}
+          <a href={`tel:${tel}`} onClick={() => trackContact('tel', pathname)}
             className="flex flex-col items-center justify-center py-2 gap-1 active:bg-gray-50">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565c0" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 10.8 19.79 19.79 0 01.86 2.18 2 2 0 012.83 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l.98-.97a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
             </svg>
             <span className="text-[11px] font-medium" style={{ color: '#1565c0' }}>Sună</span>
           </a>
-          <a href={waLink} target="_blank" rel="noopener noreferrer"
+          <a href={waLink} target="_blank" rel="noopener noreferrer" onClick={() => trackContact('whatsapp', pathname)}
             className="flex flex-col items-center justify-center py-2 gap-1 active:bg-gray-50"
             style={{ borderLeft: '1px solid #e5e7eb', borderRight: '1px solid #e5e7eb' }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="#25a244">
@@ -52,7 +61,7 @@ export default function MobileBar() {
             </svg>
             <span className="text-[11px] font-medium" style={{ color: '#1a7a32' }}>WhatsApp</span>
           </a>
-          <a href={emailLink}
+          <a href={emailLink} onClick={() => trackContact('email', pathname)}
             className="flex flex-col items-center justify-center py-2 gap-1 active:bg-gray-50"
             style={{ borderRight: '1px solid #e5e7eb' }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c8922a" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

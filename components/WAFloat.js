@@ -4,6 +4,15 @@ import { getAnsamblu } from '@/data/ansambluri'
 
 const WA_GENERAL = 'https://wa.me/40758090904'
 
+// Eveniment GTM/GA4 pentru click pe CTA de contact (doar dataLayer existent, fara scripturi noi)
+function trackContact(method, path, source) {
+  if (typeof window === 'undefined') return
+  const m = path?.match(/ansamblu-rezidential\/([^/]+)/)
+  window.dataLayer = window.dataLayer || []
+  window.dataLayer.push({ event: 'contact_click', method, source, ansamblu: m ? m[1] : '(general)', page_path: path || '' })
+}
+
+
 function getWAInfo(pathname) {
   const match = pathname?.match(/ansamblu-rezidential\/([^/]+)/)
   if (match) {

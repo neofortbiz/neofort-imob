@@ -1,4 +1,27 @@
 import { NextResponse } from 'next/server'
+import { createClient } from 'redis'
+
+// Copie de siguranta a lead-ului in Redis — plasa de salvare daca Resend/WhatsApp esueaza.
+// NU schimba raspunsul catre client (userul vede acelasi mesaj de succes).
+let redisClient = null
+async function getRedis() {
+  if (!redisClient) {
+    redisClient = createClient({ url: process.env.REDIS_URL })
+    redisClient.on('error', () => { redisClient = null })
+    await redisClient.connect()
+  }
+  return redisClient
+}
+async function backupLead(data, canale) {
+  try {
+    const redis = await getRedis()
+    const key = `lead:${Date.now()}:${(data.telefon || '').replace(/\D/g, '').slice(-6)}`
+    await redis.set(key, JSON.stringify({ ...data, _canale: canale, _ts: new Date().toISOString() }))
+    await redis.expire(key, 60 * 60 * 24 * 90) // pastrat 90 zile
+  } catch (e) {
+    console.error('[LEAD BACKUP FAIL]', e?.message)
+  }
+}
 import { NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
 
 // Rate limiting simplu în-memory — max 5 request-uri pe IP per 10 minute
@@ -169,6 +192,25 @@ export async function POST(request) {
     }
 
     const internal = buildInternalEmail(data)
+    const canale = { email: false, whatsapp: false }
+
+    // --- WhatsApp: INDEPENDENT de Resend (inainte era imbricat -> daca lipsea RESEND, nu pleca nici WA)
+    if (process.env.WA_API_KEY) {
+      const waMsg = encodeURIComponent([
+        `🏠 Lead ${data.tip === 'credit' ? 'CREDIT' : data.tip === 'rapid' ? 'RAPID' : 'CALIFICAT'} — ${nume}`,
+        `📞 ${telefon}`,
+        email ? `✉️ ${email}` : '',
+        ansamblu ? `🏢 ${ansamblu}` : '',
+        data.simulare ? `💰 ${data.simulare}` : '',
+        data.venitLunarNet ? `💼 Venit: ${data.venitLunarNet}` : '',
+      ].filter(Boolean).join('\n'))
+      try {
+        const rw = await fetch(`${WA_API}${waMsg}`)
+        canale.whatsapp = rw.ok
+      } catch (e) {
+        console.error('WA error:', e?.message)
+      }
+    }
 
     if (process.env.RESEND_API_KEY) {
       const r1 = await fetch('https://api.resend.com/emails', {
@@ -184,24 +226,11 @@ export async function POST(request) {
           html: internal.html,
         }),
       })
+      canale.email = r1.ok
       if (!r1.ok) {
         const errText = await r1.text()
         console.error('Resend internal error:', errText)
         // Nu blocam userul — lead-ul se inregistreaza oricum
-        // Continuam sa trimitem ok:true
-      }
-
-      // WhatsApp via CallMeBot
-      if (process.env.WA_API_KEY) {
-        const waMsg = encodeURIComponent([
-          `🏠 Lead ${data.tip === 'credit' ? 'CREDIT' : data.tip === 'rapid' ? 'RAPID' : 'CALIFICAT'} — ${nume}`,
-          `📞 ${telefon}`,
-          email ? `✉️ ${email}` : '',
-          ansamblu ? `🏢 ${ansamblu}` : '',
-          data.simulare ? `💰 ${data.simulare}` : '',
-          data.venitLunarNet ? `💼 Venit: ${data.venitLunarNet}` : '',
-        ].filter(Boolean).join('\n'))
-        fetch(`${WA_API}${waMsg}`).catch(e => console.error('WA error:', e))
       }
 
       if (email) {
@@ -222,6 +251,13 @@ export async function POST(request) {
       }
     } else {
       // Email confirmare client trimis in background
+    }
+
+    // Plasa de salvare: daca NICIUN canal nu a reusit, lead-ul ar fi pierdut silentios.
+    // Il salvam in Redis si logam critic. Raspunsul catre client ramane NESCHIMBAT.
+    if (!canale.email && !canale.whatsapp) {
+      console.error('[LEAD PIERDUT] Niciun canal nu a functionat —', JSON.stringify({ nume, telefon, email, ansamblu, tip: data.tip }))
+      await backupLead(data, canale)
     }
 
     return NextResponse.json({ ok: true })
