@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { usePathname } from 'next/navigation'
-import { getAnsamblu } from '@/data/ansambluri'
+import { getContact } from '@/data/contact-map'
 
 const NAV_LINKS = [
   { href: '/', label: 'Acasă' },
@@ -32,7 +32,7 @@ const EMAIL = 'lead.neo@neofort-biz.ro'
 function getContactInfo(pathname) {
   const match = pathname?.match(/ansamblu-rezidential\/([^/]+)/)
   if (match) {
-    const ansamblu = getAnsamblu(match[1])
+    const ansamblu = getContact(match[1])
     if (ansamblu?.brokerTel) {
       const tel = ansamblu.brokerTel.replace(/\s/g, '')
       const telDisplay = ansamblu.brokerTel

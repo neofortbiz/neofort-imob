@@ -9,7 +9,8 @@
     "lint": "next lint",
     "generate:llms": "node scripts/generate-llms.mjs",
     "generate:og": "node scripts/generate-og.mjs",
-    "prebuild": "node scripts/generate-og.mjs && node scripts/generate-llms.mjs"
+    "generate:contact-map": "node scripts/generate-contact-map.mjs",
+    "prebuild": "node scripts/generate-contact-map.mjs && node scripts/generate-og.mjs && node scripts/generate-llms.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

@@ -1,6 +1,6 @@
 'use client'
 import { usePathname } from 'next/navigation'
-import { getAnsamblu } from '@/data/ansambluri'
+import { getContact } from '@/data/contact-map'
 
 const WA_GENERAL = 'https://wa.me/40758090904'
 
@@ -16,7 +16,7 @@ function trackContact(method, path, source) {
 function getWAInfo(pathname) {
   const match = pathname?.match(/ansamblu-rezidential\/([^/]+)/)
   if (match) {
-    const ansamblu = getAnsamblu(match[1])
+    const ansamblu = getContact(match[1])
     if (ansamblu) {
       const tel = ansamblu.brokerTel?.replace(/\s/g, '') || '758090904'
       const waNum = tel.startsWith('0') ? '40' + tel.substring(1) : tel
