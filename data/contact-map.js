@@ -29,3 +29,13 @@ export const CONTACT_MAP = {
 export function getContact(slug) {
   return CONTACT_MAP[slug] || null
 }
+
+// Linkuri de zona pentru Footer (top 5 dupa numar de ansambluri, fara sectoare).
+// Precalculate la build — Footer nu mai are nevoie de datele complete.
+export const ZONE_LINKS = [
+  { href: '/zona/titan-pallady', label: 'Titan-Pallady' },
+  { href: '/zona/mosilor-eminescu', label: 'Moșilor-Eminescu' },
+  { href: '/zona/eminescu-viitorului', label: 'Eminescu-Viitorului' },
+  { href: '/zona/militari', label: 'Militari' },
+  { href: '/zona/piata-muncii', label: 'Piața-Muncii' },
+]

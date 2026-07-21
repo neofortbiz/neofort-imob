@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import FormularCalificat from '@/components/FormularCalificat'
-import { ANSAMBLURI_LITE } from '@/data/ansambluri'
+import { ZONE_LINKS } from '@/data/contact-map'
 
 const TEL = '0758090904'
 const TEL_DISPLAY = '0758 090 904'
@@ -82,33 +82,7 @@ export default function Footer() {
           {/* COL 3 — ZONE */}
           <div>
             <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Zone</h3>
-            {[
-  ...(() => {
-                const count = {}
-                ANSAMBLURI_LITE.forEach(a =>
-                  (a.zone || [])
-                    .filter(z => !z.startsWith('sector-'))
-                    .forEach(z => { count[z] = (count[z] || 0) + 1 })
-                )
-                const label = z => z
-                  .split('-')
-                  .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-                  .join('-')
-                  .replace('Mosilor', 'Moșilor')
-                  .replace('Eminescu', 'Eminescu')
-                  .replace('Viitorului', 'Viitorului')
-                  .replace('Militari', 'Militari')
-                  .replace('Piata', 'Piața')
-                  .replace('Muncii', 'Muncii')
-                  .replace('Tepes', 'Țepeș')
-                  .replace('Voda', 'Vodă')
-                  .replace('Pallady', 'Pallady')
-                return Object.entries(count)
-                  .sort((a, b) => b[1] - a[1])
-                  .slice(0, 5)
-                  .map(([z]) => ({ href: `/zona/${z}`, label: label(z) }))
-              })(),
-            ].map(l => (
+            {ZONE_LINKS.map(l => (
               <Link key={l.href} href={l.href} className="block text-xs py-1 mb-0.5 hover:text-gray-300 transition-colors" style={{ color: '#bbb' }}>
                 {l.label}
               </Link>

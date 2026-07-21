@@ -80,6 +80,48 @@ const lines = entries
   .map(e => `  '${e.slug}': { nume: '${e.nume}', numar: ${e.numar}, zona: '${e.zona}', sector: '${e.sector}', brokerTel: ${e.brokerTel ? `'${e.brokerTel}'` : 'null'} },`)
   .join('\n')
 
+// ------------------------------------------------------------
+// ZONE_LINKS — linkurile de zona din Footer (componenta GLOBALA).
+// Footer folosea ANSAMBLURI_LITE doar ca sa numere zonele; LITE e derivat
+// din ANSAMBLURI, deci importul lui tragea intreg modulul (~128KB) in
+// bundle-ul FIECAREI pagini. Precalculam aici acelasi rezultat (~0.5KB).
+// Logica reprodusa identic: exclude 'sector-*', sorteaza desc dupa numar,
+// primele 5, eticheta = Capitalize pe segmente + corectii de diacritice.
+// ------------------------------------------------------------
+const zoneCount = {}
+for (const blk of blocks) {
+  const slug = pick(blk, 'slug')
+  if (!slug) continue
+  const zm = blk.match(/\n    zone:\s*\[([^\]]*)\]/)
+  const zones = zm ? [...zm[1].matchAll(/'([^']+)'/g)].map(m => m[1]) : []
+  for (const z of zones) {
+    if (z.startsWith('sector-')) continue
+    zoneCount[z] = (zoneCount[z] || 0) + 1
+  }
+}
+const zoneLabel = z => z
+  .split('-')
+  .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+  .join('-')
+  .replace('Mosilor', 'Moșilor')
+  .replace('Eminescu', 'Eminescu')
+  .replace('Viitorului', 'Viitorului')
+  .replace('Militari', 'Militari')
+  .replace('Piata', 'Piața')
+  .replace('Muncii', 'Muncii')
+  .replace('Tepes', 'Țepeș')
+  .replace('Voda', 'Vodă')
+  .replace('Pallady', 'Pallady')
+
+const zoneLinks = Object.entries(zoneCount)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 5)
+  .map(([z]) => ({ href: `/zona/${z}`, label: zoneLabel(z) }))
+
+const zoneLines = zoneLinks
+  .map(l => `  { href: '${l.href}', label: '${l.label}' },`)
+  .join('\n')
+
 const out = `// ============================================================
 // GENERAT AUTOMAT de scripts/generate-contact-map.mjs — NU EDITA MANUAL.
 // Sursa: data/ansambluri/index.js (ANSAMBLURI — doar activele)
@@ -100,6 +142,12 @@ ${lines}
 export function getContact(slug) {
   return CONTACT_MAP[slug] || null
 }
+
+// Linkuri de zona pentru Footer (top 5 dupa numar de ansambluri, fara sectoare).
+// Precalculate la build — Footer nu mai are nevoie de datele complete.
+export const ZONE_LINKS = [
+${zoneLines}
+]
 `
 
 fs.writeFileSync(OUT, out, 'utf-8')
