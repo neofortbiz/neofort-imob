@@ -212,6 +212,24 @@ export default function ArticolPage({ params }) {
               {/* LEAD */}
               <p className="text-base text-gray-700 leading-relaxed mb-8 font-medium border-l-4 border-[#2d7a3a] pl-4">{a.descriere}</p>
 
+              {/* PE SCURT — bloc factual, optional.
+                  Motoarele si LLM-urile extrag raspunsuri din fraze scurte, concrete,
+                  aflate la inceputul continutului. Articolele fara campul `peScurt`
+                  se randeaza exact ca inainte (zero regresie). */}
+              {a.peScurt && (
+                <div className="mb-8 rounded-lg bg-gray-50 border border-gray-100 p-4">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">Pe scurt</p>
+                  <ul className="space-y-1.5">
+                    {a.peScurt.map((linie, i) => (
+                      <li key={i} className="text-sm text-gray-700 leading-relaxed flex gap-2">
+                        <span className="text-[#2d7a3a] flex-shrink-0">•</span>
+                        <span>{linie}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               {/* SECTIUNI */}
               {a.sectiuni.map(s => (
                 <section key={s.id} id={s.id} className="mb-10">

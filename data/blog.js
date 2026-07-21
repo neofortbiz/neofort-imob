@@ -1073,6 +1073,11 @@ Chirie documentată (contract ANAF + extras cont 12 luni): acceptată 70-80%. Di
     seoTitle: 'Apartamente Noi Titan–Pallady și Teclu 2026',
     seoDesc: 'Apartamente de vânzare în Titan, Theodor Pallady și Nicolae Teclu: 6 ansambluri active Neofort IMO, prețuri de la 62.114€+TVA, metrou la 20m–11 minute.',
     descriere: 'Apartamente noi Titan, Theodor Pallady, Nicolae Teclu 2026: prețuri reale, ansambluri Neofort IMO active, comparație pe localizare și buget.',
+    peScurt: [
+      'Titan, Theodor Pallady și Nicolae Teclu sunt trei zone distincte, conectate, din Sectorul 3 al Bucureștiului — nu denumiri interschimbabile pentru același loc.',
+      'Neofort IMO are ansambluri rezidențiale active în toate trei, cu acces la metroul M2 (stațiile Anghel Saligny și Nicolae Teclu).',
+      'Cel mai bun acces la metrou este în zona Nicolae Teclu; Titan oferă în schimb proximitatea Parcului IOR și infrastructură matură.',
+    ],
     tag: 'Piață', tagColor: '#0369a1',
     data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min',
     autor: 'ramona-baicu',
@@ -1488,6 +1493,11 @@ Dotările complete și de calitate atrag chiriași profesioniști care rămân �
     autor: 'adriana-veselu',
     image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
     descriere: 'Cum cumperi apartament nou de la dezvoltator în 2026: avans, contract, capcane de evitat, finanțare și predare la cheie. Sfaturi din 400+ tranzacții.',
+    peScurt: [
+      'Înainte de a căuta apartamente, stabilește bugetul real, zona și tipul de finanțare — altfel decizia devine emoțională și costisitoare.',
+      'La cumpărarea de la dezvoltator, elementele critice sunt antecontractul, graficul de plăți, termenul de predare și garanțiile de finalizare.',
+      'Cumpărarea directă de la dezvoltator elimină comisionul de agenție și oferă acces la stocul complet, nu doar la unitățile listate public.',
+    ],
     keywords: ['cum cumpar apartament nou 2026', 'ghid cumparare apartament nou', 'antecontract apartament nou', 'capcane cumparare apartament', 'pasi cumparare apartament nou bucuresti', 'ghid primul apartament nou bucuresti', 'diferenta antecontract contract vanzare', 'vanzare directa fara comision apartament'],
     hashtags: ['#GhidCumparareApartament', '#ApartamentNou2026', '#ApartamenteBucuresti', '#ConsultantaImobiliara', '#NeofortIMO'],
     cuprins: [
@@ -2481,6 +2491,11 @@ Decizia finală depinde de trei lucruri: developerul ales, localizarea exactă �
     seoTitle: 'Promoții Apartamente Titan–Pallady 2026',
     seoDesc: 'Cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026. Prețuri de la 62.114€ cu avans 45%, direct de la Neofort IMO fără comision.',
     descriere: 'Promoțiile reale la apartamente noi în Titan, Pallady și Teclu în 2026: tipuri de reduceri, cum le identifici și ce zone au potențial.',
+    peScurt: [
+      'În ansamblurile noi, prețul variază în funcție de avans: plata majoritară la semnare (avans 45%) costă cu 7–15% mai puțin decât plata la predare (avans 20%, compatibilă cu creditul bancar).',
+      'Alte reduceri reale vin din prețurile de pre-lansare (faza 1 de construcție) și din pachetele care includ parcarea sau boxa.',
+      'Neofort IMO are promoții active în Titan–Pallady și Teclu, la ansamblurile Neofort 84, 56, 50 și 28.',
+    ],
     tag: 'Piață', tagColor: '#0369a1',
     data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min',
     autor: 'sasha-calutu',
@@ -3511,6 +3526,11 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
     seoTitle: 'Titan–Pallady: Cea Mai Căutată Zonă din București',
     seoDesc: 'Titan–Pallady: metrou M2, IKEA, Parcul IOR și prețuri cu 30% sub centru. De ce a devenit cea mai căutată zonă din București și ce ansambluri sunt active.',
     descriere: 'De ce Titan–Pallady e cea mai căutată zonă din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.',
+    peScurt: [
+      'Titan–Pallady (Sectorul 3) are metrou M2, Parcul IOR, IKEA și prețuri sensibil mai mici decât zonele centrale ale Bucureștiului.',
+      'Neofort IMO construiește în zonă de peste 10 ani, cu mai multe ansambluri rezidențiale active simultan.',
+      'Distanțe reale la metrou: Neofort 84 la 5 minute de Anghel Saligny, Neofort 56 la 6 minute și Neofort 44 la 7 minute de Nicolae Teclu.',
+    ],
     tag: 'Zone', tagColor: '#0891b2',
     data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min',
     autor: 'raluca-nistor',
