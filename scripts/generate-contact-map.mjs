@@ -20,6 +20,7 @@
 
 import fs from 'fs'
 import path from 'path'
+import crypto from 'crypto'
 import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -122,6 +123,31 @@ const zoneLines = zoneLinks
   .map(l => `  { href: '${l.href}', label: '${l.label}' },`)
   .join('\n')
 
+// ------------------------------------------------------------
+// DATA_ANSAMBLURI — data REALA a ultimei modificari a datelor.
+// Sitemap-ul folosea `new Date()` la fiecare build, declarand ca totul
+// s-a schimbat "azi". Google trateaza lastmod inexact ca semnal nedemn
+// de incredere si inceteaza sa-l mai foloseasca.
+//
+// Mecanism: hash pe continutul datelor. Daca hash-ul e identic cu cel
+// din fisierul generat anterior (comis in git), pastram data veche.
+// Daca difera, datele chiar s-au modificat -> data curenta.
+// Zero intretinere manuala, lastmod mereu adevarat.
+// ------------------------------------------------------------
+const dataHash = crypto.createHash('sha256').update(body).digest('hex').slice(0, 16)
+
+let dataModificare = new Date().toISOString().slice(0, 10)
+try {
+  const prev = fs.readFileSync(OUT, 'utf-8')
+  const prevHash = prev.match(/DATA_HASH = '([a-f0-9]+)'/)?.[1]
+  const prevDate = prev.match(/DATA_ANSAMBLURI = '([\d-]+)'/)?.[1]
+  if (prevHash === dataHash && prevDate) {
+    dataModificare = prevDate // datele nu s-au schimbat -> pastram data reala
+  }
+} catch {
+  // primul build sau fisier inexistent -> folosim data curenta
+}
+
 const out = `// ============================================================
 // GENERAT AUTOMAT de scripts/generate-contact-map.mjs — NU EDITA MANUAL.
 // Sursa: data/ansambluri/index.js (ANSAMBLURI — doar activele)
@@ -148,6 +174,14 @@ export function getContact(slug) {
 export const ZONE_LINKS = [
 ${zoneLines}
 ]
+
+// Hash-ul continutului datelor — folosit de generator ca sa stie daca
+// datele s-au modificat intre build-uri. NU folosi in aplicatie.
+export const DATA_HASH = '${dataHash}'
+
+// Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
+// Folosita de sitemap.js pentru lastmod corect.
+export const DATA_ANSAMBLURI = '${dataModificare}'
 `
 
 fs.writeFileSync(OUT, out, 'utf-8')

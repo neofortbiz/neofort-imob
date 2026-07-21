@@ -1,5 +1,5 @@
 import HomePageClient from './HomePage'
-import { NR_ACTIVE, NR_LIVRATE, NR_FAMILII, ANI_EXPERIENTA } from '@/data/siteConfig'
+import { NR_ACTIVE, NR_LIVRATE, NR_FAMILII, ANI_EXPERIENTA, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -18,6 +18,25 @@ const webPageSchema = {
   description: `Apartamente noi în ansambluri rezidențiale din București. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6. Direct de la sursă, fără comision.`,
   inLanguage: 'ro',
   isPartOf: { '@type': 'WebSite', '@id': `${BASE}/#website`, url: BASE, name: 'Neofort IMO' },
+}
+
+// AggregateRating — DOAR pe homepage, unde ratingul (4.3 / 107 recenzii) e
+// afisat VIZIBIL in pagina. Era emis global din layout.js, pe fiecare pagina,
+// inclusiv unde recenziile nu apar nicaieri — neconform cu ghidul Google
+// privind markup-ul "self-serving" fara continut vizibil corespunzator.
+const ratingSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${BASE}/#organization`,
+  name: 'Neofort IMO',
+  url: BASE,
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: GOOGLE_RATING,
+    reviewCount: GOOGLE_REVIEWS,
+    bestRating: '5',
+    worstRating: '1',
+  },
 }
 
 // FAQPage pe homepage — intrebari frecvente despre companie
@@ -89,6 +108,7 @@ export default function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ratingSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <HomePageClient />
     </>

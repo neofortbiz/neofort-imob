@@ -15,8 +15,55 @@ export default function PromotiiPage() {
   const promotii = ANSAMBLURI_ACTIVE.filter(a => hasPromo(a))
   const constructie = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare !== 'Finalizat' && !hasPromo(a))
 
+  // Structured data — era singura pagina comerciala fara schema.
+  // ItemList face ofertele lizibile pentru motoare si LLM-uri
+  // ("apartamente cu reducere Bucuresti" = exact acest tip de continut).
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    '@id': `${BASE}/promotii#lista`,
+    name: 'Promoții apartamente noi București — Neofort IMO',
+    description: `${promotii.length} ansambluri rezidențiale cu oferte active în București.`,
+    numberOfItems: promotii.length,
+    itemListElement: promotii.map((a, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Residence',
+        name: a.nume,
+        url: `${BASE}/ansamblu-rezidential/${a.slug}`,
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'București',
+          addressRegion: a.sector,
+          addressCountry: 'RO',
+        },
+        ...(a.pretDeLa ? {
+          offers: {
+            '@type': 'Offer',
+            price: a.pretDeLa,
+            priceCurrency: 'EUR',
+            availability: 'https://schema.org/InStock',
+            url: `${BASE}/ansamblu-rezidential/${a.slug}`,
+          },
+        } : {}),
+      },
+    })),
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Acasă', item: BASE },
+      { '@type': 'ListItem', position: 2, name: 'Promoții', item: `${BASE}/promotii` },
+    ],
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/promotii" />
       <main>
 

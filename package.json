@@ -10,7 +10,8 @@
     "generate:llms": "node scripts/generate-llms.mjs",
     "generate:og": "node scripts/generate-og.mjs",
     "generate:contact-map": "node scripts/generate-contact-map.mjs",
-    "prebuild": "node scripts/generate-contact-map.mjs && node scripts/generate-og.mjs && node scripts/generate-llms.mjs"
+    "ping:indexnow": "node scripts/ping-indexnow.mjs",
+    "prebuild": "node scripts/generate-contact-map.mjs && node scripts/generate-og.mjs && node scripts/generate-llms.mjs && node scripts/ping-indexnow.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

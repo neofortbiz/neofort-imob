@@ -39,3 +39,11 @@ export const ZONE_LINKS = [
   { href: '/zona/militari', label: 'Militari' },
   { href: '/zona/piata-muncii', label: 'Piața-Muncii' },
 ]
+
+// Hash-ul continutului datelor — folosit de generator ca sa stie daca
+// datele s-au modificat intre build-uri. NU folosi in aplicatie.
+export const DATA_HASH = '66287a7e45f0148e'
+
+// Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
+// Folosita de sitemap.js pentru lastmod corect.
+export const DATA_ANSAMBLURI = '2026-07-21'

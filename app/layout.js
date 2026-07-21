@@ -1,7 +1,7 @@
 import './globals.css'
 import ClientProviders from '@/components/ClientProviders'
 import { Barlow, Barlow_Condensed } from 'next/font/google'
-import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
+import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
 import Script from 'next/script'
 
 const barlow = Barlow({
@@ -144,13 +144,6 @@ const organizationSchema = {
       },
     },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: GOOGLE_RATING,
-    reviewCount: GOOGLE_REVIEWS,
-    bestRating: '5',
-    worstRating: '1',
-  },
   knowsAbout: [
     'Apartamente noi București',
     'Ansambluri rezidențiale',
@@ -202,13 +195,6 @@ const localBusinessSchema = {
   logo: `${BASE}/logo.avif`,
   description: `Comercializare apartamente noi în ansambluri rezidențiale din București. Direct de la sursă, fără comision. ${ANI_EXPERIENTA} ani experiență, ${NR_LIVRATE}+ proiecte livrate.`,
   foundingDate: '2009',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: GOOGLE_RATING,
-    reviewCount: GOOGLE_REVIEWS,
-    bestRating: '5',
-    worstRating: '1',
-  },
   sameAs: [
     'https://www.facebook.com/profile.php?id=100063782524105',
     'https://www.instagram.com/neofortimobiliare/',
