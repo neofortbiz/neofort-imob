@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
             {/* Tipuri apartamente */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider mb-2 font-medium" style={{ color: '#666' }}>Tipuri</p>
+              <p className="text-[10px] uppercase tracking-wider mb-2 font-medium" style={{ color: '#9ca3af' }}>Tipuri</p>
               <div className="flex flex-wrap gap-x-3 gap-y-1">
                 {[
                   { href: '/apartamente/garsoniere-bucuresti', label: 'Garsoniere' },

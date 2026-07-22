@@ -1,4 +1,5 @@
 import HomePageClient from './HomePage'
+import { ANSAMBLURI_LITE } from '@/data/ansambluri'
 import { NR_ACTIVE, NR_LIVRATE, NR_FAMILII, ANI_EXPERIENTA, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
@@ -105,8 +106,14 @@ const faqSchema = {
 }
 
 export default function Page() {
+  // Coverul primului card este candidatul LCP la prima vizita (ordinea implicita
+  // din date). Un preload il pune la descarcat imediat, inaintea parsarii restului
+  // HTML-ului. Doar hint de prioritate — nu schimba nimic vizual.
+  const lcpCover = ANSAMBLURI_LITE[0]?.imagini?.cover
+
   return (
     <>
+      {lcpCover && <link rel="preload" as="image" href={lcpCover} fetchPriority="high" />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ratingSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
