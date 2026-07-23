@@ -238,8 +238,6 @@ export default function RootLayout({ children }) {
       <head>
         {/* Preconnect pentru resurse critice */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://tile.openstreetmap.org" />
         <link rel="dns-prefetch" href="https://tile.openstreetmap.org" />
         {/* Consent Mode - setat inainte de GTM */}
         <Script id="consent-init" strategy="beforeInteractive">{`

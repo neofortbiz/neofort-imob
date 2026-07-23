@@ -72,7 +72,7 @@ for (const cover of covers) {
       // withoutEnlargement: daca originalul e mai mic decat tinta, pastreaza
       // dimensiunea lui. Important: fisierul se creeaza ORICUM, ca srcset-ul
       // sa nu trimita niciodata catre o varianta inexistenta (imagine rupta).
-      await sharp(abs).resize(w, null, { withoutEnlargement: true }).avif({ quality: 55, effort: 3 }).toFile(out)
+      await sharp(abs).resize(w, null, { withoutEnlargement: true }).avif({ quality: 45, effort: 4 }).toFile(out)
       create++
     } catch (e) {
       console.warn('[card-variants] Esec la', out, '-', e.message)
