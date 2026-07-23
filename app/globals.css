@@ -10,10 +10,15 @@
 
 html {
   scroll-behavior: smooth;
+  /* `clip` in loc de `hidden`: opreste derapajul lateral la fel de bine,
+     dar NU creeaza un container de scroll. Cu `hidden` pe body, headerul
+     `position: sticky` se agata de body (nu de fereastra) si ramanea taiat
+     partial la derulare. */
+  overflow-x: clip;
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
 }
 
