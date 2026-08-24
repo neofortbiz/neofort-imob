@@ -628,7 +628,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     adresa: 'Strada Soldat Alexandru Magatti, Piata Muncii, Sector 3, Bucuresti',
     status: 'activ',
     dataPredare: 'In curand',
-    pretDeLa: 197056,
+    pretDeLa: 215500,
     etaje: 'S+P+4',
     telefon: '0757 077 057',
     broker: 'Sasha CALUTU',
@@ -639,9 +639,9 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
       interior: ['/ansambluri/neo-42/interior-01.avif'],
       schite: ['/ansambluri/neo-42/schite-01.avif','/ansambluri/neo-42/schite-02.avif','/ansambluri/neo-42/schite-03.avif','/ansambluri/neo-42/schite-04.avif','/ansambluri/neo-42/schite-05.avif','/ansambluri/neo-42/schite-06.avif','/ansambluri/neo-42/schite-07.avif','/ansambluri/neo-42/schite-08.avif','/ansambluri/neo-42/schite-09.avif','/ansambluri/neo-42/schite-10.avif','/ansambluri/neo-42/schite-11.avif','/ansambluri/neo-42/schite-12.avif','/ansambluri/neo-42/schite-13.avif','/ansambluri/neo-42/schite-14.avif','/ansambluri/neo-42/schite-15.avif','/ansambluri/neo-42/schite-16.avif','/ansambluri/neo-42/schite-17.avif','/ansambluri/neo-42/schite-18.avif','/ansambluri/neo-42/schite-19.avif','/ansambluri/neo-42/schite-20.avif','/ansambluri/neo-42/schite-21.avif'],
     },
-    descriereCompleta: `La 200 de metri de Metrou Piața Muncii (M3) și la 400 de metri de Parcul Național — fostul Parc Carol, unul dintre cele mai frumoase parcuri istorice ale Bucureștiului — Neofort 42 Piața Muncii propune o formulă rară: apartamente premium cu tehnologie verde și smart, în promoție, în inima semicentrală a Sectorului 3.
+    descriereCompleta: `La 200 de metri de Metrou Piața Muncii (M3) și la 400 de metri de Parcul Național — fostul Parc Carol, unul dintre cele mai frumoase parcuri istorice ale Bucureștiului — Neofort 42 Piața Muncii propune o formulă rară: apartamente premium cu tehnologie verde și smart, în inima semicentrală a Sectorului 3.
 
-64 de apartamente S+P+4 finalizate, disponibile în promoție. Prețuri curente: 2 camere Tip 4, 61,58 mp, de la 197.056€ promoțional (față de 209.372€); 2 camere Tip 5, 62,31 mp, de la 199.392€; 2 camere Tip 6, 63,47 mp, de la 203.104€; 2 camere Tip 7, 64,21 mp, de la 208.672€; 4 camere Tip 1, 139,20 mp, de la 445.440€ promoțional; 4 camere Tip 2, 140,67 mp, de la 450.144€. Prețuri + TVA. Parcare subterană sistem Klaus la 22.500€ + TVA.
+64 de apartamente S+P+4 finalizate. Prețuri curente: 2 camere Tip 4, 61,58 mp, de la 215.500€; 2 camere Tip 5, 62,31 mp, de la 218.085€; 2 camere Tip 6, 63,47 mp, de la 222.145€; 2 camere Tip 7, 64,21 mp, de la 224.735€; 4 camere Tip 1, 139,20 mp, de la 487.200€; 4 camere Tip 2, 140,67 mp, de la 492.345€. Prețuri + TVA, avans 20%. Parcare subterană sistem Klaus la 22.500€ + TVA.
 
 Neofort 42 include standard dotări care la alte proiecte sunt opțiuni premium plătite separat: panouri solare și fotovoltaice integrate în clădire — reduci factura de energie electrică a spațiilor comune cu 30-40%; stații de încărcare auto electrică în parcare — pregătit pentru mobilitatea viitorului; termostat wireless Smart în fiecare cameră — control individual al temperaturii din telefon; sistem de management energetic inteligent. Alături de acestea: 2 lifturi SCHINDLER de mare viteză, parcare subterană sistem Klaus, adăpost ALA autorizat ISU, tâmplărie SALAMANDER/VEKA tripan, uși PINUM/PORTA DOORS, centrală Buderus de înaltă eficiență, gresie și faianță Marazzi rectificată, balustrade din sticlă securizată și încălzire în pardoseală.
 
@@ -651,7 +651,7 @@ Apartamentele Neofort 42 se adresează cumpărătorilor cu discernământ — ce
 
 De ce Piața Muncii este una dintre zonele cu cea mai rapidă apreciere imobiliară din București? Trei factori structurali: repoziționarea Parcului Național ca spațiu urban de referință, cu investiții publice de renovare și reamenajare; conectivitatea M3 care unește zona cu Drumul Taberei în vest și cu Anghel Saligny în est; și densitatea serviciilor medicale de top — Spital Victor Babeș, Spital Monza și Spital Copii Grigore Alexandrescu în raza de 10 minute. Acești factori susțin valoarea proprietăților pe termen lung independent de fluctuațiile pieței.
 
-Apartamentele de 2 camere din Neofort 42 se închiriază curent cu 900-1.100€/lună în zona Piața Muncii, generând randamente brute de 5,3-6,7% față de prețurile promoționale actuale. Apartamentele de 4 camere se adresează chirașilor premium — familii de expats și executivi care apreciază spațiul și localizarea semicentrală. Promoția este valabilă pentru stocul curent — prețurile se vor ajusta la finalizarea vânzărilor. Consultanță bancară gratuită. Vânzare directă, fără comision.
+Apartamentele de 2 camere din Neofort 42 se închiriază curent cu 900-1.100€/lună în zona Piața Muncii, generând randamente brute de 4,8-6,1% față de prețurile actuale. Apartamentele de 4 camere se adresează chirașilor premium — familii de expats și executivi care apreciază spațiul și localizarea semicentrală. Consultanță bancară gratuită. Vânzare directă, fără comision.
 
 Piața Muncii nu este o zonă periferică care „se dezvoltă" — este o zonă semicentrală cu identitate urbană consolidată, la 400m de Parcul Național (fostul Parc Carol I), la 200m de Arena Națională și la 300m de Bazinul Olimpic Lia Manoliu. Această concentrare de infrastructură culturală, sportivă și de agrement la distanță de mers pe jos este neobișnuită chiar și pentru standardele Bucureștiului semicentral.
 
@@ -659,19 +659,19 @@ Metrou Piața Muncii (M3) la 400m, Metrou Dristor 2 (M2) la 350m — două linii
 
 Panourile solare și fotovoltaice integrate în Neofort 42 — o investiție inițială de 100.000-150.000€ pentru întreg proiectul — generează economii reale la cheltuielile comune: factura de electricitate a spațiilor comune (iluminat casa scării, lifturi, circulații) se reduce cu 30-40%. La o clădire de 64 de apartamente cu cheltuieli comune tipice de 50-80€/lună per unitate, economia poate reprezenta 15-30€/lună per proprietar — 180-360€/an. Pe 20 de ani, fiecare proprietar economisește 3.600-7.200€ față de un proiect fără panouri. Această infrastructură verde crește și atractivitatea proprietăților pe piața de revânzare.
 
-Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.440€ în promoție — se adresează unui segment care caută suprafețe generoase în zona semicentrală la prețuri cu 30-40% sub echivalentele din Sectorul 1 și 2. Piața Muncii-Dristor este în prezent una dintre zonele cu cel mai bun raport suprafață-preț pentru apartamentele premium din București. Vânzare directă, fără comision. Vedeți și [Neofort 50 Titan Parc IOR](/ansamblu-rezidential/neofort-50-titan-parc-ior) cu acces direct la Parcul IOR, sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) în zona Pallady.`,
+Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.200€ — se adresează unui segment care caută suprafețe generoase în zona semicentrală la prețuri cu 30-40% sub echivalentele din Sectorul 1 și 2. Piața Muncii-Dristor este în prezent una dintre zonele cu cel mai bun raport suprafață-preț pentru apartamentele premium din București. Vânzare directă, fără comision. Vedeți și [Neofort 50 Titan Parc IOR](/ansamblu-rezidential/neofort-50-titan-parc-ior) cu acces direct la Parcul IOR, sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) în zona Pallady.`,
     brokerTel: '0757 077 057',
     coordonate: { lat: 44.429112, lng: 26.140319 },
     zone: ['piata-muncii', 'sector-3'],
     tipuri: ['2 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Premium Neofort 42 Piața Muncii, Sector 3. 64 apartamente S+P+4. Apartamente 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii la 200m, Parcul Național la 400m. Panouri solare și fotovoltaice, stații încărcare EV, 2 lifturi Schindler, tâmplărie Salamander tripan, finisaje Marazzi.',
+    descriere: 'Ansamblul Rezidențial Premium Neofort 42 Piața Muncii, Sector 3. 64 apartamente S+P+4. Apartamente 2 și 4 camere de la 215.500€+TVA. Metrou Piața Muncii la 200m, Parcul Național la 400m. Panouri solare și fotovoltaice, stații încărcare EV, 2 lifturi Schindler, tâmplărie Salamander tripan, finisaje Marazzi.',
     apartamente: [
-      { tip: '2 cam. Tip 4', etaj: 'et. 1-4', suprafata: 61.58, avans20: 209372, avans45: null, promo: true, camere: 2, pretPromo: 197056 },
-      { tip: '2 cam. Tip 5', etaj: 'et. 1-4', suprafata: 62.31, avans20: 212024, avans45: null, promo: true, camere: 2, pretPromo: 199392 },
-      { tip: '2 cam. Tip 6', etaj: 'et. 1-4', suprafata: 63.47, avans20: 215798, avans45: null, promo: true, camere: 2, pretPromo: 203104 },
-      { tip: '2 cam. Tip 7', etaj: 'et. 1-4', suprafata: 64.21, avans20: 218824, avans45: null, promo: true, camere: 2, pretPromo: 208672 },
-      { tip: '4 cam. Tip 1', etaj: 'et. 1-4', suprafata: 139.20, avans20: 459360, avans45: null, promo: true, camere: 4, pretPromo: 445440 },
-      { tip: '4 cam. Tip 2', etaj: 'et. 1-4', suprafata: 140.67, avans20: 464211, avans45: null, promo: true, camere: 4, pretPromo: 450144 },
+      { tip: '2 cam. Tip 4', etaj: 'et. 1-4', suprafata: 61.58, avans20: 215500, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 5', etaj: 'et. 1-4', suprafata: 62.31, avans20: 218085, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 6', etaj: 'et. 1-4', suprafata: 63.47, avans20: 222145, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 7', etaj: 'et. 1-4', suprafata: 64.21, avans20: 224735, avans45: null, promo: false, camere: 2 },
+      { tip: '4 cam. Tip 1', etaj: 'et. 1-4', suprafata: 139.20, avans20: 487200, avans45: null, promo: false, camere: 4 },
+      { tip: '4 cam. Tip 2', etaj: 'et. 1-4', suprafata: 140.67, avans20: 492345, avans45: null, promo: false, camere: 4 },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 22500, notaTVA: '+TVA' } },
     dotari: ['2 lifturi SCHINDLER', 'Parcare subterana sistem Klaus', 'Adapost ALA / autorizare ISU', 'Tamplarie SALAMANDER/VEKA tripan', 'Usi PINUM/PORTA DOORS', 'Centrala Buderus', 'Termostat wireless Smart', 'Panouri solare/fotovoltaice', 'Balustrade sticla securizata', 'Gresie/faianta Marazzi rectificata', 'Incalzire in pardoseala'],
@@ -690,7 +690,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 445.4
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Piața Muncii — Neofort 42',
-    seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 197.056€+TVA. Metrou Piața Muncii 200m. Promoție activă.',
+    seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 215.500€+TVA. Metrou Piața Muncii 200m.',
   },
   {
     slug: 'neofort-28-titan-pallady-faza-2',
