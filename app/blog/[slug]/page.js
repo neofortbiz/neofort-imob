@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import BlogViews from '@/components/BlogViews'
 import { AUTORI, ARTICOLE, ARTICOLE_LIST } from '@/data/blog'
 import { NR_ACTIVE } from '@/data/siteConfig'
+import { parseLinks } from '@/lib/parseLinks'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -13,20 +14,6 @@ const BASE = 'https://www.neofort.ro'
 function getWordCount(a) {
   const text = a.sectiuni.map(s => s.continut + ' ' + s.h2 + ' ' + (s.h3 || '')).join(' ')
   return text.split(/\s+/).filter(w => w.length > 2).length
-}
-
-// Parseaza [text](url) in linkuri interne SI **text** in bold
-function parseLinks(text, keyPrefix = '') {
-  if (!text) return text
-  // Despicam mai intai pe linkuri, apoi pe bold, pastrand ordinea
-  const tokens = text.split(/(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*)/g)
-  return tokens.map((part, i) => {
-    const linkM = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
-    if (linkM) return <Link key={`${keyPrefix}l${i}`} href={linkM[2]} className="text-[#2d7a3a] underline underline-offset-2 hover:text-[#1a5c2a] transition-colors">{linkM[1]}</Link>
-    const boldM = part.match(/^\*\*([^*]+)\*\*$/)
-    if (boldM) return <strong key={`${keyPrefix}b${i}`} className="font-semibold text-gray-900">{boldM[1]}</strong>
-    return part
-  })
 }
 
 export async function generateStaticParams() {

@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import { parseLinks } from '@/lib/parseLinks'
 
 export default function DescriereExpand({ text }) {
   const [expandat, setExpandat] = useState(false)
@@ -14,7 +15,7 @@ export default function DescriereExpand({ text }) {
             WebkitBoxOrient: 'vertical',
             overflow: expandat ? 'visible' : 'hidden',
           }}>
-          {text}
+          {parseLinks(text)}
         </p>
         {!expandat && (
           <div className="absolute bottom-0 left-0 right-0 h-8"
