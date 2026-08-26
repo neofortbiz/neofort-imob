@@ -861,7 +861,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     adresa: 'Zona Eminescu-Viitorului, Sector 2, Bucuresti',
     status: 'constructie',
     dataPredare: 'Sept. 2026',
-    pretDeLa: 104640,
+    pretDeLa: 99000,
     etaje: 'S+P+4E+5R',
     telefon: '0752 443 434',
     broker: 'Svetlana CALUTU',
@@ -874,7 +874,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     },
     descriereCompleta: `Există cumpărători care refuză deliberat marile complexuri rezidențiale cu sute de unități și preferă proiectele mici, cu comunitate restrânsă și finisaje care fac diferența vizibilă la fiecare detaliu. Pentru aceștia, Neofort 11 din zona Eminescu-Viitorului, Sectorul 2, cu predare în Septembrie 2026, este alegerea naturală: 13 apartamente, finisaje Premium fără excepție, într-un cartier cu personalitate autentică.
 
-9 tipuri de apartamente: studio garsonieră 32,70 mp de la 104.640€; 2 camere Tip 1-3, 58-60 mp, de la 176.000€ în promoție (față de 188.000-192.000€); 3 camere Tip 1, 66 mp, de la 199.000€ promoțional; 3 camere Tip 2, 90,30 mp, de la 280.000€ promoțional; 3 camere Tip 3 și 4, 94-94,40 mp, de la 289.000€ promoțional; 3 camere Tip 5, 88,90 mp, 284.800€. Toate + TVA. Parcare subterană 25.000€.
+10 tipuri de apartamente: studio garsonieră 33,3 mp de la 99.000€ promoțional (față de 104.000€); 2 camere Tip 2, 59,9 mp, de la 169.900€ promoțional (față de 192.000€); 2 camere Tip 3, 62,1 mp, de la 175.000€ promoțional (față de 192.000€); 2 camere Tip 6, 59,6 mp, de la 175.000€ promoțional (față de 192.000€); 3 camere Tip 9, 66,7 mp, de la 199.000€ promoțional (față de 210.000€); 3 camere Tip 4, 92,4 mp, de la 285.000€ promoțional (față de 288.000€); 3 camere Tip 5, 94 mp, de la 285.000€ promoțional (față de 301.000€); 3 camere Tip 11, 88,5 mp, de la 284.000€ promoțional (față de 300.000€); 3 camere Tip 15, 107,4 mp, de la 339.000€; 3 camere Tip 14, 137,6 mp — cel mai spațios apartament din ansamblu — de la 359.000€. Toate + TVA. Parcare subterană 25.000€.
 
 Finisajele nu lasă loc de compromis. Gresie și faianță MARAZZI — brand italian de referință internațională. Parchet Kronotex PREMIUM. Uși blindate PINUM la intrare cu uși interioare PINUM — nu doar ușa exterioară. Obiecte sanitare GROHE, HansGrohe și Kludi — selectate pentru durabilitate și design superior. Centrală ARISTON 24kW în condensare. Încălzire în pardoseală în toate camerele. Contorizare individuală completă apă-gaz-electricitate. Preechipare aer condiționat în toate camerele — nu doar în dormitor. Lift SCHINDLER silențios. Adăpost ALA autorizat ISU. Termoizolație EPS80 de 10cm. Tâmplărie Salamander 7 camere cu geam tripan — izolație fonică 45dB, cea mai performantă clasă disponibilă pe piața românească.
 
@@ -886,7 +886,7 @@ Zona Eminescu-Viitorului are un avantaj subtil pe care cumpărătorii atenți î
 
 Pentru familiile cu copii, zona oferă unele dintre cele mai reputate licee din București: Colegiul Național Iulia Hașdeu și Colegiul Național Mihai Eminescu la 5-8 minute pe jos — o valoare educațională greu de egalat la distanța de mers pe jos. Grădinița Bambi la 3 minute pe jos completează oferta pentru copiii mici.
 
-Predarea estimată în Septembrie 2026 permite finalizarea procesului de finanțare bancară fără presiune de timp. Consultanța bancară Neofort IMO este gratuită și include compararea ofertelor de la toate băncile partenere pentru cel mai mic cost total de finanțare. Apartamentele în promoție — 2 camere de la 176.000€ față de 192.000€ standard — reprezintă o economie imediată de 8-16.000€ față de prețul de listă. Parcare subterană 25.000€. Vânzare directă, fără comision.
+Predarea estimată în Septembrie 2026 permite finalizarea procesului de finanțare bancară fără presiune de timp. Consultanța bancară Neofort IMO este gratuită și include compararea ofertelor de la toate băncile partenere pentru cel mai mic cost total de finanțare. Apartamentele în promoție — 2 camere de la 169.900€ față de 192.000€ standard — reprezintă o economie imediată de până la 22.100€ față de prețul de listă. Parcare subterană 25.000€. Vânzare directă, fără comision.
 
 Zona Eminescu-Viitorului din Sectorul 2 are un caracter urban pe care proiectele imobiliare din zone noi nu îl pot replica: case interbelice bine conservate, blocuri mici din anii '70-'80, arbori maturi pe trotuare, magazine de cartier și o comunitate rezidențială stabilă care locuiește aici de generații. Este o zonă în care vecinii se cunosc, în care există o identitate de cartier autentică, în care arhitectura are personalitate. Neofort 11, cu cele 13 unități ale sale, se inserează în acest țesut urban fără a-l perturba.
 
@@ -899,17 +899,18 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     coordonate: { lat: 44.447354, lng: 26.108451 },
     zone: ['eminescu-viitorului', 'mosilor-eminescu', 'sector-2'],
     tipuri: ['Studio', '2 camere', '3 camere'],
-    descriere: 'Ansamblul Rezidențial Boutique Premium Neofort 11, zona Eminescu-Viitorului, Sector 2. Doar 13 apartamente S+P+4E+5R. Studio, garsonieră, 2 și 3 camere de la 104.640€+TVA. Predare Septembrie 2026. Finisaje premium: gresie MARAZZI, parchet Kronotex, obiecte sanitare GROHE/HansGrohe, centrală ARISTON 24kW, lift SCHINDLER.',
+    descriere: 'Ansamblul Rezidențial Boutique Premium Neofort 11, zona Eminescu-Viitorului, Sector 2. Doar 13 apartamente S+P+4E+5R. Studio, garsonieră, 2 și 3 camere de la 99.000€+TVA. Predare Septembrie 2026. Finisaje premium: gresie MARAZZI, parchet Kronotex, obiecte sanitare GROHE/HansGrohe, centrală ARISTON 24kW, lift SCHINDLER.',
     apartamente: [
-      { tip: 'Studio Garsoniera', etaj: 'et. 1-5', suprafata: 32.70, avans20: 104640, avans45: null, promo: false, camere: 1 },
-      { tip: '2 cam. Tip 1', etaj: 'et. 1-5', suprafata: 60.40, avans20: 192000, avans45: null, promo: true, camere: 2, pretPromo: 176000 },
-      { tip: '2 cam. Tip 2', etaj: 'et. 1-5', suprafata: 58.90, avans20: 192000, avans45: null, promo: true, camere: 2, pretPromo: 179000 },
-      { tip: '2 cam. Tip 3', etaj: 'et. 1-5', suprafata: 59.10, avans20: 188800, avans45: null, promo: true, camere: 2, pretPromo: 183000 },
-      { tip: '3 cam. Tip 1', etaj: 'et. 1-5', suprafata: 66.00, avans20: 210000, avans45: null, promo: true, camere: 3, pretPromo: 199000 },
-      { tip: '3 cam. Tip 2', etaj: 'et. 1-5', suprafata: 90.30, avans20: 288000, avans45: null, promo: true, camere: 3, pretPromo: 280000 },
-      { tip: '3 cam. Tip 3', etaj: 'et. 1-5', suprafata: 94.40, avans20: 301000, avans45: null, promo: true, camere: 3, pretPromo: 289000 },
-      { tip: '3 cam. Tip 4', etaj: 'et. 1-5', suprafata: 94.20, avans20: 300000, avans45: null, promo: true, camere: 3, pretPromo: 289000 },
-      { tip: '3 cam. Tip 5', etaj: 'et. 1-5', suprafata: 88.90, avans20: 284800, avans45: null, promo: false, camere: 3 },
+      { tip: 'Studio Garsoniera', etaj: 'et. 1-5', suprafata: 33.30, avans20: 104000, avans45: null, promo: true, camere: 1, pretPromo: 99000 },
+      { tip: '2 cam. Tip 2', etaj: 'et. 1-5', suprafata: 59.90, avans20: 192000, avans45: null, promo: true, camere: 2, pretPromo: 169900 },
+      { tip: '2 cam. Tip 3', etaj: 'et. 1-5', suprafata: 62.10, avans20: 192000, avans45: null, promo: true, camere: 2, pretPromo: 175000 },
+      { tip: '2 cam. Tip 6', etaj: 'et. 1-5', suprafata: 59.60, avans20: 192000, avans45: null, promo: true, camere: 2, pretPromo: 175000 },
+      { tip: '3 cam. Tip 9', etaj: 'et. 1-5', suprafata: 66.70, avans20: 210000, avans45: null, promo: true, camere: 3, pretPromo: 199000 },
+      { tip: '3 cam. Tip 4', etaj: 'et. 1-5', suprafata: 92.40, avans20: 288000, avans45: null, promo: true, camere: 3, pretPromo: 285000 },
+      { tip: '3 cam. Tip 5', etaj: 'et. 1-5', suprafata: 94.00, avans20: 301000, avans45: null, promo: true, camere: 3, pretPromo: 285000 },
+      { tip: '3 cam. Tip 11', etaj: 'et. 1-5', suprafata: 88.50, avans20: 300000, avans45: null, promo: true, camere: 3, pretPromo: 284000 },
+      { tip: '3 cam. Tip 15', etaj: 'et. 1-5', suprafata: 107.40, avans20: 339000, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. Tip 14', etaj: 'et. 1-5', suprafata: 137.60, avans20: 359000, avans45: null, promo: false, camere: 3 },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 25000 } },
     dotari: ['Usi PINUM blindate + interioare', 'Gresie/faianta MARAZZI', 'Parchet Kronotex PREMIUM', 'Obiecte sanitare GROHE/HansGrohe/Kludi', 'Centrala ARISTON 24kW in condensare', 'Incalzire in pardoseala', 'Contorizare individuala apa/gaz/electricitate', 'Preechipare aer conditionat', 'Lift SCHINDLER silentios', 'Adapost ALA / autorizare ISU', 'Termoizolatie EPS80 10cm', 'Tamplarie Salamander 7 camere tripan'],
@@ -929,7 +930,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Eminescu Viitorului — Neofort 11',
-    seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium, 2-3 camere de la 104.640€+TVA. Predare sept. 2026.',
+    seoDescription: 'Neofort 11 boutique, Sector 2. 13 apartamente premium, 2-3 camere de la 99.000€+TVA. Predare sept. 2026.',
   },
 
 ]
