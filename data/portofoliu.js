@@ -2891,7 +2891,7 @@ Metrou Dristor 1 (M2) la 150m — cel mai bun raport distanta-metrou din seria D
   },
   {
     numar: 10,
-    slug: 'neofort-10-dobroesti-fundeni',
+    slug: 'neofort-10-colentina-fundeni',
     cover: '/portofoliu/apartamente-noi-bucuresti-neofort-10-dobroesti-fundeni.avif',
     nume: 'Neofort 10 Dobroesti — Fundeni',
     zona: 'Dobroesti-Fundeni',
