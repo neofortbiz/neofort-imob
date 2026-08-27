@@ -47,6 +47,11 @@
       "permanent": true
     },
     {
+      "source": "/portofoliu/neofort-10-dobroesti-fundeni",
+      "destination": "/ansamblu-rezidential/neofort-10-colentina-fundeni",
+      "permanent": true
+    },
+    {
       "source": "/portofoliu/:slug([^.]+)",
       "destination": "/ansamblu-rezidential/:slug",
       "permanent": true
