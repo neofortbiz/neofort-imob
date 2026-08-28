@@ -18,8 +18,8 @@ export const ANSAMBLURI = [
     brokerFoto: '/brokeri/raluca-nistor.avif',
     imagini: {
       cover: '/ansambluri/neo-84/exterior-01.avif',
-      exterior: ['/ansambluri/neo-84/exterior-01.avif','/ansambluri/neo-84/exterior-02.avif','/ansambluri/neo-84/exterior-03.avif'],
-      interior: [],
+      exterior: ['/ansambluri/neo-84/exterior-01.avif','/ansambluri/neo-84/exterior-02.avif','/ansambluri/neo-84/exterior-03.avif','/ansambluri/neo-84/exterior-04.avif','/ansambluri/neo-84/exterior-05.avif'],
+      interior: ['/ansambluri/neo-84/interior-01.avif','/ansambluri/neo-84/interior-02.avif','/ansambluri/neo-84/interior-03.avif'],
       schite: ['/ansambluri/neo-84/schite-01.avif','/ansambluri/neo-84/schite-02.avif','/ansambluri/neo-84/schite-03.avif','/ansambluri/neo-84/schite-04.avif','/ansambluri/neo-84/schite-05.avif','/ansambluri/neo-84/schite-06.avif','/ansambluri/neo-84/schite-07.avif','/ansambluri/neo-84/schite-08.avif','/ansambluri/neo-84/schite-09.avif','/ansambluri/neo-84/schite-10.avif','/ansambluri/neo-84/schite-11.avif','/ansambluri/neo-84/schite-12.avif','/ansambluri/neo-84/schite-13.avif','/ansambluri/neo-84/schite-14.avif','/ansambluri/neo-84/schite-15.avif','/ansambluri/neo-84/schite-16.avif','/ansambluri/neo-84/schite-17.avif','/ansambluri/neo-84/schite-18.avif','/ansambluri/neo-84/schite-19.avif','/ansambluri/neo-84/schite-20.avif','/ansambluri/neo-84/schite-21.avif','/ansambluri/neo-84/schite-22.avif','/ansambluri/neo-84/schite-23.avif','/ansambluri/neo-84/schite-24.avif','/ansambluri/neo-84/schite-25.avif','/ansambluri/neo-84/schite-26.avif','/ansambluri/neo-84/schite-27.avif','/ansambluri/neo-84/schite-28.avif'],
     },
     descriereCompleta: `Cauți un apartament nou în Sectorul 3 al Bucureștiului, lângă metrou, cu prețuri competitive și predare planificată? Ansamblul Rezidențial Neofort 84 Titan-Pallady răspunde exact acestei nevoi — un imobil P+10 etaje aflat în construcție în zona Titan-Pallady, cu predare în Trimestrul I 2027 și prețuri promoționale care pornesc de la 62.114€ + TVA la avans 45%.
@@ -28,9 +28,9 @@ Oferta cuprinde 10 tipuri distincte de apartamente, gândite pentru orice buget 
 
 Structura imobilului este realizată din cadre și diafragme din beton armat completate cu zidărie BCA Ytong. Dotările standard includ încălzire în pardoseală în toate camerele, tâmplărie PVC Salamander cu ferestre mari pentru lumină naturală maximă, lifturi silențioase, gresie și faianță de import, centrală termică proprie în condensare și instalații sanitare, electrice și termice complete.
 
-Zona Titan-Pallady este în prezent una dintre cele mai căutate zone rezidențiale din București, cu o dinamică de creștere susținută. Datele din piață confirmă: apartamentele noi cu metrou în 3-8 minute și-au crescut valoarea cu 15-20% în ultimii 3 ani, iar cererea depășește constant oferta. Metrou Nicolae Teclu (M2) la câteva minute pe jos și Metrou Anghel Saligny (M2) la 8 minute asigură accesul rapid în orice punct al capitalei fără dependență de trafic.
+Zona Titan-Pallady este în prezent una dintre cele mai căutate zone rezidențiale din București, cu o dinamică de creștere susținută. Datele din piață confirmă: apartamentele noi cu metrou în 3-8 minute și-au crescut valoarea cu 15-20% în ultimii 3 ani, iar cererea depășește constant oferta. Metrou Nicolae Teclu (M2) la 1,6 km (20 minute pe jos) și Metrou Anghel Saligny (M2) la 3,3 km (5 minute cu mașina) asigură accesul rapid în orice punct al capitalei fără dependență de trafic.
 
-Infrastructura comercială din zonă este completă și matură: IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo, Metro, Leroy Merlin și Dedeman Pallady la 8 minute — cea mai densă concentrare de retail mare din estul Bucureștiului. Pentru familiile cu copii: Waldorf București și Spectrum School la 500m, Școala Gimnazială nr. 149 și Liceul Victor Brauner la 10 minute pe jos. Parcul Teilor la 10 minute oferă spațiu verde generos pentru relaxare zilnică. Campus Medical Regina Maria Titan la 10 minute și MedLife Titan la 8 minute acoperă integral nevoile medicale.
+Infrastructura comercială din zonă este completă și matură: Kaufland/Lidl la 1,9 km (3 minute cu mașina), IKEA Pallady la 2,4 km (4 minute), Auchan Titan la 2,9 km (5 minute) — cea mai densă concentrare de retail mare din estul Bucureștiului. Pentru familiile cu copii: Grădinița Aripi spre Succes la 1,2 km (16 minute pe jos), Școala Gimnazială 149 "Victor Brăuner" la 1,3 km (17 minute pe jos), Spectrum School la 2,9 km și Școala Waldorf Ilios la 3 km (ambele 5 minute cu mașina). Parcul Teilor la 1,6 km (20 minute pe jos) oferă spațiu verde generos pentru relaxare zilnică. Campus Medical Regina Maria la 1,5 km (19 minute pe jos) acoperă nevoile medicale curente, iar Spitalul de Urgență Pantelimon la 5,8 km și Spitalul de Copii Victor Gomoiu la 6,6 km asigură acces la urgențe.
 
 Neofort 84 se comercializează direct de la sursă, fără comision de agenție — prețul publicat este prețul final, fără surprize la semnare. Prețurile promoționale sunt valabile pentru unitățile rezervate cu avans 45% și se pot modifica odată cu avansarea construcției. Rezervare cu 1.000€, consultanță juridică și bancară gratuită.
 
@@ -62,18 +62,27 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     parcare: { exterior: { disponibil: true, pret: 6000, deLa: true, notaTVA: '+TVA' }, interior: { disponibil: true, pret: 8500, deLa: true, notaTVA: '+TVA' }, subteran: { disponibil: false, pret: null } },
     dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie BCA Ytong'],
     puncteInteres: [
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '550m' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '8 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '11 min pe jos' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '3 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '6 min cu masina' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '8 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '8 min cu masina' },
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '9 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '9 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '12 min cu masina' },
-      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '17 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '1,6 km · 20 min pe jos' },
+      { tip: 'transport', nume: 'STB 235 / 330', distanta: '1,3 km · 17 min pe jos' },
+      { tip: 'transport', nume: 'STB 19 / 27 / 49', distanta: '1,6 km · 20 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '3,3 km · 5 min cu mașina' },
+      { tip: 'scoala', nume: 'Școala Gimnazială 149 "Victor Brăuner"', distanta: '1,3 km · 17 min pe jos' },
+      { tip: 'scoala', nume: 'Școala Waldorf Ilios', distanta: '3 km · 5 min cu mașina' },
+      { tip: 'scoala', nume: 'Spectrum School', distanta: '2,9 km · 5 min cu mașina' },
+      { tip: 'scoala', nume: 'Grădinița Aripi spre Succes', distanta: '1,2 km · 16 min pe jos' },
+      { tip: 'scoala', nume: 'Grădinița nr. 68', distanta: '2,3 km · 5 min cu mașina' },
+      { tip: 'scoala', nume: 'Grădinița nr. 160', distanta: '3,6 km · 7 min cu mașina' },
+      { tip: 'scoala', nume: 'Grădinița Ludo', distanta: '3,3 km · 6 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '1,6 km · 20 min pe jos' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '4,5 km · 9 min cu mașina' },
+      { tip: 'mall', nume: 'Kaufland / Lidl', distanta: '1,9 km · 3 min cu mașina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '2,4 km · 4 min cu mașina' },
+      { tip: 'mall', nume: 'Auchan Titan', distanta: '2,9 km · 5 min cu mașina' },
+      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '5,2 km · 10 min cu mașina' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria', distanta: '1,5 km · 19 min pe jos' },
+      { tip: 'medical', nume: 'Spitalul de Copii Victor Gomoiu', distanta: '6,6 km · 13 min cu mașina' },
+      { tip: 'medical', nume: 'Spitalul de Urgență Pantelimon', distanta: '5,8 km · 11 min cu mașina' },
+      { tip: 'transport', nume: 'Acces Autostradă A2', distanta: '2,7 km · 4 min cu mașina' },
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 84',
