@@ -179,7 +179,7 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
     brokerFoto: '/brokeri/svetlana-calutu.avif',
     imagini: {
       cover: '/ansambluri/neo-78/exterior-01.avif',
-      exterior: ['/ansambluri/neo-78/exterior-01.avif','/ansambluri/neo-78/exterior-02.avif','/ansambluri/neo-78/exterior-03.avif','/ansambluri/neo-78/exterior-04.avif','/ansambluri/neo-78/exterior-05.avif','/ansambluri/neo-78/exterior-06.avif'],
+      exterior: ['/ansambluri/neo-78/exterior-01.avif','/ansambluri/neo-78/exterior-02.avif','/ansambluri/neo-78/exterior-03.avif','/ansambluri/neo-78/exterior-04.avif','/ansambluri/neo-78/exterior-05.avif','/ansambluri/neo-78/exterior-06.avif','/ansambluri/neo-78/exterior-07.avif','/ansambluri/neo-78/exterior-08.avif'],
       interior: ['/ansambluri/neo-78/interior-01.avif','/ansambluri/neo-78/interior-02.avif','/ansambluri/neo-78/interior-03.avif','/ansambluri/neo-78/interior-04.avif','/ansambluri/neo-78/interior-05.avif','/ansambluri/neo-78/interior-06.avif','/ansambluri/neo-78/interior-07.avif','/ansambluri/neo-78/interior-08.avif'],
       schite: ['/ansambluri/neo-78/schite-01.avif','/ansambluri/neo-78/schite-02.avif','/ansambluri/neo-78/schite-03.avif','/ansambluri/neo-78/schite-04.avif','/ansambluri/neo-78/schite-05.avif','/ansambluri/neo-78/schite-06.avif','/ansambluri/neo-78/schite-07.avif','/ansambluri/neo-78/schite-08.avif','/ansambluri/neo-78/schite-09.avif','/ansambluri/neo-78/schite-10.avif'],
     },
