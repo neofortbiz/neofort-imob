@@ -88,9 +88,10 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
     out += `Broker: ${a.broker}, ${a.brokerTel}\n`
     out += `URL: ${BASE}/ansamblu-rezidential/${a.slug}\n`
 
-    if (a.apartamente && a.apartamente.length > 0) {
+    const aptDisponibile = (a.apartamente || []).filter(apt => !apt.stocEpuizat)
+    if (aptDisponibile.length > 0) {
       out += `\nApartamente disponibile:\n`
-      for (const apt of a.apartamente) {
+      for (const apt of aptDisponibile) {
         const pret = apt.pretPromo || apt.avans45 || apt.avans20
         out += `- ${apt.tip} (${apt.suprafata} mp, et. ${apt.etaj}): de la ${fmt(pret)}€+TVA\n`
       }
@@ -202,9 +203,10 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
     out += `Broker: ${a.broker}, ${a.brokerTel}\n`
     out += `URL: ${BASE}/ansamblu-rezidential/${a.slug}\n`
 
-    if (a.apartamente && a.apartamente.length > 0) {
+    const aptDisp = (a.apartamente || []).filter(apt => !apt.stocEpuizat)
+    if (aptDisp.length > 0) {
       out += `\nApartamente disponibile:\n`
-      for (const apt of a.apartamente) {
+      for (const apt of aptDisp) {
         const pret = apt.pretPromo || apt.avans45 || apt.avans20
         if (apt.avans45 && apt.avans20 && !apt.pretPromo) {
           out += `- ${apt.tip} (${apt.suprafata} mp, et. ${apt.etaj}): avans 45% = ${fmt(apt.avans45)}€, avans 20% = ${fmt(apt.avans20)}€ (+TVA)\n`

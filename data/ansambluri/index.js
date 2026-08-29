@@ -791,7 +791,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     adresa: 'Zona Titan-Pallady, Sector 3, Bucuresti',
     status: 'activ',
     dataPredare: 'In curand',
-    pretDeLa: 83900,
+    pretDeLa: 86900,
     etaje: 'D+P+4',
     telefon: '0752 443 437',
     broker: 'Adriana VESELU',
@@ -804,7 +804,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     },
     descriereCompleta: `Dacă ai copii sau vrei un spațiu exterior privat fără a cumpăra o casă, Neofort 28 din zona Titan-Pallady, Sectorul 3, merită toată atenția: 53 de apartamente decomandate cu bucătării închise, inclusiv unități cu curte proprie de ~50 mp și unități cu terasă, finalizate, cu Metrou Nicolae Teclu (M2) la câteva minute pe jos.
 
-Oferta este bogată și acoperă orice configurație: 2 camere Tip 1, 59,80 mp, 83.900€ (promoție); 2 camere Tip 2-5, 60-65 mp, 84.900-91.900€; 2 camere cu curte proprie ~50mp la parter, 61,55 mp, 112.900€; 3 camere Tip 1, 92 mp, 128.900€; 3 camere cu terasă, 105 mp, etajele 3-4, 131.900€; 3 camere cu curte proprie la parter, 86,65 mp, 143.500€. Toate + TVA. Parcare exterioară 7.500€, subterană 11.000€.
+Oferta curentă acoperă exclusiv apartamente de 2 camere: Tip 1, 59,80 mp, 86.900€; Tip 2, 60,40 mp, 87.900€; Tip 3, 60,40 mp, 89.900€; Tip 4, 61,80 mp, 88.900€; Tip 5 cu terasă 35 mp, 46,90 mp utili (81,90 mp total), 100.900€; Tip 6 cu curte proprie 49 mp la parter, 61,55 mp utili (110,55 mp total), 110.000€. Toate + TVA. Apartamentele de 3 camere au fost vândute integral. Parcare exterioară 7.500€, subterană 11.000€.
 
 Apartamentele cu curte proprie sunt raritatea definitivă a proiectului. Să ai o curte de ~50mp în București, la un apartament nou, cu metrou la câteva minute — aceasta este o combinație pe care piața imobiliară o oferă extrem de rar. Cele trei variante cu curte (2 camere și 3 camere la parter) răspund nevoii reale a familiilor cu copii mici sau animale de companie care refuză compromisul dintre confortul casei și avantajele unui bloc nou.
 
@@ -814,9 +814,9 @@ Titan-Pallady continuă să fie zona cu cel mai echilibrat raport cerere-ofertă
 
 Finalizat, disponibil imediat, cu tipologii unice pe piață. Vânzare directă, fără comision.
 
-Tipologia cu curte proprie la parter — atât 2 camere la 112.900€ cât și 3 camere la 143.500€ — reprezintă o raritate valoroasă pe piața Sectorului 3. Apartamentele cu curți private în blocuri noi se vând și se închiriază cu o primă de 15-25% față de unitățile standard, reflectând cererea ridicată din partea familiilor cu copii mici sau cu animale de companie. Incinta împrejmuită, accesul controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Vânzare directă, fără comision de agenție.
+Tipologia cu exterior propriu — 2 camere cu curte 49 mp la parter, 110.000€, și 2 camere cu terasă 35 mp, 100.900€ — reprezintă o raritate valoroasă pe piața Sectorului 3. Apartamentele cu curți private în blocuri noi se vând și se închiriază cu o primă de 15-25% față de unitățile standard, reflectând cererea ridicată din partea familiilor cu copii mici sau cu animale de companie. Incinta împrejmuită, accesul controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Vânzare directă, fără comision de agenție.
 
-Cumpărătorii care au ales apartamentele cu curte la Neofort 28 au plătit o primă de 26.000-29.000€ față de unitățile standard — o diferență pe deplin justificată de raritatea configurației și de cererea ridicată. Pe piața secundară, apartamentele cu grădini private în blocuri noi se vând cu prime similare față de unități identice fără exterior, confirmând că această tipologie păstrează valoarea adăugată pe termen lung. Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Parcare exterioară 7.500€, subterană 11.000€. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.
+Cumpărătorii care aleg apartamentele cu exterior la Neofort 28 plătesc o primă de 12.000-23.000€ față de unitățile standard — o diferență pe deplin justificată de raritatea configurației și de cererea ridicată. Pe piața secundară, apartamentele cu grădini private în blocuri noi se vând cu prime similare față de unități identice fără exterior, confirmând că această tipologie păstrează valoarea adăugată pe termen lung. Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă completează securitatea comunității. Parcare exterioară 7.500€, subterană 11.000€. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.
 
 Neofort 28 completează un ansamblu rezidențial cu o istorie de succes în zona Titan-Pallady: fazele anterioare au fost vândute integral, confirmând validarea pieței pentru acest proiect. Ansamblul aduce 53 de apartamente noi, cu aceeași calitate constructivă și o ofertă tipologică extinsă față de fazele precedente — inclusiv variantele cu curte proprie, introduse ca răspuns direct la cererea din piață.
 
@@ -828,18 +828,18 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     brokerTel: '0752 443 437',
     coordonate: { lat: 44.411192, lng: 26.198428 },
     zone: ['titan-pallady', 'sector-3'],
-    tipuri: ['2 camere', '3 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 28 ansamblul, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 și 3 camere, de la 83.900€+TVA. Unele cu curte proprie 50mp. Metrou Nicolae Teclu la 3 minute. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.',
+    tipuri: ['2 camere'],
+    descriere: 'Ansamblul Rezidențial Neofort 28 ansamblul, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 camere de la 86.900€+TVA (apartamentele de 3 camere sunt vândute integral). Unele cu curte proprie 49mp sau terasă 35mp. Metrou Nicolae Teclu la 3 minute. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.',
     apartamente: [
-      { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 59.80, avans20: 83900, avans45: null, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 60.40, avans20: 84900, avans45: null, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 3', etaj: 'et. 1-4', suprafata: 60.90, avans20: 85500, avans45: null, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 4', etaj: 'et. 1-4', suprafata: 61.50, avans20: 86500, avans45: null, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 5', etaj: 'et. 1-4', suprafata: 65.15, avans20: 91900, avans45: null, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 6 cu curte', etaj: 'parter', suprafata: 61.55, avans20: 112900, avans45: null, promo: false, camere: 2 },
-      { tip: '3 cam. Tip 1', etaj: 'et. 1-4', suprafata: 92.00, avans20: 128900, avans45: null, promo: false, camere: 3 },
-      { tip: '3 cam. Tip 2 cu terasa', etaj: 'et. 3-4', suprafata: 105.00, avans20: 131900, avans45: null, promo: false, camere: 3 },
-      { tip: '3 cam. Tip 3 cu curte', etaj: 'parter', suprafata: 86.65, avans20: 143500, avans45: null, promo: false, camere: 3 },
+      { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 59.80, avans20: 86900, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 60.40, avans20: 87900, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 3', etaj: 'et. 1-4', suprafata: 60.40, avans20: 89900, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 4', etaj: 'et. 1-4', suprafata: 61.80, avans20: 88900, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 5 cu terasa', etaj: 'et. 1-4', suprafata: 46.90, suprafataExtra: 35, tipExtra: 'terasa', avans20: 100900, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 6 cu curte', etaj: 'parter', suprafata: 61.55, suprafataExtra: 49, tipExtra: 'teren', avans20: 110000, avans45: null, promo: false, camere: 2 },
+      { tip: '3 cam. Tip 1', etaj: 'et. 1-4', suprafata: 92.00, avans20: 128900, avans45: null, promo: false, camere: 3, stocEpuizat: true },
+      { tip: '3 cam. Tip 2 cu terasa', etaj: 'et. 3-4', suprafata: 105.00, avans20: 131900, avans45: null, promo: false, camere: 3, stocEpuizat: true },
+      { tip: '3 cam. Tip 3 cu curte', etaj: 'parter', suprafata: 86.65, avans20: 143500, avans45: null, promo: false, camere: 3, stocEpuizat: true },
     ],
     parcare: { exterior: { disponibil: true, pret: 7500 }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 11000 } },
     dotari: ['Incalzire in pardoseala', 'Centrala termica proprie', 'Tamplarie Salamander tripan Low-E microventilatie', 'Ceramica Delta Studio', 'Parchet rezistent trafic intens', 'Bai echipate complet rezervor incastrat', 'Videointerfon vedere nocturna', 'Incinta imprejmuita acces controlat'],
@@ -859,7 +859,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Pallady Teclu — Neofort 28',
-    seoDescription: 'Neofort 28 Titan-Pallady, Sector 3. Apartamente 2-3 camere de la 83.900€+TVA, unele cu curte proprie 50mp. Metrou Nicolae Teclu în apropiere.',
+    seoDescription: 'Neofort 28 Titan-Pallady, Sector 3. Apartamente 2 camere de la 86.900€+TVA, unele cu curte proprie 49mp. Metrou Nicolae Teclu în apropiere.',
   },
   {
     slug: 'neofort-11-eminescu-viitorului',
