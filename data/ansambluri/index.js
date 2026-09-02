@@ -411,19 +411,19 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
 
 Localizare și Transport
 
-Stația de metrou Costin Georgian (M2) se află la 300 de metri de ansamblu, aproximativ 4 minute pe jos, asigurând acces rapid cu centrul orașului și cu principalele zone de business ale Capitalei. Linia M2 conectează direct cu Piața Unirii, Piața Universității, Piața Victoriei și stațiile de nord ale Bucureștiului, fără schimb de linie. Bulevardul 1 Decembrie 1918 este deservit de mai multe linii STB, oferind alternative pentru destinațiile mai puțin accesibile cu metroul. Combinația dintre metrou la 300 de metri și linii STB multiple face ca deplasările zilnice să fie independente de mașină pentru majoritatea traseelor uzuale din București.
+Stația de metrou Costin Georgian (M2) se află la 300 de metri de ansamblu, aproximativ 3 minute pe jos, asigurând acces rapid cu centrul orașului și cu principalele zone de business ale Capitalei. Linia M2 conectează direct cu Piața Unirii, Piața Universității, Piața Victoriei și stațiile de nord ale Bucureștiului, fără schimb de linie. Bulevardul 1 Decembrie 1918 este deservit de mai multe linii STB, oferind alternative pentru destinațiile mai puțin accesibile cu metroul. Combinația dintre metrou la 300 de metri și linii STB multiple face ca deplasările zilnice să fie independente de mașină pentru majoritatea traseelor uzuale din București.
 
 Servicii și Comerț
 
-Infrastructura comercială din zonă acoperă nevoile cotidiene fără deplasări lungi. Lidl se află la 50 de metri de intrarea în ansamblu, Kaufland la 200 de metri. Auchan Titan este la 1,5 km, ParkLake Shopping Center la 2,5 km, Mega Mall la 2,3 km. Piața Morarilor și Piața Minis se află la câteva minute pe jos, pentru cumpărăturile de zi cu zi.
+Infrastructura comercială din zonă acoperă nevoile cotidiene fără deplasări lungi. Lidl se află la 50 de metri de intrarea în ansamblu, Kaufland la 300 de metri. Auchan Titan este la 1,9 km, ParkLake Shopping Center la 3,2 km, Mega Mall la 2,3 km. Piața Morarilor și Piața Minis se află la câteva minute pe jos, pentru cumpărăturile de zi cu zi.
 
 Spații Verzi
 
-Zona Titan – IOR este apreciată pentru abundența spațiilor verzi. Parcul Sticlăriei se află la 300 de metri de ansamblu, Parcul Morarilor la 500 de metri. Parcul IOR — unul dintre cele mai mari parcuri din București, cu lac artificial, piste de biciclete, terenuri de sport, zone de picnic și facilități de recreere pentru toate vârstele — este la 1,2 km, aproximativ 15 minute pe jos sau 5 minute cu bicicleta. Arena Națională se află la 1,6 km.
+Zona Titan – IOR este apreciată pentru abundența spațiilor verzi. Parcul Sticlăriei se află la 300 de metri de ansamblu, Parcul Morarilor la 500 de metri. Parcul Morarilor se află la 600 de metri (8 minute pe jos), iar Parcul Sticlăriei la 800 de metri (10 minute pe jos). Parcul IOR — unul dintre cele mai mari parcuri din București, cu lac artificial, piste de biciclete, terenuri de sport, zone de picnic și facilități de recreere pentru toate vârstele — este la 2,1 km, aproximativ 5 minute cu mașina. Arena Națională se află la 1,6 km.
 
 Educație și Sănătate
 
-Grădinița nr. 70 se află la 20 de metri de intrarea în ansamblu. Școala Waldorf este la 1,9 km, Liceul Nichita Stănescu la câteva minute pe jos. Spitalul Clinic de Urgență Sfântul Pantelimon este la 1 km, Campus Medical Regina Maria Titan la aproximativ 10 minute cu mașina.
+Grădinița și Creșa nr. 70 se află vis-à-vis de ansamblu, la 2 minute pe jos. Școala Waldorf Ilios este la 350 de metri, Liceul Teoretic Nichita Stănescu la 400 de metri, Școala Gimnazială Liviu Rebreanu la 750 de metri. Spitalul Clinic de Urgență Pantelimon este la 1,8 km, Policlinica Titan la 2,4 km, iar Spitalul Clinic de Copii Victor Gomoiu la 2,8 km.
 
 Structura Imobilului
 
@@ -461,18 +461,28 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     parcare: { exterior: { disponibil: true, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: null } },
     dotari: ['4 lifturi spatioase ORONA', 'Parcari subterane si supraterane', 'Parc de relaxare cu loc de joaca', 'Structura antiseismica piloti adancime', 'Vitraje mari SALAMANDER tripan', 'Usi PINUM / BENATI', 'Sanitare ROCA / CERSANIT / GROHE', 'Centrala SAUNIER DUVAL by VAILLANT', 'Termostat wireless Smart', 'Incalzire in pardoseala'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Costin Georgian (M2)', distanta: '90m' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '450m' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '5 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '5 min cu masina' },
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '4 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '10 min cu masina' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '10 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '10 min cu masina' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '12 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '14 min cu masina' },
-      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '15 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Costin Georgian (M2)', distanta: '300 m · 3 min pe jos' },
+      { tip: 'transport', nume: 'STB 102, 455, 640, N109', distanta: '300 m · 3 min pe jos' },
+      { tip: 'mall', nume: 'Lidl', distanta: '50 m · 1 min pe jos' },
+      { tip: 'mall', nume: 'Kaufland', distanta: '300 m · 3 min pe jos' },
+      { tip: 'scoala', nume: 'Grădinița și Creșa nr. 70', distanta: 'vis-à-vis · 2 min pe jos' },
+      { tip: 'scoala', nume: 'Școala Waldorf Ilios (nr. 94)', distanta: '350 m · 3 min pe jos' },
+      { tip: 'scoala', nume: 'Liceul Teoretic Nichita Stănescu', distanta: '400 m · 5 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Morarilor', distanta: '600 m · 8 min pe jos' },
+      { tip: 'scoala', nume: 'Grădinița și Creșa nr. 154', distanta: '700 m · 9 min pe jos' },
+      { tip: 'mall', nume: 'Piața Miniș', distanta: '700 m · 9 min pe jos' },
+      { tip: 'scoala', nume: 'Școala Gimnazială Liviu Rebreanu', distanta: '750 m · 9 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Sticlăriei', distanta: '800 m · 10 min pe jos' },
+      { tip: 'scoala', nume: 'Liceul Alexandru Ioan Cuza', distanta: '1 km · 14 min pe jos' },
+      { tip: 'medical', nume: 'Spitalul Clinic de Urgență Pantelimon', distanta: '1,8 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'Auchan Titan', distanta: '1,9 km · 5 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul IOR', distanta: '2,1 km · 5 min cu mașina' },
+      { tip: 'mall', nume: 'Mega Mall', distanta: '2,3 km · 8 min cu mașina' },
+      { tip: 'medical', nume: 'Policlinica Titan', distanta: '2,4 km · 6 min cu mașina' },
+      { tip: 'sport', nume: 'Arena Națională / Complex Sportiv Lia Manoliu', distanta: '2,7 km · 6 min cu mașina' },
+      { tip: 'medical', nume: 'Spitalul Clinic de Copii Victor Gomoiu', distanta: '2,8 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'ParkLake Shopping Center', distanta: '3,2 km · 10 min cu mașina' },
+      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '6,7 km · 14 min cu mașina' },
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan IOR — Neofort 50',

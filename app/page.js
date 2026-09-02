@@ -20,7 +20,7 @@ const webPageSchema = {
   isPartOf: { '@type': 'WebSite', '@id': `${BASE}/#website`, url: BASE, name: 'Neofort IMO' },
 }
 
-// AggregateRating — DOAR pe homepage, unde ratingul (4.3 / 107 recenzii) e
+// AggregateRating — DOAR pe homepage, unde ratingul (4.2 / 109 recenzii) e
 // afisat VIZIBIL in pagina. Era emis global din layout.js, pe fiecare pagina,
 // inclusiv unde recenziile nu apar nicaieri — neconform cu ghidul Google
 // privind markup-ul "self-serving" fara continut vizibil corespunzator.

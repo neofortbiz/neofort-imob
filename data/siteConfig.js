@@ -38,5 +38,5 @@ export const STR_LIVRATE = `${NR_LIVRATE}+`
 export const STR_ACTIVE = `${NR_ACTIVE}`
 
 // ── Rating Google (actualizat manual când se schimbă) ────────
-export const GOOGLE_RATING = '4.3'
-export const GOOGLE_REVIEWS = '107'
+export const GOOGLE_RATING = '4.2'
+export const GOOGLE_REVIEWS = '109'

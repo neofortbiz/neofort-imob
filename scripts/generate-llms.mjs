@@ -28,8 +28,8 @@ async function loadData() {
 // FOUNDING_YEAR trebuie sa fie identic cu cel din data/siteConfig.js
 const FOUNDING_YEAR = 2009
 const ANI = new Date().getFullYear() - FOUNDING_YEAR
-const GOOGLE_RATING = '4.3'
-const GOOGLE_REVIEWS = '107'
+const GOOGLE_RATING = '4.2'
+const GOOGLE_REVIEWS = '109'
 const BASE = 'https://www.neofort.ro'
 const TODAY = new Date().toISOString().split('T')[0]
 
