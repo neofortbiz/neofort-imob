@@ -183,17 +183,17 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
       interior: ['/ansambluri/neo-78/interior-01.avif','/ansambluri/neo-78/interior-02.avif','/ansambluri/neo-78/interior-03.avif','/ansambluri/neo-78/interior-04.avif','/ansambluri/neo-78/interior-05.avif','/ansambluri/neo-78/interior-06.avif','/ansambluri/neo-78/interior-07.avif','/ansambluri/neo-78/interior-08.avif'],
       schite: ['/ansambluri/neo-78/schite-01.avif','/ansambluri/neo-78/schite-02.avif','/ansambluri/neo-78/schite-03.avif','/ansambluri/neo-78/schite-04.avif','/ansambluri/neo-78/schite-05.avif','/ansambluri/neo-78/schite-06.avif','/ansambluri/neo-78/schite-07.avif','/ansambluri/neo-78/schite-08.avif','/ansambluri/neo-78/schite-09.avif','/ansambluri/neo-78/schite-10.avif'],
     },
-    descriereCompleta: `Pe strada Ardeleni din zona Moșilor-Eminescu, Sectorul 2, la exact 400 de metri — 5 minute pe jos — de Metrou Piața Obor (M2), Neofort 78 Faza 2 propune ceva rar în oferta imobiliară a Bucureștiului: un proiect boutique de 22 de apartamente cu finisaje Premium-Lux, cu predare în Septembrie 2026, cu tipologii care merg de la 58 mp până la 495.000€ pentru un duplex exclusivist.
+    descriereCompleta: `Pe strada Ardeleni din zona Moșilor-Eminescu, Sectorul 2, la 1,1 km — 12 minute pe jos — de Metrou Piața Obor (M2) și de Metrou Ștefan cel Mare (M2), Neofort 78 Faza 2 propune ceva rar în oferta imobiliară a Bucureștiului: un proiect boutique de 22 de apartamente cu finisaje Premium-Lux, cu predare în Septembrie 2026, cu tipologii care merg de la 58 mp până la 495.000€ pentru un duplex exclusivist.
 
 Regimul S+P+4ET+5R+6R+7R cu etajele 5, 6 și 7 retrase creează apartamente cu terase generoase la ultimele niveluri și o siluetă arhitecturală distinctă. Oferta curentă: 2 camere Tip 8, 57,50 mp, de la 190.000€; 2 camere Tip 17, 57,60 mp, de la 215.000€; 3 camere Tip 5, 80,40 mp, de la 285.000€; 3 camere Tip 18, 82,80 mp, de la 310.000€; 3 camere cu grădină la parter, 192,50 mp total incluzând grădina privată, de la 399.000€ — o raritate absolută în oferta de apartamente noi din București; 4 camere Duplex Tip 15, etajele 5-6, 123,40 mp, de la 499.000€. Parcare subterană 35.000€ + TVA.
 
 Finisajele Neofort 78 Faza 2 sunt în clasa Premium-Lux fără excepție. Parchetul din stejar stratificat și ceramica Italia în băi și spații comune sunt standardul de bază, nu opțiunile. Obiectele sanitare Rocca cu accesorii HansGrohe — unul dintre brandurile mondiale de referință pentru armături sanitare — și tâmplăria Salamander Blue Edition cu geam tripan definesc nivelul de comfort permanent al apartamentelor. Liftul Kone pentru 4 persoane este silențios și rapid. Fațada ventilată din alucobond și fibrociment conferă durabilitate de 40+ ani. Videointerfon cu supraveghere video și fibră optică Internet/TV incluse standard.
 
-Zona Moșilor-Eminescu beneficiază de o accesibilitate excepțională: Metrou Piața Obor (M2) la 400m asigură accesul spre Piața Universității în 5 minute și spre Piața Unirii în 8 minute. Piața Obor la 400m este cel mai mare complex comercial de tip open-air din București. Colegiul Național Mihai Eminescu la 5 minute pe jos și Liceul Teoretic Dimitrie Bolintineanu la 10 minute acoperă educația copiilor. Grădinița nr. 54 și nr. 82 la 5 minute pe jos. Parcul Circului la 10 minute pe jos. Spital Clinic Colentina și MedLife Obor la proximitate imediată. Autogara Obor și linii STB multiple la 400m.
+Zona Moșilor-Eminescu beneficiază de acces la Magistrala 2 prin două stații aflate la distanță egală: Metrou Piața Obor și Metrou Ștefan cel Mare, ambele la 1,1 km — 12 minute pe jos. Metrou Piața Iancului este la 1,8 km, Piața Universității la 2,1 km, iar Piața Romană la 2,5 km. Colegiul Național Mihai Eminescu se află la 3,4 km. Spitalul Clinic Colentina este la 7 minute cu mașina, iar Veranda Mall Obor la 8 minute. Parcurile din zonă — Lacul Tei, Plumbuita și Parcul Național — sunt accesibile în 10-15 minute cu mașina.
 
-Cumpărătorii care apreciază un proiect mic, cu comunitate restrânsă, finisaje care se văd și se simt, și o localizare cu metrou la 5 minute pe jos vor găsi în Neofort 78 Faza 2 o opțiune greu de egalat în Sectorul 2. Predare Septembrie 2026. Vânzare directă, fără comision de agenție.
+Cumpărătorii care apreciază un proiect mic, cu comunitate restrânsă, finisaje care se văd și se simt, și o localizare semicentrală cu acces la două stații de metrou pe Magistrala 2 vor găsi în Neofort 78 Faza 2 o opțiune greu de egalat în Sectorul 2. Predare Septembrie 2026. Vânzare directă, fără comision de agenție.
 
-Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care înțeleg că un proiect de 22 de unități cu finisaje HansGrohe, Salamander Blue Edition și parchet stejar la 400m de metrou Obor este o oportunitate care nu se repetă. Proiectele boutique de această calitate în Sectorul 2 semicentral se vând integral în prima fază de lansare. Predare Septembrie 2026. Parcare subterană 35.000€ + TVA. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.
+Neofort 78 Faza 2 este adresat unui segment specific de cumpărători: cei care înțeleg că un proiect de 22 de unități cu finisaje HansGrohe, Salamander Blue Edition și parchet stejar în semicentralul Sectorului 2 este o oportunitate care nu se repetă. Proiectele boutique de această calitate în Sectorul 2 semicentral se vând integral în prima fază de lansare. Predare Septembrie 2026. Parcare subterană 35.000€ + TVA. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.
 
 Neofort 78 Faza 2 este un proiect care se adresează unui profil de cumpărător bine definit: cel care a trăit în zone semicentrale ale Bucureștiului și știe valoarea lor, cel care a vizitat proiecte mari cu sute de unități și a simțit lipsa intimității, cel care înțelege că finisajele HansGrohe și Salamander Blue Edition nu sunt accesorii, ci standarde care afectează confortul zilnic pe zeci de ani.
 
@@ -201,7 +201,7 @@ Neofort 78 Faza 2 este un proiect care se adresează unui profil de cumpărător
 
 Zona Moșilor-Eminescu din Sectorul 2 a intrat într-un ciclu de revalorizare accelerat după 2020. Proximitatea față de Piața Obor și față de metroul Obor face zona extrem de atractivă pentru tinerii profesioniști care lucrează în centrul Bucureștiului. Piața imobiliară din zona Obor-Moșilor a înregistrat creșteri de 20-25% în 2023-2025, susținute de oferta limitată de proiecte noi de calitate și de cererea ridicată din partea cumpărătorilor care caută zona semicentrală la prețuri sub Sectoarele 1 și 2 premium.
 
-Apartamentele cu grădină la parter — 3 camere, 194,20 mp total incluzând grădina privată, de la 399.000€ — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată și metrou la 10 minute pe jos în semicentralul Bucureștiului este practic imposibil în altă parte. Această tipologie se revinde și se închiriază cu prime semnificative față de unitățile fără exterior, confirmând că raritatea se traduce în valoare adăugată pe termen lung. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision.
+Apartamentele cu grădină la parter — 3 camere, 194,20 mp total incluzând grădina privată, de la 399.000€ — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată în semicentralul Bucureștiului, cu acces la două stații de metrou pe Magistrala 2, este practic imposibil în altă parte. Această tipologie se revinde și se închiriază cu prime semnificative față de unitățile fără exterior, confirmând că raritatea se traduce în valoare adăugată pe termen lung. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision.
 
 Finisajele parchetului din stejar stratificat, ceramicii Italia și obiectelor sanitare Rocca cu armături HansGrohe sunt standarde care nu necesită înlocuire sau renovare în primii 20-30 de ani. Liftul Kone pentru 4 persoane, fațada ventilată din alucobond și fibrociment, videointerfon cu supraveghere video și fibră optică Internet/TV incluse completează un standard tehnic care justifică pe deplin încadrarea în segmentul Premium-Lux.
 
@@ -211,12 +211,12 @@ Neofort 78 Faza 2 este un proiect care se adresează unui profil de cumpărător
 
 Zona Moșilor-Eminescu din Sectorul 2 a intrat într-un ciclu de revalorizare accelerat după 2020. Proximitatea față de Piața Obor — reconsolidată ca hub comercial și de transport — și față de metroul Obor face zona extrem de atractivă pentru tinerii profesioniști care lucrează în centrul Bucureștiului sau în zona de nord și nord-vest. Piața imobiliară din zona Obor-Moșilor a înregistrat creșteri de 20-25% în 2023-2025, susținute de oferta limitată de proiecte noi de calitate și de cererea ridicată.
 
-Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată și metrou la 10 minute pe jos în semicentralul Bucureștiului este practic imposibil în altă parte. Prețul de 399.000€ pentru 194,20 mp (205€/mp) cu grădină privată, față de media pieței semicentrale de 2.500-3.500€/mp, reprezintă o oportunitate greu de argumentat împotriva. Vânzare directă, fără comision de agenție. În Sectorul 2, descoperiți și [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) — 13 apartamente boutique — sau [Neofort 8 Tepeș Vodă](/ansamblu-rezidential/neofort-8-tepes-voda-muncii) — proiect vândut integral — în apropiere de Piața Muncii. Pentru context investițional, vezi [analiza zonelor cu potențial de creștere din București](/blog/zone-bucuresti-potential-crestere-2027), care acoperă și Moșilor-Eminescu.`,
+Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o raritate absolută în Sectorul 2. A găsi un apartament nou cu grădină privată în semicentralul Bucureștiului, cu acces la două stații de metrou pe Magistrala 2, este practic imposibil în altă parte. Prețul de 399.000€ pentru 194,20 mp (205€/mp) cu grădină privată, față de media pieței semicentrale de 2.500-3.500€/mp, reprezintă o oportunitate greu de argumentat împotriva. Vânzare directă, fără comision de agenție. În Sectorul 2, descoperiți și [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) — 13 apartamente boutique — sau [Neofort 8 Tepeș Vodă](/ansamblu-rezidential/neofort-8-tepes-voda-muncii) — proiect vândut integral — în apropiere de Piața Muncii. Pentru context investițional, vezi [analiza zonelor cu potențial de creștere din București](/blog/zone-bucuresti-potential-crestere-2027), care acoperă și Moșilor-Eminescu.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.446553, lng: 26.119879 },
     zone: ['mosilor-eminescu', 'eminescu-viitorului', 'sector-2'],
     tipuri: ['2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 78 Faza 2, zona Moșilor-Eminescu, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA, cu grădini la parter și terase generoase. Metrou Piața Obor la 400m. Parchet stejar, ceramică Italia, obiecte sanitare Rocca-HansGrohe, tâmplărie Salamander Blue Edition, lift Kone.',
+    descriere: 'Ansamblul Rezidențial Neofort 78 Faza 2, zona Moșilor-Eminescu, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA, cu grădini la parter și terase generoase. Metrou Piața Obor și Ștefan cel Mare la 1,1 km. Parchet stejar, ceramică Italia, obiecte sanitare Rocca-HansGrohe, tâmplărie Salamander Blue Edition, lift Kone.',
     apartamente: [
       { tip: '2 cam. Tip 8', etaj: 'et. 1-7', suprafata: 57.50, avans20: 190000, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. Tip 17', etaj: 'et. 1-7', suprafata: 57.60, avans20: 215000, avans45: null, promo: false, camere: 2 },
@@ -228,21 +228,21 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 35000, notaTVA: '+TVA' } },
     dotari: ['Incalzire in pardoseala Tecce Germania', 'Centrala termica in condensatie', 'Tamplarie Salamander Blue Edition tripan', 'Lift Kone 4 persoane', 'Ceramica Italia bai si parti comune', 'Parchet stejar stratificat', 'Usi PINUM Italia', 'Obiecte sanitare Rocca / HansGrohe', 'Accesorii electrice BTicino Premium', 'Fatada ventilata alucobond+fibrociment', 'Videointerfon si supraveghere video', 'Internet/TV fibra optica'],
     puncteInteres: [
-      { tip: 'transport', nume: 'Piata Obor / Autogara Obor', distanta: '8 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Piata Obor (M2)', distanta: '10 min pe jos' },
-      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '10 min pe jos' },
-      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '2 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '7 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Stefan cel Mare (M2)', distanta: '8 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '9 min cu masina' },
-      { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '9 min cu masina' },
-      { tip: 'parc', nume: 'Parcul National', distanta: '11 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '14 min cu masina' },
-      { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '8 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Ștefan cel Mare (M2)', distanta: '1,1 km · 12 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Piața Obor (M2)', distanta: '1,1 km · 12 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Piața Iancului (M2)', distanta: '1,8 km · 20 min pe jos · 10 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Piața Universității (M2)', distanta: '2,1 km · 24 min pe jos · 8 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Piața Romană (M2)', distanta: '2,5 km · 25 min pe jos · 13 min cu mașina' },
+      { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '7 min cu mașina' },
+      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '8 min cu mașina' },
+      { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '10-12 min cu mașina' },
+      { tip: 'scoala', nume: 'Colegiul Național Mihai Eminescu', distanta: '3,4 km · 12-15 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '14 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Național', distanta: '15 min cu mașina' },
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Moșilor Eminescu — Neofort 78',
-    seoDescription: 'Neofort 78, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Piața Obor 400m.',
+    seoDescription: 'Neofort 78, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Obor și Ștefan cel Mare la 1,1 km.',
   },
   {
     slug: 'neofort-76-iuliu-maniu-metrou-pacii',
