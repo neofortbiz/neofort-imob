@@ -4091,7 +4091,7 @@ Dacă plănuiți să vă mutați la o dată specifică, calculați cu o marjă d
 Riscul 3: Fraudele imobiliare online
 Anunțuri cu prețuri prea mici față de piață, cereri de transferuri urgente, comunicare exclusiv prin email fără posibilitate de video call sau vizită la birou. Lucrați doar cu dezvoltatori verificabili: căutați CUI-ul la ONRC, verificați portofoliul finalizat, cereți referințe de la alți clienți din diasporă.
 
-Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu 105 recenzii (rating 4.3/5) și 17 ani de activitate verificabilă. Puteți verifica oricând.
+Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu 109 recenzii (rating 4,2/5) și 17 ani de activitate verificabilă. Puteți verifica oricând.
 
 Riscul 4: Pierderea facilităților fiscale din lipsă de informare
 [TVA 21% versus 9%](/blog/tva-apartamente-noi-2026) poate face o diferență de 10.000–15.000 EUR. Asigurați-vă că știți ce cotă se aplică tranzacției voastre înainte de semnare.`,
