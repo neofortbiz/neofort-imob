@@ -52,8 +52,23 @@
       "permanent": true
     },
     {
+      "source": "/portofoliu/neofort-82-titan-gura-putnei",
+      "destination": "/ansamblu-rezidential/neofort-82-titan-pallady",
+      "permanent": true
+    },
+    {
       "source": "/portofoliu/:slug([^.]+)",
       "destination": "/ansamblu-rezidential/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/ansamblu-rezidential/neofort-28-titan-pallady-faza-2",
+      "destination": "/ansamblu-rezidential/neofort-82-titan-pallady",
+      "permanent": true
+    },
+    {
+      "source": "/ansamblu-rezidential/neofort-82-titan-gura-putnei",
+      "destination": "/ansamblu-rezidential/neofort-82-titan-pallady",
       "permanent": true
     },
     {

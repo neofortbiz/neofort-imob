@@ -47,53 +47,6 @@ Neofort 85 ilustrează capacitatea Neofort IMO de a livra proiecte exclusiviste 
     ],
   },
   {
-    numar: 82,
-    slug: 'neofort-82-titan-gura-putnei',
-    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-82-titan-gura-putnei.avif',
-    nume: 'Neofort 82 Titan Gura Putnei',
-    zona: 'Titan-Pallady',
-    sector: 'Sector 3',
-    adresa: 'Zona Gura Putnei, lângă Parcul Teilor, Sector 3, București',
-    etaje: 'P+3',
-    totalApartamente: 9,
-    tipuri: ['Studio', '2 camere', '3 camere'],
-    status: 'vandut',
-    descriere: 'Ansamblu rezidențial Neofort 82 Titan Gura Putnei, amplasat în zona Parcul Teilor, în vecinătatea Bulevardelor 1 Decembrie 1918 și Theodor Pallady. Retras de zgomotul marilor bulevarde, structură cadre beton armat, cărămidă Porotherm, termosistem 100mm. Apartamente predate la cheie cu finisaje personalizate.',
-    dotari: ['Finisaje personalizate','Centrală apartament cu senzor gaz','Tâmplărie PVC Salamander','Termosistem 100mm','Compartimentare cărămidă','Contorizare individuală','Fără taxe mentenanță','Locuri de parcare'],
-    preturi: [
-      { tip: '2 cam. Tip 1 (50.50mp)', pret: 65650 },
-      { tip: '2 cam. Tip 2 (53.90mp)', pret: 70070 },
-      { tip: '2 cam. Tip 3 (58.60mp)', pret: 76180 },
-      { tip: '3 cam. Tip 1 (82.60mp)', pret: 107380 },
-      { tip: '3 cam. Tip 2 (91.50mp)', pret: 118950 },
-    ],
-    parcare: { suprateran: true, subteran: false },
-    broker: 'Info Neofort',
-    brokerTel: '0758090904',
-    brokerFoto: '/brokeri/info-neofort.avif',
-    descriereCompleta: `Cumpărătorii care înțeleg valoarea apartamentelor mici și bine localizate în Sectorul 3 știu că zona Titan-Pallady cu acces la Metrou Nicolae Teclu (M2) a generat aprecieri constante în ultimii ani. Neofort 82 Titan Gura Putnei a exploatat exact această localizare: 9 apartamente P+3 lângă Parcul Teilor, toate integral vândute, confirmând cererea reală pentru proiecte compacte și bine executate în estul Bucureștiului.
-
-Prețurile la momentul comercializării: 2 camere Tip 1, 50,50 mp, 65.650€; 2 camere Tip 2, 53,90 mp, 70.070€; 2 camere Tip 3, 58,60 mp, 76.180€; 3 camere Tip 1, 82,60 mp, 107.380€; 3 camere Tip 2, 91,50 mp, 118.950€. Parcare supraterană disponibilă. Prețurile pe metru pătrat — 1.200-1.300€/mp — au reflectat raportul corect calitate-localizare pentru zona Titan la momentul respectiv.
-
-Structura din cadre de beton armat cu zidărie cărămidă Porotherm și termosistem 100mm asigura o calitate constructivă superioară față de alternativele cu BCA sau panouri prefabricate. Finisajele personalizate la alegerea cumpărătorului au reprezentat un avantaj distinct față de proiectele cu finisaje standard impuse. Centrala de apartament cu senzor de gaz — o dotare de siguranță importantă adesea omisă în proiectele de segmentul entry, tâmplăria PVC Salamander, compartimentarea exclusiv din cărămidă pentru izolație fonică reală, contorizarea individuală și zero taxe de mentenanță au definit un standard cinstit și complet.
-
-Parcul Teilor în proximitate imediată — unul dintre parcurile verzi de referință din Sectorul 3. Metrou Nicolae Teclu (M2) la câteva minute — acces spre centrul Bucureștiului în 15 minute. Auchan Titan și Auchan Pallady la câteva minute cu mașina. IKEA Pallady, Jumbo, Dedeman, Metro și Leroy Merlin în apropiere. LIDL, Kaufland, JYSK și Decathlon în proximitate. Bulevardul Theodor Pallady și Bulevardul 1 Decembrie 1918 asigurau conectivitate rutieră excelentă. Zonele verzi Codrii, Trapezului și Ozana completau oferta de recreere.
-
-Vânzarea integrală a celor 9 unități demonstrează că zona Titan-Gura Putnei, retrasă de zgomotul bulevardelor principale dar cu acces rapid la metrou și la rețeaua comercială Pallady, a satisfăcut o cerere reală și consistentă. Proiectele Neofort IMO active în zona Titan-Pallady continuă această tradiție — consultă oferta curentă. Zona Titan-Pallady cu accesul la Metrou Nicolae Teclu (M2) la 500m a confirmat o cerere constantă pentru apartamente noi la prețuri competitive. IKEA Pallady la 14 minute pe jos, Auchan Titan și Jumbo/Leroy Merlin/Dedeman la câteva minute cu mașina. Waldorf București și Spectrum School la 500m — un avantaj educațional rar. Campus Medical Regina Maria Titan și MedLife Titan în proximitate. Apartamentele de 2 camere din zona Titan se închiriau cu 600-750€/lună — randament 10-12% față de prețul de achiziție, unul dintre cele mai ridicate din București. Cererea ridicată din zona Titan a confirmat că prețul pe mp de 1.200-1.300€ era corect față de valoarea localizării. Locuri de parcare disponibile. Consultanță bancară și juridică gratuită pe toată durata achiziției. Vânzare directă de la sursă, fără comision de agenție. Metrou Anghel Saligny (M2) la 100 metri de ansamblu — practic la ieșire din bloc — asigura accesul spre Piața Universității în 12 minute și spre Piața Unirii în 10 minute fără dependență de trafic. Metrou Nicolae Teclu (M2) la câteva minute cu mașina extindea conexiunile. Waldorf București și Spectrum School la 500m — alternativă educațională de renume la distanță de mers pe jos, un avantaj concret pentru familiile cu copii. Campus Medical Regina Maria Titan și MedLife Titan la 8-10 minute. Parcul Teilor la 8 minute pe jos — spațiu verde de calitate pentru relaxarea zilnică a rezidenților. IKEA Pallady la 14 minute pe jos, Auchan Titan la 8 minute, Jumbo, Leroy Merlin și Dedeman la 10-12 minute. Randamentul pentru apartamentele de 2 camere: 700-850€/lună chirie, reprezentând 12-15% randament brut față de prețul de achiziție de la 65.650€ — unul dintre cele mai ridicate din București. Consultanță bancară gratuită. Vânzare directă de la sursă, fără comision. Neofort IMO comercializa direct de la sursă, fără comision de agenție. Consultanță juridică gratuită pe toată durata procesului de achiziție. Colaborare cu toate băncile majore din România pentru cele mai competitive oferte de credit ipotecar. Taxe notariale reduse. Rezervare cu 2.000€ fixe indiferent de tipul de apartament.  Procesul de achizitie era simplificat si transparent. Consultanta juridica gratuita. Finantare bancara facilitata fara costuri suplimentare.`,
-    puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '500m' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '500m' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin / Dedeman Pallady', distanta: '8 min pe jos' },
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '10 min pe jos' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '4 min cu masina' },
-      { tip: 'mall', nume: 'Auchan Titan / Auchan Pallady', distanta: '4 min cu masina' },
-      { tip: 'medical', nume: 'Regina Maria Titan / MedLife Titan', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '5 min cu masina' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '6 min cu masina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '10 min cu masina' },
-    ],
-  },
-  {
     numar: 81,
     slug: 'neofort-81-morarilor',
     cover: '/portofoliu/apartamente-noi-bucuresti-neofort-81-morarilor.avif',

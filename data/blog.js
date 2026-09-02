@@ -1173,7 +1173,7 @@ Proiect finalizat în zona Teclu, disponibil pentru mutare imediată. Potrivit p
 [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) — predare în curând
 Proiect în construcție în zona Teclu–Pallady. Contactați echipa Neofort pentru configurații disponibile și prețuri actualizate.
 
-[Neofort 28 Titan Pallady Faza 2](/ansamblu-rezidential/neofort-28-titan-pallady-faza-2) — predare 30.09.2026
+[Neofort 82 Titan Pallady](/ansamblu-rezidential/neofort-82-titan-pallady) — predare 30.09.2026
 Faza 2 a unuia dintre proiectele cu cea mai îndelungată prezență Neofort în zonă. Predare planificată pentru septembrie 2026.
 
 [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) — predare în curând
@@ -3737,7 +3737,7 @@ Titan–Pallady este potrivit și pentru investiție, nu doar pentru locuit?
 Da. Randamentul brut la închiriere este de 4,1% și randamentul net de 2,8-3,2% — modest ca randament curent, dar completat de aprecierea capitalului de 95% în 6 ani. Investitorii din diasporă reprezintă 30-40% din tranzacțiile Neofort IMO în zonă în anumite perioade.
 
 Ce ansambluri active are Neofort IMO în zona Titan–Pallady în 2026?
-Neofort IMO are 6 proiecte active în zonă: [Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady), [Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady), [Neofort 56](/ansamblu-rezidential/neofort-56-pallady-titan-teclu), [Neofort 44](/ansamblu-rezidential/neofort-44-titan-pallady-teclu), [Neofort 28 Faza 2](/ansamblu-rezidential/neofort-28-titan-pallady-faza-2) și [Neofort 28 Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu). Vânzare directă, fără comision de agenție.`,
+Neofort IMO are 6 proiecte active în zonă: [Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady), [Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady), [Neofort 56](/ansamblu-rezidential/neofort-56-pallady-titan-teclu), [Neofort 44](/ansamblu-rezidential/neofort-44-titan-pallady-teclu), [Neofort 82](/ansamblu-rezidential/neofort-82-titan-pallady) și [Neofort 28 Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu). Vânzare directă, fără comision de agenție.`,
       },
       {
         id: 'concluzie',

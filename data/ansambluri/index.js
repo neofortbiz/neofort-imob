@@ -712,10 +712,10 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
     seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 215.500€+TVA. Metrou Piața Muncii 200m.',
   },
   {
-    slug: 'neofort-28-titan-pallady-faza-2',
-    numar: 28,
+    slug: 'neofort-82-titan-pallady',
+    numar: 82,
     coordonate: { lat: 44.4114, lng: 26.1986 },
-    nume: 'Neofort 28 Titan Pallady Faza 2',
+    nume: 'Neofort 82 Titan Pallady',
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
     adresa: 'Bulevardul Theodor Pallady, Sector 3, București',
@@ -733,7 +733,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
       interior: ['/ansambluri/neo-28f2/interior-01.avif','/ansambluri/neo-28f2/interior-02.avif','/ansambluri/neo-28f2/interior-03.avif','/ansambluri/neo-28f2/interior-04.avif','/ansambluri/neo-28f2/interior-05.avif'],
       schite: ['/ansambluri/neo-28f2/schite-01.avif','/ansambluri/neo-28f2/schite-02.avif','/ansambluri/neo-28f2/schite-03.avif','/ansambluri/neo-28f2/schite-04.avif','/ansambluri/neo-28f2/schite-05.avif','/ansambluri/neo-28f2/schite-06.avif','/ansambluri/neo-28f2/schite-07.avif'],
     },
-    descriereCompleta: `Neofort 28 Faza 2 este continuarea proiectului Neofort 28 din zona Titan-Pallady, amplasat pe Bulevardul Theodor Pallady din Sectorul 3, București. Complexul este finalizat și disponibil pentru achiziție imediată, cu apartamente cu 2 și 3 camere, dotări premium importate din Italia și Spania și acces rapid la metroul Nicolae Teclu (M2).
+    descriereCompleta: `Neofort 82 Titan Pallady este un ansamblu rezidențial din zona Titan-Pallady, amplasat pe Bulevardul Theodor Pallady din Sectorul 3, București. Complexul este finalizat și disponibil pentru achiziție imediată, cu apartamente cu 2 și 3 camere, dotări premium importate din Italia și Spania și acces rapid la metroul Nicolae Teclu (M2).
 
 Imobilul are regim D+P+4E, structură din beton armat de 30 cm grosime și compartimentări din cărămidă Porotherm pentru izolație termică și fonică superioară. Termosistemul de fațadă cu EPS 80 de 10 cm asigură performanță energetică ridicată și costuri de întreținere reduse pe termen lung. Fiecare apartament este echipat cu sistem de microventilație, centrală termică proprie în condensare și kit preinstalat pentru aer condiționat. Încălzirea se realizează prin pardoseală în toate camerele, inclusiv în băi, iar portprosoavele instalate în băi adaugă un plus de confort zilnic.
 
@@ -745,7 +745,7 @@ Infrastructura medicală include Campusul Medical Regina Maria Titan, MedLife Ti
 
 Dotări Premium — Finisaje din Italia și Spania
 
-Fiecare apartament din Neofort 28 Faza 2 se predă complet finisat, fără costuri suplimentare ascunse. Ușile de acces securizate PINUM BLINDO 3 (Italia) ating standardul de securitate certificat european. Ușile interioare celulare albe PINUM (Italia) și tâmplăria PVC cu geam tripan — trei foi de sticlă — asigură izolație termică și fonică maximă și reduc semnificativ zgomotul urban și pierderile de căldură pe timp de iarnă. Glafurile interioare sunt din marmură naturală, cele exterioare din aluminiu anodizat.
+Fiecare apartament din Neofort 82 Titan Pallady se predă complet finisat, fără costuri suplimentare ascunse. Ușile de acces securizate PINUM BLINDO 3 (Italia) ating standardul de securitate certificat european. Ușile interioare celulare albe PINUM (Italia) și tâmplăria PVC cu geam tripan — trei foi de sticlă — asigură izolație termică și fonică maximă și reduc semnificativ zgomotul urban și pierderile de căldură pe timp de iarnă. Glafurile interioare sunt din marmură naturală, cele exterioare din aluminiu anodizat.
 
 Balcoanele și terasele beneficiază de hidroizolație dublă, gresie de proveniență italiană, picurătoare Profilitec (Italia), pardoseală flotantă și balustradă metalică vopsită în câmp electrostatic negru mat. Balustradele din inox de pe scările interioare și obiectele sanitare suspendate în băi completează finisajele interioare. Liftul silențios ORONA (Spania) asigură confort în deplasarea verticală. Incinta este împrejmuită cu acces controlat prin sistem de interfon video, asigurând securitatea rezidenților.
 
@@ -834,7 +834,7 @@ Tâmplăria Salamander tripan Low-E cu microventilație este o dotare cu impact 
 
 Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă asigură o securitate reală, nu aparentă: accesul auto și pietonal este controlat, iar imaginile video sunt disponibile pentru revizuire. Aceasta este o dotare valoroasă mai ales pentru familiile cu copii mici care se pot juca în incintă fără supraveghere permanentă.
 
-Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucureștiului: angajații care lucrează în zona centrală sau de est preferă accesul la M2 față de traficul rutier. Chiria pentru apartamente de 2 camere în Titan-Pallady este de 550-700€/lună în 2025, în creștere față de 450-550€ în 2022. Randamentul brut de 7-8,5% anual plasează Titan-Pallady printre cele mai atractive zone de investiție locativă din București. Apartamentele cu curte din Neofort 28 se închiriază cu o primă de 15-20% față de unitățile standard, datorită cererii ridicate din partea familiilor cu copii sau animale. Vânzare directă, fără comision. Vedeți și [Neofort 28 Titan Pallady Faza 2](/ansamblu-rezidential/neofort-28-titan-pallady-faza-2) cu finisaje PINUM Italia, sau [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) cu metroul la 20m. Citește și analiza [promoțiilor active din Titan-Pallady](/blog/apartamente-noi-titan-pallady-teclu-promotii-2026).`,
+Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucureștiului: angajații care lucrează în zona centrală sau de est preferă accesul la M2 față de traficul rutier. Chiria pentru apartamente de 2 camere în Titan-Pallady este de 550-700€/lună în 2025, în creștere față de 450-550€ în 2022. Randamentul brut de 7-8,5% anual plasează Titan-Pallady printre cele mai atractive zone de investiție locativă din București. Apartamentele cu curte din Neofort 28 se închiriază cu o primă de 15-20% față de unitățile standard, datorită cererii ridicate din partea familiilor cu copii sau animale. Vânzare directă, fără comision. Vedeți și [Neofort 82 Titan Pallady](/ansamblu-rezidential/neofort-82-titan-pallady) cu finisaje PINUM Italia, sau [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) cu metroul la 20m. Citește și analiza [promoțiilor active din Titan-Pallady](/blog/apartamente-noi-titan-pallady-teclu-promotii-2026).`,
     brokerTel: '0752 443 437',
     coordonate: { lat: 44.411192, lng: 26.198428 },
     zone: ['titan-pallady', 'sector-3'],
