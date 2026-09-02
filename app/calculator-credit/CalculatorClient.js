@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 const ANSAMBLURI = [
   { slug: 'neofort-84-titan-pallady',            nume: 'Neofort 84 Titan Pallady',       pret: 62114  },
   { slug: 'neofort-83-titan-pallady',            nume: 'Neofort 83 Titan Pallady',       pret: 64800  },
+  { slug: 'neofort-82-titan-pallady',            nume: 'Neofort 82 Titan Pallady',       pret: 85900  },
   { slug: 'neofort-78-mosilor-eminescu',         nume: 'Neofort 78 Moșilor-Eminescu',    pret: 190000 },
   { slug: 'neofort-76-iuliu-maniu-metrou-pacii', nume: 'Neofort 76 Iuliu Maniu',         pret: 218409 },
   { slug: 'neofort-56-pallady-titan-teclu',      nume: 'Neofort 56 Pallady Titan',       pret: 184691 },
@@ -11,7 +12,6 @@ const ANSAMBLURI = [
   { slug: 'neofort-49-militari-metrou-gorjului', nume: 'Neofort 49 Militari',            pret: 77800  },
   { slug: 'neofort-44-titan-pallady-teclu',      nume: 'Neofort 44 Titan Pallady Teclu', pret: 61775  },
   { slug: 'neofort-42-piata-muncii',             nume: 'Neofort 42 Piața Muncii',        pret: 197056 },
-  { slug: 'neofort-82-titan-pallady',            nume: 'Neofort 82 Titan Pallady',       pret: 85900  },
   { slug: 'neofort-28-titan-pallady-teclu',      nume: 'Neofort 28 Pallady Teclu',       pret: 83900  },
   { slug: 'neofort-11-eminescu-viitorului',      nume: 'Neofort 11 Eminescu',            pret: 104640 },
 ]

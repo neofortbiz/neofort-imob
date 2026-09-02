@@ -11,6 +11,7 @@
 export const CONTACT_MAP = {
   'neofort-84-titan-pallady': { nume: 'Neofort 84 Titan Pallady', numar: 84, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0743 250 029' },
   'neofort-83-titan-pallady': { nume: 'Neofort 83 Titan Pallady', numar: 83, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
+  'neofort-82-titan-pallady': { nume: 'Neofort 82 Titan Pallady', numar: 82, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-78-mosilor-eminescu': { nume: 'Neofort 78 Mosilor-Eminescu', numar: 78, zona: 'Mosilor-Eminescu', sector: 'Sector 2', brokerTel: '0752 443 434' },
   'neofort-76-iuliu-maniu-metrou-pacii': { nume: 'Neofort 76 Iuliu Maniu Metrou Pacii', numar: 76, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
   'neofort-56-pallady-titan-teclu': { nume: 'Neofort 56 Pallady Titan', numar: 56, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
@@ -18,7 +19,6 @@ export const CONTACT_MAP = {
   'neofort-49-militari-metrou-gorjului': { nume: 'Neofort 49 Militari Metrou Gorjului', numar: 49, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
   'neofort-44-titan-pallady-teclu': { nume: 'Neofort 44 Titan Pallady Teclu', numar: 44, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-42-piata-muncii': { nume: 'Neofort 42 Piata Muncii', numar: 42, zona: 'Piata Muncii', sector: 'Sector 3', brokerTel: '0757 077 057' },
-  'neofort-82-titan-pallady': { nume: 'Neofort 82 Titan Pallady', numar: 82, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-28-titan-pallady-teclu': { nume: 'Neofort 28 Titan Pallady', numar: 28, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0752 443 437' },
   'neofort-11-eminescu-viitorului': { nume: 'Neofort 11 Eminescu Viitorului', numar: 11, zona: 'Eminescu-Viitorului', sector: 'Sector 2', brokerTel: '0752 443 434' },
 }
@@ -42,7 +42,7 @@ export const ZONE_LINKS = [
 
 // Hash-ul continutului datelor — folosit de generator ca sa stie daca
 // datele s-au modificat intre build-uri. NU folosi in aplicatie.
-export const DATA_HASH = '8db15a6124d14cab'
+export const DATA_HASH = 'b8bcb3340e6e2057'
 
 // Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
 // Folosita de sitemap.js pentru lastmod corect.
