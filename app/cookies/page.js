@@ -24,7 +24,6 @@ const COOKIE_TYPES = [
     culoare: '#2d7a3a',
     descriere: 'Esential pentru functionarea de baza a site-ului. Nu pot fi dezactivate.',
     exemple: [
-      { nume: 'neofort_recent_v2', durata: 'Persistent (localStorage)', scop: 'Retine ultimele ansambluri vizitate pentru sortare personalizata' },
       { nume: 'NEXT_LOCALE', durata: '1 an', scop: 'Retine preferinta de limba' },
     ],
   },

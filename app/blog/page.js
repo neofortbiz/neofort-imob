@@ -31,6 +31,19 @@ async function getViews(slugs) {
   }
 }
 
+// Ultimul articol accesat global (Redis ZSET). Gol daca Redis e indisponibil
+// sau daca nimeni n-a citit inca niciun articol -> se cade pe cel mai recent publicat.
+async function getUltimulAccesat() {
+  try {
+    const res = await fetch(`${BASE}/api/views?recent=blog&limit=1`, { next: { revalidate: 60 } })
+    if (!res.ok) return null
+    const d = await res.json()
+    return d.recent?.[0] || null
+  } catch {
+    return null
+  }
+}
+
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -45,11 +58,10 @@ export default async function BlogPage() {
     new Date(b.dataISO) - new Date(a.dataISO)
   )
   const views = await getViews(ARTICOLE_SORTATE.map(a => a.slug))
-  // Featured = articolul cu cele mai multe vizualizari
-  const featured_slug = ARTICOLE_SORTATE.reduce((best, a) =>
-    (views[a.slug] || 0) > (views[best.slug] || 0) ? a : best
-  , ARTICOLE_SORTATE[0])
-  const FEATURED = featured_slug
+  // Featured = ultimul articol accesat global (Redis).
+  // Fallback (Redis indisponibil / slug inexistent / nimeni n-a citit inca): cel mai recent publicat.
+  const ultimulSlug = await getUltimulAccesat()
+  const FEATURED = ARTICOLE_SORTATE.find(a => a.slug === ultimulSlug) || ARTICOLE_SORTATE[0]
   const REST = ARTICOLE_SORTATE.filter(a => a.slug !== FEATURED.slug)
   // Categorii cu numar calculat DINAMIC din articole (nu hardcodat) — reflecta mereu realitatea
   const CULORI_CAT = Object.fromEntries(CATEGORII.map(c => [c.label, c.color]))
@@ -86,10 +98,10 @@ export default async function BlogPage() {
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-10">
             <div>
-              {/* FEATURED — articolul cu cele mai multe vizualizari */}
+              {/* FEATURED — ultimul articol accesat global (Redis) */}
               {FEATURED && (
                 <div className="mb-10">
-                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Cel mai recent</p>
+                  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-3">Recent accesat</p>
                   <Link href={`/blog/${FEATURED.slug}`} className="group block">
                     <div className="relative rounded-2xl overflow-hidden mb-4" style={{ paddingBottom: '56.25%', position: 'relative' }}>
                       {FEATURED.image && <img src={FEATURED.image} alt={FEATURED.titlu} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: FEATURED.imagePosition || 'center center' }} className="group-hover:scale-105 transition-transform duration-700" loading="eager" />}

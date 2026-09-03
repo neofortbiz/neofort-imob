@@ -104,21 +104,18 @@ export default function HomePageClient() {
   const [shown, setShown] = useState(STEP)
   const [recentSlugs, setRecentSlugs] = useState([])
 
+  // Ordinea proiectelor urmeaza lista GLOBALA "recent accesate" (Redis),
+  // nu istoricul local al vizitatorului. Marcarea accesului se face
+  // server-side, la deschiderea paginii de ansamblu (components/MarcheazaAcces.js),
+  // deci prinde si intrarile directe din Google/social, nu doar click-urile de aici.
   useEffect(() => {
-    try {
-      const r = localStorage.getItem('neofort_recent_v2')
-      if (r) setRecentSlugs(JSON.parse(r))
-    } catch {}
+    let anulat = false
+    fetch('/api/views?recent=ansambluri&limit=12')
+      .then(r => r.json())
+      .then(d => { if (!anulat && Array.isArray(d.recent)) setRecentSlugs(d.recent) })
+      .catch(() => {})
+    return () => { anulat = true }
   }, [])
-
-  function markRecent(slug) {
-    try {
-      const prev = JSON.parse(localStorage.getItem('neofort_recent_v2') || '[]')
-      const next = [slug, ...prev.filter(s => s !== slug)].slice(0, 6)
-      localStorage.setItem('neofort_recent_v2', JSON.stringify(next))
-      setRecentSlugs(next)
-    } catch {}
-  }
 
   const sortedAnsambluri = [...ANSAMBLURI_LITE].sort((a, b) => {
     const ai = recentSlugs.indexOf(a.slug)
@@ -458,7 +455,6 @@ export default function HomePageClient() {
                   const isRecent = recentSlugs.includes(a.slug) && recentSlugs.indexOf(a.slug) === 0
                   return (
                     <Link key={a.slug} href={`/ansamblu-rezidential/${a.slug}`}
-                      onClick={() => markRecent(a.slug)}
                       className="group border border-gray-300 rounded-xl overflow-hidden bg-white hover:border-gray-500 hover:shadow-sm transition-all">
                       <div className="aspect-square bg-gray-100 relative overflow-hidden">
                         {a.imagini?.cover ? (

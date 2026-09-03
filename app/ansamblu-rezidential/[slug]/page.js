@@ -9,6 +9,7 @@ import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
 import { getOricareAnsambluPortofoliu, TOATE_PORTOFOLIU } from '@/data/portofoliu'
 import AnsambluVandut from '@/components/AnsambluVandut'
+import MarcheazaAcces from '@/components/MarcheazaAcces'
 
 const BASE = 'https://www.neofort.ro'
 const TEL = '0758090904'
@@ -262,6 +263,7 @@ export default function AnsambluPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header activePath="/ansambluri-rezidentiale" />
+      <MarcheazaAcces slug={a.slug} />
       <main>
         {/* BREADCRUMB */}
         <div className="hidden md:block border-b border-gray-100 px-6 py-2.5">

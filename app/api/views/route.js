@@ -17,6 +17,23 @@ async function getClient() {
 export async function GET(request) {
   const { searchParams } = new URL(request.url)
 
+  // Lista globala "recent accesate" — ZSET, cel mai recent primul.
+  // GET /api/views?recent=blog  |  GET /api/views?recent=ansambluri
+  const recentScope = searchParams.get('recent')
+  if (recentScope) {
+    if (recentScope !== 'blog' && recentScope !== 'ansambluri') {
+      return Response.json({ recent: [] })
+    }
+    const limit = Math.min(parseInt(searchParams.get('limit') || '12'), 50)
+    try {
+      const redis = await getClient()
+      const slugs = await redis.zRange(`recent:${recentScope}`, 0, limit - 1, { REV: true })
+      return Response.json({ recent: slugs || [] })
+    } catch {
+      return Response.json({ recent: [] })
+    }
+  }
+
   // Batch request
   const slugsParam = searchParams.get('slugs')
   if (slugsParam) {
@@ -67,8 +84,14 @@ export async function POST(request) {
   const slug = searchParams.get('slug')
   if (!slug) return Response.json({ views: 0 })
 
-  // Bot -> returneaza valoarea curenta, FARA incrementare si fara scriere in Redis
+  // scope=ansambluri -> marcheaza DOAR accesul recent (proiectele nu au contor de vizualizari).
+  // Fara scope (implicit 'blog') -> incrementeaza contorul SI marcheaza accesul recent.
+  const scope = searchParams.get('scope') === 'ansambluri' ? 'ansambluri' : 'blog'
+
+  // Bot -> nu scrie nimic in Redis (nici contor, nici "recent accesat").
+  // Altfel crawlerii ar decide ce apare ca "Recent accesat" pe site.
   if (isBot(request)) {
+    if (scope === 'ansambluri') return Response.json({ ok: true })
     try {
       const redis = await getClient()
       const views = await redis.get(`views:${slug}`)
@@ -80,9 +103,12 @@ export async function POST(request) {
 
   try {
     const redis = await getClient()
+    // Marcheaza accesul recent (scor = timestamp; ZADD suprascrie scorul daca slug-ul exista)
+    await redis.zAdd(`recent:${scope}`, [{ score: Date.now(), value: slug }])
+    if (scope === 'ansambluri') return Response.json({ ok: true })
     const views = await redis.incr(`views:${slug}`)
     return Response.json({ views })
   } catch {
-    return Response.json({ views: 0 })
+    return Response.json(scope === 'ansambluri' ? { ok: false } : { views: 0 })
   }
 }
