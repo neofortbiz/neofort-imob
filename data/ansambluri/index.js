@@ -210,7 +210,7 @@ Potențial de Investiție în Zona Titan-Pallady
 
 Zona Titan-Pallady înregistrează o cerere constantă de chiriași, susținută de proximitatea față de metroul Nicolae Teclu, polul comercial Pallady și companiile din estul Capitalei. Un apartament cu 2 camere finalizat în această zonă generează o chirie de 400-500 EUR/lună, rezultând un randament brut de 4,5-5,5% anual față de prețul de achiziție. Proiectul se predă complet finisat și echipat, fără costuri suplimentare de amenajare pentru investitor.
 
-Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competitiv față de media zonei Pallady pentru proiecte finalizate cu dotări comparabile. Creșterile de valoare documentate în zona Titan-Pallady din ultimii ani confirmă potențialul de apreciere al capitalului investit pe termen mediu și lung. Neofort 28 Faza 2 se adresează atât familiilor tinere care caută un apartament nou finalizat cu dotări complete, cât și investitorilor interesați de randamente stabile din chirii în una dintre cele mai căutate zone rezidențiale din Sectorul 3 al Bucureștiului. Calitatea construcției, dotările complete și localizarea față de metrou și polul comercial Pallady asigură o lichiditate ridicată a proprietății atât la revânzare cât și pe piața de închiriere pe termen lung. Explorați și [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) — apartamente cu curte proprie 50mp — sau [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) în aceeași zonă. Vezi și [ghidul complet pentru apartamente în zona Titan-Pallady-Teclu](/blog/apartamente-de-vanzare-titan-pallady-teclu).`,
+Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competitiv față de media zonei Pallady pentru proiecte finalizate cu dotări comparabile. Creșterile de valoare documentate în zona Titan-Pallady din ultimii ani confirmă potențialul de apreciere al capitalului investit pe termen mediu și lung. Neofort 82 Titan Pallady se adresează atât familiilor tinere care caută un apartament nou finalizat cu dotări complete, cât și investitorilor interesați de randamente stabile din chirii în una dintre cele mai căutate zone rezidențiale din Sectorul 3 al Bucureștiului. Calitatea construcției, dotările complete și localizarea față de metrou și polul comercial Pallady asigură o lichiditate ridicată a proprietății atât la revânzare cât și pe piața de închiriere pe termen lung. Explorați și [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) — apartamente cu curte proprie 50mp — sau [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) în aceeași zonă. Vezi și [ghidul complet pentru apartamente în zona Titan-Pallady-Teclu](/blog/apartamente-de-vanzare-titan-pallady-teclu).`,
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 60.90, avans20: 85900, promo: false, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 62.15, avans20: 89900, promo: false, camere: 2 },
@@ -240,8 +240,8 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '3 camere'],
     tag: null,
-    seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 28 Faza 2',
-    seoDescription: 'Neofort 28 Faza 2, Titan-Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje premium PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
+    seoTitle: 'Ansamblu Rezidențial Neofort 82 Titan Pallady',
+    seoDescription: 'Neofort 82 Titan Pallady, Sector 3. Apartamente 2-3 camere finalizate de la 85.900€+TVA. Finisaje premium PINUM Italia, lift ORONA. Metrou Nicolae Teclu 5 min.',
   },
   {
     slug: 'neofort-78-mosilor-eminescu',

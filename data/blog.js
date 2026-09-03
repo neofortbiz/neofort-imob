@@ -1174,10 +1174,10 @@ Proiect finalizat în zona Teclu, disponibil pentru mutare imediată. Potrivit p
 Proiect în construcție în zona Teclu–Pallady. Contactați echipa Neofort pentru configurații disponibile și prețuri actualizate.
 
 [Neofort 82 Titan Pallady](/ansamblu-rezidential/neofort-82-titan-pallady) — predare 30.09.2026
-Faza 2 a unuia dintre proiectele cu cea mai îndelungată prezență Neofort în zonă. Predare planificată pentru septembrie 2026.
+Ansamblu finalizat în zona Titan-Pallady, cu una dintre cele mai îndelungate prezențe Neofort în zonă. Predare planificată pentru septembrie 2026.
 
 [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) — predare în curând
-Proiect cu numărul de ansamblu 28, localizare distinctă față de Faza 2. Contactați-ne pentru detalii despre configurații și disponibilitate.
+Proiect cu numărul de ansamblu 28, localizare distinctă față de Neofort 82. Contactați-ne pentru detalii despre configurații și disponibilitate.
 
 Avantajul comun al tuturor celor 6 proiecte: vânzare directă de la Neofort IMO, fără comision de agenție. Prețul publicat este prețul final. Consultanță juridică și bancară gratuită pentru toți cumpărătorii.`,
       },
@@ -1190,7 +1190,7 @@ Harta accesului la metrou pentru proiectele active Neofort:
 
 Neofort 83 — Metrou Anghel Saligny (M2) la 20m. Practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întreg portofoliul Neofort activ și dintre cele mai bune din zona Pallady în general. Metrou Teclu la 17 minute pe jos.
 
-Neofort 28 Faza 2 și Neofort 28 Teclu — în zona stației Nicolae Teclu, la câteva minute pe jos. Stația Nicolae Teclu (M2) asigură accesul direct spre centru: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute.
+Neofort 82 Titan Pallady și Neofort 28 Teclu — în zona stației Nicolae Teclu, la câteva minute pe jos. Stația Nicolae Teclu (M2) asigură accesul direct spre centru: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute.
 
 Neofort 44 și Neofort 56 — zona Teclu–Pallady, acces metrou în 5–12 minute pe jos la stațiile Nicolae Teclu sau 1 Decembrie 1918.
 
@@ -1325,7 +1325,7 @@ Da, pentru proiectele cu apartamente model disponibile. Contactați brokerul res
 Prețul de start pentru un apartament nou de 2 camere în zona Titan–Pallady–Teclu este 62.114 EUR (TVA exclus) la Neofort 84, cu avans 45%. La avans 20%, prețul de intrare este de 64.800 EUR pentru o garsonieră la Neofort 83. Sunt cele mai accesibile prețuri pentru apartamente noi cu acces la metrou în București.
 
 Care ansamblu din Titan–Pallady–Teclu este cel mai aproape de metrou?
-Neofort 83 Titan Pallady are Metroul Anghel Saligny (M2) la 20 de metri — practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întregul portofoliu Neofort activ. Neofort 28 Faza 2 și Neofort 28 Teclu se află și ele în proximitatea stației Nicolae Teclu.
+Neofort 83 Titan Pallady are Metroul Anghel Saligny (M2) la 20 de metri — practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întregul portofoliu Neofort activ. Neofort 82 Titan Pallady și Neofort 28 Teclu se află și ele în proximitatea stației Nicolae Teclu.
 
 Pot cumpăra un apartament în Titan–Pallady prin programul Noua Casă?
 Da, pentru proiectele eligibile unde prețul total (TVA inclus) nu depășește plafonul programului. Neofort IMO colaborează cu toate băncile majore (BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank) și facilitează gratuit procesul de documentație pentru Noua Casă.
