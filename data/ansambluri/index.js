@@ -739,23 +739,23 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
       interior: ['/ansambluri/neo-42/interior-01.avif'],
       schite: ['/ansambluri/neo-42/schite-01.avif','/ansambluri/neo-42/schite-02.avif','/ansambluri/neo-42/schite-03.avif','/ansambluri/neo-42/schite-04.avif','/ansambluri/neo-42/schite-05.avif','/ansambluri/neo-42/schite-06.avif','/ansambluri/neo-42/schite-07.avif','/ansambluri/neo-42/schite-08.avif','/ansambluri/neo-42/schite-09.avif','/ansambluri/neo-42/schite-10.avif','/ansambluri/neo-42/schite-11.avif','/ansambluri/neo-42/schite-12.avif','/ansambluri/neo-42/schite-13.avif','/ansambluri/neo-42/schite-14.avif','/ansambluri/neo-42/schite-15.avif','/ansambluri/neo-42/schite-16.avif','/ansambluri/neo-42/schite-17.avif','/ansambluri/neo-42/schite-18.avif','/ansambluri/neo-42/schite-19.avif','/ansambluri/neo-42/schite-20.avif','/ansambluri/neo-42/schite-21.avif'],
     },
-    descriereCompleta: `La 200 de metri de Metrou Piața Muncii (M3) și la 400 de metri de Parcul Național — fostul Parc Carol, unul dintre cele mai frumoase parcuri istorice ale Bucureștiului — Neofort 42 Piața Muncii propune o formulă rară: apartamente premium cu tehnologie verde și smart, în inima semicentrală a Sectorului 3.
+    descriereCompleta: `La 300 de metri de Metrou Piața Muncii (M3) și la 400 de metri de Parcul Național — fostul Parc Carol, unul dintre cele mai frumoase parcuri istorice ale Bucureștiului — Neofort 42 Piața Muncii propune o formulă rară: apartamente premium cu tehnologie verde și smart, în inima semicentrală a Sectorului 3.
 
 64 de apartamente S+P+4 finalizate. Prețuri curente: 2 camere Tip 4, 61,58 mp, de la 215.500€; 2 camere Tip 5, 62,31 mp, de la 218.085€; 2 camere Tip 6, 63,47 mp, de la 222.145€; 2 camere Tip 7, 64,21 mp, de la 224.735€; 4 camere Tip 1, 139,20 mp, de la 487.200€; 4 camere Tip 2, 140,67 mp, de la 492.345€. Prețuri + TVA, avans 20%. Parcare subterană sistem Klaus la 22.500€ + TVA.
 
 Neofort 42 include standard dotări care la alte proiecte sunt opțiuni premium plătite separat: panouri solare și fotovoltaice integrate în clădire — reduci factura de energie electrică a spațiilor comune cu 30-40%; stații de încărcare auto electrică în parcare — pregătit pentru mobilitatea viitorului; termostat wireless Smart în fiecare cameră — control individual al temperaturii din telefon; sistem de management energetic inteligent. Alături de acestea: 2 lifturi SCHINDLER de mare viteză, parcare subterană sistem Klaus, adăpost ALA autorizat ISU, tâmplărie SALAMANDER/VEKA tripan, uși PINUM/PORTA DOORS, centrală Buderus de înaltă eficiență, gresie și faianță Marazzi rectificată, balustrade din sticlă securizată și încălzire în pardoseală.
 
-Piața Muncii este una dintre zonele cu cea mai rapidă apreciere a valorii imobiliare din București în ultimii ani, alimentată de renovarea Parcului Național și de investițiile publice în infrastructura semicentrală. Metrou Piața Muncii (M3) la 200m — 3 minute pe jos — spre Piața Unirii în 4 minute. Metrou Dristor 2 la 10 minute pe jos. Parcul Național la 400m. Arena Națională la 5 minute pe jos. Bazin Olimpic Lia Manoliu la 5 minute pe jos — un avantaj de agrement neobișnuit pentru locuitorii care practică înot. Kaufland Popa Nan la 5 minute pe jos. Spital Victor Babeș și Spital Monza la 8 minute, Spital Copii Grigore Alexandrescu la 10 minute. Colegiul Economic Kirițescu la 8 minute pe jos.
+Piața Muncii este una dintre zonele cu cea mai rapidă apreciere a valorii imobiliare din București în ultimii ani, alimentată de renovarea Parcului Național și de investițiile publice în infrastructura semicentrală. Metrou Piața Muncii (M3) la 300m — 4 minute pe jos — spre Piața Unirii în câteva minute. Metrou Dristor 1 (M2) la 1,2 km — 12 minute pe jos. Parcul Național la 400m. Arena Națională și Bazinul Olimpic Lia Manoliu la 1,1 km — 4 minute cu mașina. Baza Sportivă Voinicelu la doar 270m — 3 minute pe jos — un avantaj de agrement neobișnuit pentru cine practică sport. Kaufland Popa Nan la 1,7 km — 5 minute cu mașina. Spitalul Clinic Dr. Victor Babeș la 400m — 5 minute pe jos, Spitalul Clinic de Copii Dr. Victor Gomoiu la 700m, Spitalul MONZA la 1,7 km. Colegiul Economic Kirițescu la 8 minute pe jos.
 
-Apartamentele Neofort 42 se adresează cumpărătorilor cu discernământ — cei care înțeleg că sustenabilitatea, smartul și localizarea semicentrală cu metrou la 200m reprezintă valoarea reală care apreciază pe termen lung. Promoția este valabilă pentru stocul curent. Vânzare directă, fără comision.
+Apartamentele Neofort 42 se adresează cumpărătorilor cu discernământ — cei care înțeleg că sustenabilitatea, smartul și localizarea semicentrală cu metrou la 300m reprezintă valoarea reală care apreciază pe termen lung. Promoția este valabilă pentru stocul curent. Vânzare directă, fără comision.
 
-De ce Piața Muncii este una dintre zonele cu cea mai rapidă apreciere imobiliară din București? Trei factori structurali: repoziționarea Parcului Național ca spațiu urban de referință, cu investiții publice de renovare și reamenajare; conectivitatea M3 care unește zona cu Drumul Taberei în vest și cu Anghel Saligny în est; și densitatea serviciilor medicale de top — Spital Victor Babeș, Spital Monza și Spital Copii Grigore Alexandrescu în raza de 10 minute. Acești factori susțin valoarea proprietăților pe termen lung independent de fluctuațiile pieței.
+De ce Piața Muncii este una dintre zonele cu cea mai rapidă apreciere imobiliară din București? Trei factori structurali: repoziționarea Parcului Național ca spațiu urban de referință, cu investiții publice de renovare și reamenajare; conectivitatea M3 care unește zona cu Drumul Taberei în vest și cu Anghel Saligny în est; și densitatea serviciilor medicale de top — Spitalul Victor Babeș la 400m, Spitalul de Copii Victor Gomoiu la 700m și Spitalul MONZA la 1,7 km. Acești factori susțin valoarea proprietăților pe termen lung independent de fluctuațiile pieței.
 
 Apartamentele de 2 camere din Neofort 42 se închiriază curent cu 900-1.100€/lună în zona Piața Muncii, generând randamente brute de 4,8-6,1% față de prețurile actuale. Apartamentele de 4 camere se adresează chirașilor premium — familii de expats și executivi care apreciază spațiul și localizarea semicentrală. Consultanță bancară gratuită. Vânzare directă, fără comision.
 
-Piața Muncii nu este o zonă periferică care „se dezvoltă" — este o zonă semicentrală cu identitate urbană consolidată, la 400m de Parcul Național (fostul Parc Carol I), la 200m de Arena Națională și la 300m de Bazinul Olimpic Lia Manoliu. Această concentrare de infrastructură culturală, sportivă și de agrement la distanță de mers pe jos este neobișnuită chiar și pentru standardele Bucureștiului semicentral.
+Piața Muncii nu este o zonă periferică care „se dezvoltă" — este o zonă semicentrală cu identitate urbană consolidată, la 400m de Parcul Național (fostul Parc Carol I), la 270m de Baza Sportivă Voinicelu și la 1,1 km de Arena Națională și Bazinul Olimpic Lia Manoliu. Această concentrare de infrastructură culturală, sportivă și de agrement la distanță de mers pe jos este neobișnuită chiar și pentru standardele Bucureștiului semicentral.
 
-Metrou Piața Muncii (M3) la 400m, Metrou Dristor 2 (M2) la 350m — două linii diferite de metrou la distanță de mers pe jos — asigură conectivitate bidirecțională: M3 merge spre Eroilor, Politehnica și Drumul Taberei (vest); M2 merge spre Piața Unirii, Piața Victoriei și Pipera (nord). Combinarea celor două linii din același apartament este o raritate în oferta imobiliară din București și reduce semnificativ dependența de mașina personală.
+Metrou Piața Muncii (M3) la 300m și Metrou Dristor 1 (M2) la 1,2 km — două linii diferite de metrou la distanță de mers pe jos — asigură conectivitate bidirecțională: M3 merge spre Eroilor, Politehnica și Drumul Taberei (vest); M2 merge spre Piața Unirii, Piața Victoriei și Pipera (nord). Combinarea celor două linii din același apartament este o raritate în oferta imobiliară din București și reduce semnificativ dependența de mașina personală.
 
 Panourile solare și fotovoltaice integrate în Neofort 42 — o investiție inițială de 100.000-150.000€ pentru întreg proiectul — generează economii reale la cheltuielile comune: factura de electricitate a spațiilor comune (iluminat casa scării, lifturi, circulații) se reduce cu 30-40%. La o clădire de 64 de apartamente cu cheltuieli comune tipice de 50-80€/lună per unitate, economia poate reprezenta 15-30€/lună per proprietar — 180-360€/an. Pe 20 de ani, fiecare proprietar economisește 3.600-7.200€ față de un proiect fără panouri. Această infrastructură verde crește și atractivitatea proprietăților pe piața de revânzare.
 
@@ -776,17 +776,21 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 22500, notaTVA: '+TVA' } },
     dotari: ['2 lifturi SCHINDLER', 'Parcare subterana sistem Klaus', 'Adapost ALA / autorizare ISU', 'Tamplarie SALAMANDER/VEKA tripan', 'Usi PINUM/PORTA DOORS', 'Centrala Buderus', 'Termostat wireless Smart', 'Panouri solare/fotovoltaice', 'Balustrade sticla securizata', 'Gresie/faianta Marazzi rectificata', 'Incalzire in pardoseala'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Dristor 2 (M2)', distanta: '350m' },
-      { tip: 'metrou', nume: 'Metrou Piata Muncii (M3)', distanta: '400m' },
-      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '500m' },
-      { tip: 'metrou', nume: 'Metrou Dristor 1 (M2)', distanta: '10 min pe jos' },
-      { tip: 'parc', nume: 'Parcul National', distanta: '18 min pe jos' },
-      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '2 min cu masina' },
-      { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '5 min cu masina' },
-      { tip: 'mall', nume: 'Park Lake Plaza', distanta: '7 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Timpuri Noi (M2)', distanta: '11 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '12 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '13 min cu masina' },
+      { tip: 'sport', nume: 'Baza Sportivă Voinicelu', distanta: '270 m · 3 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Piața Muncii (M3)', distanta: '300 m · 4 min pe jos' },
+      { tip: 'medical', nume: 'Spitalul Clinic Dr. Victor Babeș', distanta: '400 m · 5 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Național', distanta: '400 m · 5 min pe jos' },
+      { tip: 'medical', nume: 'Spitalul Clinic de Copii Dr. Victor Gomoiu', distanta: '700 m · 9 min pe jos' },
+      { tip: 'scoala', nume: 'Școala Gimnazială de Artă nr. 5', distanta: '900 m · 6 min pe jos' },
+      { tip: 'scoala', nume: 'Colegiul Național Emil Racoviță', distanta: '1 km · 3 min cu mașina' },
+      { tip: 'sport', nume: 'Arena Națională / Bazinul Olimpic Lia Manoliu', distanta: '1,1 km · 4 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Dristor 1 (M2)', distanta: '1,2 km · 12 min pe jos' },
+      { tip: 'mall', nume: 'ParkLake Shopping Center', distanta: '1,6 km · 7 min cu mașina' },
+      { tip: 'scoala', nume: 'Universitatea Hyperion', distanta: '1,6 km · 4 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '1,6 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'Kaufland Popa Nan', distanta: '1,7 km · 5 min cu mașina' },
+      { tip: 'medical', nume: 'Spitalul MONZA', distanta: '1,7 km · 5 min cu mașina' },
+      { tip: 'mall', nume: 'București Mall Vitan', distanta: '2 km · 7 min cu mașina' },
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Piața Muncii — Neofort 42',
