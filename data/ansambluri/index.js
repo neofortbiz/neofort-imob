@@ -11,20 +11,20 @@ export const ANSAMBLURI = [
     adresa: 'Zona Titan-Pallady, Sector 3, București',
     status: 'constructie',
     dataPredare: 'T1 2027',
-    pretDeLa: 62114,
+    pretDeLa: 57336,
     etaje: 'P+10',
     telefon: '0743 250 029',
     broker: 'Raluca NISTOR',
     brokerFoto: '/brokeri/raluca-nistor.avif',
     imagini: {
       cover: '/ansambluri/neo-84/exterior-01.avif',
-      exterior: ['/ansambluri/neo-84/exterior-01.avif','/ansambluri/neo-84/exterior-02.avif','/ansambluri/neo-84/exterior-03.avif','/ansambluri/neo-84/exterior-04.avif','/ansambluri/neo-84/exterior-05.avif'],
+      exterior: ['/ansambluri/neo-84/exterior-01.avif','/ansambluri/neo-84/exterior-02.avif','/ansambluri/neo-84/exterior-03.avif','/ansambluri/neo-84/exterior-04.avif','/ansambluri/neo-84/exterior-05.avif','/ansambluri/neo-84/exterior-06.avif','/ansambluri/neo-84/exterior-07.avif'],
       interior: ['/ansambluri/neo-84/interior-01.avif','/ansambluri/neo-84/interior-02.avif','/ansambluri/neo-84/interior-03.avif'],
       schite: ['/ansambluri/neo-84/schite-01.avif','/ansambluri/neo-84/schite-02.avif','/ansambluri/neo-84/schite-03.avif','/ansambluri/neo-84/schite-04.avif','/ansambluri/neo-84/schite-05.avif','/ansambluri/neo-84/schite-06.avif','/ansambluri/neo-84/schite-07.avif','/ansambluri/neo-84/schite-08.avif','/ansambluri/neo-84/schite-09.avif','/ansambluri/neo-84/schite-10.avif','/ansambluri/neo-84/schite-11.avif','/ansambluri/neo-84/schite-12.avif','/ansambluri/neo-84/schite-13.avif','/ansambluri/neo-84/schite-14.avif','/ansambluri/neo-84/schite-15.avif','/ansambluri/neo-84/schite-16.avif','/ansambluri/neo-84/schite-17.avif','/ansambluri/neo-84/schite-18.avif','/ansambluri/neo-84/schite-19.avif','/ansambluri/neo-84/schite-20.avif','/ansambluri/neo-84/schite-21.avif','/ansambluri/neo-84/schite-22.avif','/ansambluri/neo-84/schite-23.avif','/ansambluri/neo-84/schite-24.avif','/ansambluri/neo-84/schite-25.avif','/ansambluri/neo-84/schite-26.avif','/ansambluri/neo-84/schite-27.avif','/ansambluri/neo-84/schite-28.avif'],
     },
-    descriereCompleta: `Cauți un apartament nou în Sectorul 3 al Bucureștiului, lângă metrou, cu prețuri competitive și predare planificată? Ansamblul Rezidențial Neofort 84 Titan-Pallady răspunde exact acestei nevoi — un imobil P+10 etaje aflat în construcție în zona Titan-Pallady, cu predare în Trimestrul I 2027 și prețuri promoționale care pornesc de la 62.114€ + TVA la avans 45%.
+    descriereCompleta: `Cauți un apartament nou în Sectorul 3 al Bucureștiului, lângă metrou, cu prețuri competitive și predare planificată? Ansamblul Rezidențial Neofort 84 Titan-Pallady răspunde exact acestei nevoi — un imobil P+10 etaje aflat în construcție în zona Titan-Pallady, cu predare în Trimestrul I 2027 și prețuri promoționale care pornesc de la 57.336€ + TVA la avans 90%, 62.114€ la avans 45% sau 66.892€ la avans 20%.
 
-Oferta cuprinde 10 tipuri distincte de apartamente, gândite pentru orice buget și configurație familială. Apartamentele de 2 camere variază între 47,78 mp și 91,60 mp cu terasă, cu prețuri promoționale de la 62.114€ la avans 45% sau de la 66.892€ la avans 20%. Apartamentele de 3 camere acoperă suprafețe între 78,60 și 119,52 mp, de la 102.167€ la avans 45%. Vârful ofertei: apartamentul de 4 camere cu terasă panoramică la etajul 10, 175,58 mp, de la 181.262€ la avans 45%. Parcare exterioară de la 6.000€, parcare interioară de la 8.500€.
+Oferta cuprinde 10 tipuri distincte de apartamente, gândite pentru orice buget și configurație familială, cu trei niveluri de avans: 90%, 45% și 20%. Apartamentele de 2 camere variază între 47,78 mp și 91,60 mp cu terasă, cu prețuri promoționale de la 57.336€ la avans 90%, de la 62.114€ la avans 45% sau de la 66.892€ la avans 20%. Apartamentele de 3 camere acoperă suprafețe între 78,60 și 119,52 mp, de la 94.308€ la avans 90% sau 102.167€ la avans 45%. Vârful ofertei: apartamentul de 4 camere cu terasă panoramică la etajul 10, 175,58 mp, de la 171.536€ la avans 90%. Tipul 2 de 2 camere este momentan cu stocul epuizat. Parcare exterioară de la 6.000€, parcare interioară de la 8.500€.
 
 Structura imobilului este realizată din cadre și diafragme din beton armat completate cu zidărie BCA Ytong. Dotările standard includ încălzire în pardoseală în toate camerele, tâmplărie PVC Salamander cu ferestre mari pentru lumină naturală maximă, lifturi silențioase, gresie și faianță de import, centrală termică proprie în condensare și instalații sanitare, electrice și termice complete.
 
@@ -38,7 +38,7 @@ Procesul de achiziție la Neofort 84 este simplificat și transparent. Rezervare
 
 Prețul pe metru pătrat la Neofort 84 — între 1.300€ și 1.500€/mp util la prețurile promoționale — se situează sub media proiectelor noi cu metrou în Sectorul 3, care a atins 1.600-1.800€/mp în 2025. Această diferență nu reflectă o calitate inferioară, ci avantajul cumpărătorilor care intră în proiect în faza de construcție, înainte de finalizare. Tendința istorică a pieței imobiliare din București confirmă că prețurile la finalizare și după predare sunt în mod constant cu 8-15% mai mari față de prețurile din faza de construcție pentru proiecte comparabile.
 
-Neofort 84 oferă 10 tipuri de apartamente — cea mai diversificată ofertă din portofoliul Neofort activ — tocmai pentru că a fost proiectat să răspundă simultan mai multor categorii de cumpărători: tânărul care cumpără prima locuință (2 camere Tip 1 de la 62.114€), familia în expansiune (3 camere Tip 2 de la 112.190€) și cumpărătorul care prioritizează spațiul și vederea panoramică (4 camere cu terasă la etaj 10, 175,58 mp). Fiecare tip are o identitate distinctă — suprafețe, etaj și orientare diferite — nu variații nesemnificative ale aceluiași apartament.
+Neofort 84 oferă 10 tipuri de apartamente — cea mai diversificată ofertă din portofoliul Neofort activ — tocmai pentru că a fost proiectat să răspundă simultan mai multor categorii de cumpărători: tânărul care cumpără prima locuință (2 camere Tip 1 studio de la 57.336€), familia în expansiune (3 camere Tip 2 de la 112.190€) și cumpărătorul care prioritizează spațiul și vederea panoramică (4 camere cu terasă la etaj 10, 175,58 mp). Fiecare tip are o identitate distinctă — suprafețe, etaj și orientare diferite — nu variații nesemnificative ale aceluiași apartament.
 
 Un detaliu tehnic relevant pentru cumpărătorii atenți: structura P+10 este proiectată cu cadre și diafragme din beton armat C25/30, conform SR EN 1992-1-1, cu verificare la acțiuni seismice conform P100-1/2013. Zona Titan-Pallady este inclusă în zona seismică de calcul cu ag=0,30g — una dintre cele mai solicitate din București. Proiectele noi construite după normele actuale au un comportament seismic semnificativ superior fondului imobiliar construit înainte de 1989, o diferență relevantă în decizia de cumpărare.
 
@@ -47,17 +47,18 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     coordonate: { lat: 44.418559, lng: 26.204754 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 84, zona Titan-Pallady, Sector 3. Bloc P+10 în construcție, predare T1 2027. Apartamente 2-4 camere de la 62.114€+TVA. Metrou Nicolae Teclu la câteva minute, IKEA Pallady, Auchan Titan, Parcul Teilor în proximitate. Încălzire pardoseală, tâmplărie Salamander tripan, centrală proprie, structură beton armat.',
+    descriere: 'Ansamblul Rezidențial Neofort 84, zona Titan-Pallady, Sector 3. Bloc P+10 în construcție, predare T1 2027. Apartamente 2-4 camere de la 57.336€+TVA. Metrou Nicolae Teclu la câteva minute, IKEA Pallady, Auchan Titan, Parcul Teilor în proximitate. Încălzire pardoseală, tâmplărie Salamander tripan, centrală proprie, structură beton armat.',
     apartamente: [
-      { tip: '2 cam. Tip 1', etaj: 'et. 10', suprafata: 47.78, avans20: 66892, avans45: 62114, pretVechiAvans45: 67000, pretVechiAvans20: 74000, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 3', etaj: 'et. 1-10', suprafata: 61.50, avans20: 86254, avans45: 80093, pretVechiAvans45: 91500, pretVechiAvans20: 105000, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 4', etaj: 'p-et. 10', suprafata: 67.71, avans20: 94794, avans45: 88023, pretVechiAvans45: 98000, pretVechiAvans20: 113000, promo: true, camere: 2 },
-      { tip: '2 cam. Tip 5 terasa', etaj: 'p. înalt', suprafata: 91.60, avans20: 110026, avans45: 96740, pretVechiAvans45: 126000, pretVechiAvans20: 136000, promo: true, camere: 2 },
-      { tip: '3 cam. Tip 1', etaj: 'et. 1 + p. înalt', suprafata: 78.60, avans20: 110026, avans45: 102167, pretVechiAvans45: 118000, pretVechiAvans20: 136000, promo: true, camere: 3 },
-      { tip: '3 cam. Tip 2', etaj: 'et. 2-9', suprafata: 86.30, avans20: 120820, avans45: 112190, pretVechiAvans45: 123750, pretVechiAvans20: 142500, promo: true, camere: 3 },
-      { tip: '3 cam. Tip 3', etaj: 'et. 1-8', suprafata: 90.62, avans20: 126868, avans45: 117806, pretVechiAvans45: 130000, pretVechiAvans20: 150000, promo: true, camere: 3 },
-      { tip: '3 cam. Tip 4 terasa', etaj: 'p. înalt', suprafata: 119.52, avans20: 131985, avans45: 125082, pretVechiAvans45: 164000, pretVechiAvans20: 189000, promo: true, camere: 3 },
-      { tip: '4 cam. terasa', etaj: 'et. 10', suprafata: 175.58, avans20: 190988, avans45: 181262, pretVechiAvans45: 241000, pretVechiAvans20: 277000, promo: true, camere: 4 },
+      { tip: '2 cam. Tip 1 studio', etaj: 'et. 10', suprafata: 47.78, avans90: 57336, avans20: 66892, avans45: 62114, pretVechiAvans45: 67000, pretVechiAvans20: 74000, promo: true, camere: 2 },
+      { tip: '2 cam. Tip 2', etaj: 'et. 1-10', suprafata: 49.15, avans20: 68824, avans45: 63908, pretVechiAvans45: 69000, pretVechiAvans20: 76000, promo: true, camere: 2, stocEpuizat: true },
+      { tip: '2 cam. Tip 3', etaj: 'p-et. 10', suprafata: 61.50, avans90: 73932, pretVechiAvans90: 83000, avans20: 86254, avans45: 80093, pretVechiAvans45: 91500, pretVechiAvans20: 105000, promo: true, camere: 2 },
+      { tip: '2 cam. Tip 4', etaj: 'p-et. 10', suprafata: 67.71, avans90: 81252, pretVechiAvans90: 85000, avans20: 94794, avans45: 88023, pretVechiAvans45: 98000, pretVechiAvans20: 113000, promo: true, camere: 2 },
+      { tip: '2 cam. Tip 5 terasa', etaj: 'p. înalt', suprafata: 91.60, avans90: 91343, pretVechiAvans90: 114500, avans20: 102172, avans45: 96740, pretVechiAvans45: 126000, pretVechiAvans20: 145000, promo: true, camere: 2 },
+      { tip: '3 cam. Tip 1', etaj: 'p. înalt', suprafata: 78.60, avans90: 94308, pretVechiAvans90: 107500, avans20: 110026, avans45: 102167, pretVechiAvans45: 118000, pretVechiAvans20: 136000, promo: true, camere: 3 },
+      { tip: '3 cam. Tip 2', etaj: 'et. 2-9', suprafata: 86.30, avans90: 103560, pretVechiAvans90: 112500, avans20: 120820, avans45: 112190, pretVechiAvans45: 123750, pretVechiAvans20: 142500, promo: true, camere: 3 },
+      { tip: '3 cam. Tip 3', etaj: 'et. 1-8', suprafata: 90.62, avans90: 108744, pretVechiAvans90: 118500, avans20: 126868, avans45: 117806, pretVechiAvans45: 130000, pretVechiAvans20: 150000, promo: true, camere: 3 },
+      { tip: '3 cam. Tip 4 terasa', etaj: 'p. înalt', suprafata: 119.52, avans90: 118179, pretVechiAvans90: 149000, avans20: 131985, avans45: 125082, pretVechiAvans45: 164000, pretVechiAvans20: 189000, promo: true, camere: 3 },
+      { tip: '4 cam. terasa', etaj: 'et. 10', suprafata: 175.58, avans90: 171536, pretVechiAvans90: 219000, avans20: 190988, avans45: 181262, pretVechiAvans45: 241000, pretVechiAvans20: 277000, promo: true, camere: 4 },
     ],
     parcare: { exterior: { disponibil: true, pret: 6000, deLa: true, notaTVA: '+TVA' }, interior: { disponibil: true, pret: 8500, deLa: true, notaTVA: '+TVA' }, subteran: { disponibil: false, pret: null } },
     dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie BCA Ytong'],
@@ -86,7 +87,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 84',
-    seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3 Bucuresti. Apartamente 2-4 camere de la 62.114 euro+TVA. Predare T1 2027, langa metrou Nicolae Teclu.',
+    seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3 Bucuresti. Apartamente 2-4 camere de la 57.336 euro+TVA. Predare T1 2027, langa metrou Nicolae Teclu.',
   },
   {
     slug: 'neofort-83-titan-pallady',

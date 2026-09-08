@@ -79,6 +79,12 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
                   </div>
                 ) : apt.avans45 ? (
                   <div className="space-y-0.5">
+                    {apt.avans90 && (
+                      <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
+                        Avans 90%: <span className="font-semibold" style={{ color: '#2d7a3a' }}>{fmt(apt.avans90)}</span>
+                        {apt.pretVechiAvans90 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans90)}</span>}
+                      </div>
+                    )}
                     <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
                       Avans 45%: <span className="font-semibold text-gray-900">{fmt(apt.avans45)}</span>
                       {apt.pretVechiAvans45 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans45)}</span>}
