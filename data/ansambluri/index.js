@@ -185,13 +185,13 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
       interior: ['/ansambluri/neo-28f2/interior-01.avif','/ansambluri/neo-28f2/interior-02.avif','/ansambluri/neo-28f2/interior-03.avif','/ansambluri/neo-28f2/interior-04.avif','/ansambluri/neo-28f2/interior-05.avif'],
       schite: ['/ansambluri/neo-28f2/schite-01.avif','/ansambluri/neo-28f2/schite-02.avif','/ansambluri/neo-28f2/schite-03.avif','/ansambluri/neo-28f2/schite-04.avif','/ansambluri/neo-28f2/schite-05.avif','/ansambluri/neo-28f2/schite-06.avif','/ansambluri/neo-28f2/schite-07.avif'],
     },
-    descriereCompleta: `Neofort 82 Titan Pallady este un ansamblu rezidențial din zona Titan-Pallady, amplasat pe Bulevardul Theodor Pallady din Sectorul 3, București. Complexul este finalizat și disponibil pentru achiziție imediată, cu apartamente cu 2 și 3 camere, dotări premium importate din Italia și Spania și acces rapid la Metrou Anghel Saligny (M2), aflat la 500 m.
+    descriereCompleta: `Neofort 82 Titan Pallady este un ansamblu rezidențial din zona Titan-Pallady, amplasat pe Bulevardul Theodor Pallady din Sectorul 3, București. Complexul este finalizat și disponibil pentru achiziție imediată, cu apartamente cu 2 și 3 camere, dotări premium importate din Italia și Spania și acces rapid la Magistrala 2 prin două stații: Nicolae Teclu la 1,1 km și Anghel Saligny la 1,2 km.
 
 Imobilul are regim D+P+4E, structură din beton armat de 30 cm grosime și compartimentări din cărămidă Porotherm pentru izolație termică și fonică superioară. Termosistemul de fațadă cu EPS 80 de 10 cm asigură performanță energetică ridicată și costuri de întreținere reduse pe termen lung. Fiecare apartament este echipat cu sistem de microventilație, centrală termică proprie în condensare și kit preinstalat pentru aer condiționat. Încălzirea se realizează prin pardoseală în toate camerele, inclusiv în băi, iar portprosoavele instalate în băi adaugă un plus de confort zilnic.
 
 Localizare — Metrou Nicolae Teclu la 5 Minute
 
-Metrou Anghel Saligny (M2) se află la 500 m — 6 minute de mers pe jos — iar Metrou Nicolae Teclu (M2) la 1,5 km, 3 minute cu mașina. Magistrala 2 conectează zona cu Piața Unirii și Piața Victoriei în câteva minute. Linia M2 oferă conexiuni directe cu Piața Romană, Aviatorilor și Băneasa, fără schimb de linie — ideal pentru profesioniști care lucrează în centrul sau nordul Capitalei. Polul comercial Pallady — IKEA, Auchan 1 Decembrie, Leroy Merlin, Dedeman, Metro Cash and Carry, Jumbo, Lidl, Altex, Mobexpert — este accesibil în câteva minute cu mașina sau cu mijloacele de transport în comun. Iris Mall completează oferta de retail și entertainment din proximitate. Liniile STB 19, 40, 246, 335 și 408 asigură conectivitate suplimentară pentru toate destinațiile din București.
+Metrou Nicolae Teclu (M2) se află la 1,1 km, iar Metrou Anghel Saligny (M2) la 1,2 km — ambele la 3 minute cu mașina. Magistrala 2 conectează zona cu Piața Unirii și Piața Victoriei în câteva minute. Linia M2 oferă conexiuni directe cu Piața Romană, Aviatorilor și Băneasa, fără schimb de linie — ideal pentru profesioniști care lucrează în centrul sau nordul Capitalei. Polul comercial Pallady — IKEA, Auchan 1 Decembrie, Leroy Merlin, Dedeman, Metro Cash and Carry, Jumbo, Lidl, Altex, Mobexpert — este accesibil în câteva minute cu mașina sau cu mijloacele de transport în comun. Iris Mall completează oferta de retail și entertainment din proximitate. Liniile STB 19, 40, 246, 335 și 408 asigură conectivitate suplimentară pentru toate destinațiile din București.
 
 Infrastructura medicală include Campusul Medical Regina Maria Titan, MedLife Titan, Medikali Titan și Clinica Medicală Pallady. Liceul Internațional de Informatică București (ICHB), Spectrum School și școlile gimnaziale nr. 82, 116 și 149 sunt accesibile rapid din zonă. Parcul Teilor și Complexul Sportiv Titan oferă recreere și sport în aer liber pentru toată familia.
 
@@ -228,18 +228,21 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     },
     dotari: ['Încălzire în pardoseală','Centrală termică proprie în condensare','Kit aer condiționat preinstalat','Sistem microventilație','Tâmplărie PVC geam tripan','Uși PINUM BLINDO 3 Italia','Uși interioare PINUM albe Italia','Glafuri interioare marmură naturală','Glafuri exterioare aluminiu','Obiecte sanitare suspendate','Lift silențios ORONA Spania','Hidroizolație dublă terase/balcoane','Balustrade inox scări interioare','Incintă împrejmuită acces controlat'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '500 m · 6 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '1,5 km · 3 min cu mașina' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '3 km · 6 min cu mașina' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '4 km · 8 min cu mașina' },
-      { tip: 'scoala', nume: 'Waldorf București / Spectrum School', distanta: '4 km · 8 min cu mașina' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '4 km · 8 min cu mașina' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '4,5 km · 9 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '1,1 km · 3 min cu mașina' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '1,1 km · 3 min cu mașina' },
+      { tip: 'scoala', nume: 'Liceul Internațional de Informatică', distanta: '1,1 km · 3 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '1,1 km · 4 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '1,2 km · 3 min cu mașina' },
+      { tip: 'scoala', nume: 'Liceul Internațional ICHB / Spectrum School', distanta: '1,5 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '1,9 km · 5 min cu mașina' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '2,1 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '2,1 km · 5 min cu mașina' },
+      { tip: 'scoala', nume: 'Școala Waldorf Ilios', distanta: '2,9 km · 6 min cu mașina' },
+      { tip: 'transport', nume: 'Acces Autostradă A2', distanta: '3 km · 7 min cu mașina' },
       { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '4,5 km · 9 min cu mașina' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '5 km · 10 min cu mașina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '6 km · 12 min cu mașina' },
+      { tip: 'mall', nume: 'ParkLake Shopping Center', distanta: '4,9 km · 10 min cu mașina' },
+      { tip: 'medical', nume: 'Spitalul de Copii Victor Gomoiu', distanta: '6,1 km · 14 min cu mașina' },
       { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '6,5 km · 13 min cu mașina' },
-      { tip: 'transport', nume: 'Acces Autostradă A2', distanta: '9 km · 18 min cu mașina' },
     ],
     coordonate: { lat: 44.4114, lng: 26.1986 },
     zone: ['titan-pallady', 'sector-3'],
@@ -821,7 +824,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
       interior: ['/ansambluri/neo-28/interior-01.avif','/ansambluri/neo-28/interior-02.avif','/ansambluri/neo-28/interior-03.avif','/ansambluri/neo-28/interior-04.avif','/ansambluri/neo-28/interior-05.avif'],
       schite: ['/ansambluri/neo-28/schite-01.avif','/ansambluri/neo-28/schite-02.avif','/ansambluri/neo-28/schite-03.avif','/ansambluri/neo-28/schite-04.avif','/ansambluri/neo-28/schite-05.avif','/ansambluri/neo-28/schite-06.avif','/ansambluri/neo-28/schite-07.avif','/ansambluri/neo-28/schite-08.avif','/ansambluri/neo-28/schite-09.avif','/ansambluri/neo-28/schite-10.avif','/ansambluri/neo-28/schite-11.avif','/ansambluri/neo-28/schite-12.avif','/ansambluri/neo-28/schite-13.avif','/ansambluri/neo-28/schite-14.avif','/ansambluri/neo-28/schite-15.avif','/ansambluri/neo-28/schite-16.avif','/ansambluri/neo-28/schite-17.avif','/ansambluri/neo-28/schite-18.avif','/ansambluri/neo-28/schite-19.avif','/ansambluri/neo-28/schite-20.avif','/ansambluri/neo-28/schite-21.avif','/ansambluri/neo-28/schite-22.avif','/ansambluri/neo-28/schite-23.avif','/ansambluri/neo-28/schite-24.avif','/ansambluri/neo-28/schite-25.avif','/ansambluri/neo-28/schite-26.avif','/ansambluri/neo-28/schite-27.avif'],
     },
-    descriereCompleta: `Dacă ai copii sau vrei un spațiu exterior privat fără a cumpăra o casă, Neofort 28 din zona Titan-Pallady, Sectorul 3, merită toată atenția: 53 de apartamente decomandate cu bucătării închise, inclusiv unități cu curte proprie de ~50 mp și unități cu terasă, finalizate, cu Metrou Anghel Saligny (M2) la 500 m — 6 minute pe jos.
+    descriereCompleta: `Dacă ai copii sau vrei un spațiu exterior privat fără a cumpăra o casă, Neofort 28 din zona Titan-Pallady, Sectorul 3, merită toată atenția: 53 de apartamente decomandate cu bucătării închise, inclusiv unități cu curte proprie de ~50 mp și unități cu terasă, finalizate, cu Metrou Nicolae Teclu (M2) la 1,1 km și Metrou Anghel Saligny (M2) la 1,2 km — ambele la 3 minute cu mașina.
 
 Oferta curentă acoperă exclusiv apartamente de 2 camere: Tip 1, 59,80 mp, 86.900€; Tip 2, 60,40 mp, 87.900€; Tip 3, 60,40 mp, 89.900€; Tip 4, 61,80 mp, 88.900€; Tip 5 cu terasă 35 mp, 46,90 mp utili (81,90 mp total), 100.900€; Tip 6 cu curte proprie 49 mp la parter, 61,55 mp utili (110,55 mp total), 110.000€. Toate + TVA. Apartamentele de 3 camere au fost vândute integral. Parcare exterioară 7.500€, subterană 11.000€.
 
@@ -829,7 +832,7 @@ Apartamentele cu curte proprie sunt raritatea definitivă a proiectului. Să ai 
 
 Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă asigură securitatea și intimitatea întregii comunități. Dotările tehnice sunt solide: tâmplărie Salamander tripan Low-E cu microventilație — un element tehnic important care asigură calitatea aerului interior și evită condensul, deosebit de relevant pentru apartamentele cu curte la parter; ceramică Delta Studio; parchet rezistent la trafic intens; băi cu rezervor incastrat; centrală proprie și încălzire în pardoseală.
 
-Titan-Pallady continuă să fie zona cu cel mai echilibrat raport cerere-ofertă din estul Bucureștiului. Metrou Anghel Saligny la 500 m — 6 minute pe jos — și Metrou Nicolae Teclu la 1,5 km — 3 minute cu mașina. Auchan Titan la 6 minute cu mașina, IKEA Pallady la 9 minute, Jumbo și Leroy Merlin la 10 minute. Waldorf și Spectrum School la 500m. Parcul Teilor la 8 minute cu mașina. Campus Medical Regina Maria Titan la 8 minute cu mașina.
+Titan-Pallady continuă să fie zona cu cel mai echilibrat raport cerere-ofertă din estul Bucureștiului. Metrou Nicolae Teclu la 1,1 km și Metrou Anghel Saligny la 1,2 km — ambele la 3 minute cu mașina. Jumbo și Leroy Merlin Pallady la 1,9 km, Auchan Titan și IKEA Pallady la 2,1 km — toate sub 6 minute cu mașina. Liceul Internațional de Informatică la 1,1 km, Liceul Internațional ICHB / Spectrum School la 1,5 km, Școala Waldorf Ilios la 2,9 km. Parcul Teilor la 1,1 km — 4 minute cu mașina. Campus Medical Regina Maria Titan la 1,1 km — 3 minute cu mașina.
 
 Finalizat, disponibil imediat, cu tipologii unice pe piață. Vânzare directă, fără comision.
 
@@ -863,18 +866,21 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     parcare: { exterior: { disponibil: true, pret: 7500 }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 11000 } },
     dotari: ['Incalzire in pardoseala', 'Centrala termica proprie', 'Tamplarie Salamander tripan Low-E microventilatie', 'Ceramica Delta Studio', 'Parchet rezistent trafic intens', 'Bai echipate complet rezervor incastrat', 'Videointerfon vedere nocturna', 'Incinta imprejmuita acces controlat'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '500 m · 6 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '1,5 km · 3 min cu mașina' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '3 km · 6 min cu mașina' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '4 km · 8 min cu mașina' },
-      { tip: 'scoala', nume: 'Waldorf București / Spectrum School', distanta: '4 km · 8 min cu mașina' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '4 km · 8 min cu mașina' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '4,5 km · 9 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '1,1 km · 3 min cu mașina' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '1,1 km · 3 min cu mașina' },
+      { tip: 'scoala', nume: 'Liceul Internațional de Informatică', distanta: '1,1 km · 3 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '1,1 km · 4 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '1,2 km · 3 min cu mașina' },
+      { tip: 'scoala', nume: 'Liceul Internațional ICHB / Spectrum School', distanta: '1,5 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '1,9 km · 5 min cu mașina' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '2,1 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '2,1 km · 5 min cu mașina' },
+      { tip: 'scoala', nume: 'Școala Waldorf Ilios', distanta: '2,9 km · 6 min cu mașina' },
+      { tip: 'transport', nume: 'Acces Autostradă A2', distanta: '3 km · 7 min cu mașina' },
       { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '4,5 km · 9 min cu mașina' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '5 km · 10 min cu mașina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '6 km · 12 min cu mașina' },
+      { tip: 'mall', nume: 'ParkLake Shopping Center', distanta: '4,9 km · 10 min cu mașina' },
+      { tip: 'medical', nume: 'Spitalul de Copii Victor Gomoiu', distanta: '6,1 km · 14 min cu mașina' },
       { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '6,5 km · 13 min cu mașina' },
-      { tip: 'transport', nume: 'Acces Autostradă A2', distanta: '9 km · 18 min cu mașina' },
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Pallady Teclu — Neofort 28',
