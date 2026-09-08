@@ -742,8 +742,8 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     broker: 'Sasha CALUTU',
     brokerFoto: '/brokeri/sasha-calutu.avif',
     imagini: {
-      cover: '/ansambluri/neo-42/exterior-01.avif',
-      exterior: ['/ansambluri/neo-42/exterior-01.avif','/ansambluri/neo-42/exterior-02.avif','/ansambluri/neo-42/exterior-03.avif','/ansambluri/neo-42/exterior-04.avif','/ansambluri/neo-42/exterior-05.avif','/ansambluri/neo-42/exterior-06.avif','/ansambluri/neo-42/exterior-07.avif','/ansambluri/neo-42/exterior-08.avif'],
+      cover: '/ansambluri/neo-42/exterior-07.avif',
+      exterior: ['/ansambluri/neo-42/exterior-07.avif','/ansambluri/neo-42/exterior-02.avif','/ansambluri/neo-42/exterior-03.avif','/ansambluri/neo-42/exterior-04.avif','/ansambluri/neo-42/exterior-05.avif','/ansambluri/neo-42/exterior-06.avif','/ansambluri/neo-42/exterior-01.avif','/ansambluri/neo-42/exterior-08.avif'],
       interior: ['/ansambluri/neo-42/interior-01.avif','/ansambluri/neo-42/interior-02.avif','/ansambluri/neo-42/interior-03.avif','/ansambluri/neo-42/interior-04.avif','/ansambluri/neo-42/interior-05.avif','/ansambluri/neo-42/interior-06.avif'],
       schite: ['/ansambluri/neo-42/schite-01.avif','/ansambluri/neo-42/schite-02.avif','/ansambluri/neo-42/schite-03.avif','/ansambluri/neo-42/schite-04.avif','/ansambluri/neo-42/schite-05.avif','/ansambluri/neo-42/schite-06.avif','/ansambluri/neo-42/schite-07.avif','/ansambluri/neo-42/schite-08.avif','/ansambluri/neo-42/schite-09.avif','/ansambluri/neo-42/schite-10.avif','/ansambluri/neo-42/schite-11.avif','/ansambluri/neo-42/schite-12.avif','/ansambluri/neo-42/schite-13.avif','/ansambluri/neo-42/schite-14.avif','/ansambluri/neo-42/schite-15.avif','/ansambluri/neo-42/schite-16.avif','/ansambluri/neo-42/schite-17.avif','/ansambluri/neo-42/schite-18.avif','/ansambluri/neo-42/schite-19.avif','/ansambluri/neo-42/schite-20.avif','/ansambluri/neo-42/schite-21.avif'],
     },
