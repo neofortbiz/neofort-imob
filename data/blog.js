@@ -3401,7 +3401,7 @@ Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții 
       'TVA se calculează la prețul fără taxă — diferența dintre 9% și 21% schimbă semnificativ prețul total real.',
     ],
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min',
+    data: '10 Aprilie 2026', dataISO: '2026-04-10', dataModificata: '2026-09-08', citire: '9 min',
     autor: 'igor-calutu',
     image: '/blog/tva-apartamente-noi-bucuresti-2026.avif',
     descriere: `TVA la apartamente noi în 2026: ce cote se aplică, cine mai poate beneficia de 9%, când se aplică 21% și cum calculezi prețul total real al achiziției. Date oficiale actualizate la zi.`,
@@ -3448,7 +3448,7 @@ Față de cota de 5% în vigoare până în 2023, un apartament de 150.000 EUR c
       {
         id: 'tva-9',
         h2: `TVA 9% tranzitoriu — valabil doar dacă ai semnat și plătit avans înainte de august 2025`,
-        continut: `Prin Legea nr. 141/2025, Guvernul a introdus o perioadă de tranziție care permite aplicarea cotei de 9% TVA pentru o categorie restrânsă de tranzacții. Această facilitate expiră definitiv la 31 iulie 2026 și nu se va prelungi.
+        continut: `Prin Legea nr. 141/2025, Guvernul a introdus o perioadă de tranziție care permite aplicarea cotei de 9% TVA pentru o categorie restrânsă de tranzacții. Această facilitate era prevăzută să expire la 31 iulie 2026. Termenul a fost ulterior prelungit până la 30 septembrie 2026 prin Legea nr. 161/2026, iar cei care au plătit între timp cota de 21% pot cere restituirea diferenței — detalii complete în [ghidul despre restituirea TVA](/blog/restituire-tva-9-la-suta-termen-30-septembrie-2026).
 
 Atenție: această cotă tranzitorie se aplică EXCLUSIV tranzacțiilor în care cumpărătorul a semnat un antecontract și a achitat un avans de minimum 20% până la 31 iulie 2025. Orice achiziție nouă din august 2025 încoace este supusă automat TVA 21%.
 
@@ -6146,9 +6146,186 @@ Dezvoltatorul, ca vânzător profesionist, și constructorul răspund legal pent
       },
     ],
   },
+
+  'restituire-tva-9-la-suta-termen-30-septembrie-2026': {
+    titlu: `Restituire TVA: Cum Recuperezi 12% Dacă Ai Plătit 21% la Apartament (Termen 30 Septembrie)`,
+    seoTitle: 'Restituire TVA Apartament: Recuperezi 12%',
+    seoDesc: 'Ai plătit TVA 21% la apartament? Legea 161/2026 permite restituirea diferenței de 12% și prelungește termenul până la 30 septembrie. Condiții și procedură.',
+    tag: 'Legislație', tagColor: '#7c3aed',
+    data: '8 Septembrie 2026', dataISO: '2026-09-08', citire: '11 min',
+    autor: 'igor-calutu',
+    image: '/blog/restituire-tva-9-la-suta-termen-30-septembrie-2026.avif',
+    descriere: 'Legea 161/2026 prelungește până la 30 septembrie termenul pentru livrarea locuințelor cu TVA 9% și introduce restituirea diferenței de 12% pentru cine a plătit deja cota majorată.',
+    peScurt: [
+      'Legea nr. 161/2026, publicată în Monitorul Oficial pe 4 august 2026, prelungește până la 30 septembrie 2026 inclusiv termenul de livrare a locuințelor cu cota redusă de TVA de 9%.',
+      'Cumpărătorii care au achitat TVA de 21% după 1 august 2026, deși îndeplineau condițiile pentru cota redusă, pot cere restituirea diferenței de 12 puncte procentuale.',
+      'Cauza prelungirii a fost blocarea aplicației e-Terra a ANCPI în urma atacului cibernetic din 14 iulie 2026, care a făcut imposibilă finalizarea juridică a livrărilor.',
+    ],
+    keywords: ['restituire tva locuinta', 'cum recuperez diferenta de tva', 'cerere restituire tva anaf', 'termen tva 9 la suta 30 septembrie', 'legea 161 2026 tva', 'blocaj ancpi e-terra tranzactii', 'restituire tva 21 la 9 apartament'],
+    hashtags: ['#RestituireTVA', '#Legea1612026', '#TermenTVA', '#NeofortIMO'],
+    cuprins: [
+      { id: 'ce-s-a-intamplat', titlu: 'Ce s-a întâmplat: atacul asupra ANCPI și Legea 161/2026' },
+      { id: 'termenul', titlu: 'Termenul de 30 septembrie: cine mai prinde și ce înseamnă „livrare"' },
+      { id: 'conditii', titlu: 'Condițiile cumulative, pe scurt' },
+      { id: 'restituire', titlu: 'Restituirea celor 12%: cine are dreptul' },
+      { id: 'documente', titlu: 'Documentele necesare și unde se depune cererea' },
+      { id: 'calcul', titlu: 'Cât înseamnă concret 12% pe scenarii reale' },
+      { id: 'ce-faci-acum', titlu: 'Ce faci în ultimele zile până la termen' },
+      { id: 'dupa-octombrie', titlu: 'Ce urmează după 1 octombrie 2026' },
+      { id: 'faq', titlu: 'Întrebări frecvente despre restituirea TVA' },
+    ],
+    sectiuni: [
+      {
+        id: 'ce-s-a-intamplat',
+        h2: 'Ce s-a întâmplat: atacul asupra ANCPI și Legea 161/2026',
+        continut: `Pe 14 iulie 2026, un atac cibernetic a scos din funcțiune aplicația e-Terra a Agenției Naționale de Cadastru și Publicitate Imobiliară. Prin această aplicație se derulează exact etapele de care depinde livrarea juridică a unei locuințe noi: recepția cadastrală, apartamentarea, deschiderea cărților funciare și eliberarea extraselor necesare autentificării la notar.
+
+Problema a apărut pentru că termenul-limită până la care cumpărătorii eligibili mai puteau finaliza achiziția cu cota redusă de TVA de 9% era 31 iulie 2026. Cu sistemul blocat, sute de tranzacții deja pregătite riscau să treacă automat la cota standard de 21% — din motive care nu țineau nicidecum de cumpărători.
+
+Dimensiunea blocajului a fost semnalată public de Patronatul Antreprenorilor din Contabilitate, Taxe și Audit. Cele două operațiuni succesive necesare la OCPI cer, în regim normal, aproximativ 30 de zile lucrătoare, în condițiile în care luna iulie 2026 avea doar 23. Practic, chiar și fără atac, calendarul era strâns; cu sistemul căzut, a devenit imposibil.
+
+Parlamentul a reacționat rapid. Senatul a adoptat proiectul pe 27 iulie, Camera Deputaților — for decizional — l-a votat pe 29 iulie cu 287 de voturi pentru, unul împotrivă și două abțineri. Legea nr. 161/2026 privind unele măsuri fiscal-bugetare a fost publicată în Monitorul Oficial, Partea I nr. 642, din 4 august 2026.
+
+Ministrul interimar al Finanțelor de la acel moment a explicat că nu s-a creat o facilitate fiscală nouă, ci s-a prelungit un termen pentru tranzacții deja eligibile, astfel încât cei afectați de blocajul administrativ să nu suporte costuri suplimentare din motive care nu le sunt imputabile.`,
+      },
+      {
+        id: 'termenul',
+        h2: 'Termenul de 30 septembrie: cine mai prinde și ce înseamnă exact „livrare"',
+        continut: `Legea stabilește că, în perioada dintre intrarea sa în vigoare și 30 septembrie 2026 inclusiv, o persoană fizică — singură sau împreună cu alte persoane fizice — poate achiziționa o singură locuință cu cota redusă de TVA de 9%, dacă îndeplinește cumulativ toate condițiile.
+
+Aici apare cea mai frecventă confuzie, și merită lămurită clar: termenul nu se referă la semnarea antecontractului, nici la plata avansului, nici la momentul în care ai depus dosarul la bancă. Se referă la **livrare** — momentul în care se semnează contractul final de vânzare-cumpărare la notar și locuința îți este predată efectiv.
+
+Textul legal precizează suplimentar că, la momentul livrării, locuința trebuie să poată fi locuită ca atare, conform condițiilor legale în vigoare la data la care s-au încheiat actele juridice privind plata în avans.
+
+Cu alte cuvinte: dacă ai antecontract semnat, avans plătit, credit aprobat, dar contractul final nu se autentifică până la 30 septembrie inclusiv, tranzacția trece la 21%. Iar diferența, pe o locuință la plafonul maxim, înseamnă zeci de mii de lei.
+
+De aceea, dacă ești în această situație, verificarea calendarului cu dezvoltatorul și cu notarul nu e o formalitate — e singurul lucru care contează în perioada rămasă.`,
+      },
+      {
+        id: 'conditii',
+        h2: 'Condițiile cumulative, pe scurt',
+        continut: `Pentru cota redusă de 9% trebuie îndeplinite simultan toate condițiile de mai jos. Lipsa oricăreia duce automat la aplicarea cotei de 21%:
+
+Suprafața utilă a locuinței de maximum 120 mp, exclusiv anexele gospodărești.
+
+Valoarea locuinței, inclusiv a terenului pe care este construită, de maximum 600.000 lei, exclusiv TVA.
+
+Cumpărătorul este persoană fizică, individual sau împreună cu alte persoane fizice.
+
+Cumpărătorul nu a mai achiziționat o altă locuință cu cotă redusă de TVA începând cu 1 ianuarie 2023.
+
+A fost încheiat, până la 1 august 2025 inclusiv, un act juridic între vii având ca obiect plata în avans pentru achiziționarea unei astfel de locuințe.
+
+Livrarea are loc cel târziu la 30 septembrie 2026 inclusiv, iar locuința poate fi locuită ca atare la acel moment.
+
+Pentru detalii extinse despre modul de calcul al TVA, capcanele frecvente la verificarea plafoanelor și exemple complete pe mai multe scenarii, am tratat separat subiectul în [ghidul despre TVA la apartamente noi](/blog/tva-apartamente-noi-2026).`,
+      },
+      {
+        id: 'restituire',
+        h2: 'Restituirea celor 12%: cine are dreptul să ceară banii înapoi',
+        continut: `Aceasta este partea cea mai puțin cunoscută a legii și, pentru unii cumpărători, cea mai valoroasă.
+
+Între 1 august 2026 și data intrării în vigoare a Legii 161/2026 a existat un interval în care termenul vechi expirase, dar cel nou încă nu se aplica. Cumpărătorii care au semnat contractul final în această fereastră au plătit cota standard de 21%, deși îndeplineau condițiile pentru cota redusă.
+
+Legea prevede explicit restituirea diferenței dintre cota standard de 21% și cota redusă de 9% pentru aceste persoane, pentru o singură locuință achiziționată.
+
+Condițiile pentru restituire sunt cele generale enumerate mai sus, plus două cerințe specifice: achiziția să se fi încadrat în condițiile cotei reduse, iar cumpărătorul să fi încheiat până la 1 august 2025 un act juridic între vii având ca obiect plata în avans pentru acea locuință.
+
+Administrația Județeană a Finanțelor Publice a precizat suplimentar că, pentru a beneficia de restituire, persoana trebuie să facă dovada achitării unui avans de minimum 20% din valoarea locuinței.
+
+Dacă ai semnat la notar în august 2026 și pe factură apare TVA 21%, merită să verifici imediat dacă te încadrezi. Nu e o procedură automată — banii nu vin de la sine.`,
+      },
+      {
+        id: 'documente',
+        h2: 'Documentele necesare și unde se depune cererea',
+        continut: `Restituirea nu se face automat. Trebuie depusă o cerere la administrația financiară de care aparții, împreună cu documentele care dovedesc îndeplinirea condițiilor.
+
+Documentele pe care e bine să le ai pregătite:
+
+Antecontractul sau actul juridic prin care s-a stabilit plata în avans, cu dată certă anterioară datei de 1 august 2025.
+
+Dovada achitării avansului de minimum 20% din valoarea locuinței — ordine de plată, extrase de cont, chitanțe.
+
+Contractul final de vânzare-cumpărare autentificat, din care rezultă data livrării și valoarea tranzacției.
+
+Factura emisă de dezvoltator, pe care apare cota de TVA de 21% efectiv aplicată.
+
+Documentația care atestă suprafața utilă a locuinței, pentru încadrarea în plafonul de 120 mp.
+
+Declarația pe propria răspundere că nu ai mai achiziționat o altă locuință cu cotă redusă de TVA din 1 ianuarie 2023 încoace.
+
+Recomandarea practică: înainte de a depune, cere dezvoltatorului o adresă scrisă care confirmă data livrării și cota de TVA aplicată. Simplifică mult dosarul și evită clarificările ulterioare cu ANAF.
+
+Pentru situația exactă a dosarului tău, consultarea unui contabil sau a unui consultant fiscal rămâne varianta cea mai sigură — condițiile sunt cumulative, iar interpretarea unora dintre ele depinde de particularitățile contractului.`,
+      },
+      {
+        id: 'calcul',
+        h2: 'Cât înseamnă concret 12% pe scenarii reale din București',
+        continut: `Diferența de 12 puncte procentuale se aplică la valoarea locuinței fără TVA. Iată ce înseamnă asta pe trei scenarii realiste pentru piața din Capitală:
+
+Apartament de 2 camere la 400.000 lei fără TVA: TVA la 9% înseamnă 36.000 lei, iar la 21% ajunge la 84.000 lei. Diferența de recuperat: 48.000 lei.
+
+Apartament de 3 camere la 500.000 lei fără TVA: TVA la 9% înseamnă 45.000 lei, la 21% urcă la 105.000 lei. Diferența: 60.000 lei.
+
+Locuință la plafonul maxim, 600.000 lei fără TVA: TVA la 9% înseamnă 54.000 lei, la 21% ajunge la 126.000 lei. Diferența: 72.000 lei.
+
+Pentru majoritatea cumpărătorilor, suma recuperabilă depășește costul total al mobilării unui apartament de două camere. Merită efortul de a verifica eligibilitatea și de a depune dosarul.
+
+Atenție la un detaliu care generează erori de calcul: plafonul de 600.000 lei se raportează la valoarea fără TVA, incluzând terenul aferent. Nu la prețul final afișat cu TVA inclus.`,
+      },
+      {
+        id: 'ce-faci-acum',
+        h2: 'Ce faci în ultimele zile până la termen',
+        continut: `Dacă ești în proces de achiziție și vizezi cota de 9%, prioritatea absolută este data autentificării la notar.
+
+Contactează dezvoltatorul și cere confirmarea în scris a datei la care locuința poate fi livrată juridic — nu estimări verbale. Întreabă explicit dacă apartamentarea și cartea funciară individuală sunt finalizate, pentru că fără ele nu se poate semna.
+
+Verifică cu banca dacă dosarul de credit e complet și dacă poate elibera fondurile la data programată. Un dosar incomplet descoperit cu trei zile înainte de termen nu se mai rezolvă.
+
+Programează notarul din timp. În ultimele zile ale lunii septembrie, cererea va fi mare, iar birourile notariale au capacitate limitată.
+
+Dacă ai semnat deja în august și pe factură apare 21%, nu aștepta — verifică dacă te încadrezi la restituire și începe strângerea documentelor.
+
+Dacă ești încă în etapa de căutare, reține că această cotă redusă nu se aplică achizițiilor noi: condiția de antecontract încheiat până la 1 august 2025 exclude pe oricine intră acum pe piață. Pentru cine caută în această perioadă, criteriile care contează sunt altele — stadiul de execuție, termenul real de livrare și soliditatea dezvoltatorului. Am detaliat verificările esențiale în [checklist-ul de verificare a unui dezvoltator](/blog/checklist-verificare-dezvoltator-imobiliar) și în articolul despre [garanții și recepția la cheie](/blog/garantii-receptie-cheie-contracte-vanzare-2026).`,
+      },
+      {
+        id: 'dupa-octombrie',
+        h2: 'Ce urmează după 1 octombrie 2026',
+        continut: `De la 1 octombrie 2026, cota redusă de 9% pentru locuințe nu mai are temei de aplicare în regimul tranzitoriu descris mai sus. Achizițiile de locuințe noi intră sub cota standard de 21%.
+
+Asta nu înseamnă că piața se oprește. Înseamnă că un factor care a accelerat artificial tranzacțiile în ultimele luni dispare, iar deciziile de cumpărare revin la criteriile normale: preț, localizare, calitatea construcției, termenul de livrare și costul finanțării.
+
+Pentru cumpărătorii care nu au putut beneficia de cota redusă, elementul care contează cel mai mult în perioada următoare rămâne evoluția prețurilor pe segmentul de locuințe noi — subiect pe care l-am analizat în detaliu în [articolul despre prețurile apartamentelor din București](/blog/preturi-apartamente-bucuresti-2026).
+
+Pentru cine are nevoie de o locuință finalizată, disponibilă imediat, [ansamblurile rezidențiale Neofort IMO](/ansambluri-rezidentiale) includ mai multe proiecte cu recepție făcută și predare la semnare. Consultanții noștri pot verifica împreună cu tine, gratuit, dacă situația ta se încadrează în condițiile pentru cota redusă sau pentru restituire — sună la 0758 090 904.`,
+      },
+      {
+        id: 'faq',
+        h2: 'Întrebări frecvente despre restituirea TVA',
+        continut: `Până când se pot livra locuințele cu TVA de 9%?
+Până la 30 septembrie 2026 inclusiv, conform Legii nr. 161/2026, publicată în Monitorul Oficial pe 4 august 2026. Termenul se referă la livrarea efectivă, adică la semnarea contractului final la notar, nu la antecontract.
+
+Cine poate cere restituirea diferenței de 12%?
+Persoanele care au achiziționat o locuință între 1 august 2026 și data intrării în vigoare a legii, au plătit TVA de 21%, dar îndeplineau condițiile pentru cota redusă, inclusiv cea de a fi încheiat un antecontract cu plata în avans până la 1 august 2025.
+
+Ce dovadă trebuie să aduc pentru avans?
+Dovada achitării unui avans de minimum 20% din valoarea locuinței — ordine de plată, extrase de cont sau chitanțe care să ateste plata efectuată înainte de 1 august 2025.
+
+De ce a fost prelungit termenul?
+Din cauza atacului cibernetic asupra sistemelor ANCPI din 14 iulie 2026, care a făcut nefuncțională aplicația e-Terra. Fără ea nu se puteau finaliza recepția cadastrală, apartamentarea și deschiderea cărților funciare — etape obligatorii pentru livrarea juridică.
+
+Pot cumpăra acum un apartament cu TVA 9%?
+Nu, dacă nu ai deja un antecontract cu plata în avans încheiat până la 1 august 2025. Această condiție exclude achizițiile noi începute după acea dată, indiferent de suprafață sau de preț.
+
+Restituirea se face automat?
+Nu. Trebuie depusă o cerere la administrația financiară, însoțită de documentele care dovedesc îndeplinirea tuturor condițiilor. Fără cerere, diferența nu se returnează.`,
+      },
+    ],
+  },
 }
 
 export const ARTICOLE_LIST = [
+    { slug: 'restituire-tva-9-la-suta-termen-30-septembrie-2026', titlu: 'Restituire TVA: Cum Recuperezi 12% Dacă Ai Plătit 21%', data: '8 Septembrie 2026', dataISO: '2026-09-08', citire: '11 min', image: '/blog/restituire-tva-9-la-suta-termen-30-septembrie-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea 161/2026 prelungește până la 30 septembrie termenul pentru livrarea locuințelor cu TVA 9% și permite restituirea diferenței de 12% pentru cine a plătit deja cota majorată.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
     { slug: 'neofort-10-colentina-fundeni-lansare', titlu: 'Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire', data: '23 Iunie 2026', dataISO: '2026-06-23', citire: '6 min', image: '/blog/neofort-10-colentina-fundeni-lansare.avif', tag: 'Lansare', tagColor: '#c8922a', rezumat: 'Un nou proiect Neofort IMO se pregătește de lansare în Colentina-Fundeni: garsoniere, studiouri, apartamente 2-4 camere cu grădini și terase. Predare T1 2028, rezervări din iulie 2026.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piață', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'credit-ipotecar-2026-ghid-complet-rate-dobanzi', titlu: 'Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie', data: '17 Iunie 2026', dataISO: '2026-06-17', citire: '16 min', image: '/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Ghid complet credit ipotecar 2026: IRCC 5,58%, calcule reale pe 4 scenarii, comparație bănci (BCR, BRD, Raiffeisen, ING, CEC), grad de îndatorare 40%, Noua Casă vs credit standard. Date actualizate BNR iunie 2026.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
