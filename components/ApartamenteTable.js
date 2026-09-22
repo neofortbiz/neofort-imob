@@ -11,6 +11,10 @@ const fmtSuprafata = (apt) =>
     : `${apt.suprafata} mp`
 const TEL_GENERAL_DISPLAY = '0758 090 904'
 
+// Culori pret: rosu = pret promotional, gri = apartament epuizat (informatie istorica)
+const ROSU = '#c0392b'
+const GRI = '#9ca3af'
+
 export default function ApartamenteTable({ apartamente, parcare, ansambluNume, brokerTel }) {
   const [selectedApt, setSelectedApt] = useState(null)
   const [filterCamere, setFilterCamere] = useState('')
@@ -20,7 +24,8 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
   const telDisplay = brokerTel || TEL_GENERAL_DISPLAY
   const waNum = telRaw.startsWith('0') ? '40' + telRaw.substring(1) : telRaw
 
-  const camereUnice = [...new Set(apartamente.map(a => a.camere))].sort()
+  // Butoanele de filtru apar doar pentru categoriile cu cel putin un apartament disponibil.
+  const camereUnice = [...new Set(apartamente.filter(a => !a.stocEpuizat).map(a => a.camere))].sort()
   // Apartamentele disponibile se afiseaza primele, cele epuizate la final.
   // Sortare stabila: in interiorul fiecarui grup se pastreaza ordinea din date.
   const filtered = (filterCamere ? apartamente.filter(a => a.camere === parseInt(filterCamere)) : [...apartamente])
@@ -76,31 +81,32 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
               <div>
                 {apt.pretPromo ? (
                   <div>
-                    <span className="text-sm font-semibold" style={{ color: '#c0392b' }}>{fmt(apt.pretPromo)}</span>
+                    <span className="text-sm font-semibold" style={{ color: apt.stocEpuizat ? GRI : ROSU }}>{fmt(apt.pretPromo)}</span>
                     <span className="text-[9px] text-gray-500 ml-1">+TVA</span>
-                    <span className="text-[10px] text-gray-400 line-through ml-2">{fmt(apt.avans20)}</span>
+                    {!apt.stocEpuizat && <span className="text-[10px] text-gray-400 line-through ml-2">{fmt(apt.avans20)}</span>}
                   </div>
                 ) : apt.avans45 ? (
                   <div className="space-y-0.5">
                     {apt.avans90 && (
                       <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
-                        Avans 90%: <span className="font-semibold" style={{ color: '#2d7a3a' }}>{fmt(apt.avans90)}</span>
-                        {apt.pretVechiAvans90 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans90)}</span>}
+                        {/* Avansul de 90% este intotdeauna o promotie -> mereu rosu */}
+                        Avans 90%: <span className="font-semibold" style={{ color: apt.stocEpuizat ? GRI : ROSU }}>{fmt(apt.avans90)}</span>
+                        {!apt.stocEpuizat && apt.pretVechiAvans90 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans90)}</span>}
                       </div>
                     )}
                     <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
-                      Avans 45%: <span className="font-semibold text-gray-900">{fmt(apt.avans45)}</span>
-                      {apt.pretVechiAvans45 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans45)}</span>}
+                      Avans 45%: <span className="font-semibold" style={{ color: apt.stocEpuizat ? GRI : (apt.pretVechiAvans45 ? ROSU : '#111827') }}>{fmt(apt.avans45)}</span>
+                      {!apt.stocEpuizat && apt.pretVechiAvans45 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans45)}</span>}
                     </div>
                     <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
-                      Avans 20%: <span className="font-medium text-gray-700">{fmt(apt.avans20)}</span>
-                      {apt.pretVechiAvans20 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans20)}</span>}
+                      Avans 20%: <span className="font-medium" style={{ color: apt.stocEpuizat ? GRI : (apt.pretVechiAvans20 ? ROSU : '#374151') }}>{fmt(apt.avans20)}</span>
+                      {!apt.stocEpuizat && apt.pretVechiAvans20 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans20)}</span>}
                     </div>
                     <div className="text-[9px] text-gray-500">+TVA</div>
                   </div>
                 ) : (
                   <div>
-                    <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{fmt(apt.avans20)}</span>
+                    <span className="text-sm font-semibold" style={{ color: apt.stocEpuizat ? GRI : '#2d7a3a' }}>{fmt(apt.avans20)}</span>
                     <span className="text-[9px] text-gray-500 ml-1">+TVA</span>
                   </div>
                 )}

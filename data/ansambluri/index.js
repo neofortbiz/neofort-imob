@@ -454,7 +454,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     descriere: 'Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Apartamente 4 camere de la 184.691€+TVA. Metrou Nicolae Teclu la 3 minute. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.',
     apartamente: [
       { tip: '4 cam.', etaj: 'et. 1-3', suprafata: 125.64, avans20: 184691, avans45: null, promo: false, camere: 4 },
-      { tip: '4 cam. cu curte', etaj: 'parter', suprafata: 133.54, avans20: 235208, avans45: null, promo: true, camere: 4 },
+      { tip: '4 cam. cu curte', etaj: 'parter', suprafata: 133.54, avans20: 235208, avans45: null, promo: false, camere: 4 },
     ],
     parcare: { exterior: { disponibil: true, pret: 8900, notaTVA: 'TVA inclus' }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 8900, notaTVA: 'TVA inclus' } },
     dotari: ['Incalzire prin pardoseala INNOFLOW', 'Smart Home Ready', 'Centrala termica proprie in condensare', 'Tamplarie VEKA tripan 7 camere', 'Kit aer conditionat preinstalat', 'Obiecte sanitare suspendate Grohe', 'Prize Gewiss', 'Lift silentios Schindler', 'Balustrade sticla securizata', 'Statii incarcare auto electrica', 'Supraveghere video spatii comune'],
