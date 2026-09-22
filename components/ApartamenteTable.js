@@ -21,7 +21,10 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
   const waNum = telRaw.startsWith('0') ? '40' + telRaw.substring(1) : telRaw
 
   const camereUnice = [...new Set(apartamente.map(a => a.camere))].sort()
-  const filtered = filterCamere ? apartamente.filter(a => a.camere === parseInt(filterCamere)) : apartamente
+  // Apartamentele disponibile se afiseaza primele, cele epuizate la final.
+  // Sortare stabila: in interiorul fiecarui grup se pastreaza ordinea din date.
+  const filtered = (filterCamere ? apartamente.filter(a => a.camere === parseInt(filterCamere)) : [...apartamente])
+    .sort((x, y) => (x.stocEpuizat ? 1 : 0) - (y.stocEpuizat ? 1 : 0))
 
   function fmt(v) {
     if (!v) return '—'

@@ -129,7 +129,8 @@ export default function AnsambluPage({ params }) {
       latitude: a.coordonate.lat,
       longitude: a.coordonate.lng,
     },
-    offers: a.apartamente.slice(0, 5).map(apt => ({
+    // Disponibilele primele, ca Google sa vada intai ce e de vanzare (doar primele 5 intra in schema).
+    offers: [...a.apartamente].sort((x, y) => (x.stocEpuizat ? 1 : 0) - (y.stocEpuizat ? 1 : 0)).slice(0, 5).map(apt => ({
       '@type': 'Offer',
       name: apt.tip,
       price: apt.pretPromo || apt.avans45 || apt.avans20,
