@@ -59,7 +59,7 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
             <div className="flex items-center justify-between gap-2 mb-1.5">
               <div className="flex items-center gap-1.5 flex-wrap">
                 <span className="font-medium text-gray-900 text-sm leading-tight">{apt.tip}</span>
-                {apt.promo && (
+                {apt.promo && !apt.stocEpuizat && (
                   <span className="text-[9px] px-1.5 py-0.5 rounded font-medium" style={{ background: '#fff3e0', color: '#c8922a' }}>PROMO</span>
                 )}
                 {apt.stocEpuizat && (

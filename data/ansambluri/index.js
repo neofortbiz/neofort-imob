@@ -342,7 +342,7 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     adresa: 'Bulevardul Iuliu Maniu, Sector 6, Bucuresti',
     status: 'activ',
     dataPredare: 'Finalizat',
-    pretDeLa: 218409,
+    pretDeLa: 235000,
     etaje: 'S+P+7E+8/9Er',
     telefon: '0759 030 367',
     broker: 'Ramona BAICU',
@@ -355,7 +355,7 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     },
     descriereCompleta: `Bulevardul Iuliu Maniu este una dintre marile artere ale Sectorului 6, cu conexiune directă la trei stații de metrou din linia M3. Neofort 76 Faza 2 valorifică exact această poziție: imobil S+P+7E+8/9Etaj retras, cu etajele superioare care oferă vedere panoramică asupra Bucureștiului de vest și unitățile de rezistență ale proiectului — apartamentele Penthouse cu terasă privată.
 
-Unitatea actuală disponibilă: Penthouse 4 camere cu terasă, etajele 8-9, 276,98 mp total, de la 218.409€ + TVA. Parcare în sistemul mecanic Klaus la 10.000€ TVA inclus — o soluție inovatoare de parcaj supraetajat care maximizează numărul locurilor disponibile în spațiul limitat.
+Unitatea actuală disponibilă: Penthouse 4 camere cu terasă, etajele 8-9, 293,13 mp total, de la 235.000€ + TVA. Parcare în sistemul mecanic Klaus la 10.000€ TVA inclus — o soluție inovatoare de parcaj supraetajat care maximizează numărul locurilor disponibile în spațiul limitat.
 
 Structura din beton armat antiSEismică certificată, apartamente complet finisate la cheie, încălzire în pardoseală în toate spațiile, contorizare individuală apă-gaz-electricitate și parcarea Klaus reprezintă standardul tehnic al proiectului. Etajele 8 și 9 retrase conferă Penthouse-ului intimitate naturală și o terasă panoramică generoasă — un avantaj arhitectural pe care imobilele cu regim uniform de înălțime nu îl pot oferi.
 
@@ -363,26 +363,26 @@ Conectivitatea este remarcabilă chiar și în contextul bogat al Sectorului 6: 
 
 Zona Militari-Iuliu Maniu a cunoscut o transformare semnificativă în urma extinderii rețelei de metrou. Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute și BricoDepot Militari la 10 minute acoperă orice nevoie comercială. Parcul Liniei — cel mai lung parc liniar din Europa, cu 10 kilometri de alei pietonale, piste de biciclete și spații verzi continue — este accesibil în 10 minute pe jos, oferind o raritate pentru Sectorul 6: un coridor verde lung care permite activitate fizică zilnică fără a depinde de parcuri punctuale. Școala Internațională King George la 10 minute și Școala Gimnazială Regina Maria la 8 minute asigură educație de calitate pentru familii. Grădinița Prichindel nr. 195 la 5 minute. Sanador Militari și OK Medical la 8 minute, Clinica Regina Maria Militari la 10 minute.
 
-Penthouse-ul Neofort 76, cu 276,98 mp desfășurați pe două niveluri și terasă privată la etajele 8-9, este o propunere rară în Sectorul 6 — spațiu generos, finisaje la cheie, metrou la 6 minute pe jos. Vânzare directă fără comision.
+Penthouse-ul Neofort 76, cu 293,13 mp desfășurați pe două niveluri și terasă privată la etajele 8-9, este o propunere rară în Sectorul 6 — spațiu generos, finisaje la cheie, metrou la 6 minute pe jos. Vânzare directă fără comision.
 
-Investiția în Penthouse-ul Neofort 76 este justificată și de tendința pieței imobiliare din zona Militari-Iuliu Maniu: prețurile pe metru pătrat în Sectorul 6 cu acces la M3 au crescut constant în ultimii 3 ani, susținute de cererea în creștere și de investițiile publice în infrastructura de transport. Un Penthouse de 276,98 mp cu terasă privată panoramică în această zonă nu este doar o locuință — este o proprietate cu potențial real de apreciere. Procesul de achiziție include consultanță juridică și financiară gratuită. Fără comision de agenție.
+Investiția în Penthouse-ul Neofort 76 este justificată și de tendința pieței imobiliare din zona Militari-Iuliu Maniu: prețurile pe metru pătrat în Sectorul 6 cu acces la M3 au crescut constant în ultimii 3 ani, susținute de cererea în creștere și de investițiile publice în infrastructura de transport. Un Penthouse de 293,13 mp cu terasă privată panoramică în această zonă nu este doar o locuință — este o proprietate cu potențial real de apreciere. Procesul de achiziție include consultanță juridică și financiară gratuită. Fără comision de agenție.
 
-Penthouse-ul Neofort 76 cu 276,98 mp și terasă panoramică la etajele 8-9 pe Bulevardul Iuliu Maniu este o propunere unică în Sectorul 6: nu există altă unitate comparabilă ca suprafață, etaj și localizare față de metrou în această zonă la prețul de 218.409€ + TVA. Prețul pe metru pătrat — aproximativ 788€/mp — este semnificativ sub media penthouse-urilor comparabile din Sectoarele 1 și 2, unde prețurile similare pornesc de la 1.500€/mp. Parcare sistem Klaus 10.000€ TVA inclus. Rezervare cu 2.000€. Consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari-Iuliu Maniu continuă să se dezvolte susținut, cu investiții publice semnificative în infrastructura de transport și regenerare urbană.
+Penthouse-ul Neofort 76 cu 293,13 mp și terasă panoramică la etajele 8-9 pe Bulevardul Iuliu Maniu este o propunere unică în Sectorul 6: nu există altă unitate comparabilă ca suprafață, etaj și localizare față de metrou în această zonă la prețul de 235.000€ + TVA. Prețul pe metru pătrat — aproximativ 802€/mp — este semnificativ sub media penthouse-urilor comparabile din Sectoarele 1 și 2, unde prețurile similare pornesc de la 1.500€/mp. Parcare sistem Klaus 10.000€ TVA inclus. Rezervare cu 2.000€. Consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari-Iuliu Maniu continuă să se dezvolte susținut, cu investiții publice semnificative în infrastructura de transport și regenerare urbană.
 
-Penthouse-ul Neofort 76 — 276,98 mp total, etajele 8 și 9 retrase, terasă privată panoramică — este o proprietate fără echivalent direct în Sectorul 6. Să desfășori 276 de metri pătrați util pe două niveluri, cu terasă privată și vedere spre Sectorul 6 și spre Câmpia de la vest de București, cu metrou la 550m, la prețul de 218.409€ + TVA (788€/mp), este o ofertă imposibil de regăsit în Sectoarele 1 sau 2 — unde echivalente pornesc de la 1.500-2.000€/mp.
+Penthouse-ul Neofort 76 — 293,13 mp total, etajele 8 și 9 retrase, terasă privată panoramică — este o proprietate fără echivalent direct în Sectorul 6. Să desfășori 293 de metri pătrați pe două niveluri, cu terasă privată și vedere spre Sectorul 6 și spre Câmpia de la vest de București, cu metrou la 550m, la prețul de 235.000€ + TVA (aproximativ 802€/mp), este o ofertă imposibil de regăsit în Sectoarele 1 sau 2 — unde echivalente pornesc de la 1.500-2.000€/mp.
 
 Bulevardul Iuliu Maniu este una dintre puținele artere principale din București care beneficiază simultan de trei stații de metrou diferite în raza de 2 km: Păcii, Gorjului și Preciziei, toate pe linia M3 (Magistrala 5). Aceasta înseamnă că din Penthouse-ul Neofort 76 poți ajunge la Piața Unirii în 8 minute, la Eroilor în 5 minute, la Politehnica în 4 minute și la Drumul Taberei (Favorit, Brâncuși, Râul Doamnei) în 6-8 minute. Nicio altă zonă din București nu oferă această densitate de conectivitate M3 la prețuri imobiliare sub 1.000€/mp.
 
 Parcul Liniei — cel mai lung parc liniar din Europa, cu 10 kilometri de alei pietonale continue, piste de biciclete și zone de agrement — este o resursă urbană de agrement cu totul specială pentru locuitorii zonei Militari-Iuliu Maniu. Nu este un parc punctual în care faci o tură și te întorci; este un coridor verde care pornește din Piața Unirii și se extinde spre vest, permițând alergatul, ciclismul și plimbările lungi fără a traversa intersecții majore. La 10 minute cu mașina din Penthouse-ul Neofort 76, Parcul Liniei devine o extensie naturală a spațiului de locuire.
 
-Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat sub 800€. Rezervare cu 2.000€, consultanță gratuită. În zona Militari, vedeți și [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — garsoniere și 2 camere de la 76.974€+TVA în promoție activă. Pentru criterii de evaluare, vezi [ghidul de alegere a unui ansamblu rezidențial nou în București](/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026).`,
+Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat în jur de 800€. Rezervare cu 2.000€, consultanță gratuită. În zona Militari, vedeți și [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — garsoniere și 2 camere de la 76.974€+TVA în promoție activă. Pentru criterii de evaluare, vezi [ghidul de alegere a unui ansamblu rezidențial nou în București](/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026).`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.43368, lng: 25.998051 },
     zone: ['militari', 'sector-6'],
-    tipuri: ['2 camere', '3 camere', '4 camere Penthouse'],
-    descriere: 'Ansamblul Rezidențial Neofort 76 Faza 2, Bulevardul Iuliu Maniu, Sector 6. Regim S+P+7E+8/9Er, apartamente 2-3 camere și Penthouse de la 218.409€+TVA. Metrou Păcii la 500m, Metrou Preciziei la 900m. Parcare sistem Klaus, finisaje la cheie, încălzire pardoseală, structură antisismică.',
+    tipuri: ['4 camere Penthouse'],
+    descriere: 'Ansamblul Rezidențial Neofort 76 Faza 2, Bulevardul Iuliu Maniu, Sector 6. Regim S+P+7E+8/9Er, Penthouse 4 camere cu terasă, 293,13 mp, de la 235.000€+TVA. Metrou Păcii la 500m, Metrou Preciziei la 900m. Parcare sistem Klaus, finisaje la cheie, încălzire pardoseală, structură antisismică.',
     apartamente: [
-      { tip: 'Penthouse 4 cam. + Terasa', etaj: 'et. 8-9', suprafata: 276.98, avans20: 218409, avans45: null, promo: false, camere: 4 },
+      { tip: 'Penthouse 4 cam. + Terasa', etaj: 'et. 8-9', suprafata: 293.13, avans20: 235000, avans45: null, promo: false, camere: 4 },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: true, pret: 10000, notaTVA: 'TVA inclus' }, subteran: { disponibil: false, pret: null } },
     dotari: ['Apartamente complet finisate la cheie', 'Incalzire in pardoseala', 'Contorizare individuala', 'Dotari tehnice de top', 'Structura beton armat antisezmica', 'Parcare sistem Klaus'],
@@ -402,7 +402,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Militari Metrou Păcii — Neofort 76',
-    seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Apartamente și Penthouse de la 218.409€+TVA. Metrou Păcii 500m.',
+    seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Penthouse 4 camere cu terasă panoramică, 293,13 mp, de la 235.000€+TVA. Metrou Păcii la 500m.',
   },
   {
     slug: 'neofort-56-pallady-titan-teclu',
@@ -450,8 +450,8 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.419894, lng: 26.182582 },
     zone: ['titan-pallady', 'sector-3'],
-    tipuri: ['Studio', '2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Studiouri și apartamente 2-4 camere de la 184.691€+TVA. Metrou Nicolae Teclu la 3 minute. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.',
+    tipuri: ['4 camere'],
+    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Apartamente 4 camere de la 184.691€+TVA. Metrou Nicolae Teclu la 3 minute. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.',
     apartamente: [
       { tip: '4 cam.', etaj: 'et. 1-3', suprafata: 125.64, avans20: 184691, avans45: null, promo: false, camere: 4 },
       { tip: '4 cam. cu curte', etaj: 'parter', suprafata: 133.54, avans20: 235208, avans45: null, promo: true, camere: 4 },
@@ -474,7 +474,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 56',
-    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Studio, 2-4 camere de la 184.691€+TVA. Smart Home Ready, metrou Teclu 3 min.',
+    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Apartamente 4 camere, inclusiv cu curte proprie, de la 184.691€+TVA. Smart Home Ready, metrou Teclu 3 min.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
@@ -539,9 +539,9 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     coordonate: { lat: 44.433921, lng: 26.172411 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 50 Titan IOR, Bulevardul 1 Decembrie 1918, Sector 3. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 142.545€+TVA. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire pardoseală.',
+    descriere: 'Ansamblul Rezidențial Neofort 50 Titan IOR, Bulevardul 1 Decembrie 1918, Sector 3. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 153.860€+TVA. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire pardoseală.',
     apartamente: [
-      { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 70.40, avans20: 161920, pretPromo: 155000, avans45: null, promo: true, camere: 2 },
+      { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 70.40, avans20: 176000, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. cu terasa (47.80+54.90mp)', etaj: 'et. 6', suprafata: 47.80, avans20: 153860, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. cu terasa (52.90+51.30mp)', etaj: 'et. 10-11', suprafata: 52.90, avans20: 162710, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. cu terasa (55.00+87.20mp)', etaj: 'et. 10-11', suprafata: 55.00, avans20: 196260, avans45: null, promo: true, camere: 2, pretPromo: 176900 },
@@ -575,7 +575,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan IOR — Neofort 50',
-    seoDescription: 'Ansamblu rezidential Neofort 50 Titan IOR, Bd. 1 Decembrie 1918, Sector 3 Bucuresti. Apartamente 2-4 camere de la 142.545 euro+TVA. Metrou Costin Georgian.',
+    seoDescription: 'Ansamblu rezidential Neofort 50 Titan IOR, Bd. 1 Decembrie 1918, Sector 3 Bucuresti. Apartamente 2-4 camere de la 153.860 euro+TVA. Metrou Costin Georgian.',
   },
   {
     slug: 'neofort-49-militari-metrou-gorjului',
@@ -586,7 +586,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     adresa: 'Strada Vistiernicul Stavrinos, Sector 6, Bucuresti',
     status: 'constructie',
     dataPredare: 'In curand',
-    pretDeLa: 117707,
+    pretDeLa: 142800,
     etaje: 'S+P+3E',
     telefon: '0759 030 367',
     broker: 'Ramona BAICU',
@@ -597,9 +597,9 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
       interior: ['/ansambluri/neo-49/interior-01.avif','/ansambluri/neo-49/interior-02.avif','/ansambluri/neo-49/interior-03.avif','/ansambluri/neo-49/interior-04.avif','/ansambluri/neo-49/interior-05.avif'],
       schite: ['/ansambluri/neo-49/schite-01.avif','/ansambluri/neo-49/schite-02.avif','/ansambluri/neo-49/schite-03.avif','/ansambluri/neo-49/schite-04.avif','/ansambluri/neo-49/schite-05.avif','/ansambluri/neo-49/schite-06.avif'],
     },
-    descriereCompleta: `Neofort 49 este răspunsul Neofort IMO pentru cumpărătorii care caută un apartament în curs de construire în zona Militari, la prețuri accesibile și cu acces direct la metroul M3: un proiect boutique de 16 apartamente pe Strada Vistiernicul Stavrinos, Sectorul 6, disponibil în promoție.
+    descriereCompleta: `Neofort 49 este răspunsul Neofort IMO pentru cumpărătorii care caută un apartament în curs de construire în zona Militari, la prețuri accesibile și cu acces direct la metroul M3: un proiect boutique de 16 apartamente pe Strada Vistiernicul Stavrinos, Sectorul 6, din care a mai rămas un singur apartament disponibil.
 
-Garsonieră 38,90 mp: 77.800 €+ TVA. Apartament 2 camere 60,30 mp: 120.600 € + TVA. Parcare subterană 15.000€ TVA inclus. Prețurile promoționale sunt valabile pentru stocul curent disponibil.
+Ultimul apartament disponibil: 2 camere Tip 6, 71,40 mp, 142.800 € + TVA — cea mai mare suprafață de 2 camere din proiect. Garsoniera și celelalte tipuri de 2 camere au fost vândute integral. Parcare subterană 15.000€ TVA inclus.
 
 Zona Militari-Gorjului a câștigat semnificativ în atractivitate după extinderea liniei M3 spre Drumul Taberei. Metroul Gorjului și Metroul Păcii — ambele accesibile la câteva minute pe jos — asigură accesul spre Piața Unirii în 10 minute și spre Drumul Taberei în 5 minute, fără dependență de traficul consistent al Bulevardului Iuliu Maniu sau al Bulevardului Timișoara. Această conectivitate face zona extrem de atractivă pentru angajații care lucrează în centrul Bucureștiului sau în zona de vest.
 
@@ -607,13 +607,13 @@ Structura din beton armat C25/30 cu zidărie Porotherm 30cm și izolație EPS100
 
 Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute, BricoDepot Militari la 10 minute. Parcul Liniei — cel mai lung parc liniar din Europa cu 10 km de alei — la 5 minute pe jos. Școala Internațională King George la 10 minute și Școala Gimnazială Regina Maria la 8 minute. Sanador Militari și OK Medical la 8 minute, Clinica Regina Maria Militari la 10 minute.
 
-Cu 18 unități finalizate, cheltuielile comune de întreținere sunt reduse și gestionabile, iar comunitatea de locatari este restrânsă și omogenă. Pentru cumpărătorii aflați la prima locuință sau pentru investitorii care caută randament bun în chirie — zona Militari generează chirii de 450-550€/lună pentru garsoniere — Neofort 49 reprezintă o oportunitate concretă și imediată. Vânzare directă, fără comision.
+Cu 18 unități finalizate, cheltuielile comune de întreținere sunt reduse și gestionabile, iar comunitatea de locatari este restrânsă și omogenă. Pentru cumpărătorii aflați la prima locuință sau pentru investitorii care caută randament bun în chirie, ultimul apartament disponibil din Neofort 49 reprezintă o oportunitate concretă și imediată. Vânzare directă, fără comision.
 
-Un argument suplimentar pentru Neofort 49 ca investiție: chiria lunară pentru o garsonieră de 38-40 mp în zona Militari cu metrou la 5 minute variază între 450€ și 530€ pe lună, ceea ce generează un randament brut de 6% estimativ anual față de prețul de 77.800 €. Apartamentele de 2 camere se închiriază curent cu 550-650€/lună, randament 5,5-6,5% față de 120.600 €. Zona Militari este în mod constant printre zonele cu cea mai ridicată cerere de chirie din București, alimentată de angajații din zona de business a Sectorului 6 și din centru. Vânzare directă, fără comision.
+Un argument suplimentar pentru Neofort 49 ca investiție: apartamentele de 2 camere se închiriază curent în zona Militari cu 550-650€/lună, ceea ce generează un randament brut estimativ de 4,6-5,5% anual față de prețul de 142.800 €. Zona Militari este în mod constant printre zonele cu cea mai ridicată cerere de chirie din București, alimentată de angajații din zona de business a Sectorului 6 și din centru. Vânzare directă, fără comision.
 
-Zona Militari-Gorjului are unul dintre cele mai bune rapoarte preț/conectivitate din București. La prețul de 76.974€ pentru o garsonieră finalizată cu metrou la câteva minute, alternativele comparabile din zone similare (Drumul Taberei, Militari-Pacii) pornesc de la 85.000-95.000€. Diferența de 8.000-18.000€ față de piață, combinată cu finisajele superioare mediei și cu stocul limitat de 16 unități, face din Neofort 49 o oportunitate imediată și concretă.
+Zona Militari-Gorjului are unul dintre cele mai bune rapoarte preț/conectivitate din București. Proiectul de 16 unități s-a vândut aproape integral, ceea ce confirmă cererea pentru această combinație de preț, finisaje superioare mediei și acces la metrou. Ultimul apartament disponibil — 2 camere de 71,40 mp — este și cel mai spațios din categoria sa.
 
-Randamentul în chirie: garsonierele de 38-39 mp se închiriază în zona Militari cu metrou la 5 minute cu 450-530€/lună — randament brut 6% estimativ anual. Apartamentele de 2 camere generează 550-650€/lună — randament 5,5-6,5%. Stocul este limitat la 16 unități — disponibilitatea se poate reduce rapid. Parcare subterană 15.000€ TVA inclus. Rezervare cu 5% din pret. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari generează constant una dintre cele mai ridicate cereri de chirie din București, alimentată de angajații din zona de business a Sectorului 6, din centru și din zona Drumul Taberei conectată pe M5. Cu doar 16 unități disponibile, stocul se poate epuiza rapid.
+Randamentul în chirie: apartamentele de 2 camere generează în zonă 550-650€/lună — randament brut estimativ 4,6-5,5% față de prețul actual. Din cele 16 unități, a mai rămas una singură. Parcare subterană 15.000€ TVA inclus. Rezervare cu 5% din pret. Consultanță bancară și juridică gratuită. Vânzare directă de la sursă, fără comision de agenție. Zona Militari generează constant una dintre cele mai ridicate cereri de chirie din București, alimentată de angajații din zona de business a Sectorului 6, din centru și din zona Drumul Taberei conectată pe M5. Din cele 16 unități ale proiectului, a mai rămas un singur apartament disponibil.
 
 Strada Vistiernicul Stavrinos se află la aproximativ 950m de Metrou Gorjului (M3) — aproximativ 12 minute de mers pe jos. Linia M3 este cea mai recentă și mai lungă magistrală de metrou din București, traversând Sectorul 6 de la Drumul Taberei spre est și conectând Sectorul 6 cu centrul și cu zona de est a capitalei. De la Gorjului: Eroilor în 10 minute, Piața Unirii în 20 minute, Piața Victoriei în 20 minute. Această conectivitate transformă zona Militari dintr-un cartier rezidențial îndepărtat de centru — percepție moștenită din epoca premergătoare M3 — într-o zonă cu acces urban complet.
 
@@ -625,13 +625,15 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4311, lng: 26.012883 },
     zone: ['militari', 'sector-6'],
-    tipuri: ['Garsoniera', '2 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 16 apartamente în construcție. Garsoniere (38,9 mp) și 2 camere (38,9-71,4 mp) de la 77.800€+TVA. Metrou Gorjului (M3) la 950m. Centrală proprie, încălzire pardoseală, tâmplărie Salamander tripan, kit aer condiționat, finisaje complete.',
+    tipuri: ['2 camere'],
+    descriere: 'Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 16 apartamente în construcție. Ultimul apartament disponibil: 2 camere 71,40 mp, 142.800€+TVA. Metrou Gorjului (M3) la 950m. Centrală proprie, încălzire pardoseală, tâmplărie Salamander tripan, kit aer condiționat, finisaje complete.',
     apartamente: [
-      { tip: '2 camere tip 2', etaj: 'et. 1-3', suprafata: 60.85, avans20: 121700, avans45: null, promo: true, camere: 2, pretPromo: 118807 },
-      { tip: '2 camere tip 4', etaj: 'et. 1-3', suprafata: 60.45, avans20: 120900, avans45: null, promo: true, camere: 2, pretPromo: 118007 },
-      { tip: '2 camere tip 5', etaj: 'et. 1-3', suprafata: 60.30, avans20: 120600, avans45: null, promo: true, camere: 2, pretPromo: 117707 },
-      { tip: '2 camere tip 6', etaj: 'et. 1-3', suprafata: 71.40, avans20: 142800, avans45: null, promo: true, camere: 2, pretPromo: 140321 },
+      { tip: 'Garsoniera', etaj: 'et. 1-3', suprafata: 38.90, avans20: 77800, avans45: null, promo: false, camere: 1, stocEpuizat: true },
+      { tip: '2 camere tip 2', etaj: 'et. 1-3', suprafata: 60.85, avans20: 121700, avans45: null, promo: true, camere: 2, pretPromo: 118807, stocEpuizat: true },
+      { tip: '2 camere tip 3', etaj: 'et. 1-3', suprafata: 63.25, avans20: 126500, avans45: null, promo: false, camere: 2, stocEpuizat: true },
+      { tip: '2 camere tip 4', etaj: 'et. 1-3', suprafata: 60.45, avans20: 120900, avans45: null, promo: true, camere: 2, pretPromo: 118007, stocEpuizat: true },
+      { tip: '2 camere tip 5', etaj: 'et. 1-3', suprafata: 60.30, avans20: 120600, avans45: null, promo: true, camere: 2, pretPromo: 117707, stocEpuizat: true },
+      { tip: '2 camere tip 6', etaj: 'et. 1-3', suprafata: 71.40, avans20: 142800, avans45: null, promo: false, camere: 2 },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 15000, notaTVA: 'TVA inclus' } },
     dotari: ['Centrala proprie de apartament', 'Incalzire prin pardoseala', 'Tamplarie Salamander negru structurat', 'Kit aer conditionat', 'Baie complet echipata', 'Obiecte sanitare incastrabile suspendate', 'Usa metalica multipunct antiefractie', 'Lift silentios'],
@@ -651,7 +653,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Militari Gorjului — Neofort 49',
-    seoDescription: 'Neofort 49, Sector 6. Garsoniere și 2 camere de la 76.974€+TVA. Promoție activă. Metrou Gorjului câteva minute.',
+    seoDescription: 'Neofort 49, Sector 6. Ultimul apartament disponibil: 2 camere, 71,40 mp, 142.800€+TVA. Proiect boutique de 16 apartamente, Metrou Gorjului la 950m.',
   },
   {
     slug: 'neofort-44-titan-pallady-teclu',
@@ -998,7 +1000,8 @@ export function getAnsamblu(slug) {
 // Returneaza true daca ansamblul are cel putin un apartament cu promo: true
 // Folosit pentru badge si filtru Promotie fara a atinge campul status
 export function hasPromo(a) {
-  return Array.isArray(a.apartamente) && a.apartamente.some(apt => apt.promo === true)
+  // Un apartament epuizat (stocEpuizat) nu mai reprezinta o promotie disponibila.
+  return Array.isArray(a.apartamente) && a.apartamente.some(apt => apt.promo === true && !apt.stocEpuizat)
 }
 
 export function formatPret(pret) {
