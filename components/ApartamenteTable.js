@@ -5,10 +5,14 @@ const TEL_GENERAL = '0758090904'
 
 // Eticheta pentru suprafata suplimentara (terasa / curte)
 const EXTRA_LABEL = { terasa: 'terasă', teren: 'curte' }
-const fmtSuprafata = (apt) =>
-  apt.suprafataExtra
-    ? `${apt.suprafata} mp + ${EXTRA_LABEL[apt.tipExtra] || apt.tipExtra} ${apt.suprafataExtra} mp`
-    : `${apt.suprafata} mp`
+// deLaSuprafata / deLaPret: prefix "de la" pentru tipologiile cu mai multe variante
+// (suprafete sau preturi diferite in functie de etaj). Optionale — apar doar unde sunt setate.
+const fmtSuprafata = (apt) => {
+  const pre = apt.deLaSuprafata ? 'de la ' : ''
+  return apt.suprafataExtra
+    ? `${pre}${apt.suprafata} mp + ${EXTRA_LABEL[apt.tipExtra] || apt.tipExtra} ${apt.suprafataExtra} mp`
+    : `${pre}${apt.suprafata} mp`
+}
 const TEL_GENERAL_DISPLAY = '0758 090 904'
 
 // Culori pret: rosu = pret promotional, gri = apartament epuizat (informatie istorica)
@@ -31,9 +35,9 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
   const filtered = (filterCamere ? apartamente.filter(a => a.camere === parseInt(filterCamere)) : [...apartamente])
     .sort((x, y) => (x.stocEpuizat ? 1 : 0) - (y.stocEpuizat ? 1 : 0))
 
-  function fmt(v) {
+  function fmt(v, apt) {
     if (!v) return '—'
-    return new Intl.NumberFormat('ro-RO').format(v) + '€'
+    return (apt?.deLaPret ? 'de la ' : '') + new Intl.NumberFormat('ro-RO').format(v) + '€'
   }
 
   return (
@@ -81,7 +85,7 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
               <div>
                 {apt.pretPromo ? (
                   <div>
-                    <span className="text-sm font-semibold" style={{ color: apt.stocEpuizat ? GRI : ROSU }}>{fmt(apt.pretPromo)}</span>
+                    <span className="text-sm font-semibold" style={{ color: apt.stocEpuizat ? GRI : ROSU }}>{fmt(apt.pretPromo, apt)}</span>
                     <span className="text-[9px] text-gray-500 ml-1">+TVA</span>
                     {!apt.stocEpuizat && <span className="text-[10px] text-gray-400 line-through ml-2">{fmt(apt.avans20)}</span>}
                   </div>
@@ -90,23 +94,23 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
                     {apt.avans90 && (
                       <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
                         {/* Avansul de 90% este intotdeauna o promotie -> mereu rosu */}
-                        Avans 90%: <span className="font-semibold" style={{ color: apt.stocEpuizat ? GRI : ROSU }}>{fmt(apt.avans90)}</span>
+                        Avans 90%: <span className="font-semibold" style={{ color: apt.stocEpuizat ? GRI : ROSU }}>{fmt(apt.avans90, apt)}</span>
                         {!apt.stocEpuizat && apt.pretVechiAvans90 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans90)}</span>}
                       </div>
                     )}
                     <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
-                      Avans 45%: <span className="font-semibold" style={{ color: apt.stocEpuizat ? GRI : (apt.pretVechiAvans45 ? ROSU : '#111827') }}>{fmt(apt.avans45)}</span>
+                      Avans 45%: <span className="font-semibold" style={{ color: apt.stocEpuizat ? GRI : (apt.pretVechiAvans45 ? ROSU : '#111827') }}>{fmt(apt.avans45, apt)}</span>
                       {!apt.stocEpuizat && apt.pretVechiAvans45 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans45)}</span>}
                     </div>
                     <div className="text-[11px] text-gray-500 flex items-center gap-1.5">
-                      Avans 20%: <span className="font-medium" style={{ color: apt.stocEpuizat ? GRI : (apt.pretVechiAvans20 ? ROSU : '#374151') }}>{fmt(apt.avans20)}</span>
+                      Avans 20%: <span className="font-medium" style={{ color: apt.stocEpuizat ? GRI : (apt.pretVechiAvans20 ? ROSU : '#374151') }}>{fmt(apt.avans20, apt)}</span>
                       {!apt.stocEpuizat && apt.pretVechiAvans20 && <span className="line-through text-[10px] text-gray-400">{fmt(apt.pretVechiAvans20)}</span>}
                     </div>
                     <div className="text-[9px] text-gray-500">+TVA</div>
                   </div>
                 ) : (
                   <div>
-                    <span className="text-sm font-semibold" style={{ color: apt.stocEpuizat ? GRI : '#2d7a3a' }}>{fmt(apt.avans20)}</span>
+                    <span className="text-sm font-semibold" style={{ color: apt.stocEpuizat ? GRI : '#2d7a3a' }}>{fmt(apt.avans20, apt)}</span>
                     <span className="text-[9px] text-gray-500 ml-1">+TVA</span>
                   </div>
                 )}
@@ -131,17 +135,17 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
           <div className="flex flex-wrap gap-2">
             {parcare.exterior?.disponibil && (
               <span className="text-xs px-2 py-1 rounded bg-gray-100 text-gray-600">
-                Exterioară {parcare.exterior.pret ? `— ${new Intl.NumberFormat('ro-RO').format(parcare.exterior.pret)}€ ${parcare.exterior.notaTVA || '+TVA'}` : ''}
+                Exterioară {parcare.exterior.pret ? `— ${parcare.deLa ? 'de la ' : ''}${new Intl.NumberFormat('ro-RO').format(parcare.exterior.pret)}€ ${parcare.exterior.notaTVA || '+TVA'}` : ''}
               </span>
             )}
             {parcare.interior?.disponibil && (
               <span className="text-xs px-2 py-1 rounded bg-gray-100 text-gray-600">
-                Interioară {parcare.interior.pret ? `— ${new Intl.NumberFormat('ro-RO').format(parcare.interior.pret)}€ ${parcare.interior.notaTVA || '+TVA'}` : ''}
+                Interioară {parcare.interior.pret ? `— ${parcare.deLa ? 'de la ' : ''}${new Intl.NumberFormat('ro-RO').format(parcare.interior.pret)}€ ${parcare.interior.notaTVA || '+TVA'}` : ''}
               </span>
             )}
             {parcare.subteran?.disponibil && (
               <span className="text-xs px-2 py-1 rounded bg-gray-100 text-gray-600">
-                Subterană {parcare.subteran.pret ? `— ${new Intl.NumberFormat('ro-RO').format(parcare.subteran.pret)}€ ${parcare.subteran.notaTVA || '+TVA'}` : ''}
+                Subterană {parcare.subteran.pret ? `— ${parcare.deLa ? 'de la ' : ''}${new Intl.NumberFormat('ro-RO').format(parcare.subteran.pret)}€ ${parcare.subteran.notaTVA || '+TVA'}` : ''}
               </span>
             )}
           </div>

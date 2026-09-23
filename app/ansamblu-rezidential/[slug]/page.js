@@ -306,7 +306,13 @@ export default function AnsambluPage({ params }) {
             {/* QUICK STATS */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-2">
               {[
-                { val: [...new Set(a.tipuri.map(t => String(t).match(/\d+/)?.[0]).filter(Boolean))].sort((x,y) => x-y).join(', ') + ' cam.', lbl: 'Tipuri' },
+                { val: (() => {
+                    // Tipologiile numerice se compacteaza in "2, 3, 4 cam."; cele nenumerice
+                    // (Garsoniera, Studio) se pastreaza ca atare, altfel dispareau din stat.
+                    const num = [...new Set(a.tipuri.map(t => String(t).match(/\d+/)?.[0]).filter(Boolean))].sort((x, y) => x - y)
+                    const alt = a.tipuri.filter(t => !String(t).match(/\d+/))
+                    return [...alt, ...(num.length ? [num.join(', ') + ' cam.'] : [])].join(', ')
+                  })(), lbl: 'Tipuri' },
                 { val: `de la ${formatPret(a.pretDeLa)}`, lbl: 'Preț de la' },
                 { val: a.apartamente.length > 0 ? `${a.apartamente[0].suprafata}–${a.apartamente[a.apartamente.length-1].suprafata}mp` : 'N/A', lbl: 'Suprafețe' },
                 { val: (() => {
@@ -316,7 +322,7 @@ export default function AnsambluPage({ params }) {
                   const mid = parts[Math.floor(parts.length / 2)]
                   return `${parts[0]}+...+${mid}+${parts[parts.length - 1]}`
                 })(), lbl: 'Regim înălțime' },
-                { val: a.puncteInteres[0]?.distanta || 'N/A', lbl: a.puncteInteres[0]?.tip === 'metrou' ? 'Până la metrou' : 'Distanță' },
+                { val: a.puncteInteres[0]?.distanta || 'N/A', lbl: a.puncteInteres[0]?.nume || 'Distanță' },
                 { val: STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie'].label, lbl: 'Status', color: STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie'].dot },
               ].map((s, i) => (
                 <div key={i} className="rounded-lg p-2.5 text-center" style={{ background: 'rgba(255,255,255,0.07)', border: '0.5px solid rgba(255,255,255,0.1)' }}>
