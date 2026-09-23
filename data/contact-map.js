@@ -21,6 +21,7 @@ export const CONTACT_MAP = {
   'neofort-42-piata-muncii': { nume: 'Neofort 42 Piata Muncii', numar: 42, zona: 'Piata Muncii', sector: 'Sector 3', brokerTel: '0757 077 057' },
   'neofort-28-titan-pallady-teclu': { nume: 'Neofort 28 Titan Pallady', numar: 28, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0752 443 437' },
   'neofort-11-eminescu-viitorului': { nume: 'Neofort 11 Eminescu Viitorului', numar: 11, zona: 'Eminescu-Viitorului', sector: 'Sector 2', brokerTel: '0752 443 434' },
+  'neofort-10-colentina-fundeni': { nume: 'Neofort 10 Colentina Fundeni', numar: 10, zona: 'Colentina', sector: 'Sector 2', brokerTel: '0743250029' },
 }
 
 // Echivalentul lui getAnsamblu(slug) pentru nevoile componentelor globale.
@@ -42,8 +43,8 @@ export const ZONE_LINKS = [
 
 // Hash-ul continutului datelor — folosit de generator ca sa stie daca
 // datele s-au modificat intre build-uri. NU folosi in aplicatie.
-export const DATA_HASH = 'b8bcb3340e6e2057'
+export const DATA_HASH = '200a8e67fdda5984'
 
 // Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
 // Folosita de sitemap.js pentru lastmod corect.
-export const DATA_ANSAMBLURI = '2026-09-02'
+export const DATA_ANSAMBLURI = '2026-09-23'

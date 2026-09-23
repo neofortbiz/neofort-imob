@@ -67,7 +67,7 @@ export const ARTICOLE = {
       'Prețurile de pre-lansare sunt de regulă sub cele finale — avantajul primilor cumpărători într-o fază timpurie.',
     ],
     tag: 'Lansare', tagColor: '#c8922a',
-    data: '23 Iunie 2026', dataISO: '2026-06-23', citire: '6 min',
+    data: '23 Iunie 2026', dataISO: '2026-06-23', dataModificata: '2026-09-23', citire: '6 min',
     autor: 'raluca-nistor',
     image: '/blog/neofort-10-colentina-fundeni-lansare.avif',
     imagePosition: 'center top',
@@ -164,7 +164,7 @@ Oferta de lansare se pregătește. Prețurile și disponibilitatea completă vor
         id: 'faq',
         h2: `Întrebări frecvente despre Neofort 10 Colentina Fundeni`,
         continut: `Când vor fi disponibile prețurile pentru Neofort 10 Colentina Fundeni?
-Prețurile și disponibilitatea completă a tipologiilor vor fi publicate odată cu deschiderea oficială a rezervărilor, estimată pentru iulie 2026. Cei care lasă datele de contact vor fi informați primii.
+Prețurile și disponibilitatea completă sunt acum publice — vezi [pagina ansamblului Neofort 10 Colentina Fundeni](/ansamblu-rezidential/neofort-10-colentina-fundeni), cu toate cele 10 tipologii, suprafețele exacte și oferta de lansare valabilă pentru primele 10 unități.
 
 Când se predă Neofort 10 Colentina Fundeni?
 Prima scară a ansamblului este programată pentru predare în Trimestrul I 2028, conform planificării actuale a constructorului.

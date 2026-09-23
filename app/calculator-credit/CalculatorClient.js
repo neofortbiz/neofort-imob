@@ -14,6 +14,7 @@ const ANSAMBLURI = [
   { slug: 'neofort-42-piata-muncii',             nume: 'Neofort 42 Piața Muncii',        pret: 197056 },
   { slug: 'neofort-28-titan-pallady-teclu',      nume: 'Neofort 28 Pallady Teclu',       pret: 83900  },
   { slug: 'neofort-11-eminescu-viitorului',      nume: 'Neofort 11 Eminescu',            pret: 104640 },
+  { slug: 'neofort-10-colentina-fundeni',        nume: 'Neofort 10 Colentina',           pret: 80845  },
 ]
 
 const DAE_MIN = 6.0

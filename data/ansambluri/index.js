@@ -968,6 +968,84 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     seoTitle: 'Ansamblu Rezidențial Eminescu Viitorului — Neofort 11',
     seoDescription: 'Neofort 11 boutique, Sector 2. 15 apartamente premium, 2-3 camere de la 99.000€+TVA. Predare sept. 2026.',
   },
+  {
+    slug: 'neofort-10-colentina-fundeni',
+    numar: 10,
+    nume: 'Neofort 10 Colentina Fundeni',
+    zona: 'Colentina',
+    sector: 'Sector 2',
+    adresa: 'Strada Păsărani, Colentina, Sector 2, București',
+    status: 'constructie',
+    dataPredare: 'T1 2028',
+    pretDeLa: 80845,
+    etaje: 'D+P+4E+5R',
+    telefon: '0743 250 029',
+    broker: 'Raluca NISTOR',
+    brokerFoto: '/brokeri/raluca-nistor.avif',
+    imagini: {
+      cover: '/ansambluri/neo-10/exterior-01.avif',
+      exterior: ['/ansambluri/neo-10/exterior-01.avif','/ansambluri/neo-10/exterior-02.avif','/ansambluri/neo-10/exterior-03.avif','/ansambluri/neo-10/exterior-04.avif','/ansambluri/neo-10/exterior-05.avif','/ansambluri/neo-10/exterior-06.avif','/ansambluri/neo-10/exterior-07.avif'],
+      interior: [],
+      schite: ['/ansambluri/neo-10/schite-01.avif','/ansambluri/neo-10/schite-02.avif','/ansambluri/neo-10/schite-03.avif','/ansambluri/neo-10/schite-04.avif','/ansambluri/neo-10/schite-05.avif','/ansambluri/neo-10/schite-06.avif','/ansambluri/neo-10/schite-07.avif','/ansambluri/neo-10/schite-08.avif','/ansambluri/neo-10/schite-09.avif','/ansambluri/neo-10/schite-10.avif'],
+    },
+    descriereCompleta: `Pe strada Păsărani, într-o zonă liniștită de case din Colentina, Neofort 10 oferă un echilibru rar între accesul rapid către oraș și confortul unei străzi secundare, ferite de trafic intens. Ansamblul are 106 apartamente distribuite pe două scări — 51 în Scara 1 și 55 în Scara 2 — pe un regim de înălțime D+P+4E+5R, cu predare programată în Trimestrul I 2028.
+
+Oferta cuprinde 10 tipologii distincte, de la garsoniere de 42,55 mp până la apartamente de 4 camere cu terasă. Prețurile de mai jos reprezintă oferta de lansare și sunt valabile în limita primelor 10 unități; după epuizarea acestora, prețurile vor fi actualizate. Garsonieră de la 42,55 mp — de la 80.845€ + TVA. Garsonieră cu curte privată, 46,50 mp plus 11,60 mp curte — de la 91.690€ + TVA. Studio 50,40 mp — de la 95.760€ + TVA. Studio cu curte privată, 53 mp plus 14,50 mp curte — de la 105.745€ + TVA. 2 camere Tip 1, de la 59,35 mp — de la 106.830€ + TVA. 2 camere Tip 2, de la 60,70 mp — de la 109.260€ + TVA. 2 camere cu curte privată, de la 61,40 mp plus 17,75 mp curte — de la 124.020€ + TVA. 3 camere de la 78,05 mp — de la 140.490€ + TVA. 3 camere cu terasă, de la 83,30 mp plus 22 mp terasă — de la 169.965€ + TVA. 4 camere cu terasă, de la 99,95 mp plus 122 mp terasă — de la 257.177€ + TVA.
+
+Parcarea este obligatorie pentru fiecare apartament din Neofort 10 Colentina și se alege separat, adăugându-se la prețul final al locuinței. Sunt disponibile trei variante: parcare interioară la demisol de la 12.000€ + TVA, parcare exterioară pe platformă Klaus la nivelul inferior de la 9.000€ + TVA și parcare exterioară pe platformă Klaus la nivelul superior de la 8.500€ + TVA.
+
+Pentru a răspunde preferințelor fiecărui proprietar, finisajele interioare pot fi alese dintr-o gamă variată, ceea ce oferă posibilitatea personalizării locuinței înainte de finalizarea acesteia — un avantaj real față de apartamentele livrate cu finisaje standard, impuse.
+
+Particularitatea proiectului: apartamentele de la parter beneficiază de curți proprii, o tipologie rar disponibilă în blocurile noi din București, care oferă intimitatea unei case alături de avantajele unui apartament. La polul opus, locuințele de la etajul 5 retras dispun de terase generoase, potrivite pentru cine prioritizează spațiul exterior privat. Această combinație înseamnă că proiectul se adresează simultan unor profiluri diferite de cumpărători — familii care vor spațiu exterior la nivelul solului și cumpărători care caută perspectivă și lumină la ultimul nivel.
+
+Neofort 10 Colentina este o alegere atractivă pentru cei care caută apartamente cu acces rapid către Pipera și nordul Bucureștiului. Șoseaua Fabrica de Glucoză și centrul de business Pipera se află la 4,7 km — aproximativ 9 minute cu mașina. Poziționarea este avantajoasă atât pentru cei care lucrează în zonă și vor să locuiască aproape de serviciu, cât și pentru investitori, datorită potențialului de închiriere pe termen lung către angajații din Pipera sau în regim hotelier pentru persoanele care ajung în București pentru servicii medicale — hub-ul medical Fundeni se află la 1 km de ansamblu, aproximativ 14 minute pe jos.
+
+Transportul public acoperă bine zona: liniile STB 66 și 253 sunt la 450 m — 5 minute pe jos — iar tramvaiul 21 la 800 m, 9 minute pe jos. Veranda Mall și Piața Obor sunt la 4,4 km, 10 minute cu mașina, iar centrul comercial Carrefour/Altex la 1 km, 14 minute pe jos.
+
+Infrastructura educațională din proximitate este densă: Grădinița Zuppy și Școala Gimnazială nr. 32 la 850 m — 10 minute pe jos, Colegiul Național Victor Babeș la 1,3 km, Școala Gimnazială nr. 40 la 1,8 km, iar Liceul ICHB Colentina și Grădinița și Școala Spectrum la 2,6 km, 6 minute cu mașina. Pentru timpul liber, Parcul Motodrom este la 1,2 km, 17 minute pe jos, iar Parcul Plumbuita la 2,3 km, 6 minute cu mașina.
+
+Alege un apartament într-un loc unde te întorci pentru liniște. Aici, liniștea e acasă.
+
+Pentru context despre proiect și despre zonă, vezi și articolul de prezentare [Neofort 10 Colentina Fundeni: proiect nou în Colentina](/blog/neofort-10-colentina-fundeni-lansare).`,
+    brokerTel: '0743250029',
+    coordonate: { lat: 44.46873206968907, lng: 26.16024553858496 },
+    zone: ['colentina', 'sector-2'],
+    tipuri: ['Garsoniera', 'Studio', '2 camere', '3 camere', '4 camere'],
+    descriere: 'Ansamblul Rezidențial Neofort 10 Colentina Fundeni, strada Păsărani, Sector 2. 106 apartamente pe două scări, regim D+P+4E+5R, predare T1 2028. Garsoniere, studiouri și apartamente 2-4 camere de la 80.845€+TVA, cu curți proprii la parter și terase la etajul retras. Finisaje interioare personalizabile. Spitalul Fundeni la 1 km, Pipera la 9 minute cu mașina.',
+    apartamente: [
+      { tip: 'Garsoniera', etaj: 'et. 1-5', suprafata: 42.55, avans20: 80845, avans45: null, promo: false, camere: 1 },
+      { tip: 'Garsoniera cu curte', etaj: 'parter', suprafata: 46.50, suprafataExtra: 11.60, tipExtra: 'teren', avans20: 91690, avans45: null, promo: false, camere: 1 },
+      { tip: 'Studio', etaj: 'et. 1-5', suprafata: 50.40, avans20: 95760, avans45: null, promo: false, camere: 1 },
+      { tip: 'Studio cu curte', etaj: 'parter', suprafata: 53.00, suprafataExtra: 14.50, tipExtra: 'teren', avans20: 105745, avans45: null, promo: false, camere: 1 },
+      { tip: '2 cam. Tip 1', etaj: 'et. 1-5', suprafata: 59.35, avans20: 106830, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 2', etaj: 'et. 1-5', suprafata: 60.70, avans20: 109260, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. cu curte', etaj: 'parter', suprafata: 61.40, suprafataExtra: 17.75, tipExtra: 'teren', avans20: 124020, avans45: null, promo: false, camere: 2 },
+      { tip: '3 cam.', etaj: 'et. 1-5', suprafata: 78.05, avans20: 140490, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. cu terasa', etaj: 'et. 5R', suprafata: 83.30, suprafataExtra: 22, tipExtra: 'terasa', avans20: 169965, avans45: null, promo: false, camere: 3 },
+      { tip: '4 cam. cu terasa', etaj: 'et. 5R', suprafata: 99.95, suprafataExtra: 122, tipExtra: 'terasa', avans20: 257177, avans45: null, promo: false, camere: 4 },
+    ],
+    parcare: { exterior: { disponibil: true, pret: 8500, notaTVA: '+TVA' }, interior: { disponibil: true, pret: 12000, notaTVA: '+TVA' }, subteran: { disponibil: false, pret: null } },
+    dotari: ['Finisaje interioare personalizabile', 'Tamplarie PVC Salamander geam tripan', 'Sticla cu protectie UV', 'Curti private la parter', 'Terase generoase la etajul retras', 'Parcare interioara si platforme Klaus', 'Lift', 'Regim de inaltime D+P+4E+5R'],
+    puncteInteres: [
+      { tip: 'transport', nume: 'STB 66 și 253', distanta: '450 m · 5 min pe jos' },
+      { tip: 'transport', nume: 'Tramvai 21', distanta: '800 m · 9 min pe jos' },
+      { tip: 'scoala', nume: 'Grădinița Zuppy', distanta: '850 m · 10 min pe jos' },
+      { tip: 'scoala', nume: 'Școala Gimnazială nr. 32', distanta: '850 m · 10 min pe jos' },
+      { tip: 'medical', nume: 'Spitalul Clinic Fundeni', distanta: '1 km · 14 min pe jos' },
+      { tip: 'mall', nume: 'Centru comercial Carrefour / Altex', distanta: '1 km · 14 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Motodrom', distanta: '1,2 km · 17 min pe jos' },
+      { tip: 'scoala', nume: 'Colegiul Național Victor Babeș', distanta: '1,3 km · 15 min pe jos' },
+      { tip: 'scoala', nume: 'Școala Gimnazială nr. 40', distanta: '1,8 km · 4 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '2,3 km · 6 min cu mașina' },
+      { tip: 'scoala', nume: 'Liceul ICHB Colentina', distanta: '2,6 km · 6 min cu mașina' },
+      { tip: 'scoala', nume: 'Grădinița și Școala Spectrum', distanta: '2,6 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'Veranda Mall / Piața Obor', distanta: '4,4 km · 10 min cu mașina' },
+      { tip: 'business', nume: 'Centru de afaceri Pipera (Fabrica de Glucoză)', distanta: '4,7 km · 9 min cu mașina' },
+    ],
+    galerie: [],
+    seoTitle: 'Ansamblu Rezidențial Neofort 10 Colentina',
+    seoDescription: 'Neofort 10 Colentina, str. Păsărani, Sector 2. Garsoniere, studiouri și apartamente 2-4 camere de la 80.845€+TVA. Curți la parter. Predare T1 2028.',
+  },
 
 ]
 

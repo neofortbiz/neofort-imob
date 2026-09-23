@@ -2843,52 +2843,6 @@ Fundatie cu piloti la 12 m adancime — stabilitate seismica ridicata. Tamplarie
 Metrou Dristor 1 (M2) la 150m — cel mai bun raport distanta-metrou din seria Dristor. La 1 km de Mall Vitan. Kaufland, Mega Image, Auchan, McDonalds, KFC in proximitate imediata. Linii RATB multiple in zona. Proiect complet vandut.`,
   },
   {
-    numar: 10,
-    slug: 'neofort-10-colentina-fundeni',
-    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-10-dobroesti-fundeni.avif',
-    nume: 'Neofort 10 Dobroesti — Fundeni',
-    zona: 'Dobroesti-Fundeni',
-    sector: 'Sector 2 / Ilfov',
-    adresa: 'Zona Sos. Fundeni — Dobroesti, Sector 2',
-    etaje: 'P+2E+3E+4R',
-    totalApartamente: 56,
-    tipuri: ['Garsoniera', '2 camere', '3 camere'],
-    status: 'vandut',
-    coordonate: { lat: 44.4620, lng: 26.1600 },
-    descriere: 'Neofort 10, 56 apartamente P+2E+3E+4R in Dobroesti-Fundeni. Garsoniere 23mp de la 33.809€+TVA, 3 camere 53-60mp cu PARCARE INCLUSA de la 67.619€+TVA. Tamplarie Salamander Tripan 7 camere, lift, parcare subterana si supraterana, finisaje Italia.',
-    preturi: [
-      { tip: 'Garsoniera (23mp)', pret: 33809 },
-      { tip: '2 camere Tip 1 (38.2mp)', pret: 47615 },
-      { tip: '2 camere Tip 2 (51.3mp)', pret: 56190 },
-      { tip: '3 camere Tip 1+parcare (53mp)', pret: 67619 },
-      { tip: '3 camere Tip 2+parcare (53.5mp)', pret: 68571 },
-      { tip: '3 camere Tip 3+parcare (55.7mp)', pret: 71428 },
-      { tip: '3 camere Tip 4+parcare (59mp)', pret: 73333 },
-      { tip: '3 camere Tip 5+parcare (60mp)', pret: 74285 },
-    ],
-    dotari: ['Centrala apartament senzori gaz', 'Tamplarie PVC Salamander Tripan 7 camere Low-E', 'Usa intrare metalica', 'Usi interior celulare', 'Izolatie polistiren 100mm', 'Contorizare individuala', 'Lift', 'Parcare subterana si supraterana', 'Finisaje Italia la alegere', 'Loc parcare inclus la 3 camere'],
-    parcare: { subteran: { disponibil: true, pret: null }, exterior: { disponibil: true, pret: null } },
-    broker: 'Info Neofort',
-    brokerTel: '0758090904',
-    brokerFoto: '/brokeri/info-neofort.avif',
-    puncteInteres: [
-      { tip: 'medical', nume: 'Spital Clinic Fundeni', distanta: '300m' },
-      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '4 min cu masina' },
-      { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '6 min cu masina' },
-      { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '7 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Piata Obor (M2)', distanta: '8 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou Stefan cel Mare (M2)', distanta: '9 min cu masina' },
-      { tip: 'transport', nume: 'Autostrada A3 / Centura', distanta: '10 min cu masina' },
-    ],
-    descriereCompleta: `Neofort 10 Dobroesti-Fundeni a oferit cel mai bun raport calitate-pret pe zona Colentina-Fundeni: garsoniere de la 33.809€+TVA si apartamente de 3 camere cu parcare inclusa de la 67.619€+TVA. O promotie de referinta (in perioada 20.03-20.06.2023) includea parcarea gratuita la toate apartamentele de 3 camere.
-
-Preturile: garsoniere 23 mp de la 33.809€+TVA, 2 camere de la 47.615€+TVA (38.2 mp) la 56.190€+TVA (51.3 mp), 3 camere de la 67.619€+TVA la 74.285€+TVA (parcare inclusa).
-
-Proiectul P+2E+3E+4R cu 56 de apartamente se deosebeste prin ferestre mari cu tamplarie Salamander Tripan 7 camere Low-E, finisaje importate din Italia, lift, parcare subterana si supraterana. Constructie rezistenta la seism: amprenta mare, regim mic, stalpi si diafragme beton armat.
-
-Spitalul Clinic Fundeni la 300m — un avantaj major pentru familii cu nevoi medicale. Zona langa lacul Dobroesti, linistita. Acces rapid la A3 (10 minute) pentru deplasari spre Ploiesti sau spre centrul Bucurestiului. Veranda Mall la 4 minute. Proiect complet vandut.`,
-  },
-  {
     numar: 9,
     slug: 'neofort-9-dacia-sector2',
     cover: '/portofoliu/apartamente-noi-bucuresti-neofort-9-dacia-sector2.avif',
