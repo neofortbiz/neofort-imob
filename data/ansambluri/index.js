@@ -261,7 +261,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     adresa: 'Strada Ardeleni, Zona Mosilor-Eminescu, Sector 2, Bucuresti',
     status: 'constructie',
     dataPredare: 'Septembrie 2026',
-    pretDeLa: 190000,
+    pretDeLa: 225000,
     etaje: 'S+P+4ET+5R+6R+7R',
     telefon: '0752 443 434',
     broker: 'Svetlana CALUTU',
@@ -274,7 +274,7 @@ Prețul de pornire de 85.900 EUR+TVA, sub 1.500 EUR pe mp util, rămâne competi
     },
     descriereCompleta: `Pe strada Ardeleni din zona Moșilor-Eminescu, Sectorul 2, la 1,1 km — 12 minute pe jos — de Metrou Piața Obor (M2) și de Metrou Ștefan cel Mare (M2), Neofort 78 Faza 2 propune ceva rar în oferta imobiliară a Bucureștiului: un proiect boutique de 22 de apartamente cu finisaje Premium-Lux, cu predare în Septembrie 2026, cu tipologii care merg de la 58 mp până la 495.000€ pentru un duplex exclusivist.
 
-Regimul S+P+4ET+5R+6R+7R cu etajele 5, 6 și 7 retrase creează apartamente cu terase generoase la ultimele niveluri și o siluetă arhitecturală distinctă. Oferta curentă: 2 camere Tip 8, 57,50 mp, de la 190.000€; 2 camere Tip 17, 57,60 mp, de la 215.000€; 3 camere Tip 5, 80,40 mp, de la 285.000€; 3 camere Tip 18, 82,80 mp, de la 310.000€; 3 camere cu grădină la parter, 192,50 mp total incluzând grădina privată, de la 399.000€ — o raritate absolută în oferta de apartamente noi din București; 4 camere Duplex Tip 15, etajele 5-6, 123,40 mp, de la 499.000€. Parcare subterană 35.000€ + TVA.
+Regimul S+P+4ET+5R+6R+7R cu etajele 5, 6 și 7 retrase creează apartamente cu terase generoase la ultimele niveluri și o siluetă arhitecturală distinctă. Oferta curentă: 2 camere Tip 17, 57,60 mp, de la 225.000€; 2 camere Tip 9, 80,40 mp, de la 299.000€; 3 camere Tip 5, 80,40 mp, de la 315.000€; 3 camere Tip 18, 82,80 mp, de la 345.000€; 3 camere cu grădină la parter, 192,50 mp total incluzând grădina privată, de la 425.000€ — o raritate absolută în oferta de apartamente noi din București; 4 camere Duplex Tip 15, etajele 5-6, 123,40 mp, de la 559.000€; 4 camere Tip 22, 281 mp, de la 620.000€ — cea mai spațioasă locuință din ansamblu. Apartamentul de 2 camere Tip 8 a fost vândut. Parcare subterană 35.000€ + TVA.
 
 Finisajele Neofort 78 Faza 2 sunt în clasa Premium-Lux fără excepție. Parchetul din stejar stratificat și ceramica Italia în băi și spații comune sunt standardul de bază, nu opțiunile. Obiectele sanitare Rocca cu accesorii HansGrohe — unul dintre brandurile mondiale de referință pentru armături sanitare — și tâmplăria Salamander Blue Edition cu geam tripan definesc nivelul de comfort permanent al apartamentelor. Liftul Kone pentru 4 persoane este silențios și rapid. Fațada ventilată din alucobond și fibrociment conferă durabilitate de 40+ ani. Videointerfon cu supraveghere video și fibră optică Internet/TV incluse standard.
 
@@ -305,14 +305,16 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     coordonate: { lat: 44.446553, lng: 26.119879 },
     zone: ['mosilor-eminescu', 'eminescu-viitorului', 'sector-2'],
     tipuri: ['2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 78 Faza 2, zona Moșilor-Eminescu, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA, cu grădini la parter și terase generoase. Metrou Piața Obor și Ștefan cel Mare la 1,1 km. Parchet stejar, ceramică Italia, obiecte sanitare Rocca-HansGrohe, tâmplărie Salamander Blue Edition, lift Kone.',
+    descriere: 'Ansamblul Rezidențial Neofort 78 Faza 2, zona Moșilor-Eminescu, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 225.000€+TVA, cu grădini la parter și terase generoase. Metrou Piața Obor și Ștefan cel Mare la 1,1 km. Parchet stejar, ceramică Italia, obiecte sanitare Rocca-HansGrohe, tâmplărie Salamander Blue Edition, lift Kone.',
     apartamente: [
-      { tip: '2 cam. Tip 8', etaj: 'et. 1-7', suprafata: 57.50, avans20: 190000, avans45: null, promo: false, camere: 2 },
-      { tip: '2 cam. Tip 17', etaj: 'et. 1-7', suprafata: 57.60, avans20: 215000, avans45: null, promo: false, camere: 2 },
-      { tip: '3 cam. Tip 5', etaj: 'et. 1-7', suprafata: 80.40, avans20: 285000, avans45: null, promo: false, camere: 3 },
-      { tip: '3 cam. Tip 18', etaj: 'et. 1-7', suprafata: 82.80, avans20: 310000, avans45: null, promo: false, camere: 3 },
-      { tip: '3 cam. cu gradina', etaj: 'parter', suprafata: 192.50, avans20: 399000, avans45: null, promo: false, camere: 3 },
-      { tip: '4 cam. Duplex Tip 15', etaj: 'et. 5-6', suprafata: 123.40, avans20: 499000, avans45: null, promo: false, camere: 4 },
+      { tip: '2 cam. Tip 17', etaj: 'et. 1-7', suprafata: 57.60, avans20: 225000, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 9', etaj: 'et. 1-7', suprafata: 80.40, avans20: 299000, avans45: null, promo: false, camere: 2 },
+      { tip: '3 cam. Tip 5', etaj: 'et. 1-7', suprafata: 80.40, avans20: 315000, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. Tip 18', etaj: 'et. 1-7', suprafata: 82.80, avans20: 345000, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. cu gradina', etaj: 'parter', suprafata: 192.50, avans20: 425000, avans45: null, promo: false, camere: 3 },
+      { tip: '4 cam. Duplex Tip 15', etaj: 'duplex', suprafata: 123.40, avans20: 559000, avans45: null, promo: false, camere: 4 },
+      { tip: '4 cam. Tip 22', etaj: 'et. 1-7', suprafata: 281.00, avans20: 620000, avans45: null, promo: false, camere: 4 },
+      { tip: '2 cam. Tip 8', etaj: 'et. 1-7', suprafata: 57.50, avans20: 190000, avans45: null, promo: false, camere: 2, stocEpuizat: true },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 35000, notaTVA: '+TVA' } },
     dotari: ['Incalzire in pardoseala Tecce Germania', 'Centrala termica in condensatie', 'Tamplarie Salamander Blue Edition tripan', 'Lift Kone 4 persoane', 'Ceramica Italia bai si parti comune', 'Parchet stejar stratificat', 'Usi PINUM Italia', 'Obiecte sanitare Rocca / HansGrohe', 'Accesorii electrice BTicino Premium', 'Fatada ventilata alucobond+fibrociment', 'Videointerfon si supraveghere video', 'Internet/TV fibra optica'],
@@ -331,7 +333,7 @@ Apartamentele cu grădină la parter — 3 camere, 194,20 mp total — sunt o ra
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Moșilor Eminescu — Neofort 78',
-    seoDescription: 'Neofort 78, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 190.000€+TVA. Metrou Obor și Ștefan cel Mare la 1,1 km.',
+    seoDescription: 'Neofort 78, str. Ardeleni, Sector 2. 22 apartamente premium 2-4 camere de la 225.000€+TVA. Metrou Obor și Ștefan cel Mare la 1,1 km.',
   },
   {
     slug: 'neofort-76-iuliu-maniu-metrou-pacii',
