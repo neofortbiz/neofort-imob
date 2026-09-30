@@ -12,7 +12,6 @@ export const CONTACT_MAP = {
   'neofort-84-titan-pallady': { nume: 'Neofort 84 Titan Pallady', numar: 84, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0743 250 029' },
   'neofort-83-titan-pallady': { nume: 'Neofort 83 Titan Pallady', numar: 83, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-82-titan-pallady': { nume: 'Neofort 82 Titan Pallady', numar: 82, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
-  'neofort-78-mosilor-eminescu': { nume: 'Neofort 78 Mosilor-Eminescu', numar: 78, zona: 'Mosilor-Eminescu', sector: 'Sector 2', brokerTel: '0752 443 434' },
   'neofort-76-iuliu-maniu-metrou-pacii': { nume: 'Neofort 76 Iuliu Maniu Metrou Pacii', numar: 76, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
   'neofort-56-pallady-titan-teclu': { nume: 'Neofort 56 Pallady Titan', numar: 56, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-50-titan-parc-ior': { nume: 'Neofort 50 Titan Parc IOR', numar: 50, zona: 'Titan-IOR', sector: 'Sector 3', brokerTel: '0752 443 436' },
@@ -35,16 +34,16 @@ export function getContact(slug) {
 // Precalculate la build — Footer nu mai are nevoie de datele complete.
 export const ZONE_LINKS = [
   { href: '/zona/titan-pallady', label: 'Titan-Pallady' },
-  { href: '/zona/mosilor-eminescu', label: 'Moșilor-Eminescu' },
-  { href: '/zona/eminescu-viitorului', label: 'Eminescu-Viitorului' },
   { href: '/zona/militari', label: 'Militari' },
   { href: '/zona/piata-muncii', label: 'Piața-Muncii' },
+  { href: '/zona/eminescu-viitorului', label: 'Eminescu-Viitorului' },
+  { href: '/zona/mosilor-eminescu', label: 'Moșilor-Eminescu' },
 ]
 
 // Hash-ul continutului datelor — folosit de generator ca sa stie daca
 // datele s-au modificat intre build-uri. NU folosi in aplicatie.
-export const DATA_HASH = '200a8e67fdda5984'
+export const DATA_HASH = '3bea9a97607892cd'
 
 // Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
 // Folosita de sitemap.js pentru lastmod corect.
-export const DATA_ANSAMBLURI = '2026-09-23'
+export const DATA_ANSAMBLURI = '2026-09-30'

@@ -187,6 +187,64 @@ Randamentul în chirie pentru garsonierele din această zonă se situa la 5,5-7%
     ],
   },
   {
+    numar: 78,
+    slug: 'neofort-78-mosilor-eminescu',
+    cover: '/portofoliu/apartamente-noi-bucuresti-neofort-78-mosilor-eminescu.avif',
+    nume: 'Neofort 78 Moșilor-Eminescu',
+    zona: 'Moșilor-Eminescu',
+    sector: 'Sector 2',
+    adresa: 'Strada Ardeleni, zona Moșilor-Eminescu, Sector 2, București',
+    etaje: 'S+P+4ET+5R+6R+7R',
+    totalApartamente: 22,
+    tipuri: ['2 camere', '3 camere', '4 camere'],
+    status: 'vandut',
+    coordonate: { lat: 44.4465529, lng: 26.1198788 },
+    descriere: 'Ansamblu rezidențial Neofort 78 Moșilor-Eminescu, str. Ardeleni, Sector 2 — proiect boutique de 22 apartamente premium 2-4 camere, finalizat și vândut integral. Regim S+P+4ET+5R+6R+7R cu etajele retrase, apartamente cu grădină la parter și terase generoase. Metrou Piața Obor și Ștefan cel Mare la 1,1 km. Finisaje Premium-Lux: parchet stejar stratificat, ceramică Italia, obiecte sanitare Rocca cu armături HansGrohe, tâmplărie Salamander Blue Edition tripan, lift Kone.',
+    preturi: [
+      { tip: '2 cam. Tip 8 (57.50mp)', pret: 190000 },
+      { tip: '2 cam. Tip 17 (57.60mp)', pret: 225000 },
+      { tip: '2 cam. Tip 9 (80.40mp)', pret: 299000 },
+      { tip: '3 cam. Tip 5 (80.40mp)', pret: 315000 },
+      { tip: '3 cam. Tip 18 (82.80mp)', pret: 345000 },
+      { tip: '3 cam. cu grădină, parter (192.50mp total, inclusiv grădina privată)', pret: 425000 },
+      { tip: '4 cam. Duplex Tip 15, etajele 5-6 (123.40mp)', pret: 559000 },
+      { tip: '4 cam. Tip 22 (281.00mp)', pret: 620000 },
+    ],
+    dotari: ['Incalzire in pardoseala Tecce Germania', 'Centrala termica in condensatie', 'Tamplarie Salamander Blue Edition tripan', 'Lift Kone 4 persoane', 'Ceramica Italia bai si parti comune', 'Parchet stejar stratificat', 'Usi PINUM Italia', 'Obiecte sanitare Rocca / HansGrohe', 'Accesorii electrice BTicino Premium', 'Fatada ventilata alucobond+fibrociment', 'Videointerfon si supraveghere video', 'Internet/TV fibra optica'],
+    parcare: { subteran: true, pretSubteran: 35000 },
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
+    descriereCompleta: `Pe strada Ardeleni, în zona Moșilor-Eminescu din Sectorul 2, la 1,1 km — 12 minute pe jos — atât de Metrou Piața Obor (M2), cât și de Metrou Ștefan cel Mare (M2), Neofort 78 a propus ceva rar în oferta imobiliară a Bucureștiului: un ansamblu rezidențial boutique de doar 22 de apartamente cu finisaje Premium-Lux. Proiectul este finalizat și integral vândut.
+
+Regimul de înălțime S+P+4ET+5R+6R+7R, cu etajele 5, 6 și 7 retrase, a creat apartamente cu terase generoase la ultimele niveluri și o siluetă arhitecturală distinctă în peisajul semicentral al Sectorului 2. Tipologiile au acoperit un spectru neobișnuit de larg pentru un proiect de această dimensiune: de la 57,50 mp până la 281 mp.
+
+Prețurile la momentul comercializării: 2 camere Tip 8, 57,50 mp, 190.000€; 2 camere Tip 17, 57,60 mp, 225.000€; 2 camere Tip 9, 80,40 mp, 299.000€; 3 camere Tip 5, 80,40 mp, 315.000€; 3 camere Tip 18, 82,80 mp, 345.000€; 3 camere cu grădină la parter, 192,50 mp total incluzând grădina privată, 425.000€; 4 camere Duplex Tip 15, etajele 5-6, 123,40 mp, 559.000€; 4 camere Tip 22, 281 mp, 620.000€ — cea mai spațioasă locuință din ansamblu. Parcare subterană 35.000€ + TVA.
+
+Finisajele au fost în clasa Premium-Lux fără excepție. Parchetul din stejar stratificat și ceramica Italia în băi și în spațiile comune au fost standardul de bază, nu opțiunile. Obiectele sanitare Rocca cu accesorii HansGrohe — unul dintre brandurile mondiale de referință pentru armături sanitare — și tâmplăria Salamander Blue Edition cu geam tripan au definit nivelul de confort al apartamentelor. Încălzirea în pardoseală Tecce Germania cu centrală termică în condensație, ușile PINUM Italia, accesoriile electrice BTicino Premium și liftul Kone pentru 4 persoane au completat specificația. Fațada ventilată din alucobond și fibrociment conferă clădirii durabilitate de peste 40 de ani. Videointerfon cu supraveghere video și fibră optică Internet/TV incluse standard.
+
+Zona Moșilor-Eminescu beneficiază de acces la Magistrala 2 prin două stații aflate la distanță egală: Metrou Piața Obor și Metrou Ștefan cel Mare, ambele la 1,1 km — 12 minute pe jos. Metrou Piața Iancului este la 1,8 km, Piața Universității la 2,1 km, iar Piața Romană la 2,5 km. Colegiul Național Mihai Eminescu se află la 3,4 km. Spitalul Clinic Colentina este la 7 minute cu mașina, iar Veranda Mall Obor la 8 minute. Parcurile din zonă — Lacul Tei, Plumbuita și Parcul Național — sunt accesibile în 10-15 minute cu mașina.
+
+Apartamentele cu grădină la parter au fost raritatea absolută a proiectului. Un apartament nou de 3 camere cu grădină privată în semicentralul Bucureștiului, cu acces la două stații de metrou pe Magistrala 2, este practic imposibil de găsit în altă parte a Sectorului 2 — iar această tipologie s-a vândut, previzibil, printre primele.
+
+Cele 22 de apartamente au însemnat o comunitate de maximum 22 de familii, cu costuri comune împărțite la 22, nu la 150 sau 300 ca în marile complexuri, și cu o administrare simplă și transparentă. Zona Moșilor-Eminescu din Sectorul 2 a intrat într-un ciclu de revalorizare accelerat după 2020, susținut de proximitatea față de Piața Obor — reconsolidată ca hub comercial și de transport — și de cererea tinerilor profesioniști care lucrează în centrul Capitalei. Piața imobiliară din zona Obor-Moșilor a înregistrat creșteri de 20-25% în 2023-2025, pe fondul unei oferte limitate de proiecte noi de calitate.
+
+Vânzarea integrală a Neofort 78 confirmă că un ansamblu rezidențial boutique, cu finisaje care se văd și se simt, într-o localizare semicentrală cu acces la două stații de metrou pe Magistrala 2, găsește rapid cumpărători. Pentru oferte disponibile în prezent, consultați ansamblurile active Neofort IMO — inclusiv Neofort 11 Eminescu-Viitorului, tot în Sectorul 2, un alt proiect boutique în aceeași zonă. Vânzare directă de la sursă, fără comision de agenție.`,
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Ștefan cel Mare (M2)', distanta: '1,1 km · 12 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Piața Obor (M2)', distanta: '1,1 km · 12 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Piața Iancului (M2)', distanta: '1,8 km · 20 min pe jos · 10 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Piața Universității (M2)', distanta: '2,1 km · 24 min pe jos · 8 min cu mașina' },
+      { tip: 'metrou', nume: 'Metrou Piața Romană (M2)', distanta: '2,5 km · 25 min pe jos · 13 min cu mașina' },
+      { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '7 min cu mașina' },
+      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '8 min cu mașina' },
+      { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '10-12 min cu mașina' },
+      { tip: 'scoala', nume: 'Colegiul Național Mihai Eminescu', distanta: '3,4 km · 12-15 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '14 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul Național', distanta: '15 min cu mașina' },
+    ],
+  },
+  {
     numar: 77,
     slug: 'neofort-77-petricani',
     cover: '/portofoliu/apartamente-noi-bucuresti-neofort-77-petricani.avif',
@@ -1396,9 +1454,9 @@ Metrou Dristor 1 la 3 minute pe jos — M2 spre Piața Universității în 5 min
     ],
     dotari: ['Cadre beton armat + cărămidă Porotherm 25cm', 'Compartimentare interior cărămidă Porotherm 10cm', 'Termoizolație polistiren 10cm', 'Șapă mecanizată 10cm izolare termică și fonică', 'Tâmplărie PVC 6 camere imitație lemn 3 foi sticlă', 'Centrală termică condensare', 'Obiecte sanitare Romstal', 'Gresie-faianță-parchet Italia/Spania', 'Uși interior furniruite', 'Piatră naturală casă scări', 'Parcare subterană 10.000€+TVA inclus'],
     parcare: { subteran: { disponibil: true, pret: 10000 } },
-    broker: 'Svetlana CALUTU',
-    brokerTel: '0752443434',
-    brokerFoto: '/brokeri/svetlana-calutu.avif',
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
     puncteInteres: [
       { tip: 'metrou', nume: 'Metrou Straulesti (M4)', distanta: '400m' },
       { tip: 'metrou', nume: 'Metrou Jiului (M4)', distanta: '5 min cu masina' },
@@ -1758,9 +1816,9 @@ Metrou Piata Obor la 10 minute pe jos. Zona Dacia-Dorobanti-Floreasca la 10 minu
     ],
     dotari: ['Incalzire in pardoseala', 'Tamplarie Salamander 7 camere gri-antracit/alb', 'Termosistem 10cm EPS 80', 'Lift silentios Romversis', 'Balustrade sticla securizata la balcoane', 'Ceramica import antiderapanta terase si balcoane', 'Obiecte sanitare incastrabile suspendate', 'Usi metalice apartament sistem antiefractie inchidere multipunct', 'Parcare supraterana la parter', 'Terase generoase'],
     parcare: { exterior: { disponibil: true, pret: 10000 } },
-    broker: 'Ramona Baicu',
-    brokerTel: '0759030367',
-    brokerFoto: '/brokeri/ramona-baicu.avif',
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
     puncteInteres: [
       { tip: 'mall', nume: 'Bucuresti Mall Vitan', distanta: '400m' },
       { tip: 'metrou', nume: 'Metrou Mihai Bravu (M2)', distanta: '8 min pe jos' },
@@ -1849,9 +1907,9 @@ Pozitionat in imediata apropiere a Complexului Comercial Vitan Mall si la cateva
     ],
     dotari: ['Tamplarie PVC Salamander 7 camere 3 foi geam', 'Usi blindate MEGA', 'Usi interior Bella Casa', 'Gresie-faianta Delta Studio', 'Parchet Kronotex Premium Mammut 12mm', 'Obiecte sanitare Romstal', 'Centrala termica 24KW condensatie', 'Instalatie electrica modulara', 'Piatra naturala casa scarii', 'Lift hidraulic silentios', 'Cadre beton armat, diafragme Porotherm', 'Terase cu hidroizolatii', 'Termosistem polistiren 10cm'],
     parcare: { subteran: { disponibil: true, pret: 15000 } },
-    broker: 'Svetlana Calutu',
-    brokerTel: '0752443434',
-    brokerFoto: '/brokeri/svetlana-calutu.avif',
+    broker: 'Info Neofort',
+    brokerTel: '0758090904',
+    brokerFoto: '/brokeri/info-neofort.avif',
     puncteInteres: [
       { tip: 'metrou', nume: 'Metrou Piata Obor (M2)', distanta: '8 min pe jos' },
       { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '11 min pe jos' },

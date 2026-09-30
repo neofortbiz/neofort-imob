@@ -562,7 +562,7 @@ Rata = Principal × [r(1+r)^n] / [(1+r)^n - 1], unde r = DAE/12, n = ani × 12
 
 ---
 
-**Scenariul 3: Apartament 2 camere premium — Moșilor-Eminescu ([Neofort 78](/ansamblu-rezidential/neofort-78-mosilor-eminescu), 190.000€)**
+**Scenariul 3: Apartament 2 camere premium — Moșilor-Eminescu ([Neofort 78](/ansamblu-rezidential/neofort-78-mosilor-eminescu), 190.000€ la momentul comercializării — ansamblu vândut integral)**
 - Avans 20% = 38.000€ → Principal: 152.000€ (~795.000 RON)
 - Rata lunară: ~6.136 RON (~1.173€)
 - Venit minim net familie: 15.340 RON/lună
@@ -2144,7 +2144,7 @@ Consensul analiștilor este că BNR va mai reduce dobânda cu 0,5-0,75 puncte pr
     peScurt: [
       'Zonele cu cel mai mare potențial de creștere sunt cele unde cererea depășește oferta și infrastructura se dezvoltă.',
       'Moșilor-Eminescu (Sector 2), Piața Muncii și Militari (Sector 6) sunt analizate ca zone cu perspective pentru 2027.',
-      'Neofort IMO are ansambluri active în aceste zone, printre care Neofort 78 (Moșilor-Eminescu) și Neofort 11 (Eminescu-Viitorului).',
+      'Neofort IMO are ansambluri în aceste zone: Neofort 11 (Eminescu-Viitorului), activ, și Neofort 78 (Moșilor-Eminescu), vândut integral.',
     ],
     tag: 'Investiții', tagColor: '#b45309',
     data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min',
@@ -2201,7 +2201,7 @@ Prețuri actuale: 2.000-2.800 EUR/mp pentru apartamente noi — sub nivelul Flor
 
 Estimare 2027: +15-22% față de mai 2026. La un apartament de 2 camere cumpărat acum la 180.000 EUR, aprecierea estimată în 2 ani: 27.000-40.000 EUR — plus randamentul din chirie de 2.500-3.200 lei/lună.
 
-Proiectele Neofort în zonă: [Neofort 78](/ansamblu-rezidential/neofort-78-mosilor-eminescu) (Moșilor-Eminescu) și [Neofort 11](/ansamblu-rezidential/neofort-11-eminescu-viitorului) (Eminescu-Viitorului) sunt poziționate exact în nucleul acestei creșteri. Prețurile actuale reflectă un discount față de potențialul pe termen mediu.`,
+Proiectele Neofort în zonă: [Neofort 11](/ansamblu-rezidential/neofort-11-eminescu-viitorului) (Eminescu-Viitorului), activ, și [Neofort 78](/ansamblu-rezidential/neofort-78-mosilor-eminescu) (Moșilor-Eminescu), vândut integral, sunt poziționate exact în nucleul acestei creșteri. Prețurile actuale reflectă un discount față de potențialul pe termen mediu.`,
       },
       {
         id: 'piata-muncii',
@@ -5221,7 +5221,7 @@ Dacă vrei echilibru între preț, potențial de creștere și atmosferă de car
 
 Dacă bugetul e principala constrângere sau obiectivul e randament din chirii: Militari-Gorjului. Rămâne cea mai accesibilă poartă de intrare în proprietate în vestul Capitalei, cu cerere de chirie constantă din partea profilului tânăr al zonei.
 
-Neofort IMO are proiecte active în toate trei zone — [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii), [Neofort 78 Moșilor Eminescu](/ansamblu-rezidential/neofort-78-mosilor-eminescu) și [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului), respectiv [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — și consultanții noștri pot compara direct, pe bugetul tău concret, care variantă se potrivește mai bine. Consultanță gratuită la 0758 090 904. Pentru o analiză investițională mai amplă a acestor zone, vezi și [zonele București cu potențial de creștere 2027](/blog/zone-bucuresti-potential-crestere-2027), iar pentru benchmark de preț pe metru pătrat, [analiza pe sectoare din 2026](/blog/pret-metru-patrat-sectoare-bucuresti-2026).`,
+Neofort IMO are proiecte active în toate trei zone — [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii), [Neofort 11 Eminescu Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) în zona Moșilor-Eminescu, respectiv [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — și consultanții noștri pot compara direct, pe bugetul tău concret, care variantă se potrivește mai bine. Consultanță gratuită la 0758 090 904. Pentru o analiză investițională mai amplă a acestor zone, vezi și [zonele București cu potențial de creștere 2027](/blog/zone-bucuresti-potential-crestere-2027), iar pentru benchmark de preț pe metru pătrat, [analiza pe sectoare din 2026](/blog/pret-metru-patrat-sectoare-bucuresti-2026).`,
       },
       {
         id: 'faq',
@@ -5679,7 +5679,7 @@ Pasul 3: verifică dacă dotările menționate (panouri solare, stații EV, sist
 
 Pasul 4: compară cu cel puțin 2-3 proiecte similare din aceeași zonă înainte de a decide dacă prețul cerut e corect, sub medie sau peste medie.
 
-Pentru o comparație directă și gratuită cu proiectele active din portofoliul Neofort IMO — [Titan-Pallady](/zona/titan-pallady), [Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii), [Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) sau [Moșilor-Eminescu](/ansamblu-rezidential/neofort-78-mosilor-eminescu) — consultanții noștri oferă o evaluare gratuită, fără obligații, la 0758 090 904. Pentru context despre evoluția generală a prețurilor, vezi [analiza prețurilor apartamentelor din București 2026](/blog/preturi-apartamente-bucuresti-2026), iar pentru factorii care mențin costurile ridicate, citește [taxa CBAM și costul construcțiilor](/blog/taxa-cbam-costuri-constructii-apartamente-2026).`,
+Pentru o comparație directă și gratuită cu proiectele active din portofoliul Neofort IMO — [Titan-Pallady](/zona/titan-pallady), [Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii), [Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) sau [Moșilor-Eminescu](/zona/mosilor-eminescu) — consultanții noștri oferă o evaluare gratuită, fără obligații, la 0758 090 904. Pentru context despre evoluția generală a prețurilor, vezi [analiza prețurilor apartamentelor din București 2026](/blog/preturi-apartamente-bucuresti-2026), iar pentru factorii care mențin costurile ridicate, citește [taxa CBAM și costul construcțiilor](/blog/taxa-cbam-costuri-constructii-apartamente-2026).`,
       },
       {
         id: 'faq',

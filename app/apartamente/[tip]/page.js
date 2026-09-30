@@ -103,7 +103,7 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
       },
       {
         q: 'Ce suprafețe au apartamentele de 3 camere noi Neofort IMO?',
-        a: 'Suprafețele variază între 66 și 120 mp utili pentru tipologiile standard, ajungând la 137-192 mp pentru cele cu terasă sau grădină. Apartamentele de 3 camere cu grădină privată de la Neofort 78 (192 mp total) sunt o raritate în Sectorul 2.',
+        a: 'Suprafețele variază între 66 și 120 mp utili pentru tipologiile standard, ajungând la 137-192 mp pentru cele cu terasă sau grădină. Apartamentele de 3 camere cu grădină privată de la Neofort 78 (192,50 mp total) au fost o raritate în Sectorul 2 — ansamblul este vândut integral.',
       },
       {
         q: 'Ce zone din București au apartamente de 3 camere noi la prețuri accesibile?',
@@ -143,7 +143,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
       },
       {
         q: 'Ce tipologii de 4 camere sunt disponibile la Neofort IMO?',
-        a: 'Portofoliul include: 4 camere standard (100-120 mp), 4 camere cu terasă panoramică (175 mp în Neofort 84, etaj 10), penthouse cu duplex (123 mp, etaje 5-6, Neofort 78), 4 camere cu grădină privată (156 mp, parter, Neofort 8).',
+        a: 'Portofoliul include: 4 camere standard (100-120 mp), 4 camere cu terasă panoramică (175 mp în Neofort 84, etaj 10), penthouse cu duplex (123,40 mp, etaje 5-6, Neofort 78 — vândut integral), 4 camere cu grădină privată (156 mp, parter, Neofort 8 — vândut integral).',
       },
       {
         q: 'Penthouse-urile Neofort IMO au lift dedicat?',
@@ -160,7 +160,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
     ],
     textEditorial: `Apartamentele de 4 camere și penthouse-urile din portofoliul Neofort IMO se adresează familiilor care nu acceptă compromisuri în ceea ce privește spațiul, sau investitorilor care caută active imobiliare cu valoare stabilă pe termen lung.
 
-Neofort 84 propune 4 camere cu terasă panoramică la etajul 10 (175 mp, 181.262€+TVA cu avans 45%) — una dintre cele mai generoase tipologii din zona Titan-Pallady. Neofort 76 (finalizat) are penthouse-uri cu vedere spre întregul Sector 6. Neofort 78 (boutique) oferă un duplex exclusivist (123 mp, 499.000€) cu finisaje HansGrohe și Salamander Blue Edition.
+Neofort 84 propune 4 camere cu terasă panoramică la etajul 10 (175 mp, 181.262€+TVA cu avans 45%) — una dintre cele mai generoase tipologii din zona Titan-Pallady. Neofort 76 (finalizat) are penthouse-uri cu vedere spre întregul Sector 6. Neofort 78 (boutique, vândut integral) a oferit un duplex exclusivist de 123,40 mp cu finisaje HansGrohe și Salamander Blue Edition.
 
 Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară gratuită pe întreaga durată a procesului.`,
   },
@@ -175,7 +175,7 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
     faq: [
       {
         q: 'Ce ansambluri Neofort IMO sunt cel mai aproape de metrou?',
-        a: 'Neofort 83 Titan-Pallady: Metrou Anghel Saligny (M2) la 20 de metri — cel mai aproape de metrou din întregul portofoliu activ. Neofort 78: Metrou Piața Obor la 400m. Neofort 76: Metrou Iuliu Maniu (M3) la 500m. Neofort 42: Metrou Piața Muncii (M3) la 200m.',
+        a: 'Neofort 83 Titan-Pallady: Metrou Anghel Saligny (M2) la 20 de metri — cel mai aproape de metrou din întregul portofoliu activ. Neofort 76: Metrou Iuliu Maniu (M3) la 500m. Neofort 42: Metrou Piața Muncii (M3) la 200m.',
       },
       {
         q: 'De ce contează accesul la metrou pentru valoarea unui apartament?',
@@ -183,7 +183,7 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
       },
       {
         q: 'Ce linii de metrou acoperă ansamblurile Neofort IMO?',
-        a: 'M2 (est-vest): Neofort 83, 84, 44, 28, 56 (Titan-Pallady), Neofort 78, 11 (Sector 2). M3 (nord-centru-sud): Neofort 76 (Iuliu Maniu), Neofort 49 (Gorjului), Neofort 42 (Piața Muncii). M2+M3: Neofort 50 (Costin Georgian/IOR) — acces la două linii.',
+        a: 'M2 (est-vest): Neofort 83, 84, 44, 28, 56, 82 (Titan-Pallady), Neofort 11 (Sector 2), Neofort 10 (Colentina). M3 (nord-centru-sud): Neofort 76 (Iuliu Maniu), Neofort 49 (Gorjului), Neofort 42 (Piața Muncii). M2+M3: Neofort 50 (Costin Georgian/IOR) — acces la două linii.',
       },
       {
         q: 'Există diferențe de preț între apartamentele cu metrou la 3 minute vs. 10 minute?',
