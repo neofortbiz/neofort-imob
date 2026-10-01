@@ -397,7 +397,95 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
   {
     slug: 'neofort-50-titan-parc-ior',
     numar: 50,
-    nume: 'Neofort 50 Titan Parc IOR',
+    nume: 'Neofort 50 Titan Parc IOR Faza 2',
+    zona: 'Titan-IOR',
+    sector: 'Sector 3',
+    adresa: 'Bulevardul 1 Decembrie 1918, nr. 1E, Sector 3, Bucuresti',
+    status: 'constructie',
+    dataPredare: 'T2 2028',
+    pretDeLa: 102128,
+    etaje: 'S+P+7E',
+    telefon: '0752 443 436',
+    broker: 'Adrian PINTILIE',
+    brokerFoto: '/brokeri/adrian-pintilie.avif',
+    imagini: {
+      cover: '/ansambluri/neo-50-f2/exterior-01.avif',
+      exterior: ['/ansambluri/neo-50-f2/exterior-01.avif','/ansambluri/neo-50-f2/exterior-02.avif','/ansambluri/neo-50-f2/exterior-03.avif','/ansambluri/neo-50-f2/exterior-04.avif','/ansambluri/neo-50-f2/exterior-05.avif','/ansambluri/neo-50-f2/exterior-06.avif','/ansambluri/neo-50-f2/exterior-07.avif','/ansambluri/neo-50-f2/exterior-08.avif','/ansambluri/neo-50-f2/exterior-09.avif','/ansambluri/neo-50-f2/exterior-10.avif'],
+      interior: [],
+      schite: ['/ansambluri/neo-50-f2/schite-01.avif','/ansambluri/neo-50-f2/schite-02.avif','/ansambluri/neo-50-f2/schite-03.avif','/ansambluri/neo-50-f2/schite-04.avif','/ansambluri/neo-50-f2/schite-05.avif','/ansambluri/neo-50-f2/schite-06.avif','/ansambluri/neo-50-f2/schite-07.avif','/ansambluri/neo-50-f2/schite-08.avif','/ansambluri/neo-50-f2/schite-09.avif','/ansambluri/neo-50-f2/schite-10.avif','/ansambluri/neo-50-f2/schite-11.avif','/ansambluri/neo-50-f2/schite-12.avif','/ansambluri/neo-50-f2/schite-13.avif','/ansambluri/neo-50-f2/schite-14.avif'],
+    },
+    descriereCompleta: `Pe Bulevardul 1 Decembrie 1918 nr. 1E, în Sectorul 3, la 4 minute de mers pe jos de Metrou Costin Georgian, Neofort 50 Titan Parc IOR Faza 2 este a doua etapă a celui mai mare proiect din portofoliul activ Neofort IMO. Se construiește chiar lângă primul bloc, cu aceeași preocupare pentru calitate și siguranță, și aduce 102 apartamente noi într-un cartier deja matur, în care infrastructura nu se mai așteaptă — există.
+
+Regimul de înălțime este Subsol + Parter + 7 Etaje. Subsolul adăpostește parcările și adăpostul de protecție civilă ALA, amenajat pentru situații de urgență. La parter sunt apartamente cu grădină privată, pentru cei care își doresc un spațiu verde propriu în mijlocul orașului. Fiecare nivel este compartimentat pentru locuințe cu suprafețe variate și are câte două boxe de depozitare. Tipologiile acoperă tot spectrul: garsoniere, studiouri și apartamente de 2, 3 și 4 camere.
+
+Oferta de lansare, valabilă pentru o perioadă limitată și în limita apartamentelor disponibile: Garsonieră 40,05 mp de la 102.128€; Garsonieră cu terasă 41,30 mp plus 37,05 mp terasă de la 134.530€; Studio de la 48,80 mp și 119.560€; Studio cu curte privată de la 50,15 mp plus 53,15 mp curte și 166.988€; 2 camere Tip 1 de la 56,65 mp și 138.793€; 2 camere Tip 2 de la 61,10 mp și 149.695€; 3 camere Tip 1 de la 72,40 mp și 177.380€; 3 camere Tip 2 de la 79,65 mp și 191.160€; 3 camere Tip 3 de la 86,30 mp și 207.120€; 3 camere cu curte de la 71,60 mp plus 101,85 mp curte și 259.380€; 4 camere de la 96,30 mp și 226.305€. Toate prețurile sunt fără TVA. Parcare subterană de la 14.000€, exterioară de la 10.000€, parcare dublă pe platformă tip Klaus 15.000€. Pentru anumite apartamente, cumpărătorii care achită un avans de 50% la contractare beneficiază și de o reducere la locul de parcare dublu; apartamentele eligibile și valoarea discountului se confirmă la rezervare.
+
+Calitatea construcției se vede în structură, acolo unde nu se mai poate interveni ulterior. Fundația este pe piloți de adâncime, conectați printr-un radier general din beton armat cu hidroizolație tip cuvă — protecție completă împotriva infiltrațiilor. Structura de rezistență este din diafragme de beton armat cu placă de 25 cm. Pereții, atât exteriori cât și cei dintre apartamente, au 30 cm din cărămidă Porotherm, pentru izolare fonică reală între vecini. Sub șapa de 8 cm este montată o membrană de 30 mm cu rol dublu, fonic și termic. Fațada este termoizolată cu polistiren de 100 mm și vată bazaltică de 100 mm, aceasta din urmă pentru rezistență la foc. Terasa tehnică are sistem multistrat de termo și hidroizolație, astfel că apartamentele de la ultimul etaj sunt ferite de infiltrații și au confort termic bun în ambele sezoane.
+
+Construcția respectă cerințele ISU și parcurge procedura pentru autorizația de securitate la incendiu, la fel ca primul bloc. Imobilul are sisteme de detectare și stingere a incendiilor, hidranți și trape de desfumare automată. În cazul unei pene generale de curent, generatorul de rezervă menține în funcțiune pompele de apă, iluminatul de siguranță, lifturile și sistemele de desfumare.
+
+Apartamentele se livrează la cheie, complet finisate. Încălzirea este în pardoseală, cu instalație Romstal și centrală proprie în condensare de 24 kW — căldura se distribuie uniform, iar absența caloriferelor lasă pereții liberi pentru mobilare. Tâmplăria este SALAMANDER Green Evolution 76, profil PVC cu 6 camere și geam termoizolant cu trei foi de sticlă, pachet patru anotimpuri cu tratament UV. Parchetul este EGGER PRO laminat clasa 32, potrivit pentru trafic intens și compatibil cu încălzirea în pardoseală. Gresia și faianța sunt Cristacer, produse în Spania. Ușile de interior sunt PINUM, ușa de intrare Benati cu închidere multipunct. Băile sunt complet echipate cu obiecte sanitare Cersanit și ROCA și baterii GROHE.
+
+Zona este argumentul care nu se poate cumpăra ulterior. Metroul Costin Georgian este la 4 minute pe jos, cu acces la Piața Unirii în 15 minute. Școli, grădinițe și licee sunt accesibile pe jos, iar Lidl și Kaufland se află chiar lângă bloc. Parcurile Morarilor și IOR sunt la 5-10 minute. Centrul sportiv Lia Manoliu este la 2 km, iar Arena Națională la 6 minute cu mașina.
+
+Pentru familii, combinația contează mai mult decât oricare element luat separat: apartamente spațioase de 3 și 4 camere, cu tot parcursul educațional al copiilor asigurat în aceeași zonă, la câteva minute de mers pe jos. Pentru investitori, garsonierele, studiourile și apartamentele de 2 camere sunt o opțiune solidă pentru închiriere, inclusiv în regim hotelier — proximitatea metroului și a Arenei Naționale aduce cerere constantă din partea celor care vin în București la concerte, festivaluri sau meciuri.
+
+Dacă ai nevoie de o locuință disponibilă imediat, primul bloc al proiectului este finalizat: vezi [Neofort 50 Titan Parc IOR Faza 1](/ansamblu-rezidential/neofort-50-titan-parc-ior-faza-1), cu apartamente de 2 și 4 camere gata de mutare. Pentru context despre dotările care chiar reduc costul lunar de întreținere, vezi [cele 5 dotări care reduc factura la energie](/blog/dotari-reduc-factura-energie-apartament-nou).
+
+Neofort 50 Titan Parc IOR Faza 2 bifează criteriile unei alegeri pe termen lung: apartament nou în Sectorul 3, aproape de metrou, bine construit, cu finisaje de calitate. Predare T2 2028. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
+    brokerTel: '0752 443 436',
+    coordonate: { lat: 44.433921, lng: 26.172411 },
+    zone: ['titan-pallady', 'sector-3'],
+    tipuri: ['Garsoniera', 'Studio', '2 camere', '3 camere', '4 camere'],
+    descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 2, Bulevardul 1 Decembrie 1918 nr. 1E, Sector 3 — al doilea bloc al proiectului, în construcție, predare T2 2028. Regim S+P+7E, 102 apartamente de la garsonieră la 4 camere, de la 102.128€+TVA, cu grădini private la parter. Metrou Costin Georgian la 4 minute pe jos. Fundație piloți, Porotherm 30 cm, tâmplărie Salamander tripan, încălzire în pardoseală, finisaje Cristacer și GROHE.',
+    apartamente: [
+      { tip: 'Garsoniera', suprafata: 40.05, avans20: 102128, avans45: null, promo: false, camere: 1, deLaPret: true },
+      { tip: 'Garsoniera cu terasa', suprafata: 41.30, suprafataExtra: 37.05, tipExtra: 'terasa', avans20: 144430, avans45: null, promo: true, camere: 1, pretPromo: 134530, deLaPret: true },
+      { tip: 'Studio', suprafata: 48.80, avans20: 126880, avans45: null, promo: true, camere: 1, pretPromo: 119560, deLaSuprafata: true, deLaPret: true },
+      { tip: 'Studio cu curte', suprafata: 50.15, suprafataExtra: 53.15, tipExtra: 'teren', avans20: 174510, avans45: null, promo: true, camere: 1, pretPromo: 166988, deLaSuprafata: true, deLaPret: true },
+      { tip: '2 cam. Tip 1', suprafata: 56.65, avans20: 147420, avans45: null, promo: true, camere: 2, pretPromo: 138793, deLaSuprafata: true, deLaPret: true },
+      { tip: '2 cam. Tip 2', suprafata: 61.10, avans20: 158860, avans45: null, promo: true, camere: 2, pretPromo: 149695, deLaSuprafata: true, deLaPret: true },
+      { tip: '3 cam. Tip 1', suprafata: 72.40, avans20: 188240, avans45: null, promo: true, camere: 3, pretPromo: 177380, deLaSuprafata: true, deLaPret: true },
+      { tip: '3 cam. Tip 2', suprafata: 79.65, avans20: 207090, avans45: null, promo: true, camere: 3, pretPromo: 191160, deLaSuprafata: true, deLaPret: true },
+      { tip: '3 cam. Tip 3', suprafata: 86.30, avans20: 224380, avans45: null, promo: true, camere: 3, pretPromo: 207120, deLaSuprafata: true, deLaPret: true },
+      { tip: '3 cam. cu curte', suprafata: 71.60, suprafataExtra: 101.85, tipExtra: 'teren', avans20: 273700, avans45: null, promo: true, camere: 3, pretPromo: 259380, deLaSuprafata: true, deLaPret: true },
+      { tip: '4 camere', suprafata: 96.30, avans20: 250380, avans45: null, promo: true, camere: 4, pretPromo: 226305, deLaSuprafata: true, deLaPret: true },
+    ],
+    parcare: { deLa: true, exterior: { disponibil: true, pret: 10000, notaTVA: '+TVA' }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 14000, notaTVA: '+TVA' } },
+    dotari: ['Fundatie piloti de adancime si radier general', 'Hidroizolatie tip cuva', 'Diafragme beton armat placa 25 cm', 'Pereti Porotherm 30 cm', 'Membrana fonica si termica 30 mm sub sapa', 'Fatada polistiren 100 mm si vata bazaltica 100 mm', 'Incalzire in pardoseala Romstal', 'Centrala proprie in condensare 24 kW', 'Tamplarie SALAMANDER Green Evolution 76 tripan', 'Parchet EGGER PRO clasa 32', 'Gresie si faianta Cristacer Spania', 'Usi interior PINUM si usa intrare Benati', 'Obiecte sanitare Cersanit si ROCA, baterii GROHE', 'Doua boxe de depozitare pe nivel', 'Detectare si stingere incendii, trape desfumare', 'Generator de rezerva', 'Adapost ALA', 'Apartamente cu gradina privata la parter'],
+    puncteInteres: [
+      { tip: 'metrou', nume: 'Metrou Costin Georgian (M2)', distanta: '300 m · 3 min pe jos' },
+      { tip: 'transport', nume: 'STB 102, 455, 640, N109', distanta: '300 m · 3 min pe jos' },
+      { tip: 'mall', nume: 'Lidl', distanta: '50 m · 1 min pe jos' },
+      { tip: 'mall', nume: 'Kaufland', distanta: '300 m · 3 min pe jos' },
+      { tip: 'scoala', nume: 'Grădinița și Creșa nr. 70', distanta: 'vis-à-vis · 2 min pe jos' },
+      { tip: 'scoala', nume: 'Școala Waldorf Ilios (nr. 94)', distanta: '350 m · 3 min pe jos' },
+      { tip: 'scoala', nume: 'Liceul Teoretic Nichita Stănescu', distanta: '400 m · 5 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Morarilor', distanta: '600 m · 8 min pe jos' },
+      { tip: 'scoala', nume: 'Grădinița și Creșa nr. 154', distanta: '700 m · 9 min pe jos' },
+      { tip: 'mall', nume: 'Piața Miniș', distanta: '700 m · 9 min pe jos' },
+      { tip: 'scoala', nume: 'Școala Gimnazială Liviu Rebreanu', distanta: '750 m · 9 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Sticlăriei', distanta: '800 m · 10 min pe jos' },
+      { tip: 'scoala', nume: 'Liceul Alexandru Ioan Cuza', distanta: '1 km · 14 min pe jos' },
+      { tip: 'medical', nume: 'Spitalul Clinic de Urgență Pantelimon', distanta: '1,8 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'Auchan Titan', distanta: '1,9 km · 5 min cu mașina' },
+      { tip: 'parc', nume: 'Parcul IOR', distanta: '2,1 km · 5 min cu mașina' },
+      { tip: 'mall', nume: 'Mega Mall', distanta: '2,3 km · 8 min cu mașina' },
+      { tip: 'medical', nume: 'Policlinica Titan', distanta: '2,4 km · 6 min cu mașina' },
+      { tip: 'sport', nume: 'Arena Națională / Complex Sportiv Lia Manoliu', distanta: '2,7 km · 6 min cu mașina' },
+      { tip: 'medical', nume: 'Spitalul Clinic de Copii Victor Gomoiu', distanta: '2,8 km · 6 min cu mașina' },
+      { tip: 'mall', nume: 'ParkLake Shopping Center', distanta: '3,2 km · 10 min cu mașina' },
+      { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '6,7 km · 14 min cu mașina' },
+    ],
+    ogImage: '/og-ansambluri/neo-50-f2.jpg',
+    galerie: [],
+    seoTitle: 'Ansamblu Rezidențial Titan Neofort 50 Faza 2',
+    seoDescription: 'Neofort 50 Titan Parc IOR Faza 2, Bd. 1 Decembrie 1918, Sector 3. 102 apartamente noi, garsoniere pana la 4 camere de la 102.128€+TVA. Metrou Costin Georgian.',
+  },
+  {
+    slug: 'neofort-50-titan-parc-ior-faza-1',
+    numar: 50,
+    nume: 'Neofort 50 Titan Parc IOR Faza 1',
     zona: 'Titan-IOR',
     sector: 'Sector 3',
     adresa: 'Bulevardul 1 Decembrie 1918, Sector 3, Bucuresti',
@@ -452,12 +540,12 @@ Zona Titan – IOR înregistrează o cerere constantă din partea cumpărătoril
 
 Un element distinctiv al proiectului îl reprezintă apartamentele cu terase spectaculoase, amplasate atât la etaje intermediare, cât și la ultimele două niveluri, unde rezidenții se bucură de panorame impresionante asupra orașului și a zonelor verzi din jur.
 
-Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat de ocupare confirmă calitatea construcției, poziționarea excelentă și nivelul ridicat al facilităților oferite. Odată cu începerea lucrărilor pentru Faza 2, Ansamblul Rezidențial Neofort 50 Titan IOR continuă să redefinească standardele locuirii moderne în zona Titan – IOR. Vedeți și [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) — apartamente premium cu metroul la 200m — sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) în zona Pallady. Pentru randamentul din chirii pe zone, vezi [analiza randamentului la închiriere în București](/blog/randament-inchiriere-zone-bucuresti).`,
+Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat de ocupare confirmă calitatea construcției, poziționarea excelentă și nivelul ridicat al facilităților oferite. Odată cu începerea lucrărilor pentru Faza 2, Ansamblul Rezidențial Neofort 50 Titan IOR continuă să redefinească standardele locuirii moderne în zona Titan – IOR. Vedeți și [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) — apartamente premium cu metroul la 200m — sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) în zona Pallady. Pentru randamentul din chirii pe zone, vezi [analiza randamentului la închiriere în București](/blog/randament-inchiriere-zone-bucuresti). Al doilea bloc al proiectului este în construcție, cu predare T2 2028 și prețuri de lansare de la 102.128€+TVA: vezi [Neofort 50 Titan Parc IOR Faza 2](/ansamblu-rezidential/neofort-50-titan-parc-ior).`,
     brokerTel: '0752 443 436',
     coordonate: { lat: 44.433921, lng: 26.172411 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 50 Titan IOR, Bulevardul 1 Decembrie 1918, Sector 3. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 168.960€+TVA. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire pardoseală.',
+    descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 1, Bulevardul 1 Decembrie 1918, Sector 3 — primul bloc al proiectului, finalizat și disponibil imediat. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 168.960€+TVA, cu terase generoase la ultimele niveluri. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire în pardoseală.',
     apartamente: [
       { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 70.40, avans20: 176000, avans45: null, promo: true, camere: 2, pretPromo: 168960 },
       { tip: '2 cam. cu terasa (47.80+54.90mp)', etaj: 'et. 6', suprafata: 47.80, avans20: 188125, avans45: null, promo: true, camere: 2, pretPromo: 169500 },
@@ -491,9 +579,10 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
       { tip: 'mall', nume: 'ParkLake Shopping Center', distanta: '3,2 km · 10 min cu mașina' },
       { tip: 'transport', nume: 'Acces Autostrada A2', distanta: '6,7 km · 14 min cu mașina' },
     ],
+    ogImage: '/og-ansambluri/neo-50.jpg',
     galerie: [],
-    seoTitle: 'Ansamblu Rezidențial Titan IOR — Neofort 50',
-    seoDescription: 'Ansamblu rezidential Neofort 50 Titan IOR, Bd. 1 Decembrie 1918, Sector 3 Bucuresti. Apartamente 2-4 camere de la 168.960 euro+TVA. Metrou Costin Georgian.',
+    seoTitle: 'Ansamblu Rezidențial Titan Neofort 50 Faza 1',
+    seoDescription: 'Neofort 50 Titan Parc IOR Faza 1, Bd. 1 Decembrie 1918, Sector 3. Bloc finalizat, apartamente 2 si 4 camere de la 168.960€+TVA. Metrou Costin Georgian.',
   },
   {
     slug: 'neofort-49-militari-metrou-gorjului',

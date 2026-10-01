@@ -14,7 +14,8 @@ export const CONTACT_MAP = {
   'neofort-82-titan-pallady': { nume: 'Neofort 82 Titan Pallady', numar: 82, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-76-iuliu-maniu-metrou-pacii': { nume: 'Neofort 76 Iuliu Maniu Metrou Pacii', numar: 76, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
   'neofort-56-pallady-titan-teclu': { nume: 'Neofort 56 Pallady Titan', numar: 56, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
-  'neofort-50-titan-parc-ior': { nume: 'Neofort 50 Titan Parc IOR', numar: 50, zona: 'Titan-IOR', sector: 'Sector 3', brokerTel: '0752 443 436' },
+  'neofort-50-titan-parc-ior': { nume: 'Neofort 50 Titan Parc IOR Faza 2', numar: 50, zona: 'Titan-IOR', sector: 'Sector 3', brokerTel: '0752 443 436' },
+  'neofort-50-titan-parc-ior-faza-1': { nume: 'Neofort 50 Titan Parc IOR Faza 1', numar: 50, zona: 'Titan-IOR', sector: 'Sector 3', brokerTel: '0752 443 436' },
   'neofort-49-militari-metrou-gorjului': { nume: 'Neofort 49 Militari Metrou Gorjului', numar: 49, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
   'neofort-44-titan-pallady-teclu': { nume: 'Neofort 44 Titan Pallady Teclu', numar: 44, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-42-piata-muncii': { nume: 'Neofort 42 Piata Muncii', numar: 42, zona: 'Piata Muncii', sector: 'Sector 3', brokerTel: '0757 077 057' },
@@ -42,8 +43,8 @@ export const ZONE_LINKS = [
 
 // Hash-ul continutului datelor — folosit de generator ca sa stie daca
 // datele s-au modificat intre build-uri. NU folosi in aplicatie.
-export const DATA_HASH = '3bea9a97607892cd'
+export const DATA_HASH = '95bf665d6c42398a'
 
 // Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
 // Folosita de sitemap.js pentru lastmod corect.
-export const DATA_ANSAMBLURI = '2026-09-30'
+export const DATA_ANSAMBLURI = '2026-10-01'

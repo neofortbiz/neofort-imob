@@ -252,7 +252,7 @@ export default function HartaPage() {
                 const isSel = selected === a.slug
                 const color = hasPromo(a) ? '#dc2626' : (a.dataPredare === 'Finalizat' ? STATUS_COLORS['finalizat'].fill : STATUS_COLORS['constructie'].fill)
                 return (
-                  <div key={a.numar}
+                  <div key={a.slug}
                     onClick={() => setSelected(isSel ? null : a.slug)}
                     className="bg-white rounded-xl border p-3 cursor-pointer transition-all hover:shadow-md flex-shrink-0"
                     style={{ borderColor: isSel ? color : '#e5e7eb', borderWidth: isSel ? 2 : 1 }}>

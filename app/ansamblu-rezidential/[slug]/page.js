@@ -72,13 +72,13 @@ export async function generateMetadata({ params }) {
       url,
       type: 'website',
       locale: 'ro_RO',
-      images: [{ url: `https://www.neofort.ro/og-ansambluri/neo-${a.numar}.jpg`, width: 1200, height: 630, alt: a.nume }],
+      images: [{ url: `https://www.neofort.ro${a.ogImage || `/og-ansambluri/neo-${a.numar}.jpg`}`, width: 1200, height: 630, alt: a.nume }],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: [`https://www.neofort.ro/og-ansambluri/neo-${a.numar}.jpg`],
+      images: [`https://www.neofort.ro${a.ogImage || `/og-ansambluri/neo-${a.numar}.jpg`}`],
     },
   }
 }
@@ -116,7 +116,7 @@ export default function AnsambluPage({ params }) {
     name: a.nume,
     description: a.descriereCompleta || a.descriere,
     url: `${BASE}/ansamblu-rezidential/${a.slug}`,
-    image: a.imagini?.cover ? `${BASE}${a.imagini.cover}` : `${BASE}/og-ansambluri/neo-${a.numar}.jpg`,
+    image: a.imagini?.cover ? `${BASE}${a.imagini.cover}` : `${BASE}${a.ogImage || `/og-ansambluri/neo-${a.numar}.jpg`}`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'București',
@@ -157,7 +157,7 @@ export default function AnsambluPage({ params }) {
     name: a.nume,
     url: `${BASE}/ansamblu-rezidential/${a.slug}`,
     description: a.descriereCompleta || a.descriere,
-    image: a.imagini?.cover ? `${BASE}${a.imagini.cover}` : `${BASE}/og-ansambluri/neo-${a.numar}.jpg`,
+    image: a.imagini?.cover ? `${BASE}${a.imagini.cover}` : `${BASE}${a.ogImage || `/og-ansambluri/neo-${a.numar}.jpg`}`,
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'București',
