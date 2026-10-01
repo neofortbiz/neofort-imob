@@ -434,7 +434,7 @@ Dacă ai nevoie de o locuință disponibilă imediat, primul bloc al proiectului
 
 Neofort 50 Titan Parc IOR Faza 2 bifează criteriile unei alegeri pe termen lung: apartament nou în Sectorul 3, aproape de metrou, bine construit, cu finisaje de calitate. Predare T2 2028. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
     brokerTel: '0752 443 436',
-    coordonate: { lat: 44.433921, lng: 26.172411 },
+    coordonate: { lat: 44.43419, lng: 26.172411 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['Garsoniera', 'Studio', '2 camere', '3 camere', '4 camere'],
     descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 2, Bulevardul 1 Decembrie 1918 nr. 1E, Sector 3 — al doilea bloc al proiectului, în construcție, predare T2 2028. Regim S+P+7E, 102 apartamente de la garsonieră la 4 camere, de la 102.128€+TVA, cu grădini private la parter. Metrou Costin Georgian la 4 minute pe jos. Fundație piloți, Porotherm 30 cm, tâmplărie Salamander tripan, încălzire în pardoseală, finisaje Cristacer și GROHE.',
@@ -548,10 +548,10 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 1, Bulevardul 1 Decembrie 1918, Sector 3 — primul bloc al proiectului, finalizat și disponibil imediat. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 168.960€+TVA, cu terase generoase la ultimele niveluri. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire în pardoseală.',
     apartamente: [
       { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 70.40, avans20: 176000, avans45: null, promo: true, camere: 2, pretPromo: 168960 },
-      { tip: '2 cam. cu terasa (47.80+54.90mp)', etaj: 'et. 6', suprafata: 47.80, avans20: 188125, avans45: null, promo: true, camere: 2, pretPromo: 169500 },
-      { tip: '2 cam. cu terasa (52.90+51.30mp)', etaj: 'et. 10-11', suprafata: 52.90, avans20: 196375, avans45: null, promo: true, camere: 2, pretPromo: 182250 },
-      { tip: '2 cam. cu terasa (55.00+87.20mp)', etaj: 'et. 10-11', suprafata: 55.00, avans20: 224700, avans45: null, promo: true, camere: 2, pretPromo: 207250 },
-      { tip: '4 cam. Scara 2 cu terasa (99.20+91.90mp)', etaj: 'et. 10-11', suprafata: 99.20, avans20: 326304, avans45: null, promo: true, camere: 4, pretPromo: 309000 },
+      { tip: '2 cam. cu terasa', etaj: 'et. 6', suprafata: 47.80, suprafataExtra: 54.90, tipExtra: 'terasa', avans20: 188125, avans45: null, promo: true, camere: 2, pretPromo: 169500 },
+      { tip: '2 cam. cu terasa', etaj: 'et. 10-11', suprafata: 52.90, suprafataExtra: 51.30, tipExtra: 'terasa', avans20: 196375, avans45: null, promo: true, camere: 2, pretPromo: 182250 },
+      { tip: '2 cam. cu terasa', etaj: 'et. 10-11', suprafata: 55.00, suprafataExtra: 87.20, tipExtra: 'terasa', avans20: 224700, avans45: null, promo: true, camere: 2, pretPromo: 207250 },
+      { tip: '4 cam. Scara 2 cu terasa', etaj: 'et. 10-11', suprafata: 99.20, suprafataExtra: 91.90, tipExtra: 'terasa', avans20: 326304, avans45: null, promo: true, camere: 4, pretPromo: 309000 },
     ],
     parcare: { exterior: { disponibil: true, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: null } },
     dotari: ['4 lifturi spatioase ORONA', 'Parcari subterane si supraterane', 'Parc de relaxare cu loc de joaca', 'Structura antiseismica piloti adancime', 'Vitraje mari SALAMANDER tripan', 'Usi PINUM / BENATI', 'Sanitare ROCA / CERSANIT / GROHE', 'Centrala SAUNIER DUVAL by VAILLANT', 'Termostat wireless Smart', 'Incalzire in pardoseala'],

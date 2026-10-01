@@ -93,7 +93,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
       out += `\nApartamente disponibile:\n`
       for (const apt of aptDisponibile) {
         const pret = apt.pretPromo || apt.avans45 || apt.avans20
-        out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, et. ${apt.etaj}` : ''}): de la ${fmt(pret)}€+TVA\n`
+        out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, ${apt.etaj}` : ''}): de la ${fmt(pret)}€+TVA\n`
       }
     }
 
@@ -209,9 +209,9 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
       for (const apt of aptDisp) {
         const pret = apt.pretPromo || apt.avans45 || apt.avans20
         if (apt.avans45 && apt.avans20 && !apt.pretPromo) {
-          out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, et. ${apt.etaj}` : ''}): avans 45% = ${fmt(apt.avans45)}€, avans 20% = ${fmt(apt.avans20)}€ (+TVA)\n`
+          out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, ${apt.etaj}` : ''}): avans 45% = ${fmt(apt.avans45)}€, avans 20% = ${fmt(apt.avans20)}€ (+TVA)\n`
         } else {
-          out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, et. ${apt.etaj}` : ''}): de la ${fmt(pret)}€+TVA${apt.pretPromo ? ' (promoție)' : ''}\n`
+          out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, ${apt.etaj}` : ''}): de la ${fmt(pret)}€+TVA${apt.pretPromo ? ' (promoție)' : ''}\n`
         }
       }
     }
