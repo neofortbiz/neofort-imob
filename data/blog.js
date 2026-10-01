@@ -56,6 +56,167 @@ export const AUTORI = {
 }
 
 export const ARTICOLE = {
+  'dotari-reduc-factura-energie-apartament-nou': {
+    titlu: `5 Dotări Care Reduc Factura la Energie cu Până la 40%`,
+    seoTitle: '5 Dotări Care Reduc Factura la Energie',
+    seoDesc: 'Panouri fotovoltaice, izolație, tâmplărie tripan, încălzire eficientă, electrocasnice. Ce economisește fiecare și cum verifici că există în proiect, nu în broșură.',
+    tag: 'Ghid', tagColor: '#2d7a3a',
+    data: '1 Octombrie 2026', dataISO: '2026-10-01', citire: '11 min',
+    autor: 'adriana-veselu',
+    image: '/blog/dotari-reduc-factura-energie-apartament-nou.avif',
+    descriere: 'Cinci dotări care fac diferența reală în factura lunară la energie, cât economisește fiecare și cum verifici înainte de semnare că sunt prevăzute efectiv în proiect, nu doar în broșură.',
+    peScurt: [
+      'Fațada este cea mai mare suprafață prin care o locuință pierde căldură, iar termoizolația de 10 cm din ansamblurile rezidențiale noi reduce substanțial pierderile față de blocurile construite înainte de 1990, unde stratul este subțire sau lipsește complet.',
+      'Încălzirea în pardoseală funcționează cu apă la 35-45°C, față de 60-70°C la caloriferele clasice, ceea ce permite centralei în condensație să lucreze în regimul pentru care a fost proiectată și să obțină randamentul maxim.',
+      'Geamul tripan cu strat Low-E are o transmitanță termică de aproximativ 0,6-0,8 W/m²K, față de circa 2,8 la geamul termopan dublu vechi și aproximativ 5 la tâmplăria din lemn needitată.',
+    ],
+    keywords: ['cum reduc factura la energie apartament', 'dotari eficienta energetica locuinta noua', 'izolatie termica apartament nou', 'geam tripan low-e', 'incalzire in pardoseala consum', 'panouri fotovoltaice bloc bucuresti', 'certificat energetic apartament nou'],
+    hashtags: ['#EficientaEnergetica', '#FacturaLaEnergie', '#AnsambluriRezidentiale', '#NeofortIMO'],
+    cuprins: [
+      { id: 'de-ce-conteaza', titlu: 'De ce factura a devenit criteriu de cumpărare, nu detaliu tehnic' },
+      { id: 'panouri-fotovoltaice', titlu: '1. Panouri fotovoltaice: energia pe care o produci singur' },
+      { id: 'izolatie-termica', titlu: '2. Izolație termică performantă: cea mai mare economie, cea mai puțin vizibilă' },
+      { id: 'tamplarie', titlu: '3. Tâmplărie cu geam termoizolant: unde se pierde căldura pe care ai plătit-o' },
+      { id: 'incalzire', titlu: '4. Sistem de încălzire eficient: cum se fac economiile reale' },
+      { id: 'electrocasnice', titlu: '5. Electrocasnice eficiente: singura dotare pe care o controlezi complet' },
+      { id: 'ce-verifici', titlu: 'Ce verifici concret înainte să semnezi' },
+      { id: 'faq', titlu: 'Întrebări frecvente despre eficiența energetică a locuințelor noi' },
+    ],
+    sectiuni: [
+      {
+        id: 'de-ce-conteaza',
+        h2: 'De ce factura a devenit criteriu de cumpărare, nu detaliu tehnic',
+        continut: `Până acum câțiva ani, întrebările la vizionare erau despre suprafață, etaj, orientare și preț. Costul lunar de întreținere apărea rar în discuție și, când apărea, răspunsul era vag.
+
+S-a schimbat ceva simplu: oamenii au văzut facturi. Iar diferența dintre două locuințe de aceeași suprafață, în același oraș, poate fi de două sau trei ori — nu din cauza modului în care locuiesc proprietarii, ci din cauza modului în care a fost construită clădirea.
+
+Asta înseamnă că o parte din preț se plătește lunar, ani la rând, iar acea parte nu se negociază după semnare. Un ansamblu rezidențial cu termoizolație subțire și tâmplărie slabă îți va cere bani în fiecare iarnă, indiferent cât de bine ai negociat prețul inițial.
+
+Cele cinci dotări din acest articol nu sunt un clasament de popularitate. Sunt elementele care produc cea mai mare diferență măsurabilă, în ordinea în care merită verificate. Două dintre ele se decid la proiectare și nu mai pot fi schimbate după construcție. Una se poate îmbunătăți ulterior, dar scump. Două depind de tine.
+
+Ne interesează aici partea practică: ce face fiecare dotare, cât economisește realist și — cel mai important — cum confirmi că există efectiv în proiectul pe care îl cumperi, nu doar în materialul de prezentare. Pentru contextul de piață din spatele acestei schimbări, adică de ce dotările verzi au devenit criteriu de decizie și cum influențează valoarea la revânzare, am tratat subiectul separat în [articolul despre clădiri verzi și smart home](/blog/cladiri-verzi-smart-home-cerere-cumparatori-2026).`,
+      },
+      {
+        id: 'panouri-fotovoltaice',
+        h2: '1. Panouri fotovoltaice: energia pe care o produci singur',
+        continut: `Un sistem fotovoltaic transformă lumina în energie electrică pe care o consumi direct, fără să o cumperi din rețea. În București, un kilowatt instalat produce în jur de 1.200-1.300 kWh pe an, concentrat în lunile cu lumină multă.
+
+Aici apare prima nuanță importantă, pe care puțini o explică la vizionare: la bloc, panourile se montează aproape întotdeauna pentru **spațiile comune**, nu pentru apartamente individuale. Acoperișul este proprietate comună, iar suprafața disponibilă împărțită la numărul de unități nu ar acoperi consumul fiecărui apartament.
+
+Asta nu înseamnă că beneficiul e mic. Înseamnă că apare în altă parte: în lista de întreținere. Iluminatul casei scării, lifturile, pompele, sistemul de supraveghere și ventilația parcării subterane consumă constant, iar factura lor se împarte la toți proprietarii. Când o parte din acest consum este acoperită de panouri, cota lunară scade pentru fiecare apartament, automat, fără nicio acțiune din partea ta.
+
+Al doilea avantaj este stabilitatea. Energia produsă pe acoperiș nu se scumpește. Într-un deceniu în care prețul la electricitate a avut salturi semnificative, o parte din consum care rămâne la cost zero reprezintă o protecție reală, nu doar o economie contabilă.
+
+În portofoliul activ Neofort IMO, [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) este ansamblul care include panouri solare și fotovoltaice în specificația tehnică, alături de tâmplărie tripan și termostat wireless Smart — o combinație care acționează pe mai multe fronturi simultan.
+
+Ce întrebi concret: care este puterea instalată în kilowatți, ce consumatori alimentează sistemul și dacă este prevăzut în proiectul tehnic autorizat sau e doar o intenție de dotare. Diferența dintre cele două se vede în documente, nu în discuție.`,
+      },
+      {
+        id: 'izolatie-termica',
+        h2: '2. Izolație termică performantă: cea mai mare economie, cea mai puțin vizibilă',
+        continut: `Dacă ar fi să păstrezi un singur criteriu din acest articol, acesta ar fi. Fațada este cea mai mare suprafață prin care o locuință schimbă căldură cu exteriorul, iar ce se întâmplă acolo decide cea mai mare parte din factura de iarnă.
+
+Standardul actual la ansamblurile rezidențiale noi din București este un strat de 10 centimetri de polistiren expandat sau vată minerală bazaltică pe fațadă. Comparația relevantă nu e cu un alt proiect nou, ci cu fondul locativ vechi: blocurile ridicate înainte de 1990 au, în general, un strat subțire sau niciunul, iar reabilitările termice ulterioare au acoperit doar o parte din ele.
+
+Diferența dintre o fațadă termoizolată corect și una neizolată nu se simte doar în bani. Se simte în confort: pereți care nu sunt reci la atingere, temperatură uniformă între camere, absența condensului în colțurile exterioare și a mucegaiului care îl însoțește.
+
+Detaliul pe care îl ratează aproape toată lumea este că fațada nu e singura suprafață care contează. Acoperișul, planșeul peste subsolul neîncălzit și pereții care dau spre casa scării sau spre ghene sunt la fel de importanți. Un apartament de la ultimul etaj cu acoperiș slab izolat va avea costuri sensibil mai mari decât unul identic de la etajul trei, în aceeași clădire.
+
+[Neofort 10 Colentina-Fundeni](/ansamblu-rezidential/neofort-10-colentina-fundeni) are una dintre cele mai detaliate specificații de anvelopă din portofoliul activ: fațadă termoizolată 100 mm cu polistiren sau vată bazaltică, acoperiș-terasă cu termo și hidroizolație de 75 cm și hidroizolație tip cuvă la subsol. [Neofort 11 Eminescu-Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) folosește termoizolație EPS80 de 10 cm, iar [Neofort 83 Titan-Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) vată minerală bazaltică.
+
+Ce întrebi concret: grosimea în milimetri și materialul, pentru fațadă și separat pentru acoperiș. Un răspuns de tipul „este izolat conform normelor" nu e un răspuns — normele stabilesc un minim, nu o performanță.`,
+      },
+      {
+        id: 'tamplarie',
+        h2: '3. Tâmplărie cu geam termoizolant: unde se pierde căldura pe care ai plătit-o',
+        continut: `Ferestrele ocupă o suprafață mică din anvelopă, dar pierd căldură mult mai repede decât peretele din jurul lor. De aceea tâmplăria apare în orice discuție serioasă despre consum.
+
+Indicatorul care contează se numește transmitanță termică și se notează cu U. Cu cât valoarea e mai mică, cu atât se pierde mai puțină căldură. Ordinele de mărime sunt lămuritoare: tâmplăria veche din lemn, fără intervenții, ajunge în jur de 5 W/m²K; un termopan dublu obișnuit se situează pe la 2,8; un geam tripan cu strat Low-E coboară la aproximativ 0,6-0,8.
+
+Stratul Low-E este o peliculă metalică aproape invizibilă, aplicată pe sticlă, care lasă lumina să intre dar reflectă căldura înapoi în interior iarna. Spațiile dintre foile de sticlă sunt de obicei umplute cu argon, un gaz care conduce căldura mai slab decât aerul. Numărul de camere al profilului — cinci, șase sau șapte — descrie compartimentările din interiorul ramei, iar mai multe camere înseamnă o barieră termică mai bună.
+
+Un detaliu care face diferența între confort și frustrare este microventilația. O locuință nouă e etanșă, iar fără schimb controlat de aer apar umiditate și condens pe geam. Tâmplăria cu microventilație rezolvă asta fără să deschizi fereastra larg în ianuarie, adică fără să arunci pe geam exact căldura pe care ai plătit-o.
+
+În ansamblurile active Neofort IMO, [Neofort 28 Titan-Pallady](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) are tâmplărie Salamander tripan cu Low-E și microventilație, [Neofort 56 Pallady-Titan](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) folosește profile VEKA tripan cu 7 camere, iar [Neofort 11 Eminescu-Viitorului](/ansamblu-rezidential/neofort-11-eminescu-viitorului) Salamander cu 7 camere și geam tripan.
+
+Ce întrebi concret: câte foi de sticlă are pachetul, dacă are strat Low-E, cu ce gaz sunt umplute spațiile, câte camere are profilul și dacă feroneria permite microventilație. Cinci întrebări, un minut, o diferență care se vede în fiecare factură de iarnă.`,
+      },
+      {
+        id: 'incalzire',
+        h2: '4. Sistem de încălzire eficient: cum se fac economiile reale',
+        continut: `Încălzirea reprezintă cea mai mare parte din consumul energetic al unei locuințe, deci aici se decide dacă celelalte dotări își arată sau nu efectul.
+
+Soluția cu cel mai bun randament este pompa de căldură. Ea nu produce căldură arzând combustibil, ci o mută din aerul sau din solul de afară în interior. Pentru fiecare kilowatt-oră de electricitate consumată livrează, în condiții normale, trei sau patru kilowați-oră de căldură. De aici vine avantajul: nu transformă energie, ci o transportă.
+
+În ansamblurile rezidențiale noi din București, configurația larg răspândită rămâne însă alta: centrală termică proprie în condensație, cuplată cu încălzire în pardoseală. Merită înțeles de ce funcționează bine împreună, pentru că mecanismul e exact invers față de intuiție.
+
+O centrală în condensație recuperează căldura din vaporii de apă rezultați la ardere, dar face asta **doar dacă apa care se întoarce în ea este suficient de rece**. Caloriferele clasice lucrează cu apă la 60-70°C și o returnează prea caldă, ceea ce împiedică fenomenul de condensație. Încălzirea în pardoseală lucrează la 35-45°C și returnează apa rece, adică exact în regimul pentru care centrala a fost proiectată. Rezultat: randamentul maxim pe care echipamentul îl poate da.
+
+Al doilea avantaj al pardoselii este distribuția. Căldura urcă uniform de jos, nu se concentrează sub fereastră și nu se adună în tavan ca la calorifere. Confortul apare la o temperatură a aerului mai mică cu un grad sau două — iar fiecare grad în minus înseamnă aproximativ 6-7% consum mai puțin.
+
+Centrala proprie aduce și un lucru mai greu de cuantificat, dar important: controlul. Pornești când vrei, oprești când vrei, plătești ce consumi, fără să depinzi de calendarul sau de avariile unui sistem centralizat.
+
+Majoritatea ansamblurilor active Neofort IMO folosesc această configurație — centrală în condensație plus încălzire în pardoseală, la [Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady), [Neofort 82](/ansamblu-rezidential/neofort-82-titan-pallady), [Neofort 44](/ansamblu-rezidential/neofort-44-titan-pallady-teclu), [Neofort 11](/ansamblu-rezidential/neofort-11-eminescu-viitorului) și [Neofort 10](/ansamblu-rezidential/neofort-10-colentina-fundeni). [Neofort 50 Titan-Parc IOR](/ansamblu-rezidential/neofort-50-titan-parc-ior) adaugă termostat wireless Smart, care programează temperatura pe ore și pe zile.
+
+Ce întrebi concret: dacă centrala este în condensație și la ce putere, dacă încălzirea în pardoseală acoperă toate încăperile sau doar băile, și dacă termostatul permite programare pe interval orar.`,
+      },
+      {
+        id: 'electrocasnice',
+        h2: '5. Electrocasnice eficiente: singura dotare pe care o controlezi complet',
+        continut: `Primele patru dotări se decid de dezvoltator, la proiectare. Aceasta se decide de tine, după mutare — și este singura pe care o poți corecta oricând.
+
+Frigiderul este aparatul care contează cel mai mult, pentru un motiv simplu: funcționează continuu, 24 de ore din 24, tot anul. Un model vechi de zece ani poate consuma de două ori mai mult decât unul nou de aceeași capacitate, iar diferența se acumulează tăcut în fiecare lună.
+
+Eticheta energetică europeană a fost rescalată în 2021, iar asta produce confuzie frecventă. Clasele vechi A+, A++ și A+++ au dispărut, iar scara a revenit la A-G. Un aparat etichetat acum B sau C poate fi mai eficient decât unul vândut în trecut ca A++, pentru că baremele au fost ridicate. Comparația corectă nu se face între litere din generații diferite, ci între **kilowați-oră pe an**, valoare înscrisă pe aceeași etichetă.
+
+Mașina de spălat aduce o economie care nu ține de aparat, ci de obicei: cea mai mare parte din energia consumată la o spălare se duce pe încălzirea apei, nu pe rotirea tamburului. Spălarea la 30 sau 40 de grade în loc de 60 reduce consumul substanțial, iar detergenții actuali sunt formulați exact pentru temperaturi joase.
+
+Cuptorul și plita cu inducție completează tabloul. Inducția încălzește direct vasul, nu suprafața din jur, și ajunge la temperatura de lucru în câteva secunde, cu pierderi mult mai mici decât plita clasică.
+
+Și un ultim detaliu, cel mai ignorat: consumul în standby. Televizoare, routere, încărcătoare, console și boxe lăsate în priză consumă constant, chiar oprite. Pe o locuință întreagă, suma lor nu e neglijabilă într-un an.
+
+Aici nu ai nevoie de niciun acord cu dezvoltatorul. Ai nevoie doar să citești eticheta înainte să cumperi.`,
+      },
+      {
+        id: 'ce-verifici',
+        h2: 'Ce verifici concret înainte să semnezi',
+        continut: `Toate cele cinci dotări au un lucru în comun: se verifică în documente, nu în conversație. Materialul de prezentare descrie intenția; proiectul tehnic descrie ce se construiește efectiv.
+
+Cere **memoriul tehnic** sau fișa tehnică a proiectului. Acolo apar grosimile de izolație, specificația tâmplăriei, puterea centralei și, dacă există, sistemul fotovoltaic. Un dezvoltator care construiește corect nu are niciun motiv să ezite la această cerere.
+
+Cere **certificatul energetic**. Pentru clădirile finalizate există deja, pentru cele în construcție există o estimare în proiect. Clasa energetică nu e o formalitate birocratică: ea sintetizează într-o literă exact ce discutăm aici.
+
+Verifică dacă specificația din broșură apare și în **anexa la contract**. Diferența dintre „tâmplărie performantă" și „Salamander tripan Low-E cu microventilație" este diferența dintre o promisiune și o obligație contractuală. Doar a doua se poate invoca la recepție.
+
+Întreabă ce se întâmplă dacă, la predare, montezi altceva decât s-a specificat. Răspunsul ține de garanții și de procedura de recepție — subiect pe care l-am detaliat în [articolul despre garanții și recepția la cheie](/blog/garantii-receptie-cheie-contracte-vanzare-2026). Verificările generale asupra dezvoltatorului, de la istoric la situația juridică a terenului, sunt în [checklist-ul de verificare a dezvoltatorului](/blog/checklist-verificare-dezvoltator-imobiliar).
+
+Și, în final, pune costul lunar în ecuația prețului. Două locuințe cu același preț pe metru pătrat pot avea costuri de întreținere foarte diferite, iar diferența se plătește în fiecare lună, pe toată durata în care locuiești acolo. Pentru comparația de preț pe sectoare, am analizat separat [prețul pe metru pătrat în București](/blog/pret-metru-patrat-sectoare-bucuresti-2026).
+
+Toate [ansamblurile rezidențiale active Neofort IMO](/ansambluri-rezidentiale) au specificațiile tehnice publicate pe pagina fiecărui proiect, iar consultanții noștri îți pot trimite memoriul tehnic complet înainte de orice decizie. Consultanță gratuită la 0758 090 904.`,
+      },
+      {
+        id: 'faq',
+        h2: 'Întrebări frecvente despre eficiența energetică a locuințelor noi',
+        continut: `Care dintre cele cinci dotări aduce cea mai mare economie?
+Izolația termică, în aproape toate situațiile. Fațada este cea mai mare suprafață prin care se pierde căldură, iar performanța ei se decide la construcție și nu mai poate fi schimbată ulterior fără lucrări majore. Celelalte dotări își arată efectul complet doar dacă anvelopa este corectă.
+
+Panourile fotovoltaice de pe bloc îmi reduc factura personală?
+Indirect. La bloc, sistemul alimentează de regulă spațiile comune — lifturi, iluminat, pompe, ventilația parcării. Economia apare în cota lunară de întreținere, care se împarte la toți proprietarii, nu pe contorul tău individual.
+
+Încălzirea în pardoseală consumă mai mult decât caloriferele?
+Nu. Lucrează cu apă la 35-45°C, față de 60-70°C la calorifere, ceea ce permite centralei în condensație să funcționeze la randament maxim. În plus, distribuția uniformă face ca aceeași senzație de confort să apară la o temperatură a aerului mai mică.
+
+Ce înseamnă concret geam tripan cu Low-E?
+Trei foi de sticlă, cu spațiile dintre ele umplute de obicei cu argon, și o peliculă metalică aproape invizibilă care reflectă căldura înapoi în interior. Transmitanța termică ajunge în jur de 0,6-0,8 W/m²K, față de circa 2,8 la un termopan dublu obișnuit.
+
+De ce nu mai găsesc electrocasnice clasa A+++?
+Eticheta energetică europeană a fost rescalată în 2021 și scara a revenit la A-G. Clasele cu plus au dispărut, iar baremele au fost ridicate. Compară consumul în kilowați-oră pe an, nu literele din generații diferite de etichete.
+
+Cum verific că dotările promise chiar se montează?
+Cere memoriul tehnic și verifică dacă specificația exactă — material, grosime, model — apare în anexa la contractul de vânzare, nu doar în materialul de prezentare. Doar ce este în contract se poate invoca la recepție.`,
+      },
+    ],
+  },
   'neofort-10-colentina-fundeni-lansare': {
     titlu: `Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire — Ce Trebuie să Știi`,
     seoTitle: 'Neofort 10 Colentina Fundeni — Lansare',
@@ -5566,7 +5727,7 @@ Cere certificatul energetic estimat al proiectului (clasă A, A+ sau altă clasi
 
 Întreabă despre tipul de tâmplărie, izolație și sistem de încălzire — acestea influențează direct clasa energetică finală și, implicit, facturile tale lunare pe termen lung, dincolo de dotările „vizibile" precum panourile solare.
 
-[Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) este unul dintre proiectele noastre active cu panouri solare integrate, stații de încărcare EV în parcarea subterană și termostate wireless smart în fiecare cameră — poți vedea concret cum arată aceste dotări la o vizionare directă. Aceste dotări au și un cost de construcție real, influențat de factori precum [taxa CBAM și costurile de construcție](/blog/taxa-cbam-costuri-constructii-apartamente-2026), iar pentru dotările pe care le caută chiriașii specific, vezi [ghidul dotărilor pentru apartamente de închiriat](/blog/dotari-apartament-inchiriat).`,
+[Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) este unul dintre proiectele noastre active cu panouri solare integrate, stații de încărcare EV în parcarea subterană și termostate wireless smart în fiecare cameră — poți vedea concret cum arată aceste dotări la o vizionare directă. Aceste dotări au și un cost de construcție real, influențat de factori precum [taxa CBAM și costurile de construcție](/blog/taxa-cbam-costuri-constructii-apartamente-2026), iar pentru dotările pe care le caută chiriașii specific, vezi [ghidul dotărilor pentru apartamente de închiriat](/blog/dotari-apartament-inchiriat). Dacă te interesează partea practică — care sunt dotările cu impactul cel mai mare asupra facturii și cât economisește fiecare — am detaliat subiectul în [ghidul celor 5 dotări care reduc factura la energie](/blog/dotari-reduc-factura-energie-apartament-nou).`,
       },
       {
         id: 'faq',
@@ -6325,6 +6486,7 @@ Nu. Trebuie depusă o cerere la administrația financiară, însoțită de docum
 }
 
 export const ARTICOLE_LIST = [
+    { slug: 'dotari-reduc-factura-energie-apartament-nou', titlu: '5 Dotări Care Reduc Factura la Energie cu Până la 40%', data: '1 Octombrie 2026', dataISO: '2026-10-01', citire: '11 min', image: '/blog/dotari-reduc-factura-energie-apartament-nou.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cinci dotări care fac diferența reală în factura lunară la energie, cât economisește fiecare și cum verifici înainte de semnare că sunt prevăzute efectiv în proiect, nu doar în broșură.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
     { slug: 'restituire-tva-9-la-suta-termen-30-septembrie-2026', titlu: 'Restituire TVA: Cum Recuperezi 12% Dacă Ai Plătit 21%', data: '8 Septembrie 2026', dataISO: '2026-09-08', citire: '11 min', image: '/blog/restituire-tva-9-la-suta-termen-30-septembrie-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea 161/2026 prelungește până la 30 septembrie termenul pentru livrarea locuințelor cu TVA 9% și permite restituirea diferenței de 12% pentru cine a plătit deja cota majorată.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
     { slug: 'neofort-10-colentina-fundeni-lansare', titlu: 'Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire', data: '23 Iunie 2026', dataISO: '2026-06-23', citire: '6 min', image: '/blog/neofort-10-colentina-fundeni-lansare.avif', tag: 'Lansare', tagColor: '#c8922a', rezumat: 'Un nou proiect Neofort IMO se pregătește de lansare în Colentina-Fundeni: garsoniere, studiouri, apartamente 2-4 camere cu grădini și terase. Predare T1 2028, rezervări din iulie 2026.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piață', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
@@ -6362,7 +6524,7 @@ export const ARTICOLE_LIST = [
 ]
 
 export const CATEGORII = [
-  { label: 'Ghid', count: 3, color: '#2d7a3a' },
+  { label: 'Ghid', count: 4, color: '#2d7a3a' },
   { label: 'Legislație', count: 2, color: '#7c3aed' },
   { label: 'Piață', count: 1, color: '#0369a1' },
   { label: 'Finanțare', count: 1, color: '#0369a1' },
