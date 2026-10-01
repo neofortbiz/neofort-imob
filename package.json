@@ -9,10 +9,12 @@
     "lint": "next lint",
     "generate:llms": "node scripts/generate-llms.mjs",
     "generate:og": "node scripts/generate-og.mjs",
+    "generate:og-blog": "node scripts/generate-og-blog.mjs",
     "generate:contact-map": "node scripts/generate-contact-map.mjs",
     "generate:card-variants": "node scripts/generate-card-variants.mjs",
     "ping:indexnow": "node scripts/ping-indexnow.mjs",
-    "prebuild": "node scripts/generate-contact-map.mjs && node scripts/generate-card-variants.mjs && node scripts/generate-og.mjs && node scripts/generate-llms.mjs && node scripts/ping-indexnow.mjs"
+    "refresh:facebook": "node scripts/refresh-facebook.mjs",
+    "prebuild": "node scripts/generate-contact-map.mjs && node scripts/generate-card-variants.mjs && node scripts/generate-og.mjs && node scripts/generate-og-blog.mjs && node scripts/generate-llms.mjs && node scripts/ping-indexnow.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
