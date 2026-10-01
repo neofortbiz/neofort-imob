@@ -434,7 +434,7 @@ Dacă ai nevoie de o locuință disponibilă imediat, primul bloc al proiectului
 
 Neofort 50 Titan Parc IOR Faza 2 bifează criteriile unei alegeri pe termen lung: apartament nou în Sectorul 3, aproape de metrou, bine construit, cu finisaje de calitate. Predare T2 2028. Rezervare cu 2.000€, consultanță juridică și bancară gratuită. Vânzare directă de la sursă, fără comision de agenție.`,
     brokerTel: '0752 443 436',
-    coordonate: { lat: 44.43419, lng: 26.172411 },
+    coordonate: { lat: 44.43419, lng: 26.173166 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['Garsoniera', 'Studio', '2 camere', '3 camere', '4 camere'],
     descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 2, Bulevardul 1 Decembrie 1918 nr. 1E, Sector 3 — al doilea bloc al proiectului, în construcție, predare T2 2028. Regim S+P+7E, 102 apartamente de la garsonieră la 4 camere, de la 102.128€+TVA, cu grădini private la parter. Metrou Costin Georgian la 4 minute pe jos. Fundație piloți, Porotherm 30 cm, tâmplărie Salamander tripan, încălzire în pardoseală, finisaje Cristacer și GROHE.',
