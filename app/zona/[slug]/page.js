@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
+import { zonaLabel } from '@/lib/zoneLabel'
 
 // Generare dinamica a configuratiei zonelor din date
 const SECTOR_NAMES = {
@@ -35,9 +36,9 @@ function getZoneConfig() {
         const isExact = slugZona(a.zona) === z
         if (!config[z] || (isExact && !exact[z])) {
           config[z] = {
-            nume: a.zona,
+            nume: zonaLabel(z, a.zona),
             sector: a.sector,
-            descriere: `Ansambluri rezidențiale în zona ${a.zona}, ${a.sector}, București.`,
+            descriere: `Ansambluri rezidențiale în zona ${zonaLabel(z, a.zona)}, ${a.sector}, București.`,
           }
           if (isExact) exact[z] = true
         }
@@ -66,11 +67,11 @@ export function generateMetadata({ params }) {
   const pretMin = ansambluri.length > 0 ? new Intl.NumberFormat('ro-RO').format(Math.min(...ansambluri.map(a => a.pretDeLa))) : ''
   return {
     title: `Ansambluri Rezidențiale ${titleLoc}`,
-    description: `${ansambluri.length} ansambluri rezidențiale Neofort IMO în ${descLoc}. Apartamente noi de la ${pretMin}€+TVA, direct de la sursă, fără comision.`,
+    description: `${ansambluri.length} ${ansambluri.length === 1 ? 'ansamblu rezidențial' : 'ansambluri rezidențiale'} Neofort IMO în ${descLoc}. Apartamente noi de la ${pretMin}€+TVA, direct de la sursă, fără comision.`,
     alternates: { canonical: url },
     openGraph: {
       title: `Ansambluri Rezidențiale ${z.nume} | Neofort IMO`,
-      description: `${ansambluri.length} ansambluri Neofort IMO disponibile în ${ogLoc}.`,
+      description: `${ansambluri.length} ${ansambluri.length === 1 ? 'ansamblu Neofort IMO disponibil' : 'ansambluri Neofort IMO disponibile'} în ${ogLoc}.`,
       url,
       type: 'website',
       locale: 'ro_RO',
@@ -78,7 +79,7 @@ export function generateMetadata({ params }) {
     twitter: {
       card: 'summary_large_image',
       title: `Ansambluri Rezidențiale ${z.nume} | Neofort IMO`,
-      description: `${ansambluri.length} ansambluri Neofort IMO în ${ogLoc}. Apartamente noi de la ${pretMin}€+TVA, fără comision.`,
+      description: `${ansambluri.length} ${ansambluri.length === 1 ? 'ansamblu Neofort IMO' : 'ansambluri Neofort IMO'} în ${ogLoc}. Apartamente noi de la ${pretMin}€+TVA, fără comision.`,
       images: [`${BASE}/og-zone.jpg`],
     },
   }

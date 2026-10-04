@@ -100,19 +100,14 @@ for (const blk of blocks) {
     zoneCount[z] = (zoneCount[z] || 0) + 1
   }
 }
-const zoneLabel = z => z
+// Eticheta zonei vine din harta partajata lib/zoneLabel.js, aceeasi folosita
+// de HomePage si de /zona/[slug] — ca footerul, cardurile si titlurile de
+// pagina sa nu mai spuna lucruri diferite despre aceeasi zona.
+const { ZONA_LABELS } = await import(path.join(ROOT, 'lib', 'zoneLabel.js'))
+const zoneLabel = z => ZONA_LABELS[z] || z
   .split('-')
   .map(w => w.charAt(0).toUpperCase() + w.slice(1))
   .join('-')
-  .replace('Mosilor', 'Moșilor')
-  .replace('Eminescu', 'Eminescu')
-  .replace('Viitorului', 'Viitorului')
-  .replace('Militari', 'Militari')
-  .replace('Piata', 'Piața')
-  .replace('Muncii', 'Muncii')
-  .replace('Tepes', 'Țepeș')
-  .replace('Voda', 'Vodă')
-  .replace('Pallady', 'Pallady')
 
 const zoneLinks = Object.entries(zoneCount)
   .sort((a, b) => b[1] - a[1])

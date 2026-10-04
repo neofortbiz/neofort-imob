@@ -103,7 +103,17 @@ export default function AnsambluPage({ params }) {
   }
 
   const sc = STATUS_CONFIG[a.dataPredare === 'Finalizat' ? 'activ' : 'constructie']
-  const similare = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug && (x.zona === a.zona || x.sector === a.sector)).slice(0, 5)
+  // Intai ansamblurile din ACEEASI zona (relevanta maxima si pentru user, si
+  // pentru motoare), apoi completam cu restul sectorului pana la 5.
+  const altele = ANSAMBLURI_ACTIVE.filter(x => x.slug !== a.slug)
+  const inZona = altele.filter(x => x.zona === a.zona)
+  const inSector = altele.filter(x => x.zona !== a.zona && x.sector === a.sector)
+  const similare = [...inZona, ...inSector].slice(0, 5)
+  // Titlul spune adevarul: numeste zona doar daca exista efectiv vecini in ea
+  // (Neofort 10 e singurul din Colentina — acolo titlul cade corect pe sector).
+  const titluSimilare = inZona.length > 0
+    ? `Ansambluri similare în ${a.zona}`
+    : `Alte ansambluri în ${a.sector}`
 
   // Google Maps embed URL din coordonate
   const osmEmbedUrl = `https://www.openstreetmap.org/export/embed.html?bbox=${a.coordonate.lng - 0.008}%2C${a.coordonate.lat - 0.006}%2C${a.coordonate.lng + 0.008}%2C${a.coordonate.lat + 0.006}&layer=mapnik&marker=${a.coordonate.lat}%2C${a.coordonate.lng}`
@@ -233,16 +243,35 @@ export default function AnsambluPage({ params }) {
           text: `Pentru a rezerva un apartament în ${a.nume} contactați-ne la ${a.brokerTel || TEL_DISPLAY} sau pe WhatsApp. Procesul de rezervare este simplu și transparent, conform noilor reglementări legislative în vigoare.`,
         },
       },
-      {
-        '@type': 'Question',
-        name: `Cât este distanța de la ${a.nume} la metrou?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: a.puncteInteres.filter(p => p.tip === 'metrou').length > 0
-            ? `De la ${a.nume} până la ${a.puncteInteres.find(p => p.tip === 'metrou').nume} distanța este de ${a.puncteInteres.find(p => p.tip === 'metrou').distanta}.`
-            : `Contactați-ne pentru detalii despre accesul la transport public din zona ${a.zona}.`,
-        },
-      },
+      // Daca ansamblul are metrou in puncteInteres, raspundem despre metrou.
+      // Daca NU are, intrebarea despre metrou nu are sens — o inlocuim cu una
+      // despre transportul public real din date (STB, tramvai), in loc de
+      // raspunsul generic „Contactati-ne", care nu ajuta nici userul nici LLM-ul.
+      (() => {
+        const metrouri = a.puncteInteres.filter(p => p.tip === 'metrou')
+        if (metrouri.length > 0) {
+          const lista = metrouri.slice(0, 3).map(p => `${p.nume} la ${p.distanta}`).join(', ')
+          return {
+            '@type': 'Question',
+            name: `Cât este distanța de la ${a.nume} la metrou?`,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: `De la ${a.nume} până la ${metrouri[0].nume} distanța este de ${metrouri[0].distanta}.${metrouri.length > 1 ? ` Stații de metrou în apropiere: ${lista}.` : ''}`,
+            },
+          }
+        }
+        const transport = a.puncteInteres.filter(p => p.tip === 'transport')
+        return {
+          '@type': 'Question',
+          name: `Ce mijloace de transport în comun sunt aproape de ${a.nume}?`,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: transport.length > 0
+              ? `${a.nume} este deservit de ${transport.slice(0, 3).map(p => `${p.nume} (${p.distanta})`).join(', ')}. Ansamblul se află în zona ${a.zona}, ${a.sector}.`
+              : `${a.nume} se află în zona ${a.zona}, ${a.sector}. Pentru detalii despre legăturile de transport public din zonă, contactați-ne la ${a.brokerTel || TEL_DISPLAY}.`,
+          },
+        }
+      })(),
     ],
   }
 
@@ -438,7 +467,7 @@ export default function AnsambluPage({ params }) {
         {similare.length > 0 && (
           <div className="border-t border-gray-100 px-6 py-8">
             <div className="max-w-7xl mx-auto">
-              <h2 className="text-base font-medium text-gray-900 mb-4">Ansambluri similare în zonă</h2>
+              <h2 className="text-base font-medium text-gray-900 mb-4">{titluSimilare}</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
                 {similare.map(s => {
                   const ssc = STATUS_CONFIG[s.dataPredare === 'Finalizat' ? 'activ' : 'constructie']

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_LITE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
+import { zonaLabel } from '@/lib/zoneLabel'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_PORTOFOLIU, NR_FAMILII, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 import { ARTICOLE_LIST } from '@/data/blog'
 
@@ -37,7 +38,7 @@ function getZoneDinamice() {
         const isSector = z.startsWith('sector-')
         zoneMap[z] = {
           slug: z,
-          nume: isSector ? SECTOR_LABELS[z] || z : a.zona,
+          nume: isSector ? SECTOR_LABELS[z] || z : zonaLabel(z, a.zona),
           sector: a.sector,
           count: 0,
           isSector,

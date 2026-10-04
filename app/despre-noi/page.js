@@ -106,7 +106,7 @@ export default function DespreNoiPage() {
                 De-a lungul celor {ANI_EXPERIENTA} ani de activitate, Neofort IMO a livrat peste {NR_LIVRATE} de ansambluri rezidențiale în toate sectoarele Capitalei. Am asistat mii de familii să își găsească locuința potrivită — de la prima garsonieră până la penthouse-ul cu vedere panoramică.
               </p>
               <p>
-                În 2026 am trecut printr-un proces de rebranding complet — identitate vizuală nouă, prezență digitală modernă și o echipă consolidată de șase reprezentanți specializați pe zone geografice specifice din București. Rămânem fideli principiului fondator: transparență totală, prețuri directe de la dezvoltator și consultanță personalizată.
+                În 2026 am trecut printr-un proces de rebranding complet — identitate vizuală nouă, prezență digitală modernă, o structură juridică nouă (Neofort IMO SRL, înregistrată la Registrul Comerțului sub J40/8972/2026) și o echipă consolidată de șase reprezentanți specializați pe zone geografice specifice din București. Activitatea imobiliară continuă neîntrerupt din 2009, sub aceeași conducere. Rămânem fideli principiului fondator: transparență totală, prețuri directe de la dezvoltator și consultanță personalizată.
               </p>
               <p>
                 Astăzi, cu {NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6, Neofort IMO continuă să fie una dintre companiile de referință în domeniul comercializării locuințelor noi din București.

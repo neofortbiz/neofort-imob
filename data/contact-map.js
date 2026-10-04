@@ -36,15 +36,15 @@ export function getContact(slug) {
 export const ZONE_LINKS = [
   { href: '/zona/titan-pallady', label: 'Titan-Pallady' },
   { href: '/zona/militari', label: 'Militari' },
-  { href: '/zona/piata-muncii', label: 'Piața-Muncii' },
+  { href: '/zona/piata-muncii', label: 'Piața Muncii' },
   { href: '/zona/eminescu-viitorului', label: 'Eminescu-Viitorului' },
   { href: '/zona/mosilor-eminescu', label: 'Moșilor-Eminescu' },
 ]
 
 // Hash-ul continutului datelor — folosit de generator ca sa stie daca
 // datele s-au modificat intre build-uri. NU folosi in aplicatie.
-export const DATA_HASH = '95bf665d6c42398a'
+export const DATA_HASH = '5652d74e08e276a7'
 
 // Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
 // Folosita de sitemap.js pentru lastmod corect.
-export const DATA_ANSAMBLURI = '2026-10-01'
+export const DATA_ANSAMBLURI = '2026-10-04'
