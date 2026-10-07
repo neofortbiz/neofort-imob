@@ -6,7 +6,7 @@ const ANSAMBLURI = [
   { slug: 'neofort-83-titan-pallady',            nume: 'Neofort 83 Titan Pallady',       pret: 64800  },
   { slug: 'neofort-82-titan-pallady',            nume: 'Neofort 82 Titan Pallady',       pret: 85900  },
   { slug: 'neofort-76-iuliu-maniu-metrou-pacii', nume: 'Neofort 76 Iuliu Maniu',         pret: 218409 },
-  { slug: 'neofort-56-pallady-titan-teclu',      nume: 'Neofort 56 Pallady Titan',       pret: 184691 },
+  { slug: 'neofort-56-pallady-titan-teclu',      nume: 'Neofort 56 Pallady Titan',       pret: 195000 },
   { slug: 'neofort-50-titan-parc-ior',           nume: 'Neofort 50 Titan Parc IOR Faza 2', pret: 102128 },
   { slug: 'neofort-50-titan-parc-ior-faza-1',    nume: 'Neofort 50 Titan Parc IOR Faza 1', pret: 168960 },
   { slug: 'neofort-49-militari-metrou-gorjului', nume: 'Neofort 49 Militari',            pret: 77800  },

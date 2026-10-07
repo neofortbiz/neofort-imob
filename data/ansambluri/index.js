@@ -331,7 +331,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     adresa: 'Zona Titan Nou, Sector 3, Bucuresti',
     status: 'activ',
     dataPredare: 'Finalizat',
-    pretDeLa: 184691,
+    pretDeLa: 195000,
     etaje: 'D+P+3E',
     telefon: '0759 030 367',
     broker: 'Ramona BAICU',
@@ -344,7 +344,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     },
     descriereCompleta: `Apartamentele de 4 camere în Sectorul 3 al Bucureștiului, cu suprafețe mari, lângă metrou și cu dotări smart integrate standard sunt greu de găsit sub 200.000€. Neofort 56 Faza 2 din zona Titan Nou schimbă această realitate: trei blocuri D+P+3E cu 84 de unități, inclusiv apartamente cu curte proprie la parter, la 3 minute de Metrou Nicolae Teclu (M2).
 
-Oferta curentă: apartament 4 camere, 125,64 mp, etajele 1-3, de la 184.691€ + TVA; apartament 4 camere cu curte proprie, parter, 133,54 mp total, de la 235.208€ + TVA. Parcare exterioară și subterană la 8.900€ TVA inclus.
+Oferta curentă: apartament 4 camere, 125,64 mp, etajele 1-3, de la 195.000€ + TVA; apartament 4 camere cu curte proprie, parter, 133,54 mp total, de la 235.208€ + TVA. Parcare exterioară și subterană la 8.900€ TVA inclus.
 
 Neofort 56 Faza 2 este primul proiect Neofort cu dotare Smart Home Ready integrată în prețul de bază — nu ca opțiune suplimentară. Sistemul permite controlul temperaturii din telefon, integrarea cu dispozitive smart (prize inteligente, senzori, camere) și pregătirea completă pentru automatizare fără costuri de renovare ulterioară. Acest detaliu face diferența nu doar în confortul zilnic, ci și în valoarea de revânzare: în 2025-2026, apartamentele cu pregătire smart se vând cu 5-10% mai repede față de echivalentele fără această dotare.
 
@@ -369,9 +369,9 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     coordonate: { lat: 44.419894, lng: 26.182582 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Apartamente 4 camere de la 184.691€+TVA. Metrou Nicolae Teclu la 3 minute. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.',
+    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Apartamente 4 camere de la 195.000€+TVA. Metrou Nicolae Teclu la 3 minute. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.',
     apartamente: [
-      { tip: '4 cam.', etaj: 'et. 1-3', suprafata: 125.64, avans20: 184691, avans45: null, promo: false, camere: 4 },
+      { tip: '4 cam.', etaj: 'et. 1-3', suprafata: 125.64, avans20: 195000, avans45: null, promo: false, camere: 4 },
       { tip: '4 cam. cu curte', etaj: 'parter', suprafata: 133.54, avans20: 235208, avans45: null, promo: false, camere: 4 },
     ],
     parcare: { exterior: { disponibil: true, pret: 8900, notaTVA: 'TVA inclus' }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 8900, notaTVA: 'TVA inclus' } },
@@ -392,7 +392,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 56',
-    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Apartamente 4 camere, inclusiv cu curte proprie, de la 184.691€+TVA. Smart Home Ready, metrou Teclu 3 min.',
+    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Apartamente 4 camere, inclusiv cu curte proprie, de la 195.000€+TVA. Smart Home Ready, metrou Teclu 3 min.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
