@@ -374,7 +374,7 @@ export default function TipPage({ params }) {
             {pretMin && (
               <p className="mt-3 text-sm">
                 <span className="text-gray-500">De la </span>
-                <span className="font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(pretMin)}€ +TVA</span>
+                <span className="font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(pretMin)} +TVA</span>
                 <span className="text-gray-500"> · {ansambluri.length} {ansambluri.length === 1 ? 'ansamblu' : 'ansambluri'} disponibile</span>
               </p>
             )}

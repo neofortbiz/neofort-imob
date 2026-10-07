@@ -264,7 +264,7 @@ export default function HartaPage() {
                         <p className="text-[10px] text-gray-500">{a.sector}{a.dataPredare && a.dataPredare !== 'Finalizat' ? ' · ' + a.dataPredare : ''}</p>
                       </div>
                       <span className="text-xs font-bold flex-shrink-0" style={{ color }}>
-                        {formatPret(a.pretDeLa)}€
+                        {formatPret(a.pretDeLa)}
                       </span>
                     </div>
                     {isSel && (

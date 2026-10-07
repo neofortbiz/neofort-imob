@@ -105,7 +105,7 @@ export default function PromotiiPage() {
                       <p className="text-xs text-gray-500 mb-3">{a.sector} · {a.etaje}</p>
                       <div className="flex items-baseline justify-between">
                         <span className="text-xs text-gray-500">De la</span>
-                        <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€</span>
+                        <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}</span>
                       </div>
                     </div>
                   </Link>
@@ -140,7 +140,7 @@ export default function PromotiiPage() {
                       <p className="text-xs text-gray-500 mb-3">{a.sector} · Predare {a.dataPredare}</p>
                       <div className="flex items-baseline justify-between">
                         <span className="text-xs text-gray-500">De la</span>
-                        <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€</span>
+                        <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}</span>
                       </div>
                     </div>
                   </Link>

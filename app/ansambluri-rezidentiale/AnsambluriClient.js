@@ -330,7 +330,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
                       </div>
                       <div className="flex items-baseline justify-between">
                         <span className="text-[10px] text-gray-500">De la</span>
-                        <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€</span>
+                        <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}</span>
                       </div>
                     </div>
                   </Link>
@@ -361,7 +361,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
                         </div>
                         <div className="text-right flex-shrink-0">
                           <div className="text-[10px] text-gray-500">De la</div>
-                          <div className="text-base font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}€</div>
+                          <div className="text-base font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}</div>
                         </div>
                       </div>
                       <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500">

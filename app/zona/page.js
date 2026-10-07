@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret } from '@/data/ansambluri'
+import { zonaLabel } from '@/lib/zoneLabel'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -19,7 +20,7 @@ function getZone() {
   ANSAMBLURI_ACTIVE.forEach(a => {
     (a.zone || []).filter(z => !z.startsWith('sector-')).forEach(z => {
       if (!map[z]) {
-        map[z] = { slug: z, nume: a.zona, sector: a.sector, ansambluri: [] }
+        map[z] = { slug: z, nume: zonaLabel(z, a.zona), sector: a.sector, ansambluri: [] }
       }
       if (!map[z].ansambluri.find(x => x.slug === a.slug)) {
         map[z].ansambluri.push(a)
@@ -90,7 +91,7 @@ export default function ZonePage() {
                   {z.ansambluri.slice(0, 3).map(a => (
                     <div key={a.slug} className="text-xs text-gray-500 flex items-center justify-between">
                       <span>{a.nume}</span>
-                      <span className="text-gray-500">de la {formatPret(a.pretDeLa)}€</span>
+                      <span className="text-gray-500">de la {formatPret(a.pretDeLa)}</span>
                     </div>
                   ))}
                   {z.ansambluri.length > 3 && (
