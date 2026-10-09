@@ -1,21 +1,20 @@
 'use client'
 import { useState, useEffect } from 'react'
 
-const ANSAMBLURI = [
-  { slug: 'neofort-84-titan-pallady',            nume: 'Neofort 84 Titan Pallady',       pret: 62114  },
-  { slug: 'neofort-83-titan-pallady',            nume: 'Neofort 83 Titan Pallady',       pret: 64800  },
-  { slug: 'neofort-82-titan-pallady',            nume: 'Neofort 82 Titan Pallady',       pret: 92900  },
-  { slug: 'neofort-76-iuliu-maniu-metrou-pacii', nume: 'Neofort 76 Iuliu Maniu',         pret: 218409 },
-  { slug: 'neofort-56-pallady-titan-teclu',      nume: 'Neofort 56 Pallady Titan',       pret: 195000 },
-  { slug: 'neofort-50-titan-parc-ior',           nume: 'Neofort 50 Titan Parc IOR Faza 2', pret: 102128 },
-  { slug: 'neofort-50-titan-parc-ior-faza-1',    nume: 'Neofort 50 Titan Parc IOR Faza 1', pret: 168960 },
-  { slug: 'neofort-49-militari-metrou-gorjului', nume: 'Neofort 49 Militari',            pret: 77800  },
-  { slug: 'neofort-44-titan-pallady-teclu',      nume: 'Neofort 44 Titan Pallady Teclu', pret: 61775  },
-  { slug: 'neofort-42-piata-muncii',             nume: 'Neofort 42 Piața Muncii',        pret: 197056 },
-  { slug: 'neofort-28-titan-pallady-teclu',      nume: 'Neofort 28 Pallady Teclu',       pret: 83900  },
-  { slug: 'neofort-11-eminescu-viitorului',      nume: 'Neofort 11 Eminescu',            pret: 104640 },
-  { slug: 'neofort-10-colentina-fundeni',        nume: 'Neofort 10 Colentina',           pret: 80845  },
-]
+// Lista de ansambluri NU mai este scrisa aici.
+//
+// DE CE: pana la v404 exista un array hardcodat cu slug + nume + pret.
+// La fiecare schimbare de pret trebuia actualizat si acolo, manual. Nu a
+// fost: 7 din 13 preturi erau desincronizate de la datele reale (N83
+// 64.800 vs 88.506, N49 77.800 vs 142.800, N76 218.409 vs 235.000, N42
+// 197.056 vs 215.500, N28 83.900 vs 86.900, N11 104.640 vs 99.000, N84
+// 62.114 vs 57.336) — calculatorul pornea simularea de la preturi care nu
+// mai existau in oferta.
+//
+// Lista vine acum ca prop din app/calculator-credit/page.js, derivata
+// direct din ANSAMBLURI_ACTIVE. Server component = datele nu intra in
+// bundle-ul de client (data/ansambluri/index.js are ~155KB de text).
+// Orice modificare de pret in date se reflecta automat aici.
 
 const DAE_MIN = 6.0
 const DAE_MAX = 12.0
@@ -53,7 +52,8 @@ const DAE_MARKERS = [
 
 const STEP_NAMES = ['Apartament', 'Avans & venit', 'Profil', 'Date contact']
 
-export default function CalculatorClient({ faqItems = [] }) {
+export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
+  const ANSAMBLURI = ansambluri
   // ── Calculator state ────────────────────────────────────
   const [pret, setPret]           = useState(PRET_DEFAULT)
   const [pretInput, setPretInput] = useState(String(PRET_DEFAULT))

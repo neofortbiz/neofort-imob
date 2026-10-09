@@ -10,6 +10,40 @@ import { parseLinks } from '@/lib/parseLinks'
 const BASE = 'https://www.neofort.ro'
 
 
+// ============================================================
+// Cuprinsul se DERIVA din `sectiuni`, nu se citeste direct din `cuprins`.
+//
+// DE CE: `cuprins` era intretinut manual, in paralel cu `sectiuni`. La
+// auditul v404 divergeau in 22 de locuri: in 14 articole ordinea din
+// cuprins nu era ordinea de pe pagina (tipic `concluzie` inaintea lui
+// `faq` in cuprins, invers in pagina), iar in 8 articole existau
+// secțiuni la care cuprinsul nu trimitea deloc (`comparatie`,
+// `exemple-complete`, `infrastructura-viitor`, `pasi-aplicatie`,
+// `fiscalitate-diaspora`, `experiente-reale`, `probleme-frecvente`,
+// `strategii-investitie`) — ancore inaccesibile din navigatie.
+//
+// Ordinea reala de pe pagina e singura corecta, deci ea decide. `cuprins`
+// rămâne util doar pentru eticheta scurta: titlurile din cuprins sunt
+// intentionat mai scurte decat `h2` si asta se pastreaza. Pentru o
+// secțiune fara intrare in cuprins se cade pe `h2`.
+//
+// Efect: adaugarea sau reordonarea unei secțiuni nu mai cere nicio
+// modificare in `cuprins`, si divergenta nu mai poate reapărea.
+// `scripts/audit-continut.mjs` semnaleaza la prebuild intrarile din
+// `cuprins` ramase fara secțiune (id greșit sau redenumit).
+// ============================================================
+function buildCuprins(a) {
+  const etichete = new Map((a.cuprins || []).map(c => [c.id, c.titlu]))
+  const vazute = new Set()
+  const out = []
+  for (const s of a.sectiuni || []) {
+    if (!s || !s.id || vazute.has(s.id)) continue
+    vazute.add(s.id)
+    out.push({ id: s.id, titlu: etichete.get(s.id) || s.h2 })
+  }
+  return out
+}
+
 // Calculeaza numarul de cuvinte din articol
 function getWordCount(a) {
   const text = a.sectiuni.map(s => s.continut + ' ' + s.h2 + ' ' + (s.h3 || '')).join(' ')
@@ -50,6 +84,7 @@ export default function ArticolPage({ params }) {
   const a = ARTICOLE[params.slug]
   if (!a) notFound()
   const autor = AUTORI[a.autor]
+  const cuprins = buildCuprins(a)
   const altele = (() => {
     const sameTag = ARTICOLE_LIST.filter(x => x.slug !== params.slug && x.tag === a.tag)
     const rest = ARTICOLE_LIST.filter(x => x.slug !== params.slug && x.tag !== a.tag)
@@ -186,7 +221,7 @@ export default function ArticolPage({ params }) {
               <div className="lg:hidden border border-gray-200 rounded-xl p-4 mb-6 bg-gray-50">
                 <p className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-3">Cuprins</p>
                 <ol className="space-y-1.5">
-                  {a.cuprins.map((c, i) => (
+                  {cuprins.map((c, i) => (
                     <li key={c.id}>
                       <a href={`#${c.id}`} className="text-xs text-[#2d7a3a] hover:underline">
                         {i + 1}. {c.titlu}
@@ -380,7 +415,7 @@ export default function ArticolPage({ params }) {
               <div className="border border-gray-200 rounded-xl p-5">
                 <p className="text-xs font-semibold text-gray-900 uppercase tracking-wider mb-4">Cuprins</p>
                 <ol className="space-y-2">
-                  {a.cuprins.map((c, i) => (
+                  {cuprins.map((c, i) => (
                     <li key={c.id}>
                       <a href={`#${c.id}`}
                         className="flex gap-2 text-xs text-gray-700 hover:text-[#2d7a3a] transition-colors leading-snug group">

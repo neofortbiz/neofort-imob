@@ -47,7 +47,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     coordonate: { lat: 44.418559, lng: 26.204754 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 84, zona Titan-Pallady, Sector 3. Bloc P+10 în construcție, predare T1 2027. Apartamente 2-4 camere de la 57.336€+TVA. Metrou Nicolae Teclu la câteva minute, IKEA Pallady, Auchan Titan, Parcul Teilor în proximitate. Încălzire pardoseală, tâmplărie Salamander tripan, centrală proprie, structură beton armat.',
+    descriere: 'Ansamblul Rezidențial Neofort 84, zona Titan-Pallady, Sector 3. Bloc P+10 în construcție, predare T1 2027. Apartamente 2-4 camere de la 57.336€+TVA. Metrou Nicolae Teclu la 1,6 km și Metrou Anghel Saligny la 5 min cu mașina. IKEA Pallady, Auchan Titan, Parcul Teilor în proximitate. Încălzire pardoseală, tâmplărie Salamander tripan, centrală proprie, structură beton armat.',
     apartamente: [
       { tip: '2 cam. Tip 1 studio', etaj: 'et. 10', suprafata: 47.78, avans90: 57336, avans20: 66892, avans45: 62114, pretVechiAvans45: 67000, pretVechiAvans20: 74000, promo: true, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-10', suprafata: 49.15, avans20: 68824, avans45: 63908, pretVechiAvans45: 69000, pretVechiAvans20: 76000, promo: true, camere: 2, stocEpuizat: true },
@@ -87,7 +87,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 84',
-    seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3 Bucuresti. Apartamente 2-4 camere de la 57.336 euro+TVA. Predare T1 2027, langa metrou Nicolae Teclu.',
+    seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3. Apartamente 2-4 camere de la 57.336 euro+TVA. Predare T1 2027, metrou Anghel Saligny la 5 min cu masina.',
   },
   {
     slug: 'neofort-83-titan-pallady',
@@ -109,34 +109,34 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
       interior: ['/ansambluri/neo-83/interior-01.avif','/ansambluri/neo-83/interior-02.avif','/ansambluri/neo-83/interior-03.avif','/ansambluri/neo-83/interior-04.avif','/ansambluri/neo-83/interior-05.avif','/ansambluri/neo-83/interior-06.avif','/ansambluri/neo-83/interior-07.avif','/ansambluri/neo-83/interior-08.avif'],
       schite: ['/ansambluri/neo-83/schite-01.avif','/ansambluri/neo-83/schite-02.avif','/ansambluri/neo-83/schite-03.avif','/ansambluri/neo-83/schite-04.avif','/ansambluri/neo-83/schite-05.avif','/ansambluri/neo-83/schite-06.avif','/ansambluri/neo-83/schite-07.avif','/ansambluri/neo-83/schite-08.avif','/ansambluri/neo-83/schite-09.avif','/ansambluri/neo-83/schite-10.avif','/ansambluri/neo-83/schite-11.avif','/ansambluri/neo-83/schite-12.avif','/ansambluri/neo-83/schite-13.avif'],
     },
-    descriereCompleta: `Apartamentele Neofort 83 Faza 2 din zona Titan, Sectorul 3, reprezintă una dintre cele mai bune oportunități din piața imobiliară a Bucureștiului pentru cumpărătorii care prioritizează accesul la metrou: Metrou Nicolae Teclu (M2) se află la exact 3 minute de mers pe jos — o distanță pe care o parcurgi zilnic fără să simți.
+    descriereCompleta: `Apartamentele Neofort 83 Faza 2 din zona Titan, Sectorul 3, reprezintă una dintre cele mai bune oportunități din piața imobiliară a Bucureștiului pentru cumpărătorii care prioritizează accesul la metrou: Metrou Anghel Saligny (M2) se află la aproximativ 20 de metri de bloc — practic la ieșirea din scară.
 
-Trei blocuri D+P+3E cu lift silențios în fiecare corp, spații verzi amenajate între imobile și locuri de joacă pentru copii formează un complex rezidențial echilibrat. Oferta tipologică este completă, acoperind toate nevoile: garsonieră 43,42 mp de la 64.800€; studio 2 camere 56,12 mp de la 84.180€; apartament 2 camere 69,91 mp de la 104.865€; 3 camere 74,91 mp de la 112.365€; 4 camere 100,63 mp de la 150.945€ — toate la avans 20%, TVA exclus. Parcare exterioară 9.000€ TVA inclus, parcare interioară 13.000€ TVA inclus.
+Trei blocuri D+P+3E cu lift silențios în fiecare corp, spații verzi amenajate între imobile și locuri de joacă pentru copii formează un complex rezidențial echilibrat. Oferta tipologică acoperă patru categorii: garsonieră 53,70 mp de la 88.506€; apartament 2 camere 69,91 mp de la 125.838€; 3 camere 94,04 mp de la 169.272€; 4 camere 100,63 mp de la 181.134€ — toate la avans 20%, TVA exclus. Parcare exterioară 9.000€ TVA inclus, parcare interioară 13.000€ TVA inclus.
 
 Dotările tehnice depășesc semnificativ standardul obișnuit din Sectorul 3 la aceste prețuri. Centrala proprie în condensare reduce consumul de gaz cu 15-20% față de centralele clasice. Fațada ventilată cu izolație din vată minerală bazaltică este superioară polistirenului clasic atât termic cât și fonic — nu absoarbe umiditate și durează de 3 ori mai mult. Tâmplăria Salamander negru structurat cu geam tripan asigură izolarea sonoră față de zgomotul urban și minimizarea pierderilor de căldură. Kit-ul de aer condiționat preinstalat, obiectele sanitare suspendate, ușa metalică multipunct antiefracție și liftul silențios completează un pachet complet la cheie.
 
-Titan-Pallady este zona cu cel mai mare ritm de creștere rezidențială din Sectorul 3 — cu acces la linia M2 care traversează Bucureștiul de la vest la est, locuitorii ajung la Universitate în 12 minute, la Piața Unirii în 10 minute și la Autogara Militari în 20 de minute. Metrou Anghel Saligny la 8 minute pe jos extinde conexiunile spre A2 și Autostrada Soarelui.
+Titan-Pallady este zona cu cel mai mare ritm de creștere rezidențială din Sectorul 3 — cu acces la linia M2 care traversează Bucureștiul de la vest la est, locuitorii ajung la Universitate în 12 minute, la Piața Unirii în 10 minute și la Autogara Militari în 20 de minute. Metrou Nicolae Teclu la 17 minute pe jos extinde conexiunile pe aceeași magistrală M2.
 
 IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute — retail complet la îndemână. Waldorf București și Spectrum School la 500m — ideal pentru familiile cu copii care valorizează alternativele educaționale. Școala Gimnazială nr. 149 și Liceul Internațional de Informatică la 10 minute pe jos. Parcul Teilor la 10 minute. Campus Medical Regina Maria Titan la 10 minute și Medikali Titan la 8 minute.
 
 Neofort 83 Faza 2 se adresează deopotrivă familiilor tinere aflate la prima achiziție și investitorilor care înțeleg că proximity față de metrou este cel mai puternic factor de apreciere a valorii pe termen lung în piața imobiliară din București.
 
-Titan-Pallady este în prezent cea mai activă zonă de dezvoltare rezidențială din Sectorul 3. Datele de piață din 2024-2026 confirmă că apartamentele noi cu acces la metrou M2 în 3-8 minute au înregistrat creșteri de valoare de 12-18% față de 2023, depășind media națională. Cererea depășește constant oferta, în special pentru garsoniere și apartamente de 2 camere la prețuri sub 100.000€ — categoria în care Neofort 83 are cea mai competitivă ofertă din zonă.
+Titan-Pallady este în prezent cea mai activă zonă de dezvoltare rezidențială din Sectorul 3. Datele de piață din 2024-2026 confirmă că apartamentele noi cu acces la metrou M2 în 3-8 minute au înregistrat creșteri de valoare de 12-18% față de 2023, depășind media națională. Cererea depășește constant oferta, în special pentru garsoniere și apartamente de 2 camere — categoriile cu cea mai rapidă rotație în zonă.
 
-Pentru investitori: chiria medie pentru o garsonieră de 43 mp în Titan cu metrou la 3 minute este de 450-550€/lună, reprezentând un randament brut de 8-10% față de prețul de achiziție de la 64.800€. Apartamentele de 2 camere generează chirii de 650-750€/lună — randament 7-8,5%. Cererea de chirie în zonă este susținută de angajații din zona de est și din centrul Bucureștiului care preferă metroul față de mașina personală. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision.
+Pentru investitori: chiria medie pentru o garsonieră de 53 mp în Titan cu metrou la câțiva pași este de 450-550€/lună, reprezentând un randament brut de 6,1-7,5% față de prețul de achiziție de la 88.506€. Apartamentele de 2 camere generează chirii de 650-750€/lună — randament 6,2-7,2%. Cererea de chirie în zonă este susținută de angajații din zona de est și din centrul Bucureștiului care preferă metroul față de mașina personală. Rezervare cu 2.000€, consultanță bancară gratuită, vânzare directă fără comision.
 
 Neofort 83 Faza 2 are un avantaj geografic rar în zona Titan-Pallady: distanța față de Metrou Anghel Saligny (M2) este de aproximativ 20 de metri în linie dreaptă — practic la ușa blocului. Aceasta înseamnă că pentru locuitorii acestui proiect, metroul nu este „la câteva minute", este la câțiva pași. Linia M2 merge direct spre centru: Dristor 2 în 2 minute, Piața Muncii în 5 minute, Piața Unirii în 8 minute, Piața Universității în 10 minute. În contextul traficului din București, această conectivitate transformă fundamental relația cu orașul — nu mai depinzi de mașina personală pentru deplasările zilnice.
 
 Fațada ventilată cu izolație din vată minerală bazaltică merită o explicație tehnică detaliată, pentru că este un avantaj adesea menționat dar rar înțeles. Spre deosebire de termoizolația clasică cu polistiren (EPS), vata bazaltică este incombustibilă — clasa de reacție la foc A1, cea mai înaltă posibilă. Nu absoarbe umiditate, nu se degradează în timp și asigură o izolare fonică reală, nu doar termică. Durata de viață estimată a sistemului depășește 50 de ani față de 20-25 ani pentru polistiren. Aceasta nu este o diferență de marketing — este o diferență structurală care afectează costurile de întreținere pe termen lung și valoarea de revânzare.
 
-Oferta tipologică a Neofort 83 Faza 2 este concepută deliberat pentru a acoperi toată scara de prețuri din zona Titan: de la garsoniera de 43,42 mp la 64.800€ — cea mai accesibilă unitate din întregul portofoliu Neofort activ — până la apartamentul de 4 camere de 100,63 mp la 150.945€. Diferența de 86.145€ între cel mai mic și cel mai mare apartament permite accesul în același proiect, în aceeași comunitate, al unor cumpărători cu bugete și nevoi foarte diferite. Acest mix tipologic echilibrat este un indicator de calitate al proiectului — nu o simplificare, ci o decizie deliberată de diversificare.
+Oferta tipologică a Neofort 83 Faza 2 este concepută deliberat pentru a acoperi toată scara de prețuri din zona Titan: de la garsoniera de 53,70 mp la 88.506€ până la apartamentul de 4 camere de 100,63 mp la 181.134€. Diferența de 92.628€ între cel mai mic și cel mai mare apartament permite accesul în același proiect, în aceeași comunitate, al unor cumpărători cu bugete și nevoi foarte diferite. Acest mix tipologic echilibrat este un indicator de calitate al proiectului — nu o simplificare, ci o decizie deliberată de diversificare.
 
 Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat proiect activ din zona Titan: Waldorf București și Spectrum School la 8 minute cu mașina, Liceul Internațional de Informatică la 10 minute, Parcul Teilor la 8 minute. Combinația metrou la ușă + școli alternative + parc urban mare + retail complet în raza de 10 minute este extraordinar de rară în București la prețurile actuale. Vedeți și [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) pentru mai multe tipologii, sau [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) cu apartamente cu curte proprie. Vezi și [de ce Titan-Pallady a devenit cea mai căutată zonă rezidențială din Sectorul 3](/blog/titan-pallady-cea-mai-cautata-zona).`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.408482, lng: 26.19528 },
     zone: ['titan-pallady', 'sector-3'],
-    tipuri: ['Garsoniera', 'Studio', '2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 83 Faza 2, zona Titan, Sector 3. Trei corpuri D+P+3E cu lift, garsoniere, studiouri, apartamente 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu la 3 minute. Centrală condensare, fațadă ventilată, izolație vată minerală bazaltică, tâmplărie Salamander negru structurat. Predat la cheie.',
+    tipuri: ['Garsoniera', '2 camere', '3 camere', '4 camere'],
+    descriere: 'Ansamblul Rezidențial Neofort 83 Faza 2, zona Titan, Sector 3. Trei corpuri D+P+3E cu lift, garsoniere și apartamente 2-4 camere de la 88.506€+TVA. Metrou Anghel Saligny la 20 m. Centrală condensare, fațadă ventilată, izolație vată minerală bazaltică, tâmplărie Salamander negru structurat. Predat la cheie.',
     apartamente: [
       { tip: 'Garsoniera', etaj: 'et. 1-3', suprafata: 53.70, avans20: 88506, avans45: null, promo: false, camere: 1 },
       { tip: '2 camere', etaj: 'et. 1-3', suprafata: 69.91, avans20: 125838, avans45: null, promo: false, camere: 2 },
@@ -161,7 +161,7 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 83',
-    seoDescription: 'Neofort 83 Faza 2, zona Titan, Sector 3. Garsoniere, studio, 2-4 camere de la 64.800€+TVA. Metrou Nicolae Teclu 3 min.',
+    seoDescription: 'Ansamblu rezidential Neofort 83 Faza 2, Titan-Pallady, Sector 3. Garsoniere si apartamente 2-4 camere de la 88.506 euro+TVA. Metrou Anghel Saligny la 20 m.',
   },
   {
     slug: 'neofort-82-titan-pallady',
@@ -189,7 +189,7 @@ Pentru familiile cu copii, Neofort 83 este probabil cel mai bine poziționat pro
 
 Imobilul are regim D+P+4E, structură din beton armat de 30 cm grosime și compartimentări din cărămidă Porotherm pentru izolație termică și fonică superioară. Termosistemul de fațadă cu EPS 80 de 10 cm asigură performanță energetică ridicată și costuri de întreținere reduse pe termen lung. Fiecare apartament este echipat cu sistem de microventilație, centrală termică proprie în condensare și kit preinstalat pentru aer condiționat. Încălzirea se realizează prin pardoseală în toate camerele, inclusiv în băi, iar portprosoavele instalate în băi adaugă un plus de confort zilnic.
 
-Localizare — Metrou Nicolae Teclu la 5 Minute
+Localizare — Metrou Nicolae Teclu la 3 Minute cu Mașina
 
 Metrou Nicolae Teclu (M2) se află la 1,1 km, iar Metrou Anghel Saligny (M2) la 1,2 km — ambele la 3 minute cu mașina. Magistrala 2 conectează zona cu Piața Unirii și Piața Victoriei în câteva minute. Linia M2 oferă conexiuni directe cu Piața Romană, Aviatorilor și Băneasa, fără schimb de linie — ideal pentru profesioniști care lucrează în centrul sau nordul Capitalei. Polul comercial Pallady — IKEA, Auchan 1 Decembrie, Leroy Merlin, Dedeman, Metro Cash and Carry, Jumbo, Lidl, Altex, Mobexpert — este accesibil în câteva minute cu mașina sau cu mijloacele de transport în comun. Iris Mall completează oferta de retail și entertainment din proximitate. Liniile STB 19, 40, 246, 335 și 408 asigură conectivitate suplimentară pentru toate destinațiile din București.
 
@@ -212,6 +212,7 @@ Potențial de Investiție în Zona Titan-Pallady
 Zona Titan-Pallady înregistrează o cerere constantă de chiriași, susținută de proximitatea față de Metrou Anghel Saligny, polul comercial Pallady și companiile din estul Capitalei. Un apartament cu 2 camere finalizat în această zonă generează o chirie de 400-500 EUR/lună, rezultând un randament brut de 4,5-5,5% anual față de prețul de achiziție. Proiectul se predă complet finisat și echipat, fără costuri suplimentare de amenajare pentru investitor.
 
 Prețul ultimei unități disponibile, 92.900 EUR+TVA pentru 60,90 mp utili, rămâne competitiv față de media zonei Pallady pentru proiecte finalizate cu dotări comparabile. Creșterile de valoare documentate în zona Titan-Pallady din ultimii ani confirmă potențialul de apreciere al capitalului investit pe termen mediu și lung. Neofort 82 Titan Pallady se adresează atât familiilor tinere care caută un apartament nou finalizat cu dotări complete, cât și investitorilor interesați de randamente stabile din chirii în una dintre cele mai căutate zone rezidențiale din Sectorul 3 al Bucureștiului. Calitatea construcției, dotările complete și localizarea față de metrou și polul comercial Pallady asigură o lichiditate ridicată a proprietății atât la revânzare cât și pe piața de închiriere pe termen lung. Explorați și [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) — apartamente cu curte proprie 50mp — sau [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) în aceeași zonă. Vezi și [ghidul complet pentru apartamente în zona Titan-Pallady-Teclu](/blog/apartamente-de-vanzare-titan-pallady-teclu).`,
+    descriere: 'Ansamblul Rezidențial Neofort 82 Titan Pallady, Bulevardul Theodor Pallady, Sector 3. Proiect finalizat, gata de mutare. A rămas un singur apartament de 2 camere, 60,90 mp, 92.900€+TVA. Dotări premium importate din Italia și Spania. Metrou Nicolae Teclu la 1,1 km și Anghel Saligny la 1,2 km.',
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 60.90, avans20: 92900, promo: false, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 62.15, avans20: 89900, promo: false, camere: 2, stocEpuizat: true },
@@ -249,7 +250,7 @@ Prețul ultimei unități disponibile, 92.900 EUR+TVA pentru 60,90 mp utili, ră
     tipuri: ['2 camere'],
     tag: null,
     seoTitle: 'Ansamblu Rezidențial Neofort 82 Titan Pallady',
-    seoDescription: 'Neofort 82 Titan Pallady, Sector 3. Proiect finalizat, ultimul apartament de 2 camere disponibil, 60,90 mp, 92.900€+TVA. Metrou Nicolae Teclu 5 min.',
+    seoDescription: 'Neofort 82 Titan Pallady, Sector 3. Proiect finalizat, ultimul apartament de 2 camere disponibil, 60,90 mp, 92.900€+TVA. Metrou Nicolae Teclu la 3 min cu masina.',
   },
   {
     slug: 'neofort-76-iuliu-maniu-metrou-pacii',
@@ -277,11 +278,11 @@ Unitatea actuală disponibilă: Penthouse 4 camere cu terasă, etajele 8-9, 293,
 
 Structura din beton armat antiSEismică certificată, apartamente complet finisate la cheie, încălzire în pardoseală în toate spațiile, contorizare individuală apă-gaz-electricitate și parcarea Klaus reprezintă standardul tehnic al proiectului. Etajele 8 și 9 retrase conferă Penthouse-ului intimitate naturală și o terasă panoramică generoasă — un avantaj arhitectural pe care imobilele cu regim uniform de înălțime nu îl pot oferi.
 
-Conectivitatea este remarcabilă chiar și în contextul bogat al Sectorului 6: Metrou Păcii (M3) la 500m — 6 minute pe jos — asigură accesul spre Piața Unirii în 8 minute; Metrou Preciziei (M3) la 900m — 11 minute pe jos; Metrou Gorjului (M3) la 15 minute pe jos, cu acces spre Autostrada A1 și ieșirea vestică din București. Linia M3 traversează Bucureștiul de la Drumul Taberei până la Anghel Saligny, oferind conectivitate completă cu minimum de schimburi.
+Conectivitatea este remarcabilă chiar și în contextul bogat al Sectorului 6: Metrou Păcii (M3) la 550m — 7 minute pe jos — asigură accesul spre Piața Unirii în 8 minute; Metrou Preciziei (M3) la 6 minute cu mașina; Metrou Gorjului (M3) la 6 minute cu mașina, cu acces spre Autostrada A1 și ieșirea vestică din București. Linia M3 traversează Bucureștiul de la Drumul Taberei până la Anghel Saligny, oferind conectivitate completă cu minimum de schimburi.
 
 Zona Militari-Iuliu Maniu a cunoscut o transformare semnificativă în urma extinderii rețelei de metrou. Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute și BricoDepot Militari la 10 minute acoperă orice nevoie comercială. Parcul Liniei — cel mai lung parc liniar din Europa, cu 10 kilometri de alei pietonale, piste de biciclete și spații verzi continue — este accesibil în 10 minute pe jos, oferind o raritate pentru Sectorul 6: un coridor verde lung care permite activitate fizică zilnică fără a depinde de parcuri punctuale. Școala Internațională King George la 10 minute și Școala Gimnazială Regina Maria la 8 minute asigură educație de calitate pentru familii. Grădinița Prichindel nr. 195 la 5 minute. Sanador Militari și OK Medical la 8 minute, Clinica Regina Maria Militari la 10 minute.
 
-Penthouse-ul Neofort 76, cu 293,13 mp desfășurați pe două niveluri și terasă privată la etajele 8-9, este o propunere rară în Sectorul 6 — spațiu generos, finisaje la cheie, metrou la 6 minute pe jos. Vânzare directă fără comision.
+Penthouse-ul Neofort 76, cu 293,13 mp desfășurați pe două niveluri și terasă privată la etajele 8-9, este o propunere rară în Sectorul 6 — spațiu generos, finisaje la cheie, metrou la 7 minute pe jos. Vânzare directă fără comision.
 
 Investiția în Penthouse-ul Neofort 76 este justificată și de tendința pieței imobiliare din zona Militari-Iuliu Maniu: prețurile pe metru pătrat în Sectorul 6 cu acces la M3 au crescut constant în ultimii 3 ani, susținute de cererea în creștere și de investițiile publice în infrastructura de transport. Un Penthouse de 293,13 mp cu terasă privată panoramică în această zonă nu este doar o locuință — este o proprietate cu potențial real de apreciere. Procesul de achiziție include consultanță juridică și financiară gratuită. Fără comision de agenție.
 
@@ -293,12 +294,12 @@ Bulevardul Iuliu Maniu este una dintre puținele artere principale din Bucureșt
 
 Parcul Liniei — cel mai lung parc liniar din Europa, cu 10 kilometri de alei pietonale continue, piste de biciclete și zone de agrement — este o resursă urbană de agrement cu totul specială pentru locuitorii zonei Militari-Iuliu Maniu. Nu este un parc punctual în care faci o tură și te întorci; este un coridor verde care pornește din Piața Unirii și se extinde spre vest, permițând alergatul, ciclismul și plimbările lungi fără a traversa intersecții majore. La 10 minute cu mașina din Penthouse-ul Neofort 76, Parcul Liniei devine o extensie naturală a spațiului de locuire.
 
-Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat în jur de 800€. Rezervare cu 2.000€, consultanță gratuită. În zona Militari, vedeți și [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — garsoniere și 2 camere de la 76.974€+TVA în promoție activă. Pentru criterii de evaluare, vezi [ghidul de alegere a unui ansamblu rezidențial nou în București](/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026).`,
+Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat în jur de 800€. Rezervare cu 2.000€, consultanță gratuită. În zona Militari, vedeți și [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — proiect boutique de 16 apartamente, cu ultimul apartament de 2 camere disponibil, 71,40 mp, 142.800€+TVA. Pentru criterii de evaluare, vezi [ghidul de alegere a unui ansamblu rezidențial nou în București](/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026).`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.43368, lng: 25.998051 },
     zone: ['militari', 'sector-6'],
     tipuri: ['4 camere Penthouse'],
-    descriere: 'Ansamblul Rezidențial Neofort 76 Faza 2, Bulevardul Iuliu Maniu, Sector 6. Regim S+P+7E+8/9Er, Penthouse 4 camere cu terasă, 293,13 mp, de la 235.000€+TVA. Metrou Păcii la 500m, Metrou Preciziei la 900m. Parcare sistem Klaus, finisaje la cheie, încălzire pardoseală, structură antisismică.',
+    descriere: 'Ansamblul Rezidențial Neofort 76 Faza 2, Bulevardul Iuliu Maniu, Sector 6. Regim S+P+7E+8/9Er, Penthouse 4 camere cu terasă, 293,13 mp, de la 235.000€+TVA. Metrou Păcii la 550m, Metrou Preciziei la 6 min cu mașina. Parcare sistem Klaus, finisaje la cheie, încălzire pardoseală, structură antisismică.',
     apartamente: [
       { tip: 'Penthouse 4 cam. + Terasa', etaj: 'et. 8-9', suprafata: 293.13, avans20: 235000, avans45: null, promo: false, camere: 4 },
     ],
@@ -320,7 +321,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Militari Metrou Păcii — Neofort 76',
-    seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Penthouse 4 camere cu terasă panoramică, 293,13 mp, de la 235.000€+TVA. Metrou Păcii la 500m.',
+    seoDescription: 'Neofort 76, Bd. Iuliu Maniu, Sector 6. Penthouse 4 camere cu terasă panoramică, 293,13 mp, de la 235.000€+TVA. Metrou Păcii la 550m.',
   },
   {
     slug: 'neofort-56-pallady-titan-teclu',
@@ -342,7 +343,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
       interior: ['/ansambluri/neo-56/interior-01.avif','/ansambluri/neo-56/interior-02.avif','/ansambluri/neo-56/interior-03.avif','/ansambluri/neo-56/interior-04.avif','/ansambluri/neo-56/interior-05.avif','/ansambluri/neo-56/interior-06.avif','/ansambluri/neo-56/interior-07.avif','/ansambluri/neo-56/interior-08.avif','/ansambluri/neo-56/interior-09.avif','/ansambluri/neo-56/interior-10.avif'],
       schite: ['/ansambluri/neo-56/schite-01.avif','/ansambluri/neo-56/schite-02.avif'],
     },
-    descriereCompleta: `Apartamentele de 4 camere în Sectorul 3 al Bucureștiului, cu suprafețe mari, lângă metrou și cu dotări smart integrate standard sunt greu de găsit sub 200.000€. Neofort 56 Faza 2 din zona Titan Nou schimbă această realitate: trei blocuri D+P+3E cu 84 de unități, inclusiv apartamente cu curte proprie la parter, la 3 minute de Metrou Nicolae Teclu (M2).
+    descriereCompleta: `Apartamentele de 4 camere în Sectorul 3 al Bucureștiului, cu suprafețe mari, lângă metrou și cu dotări smart integrate standard sunt greu de găsit sub 200.000€. Neofort 56 Faza 2 din zona Titan Nou schimbă această realitate: trei blocuri D+P+3E cu 84 de unități, inclusiv apartamente cu curte proprie la parter, cu acces la Magistrala M2 prin Metrou Anghel Saligny, la 7 minute cu mașina.
 
 Oferta curentă: apartament 4 camere, 125,64 mp, etajele 1-3, de la 195.000€ + TVA; apartament 4 camere cu curte proprie, parter, 133,54 mp total, de la 235.208€ + TVA. Parcare exterioară și subterană la 8.900€ TVA inclus.
 
@@ -350,11 +351,11 @@ Neofort 56 Faza 2 este primul proiect Neofort cu dotare Smart Home Ready integra
 
 Celelalte dotări sunt de nivel premium: încălzire în pardoseală INNOFLOW, centrală proprie în condensare, tâmplărie VEKA tripan cu 7 camere de izolare — una dintre cele mai performante disponibile pe piața românească, obiecte sanitare suspendate Grohe, prize Gewiss, lift silențios Schindler, balustrade din sticlă securizată, stații de încărcare pentru autoturisme electrice și supraveghere video a spațiilor comune.
 
-Zona Titan-Pallady are avantajul rar al maturității urbane: nu mai este o zonă în formare, ci una deja complet dotată cu toate facilitățile necesare unui trai urban modern. Metrou Nicolae Teclu (M2) la 3 minute pe jos și Metrou Anghel Saligny la 8 minute asigură mobilitate fără dependență de mașină. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute. Waldorf București și Spectrum School la 500m. Parcul Teilor la 10 minute pe jos. Campus Medical Regina Maria Titan și MedLife Titan la 8-10 minute. Liceul Internațional de Informatică la 10 minute.
+Zona Titan-Pallady are avantajul rar al maturității urbane: nu mai este o zonă în formare, ci una deja complet dotată cu toate facilitățile necesare unui trai urban modern. Metrou Nicolae Teclu (M2) la 18 minute pe jos și Metrou Anghel Saligny la 7 minute cu mașina asigură accesul la Magistrala M2. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute. Waldorf București și Spectrum School la 500m. Parcul Teilor la 10 minute pe jos. Campus Medical Regina Maria Titan și MedLife Titan la 8-10 minute. Liceul Internațional de Informatică la 10 minute.
 
 Apartamentele cu curte proprie la parter sunt extrem de rare în proiectele noi din Sectorul 3. La Neofort 56 Faza 2, această unitate are 133,54 mp utili plus curtea privată — un spațiu care transformă fundamental experiența de locuire la bloc. Vânzare directă, fără comision.
 
-Neofort 56 Faza 2 este, de asemenea, o alegere inteligentă pentru investitori: randamentul în chirie pentru apartamentele de 4 camere în zona Titan cu metrou la 3 minute variază între 4,5% și 5,5% anual, cu o cerere ridicată din partea familiilor relocate și a expats. Apartamentele cu curte la parter din acest proiect se închiriază cu o primă față de unitățile standard datorită rarității acestei configurații în oferta din Sectorul 3. Vânzare directă, fără comision.
+Neofort 56 Faza 2 este, de asemenea, o alegere inteligentă pentru investitori: randamentul în chirie pentru apartamentele de 4 camere în zona Titan cu acces la Magistrala M2 variază între 4,5% și 5,5% anual, cu o cerere ridicată din partea familiilor relocate și a expats. Apartamentele cu curte la parter din acest proiect se închiriază cu o primă față de unitățile standard datorită rarității acestei configurații în oferta din Sectorul 3. Vânzare directă, fără comision.
 
 De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Trei argumente concrete: Smart Home Ready integrat standard fără costuri suplimentare — o dotare pe care alte proiecte o oferă ca opțiune la 3.000-5.000€ în plus; stațiile de încărcare EV în parcare — un avantaj operațional permanent pe măsură ce mobilitatea electrică se extinde; și apartamentul cu curte proprie de la parter — o configurație imposibil de găsit în alte imobile noi din zonă la prețul de 235.208€. Parcare 8.900€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.
 
@@ -369,7 +370,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     coordonate: { lat: 44.419894, lng: 26.182582 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Apartamente 4 camere de la 195.000€+TVA. Metrou Nicolae Teclu la 3 minute. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.',
+    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Apartamente 4 camere de la 195.000€+TVA. Metrou Anghel Saligny la 7 minute cu mașina. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.',
     apartamente: [
       { tip: '4 cam.', etaj: 'et. 1-3', suprafata: 125.64, avans20: 195000, avans45: null, promo: false, camere: 4 },
       { tip: '4 cam. cu curte', etaj: 'parter', suprafata: 133.54, avans20: 235208, avans45: null, promo: false, camere: 4 },
@@ -392,7 +393,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 56',
-    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Apartamente 4 camere, inclusiv cu curte proprie, de la 195.000€+TVA. Smart Home Ready, metrou Teclu 3 min.',
+    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Apartamente 4 camere, unele cu curte proprie, de la 195.000€+TVA. Smart Home Ready, metrou Anghel Saligny 7 min cu masina.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
@@ -414,7 +415,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
       interior: [],
       schite: ['/ansambluri/neo-50-f2/schite-01.avif','/ansambluri/neo-50-f2/schite-02.avif','/ansambluri/neo-50-f2/schite-03.avif','/ansambluri/neo-50-f2/schite-04.avif','/ansambluri/neo-50-f2/schite-05.avif','/ansambluri/neo-50-f2/schite-06.avif','/ansambluri/neo-50-f2/schite-07.avif','/ansambluri/neo-50-f2/schite-08.avif','/ansambluri/neo-50-f2/schite-09.avif','/ansambluri/neo-50-f2/schite-10.avif','/ansambluri/neo-50-f2/schite-11.avif','/ansambluri/neo-50-f2/schite-12.avif','/ansambluri/neo-50-f2/schite-13.avif','/ansambluri/neo-50-f2/schite-14.avif'],
     },
-    descriereCompleta: `Pe Bulevardul 1 Decembrie 1918 nr. 1E, în Sectorul 3, la 4 minute de mers pe jos de Metrou Costin Georgian, Neofort 50 Titan Parc IOR Faza 2 este a doua etapă a celui mai mare proiect din portofoliul activ Neofort IMO. Se construiește chiar lângă primul bloc, cu aceeași preocupare pentru calitate și siguranță, și aduce 102 apartamente noi într-un cartier deja matur, în care infrastructura nu se mai așteaptă — există.
+    descriereCompleta: `Pe Bulevardul 1 Decembrie 1918 nr. 1E, în Sectorul 3, la 3 minute de mers pe jos de Metrou Costin Georgian, Neofort 50 Titan Parc IOR Faza 2 este a doua etapă a celui mai mare proiect din portofoliul activ Neofort IMO. Se construiește chiar lângă primul bloc, cu aceeași preocupare pentru calitate și siguranță, și aduce 102 apartamente noi într-un cartier deja matur, în care infrastructura nu se mai așteaptă — există.
 
 Regimul de înălțime este Subsol + Parter + 7 Etaje. Subsolul adăpostește parcările și adăpostul de protecție civilă ALA, amenajat pentru situații de urgență. La parter sunt apartamente cu grădină privată, pentru cei care își doresc un spațiu verde propriu în mijlocul orașului. Fiecare nivel este compartimentat pentru locuințe cu suprafețe variate și are câte două boxe de depozitare. Tipologiile acoperă tot spectrul: garsoniere, studiouri și apartamente de 2, 3 și 4 camere.
 
@@ -426,7 +427,7 @@ Construcția respectă cerințele ISU și parcurge procedura pentru autorizația
 
 Apartamentele se livrează la cheie, complet finisate. Încălzirea este în pardoseală, cu instalație Romstal și centrală proprie în condensare de 24 kW — căldura se distribuie uniform, iar absența caloriferelor lasă pereții liberi pentru mobilare. Tâmplăria este SALAMANDER Green Evolution 76, profil PVC cu 6 camere și geam termoizolant cu trei foi de sticlă, pachet patru anotimpuri cu tratament UV. Parchetul este EGGER PRO laminat clasa 32, potrivit pentru trafic intens și compatibil cu încălzirea în pardoseală. Gresia și faianța sunt Cristacer, produse în Spania. Ușile de interior sunt PINUM, ușa de intrare Benati cu închidere multipunct. Băile sunt complet echipate cu obiecte sanitare Cersanit și ROCA și baterii GROHE.
 
-Zona este argumentul care nu se poate cumpăra ulterior. Metroul Costin Georgian este la 4 minute pe jos, cu acces la Piața Unirii în 15 minute. Școli, grădinițe și licee sunt accesibile pe jos, iar Lidl și Kaufland se află chiar lângă bloc. Parcurile Morarilor și IOR sunt la 5-10 minute. Centrul sportiv Lia Manoliu este la 2 km, iar Arena Națională la 6 minute cu mașina.
+Zona este argumentul care nu se poate cumpăra ulterior. Metroul Costin Georgian este la 300 de metri, 3 minute pe jos, cu acces la Piața Unirii în 15 minute. Școli, grădinițe și licee sunt accesibile pe jos, iar Lidl și Kaufland se află chiar lângă bloc. Parcurile Morarilor și IOR sunt la 5-10 minute. Centrul sportiv Lia Manoliu este la 2 km, iar Arena Națională la 6 minute cu mașina.
 
 Pentru familii, combinația contează mai mult decât oricare element luat separat: apartamente spațioase de 3 și 4 camere, cu tot parcursul educațional al copiilor asigurat în aceeași zonă, la câteva minute de mers pe jos. Pentru investitori, garsonierele, studiourile și apartamentele de 2 camere sunt o opțiune solidă pentru închiriere, inclusiv în regim hotelier — proximitatea metroului și a Arenei Naționale aduce cerere constantă din partea celor care vin în București la concerte, festivaluri sau meciuri.
 
@@ -437,7 +438,7 @@ Neofort 50 Titan Parc IOR Faza 2 bifează criteriile unei alegeri pe termen lung
     coordonate: { lat: 44.43419, lng: 26.173166 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['Garsoniera', 'Studio', '2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 2, Bulevardul 1 Decembrie 1918 nr. 1E, Sector 3 — al doilea bloc al proiectului, în construcție, predare T2 2028. Regim S+P+7E, 102 apartamente de la garsonieră la 4 camere, de la 102.128€+TVA, cu grădini private la parter. Metrou Costin Georgian la 4 minute pe jos. Fundație piloți, Porotherm 30 cm, tâmplărie Salamander tripan, încălzire în pardoseală, finisaje Cristacer și GROHE.',
+    descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 2, Bulevardul 1 Decembrie 1918 nr. 1E, Sector 3 — al doilea bloc al proiectului, în construcție, predare T2 2028. Regim S+P+7E, 102 apartamente de la garsonieră la 4 camere, de la 102.128€+TVA, cu grădini private la parter. Metrou Costin Georgian la 300 m, 3 minute pe jos. Fundație piloți, Porotherm 30 cm, tâmplărie Salamander tripan, încălzire în pardoseală, finisaje Cristacer și GROHE.',
     apartamente: [
       { tip: 'Garsoniera', suprafata: 40.05, avans20: 102128, avans45: null, promo: false, camere: 1, deLaPret: true },
       { tip: 'Garsoniera cu terasa', suprafata: 41.30, suprafataExtra: 37.05, tipExtra: 'terasa', avans20: 144430, avans45: null, promo: true, camere: 1, pretPromo: 134530, deLaPret: true },
@@ -540,12 +541,12 @@ Zona Titan – IOR înregistrează o cerere constantă din partea cumpărătoril
 
 Un element distinctiv al proiectului îl reprezintă apartamentele cu terase spectaculoase, amplasate atât la etaje intermediare, cât și la ultimele două niveluri, unde rezidenții se bucură de panorame impresionante asupra orașului și a zonelor verzi din jur.
 
-Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat de ocupare confirmă calitatea construcției, poziționarea excelentă și nivelul ridicat al facilităților oferite. Odată cu începerea lucrărilor pentru Faza 2, Ansamblul Rezidențial Neofort 50 Titan IOR continuă să redefinească standardele locuirii moderne în zona Titan – IOR. Vedeți și [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) — apartamente premium cu metroul la 200m — sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) în zona Pallady. Pentru randamentul din chirii pe zone, vezi [analiza randamentului la închiriere în București](/blog/randament-inchiriere-zone-bucuresti). Al doilea bloc al proiectului este în construcție, cu predare T2 2028 și prețuri de lansare de la 102.128€+TVA: vezi [Neofort 50 Titan Parc IOR Faza 2](/ansamblu-rezidential/neofort-50-titan-parc-ior).`,
+Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat de ocupare confirmă calitatea construcției, poziționarea excelentă și nivelul ridicat al facilităților oferite. Odată cu începerea lucrărilor pentru Faza 2, Ansamblul Rezidențial Neofort 50 Titan IOR continuă să redefinească standardele locuirii moderne în zona Titan – IOR. Vedeți și [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) — apartamente premium cu metroul la 300m — sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) în zona Pallady. Pentru randamentul din chirii pe zone, vezi [analiza randamentului la închiriere în București](/blog/randament-inchiriere-zone-bucuresti). Al doilea bloc al proiectului este în construcție, cu predare T2 2028 și prețuri de lansare de la 102.128€+TVA: vezi [Neofort 50 Titan Parc IOR Faza 2](/ansamblu-rezidential/neofort-50-titan-parc-ior).`,
     brokerTel: '0752 443 436',
     coordonate: { lat: 44.433921, lng: 26.172411 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 1, Bulevardul 1 Decembrie 1918, Sector 3 — primul bloc al proiectului, finalizat și disponibil imediat. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 168.960€+TVA, cu terase generoase la ultimele niveluri. Metrou Costin Georgian la 1 minut, Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire în pardoseală.',
+    descriere: 'Ansamblul Rezidențial Neofort 50 Titan Parc IOR Faza 1, Bulevardul 1 Decembrie 1918, Sector 3 — primul bloc al proiectului, finalizat și disponibil imediat. Imobil 11 etaje, 2 subsoluri, 4 lifturi ORONA. Apartamente 2 și 4 camere de la 168.960€+TVA, cu terase generoase la ultimele niveluri. Metrou Costin Georgian la 300 m, 3 minute pe jos. Parcul IOR la 5 minute. Fundație piloți 17m, termostat Smart, centrală Vaillant, încălzire în pardoseală.',
     apartamente: [
       { tip: '2 cam. Scara 1', etaj: 'et. 1-5', suprafata: 70.40, avans20: 176000, avans45: null, promo: true, camere: 2, pretPromo: 168960 },
       { tip: '2 cam. cu terasa', etaj: 'et. 6', suprafata: 47.80, suprafataExtra: 54.90, tipExtra: 'terasa', avans20: 188125, avans45: null, promo: true, camere: 2, pretPromo: 169500 },
@@ -608,7 +609,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
 
 Ultimul apartament disponibil: 2 camere Tip 6, 71,40 mp, 142.800 € + TVA — cea mai mare suprafață de 2 camere din proiect. Garsoniera și celelalte tipuri de 2 camere au fost vândute integral. Parcare subterană 15.000€ TVA inclus.
 
-Zona Militari-Gorjului a câștigat semnificativ în atractivitate după extinderea liniei M3 spre Drumul Taberei. Metroul Gorjului și Metroul Păcii — ambele accesibile la câteva minute pe jos — asigură accesul spre Piața Unirii în 10 minute și spre Drumul Taberei în 5 minute, fără dependență de traficul consistent al Bulevardului Iuliu Maniu sau al Bulevardului Timișoara. Această conectivitate face zona extrem de atractivă pentru angajații care lucrează în centrul Bucureștiului sau în zona de vest.
+Zona Militari-Gorjului a câștigat semnificativ în atractivitate după extinderea liniei M3 spre Drumul Taberei. Metroul Gorjului la 950m, aproximativ 12 minute pe jos, și Metroul Păcii la 5 minute cu mașina asigură accesul spre Piața Unirii în 10 minute și spre Drumul Taberei în 5 minute, fără dependență de traficul consistent al Bulevardului Iuliu Maniu sau al Bulevardului Timișoara. Această conectivitate face zona extrem de atractivă pentru angajații care lucrează în centrul Bucureștiului sau în zona de vest.
 
 Structura din beton armat C25/30 cu zidărie Porotherm 30cm și izolație EPS100 depășește standardele minime impuse de legislație. Dotările sunt complete fără compromis: centrală proprie în condensare pentru eficiență energetică, încălzire prin pardoseală, tâmplărie Salamander negru structurat cu geam tripan, kit de aer condiționat preinstalat, baie complet echipată cu obiecte sanitare incastrabile suspendate, ușă metalică multipunct antiefracție și lift silențios. Totul inclus în prețul publicat.
 
@@ -628,7 +629,7 @@ Proiectul boutique de 16 apartamente asigură un tip de comunitate rare în ofer
 
 Zonele Militari-Gorjului și Militari-Preciziei au înregistrat cele mai mari creșteri de cerere de chirie din București în perioada 2022-2025, direct corelate cu extinderea M3. Angajații care lucrează în centru sau în zona de nord-vest preferă tot mai mult Militari față de zone mai scumpe, datorită conectivității îmbunătățite și raportului preț/calitate superior. Chiria pentru o garsonieră de 38-40 mp în zonă este de 450-530€/lună, reprezentând randamente brute de 6% estimativ anual față de prețul de achiziție. Cu 16 unități disponibile și un stoc limitat de proiecte noi în zonă, disponibilitatea se poate reduce rapid.
 
-Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pardoseală, tâmplărie Salamander cu geam tripan, kit aer condiționat preinstalat, obiecte sanitare suspendate, ușă metalică antiefracție, lift silențios — sunt complete fără compromis. Totul inclus în prețul publicat, fără extras sau opțiuni plătite suplimentar.  Parcare subterană 15.000€ TVA inclus. Rezervare cu 5% din pret, consultanță bancară gratuită, vânzare directă fără comision. Tot în Sectorul 6, descoperiți [Neofort 76 Iuliu Maniu](/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii) — apartamente și penthouse de la 218.409€+TVA lângă Metroul Păcii. Pentru context investițional, vezi [analiza zonelor cu potențial de creștere din București](/blog/zone-bucuresti-potential-crestere-2027), care acoperă și Militari.`,
+Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pardoseală, tâmplărie Salamander cu geam tripan, kit aer condiționat preinstalat, obiecte sanitare suspendate, ușă metalică antiefracție, lift silențios — sunt complete fără compromis. Totul inclus în prețul publicat, fără extras sau opțiuni plătite suplimentar.  Parcare subterană 15.000€ TVA inclus. Rezervare cu 5% din pret, consultanță bancară gratuită, vânzare directă fără comision. Tot în Sectorul 6, descoperiți [Neofort 76 Iuliu Maniu](/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii) — penthouse 4 camere cu terasă, 293,13 mp, de la 235.000€+TVA lângă Metroul Păcii. Pentru context investițional, vezi [analiza zonelor cu potențial de creștere din București](/blog/zone-bucuresti-potential-crestere-2027), care acoperă și Militari.`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.4311, lng: 26.012883 },
     zone: ['militari', 'sector-6'],
@@ -682,19 +683,19 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
       interior: [],
       schite: ['/ansambluri/neo-44/schite-01.avif','/ansambluri/neo-44/schite-02.avif','/ansambluri/neo-44/schite-03.avif'],
     },
-    descriereCompleta: `Întrebarea pe care și-o pune orice cumpărător care caută un apartament nou în Sectorul 3 este simplă: unde găsesc cel mai bun raport calitate-preț cu metrou la distanță de mers pe jos? Neofort 44 din zona Titan-Theodor Pallady răspunde: garsonieră de la 61.775€, 2 camere de la 100.208€, 3 camere de la 137.919€ — toate finalizate, disponibile imediat, cu Metrou Nicolae Teclu (M2) la câteva minute pe jos.
+    descriereCompleta: `Întrebarea pe care și-o pune orice cumpărător care caută un apartament nou în Sectorul 3 este simplă: unde găsesc cel mai bun raport calitate-preț cu metrou la distanță de mers pe jos? Neofort 44 din zona Titan-Theodor Pallady răspunde: garsonieră de la 61.775€, 2 camere de la 100.208€, 3 camere de la 137.919€ — toate finalizate, disponibile imediat, cu Metrou Anghel Saligny (M2) la 7 minute cu mașina.
 
 Trei corpuri Ds+3E+4Er cu 84 de apartamente totalizează o ofertă diversificată: garsonieră 38,61 mp de la 61.775€; 2 camere 62,63 mp de la 100.208€; 3 camere 86,20 mp de la 137.919€; 3 camere cu terasă generoasă, etajele 3-4, 157,87 mp de la 191.960€ — toate plus TVA. Parcare exterioară și subterană la 8.000€.
 
 Standardul tehnic este onest și complet: centrală termică proprie 24kW în condensare — nu centrală de bloc, ci una individuală per apartament, care reduce semnificativ costul lunar cu gazul; încălzire prin pardoseală pentru comfort termic uniform fără radiatoare vizibile; tâmplărie Salamander pentru izolație fonică reală față de zgomotul urban; obiecte sanitare suspendate pentru ușurința curățeniei; ceramică de import antiderapantă pe balcoane și terase pentru siguranță; uși metalice antiefracție multipunct la intrare.
 
-Zona Titan-Pallady este una dintre puținele zone din București unde maturitatea urbană s-a instalat complet: nu există lipsuri de infrastructură, nu există incertitudini legate de dezvoltarea zonei, nu există riscuri de depreciere. Metrou Nicolae Teclu la câteva minute și Anghel Saligny la 8 minute pe jos asigură mobilitate urbană completă. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute. Waldorf București și Spectrum School la 500m — o raritate la această distanță față de o alternativă educațională de renume. Parcul Teilor la 10 minute. Campus Medical Regina Maria Titan și MedLife Titan la 8-10 minute.
+Zona Titan-Pallady este una dintre puținele zone din București unde maturitatea urbană s-a instalat complet: nu există lipsuri de infrastructură, nu există incertitudini legate de dezvoltarea zonei, nu există riscuri de depreciere. Metrou Nicolae Teclu la 25 minute pe jos și Metrou Anghel Saligny la 7 minute cu mașina asigură mobilitate urbană completă. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute. Waldorf București și Spectrum School la 500m — o raritate la această distanță față de o alternativă educațională de renume. Parcul Teilor la 10 minute. Campus Medical Regina Maria Titan și MedLife Titan la 8-10 minute.
 
 Neofort 44 este disponibil imediat, fără perioadă de așteptare. Potrivit atât pentru prima locuință — inclusiv prin programul Prima Casă — cât și pentru investiție în chirie. Randamentul în chirie în zona Titan-Pallady pentru 2 camere este de 4,5-5,5% anual. Vânzare directă, fără comision de agenție.
 
 Neofort 44 intră în categoria apartamentelor eligibile pentru Prima Casă și pentru creditele ipotecare standard, cu avans de 15-25%. Consultantul Neofort IMO poate facilita gratuit legătura cu băncile partenere care oferă cele mai competitive dobânzi la momentul achiziției. Randamentul în chirie estimat: 2 camere 600-750€/lună, 3 camere 850-1.000€/lună — un calcul de investiție solid în una dintre zonele cu cea mai stabilă cerere locativă din Sectorul 3. Disponibil imediat, fără perioadă de așteptare. Vânzare directă, fără comision.
 
-Titan-Pallady este zona din București cu cel mai consistent raport dintre prețul de achiziție și potențialul de apreciere pe termen mediu. Apartamentele noi finalizate cu metrou la 3 minute și-au menținut valoarea în toate ciclurile recente ale pieței imobiliare, datorită cererii structurale ridicate și ofertei limitate. Neofort 44 — finalizat și disponibil imediat — elimină riscul de întârziere specific proiectelor în construcție.
+Titan-Pallady este zona din București cu cel mai consistent raport dintre prețul de achiziție și potențialul de apreciere pe termen mediu. Apartamentele noi finalizate cu acces la Magistrala M2 și-au menținut valoarea în toate ciclurile recente ale pieței imobiliare, datorită cererii structurale ridicate și ofertei limitate. Neofort 44 — finalizat și disponibil imediat — elimină riscul de întârziere specific proiectelor în construcție.
 
 Randamentul în chirie: 2 camere 62 mp se închiriază cu 600-750€/lună în zonă — randament 7-9% față de 100.208€; 3 camere 86 mp cu 800-950€/lună — randament 7-8,3% față de 137.919€. Eligibil Prima Casă și credite ipotecare standard cu avans 15-25%. Parcare 8.000€. Rezervare cu 2.000€. Consultanță bancară gratuită — identificăm cel mai mic cost total de finanțare din oferta bancară actuală. Vânzare directă de la sursă, fără comision. Titan-Pallady rămâne zona cu cel mai echilibrat raport dintre prețul de achiziție, calitatea ofertei comerciale și educaționale și accesul la metrou din estul Bucureștiului.
 
@@ -709,7 +710,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     coordonate: { lat: 44.415636, lng: 26.177416 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['Garsoniera', '2 camere', '3 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 44, zona Titan-Pallady, Sector 3. Trei corpuri Ds+3E+4Er, 84 apartamente. Garsoniere, 2 și 3 camere de la 61.775€+TVA. Metrou Nicolae Teclu la câteva minute. Centrală 24kW condensare, încălzire pardoseală, tâmplărie Salamander, uși metalice antiefracție. Finalizat, disponibil imediat.',
+    descriere: 'Ansamblul Rezidențial Neofort 44, zona Titan-Pallady, Sector 3. Trei corpuri Ds+3E+4Er, 84 apartamente. Garsoniere, 2 și 3 camere de la 61.775€+TVA. Metrou Anghel Saligny la 7 minute cu mașina. Centrală 24kW condensare, încălzire pardoseală, tâmplărie Salamander, uși metalice antiefracție. Finalizat, disponibil imediat.',
     apartamente: [
       { tip: 'Garsoniera', etaj: 'et. 1-3', suprafata: 38.61, avans20: 61775, avans45: null, promo: false, camere: 1 },
       { tip: '2 camere', etaj: 'et. 1-3', suprafata: 62.63, avans20: 100208, avans45: null, promo: false, camere: 2 },
@@ -734,7 +735,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 44',
-    seoDescription: 'Neofort 44, Titan-Pallady, Sector 3. Garsoniere, 2-3 camere de la 61.775€+TVA. Metrou Nicolae Teclu 3 min.',
+    seoDescription: 'Ansamblu rezidential Neofort 44 Titan-Pallady Teclu, Sector 3. Garsoniere si apartamente 2-3 camere de la 61.775 euro+TVA. Metrou Anghel Saligny la 7 min cu masina.',
   },
   {
     slug: 'neofort-42-piata-muncii',
@@ -781,7 +782,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
     coordonate: { lat: 44.429112, lng: 26.140319 },
     zone: ['piata-muncii', 'sector-3'],
     tipuri: ['2 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Premium Neofort 42 Piața Muncii, Sector 3. 64 apartamente S+P+4. Apartamente 2 și 4 camere de la 215.500€+TVA. Metrou Piața Muncii la 200m, Parcul Național la 400m. Panouri solare și fotovoltaice, stații încărcare EV, 2 lifturi Schindler, tâmplărie Salamander tripan, finisaje Marazzi.',
+    descriere: 'Ansamblul Rezidențial Premium Neofort 42 Piața Muncii, Sector 3. 64 apartamente S+P+4. Apartamente 2 și 4 camere de la 215.500€+TVA. Metrou Piața Muncii la 300m, Parcul Național la 400m. Panouri solare și fotovoltaice, stații încărcare EV, 2 lifturi Schindler, tâmplărie Salamander tripan, finisaje Marazzi.',
     apartamente: [
       { tip: '2 cam. Tip 4', etaj: 'et. 1-4', suprafata: 61.58, avans20: 215500, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. Tip 5', etaj: 'et. 1-4', suprafata: 62.31, avans20: 218085, avans45: null, promo: false, camere: 2 },
@@ -811,7 +812,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Piața Muncii — Neofort 42',
-    seoDescription: 'Neofort 42 premium, Sector 3. 2 și 4 camere de la 215.500€+TVA. Metrou Piața Muncii 200m.',
+    seoDescription: 'Ansamblu rezidential premium Neofort 42 Piata Muncii, Sector 3. Apartamente 2 si 4 camere de la 215.500 euro+TVA. Metrou Piata Muncii la 300 m, 64 unitati S+P+4.',
   },
   {
     slug: 'neofort-28-titan-pallady-teclu',
@@ -837,7 +838,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
 
 Oferta curentă acoperă exclusiv apartamente de 2 camere: Tip 1, 59,80 mp, 86.900€; Tip 2, 60,40 mp, 87.900€; Tip 3, 60,40 mp, 89.900€; Tip 4, 61,80 mp, 88.900€; Tip 5 cu terasă 35 mp, 46,90 mp utili (81,90 mp total), 100.900€; Tip 6 cu curte proprie 49 mp la parter, 61,55 mp utili (110,55 mp total), 110.000€. Toate + TVA. Apartamentele de 3 camere au fost vândute integral. Parcare exterioară 7.500€, subterană 11.000€.
 
-Apartamentele cu curte proprie sunt raritatea definitivă a proiectului. Să ai o curte de ~50mp în București, la un apartament nou, cu metrou la câteva minute — aceasta este o combinație pe care piața imobiliară o oferă extrem de rar. Cele trei variante cu curte (2 camere și 3 camere la parter) răspund nevoii reale a familiilor cu copii mici sau animale de companie care refuză compromisul dintre confortul casei și avantajele unui bloc nou.
+Apartamentele cu curte proprie sunt raritatea definitivă a proiectului. Să ai o curte de ~50mp în București, la un apartament nou, cu metrou la câteva minute — aceasta este o combinație pe care piața imobiliară o oferă extrem de rar. Varianta rămasă disponibilă, apartamentul de 2 camere cu curte proprie de 49 mp la parter, răspunde nevoii reale a familiilor cu copii mici sau animale de companie care refuză compromisul dintre confortul casei și avantajele unui bloc nou.
 
 Incinta împrejmuită cu acces controlat și videointerfon cu vedere nocturnă asigură securitatea și intimitatea întregii comunități. Dotările tehnice sunt solide: tâmplărie Salamander tripan Low-E cu microventilație — un element tehnic important care asigură calitatea aerului interior și evită condensul, deosebit de relevant pentru apartamentele cu curte la parter; ceramică Delta Studio; parchet rezistent la trafic intens; băi cu rezervor incastrat; centrală proprie și încălzire în pardoseală.
 
@@ -860,7 +861,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     coordonate: { lat: 44.411192, lng: 26.198428 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['2 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 28 ansamblul, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 camere de la 86.900€+TVA (apartamentele de 3 camere sunt vândute integral). Unele cu curte proprie 49mp sau terasă 35mp. Metrou Nicolae Teclu la 3 minute. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.',
+    descriere: 'Ansamblul Rezidențial Neofort 28 Titan Pallady Teclu, zona Titan-Pallady, Sector 3. 53 apartamente decomandate cu bucătării închise, 2 camere de la 86.900€+TVA (apartamentele de 3 camere sunt vândute integral). Unele cu curte proprie 49mp sau terasă 35mp. Metrou Nicolae Teclu la 3 minute cu mașina. Tâmplărie Salamander tripan Low-E, ceramică Delta Studio, videointerfon, incintă împrejmuită acces controlat.',
     apartamente: [
       { tip: '2 cam. Tip 1', etaj: 'et. 1-4', suprafata: 59.80, avans20: 86900, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-4', suprafata: 60.40, avans20: 87900, avans45: null, promo: false, camere: 2 },
@@ -921,7 +922,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
 
 Finisajele nu lasă loc de compromis. Gresie și faianță MARAZZI — brand italian de referință internațională. Parchet Kronotex PREMIUM. Uși blindate PINUM la intrare cu uși interioare PINUM — nu doar ușa exterioară. Obiecte sanitare GROHE, HansGrohe și Kludi — selectate pentru durabilitate și design superior. Centrală ARISTON 24kW în condensare. Încălzire în pardoseală în toate camerele. Contorizare individuală completă apă-gaz-electricitate. Preechipare aer condiționat în toate camerele — nu doar în dormitor. Lift ORONA silențios. Adăpost ALA autorizat ISU. Termoizolație EPS80 de 10cm. Tâmplărie Salamander 7 camere cu geam tripan — izolație fonică 45dB, cea mai performantă clasă disponibilă pe piața românească.
 
-Zona Eminescu-Viitorului are un caracter rezidențial distinct față de marile cartiere: case și blocuri mici, arhitectură interbelică bine conservată, o comunitate culturală și educată. Nu este o zonă de tranzit — este o zonă în care oamenii aleg deliberat să locuiască. Tramvai Mihai Bravu și linii STB multiple la 2 minute pe jos — conectivitate excelentă fără metrou în imediată apropiere. Metrou Obor (M2) la 10 minute pe jos, Metrou Ștefan cel Mare la 12 minute. Colegiul Național Iulia Hașdeu la 5 minute pe jos, Colegiul Național Mihai Eminescu la 8 minute. Grădinița Bambi la 3 minute pe jos. Parcul Circului la 8 minute, Parcul Ioanid la 10 minute. Spital Clinic Colentina la 10 minute, MedLife, Regina Maria și Sanador la 10 minute.
+Zona Eminescu-Viitorului are un caracter rezidențial distinct față de marile cartiere: case și blocuri mici, arhitectură interbelică bine conservată, o comunitate culturală și educată. Nu este o zonă de tranzit — este o zonă în care oamenii aleg deliberat să locuiască. Tramvai Mihai Bravu și linii STB multiple la 2 minute pe jos — conectivitate excelentă fără metrou în imediată apropiere. Metrou Piața Obor (M2) la 2 minute cu mașina, Metrou Ștefan cel Mare (M2) la 19 minute pe jos. Colegiul Național Iulia Hașdeu la 5 minute pe jos, Colegiul Național Mihai Eminescu la 8 minute. Grădinița Bambi la 3 minute pe jos. Parcul Circului la 8 minute, Parcul Ioanid la 10 minute. Spital Clinic Colentina la 10 minute, MedLife, Regina Maria și Sanador la 10 minute.
 
 15 apartamente înseamnă că vei cunoaște toți vecinii. Înseamnă costuri comune reduse. Înseamnă că administrarea clădirii este simplă și transparentă. Predare Septembrie 2026. Vânzare directă, fără comision.
 
@@ -973,7 +974,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Eminescu Viitorului — Neofort 11',
-    seoDescription: 'Neofort 11 boutique, Sector 2. 15 apartamente premium, 2-3 camere de la 99.000€+TVA. Predare sept. 2026.',
+    seoDescription: 'Ansamblu rezidential boutique Neofort 11 Eminescu-Viitorului, Sector 2. 15 apartamente premium, studio si 2-3 camere de la 99.000 euro+TVA. Predare septembrie 2026.',
   },
   {
     slug: 'neofort-10-colentina-fundeni',

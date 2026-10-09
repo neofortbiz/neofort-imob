@@ -12,7 +12,7 @@ const TIP_CONFIG = {
     h1: 'Garsoniere și Studiouri Noi în București',
     descriere: 'Garsoniere și studiouri noi în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
     seoTitle: 'Garsoniere Noi București — Direct de la Sursă',
-    seoDesc: 'Garsoniere și studiouri noi în București de la 64.800€+TVA. Ansambluri rezidențiale Neofort IMO în Sectoarele 2, 3, 6. Fără comision.',
+    seoDesc: 'Garsoniere și studiouri noi în București de la 61.775€+TVA. Ansambluri rezidențiale Neofort IMO în Sectoarele 2, 3, 6. Fără comision.',
     ogDesc: 'Garsoniere și studiouri noi în București. Direct de la Neofort IMO, fără comision de agenție.',
     match: (tipuri) => tipuri.some(t => {
       const tl = String(t).toLowerCase()
@@ -21,7 +21,7 @@ const TIP_CONFIG = {
     faq: [
       {
         q: 'Cât costă o garsonieră nouă în București în 2026?',
-        a: 'Prețurile garsonierelor noi în București pornesc de la 64.800€+TVA în zone cu metrou (Titan-Pallady) și ajung la 104.640€+TVA în zone semicentrale (Eminescu-Viitorului). Neofort IMO vinde direct fără comision de agenție.',
+        a: 'Prețurile garsonierelor și studiourilor noi în București pornesc de la 61.775€+TVA în zone cu metrou (Titan-Pallady), trec prin 99.000€+TVA în Sectorul 2 semicentral (Eminescu-Viitorului) și ajung la 166.988€+TVA pentru studiourile cu curte proprie (Titan Parc IOR). Neofort IMO vinde direct fără comision de agenție.',
       },
       {
         q: 'Care este diferența dintre garsonieră și studio?',
@@ -33,16 +33,16 @@ const TIP_CONFIG = {
       },
       {
         q: 'Ce randament are o garsonieră nouă la închiriere în București?',
-        a: 'O garsonieră nouă cu metrou în Titan-Pallady (64.800€) generează chirii de 450-550€/lună, randament brut 8-10%. Este cel mai eficient tip de investiție imobiliară din portofoliul Neofort IMO ca randament pe metru pătrat.',
+        a: 'O garsonieră nouă în Titan-Pallady (61.775€) generează chirii de 450-550€/lună, randament brut 8,7-10,7%. Este cel mai eficient tip de investiție imobiliară din portofoliul Neofort IMO ca randament pe metru pătrat.',
       },
       {
         q: 'Se poate cumpăra o garsonieră Neofort IMO cu credit bancar?',
         a: 'Da. Neofort IMO lucrează cu BCR, BRD, Raiffeisen, ING, UniCredit și CEC Bank. Consultanță bancară gratuită pentru compararea ofertelor. Garsonierele sub 75.000€ se pot finanța și prin programul Noua Casă.',
       },
     ],
-    textEditorial: `Garsonierele și studiourile noi din portofoliul Neofort IMO reprezintă cea mai accesibilă categorie de apartamente noi din București în 2026. Cu suprafețe între 32 și 60 de metri pătrați, sunt gândite pentru cumpărătorii la prima achiziție sau pentru investitori care urmăresc randamentul la închiriere.
+    textEditorial: `Garsonierele și studiourile noi din portofoliul Neofort IMO reprezintă cea mai accesibilă categorie de apartamente noi din București în 2026. Cu suprafețe între 33 și 53 de metri pătrați, sunt gândite pentru cumpărătorii la prima achiziție sau pentru investitori care urmăresc randamentul la închiriere.
 
-Zona Titan-Pallady oferă garsonierele la cel mai bun raport calitate-preț din București: prețuri de la 64.800€+TVA cu metrou la 3-20 de minute, în blocuri noi cu lift, centrală proprie și finisaje complete. Zona Eminescu-Viitorului propune studiouri boutique în Sectorul 2 semicentral, la 400m de Metrou Piața Obor, cu finisaje premium la prețuri de la 104.640€+TVA.
+Zona Titan-Pallady oferă garsonierele la cel mai bun raport calitate-preț din București: prețuri de la 61.775€+TVA cu acces la Magistrala M2, în blocuri noi cu lift, centrală proprie și finisaje complete. Zona Eminescu-Viitorului propune studiouri boutique în Sectorul 2 semicentral, cu Metrou Piața Obor la 2 minute cu mașina și finisaje premium, la prețuri de la 99.000€+TVA.
 
 Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fără comision de agenție. Rezervare simplă, consultanță bancară și juridică gratuită.`,
   },
@@ -60,7 +60,7 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
     faq: [
       {
         q: 'Cât costă un apartament de 2 camere nou în București în 2026?',
-        a: 'Prețurile apartamentelor noi de 2 camere în București variază între 62.114€+TVA (Titan-Pallady, avans 45%) și 217.000€+TVA (Sector 2 semicentral, finisaje premium). Media pieței pentru 2 camere noi cu metrou în Sectorul 3 este 80.000-120.000€+TVA.',
+        a: 'Prețurile apartamentelor noi de 2 camere în București variază între 62.114€+TVA (Titan-Pallady, avans 45%) și 224.735€+TVA (Piața Muncii, Sector 3 semicentral, finisaje premium). Media pieței pentru 2 camere noi cu metrou în Sectorul 3 este 80.000-120.000€+TVA.',
       },
       {
         q: 'Care sunt cele mai bune zone pentru apartamente de 2 camere noi în București?',
@@ -81,7 +81,7 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
     ],
     textEditorial: `Apartamentele de 2 camere reprezintă cea mai căutată tipologie din portofoliul Neofort IMO — potrivite deopotrivă pentru prima locuință, pentru familiile tinere și pentru investitorii care urmăresc randamentul la închiriere.
 
-Portofoliul activ cuprinde apartamente de 2 camere în toate sectoarele active: de la 47 mp la 92 mp, de la 62.114€ în Titan-Pallady până la 217.000€ în zone semicentrale cu finisaje premium. Fiecare proiect are specificații tehnice proprii — tipologiile variază semnificativ.
+Portofoliul activ cuprinde apartamente de 2 camere în toate sectoarele active: de la 47 mp la 92 mp, de la 62.114€ în Titan-Pallady până la 224.735€ în zone semicentrale cu finisaje premium. Fiecare proiect are specificații tehnice proprii — tipologiile variază semnificativ.
 
 TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gratuită inclusă pentru toate proiectele Neofort IMO — lucrăm cu toate băncile majore pentru identificarea celui mai avantajos credit ipotecar.`,
   },
@@ -99,15 +99,15 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
     faq: [
       {
         q: 'Cât costă un apartament de 3 camere nou în București în 2026?',
-        a: 'Prețurile apartamentelor noi de 3 camere din portofoliul Neofort IMO pornesc de la 102.167€+TVA în Titan-Pallady și ajung la 399.000€+TVA pentru tipologiile premium cu grădină sau duplex în zone semicentrale. Media: 120.000-200.000€+TVA.',
+        a: 'Prețurile apartamentelor noi de 3 camere din portofoliul Neofort IMO pornesc de la 102.167€+TVA în Titan-Pallady și ajung la 359.000€+TVA pentru tipologiile premium de 137,60 mp din Sectorul 2 semicentral. Media: 120.000-200.000€+TVA.',
       },
       {
         q: 'Ce suprafețe au apartamentele de 3 camere noi Neofort IMO?',
-        a: 'Suprafețele variază între 66 și 120 mp utili pentru tipologiile standard, ajungând la 137-192 mp pentru cele cu terasă sau grădină. Apartamentele de 3 camere cu grădină privată de la Neofort 78 (192,50 mp total) au fost o raritate în Sectorul 2 — ansamblul este vândut integral.',
+        a: 'Suprafețele variază între 66,70 și 120 mp utili pentru tipologiile standard, ajungând la 137-158 mp pentru cele cu terasă. Apartamentele de 3 camere cu grădină privată de la Neofort 78 (192,50 mp total) au fost o raritate în Sectorul 2 — ansamblul este vândut integral.',
       },
       {
         q: 'Ce zone din București au apartamente de 3 camere noi la prețuri accesibile?',
-        a: 'Titan-Pallady (Sector 3) oferă apartamente de 3 camere de la 102.000€+TVA — cel mai competitiv preț per mp util din zonele cu metrou. Militari (Sector 6) are 3 camere de la 115.000€+TVA. Ambele zone au acces rapid la metrou M2 și M3.',
+        a: 'Titan-Pallady (Sector 3) oferă apartamente de 3 camere de la 102.167€+TVA — cel mai competitiv preț per mp util din zonele cu metrou M2. Colentina (Sector 2) are 3 camere de la 140.490€+TVA în promoție, unele cu terasă. Titan Parc IOR (Sector 3) pornește de la 177.380€+TVA, cu Metrou Costin Georgian la 300m.',
       },
       {
         q: 'Apartamentele de 3 camere Neofort IMO se predau complet finisate?',
@@ -115,10 +115,10 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
       },
       {
         q: 'Există apartamente de 3 camere cu finanțare prin Noua Casă?',
-        a: 'Programul Noua Casă 2026 are plafon de achiziție de 140.000€. Apartamentele de 3 camere din Titan-Pallady care se încadrează: Neofort 44 (de la 112.365€+TVA cu avans 20%). Consultanță gratuită pentru verificarea eligibilității.',
+        a: 'Programul Noua Casă 2026 are plafon de achiziție de 140.000€. Apartamentele de 3 camere din Titan-Pallady care se încadrează: Neofort 84 (de la 110.026€+TVA cu avans 20%) și Neofort 44 (137.919€+TVA cu avans 20%). Consultanță gratuită pentru verificarea eligibilității.',
       },
     ],
-    textEditorial: `Apartamentele de 3 camere din portofoliul Neofort IMO acoperă cel mai larg spectru de nevoi și bugete: de la tipologiile compacte de 66 mp potrivite pentru familii cu un copil, până la duplexuri de 123 mp sau apartamente cu grădină privată de 192 mp totali pentru cumpărătorii care nu vor să facă compromisuri.
+    textEditorial: `Apartamentele de 3 camere din portofoliul Neofort IMO acoperă cel mai larg spectru de nevoi și bugete: de la tipologiile compacte de 66 mp potrivite pentru familii cu un copil, până la tipologii de 137-158 mp cu terasă generoasă, pentru cumpărătorii care nu vor să facă compromisuri.
 
 Zona Titan-Pallady rămâne cea mai competitivă pentru 3 camere noi — prețul per mp util pornește de la 1.300€ și rareori depășește 1.600€, semnificativ sub media proiectelor noi comparabile din alte zone ale Bucureștiului. Sectorul 2 (Moșilor-Obor, Eminescu) oferă 3 camere de calitate superioară dar la prețuri premium, justificate de proximitatea față de centru.
 
@@ -129,7 +129,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
     h1: 'Apartamente 4 Camere și Penthouse în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 4 camere și penthouse în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
     seoTitle: 'Apartamente 4 Camere, Ansambluri Rezidențiale',
-    seoDesc: 'Apartamente 4 camere și penthouse noi în București de la 150.945€+TVA. Neofort IMO, Sectoarele 2, 3, 6. Terase panoramice, finisaje premium.',
+    seoDesc: 'Apartamente 4 camere și penthouse noi în București de la 181.134€+TVA. Neofort IMO, Sectoarele 2, 3, 6. Terase panoramice, finisaje premium.',
     ogDesc: 'Apartamente 4 camere și penthouse noi în București. Neofort IMO, direct de la sursă.',
     match: (tipuri) => tipuri.some(t => {
       const tl = String(t).toLowerCase()
@@ -139,7 +139,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
     faq: [
       {
         q: 'Cât costă un apartament de 4 camere nou în București în 2026?',
-        a: 'Prețurile apartamentelor noi de 4 camere din portofoliul Neofort IMO pornesc de la 150.945€+TVA (Titan-Pallady, 100 mp) și ajung la 499.000€+TVA pentru duplexuri de 123 mp sau 465.000€+TVA pentru 4 camere cu grădină privată (156 mp) în Sectorul 2.',
+        a: 'Prețurile apartamentelor noi de 4 camere din portofoliul Neofort IMO pornesc de la 181.134€+TVA (Titan-Pallady, 100,63 mp) și ajung la 492.345€+TVA pentru tipologiile premium de 140,67 mp din Piața Muncii, Sectorul 3.',
       },
       {
         q: 'Ce tipologii de 4 camere sunt disponibile la Neofort IMO?',
@@ -155,12 +155,12 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
       },
       {
         q: 'Ce randament au apartamentele de 4 camere la închiriere în București?',
-        a: 'Randamentul brut pentru 4 camere nou în Titan-Pallady (150.000€) este de 5-6% prin chirii de 800-900€/lună. Mai mic decât la garsoniere, dar aprecierea valorii pe termen lung este mai stabilă pentru tipologiile mari în zone cu cerere constantă.',
+        a: 'Randamentul brut pentru 4 camere nou în Titan-Pallady (181.134€) este de 5,3-6% prin chirii de 800-900€/lună. Mai mic decât la garsoniere, dar aprecierea valorii pe termen lung este mai stabilă pentru tipologiile mari în zone cu cerere constantă.',
       },
     ],
     textEditorial: `Apartamentele de 4 camere și penthouse-urile din portofoliul Neofort IMO se adresează familiilor care nu acceptă compromisuri în ceea ce privește spațiul, sau investitorilor care caută active imobiliare cu valoare stabilă pe termen lung.
 
-Neofort 84 propune 4 camere cu terasă panoramică la etajul 10 (175 mp, 181.262€+TVA cu avans 45%) — una dintre cele mai generoase tipologii din zona Titan-Pallady. Neofort 76 (finalizat) are penthouse-uri cu vedere spre întregul Sector 6. Neofort 78 (boutique, vândut integral) a oferit un duplex exclusivist de 123,40 mp cu finisaje HansGrohe și Salamander Blue Edition.
+Neofort 84 propune 4 camere cu terasă panoramică la etajul 10 (175,58 mp, 181.262€+TVA cu avans 45%) — una dintre cele mai generoase tipologii din zona Titan-Pallady. Neofort 76 (finalizat) are penthouse-uri cu vedere spre întregul Sector 6. Neofort 78 (boutique, vândut integral) a oferit un duplex exclusivist de 123,40 mp cu finisaje HansGrohe și Salamander Blue Edition.
 
 Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară gratuită pe întreaga durată a procesului.`,
   },
@@ -169,13 +169,13 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
     h1: 'Ansambluri Rezidențiale cu Metrou în București',
     descriere: 'Apartamente noi lângă metrou în București, în toate sectoarele active. Direct de la Neofort IMO, fără comision.',
     seoTitle: 'Ansambluri Rezidențiale cu Metrou București',
-    seoDesc: 'Apartamente noi lângă metrou în București: M2 Titan-Pallady (20m–11min), M2 Obor (400m), M3 Militari, M3 Gorjului. Neofort IMO, fără comision.',
+    seoDesc: 'Apartamente noi lângă metrou în București: M2 Anghel Saligny (20m), M2 Costin Georgian (300m), M3 Piața Muncii (300m), M3 Păcii (550m). Neofort IMO, fără comision.',
     ogDesc: 'Apartamente noi lângă metrou în București. Direct de la Neofort IMO, fără comision.',
     match: (tipuri, ansamblu) => ansamblu.puncteInteres?.some(p => p.tip === 'metrou'),
     faq: [
       {
         q: 'Ce ansambluri Neofort IMO sunt cel mai aproape de metrou?',
-        a: 'Neofort 83 Titan-Pallady: Metrou Anghel Saligny (M2) la 20 de metri — cel mai aproape de metrou din întregul portofoliu activ. Neofort 76: Metrou Iuliu Maniu (M3) la 500m. Neofort 42: Metrou Piața Muncii (M3) la 200m.',
+        a: 'Neofort 83 Titan-Pallady: Metrou Anghel Saligny (M2) la 20 de metri — cel mai aproape de metrou din întregul portofoliu activ. Neofort 76: Metrou Păcii (M3) la 550m. Neofort 42: Metrou Piața Muncii (M3) la 300m.',
       },
       {
         q: 'De ce contează accesul la metrou pentru valoarea unui apartament?',
@@ -183,7 +183,7 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
       },
       {
         q: 'Ce linii de metrou acoperă ansamblurile Neofort IMO?',
-        a: 'M2 (est-vest): Neofort 83, 84, 44, 28, 56, 82 (Titan-Pallady), Neofort 11 (Sector 2), Neofort 10 (Colentina). M3 (nord-centru-sud): Neofort 76 (Iuliu Maniu), Neofort 49 (Gorjului), Neofort 42 (Piața Muncii). M2+M3: Neofort 50 (Costin Georgian/IOR) — acces la două linii.',
+        a: 'M2 (est-vest): Neofort 83, 84, 44, 28, 56, 82 (Titan-Pallady), Neofort 50 (Costin Georgian/IOR), Neofort 11 (Sector 2). M3 (vest-centru): Neofort 76 (Păcii), Neofort 49 (Gorjului), Neofort 42 (Piața Muncii — și Dristor 1 pe M2, la 1,2 km).',
       },
       {
         q: 'Există diferențe de preț între apartamentele cu metrou la 3 minute vs. 10 minute?',
@@ -426,7 +426,7 @@ export default function TipPage({ params }) {
                         <p className="text-xs text-gray-500 mb-3">{a.tipuri.join(', ')}</p>
                         <div className="flex items-center justify-between">
                           <span className="text-xs text-gray-500">De la</span>
-                          <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(getPretMinTip(a, params.tip))}€ <span className="text-xs font-normal text-gray-500">+TVA</span></span>
+                          <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(getPretMinTip(a, params.tip))} <span className="text-xs font-normal text-gray-500">+TVA</span></span>
                         </div>
                         {a.dataPredare && a.dataPredare !== 'Finalizat' && (
                           <p className="text-[10px] text-gray-400 mt-1">Predare {a.dataPredare}</p>

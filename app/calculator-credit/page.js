@@ -1,8 +1,18 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import CalculatorClient from './CalculatorClient'
+import { ANSAMBLURI_ACTIVE } from '@/data/ansambluri'
 
 const BASE = 'https://www.neofort.ro'
+
+// Sursa unica de adevar pentru lista din calculator: datele reale.
+// Inainte de v404 lista era duplicata in CalculatorClient.js si se
+// desincroniza la fiecare schimbare de pret. Vezi comentariul de acolo.
+const ANSAMBLURI_CALCULATOR = ANSAMBLURI_ACTIVE.map(a => ({
+  slug: a.slug,
+  nume: a.nume,
+  pret: a.pretDeLa,
+}))
 
 export const metadata = {
   title: 'Calculator Credit Ipotecar 2026 — Rata Lunară',
@@ -102,7 +112,7 @@ export default function CalculatorCreditPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header activePath="/calculator-credit" />
       <main id="main-content">
-        <CalculatorClient faqItems={faqItems} />
+        <CalculatorClient faqItems={faqItems} ansambluri={ANSAMBLURI_CALCULATOR} />
       </main>
       <Footer />
     </>
