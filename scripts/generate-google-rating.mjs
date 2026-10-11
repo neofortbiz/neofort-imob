@@ -37,8 +37,53 @@ const FISIER = resolve(ROOT, 'data/google-rating.js')
 const KEY = process.env.GOOGLE_PLACES_KEY
 
 // Numele asteptat al fisei Google. Daca raspunsul nu seamana cu el,
-// scriptul NU scrie nimic: inseamna ca place_id-ul tinteste alta firma.
+// scriptul NU scrie nimic: inseamna ca am nimerit alta firma.
 const NUME_ASTEPTAT = 'ANSAMBLURI REZIDEN'
+
+// Cautarea de rezerva, folosita cand place_id-ul nu mai e valid.
+// Google avertizeaza explicit ca ID-urile de locuri pot expira si cere
+// reimprospatarea lor; la primul build cu cheie activa, ID-ul din
+// app/layout.js era deja invalid (404 „Place ID is no longer valid").
+const CAUTARE = 'ANSAMBLURI REZIDENTIALE BUCURESTI, Str. Theodor Aman Pictor 11, Sector 1, Bucuresti'
+
+const API = 'https://places.googleapis.com/v1'
+const CAMPURI = 'id,displayName,formattedAddress,rating,userRatingCount'
+
+// Cere fisa dupa place_id. Returneaza { ok, date, status, mesaj }.
+async function cerePlace(id) {
+  try {
+    const res = await fetch(`${API}/places/${encodeURIComponent(id)}`, {
+      headers: { 'X-Goog-Api-Key': KEY, 'X-Goog-FieldMask': CAMPURI },
+    })
+    const corp = await res.json().catch(() => ({}))
+    return { ok: res.ok, date: corp, status: res.status, mesaj: corp?.error?.message || '' }
+  } catch (e) {
+    return { ok: false, date: null, status: 0, mesaj: e.message }
+  }
+}
+
+// Gaseste fisa dupa nume + adresa, cand place_id-ul a expirat.
+async function cautaPlace() {
+  try {
+    const res = await fetch(`${API}/places:searchText`, {
+      method: 'POST',
+      headers: {
+        'X-Goog-Api-Key': KEY,
+        'X-Goog-FieldMask': CAMPURI.split(',').map(c => `places.${c}`).join(','),
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ textQuery: CAUTARE, languageCode: 'ro', maxResultCount: 5 }),
+    })
+    const corp = await res.json().catch(() => ({}))
+    if (!res.ok) return { ok: false, mesaj: corp?.error?.message || `HTTP ${res.status}` }
+    const lista = corp?.places || []
+    const gasit = lista.find(x => (x?.displayName?.text || '').toUpperCase().includes(NUME_ASTEPTAT))
+    if (!gasit) return { ok: false, mesaj: `cautarea a intors ${lista.length} rezultate, niciunul cu „${NUME_ASTEPTAT}"` }
+    return { ok: true, date: gasit }
+  } catch (e) {
+    return { ok: false, mesaj: e.message }
+  }
+}
 
 // Cat de mult poate SCADEA numarul de recenzii intr-un singur build fara
 // sa fie suspect. Recenziile dispar rar si cate una (sterse de autor sau
@@ -75,30 +120,38 @@ if (!KEY) {
   process.exit(0)
 }
 
-// ── Cere fisa de la Google ────────────────────────────────────────────
-// Places API (New): un singur GET, cu FieldMask care cere EXACT cele patru
-// campuri necesare. FieldMask-ul conteaza si la pret: Google factureaza in
-// functie de campurile cerute, iar astea sunt din categoria ieftina.
-let date
-try {
-  const res = await fetch(`https://places.googleapis.com/v1/places/${encodeURIComponent(PLACE_ID)}`, {
-    headers: {
-      'X-Goog-Api-Key': KEY,
-      'X-Goog-FieldMask': 'id,displayName,formattedAddress,rating,userRatingCount',
-    },
-  })
-  const corp = await res.json().catch(() => ({}))
-  if (!res.ok) {
-    // Mesajul Google e util la depanare (cheie gresita, API neactivat,
-    // facturare inactiva) — dar nu afisam niciodata cheia in log.
-    log(`Google a raspuns ${res.status}: ${corp?.error?.message || '(fara detalii)'}`)
+// ── Obtine fisa: intai dupa place_id, apoi prin cautare ──────────────
+// place_id-ul e calea ieftina (un apel). Daca a expirat, cade pe cautare
+// dupa nume + adresa (doua apeluri) si logheaza ID-ul nou, ca sa poata fi
+// pus la loc in data/google-rating.js si in app/layout.js.
+let date = null
+let placeIdNou = null
+
+if (PLACE_ID) {
+  const r = await cerePlace(PLACE_ID)
+  if (r.ok) {
+    date = r.date
+  } else if (r.status === 404 || /no longer valid|not found/i.test(r.mesaj)) {
+    log(`place_id-ul salvat nu mai e valid — caut firma dupa nume si adresa`)
+  } else {
+    log(`Google a raspuns ${r.status}: ${r.mesaj || '(fara detalii)'}`)
     log(`pastrez ${RATING_VECHI}/${RECENZII_VECHI}`)
     process.exit(0)
   }
-  date = corp
-} catch (e) {
-  log('apelul a esuat:', e.message, `— pastrez ${RATING_VECHI}/${RECENZII_VECHI}`)
-  process.exit(0)
+}
+
+if (!date) {
+  const c = await cautaPlace()
+  if (!c.ok) {
+    log(`cautarea a esuat: ${c.mesaj} — pastrez ${RATING_VECHI}/${RECENZII_VECHI}`)
+    process.exit(0)
+  }
+  date = c.date
+  if (date.id && date.id !== PLACE_ID) {
+    placeIdNou = date.id
+    log(`place_id nou gasit: ${placeIdNou}`)
+    log(`actualizeaza-l si in app/layout.js (PropertyValue 'Google Place ID')`)
+  }
 }
 
 // ── Verificari inainte de a scrie ─────────────────────────────────────
@@ -169,7 +222,7 @@ const continut = `// ===========================================================
 
 // Fisa Google a firmei. Acelasi identificator e declarat si in
 // app/layout.js, in schema LocalBusiness (PropertyValue 'Google Place ID').
-export const GOOGLE_PLACE_ID = '${PLACE_ID}'
+export const GOOGLE_PLACE_ID = '${placeIdNou || PLACE_ID}'
 
 export const GOOGLE_RATING = '${ratingNou}'
 export const GOOGLE_REVIEWS = '${recenziiNou}'
