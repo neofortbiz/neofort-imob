@@ -183,7 +183,11 @@ if (RECENZII_VECHI && recenzii < RECENZII_VECHI - SCADERE_MAXIMA) {
 const ratingNou = rating.toFixed(1)
 const recenziiNou = String(recenzii)
 
-if (ratingNou === RATING_VECHI && recenziiNou === String(RECENZII_VECHI)) {
+// Daca nu s-a schimbat nimic — nici ratingul, nici place_id-ul — nu
+// rescriem fisierul degeaba. Dar daca place_id-ul e nou, TREBUIE salvat
+// chiar si cu rating identic: altfel fiecare build ar relua 404-ul si
+// cautarea, adica doua apeluri in plus si dependenta de potrivirea dupa nume.
+if (ratingNou === RATING_VECHI && recenziiNou === String(RECENZII_VECHI) && !placeIdNou) {
   log(`neschimbat: ${ratingNou}/${recenziiNou}`)
   process.exit(0)
 }
@@ -230,7 +234,10 @@ export const GOOGLE_REVIEWS = '${recenziiNou}'
 
 try {
   fs.writeFileSync(FISIER, continut, 'utf8')
-  log(`actualizat: ${RATING_VECHI}/${RECENZII_VECHI} -> ${ratingNou}/${recenziiNou} (${nume})`)
+  if (ratingNou === RATING_VECHI && recenziiNou === String(RECENZII_VECHI))
+    log(`rating neschimbat (${ratingNou}/${recenziiNou}), dar am salvat place_id-ul nou`)
+  else
+    log(`actualizat: ${RATING_VECHI}/${RECENZII_VECHI} -> ${ratingNou}/${recenziiNou} (${nume})`)
 } catch (e) {
   log('nu pot scrie fisierul:', e.message)
 }

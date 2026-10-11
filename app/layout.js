@@ -105,7 +105,7 @@ const organizationSchema = {
   identifier: [
     { '@type': 'PropertyValue', name: 'CUI', value: 'RO53874087' },
     { '@type': 'PropertyValue', name: 'Nr. Registrul Comerțului', value: 'J40/8972/2026' },
-    { '@type': 'PropertyValue', name: 'Google Place ID', value: 'ChIJRfDdJdX_sUARTlBqmy1tpXw' },
+    { '@type': 'PropertyValue', name: 'Google Place ID', value: 'ChIJRfDdJS3_sUART1Bqmy1tpXw' },
   ],
   address: {
     '@type': 'PostalAddress',

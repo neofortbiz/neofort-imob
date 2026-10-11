@@ -31,7 +31,7 @@
 
 // Fisa Google a firmei. Acelasi identificator e declarat si in
 // app/layout.js, in schema LocalBusiness (PropertyValue 'Google Place ID').
-export const GOOGLE_PLACE_ID = 'ChIJRfDdJdX_sUARTlBqmy1tpXw'
+export const GOOGLE_PLACE_ID = 'ChIJRfDdJS3_sUART1Bqmy1tpXw'
 
 export const GOOGLE_RATING = '4.2'
 export const GOOGLE_REVIEWS = '110'
