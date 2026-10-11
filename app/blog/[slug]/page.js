@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import BlogViews from '@/components/BlogViews'
 import { AUTORI, ARTICOLE, ARTICOLE_LIST } from '@/data/blog'
 import { NR_ACTIVE } from '@/data/siteConfig'
-import { parseLinks } from '@/lib/parseLinks'
+import { parseLinks, aplicaTokenAni } from '@/lib/parseLinks'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -133,7 +133,7 @@ export default function ArticolPage({ params }) {
   const faqSchema = faqSectiune ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faqSectiune.continut
+    mainEntity: aplicaTokenAni(faqSectiune.continut)
       .split('\n\n')
       .filter(b => b.trim() && b.includes('\n'))
       .map(block => {
@@ -262,7 +262,7 @@ export default function ArticolPage({ params }) {
                       <div className="space-y-4 mt-4">
                         {s.continut.split('\n\n').filter(b => b.trim()).map((block, i) => {
                           const lines = block.trim().split('\n')
-                          const question = lines[0].replace(/^\*\*|\*\*$/g, '')
+                          const question = aplicaTokenAni(lines[0].replace(/^\*\*|\*\*$/g, ''))
                           const answer = lines.slice(1).join('\n').trim()
                           if (!answer) return (
                             <div key={i} className="text-[15px] text-gray-800 leading-8">{parseLinks(block, `faq${i}-`)}</div>

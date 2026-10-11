@@ -37,6 +37,8 @@ export const STR_ANI = `${ANI_EXPERIENTA} ani`
 export const STR_LIVRATE = `${NR_LIVRATE}+`
 export const STR_ACTIVE = `${NR_ACTIVE}`
 
-// ── Rating Google (actualizat manual când se schimbă) ────────
-export const GOOGLE_RATING = '4.2'
-export const GOOGLE_REVIEWS = '109'
+// ── Rating Google ───────────────────────────────────────────
+// Valorile stau in data/google-rating.js (fisier fara importuri, ca sa
+// poata fi citit si de scripturile de prebuild, care ruleaza cu Node
+// simplu si nu cunosc alias-ul `@/`). Se modifica DOAR acolo.
+export { GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/google-rating'

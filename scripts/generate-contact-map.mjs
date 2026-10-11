@@ -131,6 +131,42 @@ const zoneLines = zoneLinks
 // ------------------------------------------------------------
 const dataHash = crypto.createHash('sha256').update(body).digest('hex').slice(0, 16)
 
+// ------------------------------------------------------------
+// DATA_SITE — data reala a ultimei modificari de CONTINUT a site-ului,
+// nu doar a datelor de ansambluri. Afisata in Header ca "Actualizat la".
+//
+// DE CE SEPARAT de DATA_ANSAMBLURI: aceea urmareste doar ansamblurile si
+// alimenteaza lastmod-ul din sitemap pentru paginile de proiect — nu se
+// misca la un articol nou de blog. Pentru eticheta din Header ne trebuie
+// "s-a schimbat ceva pe site", deci hash pe toate fisierele de continut.
+//
+// DE CE AICI, si nu in Header: Header-ul e randat pe FIECARE pagina si
+// importa doar data/contact-map (~3KB). Daca ar importa data/blog.js ca
+// sa afle data, ar trage 610KB in bundle-ul global — exact ce s-a scos
+// la v346-v347.
+//
+// Acelasi mecanism cu hash: continut identic -> pastram data veche, deci
+// un redeploy fara modificari nu declara fals "actualizat azi".
+// ------------------------------------------------------------
+const fisiereContinut = [
+  path.join(ROOT, 'data', 'ansambluri', 'index.js'),
+  path.join(ROOT, 'data', 'blog.js'),
+  path.join(ROOT, 'data', 'portofoliu.js'),
+]
+let continutTot = ''
+for (const f of fisiereContinut) {
+  try { continutTot += fs.readFileSync(f, 'utf-8') } catch { /* lipsa = ignorat */ }
+}
+const siteHash = crypto.createHash('sha256').update(continutTot).digest('hex').slice(0, 16)
+
+let dataSite = new Date().toISOString().slice(0, 10)
+try {
+  const prev = fs.readFileSync(OUT, 'utf-8')
+  const prevSiteHash = prev.match(/SITE_HASH = '([a-f0-9]+)'/)?.[1]
+  const prevSiteDate = prev.match(/DATA_SITE = '([\d-]+)'/)?.[1]
+  if (prevSiteHash === siteHash && prevSiteDate) dataSite = prevSiteDate
+} catch { /* primul build */ }
+
 let dataModificare = new Date().toISOString().slice(0, 10)
 try {
   const prev = fs.readFileSync(OUT, 'utf-8')
@@ -177,6 +213,14 @@ export const DATA_HASH = '${dataHash}'
 // Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
 // Folosita de sitemap.js pentru lastmod corect.
 export const DATA_ANSAMBLURI = '${dataModificare}'
+
+// Hash pe tot continutul (ansambluri + blog + portofoliu). NU folosi in aplicatie.
+export const SITE_HASH = '${siteHash}'
+
+// Data REALA a ultimei modificari de continut a site-ului (YYYY-MM-DD).
+// Afisata in Header ca "Actualizat la". Se misca doar cand continutul
+// chiar s-a schimbat — un redeploy gol nu o atinge.
+export const DATA_SITE = '${dataSite}'
 `
 
 fs.writeFileSync(OUT, out, 'utf-8')

@@ -567,7 +567,7 @@ Un avocat specializat în drept imobiliar costă 200–500 EUR pentru revizuirea
 • Condițiile de reziliere și mecanismul de restituire a sumelor plătite
 
 Neofort IMO și transparența față de clienți:
-Cu 17 ani de activitate și 85+ proiecte livrate în București, Neofort IMO a traversat multiple cicluri legislative și de piață. Toate contractele noastre sunt revizuibile de avocați independenți înainte de semnare, toate documentele de proiect sunt disponibile pentru verificare, iar consultanța juridică și bancară este gratuită pentru clienții noștri. Dacă ai întrebări despre situația legislativă actuală și cum ne afectează proiectele active, echipa noastră este disponibilă la 0758 090 904.`,
+Cu {ANI} ani de activitate și 85+ proiecte livrate în București, Neofort IMO a traversat multiple cicluri legislative și de piață. Toate contractele noastre sunt revizuibile de avocați independenți înainte de semnare, toate documentele de proiect sunt disponibile pentru verificare, iar consultanța juridică și bancară este gratuită pentru clienții noștri. Dacă ai întrebări despre situația legislativă actuală și cum ne afectează proiectele active, echipa noastră este disponibilă la 0758 090 904.`,
       },
       {
         id: 'faq',
@@ -609,7 +609,7 @@ Industria, prin FIDES și alte organizații, a oferit soluții concrete și rapi
 
 Până atunci, piața imobiliară din România navighează prin ce Constantin Sebeșanu a numit corect „furtuna perfectă". Și, din nefericire, cei mai expuși la furtună rămân exact cei mai vulnerabili: familiile care caută un apartament în care să trăiască.
 
-Neofort IMO continuă să construiască și să livreze în acest context dificil — pentru că 17 ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o [discuție gratuită despre achiziția ta](/contact), fără obligații.`,
+Neofort IMO continuă să construiască și să livreze în acest context dificil — pentru că {ANI} ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o [discuție gratuită despre achiziția ta](/contact), fără obligații.`,
       },
     ],
   },
@@ -1368,7 +1368,7 @@ Pentru profesioniștii care lucrează în centrul sau nordul Bucureștiului și 
       {
         id: 'pentru-locuit-vs-investitie',
         h2: `Apartament în Titan–Pallady–Teclu pentru locuit sau pentru investiție — ce să alegi în 2026`,
-        continut: `Cei 17 ani de experiență ai Neofort IMO în zonă ne-au dat ocazia să observăm cu precizie ce tip de cumpărător este satisfăcut pe termen lung și ce tip are regrete. Iat-o pe Ramona Baicu, consultant senior, cu o analiză directă.
+        continut: `Cei {ANI} ani de experiență ai Neofort IMO în zonă ne-au dat ocazia să observăm cu precizie ce tip de cumpărător este satisfăcut pe termen lung și ce tip are regrete. Iat-o pe Ramona Baicu, consultant senior, cu o analiză directă.
 
 Pentru locuit — profilul ideal:
 
@@ -2874,7 +2874,7 @@ Depinde de contractul semnat. Un antecontract bine redactat include clauze de re
     data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min',
     autor: 'igor-calutu',
     image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif',
-    descriere: `Cum alegi corect un ansamblu rezidențial nou din București în 2026? Ghid complet: cele mai căutate zone, cum verifici un developer, ce greșeli să eviți și criterii concrete de evaluare bazate pe 17 ani de experiență în piată.`,
+    descriere: `Cum alegi corect un ansamblu rezidențial nou din București în 2026? Ghid complet: cele mai căutate zone, cum verifici un developer, ce greșeli să eviți și criterii concrete de evaluare bazate pe experiența Neofort IMO din 2009 încoace.`,
     keywords: ['top ansambluri rezidentiale bucuresti 2026', 'cele mai bune proiecte rezidentiale bucuresti', 'cum alegi ansamblu rezidential', 'ansambluri noi bucuresti 2026', 'ghid cumparare apartament nou bucuresti', 'developer imobiliar serios bucuresti', 'cum verifici developer imobiliar', 'ansamblu rezidential finalizat disponibil imediat bucuresti'],
     hashtags: ['#AnsambluriBucuresti', '#ApartamentNou2026', '#GhidCumparare', '#ImobiliareRomania', '#NeofortIMO'],
     cuprins: [
@@ -4216,7 +4216,7 @@ Dacă plănuiți să vă mutați la o dată specifică, calculați cu o marjă d
 Riscul 3: Fraudele imobiliare online
 Anunțuri cu prețuri prea mici față de piață, cereri de transferuri urgente, comunicare exclusiv prin email fără posibilitate de video call sau vizită la birou. Lucrați doar cu dezvoltatori verificabili: căutați CUI-ul la ONRC, verificați portofoliul finalizat, cereți referințe de la alți clienți din diasporă.
 
-Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu 109 recenzii (rating 4,2/5) și 17 ani de activitate verificabilă. Puteți verifica oricând.
+Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu 110 recenzii (rating 4,2/5) și {ANI} ani de activitate verificabilă. Puteți verifica oricând.
 
 Riscul 4: Pierderea facilităților fiscale din lipsă de informare
 [TVA 21% versus 9%](/blog/tva-apartamente-noi-2026) poate face o diferență de 10.000–15.000 EUR. Asigurați-vă că știți ce cotă se aplică tranzacției voastre înainte de semnare.`,

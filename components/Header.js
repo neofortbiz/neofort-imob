@@ -2,7 +2,23 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { usePathname } from 'next/navigation'
-import { getContact } from '@/data/contact-map'
+import { getContact, DATA_SITE } from '@/data/contact-map'
+
+// "Actualizat la" — data REALA a ultimei modificari de continut, calculata
+// la build prin hash pe data/ansambluri + data/blog + data/portofoliu
+// (vezi scripts/generate-contact-map.mjs). NU e data de azi citita la
+// deschiderea paginii: ar scrie "actualizat azi" pe o pagina neatinsa de
+// luni, semnal fals de prospetime, si ar contrazice lastmod-ul din sitemap.
+// Un redeploy fara modificari de continut NU misca data.
+//
+// Vine din contact-map (~3KB), singurul modul de date pe care Header-ul
+// are voie sa-l importe — e randat pe fiecare pagina (v346-v347).
+function dataActualizare() {
+  if (!DATA_SITE) return null
+  const [an, luna, zi] = String(DATA_SITE).split('-')
+  if (!an || !luna || !zi) return null
+  return `${zi}.${luna}.${an}`
+}
 
 const NAV_LINKS = [
   { href: '/', label: 'Acasă' },
@@ -92,8 +108,20 @@ export default function Header({ activePath = '/' }) {
     </div>
   )
 
+  const actualizat = dataActualizare()
+
   return (
     <>
+      {actualizat && (
+        <div className="bg-gray-50 border-b border-gray-100">
+          <div className="max-w-7xl mx-auto px-4 md:px-6 py-1 flex justify-center md:justify-end">
+            <span className="text-[10px] md:text-[11px] text-gray-400 tracking-wide">
+              Actualizat la {actualizat}
+            </span>
+          </div>
+        </div>
+      )}
+
       <header className="bg-white border-b border-gray-100 sticky top-0 z-50" style={{ overflow: "visible" }}>
 
       {/* DESKTOP */}

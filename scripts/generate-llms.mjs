@@ -17,6 +17,12 @@ const ROOT = resolve(__dirname, '..')
 // ── Incarcare date ─────────────────────────────────────────
 // Folosim require dinamic pentru fisierele CommonJS sau citim fisierul direct
 // Next.js exporta ESM, deci folosim dynamic import
+// Ratingul vine din data/google-rating.js. Pana la v405 era copiat aici,
+// hardcodat, si llms.txt ramanea cu valoarea veche dupa fiecare schimbare
+// de rating (semnalat in context de la v366). Import direct pe cale, nu
+// prin siteConfig.js — acela foloseste alias `@/` si ar rupe scriptul.
+const { GOOGLE_RATING, GOOGLE_REVIEWS } = await import(resolve(ROOT, 'data/google-rating.js'))
+
 async function loadData() {
   const { ANSAMBLURI_ACTIVE } = await import(resolve(ROOT, 'data/ansambluri/index.js'))
   const { TOATE_PORTOFOLIU } = await import(resolve(ROOT, 'data/portofoliu.js'))
@@ -28,8 +34,6 @@ async function loadData() {
 // FOUNDING_YEAR trebuie sa fie identic cu cel din data/siteConfig.js
 const FOUNDING_YEAR = 2009
 const ANI = new Date().getFullYear() - FOUNDING_YEAR
-const GOOGLE_RATING = '4.2'
-const GOOGLE_REVIEWS = '109'
 const BASE = 'https://www.neofort.ro'
 const TODAY = new Date().toISOString().split('T')[0]
 

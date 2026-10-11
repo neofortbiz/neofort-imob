@@ -27,11 +27,14 @@ import { fileURLToPath } from 'url'
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const SUFIX_TITLU = ' | Neofort IMO'   // template-ul global din app/layout.js
 
-let ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE
+let ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE, GOOGLE_RATING, GOOGLE_REVIEWS
 try {
   ;({ ANSAMBLURI_ACTIVE } = await import(resolve(ROOT, 'data/ansambluri/index.js')))
   ;({ TOATE_PORTOFOLIU } = await import(resolve(ROOT, 'data/portofoliu.js')))
   ;({ ARTICOLE } = await import(resolve(ROOT, 'data/blog.js')))
+  // data/google-rating.js, nu siteConfig.js: acela importa cu alias `@/`,
+  // pe care Node simplu nu-l rezolva, si tot auditul ar fi sarit silentios.
+  ;({ GOOGLE_RATING, GOOGLE_REVIEWS } = await import(resolve(ROOT, 'data/google-rating.js')))
 } catch (e) {
   console.warn('[audit] Nu pot citi datele (build-ul continua):', e.message)
   process.exit(0)
@@ -246,6 +249,31 @@ for (const [slug, a] of Object.entries(ARTICOLE || {})) {
 }
 for (const [v, slugs] of titluri) if (slugs.length > 1) P('blog', `seoTitle identic pe ${slugs.join(' si ')} — „${v.slice(0, 55)}…"`)
 for (const [v, slugs] of descrieri) if (slugs.length > 1) P('blog', `seoDesc identic pe ${slugs.join(' si ')}`)
+
+// ────────────────────────────────────────────────────────────
+// 5. RATING GOOGLE — numarul din proza vs sursa unica
+//
+// DE CE: ratingul se modifica in data/google-rating.js, de unde il iau
+// homepage-ul, schema si llms.txt. Dar textul articolului
+// checklist-verificare-dezvoltator-imobiliar il scrie in proza, iar proza
+// nu poate importa. A ramas in urma de doua ori (105 recenzii cand erau
+// 109, apoi 109 cand erau 110) si s-a vazut doar din intamplare.
+// ────────────────────────────────────────────────────────────
+if (GOOGLE_REVIEWS && ARTICOLE && typeof ARTICOLE === 'object') {
+  const nrSursa = String(GOOGLE_REVIEWS)
+  const ratingSursa = String(GOOGLE_RATING || '')
+  for (const [slug, art] of Object.entries(ARTICOLE)) {
+    const txt = [art.descriere, (art.peScurt || []).join('\n'),
+      ...(art.sectiuni || []).map(x => `${x.h2}\n${x.continut}`)].join('\n')
+    for (const m of txt.matchAll(/(\d{2,4})\s+recenzii/g))
+      if (m[1] !== nrSursa)
+        P(`blog/${slug}`, `textul spune „${m[1]} recenzii" dar data/google-rating.js are ${nrSursa}`)
+    // in proza ratingul e scris cu virgula („4,2/5"), in cod cu punct („4.2")
+    for (const m of txt.matchAll(/rating\s+(\d[.,]\d)\s*\/\s*5/gi))
+      if (m[1].replace(',', '.') !== ratingSursa)
+        P(`blog/${slug}`, `textul spune „rating ${m[1]}/5" dar data/google-rating.js are ${ratingSursa}`)
+  }
+}
 
 // ────────────────────────────────────────────────────────────
 // Raport
