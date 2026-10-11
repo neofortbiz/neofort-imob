@@ -10,46 +10,64 @@
 // Nu mai modifica nimic altceva - blog/page.js si [slug]/page.js importa automat
 // ============================================================
 
+// ── Vechimi calculate ────────────────────────────────────────
+// Anii de experienta NU se mai scriu ca cifre fixe. Pana la v405 erau
+// hardcodati si se invecheau tacut: la 1 ianuarie fiecare broker ar fi
+// ramas cu un an mai putin decat in realitate, pe toate paginile de blog.
+//
+// `ani(2004)` = cati ani au trecut de la 2004 pana azi. Anii de start au
+// fost dedusi scazand din 2026 valorile scrise manual in octombrie 2026.
+//
+// Se calculeaza la build. data/blog.js nu importa nimic (nici alias `@/`),
+// ca sa ramana citibil si de scripturile de prebuild care ruleaza cu Node
+// simplu — de aceea calculul e aici, nu importat din siteConfig.js.
+const AN_CURENT = new Date().getFullYear()
+const ani = de => AN_CURENT - de
+
+// Anul infiintarii Neofort IMO. Identic cu FOUNDING_YEAR din
+// data/siteConfig.js — nu poate fi importat de acolo (alias `@/`).
+const INFIINTARE = 2009
+
 export const AUTORI = {
   'igor-calutu': {
     nume: 'Igor Calutu',
-    titlu: 'Reprezentant Vanzari Zona Vest — 22 ani experienta',
-    bio: 'Cu peste 22 de ani de experienta in piata imobiliara din Bucuresti si 11 ani in Neofort IMO, Igor Calutu a finalizat sute de tranzactii in zona de vest a Capitalei. Ofera clientilor perspective bazate pe date reale din piata.',
+    titlu: `Reprezentant Vanzari Zona Vest — ${ani(2004)} ani experienta`,
+    bio: `Cu peste ${ani(2004)} de ani de experienta in piata imobiliara din Bucuresti si ${ani(2015)} ani in Neofort IMO, Igor Calutu a finalizat sute de tranzactii in zona de vest a Capitalei. Ofera clientilor perspective bazate pe date reale din piata.`,
     foto: '/brokeri/igor-calutu.avif',
   },
   'adriana-veselu': {
     nume: 'Adriana Veselu',
-    titlu: 'Reprezentant Vanzari Zona Centrala — 16 ani experienta',
-    bio: 'Adriana Veselu este consultant imobiliar senior cu 14 ani in Neofort IMO si peste 400 de tranzactii finalizate. Specializata in consiliere pentru cumparatorii la primul apartament din zona centrala a Capitalei.',
+    titlu: `Reprezentant Vanzari Zona Centrala — ${ani(2010)} ani experienta`,
+    bio: `Adriana Veselu este consultant imobiliar senior cu ${ani(2012)} ani in Neofort IMO si peste 400 de tranzactii finalizate. Specializata in consiliere pentru cumparatorii la primul apartament din zona centrala a Capitalei.`,
     foto: '/brokeri/adriana-veselu.avif',
   },
   'ramona-baicu': {
     nume: 'Ramona Baicu',
-    titlu: 'Reprezentant Vanzari Zona Sud-Vest — 17 ani experienta',
-    bio: 'Ramona Baicu activeaza in piata imobiliara de 17 ani, cu 11 ani in Neofort IMO. Expertiza sa acopera zona sud-vest a Capitalei: Militari, Gorjului, Pacii si proiectele conexe.',
+    titlu: `Reprezentant Vanzari Zona Sud-Vest — ${ani(2009)} ani experienta`,
+    bio: `Ramona Baicu activeaza in piata imobiliara de ${ani(2009)} ani, cu ${ani(2015)} ani in Neofort IMO. Expertiza sa acopera zona sud-vest a Capitalei: Militari, Gorjului, Pacii si proiectele conexe.`,
     foto: '/brokeri/ramona-baicu.avif',
   },
   'svetlana-calutu': {
     nume: 'Svetlana Calutu',
-    titlu: 'Reprezentant Vanzari Zona Centrala — 21 ani experienta',
-    bio: 'Svetlana Calutu are 18 ani in Neofort IMO si 21 de ani in piata imobiliara. Expertiza sa acopera zona centrala si semicentrala, cu focus pe proiectele Mosilor, Eminescu si Viitorului.',
+    titlu: `Reprezentant Vanzari Zona Centrala — ${ani(2005)} ani experienta`,
+    bio: `Svetlana Calutu are ${ani(INFIINTARE)} ani in Neofort IMO si ${ani(2005)} de ani in piata imobiliara. Expertiza sa acopera zona centrala si semicentrala, cu focus pe proiectele Mosilor, Eminescu si Viitorului.`,
     foto: '/brokeri/svetlana-calutu.avif',
   },
   'adrian-pintilie': {
     nume: 'Adrian Pintilie',
-    titlu: 'Reprezentant Vanzari Zona Sud-Est — 15 ani experienta',
-    bio: 'Adrian Pintilie gestioneaza zona sud-est a Capitalei cu 14 ani in Neofort IMO. Specialitatea sa: Titan, Pallady si zona IOR, unde cunoaste piata in cel mai mic detaliu.',
+    titlu: `Reprezentant Vanzari Zona Sud-Est — ${ani(2011)} ani experienta`,
+    bio: `Adrian Pintilie gestioneaza zona sud-est a Capitalei cu ${ani(2012)} ani in Neofort IMO. Specialitatea sa: Titan, Pallady si zona IOR, unde cunoaste piata in cel mai mic detaliu.`,
     foto: '/brokeri/adrian-pintilie.avif',
   },
   'sasha-calutu': {
     nume: 'Sasha Calutu',
-    titlu: 'Reprezentant Vanzari Zona Centrala — 17 ani experienta',
-    bio: 'Sasha Calutu are toti cei 17 ani de experienta imobiliara petrecuti in Neofort IMO, ceea ce il face unul dintre cei mai longevivi consultanti ai companiei. Expertiza sa acopera zona centrala si proiectele premium.',
+    titlu: `Reprezentant Vanzari Zona Centrala — ${ani(INFIINTARE)} ani experienta`,
+    bio: `Sasha Calutu are toti cei ${ani(INFIINTARE)} ani de experienta imobiliara petrecuti in Neofort IMO, ceea ce il face unul dintre cei mai longevivi consultanti ai companiei. Expertiza sa acopera zona centrala si proiectele premium.`,
     foto: '/brokeri/sasha-calutu.avif',
   },
   'raluca-nistor': {
     nume: 'Raluca Nistor',
-    titlu: 'Reprezentant Vanzari Zona Est — 10 ani experienta',
+    titlu: `Reprezentant Vanzari Zona Est — ${ani(2016)} ani experienta`,
     bio: 'Raluca Nistor este consultantul de referinta pentru zona est a Capitalei in Neofort IMO. Cu focus pe Titan-Pallady, ofera clientilor analiza detaliata a celui mai dinamic sector rezidential din Bucuresti.',
     foto: '/brokeri/raluca-nistor.avif',
   },
@@ -567,7 +585,7 @@ Un avocat specializat în drept imobiliar costă 200–500 EUR pentru revizuirea
 • Condițiile de reziliere și mecanismul de restituire a sumelor plătite
 
 Neofort IMO și transparența față de clienți:
-Cu {ANI} ani de activitate și 85+ proiecte livrate în București, Neofort IMO a traversat multiple cicluri legislative și de piață. Toate contractele noastre sunt revizuibile de avocați independenți înainte de semnare, toate documentele de proiect sunt disponibile pentru verificare, iar consultanța juridică și bancară este gratuită pentru clienții noștri. Dacă ai întrebări despre situația legislativă actuală și cum ne afectează proiectele active, echipa noastră este disponibilă la 0758 090 904.`,
+Cu ${ani(INFIINTARE)} ani de activitate și 85+ proiecte livrate în București, Neofort IMO a traversat multiple cicluri legislative și de piață. Toate contractele noastre sunt revizuibile de avocați independenți înainte de semnare, toate documentele de proiect sunt disponibile pentru verificare, iar consultanța juridică și bancară este gratuită pentru clienții noștri. Dacă ai întrebări despre situația legislativă actuală și cum ne afectează proiectele active, echipa noastră este disponibilă la 0758 090 904.`,
       },
       {
         id: 'faq',
@@ -609,7 +627,7 @@ Industria, prin FIDES și alte organizații, a oferit soluții concrete și rapi
 
 Până atunci, piața imobiliară din România navighează prin ce Constantin Sebeșanu a numit corect „furtuna perfectă". Și, din nefericire, cei mai expuși la furtună rămân exact cei mai vulnerabili: familiile care caută un apartament în care să trăiască.
 
-Neofort IMO continuă să construiască și să livreze în acest context dificil — pentru că {ANI} ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o [discuție gratuită despre achiziția ta](/contact), fără obligații.`,
+Neofort IMO continuă să construiască și să livreze în acest context dificil — pentru că ${ani(INFIINTARE)} ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o [discuție gratuită despre achiziția ta](/contact), fără obligații.`,
       },
     ],
   },
@@ -1368,7 +1386,7 @@ Pentru profesioniștii care lucrează în centrul sau nordul Bucureștiului și 
       {
         id: 'pentru-locuit-vs-investitie',
         h2: `Apartament în Titan–Pallady–Teclu pentru locuit sau pentru investiție — ce să alegi în 2026`,
-        continut: `Cei {ANI} ani de experiență ai Neofort IMO în zonă ne-au dat ocazia să observăm cu precizie ce tip de cumpărător este satisfăcut pe termen lung și ce tip are regrete. Iat-o pe Ramona Baicu, consultant senior, cu o analiză directă.
+        continut: `Cei ${ani(INFIINTARE)} ani de experiență ai Neofort IMO în zonă ne-au dat ocazia să observăm cu precizie ce tip de cumpărător este satisfăcut pe termen lung și ce tip are regrete. Iat-o pe Ramona Baicu, consultant senior, cu o analiză directă.
 
 Pentru locuit — profilul ideal:
 
@@ -1715,7 +1733,7 @@ Fă lista: ce nu poți accepta (distanță maximă față de birou, lipsa metrul
       {
         id: 'cercetare',
         h2: 'Cum analizezi un dezvoltator și un proiect — checklist complet',
-        continut: `Nu toți dezvoltatorii sunt egali. Am văzut în 16 ani de activitate situații în care cumpărători entuziaști au semnat antecontracte cu dezvoltatori care ulterior au întârziat 2-3 ani sau au livrat calitate sub standarde. Iată cum să verifici:
+        continut: `Nu toți dezvoltatorii sunt egali. Am văzut în ${ani(2010)} ani de activitate situații în care cumpărători entuziaști au semnat antecontracte cu dezvoltatori care ulterior au întârziat 2-3 ani sau au livrat calitate sub standarde. Iată cum să verifici:
 
 **Verificarea dezvoltatorului (obligatorie):**
 
@@ -3869,7 +3887,7 @@ Neofort IMO are 6 proiecte active în zonă: [Neofort 84](/ansamblu-rezidential/
       {
         id: 'concluzie',
         h2: `Merită să cumperi un apartament în Titan–Pallady în 2026?`,
-        continut: `Răspunsul meu, după 10 ani de activitate exclusivă în această zonă: da, dar cu ochii deschiși la realitățile din 2026.
+        continut: `Răspunsul meu, după ${ani(2016)} ani de activitate exclusivă în această zonă: da, dar cu ochii deschiși la realitățile din 2026.
 
 Ce este bun: prețurile rămân cu 20–30% sub zonele centrale comparabile ca accesibilitate, metroul rezolvă problema deplasărilor, ecosistemul comercial este matur, iar parcul IOR oferă calitate a vieții pe care puține zone din București o egalează.
 
@@ -4216,7 +4234,7 @@ Dacă plănuiți să vă mutați la o dată specifică, calculați cu o marjă d
 Riscul 3: Fraudele imobiliare online
 Anunțuri cu prețuri prea mici față de piață, cereri de transferuri urgente, comunicare exclusiv prin email fără posibilitate de video call sau vizită la birou. Lucrați doar cu dezvoltatori verificabili: căutați CUI-ul la ONRC, verificați portofoliul finalizat, cereți referințe de la alți clienți din diasporă.
 
-Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu 110 recenzii (rating 4,2/5) și {ANI} ani de activitate verificabilă. Puteți verifica oricând.
+Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu peste 100 de recenzii și ${ani(INFIINTARE)} ani de activitate verificabilă. Puteți verifica oricând.
 
 Riscul 4: Pierderea facilităților fiscale din lipsă de informare
 [TVA 21% versus 9%](/blog/tva-apartamente-noi-2026) poate face o diferență de 10.000–15.000 EUR. Asigurați-vă că știți ce cotă se aplică tranzacției voastre înainte de semnare.`,
@@ -4553,7 +4571,7 @@ Acestea sunt minimele unui „la cheie" decent. Orice sub acestea nu este „la 
       {
         id: 'ce-poate-lipsi',
         h2: `Ce poate lipsi și nu îți spune nimeni — surprizele frecvente`,
-        continut: `Din experiența mea cu sute de predări de apartamente în 15 ani de activitate la Neofort IMO:
+        continut: `Din experiența mea cu sute de predări de apartamente în ${ani(2012)} ani de activitate la Neofort IMO:
 
 Ușile interioare:
 Mulți cumpărători presupun că „la cheie" include ușile interioare (dormitor, baie, bucătărie). Nu este întotdeauna cazul. Verificați explicit dacă ușile interioare sunt incluse și dacă da, ce standard (MDF cu toc vs. lemn masiv).

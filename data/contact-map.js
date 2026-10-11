@@ -50,7 +50,7 @@ export const DATA_HASH = 'c0bace56c1505b45'
 export const DATA_ANSAMBLURI = '2026-10-11'
 
 // Hash pe tot continutul (ansambluri + blog + portofoliu). NU folosi in aplicatie.
-export const SITE_HASH = '5d40b92630f7b82e'
+export const SITE_HASH = '2947f85285bfe685'
 
 // Data REALA a ultimei modificari de continut a site-ului (YYYY-MM-DD).
 // Afisata in Header ca "Actualizat la". Se misca doar cand continutul
