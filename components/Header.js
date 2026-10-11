@@ -112,16 +112,6 @@ export default function Header({ activePath = '/' }) {
 
   return (
     <>
-      {actualizat && (
-        <div className="bg-gray-50 border-b border-gray-100">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 py-1 flex justify-center md:justify-end">
-            <span className="text-[10px] md:text-[11px] text-gray-400 tracking-wide">
-              Actualizat la {actualizat}
-            </span>
-          </div>
-        </div>
-      )}
-
       <header className="bg-white border-b border-gray-100 sticky top-0 z-50" style={{ overflow: "visible" }}>
 
       {/* DESKTOP */}
@@ -141,6 +131,11 @@ export default function Header({ activePath = '/' }) {
             </Link>
           ))}
         </nav>
+        {actualizat && (
+          <span className="hidden lg:block flex-shrink-0 text-xs text-gray-500 whitespace-nowrap">
+            Actualizat <span className="font-medium text-gray-700">{actualizat}</span>
+          </span>
+        )}
         <ContactIcons />
       </div>
 
@@ -192,6 +187,14 @@ export default function Header({ activePath = '/' }) {
                 {link.label}
               </Link>
             ))}
+            {/* Pe mobil bara are 64px si e plina (logo + 4 butoane). Data intra
+                in panoul de meniu, ca sa nu creasca inaltimea barei — 84% din
+                trafic e mobil si fiecare pixel din antet se vede la fiecare scroll. */}
+            {actualizat && (
+              <div className="px-4 py-3 border-t border-gray-100 text-xs text-gray-500">
+                Actualizat <span className="font-medium text-gray-700">{actualizat}</span>
+              </div>
+            )}
           </div>
         )}
       </div>

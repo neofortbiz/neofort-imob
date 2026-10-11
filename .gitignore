@@ -32,3 +32,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# windows — iconita personalizata a folderului.
+# NU e fisier de proiect. A fost sters din greseala la v407 printr-un
+# `git clean`, pentru ca aparea ca fisier neurmarit.
+desktop.ini
+Thumbs.db
