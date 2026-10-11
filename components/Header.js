@@ -125,15 +125,15 @@ export default function Header({ activePath = '/' }) {
               className={`text-xs px-3 py-2 whitespace-nowrap border-b-2 transition-colors ${
                 activePath === link.href
                   ? 'text-gray-900 border-[#2d7a3a] font-medium'
-                  : 'text-gray-500 border-transparent hover:text-gray-900'
+                  : 'text-gray-800 border-transparent hover:text-[#2d7a3a]'
               }`}>
               {link.label}
             </Link>
           ))}
         </nav>
         {actualizat && (
-          <span className="hidden lg:block flex-shrink-0 text-xs text-gray-500 whitespace-nowrap">
-            Actualizat <span className="font-medium text-gray-700">{actualizat}</span>
+          <span className="hidden lg:block flex-shrink-0 text-xs whitespace-nowrap" style={{ color: '#c8922a' }}>
+            Actualizat <span className="font-semibold">{actualizat}</span>
           </span>
         )}
         <ContactIcons />
@@ -182,7 +182,7 @@ export default function Header({ activePath = '/' }) {
           <div className="border-t border-gray-100 bg-white">
             {NAV_LINKS.map(link => (
               <Link key={link.href} href={link.href}
-                className="block px-6 py-3 text-sm text-gray-700 border-b border-gray-50 hover:bg-gray-50"
+                className="block px-6 py-3 text-sm text-gray-900 border-b border-gray-50 hover:bg-gray-50"
                 onClick={() => setMenuOpen(false)}>
                 {link.label}
               </Link>
@@ -191,8 +191,8 @@ export default function Header({ activePath = '/' }) {
                 in panoul de meniu, ca sa nu creasca inaltimea barei — 84% din
                 trafic e mobil si fiecare pixel din antet se vede la fiecare scroll. */}
             {actualizat && (
-              <div className="px-4 py-3 border-t border-gray-100 text-xs text-gray-500">
-                Actualizat <span className="font-medium text-gray-700">{actualizat}</span>
+              <div className="px-4 py-3 border-t border-gray-100 text-xs" style={{ color: '#c8922a' }}>
+                Actualizat <span className="font-semibold">{actualizat}</span>
               </div>
             )}
           </div>

@@ -242,17 +242,17 @@ export default function HomePageClient() {
       <main style={{ overflowX: 'hidden' }}>
 
         {/* HERO */}
-        <section style={{ background: '#081c12' }} className="pt-10 pb-10 md:pt-14 md:pb-14 px-6 text-center">
-          <p className="text-xs tracking-widest uppercase mb-3" style={{ color: 'rgba(232,180,78,0.7)' }}>
+        <section style={{ background: '#081c12' }} className="pt-7 pb-7 md:pt-10 md:pb-10 px-6 text-center">
+          <p className="text-xs tracking-widest uppercase mb-2" style={{ color: 'rgba(232,180,78,0.85)' }}>
             Imobiliare și Construcții București — Din 2009
           </p>
-          <h1 className="text-2xl md:text-4xl font-medium text-white leading-tight mb-3 max-w-xl mx-auto">
+          <h1 className="text-2xl md:text-4xl font-medium text-white leading-tight mb-2 max-w-xl mx-auto">
             Ansambluri <span style={{ color: '#e8b44e' }}>Rezidențiale</span> Noi în București
           </h1>
-          <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.8)' }}>
+          <p className="text-sm mb-5" style={{ color: 'rgba(255,255,255,0.9)' }}>
             Apartamente noi de la dezvoltator. Fără comision de agenție.
           </p>
-          <div className="flex items-center justify-center gap-3 mb-6">
+          <div className="flex items-center justify-center gap-3 mb-5">
             <a href="tel:+40758090904"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold text-sm transition-all active:scale-95"
               style={{ background: '#4a6d94', color: '#fff' }}
@@ -275,7 +275,7 @@ export default function HomePageClient() {
               { num: NR_ACTIVE, lbl: 'Active acum' },
               { num: `${ANI_EXPERIENTA} ani`, lbl: 'Experiență' },
             ].map((s, i) => (
-              <div key={i} className="flex-1 py-4 text-center" style={{ borderLeft: i > 0 ? '0.5px solid rgba(255,255,255,0.08)' : 'none' }}>
+              <div key={i} className="flex-1 py-3 text-center" style={{ borderLeft: i > 0 ? '0.5px solid rgba(255,255,255,0.08)' : 'none' }}>
                 <div className="text-xl md:text-2xl font-medium" style={{ color: '#e8b44e' }}>{s.num}</div>
                 <div className="text-[10px] mt-1" style={{ color: 'rgba(255,255,255,0.75)' }}>{s.lbl}</div>
                 {s.note && <div className="text-[9px] mt-0.5" style={{ color: 'rgba(255,255,255,0.8)' }}>{s.note}</div>}
@@ -284,7 +284,7 @@ export default function HomePageClient() {
           </div>
 
           {/* RATING GOOGLE */}
-          <div className="mt-6 flex items-center justify-center gap-2">
+          <div className="mt-4 flex items-center justify-center gap-2">
             <div className="flex items-center gap-1">
               {[1,2,3,4,5].map(i => (
                 <svg key={i} width="14" height="14" viewBox="0 0 24 24"
