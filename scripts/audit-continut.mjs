@@ -27,11 +27,12 @@ import { fileURLToPath } from 'url'
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const SUFIX_TITLU = ' | Neofort IMO'   // template-ul global din app/layout.js
 
-let ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE, GOOGLE_RATING, GOOGLE_REVIEWS
+let ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE, GOOGLE_RATING, GOOGLE_REVIEWS, ECHIPA, AUTORI
 try {
   ;({ ANSAMBLURI_ACTIVE } = await import(resolve(ROOT, 'data/ansambluri/index.js')))
   ;({ TOATE_PORTOFOLIU } = await import(resolve(ROOT, 'data/portofoliu.js')))
-  ;({ ARTICOLE } = await import(resolve(ROOT, 'data/blog.js')))
+  ;({ ARTICOLE, AUTORI } = await import(resolve(ROOT, 'data/blog.js')))
+  ;({ ECHIPA } = await import(resolve(ROOT, 'data/echipa.js')))
   // data/google-rating.js, nu siteConfig.js: acela importa cu alias `@/`,
   // pe care Node simplu nu-l rezolva, si tot auditul ar fi sarit silentios.
   ;({ GOOGLE_RATING, GOOGLE_REVIEWS } = await import(resolve(ROOT, 'data/google-rating.js')))
@@ -272,6 +273,28 @@ if (GOOGLE_REVIEWS && ARTICOLE && typeof ARTICOLE === 'object') {
     for (const m of txt.matchAll(/rating\s+(\d[.,]\d)\s*\/\s*5/gi))
       if (m[1].replace(',', '.') !== ratingSursa)
         P(`blog/${slug}`, `textul spune „rating ${m[1]}/5" dar data/google-rating.js are ${ratingSursa}`)
+  }
+}
+
+// ────────────────────────────────────────────────────────────
+// 6. VECHIMI — data/echipa.js vs AUTORI din data/blog.js
+//
+// DE CE: aceiasi brokeri apar in doua fisiere. data/echipa.js alimenteaza
+// pagina /echipa (campurile `experienta` si `vechimeNeofort`), iar AUTORI
+// din data/blog.js alimenteaza caseta de autor de pe articole (titlu +
+// bio). Pana la v407 divergeau fara ca nimeni sa observe: Svetlana avea
+// 18 ani Neofort intr-un fisier si 17 in celalalt, Raluca 2 si nimic.
+// ────────────────────────────────────────────────────────────
+if (Array.isArray(ECHIPA) && AUTORI) {
+  for (const e of ECHIPA) {
+    const a = AUTORI[e.id]
+    if (!a) continue
+    const dinTitlu = Number((a.titlu || '').match(/(\d+)\s+ani/)?.[1])
+    if (Number.isFinite(dinTitlu) && Number.isFinite(e.experienta) && dinTitlu !== e.experienta)
+      P('vechimi', `${e.nume}: data/echipa.js spune ${e.experienta} ani experienta, AUTORI din data/blog.js spune ${dinTitlu}`)
+    const dinBio = Number((a.bio || '').match(/(\d+)\s+ani in Neofort/)?.[1])
+    if (Number.isFinite(dinBio) && Number.isFinite(e.vechimeNeofort) && dinBio !== e.vechimeNeofort)
+      P('vechimi', `${e.nume}: data/echipa.js spune ${e.vechimeNeofort} ani Neofort, bio-ul din data/blog.js spune ${dinBio}`)
   }
 }
 
