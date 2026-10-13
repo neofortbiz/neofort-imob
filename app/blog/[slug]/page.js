@@ -50,6 +50,96 @@ function getWordCount(a) {
   return text.split(/\s+/).filter(w => w.length > 2).length
 }
 
+// ============================================================
+// Tabelele din `continut` se randeaza ca <table>, nu ca text brut.
+//
+// DE CE: `lib/parseLinks.js` suporta doar [text](url) si **bold**, deci
+// orice tabel markdown din data/blog.js ajungea pe pagina ca linii cu
+// pipe-uri vizibile (la v419: 47 de linii, 6 tabele, 3 articole).
+// Un <table> real e si corect vizual, si extractibil de motoarele de
+// cautare si de LLM-uri — spre deosebire de acelasi continut turnat in
+// liste cu bullet, care pierde structura pe coloane.
+//
+// GARANTIE DE NEREGRESIE: o sectiune fara tabel trece prin exact acelasi
+// cod ca inainte (ramura de iesire timpurie din ContinutSectiune, lasata
+// identica bit cu bit). La v420: 311 sectiuni in blog, 5 cu tabele;
+// celelalte 306 produc un singur segment text egal cu `continut`.
+//
+// Un bloc e tabel doar daca are minim 3 linii intre pipe-uri SI a doua
+// linie e separator (|---|---|). Orice altceva ramane text, deci o linie
+// izolata care incepe cu | nu poate declansa din greseala un tabel.
+// ============================================================
+function segmenteazaContinut(continut) {
+  const linii = continut.split('\n')
+  const segmente = []
+  let buf = []
+  const esteRand = l => l.trim().startsWith('|') && l.trim().endsWith('|')
+  const celule = r => r.trim().slice(1, -1).split('|').map(c => c.trim())
+  const goleste = () => { if (buf.length) { segmente.push({ tip: 'text', continut: buf.join('\n') }); buf = [] } }
+  for (let i = 0; i < linii.length; i++) {
+    if (esteRand(linii[i])) {
+      let j = i
+      const bloc = []
+      while (j < linii.length && esteRand(linii[j])) { bloc.push(linii[j]); j++ }
+      if (bloc.length >= 3 && /^\|[\s:|-]+\|$/.test(bloc[1].trim())) {
+        goleste()
+        segmente.push({ tip: 'tabel', cap: celule(bloc[0]), randuri: bloc.slice(2).map(celule) })
+        i = j - 1
+        continue
+      }
+    }
+    buf.push(linii[i])
+  }
+  goleste()
+  return segmente
+}
+
+function ContinutSectiune({ continut }) {
+  const segmente = segmenteazaContinut(continut)
+  // Fara tabel: exact randarea de dinainte de v420, neatinsa.
+  if (segmente.length === 1 && segmente[0].tip === 'text') {
+    return (
+      <div className="text-[15px] text-gray-800 leading-8 whitespace-pre-line text-justify">
+        {continut.split('\n').map((line, i) => (
+          <span key={i}>{parseLinks(line)}{i < continut.split('\n').length - 1 ? '\n' : ''}</span>
+        ))}
+      </div>
+    )
+  }
+  return (
+    <div className="text-[15px] text-gray-800">
+      {segmente.map((seg, si) => seg.tip === 'tabel' ? (
+        <div key={si} className="my-5 overflow-x-auto">
+          <table className="w-full border-collapse text-[14px]" style={{ minWidth: seg.cap.length * 120 }}>
+            <thead>
+              <tr>
+                {seg.cap.map((c, ci) => (
+                  <th key={ci} scope="col" className="text-left font-semibold text-gray-900 align-bottom px-3 py-2.5 border-b-2 border-[#2d7a3a]">{parseLinks(c, `t${si}h${ci}-`)}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {seg.randuri.map((r, ri) => (
+                <tr key={ri} className={ri % 2 === 1 ? 'bg-[#f8faf9]' : undefined}>
+                  {r.map((c, ci) => (
+                    <td key={ci} className="align-top leading-6 px-3 py-2.5 border-b border-gray-100">{parseLinks(c, `t${si}r${ri}c${ci}-`)}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ) : (
+        <div key={si} className="leading-8 whitespace-pre-line text-justify">
+          {seg.continut.split('\n').map((line, i) => (
+            <span key={i}>{parseLinks(line, `s${si}l${i}-`)}{i < seg.continut.split('\n').length - 1 ? '\n' : ''}</span>
+          ))}
+        </div>
+      ))}
+    </div>
+  )
+}
+
 export async function generateStaticParams() {
   return Object.keys(ARTICOLE).map(slug => ({ slug }))
 }
@@ -285,13 +375,7 @@ export default function ArticolPage({ params }) {
                         })}
                       </div>
                     )
-                    : (
-                      <div className="text-[15px] text-gray-800 leading-8 whitespace-pre-line text-justify">
-                        {s.continut.split('\n').map((line, i) => (
-                          <span key={i}>{parseLinks(line)}{i < s.continut.split('\n').length - 1 ? '\n' : ''}</span>
-                        ))}
-                      </div>
-                    )
+                    : <ContinutSectiune continut={s.continut} />
                   }
                 </section>
               ))}

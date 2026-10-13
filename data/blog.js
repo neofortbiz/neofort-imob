@@ -6288,6 +6288,7 @@ Dezvoltatorul, ca vânzător profesionist, și constructorul răspund legal pent
     data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '13 min',
     autor: 'sasha-calutu',
     image: '/blog/intretinere-bloc-nou-de-ce-difera.avif',
+    imagePosition: 'center top',
     descriere: `„Întreținerea la bloc nou ajunge la 900 de lei" — dar din cei 900, aproape jumătate este încălzirea, care nu are legătură cu vârsta blocului. Cum se separă corect costurile asociației de consumul individual, de ce un apartament nou de 120 mp consumă pe jumătate cât unul vechi de 98 mp, și ce întrebi înainte să semnezi.`,
     peScurt: [
       'O listă de plată amestecă două lucruri diferite: costurile asociației, care depind de servicii și de cine administrează, și consumul individual, care depinde de felul în care e încălzită clădirea. Se compară separat sau nu se compară deloc.',
