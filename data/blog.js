@@ -388,8 +388,8 @@ Poți lăsa datele tale de contact la finalul acestui articol sau poți contacta
       { id: 'ce-trebuie-corectat', titlu: `Ce trebuie corectat urgent și cum` },
       { id: 'impact-bucuresti', titlu: `Impactul concret în București — ce se întâmplă pe piața locală` },
       { id: 'sfat-cumparator', titlu: `Sfatul practic: cum te protejezi ca și cumpărător în 2026` },
-      { id: 'concluzie', titlu: `Concluzie: o lecție despre cum reglementarea greșit calibrată produce efecte inverse` },
       { id: 'faq', titlu: `Întrebări frecvente despre Legea Nordis și piața imobiliară 2026` },
+      { id: 'concluzie', titlu: `Concluzie: o lecție despre cum reglementarea greșit calibrată produce efecte inverse` },
     ],
     sectiuni: [
       {
@@ -1291,8 +1291,8 @@ Chirie documentată (contract ANAF + extras cont 12 luni): acceptată 70-80%. Di
       { id: 'cost-total-real', titlu: `Calculul costului total real — fără surprize` },
       { id: 'cum-verifici-developer', titlu: `Cum verifici un developer înainte să dai avansul` },
       { id: 'intrebari-frecvente', titlu: `Întrebări frecvente despre achizițiile din zonă` },
-      { id: 'concluzie', titlu: `Concluzie — care ansamblu ți se potrivește` },
       { id: 'faq', titlu: `Întrebări frecvente despre apartamentele de vânzare în Titan–Pallady–Teclu` },
+      { id: 'concluzie', titlu: `Concluzie — care ansamblu ți se potrivește` },
     ],
     sectiuni: [
       {
@@ -1708,8 +1708,8 @@ Dotările complete și de calitate atrag chiriași profesioniști care rămân �
       { id: 'antecontract', titlu: 'Antecontractul: ce verifici înainte să semnezi' },
       { id: 'capcane', titlu: '8 capcane frecvente și cum le eviți' },
       { id: 'predare', titlu: 'Predarea apartamentului: lista de verificare' },
-      { id: 'costuri', titlu: 'Toate costurile: ce nu îți spune nimeni' },
       { id: 'faq', titlu: `Întrebări frecvente despre cumpărarea unui apartament nou` },
+      { id: 'costuri', titlu: 'Toate costurile: ce nu îți spune nimeni' },
     ],
     sectiuni: [
       {
@@ -2522,8 +2522,8 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
       { id: 'pentru-locuit', titlu: `Pentru locuit — ce trebuie să știi` },
       { id: 'pentru-investitie', titlu: `Pentru investiție — calculul real` },
       { id: 'ce-sa-verifici', titlu: `Ce să verifici înainte să semnezi` },
-      { id: 'concluzie', titlu: `Concluzia noastră — pentru cine merită` },
       { id: 'faq', titlu: `Întrebări frecvente: merită apartament în Titan–Pallady 2026?` },
+      { id: 'concluzie', titlu: `Concluzia noastră — pentru cine merită` },
     ],
     sectiuni: [
       {
@@ -2902,8 +2902,8 @@ Depinde de contractul semnat. Un antecontract bine redactat include clauze de re
       { id: 'ce-sa-analizezi', titlu: `Ce să analizezi la un ansamblu rezidențial` },
       { id: 'greseli', titlu: `Greșeli frecvente și cum le eviți` },
       { id: 'direct-sau-agentie', titlu: `Cumpărare directă vs. prin agenție` },
-      { id: 'concluzie', titlu: `Cum iei decizia corectă` },
       { id: 'faq', titlu: `Întrebări frecvente despre ansamblurile rezidențiale noi din București 2026` },
+      { id: 'concluzie', titlu: `Cum iei decizia corectă` },
     ],
     sectiuni: [
       {
@@ -3125,8 +3125,8 @@ Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București 
       { id: 'apartamente-noi', titlu: 'Impact pentru cumpărătorii de apartamente noi' },
       { id: 'contestatie', titlu: 'Cum contești valoarea atribuită' },
       { id: 'calendar', titlu: 'Calendarul implementării' },
-      { id: 'concluzii', titlu: 'Concluzie practică' },
       { id: 'faq', titlu: `Întrebări frecvente despre E-Proprietatea și impozitul 2026` },
+      { id: 'concluzii', titlu: 'Concluzie practică' },
     ],
     sectiuni: [
       {
@@ -3363,8 +3363,9 @@ Neofort IMO oferă consultanță gratuită pentru clienții care vor să înțel
       { id: 'zone', titlu: `Evoluție pe zone principale` },
       { id: 'factori', titlu: `Factorii care mișcă prețurile` },
       { id: 'previziuni', titlu: `Ce urmează în restul lui 2026` },
-      { id: 'decizie', titlu: `Cumpăr acum sau aștept?` },
+      { id: 'comparatie', titlu: `Scumpi sau ieftini în context european` },
       { id: 'faq', titlu: `Întrebări frecvente despre prețurile apartamentelor din București 2026` },
+      { id: 'decizie', titlu: `Cumpăr acum sau aștept?` },
     ],
     sectiuni: [
       {
@@ -3560,8 +3561,9 @@ Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții 
       { id: 'conditii-9', titlu: `Condițiile cumulative pentru 9%` },
       { id: 'calcul-practic', titlu: `Calcul practic: cât costă mai mult` },
       { id: 'noua-casa', titlu: `Interacțiunea cu Noua Casă` },
-      { id: 'sfaturi', titlu: `Ce faci dacă ești în proces de achiziție` },
+      { id: 'exemple-complete', titlu: `Exemple complete de calcul — 5 scenarii` },
       { id: 'faq', titlu: `Întrebări frecvente despre TVA la apartamente noi 2026` },
+      { id: 'sfaturi', titlu: `Ce faci dacă ești în proces de achiziție` },
     ],
     sectiuni: [
       {
@@ -3761,8 +3763,9 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
       { id: 'preturi', titlu: `Evoluția prețurilor 2020–2026` },
       { id: 'diaspora', titlu: `Cumpărătorii din diasporă` },
       { id: 'proiecte', titlu: `Ce proiecte active are Neofort IMO în zonă` },
-      { id: 'concluzie', titlu: `Merită să cumperi în Titan–Pallady?` },
+      { id: 'infrastructura-viitor', titlu: `Infrastructura în curs de dezvoltare` },
       { id: 'faq', titlu: `Întrebări frecvente despre zona Titan–Pallady` },
+      { id: 'concluzie', titlu: `Merită să cumperi în Titan–Pallady?` },
     ],
     sectiuni: [
       {
@@ -3934,8 +3937,9 @@ Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Su
       { id: 'avans', titlu: `Avansul și structura creditului` },
       { id: 'banci', titlu: `Băncile partenere și dobânzile` },
       { id: 'tva', titlu: `Noua Casă și TVA 21% — impactul real` },
-      { id: 'sfaturi', titlu: `Sfaturi practice pentru aplicanți` },
+      { id: 'pasi-aplicatie', titlu: `Pașii exacți pentru a aplica` },
       { id: 'faq', titlu: `Întrebări frecvente despre Programul Noua Casă 2026` },
+      { id: 'sfaturi', titlu: `Sfaturi practice pentru aplicanți` },
     ],
     sectiuni: [
       {
@@ -4115,8 +4119,9 @@ Procesul Noua Casă durează 6-10 săptămâni de la primul contact cu banca, fa
       { id: 'finantare', titlu: `Finanțarea: cash vs. credit din România` },
       { id: 'transfer-valuta', titlu: `Transferul de valută — cum faci corect` },
       { id: 'riscuri', titlu: `Riscuri specifice și cum le eviți` },
-      { id: 'sfaturi', titlu: `Sfaturi din 21 de ani de experiență` },
+      { id: 'fiscalitate-diaspora', titlu: `Aspecte fiscale pentru diasporă` },
       { id: 'faq', titlu: `Întrebări frecvente despre cumpărarea din diasporă` },
+      { id: 'sfaturi', titlu: `Sfaturi din 21 de ani de experiență` },
     ],
     sectiuni: [
       {
@@ -4329,8 +4334,9 @@ Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. C
       { id: 'impozit', titlu: `E-Proprietatea și impozitul diferențiat` },
       { id: 'randament', titlu: `Randament la închiriere: nou vs. vechi` },
       { id: 'calcul-exemplu', titlu: `Calcul comparativ pe 10 ani` },
-      { id: 'concluzie', titlu: `Când are sens apartamentul vechi` },
+      { id: 'experiente-reale', titlu: `Experiențe reale din portofoliu` },
       { id: 'faq', titlu: `Întrebări frecvente: apartament nou vs. vechi în București` },
+      { id: 'concluzie', titlu: `Când are sens apartamentul vechi` },
     ],
     sectiuni: [
       {
@@ -4521,8 +4527,9 @@ Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătă
       { id: 'ce-poate-lipsi', titlu: `Ce poate lipsi și nu îți spune nimeni` },
       { id: 'checklist', titlu: `Checklist complet pentru ziua predării` },
       { id: 'garantie', titlu: `Garanția legală și drepturile cumpărătorului` },
-      { id: 'la-neofort', titlu: `Ce include predarea la Neofort IMO` },
+      { id: 'probleme-frecvente', titlu: `Probleme frecvente la predare` },
       { id: 'faq', titlu: `Întrebări frecvente despre predarea la cheie` },
+      { id: 'la-neofort', titlu: `Ce include predarea la Neofort IMO` },
     ],
     sectiuni: [
       {
@@ -4750,8 +4757,9 @@ Dacă ai întrebări despre specificațiile unui proiect specific, consultanții
       { id: 'mosilor', titlu: `Moșilor–Eminescu` },
       { id: 'piata-muncii', titlu: `[Piața Muncii–Dristor](/zona/piata-muncii-dristor)` },
       { id: 'floreasca', titlu: `Floreasca–Aviației (referință premium)` },
-      { id: 'comparativ', titlu: `Tabel comparativ și concluzie` },
+      { id: 'strategii-investitie', titlu: `Strategii pentru maximizarea randamentului` },
       { id: 'faq', titlu: `Întrebări frecvente despre randamentul la închiriere în București` },
+      { id: 'comparativ', titlu: `Tabel comparativ și concluzie` },
     ],
     sectiuni: [
       {

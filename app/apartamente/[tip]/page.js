@@ -6,6 +6,22 @@ import { ANSAMBLURI_ACTIVE, formatPret, STATUS_CONFIG, hasPromo } from '@/data/a
 
 const BASE = 'https://www.neofort.ro'
 
+// ── Ansamblurile finalizate, derivate din date ────────────────────────────────
+// DE CE: lista si pretul minim erau scrise de mana in `seoDesc` si
+// `textEditorial` pentru 'apartamente-noi-finalizate-bucuresti'. Rămăsese
+// „Neofort 76, 56, 50 si 8. De la 76.974€+TVA" — adica numea Neofort 8, mutat
+// in portofoliu la v320-322, si ignora Neofort 82 (finalizat la v403) si
+// Neofort 50 Faza 1. Pretul minim era al unui ansamblu care nu mai e activ.
+// Calculul de aici se actualizeaza singur la fiecare schimbare de dataPredare.
+const FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Finalizat')
+
+// „82, 76, 56, 50 și 11" — numerele in ordinea din date, cu „și" inaintea ultimului
+const FINALIZATE_NUMERE = FINALIZATE.map(a => a.numar).join(', ').replace(/, (\d+)$/, ' și $1')
+
+const FINALIZATE_PRET_MIN = FINALIZATE.length
+  ? Math.min(...FINALIZATE.map(a => Number(a.pretDeLa)).filter(Number.isFinite)).toLocaleString('de-DE')
+  : null
+
 // ── Configuratie tipuri ───────────────────────────────────────────────────────
 const TIP_CONFIG = {
   'garsoniere-bucuresti': {
@@ -205,7 +221,7 @@ Toate informațiile despre distanțele exacte față de metrou sunt verificate �
     h1: 'Ansambluri Rezidențiale Finalizate în București — Disponibile Imediat',
     descriere: 'Apartamente noi finalizate, disponibile imediat în București. Direct de la Neofort IMO, fără comision.',
     seoTitle: 'Ansambluri Rezidențiale Finalizate București',
-    seoDesc: 'Apartamente noi finalizate disponibile imediat în București: Neofort 76, 56, 50, 8. De la 76.974€+TVA. Direct de la sursă, fără comision.',
+    seoDesc: `Apartamente noi finalizate disponibile imediat în București: Neofort ${FINALIZATE_NUMERE}. De la ${FINALIZATE_PRET_MIN}€+TVA. Direct de la sursă, fără comision.`,
     ogDesc: 'Apartamente noi finalizate, disponibile imediat în București. Neofort IMO, fără comision.',
     match: (tipuri, ansamblu) => ansamblu.dataPredare === 'Finalizat',
     faq: [
@@ -230,7 +246,7 @@ Toate informațiile despre distanțele exacte față de metrou sunt verificate �
         a: 'Garanție legală 10 ani pentru vicii structurale, 2 ani pentru finisaje și instalații, conform Legii 10/1995. Garanția se aplică de la data recepției la terminare. Neofort IMO asigură intermedierea relației cu constructorul pe toată perioada de garanție.',
       },
     ],
-    textEditorial: `Ansamblurile finalizate din portofoliul activ Neofort IMO — Neofort 76, 56, 50 și 8 — sunt disponibile pentru mutare imediată sau investiție fără risc de construcție.
+    textEditorial: `Ansamblurile finalizate din portofoliul activ Neofort IMO — Neofort ${FINALIZATE_NUMERE} — sunt disponibile pentru mutare imediată sau investiție fără risc de construcție.
 
 Avantajul principal față de apartamentele în construcție: ai certitudine totală. Vizionezi apartamentul real, nu randări. Semnezi contractul de vânzare-cumpărare direct, fără faza de antecontract. Procesul de credit bancar este mai simplu și mai rapid.
 

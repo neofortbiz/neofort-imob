@@ -903,8 +903,8 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
     zona: 'Eminescu-Viitorului',
     sector: 'Sector 2',
     adresa: 'Zona Eminescu-Viitorului, Sector 2, Bucuresti',
-    status: 'constructie',
-    dataPredare: 'Sept. 2026',
+    status: 'activ',
+    dataPredare: 'Finalizat',
     pretDeLa: 99000,
     etaje: 'S+P+4E+5R',
     telefon: '0752 443 434',
@@ -916,7 +916,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
       interior: ['/ansambluri/neo-11/interior-01-living-open-space.avif','/ansambluri/neo-11/interior-02-living-zona-dining.avif','/ansambluri/neo-11/interior-03-living-bucatarie-deschisa.avif','/ansambluri/neo-11/interior-04-living-dining-bucatarie.avif','/ansambluri/neo-11/interior-05-living-dining-open-space.avif','/ansambluri/neo-11/interior-06-living-bucatarie-vedere.avif','/ansambluri/neo-11/interior-07-living-cu-dining.avif','/ansambluri/neo-11/interior-08-living-spatios.avif','/ansambluri/neo-11/interior-09-dining-masa-rotunda.avif','/ansambluri/neo-11/interior-10-living-vedere-balcon.avif','/ansambluri/neo-11/interior-11-bucatarie-cu-insula.avif','/ansambluri/neo-11/interior-12-hol-intrare.avif','/ansambluri/neo-11/interior-13-hol-acces-camere.avif','/ansambluri/neo-11/interior-14-balcon-amenajat.avif','/ansambluri/neo-11/interior-15-balcon-vedere-oras.avif'],
       schite: ['/ansambluri/neo-11/schite-01.avif','/ansambluri/neo-11/schite-02.avif','/ansambluri/neo-11/schite-03.avif','/ansambluri/neo-11/schite-04.avif','/ansambluri/neo-11/schite-05.avif','/ansambluri/neo-11/schite-06.avif','/ansambluri/neo-11/schite-07.avif','/ansambluri/neo-11/schite-08.avif','/ansambluri/neo-11/schite-09.avif','/ansambluri/neo-11/schite-10.avif','/ansambluri/neo-11/schite-11.avif','/ansambluri/neo-11/schite-12.avif','/ansambluri/neo-11/schite-13.avif'],
     },
-    descriereCompleta: `Există cumpărători care refuză deliberat marile complexuri rezidențiale cu sute de unități și preferă proiectele mici, cu comunitate restrânsă și finisaje care fac diferența vizibilă la fiecare detaliu. Pentru aceștia, Neofort 11 din zona Eminescu-Viitorului, Sectorul 2, cu predare în Septembrie 2026, este alegerea naturală: 15 apartamente, finisaje Premium fără excepție, într-un cartier cu personalitate autentică.
+    descriereCompleta: `Există cumpărători care refuză deliberat marile complexuri rezidențiale cu sute de unități și preferă proiectele mici, cu comunitate restrânsă și finisaje care fac diferența vizibilă la fiecare detaliu. Pentru aceștia, Neofort 11 din zona Eminescu-Viitorului, Sectorul 2, finalizat și disponibil imediat, este alegerea naturală: 15 apartamente, finisaje Premium fără excepție, într-un cartier cu personalitate autentică.
 
 10 tipuri de apartamente: studio garsonieră 33,3 mp de la 99.000€ promoțional (față de 104.000€); 2 camere Tip 2, 59,9 mp, de la 169.900€ promoțional (față de 192.000€); 2 camere Tip 3, 62,1 mp, de la 175.000€ promoțional (față de 192.000€); 2 camere Tip 6, 59,6 mp, de la 175.000€ promoțional (față de 192.000€); 3 camere Tip 9, 66,7 mp, de la 199.000€ promoțional (față de 210.000€); 3 camere Tip 4, 92,4 mp, de la 285.000€ promoțional (față de 288.000€); 3 camere Tip 5, 94 mp, de la 285.000€ promoțional (față de 301.000€); 3 camere Tip 11, 88,5 mp, de la 284.000€ promoțional (față de 300.000€); 3 camere Tip 15, 107,4 mp, de la 339.000€; 3 camere Tip 14, 137,6 mp — cel mai spațios apartament din ansamblu — de la 359.000€. Toate + TVA. Parcare subterană 25.000€.
 
@@ -924,13 +924,13 @@ Finisajele nu lasă loc de compromis. Gresie și faianță MARAZZI — brand ita
 
 Zona Eminescu-Viitorului are un caracter rezidențial distinct față de marile cartiere: case și blocuri mici, arhitectură interbelică bine conservată, o comunitate culturală și educată. Nu este o zonă de tranzit — este o zonă în care oamenii aleg deliberat să locuiască. Tramvai Mihai Bravu și linii STB multiple la 2 minute pe jos — conectivitate excelentă fără metrou în imediată apropiere. Metrou Piața Obor (M2) la 2 minute cu mașina, Metrou Ștefan cel Mare (M2) la 19 minute pe jos. Colegiul Național Iulia Hașdeu la 5 minute pe jos, Colegiul Național Mihai Eminescu la 8 minute. Grădinița Bambi la 3 minute pe jos. Parcul Circului la 8 minute, Parcul Ioanid la 10 minute. Spital Clinic Colentina la 10 minute, MedLife, Regina Maria și Sanador la 10 minute.
 
-15 apartamente înseamnă că vei cunoaște toți vecinii. Înseamnă costuri comune reduse. Înseamnă că administrarea clădirii este simplă și transparentă. Predare Septembrie 2026. Vânzare directă, fără comision.
+15 apartamente înseamnă că vei cunoaște toți vecinii. Înseamnă costuri comune reduse. Înseamnă că administrarea clădirii este simplă și transparentă. Proiect finalizat, predare la semnare. Vânzare directă, fără comision.
 
 Zona Eminescu-Viitorului are un avantaj subtil pe care cumpărătorii atenți îl recunosc: nu are blocuri turn de 10-15 etaje. Regulamentul de urbanism al zonei limitează înălțimea construcțiilor, ceea ce înseamnă că vederea, lumina și caracterul rezidențial al cartierului sunt protejate structural — nu temporar. Neofort 11, cu regimul S+P+4E+5R, respectă și valorifică acest caracter.
 
 Pentru familiile cu copii, zona oferă unele dintre cele mai reputate licee din București: Colegiul Național Iulia Hașdeu și Colegiul Național Mihai Eminescu la 5-8 minute pe jos — o valoare educațională greu de egalat la distanța de mers pe jos. Grădinița Bambi la 3 minute pe jos completează oferta pentru copiii mici.
 
-Predarea estimată în Septembrie 2026 permite finalizarea procesului de finanțare bancară fără presiune de timp. Consultanța bancară Neofort IMO este gratuită și include compararea ofertelor de la toate băncile partenere pentru cel mai mic cost total de finanțare. Apartamentele în promoție — 2 camere de la 169.900€ față de 192.000€ standard — reprezintă o economie imediată de până la 22.100€ față de prețul de listă. Parcare subterană 25.000€. Vânzare directă, fără comision.
+Clădirea fiind finalizată, banca poate evalua direct apartamentul, iar procesul de finanțare se desfășoară fără presiune de timp. Consultanța bancară Neofort IMO este gratuită și include compararea ofertelor de la toate băncile partenere pentru cel mai mic cost total de finanțare. Apartamentele în promoție — 2 camere de la 169.900€ față de 192.000€ standard — reprezintă o economie imediată de până la 22.100€ față de prețul de listă. Parcare subterană 25.000€. Vânzare directă, fără comision.
 
 Zona Eminescu-Viitorului din Sectorul 2 are un caracter urban pe care proiectele imobiliare din zone noi nu îl pot replica: case interbelice bine conservate, blocuri mici din anii '70-'80, arbori maturi pe trotuare, magazine de cartier și o comunitate rezidențială stabilă care locuiește aici de generații. Este o zonă în care vecinii se cunosc, în care există o identitate de cartier autentică, în care arhitectura are personalitate. Neofort 11, cu cele 15 unități ale sale, se inserează în acest țesut urban fără a-l perturba.
 
@@ -938,12 +938,12 @@ Colegiile Iulia Hașdeu și Mihai Eminescu — ambele cu tradiție academică de
 
 Tâmplăria Salamander 7 camere cu geam tripan asigură o izolare fonică de 45dB — pragul la care zgomotul urban exterior devine imperceptibil în dormitor. Zona Eminescu-Viitorului nu este o arteră principală, deci zgomotul de fond este redus, dar izolarea tripan asigură că activitatea din stradă nu se aude în apartament indiferent de oră. Acesta este standardul premium al tâmplăriei PVC — nu toate produsele Salamander sunt la fel, iar 7 camere tripan reprezintă top-ul gamei.
 
-Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperit, securizat, în subsolul propriului imobil — este prețul corect pentru zona Sector 2 semicentral. Alternativa — parcare pe stradă sau în parcări publice din cartier — costă între 150€ și 300€/lună, adică 1.800-3.600€/an. La 25.000€ și 7% dobândă (cost de oportunitate), costul anual al locului de parcare propriu este de 1.750€ — sub prețul parcării publice și cu avantajul certitudinii și siguranței. Predare Septembrie 2026. Vânzare directă, fără comision. Tot în Sectorul 2, descoperiți [Neofort 78 Moșilor Eminescu](/ansamblu-rezidential/neofort-78-mosilor-eminescu) — 22 apartamente premium lângă Piața Obor, proiect vândut integral — sau [Neofort 8 Tepeș Vodă](/ansamblu-rezidential/neofort-8-tepes-voda-muncii), de asemenea vândut integral. Pentru randamentul din chirii pe zone, vezi [analiza randamentului la închiriere în București](/blog/randament-inchiriere-zone-bucuresti), care acoperă și Moșilor.`,
+Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperit, securizat, în subsolul propriului imobil — este prețul corect pentru zona Sector 2 semicentral. Alternativa — parcare pe stradă sau în parcări publice din cartier — costă între 150€ și 300€/lună, adică 1.800-3.600€/an. La 25.000€ și 7% dobândă (cost de oportunitate), costul anual al locului de parcare propriu este de 1.750€ — sub prețul parcării publice și cu avantajul certitudinii și siguranței. Proiect finalizat, predare la semnare. Vânzare directă, fără comision. Tot în Sectorul 2, descoperiți [Neofort 78 Moșilor Eminescu](/ansamblu-rezidential/neofort-78-mosilor-eminescu) — 22 apartamente premium lângă Piața Obor, proiect vândut integral — sau [Neofort 8 Tepeș Vodă](/ansamblu-rezidential/neofort-8-tepes-voda-muncii), de asemenea vândut integral. Pentru randamentul din chirii pe zone, vezi [analiza randamentului la închiriere în București](/blog/randament-inchiriere-zone-bucuresti), care acoperă și Moșilor.`,
     brokerTel: '0752 443 434',
     coordonate: { lat: 44.447354, lng: 26.108451 },
     zone: ['eminescu-viitorului', 'mosilor-eminescu', 'sector-2'],
     tipuri: ['Studio', '2 camere', '3 camere'],
-    descriere: 'Ansamblul Rezidențial Boutique Premium Neofort 11, zona Eminescu-Viitorului, Sector 2. Doar 15 apartamente S+P+4E+5R. Studio, garsonieră, 2 și 3 camere de la 99.000€+TVA. Predare Septembrie 2026. Finisaje premium: gresie MARAZZI, parchet Kronotex, obiecte sanitare GROHE/HansGrohe, centrală ARISTON 24kW, lift ORONA.',
+    descriere: 'Ansamblul Rezidențial Boutique Premium Neofort 11, zona Eminescu-Viitorului, Sector 2. Proiect finalizat, disponibil imediat. Doar 15 apartamente S+P+4E+5R. Studio, garsonieră, 2 și 3 camere de la 99.000€+TVA. Finisaje premium: gresie MARAZZI, parchet Kronotex, obiecte sanitare GROHE/HansGrohe, centrală ARISTON 24kW, lift ORONA.',
     apartamente: [
       { tip: 'Studio Garsoniera', etaj: 'et. 1-5', suprafata: 33.30, avans20: 104000, avans45: null, promo: true, camere: 1, pretPromo: 99000 },
       { tip: '2 cam. Tip 2', etaj: 'et. 1-5', suprafata: 59.90, avans20: 192000, avans45: null, promo: true, camere: 2, pretPromo: 169900 },
@@ -974,7 +974,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Eminescu Viitorului — Neofort 11',
-    seoDescription: 'Ansamblu rezidential boutique Neofort 11 Eminescu-Viitorului, Sector 2. 15 apartamente premium, studio si 2-3 camere de la 99.000 euro+TVA. Predare septembrie 2026.',
+    seoDescription: 'Ansamblu rezidential boutique Neofort 11 Eminescu-Viitorului, Sector 2. Proiect finalizat, 15 apartamente premium, studio si 2-3 camere de la 99.000 euro+TVA.',
   },
   {
     slug: 'neofort-10-colentina-fundeni',

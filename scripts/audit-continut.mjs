@@ -233,11 +233,33 @@ for (const [slug, a] of Object.entries(ARTICOLE || {})) {
     if (/\d{1,3}(?:\.\d{3})+\s*(?:EUR|€|euro)/i.test(b))
       P(`blog/${slug}`, `peScurt contine un pret — interzis din v349: „${b.slice(0, 80)}…"`)
 
-  // intrari de cuprins fara secțiune (cuprinsul se deriva din `sectiuni`,
-  // deci o intrare orfana nu mai apare nicaieri si trece neobservata)
-  const idSectiuni = new Set((a.sectiuni || []).map(s => s.id))
-  for (const c of a.cuprins || [])
-    if (!idSectiuni.has(c.id)) P(`blog/${slug}`, `\`cuprins\` are intrarea „${c.id}" fara secțiune corespondenta`)
+  // `cuprins` vs `sectiuni` — acelasi set SI aceeasi ordine.
+  //
+  // DE CE toate trei direcțiile, nu doar prima: pana la v413 se verifica doar
+  // intrarile de cuprins fara secțiune. Scapau celelalte doua, in 14 articole
+  // din 35: opt aveau o secțiune intreaga lipsa din cuprins (la
+  // tva-apartamente-noi-2026 secțiunea `exemple-complete` nu aparea deloc in
+  // navigare), iar toate paisprezece listau `faq` ultimul in cuprins desi pe
+  // pagina dupa el urma concluzia. Ancorele functionau, deci nimic nu se
+  // vedea rupt — doar cuprinsul mintea despre ordinea paginii.
+  const idSectiuni = (a.sectiuni || []).map(s => s.id)
+  const setSectiuni = new Set(idSectiuni)
+  const idCuprins = (a.cuprins || []).map(c => c.id)
+  const setCuprins = new Set(idCuprins)
+
+  for (const id of idCuprins)
+    if (!setSectiuni.has(id)) P(`blog/${slug}`, `\`cuprins\` are intrarea „${id}" fara secțiune corespondenta`)
+
+  for (const id of idSectiuni)
+    if (!setCuprins.has(id)) P(`blog/${slug}`, `secțiunea „${id}" nu apare in \`cuprins\` — invizibila in navigare`)
+
+  if (idCuprins.length === idSectiuni.length &&
+      idCuprins.every(id => setSectiuni.has(id)) &&
+      idCuprins.join('|') !== idSectiuni.join('|')) {
+    // se raporteaza PRIMA poziție in care difera; o coada identica nu spune nimic
+    const poz = idCuprins.findIndex((id, k) => id !== idSectiuni[k])
+    P(`blog/${slug}`, `\`cuprins\` are aceleasi id-uri ca \`sectiuni\`, dar in alta ordine — la poziția ${poz + 1} cuprinsul spune „${idCuprins[poz]}", pagina are „${idSectiuni[poz]}"`)
+  }
 
   // id de secțiune duplicat = ancora dubla + continut afisat de doua ori
   const vazut = new Set()
