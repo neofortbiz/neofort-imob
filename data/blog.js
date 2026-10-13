@@ -1431,12 +1431,14 @@ Componentele costului total:
 8. Asigurarea PAD (obligatorie): 20 EUR/an. Nu uitați asigurarea facultativă (70–150 EUR/an) dacă aveți credit
 
 Exemplu calcul complet — apartament 2 camere Neofort 84 la avans 45%:
-• Preț apartament: 62.114 EUR
-• TVA 9% (sub plafonul de 120.000 EUR): 5.590 EUR
-• Total apartament cu TVA: 67.704 EUR
+• Preț apartament, fără TVA: 62.114 EUR
+• TVA 21%: 13.044 EUR
+• Total apartament cu TVA: 75.158 EUR
 • Parcare exterioară: 6.000 EUR + TVA 21% = 7.260 EUR
 • Notar + intabulare: ~900 EUR
-• Total complet: ~75.864 EUR
+• Total complet: ~83.318 EUR
+
+Cota aplicabilă oricărei achiziții noi este 21%. Cota redusă de 9% s-a aplicat doar livrărilor făcute până la 30 septembrie 2026 inclusiv, pentru cumpărători care aveau antecontract cu 20% avans achitat până la 31 iulie 2025 — detalii în [ghidul despre TVA la apartamente noi](/blog/tva-apartamente-noi-2026).
 
 Consultanță bancară gratuită: Neofort IMO colaborează cu toate băncile majore din România (BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank) și poate facilita gratuit compararea ofertelor de credit ipotecar. Nu lucrăm cu o singură bancă — îți identificăm cel mai mic cost total de finanțare.`,
       },
@@ -2109,7 +2111,7 @@ Dacă chiriașul nu plătește, cât durează evacuarea legală?
       'Comparația între bănci trebuie făcută pe DAE (dobânda anuală efectivă), nu pe dobânda nominală afișată.',
     ],
     tag: 'Finanțare', tagColor: '#0369a1',
-    data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min',
+    data: '18 Mai 2026', dataISO: '2026-05-18', dataModificata: '2026-10-13', citire: '12 min',
     autor: 'sasha-calutu',
     image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif',
     descriere: `Cum arată creditul ipotecar în 2026? Dobânzi reale, ROBOR vs IRCC, condiții de eligibilitate, calcule concrete și ce bănci oferă cele mai bune condiții — ghid complet pentru cumpărătorii de apartamente noi din București.`,
@@ -2118,7 +2120,7 @@ Dacă chiriașul nu plătește, cât durează evacuarea legală?
     cuprins: [
       { id: 'piata-credit-2026', titlu: `Piața creditului ipotecar în mai 2026` },
       { id: 'ircc-vs-robor', titlu: `IRCC vs ROBOR — care e mai bun în 2026` },
-      { id: 'calcul-real', titlu: `Calculul real al costului unui credit` },
+      { id: 'calcul-real', titlu: `Costul real: rata, DAE și totalul` },
       { id: 'conditii-eligibilitate', titlu: `Condiții de eligibilitate — ce verifică banca` },
       { id: 'banci-comparatie', titlu: `Comparație bănci principale în 2026` },
       { id: 'noua-casa', titlu: `Noua Casă 2026 — mai merită?` },
@@ -2170,37 +2172,35 @@ Câteva bănci (BCR, Raiffeisen) oferă dobândă fixă pe primii 3-5 ani, după
       },
       {
         id: 'calcul-real',
-        h2: `Calculul real al costului unui credit ipotecar în 2026 — fără surprize`,
-        continut: `Cel mai frecvent greșit este compararea prețului afișat al apartamentului cu rata lunară a creditului, ignorând costurile totale reale. Iată un calcul complet și onest.
+        h2: `Costul real al unui credit ipotecar: rata, DAE și totalul pe 30 de ani`,
+        continut: `Cea mai frecventă greșeală este compararea prețului afișat al apartamentului cu rata lunară, ignorând totalul plătit la final. Iată calculul complet.
 
-Exemplu concret: apartament 2 camere 55 mp, preț 135.000 EUR + TVA 9% = 147.150 EUR total = ~735.750 lei.
+**Pasul 1 — de la prețul apartamentului la suma împrumutată.** Prețurile apartamentelor noi se afișează de regulă fără TVA, iar cota aplicabilă oricărei achiziții noi este **21%**. La un apartament de 135.000 EUR fără TVA, totalul este 163.350 EUR. Cu un avans de 20%, suma împrumutată este ~130.700 EUR.
 
-Structura finanțării (avans 20%):
-• Avans: 147.000 lei (20%)
-• Credit necesar: 588.750 lei (80%)
-• Durata: 30 de ani
+**Pasul 2 — rata lunară.** Exemplu pe un credit de **600.000 lei pe 30 de ani**, la o dobândă variabilă de 7,57% (IRCC 5,57% pentru trimestrul IV 2026, plus o marjă de 2%):
 
-Costul lunar estimat (IRCC 5,58% + marjă 2% = 7,58% DAE total):
-• Rata lunară principală: ~4.150 lei
-• Asigurare viață obligatorie: ~150-250 lei/lună
-• Asigurare imobil (PAD + facultativă): ~80-120 lei/lună
-• Total lunar real: ~4.380-4.520 lei/lună
+• Rata lunară: **~4.224 lei**
+• Total plătit în 30 de ani: **~1.520.670 lei**
+• Din care dobânzi: **~920.670 lei**
 
-Costul total pe 30 de ani:
-• Total plătit băncii: ~1.494.000 lei
-• Din care dobânzi: ~905.250 lei
-• Costul real al apartamentului (avans + credit total): ~1.641.000 lei (~328.000 EUR)
+Dobânda cumulată depășește 150% din suma împrumutată. Nu este o anomalie — este efectul duratei de 30 de ani, iar este singurul lucru pe care îl poți reduce semnificativ prin plăți anticipate.
 
-Comparație cu chiria:
-O chirie echivalentă pentru 2 camere în aceeași zonă: 2.200-2.800 lei/lună. Rata creditului este cu ~1.600-2.300 lei mai mare — dar după 30 de ani ești proprietarul unui activ care valorează estimativ 200.000-250.000 EUR, față de zero din chirie.
+**Pasul 3 — ce se adaugă peste rată**, lunar:
+• Asigurare de viață, de regulă obligatorie: variază cu vârsta și starea de sănătate
+• Asigurare a imobilului, PAD obligatoriu plus facultativă
+• Fond de întreținere al blocului
+• Impozitul pe clădire, anual, plătibil în două tranșe — cum se calculează e în [ghidul despre impozitul pe apartament](/blog/e-proprietatea-2026-noul-sistem-de-impozitare)
 
-Costurile ascunse de care nu ți spune nimeni:
-• Evaluare bancară a imobilului: 500-800 lei (plătit de client)
-• Comision analiză dosar: 0 (interzis legal) sau inclus în DAE
-• Asigurare de viață: obligatorie, costul variază cu vârsta și starea de sănătate
-• Fond de risc FNGCIMM (Noua Casă): 0,25% anual din soldul creditului
-• Impozit E-Proprietatea: ~600-1.200 lei/an din 2026
-• Fondul de întreținere al blocului: 50-200 lei/lună`,
+**Pasul 4 — costuri de pornire**, o singură dată:
+• Evaluarea imobilului, cerută de bancă
+• Onorariu notarial și taxa de intabulare
+• Eventual comision de analiză a dosarului, dacă banca îl practică
+
+**Testul pe care îl recomandăm oricui.** Refă calculul ratei cu indicele mai mare cu 2 puncte procentuale. În exemplul de mai sus, la 9,57% rata urcă de la 4.224 la 5.076 lei, adică **cu 852 lei pe lună**. Dacă suma aceea nu încape în buget, creditul e la limită — iar dobânda de referință nu dă, la data actualizării acestui articol, niciun semnal de scădere.
+
+Pentru calibrare: o variație de 0,25 puncte pe indice schimbă rata cu ~103 lei pe lună la un credit de 600.000 lei.
+
+**Toate cifrele de mai sus se schimbă cu indicele, cu marja negociată și cu durata.** Folosește-le ca metodă de calcul, nu ca pe oferta ta. Cifra pe care o pui în buget este DAE din oferta scrisă primită de la bancă, pentru suma și perioada tale.`,
       },
       {
         id: 'conditii-eligibilitate',
@@ -2508,7 +2508,7 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
       'Înainte de semnare se verifică dezvoltatorul, termenul de predare, autorizația și graficul de plăți.',
     ],
     tag: 'Piață', tagColor: '#0369a1',
-    data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min',
+    data: '16 Mai 2026', dataISO: '2026-05-16', dataModificata: '2026-10-13', citire: '11 min',
     autor: 'adrian-pintilie',
     image: '/blog/merita-apartament-titan-pallady-2026.avif',
     descriere: `Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă a pieței, prețurilor reale, avantajelor și riscurilor — cu date concrete din tranzacțiile Neofort IMO. Pentru cumpărători și investitori.`,
@@ -2548,7 +2548,7 @@ Rezultatul: site-ul neofort.ro înregistrează lunar peste 11.000 de vizite orga
         h2: `Prețuri reale în Titan–Pallady în mai 2026 — ce cumperi cu ce buget`,
         continut: `Aceste prețuri reflectă tranzacțiile reale din portofoliul Neofort IMO și datele de piață verificate, nu estimările din publicitate.
 
-Prețuri proiecte noi (TVA 9% inclus, unde se aplică):
+Prețuri proiecte noi, valori orientative de referință (la totalul final se aplică TVA 21%, cota în vigoare pentru orice achiziție nouă):
 • Garsonieră 35–43 mp: 62.000–90.000 EUR
 • 2 camere 47–67 mp: 120.000–175.000 EUR
 • 3 camere 75–95 mp: 165.000–220.000 EUR
@@ -2711,7 +2711,7 @@ Decizia finală depinde de trei lucruri: developerul ales, localizarea exactă �
       'Neofort IMO are promoții active în Titan–Pallady și Teclu, la ansamblurile Neofort 84, 56, 50 și 28.',
     ],
     tag: 'Piață', tagColor: '#0369a1',
-    data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min',
+    data: '9 Mai 2026', dataISO: '2026-05-09', dataModificata: '2026-10-13', citire: '9 min',
     autor: 'sasha-calutu',
     image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif',
     descriere: `Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Ghid cu tipuri reale de promoții, cum identifici o reducere autentică și ce zone au cel mai mare potențial în prezent.`,
@@ -2722,7 +2722,7 @@ Decizia finală depinde de trei lucruri: developerul ales, localizarea exactă �
       { id: 'zone-active', titlu: `Zonele cu cele mai multe promoții active` },
       { id: 'cum-identifici', titlu: `Cum identifici o promoție reală vs. marketing` },
       { id: 'avans-mare', titlu: `Promoțiile cu avans mare — calculul real` },
-      { id: 'tva-redus', titlu: `TVA redus — cine mai beneficiază în 2026` },
+      { id: 'tva-redus', titlu: `TVA 21% — ce înseamnă pentru buget` },
       { id: 'tipuri-cautate', titlu: `Tipurile de apartamente cu cele mai bune oferte` },
       { id: 'faq', titlu: `Întrebări frecvente despre promoții` },
     ],
@@ -2795,45 +2795,47 @@ Compară prețul total (preț apartament + TVA + parcare + boxa dacă sunt separ
         h2: `Promoțiile cu avans mare — merită sau nu să plătești mai mult din start?`,
         continut: `Aceasta este una dintre cele mai importante decizii financiare la cumpărarea unui apartament nou în construcție. Merită să dai avans 45% pentru a beneficia de prețul promoțional?
 
-Scenariul cu avans 45% — exemplu concret:
-• Preț apartament cu avans 45%: 130.000 EUR + TVA 9% = 141.700 EUR total
-• Prețul cu avans 20%: 140.000 EUR + TVA 9% = 152.600 EUR total
-• Diferență la prețul final: 10.900 EUR (7,7%)
-• Ai plătit 63.765 EUR din start (45%) vs 30.520 EUR (20% + câteva rate în construcție)
+Toate cifrele de mai jos sunt calculate cu **TVA 21%**, cota aplicabilă oricărei achiziții noi.
+
+Scenariul cu avans 45% — exemplu ilustrativ:
+• Preț cu avans 45%: 130.000 EUR + TVA 21% = **157.300 EUR** total
+• Preț cu avans 20%: 140.000 EUR + TVA 21% = **169.400 EUR** total
+• Diferență la prețul final: **12.100 EUR** (7,7%)
+• Plătești din start 70.785 EUR (45%) față de 33.880 EUR (20%)
 
 Calculul costului de oportunitate:
-Diferența de avans blocată: 63.765 EUR vs 30.520 EUR = 33.245 EUR blocați suplimentar pe perioada construcției (să zicem 18 luni)
-La o dobândă bancară de 5% pe an, costul de oportunitate al acestor bani blocați: 33.245 × 5% × 1,5 ani = ~2.493 EUR
+Diferența de avans blocată: 70.785 − 33.880 = **36.905 EUR** blocați suplimentar pe perioada construcției (să zicem 18 luni).
+La un randament alternativ de 5% pe an, costul de oportunitate al acestor bani: 36.905 × 5% × 1,5 ani = **~2.770 EUR**.
 
-Concluzia: economisești 10.900 EUR la prețul final vs blocați suplimentar ~33.000 EUR cu un cost de oportunitate de ~2.500 EUR. Câștigul net real: ~8.400 EUR — relevant dacă ai lichiditatea disponibilă.
+Concluzia: economisești 12.100 EUR la prețul final, cu un cost de oportunitate de ~2.770 EUR. **Câștig net: ~9.330 EUR** — relevant dacă ai lichiditatea disponibilă.
 
-Dar dacă nu ai acei bani disponibili și trebuie să iei credit pentru avansul mare? Calculul se complică. La o dobândă bancară de 7% anual pe 33.245 EUR suplimentari creditați timp de 18 luni = ~3.490 EUR dobândă suplimentară. Câștigul net scade la ~7.400 EUR — în continuare pozitiv, dar mai redus.
+Dar dacă nu ai banii și trebuie să te împrumuți pentru avansul mare? La o dobândă de 7% pe an pe cei 36.905 EUR suplimentari, timp de 18 luni, plătești ~3.875 EUR dobândă. **Câștigul net scade la ~8.225 EUR** — în continuare pozitiv, dar mai mic.
 
-Concluzia: avansul 45% este avantajos dacă ai lichiditate proprie. Dacă trebuie să creditezi suplimentar pentru avans, câștigul se reduce dar rămâne de obicei pozitiv. Calculează specific pentru situația ta.`,
+Concluzia practică: avansul de 45% este avantajos dacă ai lichiditate proprie, și rămâne de regulă avantajos chiar dacă trebuie să creditezi suplimentar. Ce nu trebuie ignorat este riscul: banii dați în avans într-un proiect în construcție sunt expuși până la recepție. Verifică stadiul lucrărilor și soliditatea dezvoltatorului înainte — [checklist-ul de verificare](/blog/checklist-verificare-dezvoltator-imobiliar) acoperă exact asta.
+
+Calculează pe cifrele tale, nu pe exemplul de mai sus: diferența de preț promoțional, perioada rămasă până la recepție și costul banilor tăi sunt diferite în fiecare caz.`,
       },
       {
         id: 'tva-redus',
-        h2: `TVA redus la apartamente noi în 2026 — cine mai beneficiază și în ce condiții`,
-        continut: `Legislația fiscală din 2026 a modificat semnificativ condițiile pentru TVA redus (9%) la apartamente noi. Este esențial să înțelegi corect regulile înainte de a planifica bugetul.
+        h2: `TVA la apartamente noi: 21% — ce înseamnă pentru bugetul tău`,
+        continut: `**Orice achiziție nouă de apartament se face cu TVA 21%.** Cota redusă de 9% s-a aplicat doar livrărilor făcute până la 30 septembrie 2026 inclusiv, pentru cumpărători care aveau deja un antecontract cu minimum 20% avans achitat până la 31 iulie 2025. Fereastra s-a închis; nicio achiziție începută acum nu se încadrează.
 
-Condiții pentru TVA 9% (în vigoare în 2026):
-• Suprafața utilă a apartamentului nu depășește 120 mp
-• Valoarea apartamentului (fără TVA) nu depășește 600.000 lei (aproximativ 120.000 EUR la cursul actual)
-• Cumpărătorul nu a mai beneficiat de TVA redus pentru o altă achiziție imobiliară
-• Cumpărătorul nu deține altă proprietate rezidențială în România la data achiziției
+Dacă ai citit, aici sau în altă parte, că apartamentele sub un anumit preț „se califică pentru TVA 9%", informația nu mai este valabilă. Verifică întotdeauna cota pe factura și pe contractul tău, nu pe o condiție generală.
 
-Condiții pentru TVA 21% (se aplică când:):
-• Suprafața depășește 120 mp utili
-• Prețul apartamentului depășește 600.000 lei
-• Cumpărătorul mai are o altă proprietate în România
-• Este a doua achiziție cu TVA redus
+**Ce înseamnă în bani, concret.** La un apartament de 135.000 EUR fără TVA:
+• cu cota de 21%: **163.350 EUR** total
+• cu vechea cotă de 9%: 147.150 EUR total
+• diferența: **16.200 EUR**
 
-Implicații practice în 2026:
-Apartamentele de 2 camere cu prețuri sub 120.000 EUR se califică aproape toate pentru TVA 9%.
-Apartamentele de 3 camere și penthouse-urile depășesc frecvent limita de valoare și sunt impozitate cu TVA 21%.
-Diferența TVA 9% vs 21% la un apartament de 150.000 EUR (fără TVA): 13.500 EUR vs 31.500 EUR — o diferență de 18.000 EUR ce trebuie inclusă în planificarea bugetului.
+De aceea, când compari o ofertă de acum cu un preț văzut în primăvară, compară valorile nete, fără TVA. Altfel diferența de cotă îți strică toată comparația.
 
-Important: verifică cu developer-ul și cu avocatul situația specifică TVA pentru apartamentul vizat și situația ta fiscală personală. Regulile se aplică individual.`,
+**Cum se citesc prețurile noastre.** Toate prețurile Neofort IMO sunt afișate **fără TVA** („EUR+TVA"). Pentru bugetul total, adaugi 21%. Nu există surprize la semnare, dar calculul trebuie făcut de la început pe suma cu taxă inclusă, pentru că ea este suma pe care o finanțează banca.
+
+**Plafonul de 600.000 lei, pentru context.** Era condiția de valoare a vechii cote reduse și se raporta la valoarea locuinței **fără TVA**, inclusiv terenul — nu la prețul final afișat. Este o confuzie frecventă, iar acum are importanță doar pentru dosarele de restituire.
+
+**Cine mai poate recupera diferența.** Cumpărătorii care au plătit 21% după 1 august 2026, deși îndeplineau condițiile cotei reduse, pot cere restituirea diferenței de 12 puncte procentuale. Cererile se depun începând cu 1 octombrie 2026. Condițiile și documentele sunt în [ghidul despre restituirea TVA](/blog/restituire-tva-9-la-suta-termen-30-septembrie-2026), iar regulile complete de calcul în [ghidul despre TVA la apartamente noi](/blog/tva-apartamente-noi-2026).
+
+Consultanții noștri verifică gratuit dacă situația ta se încadrează la restituire: 0758 090 904.`,
       },
       {
         id: 'tipuri-cautate',
@@ -2845,7 +2847,7 @@ Cel mai competitiv segment. Developer-ii sunt mai motivați să mențină prețu
 • Sunt cel mai vândut segment pe piață (volum mare = vânzare rapidă)
 • Finanțabile prin Noua Casă (program guvernamental)
 • Cerere mare din diasporă pentru investiții locative
-Promoțiile disponibile: avans 45% cu discount 8–12%, TVA 9% inclusiv, pachete cu parcare la preț redus.
+Promoțiile disponibile: avans 45% cu discount 8–12% și pachete cu parcare la preț redus. TVA se aplică la cota standard de 21% pentru orice achiziție nouă.
 
 Apartamentele de 2 camere cu terase generoase (50–90 mp terasă)
 Tipologie rară, cu prime de 15–25% față de apartamentele fără terasă. Dar aceeași raritate face ca developer-ii să ofere prețuri promoționale pentru a stimula vânzarea — mai ales la etajele superioare unde prețul total poate fi peste bugetul cumpărătorilor tipici.
@@ -3683,7 +3685,9 @@ Sfatul meu practic: dacă bugetul tău se situează sub 80.000–90.000 EUR tota
       {
         id: 'exemple-complete',
         h2: `Exemple complete de calcul TVA — 5 scenarii reale din piața din București`,
-        continut: `Teoretic e ușor de înțeles, dar în practică oamenii au nevoie de exemple concrete. Iată 5 scenarii reale, cu calculul exact:
+        continut: `Teoretic e ușor de înțeles, dar în practică oamenii au nevoie de exemple concrete. Iată 5 scenarii, cu calculul exact.
+
+**Citește-le ca pe o reconstituire a perioadei în care cota redusă se mai aplica**, adică până la 30 septembrie 2026. Pentru o achiziție de azi, se aplică întotdeauna coloana de 21% — scenariile cu 9% rămân relevante doar pentru cine verifică dacă se încadrează la restituirea diferenței.
 
 Scenariul 1 — Cumpărător nou, apartament 2 camere 55 mp, preț net 110.000 EUR, semnat în iunie 2026:
 • Nu a mai cumpărat cu TVA redus → potențial eligibil 9% dacă are antecontract + 20% avans din iulie 2025
@@ -3721,7 +3725,7 @@ Pot beneficia acum de TVA redus la un apartament nou?
 Nu. Fereastra de livrare cu cota redusă s-a închis pe 30 septembrie 2026, iar condiția de antecontract cu 20% avans înainte de 1 august 2025 excludea deja orice achiziție inițiată ulterior. Se aplică 21% indiferent de prețul sau suprafața apartamentului.
 
 Cum calculez TVA-ul pentru un apartament de 100.000 EUR?
-La TVA 21%: 100.000 EUR × 1,21 = 121.000 EUR total. La TVA 9% (dacă ești eligibil tranzitoriu): 100.000 EUR × 1,09 = 109.000 EUR total. Diferența de 12.000 EUR reprezintă costul suplimentar al regimului actual față de cel tranzitoriu.
+La cota de 21%, aplicabilă oricărei achiziții noi: 100.000 EUR × 1,21 = 121.000 EUR total. Cu vechea cotă de 9%, totalul ar fi fost 109.000 EUR. Diferența de 12.000 EUR reprezintă costul suplimentar al regimului actual față de cel tranzitoriu.
 
 Prețurile afișate de Neofort IMO includ sau exclud TVA?
 Prețurile afișate de Neofort IMO sunt TVA exclus. La prețul afișat se adaugă TVA 21% (sau 9% dacă ești eligibil tranzitoriu), rezultând prețul total de plată. La vizita de informare, consultantul calculează costul total exact pentru situația ta.
@@ -3939,7 +3943,7 @@ Echipa Neofort IMO cunoaște fiecare stradă din Titan–Pallady în detaliu. Su
       'Programul se combină cu TVA 21% pentru locuințele noi și are condiții de eligibilitate și bănci partenere specifice.',
     ],
     tag: 'Finanțare', tagColor: '#0369a1',
-    data: '28 Aprilie 2026', dataISO: '2026-04-28', citire: '10 min',
+    data: '28 Aprilie 2026', dataISO: '2026-04-28', dataModificata: '2026-10-13', citire: '10 min',
     autor: 'adriana-veselu',
     image: '/blog/noua-casa-2026-ghid-complet.avif',
     descriere: `Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere, ce apartamente se califică și cum interacționează cu TVA 21%.`,
@@ -4040,7 +4044,7 @@ Plafonul Noua Casă pentru locuințe noi este 119.000 EUR total (cu TVA inclus).
 
 Practic: Noua Casă acoperă confortabil garsoniere și studiouri în zone centrale și apartamente mici de 2 camere în zone mai periferice. Apartamentele de 2 camere de 55–60 mp în Titan–Pallady, Militari sau Moșilor depășesc de regulă plafonul.
 
-Există o excepție importantă: pentru cumpărătorii care se califică pentru TVA 9% tranzitoriu (au semnat antecontract cu 20% avans înainte de 31 iulie 2025), plafonul devine efectiv mai generos — 119.000 EUR total include TVA 9%, nu 21%, deci acoperă locuințe de până la ~109.000 EUR net.
+A existat o excepție care a contat până la 30 septembrie 2026: pentru cumpărătorii care se calificau la cota tranzitorie de 9% (antecontract cu 20% avans încheiat până la 31 iulie 2025 și livrare până la 30 septembrie 2026), plafonul acoperea locuințe mai scumpe în valoare netă. Fereastra s-a închis, deci plafonul se calculează acum întotdeauna cu TVA 21%.
 
 Sfatul meu: dacă bugetul total este sub 100.000 EUR, analizați serios Noua Casă. Dacă bugetul e între 100.000 și 150.000 EUR, comparați Noua Casă cu un credit standard de la bancă — uneori creditul standard cu avans de 20% oferă condiții mai bune și flexibilitate mai mare. Deasupra de 150.000 EUR, Noua Casă nu mai este relevantă.`,
       },
@@ -4336,7 +4340,7 @@ Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. C
       'Apartamentele noi vin cu garanție de structură 10 ani și standarde energetice actuale, relevante pentru costurile pe termen lung.',
     ],
     tag: 'Analiză', tagColor: '#c2410c',
-    data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min',
+    data: '4 Mai 2026', dataISO: '2026-05-04', dataModificata: '2026-10-13', citire: '9 min',
     autor: 'ramona-baicu',
     image: '/blog/apartament-nou-vs-vechi-calcul-real.avif',
     descriere: `Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, întreținere, risc seismic, impozit E-Proprietatea, randament închiriere și ce alegi pe termen lung.`,
@@ -4474,7 +4478,7 @@ Un apartament nou comparabil costa în același moment 118.000 EUR — diferenț
 Azi, apartamentul lor vechi valorează ~105.000 EUR (creștere modestă). Un apartament nou similar valorează ~155.000 EUR. Pe 6 ani, au ratat 50.000 EUR în apreciere față de scenariul apartamentului nou.
 
 Cazul 2 — Investitorul din diasporă care a ales corect
-Un client din Frankfurt a cumpărat în 2021 un apartament nou 2 camere la Neofort IMO în Moșilor la 115.000 EUR (total cu TVA 9% de atunci). L-a dat în chirie la 450 EUR/lună — venit net anual ~4.000 EUR după toate costurile.
+Un client din Frankfurt a cumpărat în 2021 un apartament nou 2 camere la Neofort IMO în Moșilor la 115.000 EUR (total, cu cota redusă de TVA de 5% în vigoare atunci). L-a dat în chirie la 450 EUR/lună — venit net anual ~4.000 EUR după toate costurile.
 
 Azi apartamentul valorează ~175.000 EUR. Return total în 5 ani: ~20.000 EUR chirii nete + 60.000 EUR apreciere = 80.000 EUR pe o investiție de 115.000 EUR. Randament total compus: ~12%/an.
 
