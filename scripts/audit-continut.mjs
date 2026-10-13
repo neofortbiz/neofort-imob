@@ -21,17 +21,18 @@
 // Rulare manuala: npm run audit:continut
 // ============================================================
 
+import fs from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const SUFIX_TITLU = ' | Neofort IMO'   // template-ul global din app/layout.js
 
-let ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE, GOOGLE_RATING, GOOGLE_REVIEWS, ECHIPA, AUTORI
+let ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE, ARTICOLE_LIST, GOOGLE_RATING, GOOGLE_REVIEWS, ECHIPA, AUTORI
 try {
   ;({ ANSAMBLURI_ACTIVE } = await import(resolve(ROOT, 'data/ansambluri/index.js')))
   ;({ TOATE_PORTOFOLIU } = await import(resolve(ROOT, 'data/portofoliu.js')))
-  ;({ ARTICOLE, AUTORI } = await import(resolve(ROOT, 'data/blog.js')))
+  ;({ ARTICOLE, ARTICOLE_LIST, AUTORI } = await import(resolve(ROOT, 'data/blog.js')))
   ;({ ECHIPA } = await import(resolve(ROOT, 'data/echipa.js')))
   // data/google-rating.js, nu siteConfig.js: acela importa cu alias `@/`,
   // pe care Node simplu nu-l rezolva, si tot auditul ar fi sarit silentios.
@@ -400,6 +401,43 @@ for (const a of ANSAMBLURI_ACTIVE || []) {
   const d = finalPredare(a.dataPredare)
   if (d && d < AZI)
     P('date expirate', `${a.slug}: dataPredare „${a.dataPredare}" a trecut, dar ansamblul nu e marcat „Finalizat"`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 10. IMAGINI si coerenta ARTICOLE ↔ ARTICOLE_LIST
+//
+// DE CE imaginile: o referinta de imagine fara fisier pe disc nu da eroare
+// la build — pagina se randeaza cu un spatiu gol, si se descopera abia cand
+// o vede cineva (v392, v394). La v414 am scris eu un nume de fisier derivat
+// din slug, cand fisierul real avea alt nume; a fost prins de o verificare
+// manuala, nu de audit.
+//
+// DE CE coerenta: ARTICOLE_LIST are propriile copii de `titlu`, `rezumat`,
+// `image`, `citire` si `dataISO`. Pagina de listare citeste din LIST, pagina
+// de articol din ARTICOLE. O modificare intr-un singur loc trece neobservata
+// (v412, v413).
+// ────────────────────────────────────────────────────────────
+if (ARTICOLE && Array.isArray(ARTICOLE_LIST)) {
+  const PUBLIC = resolve(ROOT, 'public')
+  const areFisier = cale => {
+    if (!cale || typeof cale !== 'string' || !cale.startsWith('/')) return true
+    try { return fs.existsSync(resolve(PUBLIC, '.' + cale)) } catch { return true }
+  }
+
+  for (const [slug, a] of Object.entries(ARTICOLE))
+    if (a.image && !areFisier(a.image))
+      P(`blog/${slug}`, `\`image\` trimite la „${a.image}", care nu exista in public/`)
+
+  for (const l of ARTICOLE_LIST) {
+    if (l.image && !areFisier(l.image))
+      P(`blog/${l.slug}`, `ARTICOLE_LIST.image trimite la „${l.image}", care nu exista in public/`)
+
+    const a = ARTICOLE[l.slug]
+    if (!a) continue
+    for (const camp of ['image', 'citire', 'dataISO', 'data'])
+      if (a[camp] !== undefined && l[camp] !== undefined && a[camp] !== l[camp])
+        P(`blog/${l.slug}`, `\`${camp}\` difera intre ARTICOLE („${a[camp]}") si ARTICOLE_LIST („${l[camp]}")`)
+  }
 }
 
 // ────────────────────────────────────────────────────────────
