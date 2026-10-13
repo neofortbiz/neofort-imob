@@ -1,6 +1,6 @@
 import { ANSAMBLURI_ACTIVE } from '@/data/ansambluri'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
-import { ARTICOLE_LIST } from '@/data/blog'
+import { ARTICOLE_LIST, ARTICOLE } from '@/data/blog'
 import { DATA_ANSAMBLURI } from '@/data/contact-map'
 
 // lastmod REAL: data ultimei modificari efective a datelor de ansambluri
@@ -10,9 +10,20 @@ import { DATA_ANSAMBLURI } from '@/data/contact-map'
 const DATA_DATE = new Date(DATA_ANSAMBLURI)
 const BUILD_REF = new Date()
 const LAST_WEEK = new Date(BUILD_REF - 7 * 24 * 60 * 60 * 1000)
-// Listarea de blog: data celui mai recent articol (nu data ansamblurilor)
+// Data efectiva de modificare a unui articol: `dataModificata` daca exista,
+// altfel data publicarii. `dataModificata` trebuie sa ramana declarata in UN
+// singur loc (obiectul din ARTICOLE), de aceea se citeste de acolo si nu se
+// dubleaza in ARTICOLE_LIST.
+//
+// DE CE: pana aici sitemap-ul raporta `dataISO` si la articolele actualizate.
+// Un articol rescris pastra lastmod-ul vechi, deci Google nu avea niciun motiv
+// sa revina sa vada textul nou — `dateModified` din schema aparea actualizat,
+// dar singurul semnal pe care se bazeaza recrawl-ul nu.
+const modificatLa = a => (ARTICOLE[a.slug]?.dataModificata || a.dataISO)
+
+// Listarea de blog: cea mai recenta modificare din blog (nu data ansamblurilor)
 const DATA_BLOG = ARTICOLE_LIST.length
-  ? new Date(ARTICOLE_LIST.map(a => a.dataISO).sort().reverse()[0])
+  ? new Date(ARTICOLE_LIST.map(modificatLa).sort().reverse()[0])
   : DATA_DATE
 
 const BASE = 'https://www.neofort.ro'
@@ -82,7 +93,7 @@ export default function sitemap() {
   // La adaugarea unui articol nou, sitemap-ul se actualizeaza automat
   const blogPages = ARTICOLE_LIST.map(a => ({
     url: `${BASE}/blog/${a.slug}`,
-    lastModified: new Date(a.dataISO),
+    lastModified: new Date(modificatLa(a)),
     changeFrequency: 'monthly',
     priority: 0.7,
   }))

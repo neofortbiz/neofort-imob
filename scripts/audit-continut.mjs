@@ -299,6 +299,88 @@ if (Array.isArray(ECHIPA) && AUTORI) {
 }
 
 // ────────────────────────────────────────────────────────────
+// 9. DATE EXPIRATE — termene trecute scrise ca termene viitoare
+//
+// DE CE: un articol scris corect la publicare devine fals pe cont propriu
+// cand termenul despre care vorbeste trece. La v412, articolul despre
+// restituirea TVA inca spunea „programeaza notarul din timp, in ultimele
+// zile ale lunii septembrie" pe 13 octombrie, iar ghidul de TVA mai cerea
+// semnarea contractului „cel tarziu la 31 iulie 2026" — un termen dublu
+// expirat, inlocuit mai intai de 30 septembrie 2026 si apoi de nimic.
+// Niciuna dintre cele doua nu putea fi prinsa de verificarile existente:
+// datele erau coerente intre ele, doar lumea mersese mai departe.
+//
+// CUM: se semnaleaza o data calendaristica TRECUTA doar cand textul dinainte
+// de ea o prezinta ca termen inca deschis („cel tarziu la", „ai timp pana",
+// „expira la"). Daca aceeasi fereastra contine un marcaj de trecut
+// („era", „a fost", „trebuia", „a expirat"), nu se raporteaza: atunci e
+// istoric corect scris, nu o scapare.
+//
+// Raportul e informativ, ca tot auditul. O data trecuta nu opreste build-ul.
+// ────────────────────────────────────────────────────────────
+const LUNI = {
+  ianuarie: 1, februarie: 2, martie: 3, aprilie: 4, mai: 5, iunie: 6,
+  iulie: 7, august: 8, septembrie: 9, octombrie: 10, noiembrie: 11, decembrie: 12,
+}
+const LUNI_SCURT = { ian: 1, feb: 2, mar: 3, apr: 4, iun: 6, iul: 7, aug: 8, sept: 9, sep: 9, oct: 10, noi: 11, nov: 11, dec: 12 }
+
+const AZI = new Date(new Date().toISOString().slice(0, 10))
+
+// Formulari care presupun un termen care NU a trecut inca.
+const CA_TERMEN_VIITOR = /(se semnează cel târziu|cel târziu (?:la|până)|ai timp până|mai poți[^.]{0,40}până|se aplică până|se mai aplică[^.]{0,40}până|termenul (?:este|e)|expiră (?:la|pe)|valabil(?:ă|e)? până|se depune până|trebuie (?:să fie|predat)[^.]{0,40}până|garantat(?:ă|a)? până|verifică că[^.]{0,60}până)/i
+
+// Marcaje care arata ca fraza e deja scrisa la trecut — atunci e corecta.
+const CA_ISTORIC = /(era |a fost|au fost|fusese|s-a |s-au |trebuia|trebuiau|putea|puteau|a expirat|până la care|s-ar fi)/i
+
+const DATA_RO = /\b(\d{1,2})\s+(ianuarie|februarie|martie|aprilie|mai|iunie|iulie|august|septembrie|octombrie|noiembrie|decembrie)\s+(\d{4})\b/gi
+
+if (ARTICOLE) {
+  for (const [slug, a] of Object.entries(ARTICOLE)) {
+    const bucati = [
+      ['descriere', a.descriere],
+      ['seoDesc', a.seoDesc],
+      ...(a.peScurt || []).map((p, i) => [`peScurt[${i}]`, p]),
+      ...(a.sectiuni || []).map(s => [s.id, s.continut]),
+    ]
+    for (const [unde, txt] of bucati) {
+      if (!txt) continue
+      const re = new RegExp(DATA_RO.source, 'gi')
+      let m
+      while ((m = re.exec(txt)) !== null) {
+        const cand = new Date(Date.UTC(+m[3], LUNI[m[2].toLowerCase()] - 1, +m[1]))
+        if (cand >= AZI) continue
+        const inainte = txt.slice(Math.max(0, m.index - 90), m.index)
+        if (!CA_TERMEN_VIITOR.test(inainte) || CA_ISTORIC.test(inainte)) continue
+        P('date expirate', `${slug} (${unde}): „${m[0]}" a trecut, dar e formulată ca termen încă deschis`)
+      }
+    }
+  }
+}
+
+// dataPredare trecuta la un ansamblu care nu e marcat „Finalizat".
+// Nu se corecteaza automat: ori proiectul s-a predat si trebuie „Finalizat",
+// ori a intarziat si termenul real il stie doar Dan (R8).
+const finalPredare = v => {
+  const s = String(v || '').trim()
+  let m = s.match(/^T([1-4])\s+(\d{4})$/i)
+  if (m) return new Date(Date.UTC(+m[2], +m[1] * 3, 0))
+  m = s.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/)
+  if (m) return new Date(Date.UTC(+m[3], +m[2] - 1, +m[1]))
+  m = s.match(/^([A-Za-zăâîșț]+)\.?\s+(\d{4})$/i)
+  if (m) {
+    const luna = LUNI[m[1].toLowerCase()] ?? LUNI_SCURT[m[1].toLowerCase()]
+    if (luna) return new Date(Date.UTC(+m[2], luna, 0))
+  }
+  return null
+}
+
+for (const a of ANSAMBLURI_ACTIVE || []) {
+  const d = finalPredare(a.dataPredare)
+  if (d && d < AZI)
+    P('date expirate', `${a.slug}: dataPredare „${a.dataPredare}" a trecut, dar ansamblul nu e marcat „Finalizat"`)
+}
+
+// ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
 if (!probleme.length) {
