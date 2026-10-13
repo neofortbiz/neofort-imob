@@ -5416,109 +5416,155 @@ Depinde de prioritate: Moșilor-Eminescu oferă atmosferă de cartier mai liniș
     ],
   },
   'impozit-locuinte-vechi-50-ani-2027': {
-    titlu: `Impozitul pe Locuințele Vechi (50+ ani) se Schimbă din 2027 — Ce Trebuie să Știi`,
-    seoTitle: 'Impozit Locuințe Vechi 50+ Ani — Ce Se Schimbă',
-    seoDesc: 'Reducerea de impozit pentru locuințele vechi de peste 50 de ani se schimbă din 2027. Ce înseamnă renovările majore pentru actualizarea fiscală a locuinței.',
+    titlu: `Impozitul pe Locuințele Vechi: Cât Este Reducerea de Vechime și Când o Pierzi`,
+    seoTitle: 'Impozit Locuințe Vechi: Reducerea de Vechime',
+    seoDesc: 'Reducerea de impozit pentru clădirile vechi este 15% la 50-100 de ani și 25% peste 100 de ani, conform OUG 9/2026. Când o pierzi printr-o renovare majoră.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '31 Iulie 2026', dataISO: '2026-07-31', citire: '10 min',
+    data: '31 Iulie 2026', dataISO: '2026-07-31', dataModificata: '2026-10-13', citire: '10 min',
     autor: 'igor-calutu',
     image: '/blog/impozit-locuinte-vechi-50-ani-2027.avif',
-    descriere: 'Reducerea fiscală pentru locuințele cu vechime peste 50 de ani se schimbă din 2027, odată cu implementarea completă a E-Proprietatea. Ce înseamnă pentru proprietari și pentru cumpărătorii de apartamente vechi renovate.',
+    descriere: `Reducerea de impozit pentru vechimea clădirii a fost eliminată de Legea 239/2025 și reintrodusă de OUG 9/2026, la 15% pentru 50-100 de ani și 25% peste 100 de ani. O renovare majoră resetează anul de construcție și reducerea dispare. Ce declanșează resetarea și ce nu.`,
     peScurt: [
-      'Locuințele cu vechime peste 50 de ani beneficiază în prezent de reducere de impozit pe baza vârstei clădirii, indiferent de starea reală a interiorului.',
-      'Din 2027, renovările majore care cresc valoarea imobilului cu cel puțin 50% pot duce la actualizarea fiscală a anului de construcție, eliminând reducerea de vechime.',
-      'Măsura vizează inclusiv bugetele locale — actualizarea valorilor impozabile crește veniturile primăriilor din impozitul pe proprietate.',
+      'Reducerea actuală a valorii impozabile pentru vechimea clădirii este de 15% la clădirile între 50 și 100 de ani și de 25% la cele de peste 100 de ani, conform OUG nr. 9/2026.',
+      'Reducerile sunt mai mici decât înainte: până în 2025 erau 30% pentru 50-100 de ani și 50% pentru peste 100 de ani. Legea nr. 239/2025 le-a eliminat complet, iar OUG nr. 9/2026 le-a reintrodus la nivelurile reduse.',
+      'O renovare majoră resetează anul de construcție folosit în calcul, deci reducerea se pierde. Resetarea se declanșează de lucrări pe structura de rezistență SAU de o creștere a valorii clădirii cu cel puțin 50%.',
     ],
-    keywords: ['impozit locuinte vechi 2027', 'reducere impozit vechime cladire', 'e-proprietatea locuinte vechi', 'impozit apartament vechi renovat', 'actualizare fiscala an constructie', 'impozit cladire 50 ani'],
-    hashtags: ['#ImpozitLocuinte', '#EProprietatea2027', '#LegislatieImobiliara', '#NeofortIMO'],
+    keywords: ['reducere impozit cladiri vechi', 'impozit locuinte vechi 50 de ani', 'oug 9 2026 impozit cladiri', 'resetare an constructie renovare majora', 'impozit apartament vechi renovat', 'pierd reducerea de vechime la impozit'],
+    hashtags: ['#ImpozitLocuinte', '#OUG92026', '#LegislatieImobiliara', '#NeofortIMO'],
     cuprins: [
-      { id: 'ce-se-schimba', titlu: 'Ce se schimbă concret din 2027' },
-      { id: 'regula-actuala', titlu: 'Cum funcționează regula actuală de reducere pentru vechime' },
-      { id: 'regula-noua', titlu: 'Noua regulă: actualizarea fiscală la renovări majore' },
-      { id: 'cine-e-afectat', titlu: 'Cine e afectat concret de această schimbare' },
-      { id: 'apartamente-noi-avantaj', titlu: 'De ce apartamentele noi rămân neafectate de această schimbare' },
-      { id: 'ce-sa-verifici', titlu: 'Ce să verifici dacă deții sau cumperi o locuință veche renovată' },
-      { id: 'faq', titlu: 'Întrebări frecvente despre impozitul pe locuințele vechi' },
+      { id: 'ce-se-schimba', titlu: `Ce s-a schimbat, pe scurt` },
+      { id: 'regula-actuala', titlu: `Cât este reducerea de vechime acum` },
+      { id: 'regula-noua', titlu: `Renovarea majoră resetează anul de construcție` },
+      { id: 'cine-e-afectat', titlu: `Pe cine afectează și pe cine nu` },
+      { id: 'apartamente-noi-avantaj', titlu: `Ce înseamnă la comparația vechi renovat vs. nou` },
+      { id: 'ce-sa-verifici', titlu: `Ce verifici dacă deții sau cumperi o locuință veche` },
+      { id: 'faq', titlu: `Întrebări frecvente` },
     ],
     sectiuni: [
       {
         id: 'ce-se-schimba',
-        h2: 'Ce se schimbă concret din 2027 pentru locuințele vechi',
-        continut: `Dacă deții sau te gândești să cumperi un apartament vechi (peste 50 de ani), probabil știi deja despre reducerea de impozit pe care o oferă vechimea clădirii. Ce nu știu mulți proprietari este că regula se schimbă odată cu implementarea completă a sistemului E-Proprietatea, care intră în vigoare integral din 2027.
+        h2: `Ce s-a schimbat la impozitul pe locuințele vechi — pe scurt`,
+        continut: `Dacă deții sau te gândești să cumperi un apartament într-un bloc de peste 50 de ani, reducerea de impozit pentru vechime a trecut prin două modificări într-un singur an, iar rezultatul final este o reducere mai mică decât cea cu care erau obișnuiți proprietarii.
 
-Concret: în prezent, reducerea de impozit pentru vechime se aplică mecanic, pe baza anului de construcție înscris în cartea funciară — indiferent de starea reală a apartamentului. Un bloc din 1975, complet renovat interior, cu instalații noi, tâmplărie modernă și izolație termică actuală, beneficiază în continuare de aceeași reducere ca un bloc identic ca vârstă, dar nerenovat.
+**Până la 31 decembrie 2025**, valoarea impozabilă se reducea cu 50% pentru clădirile de peste 100 de ani, cu 30% pentru cele între 50 și 100 de ani și cu 10% pentru cele între 30 și 50 de ani. Exista și o reducere suplimentară pentru apartamentele din blocurile mari.
 
-Noile reguli, aplicabile din 2027, introduc pentru prima dată o actualizare fiscală pentru clădirile care au trecut prin renovări majore. Dacă lucrările de renovare cresc valoarea imobilului cu cel puțin 50%, anul de construcție poate fi actualizat din punct de vedere fiscal — practic, proprietatea devine „mai nouă" în ochii sistemului de impozitare, ceea ce poate elimina sau reduce semnificativ bonusul de vechime.`,
+**De la 1 ianuarie 2026**, Legea nr. 239/2025 a eliminat complet aceste reduceri, simultan cu majorarea valorii impozabile pe metru pătrat cu circa 79%. Proprietarii de apartamente vechi au resimțit ambele modificări în același timp, de aceea creșterea procentuală a fost cea mai mare la ei.
+
+**Din februarie 2026**, OUG nr. 9/2026 a reintrodus reducerile de vechime, dar la niveluri mai mici: **15%** pentru clădirile cu vechime între 50 și 100 de ani inclusiv și **25%** pentru cele de peste 100 de ani. Reducerea pentru intervalul 30-50 de ani nu a fost reintrodusă.
+
+Aceeași ordonanță a introdus și regula care produce cele mai multe întrebări: **anul de construcție folosit în calculul impozitului se actualizează dacă clădirea a trecut printr-o renovare majoră.** Practic, o clădire veche poate pierde statutul fiscal de clădire veche, chiar dacă structura ei de bază rămâne aceeași.
+
+Atenție la o confuzie care circulă: această schimbare nu are legătură cu trecerea la impozitarea pe valoarea de piață, anunțată pentru 1 ianuarie 2027. Reducerile de vechime și regula de resetare sunt în vigoare acum, prin OUG nr. 9/2026, independent de acel calendar. Contextul complet al calculului este în [ghidul despre impozitul pe apartament](/blog/e-proprietatea-2026-noul-sistem-de-impozitare).`,
       },
       {
         id: 'regula-actuala',
-        h2: 'Cum funcționează, în prezent, reducerea de impozit pentru vechime',
-        continut: `Sistemul actual de impozitare a clădirilor rezidențiale acordă reduceri graduale în funcție de vechimea construcției, pornind de la premisa că o clădire mai veche are, în medie, o valoare de piață mai mică decât una nouă echivalentă ca suprafață și locație.
+        h2: `Cât este reducerea de vechime și cum se aplică`,
+        continut: `Reducerea se aplică **valorii impozabile**, nu impozitului final. Ordinea operațiilor contează, pentru că rezultatul diferă.
 
-Problema pe care autoritățile au identificat-o: mulți proprietari de apartamente vechi au investit sume considerabile în renovări complete — instalații electrice și sanitare noi, tâmplărie termopan, izolație termică performantă, finisaje moderne — transformând practic locuința într-un produs comparabil cu o construcție nouă, dar continuând să beneficieze de reducerea fiscală destinată clădirilor nerenovate, cu valoare de piață scăzută.
+Reducerile în vigoare, conform OUG nr. 9/2026:
+• Clădiri cu vechime între 50 și 100 de ani inclusiv — **15%**
+• Clădiri cu vechime de peste 100 de ani — **25%**
 
-Această discrepanță a devenit vizibilă mai ales odată cu implementarea E-Proprietatea, sistemul care corelează impozitarea cu valoarea reală de piață, nu cu declarații istorice. Analiza datelor a arătat că multe apartamente „vechi" pe hârtie se tranzacționează, de fapt, la prețuri apropiate de apartamentele noi din aceeași zonă — tocmai datorită renovărilor complete.`,
+Cum intră în calcul, pe un exemplu concret. Un apartament de 50 mp utili într-un bloc din 1975, categoria A cu toate utilitățile, zona fiscală C din București:
+
+Suprafața construită desfășurată: 50 × 1,4 = 70 mp
+Valoarea impozabilă brută: 70 × 2.677 lei × 2,40 = 449.736 lei
+Reducerea de vechime (clădire de peste 50 de ani): −15% → 382.276 lei
+Impozit la cota de 0,1%: **382 lei/an**
+
+Fără reducerea de vechime, același apartament ar plăti 450 lei. Diferența este de 68 lei pe an. Cu reducerea veche de 30%, ar fi plătit 315 lei — deci trecerea de la 30% la 15% costă proprietarul circa 67 lei pe an, iar eliminarea completă din ianuarie-februarie 2026 l-ar fi costat dublu.
+
+Vechimea se socotește de la anul terminării construcției. Unde acest an este actualizat, conform regulii din secțiunea următoare, se socotește de la anul nou.
+
+Reducerea se aplică automat de direcția de impozite locale, pe baza datelor din evidențele ei. Dacă clădirea are peste 50 de ani și reducerea nu apare în decizia de impunere, merită semnalat — este o cauză frecventă de impozit calculat în plus.`,
       },
       {
         id: 'regula-noua',
-        h2: 'Noua regulă: actualizarea anului de construcție la renovări majore',
-        continut: `Din 2027, dacă lucrările de renovare cresc valoarea de piață a imobilului cu cel puțin 50% față de starea inițială, autoritățile fiscale locale vor putea actualiza anul de construcție folosit în calculul impozitului. Practic, proprietatea „pierde" statutul de clădire veche din punct de vedere fiscal, chiar dacă structura de bază a clădirii rămâne aceeași.
+        h2: `Renovarea majoră resetează anul de construcție — cele două declanșatoare`,
+        continut: `Regula din OUG nr. 9/2026: anul terminării construcției, folosit în calculul vechimii, se actualizează la anul în care a fost efectuată recepția la terminarea lucrărilor de renovare. Din acel moment, clădirea este fiscal „mai nouă", iar reducerea de vechime se calculează de la noua dată — sau dispare complet, dacă noul an o scoate din intervalul de 50 de ani.
 
-Mecanismul exact de evaluare — cine stabilește procentul de creștere a valorii, ce documente sunt necesare, dacă e nevoie de o evaluare ANEVAR sau de o simplă declarație cu documente justificative de la constructor — urmează să fie clarificat prin normele de aplicare, pe măsură ce sistemul E-Proprietatea devine complet operațional la nivel național.
+Există **două** situații care declanșează actualizarea, și distincția dintre ele este cea care decide dacă te afectează:
 
-Ce știm cu certitudine: măsura are și o componentă clară de venituri bugetare locale. Impozitul pe proprietate reprezintă o sursă importantă de venit pentru primării, iar actualizarea valorilor impozabile pentru proprietățile renovate major crește direct încasările locale — bani care, teoretic, se întorc în infrastructura de cartier, dar care înseamnă și o povară fiscală suplimentară pentru proprietarii care au investit deja sume mari în renovare.`,
+**Declanșatorul 1 — lucrări pe structura de rezistență.** Renovarea majoră presupune, conform textului legal, lucrări asupra structurii de rezistență: consolidare, reconstruire sau modificare. Dacă ai intervenit pe structură, anul se actualizează, indiferent cât a crescut valoarea.
+
+**Declanșatorul 2 — creșterea valorii cu cel puțin 50%.** Anul se actualizează și atunci când, la finalizarea lucrărilor, valoarea clădirii crește cu cel puțin 50% față de valoarea de la începutul lucrărilor.
+
+Ce **nu** declanșează regula, dacă nu atinge structura și nu produce acel salt de valoare: înlocuirea tâmplăriei, refacerea instalațiilor electrice și sanitare, izolația termică a fațadei, schimbarea finisajelor, modernizarea băii și a bucătăriei. Sunt lucrări costisitoare, dar nu intervenții pe structura de rezistență, iar rareori dublează valoarea unei clădiri raportat la valoarea de dinaintea lucrărilor.
+
+Ce **declanșează** aproape sigur: consolidarea seismică, desfacerea și refacerea unor pereți structurali, supraetajarea, extinderea cu intervenție pe structură.
+
+Un lucru pe care îl spunem explicit, pentru că s-a scris pe la diverse surse exact pe dos: **etapizarea unei renovări pe mai mulți ani, ca să stai sub pragul de 50% la fiecare etapă, nu te scoate automat de sub regulă.** Dacă lucrările includ intervenție pe structura de rezistență, primul declanșator se aplică singur, independent de orice calcul de valoare. Nu construi o strategie fiscală pe acest lucru fără să discuți cu un consultant fiscal și cu direcția de impozite locale.
+
+Mecanismul exact de evaluare a creșterii de valoare — cine o constată, ce documente se cer, dacă e nevoie de un raport ANEVAR — nu era detaliat în normele publicate la data actualizării acestui articol.`,
       },
       {
         id: 'cine-e-afectat',
-        h2: 'Cine e afectat concret de această schimbare',
-        continut: `Cei mai afectați sunt proprietarii de apartamente în blocuri vechi (construite înainte de 1990, în general) care au trecut prin renovări ample în ultimii ani — nu simple zugrăveli sau schimbări de gresie, ci intervenții structurale: refacere completă instalații, izolație termică exterioară, tâmplărie integral nouă, eventual consolidare seismică.
+        h2: `Pe cine afectează concret și pe cine nu`,
+        continut: `**Afectați direct:** proprietarii de clădiri de peste 50 de ani care au executat lucrări pe structura de rezistență — consolidare seismică în primul rând — sau renovări care au crescut valoarea clădirii cu peste 50%. La aceștia, anul de construcție se actualizează și reducerea de 15% sau 25% nu se mai aplică.
 
-Pentru cineva care a renovat complet un apartament vechi cu gândul că păstrează reducerea fiscală de vechime la nesfârșit, actualizarea din 2027 poate însemna o creștere semnificativă a impozitului anual — posibil similar cu ce ar plăti pentru un apartament nou echivalent ca valoare de piață.
+**Afectați indirect, prin reducerea procentului:** toți proprietarii de clădiri de peste 50 de ani, care au trecut de la 30% sau 50% reducere la 15% sau 25%. Pe un apartament de 2 camere într-un bloc vechi din București, diferența e de ordinul a 60-70 lei pe an față de regimul de până în 2025 — nu dramatic în valoare absolută, dar vine peste majorarea de 79% a valorii impozabile.
 
-Pe de altă parte, proprietarii de apartamente vechi nerenovate, sau renovate doar parțial (sub pragul de 50% creștere de valoare), continuă să beneficieze de reducerea actuală fără modificări — regula nouă vizează exclusiv cazurile de transformare majoră, nu întreținerea curentă.
+**Neafectați de regula de resetare:** proprietarii care au făcut renovări de finisaje, instalații, tâmplărie sau izolație, fără intervenție pe structură și fără dublarea valorii. Reducerea de vechime se aplică în continuare.
 
-Pentru cumpărătorii care iau în calcul un apartament vechi tocmai renovat, e important să întrebe explicit vânzătorul sau agenția dacă renovarea a fost declarată oficial și dacă a fost înregistrată ca modificare majoră — asta poate influența direct bugetul lunar de impozit pe care îl vei plăti după achiziție.`,
+**Neafectați complet:** proprietarii de clădiri sub 50 de ani. Reducerea pentru intervalul 30-50 de ani, care exista până în 2025, nu a fost reintrodusă de OUG nr. 9/2026, deci pentru ei nu există niciun bonus de vechime de pierdut.
+
+Pentru cineva care cumpără un apartament vechi recent renovat, întrebarea utilă către vânzător nu e „a fost renovat?", ci **„s-a intervenit pe structura de rezistență și există autorizație de construire pentru lucrări?"**. Prima întrebare nu separă cazurile; a doua, da.`,
       },
       {
         id: 'apartamente-noi-avantaj',
-        h2: 'De ce apartamentele noi rămân complet neafectate de această schimbare',
-        continut: `Această modificare legislativă nu are niciun impact asupra apartamentelor noi, cumpărate direct de la dezvoltator — acestea sunt deja impozitate la valoarea lor reală de construcție, fără nicio reducere de vechime aplicabilă, pentru că, evident, nu sunt clădiri vechi.
+        h2: `Ce înseamnă la comparația apartament vechi renovat vs. apartament nou`,
+        continut: `Comparația „vechi renovat vs. nou" includea, până în 2025, un avantaj fiscal clar pentru apartamentul vechi: calitate apropiată de un apartament nou, dar cu o reducere de impozit de 30% sau 50% pe valoarea impozabilă. Argumentul s-a subțiat din două direcții.
 
-Ce înseamnă practic pentru cineva care alege azi între un apartament vechi renovat și unul nou: diferența fiscală care părea, până acum, un avantaj clar al apartamentului vechi renovat (impozit mic + calitate similară unui apartament nou) se reduce sau dispare complet din 2027, dacă renovarea a fost suficient de amplă pentru a declanșa actualizarea fiscală.
+**Prima: reducerea s-a înjumătățit.** 15% în loc de 30%, 25% în loc de 50%.
 
-Practic, calculul „apartament vechi renovat vs. apartament nou" — care includea până acum și diferența de impozit ca argument pentru apartamentul vechi — trebuie refăcut ținând cont de acest risc. Un apartament nou, cu impozit clar și previzibil de la început, oferă mai multă certitudine bugetară pe termen lung decât un apartament vechi renovat, a cărui situație fiscală poate fi recalificată în anii următori.`,
+**A doua: reducerea rămasă nu e garantată în timp.** Dacă apartamentul se află într-un bloc care intră în program de consolidare seismică — scenariu realist pentru fondul construit înainte de 1977 din București — anul de construcție se actualizează la recepția lucrărilor și reducerea dispare. Proprietarul nu decide singur acest lucru; depinde de asociație și de primărie.
+
+Un apartament nou nu are reducere de vechime de pierdut, dar nici nu are nimic de pierdut: valoarea impozabilă e cunoscută de la început, suprafețele rezultă din documentația de recepție și din cartea funciară individuală, iar impozitul e previzibil pe termen lung.
+
+Ce nu trebuie exagerat: diferența de impozit, în ambele direcții, este de ordinul câtorva zeci de lei pe an. Nu e factorul care decide o achiziție de zeci de mii de euro. Intră în calcul ca element de previzibilitate, nu ca economie. Comparația completă pe costul total o găsești în [apartament nou vs. vechi: calculul real](/blog/apartament-nou-vs-vechi-calcul-real).`,
       },
       {
         id: 'ce-sa-verifici',
-        h2: 'Ce să verifici dacă deții sau cumperi o locuință veche renovată',
-        continut: `Dacă ești proprietar al unui apartament vechi renovat major, verifică dacă lucrările au fost declarate oficial la autoritatea locală și dacă există documentație care să demonstreze amploarea intervenției — aceasta va fi baza oricărei evaluări viitoare a procentului de creștere a valorii.
+        h2: `Ce verifici dacă deții sau cumperi o locuință veche`,
+        continut: `**Dacă deții o clădire de peste 50 de ani:** verifică în decizia de impunere dacă reducerea de 15% sau 25% apare aplicată. Se aplică automat, pe baza anului de construcție din evidențele direcției de impozite locale, dar dacă anul înregistrat este greșit, reducerea nu apare. Corectura se face la direcția de impozite locale, cu actele de proprietate și documentația cadastrală.
 
-Dacă cumperi un apartament vechi, întreabă explicit despre istoricul renovărilor și cere documente (facturi, autorizații, dacă există) care să ateste amploarea lucrărilor — asta te ajută să estimezi corect riscul de actualizare fiscală în anii următori și să bugetezi realist impozitul anual.
+**Dacă ai renovat:** reține că declanșatorul care contează în primul rând este intervenția pe structura de rezistență, nu suma investită. Dacă ai avut autorizație de construire pentru lucrări structurale, anul de construcție se actualizează la recepție. Păstrează procesul-verbal de recepție — stabilește data de la care se calculează noua vechime.
 
-Dacă ești în proces de renovare majoră a unui apartament vechi, informează-te din timp despre pragurile și procedurile exacte de aplicare a noii reguli, pe măsură ce normele de implementare devin publice — o renovare planificată strategic (etapizată, sub pragul de 50% creștere de valoare la fiecare etapă) ar putea, teoretic, întârzia actualizarea fiscală, deși acest aspect rămâne de clarificat oficial.
+**Dacă renovezi acum:** întreabă direcția de impozite locale, în scris, cum se tratează lucrările tale, înainte de a începe. Răspunsul scris îți folosește mai târziu. Nu te baza pe etapizare ca metodă de a evita regula — dacă lucrările ating structura, primul declanșator se aplică independent.
 
-Neofort IMO oferă consultanță gratuită pentru cumpărătorii care compară apartamente vechi renovate cu apartamente noi din portofoliul nostru activ — sună la 0758 090 904 pentru o discuție concretă pe bugetul tău. Pentru context complet despre sistemul E-Proprietatea care stă la baza acestei schimbări, vezi [ghidul complet de impozitare imobiliară 2026](/blog/e-proprietatea-2026-noul-sistem-de-impozitare), iar pentru o comparație directă cost total, citește [apartament nou vs. vechi: calculul costurilor](/blog/apartament-nou-vs-vechi-calcul-real).`,
+**Dacă cumperi un apartament vechi renovat:** cere istoricul lucrărilor și, dacă există, autorizația de construire. Întreabă explicit dacă s-a intervenit pe structura de rezistență. Cere și ultima decizie de impunere a vânzătorului — îți arată exact ce impozit se plătește acum și dacă reducerea de vechime e aplicată.
+
+Pentru o discuție pe bugetul tău concret, inclusiv comparația cu apartamentele noi disponibile imediat din [ansamblurile active Neofort IMO](/ansambluri-rezidentiale), consultanța este gratuită: 0758 090 904.`,
       },
       {
         id: 'faq',
-        h2: 'Întrebări frecvente despre impozitul pe locuințele vechi din 2027',
-        continut: `Ce se schimbă la impozitul pe locuințele vechi din 2027?
-Renovările majore care cresc valoarea imobilului cu cel puțin 50% pot duce la actualizarea fiscală a anului de construcție, eliminând reducerea de impozit acordată în prezent pe baza vechimii clădirii.
+        h2: `Întrebări frecvente despre impozitul pe locuințele vechi`,
+        continut: `Cât este reducerea de impozit pentru o clădire de peste 50 de ani?
+15% din valoarea impozabilă pentru clădirile cu vechime între 50 și 100 de ani inclusiv, și 25% pentru cele de peste 100 de ani, conform OUG nr. 9/2026. Reducerea se aplică valorii impozabile, nu impozitului final.
 
-Cine e afectat de noua regulă privind actualizarea fiscală?
-Proprietarii de apartamente vechi (peste 50 de ani) care au trecut prin renovări ample — refacere completă instalații, izolație termică, tâmplărie nouă — nu proprietarii cu renovări curente sau parțiale.
+Mai există reducerea pentru clădirile între 30 și 50 de ani?
+Nu. Reducerea de 10% pentru acest interval, care exista până în 2025, a fost eliminată de Legea nr. 239/2025 și nu a fost reintrodusă de OUG nr. 9/2026.
 
-Apartamentele noi sunt afectate de această schimbare?
-Nu. Apartamentele noi sunt deja impozitate la valoarea lor reală de construcție, fără reducere de vechime aplicabilă, deci nu există nicio modificare pentru cumpărătorii de apartamente noi.
+De ce a scăzut reducerea de la 30% la 15%?
+Legea nr. 239/2025 a eliminat complet reducerile de vechime de la 1 ianuarie 2026. OUG nr. 9/2026 le-a reintrodus în februarie 2026, dar la niveluri mai mici: 15% și 25% în loc de 30% și 50%.
 
-Cum se determină dacă o renovare declanșează actualizarea fiscală?
-Pragul stabilit este o creștere de cel puțin 50% a valorii imobilului în urma lucrărilor. Mecanismul exact de evaluare urmează să fie clarificat prin normele de aplicare ale sistemului E-Proprietatea.
+Pierd reducerea de vechime dacă îmi renovez apartamentul?
+Doar dacă renovarea intră în categoria renovării majore. Două situații o declanșează: lucrări pe structura de rezistență (consolidare, reconstruire, modificare), sau o creștere a valorii clădirii cu cel puțin 50% față de valoarea de la începutul lucrărilor. Schimbarea tâmplăriei, a instalațiilor, a finisajelor sau izolarea fațadei nu declanșează regula prin ele însele.
 
-Merită să cumpăr un apartament vechi renovat sau unul nou, ținând cont de acest risc fiscal?
-Depinde de buget și priorități, dar riscul de actualizare fiscală reduce unul dintre avantajele tradiționale ale apartamentelor vechi renovate. Un apartament nou oferă impozit previzibil de la început, fără riscul unei recalificări fiscale ulterioare.
+Dacă blocul meu intră în consolidare seismică, pierd reducerea?
+Consolidarea seismică este o lucrare pe structura de rezistență, deci se încadrează la renovare majoră. Anul de construcție se actualizează la anul recepției la terminarea lucrărilor, iar reducerea de vechime se recalculează de la acea dată.
 
-Ce documente ar trebui să păstrez dacă renovez major un apartament vechi?
-Facturi, contracte cu constructorul, autorizații de construire pentru lucrări care necesită acest lucru, și orice documentație care poate demonstra amploarea și costul renovării, pentru eventuala evaluare fiscală viitoare.`,
+Pot etapiza renovarea ca să nu depășesc 50% creștere de valoare?
+Nu te baza pe asta. Creșterea de valoare este doar al doilea declanșator. Dacă lucrările includ intervenție pe structura de rezistență, primul declanșator se aplică singur, indiferent de etapizare sau de valoare.
+
+Reducerea de vechime se aplică automat sau trebuie să o cer?
+Se aplică automat de direcția de impozite locale, pe baza anului de construcție din evidențele sale. Dacă anul înregistrat este greșit sau reducerea nu apare în decizia de impunere, se corectează la direcția de impozite locale, cu actele de proprietate.
+
+Are legătură cu trecerea la impozitarea pe valoarea de piață din 2027?
+Nu. Reducerile de vechime și regula de resetare a anului de construcție sunt în vigoare acum, prin OUG nr. 9/2026. Trecerea la impozitarea la valoarea de piață a fost anunțată separat, pentru 1 ianuarie 2027, iar metodologia ei nu era publicată la data actualizării acestui articol.
+
+Cine stabilește că valoarea a crescut cu 50%?
+Mecanismul exact de constatare — cine evaluează, ce documente se cer, dacă e necesar un raport al unui evaluator autorizat ANEVAR — nu era detaliat în normele publicate la data actualizării acestui articol. Până la clarificare, varianta prudentă este o solicitare scrisă către direcția de impozite locale înainte de începerea lucrărilor.`,
       },
     ],
   },
@@ -6546,7 +6592,7 @@ export const ARTICOLE_LIST = [
     { slug: 'chirie-vs-cumparare-2026-calcul-break-even', titlu: 'Chirie vs Cumpărare 2026: Calculul Real Break-Even', data: '20 Iulie 2026', dataISO: '2026-07-20', citire: '13 min', image: '/blog/chirie-vs-cumparare-2026-calcul-break-even.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Chirie sau cumperi apartament în 2026? Formula break-even pe cifre reale din București: care variantă costă mai puțin și după câți ani cumpărarea devine avantajoasă.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
     { slug: 'extinderea-metroului-bucuresti-2026-2027', titlu: 'Extinderea Metroului București 2026-2027', data: '24 Iulie 2026', dataISO: '2026-07-24', citire: '11 min', image: '/blog/extinderea-metroului-bucuresti-2026-2027.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'Magistrala 4 spre Gara Progresul și Magistrala 5 spre Pantelimon — ce înseamnă extinderea metroului din București pentru valoarea imobilelor din zonele afectate.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'piata-muncii-vs-mosilor-vs-militari-comparatie-zone', titlu: 'Piața Muncii vs Moșilor vs Militari: Comparație 2026', data: '27 Iulie 2026', dataISO: '2026-07-27', citire: '12 min', image: '/blog/piata-muncii-vs-mosilor-vs-militari-comparatie-zone.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'Piața Muncii, Moșilor-Eminescu sau Militari-Gorjului? Comparație directă pe prețuri, chirii și conectivitate, pentru cine alege între cele 3 zone.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-    { slug: 'impozit-locuinte-vechi-50-ani-2027', titlu: 'Impozitul pe Locuințele Vechi (50+ Ani) din 2027', data: '31 Iulie 2026', dataISO: '2026-07-31', citire: '10 min', image: '/blog/impozit-locuinte-vechi-50-ani-2027.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Reducerea de impozit pentru locuințele vechi de peste 50 de ani se schimbă din 2027. Ce înseamnă renovările majore pentru actualizarea fiscală a locuinței.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+    { slug: 'impozit-locuinte-vechi-50-ani-2027', titlu: 'Impozit Locuințe Vechi: Reducerea de Vechime', data: '31 Iulie 2026', dataISO: '2026-07-31', citire: '10 min', image: '/blog/impozit-locuinte-vechi-50-ani-2027.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Reducerea de impozit pentru clădirile vechi este 15% la 50-100 de ani și 25% peste 100 de ani, conform OUG 9/2026. Când o pierzi printr-o renovare majoră.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
     { slug: 'checklist-verificare-dezvoltator-imobiliar', titlu: 'Checklist: Cum Verifici un Dezvoltator Imobiliar', data: '3 August 2026', dataISO: '2026-08-03', citire: '12 min', image: '/blog/checklist-verificare-dezvoltator-imobiliar.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru verificarea unui dezvoltator imobiliar înainte de avans: acte, istoric, limite legale ale avansului și semnale de alarmă de evitat.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
     { slug: 'cladiri-verzi-smart-home-cerere-cumparatori-2026', titlu: 'Clădiri Verzi și Smart Home: Ce Cer Cumpărătorii', data: '7 August 2026', dataISO: '2026-08-07', citire: '10 min', image: '/blog/cladiri-verzi-smart-home-cerere-cumparatori-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Panouri solare, stații EV și termostate smart devin criterii reale de cumpărare în 2026. Ce dotări verzi contează cu adevărat și cât economisești pe termen lung.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
     { slug: 'pret-metru-patrat-sectoare-bucuresti-2026', titlu: 'Preț pe Metru Pătrat pe Sectoare București 2026', data: '10 August 2026', dataISO: '2026-08-10', citire: '11 min', image: '/blog/pret-metru-patrat-sectoare-bucuresti-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cât costă un metru pătrat în apartamentele noi din București în 2026, sector cu sector. Benchmark real pentru a evalua dacă un preț cerut e corect sau umflat.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
