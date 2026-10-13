@@ -6361,14 +6361,16 @@ La tariful subvenționat, un apartament de 4 camere plătește așadar în jur d
 
 **Rețeaua pierde între 30% și 40%** din energia pe care o transportă, iar părți din magistrale au între 40 și 60 de ani. În primăvara lui 2026, circa 3.500 din cele aproximativ 9.000 de blocuri racordate au avut probleme cu apa caldă, iar sistemul a funcționat la un moment dat la 62% din capacitate.
 
-Un bloc nou cu centrală proprie plătește prețul pieței la gaz, dar nu depinde nici de o decizie de consiliu general, nici de o rețea care pierde o treime din ce transportă.`,
+Un bloc nou cu centrală proprie plătește prețul pieței la gaz, dar nu depinde nici de o decizie de consiliu general, nici de o rețea care pierde o treime din ce transportă.
+
+Sursa de căldură este însă doar jumătate din ecuație — cealaltă jumătate ține de cât consumă efectiv apartamentul, iar asta depinde de dotări. Am tratat partea aceasta separat în [dotările care reduc factura la energie](/blog/dotari-reduc-factura-energie-apartament-nou).`,
       },
       {
         id: 'bloc-nou-vs-vechi',
         h2: `Bloc nou vs. bloc vechi, la paritate: 4 camere cu 4 camere`,
         continut: `Comparațiile care circulă sunt aproape toate viciate: se pune un apartament vechi de 4 camere lângă unul nou de 2 camere și se trage concluzia că noul e mai ieftin. Nu demonstrează nimic.
 
-Comparația corectă pune aceeași tipologie și același număr de locatari față în față.
+Comparația corectă pune aceeași tipologie și același număr de locatari față în față. Aici compar strict costul lunar; pentru costul total de proprietate — preț, rată, renovare, impozit — calculul este în [apartament nou vs. apartament vechi](/blog/apartament-nou-vs-vechi-calcul-real).
 
 **Apartament nou, 4 camere, 120 mp utili plus terase, 3 persoane, bloc administrat de asociația de proprietari, fără servicii suplimentare:**
 • Întreținere (administrare, curățenie, lift, apă, electricitate comună, fond de reparații): **500 lei**
@@ -6495,6 +6497,8 @@ Conform **art. 70**, veniturile obținute din exploatarea proprietății comune,
 
 Și reține diferența din acest articol: o sumă totală fără defalcare amestecă încălzirea cu serviciile. Compară costurile asociației cu costurile asociației, și încălzirea cu încălzirea. Altfel compari lucruri diferite.
 
+Dacă răspunsurile vin greu sau deloc, asta este în sine un semnal — restul întrebărilor care se pun înainte de antecontract sunt în [checklistul de verificare a dezvoltatorului](/blog/checklist-verificare-dezvoltator-imobiliar).
+
 Pentru ansamblurile cu apartamente disponibile acum, inclusiv proiecte finalizate cu predare la semnare, vezi [ansamblurile rezidențiale Neofort IMO](/ansambluri-rezidentiale). Consultanța pe costul total lunar — rată, întreținere, impozit — este gratuită: 0758 090 904.`,
       },
       {
@@ -6578,7 +6582,7 @@ Acest articol parcurge procedura completă. Pentru partea de costuri — de ce d
       {
         id: 'pasii',
         h2: `Pașii constituirii, în ordinea în care se fac`,
-        continut: `Procedura are patru etape, iar ordinea contează: o etapă sărită înseamnă dosar respins la judecătorie.
+        continut: `Procedura are patru etape, iar ordinea contează: o etapă sărită înseamnă dosar respins la judecătorie. Momentul de pornire este predarea apartamentelor — ce se verifică atunci, și ce semnezi la recepție, sunt în [predarea la cheie](/blog/predare-la-cheie-ce-inseamna).
 
 **Pasul 1 — convocarea adunării de constituire.** Conform **art. 15**, proprietarii se convoacă prin afișare la avizier **și** prin tabel convocator, cu **cel puțin 10 zile înainte** de data fixată. Tabelul convocator trebuie semnat de **cel puțin 50% plus unu** din numărul proprietarilor. Acest tabel se depune ulterior la dosar, deci păstrează-l în original.
 
@@ -6665,6 +6669,8 @@ Un lucru pe care proprietarii îl descoperă târziu: **președintele răspunde 
 • **Atestat**, eliberat de primar pe baza hotărârii consiliului local, cu **valabilitate de 4 ani** de la emitere, reînnoibil
 • **Cazier judiciar** fără condamnări definitive pentru infracțiuni economico-financiare
 
+Verificarea unui administrator se face cu aceeași rigoare cu care verifici dezvoltatorul înainte de cumpărare — pașii sunt în [checklistul de verificare a dezvoltatorului imobiliar](/blog/checklist-verificare-dezvoltator-imobiliar).
+
 Cere atestatul în copie, cu data emiterii, înainte de a semna. Un atestat expirat înseamnă un administrator care nu îndeplinește condiția legală.
 
 **Cine îl numește:** conform **art. 63 alin. (3)**, comitetul executiv, prin președinte, numește administratorul și semnează contractul de administrare, apoi informează toți proprietarii despre decizie. Nu dezvoltatorul, nu o clauză din contractul de vânzare.
@@ -6711,7 +6717,7 @@ Mecanismul acesta este cel mai util lucru de știut pentru un bloc nou, unde la 
 
 **7. Reguli de repartizare inventate.** Conform **art. 75 alin. (2)**, cheltuielile se repartizează pe criterii prevăzute de lege: pe număr de persoane, pe consum individual, pe cota-parte indiviză, pe beneficiari și pe consumatori tehnici. Conform **art. 75 alin. (3)**, hotărârile care încalcă aceste reguli **sunt nule**. Iar cota-parte indiviză nu se negociază: este raportul dintre suprafața utilă a apartamentului tău și totalul suprafețelor utile din clădire, iar suma tuturor cotelor trebuie să dea 100%.
 
-**8. Niciun contract scris cu administratorul.** Fără contract de administrare încheiat cu asociația, nu există obligații exigibile și nu există nici bază pentru încetare. Este primul lucru de verificat când preiei administrarea de la dezvoltator.`,
+**8. Niciun contract scris cu administratorul.** Fără contract de administrare încheiat cu asociația, nu există obligații exigibile și nu există nici bază pentru încetare. Este primul lucru de verificat când preiei administrarea de la dezvoltator. Tot atunci se verifică ce garanții mai sunt în termen la părțile comune — subiect tratat în [garanții și recepția la cheie](/blog/garantii-receptie-cheie-contracte-vanzare-2026).`,
       },
       {
         id: 'faq',

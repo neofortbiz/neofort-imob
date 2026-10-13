@@ -963,7 +963,6 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
       { tip: 'metrou', nume: 'Metrou Piata Obor (M1)', distanta: '2 min cu masina' },
       { tip: 'scoala', nume: 'Colegiul National Mihai Eminescu', distanta: '2 min cu masina' },
       { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '3 min cu masina' },
-      { tip: 'metrou', nume: 'Metrou 8 Noiembrie (M1)', distanta: '5 min cu masina' },
       { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '8 min cu masina' },
       { tip: 'metrou', nume: 'Metrou Piata Unirii (M1/M2/M3)', distanta: '9 min cu masina' },
       { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '11 min cu masina' },
