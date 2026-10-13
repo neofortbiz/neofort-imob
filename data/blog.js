@@ -1186,7 +1186,7 @@ Chirie documentată (contract ANAF + extras cont 12 luni): acceptată 70-80%. Di
     seoDesc: 'Apartamente de vânzare în Titan, Theodor Pallady și Nicolae Teclu: 6 ansambluri active Neofort IMO, prețuri de la 62.114€+TVA, metrou la 20m–11 minute.',
     peScurt: [
       'Titan, Theodor Pallady și Nicolae Teclu sunt trei zone distincte, conectate, din Sectorul 3 al Bucureștiului — nu denumiri interschimbabile pentru același loc.',
-      'Neofort IMO are ansambluri rezidențiale active în toate trei, cu acces la metroul M2 (stațiile Anghel Saligny și Nicolae Teclu).',
+      'Neofort IMO are ansambluri rezidențiale active în toate trei, cu acces la metroul M3 (stațiile Anghel Saligny și Nicolae Teclu).',
       'Cel mai bun acces la metrou este în zona Nicolae Teclu; Titan oferă în schimb proximitatea Parcului IOR și infrastructură matură.',
     ],
     tag: 'Piață', tagColor: '#0369a1',
@@ -1214,11 +1214,11 @@ Chirie documentată (contract ANAF + extras cont 12 luni): acceptată 70-80%. Di
         h2: `Titan, Theodor Pallady și Nicolae Teclu — cum diferă cele trei zone și de ce contează pentru decizia ta`,
         continut: `Dacă ești în procesul de căutare a unui apartament de vânzare în estul Bucureștiului, ai observat că platformele imobiliare listează alternativ trei denumiri: Titan, Theodor Pallady și Nicolae Teclu. Nu sunt același lucru, deși sunt conectate — iar diferențele dintre ele influențează direct prețul, accesul la metrou și calitatea vieții de zi cu zi.
 
-Titan este cel mai vechi și mai extins dintre cele trei teritorii. Se întinde de la Parcul IOR în vest până dincolo de Bulevardul Nicolae Grigorescu în est, și cuprinde atât fond locativ vechi (blocuri din anii '70–'80) cât și proiecte noi ridicate după 2010. Infrastructura de servicii este matură: școli, spitale, piețe, transport în comun diversificat. Stația de metrou Piața Muncii (M2) este principalul nod de transport din vest, iar Dristor 2 asigură legătura spre centru.
+Titan este cel mai vechi și mai extins dintre cele trei teritorii. Se întinde de la Parcul IOR în vest până dincolo de Bulevardul Nicolae Grigorescu în est, și cuprinde atât fond locativ vechi (blocuri din anii '70–'80) cât și proiecte noi ridicate după 2010. Infrastructura de servicii este matură: școli, spitale, piețe, transport în comun diversificat. Stația de metrou Piața Muncii (M1) este principalul nod de transport din vest, iar Dristor 2 asigură legătura spre centru.
 
-Theodor Pallady este denumirea dată zonei de dezvoltare rezidențială nouă din estul Sectorului 3, situată de-a lungul Bulevardului Theodor Pallady. A explodat ca zonă rezidențială după 2015, alimentată de proximitatea față de IKEA Pallady (2019) și de extinderea liniei M2 cu stațiile Nicolae Teclu și 1 Decembrie 1918. Spre deosebire de Titan clasic, Pallady este aproape exclusiv construit nou — nu găsești fond locativ vechi din comunism, ci blocuri ridicate în ultimul deceniu.
+Theodor Pallady este denumirea dată zonei de dezvoltare rezidențială nouă din estul Sectorului 3, situată de-a lungul Bulevardului Theodor Pallady. A explodat ca zonă rezidențială după 2015, alimentată de proximitatea față de IKEA Pallady (2019) și de extinderea liniei M3 cu stațiile Nicolae Teclu și 1 Decembrie 1918. Spre deosebire de Titan clasic, Pallady este aproape exclusiv construit nou — nu găsești fond locativ vechi din comunism, ci blocuri ridicate în ultimul deceniu.
 
-Nicolae Teclu este micro-zona definită de stația de metrou cu același nume de pe linia M2. Este subzona cu cel mai direct acces la metrou din întreg perimetrul Titan–Pallady — distanțele de 50m–800m față de stație fac diferența față de restul zonei. Proiectele din raza stației Nicolae Teclu sunt printre cele mai căutate din Sectorul 3 tocmai pentru această proximitate.
+Nicolae Teclu este micro-zona definită de stația de metrou cu același nume de pe linia M3. Este subzona cu cel mai direct acces la metrou din întreg perimetrul Titan–Pallady — distanțele de 50m–800m față de stație fac diferența față de restul zonei. Proiectele din raza stației Nicolae Teclu sunt printre cele mai căutate din Sectorul 3 tocmai pentru această proximitate.
 
 Concluzia practică: dacă prioritatea ta este metroul la 3–5 minute pe jos, caută în zona Nicolae Teclu. Dacă vrei oferta cea mai diversificată ca tipologii și prețuri, Pallady oferă mai mult. Dacă vrei infrastructura de cartier matură (școli, spitale, piețe) plus proiecte noi, Titan clasic este răspunsul.`,
       },
@@ -1256,7 +1256,7 @@ Comparație cu piața: aceste prețuri sunt cu 35–50% sub prețul pe mp al apa
 Cea mai diversificată ofertă din zona Pallady: 10 tipuri de apartamente de 2, 3 și 4 camere, de la 47,78 mp până la 175,58 mp cu terasă panoramică la etajul 10. Prețuri promoționale (avans 45%) de la 62.114 EUR — cel mai mic preț de intrare pentru un apartament de 2 camere nou în zona Pallady. Metrou Nicolae Teclu la 11 minute pe jos, IKEA Pallady la 8 minute pe jos, Auchan Titan la 3 minute cu mașina. Structură beton armat C25/30, tâmplărie PVC Salamander, încălzire în pardoseală, centrală termică proprie. Parcare exterioară de la 6.000 EUR, interioară de la 8.500 EUR.
 
 [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) — 3 corpuri D+P+3E, predare în curând
-Cel mai bine conectat la metrou dintre toate proiectele active Neofort din zonă: Metrou Anghel Saligny (M2) la 20 de metri. Ofertă completă: garsonieră 53,70 mp de la 88.506 EUR, 2 camere 69,91 mp de la 125.838 EUR, 3 camere 94,04 mp de la 169.272 EUR, 4 camere 100,63 mp de la 181.134 EUR — toate la avans 20%, TVA exclus. Dotări superioare: centrală proprie în condensare, fațadă ventilată cu izolație din vată minerală bazaltică (incombustibilă, clasa A1), tâmplărie Salamander negru structurat cu geam tripan, obiecte sanitare suspendate, kit aer condiționat, ușă metalică multipunct antiefracție, lift silențios.
+Cel mai bine conectat la metrou dintre toate proiectele active Neofort din zonă: Metrou Anghel Saligny (M3) la 20 de metri. Ofertă completă: garsonieră 53,70 mp de la 88.506 EUR, 2 camere 69,91 mp de la 125.838 EUR, 3 camere 94,04 mp de la 169.272 EUR, 4 camere 100,63 mp de la 181.134 EUR — toate la avans 20%, TVA exclus. Dotări superioare: centrală proprie în condensare, fațadă ventilată cu izolație din vată minerală bazaltică (incombustibilă, clasa A1), tâmplărie Salamander negru structurat cu geam tripan, obiecte sanitare suspendate, kit aer condiționat, ușă metalică multipunct antiefracție, lift silențios.
 
 [Neofort 56 Pallady Titan Teclu](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) — finalizat, disponibil imediat
 Proiect finalizat în zona Teclu, disponibil pentru mutare imediată. Potrivit pentru cumpărători care nu pot sau nu vor să aștepte finalizarea unui proiect în construcție. Contactați-ne pentru prețuri și disponibilitate actualizată.
@@ -1279,21 +1279,22 @@ Avantajul comun al tuturor celor 6 proiecte: vânzare directă de la Neofort IMO
 
 Harta accesului la metrou pentru proiectele active Neofort:
 
-Neofort 83 — Metrou Anghel Saligny (M2) la 20m. Practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întreg portofoliul Neofort activ și dintre cele mai bune din zona Pallady în general. Metrou Teclu la 17 minute pe jos.
+Neofort 83 — Metrou Anghel Saligny (M3) la 20m. Practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întreg portofoliul Neofort activ și dintre cele mai bune din zona Pallady în general. Metrou Teclu la 17 minute pe jos.
 
-Neofort 82 Titan Pallady și Neofort 28 Teclu — în zona stației Nicolae Teclu, la câteva minute pe jos. Stația Nicolae Teclu (M2) asigură accesul direct spre centru: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute.
+Neofort 82 Titan Pallady și Neofort 28 Teclu — în zona stației Nicolae Teclu, la câteva minute pe jos. Stația Nicolae Teclu (M3) asigură accesul direct spre centru: Dristor în 3 minute și Piața Unirii în 6 minute, fără schimb de linie. Pentru Piața Universității se schimbă la Piața Unirii pe M2, iar pentru Piața Muncii la Nicolae Grigorescu sau Dristor pe M1.
 
 Neofort 44 și Neofort 56 — zona Teclu–Pallady, acces metrou în 5–12 minute pe jos la stațiile Nicolae Teclu sau 1 Decembrie 1918.
 
 Neofort 84 — Metrou Nicolae Teclu la 11 minute pe jos. Nu cel mai aproape din portofoliu, dar compensat prin cel mai mare număr de tipologii disponibile și prețul promoțional de la 62.114 EUR.
 
-Ruta pe metrou M2 din zona Teclu–Pallady:
-• Piața Muncii: 3–5 minute
-• Dristor 2: 1–2 minute
+Ruta pe metrou M3 din zona Teclu–Pallady, fără schimb de linie:
+• Dristor: 1–2 minute
 • Piața Unirii: 6–8 minute
-• Piața Universității: 8–10 minute
-• Piața Victoriei: 14–16 minute
-• Autogara Militari: 20–22 minute
+• Autogara Militari (Preciziei): 20–22 minute
+
+Cu o singură schimbare de linie:
+• Piața Universității și Piața Victoriei: schimb la Piața Unirii, pe M2
+• Piața Muncii: schimb la Nicolae Grigorescu sau Dristor, pe M1
 
 Pentru profesioniștii care lucrează în centrul sau nordul Bucureștiului și folosesc metroul zilnic, diferența dintre 5 și 15 minute de mers pe jos la stație înseamnă 20–40 de minute câștigate zilnic față de alternativa cu mașina sau traficul de la suprafață.`,
       },
@@ -1418,7 +1419,7 @@ Da, pentru proiectele cu apartamente model disponibile. Contactați brokerul res
 Prețul de start pentru un apartament nou de 2 camere în zona Titan–Pallady–Teclu este 62.114 EUR (TVA exclus) la Neofort 84, cu avans 45%. La avans 20%, prețul de intrare este de 61.775 EUR pentru o garsonieră la Neofort 44. Sunt cele mai accesibile prețuri pentru apartamente noi cu acces la metrou în București.
 
 Care ansamblu din Titan–Pallady–Teclu este cel mai aproape de metrou?
-Neofort 83 Titan Pallady are Metroul Anghel Saligny (M2) la 20 de metri — practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întregul portofoliu Neofort activ. Neofort 82 Titan Pallady și Neofort 28 Teclu se află și ele în proximitatea stației Nicolae Teclu.
+Neofort 83 Titan Pallady are Metroul Anghel Saligny (M3) la 20 de metri — practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întregul portofoliu Neofort activ. Neofort 82 Titan Pallady și Neofort 28 Teclu se află și ele în proximitatea stației Nicolae Teclu.
 
 Pot cumpăra un apartament în Titan–Pallady prin programul Noua Casă?
 Da, pentru proiectele eligibile unde prețul total (TVA inclus) nu depășește plafonul programului. Neofort IMO colaborează cu toate băncile majore (BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank) și facilitează gratuit procesul de documentație pentru Noua Casă.
@@ -2408,7 +2409,7 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
     seoTitle: 'Merită Apartament în Titan–Pallady în 2026?',
     seoDesc: 'Analiză completă Titan–Pallady 2026: prețuri reale de la 62.114€, randament, avantaje și dezavantaje față de alte zone, pentru locuit sau investiție.',
     peScurt: [
-      'Titan–Pallady combină acces la metroul M2, parcuri (IOR), infrastructură matură și prețuri sub zonele centrale.',
+      'Titan–Pallady combină acces la metroul M3, parcuri (IOR), infrastructură matură și prețuri sub zonele centrale.',
       'Este o piață a vânzătorului în zonele cu metrou: cererea susține prețurile și lichiditatea la revânzare.',
       'Înainte de semnare se verifică dezvoltatorul, termenul de predare, autorizația și graficul de plăți.',
     ],
@@ -2438,7 +2439,7 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
 
 Până în 2018, zona Pallady era percepută ca periferică — acces dificil, puțin retail, teren industrial reconvertit. Ce s-a schimbat?
 
-Metroul M2 a transformat totul. Stațiile Nicolae Teclu, 1 Decembrie 1918 și Anghel Saligny conectează zona cu centrul în 8–15 minute. Asta a transformat Pallady din „periferie accesibilă" în „zona cu metrou la prețuri rezonabile" — o combinație extrem de rară în București.
+Metroul M3 a transformat totul. Stațiile Nicolae Teclu, 1 Decembrie 1918 și Anghel Saligny conectează zona cu centrul în 8–15 minute. Asta a transformat Pallady din „periferie accesibilă" în „zona cu metrou la prețuri rezonabile" — o combinație extrem de rară în București.
 
 IKEA Pallady (2019) și mega-parcul comercial din jur — Auchan, Leroy Merlin, Jumbo, Dedeman, Metro, Decathlon — au creat cel mai mare hub de retail din estul capitalei. Un locuitor din Titan nu mai are nevoie să meargă în altă parte pentru cumpărături majore.
 
@@ -2475,7 +2476,7 @@ Prețul pe mp al apartamentelor noi din Titan–Pallady a crescut cu aproximativ
       {
         id: 'avantaje-reale',
         h2: `Avantajele concrete ale zonei — ce îți oferă de fapt Titan–Pallady`,
-        continut: `Metroul — avantajul #1 fără echivoc. Stațiile Nicolae Teclu și 1 Decembrie (M2) sunt la 3–15 minute de mers pe jos din majoritatea proiectelor noi. Linia M2 merge direct: Dristor 2 (2 min), Piața Muncii (5 min), Piața Unirii (8 min), Piața Universității (10 min), Piața Victoriei (14 min). Un locuitor din Titan poate face dus-întors la serviciu în centru sau nord fără mașina, economisind 500–800 EUR/lună față de costul unui automobil.
+        continut: `Metroul — avantajul #1 fără echivoc. Stațiile Nicolae Teclu și 1 Decembrie (M3) sunt la 3–15 minute de mers pe jos din majoritatea proiectelor noi. Linia M3 merge direct: Dristor (2 min), Piața Unirii (8 min). Pentru Piața Universității și Piața Victoriei se schimbă la Piața Unirii pe M2, iar pentru Piața Muncii la Nicolae Grigorescu sau Dristor pe M1. Un locuitor din Titan poate face dus-întors la serviciu în centru sau nord fără mașina, economisind 500–800 EUR/lună față de costul unui automobil.
 
 Infrastructura comercială completă. IKEA + Auchan + Leroy Merlin + Jumbo + Dedeman + Metro + Decathlon + Mega Mall Pantelimon = tot ce îți trebuie fără să ieși din zonă. Această densitate de retail nu are echivalent în alte zone cu prețuri similare din București.
 
@@ -2569,7 +2570,7 @@ Finanțarea realistă. Calculul trebuie să includă: prețul apartamentului + T
 Prețul de start este 62.114 EUR (TVA exclus) pentru un apartament de 2 camere la [Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady) cu avans 45%, sau 88.506 EUR pentru o garsonieră la [Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) cu avans 20%. Sunt cele mai accesibile prețuri pentru apartamente noi cu acces la metrou din București.
 
 Care ansamblu din Titan–Pallady are cel mai bun acces la metrou?
-[Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) are Metroul Anghel Saligny (M2) la 20 de metri — cel mai scurt acces la metrou din întreg portofoliul Neofort activ. Neofort 84 are Metroul Nicolae Teclu la 11 minute pe jos. Ambele sunt conectate la linia M2 care ajunge în centrul Bucureștiului în 6-8 minute.
+[Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) are Metroul Anghel Saligny (M3) la 20 de metri — cel mai scurt acces la metrou din întreg portofoliul Neofort activ. Neofort 84 are Metroul Nicolae Teclu la 11 minute pe jos. Ambele sunt conectate la linia M3 care ajunge în centrul Bucureștiului în 6-8 minute.
 
 Titan–Pallady este potrivit pentru prima locuință sau pentru investiție?
 Este potrivit pentru ambele. Pentru prima locuință: prețuri accesibile, metrou, infrastructură matură. Pentru investiție: randament brut 4,1% și apreciere capital +95% din 2020. Citește și [analiza completă a randamentului pe zone](/blog/randament-inchiriere-zone-bucuresti).
@@ -2836,7 +2837,7 @@ Criteriul 5 — Comunitatea deja constituită. Un bloc la jumătate din capacita
         continut: `Piața imobiliară din București nu este uniformă. Fiecare zonă are un profil distinct de cumpărători, prețuri, ritm de apreciere și nivel de risc. Iată o analiză obiectivă bazată pe date reale.
 
 Titan–Pallady (Sectorul 3) — zona cu cel mai mare volum de tranzacții
-Avantaje: 5 stații de metrou M2 în proximitate, cel mai mare hub de retail din estul capitalei (IKEA, Auchan, Leroy Merlin, Jumbo), Parcul IOR și Parcul Teilor, prețuri competitive față de vest sau nord.
+Avantaje: 5 stații de metrou M3 în proximitate, cel mai mare hub de retail din estul capitalei (IKEA, Auchan, Leroy Merlin, Jumbo), Parcul IOR și Parcul Teilor, prețuri competitive față de vest sau nord.
 Prețuri 2026: 1.300–1.950 EUR/mp pentru apartamente noi
 Profil ideal: familii tinere, investitori, diasporă, cumpărători prima locuință
 Apreciere 2018–2026: +85–95%
@@ -2848,7 +2849,7 @@ Profil ideal: profesioniști tineri, familii fără copii, investitori cu buget 
 Apreciere 2020–2026: +60–70%
 
 Piața Muncii–Dristor (Sectoarele 2/3) — zona cu deficit de ofertă față de cerere
-Avantaje: două linii de metrou (M2 Dristor și M3 Piața Muncii), proximitate față de centru, Parcul Național la mers pe jos, Park Lake Plaza. Site-ul neofort.ro înregistrează lunar 5.300+ click-uri organice pe căutările din această zonă.
+Avantaje: două linii de metrou (Dristor pe M1/M3 și Piața Muncii pe M1), proximitate față de centru, Parcul Național la mers pe jos, Park Lake Plaza. Site-ul neofort.ro înregistrează lunar 5.300+ click-uri organice pe căutările din această zonă.
 Prețuri 2026: 1.500–2.100 EUR/mp
 Profil ideal: profesioniști, cupluri, investitori pe termen lung
 
@@ -3340,7 +3341,7 @@ Efectul pe piață a fost dublu. Înainte de 1 august 2025, volumul tranzacțiil
 
 Zone cu cea mai rapidă apreciere în 2025 (+12–18%):
 
-[Titan–Pallady](/zona/titan-pallady) (Sectorul 3) — zona a explodat după extinderea liniei M2 și deschiderea IKEA Pallady. Prețul mediu pentru apartamente noi a urcat de la 1.650 EUR/mp în 2024 la 1.940 EUR/mp în 2025. Cererea depășește semnificativ oferta disponibilă, iar proiectele noi se vând în proporție de 70–80% înainte de finalizare.
+[Titan–Pallady](/zona/titan-pallady) (Sectorul 3) — zona a explodat după extinderea liniei M3 și deschiderea IKEA Pallady. Prețul mediu pentru apartamente noi a urcat de la 1.650 EUR/mp în 2024 la 1.940 EUR/mp în 2025. Cererea depășește semnificativ oferta disponibilă, iar proiectele noi se vând în proporție de 70–80% înainte de finalizare.
 
 [Militari–Gorjului](/zona/militari) (Sectorul 6) — accesul la metrou M3 și parcările mari au transformat radical zona. De la 1.580 EUR/mp la 1.820 EUR/mp. Proiectele cu livrare 2026–2027 s-au rezervat masiv.
 
@@ -3667,9 +3668,9 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
   'titan-pallady-cea-mai-cautata-zona': {
     titlu: `Titan–Pallady: De Ce a Devenit Cea Mai Căutată Zonă Rezidențială din București`,
     seoTitle: 'Titan–Pallady: Cea Mai Căutată Zonă',
-    seoDesc: 'Titan–Pallady: metrou M2, IKEA, Parcul IOR și prețuri cu 30% sub centru. De ce a devenit cea mai căutată zonă din București și ce ansambluri sunt active.',
+    seoDesc: 'Titan–Pallady: metrou M3, IKEA, Parcul IOR și prețuri cu 30% sub centru. De ce a devenit cea mai căutată zonă din București și ce ansambluri sunt active.',
     peScurt: [
-      'Titan–Pallady (Sectorul 3) are metrou M2, Parcul IOR, IKEA și prețuri sensibil mai mici decât zonele centrale ale Bucureștiului.',
+      'Titan–Pallady (Sectorul 3) are metrou M3, Parcul IOR, IKEA și prețuri sensibil mai mici decât zonele centrale ale Bucureștiului.',
       'Neofort IMO construiește în zonă de peste 10 ani, cu mai multe ansambluri rezidențiale active simultan.',
       'Distanțe reale la metrou: Neofort 84 la 5 minute de Anghel Saligny, Neofort 56 la 6 minute și Neofort 44 la 7 minute de Nicolae Teclu.',
     ],
@@ -3677,12 +3678,12 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
     data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min',
     autor: 'raluca-nistor',
     image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif',
-    descriere: `De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă — analiza completă a celei mai dinamice zone rezidențiale a Capitalei.`,
+    descriere: `De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M3, IKEA, parcuri, prețuri accesibile și cerere din diasporă — analiza completă a celei mai dinamice zone rezidențiale a Capitalei.`,
     keywords: ['titan pallady apartamente noi', 'zona titan pallady bucuresti', 'apartamente noi sector 3', 'metrou titan pallady', 'investitie imobiliara titan', 'cea mai buna zona bucuresti apartament', 'titan pallady pret apartament 2026', 'crestere preturi titan pallady 2020 2026'],
     hashtags: ['#TitanPallady', '#ApartamenteSector3', '#ZonaRezidentiala', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
       { id: 'de-ce', titlu: `De ce Titan–Pallady?` },
-      { id: 'metrou', titlu: `Metroul M2 — factorul decisiv` },
+      { id: 'metrou', titlu: `Metroul M3 — factorul decisiv` },
       { id: 'ikea', titlu: `IKEA Pallady și ecosistemul comercial` },
       { id: 'preturi', titlu: `Evoluția prețurilor 2020–2026` },
       { id: 'diaspora', titlu: `Cumpărătorii din diasporă` },
@@ -3703,8 +3704,8 @@ Lucrez în Neofort IMO pe [zona Titan–Pallady](/zona/titan-pallady) de 10 ani.
       },
       {
         id: 'metrou',
-        h2: `Metroul M2 — factorul care a transformat accesibilitatea zonei`,
-        continut: `Dacă trebuie să numesc un singur factor care a schimbat percepția despre Titan–Pallady, acela este metroul. Stația Nicolae Teclu pe linia M2 conectează zona direct cu centrul Capitalei în 15–20 de minute, fără depindere de traficul de suprafață.
+        h2: `Metroul M3 — factorul care a transformat accesibilitatea zonei`,
+        continut: `Dacă trebuie să numesc un singur factor care a schimbat percepția despre Titan–Pallady, acela este metroul. Stația Nicolae Teclu pe linia M3 conectează zona direct cu centrul Capitalei în 15–20 de minute, fără depindere de traficul de suprafață.
 
 Distanțele de la principalele ansambluri Neofort IMO din zonă:
 • Neofort 84 (Titan–Pallady): 5 minute mers pe jos la Metrou Anghel Saligny
@@ -3715,7 +3716,7 @@ Distanțele de la principalele ansambluri Neofort IMO din zonă:
 
 Accesul la metrou nu este un lux în București — este o necesitate. Estimările arată că un apartament cu acces la metrou sub 10 minute pe jos se vinde cu 12–18% mai scump decât unul comparabil la 20–30 minute distanță. Aceasta este valoare obiectivă, nu subiectivă.
 
-Pe lângă M2, zona beneficiază de conexiuni directe la IKEA Pallady prin mai multe linii de autobuz și tramvai, la Park Lake prin tramvai, și la Centrul Civic prin șoseaua Mihai Bravu.`,
+Pe lângă M3, zona beneficiază de conexiuni directe la IKEA Pallady prin mai multe linii de autobuz și tramvai, la Park Lake prin tramvai, și la Centrul Civic prin șoseaua Mihai Bravu.`,
       },
       {
         id: 'ikea',
@@ -3803,10 +3804,10 @@ Privind 5 ani înainte, Titan–Pallady va fi o zonă semnificativ mai bine echi
         id: 'faq',
         h2: `Întrebări frecvente despre zona Titan–Pallady din București`,
         continut: `De ce este Titan–Pallady cea mai căutată zonă rezidențială din București?
-Combinația unică de metrou M2 accesibil, IKEA Pallady, Parcul IOR (110 hectare), prețuri cu 20-30% sub zonele centrale comparabile și un stoc de teren disponibil pentru construcție nouă a generat o cerere constant ridicată. Datele ANCPI confirmă cel mai mare ritm de tranzacții din Capitală în ultimii 4 ani.
+Combinația unică de metrou M3 accesibil, IKEA Pallady, Parcul IOR (110 hectare), prețuri cu 20-30% sub zonele centrale comparabile și un stoc de teren disponibil pentru construcție nouă a generat o cerere constant ridicată. Datele ANCPI confirmă cel mai mare ritm de tranzacții din Capitală în ultimii 4 ani.
 
 Care stație de metrou deserveș zona Titan–Pallady?
-Zona este deservită de stațiile Nicolae Teclu și Anghel Saligny de pe linia M2 (albastră). De la Nicolae Teclu: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute. Neofort 83 are Metroul Anghel Saligny la 20 de metri.
+Zona este deservită de stațiile Nicolae Teclu și Anghel Saligny de pe linia M3 (roșie). De la Nicolae Teclu: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute. Neofort 83 are Metroul Anghel Saligny la 20 de metri.
 
 Cu cât au crescut prețurile în Titan–Pallady față de 2020?
 Prețul mediu pe metru pătrat a crescut de la 1.050 EUR/mp în 2020 la ~2.050 EUR/mp în T1 2026 — o creștere de 95% în 6 ani, față de media orașului de 65-70%. Această supraperformanță de 25-30 puncte procentuale este susținută de investițiile în infrastructură și cererea din diasporă.
@@ -4791,7 +4792,7 @@ Moșilor–Eminescu are un profil diferit de chiriași: profesioniști tineri cu
         h2: `Piața Muncii–Dristor — surpriza zonei cu trafic intens de căutare`,
         continut: `Date de piață actualizate mai 2026:
 
-Piața Muncii este una din cele mai căutate zone de pe site-ul neofort.ro (5.300+ click-uri lunare din Google Search) — o dovadă că cererea reală depășește oferta disponibilă. Zona beneficiază de metrou M3 (Piața Muncii) și de conexiuni rapide spre centru.
+Piața Muncii este una din cele mai căutate zone de pe site-ul neofort.ro (5.300+ click-uri lunare din Google Search) — o dovadă că cererea reală depășește oferta disponibilă. Zona beneficiază de metrou M1 (Piața Muncii) și de conexiuni rapide spre centru.
 
 Prețuri apartamente noi (total cu TVA 21%):
 • 2 camere 50–60 mp: 125.000–160.000 EUR
@@ -5138,7 +5139,7 @@ Aplicat la 2026: extinderea M4 spre Gara Progresul se află acum în etapa „pr
         h2: 'Zonele care beneficiază concret — și cele care trebuie tratate cu prudență',
         continut: `Pe baza traseelor confirmate, zonele din sudul Capitalei aflate pe ruta extinderii Magistralei 4 spre Gara Progresul sunt cele cu potențialul cel mai concret de apreciere pe orizont 2027-2032. Deocamdată, traseul exact stație cu stație nu a fost făcut public integral, dar direcția generală — sud, spre Gara Progresul, cu conexiune la transportul feroviar — indică beneficii pentru zonele adiacente coridorului, inclusiv potențiale conexiuni facilitate cu zone precum Berceni și Sectorul 4 în general.
 
-Zonele din portofoliul activ Neofort IMO cu conectivitate deja existentă la metrou — precum [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) (M3 la 200m, M2 Dristor la 350m) sau proiectele din [zona Titan-Pallady](/zona/titan-pallady) (M2 la câteva minute) — rămân, prin comparație, valori sigure: beneficiază deja de infrastructură existentă, funcțională, fără riscul de întârziere administrativă asociat proiectelor noi.
+Zonele din portofoliul activ Neofort IMO cu conectivitate deja existentă la metrou — precum [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) (M1 la 200m, Dristor M1/M3 la 350m) sau proiectele din [zona Titan-Pallady](/zona/titan-pallady) (M3 la câteva minute) — rămân, prin comparație, valori sigure: beneficiază deja de infrastructură existentă, funcțională, fără riscul de întârziere administrativă asociat proiectelor noi.
 
 Pentru zona Pantelimon și estul mai îndepărtat al Bucureștiului, unde extinderea M5 rămâne la stadiul de proiect fără șantier, recomandarea noastră e prudență: nu cumpăra bazându-te exclusiv pe promisiunea unui metrou care, istoric, a avut întârzieri de ani de zile față de estimările inițiale (a se vedea chiar precedentul Drumul Taberei, întârziat 5 ani).`,
       },
@@ -5162,7 +5163,7 @@ Dacă orizontul tău e de 5+ ani, extinderea M4 spre Gara Progresul e un semnal 
 
 Pentru zona Pantelimon și estul îndepărtat, tratează orice discuție despre metrou ca pe un bonus potențial pe termen foarte lung (7+ ani), nu ca pe un argument de cumpărare acum.
 
-Indiferent de zonă, criteriul cel mai sigur rămâne conectivitatea deja existentă: proiectele din [ansamblurile noastre active](/ansambluri-rezidentiale) cu metrou funcțional la distanță de mers pe jos oferă certitudine imediată, nu pariu pe un calendar administrativ care, istoric, s-a dovedit optimist. Pentru context suplimentar despre zona Titan-Pallady, deja conectată la M2, vezi [de ce a devenit cea mai căutată zonă din București](/blog/titan-pallady-cea-mai-cautata-zona), iar pentru un benchmark de prețuri pe sectoare, citește [analiza preț pe metru pătrat 2026](/blog/pret-metru-patrat-sectoare-bucuresti-2026).`,
+Indiferent de zonă, criteriul cel mai sigur rămâne conectivitatea deja existentă: proiectele din [ansamblurile noastre active](/ansambluri-rezidentiale) cu metrou funcțional la distanță de mers pe jos oferă certitudine imediată, nu pariu pe un calendar administrativ care, istoric, s-a dovedit optimist. Pentru context suplimentar despre zona Titan-Pallady, deja conectată la M3, vezi [de ce a devenit cea mai căutată zonă din București](/blog/titan-pallady-cea-mai-cautata-zona), iar pentru un benchmark de prețuri pe sectoare, citește [analiza preț pe metru pătrat 2026](/blog/pret-metru-patrat-sectoare-bucuresti-2026).`,
       },
       {
         id: 'faq',
@@ -5229,7 +5230,7 @@ Această comparație e gândită să răspundă direct la întrebarea pe care o 
         h2: 'Piața Muncii: zona semicentrală cu dublă conexiune de metrou',
         continut: `Piața Muncii, la granița dintre Sectorul 2 și Sectorul 3, s-a impus în ultimii ani ca una dintre cele mai căutate zone semicentrale din București, alimentată de renovarea Parcului Național (fostul Parc Carol) și de investițiile publice în infrastructura din zonă.
 
-Punctul forte incontestabil: dublă conexiune de metrou. Metrou Piața Muncii (M3) la câteva minute pe jos, plus Metrou Dristor (M2) în apropiere — o combinație rară în oferta imobiliară bucureșteană, care oferă acces direct atât spre vest (Eroilor, Politehnica, Drumul Taberei prin M3) cât și spre nord-vest și centru (Piața Unirii, Piața Victoriei, Pipera prin M2), fără să depinzi de o singură linie.
+Punctul forte incontestabil: dublă conexiune de metrou. Metrou Piața Muncii (M1) la câteva minute pe jos, plus Metrou Dristor (M1/M3) în apropiere — o combinație rară în oferta imobiliară bucureșteană, care oferă acces direct atât spre vest (Eroilor, Politehnica, Drumul Taberei prin M3) cât și spre nord-vest și centru (Piața Unirii, Piața Victoriei, Pipera prin M2), fără să depinzi de o singură linie.
 
 Zona beneficiază și de proximitate la Arena Națională, Bazinul Olimpic Lia Manoliu, și infrastructură medicală solidă — Spital Victor Babeș, Spital Monza, Spital Copii Grigore Alexandrescu, toate în raza a 10 minute.
 
@@ -5240,7 +5241,7 @@ Compromisul principal: prețul. Piața Muncii e, dintre cele trei zone comparate
         h2: 'Moșilor-Eminescu: caracter boutique și potențial de apreciere susținut',
         continut: `Zona Moșilor-Eminescu, în Sectorul 2, a devenit în ultimii ani una dintre cele mai apreciate zone „boutique" din București — un amestec de clădiri istorice, dezvoltări noi de dimensiuni mici-medii, și o atmosferă mai puțin aglomerată decât centrul propriu-zis, dar cu acces rapid la el.
 
-Punctul forte: echilibrul între centralitate și liniște. Zona e suficient de aproape de centru (Piața Obor, Calea Moșilor) pentru acces facil la servicii, comerț și birouri, dar suficient de rezidențială pentru a nu avea traficul intens și zgomotul caracteristic centrului propriu-zis. Metrou apropiat (Obor, Moșilor, cu acces la M2 și M5) completează oferta.
+Punctul forte: echilibrul între centralitate și liniște. Zona e suficient de aproape de centru (Piața Obor, Calea Moșilor) pentru acces facil la servicii, comerț și birouri, dar suficient de rezidențială pentru a nu avea traficul intens și zgomotul caracteristic centrului propriu-zis. Metrou apropiat (Obor, pe M1) completează oferta.
 
 Zona atrage în mod special cumpărători care caută proiecte de dimensiuni mai mici, mai personale — ansambluri boutique cu un număr limitat de apartamente, spre deosebire de complexele mari din alte zone ale orașului.
 
@@ -5273,11 +5274,11 @@ Important de precizat: aceste intervale reflectă media pieței pe baza tranzac�
       {
         id: 'comparatie-conectivitate',
         h2: 'Comparație: conectivitate cu transportul în comun',
-        continut: `Piața Muncii câștigă clar la acest capitol — dublă linie de metrou (M2 și M3) accesibilă pe jos din majoritatea proiectelor din zonă, cu conexiuni directe atât spre vest cât și spre centru/nord, fără transbordare.
+        continut: `Piața Muncii câștigă clar la acest capitol — stația Piața Muncii pe M1 și interschimbul Dristor, unde M1 și M3 se întâlnesc, ambele accesibile pe jos din majoritatea proiectelor din zonă.
 
 Moșilor-Eminescu are acces la metrou (M2 prin Obor, M5 în apropiere), dar de regulă necesită o distanță mai mare de mers pe jos sau o scurtă deplasare cu transportul de suprafață pentru a ajunge la stație, în funcție de poziția exactă a proiectului în zonă.
 
-Militari-Gorjului beneficiază de stația de metrou Gorjului (M1), cu acces relativ bun pentru multe din proiectele zonei, dar linia M1 are un traseu mai puțin direct spre centrul de afaceri al orașului comparativ cu M2 sau M3, ceea ce înseamnă timpi de deplasare mai lungi pentru navetiștii care lucrează în zona centrală sau de nord.
+Militari-Gorjului beneficiază de stația de metrou Gorjului (M3), cu acces relativ bun pentru multe din proiectele zonei. M3 ajunge direct în Piața Unirii, dar pentru polii de birouri din nord — Piața Victoriei, Aviatorilor, Pipera — este nevoie de o schimbare de linie, ceea ce înseamnă timpi de deplasare mai lungi pentru navetiștii care lucrează în zona de nord.
 
 Pentru cineva al cărui criteriu principal e minimizarea timpului de navetă zilnică spre centru, Piața Muncii rămâne opțiunea cea mai sigură dintre cele trei.`,
       },
@@ -5314,7 +5315,7 @@ Care zonă are cel mai bun randament din chirii?
 Militari-Gorjului oferă de regulă cel mai bun randament brut procentual, datorită raportului favorabil dintre chiria lunară și prețul de achiziție, plus cererea constantă de chirie din partea profilului tânăr al zonei.
 
 Care dintre cele trei zone are cea mai bună conectivitate cu metroul?
-Piața Muncii, prin acces la două linii diferite de metrou (M2 și M3), oferă cea mai bună conectivitate dintre cele trei zone comparate.
+Piața Muncii, prin stația proprie de pe M1 și prin interschimbul M1/M3 din Dristor, oferă cea mai bună conectivitate dintre cele trei zone comparate.
 
 Merită să cumpăr în Moșilor-Eminescu pentru potențial de apreciere?
 Zona a arătat un ritm constant de dezvoltare în ultimii ani, cu un amestec de clădiri noi și vechi în transformare. Pentru un orizont de investiție de 5+ ani, potențialul de apreciere e considerat solid, deși mai puțin previzibil decât în zonele cu infrastructură deja matură.
@@ -6963,7 +6964,7 @@ export const ARTICOLE_LIST = [
   { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'Impozit pe Apartament: Calcul 2026 și Ce Se Schimbă în 2027', data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '12 min', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Formula exactă de calcul a impozitului pe apartament în 2026, reducerile reale din OUG 9/2026 și ce se schimbă de la 1 ianuarie 2027, când baza devine valoarea de piață.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: true },
   { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețuri Apartamente București 2026: Scad?', data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21% și ce înseamnă pentru cumpărătorii de azi.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'tva-apartamente-noi-2026', titlu: 'TVA Apartamente Noi 2026: Cât Plătești Real', data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min', image: '/blog/tva-apartamente-noi-bucuresti-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'TVA la apartamente noi: ce cotă se aplică acum, de ce s-a închis fereastra de 9% pe 30 septembrie 2026, cine mai poate cere restituirea diferenței și cum calculezi prețul total real.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'titan-pallady-cea-mai-cautata-zona', titlu: 'Titan–Pallady: Cea Mai Căutată Zonă Sector 3', data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min', image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M2, IKEA, parcuri, prețuri accesibile și cerere din diasporă.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
+  { slug: 'titan-pallady-cea-mai-cautata-zona', titlu: 'Titan–Pallady: Cea Mai Căutată Zonă Sector 3', data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min', image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M3, IKEA, parcuri, prețuri accesibile și cerere din diasporă.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
   { slug: 'noua-casa-2026-ghid-complet', titlu: 'Programul Noua Casă 2026: Ghid Complet', data: '28 Aprilie 2026', dataISO: '2026-04-28', citire: '10 min', image: '/blog/noua-casa-2026-ghid-complet.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Ghid complet Noua Casă 2026: plafon de 500 milioane lei aprobat prin HG, condiții de eligibilitate, avans minim, bănci partenere și ce apartamente se califică.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
   { slug: 'cumparare-apartament-din-diaspora', titlu: 'Cumperi Apartament în București din Diasporă', data: '1 Mai 2026', dataISO: '2026-05-01', citire: '12 min', image: '/blog/cumparare-apartament-diaspora-ghid.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid pentru românii din diasporă care vor să cumpere apartament în București: procuri notariale, transfer valută, alegerea zonei și sfaturi din experiența cu clienți din Germania, Austria, Israel, Franța, Turcia și R. Moldova.', autor: 'Svetlana Calutu', autorSlug: 'svetlana-calutu', featured: false },
   { slug: 'apartament-nou-vs-vechi-calcul-real', titlu: 'Apartament Nou vs. Vechi: Calculul Costurilor', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, risc seismic, impozit E-Proprietatea și randament închiriere.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },

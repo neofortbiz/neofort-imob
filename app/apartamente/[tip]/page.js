@@ -58,7 +58,7 @@ const TIP_CONFIG = {
     ],
     textEditorial: `Garsonierele și studiourile noi din portofoliul Neofort IMO reprezintă cea mai accesibilă categorie de apartamente noi din București în 2026. Cu suprafețe între 33 și 53 de metri pătrați, sunt gândite pentru cumpărătorii la prima achiziție sau pentru investitori care urmăresc randamentul la închiriere.
 
-Zona Titan-Pallady oferă garsonierele la cel mai bun raport calitate-preț din București: prețuri de la 61.775€+TVA cu acces la Magistrala M2, în blocuri noi cu lift, centrală proprie și finisaje complete. Zona Eminescu-Viitorului propune studiouri boutique în Sectorul 2 semicentral, cu Metrou Piața Obor la 2 minute cu mașina și finisaje premium, la prețuri de la 99.000€+TVA.
+Zona Titan-Pallady oferă garsonierele la cel mai bun raport calitate-preț din București: prețuri de la 61.775€+TVA cu acces la Magistrala M3, în blocuri noi cu lift, centrală proprie și finisaje complete. Zona Eminescu-Viitorului propune studiouri boutique în Sectorul 2 semicentral, cu Metrou Piața Obor la 2 minute cu mașina și finisaje premium, la prețuri de la 99.000€+TVA.
 
 Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fără comision de agenție. Rezervare simplă, consultanță bancară și juridică gratuită.`,
   },
@@ -80,7 +80,7 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
       },
       {
         q: 'Care sunt cele mai bune zone pentru apartamente de 2 camere noi în București?',
-        a: 'Titan-Pallady (Sector 3) oferă cel mai bun raport preț-calitate-conectivitate: metrou M2, IKEA, prețuri sub media orașului. Militari (Sector 6) are acces rapid spre centru prin metrou M3. Moșilor-Eminescu (Sector 2) este alegerea pentru cei care preferă zona semicentrală.',
+        a: 'Titan-Pallady (Sector 3) oferă cel mai bun raport preț-calitate-conectivitate: metrou M3, IKEA, prețuri sub media orașului. Militari (Sector 6) are acces rapid spre centru prin metrou M3. Moșilor-Eminescu (Sector 2) este alegerea pentru cei care preferă zona semicentrală.',
       },
       {
         q: 'Ce suprafețe au apartamentele de 2 camere noi Neofort IMO?',
@@ -123,7 +123,7 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
       },
       {
         q: 'Ce zone din București au apartamente de 3 camere noi la prețuri accesibile?',
-        a: 'Titan-Pallady (Sector 3) oferă apartamente de 3 camere de la 102.167€+TVA — cel mai competitiv preț per mp util din zonele cu metrou M2. Colentina (Sector 2) are 3 camere de la 140.490€+TVA în promoție, unele cu terasă. Titan Parc IOR (Sector 3) pornește de la 177.380€+TVA, cu Metrou Costin Georgian la 300m.',
+        a: 'Titan-Pallady (Sector 3) oferă apartamente de 3 camere de la 102.167€+TVA — cel mai competitiv preț per mp util din zonele cu metrou M3. Colentina (Sector 2) are 3 camere de la 140.490€+TVA în promoție, unele cu terasă. Titan Parc IOR (Sector 3) pornește de la 177.380€+TVA, cu Metrou Costin Georgian la 300m.',
       },
       {
         q: 'Apartamentele de 3 camere Neofort IMO se predau complet finisate?',
@@ -185,13 +185,13 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
     h1: 'Ansambluri Rezidențiale cu Metrou în București',
     descriere: 'Apartamente noi lângă metrou în București, în toate sectoarele active. Direct de la Neofort IMO, fără comision.',
     seoTitle: 'Ansambluri Rezidențiale cu Metrou București',
-    seoDesc: 'Apartamente noi lângă metrou în București: M2 Anghel Saligny (20m), M2 Costin Georgian (300m), M3 Piața Muncii (300m), M3 Păcii (550m). Neofort IMO, fără comision.',
+    seoDesc: 'Apartamente noi lângă metrou în București: M3 Anghel Saligny (20m), M1 Costin Georgian (300m), M1 Piața Muncii (300m), M3 Păcii (550m). Neofort IMO, fără comision.',
     ogDesc: 'Apartamente noi lângă metrou în București. Direct de la Neofort IMO, fără comision.',
     match: (tipuri, ansamblu) => ansamblu.puncteInteres?.some(p => p.tip === 'metrou'),
     faq: [
       {
         q: 'Ce ansambluri Neofort IMO sunt cel mai aproape de metrou?',
-        a: 'Neofort 83 Titan-Pallady: Metrou Anghel Saligny (M2) la 20 de metri — cel mai aproape de metrou din întregul portofoliu activ. Neofort 76: Metrou Păcii (M3) la 550m. Neofort 42: Metrou Piața Muncii (M3) la 300m.',
+        a: 'Neofort 83 Titan-Pallady: Metrou Anghel Saligny (M3) la 20 de metri — cel mai aproape de metrou din întregul portofoliu activ. Neofort 76: Metrou Păcii (M3) la 550m. Neofort 42: Metrou Piața Muncii (M1) la 300m.',
       },
       {
         q: 'De ce contează accesul la metrou pentru valoarea unui apartament?',
@@ -199,20 +199,20 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
       },
       {
         q: 'Ce linii de metrou acoperă ansamblurile Neofort IMO?',
-        a: 'M2 (est-vest): Neofort 83, 84, 44, 28, 56, 82 (Titan-Pallady), Neofort 50 (Costin Georgian/IOR), Neofort 11 (Sector 2). M3 (vest-centru): Neofort 76 (Păcii), Neofort 49 (Gorjului), Neofort 42 (Piața Muncii — și Dristor 1 pe M2, la 1,2 km).',
+        a: 'M3 (vest–est): Neofort 83, 84, 44, 28, 56, 82 (Titan-Pallady, stațiile Anghel Saligny și Nicolae Teclu), Neofort 76 (Păcii), Neofort 49 (Gorjului). M1: Neofort 50 (Costin Georgian/IOR), Neofort 11 (Sector 2), Neofort 42 (Piața Muncii — și Dristor 1, interschimb M1/M3, la 1,2 km).',
       },
       {
         q: 'Există diferențe de preț între apartamentele cu metrou la 3 minute vs. 10 minute?',
         a: 'Da, semnificative. Metrou la 3 minute (Neofort 83, Neofort 44): prețuri 62.000-150.000€+TVA. Metrou la 5-10 minute (Neofort 84, Neofort 28): prețuri similare sau cu 5-10% mai mici. Metrou la 400-500m pe jos (Neofort 76, 78): prețuri premium datorită zonei, nu proximității față de metrou.',
       },
       {
-        q: 'Ce este mai bine pentru investiție — metrou M2 sau M3?',
-        a: 'M2 (est-vest) acoperă mai mulți poli de activitate (Unirii, Universitate, Obor, Dristor) și are fluxuri mai mari de pasageri. Zona Titan-Pallady pe M2 a crescut mai rapid în ultimii 3 ani. M3 este mai puțin aglomerat și deservește Militari și Gorjului — cerere bună dar mai concentrată.',
+        q: 'Ce este mai bine pentru investiție — metrou M3 sau M1?',
+        a: 'M3 (vest–est) traversează orașul de la Preciziei la Anghel Saligny și deservește atât Militari-Gorjului, cât și Titan-Pallady, cu legătură directă în Piața Unirii. Zona Titan-Pallady pe M3 a crescut mai rapid în ultimii 3 ani. M1, linia circulară, acoperă mai mulți poli de activitate (Piața Muncii, Obor, Ștefan cel Mare, Gara de Nord, Piața Victoriei) și are fluxuri mai mari de pasageri.',
       },
     ],
     textEditorial: `Accesul la metrou este factorul care diferențiază cel mai clar valorile imobiliare în București. Toate cele ${ANSAMBLURI_ACTIVE.length} ansambluri active Neofort IMO se află în apropierea unei stații de metrou — de la 20 de metri (Neofort 83) la maxim 15 minute pe jos.
 
-Linia M2 deservește zona Titan-Pallady cu două stații: Nicolae Teclu și Anghel Saligny, creând un coridor rezidențial excepțional de bine conectat. Linia M3 acoperă Militari, Gorjului și Piața Muncii. Combinația metrou + prețuri sub media pieței explică de ce aceste zone au înregistrat cel mai mare ritm de creștere a valorii apartamentelor noi din București în 2024-2026.
+Linia M3 deservește zona Titan-Pallady cu două stații: Nicolae Teclu și Anghel Saligny, creând un coridor rezidențial excepțional de bine conectat. Aceeași magistrală acoperă și Militari, prin Păcii și Gorjului. Piața Muncii și Costin Georgian sunt pe M1. Combinația metrou + prețuri sub media pieței explică de ce aceste zone au înregistrat cel mai mare ritm de creștere a valorii apartamentelor noi din București în 2024-2026.
 
 Toate informațiile despre distanțele exacte față de metrou sunt verificate și incluse în fișa fiecărui ansamblu.`,
   },
