@@ -1606,7 +1606,7 @@ Dotările complete și de calitate atrag chiriași profesioniști care rămân �
     seoTitle: 'Ghid 2026: Cum Cumperi Apartament Nou',
     seoDesc: 'Ghid practic pentru cumpărarea unui apartament nou de la developer în București 2026: avans, antecontract, capcane de evitat, finanțare și verificare predare.',
     tag: 'Ghid', tagColor: '#2d7a3a',
-    data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min',
+    data: '27 Mai 2026', dataISO: '2026-05-27', dataModificata: '2026-10-13', citire: '13 min',
     autor: 'adriana-veselu',
     image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif',
     descriere: 'Cum cumperi apartament nou de la dezvoltator în 2026: avans, contract, capcane de evitat, finanțare și predare la cheie. Sfaturi din 400+ tranzacții.',
@@ -1817,6 +1817,8 @@ Da, în special în faza de pre-lansare sau cu avans mare (45%). Discounturile o
 150.000€ + ~3.500 lei taxe + 20.000-40.000€ mobilare + fond urgență = 175.000-200.000€ buget total necesar
 
 **De ce contează:** mulți cumpărători intră în tranzacție cu exact avansul calculat și descoperă că au nevoie de 15-25% mai mult pentru a putea locui efectiv în apartamentul achiziționat. Planifică din timp.
+
+Un cost pe care bugetele îl ratează frecvent este întreținerea lunară, care diferă mult de la un ansamblu la altul în funcție de servicii și de modul de încălzire — l-am detaliat în [articolul despre întreținerea la bloc nou](/blog/intretinere-bloc-nou-de-ce-difera).
 
 Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sună-ne la 0758 090 904 sau trimite-ne o solicitare prin formularul de contact — oferim [consultanță gratuită](/contact) fără angajamente.`,
       },
@@ -4423,7 +4425,7 @@ Proiecte de renovare cu experiență: dacă ai experiență în renovări, resur
 
 Rezumând: dacă bugetul permite și zona cu apartamente noi corespunde criteriilor voastre, calculul pe termen lung favorizează clar apartamentul nou. Diferența de preț la achiziție este reală, dar este parțial sau total compensată de costuri mai mici, apreciere mai rapidă și zero surprize tehnice.
 
-Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătăm opțiunile disponibile în bugetul tău. Citește și [randamentul la închiriere pe zone](/blog/randament-inchiriere-zone-bucuresti) și [ghidul de cumpărare](/blog/ghid-cumparare-apartament-nou). [Contactează-ne](/contact).`,
+Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătăm opțiunile disponibile în bugetul tău. Citește și [randamentul la închiriere pe zone](/blog/randament-inchiriere-zone-bucuresti), [ghidul de cumpărare](/blog/ghid-cumparare-apartament-nou) și comparația detaliată a costurilor lunare din [articolul despre întreținerea la bloc nou](/blog/intretinere-bloc-nou-de-ce-difera). [Contactează-ne](/contact).`,
       },
     ],
   },
@@ -4437,7 +4439,7 @@ Vino la o consultanță gratuită la Neofort IMO — 0758 090 904. Îți arătă
       'La recepție se verifică pe bază de checklist finisajele, instalațiile și conformitatea cu contractul înainte de semnare.',
     ],
     tag: 'Ghid', tagColor: '#2d7a3a',
-    data: '7 Mai 2026', dataISO: '2026-05-07', citire: '8 min',
+    data: '7 Mai 2026', dataISO: '2026-05-07', dataModificata: '2026-10-13', citire: '8 min',
     autor: 'adrian-pintilie',
     image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif',
     descriere: `Ce înseamnă „predare la cheie" la un apartament nou? Lista completă a finisajelor incluse obligatoriu, ce poate lipsi și nu îți spune nimeni, checklist de verificare la predare și drepturile legale ale cumpărătorilor.`,
@@ -4652,7 +4654,7 @@ Ce nu este inclus în prețul standard (disponibil opțional):
 
 Locul de parcare: la fiecare proiect există opțiunea de achiziție parcare (exterioară sau interioară), cu prețuri afișate transparent în prezentarea proiectului. Locul de parcare se cumpără separat sau este inclus la cerere în prețul pachet.
 
-Dacă ai întrebări despre specificațiile unui proiect specific, consultanții noștri sunt disponibili la 0758 090 904. Citește și [ghidul complet de cumpărare](/blog/ghid-cumparare-apartament-nou), [ce include costul total real](/blog/apartamente-de-vanzare-titan-pallady-teclu) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
+Dacă ai întrebări despre specificațiile unui proiect specific, consultanții noștri sunt disponibili la 0758 090 904. Citește și [ghidul complet de cumpărare](/blog/ghid-cumparare-apartament-nou), [ce include costul total real](/blog/apartamente-de-vanzare-titan-pallady-teclu) și [cum constitui asociația de proprietari](/blog/constituire-asociatie-proprietari-bloc-nou) după mutare, plus [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
       },
     ],
   },
@@ -6278,6 +6280,474 @@ Dezvoltatorul, ca vânzător profesionist, și constructorul răspund legal pent
     ],
   },
 
+  'intretinere-bloc-nou-de-ce-difera': {
+    titlu: `Întreținerea la Bloc Nou: De Ce Diferă de Câteva Ori Între Ansambluri și Ce Verifici Înainte să Cumperi`,
+    seoTitle: 'Întreținere Bloc Nou: De Ce Diferă Atât',
+    seoDesc: 'Jumătate din factura de iarnă e încălzirea, nu întreținerea. Cum se citește corect o listă de plată, de ce diferă între ansambluri și ce întrebi înainte de semnare.',
+    tag: 'Analiză', tagColor: '#c2410c',
+    data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '13 min',
+    autor: 'sasha-calutu',
+    image: '/blog/intretinere-bloc-nou-de-ce-difera.avif',
+    descriere: `„Întreținerea la bloc nou ajunge la 900 de lei" — dar din cei 900, aproape jumătate este încălzirea, care nu are legătură cu vârsta blocului. Cum se separă corect costurile asociației de consumul individual, de ce un apartament nou de 120 mp consumă pe jumătate cât unul vechi de 98 mp, și ce întrebi înainte să semnezi.`,
+    peScurt: [
+      'O listă de plată amestecă două lucruri diferite: costurile asociației, care depind de servicii și de cine administrează, și consumul individual, care depinde de felul în care e încălzită clădirea. Se compară separat sau nu se compară deloc.',
+      'Un apartament de 4 camere racordat la termoficare consumă circa 2,70 Gcal pe lună iarna. Unul nou, cu centrală proprie și suprafață mai mare, poate consuma sub jumătate pentru același confort.',
+      'Costurile asociației cresc mult doar atunci când se adaugă servicii: pază umană permanentă, grădinari, concierge, piscină. Acestea se votează, iar lucrările de modernizare cer acordul a două treimi din proprietari (art. 51, Legea nr. 196/2018).',
+    ],
+    keywords: ['intretinere bloc nou', 'cat costa intretinerea la un apartament nou', 'de ce e mare intretinerea la bloc nou', 'intretinere bloc nou vs bloc vechi', 'cost incalzire apartament termoficare vs centrala proprie', 'consum gigacalorii apartament 4 camere', 'servicii incluse in intretinere ansamblu rezidential'],
+    hashtags: ['#IntretinereBlocNou', '#CosturiLocuire', '#ApartamenteBucuresti', '#NeofortIMO'],
+    cuprins: [
+      { id: 'de-ce-difera', titlu: `De ce cifrele din presă nu se compară între ele` },
+      { id: 'incalzirea', titlu: `Încălzirea: unde se duce de fapt jumătate din factură` },
+      { id: 'bloc-nou-vs-vechi', titlu: `Bloc nou vs. bloc vechi, la paritate` },
+      { id: 'administrarea', titlu: `Cine administrează — primul factor de cost` },
+      { id: 'servicii-suplimentare', titlu: `Serviciile suplimentare: cine le decide` },
+      { id: 'cum-se-repartizeaza', titlu: `Cum se repartizează cheltuielile` },
+      { id: 'fonduri', titlu: `Fondul de rulment și fondul de reparații` },
+      { id: 'ce-verifici', titlu: `Ce întrebi înainte să semnezi` },
+      { id: 'faq', titlu: `Întrebări frecvente` },
+    ],
+    sectiuni: [
+      {
+        id: 'de-ce-difera',
+        h2: `De ce cifrele din presă nu se compară între ele`,
+        continut: `În septembrie 2026 au apărut titluri de genul „Întreținerea într-un bloc nou ajunge la 900 de lei" sau „Dezastru la întreținere pentru românii de la blocurile noi". Cifrele citate sunt reale. Comparația dintre ele, nu.
+
+Motivul e simplu și, odată înțeles, schimbă complet felul în care citești o ofertă: **o listă de plată adună la un loc două categorii de costuri care nu au nicio legătură una cu alta.**
+
+**Prima categorie — costurile asociației.** Administrarea, curățenia, lifturile, iluminatul spațiilor comune, eventual paza, grădinarii, fondul de reparații. Acestea depind de ce servicii are ansamblul și de cine administrează. Diferă enorm de la un bloc la altul.
+
+**A doua categorie — consumul individual.** Încălzirea, apa caldă, apa rece. Acestea depind de câți metri pătrați ai, câte persoane stați, cât de bine izolată e clădirea și, mai ales, **cum e încălzit blocul**. Nu au nicio legătură cu serviciile ansamblului.
+
+Când un ziar scrie „700 de lei la un apartament de 2 camere de 40 mp", iar în text apare că din ei circa 450 de lei sunt încălzirea, cifra reală de „întreținere" este de 250 de lei. Diferența nu vine din faptul că blocul e nou. Vine din factura de căldură.
+
+Două apartamente identice ca suprafață, în blocuri cu aceleași servicii, pot avea facturi diferite cu câteva sute de lei, exclusiv din modul de încălzire. Iar două apartamente cu aceeași încălzire pot avea facturi diferite cu câteva sute de lei, exclusiv din servicii.
+
+Restul articolului separă cele două și arată unde se duce, concret, fiecare leu.`,
+      },
+      {
+        id: 'incalzirea',
+        h2: `Încălzirea: unde se duce de fapt jumătate din factura de iarnă`,
+        continut: `Aici se află cea mai mare parte a diferenței, și e singura care se poate calcula exact.
+
+**Cât costă o gigacalorie, în trei variante:**
+
+| Sursă | lei/Gcal |
+|---|---|
+| Centrală proprie pe gaz | **~314** |
+| Termoficare, tarif subvenționat (București) | **~366** |
+| Termoficare, cost real declarat de municipalitate | **~922** |
+
+Cifra pentru gaz rezultă din prețul unei oferte de la sfârșitul lui august 2026, raportat la un randament de 92% al centralei — circa 0,27 lei per kWh de căldură livrată, adică 314 lei pe gigacalorie. Tariful Termoenergetica pentru populație este de 283,75 lei/MWh fără TVA, adică circa 330 lei/Gcal fără TVA. Costul real declarat de municipalitate este de 921,82 lei/Gcal, iar diferența e acoperită din bugetul local.
+
+Prima concluzie, contraintuitivă: **centrala proprie este deja mai ieftină decât termoficarea subvenționată.** Nu cu puțin — cu circa 14% pe gigacalorie. Față de costul real al termoficării, diferența este de 66%.
+
+**Cât consumă, concret, un apartament.** Pentru apartamentele racordate la sistemul centralizat, consumul mediu lunar de energie termică publicat în septembrie 2026 este:
+
+| Apartament | Iarnă friguroasă | Iarnă blândă |
+|---|---|---|
+| Garsonieră | 1,01 Gcal | 0,91 Gcal |
+| 2 camere | 1,49 Gcal | 1,36 Gcal |
+| 3 camere | 1,94 Gcal | 1,76 Gcal |
+| 4 camere | 2,70 Gcal | 2,45 Gcal |
+
+La tariful subvenționat, un apartament de 4 camere plătește așadar în jur de **900–990 de lei pe lună numai pentru căldură și apă caldă** în lunile reci. Fără subvenție, aceeași cantitate ar costa între 2.450 și 2.700 de lei.
+
+**Două riscuri pe care le preia cumpărătorul unui apartament racordat la termoficare:**
+
+**Subvenția nu este un preț, este o decizie.** Termoenergetica, asociația de dezvoltare intercomunitară și direcția de specialitate a Primăriei au solicitat majorarea tarifului. Cuantumul nu era anunțat la data publicării acestui articol. Factura ta depinde de o hotărâre de consiliu, nu de consumul tău.
+
+**Rețeaua pierde între 30% și 40%** din energia pe care o transportă, iar părți din magistrale au între 40 și 60 de ani. În primăvara lui 2026, circa 3.500 din cele aproximativ 9.000 de blocuri racordate au avut probleme cu apa caldă, iar sistemul a funcționat la un moment dat la 62% din capacitate.
+
+Un bloc nou cu centrală proprie plătește prețul pieței la gaz, dar nu depinde nici de o decizie de consiliu general, nici de o rețea care pierde o treime din ce transportă.`,
+      },
+      {
+        id: 'bloc-nou-vs-vechi',
+        h2: `Bloc nou vs. bloc vechi, la paritate: 4 camere cu 4 camere`,
+        continut: `Comparațiile care circulă sunt aproape toate viciate: se pune un apartament vechi de 4 camere lângă unul nou de 2 camere și se trage concluzia că noul e mai ieftin. Nu demonstrează nimic.
+
+Comparația corectă pune aceeași tipologie și același număr de locatari față în față.
+
+**Apartament nou, 4 camere, 120 mp utili plus terase, 3 persoane, bloc administrat de asociația de proprietari, fără servicii suplimentare:**
+• Întreținere (administrare, curățenie, lift, apă, electricitate comună, fond de reparații): **500 lei**
+• Gaz pentru încălzire și apă caldă, lună de iarnă: **350 lei**
+• **Total: ~850 lei**
+
+**Apartament vechi, 4 camere, racordat la termoficare, 3 persoane:**
+• Întreținere: în jurul a **550 lei**
+• Căldură și apă caldă la tariful subvenționat: **800–1.000 lei**
+• **Total: ~1.350–1.550 lei**
+
+Diferența este de **500–700 de lei pe lună**, iar apartamentul nou este cu peste 20% mai mare ca suprafață.
+
+**Cifra care explică totul.** Cei 350 de lei de gaz înseamnă circa 1.296 kWh de căldură livrată, adică **1,11 Gcal pe lună**. Un apartament vechi de 4 camere consumă 2,70 Gcal. Raportat la suprafață, apartamentul nou consumă **cu circa 66% mai puțină energie pe metru pătrat**, la o suprafață cu 22% mai mare.
+
+Diferența nu vine din servicii, din administrator sau din mărimea blocului. Vine din anvelopa clădirii: izolație, tâmplărie, pierderi. Un metru pătrat dintr-un bloc construit după 2010 are nevoie de o fracțiune din energia necesară unui metru pătrat dintr-un bloc din anii '70 sau '80.
+
+**Două precizări de onestitate.** Prima: exemplul de bloc vechi cu centrală proprie, care circulă în presă cu circa 550 de lei pe lună, este excepția, nu regula — majoritatea blocurilor vechi din București sunt racordate la sistemul centralizat. A doua: la costurile unui bloc vechi se adaugă, în timp, lucrările de reparație capitală — acoperiș, fațadă, instalații, lift — care la o clădire nouă nu apar ani buni. Fondul de reparații recomandat la clădirile de peste 20 de ani pornește de la circa 50 de lei pe apartament și pe lună, și este un minim, nu un plafon.`,
+      },
+      {
+        id: 'administrarea',
+        h2: `Cine administrează — primul factor care decide costul`,
+        continut: `La costurile asociației, prima întrebare nu e „câte apartamente are blocul", ci **cine stabilește tarifele**.
+
+Legea nr. 196/2018 este clară: conform **art. 63 alin. (1)**, administrarea și întreținerea proprietății comune sunt **în sarcina asociației de proprietari**. Conform **art. 63 alin. (3)**, administratorul este numit de comitetul executiv, prin președinte, care semnează contractul de administrare. Conform **art. 64 alin. (4)**, administratorul lucrează în baza unui contract încheiat **cu asociația**.
+
+Până la constituirea asociației însă, niciunul dintre aceste mecanisme nu funcționează. Nu există cine să numească, să negocieze sau să ceară socoteală. Administrarea rămâne de facto la dezvoltator, iar singura lui obligație legală, conform **art. 14**, este să îi informeze pe cumpărători, la momentul înstrăinării, despre necesitatea constituirii asociației.
+
+**Fereastra asta este locul în care apar cele mai multe nemulțumiri.** Tarife care nu au fost negociate de nimeni, servicii pe care nu le-a votat nimeni, lipsa unui buget aprobat în adunare generală. Durata ei depinde exclusiv de cât de repede se organizează proprietarii.
+
+Există și practica unor dezvoltatori de a-și rezerva administrarea pentru o perioadă prin clauză în contractul de vânzare-cumpărare. O astfel de clauză poate fi contestată în instanță ca abuzivă, tocmai pentru că legea atribuie administrarea asociației. Dar contestarea presupune ca asociația să existe mai întâi.
+
+**Ce înseamnă practic, pentru cineva care cumpără:** întreabă explicit cine va administra după predare, pe ce perioadă, la ce tarif, și dacă există o clauză în contract pe tema asta. Întreabă și când se preconizează constituirea asociației. Procedura completă, actele și costurile reale sunt în [ghidul despre constituirea asociației de proprietari](/blog/constituire-asociatie-proprietari-bloc-nou).
+
+Important de reținut: un administrator ales de asociație nu este automat mai ieftin. Este însă ales de proprietari, poate fi schimbat de proprietari, și lucrează pe un buget pe care proprietarii îl votează.`,
+      },
+      {
+        id: 'servicii-suplimentare',
+        h2: `Serviciile suplimentare: cine le decide și cât costă`,
+        continut: `Al doilea factor care mișcă semnificativ costul asociației este lista de servicii.
+
+**Ce intră aici:** pază umană permanentă, grădinari pentru spațiile verzi, servicii de concierge sau recepție, întreținerea unei piscine, săli de fitness, personal permanent de curățenie.
+
+**Ordinul de mărime, din date publicate în septembrie 2026:**
+• Doar administrarea: **60–120 lei** pe apartament
+• Ansamblu fără servicii sofisticate, 2 camere, vara: **250–450 lei**
+• Apartament de 4 camere într-un ansamblu cu pază umană: **800–900 lei**
+• Ansambluri cu piscină interioară, sală, recepție și personal permanent: **peste 1.000–1.500 lei**
+• Dotările de tip piscină sau sală adaugă estimativ **20–30%** peste costul standard
+
+Aceste sume sunt legitime. Un ansamblu premium cu piscină și recepție **costă** mai mult de întreținut, iar cine cumpără acolo cumpără tocmai serviciile acelea. Problema nu e că sunt scumpe, ci că mulți cumpărători află de ele după ce se mută.
+
+**Cine le decide.** Înainte de constituirea asociației, dezvoltatorul, prin contractele pe care le încheie. După constituire, adunarea generală. Iar aici intervine o regulă pe care merită să o știi: conform **art. 51** din Legea nr. 196/2018, hotărârile privind **lucrările de modernizare** se iau cu acordul a **două treimi din numărul total al proprietarilor** din condominiu — nu al celor prezenți la ședință. Este un prag ridicat, care protejează împotriva deciziilor luate de o minoritate activă.
+
+**Consecința de care puțini sunt conștienți:** conform **art. 75 alin. (4)**, niciun proprietar nu este scutit de la plata cheltuielilor comune pe motiv că renunță să folosească o parte din proprietatea comună. Dacă adunarea votează paza umană, o plătesc toți — inclusiv cei care au votat împotrivă și cei care nu ies niciodată pe aleea păzită.
+
+De aceea, **lista de servicii contractate este o informație de verificat înainte de semnare**, nu după mutare.`,
+      },
+      {
+        id: 'cum-se-repartizeaza',
+        h2: `Cum se repartizează cheltuielile între apartamente`,
+        continut: `Două apartamente din același bloc, cu aceeași suprafață, pot avea sume diferite pe lista de plată. Nu e neapărat o eroare — depinde de criteriul de repartizare.
+
+Conform **art. 75 alin. (2)** din Legea nr. 196/2018, cheltuielile se repartizează după criterii prevăzute expres:
+
+• **Pe număr de persoane** — de regulă apa rece, apa caldă, gunoiul
+• **Pe consum individual** — ce se măsoară cu contor propriu
+• **Pe cotă-parte indiviză** — administrare, fond de reparații, lucrări la proprietatea comună
+• **Pe beneficiari** — servicii de care beneficiază doar o parte dintre proprietari
+• **Pe consumatori tehnici** — de exemplu energia termică
+
+**Cota-parte indiviză nu se negociază.** Este raportul dintre suprafața utilă a apartamentului tău și totalul suprafețelor utile din clădire, iar suma tuturor cotelor trebuie să dea exact 100%. Dacă ai un apartament mare, plătești o parte mai mare din administrare și din fondul de reparații. Este corect și este obligatoriu.
+
+**Hotărârile care încalcă aceste reguli sunt nule**, conform **art. 75 alin. (3)**. O asociație nu poate decide, de exemplu, să împartă administrarea în părți egale pe apartament dacă legea cere cota-parte indiviză.
+
+Există o excepție utilă: conform **art. 75 alin. (5)**, adunarea generală poate scuti proprietarii de la parter și de la etajele inferioare de plata energiei electrice a liftului.
+
+**Penalitățile** pentru întârziere nu pot depăși **0,2% pe zi**, conform **art. 77**, și se aplică numai după **30 de zile** de la scadență. O asociație care practică mai mult încalcă legea.
+
+Dacă suma de pe lista ta nu se potrivește cu a vecinului de aceeași suprafață, cere administratorului defalcarea pe criterii. Conform **art. 66**, lista lunară de cheltuieli trebuie afișată în **cel mult 5 zile** de la primirea ultimei facturi de la furnizori.`,
+      },
+      {
+        id: 'fonduri',
+        h2: `Fondul de rulment și fondul de reparații: ce sunt și ce se întâmplă la vânzare`,
+        continut: `Pe lista de plată apar două fonduri care se confundă frecvent, deși funcționează complet diferit — iar diferența contează mai ales când vinzi.
+
+**Fondul de rulment** este banii de rezervă ai asociației pentru plățile curente. Conform **art. 72**, se stabilește astfel încât să acopere cheltuielile curente ale condominiului pe o lună. O asociație nouă, care nu are istoric de cheltuieli, se raportează la asociații comparabile.
+
+Faptul esențial: conform **art. 72 alin. (5)**, **fondul de rulment încasat se restituie la transmiterea dreptului de proprietate**, dacă actele de transmitere nu prevăd altfel. Când vinzi, îl primești înapoi. Cere la notar o adeverință de la asociație cu suma exactă aflată în fondul de rulment pe numele tău, înainte de semnare.
+
+**Fondul de reparații** este altceva. Conform **art. 71**, este obligatoriu, se aprobă anual de adunarea generală și se folosește **numai** pentru consolidarea clădirii, reabilitare termică, lucrări de arhitectură ambientală și reparații la proprietatea comună. Soldul neutilizat la finalul anului se reportează în anul următor, cu aceeași destinație.
+
+Spre deosebire de fondul de rulment, **fondul de reparații nu se restituie** la vânzare, cu excepția unei hotărâri exprese a adunării generale.
+
+Pentru un bloc nou, fondul de reparații pare un cost inutil în primii ani — nu e nimic de reparat. Este exact invers: anii fără reparații sunt anii în care se strânge pentru lucrările mari de peste 15 sau 20 de ani. O asociație care nu constituie fond de reparații pune povara integral pe proprietarii de peste zece ani, care s-ar putea să nu fii tu.
+
+Conform **art. 70**, veniturile obținute din exploatarea proprietății comune, inclusiv dobânzile bancare, aparțin asociației și se fac venit la fondul de reparații — nu se împart proprietarilor.`,
+      },
+      {
+        id: 'ce-verifici',
+        h2: `Ce întrebi înainte să semnezi`,
+        continut: `Lista de mai jos se parcurge **înainte** de antecontract, nu după mutare. Toate răspunsurile se cer în scris.
+
+**Despre administrare:**
+1. Cine va administra blocul după predare și pe ce perioadă?
+2. Există în contractul de vânzare-cumpărare o clauză privind administrarea? Dacă da, ce prevede exact?
+3. Când se preconizează constituirea asociației de proprietari?
+
+**Despre servicii:**
+4. Ce servicii sunt deja contractate pentru ansamblu: pază umană, grădinari, concierge, curățenie, piscină, sală?
+5. Care este costul lunar estimat al fiecăruia, pe apartament?
+6. Există servicii prevăzute contractual care încă nu au pornit, dar vor porni după ocupare?
+
+**Despre încălzire — partea cu cel mai mare impact:**
+7. Cum se încălzește clădirea: centrală proprie în apartament, centrală de bloc, sau racordare la sistemul centralizat?
+8. Există contorizare individuală pentru apă caldă și căldură?
+
+**Despre costurile asociației:**
+9. Există o estimare scrisă a cheltuielilor lunare pe tipuri de apartament?
+10. Cum se repartizează: ce se dă pe persoană, ce pe cotă-parte indiviză, ce pe consum?
+11. Ce fond de rulment se va solicita și cât este fondul de reparații propus?
+
+**Un test simplu care spune mult:** cere estimarea defalcată pe componente, nu o sumă totală. Un dezvoltator sau un administrator care poate arăta „administrare X lei, curățenie Y lei, lift Z lei, fond de reparații W lei" are un buget gândit. Cine răspunde doar cu „în jur de 400 de lei" nu l-a făcut încă.
+
+Și reține diferența din acest articol: o sumă totală fără defalcare amestecă încălzirea cu serviciile. Compară costurile asociației cu costurile asociației, și încălzirea cu încălzirea. Altfel compari lucruri diferite.
+
+Pentru ansamblurile cu apartamente disponibile acum, inclusiv proiecte finalizate cu predare la semnare, vezi [ansamblurile rezidențiale Neofort IMO](/ansambluri-rezidentiale). Consultanța pe costul total lunar — rată, întreținere, impozit — este gratuită: 0758 090 904.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre întreținerea la bloc nou`,
+        continut: `Cât costă întreținerea la un apartament nou în București?
+Depinde decisiv de două lucruri: ce servicii are ansamblul și cum se încălzește clădirea. Fără servicii suplimentare, costurile asociației pentru un apartament de 2 camere sunt de ordinul a 250–450 de lei vara. Cu pază umană permanentă, un apartament de 4 camere ajunge la 800–900 de lei. Cu piscină, sală și recepție, se depășesc 1.000–1.500 de lei. Peste aceste sume se adaugă încălzirea, care iarna poate fi comparabilă ca valoare.
+
+E mai scumpă întreținerea la bloc nou decât la bloc vechi?
+Nu neapărat, iar la paritate de tipologie poate fi semnificativ mai ieftină. Un apartament nou de 4 camere, de 120 mp, cu centrală proprie și fără servicii suplimentare, poate ajunge la circa 850 de lei pe lună iarna, întreținere plus gaz. Un apartament vechi de 4 camere racordat la termoficare ajunge la 1.350–1.550 de lei, la o suprafață mai mică.
+
+De ce consumă mai puțin un apartament nou?
+Din cauza anvelopei clădirii — izolație, tâmplărie, pierderi termice. Un apartament nou de 120 mp poate consuma circa 1,11 Gcal pe lună, în timp ce un apartament vechi de 4 camere consumă 2,70 Gcal. Raportat la metrul pătrat, înseamnă cu circa 66% mai puțină energie.
+
+Cât costă o gigacalorie în București?
+Termoenergetica facturează populației 283,75 lei/MWh fără TVA, adică circa 330 lei/Gcal fără TVA, în timp ce costul real declarat de municipalitate este de 921,82 lei/Gcal — diferența fiind acoperită din bugetul local. O gigacalorie produsă cu o centrală proprie pe gaz costă circa 314 lei, la prețurile din august 2026.
+
+Dezvoltatorul poate să îmi impună firma de administrare?
+Administrarea proprietății comune este în sarcina asociației de proprietari, iar administratorul este numit de comitetul executiv prin președinte, în baza unui contract încheiat cu asociația (art. 63 și 64 din Legea nr. 196/2018). Până la constituirea asociației însă, administrarea rămâne de facto la dezvoltator. O clauză contractuală care impune o anumită firmă poate fi contestată ca abuzivă.
+
+Cine decide dacă blocul are pază umană sau concierge?
+Înainte de constituirea asociației, dezvoltatorul, prin contractele încheiate. După constituire, adunarea generală. Lucrările de modernizare cer acordul a două treimi din numărul total al proprietarilor, conform art. 51.
+
+Pot refuza să plătesc un serviciu pe care nu îl folosesc?
+Nu. Conform art. 75 alin. (4), niciun proprietar nu este scutit de la plata cheltuielilor comune pe motiv că renunță să folosească o parte din proprietatea comună.
+
+Recuperez fondul de rulment când vând apartamentul?
+Da. Conform art. 72 alin. (5), fondul de rulment încasat se restituie la transmiterea dreptului de proprietate, dacă actele nu prevăd altfel. Fondul de reparații nu se restituie, cu excepția unei hotărâri a adunării generale.
+
+De ce plătesc mai mult decât vecinul cu același metraj?
+Cel mai probabil din criteriul de repartizare: unele cheltuieli se dau pe număr de persoane, altele pe consum individual, altele pe cota-parte indiviză. Cere administratorului defalcarea pe criterii. Lista lunară de cheltuieli trebuie afișată în cel mult 5 zile de la primirea ultimei facturi, conform art. 66.
+
+Cât de sigură este termoficarea în București?
+În primăvara lui 2026, circa 3.500 din aproximativ 9.000 de blocuri racordate au avut probleme cu apa caldă, iar sistemul a funcționat la un moment dat la 62% din capacitate. Rețeaua pierde între 30% și 40% din energia transportată, iar o majorare de tarif a fost solicitată de operator și de autorități.`,
+      },
+    ],
+  },
+  'constituire-asociatie-proprietari-bloc-nou': {
+    titlu: `Cum Constitui Asociația de Proprietari într-un Bloc Nou: Pași, Acte și Costuri Reale`,
+    seoTitle: 'Asociație de Proprietari: Cum o Constitui',
+    seoDesc: 'Taxa de timbru este 20 de lei, iar legea nu cere avocat. Pașii exacți, actele cerute de judecătorie și greșelile care costă, conform Legii nr. 196/2018.',
+    tag: 'Legislație', tagColor: '#7c3aed',
+    data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '14 min',
+    autor: 'igor-calutu',
+    image: '/blog/constituire-asociatie-proprietari-bloc-nou.avif',
+    descriere: `Constituirea asociației de proprietari într-un bloc nou costă 20 de lei taxă de timbru și nu are nevoie de avocat. Procedura completă din Legea nr. 196/2018: adunarea de constituire, actele pentru judecătorie, organele obligatorii, alegerea administratorului și greșelile care se plătesc ani la rând.`,
+    peScurt: [
+      'Asociația se constituie cu acordul scris a cel puțin jumătate plus unu din numărul proprietarilor, iar personalitatea juridică se obține la judecătoria în raza căreia se află blocul (art. 13 și 17 din Legea nr. 196/2018).',
+      'Taxa de timbru este de 20 de lei, conform art. 21 din OUG nr. 80/2013. Legea nu cere avocat pentru constituire — un avocat ajută la redactarea statutului, dar este opțional.',
+      'Până la constituirea asociației, administrarea rămâne de facto la dezvoltator. Din momentul în care asociația există, administratorul este numit de comitetul executiv prin președinte, iar contractul se încheie cu asociația (art. 63 și 64).',
+    ],
+    keywords: ['constituire asociatie de proprietari', 'infiintare asociatie proprietari bloc nou', 'acte asociatie de proprietari judecatorie', 'legea 196 2018 asociatii de proprietari', 'cat costa infiintarea unei asociatii de proprietari', 'statut asociatie de proprietari', 'cum schimb administratorul blocului'],
+    hashtags: ['#AsociatieDeProprietari', '#Legea1962018', '#BlocNou', '#NeofortIMO'],
+    cuprins: [
+      { id: 'de-ce-conteaza', titlu: `De ce contează să o constitui repede` },
+      { id: 'pasii', titlu: `Pașii, în ordine` },
+      { id: 'acte-costuri', titlu: `Actele și cât costă, exact` },
+      { id: 'organe', titlu: `Organele obligatorii` },
+      { id: 'presedinte-comitet', titlu: `Președintele și comitetul: puteri și obligații` },
+      { id: 'administrator', titlu: `Alegerea și schimbarea administratorului` },
+      { id: 'adunarea-generala', titlu: `Adunarea generală: cvorum și majorități` },
+      { id: 'greseli', titlu: `Greșelile care costă ani la rând` },
+      { id: 'faq', titlu: `Întrebări frecvente` },
+    ],
+    sectiuni: [
+      {
+        id: 'de-ce-conteaza',
+        h2: `De ce contează să constitui asociația cât mai repede`,
+        continut: `Te-ai mutat într-un bloc nou. Primești o listă de plată, dar nu știi cine a stabilit sumele, nu ai votat niciun administrator și nu ai semnat niciun contract cu firma care administrează. E situația normală în primele luni, și are o explicație simplă: până nu există asociația de proprietari, nu există nici entitatea care să decidă.
+
+Legea nr. 196/2018 spune la **art. 63 alin. (1)** că administrarea și întreținerea proprietății comune sunt **în sarcina asociației de proprietari**. Iar la **art. 63 alin. (3)**, că administratorul este numit de comitetul executiv, prin președinte, care semnează contractul de administrare. **Art. 64 alin. (4)** adaugă că administratorul își desfășoară activitatea în baza unui contract încheiat **cu asociația**.
+
+Cât timp asociația nu există, niciunul dintre aceste mecanisme nu funcționează. Dezvoltatorul administrează pentru că nu are cine altcineva, nu pentru că deține un drept permanent. Singura lui obligație, conform **art. 14**, este să informeze cumpărătorii, la momentul înstrăinării, despre necesitatea constituirii asociației.
+
+Fereastra asta e exact locul în care apar nemulțumirile: tarife care nu au fost negociate de nimeni, servicii pe care nu le-a votat nimeni, lipsa unui buget aprobat. Se închide într-un singur fel — constituind asociația.
+
+**Dacă în contractul tău de vânzare-cumpărare există o clauză care te obligă la o anumită firmă de administrare**, reține că administratorul lucrează, conform legii, în baza unui contract cu asociația. O astfel de clauză poate fi contestată în instanță ca fiind abuzivă. Nu este o situație fără ieșire, dar necesită mai întâi ca asociația să existe.
+
+Acest articol parcurge procedura completă. Pentru partea de costuri — de ce diferă întreținerea între ansambluri și ce se poate verifica înainte de cumpărare — am tratat subiectul separat în [articolul despre întreținerea la bloc nou](/blog/intretinere-bloc-nou-de-ce-difera).`,
+      },
+      {
+        id: 'pasii',
+        h2: `Pașii constituirii, în ordinea în care se fac`,
+        continut: `Procedura are patru etape, iar ordinea contează: o etapă sărită înseamnă dosar respins la judecătorie.
+
+**Pasul 1 — convocarea adunării de constituire.** Conform **art. 15**, proprietarii se convoacă prin afișare la avizier **și** prin tabel convocator, cu **cel puțin 10 zile înainte** de data fixată. Tabelul convocator trebuie semnat de **cel puțin 50% plus unu** din numărul proprietarilor. Acest tabel se depune ulterior la dosar, deci păstrează-l în original.
+
+**Pasul 2 — adunarea de constituire.** Proprietarii hotărăsc constituirea asociației și desemnează cine redactează acordul de asociere și statutul. Tot aici se adoptă **statutul**, care trebuie să cuprindă cel puțin denumirea, sediul și durata asociației, drepturile și obligațiile membrilor, și modul de organizare și funcționare. Procesul-verbal se semnează de toți cei prezenți.
+
+**Pasul 3 — acordul scris.** Conform **art. 13**, asociația se constituie cu acordul scris a **cel puțin jumătate plus unu din numărul proprietarilor** din condominiu. Proprietarii absenți de la adunare își pot exprima consimțământul prin semnarea procesului-verbal, conform **art. 16**, **în termen de 30 de zile** de la adunarea de constituire. Procesul-verbal se consemnează în registrul unic al asociației și se anexează la acordul de asociere.
+
+**Pasul 4 — dobândirea personalității juridice.** Conform **art. 17**, cererea, statutul, acordul de asociere și procesul-verbal al adunării se depun și se înregistrează **la judecătoria în a cărei rază teritorială se află condominiul**. Personalitatea juridică se dobândește în baza **încheierii judecătorului** desemnat de președintele judecătoriei. Încheierea se dă **fără citarea părților** și este **executorie**. Poate fi atacată numai cu apel, în termen de **5 zile de la comunicare**.
+
+**După încheiere**, mai sunt doi pași administrativi care nu țin de judecătorie: obținerea codului de identificare fiscală de la ANAF, prin declarația 010, și deschiderea contului bancar al asociației. Fără ele, asociația există juridic dar nu poate încasa și plăti.
+
+Nu există în lege un termen maxim până la care trebuie constituită asociația într-un bloc nou. Practic însă, fiecare lună în care nu există asociație este o lună în care nimeni dintre proprietari nu decide nimic despre costurile comune.`,
+      },
+      {
+        id: 'acte-costuri',
+        h2: `Actele cerute de judecătorie și cât costă, exact`,
+        continut: `Aici se află faptul care surprinde cel mai mult: **taxa judiciară de timbru pentru înregistrarea asociației este de 20 de lei**, conform art. 21 din OUG nr. 80/2013. Nu 2.000, nu 500. Douăzeci.
+
+**Legea nu impune avocat** pentru constituirea asociației. Procedura se poate face de către proprietari. Un avocat sau un consultant ajută real la redactarea statutului și a acordului de asociere, mai ales dacă blocul are situații speciale — spații comerciale la parter, mai multe scări, parcări subterane cu regim distinct — dar este o alegere, nu o obligație legală.
+
+**Lista de acte cerută de instanță:**
+
+• Dovada achitării taxei judiciare de timbru
+• Împuternicirea pentru persoana care depune dosarul
+• Tabelul nominal al tuturor proprietarilor, organizat pe scări
+• Procesul-verbal al adunării generale, care trebuie să cuprindă denumirea și sediul asociației, organele de conducere și durata mandatului (între 1 și 4 ani), și mențiunea că statutul și acordul de asociere au fost votate. Procesul-verbal trebuie să poarte semnăturile a cel puțin jumătate plus unu din proprietari, cu datele de identificare ale fiecărui semnatar alături de semnătură
+• Statutul asociației
+• Acordul de asociere general, care cuprinde adresa și identificarea individuală a proprietății, numele tuturor proprietarilor, descrierea clădirii și a terenului, proprietatea comună și cota-parte indiviză a fiecărui proprietar
+• Dovada sediului asociației
+• Acordurile de asociere individuale
+• Avizele principalilor furnizori de utilități
+• Tabelul convocator prevăzut la art. 15 alin. (2)
+• Certificatele de cazier judiciar pentru persoanele alese în funcții
+
+Se depune **un al doilea exemplar** al documentelor, destinat organului fiscal.
+
+**Costurile reale, pe scurt:** 20 de lei taxa de timbru, plus costul cazierelor judiciare și eventualele copii legalizate. Dacă apelezi la un avocat pentru redactare, costul lui se adaugă peste, dar nu înlocuiește niciun pas din cele de mai sus.
+
+Verifică lista exactă pe site-ul judecătoriei de care aparține blocul tău, înainte de a depune. Unele instanțe cer documente suplimentare sau au formulare proprii, iar un dosar incomplet înseamnă termen pierdut.`,
+      },
+      {
+        id: 'organe',
+        h2: `Organele asociației și când sunt obligatorii`,
+        continut: `Conform **art. 45**, organele asociației de proprietari sunt: **adunarea generală**, **comitetul executiv**, **președintele** și **cenzorul** sau comisia de cenzori.
+
+**Structura completă este obligatorie la condominiile cu mai mult de 10 unități de proprietate imobiliară**, conform **art. 46**. Sub acest prag, adunarea generală poate decide ca președintele să îndeplinească și funcția de administrator. Pentru un bloc nou cu 15, 40 sau 100 de apartamente, structura completă este, așadar, obligatorie.
+
+**Mandatul** organelor alese este de maximum 4 ani și poate fi reînnoit.
+
+**Comitetul executiv** are un număr par de membri, în afară de președinte.
+
+**Incompatibilități**, prevăzute tot la art. 46 și valabile pentru toate funcțiile de conducere și control:
+• Rudele până la gradul al treilea ale unei persoane deja aflate într-o funcție nu pot fi alese în alte funcții de conducere sau control
+• Persoanele condamnate definitiv pentru infracțiuni economico-financiare nu pot ocupa astfel de funcții
+
+**Cenzorul** verifică respectarea legii și execuția bugetului. Dacă este persoană fizică, trebuie să aibă **cel puțin studii medii economice sau juridice**. Dacă este persoană juridică, obiectul de activitate trebuie să fie contabilitate, audit financiar sau consultanță fiscală. Comisia de cenzori, acolo unde se constituie, are **număr impar de membri, cel mult cinci**.
+
+Alegerea cenzorului este pasul cel mai des amânat, pentru că e greu de găsit cineva din bloc cu studiile cerute. Amânarea are însă un cost: fără cenzor, nimeni nu verifică execuția bugetului, iar primele probleme apar de regulă la un an sau doi după constituire, când e mult mai greu de reconstituit ce s-a întâmplat.`,
+      },
+      {
+        id: 'presedinte-comitet',
+        h2: `Președintele și comitetul executiv: ce pot și la ce sunt obligați`,
+        continut: `**Președintele** este ales dintre membrii asociației, prin votul proprietarilor, și acționează în limitele mandatului acordat de adunarea generală.
+
+Obligațiile lui cu termen fix, pe care merită să le știi ca proprietar:
+• **Răspunde în scris la sesizările proprietarilor în termen de 10 zile** (art. 57)
+• **Afișează hotărârile adunării generale și ale comitetului executiv în termen de 7 zile**
+• Reprezintă asociația și semnează documentele acesteia
+
+Poate delega atribuții pentru **cel mult 90 de zile pe an**. Dacă mandatul încetează înainte de termen, comitetul executiv are obligația de a convoca adunarea generală **în 5 zile** pentru alegerea unui înlocuitor.
+
+**Comitetul executiv** convoacă adunarea generală, duce la îndeplinire hotărârile ei, pregătește bugetul de venituri și cheltuieli și urmărește încasările și plățile. Conform **art. 55**, se întrunește **cel puțin o dată pe lună**, iar hotărârile sale se afișează **în termen de 7 zile**.
+
+**Remunerarea**: conform **art. 58**, președintele și membrii comitetului executiv pot fi remunerați, pe baza unui contract de mandat. Nu este obligatoriu, dar este legal, iar la un bloc mare funcția consumă timp real. Suma se votează în adunarea generală și intră în cheltuielile asociației, deci în lista de plată.
+
+Un lucru pe care proprietarii îl descoperă târziu: **președintele răspunde personal** pentru modul în care își exercită mandatul. Nu este o funcție onorifică. Înainte de a accepta, cere să vezi exact ce mandat îți dă adunarea generală și ce decizii poți lua singur față de cele care cer vot.`,
+      },
+      {
+        id: 'administrator',
+        h2: `Alegerea administratorului și cum îl schimbi pe cel impus`,
+        continut: `**Cine poate fi administrator**, conform **art. 64**: persoane fizice, persoane fizice autorizate sau persoane juridice specializate, autorizate conform legii.
+
+**Condiții obligatorii:**
+• **Atestat**, eliberat de primar pe baza hotărârii consiliului local, cu **valabilitate de 4 ani** de la emitere, reînnoibil
+• **Cazier judiciar** fără condamnări definitive pentru infracțiuni economico-financiare
+
+Cere atestatul în copie, cu data emiterii, înainte de a semna. Un atestat expirat înseamnă un administrator care nu îndeplinește condiția legală.
+
+**Cine îl numește:** conform **art. 63 alin. (3)**, comitetul executiv, prin președinte, numește administratorul și semnează contractul de administrare, apoi informează toți proprietarii despre decizie. Nu dezvoltatorul, nu o clauză din contractul de vânzare.
+
+**Ce face administratorul**, conform **art. 66**: administrează imobilul, urmărește lucrările de întreținere, duce la îndeplinire hotărârile adunării generale, ține contabilitatea în partidă simplă și **afișează lista lunară de cheltuieli în termen de 5 zile de la primirea ultimei facturi** de la furnizori. Conform **art. 65**, cu hotărârea adunării generale, poate negocia contractele de furnizare a serviciilor.
+
+**Cum îl schimbi.** Decizia aparține asociației. Contractul de administrare se încetează conform clauzelor lui — termenul uzual de preaviz este de 30 de zile — iar notificarea se transmite de președinte, în scris, cu confirmare de primire.
+
+**Predarea** este pasul la care apar cele mai multe blocaje. Conform **art. 69**, administratorul care încetează activitatea are obligația de a preda președintelui, **în termen de 5 zile** și pe bază de proces-verbal de predare-primire, tot ce a avut în gestiune: contractele cu furnizorii, cartea tehnică a construcției, procesele-verbale ale adunărilor generale, registrul-jurnal și registrul de inventar, extrasul de cont la zi, registrul de casă, lista debitorilor, situația fondurilor de rulment și de reparații, ștampila asociației și cheile sau cardurile de acces.
+
+Refuzul predării documentelor este cel mai frecvent obstacol. Dacă se întâmplă, plângerea la poliție și sesizarea compartimentului de sprijin al asociațiilor din cadrul primăriei sunt căile uzuale. După preluare, un audit financiar al situației inițiale este o investiție care se plătește singură.`,
+      },
+      {
+        id: 'adunarea-generala',
+        h2: `Adunarea generală: convocare, cvorum și majorități`,
+        continut: `**Frecvența.** Conform **art. 47**, adunarea generală se întrunește **cel puțin o dată pe an, în primul trimestru**. Poate fi convocată de președinte, de comitetul executiv sau de **cel puțin 20% din membri**.
+
+**Convocarea** se face cu **cel puțin 10 zile înainte**. Excepție: adunările extraordinare și cele reconvocate, pentru care termenul este de **3 zile**.
+
+**Cvorumul.** Adunarea este legal constituită în prezența majorității membrilor, personal sau prin împuternicire scrisă. Dacă nu se întrunește cvorumul, adunarea se **reconvoacă în cel mult 15 zile**. Adunarea reconvocată poate decide cu **majoritatea celor prezenți**, cu condiția ca toți membrii să fi fost înștiințați corespunzător.
+
+Mecanismul acesta este cel mai util lucru de știut pentru un bloc nou, unde la prima convocare rareori vine jumătate plus unu. Nu înseamnă că nu se poate decide nimic — înseamnă că se reconvoacă și se decide cu cei prezenți.
+
+**Majoritatea specială.** Conform **art. 51**, hotărârile privind **lucrările de modernizare** se iau cu acordul a **două treimi din numărul total al proprietarilor** din condominiu, nu al celor prezenți. Aici intră, de regulă, deciziile de a adăuga servicii care schimbă semnificativ costul lunar — pază umană permanentă, amenajări noi, dotări suplimentare.
+
+**Atenție la o consecință pe care mulți o descoperă după vot:** conform **art. 75 alin. (4)**, niciun proprietar nu este scutit de la plata cheltuielilor comune pe motiv că renunță să folosească o parte din proprietatea comună. Dacă adunarea votează un serviciu, îl plătesc toți, inclusiv cei care au votat împotrivă.
+
+**Contestarea.** Hotărârile contrare legii, statutului sau acordului de asociere pot fi atacate în instanță, conform **art. 52**.`,
+      },
+      {
+        id: 'greseli',
+        h2: `Greșelile care se plătesc ani la rând`,
+        continut: `**1. Statut copiat fără adaptare.** Un statut descărcat de pe internet nu acoperă situațiile specifice ale blocului tău: spații comerciale la parter cu acces separat, mai multe scări cu cheltuieli diferite, parcare subterană cu regim distinct, spații verzi comune cu alt imobil. Fiecare dintre ele produce conflicte reale de repartizare, iar modificarea statutului ulterior cere din nou adunare generală și depunere la judecătorie.
+
+**2. Tabelul convocator nesemnat corespunzător.** Trebuie semnat de cel puțin 50% plus unu din proprietari și se depune la dosar. Este motivul cel mai banal de respingere a dosarului.
+
+**3. Amânarea cenzorului.** Fără cenzor nu există control al execuției bugetului. Problemele apar târziu, când reconstituirea e dificilă.
+
+**4. Fondul de rulment nestabilit corect.** Conform **art. 72**, fondul de rulment se stabilește astfel încât să acopere cheltuielile curente ale condominiului pe o lună. O asociație nouă nu are istoric, deci se raportează la asociații comparabile. Un fond subdimensionat înseamnă că asociația nu poate plăti furnizorii la timp din prima lună dificilă. Important de știut la vânzare: conform **art. 72 alin. (5)**, **fondul de rulment încasat se restituie la transmiterea dreptului de proprietate**, dacă actele nu prevăd altfel. Cere la notar o adeverință cu suma exactă.
+
+**5. Confuzia între fondul de rulment și fondul de reparații.** Fondul de reparații, reglementat la **art. 71**, este obligatoriu, se aprobă anual și se folosește **numai** pentru consolidarea clădirii, reabilitare termică, lucrări de arhitectură ambientală și reparații la proprietatea comună. Soldul neutilizat se reportează în anul următor, cu aceeași destinație. Spre deosebire de fondul de rulment, **nu se restituie** la vânzare, cu excepția unei hotărâri a adunării generale.
+
+**6. Penalități stabilite peste limita legală.** Conform **art. 77**, penalitățile de întârziere **nu pot depăși 0,2% pe zi** și se aplică numai după **30 de zile** de la scadență. O hotărâre care prevede mai mult este nelegală.
+
+**7. Reguli de repartizare inventate.** Conform **art. 75 alin. (2)**, cheltuielile se repartizează pe criterii prevăzute de lege: pe număr de persoane, pe consum individual, pe cota-parte indiviză, pe beneficiari și pe consumatori tehnici. Conform **art. 75 alin. (3)**, hotărârile care încalcă aceste reguli **sunt nule**. Iar cota-parte indiviză nu se negociază: este raportul dintre suprafața utilă a apartamentului tău și totalul suprafețelor utile din clădire, iar suma tuturor cotelor trebuie să dea 100%.
+
+**8. Niciun contract scris cu administratorul.** Fără contract de administrare încheiat cu asociația, nu există obligații exigibile și nu există nici bază pentru încetare. Este primul lucru de verificat când preiei administrarea de la dezvoltator.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre constituirea asociației de proprietari`,
+        continut: `Câți proprietari trebuie să fie de acord pentru a constitui asociația?
+Cel puțin jumătate plus unu din numărul proprietarilor din condominiu, prin acord scris, conform art. 13 din Legea nr. 196/2018. Proprietarii absenți de la adunarea de constituire își pot da consimțământul prin semnarea procesului-verbal, în termen de 30 de zile.
+
+Cât costă înființarea unei asociații de proprietari?
+Taxa judiciară de timbru este de 20 de lei, conform art. 21 din OUG nr. 80/2013. Se adaugă costul cazierelor judiciare pentru persoanele alese în funcții și eventualele copii legalizate. Dacă apelezi la un avocat pentru redactarea statutului, onorariul lui se adaugă peste aceste costuri.
+
+Am nevoie de avocat ca să înființez asociația?
+Nu. Legea nu impune avocat pentru constituirea asociației. Un avocat ajută la redactarea statutului și a acordului de asociere, mai ales la clădiri cu situații speciale, dar este o alegere, nu o obligație.
+
+Unde se depune dosarul?
+La judecătoria în a cărei rază teritorială se află condominiul, conform art. 17. Personalitatea juridică se dobândește prin încheierea judecătorului desemnat de președintele judecătoriei. Încheierea se dă fără citarea părților, este executorie și poate fi atacată numai cu apel, în 5 zile de la comunicare.
+
+Dezvoltatorul poate să îmi impună firma de administrare?
+Administrarea proprietății comune este în sarcina asociației de proprietari, iar administratorul este numit de comitetul executiv prin președinte și lucrează în baza unui contract încheiat cu asociația, conform art. 63 și art. 64 alin. (4). O clauză din contractul de vânzare-cumpărare care obligă la o anumită firmă poate fi contestată în instanță ca abuzivă. Pentru a schimba efectiv administratorul este nevoie însă ca asociația să existe mai întâi.
+
+Ce fac dacă administratorul refuză să predea documentele?
+Conform art. 69, predarea se face către președinte în termen de 5 zile de la încetarea activității, pe bază de proces-verbal. Dacă refuză, căile uzuale sunt plângerea la poliție și sesizarea compartimentului de sprijin al asociațiilor de proprietari din cadrul primăriei.
+
+Este obligatoriu cenzorul?
+La condominiile cu mai mult de 10 unități de proprietate imobiliară, da — structura completă de organe este obligatorie conform art. 46. Cenzorul persoană fizică trebuie să aibă cel puțin studii medii economice sau juridice.
+
+Ce se întâmplă dacă nu se întrunește cvorumul la adunarea generală?
+Adunarea se reconvoacă în cel mult 15 zile și poate decide cu majoritatea celor prezenți, cu condiția ca toți membrii să fi fost înștiințați corespunzător. Termenul de convocare pentru adunarea reconvocată este de 3 zile.
+
+Recuperez fondul de rulment când vând apartamentul?
+Da. Conform art. 72 alin. (5), fondul de rulment încasat se restituie la transmiterea dreptului de proprietate, dacă actele de transmitere nu prevăd altfel. Fondul de reparații, în schimb, nu se restituie, cu excepția unei hotărâri a adunării generale.
+
+Se poate adăuga pază umană sau alt serviciu după constituire?
+Da, prin hotărâre a adunării generale. Lucrările de modernizare cer însă acordul a două treimi din numărul total al proprietarilor, conform art. 51. Odată votat, serviciul se plătește de toți proprietarii, inclusiv de cei care au votat împotrivă, conform art. 75 alin. (4).
+
+Acest articol prezintă procedura pe baza textului Legii nr. 196/2018 și are scop informativ. Pentru situația concretă a blocului tău, verifică lista de acte pe site-ul judecătoriei de care aparții și, dacă e cazul, consultă un avocat.`,
+      },
+    ],
+  },
   'restituire-tva-9-la-suta-termen-30-septembrie-2026': {
     titlu: `Restituire TVA: Cum Recuperezi 12% Dacă Ai Plătit 21% la Apartament`,
     seoTitle: 'Restituire TVA Apartament: Recuperezi 12%',
@@ -6473,7 +6943,9 @@ Nu. Trebuie depusă o cerere la administrația financiară, însoțită de docum
 
 export const ARTICOLE_LIST = [
     { slug: 'dotari-reduc-factura-energie-apartament-nou', titlu: '5 Dotări Care Reduc Factura la Energie cu Până la 40%', data: '1 Octombrie 2026', dataISO: '2026-10-01', citire: '11 min', image: '/blog/dotari-reduc-factura-energie-apartament-nou.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cinci dotări care fac diferența reală în factura lunară la energie, cât economisește fiecare și cum verifici înainte de semnare că sunt prevăzute efectiv în proiect, nu doar în broșură.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
-    { slug: 'restituire-tva-9-la-suta-termen-30-septembrie-2026', titlu: 'Restituire TVA: Cum Recuperezi 12% Dacă Ai Plătit 21%', data: '8 Septembrie 2026', dataISO: '2026-09-08', citire: '11 min', image: '/blog/restituire-tva-9-la-suta-termen-30-septembrie-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Cota redusă de 9% s-a încheiat pe 30 septembrie 2026, dar cererea de restituire a diferenței de 12% se depune începând cu 1 octombrie. Cine are dreptul și ce documente trebuie.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+    { slug: 'intretinere-bloc-nou-de-ce-difera', titlu: 'Întreținerea la Bloc Nou: De Ce Diferă Atât de Mult', data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '13 min', image: '/blog/intretinere-bloc-nou-de-ce-difera.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Jumătate din factura de iarnă este încălzirea, nu întreținerea. Cum se citește corect o listă de plată și ce întrebi înainte să semnezi.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'constituire-asociatie-proprietari-bloc-nou', titlu: 'Cum Constitui Asociația de Proprietari într-un Bloc Nou', data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '14 min', image: '/blog/constituire-asociatie-proprietari-bloc-nou.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Taxa de timbru este 20 de lei, iar legea nu cere avocat. Pașii exacți, actele cerute de judecătorie, organele obligatorii și greșelile care costă ani la rând.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
+  { slug: 'restituire-tva-9-la-suta-termen-30-septembrie-2026', titlu: 'Restituire TVA: Cum Recuperezi 12% Dacă Ai Plătit 21%', data: '8 Septembrie 2026', dataISO: '2026-09-08', citire: '11 min', image: '/blog/restituire-tva-9-la-suta-termen-30-septembrie-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Cota redusă de 9% s-a încheiat pe 30 septembrie 2026, dar cererea de restituire a diferenței de 12% se depune începând cu 1 octombrie. Cine are dreptul și ce documente trebuie.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
     { slug: 'neofort-10-colentina-fundeni-lansare', titlu: 'Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire', data: '23 Iunie 2026', dataISO: '2026-06-23', citire: '6 min', image: '/blog/neofort-10-colentina-fundeni-lansare.avif', tag: 'Lansare', tagColor: '#c8922a', rezumat: 'Un nou proiect Neofort IMO se pregătește de lansare în Colentina-Fundeni: garsoniere, studiouri, apartamente 2-4 camere cu grădini și terase. Predare T1 2028, rezervări din iulie 2026.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piață', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'credit-ipotecar-2026-ghid-complet-rate-dobanzi', titlu: 'Credit Ipotecar: Ghid Complet Pas cu Pas', data: '17 Iunie 2026', dataISO: '2026-06-17', citire: '16 min', image: '/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Cum obții un credit ipotecar, pas cu pas: ce verifică banca, actele necesare, ordinea corectă a pașilor și cât durează de la pre-aprobare la semnătura la notar.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
