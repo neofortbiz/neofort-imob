@@ -634,9 +634,9 @@ Neofort IMO continuă să construiască și să livreze în acest context difici
 
 
   'credit-ipotecar-2026-ghid-complet-rate-dobanzi': {
-    titlu: `Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie`,
-    seoTitle: 'Credit Ipotecar 2026: Rate, Dobânzi, Strategie',
-    seoDesc: 'Ghid complet credit ipotecar 2026: IRCC 5.58%, calcule reale rate, comparație bănci, grad de îndatorare 40%, Noua Casă vs credit standard.',
+    titlu: `Credit Ipotecar: Ghid Complet, de la Pre-Aprobare la Semnătură`,
+    seoTitle: 'Credit Ipotecar: Ghid Complet Pas cu Pas',
+    seoDesc: 'Cum obții un credit ipotecar, pas cu pas: ce verifică banca, actele necesare, ordinea corectă a pașilor și cât durează de la pre-aprobare la semnătura la notar.',
     descriere: 'Tot ce trebuie să știi despre creditul ipotecar în 2026: dobânzi reale, calcule pe scenarii, comparație bănci, grad de îndatorare și strategia optimă pentru cumpărătorii de apartamente noi.',
     peScurt: [
       'Costul unui credit ipotecar depinde de indicele de referință (IRCC), marja băncii și gradul de îndatorare — nu doar de dobânda afișată.',
@@ -644,176 +644,95 @@ Neofort IMO continuă să construiască și să livreze în acest context difici
       'Avansul influențează direct dobânda: un avans mai mare reduce riscul pentru bancă și, implicit, costul creditului.',
     ],
     tag: 'Finanțare', tagColor: '#0369a1',
-    data: '17 Iunie 2026', dataISO: '2026-06-17', citire: '16 min',
+    data: '17 Iunie 2026', dataISO: '2026-06-17', dataModificata: '2026-10-13', citire: '16 min',
     autor: 'sasha-calutu',
     image: '/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi.avif',
-    keywords: ['credit ipotecar 2026 romania', 'rata lunara credit ipotecar 2026', 'IRCC 2026 valoare', 'dobanda credit imobiliar 2026', 'grad de indatorare credit 2026', 'noua casa 2026 conditii', 'credit ipotecar DAE 2026', 'banci credit ipotecar 2026 comparatie', 'eligibilitate credit apartament nou', 'calcul rata credit ipotecar 2026'],
+    keywords: ['cum iau un credit ipotecar', 'pasi credit ipotecar apartament', 'acte necesare credit ipotecar', 'ce verifica banca la credit ipotecar', 'cat dureaza aprobarea unui credit ipotecar', 'pre-aprobare credit ipotecar', 'avans minim credit ipotecar', 'credit ipotecar apartament nou bucuresti'],
     hashtags: ['#CreditIpotecar2026', '#IRCC2026', '#GradIndatorare', '#NouaCasa2026', '#NeofortIMO'],
     cuprins: [
-      { id: 'context-macro', titlu: 'Contextul macro: de ce 2026 este momentul creditului' },
-      { id: 'ircc-robor-2026', titlu: 'IRCC și ROBOR în 2026 — valorile reale și tendința' },
-      { id: 'calcul-rata', titlu: 'Calcul concret: rata lunară pe 4 scenarii reale' },
-      { id: 'dae-cost-total', titlu: 'DAE vs dobândă nominală — costul real al creditului' },
-      { id: 'grad-indatorare', titlu: 'Gradul de îndatorare 40% — cum îl calculezi' },
-      { id: 'conditii-eligibilitate', titlu: 'Condiții de eligibilitate — ce verifică banca în 2026' },
-      { id: 'banci-comparatie', titlu: 'Comparație bănci — BCR, BRD, Raiffeisen, ING, CEC' },
-      { id: 'noua-casa-2026', titlu: 'Noua Casă 2026 — avantaje reale și limitări' },
-      { id: 'strategie-finantare', titlu: 'Strategia optimă: avans, durată, bancă' },
-      { id: 'faq', titlu: 'Întrebări frecvente — credit ipotecar 2026' },
+      { id: 'context-macro', titlu: `Ce tip de credit ți se potrivește` },
+      { id: 'ircc-robor-2026', titlu: `Indicele de referință — cât este acum` },
+      { id: 'calcul-rata', titlu: `Rata lunară — pe scurt` },
+      { id: 'dae-cost-total', titlu: `DAE — cifra pe care compari` },
+      { id: 'grad-indatorare', titlu: `Gradul de îndatorare — cât poți lua` },
+      { id: 'conditii-eligibilitate', titlu: `Ce verifică banca, pas cu pas` },
+      { id: 'banci-comparatie', titlu: `Care bancă — cum alegi` },
+      { id: 'noua-casa-2026', titlu: `Noua Casă — când intră în discuție` },
+      { id: 'strategie-finantare', titlu: `Ordinea pașilor și cât durează` },
+      { id: 'faq', titlu: `Întrebări frecvente` },
     ],
     sectiuni: [
       {
         id: 'context-macro',
-        h2: `Contextul macro: de ce 2026 este cel mai favorabil moment pentru creditare din ultimii 5 ani`,
-        continut: `Dacă ai amânat achiziția unui apartament din cauza dobânzilor ridicate din 2022-2024, momentul să recalculezi a venit. 2026 aduce convergența a trei factori favorabili simultan — o situație care nu s-a mai întâlnit din 2019-2020.
+        h2: `Ce tip de credit ți se potrivește — și unde stă piața acum`,
+        continut: `Acest ghid acoperă **procesul**: de la a-ți da seama ce poți lua, până la semnătura la notar. Partea de „cât costă" — rata, DAE, dobânda cumulată, cum compari ofertele — e tratată separat, în detaliu, în [articolul despre costul real al unui credit ipotecar](/blog/credit-ipotecar-2026-dobanzi-conditii).
 
-**Banca Națională a României a redus dobânda de politică monetară de 4 ori consecutiv:**
-- Octombrie 2024: 6,50% → 6,25%
-- Ianuarie 2025: 6,25% → 6,00%
-- Aprilie 2025: 6,00% → 5,75%
-- Ianuarie 2026: 5,75% → 5,50%
+**Unde stă piața, pe scurt.** Dobânda de politică monetară a BNR este 6,50% pe an, nivel neschimbat din august 2024 și confirmat la toate ședințele din 2026, cea mai recentă pe 8 octombrie. IRCC, indicele care intră efectiv în rata ta, este 5,57% pentru trimestrul IV 2026. Nu există, la data actualizării acestui articol, un semnal de scădere: BNR a avertizat în octombrie că inflația va urca spre finalul anului, iar analiștii BCR consideră reducerile puțin probabile în următoarele patru trimestre.
 
-Aceasta este cea mai lungă serie de reduceri consecutive din istoria recentă a BNR, posibilă datorită revenirii inflației în banda țintă: 3,1% în mai 2026, față de maximul de 16,4% din noiembrie 2022.
+Concluzia practică pentru planificare: **nu construi bugetul pe o scădere de dobândă.** Dacă rata iese doar presupunând că indicele coboară, creditul e prea mare.
 
-**Ce înseamnă practic pentru cumpărători:**
-Un credit de 300.000 RON (~57.400€) pe 30 de ani costă în iunie 2026 cu aproximativ 580 RON/lună mai puțin față de aceeași structură în octombrie 2023 (vârful dobânzilor). Pe durata întregului credit, diferența depășește 208.000 RON — suma avansului pentru un apartament în [zona Titan-Pallady](/zona/titan-pallady).
+**Cele trei variante între care alegi:**
 
-**Perspectiva pe 12 luni:** BNR semnalizează o reducere suplimentară de 50-75 de puncte de bază până la sfârșitul lui 2026, ceea ce ar aduce IRCC sub 5% — un nivel nevăzut din 2022. Cumpărătorii care achiziționează acum cu dobândă variabilă pot beneficia de reduceri automate ale ratei pe măsură ce IRCC scade.`,
+**Credit standard cu dobândă variabilă.** Dobânda = IRCC + marja băncii. Marja e fixă pe toată durata, indicele se schimbă trimestrial. Avantaj: pornești de la o dobândă mai mică. Risc: rata crește dacă indicele urcă.
+
+**Credit standard cu dobândă fixă** pe primii ani, apoi variabilă. Plătești un preț pentru predictibilitate — dobânda inițială e de regulă mai mare. Merită dacă nu poți susține o creștere a ratei, nu pentru că pare mai ieftină.
+
+**Noua Casă**, creditul cu garanție de stat. Avans mai mic, deci intri în casă mai repede, dar sumă împrumutată mai mare și cost total mai mare. Plafonul programului limitează ce poți cumpăra. Condițiile complete sunt în [ghidul programului Noua Casă](/blog/noua-casa-2026-ghid-complet).
+
+**Testul care decide între fix și variabil:** recalculează rata cu indicele mai mare cu 2 puncte procentuale. Dacă suma rezultată nu încape în buget, alege fix pe primii ani sau micșorează creditul.`,
       },
       {
         id: 'ircc-robor-2026',
-        h2: `IRCC și ROBOR în 2026 — valorile reale, diferențele și care te avantajează`,
-        continut: `România are două sisteme de referință pentru dobânzile la credite ipotecare variabile, cu implicații foarte diferite în funcție de momentul contractării.
+        h2: `Indicele de referință — cât este și cum te afectează`,
+        continut: `Dobânda unui credit variabil în lei se compune din **indicele de referință**, care e același pentru toate băncile și se schimbă periodic, plus **marja băncii**, care e fixă pe toată durata și se negociază la semnare.
 
-**IRCC (Indicele de Referință pentru Creditele Consumatorilor):**
-Introdus prin OUG 19/2019 pentru a înlocui ROBOR ca indice de referință pentru creditele noi. Se calculează trimestrial de BNR, ca medie aritmetică a ratelor dobânzilor la depozitele plasate de populație.
+Pentru creditele noi, indicele este **IRCC**. Valoarea pentru trimestrul IV 2026 este **5,57% pe an**. Se recalculează trimestrial de BNR și se aplică din prima zi a trimestrului următor, deci rata ta se poate modifica de maximum patru ori pe an, la date cunoscute dinainte.
 
-Evoluția IRCC:
-| Trimestru | Valoare IRCC |
-|---|---|
-| T2 2023 | 6,00% |
-| T4 2023 | 5,87% |
-| T2 2024 | 5,84% |
-| T4 2024 | 5,68% |
-| T1 2025 | 5,63% |
-| T3 2025 | 5,58% |
-| T1 2026 | 5,58% |
+**ROBOR** rămâne relevant doar pentru creditele contractate înainte de 2019. Pentru un credit nou nu îl vei întâlni.
 
-Tendința clară: scădere constantă, cu probabilitate ridicată de a ajunge la 5,0-5,2% în T3-T4 2026.
-
-**ROBOR 3M (în mai 2026): 5,45%**
-Folosit pentru creditele contractate înainte de 2019. Teoretic mai mic decât IRCC momentan, dar mult mai volatil — a atins 9,65% în august 2022.
-
-**Care să alegi în 2026?**
-*Credit nou variabil (IRCC + marjă bancă):* DAE real 7,5-8,5%. Beneficiezi automat de reducerile IRCC anticipate.
-
-*Credit fix 5 ani, apoi variabil:* Unele bănci oferă dobândă fixă de 7,0-7,5% pe primii 5 ani. Protecție pe termen scurt, flexibilitate pe termen lung.
-
-*Credit fix pe toată durata:* Disponibil la CEC Bank, la dobânzi de 8,5-9,5%. Nu îl recomandăm în contextul actual de scădere a dobânzilor.
-
-Simulează-ți rata pe [calculatorul de credit Neofort IMO](/calculator-credit) — include slider DAE de la 6% la 12% și curs EUR/RON live.`,
+Cum funcționează fiecare indice, de ce IRCC reacționează cu întârziere la mișcările pieței și ce înseamnă asta pentru tine în ambele sensuri — [în articolul despre costul creditului](/blog/credit-ipotecar-2026-dobanzi-conditii).`,
       },
       {
         id: 'calcul-rata',
-        h2: `Calcul concret: rata lunară pentru 4 scenarii reale de achiziție în București 2026`,
-        continut: `Am calculat rata lunară pentru 4 tipologii reale de apartamente din piața bucureșteană, folosind dobânda medie de piață (DAE 8,0%) și durata de 25 de ani.
+        h2: `Rata lunară — cum se calculează, pe scurt`,
+        continut: `Rata se calculează din trei date: suma împrumutată, dobânda anuală și durata. La un credit variabil, dobânda se recompune la fiecare actualizare a indicelui, deci rata se modifică în timp.
 
-**Formula de calcul (anuitate standard):**
-Rata = Principal × [r(1+r)^n] / [(1+r)^n - 1], unde r = DAE/12, n = ani × 12
+Ca ordin de mărime: un credit de **600.000 lei pe 30 de ani** la o dobândă de 7,57% pe an dă o rată de aproximativ **4.224 lei pe lună**. Aceeași sumă pe 25 de ani are o rată mai mare, dar un cost total semnificativ mai mic.
 
----
+Peste rată se adaugă lunar asigurarea de viață, asigurarea imobilului și fondul de întreținere. Acestea nu apar în rata comunicată de bancă, dar apar în bugetul tău.
 
-**Scenariul 1: Apartament 2 camere 71,40 mp — zona Militari ([Neofort 49](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului), 142.800€)**
-- Avans 15% = 21.420€ → Principal creditabil: 121.380€ (~634.700 RON)
-- Rata lunară: ~4.899 RON (~937€)
-- Total dobândă: ~835.000 RON pe 25 ani
-- Venit minim net necesar (40% grad): ~12.250 RON/lună
-- Randament chirie: 550-650€/lună → acoperire parțială a ratei
-
----
-
-**Scenariul 2: Apartament 2 camere 59,80 mp — zona Titan-Pallady ([Neofort 28](/ansamblu-rezidential/neofort-28-titan-pallady-teclu), 86.900€)**
-- Avans 15% = 13.035€ → Principal: 73.865€ (~386.300 RON)
-- Rata lunară: ~2.982 RON (~570€)
-- Venit minim net necesar: ~7.460 RON/lună
-- Cu avans 20% (17.380€): rată scade la ~2.806 RON, necesar venit 7.020 RON
-
----
-
-**Scenariul 3: Apartament 2 camere premium — Moșilor-Eminescu ([Neofort 78](/ansamblu-rezidential/neofort-78-mosilor-eminescu), 190.000€ la momentul comercializării — ansamblu vândut integral)**
-- Avans 20% = 38.000€ → Principal: 152.000€ (~795.000 RON)
-- Rata lunară: ~6.136 RON (~1.173€)
-- Venit minim net familie: 15.340 RON/lună
-- Alternativă 30 ani: rată 5.833 RON, necesar venit 14.580 RON
-
----
-
-**Scenariul 4: Apartament 3 camere 90,62 mp — zona Titan ([Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady), 126.868€)**
-- Avans 20% = 25.374€ → Principal: 101.494€ (~530.800 RON)
-- Rata lunară: ~4.097 RON (~783€)
-- Venit minim net cuplu: 10.250 RON/lună
-- Cu durată 30 ani: rată 3.895 RON, necesar venit 9.740 RON
-
----
-
-**Concluzie practică:** Verifică propriul scenariu în timp real pe [calculatorul de credit](/calculator-credit) — include slider avans, durată și DAE.`,
+Calculele complete pe mai multe scenarii, dobânda cumulată pe toată durata și testul de rezistență la o creștere a indicelui sunt în [articolul despre costul real al creditului](/blog/credit-ipotecar-2026-dobanzi-conditii).`,
       },
       {
         id: 'dae-cost-total',
-        h2: `DAE vs dobândă nominală — de ce costul real al creditului este întotdeauna mai mare`,
-        continut: `Una dintre cele mai frecvente surse de confuzie: diferența dintre dobânda nominală și DAE (Dobânda Anuală Efectivă).
+        h2: `DAE — de ce e singura cifră pe care compari`,
+        continut: `**Dobânda nominală** este doar prețul banilor. **DAE** include, în plus, comisionul de analiză, asigurările obligatorii, evaluarea imobilului și comisioanele de administrare — adică tot ce plătești efectiv.
 
-**Dobânda nominală:** rata dobânzii aplicată soldului creditului. Exemplu: IRCC 5,58% + marjă 2,0% = 7,58%.
+Două oferte cu aceeași dobândă nominală pot avea DAE diferit cu jumătate de punct procentual. De aceea compararea pe dobânda afișată este inutilă, iar compararea pe rata lunară e chiar înșelătoare: o rată mică poate veni din durată mai lungă, deci din cost total mai mare.
 
-**DAE include dobânda nominală PLUS:**
-- Comision de administrare lunar (0-0,05%/lună)
-- Asigurare PAD obligatorie: 20-45€/an
-- Asigurare imobil: 0,08-0,15% din valoarea imobilului/an
-- Asigurare de viață: 0,02-0,08% din soldul creditului/an
-- Taxa evaluare imobil: 300-600 RON (o dată)
-- Comision de acordare: 0-1% din credit
+Regula: ceri DAE în scris, de la minimum trei bănci, pentru aceeași sumă și aceeași perioadă, în aceeași săptămână.
 
-**Exemplu concret — credit 300.000 RON, 25 ani:**
-
-| Cost | Valoare anuală | Total 25 ani |
-|---|---|---|
-| Dobândă nominală 7,58% | ~22.740 RON (an 1) | ~273.000 RON |
-| Asigurare PAD | ~220 RON | ~5.500 RON |
-| Asigurare imobil 0,10% | ~1.500 RON | ~37.500 RON |
-| Asigurare viață 0,04% | ~1.200 RON | ~15.000 RON |
-| Comision administrare | ~360 RON | ~9.000 RON |
-| **Total costuri adiționale** | **~3.280 RON** | **~67.000 RON** |
-
-DAE real = dobândă nominală + 1,0-1,8 puncte procentuale. Un credit cu 7,58% nominal are DAE real de 8,3-9,2%.
-
-**Regula de aur:** compară întotdeauna DAE, nu dobânda nominală. O bancă cu nominal mai mic poate fi mai scumpă prin comisioane și asigurări.`,
+Ce anume ceri de la fiecare bancă și cum citești ofertele — [în articolul despre costul creditului](/blog/credit-ipotecar-2026-dobanzi-conditii).`,
       },
       {
         id: 'grad-indatorare',
-        h2: `Gradul de îndatorare 40% — cum îl calculezi și cum îți maximizezi creditul`,
-        continut: `Gradul de îndatorare este limita impusă de BNR (Regulamentul 17/2012) care determină cât poți împrumuta. Limita standard: **40% din venitul net lunar** pentru credite ipotecare.
+        h2: `Gradul de îndatorare — limita care decide cât poți lua`,
+        continut: `Gradul de îndatorare este raportul dintre totalul ratelor tale lunare și venitul net. Este limita care blochează cele mai multe dosare, înaintea oricărei alte condiții.
 
-**Formula:**
-Grad îndatorare = (Suma tuturor ratelor lunare / Venitul net lunar) × 100 ≤ 40%
+Conform **Regulamentului BNR nr. 6/2018**, maximul este:
+• **40%** din venitul net pentru creditele în lei
+• **20%** pentru creditele în valută
+• **45%** în lei și **25%** în valută pentru achiziția **primei locuințe**
 
-**Exemplu familie:**
-- Soț 5.500 RON + Soție 4.200 RON = 9.700 RON venit total
-- Limita 40%: 3.880 RON disponibil pentru rate
-- Credit auto existent: 800 RON/lună
-- Disponibil pentru ipotecă: 3.080 RON → Credit maxim (25 ani, 8%): ~395.000 RON (~75.500€)
+Important: în calcul intră toate ratele tale existente, inclusiv limitele de pe cardurile de credit și descoperitul de cont, chiar dacă nu le folosești.
 
-**Ce intră obligatoriu în calcul:**
-✓ Rate credite existente ✓ Rate leasing ✓ Carduri de credit (5% din limită/lună, chiar dacă nu le folosești!) ✓ Overdraft (5% din limită/lună)
-
-**Atenție la carduri:** Card neutilizat cu limită 10.000 RON = 500 RON obligație lunară calculată de bancă. Anulează sau reduce limitele cardurilor cu 60 de zile înainte de aplicare.
-
-Pentru detalii complete despre maximizarea creditului prin gestiunea gradului de îndatorare, citește [ghidul complet despre gradul de îndatorare](/blog/gradul-de-indatorare-credit-ipotecar).`,
+Formula exactă, ce venituri se acceptă și în ce proporție, ce datorii se pot exclude și cum îți maximizezi suma aprobată — toate sunt în [ghidul dedicat gradului de îndatorare](/blog/gradul-de-indatorare-credit-ipotecar).`,
       },
       {
         id: 'conditii-eligibilitate',
-        h2: `Condiții de eligibilitate în 2026 — ce verifică banca pas cu pas`,
+        h2: `Condiții de eligibilitate — ce verifică banca, pas cu pas`,
         continut: `**1. SCORING FINANCIAR (primele minute):**
-- Venit minim net: 3.500-4.000 RON/lună individual (variază pe bancă)
+- Venit minim net: fiecare bancă are propriul prag minim; cere-l explicit la prima discuție
 - Tip contract: nedeterminat preferat; determinat acceptat după 3-6 luni la angajator
 - Birou de Credit: fără restanțe active; incidente recente (sub 12 luni) afectează scorul
 
@@ -832,108 +751,103 @@ Pentru detalii complete despre maximizarea creditului prin gestiunea gradului de
 - Titlul de proprietate clar, fără litigii sau ipoteci active
 - Cartea funciară fără notări negative
 
-**Timp de aprobare:** Pre-aprobare 3-5 zile; aprobare finală (cu evaluare imobil) 15-25 zile; total 30-45 zile.
+**Timp de aprobare:** pre-aprobarea durează de regulă câteva zile lucrătoare, iar de la dosarul complet până la semnătură trec de regulă câteva săptămâni, în funcție de bancă și de rapiditatea evaluării. Cere băncii termenele ei în scris înainte de a fixa data din antecontract — pe ele te bazezi, nu pe o medie de piață.
 
-**Documentele standard:** Adeverință salariu (max 30 zile), 3 fluturași salariu, extrase de cont 3-6 luni, CI, antecontract + dovadă avans.`,
+**Documentele standard:** adeverință de salariu recentă, fluturași de salariu pe ultimele luni, extrase de cont, actul de identitate, antecontractul și dovada avansului. Pentru venituri din PFA sau dividende, documentația fiscală pe ultimii ani. Lista exactă diferă pe bancă — cere-o în scris la prima discuție, ca să nu pierzi un ciclu de verificare pe un act lipsă.`,
       },
       {
         id: 'banci-comparatie',
-        h2: `Comparație bănci principale în 2026 — unde obții cel mai bun credit ipotecar`,
-        continut: `Diferența dintre cea mai bună și cea mai puțin avantajoasă ofertă poate ajunge la 120.000-180.000 RON pe un credit de 300.000 RON pe 25 ani.
+        h2: `Care bancă — cum alegi, fără tabele care se învechesc`,
+        continut: `Nu îți dăm un tabel cu marja fiecărei bănci, și motivul e concret: am verificat două comparatoare independente în octombrie 2026 și dădeau cifre diferite pentru aceeași bancă — unul o plasa pe prima poziție, celălalt pe ultima. Marjele sunt condiții comerciale negociate pe profil de client și se schimbă fără anunț.
 
-**Date orientative mai-iunie 2026:**
+Ce contează la alegerea băncii, în afară de preț:
 
-| Bancă | Dobândă | DAE aprox. | Comision acordare | Punct forte |
-|---|---|---|---|---|
-| BCR | IRCC + 2,25% = 7,83% | ~8,6% | 0% | Aprobare rapidă, rețea mare |
-| BRD | IRCC + 2,10% = 7,68% | ~8,4% | 0,5% | Flexibil la tipuri venit |
-| Raiffeisen | IRCC + 2,15% = 7,73% | ~8,5% | 0% | Aplicație digitală, viteză |
-| ING | IRCC + 1,95% = 7,53% | ~8,2% | 0% | Cea mai mică marjă standard |
-| CEC Bank | Fix 7,90% (5 ani) | ~8,8% | 0% | Predictibilitate, fără IRCC risc |
-| UniCredit | IRCC + 2,20% = 7,78% | ~8,5% | 1% | Soluții specializate |
-| OTP | IRCC + 2,30% = 7,88% | ~8,7% | 0% | Flexibil la scoring |
+**Tipul de venit pe care îl ai.** Unele bănci sunt mai flexibile cu veniturile din PFA, dividende sau contracte pe perioadă determinată. Dacă ești în această situație, întreabă explicit, la telefon, înainte de a depune dosarul.
 
-**Strategie negociere:**
-1. Obține pre-aprobare de la minimum 3 bănci simultan
-2. Folosește ofertele concurente ca instrument de negociere (marjele sunt elastice cu 0,15-0,40pp)
-3. Verifică dacă angajatorul are convenție cu vreo bancă — reduceri suplimentare frecvente
+**Viteza de procesare**, dacă ai un termen de antecontract strâns.
 
-Neofort IMO oferă consultanță bancară gratuită și comparare oferte pentru toate proiectele active — [contactează un consultant](/contact).`,
+**Dacă banca participă la Noua Casă**, în cazul în care vizezi programul. Nu toate participă.
+
+**Comisionul de rambursare anticipată**, dacă intenționezi să plătești în avans.
+
+**Ce asigurări impune** și dacă accepți polița de la alt asigurator.
+
+Metoda, în schimb, e întotdeauna aceeași: minimum trei oferte, în scris, comparate pe DAE. Intervalul de marje practicate în piață și ce anume ceri de la fiecare bancă — [în articolul despre costul creditului](/blog/credit-ipotecar-2026-dobanzi-conditii).
+
+Consultanța bancară Neofort IMO colectează și compară ofertele pentru dosarul tău, gratuit: 0758 090 904.`,
       },
       {
         id: 'noua-casa-2026',
-        h2: `Noua Casă 2026 — avantaje reale, limitări și când nu merită`,
-        continut: `Programul Noua Casă rămâne activ în 2026 cu un plafon de garantare de 1,5 miliarde RON. Iată realitatea completă.
+        h2: `Noua Casă — când intră în discuție`,
+        continut: `Noua Casă este un credit cu garanție de stat, care îți permite un avans mai mic decât la creditul standard. Pentru achiziția primei locuințe se aplică și limita de îndatorare mai permisivă, de 45% în lei.
 
-**Avantajele reale:**
-- **Avans minim 5%** față de 15% standard — economie imediată la avans
-- Garantul este statul (FNGCIMM) — nu ai nevoie de garant personal
-- **Plafon maxim: 140.000€**
-- **Grad de îndatorare maxim: 45%** față de 40% standard
+Când intră în discuție: dacă nu ai avansul pentru un credit standard și alternativa este să mai aștepți un an sau doi, plătind chirie în tot acest timp.
 
-**Limitările pe care puțini le menționează:**
-- Imobilul trebuie **finalizat și intabulat** — nu funcționează direct pentru apartamente în construcție
-- Nu poți deține altă proprietate în România la momentul achiziției
-- Obligatoriu prima reședință — restricții de înstrăinare 5 ani
-- **Comision garantare FNGCIMM: 0,30%/an** din soldul garantat (cost invizibil!)
+Când nu merită: dacă ai avansul. Suma împrumutată mai mare înseamnă rată mai mare și cost total mai mare pe durata creditului. Comparația corectă se face pe costul total, incluzând chiria pe care nu o mai plătești.
 
-**Calcul comparativ — 80.000€ apartament, 25 ani:**
-
-*Credit standard (avans 15% = 12.000€):*
-- Principal: 68.000€ → Rată: ~500€/lună
-- Avans necesar: 12.000€
-
-*Noua Casă (avans 5% = 4.000€):*
-- Principal: 76.000€ → Rată: ~559€/lună (+59€/lună)
-- Comision FNGCIMM: ~228€/an în primii ani
-- Economie la avans: 8.000€ față de credit standard
-
-**Concluzie:** Noua Casă merită dacă nu ai avansul de 15% disponibil. Nu merită dacă ai avansul disponibil și vrei flexibilitate maximă (fără restricții de înstrăinare). Apartamentele [Neofort IMO disponibile prin Noua Casă](/ansambluri-rezidentiale) includ proiectele finalizate cu preț sub 140.000€.`,
+Plafonul programului, condițiile de eligibilitate, lista băncilor participante și pașii de aplicare sunt în [ghidul programului Noua Casă](/blog/noua-casa-2026-ghid-complet).`,
       },
       {
         id: 'strategie-finantare',
-        h2: `Strategia optimă de finanțare în 2026 — ghid pe profil`,
-        continut: `**Profil 1 — Prima locuință, buget 80.000-120.000€:**
-- Dacă ai avans 15%+: credit standard IRCC+marjă, 25 ani, ING sau Raiffeisen
-- Dacă avansul e sub 12.000€: Noua Casă cu 5% avans
-- Rezervă 5.000-8.000€ pentru costuri de tranzacționare + mobilare
+        h2: `Ordinea pașilor — ce faci, în ce ordine, și cât durează`,
+        continut: `Cea mai costisitoare greșeală de proces este să semnezi antecontractul înainte de a avea pre-aprobarea. Dacă banca aprobă mai puțin decât ai presupus, rămâi cu un avans plătit și un termen pe care nu îl poți respecta.
 
-**Profil 2 — Investitor randament chirie:**
-- Avans 20-30% → rată lunară mai mică → cashflow pozitiv
-- Durată 25-30 ani → minimizare rată → maximizare cashflow
-- Calcul: chirie netă ≥ rată + cheltuieli administrative
-- [Apartamentele 2 camere Neofort 49 Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului): de la 142.800€, chirie 550-650€, randament ~4,6-5,5%
+**Pasul 1 — calculează-ți singur plafonul.** Pornind de la venitul net și de la ratele existente, estimează suma maximă folosind limita de îndatorare. [Ghidul gradului de îndatorare](/blog/gradul-de-indatorare-credit-ipotecar) are formula.
 
-**Profil 3 — Familie cu 2 venituri, buget 140.000-200.000€:**
-- Avans 20-25% → LTV 75-80% → cele mai bune condiții de negociere
-- Consideră durata 20 ani dacă venitul permite — economie semnificativă la dobândă totală
+**Pasul 2 — curăță dosarul, înainte de a-l depune.** Închide cardurile de credit și descoperitul de cont pe care nu le folosești: limitele lor intră în calculul îndatorării chiar nefolosite. Verifică-ți situația în Biroul de Credit.
 
-**Reguli universale:**
-1. Nu aloca mai mult de 35% din venit pe rată — 40% e maximul legal, nu optimul
-2. Rezervă 3-6 luni cheltuieli ca fond de urgență, separat de avans
-3. Pre-aprobarea bancară **înainte** de semnarea antecontractului — niciodată invers
-4. Negociază întotdeauna — marjele bancare sunt elastice cu 0,15-0,40pp`,
+**Pasul 3 — obține pre-aprobări de la minimum trei bănci.** Sunt gratuite și nu te obligă. Îți dau bugetul real și, mai târziu, instrumentul de negociere a marjei.
+
+**Pasul 4 — abia acum caută apartamentul**, în bugetul confirmat. Dacă vizezi Noua Casă, verifică și plafonul programului.
+
+**Pasul 5 — antecontract**, cu un termen realist pentru finalizarea creditului. Nu accepta un termen mai scurt decât îți confirmă banca în scris.
+
+**Pasul 6 — dosarul complet și evaluarea imobilului**, făcută de un evaluator autorizat ANEVAR agreat de bancă.
+
+**Pasul 7 — oferta finală.** Compară DAE, nu rata. Negociază marja cu ofertele concurente pe masă.
+
+**Pasul 8 — semnarea la notar** și intabularea.
+
+**Cât durează, realist:** pre-aprobarea, câteva zile lucrătoare. De la dosarul complet la semnătură, de regulă câteva săptămâni, în funcție de bancă și de rapiditatea evaluării. Programează-ți termenul din antecontract cu marjă, nu la limită.
+
+**Trei reguli care nu depind de bancă:**
+
+1. **Nu aloca tot ce îți permite legea.** 40% e maximul legal, nu optimul. Sub 35% din venit lasă loc pentru creșteri de indice și pentru viață.
+2. **Păstrează o rezervă de 3-6 luni de cheltuieli**, separat de avans. Nu o goli pentru a mări avansul.
+3. **Pre-aprobarea înainte de antecontract.** Niciodată invers.`,
       },
       {
         id: 'faq',
-        h2: `Întrebări frecvente — credit ipotecar 2026`,
-        continut: `**Cât timp durează aprobarea unui credit ipotecar în 2026?**
-Pre-aprobarea (scoring inițial) durează 3-5 zile lucrătoare. Aprobarea finală, cu evaluarea imobilului, 15-25 zile. Total de la dosarul complet la semnare: 30-45 zile. Recomandăm să pornești procesul de creditare simultan cu căutarea apartamentului.
+        h2: `Întrebări frecvente despre obținerea unui credit ipotecar`,
+        continut: `Cum iau un credit ipotecar, pas cu pas?
+Îți calculezi plafonul pornind de la venit și de la ratele existente, cureți dosarul (închizi cardurile și descoperitul nefolosit), obții pre-aprobări de la minimum trei bănci, abia apoi cauți apartamentul în bugetul confirmat, semnezi antecontractul cu un termen realist, depui dosarul complet, treci evaluarea imobilului, compari ofertele finale pe DAE și semnezi la notar.
 
-**Ce se întâmplă cu rata dacă IRCC crește?**
-La credit variabil (IRCC+marjă), rata se ajustează trimestrial. O creștere a IRCC cu 1pp înseamnă ~50-80 RON/lună suplimentar per 100.000 RON credit, la 25 ani. BNR semnalizează scădere în 2026-2027, nu creștere.
+Ce acte sunt necesare pentru un credit ipotecar?
+De regulă: actul de identitate, adeverința de salariu recentă, fluturașii de salariu pe ultimele luni, extrase de cont, antecontractul și dovada avansului. Pentru venituri din PFA sau dividende, documentația fiscală pe ultimii ani. Lista exactă diferă pe bancă — cere-o în scris la prima discuție.
 
-**Pot lua credit ipotecar cu contract pe perioadă determinată?**
-Da, cu restricții. Băncile cer minimum 3-6 luni la actualul angajator și dovada continuității în domeniu. CEC Bank și OTP sunt mai flexibile. Termenul contractului trebuie să depășească perioada de analiză.
+Ce verifică banca la un credit ipotecar?
+Veniturile și stabilitatea lor, gradul de îndatorare, istoricul din Biroul de Credit, valoarea imobilului stabilită prin raport de evaluare, și situația juridică a proprietății — titlu clar, carte funciară fără notări negative.
 
-**Cât avans am nevoie pentru 100.000€?**
-Minim 15.000€ (15%) pentru credit standard. Minim 5.000€ prin Noua Casă. Optimal: 20.000-25.000€ — rata scade și condițiile bancare se îmbunătățesc.
+Cât dureaza aprobarea unui credit ipotecar?
+Pre-aprobarea, câteva zile lucrătoare. De la dosarul complet până la semnătură, de regulă câteva săptămâni, în funcție de bancă și de cât de repede se face evaluarea imobilului. Un dosar incomplet este principala cauză de întârziere.
 
-**Se poate refinanța dacă dobânzile scad?**
-Da. Costurile de refinanțare: comision rambursare anticipată (0-1% primii 3 ani), taxe notariale 1.500-3.000 RON, reevaluare 300-500 RON. Refinanțarea devine avantajoasă la o diferență de dobândă peste 0,5pp față de costul total al operațiunii.
+Cât avans trebuie să am?
+La creditul standard, avansul minim uzual este de 15% din valoarea imobilului, iar un avans mai mare îți aduce de regulă o marjă mai bună. La Noua Casă, avansul cerut este mai mic. Pragul exact îl confirmă banca pentru dosarul tău.
 
-**Cum calculez creditul maxim cu venitul meu?**
-Credit maxim (RON) = [Venit net × 40% - Rate existente] × factor (depinde de ani și DAE). La 8% DAE și 25 ani, factorul este ~129. Exemplu: venit 7.000 RON, rate existente 500 RON → disponibil 2.300 RON → credit maxim ~296.700 RON (~56.700€). Calculează exact pe [calculatorul de credit Neofort IMO](/calculator-credit).`,
+Pot lua credit dacă am deja un alt credit?
+Da, atât timp cât totalul ratelor rămâne în limita de îndatorare — 40% din venitul net în lei, 45% pentru prima locuință. Rambursarea unui credit mic înainte de a depune dosarul poate crește semnificativ suma aprobată.
+
+Trebuie pre-aprobare înainte să semnez antecontractul?
+Da, și este cea mai importantă regulă de proces din tot ghidul. Dacă semnezi antecontractul și banca aprobă mai puțin decât ai presupus, rămâi cu avansul plătit și cu un termen pe care nu îl poți respecta.
+
+Cât pot lua, concret, la un anumit venit?
+Depinde de venit, de ratele existente, de durată și de dobândă. Formula de calcul și scenariile pe venituri concrete sunt în [ghidul gradului de îndatorare](/blog/gradul-de-indatorare-credit-ipotecar).
+
+Cât costă în total creditul?
+Pe un credit de 600.000 lei la 7,57% pe 30 de ani, totalul plătit este de aproximativ 1.520.670 lei, din care circa 920.670 lei dobânzi. Detalii și scenarii în [articolul despre costul real al creditului](/blog/credit-ipotecar-2026-dobanzi-conditii).
+
+Merită să aștept o scădere a dobânzilor?
+La data actualizării acestui articol nu există un semnal de scădere: dobânda de politică monetară e neschimbată din august 2024, iar analiștii BCR consideră reducerile puțin probabile în următoarele patru trimestre. Calculul complet al acestei decizii e în [articolul despre dobânda BNR](/blog/dobanda-bnr-6-5-august-2026-ce-inseamna).`,
       },
     ],
   },
@@ -2102,9 +2016,9 @@ Dacă chiriașul nu plătește, cât durează evacuarea legală?
   },
 
   'credit-ipotecar-2026-dobanzi-conditii': {
-    titlu: `Credit Ipotecar 2026: Dobânzi și Costuri Reale`,
-    seoTitle: 'Credit Ipotecar 2026: Dobânzi și Costuri Reale',
-    seoDesc: 'Creditul ipotecar în 2026: IRCC vs ROBOR, dobânzi reale pe bănci, condiții de eligibilitate, calcul rată lunară și cum alegi finanțarea optimă pentru achiziție.',
+    titlu: `Cât Costă Real un Credit Ipotecar: Dobândă, DAE și Totalul pe 30 de Ani`,
+    seoTitle: 'Cât Costă Real un Credit Ipotecar: DAE',
+    seoDesc: 'Cât costă efectiv un credit ipotecar: rata, DAE, dobânda cumulată pe 30 de ani și ce marjă peste IRCC e normală. Cum compari corect ofertele băncilor.',
     peScurt: [
       'IRCC a înlocuit ROBOR ca indice de referință pentru creditele în lei, cu actualizare trimestrială.',
       'Pe un credit de 30 de ani, costul total plătit (dobândă cumulată) poate depăși semnificativ suma împrumutată.',
@@ -2115,60 +2029,50 @@ Dacă chiriașul nu plătește, cât durează evacuarea legală?
     autor: 'sasha-calutu',
     image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif',
     descriere: `Cum arată creditul ipotecar în 2026? Dobânzi reale, ROBOR vs IRCC, condiții de eligibilitate, calcule concrete și ce bănci oferă cele mai bune condiții — ghid complet pentru cumpărătorii de apartamente noi din București.`,
-    keywords: ['credit ipotecar 2026 romania', 'dobanda credit imobiliar 2026', 'IRCC ROBOR 2026', 'conditii credit apartament nou', 'cat costa credit ipotecar 2026', 'noua casa program 2026 credit', 'rata lunara credit ipotecar 2026', 'credit ipotecar conditii aprobare 2026'],
+    keywords: ['cat costa un credit ipotecar', 'dae credit ipotecar', 'ircc vs robor', 'cost total credit ipotecar 30 de ani', 'dobanda nominala vs dae', 'cum compar ofertele de credit ipotecar', 'marja peste ircc', 'dobanda fixa sau variabila credit ipotecar'],
     hashtags: ['#CreditIpotecar2026', '#IRCC2026', '#ApartamentNou', '#FinantareImobiliara', '#NeofortIMO'],
     cuprins: [
-      { id: 'piata-credit-2026', titlu: `Piața creditului ipotecar în mai 2026` },
-      { id: 'ircc-vs-robor', titlu: `IRCC vs ROBOR — care e mai bun în 2026` },
+      { id: 'piata-credit-2026', titlu: `Unde stau dobânzile acum` },
+      { id: 'ircc-vs-robor', titlu: `IRCC și ROBOR — cum funcționează` },
       { id: 'calcul-real', titlu: `Costul real: rata, DAE și totalul` },
-      { id: 'conditii-eligibilitate', titlu: `Condiții de eligibilitate — ce verifică banca` },
-      { id: 'banci-comparatie', titlu: `Comparație bănci principale în 2026` },
-      { id: 'noua-casa', titlu: `Noua Casă 2026 — mai merită?` },
-      { id: 'strategie', titlu: `Strategia optimă de finanțare în 2026` },
-      { id: 'faq', titlu: `Întrebări frecvente despre credite ipotecare` },
+      { id: 'conditii-eligibilitate', titlu: `Ce verifică banca — pe scurt` },
+      { id: 'banci-comparatie', titlu: `Cum compari ofertele — pe DAE` },
+      { id: 'noua-casa', titlu: `Noua Casă — pe scurt` },
+      { id: 'strategie', titlu: `Cum reduci costul total` },
+      { id: 'faq', titlu: `Întrebări frecvente despre cost` },
     ],
     sectiuni: [
       {
         id: 'piata-credit-2026',
-        h2: `Piața creditului ipotecar în mai 2026 — contextul macro`,
-        continut: `2026 reprezintă cel mai favorabil moment pentru creditare din ultimii 4 ani. BNR a redus dobânda de politică monetară de 3 ori consecutiv în 2025-2026, ajungând la 5,25% în mai 2026, față de maximul de 7% din 2023. Inflația a revenit în intervalul țintit (2,5-3,5%), ceea ce a permis BNR să relaxeze politica monetară fără riscuri majore.
+        h2: `Unde stau dobânzile acum — cifrele care intră în rata ta`,
+        continut: `La un credit ipotecar în lei cu dobândă variabilă, rata ta se construiește din două componente: un indice de referință, care se schimbă periodic și este același pentru toate băncile, plus o marjă fixă, negociată de bancă și înscrisă în contract pe toată durata creditului.
 
-IRCC (Indicele de Referință pentru Creditele Consumatorilor) — principalul indice pentru creditele ipotecare cu dobândă variabilă în România — a scăzut de la 6,17% în T1 2024 la 5,58% în T1 2026, cu tendință de scădere continuă spre 5,2-5,0% în T3-T4 2026, conform estimărilor BNR.
+**Indicele: IRCC.** Pentru trimestrul IV 2026, IRCC este **5,57% pe an**. Se recalculează trimestrial de BNR, pe baza tranzacțiilor din piața monetară interbancară, și se aplică din prima zi a trimestrului următor. Valoarea de mai sus este cea în vigoare la data actualizării acestui articol; verifică trimestrul curent înainte de a face un calcul, pentru că se schimbă de patru ori pe an.
 
-ROBOR 3M, folosit pentru creditele mai vechi și unele produse noi, a coborât la 5,45% în mai 2026.
+**Dobânda de politică monetară a BNR: 6,50% pe an**, nivel neschimbat din august 2024 și confirmat la toate ședințele din 2026, cea mai recentă pe 8 octombrie 2026. Nu este dobânda la care te împrumuți, dar este ancora în jurul căreia se așază tot costul finanțării din economie.
 
-Ce înseamnă practic:
-• Un credit de 250.000 lei (aproximativ 50.000 EUR) pe 30 de ani costă acum cu aproximativ 400-600 lei/lună mai puțin față de maximul din 2023
-• Eligibilitatea pentru credit a crescut — la același venit, poți împrumuta cu 15-20% mai mult față de 2023
-• Cererea de credite ipotecare a crescut cu 23% în primele 4 luni ale anului, conform datelor BNR
+Un lucru pe care merită să-l știi înainte să îți faci planuri: **nu există, la data actualizării acestui articol, un semnal de scădere a dobânzilor.** Guvernatorul BNR a semnalat în august 2026 că o reducere ar putea deveni posibilă la începutul lui 2027, dar la ședința din 8 octombrie BNR a avertizat că inflația va crește din nou spre finalul anului, iar analiștii BCR consideră reducerile puțin probabile în următoarele patru trimestre. Am detaliat ce înseamnă asta pentru decizia de a cumpăra acum sau a aștepta în [articolul despre dobânda BNR](/blog/dobanda-bnr-6-5-august-2026-ce-inseamna).
 
-Față de zona euro, România rămâne scumpă la credite (BCE a coborât dobânda la 2,25%) — dar diferența s-a redus față de 2023-2024, iar fundamentele economice românești (creștere economică, inflație în scădere) sugerează convergență continuă.`,
+**ROBOR 3M** rămâne relevant doar pentru creditele contractate înainte de 2019, care nu au fost migrate la IRCC. Pentru un credit nou nu îl vei întâlni.`,
       },
       {
         id: 'ircc-vs-robor',
-        h2: `IRCC vs ROBOR în 2026 — care indicator îți este mai avantajos`,
-        continut: `Aceasta este una dintre cele mai frecvente întrebări ale cumpărătorilor de apartamente în 2026. Răspunsul depinde de situația ta specifică și de orizontul de timp al creditului.
+        h2: `IRCC și ROBOR — cum funcționează fiecare și de ce contează diferența`,
+        continut: `**IRCC (Indicele de Referință pentru Creditele Consumatorilor)** a fost introdus prin OUG nr. 19/2019 ca indice de referință pentru creditele noi acordate consumatorilor. Două particularități îl deosebesc de ROBOR și amândouă contează pentru rata ta:
 
-IRCC (Indicele de Referință pentru Creditele Consumatorilor):
-• Se calculează trimestrial pe baza mediei tranzacțiilor interbancare din trimestrul anterior
-• Reacționează mai lent la schimbările de pe piață față de ROBOR
-• Avantaj: mai puțin volatil pe termen scurt
-• Dezavantaj: poate rămâne ridicat mai mult timp după ce ROBOR a scăzut
-• Valoare mai 2026: 5,58%
-• Credit standard IRCC: IRCC + marjă bancară (1,5-2,5%) = 7,08-8,08% DAE
+**Se recalculează trimestrial, nu zilnic.** Valoarea unui trimestru se calculează pe baza tranzacțiilor din trimestrul anterior și se aplică din prima zi a trimestrului următor. Practic, rata ta se schimbă de maximum patru ori pe an, la date pe care le știi dinainte.
 
-ROBOR 3 luni:
-• Se actualizează zilnic pe baza ofertelor din piața interbancară
-• Mai reactiv — scade rapid când BNR reduce dobânda
-• Avantaj: beneficiezi imediat de reducerile BNR
-• Dezavantaj: crește rapid în perioade de tensiune monetară
-• Valoare mai 2026: 5,45%
-• Credit standard ROBOR: ROBOR + marjă (1,5-2,5%) = 6,95-7,95% DAE
+**Reacționează cu întârziere.** Pentru că folosește date din trecut, IRCC urcă mai târziu decât piața atunci când dobânzile cresc — avantaj pentru debitor — dar și coboară mai târziu când scad. Este un amortizor, în ambele sensuri.
 
-Concluzia mai 2026: ROBOR este ușor mai avantajos decât IRCC în prezent (+0,13 puncte diferență). Dar dacă estimezi că BNR va continua reducerile în T3-T4 2026, ambii indici vor scădea — diferența nu este esențială. Mai importantă este marja fixă adăugată de bancă (negociabilă!) și celelalte costuri (asigurare, evaluare, comisioane).
+**ROBOR 3M** se calculează zilnic, din cotațiile băncilor pentru depozitele interbancare, și reflectă piața aproape în timp real. Este mult mai volatil: a atins 9,65% în august 2022.
 
-Creditul cu dobândă fixă pe primii 3-5 ani:
-Câteva bănci (BCR, Raiffeisen) oferă dobândă fixă pe primii 3-5 ani, după care trece la variabilă. Dobânda fixă este de regulă cu 0,5-1% mai mare față de variabila curentă — dar oferă predictibilitate totală în perioada inițială. Recomandat pentru cumpărătorii cu buget strâns care nu pot absorbi variații lunare mari.`,
+Ce înseamnă pentru tine, concret:
+
+Dacă ai un **credit nou**, vei avea IRCC. Nu ai de ales între ele, deci comparația are valoare doar ca înțelegere a mecanismului.
+
+Dacă ai un **credit de dinainte de 2019** pe ROBOR, merită să ceri băncii un calcul comparativ pentru migrarea la IRCC și să-l verifici pe suma și perioada rămase, nu pe exemple generale.
+
+Dacă ești între **variabil și fix**: la dobândă fixă plătești un preț pentru predictibilitate — dobânda inițială este de regulă mai mare decât variabila din acel moment. Întrebarea corectă nu e „care e mai mică acum", ci „pot susține rata dacă indicele urcă cu 2 puncte". Dacă răspunsul e nu, fixa pe primii ani nu e un lux, e o măsură de siguranță.`,
       },
       {
         id: 'calcul-real',
@@ -2204,108 +2108,107 @@ Pentru calibrare: o variație de 0,25 puncte pe indice schimbă rata cu ~103 lei
       },
       {
         id: 'conditii-eligibilitate',
-        h2: `Condiții de eligibilitate pentru credit ipotecar în 2026 — ce verifică banca`,
-        continut: `Știind exact ce caută banca, poți să îți optimizezi dosarul înainte de a aplica și să eviți refuzurile care îți afectează scorul de credit.
+        h2: `Ce verifică banca — pe scurt, cu trimitere la detalii`,
+        continut: `Acest articol se ocupă de **cât costă** creditul. Partea de „mă califică și cât pot lua" este tratată separat, ca să nu găsești aceeași informație pe jumătate în două locuri.
 
-Veniturile eligibile:
-• Salariu net: venitul din contractul de muncă pe perioadă nedeterminată (sau determinată, dar cu minim 1 an vechime)
-• PFA/II: media ultimilor 2 ani fiscali declarați la ANAF (nu ultimele 2 luni)
-• Dividende: acceptate de unele bănci (BCR, ING) dacă sunt regulate pe 2 ani
-• Chirii: acceptate cu contracte înregistrate la ANAF
-• Pensii: acceptate integral
-• Venituri din strainătate: acceptate cu documente traduse și apostilate
+Pe scurt, banca verifică patru lucruri: veniturile și stabilitatea lor, gradul de îndatorare, istoricul tău de credit din Biroul de Credit, și valoarea imobilului, stabilită prin raport de evaluare.
 
-Gradul maxim de îndatorare: 40% (regula BNR) — suma tuturor ratelor lunare (credit nou + credite existente) nu poate depăși 40% din venitul net lunar. Pentru creditele în EUR pe venituri în lei, banca aplică un stres de curs valutar de +35.5%.
+**Gradul de îndatorare** este limita care blochează cele mai multe dosare. Conform Regulamentului BNR nr. 6/2018, maximul este **40% din venitul net** pentru creditele în lei și **20%** pentru cele în valută. Pentru achiziția primei locuințe, limitele sunt **45%** în lei și **25%** în valută.
 
-Vechimea la actualul angajator: minim 3-6 luni pentru contracte standard. Unele bănci acceptă și mai puțin dacă ai continuitate în același domeniu.
+Formula de calcul, ce venituri se acceptă, ce datorii intră în calcul și cum îți maximizezi suma aprobată sunt în [ghidul despre gradul de îndatorare](/blog/gradul-de-indatorare-credit-ipotecar).
 
-Istoricul de credit (Biroul de Credit): orice incident de plată din ultimii 7 ani poate fi motiv de refuz sau de condiții mai stricte. Verifică-ți situația GRATUIT la bir.ro înainte de a aplica.
-
-Vârsta: creditul trebuie să expire înainte de 65-70 de ani (variază per bancă). Un credit de 30 de ani aplicat la 40 de ani poate fi refuzat sau redus la 25 de ani.
-
-Avansul: minim 15% pentru Noua Casă, 20-25% pentru credit standard. Avans mai mare = dobândă mai mică (risc mai redus pentru bancă).`,
+Pașii procesului, actele necesare și ce verifică banca la fiecare etapă sunt în [ghidul complet de credit ipotecar](/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi).`,
       },
       {
         id: 'banci-comparatie',
-        h2: `Comparație principale bănci pentru credit ipotecar în mai 2026`,
-        continut: `Piața bancară din România are 10+ instituții care oferă credite ipotecare. Diferențele dintre oferte pot fi de sute de lei pe lună — compararea înainte de a semna este obligatorie.
+        h2: `Cum compari ofertele băncilor — pe DAE, nu pe dobânda afișată`,
+        continut: `Aici facem ceva ce majoritatea articolelor pe tema asta nu fac: **nu îți dăm un tabel cu marja fiecărei bănci.**
 
-BCR:
-Cea mai mare bancă din România, cel mai mare volum de credite ipotecare. Dobândă: IRCC + 1,85% (cea mai mică marjă de pe piață pentru clienți cu dosar solid). Avantaj: rețea de sucursale extinsă, aprobare rapidă (5-7 zile lucrătoare). Dezavantaj: asigurare de viață obligatorie prin BCR Asigurări, ușor mai scumpă.
+Motivul e concret. Am verificat două comparatoare independente în octombrie 2026 și dau cifre diferite pentru aceeași bancă: unul plasa ING pe prima poziție, cu cea mai mică marjă din piață, celălalt pe ultima poziție, cu cea mai mare. Unul dintre ele se contrazicea chiar cu propriul text. Marjele sunt condiții comerciale, se negociază pe profil de client și se schimbă fără anunț. Un tabel copiat acum te-ar induce în eroare în trei luni.
 
-BRD:
-Dobândă: IRCC + 2,1%. Avantaj: flexibilitate la tipuri de venituri acceptate, aprobare rapidă (3-5 zile). Dezavantaj: comisioane de administrare lunare (15-20 lei).
+Ce putem spune, ca ordin de mărime: în ofertele publicate în toamna lui 2026, **marjele se situau între IRCC + 1,8% și IRCC + 3%**, cu majoritatea ofertelor grupate între **+2% și +2,5%**. La un IRCC de 5,57%, asta înseamnă o dobândă variabilă de aproximativ **7,5%–8,1%** pentru zona de mijloc a pieței. Tratează intervalul ca pe un reper pentru „oferta mea e în piață sau nu", nu ca pe o cifră de pus în buget.
 
-ING Bank:
-Dobândă: IRCC + 2,0%. Avantaj: proces 100% digital, aprobare în 24-48h, fără comision de rambursare anticipată. Dezavantaj: nu are Noua Casă, rețea fizică mai limitată.
+**Singura cifră pe care te poți baza este DAE din oferta scrisă pe care o primești tu**, calculată pentru suma, perioada și avansul tale.
 
-Raiffeisen:
-Dobândă: IRCC + 2,2%, dar cu opțiune de dobândă fixă primii 5 ani la 7,5% (predictibilitate). Avantaj: condiții flexibile pentru PFA și antreprenori. Dezavantaj: marjă mai mare față de BCR.
+Ce ceri de la fiecare bancă, în scris:
 
-CEC Bank:
-Dobândă: IRCC + 1,9%. Avantaj: condiții bune pentru bugetari și pensionari, Noua Casă disponibil. Dezavantaj: proces de aprobare mai lent (10-15 zile), tehnologie mai veche.
+1. **DAE**, nu doar dobânda nominală. DAE include comisionul de analiză, asigurarea obligatorie, evaluarea imobilului și comisioanele de administrare. Două oferte cu aceeași dobândă pot avea DAE diferit cu jumătate de punct.
+2. **Marja peste IRCC**, explicit, și confirmarea că rămâne fixă pe toată durata.
+3. **Graficul de rambursare**, din care rezultă totalul plătit la final.
+4. **Comisionul de rambursare anticipată** — contează mult dacă intenționezi să plătești în avans.
+5. **Ce asigurări sunt obligatorii** și dacă poți aduce polița de la alt asigurator.
 
-Concluzia: Nu alege banca după reclamă sau după unde ai contul de salariu — compară DAE (Dobânda Anuală Efectivă) care include toate costurile. O diferență de 0,3% DAE pe un credit de 600.000 lei pe 30 de ani înseamnă ~54.000 lei diferență totală.`,
+Minimum **trei oferte**, obținute în aceeași săptămână, pentru aceeași sumă și perioadă. Mai puțin de trei nu îți dă un reper; oferte luate la distanță de luni nu sunt comparabile, pentru că indicele s-a putut schimba între timp.
+
+Consultanța bancară Neofort IMO face exact asta, gratuit: colectează ofertele și le compară pe DAE pentru dosarul tău — 0758 090 904.`,
       },
       {
         id: 'noua-casa',
-        h2: `Noua Casă 2026 — mai merită sau nu față de creditul standard`,
-        continut: `Programul guvernamental Noua Casă (fostul Prima Casă) a suferit modificări semnificative în 2025-2026. Iată analiza actualizată.
+        h2: `Noua Casă — pe scurt, cu trimitere la ghidul dedicat`,
+        continut: `Programul Noua Casă oferă o garanție de stat care îți permite un avans mai mic decât la creditul standard, iar pentru achiziția primei locuințe se aplică limita de îndatorare mai permisivă, de 45% în lei.
 
-Ce s-a schimbat la Noua Casă în 2026:
-• Plafonul maxim al creditului: 119.000 EUR (redus față de 140.000 EUR anterior)
-• Avansul minim: 15% (neschimbat)
-• Garanția de stat: 50% din valoarea creditului (neschimbat)
-• Dobânda: ROBOR 3M + 2% (neschimbat ca formulă)
-• Comisionul de garantare FNGCIMM: 0,25%/an din soldul creditului (nou)
-• Restricția: imobilul nu poate fi vândut sau închiriat în primii 5 ani
+Ce schimbă la **cost**, adică la ce ne interesează în acest articol: avansul mai mic înseamnă o sumă împrumutată mai mare, deci o rată mai mare și un cost total mai mare pe durata creditului, chiar dacă dobânda e similară. În schimb, intri în casă mai repede, fără să mai aștepți să strângi avansul complet — timp în care, de regulă, plătești chirie.
 
-Avantajele Noua Casă:
-• Avans mai mic (15% vs 20-25% standard)
-• Garanția de stat elimină nevoia de garanții suplimentare
-• Accesibil pentru cumpărătorii cu istoricul de credit mai puțin solid
+Compararea corectă se face pe **costul total pe toată durata**, nu pe rată, și include chiria pe care nu o mai plătești. Metoda de calcul e în secțiunea de mai jos.
 
-Dezavantajele Noua Casă față de creditul standard în 2026:
-• Plafonul de 119.000 EUR elimină majoritatea apartamentelor de 2-3 camere noi din București (prețuri medii 130.000-200.000 EUR)
-• Restricția de 5 ani — nu poți închiria sau vinde. Dacă situația ta de viață se schimbă (job în altă țară, divorț, necesitate de lichiditate), ești blocat
-• Dobânda Noua Casă (ROBOR + 2% = ~7,45%) este ușor mai mare față de BCR standard (IRCC + 1,85% = ~7,43%) în mai 2026 — diferența aproape a dispărut
-• Comisionul de garantare FNGCIMM adaugă 0,25%/an — pe 30 de ani, suma totală este semnificativă
-
-Concluzia: în 2026, Noua Casă este avantajoasă DOAR dacă nu ai suficient avans (sub 20%) și/sau vrei să cumperi un apartament sub 119.000 EUR. Pentru apartamentele noi din București peste acest prag, creditul standard la BCR sau ING oferă condiții similare sau mai bune, fără restricțiile programului.`,
+Condițiile programului, plafonul de garantare, lista băncilor participante și pașii de aplicare sunt în [ghidul programului Noua Casă](/blog/noua-casa-2026-ghid-complet).`,
       },
       {
         id: 'strategie',
-        h2: `Strategia optimă de finanțare pentru un apartament nou în 2026`,
-        continut: `Bazat pe datele de piață din mai 2026, iată recomandarea practică în funcție de situația ta.
+        h2: `Cum reduci costul total al creditului — ce funcționează și ce nu`,
+        continut: `Costul total al unui credit se reduce prin patru pârghii, în ordinea impactului.
 
-Dacă ai avans sub 20% și buget sub 120.000 EUR: Noua Casă rămâne cea mai accesibilă opțiune. Asigură-te că îți asumi restricția de 5 ani.
+**1. Durata — pârghia cu cel mai mare efect.** Pe un credit de 600.000 lei la 7,57%, trecerea de la 30 la 25 de ani crește rata, dar reduce dobânda cumulată cu sute de mii de lei. Regula practică: alege cea mai scurtă durată la care rata îți rămâne confortabilă chiar dacă indicele urcă 2 puncte. Durata se poate prelungi ulterior, la nevoie, dar nu te poți întoarce în timp pentru dobânda deja plătită.
 
-Dacă ai avans 20%+ și buget 130.000-200.000 EUR (cel mai frecvent scenariu pentru București): credit standard la BCR sau ING. Compară DAE și nu suma ratei lunare. Negociează marja — băncile au flexibilitate de 0,1-0,3% pentru dosare solide.
+**2. Plățile anticipate, cât mai devreme.** În primii ani, cea mai mare parte din rată este dobândă. O sumă pusă în avans în anul 3 taie mult mai mult din costul total decât aceeași sumă în anul 20. Verifică în contract comisionul de rambursare anticipată înainte de a conta pe această strategie.
 
-Dacă ai venituri variabile (PFA, antreprenor, dividende): BRD sau Raiffeisen sunt mai flexibili. Pregătește documentația fiscală pentru ultimii 2 ani, nu doar pentru ultimele luni.
+**3. Marja negociată.** Marja e singura componentă pe care o influențezi la semnare și rămâne fixă pe toată durata creditului. Un avans mai mare, venituri stabile și un istoric curat în Biroul de Credit sunt argumentele care contează. Ofertele concurente obținute în scris sunt instrumentul de negociere.
 
-Momentul optim pentru aplicare: acum, în 2026, înainte de potențiala creștere a prețurilor apartamentelor din T3-T4 2026 anticipată de analiști. Fiecare scădere a IRCC de 0,25% reduces rata cu ~60-80 lei/lună la un credit de 600.000 lei — dar dacă prețul apartamentului crește cu 5% în așteptarea reducerii dobânzii, ai pierdut mai mult.
+**4. Avansul.** Un avans mai mare înseamnă o sumă împrumutată mai mică, deci dobândă totală mai mică, și de regulă o marjă mai bună. Contraargumentul: banii din avans nu mai sunt disponibili pentru rezerva de urgență. Nu goli rezerva pentru a mări avansul.
 
-Pasul practic imediat: obține o pre-aprobare bancară (gratuită, fără obligații) înainte de a vizita ansambluri. Pre-aprobarea îți arată exact bugetul disponibil și îți permite să negociezi ca un cumpărător serios, nu ca unul care „vede ce se poate".`,
+**Ce nu funcționează, deși se recomandă frecvent:**
+
+**Să aștepți o scădere a dobânzilor.** La data actualizării acestui articol nu există un semnal de scădere: dobânda de politică monetară e neschimbată din august 2024, BNR a avertizat în octombrie 2026 că inflația va urca spre finalul anului, iar analiștii BCR consideră reducerile puțin probabile în următoarele patru trimestre. În tot acest timp plătești chirie, iar prețurile locuințelor nu scad în mod automat. Calculul complet al acestei decizii e în [articolul despre dobânda BNR](/blog/dobanda-bnr-6-5-august-2026-ce-inseamna) și în [comparația chirie vs. cumpărare](/blog/chirie-vs-cumparare-2026-calcul-break-even).
+
+**Să compari ratele lunare între bănci.** O rată mai mică poate veni dintr-o durată mai lungă, deci dintr-un cost total mai mare. Compară DAE și totalul plătit, nu rata.
+
+**Să alegi dobânda fixă pentru că e mai mică acum.** De regulă nu este; plătești un preț pentru predictibilitate. Alege fixa dacă nu poți susține o creștere a indicelui, nu pentru că pare o afacere.
+
+**Pasul practic imediat:** obține o pre-aprobare înainte de a vizita ansambluri. E gratuită, nu te obligă la nimic, și îți arată bugetul real. Procesul complet e în [ghidul de credit ipotecar](/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi).`,
       },
       {
         id: 'faq',
-        h2: `Întrebări frecvente despre creditul ipotecar în 2026`,
+        h2: `Întrebări frecvente despre costul unui credit ipotecar`,
         h3: `Răspunsuri directe la cele mai căutate întrebări`,
-        continut: `Pot lua credit ipotecar dacă am deja un alt credit (auto, personal)?
-Da, dar gradul total de îndatorare nu poate depăși 40% din venitul net. Dacă ai deja o rată de 1.000 lei/lună și venitul net e 5.000 lei, poți lua credit suplimentar cu rată de maxim 1.000 lei/lună. Rambursarea creditelor existente înainte de dosarul ipotecar poate crește semnificativ suma aprobată.
+        continut: `Cât costă în total un credit ipotecar pe 30 de ani?
+Pe un credit de 600.000 lei la o dobândă de 7,57% pe an, totalul plătit în 30 de ani este de aproximativ 1.520.670 lei, din care circa 920.670 lei dobânzi. Dobânda cumulată depășește 150% din suma împrumutată — efectul duratei, nu al unei dobânzi anormale.
 
-Cât durează aprobarea unui credit ipotecar în 2026?
-ING: 24-48 ore pentru pre-aprobare, 7-10 zile pentru aprobare finală. BCR/BRD: 5-10 zile lucrătoare. CEC/Banca Transilvania: 10-15 zile. În practică, dosarul complet și fără deficiențe reduce termenele la minim.
+Care e diferența între dobânda nominală și DAE?
+Dobânda nominală este doar prețul banilor. DAE include, în plus, comisionul de analiză, asigurările obligatorii, evaluarea imobilului și comisioanele de administrare. Două oferte cu aceeași dobândă nominală pot avea DAE diferit cu jumătate de punct procentual, iar DAE este cifra care arată costul real.
+
+Cât este IRCC acum?
+Pentru trimestrul IV 2026, IRCC este 5,57% pe an. Se recalculează trimestrial de BNR și se aplică din prima zi a trimestrului următor, deci verifică valoarea trimestrului curent înainte de orice calcul.
+
+Cum se calculează rata la un credit ipotecar?
+Rata se calculează din suma împrumutată, dobânda anuală și durata, prin formula de anuitate. La o dobândă variabilă, dobânda se recompune la fiecare actualizare a indicelui, deci rata se modifică de până la patru ori pe an.
+
+Ce marjă peste IRCC este normală?
+În ofertele publicate în toamna lui 2026, marjele se situau între IRCC + 1,8% și IRCC + 3%, cu majoritatea între +2% și +2,5%. Marja se negociază în funcție de profilul tău și rămâne fixă pe toată durata creditului. Tratează intervalul ca pe un reper, nu ca pe o cifră de buget — singura cifră validă este cea din oferta scrisă pe care o primești.
+
+De ce nu dați un tabel cu dobânzile fiecărei bănci?
+Pentru că nu ar fi corect. Am verificat două comparatoare independente în octombrie 2026 și dădeau cifre diferite pentru aceeași bancă, una plasând o anumită bancă pe prima poziție și cealaltă pe ultima. Marjele sunt condiții comerciale negociate, se schimbă fără anunț, iar un tabel copiat ar induce în eroare în câteva luni.
+
+Merită dobândă fixă sau variabilă?
+Dobânda fixă costă de regulă mai mult la început, în schimbul predictibilității. Testul util: recalculează rata cu indicele mai mare cu 2 puncte procentuale. Dacă suma nu încape în buget, fixa pe primii ani nu e un lux, e o măsură de protecție.
+
+Cât reduce o plată anticipată din costul total?
+Depinde decisiv de momentul în care o faci. În primii ani, cea mai mare parte a ratei este dobândă, deci o sumă pusă atunci taie mult mai mult din costul total decât aceeași sumă pusă după 20 de ani. Verifică mai întâi comisionul de rambursare anticipată din contract.
 
 Pot renegocia dobânda după ce am luat creditul?
-Da — refinanțarea la altă bancă sau renegocierea cu banca actuală este legală și frecventă. Costul: evaluare nouă (500-800 lei) + notariat (400-600 lei). Dacă diferența de dobândă e de 0,5%+, refinanțarea se amortizează în 6-12 luni.
+Da. Poți renegocia cu banca actuală sau refinanța la alta. Costurile sunt o evaluare nouă și cheltuielile notariale, deci calculează în câte luni se amortizează diferența de dobândă înainte de a decide.
 
 Ce se întâmplă dacă nu mai pot plăti rata?
-Banca trimite somații la 30, 60, 90 de zile de restanță. La 90 de zile, creditul devine restant în Biroul de Credit. La 180 de zile, banca poate începe executarea silită a garanției (apartamentul). Soluția preventivă: discuți cu banca din prima lună de dificultate — restructurarea creditului (extinderea duratei, reducerea temporară a ratei) este întotdeauna preferabilă față de executarea silită.
-
-Dobânda mai scade în 2026?
-Consensul analiștilor este că BNR va mai reduce dobânda cu 0,5-0,75 puncte procentuale în T3-T4 2026, dacă inflația rămâne sub control. Asta ar reduce IRCC spre 5,0-5,2% până la finele anului — o reducere de ~100-130 lei/lună la un credit standard de 600.000 lei. Citește și [programul Noua Casă 2026](/blog/noua-casa-2026-ghid-complet), [costul total real al achiziției](/blog/apartamente-de-vanzare-titan-pallady-teclu) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
+Vorbește cu banca din prima lună de dificultate, nu după ce se acumulează restanțe. Restructurarea creditului — prelungirea duratei sau reducerea temporară a ratei — este întotdeauna preferabilă față de executarea silită, dar se negociază mult mai ușor înainte ca dosarul să devină restant.`,
       },
     ],
   },
@@ -6573,13 +6476,13 @@ export const ARTICOLE_LIST = [
     { slug: 'restituire-tva-9-la-suta-termen-30-septembrie-2026', titlu: 'Restituire TVA: Cum Recuperezi 12% Dacă Ai Plătit 21%', data: '8 Septembrie 2026', dataISO: '2026-09-08', citire: '11 min', image: '/blog/restituire-tva-9-la-suta-termen-30-septembrie-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Cota redusă de 9% s-a încheiat pe 30 septembrie 2026, dar cererea de restituire a diferenței de 12% se depune începând cu 1 octombrie. Cine are dreptul și ce documente trebuie.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
     { slug: 'neofort-10-colentina-fundeni-lansare', titlu: 'Neofort 10 Colentina Fundeni: Proiect Nou în Pregătire', data: '23 Iunie 2026', dataISO: '2026-06-23', citire: '6 min', image: '/blog/neofort-10-colentina-fundeni-lansare.avif', tag: 'Lansare', tagColor: '#c8922a', rezumat: 'Un nou proiect Neofort IMO se pregătește de lansare în Colentina-Fundeni: garsoniere, studiouri, apartamente 2-4 camere cu grădini și terase. Predare T1 2028, rezervări din iulie 2026.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'legea-nordis-efect-bumerang-piata-imobiliara', titlu: 'Legea Nordis: Efect de Bumerang pe Piață', data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min', image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25–30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre reale.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'credit-ipotecar-2026-ghid-complet-rate-dobanzi', titlu: 'Credit Ipotecar 2026: Ghid Complet — Rate, Dobânzi și Strategie', data: '17 Iunie 2026', dataISO: '2026-06-17', citire: '16 min', image: '/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Ghid complet credit ipotecar 2026: IRCC 5,58%, calcule reale pe 4 scenarii, comparație bănci (BCR, BRD, Raiffeisen, ING, CEC), grad de îndatorare 40%, Noua Casă vs credit standard. Date actualizate BNR iunie 2026.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'credit-ipotecar-2026-ghid-complet-rate-dobanzi', titlu: 'Credit Ipotecar: Ghid Complet Pas cu Pas', data: '17 Iunie 2026', dataISO: '2026-06-17', citire: '16 min', image: '/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Cum obții un credit ipotecar, pas cu pas: ce verifică banca, actele necesare, ordinea corectă a pașilor și cât durează de la pre-aprobare la semnătura la notar.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'gradul-de-indatorare-credit-ipotecar', titlu: 'Gradul de Îndatorare 40%: Cum Calculezi și Maximizezi Creditul', data: '14 Iunie 2026', dataISO: '2026-06-14', citire: '13 min', image: '/blog/gradul-de-indatorare-credit-ipotecar-2026.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Gradul de îndatorare 40% impus de BNR: formula exactă de calcul, ce datorii invizibile îți blochează creditul, 7 greșeli frecvente, strategii de maximizare și tabel complet credite pe niveluri de venit.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
   { slug: 'apartamente-de-vanzare-titan-pallady-teclu', titlu: 'Apartamente Noi Titan–Pallady și Teclu 2026', data: '11 Iunie 2026', dataISO: '2026-06-11', citire: '13 min', image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
   { slug: 'dotari-apartament-inchiriat', titlu: 'Dotările unui Apartament de Închiriat în 2026', data: '3 Iunie 2026', dataISO: '2026-06-03', citire: '11 min', image: '/blog/dotari-apartament-inchiriat-bucuresti.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Ce dotări caută chiriașii în 2026 și care investiții îți cresc randamentul. Date din piață, calcule reale și ghid practic pentru proprietarii din București.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'ghid-cumparare-apartament-nou', titlu: 'Cum Cumperi Apartament Nou de la Dezvoltator', data: '27 Mai 2026', dataISO: '2026-05-27', citire: '13 min', image: '/blog/ghid-cumparare-apartament-nou-bucuresti.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru cumpărarea unui apartament nou de la dezvoltator în București în 2026: avans, contract, capcane de evitat, finanțare, predare la cheie. Sfaturi de la consultant cu 400+ tranzacții.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
   { slug: 'lege-chirii-2026-proprietari-chiriasi', titlu: 'Legea Chiriilor 2026: Ce Se Schimbă', data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min', image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Înregistrarea obligatorie la ANAF, indexarea plafonată, drepturi noi pentru chiriași și riscuri pentru proprietarii care nu declară — tot ce s-a schimbat în legislația chiriilor în 2026.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'credit-ipotecar-2026-dobanzi-conditii', titlu: 'Credit Ipotecar 2026: Dobânzi și Costuri Reale', data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min', image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'IRCC vs ROBOR, calculul real al costului unui credit pe 30 de ani, comparație între bănci și dacă Noua Casă mai merită în 2026 față de creditul standard.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'credit-ipotecar-2026-dobanzi-conditii', titlu: 'Cât Costă Real un Credit Ipotecar: DAE și Total', data: '18 Mai 2026', dataISO: '2026-05-18', citire: '12 min', image: '/blog/credit-ipotecar-2026-dobanzi-conditii.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Cât costă efectiv un credit ipotecar: rata lunară, DAE, dobânda cumulată pe 30 de ani și ce marjă peste IRCC e normală. Cum compari corect ofertele băncilor.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'zone-bucuresti-potential-crestere-2027', titlu: 'Zone București cu Potențial de Creștere 2027', data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min', image: '/blog/zone-bucuresti-potential-crestere-2027.avif', tag: 'Investiții', tagColor: '#b45309', rezumat: 'Moșilor-Eminescu, Piața Muncii și Militari — analiză investițională bazată pe date reale: cerere vs ofertă, prețuri actuale și estimări pentru 2027.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'merita-apartament-titan-pallady-2026', titlu: 'Merită Apartament în Titan–Pallady în 2026?', data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min', image: '/blog/merita-apartament-titan-pallady-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă cu prețuri reale, avantaje, dezavantaje, calcul randament și ce trebuie verificat înainte de semnare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
   { slug: 'apartamente-noi-titan-pallady-teclu-promotii-2026', titlu: 'Promoții Apartamente Titan–Pallady 2026', data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min', image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Tipuri reale de reduceri, cum identifici o ofertă autentică și calculul corect al avansului mare.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
