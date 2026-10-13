@@ -63,7 +63,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     parcare: { exterior: { disponibil: true, pret: 6000, deLa: true, notaTVA: '+TVA' }, interior: { disponibil: true, pret: 8500, deLa: true, notaTVA: '+TVA' }, subteran: { disponibil: false, pret: null } },
     dotari: ['Incalzire in pardoseala', 'Tamplarie PVC Salamander', 'Lifturi silentioase', 'Gresie si faianta import', 'Terase generoase', 'Instalatii sanitare, electrice si termice', 'Centrala termica proprie', 'Ferestre mari pentru lumina naturala', 'Structura beton armat', 'Zidarie BCA Ytong'],
     puncteInteres: [
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '1,6 km · 20 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M2)', distanta: '1,1 km · 16 min pe jos' },
       { tip: 'transport', nume: 'STB 235 / 330', distanta: '1,3 km · 17 min pe jos' },
       { tip: 'transport', nume: 'STB 19 / 27 / 49', distanta: '1,6 km · 20 min pe jos' },
       { tip: 'metrou', nume: 'Metrou Anghel Saligny (M2)', distanta: '3,3 km · 5 min cu mașina' },
