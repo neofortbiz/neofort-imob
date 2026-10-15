@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import FormularRapid from '@/components/FormularRapid'
 import GalerieAnsamblu from '@/components/GalerieAnsamblu'
 import DescriereExpand from '@/components/DescriereExpand'
+import { peScurtAnsamblu } from '@/lib/peScurt'
 import ApartamenteTable from '@/components/ApartamenteTable'
 import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
 import { getOricareAnsambluPortofoliu, TOATE_PORTOFOLIU } from '@/data/portofoliu'
@@ -378,6 +379,23 @@ export default function AnsambluPage({ params }) {
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Despre ansamblu</h2>
+              {/* PE SCURT — bloc derivat din date (lib/peScurt.js).
+                  Raspuns direct, answer-ready pentru LLM-uri, pus inaintea
+                  textului lung. Nu se scrie de mana: se recalculeaza la build,
+                  deci nu poate ramane in urma fata de preturi sau tipologii. */}
+              {peScurtAnsamblu(a) && (
+                <div className="mb-6 rounded-lg bg-gray-50 border border-gray-100 p-4">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">Pe scurt</p>
+                  <ul className="space-y-1.5">
+                    {peScurtAnsamblu(a).map((linie, i) => (
+                      <li key={i} className="text-sm text-gray-700 leading-relaxed flex gap-2">
+                        <span className="text-[#2d7a3a] flex-shrink-0">•</span>
+                        <span>{linie}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
                 <DescriereExpand text={a.descriereCompleta || a.descriere} />
               </div>
 

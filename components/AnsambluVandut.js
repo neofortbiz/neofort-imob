@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
+import { peScurtPortofoliu } from '@/lib/peScurt'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -32,7 +33,27 @@ export default function AnsambluVandut({ a, basePath = '/portofoliu' }) {
   // vine userul), chiar daca URL-ul canonic e sub /ansamblu-rezidential/.
   const crumb = { label: 'Portofoliu', href: '/portofoliu', active: '/portofoliu' }
 
-  const similare = TOATE_PORTOFOLIU.filter(p => p.slug !== a.slug).slice(0, 4)
+  // Proiectele „similare" se aleg dupa zona, apoi dupa sector, si abia la final
+  // din rest — pornind dintr-un punct care depinde de slug-ul paginii curente.
+  //
+  // DE CE: pana la v427 era `.slice(0, 4)`, adica ACELEASI patru proiecte pe toate
+  // cele 72 de pagini. Rezultatul: 4 proiecte primeau toate linkurile interne, iar
+  // celelalte 68 niciunul — portofoliul era o zona moarta in graful de linkuri,
+  // desi fiecare pagina avea sectiunea de proiecte inrudite.
+  const similare = (() => {
+    const idx = TOATE_PORTOFOLIU.findIndex(p => p.slug === a.slug)
+    const n = TOATE_PORTOFOLIU.length
+    // 2 sloturi GARANTATE: vecinii din lista. Asigura ca fiecare proiect primeste
+    // exact 2 linkuri interne, deci niciunul nu ramane orfan.
+    const vecini = n > 2 ? [TOATE_PORTOFOLIU[(idx + 1) % n], TOATE_PORTOFOLIU[(idx + 2) % n]] : []
+    const luate = new Set([a.slug, ...vecini.map(p => p.slug)])
+    // 2 sloturi pe RELEVANTA: aceeasi zona, apoi acelasi sector.
+    const relevante = [
+      ...TOATE_PORTOFOLIU.filter(p => !luate.has(p.slug) && p.zona === a.zona),
+      ...TOATE_PORTOFOLIU.filter(p => !luate.has(p.slug) && p.zona !== a.zona && p.sector === a.sector),
+    ].slice(0, 2)
+    return [...relevante, ...vecini].slice(0, 4)
+  })()
 
   const realEstateSchema = {
     '@context': 'https://schema.org',
@@ -136,6 +157,23 @@ export default function AnsambluVandut({ a, basePath = '/portofoliu' }) {
                 </div>
               )}
 
+              {/* PE SCURT — bloc derivat din date (lib/peScurt.js).
+                  Raspuns direct, answer-ready pentru LLM-uri, pus inaintea
+                  textului lung. Nu se scrie de mana: se recalculeaza la build,
+                  deci nu poate ramane in urma fata de preturi sau tipologii. */}
+              {peScurtPortofoliu(a) && (
+                <div className="mb-6 rounded-lg bg-gray-50 border border-gray-100 p-4">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">Pe scurt</p>
+                  <ul className="space-y-1.5">
+                    {peScurtPortofoliu(a).map((linie, i) => (
+                      <li key={i} className="text-sm text-gray-700 leading-relaxed flex gap-2">
+                        <span className="text-[#2d7a3a] flex-shrink-0">•</span>
+                        <span>{linie}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
               {/* DESCRIERE */}
               <div className="pb-6 border-b border-gray-100">
                 <h2 className="text-base font-medium text-gray-900 mb-4">Despre ansamblu</h2>

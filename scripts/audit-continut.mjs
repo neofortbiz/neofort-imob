@@ -573,6 +573,50 @@ if (ARTICOLE) {
       if (areTabel(a[camp])) P(`portofoliu/${a.slug}`, `\`${camp}\` contine un tabel markdown, dar AnsambluVandut.js randeaza text simplu`)
 }
 
+
+// ── 8. Blocuri „Pe scurt" pe ansambluri si portofoliu (v427) ─
+// DE CE: blocurile sunt DERIVATE din date (lib/peScurt.js). Daca un camp
+// structural dispare sau se goleste, blocul se degradeaza in tacere si pagina
+// pierde raspunsul direct pe care il citesc LLM-urile. Verificarea cere ca
+// fiecare entitate sa produca un bloc complet.
+{
+  const { peScurtAnsamblu, peScurtPortofoliu } = await import(resolve(ROOT, 'lib/peScurt.js'))
+  // Un camp gol nu scurteaza blocul, ci lasa gauri in text („in , Sector 1"),
+  // deci lungimea nu e suficienta ca test — se verifica si forma propozitiilor.
+  const degradat = b => !b || b.length < 2 || b.some(l =>
+    /\s,|\(\s*\)|\s{2,}|în\s*,|de la\s*€|undefined|NaN|null/.test(l))
+  for (const a of ANSAMBLURI_ACTIVE)
+    if (degradat(peScurtAnsamblu(a)))
+      P(`ansamblu/${a.slug}`, 'blocul „Pe scurt" iese incomplet — lipseste un camp structural (zona, sector, etaje, tipuri sau pretDeLa)')
+  if (Array.isArray(TOATE_PORTOFOLIU)) for (const a of TOATE_PORTOFOLIU)
+    if (degradat(peScurtPortofoliu(a)))
+      P(`portofoliu/${a.slug}`, 'blocul „Pe scurt" iese incomplet — lipseste un camp structural (zona, sector, etaje sau totalApartamente)')
+}
+
+// ── 9. Proiecte de portofoliu orfane (v427) ──────────────────
+// DE CE: pana la v427, `similare` din AnsambluVandut.js era `.slice(0, 4)`,
+// adica aceleasi patru proiecte pe toate paginile — 68 din 72 nu primeau niciun
+// link intern. Verificarea reproduce selectia si cere ca fiecare proiect sa fie
+// linkat de cel putin unul altul.
+if (Array.isArray(TOATE_PORTOFOLIU) && TOATE_PORTOFOLIU.length > 2) {
+  const T = TOATE_PORTOFOLIU, n = T.length
+  const similare = a => {
+    const idx = T.findIndex(p => p.slug === a.slug)
+    const vecini = [T[(idx + 1) % n], T[(idx + 2) % n]]
+    const luate = new Set([a.slug, ...vecini.map(p => p.slug)])
+    const rel = [
+      ...T.filter(p => !luate.has(p.slug) && p.zona === a.zona),
+      ...T.filter(p => !luate.has(p.slug) && p.zona !== a.zona && p.sector === a.sector),
+    ].slice(0, 2)
+    return [...rel, ...vecini].slice(0, 4)
+  }
+  const intrari = {}
+  for (const a of T) intrari[a.slug] = 0
+  for (const a of T) for (const s of similare(a)) intrari[s.slug]++
+  for (const [slug, n2] of Object.entries(intrari))
+    if (!n2) P(`portofoliu/${slug}`, 'proiect orfan — niciun alt proiect nu linkeaza catre el')
+}
+
 // ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
