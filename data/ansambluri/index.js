@@ -87,7 +87,7 @@ Procesul de rezervare este simplu și transparent: 1.000€ rezervare, antecontr
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 84',
-    seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3. Apartamente 2-4 camere de la 57.336 euro+TVA. Predare T1 2027, metrou Anghel Saligny la 5 min cu masina.',
+    seoDescription: 'Ansamblu rezidential Neofort 84 Titan Pallady, Sector 3. Apartamente 2-4 camere de la 57.336 euro+TVA. Predare T1 2027, metrou Anghel Saligny la 5 min.',
   },
   {
     slug: 'neofort-83-titan-pallady',
@@ -250,7 +250,7 @@ Prețul ultimei unități disponibile, 92.900 EUR+TVA pentru 60,90 mp utili, ră
     tipuri: ['2 camere'],
     tag: null,
     seoTitle: 'Ansamblu Rezidențial Neofort 82 Titan Pallady',
-    seoDescription: 'Neofort 82 Titan Pallady, Sector 3. Proiect finalizat, ultimul apartament de 2 camere disponibil, 60,90 mp, 92.900€+TVA. Metrou Nicolae Teclu la 3 min cu masina.',
+    seoDescription: 'Neofort 82 Titan Pallady, Sector 3. Proiect finalizat, ultimul apartament de 2 camere, 60,90 mp, 92.900€+TVA. Metrou Nicolae Teclu la 3 min cu masina.',
   },
   {
     slug: 'neofort-76-iuliu-maniu-metrou-pacii',
@@ -393,7 +393,7 @@ Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar 
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 56',
-    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Apartamente 4 camere, unele cu curte proprie, de la 195.000€+TVA. Smart Home Ready, metrou Anghel Saligny 7 min cu masina.',
+    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Apartamente 4 camere, unele cu curte proprie, de la 195.000€+TVA. Smart Home Ready, metrou Anghel Saligny 7 min.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
@@ -735,7 +735,7 @@ Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitectu
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 44',
-    seoDescription: 'Ansamblu rezidential Neofort 44 Titan-Pallady Teclu, Sector 3. Garsoniere si apartamente 2-3 camere de la 61.775 euro+TVA. Metrou Anghel Saligny la 7 min cu masina.',
+    seoDescription: 'Ansamblu rezidential Neofort 44 Titan-Pallady Teclu, Sector 3. Garsoniere si apartamente 2-3 camere de la 61.775 euro+TVA. Metrou Anghel Saligny la 7 min.',
   },
   {
     slug: 'neofort-42-piata-muncii',
@@ -812,7 +812,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Piața Muncii — Neofort 42',
-    seoDescription: 'Ansamblu rezidential premium Neofort 42 Piata Muncii, Sector 3. Apartamente 2 si 4 camere de la 215.500 euro+TVA. Metrou Piata Muncii la 300 m, 64 unitati S+P+4.',
+    seoDescription: 'Ansamblu rezidential premium Neofort 42 Piata Muncii, Sector 3. Apartamente 2 si 4 camere de la 215.500 euro+TVA. Metrou Piata Muncii la 300 m, 64 unitati.',
   },
   {
     slug: 'neofort-28-titan-pallady-teclu',

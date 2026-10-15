@@ -440,6 +440,139 @@ if (ARTICOLE && Array.isArray(ARTICOLE_LIST)) {
   }
 }
 
+// ════════════════════════════════════════════════════════════
+// VERIFICARI ADAUGATE LA v426 (R22 — remediere pe clasa)
+//
+// Fiecare bloc de mai jos inchide o clasa de eroare care, pana acum, se
+// repara punctual si putea reaparea fara ca nimeni sa observe. Ordinea e
+// cea din registrul claselor din CONTEXT-NEOFORT-IMO.md.
+// ════════════════════════════════════════════════════════════
+
+// ── 1. Magistrale de metrou gresite ──────────────────────────
+// DE CE: la v422 s-au corectat 74 de etichete, dar verificarea s-a facut cu
+// un tipar care cerea cuvantul „Metrou"/„Statia de metrou" inainte de numele
+// statiei. Pluralul („Statiile X (M3) si Y (M2)") si intreg data/portofoliu.js
+// au ramas neatinse — inca 180 de etichete gresite, descoperite abia la v426.
+// Tiparul de aici NU cere nimic inainte de numele statiei.
+const LINII_METROU = {
+  M1: ['Pantelimon','Republica','Costin Georgian','Titan','Nicolae Grigorescu','Dristor','Mihai Bravu',
+       'Timpuri Noi','Piata Unirii','Izvor','Eroilor','Grozavesti','Petrache Poenaru','Crangasi','Basarab',
+       'Gara de Nord 1','Piata Victoriei','Stefan cel Mare','Obor','Piata Iancului','Piata Muncii'],
+  M2: ['Pipera','Aurel Vlaicu','Aviatorilor','Piata Victoriei','Piata Romana','Universitate','Piata Unirii',
+       'Tineretului','Eroii Revolutiei','Constantin Brancoveanu','Piata Sudului','Aparatorii Patriei',
+       'Dimitrie Leonida','Berceni'],
+  M3: ['Preciziei','Pacii','Gorjului','Lujerului','Politehnica','Eroilor','Izvor','Piata Unirii','Timpuri Noi',
+       'Mihai Bravu','Dristor','Nicolae Grigorescu','1 Decembrie 1918','Nicolae Teclu','Anghel Saligny'],
+  M4: ['Gara de Nord 2','Basarab','Grivita','1 Mai','Jiului','Parc Bazilescu','Laminorului','Lac Straulesti'],
+  M5: ['Raul Doamnei','Brancusi','Valea Ialomitei','Parc Drumul Taberei','Drumul Taberei 34','Romancierilor',
+       'Favorit','Orizont','Academia Militara','Eroilor'],
+}
+const faraDiac = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .replace(/ș|ş/g, 's').replace(/ț|ţ/g, 't').replace(/ă|â/g, 'a').replace(/î/g, 'i')
+  .toLowerCase().replace(/\s+/g, ' ').trim()
+const STATII_LINII = {}
+for (const [linie, st] of Object.entries(LINII_METROU))
+  for (const s of st) (STATII_LINII[faraDiac(s)] = STATII_LINII[faraDiac(s)] || []).push(linie)
+const ALIAS_STATII = { 'piata obor': 'obor', 'dristor 1': 'dristor', 'dristor 2': 'dristor' }
+const magistralaCorecta = nume => {
+  const k = faraDiac(nume)
+  const m = STATII_LINII[k] || STATII_LINII[ALIAS_STATII[k]]
+  return m ? m.join('/') : null
+}
+{
+  const NUME = ['1 Decembrie 1918','Nicolae Grigorescu','Petrache Poenaru','Costin Georgian','Anghel Saligny',
+    'Nicolae Teclu','Stefan cel Mare','Ștefan cel Mare','Piata Victoriei','Piața Victoriei','Piata Muncii',
+    'Piața Muncii','Piata Unirii','Piața Unirii','Piata Romana','Piața Romană','Piata Obor','Piața Obor',
+    'Timpuri Noi','Mihai Bravu','Universitate','Aviatorilor','Politehnica','Dristor 1','Dristor 2',
+    'Preciziei','Lujerului','Gorjului','Dristor','Titan','Obor','Pacii','Păcii'].sort((a, b) => b.length - a.length)
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const RE_METROU = new RegExp('(' + NUME.map(esc).join('|') + ')\\s*\\((M\\d(?:\\/M\\d)*)\\)', 'g')
+  for (const f of ['data/blog.js', 'data/ansambluri/index.js', 'data/portofoliu.js', 'app/apartamente/[tip]/page.js']) {
+    const cale = resolve(ROOT, f)
+    if (!fs.existsSync(cale)) continue
+    const txt = fs.readFileSync(cale, 'utf8')
+    let m
+    while ((m = RE_METROU.exec(txt))) {
+      const corect = magistralaCorecta(m[1])
+      if (corect && corect !== m[2])
+        P(f, `„${m[1]} (${m[2]})" — statia este pe ${corect} (linia ${txt.slice(0, m.index).split('\n').length})`)
+    }
+  }
+}
+
+// ── 2. Lungimea meta descrierilor ────────────────────────────
+// DE CE: 17 descrieri depasisera 160 de caractere si se trunchiau in SERP.
+{
+  const verLung = (eticheta, d) => {
+    if (!d) return
+    if (d.length > 160) P(eticheta, `meta descriere de ${d.length} caractere (maxim 160)`)
+    else if (d.length < 120) P(eticheta, `meta descriere de doar ${d.length} caractere (minim 120)`)
+  }
+  for (const a of ANSAMBLURI_ACTIVE) verLung(`ansamblu/${a.slug}`, a.seoDescription)
+  if (ARTICOLE) for (const [slug, a] of Object.entries(ARTICOLE)) verLung(`blog/${slug}`, a.seoDesc)
+}
+
+// ── 3. Lungimea titlurilor, constienta de `absolute` ─────────
+// DE CE: `title: { absolute: ... }` OCOLESTE template-ul '%s | Neofort IMO',
+// deci sufixul NU se adauga. Un calcul care il presupune produce fals pozitive
+// (la 13 oct am raportat 59 de titluri prea lungi; realitatea era 5).
+// Blogul foloseste template-ul; ansamblurile si portofoliul folosesc `absolute`.
+// Titlurile de blog sunt deja verificate mai sus (linia ~221) — aici doar ansamblurile,
+// care folosesc {absolute} si deci NU primesc sufixul.
+{
+  for (const a of ANSAMBLURI_ACTIVE)
+    if (a.seoTitle && a.seoTitle.length > 60)
+      P(`ansamblu/${a.slug}`, `seoTitle de ${a.seoTitle.length} caractere (maxim 60; pagina foloseste {absolute}, fara sufix)`)
+}
+
+// ── 4. Articole orfane ───────────────────────────────────────
+// DE CE: 4 articole nu primeau niciun link intern, nici din blog, nici din
+// descrierile de ansambluri — autoritate zero si crawl rar.
+if (ARTICOLE) {
+  const textAnsambluri = ANSAMBLURI_ACTIVE.map(a => [a.descriere, a.descriereCompleta].filter(Boolean).join('\n')).join('\n')
+  const textBlog = {}
+  for (const [slug, a] of Object.entries(ARTICOLE)) textBlog[slug] = (a.sectiuni || []).map(s => s.continut).join('\n')
+  for (const slug of Object.keys(ARTICOLE)) {
+    const tinta = `/blog/${slug}`
+    let intrari = textAnsambluri.includes(tinta) ? 1 : 0
+    for (const [alt, t] of Object.entries(textBlog)) if (alt !== slug && t.includes(tinta)) intrari++
+    if (!intrari) P(`blog/${slug}`, 'articol orfan — niciun link intern catre el')
+  }
+}
+
+// ── 5. dataModificata inaintea publicarii ────────────────────
+// DE CE: o data de modificare anterioara publicarii e imposibila si ajunge
+// in `dateModified` din schema si in `lastModified` din sitemap.
+if (ARTICOLE) for (const [slug, a] of Object.entries(ARTICOLE))
+  if (a.dataModificata && a.dataISO && a.dataModificata < a.dataISO)
+    P(`blog/${slug}`, `dataModificata (${a.dataModificata}) este inaintea dataISO (${a.dataISO})`)
+
+// ── 6. Linkuri interne catre articole inexistente ────────────
+// DE CE: un slug redenumit lasa in urma linkuri care dau 404.
+if (ARTICOLE) {
+  const existente = new Set(Object.keys(ARTICOLE))
+  for (const [slug, a] of Object.entries(ARTICOLE)) {
+    const t = (a.sectiuni || []).map(s => s.continut).join('\n')
+    for (const m of t.matchAll(/\]\(\/blog\/([^)#?]+)/g))
+      if (!existente.has(m[1])) P(`blog/${slug}`, `link intern catre articolul inexistent „${m[1]}"`)
+  }
+}
+
+// ── 7. Sintaxa de tabel in campuri fara randor ───────────────
+// DE CE: segmentatorul de tabele exista DOAR in app/blog/[slug]/page.js.
+// DescriereExpand.js (ansambluri) si AnsambluVandut.js (portofoliu) randeaza
+// fara el, deci un tabel scris acolo apare pe live cu pipe-uri vizibile —
+// exact bug-ul reclamat pe articole inainte de v420.
+{
+  const areTabel = t => typeof t === 'string' && /\n\s*\|[^\n]*\|\s*\n\s*\|[\s:|-]+\|/.test(t)
+  for (const a of ANSAMBLURI_ACTIVE)
+    for (const camp of ['descriere', 'descriereCompleta'])
+      if (areTabel(a[camp])) P(`ansamblu/${a.slug}`, `\`${camp}\` contine un tabel markdown, dar componenta nu are randor de tabele`)
+  if (Array.isArray(TOATE_PORTOFOLIU)) for (const a of TOATE_PORTOFOLIU)
+    for (const camp of ['descriere', 'descriereCompleta'])
+      if (areTabel(a[camp])) P(`portofoliu/${a.slug}`, `\`${camp}\` contine un tabel markdown, dar AnsambluVandut.js randeaza text simplu`)
+}
+
 // ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────

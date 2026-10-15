@@ -77,7 +77,7 @@ export const ARTICOLE = {
   'impozit-dublu-balcon-inchis-fara-autorizatie': {
     titlu: 'Impozit Dublu pentru Balcon Închis sau Unit cu Sufrageria: Ce Termen Ai, de Fapt',
     seoTitle: 'Balcon Închis: Impozit Dublu și Termen 2027',
-    seoDesc: 'Majorarea cu 100% a impozitului pentru balcoane închise fără autorizație este în vigoare din 25 august 2026, nu din 2027. Art. 301 CATUC, termene și taxe, explicate.',
+    seoDesc: 'Majorarea cu 100% a impozitului pentru balcoane închise fără autorizație e în vigoare din 25 august 2026, nu din 2027. Art. 301 CATUC, termene și taxe.',
     tag: 'Legislație', tagColor: '#7c3aed',
     data: '9 Octombrie 2026', dataISO: '2026-10-09', citire: '13 min',
     autor: 'raluca-nistor',
@@ -289,9 +289,9 @@ Situația de fapt se transmite odată cu imobilul. Verifică la primărie dacă 
   'dotari-reduc-factura-energie-apartament-nou': {
     titlu: `5 Dotări Care Reduc Factura la Energie cu Până la 40%`,
     seoTitle: '5 Dotări Care Reduc Factura la Energie',
-    seoDesc: 'Panouri fotovoltaice, izolație, tâmplărie tripan, încălzire eficientă, electrocasnice. Ce economisește fiecare și cum verifici că există în proiect, nu în broșură.',
+    seoDesc: 'Panouri fotovoltaice, izolație, tâmplărie tripan, încălzire eficientă. Ce economisește fiecare dotare și cum verifici că există în proiect, nu în broșură.',
     tag: 'Ghid', tagColor: '#2d7a3a',
-    data: '30 Septembrie 2026', dataISO: '2026-09-30', citire: '11 min',
+    data: '30 Septembrie 2026', dataISO: '2026-09-30', dataModificata: '2026-10-13', citire: '11 min',
     autor: 'adriana-veselu',
     image: '/blog/dotari-reduc-factura-energie-apartament-nou.avif',
     descriere: 'Cinci dotări care fac diferența reală în factura lunară la energie, cât economisește fiecare și cum verifici înainte de semnare că sunt prevăzute efectiv în proiect, nu doar în broșură.',
@@ -584,7 +584,7 @@ Poți lăsa datele tale de contact la finalul acestui articol sau poți contacta
       'Un proiect autorizat azi livrează în 2–3 ani — deci efectele legislative se resimt cu întârziere pe stocul disponibil.',
     ],
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '7 Iunie 2026', dataISO: '2026-06-07', citire: '14 min',
+    data: '7 Iunie 2026', dataISO: '2026-06-07', dataModificata: '2026-10-13', citire: '14 min',
     autor: 'igor-calutu',
     image: '/blog/legea-nordis-efect-bumerang-piata-imobiliara-2026.avif',
     descriere: `Legea Nordis (nr. 207/2025) a blocat șantiere, a împins IMM-uri spre insolvență și a declanșat o scădere de 25-30% a tranzacțiilor. Cum o lege gândită să protejeze cumpărătorii a produs exact efectul opus — analiză completă cu cifre și consecințe reale.`,
@@ -1402,7 +1402,7 @@ Chirie documentată (contract ANAF + extras cont 12 luni): acceptată 70-80%. Di
       'Cel mai bun acces la metrou este în zona Nicolae Teclu; Titan oferă în schimb proximitatea Parcului IOR și infrastructură matură.',
     ],
     tag: 'Piață', tagColor: '#0369a1',
-    data: '11 Iunie 2026', dataISO: '2026-06-11', dataModificata: '2026-10-13', citire: '13 min',
+    data: '11 Iunie 2026', dataISO: '2026-06-11', dataModificata: '2026-10-15', citire: '13 min',
     autor: 'ramona-baicu',
     image: '/blog/apartamente-vanzare-titan-pallady-teclu-bucuresti.avif',
     descriere: `Cauți apartamente de vânzare în Titan, Theodor Pallady sau Nicolae Teclu? Ghid complet 2026: prețuri reale, cele 6 ansambluri active Neofort IMO din zonă, comparație pe localizare și buget, calculul costului total și tot ce trebuie să știi înainte să semnezi.`,
@@ -1670,7 +1670,7 @@ Pasul următor: contactați direct brokerul responsabil de zona și proiectul ca
   'dotari-apartament-inchiriat': {
     titlu: `Dotările unui Apartament de Închiriat în 2026: Ce Cer Chiriașii și Ce Merită Investit`,
     seoTitle: 'Dotările unui Apartament de Închiriat în 2026',
-    seoDesc: 'Ce dotări caută chiriașii în 2026 și care investiții cresc randamentul: electrocasnice, AC, internet, mobilier. Date din piața București cu calcule de recuperare.',
+    seoDesc: 'Ce dotări caută chiriașii în 2026 și care investiții cresc randamentul: electrocasnice, AC, internet, mobilier. Date din București cu calcule de recuperare.',
     peScurt: [
       'Randamentul la închiriere crește cu dotările pe care chiriașii le caută efectiv, nu cu cele scumpe și rar folosite.',
       'Mobilarea completă și electrocasnicele de bază reduc perioada de neocupare și justifică o chirie mai mare.',
@@ -1904,7 +1904,7 @@ Rata dobânzii de referință (ROBOR 3M) se află la 5,8-6,2% în Q1 2026. Adău
 • Recomandare: mergi la minim 3 bănci și cere oferte în scris înainte să te hotărăști
 
 **Plata integrală din surse proprii:**
-Dacă ai lichiditatea, este cea mai simplă variantă. Negociezi un discount de 3-7% cu dezvoltatorul (prețul cash este întotdeauna mai mic), elimini costul dobânzii și ești mai flexibil în decizie.`,
+Dacă ai lichiditatea, este cea mai simplă variantă. Negociezi un discount de 3-7% cu dezvoltatorul (prețul cash este întotdeauna mai mic), elimini costul dobânzii și ești mai flexibil în decizie. Dacă lucrezi în străinătate, procedura are câteva particularități — acte, procură, venituri acceptate de bănci — tratate separat în [cum cumperi apartament în București din diasporă](/blog/cumparare-apartament-din-diaspora).`,
       },
       {
         id: 'antecontract',
@@ -2466,7 +2466,7 @@ Indicatorii pe care îi analizăm:
 Cel mai puternic predictor al creșterii de preț. O zonă unde cererea (numărul de cumpărători interesați) depășește consistent oferta disponibilă (apartamente de vânzare) va vedea creșteri de preț. Măsurăm: numărul de anunțuri active vs numărul de tranzacții finalizate în ultimele 12 luni.
 
 2. Pipeline de infrastructură
-Proiectele de infrastructură anunțate sau în construcție (metrou, drumuri, parcuri, centre comerciale) cresc valoarea zonelor adiacente înainte de finalizare — efectul de anticipare. Investitorul inteligent cumpără înainte de inaugurare, nu după.
+Proiectele de infrastructură anunțate sau în construcție (metrou, drumuri, parcuri, centre comerciale) cresc valoarea zonelor adiacente înainte de finalizare — efectul de anticipare. Investitorul inteligent cumpără înainte de inaugurare, nu după. Ce se construiește efectiv și pe ce magistrale, cu termenele anunțate, am detaliat în [extinderea metroului București 2026-2027](/blog/extinderea-metroului-bucuresti-2026-2027).
 
 3. Prețul/mp față de mediana orașului
 Zonele cu prețuri sub mediana Bucureștiului (aproximativ 1.850 EUR/mp în mai 2026) au mai mult spațiu de creștere față de cele care au depășit-o semnificativ.
@@ -2501,7 +2501,7 @@ Proiectele Neofort în zonă: [Neofort 11](/ansamblu-rezidential/neofort-11-emin
 
 Avantajele structurale:
 
-Două linii de metrou la intersecție. Stațiile Piața Muncii (M3) și Dristor 1 (M2) se află la 5-10 minute de mers pe jos una de alta — acces la două magistrale simultan. Asta înseamnă că un locuitor poate ajunge în Centru, Victoriei, Drumul Taberei sau Militari fără schimb de metrou sau cu un singur schimb.
+Două linii de metrou la intersecție. Stațiile Piața Muncii (M1) și Dristor 1 (M1/M3) se află la 5-10 minute de mers pe jos una de alta — acces la două magistrale simultan. Asta înseamnă că un locuitor poate ajunge în Centru, Victoriei, Drumul Taberei sau Militari fără schimb de metrou sau cu un singur schimb.
 
 Park Lake Plaza la 500m. Cel mai modern centru comercial din estul Capitalei, cu cinema IMAX, hypermarket și 130+ magazine — infrastructură comercială completă integrată în zonă.
 
@@ -2626,7 +2626,7 @@ Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările loca
       'Înainte de semnare se verifică dezvoltatorul, termenul de predare, autorizația și graficul de plăți.',
     ],
     tag: 'Piață', tagColor: '#0369a1',
-    data: '16 Mai 2026', dataISO: '2026-05-16', dataModificata: '2026-10-13', citire: '11 min',
+    data: '16 Mai 2026', dataISO: '2026-05-16', dataModificata: '2026-10-15', citire: '11 min',
     autor: 'adrian-pintilie',
     image: '/blog/merita-apartament-titan-pallady-2026.avif',
     descriere: `Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă a pieței, prețurilor reale, avantajelor și riscurilor — cu date concrete din tranzacțiile Neofort IMO. Pentru cumpărători și investitori.`,
@@ -2822,7 +2822,7 @@ Decizia finală depinde de trei lucruri: developerul ales, localizarea exactă �
   'apartamente-noi-titan-pallady-teclu-promotii-2026': {
     titlu: `Promoții Apartamente Titan–Pallady 2026`,
     seoTitle: 'Promoții Apartamente Titan–Pallady 2026',
-    seoDesc: 'Cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026. Prețuri de la 62.114€ cu avans 45%, direct de la Neofort IMO fără comision.',
+    seoDesc: 'Cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026. Prețuri de la 62.114€ cu avans 45%, direct de la Neofort IMO.',
     peScurt: [
       'În ansamblurile noi, prețul variază în funcție de avans: plata majoritară la semnare (avans 45%) costă cu 7–15% mai puțin decât plata la predare (avans 20%, compatibilă cu creditul bancar).',
       'Alte reduceri reale vin din prețurile de pre-lansare (faza 1 de construcție) și din pachetele care includ parcarea sau boxa.',
@@ -3009,7 +3009,7 @@ Depinde de contractul semnat. Un antecontract bine redactat include clauze de re
       'Cumpărarea directă de la dezvoltator elimină comisionul de agenție și oferă acces la stocul complet.',
     ],
     tag: 'Ghid', tagColor: '#2d7a3a',
-    data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min',
+    data: '4 Mai 2026', dataISO: '2026-05-04', dataModificata: '2026-10-13', citire: '12 min',
     autor: 'igor-calutu',
     image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif',
     descriere: `Cum alegi corect un ansamblu rezidențial nou din București în 2026? Ghid complet: cele mai căutate zone, cum verifici un developer, ce greșeli să eviți și criterii concrete de evaluare bazate pe experiența Neofort IMO din 2009 încoace.`,
@@ -3225,7 +3225,7 @@ Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București 
     seoTitle: 'E-Proprietatea: Impozit Apartament 2026-2027',
     seoDesc: 'Cum se calculează impozitul pe apartament în 2026: formula, cotele și reducerile reale. Ce se schimbă de la 1 ianuarie 2027, când baza devine valoarea de piață.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '22 Aprilie 2026', dataISO: '2026-04-22', dataModificata: '2026-10-13', citire: '12 min',
+    data: '22 Aprilie 2026', dataISO: '2026-04-22', dataModificata: '2026-10-14', citire: '12 min',
     autor: 'igor-calutu',
     image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
     descriere: `Impozitul pe clădiri în 2026 se calculează pe normele din Codul fiscal, nu pe valoarea de piață. De la 1 ianuarie 2027, Guvernul a anunțat trecerea la impozitarea la valoarea de piață. Formula exactă, cotele, reducerile din OUG 9/2026 și ce înseamnă pentru cumpărătorii de apartamente noi.`,
@@ -3678,7 +3678,7 @@ Dacă vrei o analiză personalizată pe bugetul și situația ta, consultanții 
   'tva-apartamente-noi-2026': {
     titlu: `TVA Apartamente Noi 2026: Cât Plătești Real`,
     seoTitle: 'TVA Apartamente Noi 2026: Cât Plătești Real',
-    seoDesc: 'TVA la apartamente noi: cota standard de 21% se aplică tuturor achizițiilor, după închiderea ferestrei de 9% pe 30 septembrie 2026. Cum calculezi prețul total real.',
+    seoDesc: 'TVA la apartamente noi: cota de 21% se aplică tuturor achizițiilor, după închiderea ferestrei de 9% pe 30 septembrie 2026. Cum calculezi prețul total real.',
     peScurt: [
       'Cota standard de TVA la locuințele noi este 21%, după eliminarea cotei reduse de 5% și închiderea celei tranzitorii de 9%.',
       'Cota tranzitorie de 9% s-a aplicat livrărilor făcute până la 30 septembrie 2026 inclusiv. Nicio achiziție nouă nu se mai încadrează.',
@@ -3889,7 +3889,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
       'Distanțe reale la metrou: Neofort 84 la 5 minute de Anghel Saligny, Neofort 56 la 6 minute și Neofort 44 la 7 minute de Nicolae Teclu.',
     ],
     tag: 'Zone', tagColor: '#0891b2',
-    data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min',
+    data: '25 Aprilie 2026', dataISO: '2026-04-25', dataModificata: '2026-10-13', citire: '8 min',
     autor: 'raluca-nistor',
     image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif',
     descriere: `De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M3, IKEA, parcuri, prețuri accesibile și cerere din diasporă — analiza completă a celei mai dinamice zone rezidențiale a Capitalei.`,
@@ -4244,7 +4244,7 @@ Procesul Noua Casă durează 6-10 săptămâni de la primul contact cu banca, fa
       'Cumpărarea directă de la dezvoltator simplifică procesul pentru clienții din străinătate, fără comision de agenție.',
     ],
     tag: 'Ghid', tagColor: '#2d7a3a',
-    data: '1 Mai 2026', dataISO: '2026-05-01', citire: '12 min',
+    data: '1 Mai 2026', dataISO: '2026-05-01', dataModificata: '2026-10-13', citire: '12 min',
     autor: 'svetlana-calutu',
     image: '/blog/cumparare-apartament-diaspora-ghid.avif',
     descriere: `Ghid complet pentru românii din diasporă care vor să cumpere apartament în București fără să vină fizic în țară: procuri notariale, transfer valută, alegerea zonei, riscuri și experiența Neofort IMO cu clienți din Germania, Austria, Franța, Israel, Grecia, Turcia și R. Moldova.`,
@@ -4876,14 +4876,14 @@ Dacă ai întrebări despre specificațiile unui proiect specific, consultanții
   'randament-inchiriere-zone-bucuresti': {
     titlu: `Randament la Închiriere pe Zone București 2026: Unde Investești Cel Mai Bine`,
     seoTitle: 'Randament Închiriere pe Zone București 2026',
-    seoDesc: 'Randamentul brut și net la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor și Floreasca. Unde investești cel mai bine.',
+    seoDesc: 'Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor și Floreasca. Unde investești cel mai bine.',
     peScurt: [
       'Randamentul la închiriere se calculează ca raport între chiria anuală și prețul de achiziție al apartamentului.',
       'Zonele cu metrou și cerere mare de închiriere — Titan-Pallady, Militari, Moșilor — oferă printre cele mai stabile randamente.',
       'Un apartament nou reduce costurile de întreținere și perioada de neocupare față de unul vechi.',
     ],
     tag: 'Investiții', tagColor: '#0369a1',
-    data: '10 Mai 2026', dataISO: '2026-05-10', citire: '10 min',
+    data: '10 Mai 2026', dataISO: '2026-05-10', dataModificata: '2026-10-13', citire: '10 min',
     autor: 'sasha-calutu',
     image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif',
     descriere: `Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Date din piață, nu estimări optimiste. Ce zone oferă cel mai bun randament net.`,
@@ -5131,7 +5131,7 @@ Dacă vrei să discuți o strategie de investiție personalizată pe bugetul tă
   'chirie-vs-cumparare-2026-calcul-break-even': {
     titlu: `Chirie vs Cumpărare 2026: Calculul Real Break-Even pentru București`,
     seoTitle: 'Chirie sau Cumpărare 2026: Calculul Real',
-    seoDesc: 'Chirie sau cumperi apartament în 2026? Formula break-even pe cifre reale din București: care variantă costă mai puțin și după câți ani cumpărarea devine avantajoasă.',
+    seoDesc: 'Chirie sau cumperi în 2026? Formula break-even pe cifre reale din București: care variantă costă mai puțin și după câți ani cumpărarea devine avantajoasă.',
     tag: 'Finanțare', tagColor: '#0369a1',
     data: '20 Iulie 2026', dataISO: '2026-07-20', citire: '13 min',
     autor: 'sasha-calutu',
@@ -5239,7 +5239,7 @@ Rata este comparabilă sau mai mică decât chiria echivalentă — situație to
 
 Acces la Programul Noua Casă — cu avans minim de 5% și dobândă parțial subvenționată de stat, calculul break-even se mută mult mai devreme în timp, uneori sub 3-4 ani.
 
-Venit stabil și predictibil — dacă ai un job sigur pe termen lung (stat, corporație mare, freelancer cu portofoliu stabil de clienți), riscul unei rate pe 25-30 ani e mult mai gestionabil.
+Venit stabil și predictibil — dacă ai un job sigur pe termen lung (stat, corporație mare, freelancer cu portofoliu stabil de clienți), riscul unei rate pe 25-30 ani e mult mai gestionabil. Cât de accesibilă este, statistic, o locuință față de veniturile din București am măsurat în [indicatorul de accesibilitate a locuințelor](/blog/indicator-accesibilitate-locuinte-bucuresti-2026).
 
 Vrei să construiești capital, nu doar să locuiești — pentru mulți cumpărători, argumentul decisiv nu e strict financiar pe termen scurt, ci faptul că fiecare rată plătită construiește un activ propriu, spre deosebire de chirie, care rămâne cost pur, indiferent cât de mulți ani ai plătit-o.`,
       },
@@ -5286,9 +5286,9 @@ BNR a menținut dobânda cheie la 6,5% în august 2026, cu semnale că o reducer
   'extinderea-metroului-bucuresti-2026-2027': {
     titlu: `Extinderea Metroului București 2026-2027: Ce Zone Cresc în Valoare`,
     seoTitle: 'Extinderea Metroului București — Ce Zone Cresc',
-    seoDesc: 'Magistrala 4 spre Gara Progresul și Magistrala 5 spre Pantelimon — ce înseamnă extinderea metroului din București pentru valoarea imobilelor din zonele afectate.',
+    seoDesc: 'Magistrala 4 spre Gara Progresul și Magistrala 5 spre Pantelimon — ce înseamnă extinderea metroului pentru valoarea imobilelor din zonele afectate.',
     tag: 'Zone', tagColor: '#0891b2',
-    data: '24 Iulie 2026', dataISO: '2026-07-24', citire: '11 min',
+    data: '24 Iulie 2026', dataISO: '2026-07-24', dataModificata: '2026-10-13', citire: '11 min',
     autor: 'raluca-nistor',
     image: '/blog/extinderea-metroului-bucuresti-2026-2027.avif',
     descriere: 'Ce proiecte de extindere a metroului sunt confirmate pentru București în 2026-2027 și cum influențează istoric infrastructura de metrou valoarea imobiliară a zonelor conectate.',
@@ -5407,7 +5407,7 @@ Da, pentru orice orizont de investiție sub 5 ani. Conectivitatea existentă e c
     seoTitle: 'Piața Muncii vs Moșilor vs Militari 2026',
     seoDesc: 'Piața Muncii, Moșilor-Eminescu sau Militari-Gorjului? Comparație directă pe prețuri, chirii și conectivitate, pentru cine alege între cele 3 zone.',
     tag: 'Zone', tagColor: '#0891b2',
-    data: '27 Iulie 2026', dataISO: '2026-07-27', citire: '12 min',
+    data: '27 Iulie 2026', dataISO: '2026-07-27', dataModificata: '2026-10-13', citire: '12 min',
     autor: 'igor-calutu',
     image: '/blog/piata-muncii-vs-mosilor-vs-militari-comparatie-zone.avif',
     descriere: 'Comparație directă între Piața Muncii, Moșilor-Eminescu și Militari-Gorjului: prețuri, chirii, conectivitate cu metroul și pentru ce profil de cumpărător se potrivește fiecare zonă.',
@@ -5544,7 +5544,7 @@ Depinde de prioritate: Moșilor-Eminescu oferă atmosferă de cartier mai liniș
     seoTitle: 'Impozit Locuințe Vechi: Reducerea de Vechime',
     seoDesc: 'Reducerea de impozit pentru clădirile vechi este 15% la 50-100 de ani și 25% peste 100 de ani, conform OUG 9/2026. Când o pierzi printr-o renovare majoră.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '31 Iulie 2026', dataISO: '2026-07-31', dataModificata: '2026-10-13', citire: '10 min',
+    data: '31 Iulie 2026', dataISO: '2026-07-31', dataModificata: '2026-10-14', citire: '10 min',
     autor: 'igor-calutu',
     image: '/blog/impozit-locuinte-vechi-50-ani-2027.avif',
     descriere: `Reducerea de impozit pentru vechimea clădirii a fost eliminată de Legea 239/2025 și reintrodusă de OUG 9/2026, la 15% pentru 50-100 de ani și 25% peste 100 de ani. O renovare majoră resetează anul de construcție și reducerea dispare. Ce declanșează resetarea și ce nu.`,
@@ -5824,7 +5824,7 @@ Da, cu verificările corecte. Legislația s-a întărit semnificativ prin Legea 
   'cladiri-verzi-smart-home-cerere-cumparatori-2026': {
     titlu: `Clădiri Verzi și Smart Home: De Ce Cumpărătorii din 2026 Cer Panouri Solare și Stații EV`,
     seoTitle: 'Clădiri Verzi și Smart Home în 2026',
-    seoDesc: 'Panouri solare, stații EV și termostate smart devin criterii reale de cumpărare în 2026. Ce dotări verzi contează cu adevărat și cât economisești pe termen lung.',
+    seoDesc: 'Panouri solare, stații EV și termostate smart devin criterii reale în 2026. Ce dotări verzi contează cu adevărat și cât economisești pe termen lung.',
     tag: 'Piață', tagColor: '#0369a1',
     data: '7 August 2026', dataISO: '2026-08-07', citire: '10 min',
     autor: 'ramona-baicu',
@@ -5985,7 +5985,7 @@ Sectorul 3, unde se concentrează cea mai mare parte din portofoliul activ Neofo
 
 Sectorul 4 rămâne, în continuare, cea mai accesibilă opțiune din București, cu o medie generală sub 1.500€/mp — o zonă care, așa cum am discutat și în articolul despre extinderea Magistralei 4, are potențial real de apreciere pe măsură ce infrastructura de transport se dezvoltă.
 
-Sectorul 6, cu zona Militari-Gorjului, se situează în intervalul 1.500-1.900€/mp pentru apartamente noi, oferind unul dintre cele mai bune rapoarte preț-conectivitate din oraș, datorită accesului la metrou (M1) combinat cu prețuri sub media generală a Capitalei.`,
+Sectorul 6, cu zona Militari-Gorjului, se situează în intervalul 1.500-1.900€/mp pentru apartamente noi, oferind unul dintre cele mai bune rapoarte preț-conectivitate din oraș, datorită accesului la metrou (M3) combinat cu prețuri sub media generală a Capitalei. Pentru o comparație directă între trei zone cu profil asemănător, vezi [Piața Muncii vs. Moșilor vs. Militari](/blog/piata-muncii-vs-mosilor-vs-militari-comparatie-zone).`,
       },
       {
         id: 'apartamente-noi-vs-vechi',
@@ -6046,7 +6046,7 @@ Compară-l cu media de sector prezentată în acest articol, verifică proximita
   'indicator-accesibilitate-locuinte-bucuresti-2026': {
     titlu: `Indicatorul de Accesibilitate: Câți Ani de Salariu Costă un Apartament în București în 2026`,
     seoTitle: 'Indicator Accesibilitate Locuințe București',
-    seoDesc: 'Câți ani de salariu net mediu ai nevoie pentru un apartament în București în 2026? Indicatorul de accesibilitate explicat și comparat cu alte capitale din regiune.',
+    seoDesc: 'Câți ani de salariu net mediu îți trebuie pentru un apartament în București în 2026? Indicatorul de accesibilitate, comparat cu alte capitale din regiune.',
     tag: 'Analiză', tagColor: '#c2410c',
     data: '14 August 2026', dataISO: '2026-08-14', citire: '10 min',
     autor: 'svetlana-calutu',
@@ -6498,7 +6498,7 @@ Dezvoltatorul, ca vânzător profesionist, și constructorul răspund legal pent
   'intretinere-bloc-nou-de-ce-difera': {
     titlu: `Întreținerea la Bloc Nou: De Ce Diferă de Câteva Ori Între Ansambluri și Ce Verifici Înainte să Cumperi`,
     seoTitle: 'Întreținere Bloc Nou: De Ce Diferă Atât',
-    seoDesc: 'Jumătate din factura de iarnă e încălzirea, nu întreținerea. Cum se citește corect o listă de plată, de ce diferă între ansambluri și ce întrebi înainte de semnare.',
+    seoDesc: 'Jumătate din factura de iarnă e încălzirea, nu întreținerea. Cum se citește o listă de plată, de ce diferă între ansambluri și ce întrebi înainte de semnare.',
     tag: 'Analiză', tagColor: '#c2410c',
     data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '13 min',
     autor: 'sasha-calutu',
@@ -6755,7 +6755,7 @@ Cât de sigură este termoficarea în București?
     seoTitle: 'Asociație de Proprietari: Cum o Constitui',
     seoDesc: 'Taxa de timbru este 20 de lei, iar legea nu cere avocat. Pașii exacți, actele cerute de judecătorie și greșelile care costă, conform Legii nr. 196/2018.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '5 Octombrie 2026', dataISO: '2026-10-05', citire: '14 min',
+    data: '5 Octombrie 2026', dataISO: '2026-10-05', dataModificata: '2026-10-13', citire: '14 min',
     autor: 'igor-calutu',
     image: '/blog/constituire-asociatie-proprietari-bloc-nou.avif',
     descriere: `Constituirea asociației de proprietari într-un bloc nou costă 20 de lei taxă de timbru și nu are nevoie de avocat. Procedura completă din Legea nr. 196/2018: adunarea de constituire, actele pentru judecătorie, organele obligatorii, alegerea administratorului și greșelile care se plătesc ani la rând.`,
@@ -6973,7 +6973,7 @@ Acest articol prezintă procedura pe baza textului Legii nr. 196/2018 și are sc
   'restituire-tva-9-la-suta-termen-30-septembrie-2026': {
     titlu: `Restituire TVA: Cum Recuperezi 12% Dacă Ai Plătit 21% la Apartament`,
     seoTitle: 'Restituire TVA Apartament: Recuperezi 12%',
-    seoDesc: 'Ai plătit TVA 21% la un apartament care se încadra la 9%? Cererea de restituire a diferenței de 12% se depune începând cu 1 octombrie 2026. Condiții și documente.',
+    seoDesc: 'Ai plătit TVA 21% la un apartament care se încadra la 9%? Cererea de restituire se depune începând cu 1 octombrie 2026. Condiții și documente necesare.',
     tag: 'Legislație', tagColor: '#7c3aed',
     data: '8 Septembrie 2026', dataISO: '2026-09-08', dataModificata: '2026-10-13', citire: '11 min',
     autor: 'igor-calutu',
@@ -7191,14 +7191,14 @@ export const ARTICOLE_LIST = [
   { slug: 'apartament-nou-vs-vechi-calcul-real', titlu: 'Apartament Nou vs. Vechi: Calculul Costurilor', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '9 min', image: '/blog/apartament-nou-vs-vechi-calcul-real.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, risc seismic, impozit E-Proprietatea și randament închiriere.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
   { slug: 'predare-la-cheie-ce-inseamna', titlu: 'Predare la Cheie: Ce Conține și Ce Verifici', data: '7 Mai 2026', dataISO: '2026-05-07', citire: '8 min', image: '/blog/predare-la-cheie-apartament-nou-ce-inseamna.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ce înseamnă predare la cheie la un apartament nou? Lista completă a finisajelor incluse, ce poate lipsi și checklist de verificare la predare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
   { slug: 'randament-inchiriere-zone-bucuresti', titlu: 'Randament la Închiriere pe Zone București 2026', data: '10 Mai 2026', dataISO: '2026-05-10', citire: '10 min', image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Ce zone oferă cel mai bun randament net.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
-    { slug: 'chirie-vs-cumparare-2026-calcul-break-even', titlu: 'Chirie vs Cumpărare 2026: Calculul Real Break-Even', data: '20 Iulie 2026', dataISO: '2026-07-20', citire: '13 min', image: '/blog/chirie-vs-cumparare-2026-calcul-break-even.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Chirie sau cumperi apartament în 2026? Formula break-even pe cifre reale din București: care variantă costă mai puțin și după câți ani cumpărarea devine avantajoasă.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
-    { slug: 'extinderea-metroului-bucuresti-2026-2027', titlu: 'Extinderea Metroului București 2026-2027', data: '24 Iulie 2026', dataISO: '2026-07-24', citire: '11 min', image: '/blog/extinderea-metroului-bucuresti-2026-2027.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'Magistrala 4 spre Gara Progresul și Magistrala 5 spre Pantelimon — ce înseamnă extinderea metroului din București pentru valoarea imobilelor din zonele afectate.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
+    { slug: 'chirie-vs-cumparare-2026-calcul-break-even', titlu: 'Chirie vs Cumpărare 2026: Calculul Real Break-Even', data: '20 Iulie 2026', dataISO: '2026-07-20', citire: '13 min', image: '/blog/chirie-vs-cumparare-2026-calcul-break-even.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'Chirie sau cumperi în 2026? Formula break-even pe cifre reale din București: care variantă costă mai puțin și după câți ani cumpărarea devine avantajoasă.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+    { slug: 'extinderea-metroului-bucuresti-2026-2027', titlu: 'Extinderea Metroului București 2026-2027', data: '24 Iulie 2026', dataISO: '2026-07-24', citire: '11 min', image: '/blog/extinderea-metroului-bucuresti-2026-2027.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'Magistrala 4 spre Gara Progresul și Magistrala 5 spre Pantelimon — ce înseamnă extinderea metroului pentru valoarea imobilelor din zonele afectate.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'piata-muncii-vs-mosilor-vs-militari-comparatie-zone', titlu: 'Piața Muncii vs Moșilor vs Militari: Comparație 2026', data: '27 Iulie 2026', dataISO: '2026-07-27', citire: '12 min', image: '/blog/piata-muncii-vs-mosilor-vs-militari-comparatie-zone.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'Piața Muncii, Moșilor-Eminescu sau Militari-Gorjului? Comparație directă pe prețuri, chirii și conectivitate, pentru cine alege între cele 3 zone.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
     { slug: 'impozit-locuinte-vechi-50-ani-2027', titlu: 'Impozit Locuințe Vechi: Reducerea de Vechime', data: '31 Iulie 2026', dataISO: '2026-07-31', citire: '10 min', image: '/blog/impozit-locuinte-vechi-50-ani-2027.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Reducerea de impozit pentru clădirile vechi este 15% la 50-100 de ani și 25% peste 100 de ani, conform OUG 9/2026. Când o pierzi printr-o renovare majoră.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
     { slug: 'checklist-verificare-dezvoltator-imobiliar', titlu: 'Checklist: Cum Verifici un Dezvoltator Imobiliar', data: '3 August 2026', dataISO: '2026-08-03', citire: '12 min', image: '/blog/checklist-verificare-dezvoltator-imobiliar.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Ghid practic pentru verificarea unui dezvoltator imobiliar înainte de avans: acte, istoric, limite legale ale avansului și semnale de alarmă de evitat.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
-    { slug: 'cladiri-verzi-smart-home-cerere-cumparatori-2026', titlu: 'Clădiri Verzi și Smart Home: Ce Cer Cumpărătorii', data: '7 August 2026', dataISO: '2026-08-07', citire: '10 min', image: '/blog/cladiri-verzi-smart-home-cerere-cumparatori-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Panouri solare, stații EV și termostate smart devin criterii reale de cumpărare în 2026. Ce dotări verzi contează cu adevărat și cât economisești pe termen lung.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
+    { slug: 'cladiri-verzi-smart-home-cerere-cumparatori-2026', titlu: 'Clădiri Verzi și Smart Home: Ce Cer Cumpărătorii', data: '7 August 2026', dataISO: '2026-08-07', citire: '10 min', image: '/blog/cladiri-verzi-smart-home-cerere-cumparatori-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Panouri solare, stații EV și termostate smart devin criterii reale în 2026. Ce dotări verzi contează cu adevărat și cât economisești pe termen lung.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
     { slug: 'pret-metru-patrat-sectoare-bucuresti-2026', titlu: 'Preț pe Metru Pătrat pe Sectoare București 2026', data: '10 August 2026', dataISO: '2026-08-10', citire: '11 min', image: '/blog/pret-metru-patrat-sectoare-bucuresti-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Cât costă un metru pătrat în apartamentele noi din București în 2026, sector cu sector. Benchmark real pentru a evalua dacă un preț cerut e corect sau umflat.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
-    { slug: 'indicator-accesibilitate-locuinte-bucuresti-2026', titlu: 'Indicatorul de Accesibilitate a Locuințelor 2026', data: '14 August 2026', dataISO: '2026-08-14', citire: '10 min', image: '/blog/indicator-accesibilitate-locuinte-bucuresti-2026.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Câți ani de salariu net mediu ai nevoie pentru un apartament în București în 2026? Indicatorul de accesibilitate explicat și comparat cu alte capitale din regiune.', autor: 'Svetlana Calutu', autorSlug: 'svetlana-calutu', featured: false },
+    { slug: 'indicator-accesibilitate-locuinte-bucuresti-2026', titlu: 'Indicatorul de Accesibilitate a Locuințelor 2026', data: '14 August 2026', dataISO: '2026-08-14', citire: '10 min', image: '/blog/indicator-accesibilitate-locuinte-bucuresti-2026.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Câți ani de salariu net mediu îți trebuie pentru un apartament în București în 2026? Indicatorul de accesibilitate, comparat cu alte capitale din regiune.', autor: 'Svetlana Calutu', autorSlug: 'svetlana-calutu', featured: false },
     { slug: 'taxa-cbam-costuri-constructii-apartamente-2026', titlu: 'Taxa CBAM și Costul Construcțiilor', data: '17 August 2026', dataISO: '2026-08-17', citire: '9 min', image: '/blog/taxa-cbam-costuri-constructii-apartamente-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Mecanismul european CBAM crește costul oțelului, cimentului și aluminiului din construcții. Ce înseamnă pentru prețul apartamentelor noi din București.', autor: 'Ramona Baicu', autorSlug: 'ramona-baicu', featured: false },
     { slug: 'dobanda-bnr-6-5-august-2026-ce-inseamna', titlu: 'Dobânda BNR Blocată la 6,5%: Acum sau Aștepți?', data: '21 August 2026', dataISO: '2026-08-21', citire: '10 min', image: '/blog/dobanda-bnr-6-5-august-2026-ce-inseamna.avif', tag: 'Finanțare', tagColor: '#0369a1', rezumat: 'BNR ține dobânda cheie la 6,5% de peste doi ani, confirmată și în octombrie 2026. Ce înseamnă pentru rata ta la credit și cât costă să aștepți o scădere.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
     { slug: 'garantii-receptie-cheie-contracte-vanzare-2026', titlu: 'Garanții și Recepția la Cheie: Ce Se Schimbă', data: '24 August 2026', dataISO: '2026-08-24', citire: '11 min', image: '/blog/garantii-receptie-cheie-contracte-vanzare-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Legea 207/2025 și Ordinul ANCPI 1.323/2026 schimbă regulile de recepție, garanție și cadastru pentru apartamentele noi. Ce drepturi ai la predare și cum le folosești.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
