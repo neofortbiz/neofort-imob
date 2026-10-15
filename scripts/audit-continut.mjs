@@ -617,6 +617,31 @@ if (Array.isArray(TOATE_PORTOFOLIU) && TOATE_PORTOFOLIU.length > 2) {
     if (!n2) P(`portofoliu/${slug}`, 'proiect orfan — niciun alt proiect nu linkeaza catre el')
 }
 
+
+// ── 10. Tabele scrise ca text (pseudo-tabele) (v428) ─────────
+// DE CE: la v428 s-a gasit o sectiune intitulata chiar „Tabel comparativ" care
+// NU era un tabel, ci randuri despartite prin liniute lungi. Pentru un cititor
+// arata aproape la fel; pentru Google si pentru LLM-uri e proza, nu date — se
+// pierde exact structura pe coloane care face continutul citabil.
+if (ARTICOLE) {
+  const separatoare = l => (l.match(/\s[—|]\s/g) || []).length
+  for (const [slug, a] of Object.entries(ARTICOLE)) {
+    for (const s of a.sectiuni || []) {
+      const linii = s.continut.split('\n')
+      let run = 0
+      for (const l of linii) {
+        const esteRandTabel = l.trim().startsWith('|')
+        if (!esteRandTabel && separatoare(l) >= 2 && l.trim().length > 25) run++
+        else {
+          if (run >= 3) P(`blog/${slug}`, `sectiunea „${s.id}" contine ${run} randuri care arata ca un tabel scris ca text — de convertit in tabel real`)
+          run = 0
+        }
+      }
+      if (run >= 3) P(`blog/${slug}`, `sectiunea „${s.id}" contine ${run} randuri care arata ca un tabel scris ca text — de convertit in tabel real`)
+    }
+  }
+}
+
 // ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────

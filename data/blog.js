@@ -3611,12 +3611,14 @@ Ce înseamnă practic: chiar și în scenariul conservator de +6%, dacă aștep�
         continut: `O perspectivă utilă pentru a evalua corect piața din București este comparația cu alte capitale din Europa Centrală și de Est, țări cu economii și istorii similare:
 
 Prețuri medii apartamente noi, T1 2026 (EUR/mp util, zone similare cu Titan-Pallady sau Militari):
-• Varșovia (Polonia): 3.200–4.100 EUR/mp
-• Praga (Cehia): 5.500–7.000 EUR/mp
-• Budapesta (Ungaria): 2.800–3.600 EUR/mp
-• București (România): 1.900–2.200 EUR/mp
-• Sofia (Bulgaria): 1.400–1.800 EUR/mp
-• Belgrad (Serbia): 1.600–2.000 EUR/mp
+| Oraș | Țară | Preț apartamente noi |
+|---|---|---|
+| Praga | Cehia | 5.500–7.000 EUR/mp |
+| Varșovia | Polonia | 3.200–4.100 EUR/mp |
+| Budapesta | Ungaria | 2.800–3.600 EUR/mp |
+| **București** | **România** | **1.900–2.200 EUR/mp** |
+| Belgrad | Serbia | 1.600–2.000 EUR/mp |
+| Sofia | Bulgaria | 1.400–1.800 EUR/mp |
 
 Concluzia: București este semnificativ mai ieftin decât Varșovia și Praga — două piețe cu care se compară frecvent în discuțiile despre investiții imobiliare din regiune. Față de Budapesta, diferența este de 40–50%.
 
@@ -3948,13 +3950,15 @@ Parcul IOR completează imaginea: 110 hectare de spațiu verde, lac, piste de bi
         h2: `Evoluția prețurilor în Titan–Pallady: 2020–2026`,
         continut: `Datele concrete vorbesc de la sine. Prețul mediu per metru pătrat util pentru apartamente noi în zona Titan–Pallady:
 
-• 2020: 1.050 EUR/mp
-• 2021: 1.180 EUR/mp (+12,4%)
-• 2022: 1.380 EUR/mp (+16,9%)
-• 2023: 1.520 EUR/mp (+10,1%)
-• 2024: 1.650 EUR/mp (+8,6%)
-• 2025: 1.940 EUR/mp (+17,6% — cel mai bun an din ultimii 6)
-• T1 2026: ~2.050 EUR/mp
+| An | Preț mediu | Creștere față de anul anterior |
+|---|---|---|
+| 2020 | 1.050 EUR/mp | — |
+| 2021 | 1.180 EUR/mp | +12,4% |
+| 2022 | 1.380 EUR/mp | +16,9% |
+| 2023 | 1.520 EUR/mp | +10,1% |
+| 2024 | 1.650 EUR/mp | +8,6% |
+| 2025 | 1.940 EUR/mp | **+17,6%** — cel mai bun an din ultimii 6 |
+| T1 2026 | ~2.050 EUR/mp | +5,7% |
 
 Creștere totală 2020–2026: +95%. Adică un apartament cumpărat în 2020 cu 100.000 EUR valorează astăzi aproximativ 195.000 EUR. Acesta este randamentul unui proprietar care a stat ferm în decizie și nu a vândut.
 
@@ -5108,12 +5112,13 @@ Profesioniștii cu contract de muncă stabil (nu freelanceri), familiile cu copi
         h2: `Tabel comparativ și concluzie: ce zone merită atenția investitorului în 2026`,
         continut: `Rezumat comparativ pe baza calculelor de mai sus (apartament 2 camere reprezentativ):
 
-Zona — Preț achiziție — Chirie lunară — Randament brut — Randament net
-Moșilor–Eminescu: 175.000 EUR — 615 EUR — 4,2% — 3,0–3,3%
-Titan–Pallady: 140.000 EUR — 480 EUR — 4,1% — 2,8–3,2%
-Militari–Gorjului: 130.000 EUR — 445 EUR — 4,1% — 2,8–3,1%
-Piața Muncii: 145.000 EUR — 470 EUR — 3,9% — 2,6–3,0%
-Floreasca–Aviației: 320.000 EUR — 1.050 EUR — 3,9% — 2,7–3,0%
+| Zona | Preț achiziție | Chirie lunară | Randament brut | Randament net |
+|---|---|---|---|---|
+| Moșilor–Eminescu | 175.000 EUR | 615 EUR | 4,2% | 3,0–3,3% |
+| Titan–Pallady | 140.000 EUR | 480 EUR | 4,1% | 2,8–3,2% |
+| Militari–Gorjului | 130.000 EUR | 445 EUR | 4,1% | 2,8–3,1% |
+| Piața Muncii | 145.000 EUR | 470 EUR | 3,9% | 2,6–3,0% |
+| Floreasca–Aviației | 320.000 EUR | 1.050 EUR | 3,9% | 2,7–3,0% |
 
 Ce observăm:
 
