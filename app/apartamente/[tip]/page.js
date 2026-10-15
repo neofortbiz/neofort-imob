@@ -145,7 +145,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
     h1: 'Apartamente 4 Camere și Penthouse în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 4 camere și penthouse în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
     seoTitle: 'Apartamente 4 Camere, Ansambluri Rezidențiale',
-    seoDesc: 'Apartamente 4 camere și penthouse noi în București de la 181.134€+TVA. Neofort IMO, Sectoarele 2, 3, 6. Terase panoramice, finisaje premium.',
+    seoDesc: 'Apartamente 4 camere și penthouse noi în București de la 186.166€+TVA. Neofort IMO, Sectoarele 2, 3, 6. Terase panoramice, finisaje premium.',
     ogDesc: 'Apartamente 4 camere și penthouse noi în București. Neofort IMO, direct de la sursă.',
     match: (tipuri) => tipuri.some(t => {
       const tl = String(t).toLowerCase()
@@ -155,7 +155,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
     faq: [
       {
         q: 'Cât costă un apartament de 4 camere nou în București în 2026?',
-        a: 'Prețurile apartamentelor noi de 4 camere din portofoliul Neofort IMO pornesc de la 181.134€+TVA (Titan-Pallady, 100,63 mp) și ajung la 492.345€+TVA pentru tipologiile premium de 140,67 mp din Piața Muncii, Sectorul 3.',
+        a: 'Prețurile apartamentelor noi de 4 camere din portofoliul Neofort IMO pornesc de la 186.166€+TVA (Titan-Pallady, 100,63 mp) și ajung la 492.345€+TVA pentru tipologiile premium de 140,67 mp din Piața Muncii, Sectorul 3.',
       },
       {
         q: 'Ce tipologii de 4 camere sunt disponibile la Neofort IMO?',
@@ -171,7 +171,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
       },
       {
         q: 'Ce randament au apartamentele de 4 camere la închiriere în București?',
-        a: 'Randamentul brut pentru 4 camere nou în Titan-Pallady (181.134€) este de 5,3-6% prin chirii de 800-900€/lună. Mai mic decât la garsoniere, dar aprecierea valorii pe termen lung este mai stabilă pentru tipologiile mari în zone cu cerere constantă.',
+        a: 'Randamentul brut pentru 4 camere nou în Titan-Pallady (186.166€) este de 5,2-5,8% prin chirii de 800-900€/lună. Mai mic decât la garsoniere, dar aprecierea valorii pe termen lung este mai stabilă pentru tipologiile mari în zone cu cerere constantă.',
       },
     ],
     textEditorial: `Apartamentele de 4 camere și penthouse-urile din portofoliul Neofort IMO se adresează familiilor care nu acceptă compromisuri în ceea ce privește spațiul, sau investitorilor care caută active imobiliare cu valoare stabilă pe termen lung.
