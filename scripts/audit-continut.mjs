@@ -793,16 +793,38 @@ if (ARTICOLE) {
       for (let i = 0; i + n <= cuv.length; i++) s.add(cuv.slice(i, i + n).join(' '))
       return s
     }
-    for (const sector of Object.keys(peZona).filter(z => z.startsWith('sector-')))
-      for (const micro of Object.keys(peZona).filter(z => !z.startsWith('sector-'))) {
-        // Continuta = toate ansamblurile micro-zonei sunt si in sector.
-        if (![...peZona[micro]].every(s => peZona[sector].has(s))) continue
-        const a = siruri(textZona(sector)), b = siruri(textZona(micro))
+    // Generalizat la v431: NU doar sector ↔ micro-zona. `eminescu-viitorului` si
+    // `mosilor-eminescu` sunt doua micro-zone care impart UN SINGUR ansamblu —
+    // doua pagini pentru acelasi proiect, deci exact acelasi risc de canibalizare.
+    // Regula: orice doua zone care impart cel putin un ansamblu se compara.
+    const zone = Object.keys(peZona).sort()
+    for (let i = 0; i < zone.length; i++)
+      for (let j = i + 1; j < zone.length; j++) {
+        const [x, y] = [zone[i], zone[j]]
+        if (![...peZona[y]].some(s => peZona[x].has(s))) continue
+        const a = siruri(textZona(x)), b = siruri(textZona(y))
         if (a.size < 20 || b.size < 20) continue   // una dintre pagini inca nu are text
         const comune = [...b].filter(s => a.has(s))
         if (comune.length)
-          P(`zona/${micro}`, `${comune.length} secvente de 8+ cuvinte identice cu /zona/${sector} — unghiurile se suprapun (prima: „${comune[0].slice(0, 60)}…")`)
+          P(`zona/${y}`, `${comune.length} secvente de 8+ cuvinte identice cu /zona/${x} — unghiurile se suprapun (prima: „${comune[0].slice(0, 60)}…")`)
       }
+  }
+}
+
+// ── 16. Puncte de interes duplicate in acelasi proiect (v431) ─
+// DE CE: la v431, Neofort 11 avea „Veranda Mall Obor" de doua ori, cu aceeasi
+// distanta; inca doua proiecte din portofoliu aveau acelasi tipar. Pe pagina,
+// reperul apare de doua ori in lista, iar in schema de date reperul e numarat
+// de doua ori — nu rupe nimic, dar arata neintretinut si nu se vede decat daca
+// cineva numara reperele unui proiect anume.
+for (const [eticheta, lista] of [['ansambluri', ANSAMBLURI_ACTIVE], ['portofoliu', TOATE_PORTOFOLIU]]) {
+  for (const a of lista || []) {
+    const vaz = new Map()
+    for (const p of a.puncteInteres || []) {
+      if (!p.nume) continue
+      if (vaz.has(p.nume)) P(`${eticheta}/${a.slug}`, `punct de interes duplicat: „${p.nume}" (${vaz.get(p.nume)} / ${p.distanta || '—'})`)
+      else vaz.set(p.nume, p.distanta || '—')
+    }
   }
 }
 

@@ -285,11 +285,213 @@ Partea administrativă — impozit local, urbanism, arondare școlară — este 
     ],
   },
 
-  // ── Zone mici: conținut editorial în v431 ──────────────────
-  'colentina':           { unghi: 'cartier', intro: null, sectiuni: [], faq: [] },
-  'eminescu-viitorului': { unghi: 'cartier', intro: null, sectiuni: [], faq: [] },
-  'mosilor-eminescu':    { unghi: 'cartier', intro: null, sectiuni: [], faq: [] },
-  'piata-muncii':        { unghi: 'cartier', intro: null, sectiuni: [], faq: [] },
+  'colentina': {
+    unghi: 'cartier',
+    intro: `Colentina este zona de nord a Sectorului 2, organizată în jurul salbei de lacuri care închide orașul pe această latură. Ansamblul rezidențial Neofort IMO de aici, pe Strada Păsărani, are cel mai mic preț de pornire din tot Sectorul 2 și cea mai largă gamă de tipologii din portofoliu — de la garsonieră până la patru camere în același proiect.`,
+    sectiuni: [
+      {
+        titlu: 'Cum arată zona',
+        continut: `Colentina nu este un cartier de bulevard, ci unul de străzi mici, cu țesut mixt: case, blocuri joase și loturi care încă se construiesc. Densitatea e mai mică decât în zonele semicentrale, iar asta se vede în preț.
+
+Reperul de spațiu verde cel mai apropiat este **Parcul Motodrom**, la aproximativ 1,2 km, iar **Parcul Plumbuita** — cel mai întins din zonă, cu mănăstirea și lacul — la 2,3 km.
+
+Caracteristica de care trebuie ținut cont onest: **în Colentina nu există stație de metrou**. Legătura cu orașul se face cu transportul de suprafață — liniile STB 66 și 253 la circa 450 de metri, tramvaiul 21 la 800 de metri. Pentru cineva care circulă zilnic spre centru, asta e diferența esențială față de zonele de pe M1, și e și unul dintre motivele pentru care pragul de intrare e mai mic aici.`,
+      },
+      {
+        titlu: 'La zece minute pe jos',
+        continut: `Pe jos, în aproximativ zece minute, intră **Grădinița Zuppy** și **Școala Gimnazială nr. 32**, ambele la circa 850 de metri.
+
+La aproximativ un kilometru, tot pe jos, se ajunge la **Spitalul Clinic Fundeni** și la centrul comercial **Carrefour / Altex** — cumpărăturile curente nu cer mașină.
+
+Mai departe, cu mașina, zona are acces la **Colegiul Național Victor Babeș**, la **Liceul ICHB Colentina** și la **Grădinița și Școala Spectrum**. Pentru cumpărături mari și pentru piață, **Veranda Mall** și Obor sunt la circa 4,4 km.`,
+      },
+      {
+        titlu: 'Cine se mută aici',
+        continut: `**Cumpărători la prima locuință** pentru care pragul de intrare contează mai mult decât minutele până la metrou. Colentina oferă cel mai mic preț de pornire din Sectorul 2, iar gama de tipologii permite intrarea cu o garsonieră.
+
+**Familii care cresc**, atrase de faptul că același proiect are și două, și trei, și patru camere — se poate schimba apartamentul fără a schimba cartierul sau școala.
+
+**Cumpărători care lucrează în nord**, în zona de birouri Pipera, la circa 4,7 km pe șosea — un traseu care evită complet centrul.
+
+Proiectul se predă în 2028, deci este o achiziție pe stadiu incipient; detaliile lansării sunt în [articolul dedicat Neofort 10 Colentina-Fundeni](/blog/neofort-10-colentina-fundeni-lansare).
+
+Partea administrativă — impozit local, urbanism, arondare școlară — e tratată pe [pagina Sectorului 2](/zona/sector-2).`,
+      },
+    ],
+    faq: [
+      {
+        intrebare: 'Există metrou în Colentina?',
+        raspuns: 'Nu. Zona este deservită de transportul de suprafață — liniile STB 66 și 253 la circa 450 de metri și tramvaiul 21 la circa 800 de metri de ansamblu.',
+      },
+      {
+        intrebare: 'Ce tipologii de apartamente sunt disponibile în Colentina?',
+        raspuns: 'Garsonieră, studio, două, trei și patru camere, toate în același ansamblu rezidențial — cea mai largă gamă din portofoliul Neofort IMO.',
+      },
+      {
+        intrebare: 'Când se predă ansamblul din Colentina?',
+        raspuns: 'Termenul de predare și prețul de pornire actualizat sunt afișate în rezumatul de mai sus și pe pagina proiectului.',
+      },
+    ],
+  },
+
+  // DOUA PAGINI, UN SINGUR PROIECT. Neofort 11 este listat si pe
+  // 'eminescu-viitorului', si pe 'mosilor-eminescu'. Decizie luata cu Dan:
+  // se trateaza ca doua micro-zone distincte, fiecare cu accent pe alta strada.
+  //   eminescu-viitorului -> tesutul rezidential linistit (Bd. Mihai Eminescu, Str. Viitorului)
+  //   mosilor-eminescu    -> artera comerciala (Calea Mosilor, spre Obor)
+  // Nimic nu se repeta intre ele: scolile, parcurile si lista de metrouri stau
+  // DOAR pe prima; comertul, tramvaiul si axa Unirii-Obor DOAR pe a doua.
+
+  'eminescu-viitorului': {
+    unghi: 'cartier',
+    intro: `Eminescu-Viitorului este rețeaua de străzi liniștite dintre Bulevardul Dacia și Ștefan cel Mare, în partea semicentrală a Sectorului 2. Este o zonă deja construită, cu țesut interbelic și blocuri joase, în care nu se mai eliberează teren — iar ansamblul rezidențial Neofort IMO de aici este finalizat, deci disponibil imediat.`,
+    sectiuni: [
+      {
+        titlu: 'Cum arată zona',
+        continut: `Spre deosebire de arterele care o mărginesc, zona propriu-zisă e făcută din străzi scurte, cu trafic redus și cu mult front construit interbelic. Bulevardul Mihai Eminescu și Strada Viitorului dau numele zonei și îi dau și caracterul: rezidențial, nu comercial.
+
+Stația de metrou **Ștefan cel Mare**, pe magistrala **M1**, este la aproximativ 19 minute de mers pe jos — singura stație accesibilă pedestru din zonă. Restul rețelei, inclusiv nodul **Piața Unirii** (M1/M2/M3) și **Timpuri Noi** (M1/M3), se atinge cu mașina în sub un sfert de oră.
+
+Spațiile verzi mari nu sunt în zonă, ci în jurul ei: **Lacul Tei** la circa opt minute cu mașina, **Parcul Plumbuita** la unsprezece, **Parcul Național** la treisprezece.
+
+Pentru fața comercială a aceleiași poziții — Calea Moșilor și axa spre Obor — vedeți [ansambluri rezidențiale Moșilor-Eminescu](/zona/mosilor-eminescu).`,
+      },
+      {
+        titlu: 'Școli și servicii',
+        continut: `Reperul de învățământ al zonei este **Colegiul Național Mihai Eminescu**, la câteva minute, una dintre unitățile cu tradiție din București.
+
+Medical, **Spitalul Clinic Colentina** este la circa nouă minute cu mașina.
+
+Important de verificat înainte de o decizie bazată pe o anumită școală: arondarea se face pe circumscripții, în funcție de adresa exactă, nu de zonă sau de sector.`,
+      },
+      {
+        titlu: 'Cine se mută aici',
+        continut: `**Cumpărători care vor să se mute acum**, nu în doi-trei ani. Proiectul fiind finalizat, apartamentul se vede fizic înainte de semnătură — un criteriu care, pentru mulți, cântărește mai mult decât un preț mai mic pe stadiu incipient.
+
+**Cumpărători care caută poziție semicentrală**, cu acces pe jos la metrou și la un colegiu de tradiție, într-o zonă în care oferta nouă e rară pentru că nu mai există teren liber.
+
+**Familii mici și cupluri**, tipologiile mergând de la studio la trei camere.
+
+Partea administrativă — impozit local, urbanism, circumscripții școlare — e pe [pagina Sectorului 2](/zona/sector-2).`,
+      },
+    ],
+    faq: [
+      {
+        intrebare: 'Unde se află zona Eminescu-Viitorului?',
+        raspuns: 'În partea semicentrală a Sectorului 2, pe rețeaua de străzi dintre Bulevardul Dacia și Ștefan cel Mare. Bulevardul Mihai Eminescu și Strada Viitorului dau numele zonei.',
+      },
+      {
+        intrebare: 'Cât se merge pe jos până la metrou din Eminescu-Viitorului?',
+        raspuns: 'Aproximativ 19 minute până la stația Ștefan cel Mare, pe magistrala M1. Celelalte stații din apropiere se ating cu mașina.',
+      },
+      {
+        intrebare: 'Ansamblul din Eminescu-Viitorului este gata?',
+        raspuns: 'Da, este finalizat și disponibil imediat, ceea ce permite vizionarea apartamentului înainte de achiziție.',
+      },
+    ],
+  },
+
+  'mosilor-eminescu': {
+    unghi: 'cartier',
+    intro: `Moșilor-Eminescu descrie aceeași poziție din Sectorul 2 văzută dinspre artera ei comercială: Calea Moșilor, drumul istoric care leagă Piața Unirii de Obor. Aici nu se cumpără liniște, ci acces — la comerț, la piață și la una dintre cele mai vechi axe de circulație ale orașului.`,
+    sectiuni: [
+      {
+        titlu: 'Axa Moșilor, de la Unirii la Obor',
+        continut: `**Calea Moșilor** a fost secole la rând drumul negustorilor care intrau în București dinspre nord-est, iar funcția nu s-a schimbat: este și astăzi o arteră densă în comerț stradal, servicii și farmacii, pe toată lungimea ei.
+
+Capătul dinspre Obor este cel care contează pentru această zonă. Acolo se află **Veranda Mall** și piața agroalimentară Obor, la câteva minute, plus nodul de transport de suprafață care deservește tot nord-estul orașului.
+
+Caracterul este opusul celui de pe străzile dinspre Viitorului: aici e circulație, vitrine și zgomot de arteră. Pentru fața rezidențială, liniștită, a aceleiași poziții — străzile interbelice dintre Dacia și Ștefan cel Mare — vedeți [ansambluri rezidențiale Eminescu-Viitorului](/zona/eminescu-viitorului).`,
+      },
+      {
+        titlu: 'Ce înseamnă o adresă pe o arteră veche',
+        continut: `Avantajul direct este că nu trebuie planificat nimic: magazinul, farmacia, banca și piața sunt pe drumul spre casă, nu la o abatere.
+
+Dezavantajul, la fel de direct, este traficul. Calea Moșilor suportă atât circulația locală, cât și tranzitul pe direcția Unirii–Obor, iar la orele de vârf se simte. Orientarea apartamentului față de arteră contează aici mai mult decât în majoritatea zonelor — se verifică la vizionare, nu din plan.
+
+Pentru cine compară zone de preț apropiat din sectoare diferite, [comparația Piața Muncii – Moșilor – Militari](/blog/piata-muncii-vs-mosilor-vs-militari-comparatie-zone) pune cifrele una lângă alta.`,
+      },
+      {
+        titlu: 'Cine se mută aici',
+        continut: `**Cumpărători care vor totul la pas** — profilul clasic de arteră: nu conduc zilnic, fac cumpărăturile pe jos, folosesc transportul în comun.
+
+**Investitori în regim de închiriere**, pentru care o adresă pe o arteră cunoscută, aproape de Obor și de nodurile de transport, se închiriază fără explicații suplimentare.
+
+**Cumpărători atrași de caracterul vechi al zonei** — Moșilor este una dintre puținele artere ale Bucureștiului unde fondul construit spune o poveste continuă de mai bine de un secol.
+
+Pentru datele administrative ale sectorului, vedeți [pagina Sectorului 2](/zona/sector-2).`,
+      },
+    ],
+    faq: [
+      {
+        intrebare: 'Care este diferența dintre Moșilor-Eminescu și Eminescu-Viitorului?',
+        raspuns: 'Sunt două micro-zone vecine care descriu aceeași poziție din două unghiuri: Moșilor-Eminescu dinspre artera comercială Calea Moșilor, Eminescu-Viitorului dinspre străzile rezidențiale liniștite dinspre Dacia.',
+      },
+      {
+        intrebare: 'Unde duce Calea Moșilor?',
+        raspuns: 'Leagă Piața Unirii de Obor, fiind drumul istoric de intrare în București dinspre nord-est și, în continuare, o arteră densă în comerț stradal și servicii.',
+      },
+      {
+        intrebare: 'Cum este traficul pe Calea Moșilor?',
+        raspuns: 'Artera cumulează circulația locală cu tranzitul pe direcția Unirii–Obor și se simte la orele de vârf. Orientarea apartamentului față de stradă merită verificată la vizionare.',
+      },
+    ],
+  },
+
+  'piata-muncii': {
+    unghi: 'cartier',
+    intro: `Piața Muncii este zona cea mai bine conectată pedestru din tot portofoliul Neofort IMO: din ansamblul de pe Strada Soldat Alexandru Magatti, metroul, parcul, spitalul și baza sportivă sunt toate la mai puțin de zece minute de mers pe jos. Este și zona cu cel mai mare preț de pornire — iar cele două lucruri sunt legate.`,
+    sectiuni: [
+      {
+        titlu: 'Cum arată zona',
+        continut: `Piața Muncii este un cartier matur din Sectorul 3, construit în jurul intersecției care îi dă numele, în care nu se mai eliberează teren. Proiectele noi sunt rare, iar asta se reflectă direct în preț.
+
+Stația de metrou **Piața Muncii**, pe magistrala **M1**, este la circa 300 de metri — patru minute pe jos. La 1,2 km, aproximativ douăsprezece minute pe jos, se ajunge la **Dristor 1**, nod între **M1** și **M3**, ceea ce deschide ambele magistrale grele fără schimbare de mijloc de transport.
+
+Spațiul verde de proximitate este **Parcul Național**, la 400 de metri, iar **Parcul IOR**, mult mai mare, la 1,6 km cu mașina.`,
+      },
+      {
+        titlu: 'La zece minute pe jos',
+        continut: `Zona are o concentrare neobișnuită de repere la distanță de mers pe jos:
+
+**Baza Sportivă Voinicelu** la 270 de metri, **Parcul Național** la 400 de metri, **Spitalul Clinic „Dr. Victor Babeș"** tot la 400 de metri, **Spitalul Clinic de Copii „Dr. Victor Gomoiu"** la 700 de metri, **Școala Gimnazială de Artă nr. 5** la 900 de metri și **Colegiul Național Emil Racoviță** la circa un kilometru.
+
+Cu mașina, în câteva minute: **Arena Națională** și **Bazinul Olimpic Lia Manoliu**, **Universitatea Hyperion**, **Spitalul MONZA**, iar pentru cumpărături **ParkLake Shopping Center**, **Kaufland Popa Nan** și **București Mall Vitan**.
+
+Concentrarea medicală — trei unități, dintre care două la mai puțin de un kilometru pe jos — este cea mai densă din toate zonele în care construim.`,
+      },
+      {
+        titlu: 'Cine se mută aici',
+        continut: `**Cumpărători care renunță la mașină**, sau care nu vor să depindă de ea. Combinația metrou la patru minute, parc la cinci și spital la cinci nu se repetă în nicio altă zonă din portofoliu.
+
+**Familii cu copii la școală și cu părinți în vârstă**, pentru care proximitatea simultană de învățământ și de spitale cântărește mai mult decât suprafața.
+
+**Cumpărători care acceptă un preț mai mare pentru o poziție care nu se mai poate reproduce** — într-un cartier complet construit, oferta nouă nu crește, oricât ar crește cererea.
+
+Tipologiile sunt două și patru camere, într-un regim de înălțime mic.
+
+Pentru datele administrative ale sectorului și pentru comparația cu celelalte micro-zone, vedeți [pagina Sectorului 3](/zona/sector-3).`,
+      },
+    ],
+    faq: [
+      {
+        intrebare: 'Cât se merge pe jos până la metrou din Piața Muncii?',
+        raspuns: 'Aproximativ patru minute, circa 300 de metri, până la stația Piața Muncii de pe magistrala M1. Nodul Dristor 1, între M1 și M3, este la circa douăsprezece minute pe jos.',
+      },
+      {
+        intrebare: 'Ce spitale sunt în zona Piața Muncii?',
+        raspuns: 'Spitalul Clinic „Dr. Victor Babeș" la circa 400 de metri și Spitalul Clinic de Copii „Dr. Victor Gomoiu" la circa 700 de metri, ambele accesibile pe jos. Spitalul MONZA este la câteva minute cu mașina.',
+      },
+      {
+        intrebare: 'De ce este Piața Muncii mai scumpă decât alte zone din Sectorul 3?',
+        raspuns: 'Este un cartier complet construit, în care nu se mai eliberează teren, cu metrou, parc, școli și spitale la distanță de mers pe jos. Oferta nouă este rară, iar poziția nu se poate reproduce.',
+      },
+      {
+        intrebare: 'Ce tipologii sunt disponibile în Piața Muncii?',
+        raspuns: 'Apartamente de două și patru camere. Prețul de pornire actualizat este în rezumatul de mai sus.',
+      },
+    ],
+  },
 }
 
 // Forma unei intrari completate:

@@ -968,7 +968,6 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
       { tip: 'parc', nume: 'Parcul Plumbuita', distanta: '11 min cu masina' },
       { tip: 'parc', nume: 'Parcul Național', distanta: '13 min cu masina' },
       { tip: 'metrou', nume: 'Metrou Timpuri Noi (M1/M3)', distanta: '14 min cu masina' },
-      { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '3 min cu masina' },
       { tip: 'medical', nume: 'Spital Clinic Colentina', distanta: '9 min cu masina' },
     ],
     galerie: [],
