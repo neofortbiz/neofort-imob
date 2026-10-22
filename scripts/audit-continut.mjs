@@ -828,6 +828,90 @@ for (const [eticheta, lista] of [['ansambluri', ANSAMBLURI_ACTIVE], ['portofoliu
   }
 }
 
+// ── 17. Afirmatii din textul de zona contrazise de date (v432) ─
+// DE CE: partea derivata a paginilor de zona (rezumat, tabel, geo, poza, schema)
+// se recalculeaza la fiecare build si nu poate ramane in urma. Textul EDITORIAL
+// din data/zone.js nu — iar la v430/v431 au intrat in el 25 de afirmatii legate
+// de componenta de atunci a zonelor: numere de proiecte, superlative de pret,
+// ani de predare, stari de finalizare. Daca un proiect dispare sau apare altul,
+// cifrele din tabel se schimba singure, dar fraza „noua ansambluri rezidentiale"
+// ramane acolo si devine falsa in tacere.
+// Verificarea de aici nu repara textul; spune exact ce fraza trebuie rescrisa.
+{
+  let ZONE
+  try { ({ ZONE } = await import(resolve(ROOT, 'data/zone.js'))) } catch {}
+  if (ZONE && ANSAMBLURI_ACTIVE) {
+    const NUMERALE = { 'un singur': 1, 'una singură': 1, 'un sigur': 1, 'două': 2, 'doua': 2, 'trei': 3,
+      'patru': 4, 'cinci': 5, 'șase': 6, 'sase': 6, 'șapte': 7, 'sapte': 7, 'opt': 8, 'nouă': 9, 'noua': 9, 'zece': 10 }
+    const peZona = {}
+    for (const a of ANSAMBLURI_ACTIVE) for (const z of a.zone || []) (peZona[z] ||= []).push(a)
+    const pretMin = l => Math.min(...l.map(a => Number(a.pretDeLa)).filter(Number.isFinite))
+    const pretMax = l => Math.max(...l.map(a => Number(a.pretDeLa)).filter(Number.isFinite))
+    const toate = ANSAMBLURI_ACTIVE
+
+    for (const [z, v] of Object.entries(ZONE)) {
+      const lista = peZona[z]
+      if (!lista) continue                       // zona disparuta — o raporteaza verificarea 13
+      const n = lista.length
+      const txt = ((v.intro || '') + ' ' + (v.sectiuni || []).map(s => s.continut).join(' ')
+        + ' ' + (v.faq || []).map(f => f.intrebare + ' ' + f.raspuns).join(' ')).replace(/\s+/g, ' ')
+      const citat = i => '…' + txt.slice(Math.max(0, i - 30), i + 50).trim() + '…'
+
+      // a) numar de proiecte declarat in text
+      const reNr = new RegExp('\\b(' + Object.keys(NUMERALE).join('|') + ')\\s+(?:proiecte?|ansambl\\w+)', 'gi')
+      for (const m of txt.matchAll(reNr)) {
+        const spus = NUMERALE[m[1].toLowerCase()]
+        // Poate sa se refere si la o zona continuta (ex. „opt din cele noua").
+        const plauzibil = spus === n || Object.entries(peZona).some(([z2, l2]) =>
+          z2 !== z && l2.length === spus && l2.every(a => lista.includes(a)))
+        if (!plauzibil) P(`zona/${z}`, `textul spune „${m[0]}" dar zona are ${n} — „${citat(m.index)}"`)
+      }
+      // b) „ambele" / „cele doua proiecte" cand zona nu are exact 2
+      for (const m of txt.matchAll(/\b(Ambele (?:proiecte|ansambluri)|Cele două proiecte)\b/gi))
+        if (n !== 2) P(`zona/${z}`, `textul spune „${m[1]}" dar zona are ${n} — „${citat(m.index)}"`)
+
+      // c) superlative de pret.
+      // Tiparul acopera DELIBERAT mai multe forme — la prima scriere prindea doar
+      // „cel mai mic preț" si rata atat pluralul reordonat („prețurile de intrare
+      // cele mai mici"), cat si superlativul fara domeniu explicit („cel mai mare
+      // preț de pornire", unde domeniul subinteles e portofoliul).
+      const RE_SUP = [
+        /\b(?:cel|cele) (?:mai) (mic|mici|mare|mari|scump|scumpe|ieftin|ieftine)\b([^.]{0,80})/gi,
+        /\b(?:preț\w*|prag\w*)[^.]{0,40}?\b(?:cel|cele) mai (mic|mici|mare|mari|scump|scumpe|ieftin|ieftine)\b([^.]{0,60})/gi,
+      ]
+      const vazuteSup = new Set()
+      for (const re of RE_SUP)
+        for (const m of txt.matchAll(re)) {
+          const coada = m[2] || ''
+          const context = txt.slice(Math.max(0, m.index - 60), m.index + m[0].length)
+          if (!/preț|prag/i.test(context)) continue          // superlativ care nu e despre bani
+          if (vazuteSup.has(m.index)) continue
+          vazuteSup.add(m.index)
+          const cuv = m[1].toLowerCase()
+          const vrea = /mic|ieftin/.test(cuv)
+          // Domeniul: ce scrie dupa („din tot portofoliul", „din Sectorul 2").
+          // Fara domeniu explicit, se presupune portofoliul — cea mai tare afirmatie.
+          const dom = /sector/i.test(coada) && !/portofoliu/i.test(coada)
+            ? toate.filter(a => a.sector === lista[0].sector)
+            : toate
+          const tinta = vrea ? pretMin(dom) : pretMax(dom)
+          const alZonei = vrea ? pretMin(lista) : pretMax(lista)
+          if (alZonei !== tinta)
+            P(`zona/${z}`, `superlativ de preț fals: zona are ${alZonei.toLocaleString('de-DE')}€, iar extrema din ${dom === toate ? 'portofoliu' : lista[0].sector} este ${tinta.toLocaleString('de-DE')}€ — „${citat(m.index)}"`)
+        }
+      // d) afirmatii de finalizare
+      for (const m of txt.matchAll(/\beste finalizat\b|\bfinalizat (?:și|si) disponibil\b/gi))
+        if (!lista.some(a => a.dataPredare === 'Finalizat'))
+          P(`zona/${z}`, `textul afirma finalizarea dar niciun ansamblu din zona nu are dataPredare „Finalizat" — „${citat(m.index)}"`)
+
+      // e) ani de predare mentionati in text
+      for (const m of txt.matchAll(/\b(?:predare în|se predă în|predare)\s+(20\d\d)\b/gi))
+        if (!lista.some(a => (a.dataPredare || '').includes(m[1])))
+          P(`zona/${z}`, `textul mentioneaza predarea în ${m[1]} dar niciun ansamblu din zona nu are acest an — „${citat(m.index)}"`)
+    }
+  }
+}
+
 // ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────

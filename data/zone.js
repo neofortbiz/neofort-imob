@@ -440,7 +440,7 @@ Pentru datele administrative ale sectorului, vedeți [pagina Sectorului 2](/zona
 
   'piata-muncii': {
     unghi: 'cartier',
-    intro: `Piața Muncii este zona cea mai bine conectată pedestru din tot portofoliul Neofort IMO: din ansamblul de pe Strada Soldat Alexandru Magatti, metroul, parcul, spitalul și baza sportivă sunt toate la mai puțin de zece minute de mers pe jos. Este și zona cu cel mai mare preț de pornire — iar cele două lucruri sunt legate.`,
+    intro: `Piața Muncii este zona cea mai bine conectată pedestru din tot portofoliul Neofort IMO: din ansamblul de pe Strada Soldat Alexandru Magatti, metroul, parcul, spitalul și baza sportivă sunt toate la mai puțin de zece minute de mers pe jos. Este și zona cu cel mai mare preț de pornire din Sectorul 3 — iar cele două lucruri sunt legate.`,
     sectiuni: [
       {
         titlu: 'Cum arată zona',
