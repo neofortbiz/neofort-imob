@@ -6,6 +6,9 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_ACTIVE, STATUS_CONFIG, formatPret } from '@/data/ansambluri'
 import { zonaLabel } from '@/lib/zoneLabel'
+import { peScurtZona, tabelZona, geoZona, imagineZona } from '@/lib/zonaDerivat'
+import { zonaEditorial } from '@/data/zone'
+import { parseLinks } from '@/lib/parseLinks'
 
 // Generare dinamica a configuratiei zonelor din date
 const SECTOR_NAMES = {
@@ -65,6 +68,9 @@ export function generateMetadata({ params }) {
   const descLoc = isSector ? `${z.nume}, București` : `zona ${z.nume}, ${z.sector} București`
   const ogLoc = isSector ? `${z.nume}, București` : `${z.nume}, ${z.sector} București`
   const pretMin = ansambluri.length > 0 ? new Intl.NumberFormat('ro-RO').format(Math.min(...ansambluri.map(a => a.pretDeLa))) : ''
+  // Imaginea zonei: cover-ul unui ansamblu real din zona, nu un placeholder global.
+  const img = imagineZona(ansambluri)
+  const ogImg = img ? `${BASE}${img.src}` : `${BASE}/og-zone.jpg`
   return {
     title: `Ansambluri Rezidențiale ${titleLoc}`,
     description: `${ansambluri.length} ${ansambluri.length === 1 ? 'ansamblu rezidențial' : 'ansambluri rezidențiale'} Neofort IMO în ${descLoc}. Apartamente noi de la ${pretMin}€+TVA, direct de la sursă, fără comision.`,
@@ -75,12 +81,13 @@ export function generateMetadata({ params }) {
       url,
       type: 'website',
       locale: 'ro_RO',
+      images: [ogImg],
     },
     twitter: {
       card: 'summary_large_image',
       title: `Ansambluri Rezidențiale ${z.nume} | Neofort IMO`,
       description: `${ansambluri.length} ${ansambluri.length === 1 ? 'ansamblu Neofort IMO' : 'ansambluri Neofort IMO'} în ${ogLoc}. Apartamente noi de la ${pretMin}€+TVA, fără comision.`,
-      images: [`${BASE}/og-zone.jpg`],
+      images: [ogImg],
     },
   }
 }
@@ -95,13 +102,25 @@ export default function ZonaPage({ params }) {
     a.zone && a.zone.includes(params.slug)
   )
 
+  const isSector = params.slug.startsWith('sector-')
+  const url = `${BASE}/zona/${params.slug}`
+
+  // ── Continut derivat din date (nu se poate desincroniza de preturi) ──
+  const peScurt = peScurtZona(z.nume, z.sector, ansambluri, isSector)
+  const tabel = tabelZona(ansambluri)
+  const geo = geoZona(ansambluri)
+  const img = imagineZona(ansambluri)
+
+  // ── Continut editorial (v430/v431); pagina functioneaza si fara el ──
+  const ed = zonaEditorial(params.slug)
+
   // Schema.org ItemList pentru ansambluri din zona
   const itemListSchema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     name: `Ansambluri rezidențiale ${z.nume}`,
     description: `${ansambluri.length} ansambluri rezidențiale Neofort IMO în zona ${z.nume}, ${z.sector}, București.`,
-    url: `${BASE}/zona/${params.slug}`,
+    url,
     numberOfItems: ansambluri.length,
     itemListElement: ansambluri.map((a, i) => ({
       '@type': 'ListItem',
@@ -111,20 +130,55 @@ export default function ZonaPage({ params }) {
     })),
   }
 
+  // Place + geo: spune explicit motoarelor si LLM-urilor CE loc este pagina
+  // si unde se afla. Centroidul se calculeaza din coordonatele ansamblurilor,
+  // deci nu e o valoare scrisa de mana care poate ramane in urma.
+  const placeSchema = {
+    '@context': 'https://schema.org',
+    '@type': isSector ? 'AdministrativeArea' : 'Place',
+    name: z.nume,
+    description: peScurt ? peScurt.join(' ') : z.descriere,
+    url,
+    ...(geo ? { geo: { '@type': 'GeoCoordinates', latitude: geo.lat, longitude: geo.lng } } : {}),
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'București',
+      addressRegion: isSector ? z.nume : z.sector,
+      addressCountry: 'RO',
+    },
+    containedInPlace: isSector
+      ? { '@type': 'City', name: 'București', address: { '@type': 'PostalAddress', addressLocality: 'București', addressCountry: 'RO' } }
+      : { '@type': 'AdministrativeArea', name: z.sector, url: `${BASE}/zona/${z.sector.toLowerCase().replace(/\s+/g, '-')}` },
+    ...(img ? { image: `${BASE}${img.src}` } : {}),
+  }
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Acasă', item: BASE },
-      { '@type': 'ListItem', position: 2, name: 'Zone', item: `${BASE}/zona` },
-      { '@type': 'ListItem', position: 3, name: z.nume, item: `${BASE}/zona/${params.slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Ansambluri', item: `${BASE}/ansambluri-rezidentiale` },
+      { '@type': 'ListItem', position: 3, name: 'Zone', item: `${BASE}/zona` },
+      { '@type': 'ListItem', position: 4, name: z.nume, item: url },
     ],
   }
+
+  const faqSchema = ed.faq.length ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: ed.faq.map(f => ({
+      '@type': 'Question',
+      name: f.intrebare,
+      acceptedAnswer: { '@type': 'Answer', text: f.raspuns },
+    })),
+  } : null
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(placeSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <Header activePath="/zona" />
       <main className="min-h-screen">
         <div className="bg-gray-50 border-b border-gray-100 py-6 px-6">
@@ -134,15 +188,35 @@ export default function ZonaPage({ params }) {
               <span>›</span>
               <Link href="/ansambluri-rezidentiale" className="hover:text-[#2d7a3a]">Ansambluri</Link>
               <span>›</span>
+              <Link href="/zona" className="hover:text-[#2d7a3a]">Zone</Link>
+              <span>›</span>
               <span className="text-gray-900">Ansambluri rezidențiale {z.nume}</span>
             </nav>
             <h1 className="text-2xl font-medium text-gray-900">Ansambluri Rezidențiale {z.nume}</h1>
-            <p className="text-sm text-gray-500 mt-1">{z.sector} · București · {ansambluri.length} ansambluri active</p>
+            <p className="text-sm text-gray-500 mt-1">{z.sector} · București · {ansambluri.length} {ansambluri.length === 1 ? 'ansamblu activ' : 'ansambluri active'}</p>
           </div>
         </div>
 
         <div className="max-w-7xl mx-auto px-6 py-8">
-          <p className="text-sm text-gray-600 leading-relaxed mb-8 max-w-2xl">{z.descriere}</p>
+
+          {/* Pe scurt — raspuns direct, derivat din date. Primul lucru citit de un LLM. */}
+          {peScurt && (
+            <div className="mb-8 rounded-xl border border-gray-100 bg-gray-50 p-5 max-w-3xl">
+              <div className="text-[10px] font-medium uppercase tracking-wider text-gray-500 mb-2">Pe scurt</div>
+              <ul className="space-y-1.5">
+                {peScurt.map((l, i) => (
+                  <li key={i} className="text-[15px] text-gray-800 leading-relaxed flex gap-2">
+                    <span style={{ color: '#2d7a3a' }}>·</span><span>{l}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Intro editorial — unic pe zona, adaugat in v430/v431 */}
+          {ed.intro && (
+            <p className="text-[15px] text-gray-700 leading-8 text-justify mb-8 max-w-3xl">{parseLinks(ed.intro)}</p>
+          )}
 
           {ansambluri.length > 0 ? (
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -169,6 +243,64 @@ export default function ZonaPage({ params }) {
             </div>
           ) : (
             <p className="text-sm text-gray-500">Nu există ansambluri active în această zonă momentan.</p>
+          )}
+
+          {/* Tabel comparativ — randurile se genereaza din date, deci nu pot ramane
+              in urma fata de preturi sau tipologii. Apare doar de la 2 ansambluri. */}
+          {tabel && (
+            <section className="mt-10">
+              <h2 className="text-lg font-medium text-gray-900 mb-1">Comparație ansambluri {z.nume}</h2>
+              <p className="text-xs text-gray-500 mb-4">Prețurile sunt de la, fără TVA, actualizate la ultima modificare a ofertei.</p>
+              <div className="overflow-x-auto -mx-6 px-6">
+                <table className="w-full min-w-[640px] text-sm border-collapse">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      {tabel.cap.map((c, i) => (
+                        <th key={i} className="text-left font-medium text-gray-600 text-xs uppercase tracking-wider py-2 pr-4 whitespace-nowrap">{c}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {tabel.randuri.map(r => (
+                      <tr key={r.slug} className="border-b border-gray-100 align-top">
+                        {r.celule.map((c, i) => (
+                          <td key={i} className="py-2.5 pr-4 text-gray-700">
+                            {i === 0
+                              ? <Link href={`/ansamblu-rezidential/${r.slug}`} className="font-medium text-gray-900 hover:text-[#2d7a3a]">{c}</Link>
+                              : i === 2
+                                ? <span className="font-medium whitespace-nowrap" style={{ color: '#2d7a3a' }}>{c}</span>
+                                : <span className="whitespace-nowrap">{c}</span>}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          )}
+
+          {/* Sectiuni editoriale — unghiul e fixat in data/zone.js ca sa nu se
+              canibalizeze pagina de sector cu cea de micro-zona. */}
+          {ed.sectiuni.map((s, i) => (
+            <section key={i} className="mt-10 max-w-3xl">
+              <h2 className="text-lg font-medium text-gray-900 mb-3">{s.titlu}</h2>
+              <div className="text-[15px] text-gray-700 leading-8 text-justify whitespace-pre-line">{parseLinks(s.continut, `z${i}-`)}</div>
+            </section>
+          ))}
+
+          {ed.faq.length > 0 && (
+            <section className="mt-10 max-w-3xl">
+              <h2 className="text-lg font-medium text-gray-900 mb-4">Întrebări frecvente — {z.nume}</h2>
+              <div className="space-y-4">
+                {ed.faq.map((f, i) => (
+                  <div key={i} className="border-b border-gray-100 pb-4">
+                    <h3 className="text-[15px] font-medium text-gray-900 mb-1.5">{f.intrebare}</h3>
+                    <div className="text-[15px] text-gray-700 leading-8 text-justify">{parseLinks(f.raspuns, `f${i}-`)}</div>
+                  </div>
+                ))}
+              </div>
+            </section>
           )}
         </div>
       </main>

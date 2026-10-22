@@ -3071,7 +3071,7 @@ Prețuri 2026: 1.200–1.700 EUR/mp
 Profil ideal: investitori pentru chirii, familii cu buget mai mic, angajați în zona vest-nord-vest
 
 Eminescu–Viitorului (Sectorul 2) — zona boutique cu apreciere rapidă
-Avantaje: semicentral autentic, colegii și licee de top pe jos, metrou Stefan cel Mare la 15–20 minute pe jos, caracter rezidențial liniștit, ofertă extrem de limitată (raritate = valoare).
+Avantaje: semicentral autentic, colegii și licee de top pe jos, metrou Ștefan cel Mare la 15–20 minute pe jos, caracter rezidențial liniștit, ofertă extrem de limitată (raritate = valoare).
 Prețuri 2026: 2.200–3.000 EUR/mp pentru proiecte noi
 Profil ideal: cumpărători cu buget 200.000–500.000 EUR care prioritizează calitatea și zona față de suprafață`,
       },

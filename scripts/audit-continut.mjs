@@ -642,6 +642,77 @@ if (ARTICOLE) {
   }
 }
 
+// ── 11. Acelasi punct de interes scris in doua feluri (v429) ─
+// DE CE: la v429, in acelasi set de date, aceeasi statie aparea si ca
+// „Metrou Piata Muncii (M1)" si ca „Metrou Piața Muncii (M1)" — 194 de intrari
+// in total, pe toate tipurile de POI. Pentru un cititor e aceeasi statie;
+// pentru un motor de cautare si pentru un LLM sunt doua entitati diferite,
+// deci semnalul se imparte in doua in loc sa se adune.
+// Verificarea nu impune diacritice: impune CONSECVENTA. Daca o denumire apare
+// intr-o singura forma, oricare ar fi ea, nu se raporteaza.
+{
+  const faraDiacritice = s => s.normalize('NFD').replace(/[̀-̧̦ͯ]/g, '')
+    .replace(/[șşȘŞ]/g, 's').replace(/[țţȚŢ]/g, 't').replace(/[ăâĂÂ]/g, 'a').replace(/[îÎ]/g, 'i')
+  const grup = {}
+  for (const a of [...(ANSAMBLURI_ACTIVE || []), ...(TOATE_PORTOFOLIU || [])])
+    for (const p of a.puncteInteres || [])
+      if (p.nume) (grup[faraDiacritice(p.nume)] ||= new Set()).add(p.nume)
+  for (const forme of Object.values(grup))
+    if (forme.size > 1) P('puncteInteres', `aceeasi denumire scrisa in ${forme.size} feluri: ${[...forme].map(f => `„${f}"`).join(' ≠ ')}`)
+}
+
+// ── 12. Pagini de zona cu continut subtire (v429) ────────────
+// DE CE: paginile /zona/* sunt exact paginile pe care e construita strategia
+// „ansambluri rezidentiale + zona/sector" (R0), si pana la v429 aveau sub 60 de
+// caractere de text unic fiecare — o fraza generata din sablon. O pagina de zona
+// fara continut propriu concureaza cu paginile de ansamblu pentru aceleasi
+// cautari si pierde. Pragul masoara DOAR textul unic al zonei (rezumat derivat
+// + editorial), nu si numele ansamblurilor din grila.
+{
+  let peScurtZona, tabelZona, ZONE
+  try {
+    ;({ peScurtZona, tabelZona } = await import(resolve(ROOT, 'lib/zonaDerivat.js')))
+    ;({ ZONE } = await import(resolve(ROOT, 'data/zone.js')))
+  } catch { /* fisierele lipsesc: verificarea se sare, nu se inventeaza rezultat */ }
+  if (peScurtZona && ZONE && ANSAMBLURI_ACTIVE) {
+    const peZona = {}
+    for (const a of ANSAMBLURI_ACTIVE) for (const z of a.zone || []) (peZona[z] ||= []).push(a)
+    const PRAG = 400   // caractere de text unic; sub atat, pagina nu sustine o cautare proprie
+    for (const [slug, lista] of Object.entries(peZona).sort()) {
+      const esteSector = slug.startsWith('sector-')
+      const nume = esteSector ? 'Sector ' + slug.split('-')[1] : lista[0].zona
+      const ps = peScurtZona(nume, lista[0].sector, lista, esteSector) || []
+      const ed = ZONE[slug] || {}
+      const lungime = ps.join(' ').length
+        + (ed.intro || '').length
+        + (ed.sectiuni || []).reduce((s, x) => s + (x.titlu || '').length + (x.continut || '').length, 0)
+        + (ed.faq || []).reduce((s, x) => s + (x.intrebare || '').length + (x.raspuns || '').length, 0)
+      if (lungime < PRAG) P(`zona/${slug}`, `doar ${lungime} caractere de text unic (prag ${PRAG}) — lipseste continut editorial`)
+      if (!tabelZona(lista) && lista.length >= 2) P(`zona/${slug}`, `${lista.length} ansambluri, dar tabelul comparativ nu se genereaza`)
+    }
+  }
+}
+
+// ── 13. Zone fara unghi editorial declarat (v429) ────────────
+// DE CE: `titan-pallady` e inclusa in `sector-3`, `militari` in `sector-6`.
+// Fara un unghi declarat explicit pentru fiecare, cele doua pagini ajung sa
+// spuna acelasi lucru si se canibalizeaza reciproc in cautari. Verificarea
+// prinde si cazul invers: o zona noua aparuta in date, pentru care nimeni
+// nu a decis inca unghiul.
+{
+  let ZONE
+  try { ({ ZONE } = await import(resolve(ROOT, 'data/zone.js'))) } catch {}
+  if (ZONE && ANSAMBLURI_ACTIVE) {
+    const inDate = new Set()
+    for (const a of ANSAMBLURI_ACTIVE) for (const z of a.zone || []) inDate.add(z)
+    for (const z of [...inDate].sort())
+      if (!ZONE[z]) P(`zona/${z}`, 'zona exista in date dar nu are unghi editorial in data/zone.js')
+      else if (!['administrativ', 'cartier'].includes(ZONE[z].unghi)) P(`zona/${z}`, `unghi editorial necunoscut: „${ZONE[z].unghi}"`)
+    for (const z of Object.keys(ZONE))
+      if (!inDate.has(z)) P(`zona/${z}`, 'declarata in data/zone.js dar niciun ansamblu activ nu o mai contine')
+  }
+}
+
 // ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
