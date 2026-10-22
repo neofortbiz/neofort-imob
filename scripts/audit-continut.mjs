@@ -454,18 +454,21 @@ if (ARTICOLE && Array.isArray(ARTICOLE_LIST)) {
 // statiei. Pluralul („Statiile X (M3) si Y (M2)") si intreg data/portofoliu.js
 // au ramas neatinse — inca 180 de etichete gresite, descoperite abia la v426.
 // Tiparul de aici NU cere nimic inainte de numele statiei.
+// Lista OFICIALA Metrorex, completa. M6 (deschidere 2027) nu se eticheteaza inca.
+// Orice statie adaugata aici intra AUTOMAT in tiparul de verificare de mai jos —
+// nu mai exista o a doua lista de nume, scrisa de mana, care sa ramana in urma.
 const LINII_METROU = {
   M1: ['Pantelimon','Republica','Costin Georgian','Titan','Nicolae Grigorescu','Dristor','Mihai Bravu',
        'Timpuri Noi','Piata Unirii','Izvor','Eroilor','Grozavesti','Petrache Poenaru','Crangasi','Basarab',
        'Gara de Nord 1','Piata Victoriei','Stefan cel Mare','Obor','Piata Iancului','Piata Muncii'],
   M2: ['Pipera','Aurel Vlaicu','Aviatorilor','Piata Victoriei','Piata Romana','Universitate','Piata Unirii',
        'Tineretului','Eroii Revolutiei','Constantin Brancoveanu','Piata Sudului','Aparatorii Patriei',
-       'Dimitrie Leonida','Berceni'],
+       'Dimitrie Leonida','Berceni','Tudor Arghezi'],
   M3: ['Preciziei','Pacii','Gorjului','Lujerului','Politehnica','Eroilor','Izvor','Piata Unirii','Timpuri Noi',
        'Mihai Bravu','Dristor','Nicolae Grigorescu','1 Decembrie 1918','Nicolae Teclu','Anghel Saligny'],
-  M4: ['Gara de Nord 2','Basarab','Grivita','1 Mai','Jiului','Parc Bazilescu','Laminorului','Lac Straulesti'],
-  M5: ['Raul Doamnei','Brancusi','Valea Ialomitei','Parc Drumul Taberei','Drumul Taberei 34','Romancierilor',
-       'Favorit','Orizont','Academia Militara','Eroilor'],
+  M4: ['Gara de Nord 2','Basarab','Grivita','1 Mai','Jiului','Parc Bazilescu','Laminorului','Straulesti'],
+  M5: ['Raul Doamnei','Constantin Brancusi','Valea Ialomitei','Parc Drumul Taberei','Romancierilor',
+       'Favorit','Orizont','Academia Militara','Eroilor','Tudor Vladimirescu'],
 }
 const faraDiac = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '')
   .replace(/ș|ş/g, 's').replace(/ț|ţ/g, 't').replace(/ă|â/g, 'a').replace(/î/g, 'i')
@@ -480,22 +483,50 @@ const magistralaCorecta = nume => {
   return m ? m.join('/') : null
 }
 {
-  const NUME = ['1 Decembrie 1918','Nicolae Grigorescu','Petrache Poenaru','Costin Georgian','Anghel Saligny',
-    'Nicolae Teclu','Stefan cel Mare','Ștefan cel Mare','Piata Victoriei','Piața Victoriei','Piata Muncii',
-    'Piața Muncii','Piata Unirii','Piața Unirii','Piata Romana','Piața Romană','Piata Obor','Piața Obor',
-    'Timpuri Noi','Mihai Bravu','Universitate','Aviatorilor','Politehnica','Dristor 1','Dristor 2',
-    'Preciziei','Lujerului','Gorjului','Dristor','Titan','Obor','Pacii','Păcii'].sort((a, b) => b.length - a.length)
+  // DE CE rescris la v430: blocul de aici construia tiparul dintr-o A DOUA lista,
+  // de 33 de nume scrise de mana. Statiile care nu erau in acea lista — 1 Mai,
+  // Jiului, Grozavesti, Izvor, Pantelimon, Eroii Revolutiei, Bazilescu, si chiar
+  // „8 Noiembrie", o statie care nu exista — nu erau NICIODATA cautate, desi
+  // dictionarul de mai sus stia raspunsul corect pentru unele dintre ele.
+  // Acum numele se deriva din dictionar, deci cele doua nu mai pot diverge.
+  const variante = new Set()
+  for (const st of Object.values(LINII_METROU)) for (const s of st) {
+    variante.add(s)
+    variante.add(s.replace(/Piata/g, 'Piața').replace(/Stefan/g, 'Ștefan').replace(/Pacii/g, 'Păcii')
+      .replace(/Grozavesti/g, 'Grozăvești').replace(/Straulesti/g, 'Străulești').replace(/Crangasi/g, 'Crângași')
+      .replace(/Romana/g, 'Romană').replace(/Revolutiei/g, 'Revoluției').replace(/Brancoveanu/g, 'Brâncoveanu')
+      .replace(/Brancusi/g, 'Brâncuși').replace(/Grivita/g, 'Grivița').replace(/Aparatorii/g, 'Apărătorii')
+      .replace(/Militara/g, 'Militară').replace(/Raul/g, 'Râul').replace(/Ialomitei/g, 'Ialomiței'))
+  }
+  for (const extra of ['Dristor 1', 'Dristor 2']) variante.add(extra)
+  const NUME = [...variante].sort((a, b) => b.length - a.length)
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   const RE_METROU = new RegExp('(' + NUME.map(esc).join('|') + ')\\s*\\((M\\d(?:\\/M\\d)*)\\)', 'g')
-  for (const f of ['data/blog.js', 'data/ansambluri/index.js', 'data/portofoliu.js', 'app/apartamente/[tip]/page.js']) {
+  // Al doilea tipar: ORICE eticheta de magistrala precedata de un nume, ca sa
+  // prindem si statiile pe care dictionarul nu le cunoaste deloc.
+  const RE_ORICE = /Metroul?\s+([A-Z0-9ȘȚĂÂÎ][A-Za-zȘșȚțĂăÂâÎî0-9 ]{1,30}?)\s*\((M\d(?:\/M\d)*)\)/g
+  const cunoscuta = n => !!magistralaCorecta(n)
+  for (const f of ['data/blog.js', 'data/ansambluri/index.js', 'data/portofoliu.js', 'data/contact-map.js', 'app/apartamente/[tip]/page.js']) {
     const cale = resolve(ROOT, f)
     if (!fs.existsSync(cale)) continue
     const txt = fs.readFileSync(cale, 'utf8')
+    const linia = i2 => txt.slice(0, i2).split('\n').length
     let m
     while ((m = RE_METROU.exec(txt))) {
       const corect = magistralaCorecta(m[1])
       if (corect && corect !== m[2])
-        P(f, `„${m[1]} (${m[2]})" — statia este pe ${corect} (linia ${txt.slice(0, m.index).split('\n').length})`)
+        P(f, `„${m[1]} (${m[2]})" — statia este pe ${corect} (linia ${linia(m.index)})`)
+    }
+    const raportate = new Set()
+    while ((m = RE_ORICE.exec(txt))) {
+      const nume = m[1].trim()
+      // Proza foloseste des o singura eticheta pentru doua statii:
+      // „Metrou Stefan cel Mare si Obor (M1)". Se valideaza fiecare componenta;
+      // se raporteaza doar daca NICIUNA nu e o statie cunoscuta.
+      const parti = nume.split(/\s+(?:și|si)\s+|,\s*/).map(s => s.trim()).filter(Boolean)
+      if (parti.some(cunoscuta) || raportate.has(nume)) continue
+      raportate.add(nume)
+      P(f, `„${nume} (${m[2]})" — statie necunoscuta in lista oficiala Metrorex (linia ${linia(m.index)})`)
     }
   }
 }
@@ -710,6 +741,68 @@ if (ARTICOLE) {
       else if (!['administrativ', 'cartier'].includes(ZONE[z].unghi)) P(`zona/${z}`, `unghi editorial necunoscut: „${ZONE[z].unghi}"`)
     for (const z of Object.keys(ZONE))
       if (!inDate.has(z)) P(`zona/${z}`, 'declarata in data/zone.js dar niciun ansamblu activ nu o mai contine')
+  }
+}
+
+// ── 14. Linkuri rupte din continutul de zona (v430) ──────────
+// DE CE: textul editorial al zonelor leaga spre articole, spre alte zone si spre
+// pagini de ansamblu. Un slug redenumit sau un articol sters lasa un link mort
+// care nu rupe build-ul si nu se vede decat daca cineva da clic pe el.
+{
+  let ZONE
+  try { ({ ZONE } = await import(resolve(ROOT, 'data/zone.js'))) } catch {}
+  if (ZONE && ARTICOLE && ANSAMBLURI_ACTIVE) {
+    const zoneOk = new Set(Object.keys(ZONE))
+    const ansOk = new Set(ANSAMBLURI_ACTIVE.map(a => a.slug))
+    for (const [z, v] of Object.entries(ZONE)) {
+      const txt = (v.intro || '') + (v.sectiuni || []).map(s => s.continut).join(' ')
+        + (v.faq || []).map(f => f.raspuns).join(' ')
+      for (const m of txt.matchAll(/\]\((\/[^)]+)\)/g)) {
+        const l = m[1]
+        let ok = true
+        if (l.startsWith('/blog/')) ok = !!ARTICOLE[l.slice(6)]
+        else if (l.startsWith('/zona/')) ok = zoneOk.has(l.slice(6))
+        else if (l.startsWith('/ansamblu-rezidential/')) ok = ansOk.has(l.slice(22))
+        if (!ok) P(`zona/${z}`, `link intern rupt: ${l}`)
+      }
+    }
+  }
+}
+
+// ── 15. Canibalizare sector ↔ micro-zona (v430) ──────────────
+// DE CE: `titan-pallady` e continuta in `sector-3`, `militari` in `sector-6`.
+// Cele doua pagini se adreseaza acelorasi cautari, deci daca ajung sa spuna
+// acelasi lucru concureaza intre ele si pierd amandoua. Unghiul declarat in
+// data/zone.js e regula; verificarea de aici o face masurabila, cautand
+// secvente lungi de cuvinte care apar in ambele pagini.
+{
+  let ZONE
+  try { ({ ZONE } = await import(resolve(ROOT, 'data/zone.js'))) } catch {}
+  if (ZONE && ANSAMBLURI_ACTIVE) {
+    const peZona = {}
+    for (const a of ANSAMBLURI_ACTIVE) for (const z of a.zone || []) (peZona[z] ||= new Set()).add(a.slug)
+    const textZona = z => {
+      const v = ZONE[z] || {}
+      return ((v.intro || '') + ' ' + (v.sectiuni || []).map(s => s.continut).join(' ')
+        + ' ' + (v.faq || []).map(f => f.intrebare + ' ' + f.raspuns).join(' '))
+        .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/[*_`]/g, '')
+        .toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, ' ').split(/\s+/).filter(Boolean)
+    }
+    const siruri = (cuv, n = 8) => {
+      const s = new Set()
+      for (let i = 0; i + n <= cuv.length; i++) s.add(cuv.slice(i, i + n).join(' '))
+      return s
+    }
+    for (const sector of Object.keys(peZona).filter(z => z.startsWith('sector-')))
+      for (const micro of Object.keys(peZona).filter(z => !z.startsWith('sector-'))) {
+        // Continuta = toate ansamblurile micro-zonei sunt si in sector.
+        if (![...peZona[micro]].every(s => peZona[sector].has(s))) continue
+        const a = siruri(textZona(sector)), b = siruri(textZona(micro))
+        if (a.size < 20 || b.size < 20) continue   // una dintre pagini inca nu are text
+        const comune = [...b].filter(s => a.has(s))
+        if (comune.length)
+          P(`zona/${micro}`, `${comune.length} secvente de 8+ cuvinte identice cu /zona/${sector} — unghiurile se suprapun (prima: „${comune[0].slice(0, 60)}…")`)
+      }
   }
 }
 

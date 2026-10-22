@@ -12,7 +12,7 @@ export const CONTACT_MAP = {
   'neofort-84-titan-pallady': { nume: 'Neofort 84 Titan Pallady', numar: 84, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0743 250 029' },
   'neofort-83-titan-pallady': { nume: 'Neofort 83 Titan Pallady', numar: 83, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-82-titan-pallady': { nume: 'Neofort 82 Titan Pallady', numar: 82, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
-  'neofort-76-iuliu-maniu-metrou-pacii': { nume: 'Neofort 76 Iuliu Maniu Metrou Pacii', numar: 76, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
+  'neofort-76-iuliu-maniu-metrou-pacii': { nume: 'Neofort 76 Iuliu Maniu Metrou Păcii', numar: 76, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
   'neofort-56-pallady-titan-teclu': { nume: 'Neofort 56 Pallady Titan', numar: 56, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-50-titan-parc-ior': { nume: 'Neofort 50 Titan Parc IOR Faza 2', numar: 50, zona: 'Titan-IOR', sector: 'Sector 3', brokerTel: '0752 443 436' },
   'neofort-50-titan-parc-ior-faza-1': { nume: 'Neofort 50 Titan Parc IOR Faza 1', numar: 50, zona: 'Titan-IOR', sector: 'Sector 3', brokerTel: '0752 443 436' },

@@ -255,7 +255,7 @@ Prețul ultimei unități disponibile, 92.900 EUR+TVA pentru 60,90 mp utili, ră
   {
     slug: 'neofort-76-iuliu-maniu-metrou-pacii',
     numar: 76,
-    nume: 'Neofort 76 Iuliu Maniu Metrou Pacii',
+    nume: 'Neofort 76 Iuliu Maniu Metrou Păcii',
     zona: 'Militari',
     sector: 'Sector 6',
     adresa: 'Bulevardul Iuliu Maniu, Sector 6, Bucuresti',
@@ -812,7 +812,7 @@ Apartamentele de 4 camere de la Neofort 42 — 139,20 și 140,67 mp, de la 487.2
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Piața Muncii — Neofort 42',
-    seoDescription: 'Ansamblu rezidential premium Neofort 42 Piata Muncii, Sector 3. Apartamente 2 si 4 camere de la 215.500 euro+TVA. Metrou Piata Muncii la 300 m, 64 unitati.',
+    seoDescription: 'Ansamblu rezidential premium Neofort 42 Piata Muncii, Sector 3. Apartamente 2 si 4 camere de la 215.500 euro+TVA. Metrou Piața Muncii la 300 m, 64 unitati.',
   },
   {
     slug: 'neofort-28-titan-pallady-teclu',
@@ -922,7 +922,7 @@ Zona Titan-Pallady continuă să concentreze cererea de chirie din estul Bucure�
 
 Finisajele nu lasă loc de compromis. Gresie și faianță MARAZZI — brand italian de referință internațională. Parchet Kronotex PREMIUM. Uși blindate PINUM la intrare cu uși interioare PINUM — nu doar ușa exterioară. Obiecte sanitare GROHE, HansGrohe și Kludi — selectate pentru durabilitate și design superior. Centrală ARISTON 24kW în condensare. Încălzire în pardoseală în toate camerele. Contorizare individuală completă apă-gaz-electricitate. Preechipare aer condiționat în toate camerele — nu doar în dormitor. Lift ORONA silențios. Adăpost ALA autorizat ISU. Termoizolație EPS80 de 10cm. Tâmplărie Salamander 7 camere cu geam tripan — izolație fonică 45dB, cea mai performantă clasă disponibilă pe piața românească.
 
-Zona Eminescu-Viitorului are un caracter rezidențial distinct față de marile cartiere: case și blocuri mici, arhitectură interbelică bine conservată, o comunitate culturală și educată. Nu este o zonă de tranzit — este o zonă în care oamenii aleg deliberat să locuiască. Tramvai Mihai Bravu și linii STB multiple la 2 minute pe jos — conectivitate excelentă fără metrou în imediată apropiere. Metrou Piața Obor (M1) la 2 minute cu mașina, Metrou Ștefan cel Mare (M1) la 19 minute pe jos. Colegiul Național Iulia Hașdeu la 5 minute pe jos, Colegiul Național Mihai Eminescu la 8 minute. Grădinița Bambi la 3 minute pe jos. Parcul Circului la 8 minute, Parcul Ioanid la 10 minute. Spital Clinic Colentina la 10 minute, MedLife, Regina Maria și Sanador la 10 minute.
+Zona Eminescu-Viitorului are un caracter rezidențial distinct față de marile cartiere: case și blocuri mici, arhitectură interbelică bine conservată, o comunitate culturală și educată. Nu este o zonă de tranzit — este o zonă în care oamenii aleg deliberat să locuiască. Tramvai Mihai Bravu și linii STB multiple la 2 minute pe jos — conectivitate excelentă fără metrou în imediată apropiere. Metrou Obor (M1) la 2 minute cu mașina, Metrou Ștefan cel Mare (M1) la 19 minute pe jos. Colegiul Național Iulia Hașdeu la 5 minute pe jos, Colegiul Național Mihai Eminescu la 8 minute. Grădinița Bambi la 3 minute pe jos. Parcul Circului la 8 minute, Parcul Ioanid la 10 minute. Spital Clinic Colentina la 10 minute, MedLife, Regina Maria și Sanador la 10 minute.
 
 15 apartamente înseamnă că vei cunoaște toți vecinii. Înseamnă costuri comune reduse. Înseamnă că administrarea clădirii este simplă și transparentă. Proiect finalizat, predare la semnare. Vânzare directă, fără comision.
 
@@ -960,7 +960,7 @@ Parcare subterană la 25.000€ — incluzând costul locului de parcare acoperi
     dotari: ['Usi PINUM blindate + interioare', 'Gresie/faianta MARAZZI', 'Parchet Kronotex PREMIUM', 'Obiecte sanitare GROHE/HansGrohe/Kludi', 'Centrala ARISTON 24kW in condensare', 'Incalzire in pardoseala', 'Contorizare individuala apa/gaz/electricitate', 'Preechipare aer conditionat', 'Lift ORONA silentios', 'Adapost ALA / autorizare ISU', 'Termoizolatie EPS80 10cm', 'Tamplarie Salamander 7 camere tripan'],
     puncteInteres: [
       { tip: 'metrou', nume: 'Metrou Ștefan cel Mare (M1)', distanta: '19 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Piața Obor (M1)', distanta: '2 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Obor (M1)', distanta: '2 min cu masina' },
       { tip: 'scoala', nume: 'Colegiul Național Mihai Eminescu', distanta: '2 min cu masina' },
       { tip: 'mall', nume: 'Veranda Mall Obor', distanta: '3 min cu masina' },
       { tip: 'parc', nume: 'Lacul Tei / Parcul Tei', distanta: '8 min cu masina' },
