@@ -144,13 +144,16 @@ for (const [camp, eticheta] of [['seoTitle', 'seoTitle'], ['seoDescription', 'se
 }
 
 // Portofoliul nu are campuri `seoTitle`/`seoDescription`: titlul si descrierea
-// se compun in app/portofoliu/[slug]/page.js din nume + zona + sector + etaje +
-// totalApartamente. Duplicatele apar deci cand doua intrari au aceeasi
-// combinatie — ceea ce se verifica pe valoarea compusa, nu pe un camp.
+// se compun in app/ansamblu-rezidential/[slug]/page.js, pe ramura „vandut".
+// CORECTAT la v433: pana atunci formula de aici era cea din
+// app/portofoliu/[slug]/page.js — fisier MORT, in spatele unui 301 din
+// vercel.json, care nu s-a randat niciodata. Verificarea compara deci un sir
+// care nu era emis nicaieri. Titlul real foloseste `title: { absolute: ... }`,
+// deci sufixul „ | Neofort IMO" NU se adauga.
 if (Array.isArray(TOATE_PORTOFOLIU)) {
   const tP = new Map(), dP = new Map()
   for (const a of TOATE_PORTOFOLIU) {
-    const titlu = `${a.nume} — ${a.zona} | Neofort IMO`
+    const titlu = `Ansamblu Rezidențial ${a.zona} — Neofort ${a.numar}`
     const desc = `${a.nume}, ${a.zona}, ${a.sector} București. ${a.etaje}, ${a.totalApartamente} unități.`
     if (!tP.has(titlu)) tP.set(titlu, []); tP.get(titlu).push(a.slug)
     if (!dP.has(desc)) dP.set(desc, []); dP.get(desc).push(a.slug)

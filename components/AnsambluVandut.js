@@ -22,7 +22,7 @@ const TIP_CFG = {
   sport:     { bg: '#e8f5e9', color: '#1b5e20' },
 }
 
-// Randare "vandut" (stoc epuizat), partajata intre /portofoliu/[slug] si
+// Randare "vandut" (stoc epuizat), folosita de
 // ruta canonica /ansamblu-rezidential/[slug]. basePath controleaza canonical,
 // breadcrumb si activePath, astfel incat un ansamblu vandut sa-si pastreze
 // URL-ul de cand era la vanzare fara redirect la fiecare schimbare de status.
