@@ -13,7 +13,7 @@ export const CONTACT_MAP = {
   'neofort-83-titan-pallady': { nume: 'Neofort 83 Titan Pallady', numar: 83, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-82-titan-pallady': { nume: 'Neofort 82 Titan Pallady', numar: 82, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-76-iuliu-maniu-metrou-pacii': { nume: 'Neofort 76 Iuliu Maniu Metrou Păcii', numar: 76, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
-  'neofort-56-pallady-titan-teclu': { nume: 'Neofort 56 Pallady Titan', numar: 56, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
+  'neofort-56-pallady-titan-teclu': { nume: 'Neofort 56 Titan Pallady Faza 3', numar: 56, zona: 'Titan-Pallady', sector: 'Sector 3', brokerTel: '0759 030 367' },
   'neofort-50-titan-parc-ior': { nume: 'Neofort 50 Titan Parc IOR Faza 2', numar: 50, zona: 'Titan-IOR', sector: 'Sector 3', brokerTel: '0752 443 436' },
   'neofort-50-titan-parc-ior-faza-1': { nume: 'Neofort 50 Titan Parc IOR Faza 1', numar: 50, zona: 'Titan-IOR', sector: 'Sector 3', brokerTel: '0752 443 436' },
   'neofort-49-militari-metrou-gorjului': { nume: 'Neofort 49 Militari Metrou Gorjului', numar: 49, zona: 'Militari', sector: 'Sector 6', brokerTel: '0759 030 367' },
@@ -43,16 +43,16 @@ export const ZONE_LINKS = [
 
 // Hash-ul continutului datelor — folosit de generator ca sa stie daca
 // datele s-au modificat intre build-uri. NU folosi in aplicatie.
-export const DATA_HASH = 'c0bace56c1505b45'
+export const DATA_HASH = '7d322ef303543115'
 
 // Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
 // Folosita de sitemap.js pentru lastmod corect.
-export const DATA_ANSAMBLURI = '2026-10-11'
+export const DATA_ANSAMBLURI = '2026-10-23'
 
 // Hash pe tot continutul (ansambluri + blog + portofoliu). NU folosi in aplicatie.
-export const SITE_HASH = '2947f85285bfe685'
+export const SITE_HASH = '97a56862ae54977f'
 
 // Data REALA a ultimei modificari de continut a site-ului (YYYY-MM-DD).
 // Afisata in Header ca "Actualizat la". Se misca doar cand continutul
 // chiar s-a schimbat — un redeploy gol nu o atinge.
-export const DATA_SITE = '2026-10-11'
+export const DATA_SITE = '2026-10-23'

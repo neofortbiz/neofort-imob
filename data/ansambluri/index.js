@@ -326,74 +326,150 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
   {
     slug: 'neofort-56-pallady-titan-teclu',
     numar: 56,
-    nume: 'Neofort 56 Pallady Titan',
+    nume: 'Neofort 56 Titan Pallady Faza 3',
     zona: 'Titan-Pallady',
     sector: 'Sector 3',
-    adresa: 'Zona Titan Nou, Sector 3, Bucuresti',
+    adresa: 'Zona Theodor Pallady, Sector 3, București',
     status: 'activ',
-    dataPredare: 'Finalizat',
-    pretDeLa: 195000,
+    dataPredare: 'T1 2029',
+    pretDeLa: 75093,
     etaje: 'D+P+3E',
     telefon: '0759 030 367',
     broker: 'Ramona BAICU',
     brokerFoto: '/brokeri/ramona-baicu.avif',
     imagini: {
       cover: '/ansambluri/neo-56/exterior-01.avif',
-      exterior: ['/ansambluri/neo-56/exterior-01.avif','/ansambluri/neo-56/exterior-02.avif','/ansambluri/neo-56/exterior-03.avif','/ansambluri/neo-56/exterior-04.avif'],
-      interior: ['/ansambluri/neo-56/interior-01.avif','/ansambluri/neo-56/interior-02.avif','/ansambluri/neo-56/interior-03.avif','/ansambluri/neo-56/interior-04.avif','/ansambluri/neo-56/interior-05.avif','/ansambluri/neo-56/interior-06.avif','/ansambluri/neo-56/interior-07.avif','/ansambluri/neo-56/interior-08.avif','/ansambluri/neo-56/interior-09.avif','/ansambluri/neo-56/interior-10.avif'],
-      schite: ['/ansambluri/neo-56/schite-01.avif','/ansambluri/neo-56/schite-02.avif'],
+      exterior: [
+        '/ansambluri/neo-56/exterior-01.avif',
+        '/ansambluri/neo-56/exterior-02.avif',
+        '/ansambluri/neo-56/exterior-03.avif',
+        '/ansambluri/neo-56/exterior-04.avif',
+        '/ansambluri/neo-56/exterior-05.avif',
+        '/ansambluri/neo-56/exterior-06.avif',
+        '/ansambluri/neo-56/exterior-07.avif',
+        '/ansambluri/neo-56/exterior-08.avif',
+        '/ansambluri/neo-56/exterior-09.avif',
+        '/ansambluri/neo-56/exterior-10.avif',
+      ],
+      interior: [],
+      schite: [
+        '/ansambluri/neo-56/schite-01.avif',
+        '/ansambluri/neo-56/schite-02.avif',
+        '/ansambluri/neo-56/schite-03.avif',
+        '/ansambluri/neo-56/schite-04.avif',
+        '/ansambluri/neo-56/schite-05.avif',
+        '/ansambluri/neo-56/schite-06.avif',
+        '/ansambluri/neo-56/schite-07.avif',
+        '/ansambluri/neo-56/schite-08.avif',
+        '/ansambluri/neo-56/schite-09.avif',
+        '/ansambluri/neo-56/schite-10.avif',
+        '/ansambluri/neo-56/schite-11.avif',
+        '/ansambluri/neo-56/schite-12.avif',
+        '/ansambluri/neo-56/schite-13.avif',
+        '/ansambluri/neo-56/schite-14.avif',
+        '/ansambluri/neo-56/schite-15.avif',
+        '/ansambluri/neo-56/schite-16.avif',
+      ],
     },
-    descriereCompleta: `Apartamentele de 4 camere în Sectorul 3 al Bucureștiului, cu suprafețe mari, lângă metrou și cu dotări smart integrate standard sunt greu de găsit sub 200.000€. Neofort 56 Faza 2 din zona Titan Nou schimbă această realitate: trei blocuri D+P+3E cu 84 de unități, inclusiv apartamente cu curte proprie la parter, cu acces la Magistrala M3 prin Metrou Anghel Saligny, la 7 minute cu mașina.
+    descriereCompleta: `Neofort 56 Faza 3 este a treia etapă a unui ansamblu rezidențial din Titan-Pallady, Sector 3, care și-a dovedit deja calitatea în practică. Fazele 1 și 2 au fost livrate cu succes, sunt vândute integral și astăzi aproape 200 de familii locuiesc acolo. Sunt în imediata apropiere a noii faze și pot fi vizitate: înainte să alegi un apartament din Faza 3, poți vedea pe viu finisajele, compartimentarea și nivelul de confort pe care îl oferim, nu doar într-o randare.
 
-Oferta curentă: apartament 4 camere, 125,64 mp, etajele 1-3, de la 195.000€ + TVA; apartament 4 camere cu curte proprie, parter, 133,54 mp total, de la 235.208€ + TVA. Parcare exterioară și subterană la 8.900€ TVA inclus.
+La Neofort 56, „acasă" înseamnă mai mult decât metri pătrați. Înseamnă un spațiu bine gândit în care îți construiești viața de zi cu zi — de la arhitectură și compartimentare, până la lumina naturală, traseele pietonale, siguranța și spațiile verzi ale comunității. Adevărata valoare a unei construcții nu se vede în ziua predării cheilor, ci în felul în care rezistă și oferă confort de-a lungul anilor. Faza 3 continuă exact direcția primelor două: locuințe luminoase, bine compartimentate și sigure, înconjurate de verdeață.
 
-Neofort 56 Faza 2 este primul proiect Neofort cu dotare Smart Home Ready integrată în prețul de bază — nu ca opțiune suplimentară. Sistemul permite controlul temperaturii din telefon, integrarea cu dispozitive smart (prize inteligente, senzori, camere) și pregătirea completă pentru automatizare fără costuri de renovare ulterioară. Acest detaliu face diferența nu doar în confortul zilnic, ci și în valoarea de revânzare: în 2025-2026, apartamentele cu pregătire smart se vând cu 5-10% mai repede față de echivalentele fără această dotare.
+**Proiectul**
+Faza 3 este alcătuită din 7 corpuri cu regim mic de înălțime, D+P+3E, aflate în construcție, cu predare în trimestrul I 2029. Tipologiile acoperă garsoniere, apartamente de 2, 3 și 4 camere, atât cu balcon, cât și cu terase proprii. Prețurile pornesc de la 75.093€ + TVA pentru o garsonieră cu balcon, iar cea mai mare unitate, un apartament de 4 camere cu terasă, este la 194.288€ + TVA. Toate apartamentele se predau la cheie, complet finisate, cu finisaje la alegere și cu toate utilitățile racordate individual.
 
-Celelalte dotări sunt de nivel premium: încălzire în pardoseală INNOFLOW, centrală proprie în condensare, tâmplărie VEKA tripan cu 7 camere de izolare — una dintre cele mai performante disponibile pe piața românească, obiecte sanitare suspendate Grohe, prize Gewiss, lift silențios Schindler, balustrade din sticlă securizată, stații de încărcare pentru autoturisme electrice și supraveghere video a spațiilor comune.
+**Facilitățile ansamblului**
+Faza 3 a fost gândită ca un microclimat rezidențial, cu natură, liniște și activități în aer liber chiar lângă casă:
+• Parc privat de 4.500 m², amenajat peisagistic, cu vegetație selecționată, alei pietonale și zone de odihnă.
+• Quiet Garden — o zonă retrasă, delimitată de gard viu, cu șezlonguri pentru lectură și relaxare.
+• Work from Garden — terasă acoperită cu mese, scaune și Wi-Fi, pentru cei care lucrează de acasă.
+• Loc de joacă multifuncțional de 388 m² pe tartan, cu leagăne și tobogane pentru cei mici, dar și tenis de masă, șah în aer liber și fotbal pentru adolescenți și adulți.
+• Pistă de alergare de 480 m² pe tartan, integrată în interiorul ansamblului.
+• Parcări la demisol pregătite pentru mașini electrice (EV Ready), cu trasee electrice pre-instalate pentru montarea ulterioară a stațiilor de încărcare.
 
-Zona Titan-Pallady are avantajul rar al maturității urbane: nu mai este o zonă în formare, ci una deja complet dotată cu toate facilitățile necesare unui trai urban modern. Metrou Nicolae Teclu (M3) la 18 minute pe jos și Metrou Anghel Saligny la 7 minute cu mașina asigură accesul la Magistrala M3. IKEA Pallady la 5 minute cu mașina, Auchan Titan la 7 minute, Jumbo la 6 minute, Leroy Merlin, Metro și Dedeman la 8 minute. Waldorf București și Spectrum School la 500m. Parcul Teilor la 10 minute pe jos. Campus Medical Regina Maria Titan și MedLife Titan la 8-10 minute. Liceul Internațional de Informatică la 10 minute.
+**Amplasament și transport**
+Theodor Pallady este astăzi unul dintre cele mai dinamice poluri rezidențiale ale Bucureștiului. Stația de metrou Nicolae Teclu, pe magistrala M3, este la 1,2 km, aproximativ 15 minute de mers pe jos, cu legătură directă spre Dristor, Piața Unirii și mai departe spre vestul orașului. Stația Anghel Saligny, tot pe M3, este la 1,8 km, 4 minute cu mașina. Pe Bulevardul Theodor Pallady circulă o rețea completă de linii STB de autobuz și tramvai.
 
-Apartamentele cu curte proprie la parter sunt extrem de rare în proiectele noi din Sectorul 3. La Neofort 56 Faza 2, această unitate are 133,54 mp utili plus curtea privată — un spațiu care transformă fundamental experiența de locuire la bloc. Vânzare directă, fără comision.
+Accesul rutier este unul dintre punctele forte ale zonei: intrarea pe Autostrada Soarelui (A2) este la 1 km, 3 minute cu mașina, iar Șoseaua de Centură și noua Autostradă de Centură A0 sunt la îndemână. Investițiile recente ale Sectorului 3 — Pasajul Nicolae Teclu și Drumul între Tarlale — au fluidizat legăturile cu Titan, Dristor, Vitan și Splaiul Unirii.
 
-Neofort 56 Faza 2 este, de asemenea, o alegere inteligentă pentru investitori: randamentul în chirie pentru apartamentele de 4 camere în zona Titan cu acces la Magistrala M3 variază între 4,5% și 5,5% anual, cu o cerere ridicată din partea familiilor relocate și a expats. Apartamentele cu curte la parter din acest proiect se închiriază cu o primă față de unitățile standard datorită rarității acestei configurații în oferta din Sectorul 3. Vânzare directă, fără comision.
+**Cumpărături și servicii**
+Zona este unul dintre cei mai populari poli comerciali din estul orașului. IKEA Pallady și Jumbo / Leroy Merlin Pallady sunt la 1 km (3 minute cu mașina), Auchan Titan / Pallady la 1,5 km (5 minute), iar Mega Mall Pantelimon la 2 km (7 minute). Pe aceeași axă se află hypermarketuri, magazine de mobilier, bricolaj, electronice și sport, iar zona comercială Mega Image este la 3 minute de mers pe jos. ParkLake Shopping Center este la câteva minute cu mașina.
 
-De ce să alegi Neofort 56 Faza 2 față de alte proiecte similare din Titan? Trei argumente concrete: Smart Home Ready integrat standard fără costuri suplimentare — o dotare pe care alte proiecte o oferă ca opțiune la 3.000-5.000€ în plus; stațiile de încărcare EV în parcare — un avantaj operațional permanent pe măsură ce mobilitatea electrică se extinde; și apartamentul cu curte proprie de la parter — o configurație imposibil de găsit în alte imobile noi din zonă la prețul de 235.208€. Parcare 8.900€ TVA inclus. Rezervare cu 2.000€. Consultanță bancară gratuită. Vânzare directă fără comision.
+**Educație, sănătate și spații verzi**
+Waldorf București / Spectrum School este la 1,1 km, 14 minute pe jos, iar Liceul Internațional de Informatică la 1,3 km, 5 minute cu mașina. Zona beneficiază și de noul complex educațional din zona Theodor Pallady – Victor Brauner, cu 15 săli de clasă, laboratoare, bibliotecă și sală de sport, alături de demersurile Sectorului 3 pentru creșe, grădinițe și școli suplimentare. Campus Medical Regina Maria Titan este la 1,2 km, 15 minute pe jos, iar Spitalul de Copii Victor Gomoiu la 2,8 km, 6 minute cu mașina. Pentru plimbări, Parcul Teilor este la 1 km (5 minute cu mașina), iar Parcul IOR, unul dintre cele mai mari parcuri ale Bucureștiului, la 2 km (7 minute).
 
-Neofort 56 Faza 2 beneficiază de o localizare care combină două avantaje aparent contradictorii: liniștea unui cartier rezidențial cu clădiri mici și acces instant la cel mai mare concentrator de retail din estul Bucureștiului. Strada pe care se află proiectul are un profil rezidențial clar — nu este o arteră de tranzit, nu are trafic comercial intens — dar la 3 minute cu mașina se deschid IKEA Pallady, Leroy Merlin, Jumbo, Metro și Dedean, toate în același parc comercial. Aceasta nu este o combinație obișnuită în București.
+**Construcție și finisaje**
+Parteneriatul cu echipa de arhitecți și ingineri s-a concentrat pe soluții tehnice moderne, ergonomie, materiale de calitate și atenție la detaliile care nu se văd, dar fac diferența pe termen lung:
+• Structură în cadre de beton armat de 30 cm și radier general de 80 cm.
+• Pereți despărțitori între apartamente din Ytong XELLA cu densitate mărită, pentru izolare fonică și termică și comportament seismic bun.
+• Izolație exterioară performantă, realizată cu două tipuri de izolație.
+• Încălzire prin pardoseală Uponor, cu țeavă PEX-A, termostate inteligente în fiecare încăpere și economii estimate de până la 30% la factura de gaz.
+• Tâmplărie PVC Salamander BluEvolution cu 6 camere, montaj cu benzi perimetrale, geam tripan de 52 mm (4Season / Clar / LowE) cu baghetă Warm Edge, feronerie MACO Multi Matic, mânere HOPPE Secustik și solbanc termic.
+• Uși de acces Pinum Blindo 3 — 100 cm lățime, 80 mm grosime, izolare fonică 35 dB, 6 puncte de închidere — și uși interioare Pinum Suite Plus din lemn masiv, cu balamale încastrate AGB și broască magnetică STV.
+• Instalații electrice Gewiss și Legrand, kit de aer condiționat, sistem Smart Home cu videointerfon.
+• Obiecte sanitare Roca, Grohe și Geberit, ascensoare silențioase Schindler și balustrade din sticlă securizată dublă.
 
-Dotarea Smart Home Ready merită o explicație concretă despre ce înseamnă în viața de zi cu zi. Apartamentul este pregătit din construcție cu: cablaj Cat6A pentru rețea locală de mare viteză, prize USB-C în toate camerele, breaker inteligent în tabloul electric cu posibilitate de monitorizare consum per circuit, tuburi de protecție pre-trase pentru instalare ulterioară de prize inteligente și senzori, și priza de alimentare pentru termostat wireless deja instalată. Adaugi un kit smart home de 500-1.000€ după mutare și ai automatizare completă — fără renovare, fără găuri în pereți, fără costuri suplimentare de instalare. La alte proiecte, pregătirea echivalentă se plătește ca upgrade la 3.000-5.000€.
+**Investiție**
+Faza 3 este o oportunitate solidă pentru cine cumpără din timp: prețurile cresc pe măsură ce construcția avansează, cu potențial de apreciere până la finalizare. Cererea de închiriere din Titan-Pallady este constant în creștere, ceea ce face din apartamentele mici o alegere bună și pentru investitori.
 
-Stațiile de încărcare EV în parcare nu sunt o dotare de marketing — sunt o investiție în funcționalitatea parcării pe termen de 15-20 ani. Cota de autoturisme electrice și hibride plug-in în București a ajuns la 12% din vânzările noi în 2024 și este estimată la 35-40% în 2030. Într-o parcare fără stații EV, proprietarii vor fi nevoiți fie să instaleze ei individual la costuri de 2.000-4.000€ pe loc, fie să accepte că parcarea lor nu mai corespunde nevoilor reale ale locatarilor. Neofort 56 rezolvă această problemă structural, din construcție.
-
-Apartamentul de 4 camere cu curte proprie de la parter este un produs imobiliar cu adevărat unic în Sectorul 3: 133,54 mp utili plus curtea privată, la 235.208€ + TVA. Această configurație permite crearea unui spațiu exterior personal care transformă trăitul la bloc — nu mai ești dependent de parcul public pentru ieșitul cu copiii sau cu animalele de companie. Pe piața secundară, unitățile cu curte din proiecte finalizate se tranzacționează cu prime de 20-30% față de echivalentele fără exterior. Explorați și [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) sau [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) pentru alte opțiuni în zona Teclu–Pallady. Vezi și [ghidul complet pentru apartamente în zona Titan-Pallady-Teclu](/blog/apartamente-de-vanzare-titan-pallady-teclu).`,
+Programează o vizită la Fazele 1 și 2, vezi cum arată un apartament Neofort 56 locuit și alege-ți din timp locuința din Faza 3. Mai multe despre zonă găsești pe pagina [ansambluri rezidențiale Titan-Pallady](/zona/titan-pallady).`,
     brokerTel: '0759 030 367',
-    coordonate: { lat: 44.419894, lng: 26.182582 },
+    coordonate: { lat: 44.414173, lng: 26.203246 },
     zone: ['titan-pallady', 'sector-3'],
-    tipuri: ['4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 2, zona Titan Nou, Sector 3. Trei blocuri D+P+3E, 84 unități. Apartamente 4 camere de la 195.000€+TVA. Metrou Anghel Saligny la 7 minute cu mașina. Smart Home Ready, tâmplărie VEKA tripan 7 camere, obiecte sanitare Grohe, lift Schindler, stații încărcare auto electric.',
+    tipuri: ['Garsoniera', '2 camere', '3 camere', '4 camere'],
+    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 3, Titan-Pallady, Sector 3: 7 corpuri D+P+3E în construcție, predare T1 2029. Garsoniere, 2, 3 și 4 camere, cu balcon sau terasă proprie, de la 75.093€+TVA. Fazele 1 și 2, vândute integral și locuite, sunt în imediata apropiere și pot fi vizitate. Parc privat de 4.500 m², metrou Nicolae Teclu (M3) la 15 minute pe jos.',
     apartamente: [
-      { tip: '4 cam.', etaj: 'et. 1-3', suprafata: 125.64, avans20: 195000, avans45: null, promo: false, camere: 4 },
-      { tip: '4 cam. cu curte', etaj: 'parter', suprafata: 133.54, avans20: 235208, avans45: null, promo: false, camere: 4 },
+      { tip: 'Garsoniera cu balcon', suprafata: 42.91, avans20: 75093, avans45: null, promo: false, camere: 1 },
+      { tip: 'Garsoniera cu terasa', suprafata: 37.60, suprafataExtra: 27.52, tipExtra: 'terasa', avans20: 87312, avans45: null, promo: false, camere: 1 },
+      { tip: '2 cam. Tip 1', suprafata: 60.04, avans20: 99066, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 2', suprafata: 60.60, avans20: 99990, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 3 cu balcon', suprafata: 51.69, avans20: 85289, avans45: null, promo: false, camere: 2 },
+      { tip: '2 cam. Tip 4 cu terasa', suprafata: 46.53, suprafataExtra: 31.88, tipExtra: 'terasa', avans20: 103076, avans45: null, promo: false, camere: 2 },
+      { tip: '3 cam. cu balcon', suprafata: 84.04, avans20: 138666, avans45: null, promo: false, camere: 3 },
+      { tip: '3 cam. cu terasa', suprafata: 75.28, suprafataExtra: 45.76, tipExtra: 'terasa', avans20: 161964, avans45: null, promo: false, camere: 3 },
+      { tip: '4 cam. cu balcon', suprafata: 109.39, avans20: 180494, avans45: null, promo: false, camere: 4 },
+      { tip: '4 cam. cu terasa', suprafata: 109.39, suprafataExtra: 29.37, tipExtra: 'terasa', avans20: 194288, avans45: null, promo: false, camere: 4 },
     ],
-    parcare: { exterior: { disponibil: true, pret: 8900, notaTVA: 'TVA inclus' }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 8900, notaTVA: 'TVA inclus' } },
-    dotari: ['Incalzire prin pardoseala INNOFLOW', 'Smart Home Ready', 'Centrala termica proprie in condensare', 'Tamplarie VEKA tripan 7 camere', 'Kit aer conditionat preinstalat', 'Obiecte sanitare suspendate Grohe', 'Prize Gewiss', 'Lift silentios Schindler', 'Balustrade sticla securizata', 'Statii incarcare auto electrica', 'Supraveghere video spatii comune'],
+    parcare: {
+      exterior: { disponibil: false, pret: null },
+      interior: { disponibil: false, pret: null },
+      subteran: { disponibil: true, pret: null },
+    },
+    dotari: [
+      'Predare la cheie, finisaje la alegere',
+      'Incalzire prin pardoseala Uponor (PEX-A)',
+      'Termostate inteligente in fiecare camera',
+      'Tamplarie Salamander BluEvolution, tripan 52 mm',
+      'Pereti despartitori Ytong XELLA, izolare fonica',
+      'Structura cadre beton armat, radier general 80 cm',
+      'Usi de acces Pinum Blindo 3, 35 dB',
+      'Smart Home cu videointerfon',
+      'Kit aer conditionat',
+      'Obiecte sanitare Roca, Grohe, Geberit',
+      'Lift silentios Schindler',
+      'Balustrade din sticla securizata',
+      'Parc privat 4.500 mp',
+      'Loc de joaca 388 mp si pista de alergare',
+      'Parcari demisol EV Ready',
+    ],
     puncteInteres: [
-      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '600m' },
-      { tip: 'parc', nume: 'Parcul Teilor', distanta: '8 min pe jos' },
-      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '10 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M3)', distanta: '18 min pe jos' },
-      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M3)', distanta: '7 min cu masina' },
-      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '7 min cu masina' },
-      { tip: 'mall', nume: 'IKEA Pallady', distanta: '8 min cu masina' },
-      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '9 min cu masina' },
-      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '9 min cu masina' },
-      { tip: 'mall', nume: 'Kaufland Pantelimon', distanta: '11 min cu masina' },
-      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '15 min cu masina' },
-      { tip: 'transport', nume: 'Acces Autostradă A2', distanta: '24 min cu masina' },
+      { tip: 'metrou', nume: 'Metrou Nicolae Teclu (M3)', distanta: '1,2 km · 15 min pe jos' },
+      { tip: 'metrou', nume: 'Metrou Anghel Saligny (M3)', distanta: '1,8 km · 4 minute cu masina' },
+      { tip: 'mall', nume: 'IKEA Pallady', distanta: '1 km · 3 min cu masina' },
+      { tip: 'scoala', nume: 'Waldorf Bucuresti / Spectrum School', distanta: '1,1 km · 14 min pe jos' },
+      { tip: 'parc', nume: 'Parcul Teilor', distanta: '1 km · 5 min cu masina' },
+      { tip: 'medical', nume: 'Campus Medical Regina Maria Titan', distanta: '1,2 km · 15 min pe jos' },
+      { tip: 'mall', nume: 'Jumbo / Leroy Merlin Pallady', distanta: '1 km · 3 min cu masina' },
+      { tip: 'scoala', nume: 'Liceul Internațional de Informatică', distanta: '1,3 km · 5 min cu masina' },
+      { tip: 'parc', nume: 'Parcul IOR (Titan)', distanta: '2 km · 7 min cu masina' },
+      { tip: 'mall', nume: 'Mega Mall Pantelimon', distanta: '2 km · 7 min cu masina' },
+      { tip: 'mall', nume: 'Auchan Titan / Pallady', distanta: '1,5 km · 5 min cu masina' },
+      { tip: 'transport', nume: 'Acces Autostradă A2', distanta: '1 km · 3 min cu masina' },
+      { tip: 'medical', nume: 'Spitalul de Copii Victor Gomoiu', distanta: '2,8 km · 6 min cu mașina' },
     ],
     galerie: [],
-    seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 56',
-    seoDescription: 'Neofort 56 Faza 2, Titan Nou, Sector 3. Apartamente 4 camere, unele cu curte proprie, de la 195.000€+TVA. Smart Home Ready, metrou Anghel Saligny 7 min.',
+    seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 56 Faza 3',
+    seoDescription: 'Neofort 56 Faza 3, Titan-Pallady, Sector 3: garsoniere, 2, 3 și 4 camere de la 75.093€+TVA, predare T1 2029. Fazele 1 și 2, livrate și locuite, pot fi vizitate.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',
@@ -705,7 +781,7 @@ Apartamentul de 3 camere cu terasă generoasă la etajele 3-4, 157,87 mp total (
 
 Centrala termică proprie 24kW în condensare — individuală per apartament — este un detaliu tehnic cu impact financiar real. O centrală în condensare operează la randament de 95-98% față de 85-88% pentru centralele clasice, ceea ce înseamnă o reducere a consumului de gaz cu aproximativ 10-15% anual. La o factură medie de gazele de 150€/lună în sezonul rece (6 luni), economia anuală este de 90-135€. Pe 20 de ani de locuire, economia cumulată depășește 1.800-2.700€ — o valoare concretă care justifică diferența față de proiecte cu centrale cu eficiență mai scăzută.
 
-Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitecturală care asigură că dormitoarele sunt separate de zona de zi, fără circulație prin dormitor pentru accesul la baie. Acest detaliu de planimetrie, aparent minor, face o diferență reală în calitatea locuirii — mai ales pentru cupluri și familii cu copii. Eligibil Prima Casă și credite ipotecare standard. Disponibil imediat. Vânzare directă, fără comision. Descoperiți și [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) cu metroul la 20m, sau [Neofort 56 Pallady Titan Teclu](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) cu sistem Smart Home. Vezi și analiza [merită apartament în Titan-Pallady în 2026?](/blog/merita-apartament-titan-pallady-2026)`,
+Toate cele 84 de apartamente Neofort 44 sunt decomandate — o decizie arhitecturală care asigură că dormitoarele sunt separate de zona de zi, fără circulație prin dormitor pentru accesul la baie. Acest detaliu de planimetrie, aparent minor, face o diferență reală în calitatea locuirii — mai ales pentru cupluri și familii cu copii. Eligibil Prima Casă și credite ipotecare standard. Disponibil imediat. Vânzare directă, fără comision. Descoperiți și [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) cu metroul la 20m, sau [Neofort 56 Titan Pallady Faza 3](/ansamblu-rezidential/neofort-56-pallady-titan-teclu), cu parc privat de 4.500 m². Vezi și analiza [merită apartament în Titan-Pallady în 2026?](/blog/merita-apartament-titan-pallady-2026)`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.415636, lng: 26.177416 },
     zone: ['titan-pallady', 'sector-3'],
