@@ -385,7 +385,7 @@ Faza 3 a fost gândită ca un microclimat rezidențial, cu natură, liniște și
 • Work from Garden — terasă acoperită cu mese, scaune și Wi-Fi, pentru cei care lucrează de acasă.
 • Loc de joacă multifuncțional de 388 m² pe tartan, cu leagăne și tobogane pentru cei mici, dar și tenis de masă, șah în aer liber și fotbal pentru adolescenți și adulți.
 • Pistă de alergare de 480 m² pe tartan, integrată în interiorul ansamblului.
-• Parcări la demisol pregătite pentru mașini electrice (EV Ready), cu trasee electrice pre-instalate pentru montarea ulterioară a stațiilor de încărcare.
+• Parcări la demisol pregătite pentru mașini electrice (EV Ready), cu trasee electrice pre-instalate pentru montarea ulterioară a stațiilor de încărcare. Locurile de parcare la demisol pornesc de la 11.500€ + TVA, cele supraterane de la 9.000€ + TVA, iar boxele de depozitare de la 4.320€ + TVA.
 
 **Amplasament și transport**
 Theodor Pallady este astăzi unul dintre cele mai dinamice poluri rezidențiale ale Bucureștiului. Stația de metrou Nicolae Teclu, pe magistrala M3, este la 1,2 km, aproximativ 15 minute de mers pe jos, cu legătură directă spre Dristor, Piața Unirii și mai departe spre vestul orașului. Stația Anghel Saligny, tot pe M3, este la 1,8 km, 4 minute cu mașina. Pe Bulevardul Theodor Pallady circulă o rețea completă de linii STB de autobuz și tramvai.
@@ -396,7 +396,7 @@ Accesul rutier este unul dintre punctele forte ale zonei: intrarea pe Autostrada
 Zona este unul dintre cei mai populari poli comerciali din estul orașului. IKEA Pallady și Jumbo / Leroy Merlin Pallady sunt la 1 km (3 minute cu mașina), Auchan Titan / Pallady la 1,5 km (5 minute), iar Mega Mall Pantelimon la 2 km (7 minute). Pe aceeași axă se află hypermarketuri, magazine de mobilier, bricolaj, electronice și sport, iar zona comercială Mega Image este la 3 minute de mers pe jos. ParkLake Shopping Center este la câteva minute cu mașina.
 
 **Educație, sănătate și spații verzi**
-Waldorf București / Spectrum School este la 1,1 km, 14 minute pe jos, iar Liceul Internațional de Informatică la 1,3 km, 5 minute cu mașina. Zona beneficiază și de noul complex educațional din zona Theodor Pallady – Victor Brauner, cu 15 săli de clasă, laboratoare, bibliotecă și sală de sport, alături de demersurile Sectorului 3 pentru creșe, grădinițe și școli suplimentare. Campus Medical Regina Maria Titan este la 1,2 km, 15 minute pe jos, iar Spitalul de Copii Victor Gomoiu la 2,8 km, 6 minute cu mașina. Pentru plimbări, Parcul Teilor este la 1 km (5 minute cu mașina), iar Parcul IOR, unul dintre cele mai mari parcuri ale Bucureștiului, la 2 km (7 minute).
+Waldorf București / Spectrum School este la 1,1 km, 14 minute pe jos, iar Liceul Internațional de Informatică la 1,3 km, 5 minute cu mașina. Zona este susținută de investiții publice majore în educație, precum noul Complex Educațional Victor Brauner, deschis în 2025, dotat cu 15 săli de clasă, terenuri de sport și săli multifuncționale, alături de demersurile Sectorului 3 pentru creșe, grădinițe și școli suplimentare. Campus Medical Regina Maria Titan este la 1,2 km, 15 minute pe jos, iar Spitalul de Copii Victor Gomoiu la 2,8 km, 6 minute cu mașina. Pentru plimbări, Parcul Teilor este la 1 km (5 minute cu mașina), iar Parcul IOR, unul dintre cele mai mari parcuri ale Bucureștiului, la 2 km (7 minute).
 
 **Construcție și finisaje**
 Parteneriatul cu echipa de arhitecți și ingineri s-a concentrat pe soluții tehnice moderne, ergonomie, materiale de calitate și atenție la detaliile care nu se văd, dar fac diferența pe termen lung:
@@ -431,9 +431,11 @@ Programează o vizită la Fazele 1 și 2, vezi cum arată un apartament Neofort 
       { tip: '4 cam. cu terasa', suprafata: 109.39, suprafataExtra: 29.37, tipExtra: 'terasa', avans20: 194288, avans45: null, promo: false, camere: 4 },
     ],
     parcare: {
-      exterior: { disponibil: false, pret: null },
-      interior: { disponibil: false, pret: null },
-      subteran: { disponibil: true, pret: null },
+      deLa: true,
+      exterior: { disponibil: true, pret: 9000, notaTVA: '+TVA' },
+      interior: { disponibil: true, pret: 11500, notaTVA: '+TVA' },
+      subteran: { disponibil: false, pret: null },
+      boxe: { disponibil: true, pret: 4320, notaTVA: '+TVA' },
     },
     dotari: [
       'Predare la cheie, finisaje la alegere',

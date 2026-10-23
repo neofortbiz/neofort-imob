@@ -148,6 +148,13 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
                 Subterană {parcare.subteran.pret ? `— ${parcare.deLa ? 'de la ' : ''}${new Intl.NumberFormat('ro-RO').format(parcare.subteran.pret)}€ ${parcare.subteran.notaTVA || '+TVA'}` : ''}
               </span>
             )}
+            {/* Boxe (v435): camp optional, aceeasi forma ca locurile de parcare.
+                Proiectele fara `parcare.boxe` se afiseaza exact ca inainte. */}
+            {parcare.boxe?.disponibil && (
+              <span className="text-xs px-2 py-1 rounded bg-gray-100 text-gray-600">
+                Boxă {parcare.boxe.pret ? `— ${parcare.deLa ? 'de la ' : ''}${new Intl.NumberFormat('ro-RO').format(parcare.boxe.pret)}€ ${parcare.boxe.notaTVA || '+TVA'}` : ''}
+              </span>
+            )}
           </div>
         </div>
       )}
