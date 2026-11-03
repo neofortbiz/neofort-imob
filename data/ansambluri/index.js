@@ -331,8 +331,8 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
     sector: 'Sector 3',
     adresa: 'Zona Theodor Pallady, Sector 3, București',
     status: 'activ',
-    dataPredare: 'T1 2029',
-    pretDeLa: 75093,
+    dataPredare: 'T1 2028',
+    pretDeLa: 70802,
     etaje: 'D+P+3E',
     telefon: '0759 030 367',
     broker: 'Ramona BAICU',
@@ -376,7 +376,7 @@ Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroe
 La Neofort 56, „acasă" înseamnă mai mult decât metri pătrați. Înseamnă un spațiu bine gândit în care îți construiești viața de zi cu zi — de la arhitectură și compartimentare, până la lumina naturală, traseele pietonale, siguranța și spațiile verzi ale comunității. Adevărata valoare a unei construcții nu se vede în ziua predării cheilor, ci în felul în care rezistă și oferă confort de-a lungul anilor. Faza 3 continuă exact direcția primelor două: locuințe luminoase, bine compartimentate și sigure, înconjurate de verdeață.
 
 **Proiectul**
-Faza 3 este alcătuită din 7 corpuri cu regim mic de înălțime, D+P+3E, aflate în construcție, cu predare în trimestrul I 2029. Tipologiile acoperă garsoniere, apartamente de 2, 3 și 4 camere, atât cu balcon, cât și cu terase proprii. Prețurile pornesc de la 75.093€ + TVA pentru o garsonieră cu balcon, iar cea mai mare unitate, un apartament de 4 camere cu terasă, este la 194.288€ + TVA. Toate apartamentele se predau la cheie, complet finisate, cu finisaje la alegere și cu toate utilitățile racordate individual.
+Faza 3 este alcătuită din 7 corpuri cu regim mic de înălțime, D+P+3E, aflate în construcție, cu predare în trimestrul I 2028. Tipologiile acoperă garsoniere, apartamente de 2, 3 și 4 camere, atât cu balcon, cât și cu terase proprii. Prețurile pornesc de la 70.802€ + TVA pentru o garsonieră cu balcon, în promoție pe site (preț de listă 75.093€ + TVA), iar cea mai mare unitate, un apartament de 4 camere cu terasă, este la 194.288€ + TVA. Toate apartamentele se predau la cheie, complet finisate, cu finisaje la alegere și cu toate utilitățile racordate individual.
 
 **Facilitățile ansamblului**
 Faza 3 a fost gândită ca un microclimat rezidențial, cu natură, liniște și activități în aer liber chiar lângă casă:
@@ -417,9 +417,9 @@ Programează o vizită la Fazele 1 și 2, vezi cum arată un apartament Neofort 
     coordonate: { lat: 44.414173, lng: 26.203246 },
     zone: ['titan-pallady', 'sector-3'],
     tipuri: ['Garsoniera', '2 camere', '3 camere', '4 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 3, Titan-Pallady, Sector 3: 7 corpuri D+P+3E în construcție, predare T1 2029. Garsoniere, 2, 3 și 4 camere, cu balcon sau terasă proprie, de la 75.093€+TVA. Fazele 1 și 2, vândute integral și locuite, sunt în imediata apropiere și pot fi vizitate. Parc privat de 4.500 m², metrou Nicolae Teclu (M3) la 15 minute pe jos.',
+    descriere: 'Ansamblul Rezidențial Neofort 56 Faza 3, Titan-Pallady, Sector 3: 7 corpuri D+P+3E în construcție, predare T1 2028. Garsoniere, 2, 3 și 4 camere, cu balcon sau terasă proprie, de la 70.802€+TVA. Fazele 1 și 2, vândute integral și locuite, sunt în imediata apropiere și pot fi vizitate. Parc privat de 4.500 m², metrou Nicolae Teclu (M3) la 15 minute pe jos.',
     apartamente: [
-      { tip: 'Garsoniera cu balcon', suprafata: 42.91, avans20: 75093, avans45: null, promo: false, camere: 1 },
+      { tip: 'Garsoniera cu balcon', suprafata: 42.91, avans20: 70802, pretVechiAvans20: 75093, avans45: null, promo: true, camere: 1 },
       { tip: 'Garsoniera cu terasa', suprafata: 37.60, suprafataExtra: 27.52, tipExtra: 'terasa', avans20: 87312, avans45: null, promo: false, camere: 1 },
       { tip: '2 cam. Tip 1', suprafata: 60.04, avans20: 99066, avans45: null, promo: false, camere: 2 },
       { tip: '2 cam. Tip 2', suprafata: 60.60, avans20: 99990, avans45: null, promo: false, camere: 2 },
@@ -471,7 +471,7 @@ Programează o vizită la Fazele 1 și 2, vezi cum arată un apartament Neofort 
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Titan Pallady — Neofort 56 Faza 3',
-    seoDescription: 'Neofort 56 Faza 3, Titan-Pallady, Sector 3: garsoniere, 2, 3 și 4 camere de la 75.093€+TVA, predare T1 2029. Fazele 1 și 2, livrate și locuite, pot fi vizitate.',
+    seoDescription: 'Neofort 56 Faza 3, Titan-Pallady, Sector 3: garsoniere, 2, 3 și 4 camere de la 70.802€+TVA, predare T1 2028. Fazele 1 și 2, livrate și locuite, pot fi vizitate.',
   },
   {
     slug: 'neofort-50-titan-parc-ior',

@@ -1470,8 +1470,8 @@ Cea mai diversificată ofertă din zona Pallady: 10 tipuri de apartamente de 2, 
 [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) — 3 corpuri D+P+3E, predare în curând
 Cel mai bine conectat la metrou dintre toate proiectele active Neofort din zonă: Metrou Anghel Saligny (M3) la 20 de metri. Ofertă completă: garsonieră 53,70 mp de la 93.423 EUR, 2 camere 70,18 mp de la 129.833 EUR, 3 camere 94,04 mp de la 173.974 EUR, 4 camere 100,63 mp de la 186.166 EUR — toate la avans 20%, TVA exclus. Dotări superioare: centrală proprie în condensare, fațadă ventilată cu izolație din vată minerală bazaltică (incombustibilă, clasa A1), tâmplărie Salamander negru structurat cu geam tripan, obiecte sanitare suspendate, kit aer condiționat, ușă metalică multipunct antiefracție, lift silențios.
 
-[Neofort 56 Titan Pallady Faza 3](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) — 7 corpuri D+P+3E, predare T1 2029
-A treia fază a unui ansamblu ale cărui prime două faze sunt vândute integral și locuite — pot fi vizitate, ca să vezi pe viu finisajele și confortul. Garsoniere, 2, 3 și 4 camere, cu balcon sau terasă proprie, de la 75.093 EUR + TVA, plus parc privat de 4.500 m².
+[Neofort 56 Titan Pallady Faza 3](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) — 7 corpuri D+P+3E, predare T1 2028
+A treia fază a unui ansamblu ale cărui prime două faze sunt vândute integral și locuite — pot fi vizitate, ca să vezi pe viu finisajele și confortul. Garsoniere, 2, 3 și 4 camere, cu balcon sau terasă proprie, de la 70.802 EUR + TVA, plus parc privat de 4.500 m².
 
 [Neofort 44 Titan Pallady Teclu](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) — predare în curând
 Proiect în construcție în zona Teclu–Pallady. Contactați echipa Neofort pentru configurații disponibile și prețuri actualizate.
@@ -1656,7 +1656,7 @@ Dacă vrei prețul cel mai mic de intrare: Neofort 84 cu avans 45% pornește de 
 
 Dacă vrei metroul la ușă (literalmente): Neofort 83, cu Metrou Anghel Saligny la 20m. Prețul de start este 93.423 EUR pentru garsonieră la avans 20%. Fără echivalent în portofoliu ca proximitate față de metrou.
 
-Dacă vrei un apartament finalizat, disponibil imediat: Neofort 82 și Neofort 50 Faza 1 sunt opțiunile pentru cei care nu vor să aștepte. Dacă vrei să vezi calitatea înainte să cumperi din construcție: Fazele 1 și 2 ale Neofort 56, livrate și locuite, pot fi vizitate, iar Faza 3 pornește de la 75.093 EUR + TVA.
+Dacă vrei un apartament finalizat, disponibil imediat: Neofort 82 și Neofort 50 Faza 1 sunt opțiunile pentru cei care nu vor să aștepte. Dacă vrei să vezi calitatea înainte să cumperi din construcție: Fazele 1 și 2 ale Neofort 56, livrate și locuite, pot fi vizitate, iar Faza 3 pornește de la 70.802 EUR + TVA.
 
 Dacă bugetul este mediu-mare (110.000–180.000 EUR): alege dintre Neofort 83 (3–4 camere) sau Neofort 84 (3 camere Tip 2–4) în funcție de localizarea exactă preferată și termenul de predare acceptat.
 
@@ -3988,7 +3988,7 @@ Neofort 84 Titan–Pallady — în construcție, livrare estimată T1 2027. Apar
 
 Neofort 83 Titan–Pallady — lansare în curând, garsoniere și apartamente de 2, 3 și 4 camere, la 20 de metri de Metrou Anghel Saligny.
 
-Neofort 56 Titan–Pallady Faza 3 — în construcție, predare T1 2029. Garsoniere, 2, 3 și 4 camere de la 75.093 EUR + TVA. Fazele 1 și 2, livrate și locuite, pot fi vizitate.
+Neofort 56 Titan–Pallady Faza 3 — în construcție, predare T1 2028. Garsoniere, 2, 3 și 4 camere de la 70.802 EUR + TVA. Fazele 1 și 2, livrate și locuite, pot fi vizitate.
 
 Neofort 44 Titan–Pallady — lansare în curând, garsoniere și apartamente de 2 și 3 camere.
 
