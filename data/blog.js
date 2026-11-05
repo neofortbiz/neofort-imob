@@ -1323,9 +1323,9 @@ Cost: 10% impozit × 1.990 RON/lună = 199 RON/lună — amortizat în câteva l
 
 **Interpretare practică pentru piața București 2026:**
 
-*[Apartament 2 camere Neofort 49 Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — 142.800€ (~746.800 RON):*
-- Avans 15% = 21.420€ → principalul = 121.380€ (~634.700 RON)
-- Venit minim net solo (25 ani, 8%): **12.250 RON/lună**
+*[Apartament 2 camere Neofort 49 Militari](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — 138.842€ (~726.100 RON):*
+- Avans 15% = 20.826€ → principalul = 118.016€ (~617.200 RON)
+- Venit minim net solo (25 ani, 8%): **11.900 RON/lună**
 
 *[Apartament 2 camere Neofort 44](/ansamblu-rezidential/neofort-44-titan-pallady-teclu) — 61.775€ (~323.100 RON):*
 - Avans 15% = 9.266€ → principalul = 52.509€ (~274.600 RON)

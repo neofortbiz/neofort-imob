@@ -294,7 +294,7 @@ Bulevardul Iuliu Maniu este una dintre puținele artere principale din Bucureșt
 
 Parcul Liniei — cel mai lung parc liniar din Europa, cu 10 kilometri de alei pietonale continue, piste de biciclete și zone de agrement — este o resursă urbană de agrement cu totul specială pentru locuitorii zonei Militari-Iuliu Maniu. Nu este un parc punctual în care faci o tură și te întorci; este un coridor verde care pornește din Piața Unirii și se extinde spre vest, permițând alergatul, ciclismul și plimbările lungi fără a traversa intersecții majore. La 10 minute cu mașina din Penthouse-ul Neofort 76, Parcul Liniei devine o extensie naturală a spațiului de locuire.
 
-Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat în jur de 800€. Rezervare cu 2.000€, consultanță gratuită. În zona Militari, vedeți și [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — proiect boutique de 16 apartamente, cu ultimul apartament de 2 camere disponibil, 71,40 mp, 142.800€+TVA. Pentru criterii de evaluare, vezi [ghidul de alegere a unui ansamblu rezidențial nou în București](/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026).`,
+Investiția în Penthouse-ul Neofort 76 este susținută și de tendința macroeconomică: Sectorul 6 a beneficiat de cele mai mari creșteri de prețuri imobiliare din București în 2023-2025 (+22-28%), datorită extinderii M3 și a modernizării infrastructurii. Finalizat, disponibil imediat, prețul pe metru pătrat în jur de 800€. Rezervare cu 2.000€, consultanță gratuită. În zona Militari, vedeți și [Neofort 49 Militari Gorjului](/ansamblu-rezidential/neofort-49-militari-metrou-gorjului) — proiect boutique de 16 apartamente, cu ultimul apartament de 2 camere disponibil, 71,40 mp, în promoție la 138.842€+TVA. Pentru criterii de evaluare, vezi [ghidul de alegere a unui ansamblu rezidențial nou în București](/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026).`,
     brokerTel: '0759 030 367',
     coordonate: { lat: 44.43368, lng: 25.998051 },
     zone: ['militari', 'sector-6'],
@@ -672,7 +672,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     adresa: 'Strada Vistiernicul Stavrinos, Sector 6, Bucuresti',
     status: 'constructie',
     dataPredare: 'In curand',
-    pretDeLa: 142800,
+    pretDeLa: 138842,
     etaje: 'S+P+3E',
     telefon: '0759 030 367',
     broker: 'Ramona BAICU',
@@ -685,7 +685,7 @@ Succesul comercial al proiectului, comunitatea deja formată și gradul ridicat 
     },
     descriereCompleta: `Neofort 49 este răspunsul Neofort IMO pentru cumpărătorii care caută un apartament în curs de construire în zona Militari, la prețuri accesibile și cu acces direct la metroul M3: un proiect boutique de 16 apartamente pe Strada Vistiernicul Stavrinos, Sectorul 6, din care a mai rămas un singur apartament disponibil.
 
-Ultimul apartament disponibil: 2 camere Tip 6, 71,40 mp, 142.800 € + TVA — cea mai mare suprafață de 2 camere din proiect. Garsoniera și celelalte tipuri de 2 camere au fost vândute integral. Parcare subterană 15.000€ TVA inclus.
+Ultimul apartament disponibil: 2 camere Tip 6, 71,40 mp, la preț promoțional de 138.842 € + TVA (de la 142.800 €) — cea mai mare suprafață de 2 camere din proiect. Garsoniera și celelalte tipuri de 2 camere au fost vândute integral. Parcare subterană 15.000€ TVA inclus.
 
 Zona Militari-Gorjului a câștigat semnificativ în atractivitate după extinderea liniei M3 spre Drumul Taberei. Metroul Gorjului la 950m, aproximativ 12 minute pe jos, și Metroul Păcii la 5 minute cu mașina asigură accesul spre Piața Unirii în 10 minute și spre Drumul Taberei în 5 minute, fără dependență de traficul consistent al Bulevardului Iuliu Maniu sau al Bulevardului Timișoara. Această conectivitate face zona extrem de atractivă pentru angajații care lucrează în centrul Bucureștiului sau în zona de vest.
 
@@ -695,7 +695,7 @@ Plaza Romania la 10 minute cu mașina, Militari Shopping Center la 8 minute, Bri
 
 Cu 18 unități finalizate, cheltuielile comune de întreținere sunt reduse și gestionabile, iar comunitatea de locatari este restrânsă și omogenă. Pentru cumpărătorii aflați la prima locuință sau pentru investitorii care caută randament bun în chirie, ultimul apartament disponibil din Neofort 49 reprezintă o oportunitate concretă și imediată. Vânzare directă, fără comision.
 
-Un argument suplimentar pentru Neofort 49 ca investiție: apartamentele de 2 camere se închiriază curent în zona Militari cu 550-650€/lună, ceea ce generează un randament brut estimativ de 4,6-5,5% anual față de prețul de 142.800 €. Zona Militari este în mod constant printre zonele cu cea mai ridicată cerere de chirie din București, alimentată de angajații din zona de business a Sectorului 6 și din centru. Vânzare directă, fără comision.
+Un argument suplimentar pentru Neofort 49 ca investiție: apartamentele de 2 camere se închiriază curent în zona Militari cu 550-650€/lună, ceea ce generează un randament brut estimativ de 4,8-5,6% anual față de prețul promoțional de 138.842 €. Zona Militari este în mod constant printre zonele cu cea mai ridicată cerere de chirie din București, alimentată de angajații din zona de business a Sectorului 6 și din centru. Vânzare directă, fără comision.
 
 Zona Militari-Gorjului are unul dintre cele mai bune rapoarte preț/conectivitate din București. Proiectul de 16 unități s-a vândut aproape integral, ceea ce confirmă cererea pentru această combinație de preț, finisaje superioare mediei și acces la metrou. Ultimul apartament disponibil — 2 camere de 71,40 mp — este și cel mai spațios din categoria sa.
 
@@ -712,14 +712,14 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     coordonate: { lat: 44.4311, lng: 26.012883 },
     zone: ['militari', 'sector-6'],
     tipuri: ['2 camere'],
-    descriere: 'Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 16 apartamente în construcție. Ultimul apartament disponibil: 2 camere 71,40 mp, 142.800€+TVA. Metrou Gorjului (M3) la 950m. Centrală proprie, încălzire pardoseală, tâmplărie Salamander tripan, kit aer condiționat, finisaje complete.',
+    descriere: 'Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 16 apartamente în construcție. Ultimul apartament disponibil: 2 camere 71,40 mp, preț promoțional 138.842€+TVA. Metrou Gorjului (M3) la 950m. Centrală proprie, încălzire pardoseală, tâmplărie Salamander tripan, kit aer condiționat, finisaje complete.',
     apartamente: [
       { tip: 'Garsoniera', etaj: 'et. 1-3', suprafata: 38.90, avans20: 77800, avans45: null, promo: false, camere: 1, stocEpuizat: true },
       { tip: '2 camere tip 2', etaj: 'et. 1-3', suprafata: 60.85, avans20: 121700, avans45: null, promo: true, camere: 2, pretPromo: 118807, stocEpuizat: true },
       { tip: '2 camere tip 3', etaj: 'et. 1-3', suprafata: 63.25, avans20: 126500, avans45: null, promo: false, camere: 2, stocEpuizat: true },
       { tip: '2 camere tip 4', etaj: 'et. 1-3', suprafata: 60.45, avans20: 120900, avans45: null, promo: true, camere: 2, pretPromo: 118007, stocEpuizat: true },
       { tip: '2 camere tip 5', etaj: 'et. 1-3', suprafata: 60.30, avans20: 120600, avans45: null, promo: true, camere: 2, pretPromo: 117707, stocEpuizat: true },
-      { tip: '2 camere tip 6', etaj: 'et. 1-3', suprafata: 71.40, avans20: 142800, avans45: null, promo: false, camere: 2 },
+      { tip: '2 camere tip 6', etaj: 'et. 1-3', suprafata: 71.40, avans20: 142800, avans45: null, promo: true, camere: 2, pretPromo: 138842 },
     ],
     parcare: { exterior: { disponibil: false, pret: null }, interior: { disponibil: false, pret: null }, subteran: { disponibil: true, pret: 15000, notaTVA: 'TVA inclus' } },
     dotari: ['Centrala proprie de apartament', 'Incalzire prin pardoseala', 'Tamplarie Salamander negru structurat', 'Kit aer conditionat', 'Baie complet echipata', 'Obiecte sanitare incastrabile suspendate', 'Usa metalica multipunct antiefractie', 'Lift silentios'],
@@ -739,7 +739,7 @@ Dotările Neofort 49 — centrală proprie în condensare, încălzire prin pard
     ],
     galerie: [],
     seoTitle: 'Ansamblu Rezidențial Militari Gorjului — Neofort 49',
-    seoDescription: 'Neofort 49, Sector 6. Ultimul apartament disponibil: 2 camere, 71,40 mp, 142.800€+TVA. Proiect boutique de 16 apartamente, Metrou Gorjului la 950m.',
+    seoDescription: 'Neofort 49, Sector 6. Ultimul apartament disponibil: 2 camere, 71,40 mp, promoție 138.842€+TVA. Proiect boutique de 16 apartamente, Metrou Gorjului la 950m.',
   },
   {
     slug: 'neofort-44-titan-pallady-teclu',
