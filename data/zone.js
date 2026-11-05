@@ -130,13 +130,13 @@ Sectorul 6 este și cel în care se construiește **magistrala M5**, pe direcți
 
   'sector-2': {
     unghi: 'administrativ',
-    intro: `Sectorul 2 acoperă nord-estul Bucureștiului, de la Piața Romană până la salba de lacuri Tei–Plumbuita–Fundeni. Cele două ansambluri rezidențiale Neofort IMO de aici marchează exact cele două extreme ale sectorului: unul semicentral, finalizat, celălalt în zona de lacuri, în construcție.`,
+    intro: `Sectorul 2 acoperă nord-estul Bucureștiului, de la Piața Romană până la salba de lacuri Tei–Plumbuita–Fundeni. Cele două ansambluri rezidențiale Neofort IMO de aici marchează exact cele două extreme ale sectorului: unul semicentral, cu predare în 2027, celălalt în zona de lacuri, cu predare în 2028.`,
     sectiuni: [
       {
         titlu: 'Micro-zonele Sectorului 2 în care construim',
         continut: `Cele două proiecte nu concurează între ele — sunt în piețe diferite.
 
-**Eminescu–Viitorului** este zonă semicentrală construită, cu acces pe jos la metroul Ștefan cel Mare și la rețeaua de colegii din zona Moșilor. Proiectul de acolo este finalizat, deci disponibil imediat.
+**Eminescu–Viitorului** este zonă semicentrală construită, cu acces pe jos la metroul Ștefan cel Mare și la rețeaua de colegii din zona Moșilor. Proiectul de acolo are predarea planificată pentru trimestrul I 2027.
 
 **Colentina–Fundeni** este în nordul sectorului, lângă lacuri și lângă Spitalul Clinic Fundeni, cu cel mai mic preț de pornire din sector și predare în 2028.
 
@@ -164,7 +164,7 @@ Pe partea de spații verzi, sectorul are cea mai mare suprafață de luciu de ap
     faq: [
       {
         intrebare: 'Câte ansambluri rezidențiale are Neofort IMO în Sectorul 2?',
-        raspuns: 'Două ansambluri rezidențiale active: unul finalizat în zona Eminescu–Viitorului și unul în construcție în Colentina–Fundeni, cu predare în 2028.',
+        raspuns: 'Două ansambluri rezidențiale active, ambele în construcție: unul în zona Eminescu–Viitorului, cu predare în 2027, și unul în Colentina–Fundeni, cu predare în 2028.',
       },
       {
         intrebare: 'Ce stație de metrou deservește Sectorul 2?',
@@ -344,7 +344,7 @@ Partea administrativă — impozit local, urbanism, arondare școlară — e tra
 
   'eminescu-viitorului': {
     unghi: 'cartier',
-    intro: `Eminescu-Viitorului este rețeaua de străzi liniștite dintre Bulevardul Dacia și Ștefan cel Mare, în partea semicentrală a Sectorului 2. Este o zonă deja construită, cu țesut interbelic și blocuri joase, în care nu se mai eliberează teren — iar ansamblul rezidențial Neofort IMO de aici este finalizat, deci disponibil imediat.`,
+    intro: `Eminescu-Viitorului este rețeaua de străzi liniștite dintre Bulevardul Dacia și Ștefan cel Mare, în partea semicentrală a Sectorului 2. Este o zonă deja construită, cu țesut interbelic și blocuri joase, în care nu se mai eliberează teren — iar ansamblul rezidențial Neofort IMO de aici, de doar 15 apartamente, are predarea planificată pentru trimestrul I 2027.`,
     sectiuni: [
       {
         titlu: 'Cum arată zona',
@@ -366,7 +366,7 @@ Important de verificat înainte de o decizie bazată pe o anumită școală: aro
       },
       {
         titlu: 'Cine se mută aici',
-        continut: `**Cumpărători care vor să se mute acum**, nu în doi-trei ani. Proiectul fiind finalizat, apartamentul se vede fizic înainte de semnătură — un criteriu care, pentru mulți, cântărește mai mult decât un preț mai mic pe stadiu incipient.
+        continut: `**Cumpărători care vor să se mute curând**, nu în doi-trei ani. Predarea este planificată pentru trimestrul I 2027, un orizont scurt față de majoritatea proiectelor noi din oraș, aflate încă la începutul construcției.
 
 **Cumpărători care caută poziție semicentrală**, cu acces pe jos la metrou și la un colegiu de tradiție, într-o zonă în care oferta nouă e rară pentru că nu mai există teren liber.
 
@@ -385,8 +385,8 @@ Partea administrativă — impozit local, urbanism, circumscripții școlare —
         raspuns: 'Aproximativ 19 minute până la stația Ștefan cel Mare, pe magistrala M1. Celelalte stații din apropiere se ating cu mașina.',
       },
       {
-        intrebare: 'Ansamblul din Eminescu-Viitorului este gata?',
-        raspuns: 'Da, este finalizat și disponibil imediat, ceea ce permite vizionarea apartamentului înainte de achiziție.',
+        intrebare: 'Când se predă ansamblul din Eminescu-Viitorului?',
+        raspuns: 'Predarea este planificată pentru trimestrul I 2027. Prețurile și tipologiile disponibile sunt în rezumatul de mai sus și pe pagina proiectului.',
       },
     ],
   },

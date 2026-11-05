@@ -3191,7 +3191,7 @@ Ce înseamnă în construcție vs. finalizat la un ansamblu rezidențial?
 Proiect în construcție: discount 10-20%, predare în 12-24 luni, risc de întârziere. Proiect finalizat: disponibil imediat, vezi exact ce cumperi, fără risc de întârziere. Alegerea depinde de buget și toleranța la risc.
 
 Neofort IMO are proiecte disponibile imediat în 2026?
-Da. [Neofort 82 Titan Pallady](/ansamblu-rezidential/neofort-82-titan-pallady), [Neofort 50 Faza 1](/ansamblu-rezidential/neofort-50-titan-parc-ior-faza-1), [Neofort 76](/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii) și [Neofort 11](/ansamblu-rezidential/neofort-11-eminescu-viitorului) sunt finalizate și disponibile imediat. [Contactează-ne](/contact) pentru disponibilitate actualizată la toate proiectele active.`,
+Da. [Neofort 82 Titan Pallady](/ansamblu-rezidential/neofort-82-titan-pallady), [Neofort 50 Faza 1](/ansamblu-rezidential/neofort-50-titan-parc-ior-faza-1) și [Neofort 76](/ansamblu-rezidential/neofort-76-iuliu-maniu-metrou-pacii) sunt finalizate și disponibile imediat. [Contactează-ne](/contact) pentru disponibilitate actualizată la toate proiectele active.`,
       },
       {
         id: 'concluzie',
