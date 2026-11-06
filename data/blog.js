@@ -75,61 +75,64 @@ export const AUTORI = {
 
 export const ARTICOLE = {
   'impozit-dublu-balcon-inchis-fara-autorizatie': {
-    titlu: 'Balcon Închis fără Autorizație: Ce Schimbă Ordinul 1389/2026 la Impozit și Regularizare',
-    seoTitle: 'Balcon Închis: Fără Impozit Dublu, Ordin 1389',
-    seoDesc: 'Ordinul 1389/2026: impozitul nu se dublează pentru balconul închis într-un bloc legal. Regularizare oricând, cu taxe obișnuite, amenzi prescrise după 3 ani.',
+    titlu: 'Impozit Dublu pentru Balcon Închis sau Unit cu Sufrageria: Ce Termen Ai, de Fapt',
+    seoTitle: 'Balcon Închis: Impozit Dublu și Termen 2027',
+    seoDesc: 'Majorarea cu 100% a impozitului pentru balcoane închise fără autorizație e în vigoare din 25 august 2026, nu din 2027. Art. 301 CATUC, termene și taxe.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '9 Octombrie 2026', dataISO: '2026-10-09', dataModificata: '2026-11-06', citire: '15 min',
+    data: '9 Octombrie 2026', dataISO: '2026-10-09', dataModificata: '2026-11-06', citire: '13 min',
     autor: 'raluca-nistor',
     image: '/blog/impozit-dublu-balcon-inchis-fara-autorizatie.avif',
-    descriere: 'Ordinul nr. 1389/2026 al Ministerului Dezvoltării clarifică art. 301 din noul Cod al urbanismului: închiderea balconului într-o clădire construită legal nu atrage impozit dublu, se regularizează oricând, cu taxe obișnuite, iar amenzile se prescriu după trei ani. Ce rămâne neclar la balconul unit cu camera.',
+    descriere: 'Noul Cod al urbanismului dublează impozitul pe clădire pentru lucrările neautorizate. Măsura este în vigoare din 25 august 2026, nu din 2027, iar balconul închis și balconul unit cu camera au regimuri juridice diferite, cu termene diferite.',
     peScurt: [
-      'Ordinul MDLPA nr. 1389/2026 precizează că majorarea cu 100% a impozitului din art. 301 alin. (11) al Legii nr. 169/2026 nu se aplică închiderii balcoanelor în clădirile construite legal.',
-      'Închiderea balconului la un bloc de locuințe este lucrare de importanță redusă: se poate regulariza oricând, cu taxe obișnuite, nu de zece ori mai mari.',
-      'Amenzile pentru lucrările finalizate de peste trei ani sunt prescrise. Unirea balconului cu camera rămâne o situație de clarificat cu primăria.',
+      'Impozitul pe clădire se majorează cu 100% pentru lucrările neautorizate, conform art. 301 alin. (11) din Legea nr. 169/2026, de la data constatării de către autoritatea locală.',
+      'Măsura este în vigoare din 25 august 2026. Titlurile care anunță aplicarea din 2027 confundă data intrării în vigoare cu termenul ferestrei de regularizare.',
+      'Închiderea unui balcon care nu se extinde pe domeniul public se poate regulariza oricând. Alte lucrări au termen până la 25 august 2027, cu taxe de zece ori mai mari.',
     ],
-    keywords: ['ordin 1389 2026 balcoane', 'impozit dublu balcon inchis', 'balcon inchis fara autorizatie', 'regularizare balcon inchis', 'unire balcon cu camera autorizatie', 'legea 169 2026 balcon', 'prescriptie amenda balcon inchis', 'art 301 catuc impozit majorat'],
+    keywords: ['impozit dublu balcon inchis', 'balcon inchis fara autorizatie', 'unire balcon cu camera autorizatie', 'autorizatie de regularizare catuc', 'legea 169 2026 balcon', 'termen regularizare 25 august 2027', 'amenda inchidere balcon fara acte', 'art 301 catuc impozit majorat'],
     hashtags: ['#CATUC', '#BalconInchis', '#ImpozitCladiri', '#NeofortIMO'],
     cuprins: [
-      { id: 'ordinul-1389', titlu: 'Ce schimbă Ordinul 1389/2026' },
+      { id: 'clarificare-ordin-1389', titlu: 'Clarificare: Ordinul 1389/2026' },
       { id: 'ce-spune-legea', titlu: 'Ce prevede exact legea' },
       { id: 'de-cand', titlu: 'De când se aplică, de fapt' },
       { id: 'inchis-vs-unit', titlu: 'Balcon închis vs. unit cu camera' },
-      { id: 'termen-taxe', titlu: 'Termenul din 2027: pentru cine contează' },
+      { id: 'termen-taxe', titlu: 'Termenul din 2027 și taxele x10' },
       { id: 'cum-regularizezi', titlu: 'Autorizația de regularizare' },
       { id: 'cum-inchizi-legal', titlu: 'Cum închizi legal un balcon' },
-      { id: 'amenzi', titlu: 'Amenzi și prescripția de 3 ani' },
+      { id: 'amenzi', titlu: 'Amenzile, peste impozit' },
       { id: 'la-vanzare', titlu: 'Ce se întâmplă la vânzare' },
       { id: 'faq', titlu: 'Întrebări frecvente' },
     ],
     sectiuni: [
       {
-        id: 'ordinul-1389',
-        h2: 'Ce s-a schimbat prin Ordinul nr. 1389/2026: fără impozit dublu pentru balconul închis',
-        continut: `**Actualizare, 6 noiembrie 2026.** La 5 noiembrie 2026, ministrul Dezvoltării, Lucrărilor Publice și Administrației, Marcel-Alexandru Stoica, a semnat **Ordinul nr. 1389/2026**, care aprobă instrucțiunile de aplicare a **articolului 301 din Legea nr. 169/2026** — exact articolul pe care se sprijinea majorarea cu 100% a impozitului. Ordinul nu modifică legea, ci o interpretează, ca autoritățile locale să o aplice unitar. La data actualizării, fusese semnat și transmis spre publicare în Monitorul Oficial.
+        id: 'clarificare-ordin-1389',
+        h2: 'Clarificare, noiembrie 2026: ce spune Ordinul MDLPA nr. 1389/2026',
+        continut: `**Completare din 6 noiembrie 2026.** La 5 noiembrie 2026, ministrul Dezvoltării, Lucrărilor Publice și Administrației, Marcel-Alexandru Stoica, a semnat **Ordinul nr. 1389/2026**, care aprobă instrucțiunile de aplicare a **articolului 301 din Legea nr. 169/2026** — articolul analizat mai jos. Ordinul nu modifică legea, ci explică autorităților locale cum trebuie aplicată, ca să existe o practică unitară. La data completării, fusese semnat și transmis spre publicare în Monitorul Oficial.
 
-Ce clarifică, pe scurt:
+Textul legii citat în acest articol rămâne același. Ce aduc instrucțiunile sunt următoarele clarificări:
 
-• **Majorarea cu 100% nu se aplică închiderii balconului într-o clădire construită legal.** Instrucțiunile spun că majorarea din alin. (11) „nu este aplicabilă, pentru închiderea balcoanelor în clădirile construite în mod legal". Ordinul face distincția între clădirile ridicate fără autorizație și clădirile autorizate la care s-au făcut ulterior lucrări punctuale. Dublarea impozitului pe un apartament legal de 70–80 mp pentru o modificare de 3–4 mp este descrisă ca o măsură care nu poate fi aplicată.
+• **Majorarea cu 100% a impozitului nu se aplică închiderii balconului într-o clădire construită legal.** Instrucțiunile precizează că majorarea din alin. (11) „nu este aplicabilă, pentru închiderea balcoanelor în clădirile construite în mod legal". Ordinul face distincția între clădirile ridicate fără autorizație și clădirile autorizate la care s-au făcut ulterior lucrări punctuale.
 • **Simpla existență a unui balcon închis nu este suficientă** pentru ca direcția de taxe locale să aplice majorarea.
-• **Regularizarea se poate cere oricând, cu taxe obișnuite.** Închiderea balcoanelor și a logiilor la clădirile de locuit cu mai multe niveluri este lucrare de importanță redusă, în regimul din alin. (2): fără termen-limită și fără taxele de zece ori mai mari, care rămân doar pentru regimul tranzitoriu din alin. (7)–(8). Excepție face extinderea balcoanelor sau a logiilor pe domeniul public, la parter.
-• **Amenzile pentru balcoanele închise acum mai bine de trei ani sunt prescrise.** Executarea lucrărilor fără autorizație intră sub termenul general de prescripție de trei ani, calculat de la finalizarea lucrării.
+• **Regularizarea se poate cere oricând, cu taxe obișnuite.** Închiderea balcoanelor și a logiilor la clădirile de locuit cu mai multe niveluri este tratată ca lucrare de importanță redusă, în regimul din alin. (2): fără termen-limită și fără taxele de zece ori mai mari, care rămân pentru regimul tranzitoriu din alin. (7)–(8). Excepție face extinderea balcoanelor sau a logiilor pe domeniul public, la parter.
+• **Amenzile pentru balcoanele închise de mai bine de trei ani sunt prescrise.** Executarea lucrărilor fără autorizație intră sub termenul general de prescripție de trei ani, calculat de la finalizarea lucrării.
 • **Legea nu se aplică retroactiv**, iar intrarea ei în vigoare nu obligă primăriile să facă un inventar general al balcoanelor închise fără autorizație.
 
-Pentru marea majoritate a proprietarilor — apartament într-un bloc autorizat, balcon închis cu tâmplărie, fără extindere — asta înseamnă: **fără impozit dublu, fără taxe înzecite și, dacă închiderea are peste trei ani, fără risc de amendă**. Regularizarea rămâne recomandabilă, pentru că închide definitiv subiectul la o vânzare sau la evaluarea făcută de bancă.
+Ce înseamnă asta pentru întrebările din titlu:
 
-Ce **nu** clarifică ordinul, după textul relatat public, este situația în care balconul a fost **unit cu camera** prin desfacerea peretelui. Explicăm mai jos de ce acolo prudența rămâne necesară. Restul articolului a fost actualizat în consecință; prevederile din lege citate mai jos rămân valabile, dar se citesc acum împreună cu instrucțiunile din ordin.`,
+• **Balcon închis** cu tâmplărie, într-un bloc autorizat, fără extindere pe domeniul public: conform instrucțiunilor, impozitul nu se dublează, regularizarea nu are termen și se face cu taxe obișnuite. Regularizarea rămâne recomandabilă, pentru că închide subiectul la o vânzare sau la evaluarea făcută de bancă.
+• **Balcon unit cu sufrageria**, prin desfacerea peretelui: ordinul, după textul relatat public, nu tratează explicit această situație. Analiza din secțiunile de mai jos rămâne valabilă, la fel și recomandarea de a verifica încadrarea concretă la autoritatea locală de urbanism.
+
+Secțiunile următoare descriu textul legii. Acolo unde instrucțiunile din ordin îl nuanțează — majorarea impozitului, termenul și taxele pentru închiderea balconului, amenzile — se citesc împreună cu clarificările de mai sus.`,
       },
       {
         id: 'ce-spune-legea',
-        h2: 'Ce prevede legea: majorarea cu 100% și cui i se aplică',
-        continut: `Prevederea care a declanșat discuția există în lege, dar nu se află acolo unde o caută majoritatea. Nu este o modificare a Codului fiscal, ci o prevedere din noul **Cod al amenajării teritoriului, urbanismului și construcțiilor (CATUC)**, adoptat prin **Legea nr. 169/2026**, publicată în **Monitorul Oficial nr. 661 din 10 august 2026**. Același act a abrogat Legea nr. 50/1991, care a guvernat autorizarea construcțiilor timp de peste trei decenii.
+        h2: 'Ce prevede exact legea: impozitul pe clădire se majorează cu 100%',
+        continut: `Măsura despre care s-a scris intens în ultimele zile este reală, dar nu se află acolo unde o caută majoritatea. Nu este o modificare a Codului fiscal, ci o prevedere din noul **Cod al amenajării teritoriului, urbanismului și construcțiilor (CATUC)**, adoptat prin **Legea nr. 169/2026**, publicată în **Monitorul Oficial nr. 661 din 10 august 2026**. Același act a abrogat Legea nr. 50/1991, care a guvernat autorizarea construcțiilor timp de peste trei decenii.
 
 Textul relevant este **articolul 301 alineatul (11)**:
 
 „valoarea impozitului pe clădiri se majorează cu 100%, de la data constatării situației de construire neautorizate"
 
-Acolo unde se aplică, trei detalii din fraza aceasta contează:
+Trei detalii din fraza aceasta contează mai mult decât titlurile:
 
 • **Majorarea este de 100%**, adică impozitul se dublează. Nu este o amendă plătită o singură dată, ci o stare care se menține an după an, până la remediere.
 • **Curge de la data constatării**, nu de la o dată calendaristică fixată în lege. Declanșatorul este controlul autorității locale, nu calendarul.
@@ -143,16 +146,14 @@ Legea elimină explicit și confuzia cea mai costisitoare, aceea că plata ar ec
 
 Impozitul dublu nu este deci un tarif pe care îl achiți ca să rămână lucrarea așa cum este. Plătești dublu **și** rămâi cu lucrarea neautorizată, expus în continuare la amendă și, în ultimă instanță, la desființare. Majorarea încetează doar în două situații: obții autorizația de regularizare sau desființezi lucrarea.
 
-**Cui i se aplică, după Ordinul nr. 1389/2026.** Instrucțiunile de aplicare restrâng mecanismul de mai sus la ceea ce urmărea legea: construcțiile ridicate fără autorizație. Închiderea balconului într-o clădire construită legal nu transformă apartamentul în construcție neautorizată și nu atrage majorarea impozitului.
-
 Baza peste care se aplică majorarea este impozitul obișnuit pe clădire, calculat după regulile din Codul fiscal — suprafață, zonă fiscală, an de construcție. Am detaliat mecanismul în articolul despre [cum se calculează impozitul pe apartament](/blog/e-proprietatea-2026-noul-sistem-de-impozitare).`,
       },
       {
         id: 'de-cand',
-        h2: 'De când se aplică legea — și ce înseamnă, de fapt, termenul din 2027',
-        continut: `În primele săptămâni după publicarea legii, majoritatea relatărilor au anunțat impozitul dublu „din 2027". Formularea era greșită în ambele direcții: legea se aplica deja, dar — cum a clarificat ulterior Ordinul nr. 1389/2026 — nu și pentru balconul închis într-un bloc construit legal.
+        h2: 'De când se aplică, de fapt — și de ce formularea „din 2027" induce în eroare',
+        continut: `Majoritatea relatărilor anunță impozitul dublu „din 2027". Formularea este greșită, iar diferența nu este academică: schimbă complet ce ai de făcut și când.
 
-**Legea este deja în vigoare.** CATUC a intrat în vigoare la **25 august 2026**. Prevederea din art. 301 alin. (11) produce efecte de atunci, iar pentru lucrările cărora li se aplică majorarea curge **de la data constatării** situației de construire neautorizate. Legea nu se aplică însă retroactiv, iar închiderea balconului într-o clădire legală nu se numără printre aceste lucrări.
+**Legea este deja în vigoare.** CATUC a intrat în vigoare la **25 august 2026**. Prevederea din art. 301 alin. (11) produce efecte de atunci, iar majorarea curge **de la data constatării** situației de construire neautorizate. Dacă un inspector constată astăzi un balcon închis fără acte, majorarea se aplică din acel moment, nu peste un an.
 
 **Atunci de unde apare 2027?** Din altă parte a aceluiași articol. Alineatul (7) prevede o fereastră de regularizare „pentru o perioadă de maximum 1 an de la intrarea în vigoare a prezentei legi" — adică aproximativ până la **25 august 2027** — pentru categoriile de construcții care nu beneficiază de regimul permanent.
 
@@ -161,7 +162,7 @@ Diferența este importantă pentru oricine are o lucrare neautorizată:
 • 2027 **nu** este momentul în care începe sancțiunea. Sancțiunea a început deja.
 • 2027 este momentul în care, pentru anumite categorii, **se închide posibilitatea de a regulariza**. După expirare, primarul are la dispoziție 30 de zile pentru a sesiza instanța în vederea desființării lucrărilor rămase neregularizate.
 
-Cu alte cuvinte, pentru lucrările din regimul tranzitoriu termenul nu este un moratoriu care îți mai dă un an de liniște, ci perioada în care mai poți repara situația. Pentru simpla închidere a balconului, termenul din 2027 nu are relevanță: regularizarea se poate cere oricând.`,
+Cu alte cuvinte, termenul nu este un moratoriu care îți mai dă un an de liniște. Este exact invers: perioada în care mai poți repara situația, în timp ce impozitul majorat poate deja să curgă.`,
       },
       {
         id: 'inchis-vs-unit',
@@ -182,20 +183,18 @@ Consecința practică:
 
 | Situația ta | Regim | Termen de regularizare |
 |---|---|---|
-| Ai închis balconul cu termopan, fără extindere pe domeniul public | Permanent, lucrare de importanță redusă | Fără termen — oricând, cu taxe obișnuite |
+| Ai închis balconul cu termopan, fără extindere pe domeniul public | Permanent | Fără termen — oricând |
 | Ai unit balconul cu camera, prin desfacerea peretelui | Cel mai probabil tranzitoriu | Aproximativ 25 august 2027 |
 | Ai extins balconul peste limita construcției sau pe domeniul public | Tranzitoriu, dacă e regularizabil | Aproximativ 25 august 2027 |
 
 Motivul este de text: legea enumeră la regimul permanent „lucrările de închidere a balcoanelor". Desfacerea peretelui dintre balcon și cameră nu este o închidere de balcon — este o intervenție asupra unui element de compartimentare, uneori cu rol structural, și schimbă suprafața utilă a locuinței. Prin urmare, **cel mai probabil** intră în categoria generală acoperită de fereastra tranzitorie.
 
-**Ordinul nr. 1389/2026 confirmă prima linie a tabelului** și adaugă două lucruri: la închiderea balconului într-o clădire legală nu se aplică majorarea impozitului, iar regularizarea se face cu taxele standard de autorizare. Pentru unirea balconului cu camera, ordinul nu aduce, după textul relatat public, o precizare explicită. Logica lui — o lucrare punctuală pe o clădire autorizată nu transformă clădirea în construcție neautorizată — pare să acopere și această situație în privința impozitului, dar textul vorbește expres doar despre închiderea balcoanelor.
-
-Formularea prudentă este intenționată. Nici legea, nici ordinul **nu spun explicit** unde se încadrează unirea balconului cu camera, iar încadrarea rezultă din interpretarea textului. Înainte de a lua o decizie pe baza acestui articol, **confirmă situația ta concretă cu autoritatea locală de urbanism** sau cu un avocat — mai ales dacă peretele desfăcut avea rol structural, caz în care intervin cerințe suplimentare de rezistență.`,
+Formularea prudentă este intenționată. Legea **nu spune explicit** unde se încadrează unirea balconului cu camera, iar încadrarea rezultă din interpretarea textului. Înainte de a lua o decizie pe baza acestui articol, **confirmă situația ta concretă cu autoritatea locală de urbanism** sau cu un avocat — mai ales dacă peretele desfăcut avea rol structural, caz în care intervin cerințe suplimentare de rezistență.`,
       },
       {
         id: 'termen-taxe',
-        h2: 'Termenul de 25 august 2027 și taxele x10: pentru cine mai contează',
-        continut: `Pentru lucrările care intră în regimul tranzitoriu — **nu și pentru simpla închidere a balconului**, pe care Ordinul nr. 1389/2026 o scoate explicit din acest regim — fereastra are două costuri: unul de timp și unul de bani.
+        h2: 'Termenul de 25 august 2027 și taxele de zece ori mai mari',
+        continut: `Pentru lucrările care intră în regimul tranzitoriu, fereastra are două costuri: unul de timp și unul de bani.
 
 **Costul de timp.** Perioada este de maximum un an de la intrarea în vigoare a Codului, deci se încheie în jurul datei de **25 august 2027**. După expirare, autoritatea nu mai poate emite autorizație de regularizare pentru acele categorii. Primarul are apoi **30 de zile** de la expirarea termenului pentru a se adresa instanței în vederea desființării construcțiilor rămase neregularizate.
 
@@ -203,12 +202,12 @@ Formularea prudentă este intenționată. Nici legea, nici ordinul **nu spun exp
 
 Pus cap la cap, pentru cineva care a unit balconul cu camera fără acte, situația arată așa:
 
-• ordinul nu exclude explicit majorarea impozitului pentru această lucrare, deci situația fiscală trebuie confirmată cu direcția de taxe locale
+• impozitul pe apartament poate fi deja majorat cu 100%, din momentul constatării
 • regularizarea mai este posibilă până în jurul datei de 25 august 2027
 • taxele de regularizare sunt de zece ori mai mari decât cele obișnuite
 • după termen, rămâne desființarea, cerută în instanță de primar
 
-Comparația care contează nu este între „plătesc taxa de zece ori" și „nu fac nimic". Este între o taxă plătită o dată și riscul de desființare după termen, la care se adaugă blocajul la vânzare. Pe un orizont de câțiva ani, varianta „nu fac nimic" devine, aproape invariabil, cea mai scumpă.`,
+Comparația care contează nu este între „plătesc taxa de zece ori" și „nu fac nimic". Este între o taxă plătită o dată și un impozit dublu plătit în fiecare an, la care se adaugă riscul de amendă și blocajul la vânzare. Pe un orizont de câțiva ani, varianta „nu fac nimic" devine, aproape invariabil, cea mai scumpă.`,
       },
       {
         id: 'cum-regularizezi',
@@ -222,9 +221,7 @@ Ce presupune concret dosarul:
 • **documentarea situației existente** — releveu și documentație tehnică a ceea ce există efectiv pe teren, nu a ceea ce figurează în actele vechi
 • **expertiză tehnică**, care confirmă respectarea cerințelor fundamentale de calitate în construcții. Este punctul critic atunci când s-a intervenit asupra unui perete, pentru că expertul trebuie să se pronunțe asupra rezistenței și stabilității
 • **conformitatea cu regulile de urbanism** aplicabile zonei — o lucrare care încalcă regulamentul local nu devine regularizabilă doar pentru că există
-• **taxele**: standard pentru închiderea balconului, cum confirmă Ordinul nr. 1389/2026, și de zece ori cuantumul normal doar pentru lucrările din regimul tranzitoriu
-
-Pentru un balcon închis demult, relatările despre ordin menționează că data închiderii poate fi dovedită printr-o declarație pe propria răspundere, corelată cu anul construcției blocului. Cere la primăria ta formularul și lista exactă de documente, pentru că procedura locală poate diferi.
+• **taxele**, calculate la de zece ori cuantumul normal în regimul tranzitoriu
 
 Două capcane de evitat. Prima: dacă lucrarea nu respectă cerințele de calitate sau regulile de urbanism, autorizația **nu** se emite, iar dosarul depus nu oprește consecințele. A doua: regularizarea privește situația de fapt, deci nu are rost depusă pe baza unei documentații care descrie altceva decât există în teren.
 
@@ -246,12 +243,12 @@ Pe ultimul punct, regula vine din legislația asociațiilor de proprietari, nu d
 
 În zonele protejate și la monumentele istorice regimul este mai strict și intervin avize suplimentare. Dacă blocul tău se află într-o astfel de zonă, verifică la primărie **înainte** de a comanda tâmplăria, nu după.
 
-Diferența de cost între cele două drumuri merită reținută: o notificare cu proiect simplificat, făcută la timp, înseamnă un onorariu de arhitect și o taxă obișnuită. Aceeași lucrare, regularizată după ce a fost executată fără acte, înseamnă documentarea situației existente și, după caz, expertiză tehnică — plus riscul de amendă, dacă închiderea are mai puțin de trei ani.`,
+Diferența de cost între cele două drumuri merită reținută: o notificare cu proiect simplificat, făcută la timp, înseamnă un onorariu de arhitect și o taxă obișnuită. Aceeași lucrare, regularizată după ce a fost executată fără acte, înseamnă releveu, expertiză tehnică și taxe de zece ori mai mari — plus impozitul dublu pentru perioada în care situația a fost constatată.`,
       },
       {
         id: 'amenzi',
-        h2: 'Amenzile și termenul de prescripție de trei ani',
-        continut: `Amenda este o sancțiune contravențională, separată de orice consecință fiscală. Pentru balconul închis într-un bloc legal, după Ordinul nr. 1389/2026, consecința fiscală dispare, dar amenda rămâne posibilă — în limitele de mai jos și doar în termenul de prescripție.
+        h2: 'Amenzile, care se adaugă peste impozitul majorat',
+        continut: `Impozitul dublu este o consecință fiscală și funcționează independent de sancțiunile contravenționale. Cele două se cumulează: majorarea nu înlocuiește amenda, iar amenda nu oprește majorarea.
 
 | Situația | Amenda |
 |---|---|
@@ -260,16 +257,14 @@ Diferența de cost între cele două drumuri merită reținută: o notificare cu
 
 Intervalele sunt largi pentru că sancțiunea se individualizează în funcție de încadrarea faptei și de gravitatea ei. O tâmplărie montată pe un balcon, fără notificare, într-o zonă obișnuită, se află la capătul de jos al primei categorii. O intervenție asupra structurii, într-o zonă protejată, urcă spre capătul de sus al celei de-a doua.
 
-**Prescripția de trei ani.** Ordinul amintește că executarea lucrărilor fără autorizație intră sub termenul general de prescripție de trei ani, calculat de la finalizarea lucrării. Pentru un balcon închis acum mai bine de trei ani, dreptul statului de a aplica amenzi sau alte măsuri punitive s-a stins. Pentru închiderile mai recente, potrivit ministerului, primăriile urmează să îndrume proprietarii spre conformare, adică spre regularizare.
-
-În termenul de prescripție, peste amendă, autoritatea poate dispune și **măsuri de remediere**: oprirea lucrărilor, aducerea construcției la starea inițială sau desființarea lucrărilor neautorizate, pe cheltuiala proprietarului. Costul demolării și al readucerii fațadei la starea inițială nu intră în amendă — se adaugă.
+Peste amendă, autoritatea poate dispune și **măsuri de remediere**: oprirea lucrărilor, aducerea construcției la starea inițială sau desființarea lucrărilor neautorizate, pe cheltuiala proprietarului. Costul demolării și al readucerii fațadei la starea inițială nu intră în amendă — se adaugă.
 
 Un ultim element, ușor de ratat: sancțiunile privind disciplina în construcții se aplică **titularului lucrării**. Dacă ai cumpărat un apartament în care balconul fusese deja închis fără acte de proprietarul anterior, situația de fapt se transmite odată cu imobilul, chiar dacă nu tu ai executat lucrarea. Este motivul pentru care verificarea înainte de cumpărare contează mai mult decât pare.`,
       },
       {
         id: 'la-vanzare',
         h2: 'Ce se întâmplă când vrei să vinzi un apartament cu balconul închis fără acte',
-        continut: `Chiar fără impozit dublu, consecința pe care proprietarii o descoperă cel mai târziu, de obicei în mijlocul unei tranzacții, este blocajul la vânzare. Ordinul nr. 1389/2026 nu schimbă nimic aici: discrepanța dintre acte și realitate rămâne până la regularizare.
+        continut: `Consecința pe care proprietarii o descoperă cel mai târziu, de obicei în mijlocul unei tranzacții, este blocajul la vânzare.
 
 Problema este o **discrepanță între situația din teren și documentația cadastrală**. Dacă balconul a fost închis sau unit cu camera, suprafața utilă reală diferă de cea înscrisă în cartea funciară și în releveul depus la cadastru. Trei actori observă asta, de regulă în ordinea următoare:
 
@@ -285,33 +280,33 @@ Pentru cumpărători, concluzia este simetrică. Întreabă **înainte de anteco
       },
       {
         id: 'faq',
-        h2: 'Întrebări frecvente despre balconul închis fără autorizație, după Ordinul nr. 1389/2026',
-        continut: `**Se dublează impozitul dacă mi-am închis balconul cu termopan fără autorizație?**
-Nu, dacă blocul a fost construit legal. Ordinul nr. 1389/2026 al Ministerului Dezvoltării precizează că majorarea cu 100% prevăzută de art. 301 alin. (11) din Legea nr. 169/2026 nu se aplică închiderii balcoanelor în clădirile construite în mod legal, iar simpla existență a unui balcon închis nu este suficientă pentru ca direcția de taxe locale să aplice majorarea.
+        h2: 'Întrebări frecvente despre impozitul dublu pentru balcoanele închise',
+        continut: `**Ce schimbă Ordinul nr. 1389/2026 pentru balconul închis?**
+Ordinul, semnat la 5 noiembrie 2026, aprobă instrucțiunile de aplicare a art. 301 din Legea nr. 169/2026. Conform acestora, majorarea cu 100% a impozitului nu se aplică închiderii balconului într-o clădire construită legal, regularizarea se poate cere oricând cu taxe obișnuite, iar amenzile pentru lucrările finalizate de mai bine de trei ani sunt prescrise. Unirea balconului cu camera nu este tratată explicit.
 
-**Ce este Ordinul nr. 1389/2026?**
-Este ordinul semnat la 5 noiembrie 2026 de ministrul Dezvoltării, Lucrărilor Publice și Administrației, care aprobă instrucțiunile de aplicare a art. 301 din Legea nr. 169/2026. Nu modifică legea, ci o interpretează, ca primăriile și direcțiile de taxe să o aplice unitar. La data actualizării acestui articol fusese transmis spre publicare în Monitorul Oficial.
+**Se dublează impozitul dacă mi-am închis balconul cu termopan fără autorizație?**
+Da, dacă autoritatea locală constată situația. Art. 301 alin. (11) din Legea nr. 169/2026 prevede majorarea cu 100% a impozitului pe clădiri de la data constatării situației de construire neautorizate, iar majorarea se aplică impozitului pe întregul apartament, nu suprafeței balconului. Majorarea încetează când obții autorizația de regularizare sau desființezi lucrarea.
 
-**Până când pot regulariza balconul închis?**
-Oricând. Închiderea balcoanelor și a logiilor la clădirile de locuit cu mai multe niveluri este lucrare de importanță redusă, în regimul permanent din alin. (2), fără termen-limită. Excepție face extinderea pe domeniul public, la parter. Termenul de aproximativ 25 august 2027 privește alte categorii de lucrări, din regimul tranzitoriu.
+**Măsura se aplică din 2027 sau este deja în vigoare?**
+Este deja în vigoare. Codul amenajării teritoriului, urbanismului și construcțiilor a intrat în vigoare la 25 august 2026, iar majorarea curge de la data constatării, nu de la o dată viitoare. Anul 2027 apare în lege în alt context: ca termen al ferestrei de regularizare pentru anumite categorii de lucrări.
 
-**Cât costă regularizarea balconului închis?**
-Se aplică taxele standard de autorizare. Taxele de zece ori mai mari privesc doar lucrările din regimul tranzitoriu din alin. (7)–(8), nu închiderea balconului. La taxe se adaugă costul documentației tehnice întocmite de un specialist.
-
-**Pot primi amendă pentru un balcon închis acum mulți ani?**
-Nu, dacă lucrarea a fost finalizată acum mai bine de trei ani. Executarea lucrărilor fără autorizație intră sub termenul general de prescripție de trei ani, calculat de la finalizarea lucrării, iar legea nu se aplică retroactiv. Pentru închiderile mai recente, amenda este între 5.000 și 50.000 de lei în cazul lucrărilor executate fără notificare prealabilă.
+**Am timp până în august 2027 să regularizez balconul închis?**
+Pentru închiderea unui balcon care nu se extinde pe domeniul public, legea prevede un regim permanent, fără termen-limită, deci regularizarea se poate cere oricând. Termenul de aproximativ 25 august 2027 privește celelalte categorii de lucrări, în regimul tranzitoriu.
 
 **Dar dacă am unit balconul cu sufrageria, desfăcând peretele?**
-Situația nu este o simplă închidere de balcon, pentru că modifică compartimentarea și suprafața utilă. Ordinul nu o tratează explicit. Cel mai probabil intră în regimul tranzitoriu, cu termen până în jurul datei de 25 august 2027 și cu taxe de zece ori mai mari. Verifică situația concretă cu autoritatea locală de urbanism și cu direcția de taxe înainte de a lua o decizie, mai ales dacă peretele avea rol structural.
+Această situație nu este o simplă închidere de balcon, pentru că modifică compartimentarea și suprafața utilă. Cel mai probabil intră în regimul tranzitoriu, cu termen până în jurul datei de 25 august 2027 și cu taxe de zece ori mai mari. Legea nu prevede explicit această încadrare, așa că verifică situația concretă cu autoritatea locală de urbanism înainte de a lua o decizie.
 
-**Primăria va verifica toate balcoanele închise?**
-Nu din oficiu, în bloc. Ordinul precizează că intrarea în vigoare a Legii nr. 169/2026 nu obligă autoritățile locale să facă un inventar general al balcoanelor închise fără autorizație.
+**Dacă plătesc impozitul dublu, lucrarea devine legală?**
+Nu. Legea prevede explicit că plata impozitului nu produce efecte privind regularizarea construcției și nu înlătură aplicarea sancțiunilor privind disciplina în construcții. Plătești dublu și rămâi cu lucrarea neautorizată.
+
+**Ce amendă risc pentru un balcon închis fără acte?**
+Pentru lucrări executate fără notificare prealabilă sau contrar proiectului notificat, amenda este între 5.000 și 50.000 de lei. Pentru lucrări executate fără autorizația de construire obligatorie, sancțiunile generale merg de la 50.000 până la 1.000.000 de lei, în funcție de încadrarea și gravitatea faptei. Amenda se adaugă peste impozitul majorat.
 
 **Am nevoie de acordul vecinilor ca să închid balconul?**
 Da. Fațada blocului este proprietate comună, iar Legea nr. 196/2018 prevede la art. 51 o majoritate de două treimi din numărul proprietarilor pentru lucrările care privesc proprietatea comună. Acordul se ia în adunarea generală, convocată în condițiile legii.
 
 **Am cumpărat apartamentul cu balconul deja închis de fostul proprietar. Ce fac?**
-Verifică la primărie dacă există notificare sau autorizație pentru lucrare. Dacă nu există, poți cere oricând regularizarea, cu taxe obișnuite. Chiar fără impozit dublu, neconcordanța dintre suprafața reală și cea din cartea funciară poate reapărea ca problemă atunci când vei vrea să vinzi.`,
+Situația de fapt se transmite odată cu imobilul. Verifică la primărie dacă există notificare sau autorizație pentru lucrare. Dacă nu există, ești expus la aceleași consecințe, iar problema va reapărea atunci când vei vrea să vinzi, din cauza neconcordanței dintre suprafața reală și cea din cartea funciară.`,
       },
     ],
   },
@@ -3256,7 +3251,7 @@ Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București 
     seoTitle: 'E-Proprietatea: Impozit Apartament 2026-2027',
     seoDesc: 'Cum se calculează impozitul pe apartament în 2026: formula, cotele și reducerile reale. Ce se schimbă de la 1 ianuarie 2027, când baza devine valoarea de piață.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '22 Aprilie 2026', dataISO: '2026-04-22', dataModificata: '2026-11-06', citire: '12 min',
+    data: '22 Aprilie 2026', dataISO: '2026-04-22', dataModificata: '2026-10-14', citire: '12 min',
     autor: 'igor-calutu',
     image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
     descriere: `Impozitul pe clădiri în 2026 se calculează pe normele din Codul fiscal, nu pe valoarea de piață. De la 1 ianuarie 2027, Guvernul a anunțat trecerea la impozitarea la valoarea de piață. Formula exactă, cotele, reducerile din OUG 9/2026 și ce înseamnă pentru cumpărătorii de apartamente noi.`,
@@ -3388,7 +3383,7 @@ Impozit 2026: **877 lei/an**, adică 73 lei/lună
 70 × 2.677 × 2,40 = 449.736 lei, minus reducerea de vechime de 15% (clădire între 50 și 100 de ani) = 382.276 lei
 Impozit 2026: **382 lei/an**, adică 32 lei/lună
 
-Dacă ai făcut lucrări fără autorizație, verifică-le regimul înainte de a-ți calcula impozitul: majorarea cu 100% din noul Cod al urbanismului nu se aplică închiderii balconului într-un bloc construit legal, potrivit Ordinului nr. 1389/2026, dar unirea balconului cu camera rămâne o situație de clarificat cu primăria. Am detaliat regimul în [ghidul despre balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie).
+Dacă ai făcut lucrări fără autorizație — de exemplu ai închis balconul sau l-ai unit cu camera — impozitul rezultat din acest calcul se majorează cu 100%, conform noului Cod al urbanismului; am detaliat regimul în [impozitul dublu pentru balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie).
 
 Observă ce face zonarea fiscală: aceeași suprafață costă cu circa 8% mai mult în zona A decât în zona C, și cu 13% mai mult decât în zona D. Iar reducerea de vechime de 15% nu compensează majorarea de 79% a valorii impozabile — de aceea proprietarii de apartamente vechi au resimțit cea mai mare creștere procentuală în 2026.
 
@@ -5580,7 +5575,7 @@ Depinde de prioritate: Moșilor-Eminescu oferă atmosferă de cartier mai liniș
     seoTitle: 'Impozit Locuințe Vechi: Reducerea de Vechime',
     seoDesc: 'Reducerea de impozit pentru clădirile vechi este 15% la 50-100 de ani și 25% peste 100 de ani, conform OUG 9/2026. Când o pierzi printr-o renovare majoră.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '31 Iulie 2026', dataISO: '2026-07-31', dataModificata: '2026-11-06', citire: '10 min',
+    data: '31 Iulie 2026', dataISO: '2026-07-31', dataModificata: '2026-10-14', citire: '10 min',
     autor: 'igor-calutu',
     image: '/blog/impozit-locuinte-vechi-50-ani-2027.avif',
     descriere: `Reducerea de impozit pentru vechimea clădirii a fost eliminată de Legea 239/2025 și reintrodusă de OUG 9/2026, la 15% pentru 50-100 de ani și 25% peste 100 de ani. O renovare majoră resetează anul de construcție și reducerea dispare. Ce declanșează resetarea și ce nu.`,
@@ -5692,7 +5687,7 @@ Ce nu trebuie exagerat: diferența de impozit, în ambele direcții, este de ord
 
 **Dacă renovezi acum:** întreabă direcția de impozite locale, în scris, cum se tratează lucrările tale, înainte de a începe. Răspunsul scris îți folosește mai târziu. Nu te baza pe etapizare ca metodă de a evita regula — dacă lucrările ating structura, primul declanșator se aplică independent.
 
-**Dacă cumperi un apartament vechi renovat:** cere istoricul lucrărilor și, dacă există, autorizația de construire. Întreabă explicit dacă s-a intervenit pe structura de rezistență. Întreabă separat și dacă balconul a fost închis sau unit cu camera: o simplă închidere se regularizează oricând, cu taxe obișnuite, și nu dublează impozitul într-un bloc construit legal, dar unirea cu camera rămâne de clarificat cu primăria, cum explicăm în [ghidul despre balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie). Cere și ultima decizie de impunere a vânzătorului — îți arată exact ce impozit se plătește acum și dacă reducerea de vechime e aplicată.
+**Dacă cumperi un apartament vechi renovat:** cere istoricul lucrărilor și, dacă există, autorizația de construire. Întreabă explicit dacă s-a intervenit pe structura de rezistență. Întreabă separat și dacă balconul a fost închis sau unit cu camera — lucrările neautorizate atrag o majorare de 100% a impozitului, independentă de reducerea de vechime, explicată în [impozitul dublu pentru balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie). Cere și ultima decizie de impunere a vânzătorului — îți arată exact ce impozit se plătește acum și dacă reducerea de vechime e aplicată.
 
 Pentru o discuție pe bugetul tău concret, inclusiv comparația cu apartamentele noi disponibile imediat din [ansamblurile active Neofort IMO](/ansambluri-rezidentiale), consultanța este gratuită: 0758 090 904.`,
       },
@@ -7200,7 +7195,7 @@ Nu. Trebuie depusă o cerere la administrația financiară, însoțită de docum
 }
 
 export const ARTICOLE_LIST = [
-  { slug: 'impozit-dublu-balcon-inchis-fara-autorizatie', titlu: 'Balcon Închis fără Autorizație: Ce Schimbă Ordinul 1389/2026 la Impozit și Regularizare', data: '9 Octombrie 2026', dataISO: '2026-10-09', citire: '15 min', image: '/blog/impozit-dublu-balcon-inchis-fara-autorizatie.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Ordinul nr. 1389/2026 clarifică: impozitul nu se dublează pentru balconul închis într-un bloc construit legal, regularizarea se face oricând, cu taxe obișnuite, iar amenzile se prescriu după trei ani.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
+  { slug: 'impozit-dublu-balcon-inchis-fara-autorizatie', titlu: 'Impozit Dublu pentru Balcon Închis sau Unit cu Sufrageria: Ce Termen Ai, de Fapt', data: '9 Octombrie 2026', dataISO: '2026-10-09', citire: '13 min', image: '/blog/impozit-dublu-balcon-inchis-fara-autorizatie.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Majorarea cu 100% a impozitului este în vigoare din 25 august 2026, nu din 2027. Balconul închis și balconul unit cu camera au regimuri diferite, cu termene diferite.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'dotari-reduc-factura-energie-apartament-nou', titlu: '5 Dotări Care Reduc Factura la Energie cu Până la 40%', data: '30 Septembrie 2026', dataISO: '2026-09-30', citire: '11 min', image: '/blog/dotari-reduc-factura-energie-apartament-nou.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cinci dotări care fac diferența reală în factura lunară la energie, cât economisește fiecare și cum verifici înainte de semnare că sunt prevăzute efectiv în proiect, nu doar în broșură.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
     { slug: 'intretinere-bloc-nou-de-ce-difera', titlu: 'Întreținerea la Bloc Nou: De Ce Diferă Atât de Mult', data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '13 min', image: '/blog/intretinere-bloc-nou-de-ce-difera.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Jumătate din factura de iarnă este încălzirea, nu întreținerea. Cum se citește corect o listă de plată și ce întrebi înainte să semnezi.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'constituire-asociatie-proprietari-bloc-nou', titlu: 'Cum Constitui Asociația de Proprietari într-un Bloc Nou', data: '5 Octombrie 2026', dataISO: '2026-10-05', citire: '14 min', image: '/blog/constituire-asociatie-proprietari-bloc-nou.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Taxa de timbru este 20 de lei, iar legea nu cere avocat. Pașii exacți, actele cerute de judecătorie, organele obligatorii și greșelile care costă ani la rând.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },

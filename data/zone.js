@@ -58,7 +58,7 @@ Rețeaua spitalicească publică a sectorului este una dintre cele mai dense din
 
 **Arondarea școlară** se face pe circumscripții stabilite de inspectoratul școlar, iar circumscripția depinde de adresa exactă, nu de sector. Se verifică pentru adresa concretă, înainte de a lua o decizie bazată pe o anumită școală.
 
-Pentru cadrul legal al modificărilor la un apartament deja cumpărat — inclusiv închiderea balconului — detaliile sunt în [ghidul despre impozitul și regularizarea balcoanelor închise fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie).`,
+Pentru cadrul legal al modificărilor la un apartament deja cumpărat — inclusiv închiderea balconului — detaliile sunt în [articolul despre impozitarea dublă pentru balcoanele închise fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie).`,
       },
     ],
     faq: [
