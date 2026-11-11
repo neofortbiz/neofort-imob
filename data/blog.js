@@ -3249,20 +3249,21 @@ Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București 
   'e-proprietatea-2026-noul-sistem-de-impozitare': {
     titlu: `Impozit pe Apartament: Cum se Calculează în 2026 și Ce Se Schimbă de la 1 Ianuarie 2027`,
     seoTitle: 'E-Proprietatea: Impozit Apartament 2026-2027',
-    seoDesc: 'Cum se calculează impozitul pe apartament în 2026: formula, cotele și reducerile reale. Ce se schimbă de la 1 ianuarie 2027, când baza devine valoarea de piață.',
+    seoDesc: 'Cum se calculează impozitul pe apartament în 2026: formula, cotele și reducerile reale. Ce se schimbă de la 1 ianuarie 2027? Devine baza valoarea de piață?',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '22 Aprilie 2026', dataISO: '2026-04-22', dataModificata: '2026-10-14', citire: '12 min',
+    data: '22 Aprilie 2026', dataISO: '2026-04-22', dataModificata: '2026-11-11', citire: '14 min',
     autor: 'igor-calutu',
     image: '/blog/e-proprietatea-2026-sistem-impozitare.avif',
-    descriere: `Impozitul pe clădiri în 2026 se calculează pe normele din Codul fiscal, nu pe valoarea de piață. De la 1 ianuarie 2027, Guvernul a anunțat trecerea la impozitarea la valoarea de piață. Formula exactă, cotele, reducerile din OUG 9/2026 și ce înseamnă pentru cumpărătorii de apartamente noi.`,
+    descriere: `Impozitul pe clădiri în 2026 se calculează pe normele din Codul fiscal, nu pe valoarea de piață, iar regula rămâne aceeași și în 2027: trecerea la valoarea de piață, anunțată pentru 1 ianuarie 2027, a fost amânată fără o dată nouă. Formula exactă, cotele, reducerile din OUG 9/2026 și ce înseamnă pentru cumpărătorii de apartamente noi.`,
     peScurt: [
       'În 2026, impozitul pe clădirile rezidențiale ale persoanelor fizice NU se calculează pe valoarea de piață, ci pe normele din Codul fiscal: suprafața construită desfășurată înmulțită cu valoarea impozabilă pe metru pătrat și cu coeficientul de zonă.',
       'Legea nr. 239/2025 a majorat valoarea impozabilă pe metru pătrat cu circa 79% și a eliminat reducerile de vechime. OUG nr. 9/2026 le-a reintrodus, dar la 15% pentru clădirile de 50-100 de ani și 25% pentru cele de peste 100 de ani.',
-      'Guvernul a anunțat trecerea la impozitarea la valoarea de piață de la 1 ianuarie 2027. Impozitul pe clădiri este administrat de direcțiile locale de impozite și taxe, nu de ANAF.',
+      'În 2027 nu se aplică impozitul pe valoarea de piață: formula rămâne cea din 2026. Consiliile locale pot indexa sumele cu inflația și pot ajusta cota între 0,08% și 0,2%; în București, proiectul pentru 2027 păstrează nivelul din 2026.',
     ],
     keywords: ['impozit apartament 2026', 'cum se calculeaza impozitul pe apartament', 'impozit proprietate 2027 valoare de piata', 'e-proprietatea impozit', 'cota impozit cladiri persoane fizice', 'reducere impozit cladiri vechi oug 9 2026', 'coeficient de zona impozit bucuresti', 'impozit a doua locuinta persoana fizica'],
     hashtags: ['#ImpozitApartament', '#EProprietatea', '#LegislatieImobiliara', '#ApartamenteBucuresti', '#NeofortIMO'],
     cuprins: [
+      { id: 'clarificare-valoare-piata-2027', titlu: `Clarificare: valoarea de piață nu se aplică în 2027` },
       { id: 'ce-este', titlu: `Ce este RO e-Proprietatea și ce NU este încă` },
       { id: 'cum-functioneaza', titlu: `Formula exactă de calcul în 2026` },
       { id: 'impozite-mai-mari', titlu: `De ce a crescut impozitul în 2026` },
@@ -3276,6 +3277,31 @@ Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București 
     ],
     sectiuni: [
       {
+        id: 'clarificare-valoare-piata-2027',
+        h2: `Clarificare, noiembrie 2026: impozitul pe valoarea de piață nu se aplică de la 1 ianuarie 2027`,
+        continut: `**Completare din 11 noiembrie 2026.** Trecerea la impozitarea locuințelor la valoarea de piață, anunțată inițial pentru 1 ianuarie 2027, nu se mai aplică de la această dată. Cum s-a ajuns aici:
+
+• **22 iunie 2026** — obligația de a construi platforma de evaluare a proprietăților la valoarea de piață a fost scoasă din condițiile Planului Național de Redresare și Reziliență, pentru că lipseau datele teritoriale necesare.
+• **25 octombrie 2026** — ministrul Finanțelor, Alexandru Nazare, a declarat că nu există niciun plan ca valoarea de piață să fie folosită la impozitarea proprietăților în 2027 și că jalonul din PNRR a fost eliminat.
+• **4 noiembrie 2026** — Primăria Capitalei a pus în dezbatere publică proiectul de hotărâre prin care impozitele și taxele locale din 2027 rămân la nivelul din 2026. Proiectul se votează în Consiliul General în decembrie.
+• **6 noiembrie 2026** — ministrul Finanțelor a reconfirmat că impozitul la valoarea de piață nu va fi introdus în 2027. Reforma va fi reluată treptat, spre finalul perioadei de consolidare fiscală, fără o dată stabilită.
+
+Ce înseamnă concret pentru proprietarul unui apartament din București:
+
+| Întrebare | Răspuns la 11 noiembrie 2026 |
+|---|---|
+| Ce bază de calcul se folosește în 2027? | Aceeași ca în 2026: valoarea impozabilă din Codul fiscal, nu valoarea de piață |
+| Mai e valabilă formula din acest articol? | Da, integral |
+| Crește impozitul pe apartament în București în 2027? | Nu, dacă Consiliul General adoptă proiectul de menținere la nivelul din 2026 |
+| Apartament de 50 mp utili, zona fiscală A | 487 lei în 2026 și 487 lei în 2027 |
+| Bonificația pentru plata integrală până la 31 martie | 10% în București, potrivit proiectului pentru 2027 |
+| Când vine impozitarea la valoarea de piață? | Nu există o dată oficială |
+
+În celelalte localități, consiliile locale pot indexa sumele cu rata inflației sau le pot menține. Decizia se ia prin hotărârea de consiliu local pentru 2027, adoptată de regulă până la finalul anului, și se verifică la primăria localității.
+
+Secțiunile următoare explică formula din 2026, care rămâne cea aplicabilă. Simulările pentru valoarea de piață din secțiunea de calcule descriu o reformă care, la data acestei completări, nu are calendar.`,
+      },
+      {
         id: 'ce-este',
         h2: `Ce este RO e-Proprietatea și ce NU este încă în 2026`,
         continut: `RO e-Proprietatea este sistemul informatic prin care statul român urmează să centralizeze datele despre proprietățile imobiliare și să determine automat valoarea lor de piață, în scop fiscal. Ministerul Finanțelor leagă operaționalizarea lui de trecerea la impozitarea la valoarea de piață.
@@ -3284,9 +3310,9 @@ Aici trebuie făcută o distincție pe care multe materiale din presă o estompe
 
 **În 2026, impozitul pe clădirile rezidențiale deținute de persoane fizice nu se calculează pe valoarea de piață.** Se calculează pe normele din Codul fiscal — o valoare impozabilă pe metru pătrat, stabilită în funcție de materialul de construcție și de dotarea cu utilități, înmulțită cu suprafața și cu un coeficient de zonă. Valoarea reală de tranzacționare a apartamentului tău nu intră în această formulă.
 
-**Trecerea la valoarea de piață a fost anunțată de Guvern pentru 1 ianuarie 2027.** Măsurile din 2026 au fost prezentate explicit ca etapă intermediară, până la operaționalizarea sistemului de evaluare automată. Reforma figurează în angajamentele din Planul Național de Redresare și Reziliență și în planul fiscal-bugetar structural pe termen mediu.
+**Trecerea la valoarea de piață fusese anunțată de Guvern pentru 1 ianuarie 2027, dar nu se mai aplică în 2027.** Măsurile din 2026 au fost prezentate ca etapă intermediară, până la operaționalizarea sistemului de evaluare automată. Reforma figura în angajamentele din Planul Național de Redresare și Reziliență; jalonul a fost eliminat în 2026, iar în noiembrie 2026 Ministerul Finanțelor a anunțat că trecerea se va face treptat, fără o dată stabilită.
 
-De ce se face schimbarea: nivelul de impozitare a proprietăților din România a fost printre cele mai mici din Uniunea Europeană, iar corectarea lui este unul dintre angajamentele asumate în negocierile cu Comisia Europeană. Direcția este asumată la nivel guvernamental, chiar dacă metodologia de evaluare pentru 2027 nu era publicată la data actualizării acestui articol.
+De ce se face schimbarea: nivelul de impozitare a proprietăților din România a fost printre cele mai mici din Uniunea Europeană, iar corectarea lui este unul dintre angajamentele asumate în negocierile cu Comisia Europeană. Direcția rămâne asumată la nivel guvernamental, dar calendarul s-a mutat după 2027, iar metodologia de evaluare nu este publicată.
 
 Al doilea lucru care se confundă frecvent: **grilele notariale nu sunt baza impozitului.** Grilele de valori orientative servesc la calculul taxelor notariale și al impozitului pe tranzacție, nu la calculul impozitului anual pe clădiri. Sunt două mecanisme separate, cu temeiuri legale diferite.`,
       },
@@ -3318,7 +3344,7 @@ Plata se face în două tranșe egale, cu termenele 31 martie și 30 septembrie.
       {
         id: 'impozite-mai-mari',
         h2: `De ce a crescut impozitul în 2026 și cu cât`,
-        continut: `Creșterea din 2026 nu vine din trecerea la valoarea de piață — aceasta urmează în 2027. Vine din două modificări aduse de **Legea nr. 239/2025**, în vigoare de la 1 ianuarie 2026.
+        continut: `Creșterea din 2026 nu vine din trecerea la valoarea de piață, iar schimbările preconizate pentru 2027 au fost amânate fără o dată stabilită. Din experiența anilor trecuți, clarificarea și data schimbării metodei de calcul ne vor lua, probabil, prin surprindere, ca de obicei. Creșterea din 2026 vine din două modificări aduse de **Legea nr. 239/2025**, în vigoare de la 1 ianuarie 2026.
 
 **Prima: majorarea valorilor impozabile pe metru pătrat.** Pentru categoria principală de clădiri, valoarea a crescut de la 1.492 lei/mp la 2.677 lei/mp, adică o majorare de circa 79%. Guvernul a descris această valoare ca referință tehnică intermediară, bazată pe costuri medii de construcție.
 
@@ -3356,7 +3382,7 @@ Scutirile totale prevăzute de Codul fiscal pentru categorii speciale, printre c
 
 **2. Cotă de 0,2% pentru „a doua locuință".** Cota de 0,2% este limita inferioară a intervalului pentru clădirile **nerezidențiale** ale persoanelor fizice, care merge până la 1,3%. O a doua locuință a unei persoane fizice rămâne o clădire rezidențială și se impozitează în intervalul 0,08%-0,2%, la fel ca prima. Cotele majorate pentru deținătorii de mai multe locuințe au fost eliminate din legislație. Consiliile locale pot stabili cote diferențiate în interiorul intervalului legal, deci verificarea hotărârii consiliului local rămâne utilă.
 
-**3. Impozitare pe valoarea de piață în 2026.** Nu se aplică în 2026. A fost anunțată pentru 1 ianuarie 2027.`,
+**3. Impozitare pe valoarea de piață în 2026.** Nu se aplică în 2026 și nici în 2027. Fusese anunțată pentru 1 ianuarie 2027, dar a fost amânată fără o dată nouă.`,
       },
       {
         id: 'calcul-complet',
@@ -3383,11 +3409,11 @@ Impozit 2026: **877 lei/an**, adică 73 lei/lună
 70 × 2.677 × 2,40 = 449.736 lei, minus reducerea de vechime de 15% (clădire între 50 și 100 de ani) = 382.276 lei
 Impozit 2026: **382 lei/an**, adică 32 lei/lună
 
-Dacă ai făcut lucrări fără autorizație — de exemplu ai închis balconul sau l-ai unit cu camera — impozitul rezultat din acest calcul se majorează cu 100%, conform noului Cod al urbanismului; am detaliat regimul în [impozitul dublu pentru balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie).
+Dacă ai făcut lucrări fără autorizație, impozitul rezultat din acest calcul se poate majora cu 100%, conform noului Cod al urbanismului. Pentru simpla închidere a balconului într-un bloc construit legal, Ordinul MDLPA nr. 1389/2026 precizează că majorarea nu se aplică, iar unirea balconului cu camera rămâne un caz de verificat la primărie; am detaliat regimul în [impozitul dublu pentru balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie).
 
 Observă ce face zonarea fiscală: aceeași suprafață costă cu circa 8% mai mult în zona A decât în zona C, și cu 13% mai mult decât în zona D. Iar reducerea de vechime de 15% nu compensează majorarea de 79% a valorii impozabile — de aceea proprietarii de apartamente vechi au resimțit cea mai mare creștere procentuală în 2026.
 
-**Ce se schimbă în 2027.** Simulările publicate în presă pentru trecerea la valoarea de piață, calculate la o cotă de 0,1%, arată următoarele ordine de mărime:
+**Ce s-ar schimba la trecerea la valoarea de piață.** Trecerea nu are, deocamdată, o dată: nu se aplică în 2027. Simulările publicate în presă pentru acest scenariu, calculate la o cotă de 0,1%, arată următoarele ordine de mărime:
 
 | Locuință | Impozit actual | Estimare după trecerea la valoarea de piață |
 |---|---|---|
@@ -3451,9 +3477,15 @@ Pentru situații în care valoarea impozabilă rezultă dintr-o evaluare, nu din
 
 **31 martie 2026 și 30 septembrie 2026** — termenele celor două tranșe de plată. Bonificație de până la 10% pentru plata integrală până la 31 martie.
 
-**1 ianuarie 2027 — trecerea anunțată la impozitarea la valoarea de piață** pentru clădirile și terenurile persoanelor fizice, odată cu operaționalizarea sistemului RO e-Proprietatea. Guvernul a prezentat măsurile din 2026 ca etapă intermediară până la acest moment.
+**22 iunie 2026** — platforma de evaluare la valoarea de piață este scoasă din obligațiile PNRR.
 
-Ce nu se știe încă, la data actualizării acestui articol: metodologia prin care se va determina valoarea de piață, cotele care se vor aplica efectiv, dacă va exista o obligație de declarare pentru proprietari și dacă se prevede o perioadă de tranziție. Textele de aplicare nu erau publicate.
+**25 octombrie și 6 noiembrie 2026** — ministrul Finanțelor anunță că impozitarea la valoarea de piață, prevăzută inițial pentru 1 ianuarie 2027, nu va fi introdusă în 2027.
+
+**4 noiembrie 2026** — Primăria Capitalei propune menținerea impozitelor și taxelor locale din 2027 la nivelul din 2026; votul în Consiliul General e programat în decembrie.
+
+**1 ianuarie 2027** — impozitul pe clădiri se calculează în continuare pe normele din Codul fiscal, cu aceeași formulă ca în 2026.
+
+Ce nu se știe încă, la data actualizării acestui articol: când va avea loc trecerea la valoarea de piață, metodologia prin care se va determina această valoare, cotele care se vor aplica efectiv, dacă va exista o obligație de declarare pentru proprietari și cum va arăta perioada de tranziție.
 
 Ce poți face între timp, concret: verifică gratuit pe geoportal.ancpi.ro dacă proprietatea ta e corect intabulată și dacă suprafața din evidențe corespunde actelor. Orice eroare de suprafață sau de clasificare se corectează mai simplu înainte de emiterea unei decizii de impunere decât după. Iar la trecerea la valoarea de piață, datele din cadastru devin punctul de plecare al evaluării.`,
       },
@@ -3463,11 +3495,14 @@ Ce poți face între timp, concret: verifică gratuit pe geoportal.ancpi.ro dac�
         continut: `Cum se calculează impozitul pe apartament în 2026?
 Suprafața utilă se înmulțește cu 1,4 pentru a obține suprafața construită desfășurată, apoi cu valoarea impozabilă pe metru pătrat din Codul fiscal (2.677 lei/mp pentru categoria A cu toate utilitățile), apoi cu coeficientul de zonă (2,60 pentru zona A din București, până la 2,30 pentru zona D), iar rezultatul se înmulțește cu cota stabilită de consiliul local, 0,1% în București.
 
+Se aplică impozitul la valoarea de piață de la 1 ianuarie 2027?
+Nu. Trecerea, anunțată inițial pentru 1 ianuarie 2027, a fost amânată. Ministrul Finanțelor a declarat în noiembrie 2026 că impozitul la valoarea de piață nu va fi introdus în 2027 și că reforma va veni treptat, fără o dată stabilită. În 2027, impozitul se calculează în continuare pe normele din Codul fiscal.
+
 Se calculează impozitul pe valoarea de piață a apartamentului în 2026?
-Nu. În 2026 baza este valoarea impozabilă din Codul fiscal, nu prețul de piață. Guvernul a anunțat trecerea la impozitarea la valoarea de piață de la 1 ianuarie 2027.
+Nu. În 2026 baza este valoarea impozabilă din Codul fiscal, nu prețul de piață.
 
 Cât va fi impozitul în 2027?
-Nu se poate spune exact, pentru că metodologia de evaluare și cotele nu erau publicate la data actualizării acestui articol. Simulările apărute în presă, calculate la o cotă de 0,1%, indică aproximativ dublarea impozitului pentru apartamentele din zonele centrale ale Bucureștiului și creșteri mai mici pentru cele de la periferie.
+În București, la fel ca în 2026, dacă Consiliul General adoptă în decembrie 2026 proiectul Primăriei Capitalei, care menține impozitele și taxele locale din 2027 la nivelul din 2026. Baza rămâne valoarea impozabilă din Codul fiscal, nu valoarea de piață: un apartament de 50 mp utili în zona fiscală A plătește tot 487 de lei pe an. În alte localități, consiliul local poate indexa sumele cu rata inflației.
 
 Plătesc mai mult pentru a doua locuință?
 Nu există o cotă majorată pentru a doua locuință a unei persoane fizice. Cotele majorate pentru deținătorii de mai multe locuințe au fost eliminate. Cota de 0,2% despre care se vorbește frecvent este limita inferioară a intervalului pentru clădirile nerezidențiale, nu pentru a doua casă.
@@ -3495,9 +3530,9 @@ Nu. Grilele de valori orientative folosesc la calculul taxelor notariale și al 
         h2: `Concluzie practică`,
         continut: `Pentru 2026, reține trei cifre: coeficientul de transformare 1,4, valoarea impozabilă de 2.677 lei/mp pentru categoria A cu utilități și cota de 0,1% din București. Cu ele poți verifica singur, în două minute, dacă decizia de impunere pe care ai primit-o are sens.
 
-Pentru 2027, reține o distincție: trecerea la valoarea de piață e anunțată, dar metodologia și cotele nu sunt încă publicate. Orice sumă exactă pe care o vezi pentru 2027 este o estimare, inclusiv cele din acest articol. Vom actualiza secțiunile de calcul pe măsură ce apar textele de aplicare.
+Pentru 2027, reține că trecerea la valoarea de piață nu se aplică: formula de mai sus rămâne valabilă, iar în București suma ar trebui să fie aceeași ca în 2026. Orice simulare pe valoarea de piață, inclusiv cele din acest articol, descrie o reformă fără dată. Vom actualiza secțiunile de calcul când apar textele de aplicare.
 
-Iar pentru decizia de cumpărare: impozitul pe proprietate rămâne, chiar și după dublare, o fracțiune mică din costul lunar al unei locuințe cumpărate cu credit. Nu e el factorul care decide. Ce se schimbă e că devine un cost care diferă semnificativ între zone, deci intră în calculul comparativ pe termen lung alături de rată, întreținere și timp de navetă.
+Iar pentru decizia de cumpărare: impozitul pe proprietate rămâne, chiar și după o eventuală dublare, o fracțiune mică din costul lunar al unei locuințe cumpărate cu credit. Nu e el factorul care decide. Ce se schimbă e că devine un cost care diferă semnificativ între zone, deci intră în calculul comparativ pe termen lung alături de rată, întreținere și timp de navetă.
 
 Pentru contextul complet al unei achiziții, vezi [ghidul de cumpărare a unui apartament nou](/blog/ghid-cumparare-apartament-nou), [situația TVA la locuințele noi](/blog/tva-apartamente-noi-2026) și [ansamblurile active Neofort IMO](/ansambluri-rezidentiale).`,
       },
@@ -4490,7 +4525,7 @@ Suntem disponibili la 0758 090 904 și prin WhatsApp pentru orice întrebări. C
       'Apartamentele noi vin cu garanție de structură 10 ani și standarde energetice actuale, relevante pentru costurile pe termen lung.',
     ],
     tag: 'Analiză', tagColor: '#c2410c',
-    data: '4 Mai 2026', dataISO: '2026-05-04', dataModificata: '2026-10-13', citire: '9 min',
+    data: '4 Mai 2026', dataISO: '2026-05-04', dataModificata: '2026-11-11', citire: '9 min',
     autor: 'ramona-baicu',
     image: '/blog/apartament-nou-vs-vechi-calcul-real.avif',
     descriere: `Apartament nou sau vechi în București? Calculul complet al costurilor reale: preț achiziție, costuri ascunse, întreținere, risc seismic, impozit E-Proprietatea, randament închiriere și ce alegi pe termen lung.`,
@@ -4555,20 +4590,27 @@ Apartamentele noi construite după normele seismice P100-1/2013 (obligatorii din
       {
         id: 'impozit',
         h2: `E-Proprietatea și impozitul diferențiat: nou vs. vechi în 2026`,
-        continut: `Prin sistemul E-Proprietatea implementat gradual din 2024–2026, impozitele se calculează pe baza valorii de piață, nu a valorii declarate. Aceasta creează o diferență semnificativă între apartamentele noi și cele vechi:
+        continut: `Impozitul pe apartament **nu** se calculează pe valoarea de piață — nici în 2026, nici în 2027. Trecerea la valoarea de piață, anunțată inițial pentru 1 ianuarie 2027, a fost amânată fără o dată nouă. Baza rămâne valoarea impozabilă din Codul fiscal, aceeași pentru un apartament nou și pentru unul vechi; formula completă e în [ghidul despre impozitul pe apartament](/blog/e-proprietatea-2026-noul-sistem-de-impozitare).
 
-Apartament nou de 2 camere, 55 mp, Titan-Pallady, valoare piață ~130.000 EUR:
-• Impozit estimat (cotă 0,1% locuință principală): 580–650 lei/an
-• Clasa energetică A+ → reducere 5% → impozit final: ~560–620 lei/an
+Calculul pentru un apartament de 2 camere cu 55 mp utili în București, categoria A, cu toate utilitățile:
+55 mp × 1,4 = 77 mp suprafață construită desfășurată
+77 mp × 2.677 lei/mp = 206.129 lei
+× coeficientul zonei fiscale (de la 2,30 în zona D la 2,60 în zona A) × cota de 0,1%
 
-Apartament vechi de 2 camere, 55 mp, Titan, valoare piață ~85.000 EUR:
-• Impozit estimat (cotă 0,1%): 380–420 lei/an
-• Clasa energetică D → fără reducere
-• Dar: dacă e bloc în Clasa II risc seismic → impozit majorat potențial
+| Apartament 2 camere, 55 mp utili | Impozit anual |
+|---|---|
+| Nou | 474–536 lei |
+| Vechi, bloc construit acum mai puțin de 50 de ani | 474–536 lei |
+| Vechi, bloc construit acum 50–100 de ani (reducere de 15%) | 403–456 lei |
 
-Diferența anuală este modestă (200–250 lei), dar pe 20 de ani ajunge la 4.000–5.000 lei. Nu este factorul decisiv, dar intră în calculul total.
+Concluzia e contraintuitivă: **la impozit, apartamentul nou și cel vechi plătesc practic la fel.** Diferența apare doar la blocurile de peste 50 de ani și e de cel mult 80 de lei pe an. Iar reducerea de vechime se pierde la o renovare majoră, mecanism explicat în [articolul despre impozitul pe locuințele vechi](/blog/impozit-locuinte-vechi-50-ani-2027).
 
-Un aspect mai important: pentru a doua proprietate (locuință secondară sau de investiție), cota este 0,2%, deci impozitele se dublează. La o valoare de piață de 130.000 EUR, impozitul anual pentru o locuință secundară de tip nou poate ajunge la 1.150–1.300 lei.`,
+Trei idei care circulă și sunt false:
+• **Clasa energetică nu reduce impozitul.** Un apartament în clasa A plătește același impozit ca unul în clasa D; câștigul e la factura de încălzire.
+• **A doua locuință nu are cotă dublă.** O a doua locuință a unei persoane fizice rămâne clădire rezidențială și se impozitează la aceeași cotă; 0,2% este pragul de jos pentru clădirile nerezidențiale.
+• **Clasa de risc seismic nu majorează impozitul.** Riscul seismic contează la siguranță, la asigurare și la valoarea de revânzare, nu la impozitul anual.
+
+Pentru decizia nou vs. vechi, impozitul nu este deci un argument. Argumentele reale sunt costurile de renovare, eficiența energetică și riscul seismic, tratate în secțiunile de mai sus.`,
       },
       {
         id: 'randament',
@@ -5575,7 +5617,7 @@ Depinde de prioritate: Moșilor-Eminescu oferă atmosferă de cartier mai liniș
     seoTitle: 'Impozit Locuințe Vechi: Reducerea de Vechime',
     seoDesc: 'Reducerea de impozit pentru clădirile vechi este 15% la 50-100 de ani și 25% peste 100 de ani, conform OUG 9/2026. Când o pierzi printr-o renovare majoră.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '31 Iulie 2026', dataISO: '2026-07-31', dataModificata: '2026-10-14', citire: '10 min',
+    data: '31 Iulie 2026', dataISO: '2026-07-31', dataModificata: '2026-11-11', citire: '10 min',
     autor: 'igor-calutu',
     image: '/blog/impozit-locuinte-vechi-50-ani-2027.avif',
     descriere: `Reducerea de impozit pentru vechimea clădirii a fost eliminată de Legea 239/2025 și reintrodusă de OUG 9/2026, la 15% pentru 50-100 de ani și 25% peste 100 de ani. O renovare majoră resetează anul de construcție și reducerea dispare. Ce declanșează resetarea și ce nu.`,
@@ -5609,7 +5651,7 @@ Depinde de prioritate: Moșilor-Eminescu oferă atmosferă de cartier mai liniș
 
 Aceeași ordonanță a introdus și regula care produce cele mai multe întrebări: **anul de construcție folosit în calculul impozitului se actualizează dacă clădirea a trecut printr-o renovare majoră.** Practic, o clădire veche poate pierde statutul fiscal de clădire veche, chiar dacă structura ei de bază rămâne aceeași.
 
-Atenție la o confuzie care circulă: această schimbare nu are legătură cu trecerea la impozitarea pe valoarea de piață, anunțată pentru 1 ianuarie 2027. Reducerile de vechime și regula de resetare sunt în vigoare acum, prin OUG nr. 9/2026, independent de acel calendar. Contextul complet al calculului este în [ghidul despre impozitul pe apartament](/blog/e-proprietatea-2026-noul-sistem-de-impozitare).`,
+Atenție la o confuzie care circulă: această schimbare nu are legătură cu trecerea la impozitarea pe valoarea de piață, anunțată inițial pentru 1 ianuarie 2027 și amânată ulterior fără o dată nouă. Reducerile de vechime și regula de resetare sunt în vigoare acum, prin OUG nr. 9/2026, independent de acel calendar. Contextul complet al calculului este în [ghidul despre impozitul pe apartament](/blog/e-proprietatea-2026-noul-sistem-de-impozitare).`,
       },
       {
         id: 'regula-actuala',
@@ -5687,7 +5729,7 @@ Ce nu trebuie exagerat: diferența de impozit, în ambele direcții, este de ord
 
 **Dacă renovezi acum:** întreabă direcția de impozite locale, în scris, cum se tratează lucrările tale, înainte de a începe. Răspunsul scris îți folosește mai târziu. Nu te baza pe etapizare ca metodă de a evita regula — dacă lucrările ating structura, primul declanșator se aplică independent.
 
-**Dacă cumperi un apartament vechi renovat:** cere istoricul lucrărilor și, dacă există, autorizația de construire. Întreabă explicit dacă s-a intervenit pe structura de rezistență. Întreabă separat și dacă balconul a fost închis sau unit cu camera — lucrările neautorizate atrag o majorare de 100% a impozitului, independentă de reducerea de vechime, explicată în [impozitul dublu pentru balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie). Cere și ultima decizie de impunere a vânzătorului — îți arată exact ce impozit se plătește acum și dacă reducerea de vechime e aplicată.
+**Dacă cumperi un apartament vechi renovat:** cere istoricul lucrărilor și, dacă există, autorizația de construire. Întreabă explicit dacă s-a intervenit pe structura de rezistență. Întreabă separat și dacă balconul a fost închis sau unit cu camera — lucrările neautorizate pot atrage o majorare de 100% a impozitului, independentă de reducerea de vechime (pentru simpla închidere a balconului într-un bloc construit legal, Ordinul MDLPA nr. 1389/2026 precizează că majorarea nu se aplică), explicată în [impozitul dublu pentru balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie). Cere și ultima decizie de impunere a vânzătorului — îți arată exact ce impozit se plătește acum și dacă reducerea de vechime e aplicată.
 
 Pentru o discuție pe bugetul tău concret, inclusiv comparația cu apartamentele noi disponibile imediat din [ansamblurile active Neofort IMO](/ansambluri-rezidentiale), consultanța este gratuită: 0758 090 904.`,
       },
@@ -5716,7 +5758,7 @@ Reducerea de vechime se aplică automat sau trebuie să o cer?
 Se aplică automat de direcția de impozite locale, pe baza anului de construcție din evidențele sale. Dacă anul înregistrat este greșit sau reducerea nu apare în decizia de impunere, se corectează la direcția de impozite locale, cu actele de proprietate.
 
 Are legătură cu trecerea la impozitarea pe valoarea de piață din 2027?
-Nu. Reducerile de vechime și regula de resetare a anului de construcție sunt în vigoare acum, prin OUG nr. 9/2026. Trecerea la impozitarea la valoarea de piață a fost anunțată separat, pentru 1 ianuarie 2027, iar metodologia ei nu era publicată la data actualizării acestui articol.
+Nu. Reducerile de vechime și regula de resetare a anului de construcție sunt în vigoare acum, prin OUG nr. 9/2026. Trecerea la impozitarea la valoarea de piață fusese anunțată separat, pentru 1 ianuarie 2027, și a fost amânată în noiembrie 2026, fără o dată nouă.
 
 Cine stabilește că valoarea a crescut cu 50%?
 Mecanismul exact de constatare — cine evaluează, ce documente se cer, dacă e necesar un raport al unui evaluator autorizat ANEVAR — nu era detaliat în normele publicate la data actualizării acestui articol. Până la clarificare, varianta prudentă este o solicitare scrisă către direcția de impozite locale înainte de începerea lucrărilor.`,
@@ -7213,7 +7255,7 @@ export const ARTICOLE_LIST = [
   { slug: 'merita-apartament-titan-pallady-2026', titlu: 'Merită Apartament în Titan–Pallady în 2026?', data: '16 Mai 2026', dataISO: '2026-05-16', citire: '11 min', image: '/blog/merita-apartament-titan-pallady-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Merită să cumperi apartament nou în Titan – Theodor Pallady în 2026? Analiză completă cu prețuri reale, avantaje, dezavantaje, calcul randament și ce trebuie verificat înainte de semnare.', autor: 'Adrian Pintilie', autorSlug: 'adrian-pintilie', featured: false },
   { slug: 'apartamente-noi-titan-pallady-teclu-promotii-2026', titlu: 'Promoții Apartamente Titan–Pallady 2026', data: '9 Mai 2026', dataISO: '2026-05-09', citire: '9 min', image: '/blog/apartamente-noi-titan-pallady-teclu-promotii-2026.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Unde găsești cele mai bune promoții la apartamente noi în Titan, Pallady și Nicolae Teclu în 2026? Tipuri reale de reduceri, cum identifici o ofertă autentică și calculul corect al avansului mare.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'top-ansambluri-rezidentiale-noi-bucuresti-2026', titlu: 'Top Ansambluri Rezidențiale București 2026', data: '4 Mai 2026', dataISO: '2026-05-04', citire: '12 min', image: '/blog/top-ansambluri-rezidentiale-noi-bucuresti-2026.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cum alegi corect un ansamblu rezidențial nou din București în 2026? Criterii de evaluare, zonele cu cel mai mare potențial, cum verifici un developer și greșelile frecvente de evitat.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
-  { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'Impozit pe Apartament: Calcul 2026 și Ce Se Schimbă în 2027', data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '12 min', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Formula exactă de calcul a impozitului pe apartament în 2026, reducerile reale din OUG 9/2026 și ce se schimbă de la 1 ianuarie 2027, când baza devine valoarea de piață.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: true },
+  { slug: 'e-proprietatea-2026-noul-sistem-de-impozitare', titlu: 'Impozit pe Apartament: Calcul 2026 și Ce Se Schimbă în 2027', data: '22 Aprilie 2026', dataISO: '2026-04-22', citire: '14 min', image: '/blog/e-proprietatea-2026-sistem-impozitare.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Formula exactă de calcul a impozitului pe apartament în 2026, reducerile reale din OUG 9/2026 și ce se schimbă de la 1 ianuarie 2027: devine baza valoarea de piață?', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: true },
   { slug: 'preturi-apartamente-bucuresti-2026', titlu: 'Prețuri Apartamente București 2026: Scad?', data: '5 Aprilie 2026', dataISO: '2026-04-05', citire: '10 min', image: '/blog/preturi-apartamente-bucuresti-2026-scad-sau-nu.avif', tag: 'Piață', tagColor: '#0369a1', rezumat: 'Prețurile apartamentelor din București scad sau cresc în 2026? Analiză cu date ANCPI, INS și piața locală: evoluție pe zone, impactul TVA 21% și ce înseamnă pentru cumpărătorii de azi.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'tva-apartamente-noi-2026', titlu: 'TVA Apartamente Noi 2026: Cât Plătești Real', data: '10 Aprilie 2026', dataISO: '2026-04-10', citire: '9 min', image: '/blog/tva-apartamente-noi-bucuresti-2026.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'TVA la apartamente noi: ce cotă se aplică acum, de ce s-a închis fereastra de 9% pe 30 septembrie 2026, cine mai poate cere restituirea diferenței și cum calculezi prețul total real.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'titan-pallady-cea-mai-cautata-zona', titlu: 'Titan–Pallady: Cea Mai Căutată Zonă Sector 3', data: '25 Aprilie 2026', dataISO: '2026-04-25', citire: '8 min', image: '/blog/titan-pallady-cea-mai-cautata-zona-bucuresti.avif', tag: 'Zone', tagColor: '#0891b2', rezumat: 'De ce Titan–Pallady a ajuns zona cu cel mai mare ritm de creștere din București? Metrou M3, IKEA, parcuri, prețuri accesibile și cerere din diasporă.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },

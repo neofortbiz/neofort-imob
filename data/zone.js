@@ -52,7 +52,7 @@ Rețeaua spitalicească publică a sectorului este una dintre cele mai dense din
         titlu: 'Ce ține de primăria de sector',
         continut: `Câteva lucruri se rezolvă la nivel de sector, nu la nivelul Primăriei Capitalei, și e util de știut înainte de achiziție:
 
-**Impozitul pe clădiri** se plătește la primăria sectorului în care se află imobilul. Cotele se stabilesc anual prin hotărâre de consiliu local, în limitele din Codul fiscal, deci pot diferi de la un sector la altul — se verifică la sursă, pentru anul în curs.
+**Impozitul pe clădiri** se plătește la direcția de impozite și taxe locale a sectorului în care se află imobilul. Nivelul lui îl stabilește însă Consiliul General al Municipiului București, pentru tot orașul: aceeași locuință are aceeași cotă în oricare sector, iar diferențele dintre adrese vin din zona fiscală, nu din sector. Hotărârea se adoptă anual, deci se verifică pentru anul în curs.
 
 **Certificatul de urbanism și autorizația de construire** pentru imobilele din sector se eliberează de primăria de sector, nu de Primăria Capitalei, cu excepția cazurilor prevăzute expres de lege.
 
@@ -76,7 +76,7 @@ Pentru cadrul legal al modificărilor la un apartament deja cumpărat — inclus
       },
       {
         intrebare: 'Impozitul pe locuință diferă între sectoarele Bucureștiului?',
-        raspuns: 'Poate diferi. Cotele se aprobă anual prin hotărâre de consiliu local, în limitele stabilite de Codul fiscal, deci se verifică la primăria sectorului pentru anul în curs.',
+        raspuns: 'Nu din cauza sectorului. Cota și zonarea fiscală le stabilește Consiliul General al Municipiului București, la fel pentru toate sectoarele. Două apartamente identice pot avea impozit diferit doar dacă se află în zone fiscale diferite (A–D), iar zonarea fiscală nu urmează limitele de sector. Plata se face la direcția de impozite a sectorului.',
       },
     ],
   },
@@ -105,7 +105,7 @@ Sectorul 6 este și cel în care se construiește **magistrala M5**, pe direcți
       },
       {
         titlu: 'Ce ține de primăria de sector',
-        continut: `**Impozitul pe clădiri** se plătește la primăria de sector, iar cotele se aprobă anual prin hotărâre de consiliu local, în limitele din Codul fiscal — se verifică pentru anul în curs.
+        continut: `**Impozitul pe clădiri** se plătește la primăria de sector, dar se stabilește anual de Consiliul General al Municipiului București, unitar pentru toată Capitala; ce diferă între adrese este zona fiscală, nu sectorul.
 
 **Certificatul de urbanism și autorizația de construire** se eliberează de primăria sectorului, nu de Primăria Capitalei, în afara cazurilor prevăzute expres de lege.
 
@@ -154,7 +154,7 @@ Pe partea de spații verzi, sectorul are cea mai mare suprafață de luciu de ap
       },
       {
         titlu: 'Ce ține de primăria de sector',
-        continut: `**Impozitul pe clădiri** se plătește la primăria sectorului, cu cote aprobate anual prin hotărâre de consiliu local, în limitele din Codul fiscal.
+        continut: `**Impozitul pe clădiri** se încasează de primăria sectorului, cu cote aprobate anual de Consiliul General al Municipiului București pentru întregul oraș.
 
 **Certificatul de urbanism și autorizația de construire** se eliberează la nivel de sector, nu de Primăria Capitalei, în afara cazurilor prevăzute expres de lege.
 

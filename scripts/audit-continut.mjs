@@ -916,6 +916,68 @@ for (const [eticheta, lista] of [['ansambluri', ANSAMBLURI_ACTIVE], ['portofoliu
 }
 
 // ────────────────────────────────────────────────────────────
+// 18. AFIRMATII RETRASE — fapte fiscale care au fost adevarate (sau au circulat)
+//     si nu mai sunt. Fiecare regula a fost platita cu o eroare reala pe site.
+//     Se verifica PROPOZITIE cu propozitie, in tot textul publicat: blog
+//     (ARTICOLE + ARTICOLE_LIST), zone, ansambluri active, portofoliu.
+//     O propozitie care contine un marcaj de retragere (amanat, fusese, nu se
+//     aplica, intrebare retorica) este considerata corecta.
+// ────────────────────────────────────────────────────────────
+{
+  const RETRASE = [
+    {
+      // v441: impozitarea la valoarea de piata NU mai vine la 1 ianuarie 2027
+      // (ministrul Finantelor, 25.10 si 6.11.2026). 9 propozitii o prezentau ca programata.
+      nume: 'valoarea de piață prezentată ca bază a impozitului din 2027',
+      are: s => /valo\w* (de|pe) piat/.test(s) && /2027/.test(s),
+      scuzat: s => /amanat|fusese|initial|nu se (mai )?aplic|nu va fi introdus|nu mai vine|nu s-a aplicat|nu exista|nici in 2027|nu se calculeaz|\?/.test(s),
+    },
+    {
+      // v441: articolul nou-vs-vechi spunea ca impozitul „se calculeaza pe baza valorii de piata"
+      nume: 'impozit calculat deja pe valoarea de piață',
+      are: s => /impozit\w*[^.]{0,40}se calculeaz\w*[^.]{0,30}valo\w* de piat/.test(s),
+      scuzat: s => /\bnu\W{0,4}se calculeaz|amanat|fusese|\?/.test(s),
+    },
+    {
+      // v441: „a doua locuinta are cota 0,2%, deci impozit dublu" — fals, cota e aceeasi
+      nume: 'cotă dublă / 0,2% pentru a doua locuință',
+      are: s => /(a doua (locuint|proprietat)|secundar)/.test(s) && /0,2 ?%|se dubleaz/.test(s),
+      scuzat: s => /\bnu\b|nerezidential|eliminat|limita inferioara|pragul de jos|la fel ca prima|aceeasi cota|\?/.test(s),
+    },
+    {
+      // v441: „clasa energetica A+ → reducere 5%" — nu exista reducere de impozit pe clasa energetica
+      nume: 'reducere de impozit pentru clasa energetică',
+      are: s => /clas\w* energetic/.test(s) && /reducere\s*(de\s*)?\d+\s*%/.test(s),
+      scuzat: s => /nu exista|\bnu\b/.test(s),
+    },
+    {
+      // v441: paginile de sector spuneau ca impozitul „poate diferi de la un sector la altul".
+      // In Bucuresti cota si zonarea fiscala le stabileste CGMB pentru tot orasul.
+      nume: 'impozit diferit pe sectoare în București',
+      are: s => /(impozit|cot[ae])[^.]{0,120}difer\w* (de la un sector la altul|intre sectoare)/.test(s),
+      scuzat: s => /\bnu\b|\?/.test(s),
+    },
+  ]
+  const propozitii = txt => fara(txt).split(/(?<=[.!?])\s+|\n+/)
+  // keywords/hashtags sunt formulari de cautare, nu afirmatii — nu se verifica
+  const text = x => JSON.stringify(x, (k, v) => (k === 'keywords' || k === 'hashtags') ? undefined : v)
+  const surse = []
+  for (const [slug, a] of Object.entries(ARTICOLE || {})) surse.push([`blog/${slug}`, text(a)])
+  for (const a of ARTICOLE_LIST || []) surse.push([`blog-lista/${a.slug}`, text(a)])
+  for (const a of ANSAMBLURI_ACTIVE || []) surse.push([`ansamblu/${a.slug}`, text(a)])
+  for (const a of TOATE_PORTOFOLIU || []) surse.push([`portofoliu/${a.slug}`, text(a)])
+  try {
+    const { ZONE } = await import(resolve(ROOT, 'data/zone.js'))
+    for (const [z, ed] of Object.entries(ZONE || {})) surse.push([`zona/${z}`, text(ed)])
+  } catch {}
+  for (const [unde, txt] of surse)
+    for (const s of propozitii(txt.replace(/\\n/g, '\n').replace(/","/g, '\n')))
+      for (const r of RETRASE)
+        if (r.are(s) && !r.scuzat(s))
+          P(unde, `afirmație retrasă (${r.nume}): „${s.slice(0, 140)}…"`)
+}
+
+// ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
 if (!probleme.length) {
