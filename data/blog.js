@@ -74,6 +74,249 @@ export const AUTORI = {
 }
 
 export const ARTICOLE = {
+  'datorii-intretinere-carte-funciara-ipoteca-asociatie': {
+    titlu: `Datoria la Întreținere în Cartea Funciară: Când Poate Asociația să Pună Ipotecă pe Apartament`,
+    seoTitle: 'Datorii la Întreținere în Cartea Funciară',
+    seoDesc: 'Când poate asociația de proprietari să noteze datoria la întreținere în cartea funciară și să pună ipotecă pe apartament: praguri, termene, calcule, radiere.',
+    tag: 'Legislație', tagColor: '#7c3aed',
+    data: '11 Noiembrie 2026', dataISO: '2026-11-11', citire: '13 min',
+    autor: 'igor-calutu',
+    image: '/blog/datorii-intretinere-carte-funciara-ipoteca-asociatie.avif',
+    descriere: `Da, asociația de proprietari poate trece datoria la întreținere în cartea funciară a apartamentului, pe două căi diferite: notarea datoriilor mai vechi de 3 luni care depășesc salariul minim brut pe țară, pe care președintele sau administratorul este obligat să o ceară, și ipoteca legală, care se poate înscrie după 60 de zile de la scadență. Pragurile, termenele, calculul penalităților, ce se întâmplă la vânzare sau la credit și cum se radiază după plată.`,
+    peScurt: [
+      'Legea nr. 196/2018 dă asociației de proprietari două instrumente în cartea funciară: notarea datoriilor (art. 33 alin. 9) și ipoteca legală asupra apartamentului (art. 80). Sunt mecanisme diferite, cu praguri diferite.',
+      'Notarea este obligatorie pentru președinte sau administrator când datoriile sunt mai vechi de 3 luni și depășesc salariul minim brut pe țară. Ipoteca legală se poate înscrie la cererea președintelui după 60 de zile de la scadență, respectiv 90 de zile de la afișarea listei, fără prag de sumă.',
+      'Penalitățile de întârziere sunt de maximum 0,2% pe zi, curg doar după 30 de zile de la scadență și nu pot depăși datoria. Fiecare cotă lunară se prescrie separat, în 3 ani de la scadența ei.',
+    ],
+    keywords: ['datorii intretinere carte funciara', 'ipoteca asociatie de proprietari', 'notare datorii intretinere carte funciara', 'ipoteca legala asociatia de proprietari apartament', 'restante intretinere ce poate face asociatia', 'penalitati intretinere 0,2 pe zi', 'radiere ipoteca asociatie de proprietari', 'vanzare apartament cu datorii la intretinere'],
+    hashtags: ['#AsociatiaDeProprietari', '#CarteaFunciara', '#Legea196', '#Intretinere', '#NeofortIMO'],
+    cuprins: [
+      { id: 'raspuns-scurt', titlu: `Poate asociația să treacă datoria în cartea funciară?` },
+      { id: 'notare-vs-ipoteca', titlu: `Notare sau ipotecă legală: diferența` },
+      { id: 'praguri-termene', titlu: `După cât timp și de la ce sumă` },
+      { id: 'penalitati', titlu: `Cât cresc penalitățile` },
+      { id: 'procedura', titlu: `Cum ajunge datoria în cartea funciară` },
+      { id: 'executare', titlu: `Poate asociația să-ți vândă apartamentul?` },
+      { id: 'vanzare-credit', titlu: `Ce se întâmplă la vânzare sau la credit` },
+      { id: 'radiere', titlu: `Cum scoți datoria din cartea funciară` },
+      { id: 'contestare', titlu: `Suma e greșită sau datoria e veche` },
+      { id: 'bloc-nou', titlu: `Ce înseamnă într-un bloc nou` },
+      { id: 'faq', titlu: `Întrebări frecvente` },
+    ],
+    sectiuni: [
+      {
+        id: 'raspuns-scurt',
+        h2: `Poate asociația de proprietari să treacă datoria la întreținere în cartea funciară?`,
+        continut: `**Da.** Legea nr. 196/2018 privind asociațiile de proprietari îi dă asociației două instrumente care apar în cartea funciară a apartamentului tău, iar unul dintre ele este chiar o obligație pentru conducerea asociației, nu o opțiune.
+
+**1. Notarea datoriilor**, prevăzută la **art. 33 alin. (9)**. Președintele sau administratorul este obligat să ceară notarea în cartea funciară a datoriilor mai vechi de 3 luni care depășesc valoarea salariului de bază minim brut pe țară garantat în plată. Notarea este scutită de taxa de timbru, conform **alin. (10)**.
+
+**2. Ipoteca legală**, prevăzută la **art. 80**. Asociația are, prin lege, ipotecă asupra apartamentelor pentru sumele datorate ca cote de contribuție la cheltuielile comune. Ipoteca se înscrie în cartea funciară la cererea președintelui, pe baza ultimei liste de plată, după ce au trecut 60 de zile de la scadență, respectiv 90 de zile de la afișarea listei.
+
+Ce **nu** face niciuna dintre ele: nu îți ia apartamentul și nu îl scoate la vânzare. Ambele sunt semnale publice, vizibile pentru oricine scoate un extras de carte funciară, și garanții pentru asociație. Vânzarea forțată cere un proces și un executor judecătoresc, iar drumul acesta e descris mai jos, la secțiunea despre executare.
+
+Ce schimbă în viața reală: un apartament cu o asemenea mențiune în cartea funciară se vinde și se ipotechează mult mai greu, pentru că notarul și banca o văd imediat.`,
+      },
+      {
+        id: 'notare-vs-ipoteca',
+        h2: `Notare sau ipotecă legală: două mecanisme diferite, cu efecte diferite`,
+        continut: `Presa folosește cele două noțiuni ca sinonime. Nu sunt, iar diferența contează când vrei să înțelegi ce s-a întâmplat cu apartamentul tău.
+
+| | Notarea datoriilor | Ipoteca legală |
+|---|---|---|
+| Temei | art. 33 alin. (9)–(10) din Legea 196/2018 | art. 80 din Legea 196/2018 |
+| Cine o cere | președintele sau administratorul | președintele asociației |
+| Obligatorie sau opțională | obligatorie, când pragurile sunt depășite | opțională, la decizia asociației |
+| Prag de vechime | datorii mai vechi de 3 luni | 60 de zile de la scadență / 90 de zile de la afișarea listei |
+| Prag de sumă | peste salariul minim brut pe țară | niciunul |
+| Efect | informează: oricine vede că există datorii | garantează: asociația e plătită cu prioritate din prețul apartamentului |
+
+**Notarea** are rol de publicitate. Un cumpărător, o bancă sau un notar află din extras că apartamentul are restanțe la asociație.
+
+**Ipoteca legală** are rol de garanție. Dacă apartamentul ajunge să fie vândut, de bună voie sau prin executare silită, asociația își recuperează suma garantată din preț, în ordinea de preferință pe care i-o dă înscrierea. Legea o completează cu un privilegiu asupra bunurilor mobile din clădire ale proprietarului, la **art. 80 alin. (2)**.
+
+În practică, o asociație bine administrată folosește întâi notarea, pentru că legea o obligă, și ipoteca atunci când datoria e mare sau proprietarul nu răspunde la somații.`,
+      },
+      {
+        id: 'praguri-termene',
+        h2: `După cât timp și de la ce sumă ajunge datoria în cartea funciară`,
+        continut: `Toate termenele pornesc de la **lista de plată**. Legea 196/2018 stabilește că plata se face în **30 de zile** de la afișarea listei; ziua în care expiră acest termen este scadența.
+
+Calendarul pentru o listă afișată pe **5 ianuarie**:
+
+| Moment | Data | Ce se întâmplă |
+|---|---|---|
+| Afișarea listei | 5 ianuarie | începe termenul de plată |
+| Scadența | 4 februarie | după această zi, suma e restantă |
+| Încep penalitățile | 6 martie | 30 de zile după scadență (art. 77) |
+| Acțiune în instanță posibilă | 5 aprilie | 60 de zile de la scadență / 90 de la afișare (art. 78 alin. 2) |
+| Ipoteca legală poate fi înscrisă | 5 aprilie | același termen (art. 80 alin. 3) |
+| Notarea devine obligatorie | când datoriile mai vechi de 3 luni trec de salariul minim brut | art. 33 alin. (9) |
+
+**Pragul de sumă pentru notare** este salariul de bază minim brut pe țară, care este de **4.325 de lei** din 1 iulie 2026. Pragul se modifică odată cu salariul minim, de aceea legea nu dă o sumă fixă.
+
+Exemplu, la o întreținere de **450 de lei pe lună**:
+
+| Luni neplătite | Datorie totală | Peste 4.325 lei? |
+|---|---|---|
+| 3 | 1.350 lei | nu |
+| 6 | 2.700 lei | nu |
+| 9 | 4.050 lei | nu |
+| 10 | 4.500 lei | da |
+
+Textul legii cere ca datoriile să fie **și** mai vechi de 3 luni, **și** peste prag. Dacă asociația aplică pragul strict, la suma restantă de peste 3 luni, momentul se mută la aproximativ 13 luni de neplată în exemplul de mai sus. Pentru ipoteca legală, în schimb, nu există prag de sumă: o singură lună neplătită de peste 60 de zile de la scadență e suficientă, teoretic, pentru înscriere.
+
+La o întreținere de iarnă de 900 de lei pe lună, pragul de notare se atinge după 5 luni. De aceea restanțele acumulate în sezonul rece ajung cel mai des în cartea funciară.`,
+      },
+      {
+        id: 'penalitati',
+        h2: `Cât cresc penalitățile până ajunge datoria în cartea funciară`,
+        continut: `Penalitățile sunt reglementate la **art. 77**: cel mult **0,2% pe zi** de întârziere, aplicate numai după **30 de zile** de la scadență, și niciodată mai mari decât suma la care se aplică. Procentul exact îl stabilește adunarea generală, în limita legală.
+
+Calculul pentru o singură listă de **450 de lei**, la plafonul legal de 0,2%:
+450 lei × 0,2% = **0,90 lei pe zi**
+Plafonul de 450 de lei se atinge după 450 ÷ 0,90 = **500 de zile** de penalizare
+
+Calculul pentru **6 luni consecutive neplătite**, privit în ziua în care se împlinesc 180 de zile de la prima scadență:
+
+| Luna | Zile penalizabile | Penalitate |
+|---|---|---|
+| 1 | 150 | 135 lei |
+| 2 | 120 | 108 lei |
+| 3 | 90 | 81 lei |
+| 4 | 60 | 54 lei |
+| 5 | 30 | 27 lei |
+| 6 | 0 | 0 lei |
+| **Total** | | **405 lei** peste datoria de 2.700 lei |
+
+Adică **15% în plus** după jumătate de an. Penalitatea nu e o sancțiune care se negociază: dacă adunarea generală a aprobat-o legal, se datorează.
+
+Două verificări pe care merită să le faci pe lista ta: că procentul nu depășește 0,2% pe zi și că penalitatea nu curge din prima zi după scadență. O hotărâre care încalcă oricare dintre aceste reguli este nelegală, iar regulile de repartizare a cheltuielilor sunt explicate în articolul despre [cât costă întreținerea într-un bloc nou](/blog/intretinere-bloc-nou-de-ce-difera).`,
+      },
+      {
+        id: 'procedura',
+        h2: `Cum ajunge datoria în cartea funciară: pașii asociației`,
+        continut: `Procedura e administrativă și se face la biroul de cadastru și publicitate imobiliară din raza în care se află blocul, nu în instanță.
+
+**Pentru notare (art. 33 alin. 9):**
+1. Administratorul calculează, pe baza listelor de plată, datoriile mai vechi de 3 luni ale fiecărui apartament.
+2. Dacă suma trece de salariul minim brut, președintele sau administratorul depune cererea de notare la biroul de cadastru, cu situația datoriilor.
+3. Biroul de cadastru notează datoriile în cartea funciară a apartamentului. Cererea este scutită de taxa de timbru.
+
+**Pentru ipoteca legală (art. 80):**
+1. Se verifică faptul că au trecut 60 de zile de la scadență, respectiv 90 de zile de la afișarea listei.
+2. Președintele depune cererea de înscriere a ipotecii, pe baza ultimei liste de plată.
+3. Ipoteca se înscrie în cartea funciară, cu rangul dat de data înregistrării cererii.
+
+Legea nu cere ca proprietarul să fie anunțat înainte de notare sau de înscriere. Afli de obicei în două situații: când scoți un extras de carte funciară sau când asociația îți trimite o somație. De aceea, dacă ai o restanță, merită să ceri la avizier sau de la administrator situația exactă înainte să ajungă în cartea funciară, nu după.
+
+Un extras de carte funciară pentru informare se obține online, de pe portalul ANCPI, pe baza numărului cadastral sau a numărului de carte funciară, și arată toate sarcinile înscrise pe apartament.`,
+      },
+      {
+        id: 'executare',
+        h2: `Poate asociația să-ți vândă apartamentul pentru datorii la întreținere?`,
+        continut: `Teoretic da, dar nu direct și nu repede. Între o restanță și o vânzare silită sunt trei etape, fiecare cu propriul termen și cost.
+
+**1. Procesul.** Conform **art. 78 alin. (2)**, asociația, prin președinte, poate acționa în instanță proprietarul care nu a plătit mai mult de 60 de zile de la scadență, respectiv 90 de zile de la afișarea listei. Lista de plată nu este, singură, un titlu care se poate executa: e nevoie de o hotărâre judecătorească.
+
+**2. Executarea.** Cu hotărârea, asociația se adresează unui executor judecătoresc. Conform **art. 78 alin. (4)**, hotărârea se execută prin orice modalitate permisă de Codul de procedură civilă. În practică, executorul începe cu ce e mai simplu: poprirea pe salariu, pe pensie sau pe contul bancar.
+
+**3. Vânzarea apartamentului**, ca ultimă variantă, când celelalte căi nu acoperă datoria. Aici intervine ipoteca legală: din prețul obținut, asociația este plătită în ordinea dată de rangul ipotecii. Legea mai prevede, la **art. 79**, un drept de preempțiune pentru autoritatea publică locală, care poate cumpăra locuința la preț egal, pentru a o folosi apoi ca locuință socială.
+
+Cheltuielile de judecată și de executare se adaugă la datorie și le suportă, de regulă, cel care pierde. O restanță de câteva mii de lei poate ajunge astfel la dublu înainte de a ajunge la vânzare.
+
+Concluzia practică: pentru o datorie la întreținere, vânzarea silită e rară. Ce se întâmplă des sunt poprirea și blocajul la vânzare sau la refinanțare, din cauza mențiunii din cartea funciară.`,
+      },
+      {
+        id: 'vanzare-credit',
+        h2: `Ce se întâmplă la vânzare sau la un credit ipotecar`,
+        continut: `**La vânzare**, legea pune regula direct la notar. Conform **art. 33 alin. (1)–(2)**, vânzătorul trebuie să dovedească plata la zi a contribuțiilor, cu o **adeverință** de la asociație, valabilă **30 de zile** și semnată de administrator și de președinte.
+
+Dacă adeverința arată datorii, notarul autentifică vânzarea numai dacă **cumpărătorul acceptă expres să preia toate datoriile** vânzătorului către asociație și către furnizori. Un act autentificat fără aceste verificări este **anulabil**, conform **alin. (4)**.
+
+Ce înseamnă pentru tine, ca vânzător: datoria se plătește oricum, fie de tine înainte de semnare, fie din preț, fie de cumpărător, care o va scădea din preț. Pentru cumpărător, regula e simplă: nu semna fără adeverința asociației și fără un extras de carte funciară scos în ziua semnării.
+
+**La un credit ipotecar**, banca cere extras de carte funciară pentru apartamentul pe care îl ia în garanție. O ipotecă legală a asociației, înscrisă înaintea ipotecii băncii, are rang mai bun decât banca. Băncile cer de aceea, aproape fără excepție, radierea ei înainte de acordarea creditului, iar o notare de datorii ridică aceeași întrebare. Ce verifică banca pas cu pas este explicat în [ghidul complet al creditului ipotecar](/blog/credit-ipotecar-2026-ghid-complet-rate-dobanzi).
+
+**La închiriere**, obligația de plată rămâne a proprietarului. Conform **art. 33 alin. (7)**, proprietarul plătește asociației și recuperează sumele de la chiriaș, pe baza contractului de închiriere.`,
+      },
+      {
+        id: 'radiere',
+        h2: `Cum scoți datoria din cartea funciară după ce ai plătit`,
+        continut: `Plata singură nu curăță cartea funciară. Mențiunea rămâne înscrisă până când cineva cere radierea ei.
+
+**Pașii:**
+1. Plătește datoria, inclusiv penalitățile, și păstrează chitanța sau ordinul de plată.
+2. Cere asociației un document care confirmă stingerea datoriei și acordul pentru radiere, semnat de președinte și de administrator.
+3. Depune cererea de radiere la biroul de cadastru și publicitate imobiliară, cu documentul asociației. La ipotecă, biroul de cadastru poate cere ca acordul creditorului să fie dat în formă autentică, la notar; întreabă înainte la biroul de cadastru, ca să nu faci drumul de două ori.
+4. Verifică într-un extras nou de carte funciară că mențiunea a fost radiată.
+
+Dacă vinzi apartamentul, pașii 2–3 se pot face prin notar, în ziua semnării: o parte din preț se virează direct asociației, iar notarul cere radierea împreună cu înscrierea noului proprietar.
+
+**Dacă asociația refuză să-ți dea documentul** după ce ai plătit, trimite cererea în scris, cu dovada plății atașată, și păstrează confirmarea de primire. Un refuz nejustificat se poate contesta în instanță, iar dovada plății e documentul decisiv.`,
+      },
+      {
+        id: 'contestare',
+        h2: `Ce faci dacă suma e greșită sau datoria e prea veche`,
+        continut: `**Dacă suma e greșită**, cere în scris administratorului defalcarea pe luni și pe criterii de repartizare. Conform legii, cheltuielile se împart pe criterii precise: număr de persoane, consum individual, cotă-parte indiviză. O repartizare care încalcă aceste criterii este nulă. Dacă nu primești răspuns, adresează-te comisiei de cenzori, apoi adunării generale, și abia apoi instanței.
+
+**Dacă datoria e veche**, verifică prescripția. Termenul general este de **3 ani**, iar la plățile lunare fiecare cotă se prescrie separat, de la scadența ei. O listă din ianuarie 2023, cu scadența în februarie 2023, s-a prescris în februarie 2026, dacă între timp asociația nu a întrerupt termenul.
+
+Termenul se întrerupe, printre altele, prin:
+• o acțiune în instanță a asociației
+• recunoașterea datoriei de către tine, inclusiv printr-o plată parțială fără mențiuni
+
+**Plățile parțiale contează.** Când plătești doar o parte din datorie, poți indica în scris ce lună achiți. Fără o asemenea mențiune, plata se impută, de regulă, pe datoriile cele mai vechi, iar o plată poate fi interpretată ca recunoaștere a întregii datorii. Scrie pe ordinul de plată sau pe chitanță luna pe care o plătești.
+
+O datorie prescrisă nu mai poate fi executată silit, dar mențiunea ei din cartea funciară nu dispare singură. Radierea ei cere fie acordul asociației, fie o hotărâre judecătorească.`,
+      },
+      {
+        id: 'bloc-nou',
+        h2: `Ce înseamnă toate acestea într-un bloc nou`,
+        continut: `Într-un ansamblu rezidențial nou, regulile sunt aceleași din prima zi în care asociația e constituită legal. Diferența e că, la început, asociația are puțini proprietari, fonduri mici și o conducere fără experiență, iar restanțele câtorva apartamente se simt imediat în bugetul blocului.
+
+Trei lucruri utile pentru un proprietar dintr-un bloc nou:
+
+**1. Constituirea corectă a asociației.** Fără o asociație înregistrată legal, cu președinte ales, nu există cine să ceară notarea sau ipoteca, iar restanțele se acumulează fără instrument de recuperare. Procedura completă este în articolul despre [constituirea asociației de proprietari într-un bloc nou](/blog/constituire-asociatie-proprietari-bloc-nou).
+
+**2. Penalitățile stabilite din start.** Adunarea generală aprobă procentul de penalizare. Un procent în limita legală, aplicat consecvent, descurajează restanțele mai eficient decât orice proces.
+
+**3. Extrasul de carte funciară la orice tranzacție.** Fie că vinzi peste câțiva ani, fie că refinanțezi creditul, extrasul trebuie să fie curat. O restanță uitată de 10 luni la întreținere poate amâna semnarea cu câteva săptămâni.
+
+La cumpărarea unui apartament nou direct de la dezvoltator nu există istoric de datorii la asociație, pentru că asociația se înființează după recepție. Garanțiile care contează la achiziție sunt descrise în articolul despre [garanții și recepția la cheie](/blog/garantii-receptie-cheie-contracte-vanzare-2026), iar proiectele disponibile acum sunt la [ansamblurile rezidențiale Neofort IMO](/ansambluri-rezidentiale). Consultanța este gratuită: 0758 090 904.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre datoriile la întreținere și cartea funciară`,
+        continut: `Poate asociația de proprietari să-mi pună ipotecă pe apartament?
+Da. Conform art. 80 din Legea nr. 196/2018, asociația are ipotecă legală asupra apartamentelor pentru cotele de contribuție neplătite. Ipoteca se înscrie în cartea funciară la cererea președintelui, după 60 de zile de la scadență, respectiv 90 de zile de la afișarea listei de plată.
+
+După câte luni de neplată ajunge datoria la întreținere în cartea funciară?
+Notarea este obligatorie când datoriile sunt mai vechi de 3 luni și depășesc salariul minim brut pe țară, de 4.325 de lei din 1 iulie 2026. La o întreținere de 450 de lei pe lună, asta înseamnă aproximativ 10 luni de neplată. Ipoteca legală se poate înscrie mai devreme, după 60 de zile de la scadență, indiferent de sumă.
+
+Trebuie să fiu anunțat înainte ca asociația să noteze datoria?
+Legea nu prevede o notificare prealabilă obligatorie pentru notare sau pentru înscrierea ipotecii legale. Afli de obicei dintr-un extras de carte funciară sau dintr-o somație.
+
+Cât sunt penalitățile la întreținere?
+Cel mult 0,2% pe zi, aplicate numai după 30 de zile de la scadență, conform art. 77 din Legea 196/2018. Penalitatea nu poate depăși suma la care se aplică. La 450 de lei, înseamnă cel mult 0,90 lei pe zi.
+
+Poate asociația să-mi vândă apartamentul pentru datorii la întreținere?
+Numai după un proces câștigat și prin executor judecătoresc. Executorul folosește de regulă întâi poprirea pe salariu, pensie sau cont. Vânzarea apartamentului este ultima variantă, iar autoritatea locală are drept de preempțiune la preț egal, conform art. 79.
+
+Pot vinde un apartament cu datorii la întreținere?
+Da, dar notarul autentifică vânzarea numai dacă datoria este plătită sau dacă cumpărătorul acceptă expres să o preia, conform art. 33 alin. (2). Adeverința asociației este valabilă 30 de zile.
+
+Cum se radiază ipoteca asociației după ce am plătit?
+Ceri asociației un document care confirmă stingerea datoriei și acordul pentru radiere, apoi depui cererea de radiere la biroul de cadastru și publicitate imobiliară. Biroul de cadastru poate cere ca acordul să fie dat în formă autentică, la notar.
+
+Se prescrie datoria la întreținere?
+Da, în 3 ani, iar fiecare cotă lunară se prescrie separat, de la scadența ei. Termenul se întrerupe printr-o acțiune în instanță sau prin recunoașterea datoriei, inclusiv printr-o plată parțială fără mențiuni.
+
+Cine plătește întreținerea dacă apartamentul e închiriat?
+Proprietarul, față de asociație. Conform art. 33 alin. (7), el recuperează sumele de la chiriaș, pe baza contractului de închiriere.`,
+      },
+    ],
+  },
   'impozit-dublu-balcon-inchis-fara-autorizatie': {
     titlu: 'Impozit Dublu pentru Balcon Închis sau Unit cu Sufrageria: Ce Termen Ai, de Fapt',
     seoTitle: 'Balcon Închis: Impozit Dublu și Termen 2027',
@@ -6573,7 +6816,7 @@ Dezvoltatorul, ca vânzător profesionist, și constructorul răspund legal pent
     seoTitle: 'Întreținere Bloc Nou: De Ce Diferă Atât',
     seoDesc: 'Jumătate din factura de iarnă e încălzirea, nu întreținerea. Cum se citește o listă de plată, de ce diferă între ansambluri și ce întrebi înainte de semnare.',
     tag: 'Analiză', tagColor: '#c2410c',
-    data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '13 min',
+    data: '13 Octombrie 2026', dataISO: '2026-10-13', dataModificata: '2026-11-11', citire: '13 min',
     autor: 'sasha-calutu',
     image: '/blog/intretinere-bloc-nou-de-ce-difera.avif',
     imagePosition: 'center top',
@@ -6735,7 +6978,7 @@ Conform **art. 75 alin. (2)** din Legea nr. 196/2018, cheltuielile se repartizea
 
 Există o excepție utilă: conform **art. 75 alin. (5)**, adunarea generală poate scuti proprietarii de la parter și de la etajele inferioare de plata energiei electrice a liftului.
 
-**Penalitățile** pentru întârziere nu pot depăși **0,2% pe zi**, conform **art. 77**, și se aplică numai după **30 de zile** de la scadență. O asociație care practică mai mult încalcă legea.
+**Penalitățile** pentru întârziere nu pot depăși **0,2% pe zi**, conform **art. 77**, și se aplică numai după **30 de zile** de la scadență. O asociație care practică mai mult încalcă legea. Dacă restanța se acumulează, asociația poate nota datoria în cartea funciară sau poate înscrie ipoteca legală asupra apartamentului; pragurile și termenele sunt în [ghidul despre întreținerea neplătită și ipoteca asociației](/blog/datorii-intretinere-carte-funciara-ipoteca-asociatie).
 
 Dacă suma de pe lista ta nu se potrivește cu a vecinului de aceeași suprafață, cere administratorului defalcarea pe criterii. Conform **art. 66**, lista lunară de cheltuieli trebuie afișată în **cel mult 5 zile** de la primirea ultimei facturi de la furnizori.`,
       },
@@ -6828,7 +7071,7 @@ Cât de sigură este termoficarea în București?
     seoTitle: 'Asociație de Proprietari: Cum o Constitui',
     seoDesc: 'Taxa de timbru este 20 de lei, iar legea nu cere avocat. Pașii exacți, actele cerute de judecătorie și greșelile care costă, conform Legii nr. 196/2018.',
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '5 Octombrie 2026', dataISO: '2026-10-05', dataModificata: '2026-10-13', citire: '14 min',
+    data: '5 Octombrie 2026', dataISO: '2026-10-05', dataModificata: '2026-11-11', citire: '14 min',
     autor: 'igor-calutu',
     image: '/blog/constituire-asociatie-proprietari-bloc-nou.avif',
     descriere: `Constituirea asociației de proprietari într-un bloc nou costă 20 de lei taxă de timbru și nu are nevoie de avocat. Procedura completă din Legea nr. 196/2018: adunarea de constituire, actele pentru judecătorie, organele obligatorii, alegerea administratorului și greșelile care se plătesc ani la rând.`,
@@ -7000,7 +7243,7 @@ Mecanismul acesta este cel mai util lucru de știut pentru un bloc nou, unde la 
 
 **5. Confuzia între fondul de rulment și fondul de reparații.** Fondul de reparații, reglementat la **art. 71**, este obligatoriu, se aprobă anual și se folosește **numai** pentru consolidarea clădirii, reabilitare termică, lucrări de arhitectură ambientală și reparații la proprietatea comună. Soldul neutilizat se reportează în anul următor, cu aceeași destinație. Spre deosebire de fondul de rulment, **nu se restituie** la vânzare, cu excepția unei hotărâri a adunării generale.
 
-**6. Penalități stabilite peste limita legală.** Conform **art. 77**, penalitățile de întârziere **nu pot depăși 0,2% pe zi** și se aplică numai după **30 de zile** de la scadență. O hotărâre care prevede mai mult este nelegală.
+**6. Penalități stabilite peste limita legală.** Conform **art. 77**, penalitățile de întârziere **nu pot depăși 0,2% pe zi** și se aplică numai după **30 de zile** de la scadență. O hotărâre care prevede mai mult este nelegală. Ce poate face asociația cu restanțele mai vechi, de la notarea în cartea funciară la ipoteca legală, este explicat în [articolul despre datoriile la întreținere în cartea funciară](/blog/datorii-intretinere-carte-funciara-ipoteca-asociatie).
 
 **7. Reguli de repartizare inventate.** Conform **art. 75 alin. (2)**, cheltuielile se repartizează pe criterii prevăzute de lege: pe număr de persoane, pe consum individual, pe cota-parte indiviză, pe beneficiari și pe consumatori tehnici. Conform **art. 75 alin. (3)**, hotărârile care încalcă aceste reguli **sunt nule**. Iar cota-parte indiviză nu se negociază: este raportul dintre suprafața utilă a apartamentului tău și totalul suprafețelor utile din clădire, iar suma tuturor cotelor trebuie să dea 100%.
 
@@ -7237,6 +7480,7 @@ Nu. Trebuie depusă o cerere la administrația financiară, însoțită de docum
 }
 
 export const ARTICOLE_LIST = [
+  { slug: 'datorii-intretinere-carte-funciara-ipoteca-asociatie', titlu: 'Datoria la Întreținere în Cartea Funciară: Când Poate Asociația să Pună Ipotecă pe Apartament', data: '11 Noiembrie 2026', dataISO: '2026-11-11', citire: '13 min', image: '/blog/datorii-intretinere-carte-funciara-ipoteca-asociatie.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Când trece asociația de proprietari datoria la întreținere în cartea funciară: notarea obligatorie peste salariul minim, ipoteca legală după 60 de zile, penalitățile de 0,2% pe zi, vânzarea și radierea.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'impozit-dublu-balcon-inchis-fara-autorizatie', titlu: 'Impozit Dublu pentru Balcon Închis sau Unit cu Sufrageria: Ce Termen Ai, de Fapt', data: '9 Octombrie 2026', dataISO: '2026-10-09', citire: '13 min', image: '/blog/impozit-dublu-balcon-inchis-fara-autorizatie.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Majorarea cu 100% a impozitului este în vigoare din 25 august 2026, nu din 2027. Balconul închis și balconul unit cu camera au regimuri diferite, cu termene diferite.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'dotari-reduc-factura-energie-apartament-nou', titlu: '5 Dotări Care Reduc Factura la Energie cu Până la 40%', data: '30 Septembrie 2026', dataISO: '2026-09-30', citire: '11 min', image: '/blog/dotari-reduc-factura-energie-apartament-nou.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cinci dotări care fac diferența reală în factura lunară la energie, cât economisește fiecare și cum verifici înainte de semnare că sunt prevăzute efectiv în proiect, nu doar în broșură.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
     { slug: 'intretinere-bloc-nou-de-ce-difera', titlu: 'Întreținerea la Bloc Nou: De Ce Diferă Atât de Mult', data: '13 Octombrie 2026', dataISO: '2026-10-13', citire: '13 min', image: '/blog/intretinere-bloc-nou-de-ce-difera.avif', tag: 'Analiză', tagColor: '#c2410c', rezumat: 'Jumătate din factura de iarnă este încălzirea, nu întreținerea. Cum se citește corect o listă de plată și ce întrebi înainte să semnezi.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
