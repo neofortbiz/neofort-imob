@@ -79,10 +79,10 @@ export const ARTICOLE = {
     seoTitle: 'Regim Hotelier la Bloc: Reguli 2026, Impozit',
     seoDesc: 'Regim hotelier în apartament la bloc în 2026: cod unic SITUR, acordul vecinilor și al asociației, limita de 7 camere, impozitul real și venitul net, calculat.',
     tag: 'Investiții', tagColor: '#0369a1',
-    data: '30 Octombrie 2026', dataISO: '2026-10-30', citire: '12 min',
+    data: '30 Octombrie 2026', dataISO: '2026-10-30', citire: '13 min',
     autor: 'sasha-calutu',
     image: '/blog/regim-hotelier-apartament-bloc-reguli-2026.avif',
-    descriere: `Da, poți închiria în regim hotelier un apartament la bloc în 2026, dar numai cu certificat de clasificare și cu cod unic de înregistrare obținut prin SITUR. Pentru clasificare îți trebuie acordul scris al vecinilor direct afectați și avizul comitetului executiv al asociației. O persoană fizică poate clasifica cel mult 7 camere și 14 locuri, iar impozitul este 10% din 70% din încasări, plus CASS. Pașii în ordine, amenzile și o simulare completă de venit net față de închirierea clasică.`,
+    descriere: `Da, poți închiria în regim hotelier un apartament la bloc în 2026, dar numai dacă blocul nu e încadrat cu risc seismic ridicat, cu certificat de clasificare și cu cod unic de înregistrare obținut prin SITUR. Pentru clasificare îți trebuie acordul scris al vecinilor direct afectați și avizul comitetului executiv al asociației. O persoană fizică poate clasifica cel mult 7 camere și 14 locuri, iar impozitul este 10% din 70% din încasări, plus CASS. Pașii în ordine, amenzile și o simulare completă de venit net față de închirierea clasică.`,
     peScurt: [
       'Din 20 mai 2026, fiecare unitate de cazare listată pe platforme precum Airbnb sau Booking trebuie să aibă un cod unic de înregistrare, obținut prin sistemul național SITUR, conform Regulamentului UE 2024/1028. Anunțurile fără cod pot fi eliminate de platforme.',
       'Ordinul nr. 948/2026 cere, pentru un apartament la bloc, acordul scris al vecinilor direct afectați, pe orizontală și pe verticală, și avizul comitetului executiv al asociației. O persoană fizică poate clasifica cel mult 7 camere și 14 locuri, cumulat pe toate locuințele.',
@@ -95,6 +95,7 @@ export const ARTICOLE = {
       { id: 'ce-s-a-schimbat', titlu: `Ce s-a schimbat în 2026` },
       { id: 'pasi', titlu: `Pașii, în ordine` },
       { id: 'acordul-vecinilor', titlu: `Acordul vecinilor și avizul asociației` },
+      { id: 'bulina-rosie', titlu: `Blocurile cu bulină roșie` },
       { id: 'limita-7-camere', titlu: `Limita de 7 camere și 14 locuri` },
       { id: 'impozit', titlu: `Ce impozit plătești` },
       { id: 'simulare', titlu: `Simulare: regim hotelier vs. chirie clasică` },
@@ -106,12 +107,13 @@ export const ARTICOLE = {
       {
         id: 'raspuns-scurt',
         h2: `Se mai poate închiria în regim hotelier un apartament la bloc în 2026?`,
-        continut: `**Da, legal, dacă îndeplinești patru condiții.** Fără oricare dintre ele, anunțul tău de pe Airbnb sau Booking poate fi șters, iar activitatea poate fi amendată.
+        continut: `**Da, legal, dacă îndeplinești cinci condiții.** Fără oricare dintre ele, anunțul tău de pe Airbnb sau Booking poate fi șters, iar activitatea poate fi amendată.
 
-1. **Certificat de clasificare** pentru apartament, emis de autoritatea de turism.
-2. **Acordul scris al vecinilor direct afectați** și **avizul comitetului executiv al asociației**, depuse la dosarul de clasificare.
-3. **Cod unic de înregistrare**, obținut prin SITUR, sistemul informatic național al turismului, și afișat în anunț.
-4. **Declararea venitului** la ANAF, prin declarația unică, cu impozit de 10% și, peste un prag, CASS.
+1. **Blocul nu este încadrat cu risc seismic ridicat** (bulină roșie). Altfel, închirierea e interzisă prin lege.
+2. **Certificat de clasificare** pentru apartament, emis de autoritatea de turism.
+3. **Acordul scris al vecinilor direct afectați** și **avizul comitetului executiv al asociației**, depuse la dosarul de clasificare.
+4. **Cod unic de înregistrare**, obținut prin SITUR, sistemul informatic național al turismului, și afișat în anunț.
+5. **Declararea venitului** la ANAF, prin declarația unică, cu impozit de 10% și, peste un prag, CASS.
 
 Regimul hotelier înseamnă, fiscal, închirierea aceleiași camere către aceeași persoană pentru cel mult 30 de zile pe an, fără întrerupere. Peste această durată, e o închiriere obișnuită, cu alte reguli, explicate în articolul despre [legea chiriilor în 2026](/blog/lege-chirii-2026-proprietari-chiriasi).
 
@@ -169,6 +171,23 @@ Dacă după clasificare se schimbă ceva important, cum ar fi numărul de camere
 **Dacă un vecin refuză.** Ordinul nu prevede o cale de a trece peste refuzul unui vecin direct afectat: fără acordul lui, dosarul de clasificare e incomplet, iar fără clasificare nu poți funcționa legal. În practică, refuzurile vin din teama de zgomot, de chei pierdute sau de uzura spațiilor comune. Ce funcționează mai bine decât insistența: un regulament scris al casei, afișat în apartament, cu ore de liniște și interdicția petrecerilor, un număr de telefon la care vecinii te pot suna oricând, accesul cu cod, fără chei care circulă, și curățenia făcută de o firmă după fiecare plecare.
 
 **Pentru asociație**, un apartament în regim hotelier nu schimbă regulile de plată a întreținerii. Proprietarul plătește asociației cotele de contribuție, inclusiv cele calculate pe număr de persoane, și răspunde de restanțe. Ce se poate întâmpla cu restanțele la întreținere este explicat în articolul despre [datoriile la întreținere în cartea funciară](/blog/datorii-intretinere-carte-funciara-ipoteca-asociatie).`,
+      },
+      {
+        id: 'bulina-rosie',
+        h2: `Se poate închiria în regim hotelier un apartament dintr-un bloc cu bulină roșie?`,
+        continut: `**Nu.** Legea nr. 212/2022 privind reducerea riscului seismic al clădirilor, modificată prin Legea nr. 426/2023, interzice din 6 ianuarie 2024 închirierea apartamentelor din clădirile încadrate cu risc seismic ridicat, marcate cu bulină roșie. Contractele de închiriere în vigoare la acea dată au încetat după 30 de zile, iar contracte noi nu se mai pot încheia. Interdicția privește orice închiriere, deci și regimul hotelier.
+
+Platformele au început să aplice regula. Din august 2026, Airbnb le cere gazdelor să dovedească, în 14 zile, că apartamentul nu se află într-o clădire cu risc seismic ridicat. Fără dovadă, anunțul este șters.
+
+Documentele pe care Airbnb le acceptă ca dovadă:
+• extrasul de carte funciară al apartamentului
+• o expertiză tehnică întocmită de un expert atestat
+• documentele care arată că blocul a fost consolidat
+• confirmarea primăriei privind încadrarea clădirii
+
+Listele clădirilor expertizate și încadrate pe clase de risc seismic sunt publice; în București le publică Primăria Capitalei. Verifică adresa înainte să cumperi un apartament pentru regim hotelier, nu după.
+
+Un apartament într-un bloc nou, proiectat și recepționat după normativul seismic în vigoare, nu are această problemă. Diferențele dintre un bloc nou și unul vechi la riscul seismic sunt explicate în articolul despre [apartament nou vs. vechi](/blog/apartament-nou-vs-vechi-calcul-real).`,
       },
       {
         id: 'limita-7-camere',
@@ -267,7 +286,7 @@ Concluzia: regimul hotelier merită când apartamentul are o locație care ține
 
 **2. Tipologia.** Garsonierele și apartamentele de 2 camere se închiriază cel mai des în regim hotelier. Peste 3 camere, ocuparea scade și costurile de curățenie cresc.
 
-**3. Clădirea și actele.** Un apartament nou are actele de recepție și cartea funciară curate, deci documentul de legalitate cerut la clasificare nu e o problemă. La un apartament vechi, verifică dacă au existat modificări neautorizate.
+**3. Clădirea și actele.** Un apartament nou are actele de recepție și cartea funciară curate, deci documentul de legalitate cerut la clasificare nu e o problemă. La un apartament vechi, verifică dacă au existat modificări neautorizate și dacă blocul nu e încadrat cu risc seismic ridicat — într-un bloc cu bulină roșie, regimul hotelier e interzis prin lege.
 
 **4. Asociația și vecinii.** Într-un bloc nou, asociația se constituie după recepție; întreabă cum se va organiza și cum se vor lua deciziile. Procedura e în articolul despre [constituirea asociației de proprietari într-un bloc nou](/blog/constituire-asociatie-proprietari-bloc-nou).
 
@@ -283,6 +302,9 @@ Nu legal. Ordinul nr. 948/2026 cere, la dosarul de clasificare, acordul scris al
 
 Am nevoie de acordul tuturor vecinilor din bloc?
 Nu. Este nevoie de acordul proprietarilor direct afectați, adică al vecinilor cu care împarți pereți și al celor de deasupra și de dedesubt, plus avizul comitetului executiv al asociației. Nu e nevoie de un vot al adunării generale.
+
+Pot închiria în regim hotelier un apartament dintr-un bloc cu bulină roșie?
+Nu. Legea nr. 212/2022, modificată prin Legea nr. 426/2023, interzice din 6 ianuarie 2024 închirierea apartamentelor din clădirile cu risc seismic ridicat, marcate cu bulină roșie, inclusiv în regim hotelier. Din august 2026, Airbnb cere dovada că apartamentul nu se află într-o astfel de clădire și șterge anunțurile fără dovadă.
 
 Ce este codul unic SITUR?
 Este numărul de înregistrare al unității de cazare, obligatoriu din 20 mai 2026 pentru anunțurile de pe platforme precum Airbnb și Booking, conform Regulamentului UE 2024/1028. Se obține prin sistemul informatic național al turismului, SITUR, cu autentificare prin ROeID sau semnătură electronică.
@@ -5061,7 +5083,9 @@ Procesul de consolidare merge extrem de lent din cauza birocraticii (acordul tut
 Ce înseamnă pentru decizia ta:
 Un apartament vechi în bloc neclasat sau în clasa III–IV are un risc relativ gestionabil (deși niciodată zero în București). Un apartament în bloc Clasa I sau II fără consolidare este o decizie cu risc semnificativ pe care trebuie să îl asumi conștient.
 
-Apartamentele noi construite după normele seismice P100-1/2013 (obligatorii din 2014) au rezistență calculată pentru cutremure de 7,5–8 grade Richter.`,
+Apartamentele noi construite după normele seismice P100-1/2013 (obligatorii din 2014) au rezistență calculată pentru cutremure de 7,5–8 grade Richter.
+
+Un apartament dintr-un bloc cu bulină roșie nici nu poate fi închiriat: Legea nr. 212/2022, modificată prin Legea nr. 426/2023, interzice din 2024 orice închiriere în aceste clădiri, inclusiv în regim hotelier, explicat în [ghidul despre regimul hotelier la bloc](/blog/regim-hotelier-apartament-bloc-reguli-2026).`,
       },
       {
         id: 'impozit',
@@ -5617,7 +5641,7 @@ Dezavantaj: randamentul curent e sub dobânda bancară. Câștigul major vine la
 Strategia 2 — Airbnb/închiriere de scurtă durată (randament brut 7–12%, dar muncă activă):
 Apartamentele din zone turistice sau centrale pot fi închiriat pe Airbnb sau Booking.com la tarife de 50–120 EUR/noapte. Un grad de ocupare de 60–70% generate randamente brute de 7–12% — net 5–8% după taxe, curățenie, management.
 
-Problema: în 2026, regulile pentru închirierea de scurtă durată s-au înăsprit la nivel național: cod unic de înregistrare în SITUR, acordul vecinilor direct afectați, avizul asociației și limita de 7 camere pentru persoanele fizice. Pașii, impozitul și o simulare de venit net sunt în [ghidul despre regimul hotelier la bloc în 2026](/blog/regim-hotelier-apartament-bloc-reguli-2026).
+Problema: în 2026, regulile pentru închirierea de scurtă durată s-au înăsprit la nivel național: cod unic de înregistrare în SITUR, acordul vecinilor direct afectați, avizul asociației și limita de 7 camere pentru persoanele fizice. În blocurile cu bulină roșie, din centru, închirierea e interzisă prin lege. Pașii, impozitul și o simulare de venit net sunt în [ghidul despre regimul hotelier la bloc în 2026](/blog/regim-hotelier-apartament-bloc-reguli-2026).
 
 Strategia 3 — Cumpărare în faza de construcție și vânzare la finalizare (flipping):
 Cumperi în off-plan (faza de proiect sau construcție), plătești prețul de pre-lansare (de regulă 10–15% sub prețul de vânzare final), vinzi la finalizare sau la 1 an după.
@@ -7713,7 +7737,7 @@ Nu. Trebuie depusă o cerere la administrația financiară, însoțită de docum
 }
 
 export const ARTICOLE_LIST = [
-  { slug: 'regim-hotelier-apartament-bloc-reguli-2026', titlu: 'Regim Hotelier în Apartament la Bloc în 2026: Cod SITUR, Acordul Vecinilor, Clasificare și Impozit', data: '30 Octombrie 2026', dataISO: '2026-10-30', citire: '12 min', image: '/blog/regim-hotelier-apartament-bloc-reguli-2026.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Regim hotelier la bloc în 2026: cod unic SITUR, acordul vecinilor și al asociației, limita de 7 camere, impozitul de 10% din 70% din încasări și simularea de venit net față de chiria clasică.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
+  { slug: 'regim-hotelier-apartament-bloc-reguli-2026', titlu: 'Regim Hotelier în Apartament la Bloc în 2026: Cod SITUR, Acordul Vecinilor, Clasificare și Impozit', data: '30 Octombrie 2026', dataISO: '2026-10-30', citire: '13 min', image: '/blog/regim-hotelier-apartament-bloc-reguli-2026.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Regim hotelier la bloc în 2026: cod unic SITUR, acordul vecinilor și al asociației, limita de 7 camere, impozitul de 10% din 70% din încasări și simularea de venit net față de chiria clasică.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'datorii-intretinere-carte-funciara-ipoteca-asociatie', titlu: 'Datoria la Întreținere în Cartea Funciară: Când Poate Asociația să Pună Ipotecă pe Apartament', data: '11 Noiembrie 2026', dataISO: '2026-11-11', citire: '13 min', image: '/blog/datorii-intretinere-carte-funciara-ipoteca-asociatie.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Când trece asociația de proprietari datoria la întreținere în cartea funciară: notarea obligatorie peste salariul minim, ipoteca legală după 60 de zile, penalitățile de 0,2% pe zi, vânzarea și radierea.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'impozit-dublu-balcon-inchis-fara-autorizatie', titlu: 'Impozit Dublu pentru Balcon Închis sau Unit cu Sufrageria: Ce Termen Ai, de Fapt', data: '9 Octombrie 2026', dataISO: '2026-10-09', citire: '13 min', image: '/blog/impozit-dublu-balcon-inchis-fara-autorizatie.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Majorarea cu 100% a impozitului este în vigoare din 25 august 2026, nu din 2027. Balconul închis și balconul unit cu camera au regimuri diferite, cu termene diferite.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'dotari-reduc-factura-energie-apartament-nou', titlu: '5 Dotări Care Reduc Factura la Energie cu Până la 40%', data: '30 Septembrie 2026', dataISO: '2026-09-30', citire: '11 min', image: '/blog/dotari-reduc-factura-energie-apartament-nou.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cinci dotări care fac diferența reală în factura lunară la energie, cât economisește fiecare și cum verifici înainte de semnare că sunt prevăzute efectiv în proiect, nu doar în broșură.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
