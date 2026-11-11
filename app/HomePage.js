@@ -7,6 +7,7 @@ import { ANSAMBLURI_LITE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ans
 import { zonaLabel } from '@/lib/zoneLabel'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_PORTOFOLIU, NR_FAMILII, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 import { ARTICOLE_LIST } from '@/data/blog'
+import { dataNumerica } from '@/lib/dataBlog'
 
 // Variante responsive pentru coverele din carduri, generate la build de
 // scripts/generate-card-variants.mjs. Fara srcset, atributul `sizes` era inert:
@@ -96,7 +97,7 @@ const ZONE = getZoneDinamice()
 
 const STEP = 999
 
-export default function HomePageClient() {
+export default function HomePageClient({ blogModificat = {} }) {
   const [tipFilter, setTipFilter] = useState('')
   const [camereFilter, setCamereFilter] = useState('')
   const [pretMin, setPretMin] = useState(5000)
@@ -641,7 +642,8 @@ export default function HomePageClient() {
                   <div className="p-3">
                     <div className="text-[9px] font-medium uppercase tracking-wider mb-1" style={{ color: '#2d7a3a' }}>{b.tag}</div>
                     <div className="text-xs font-medium text-gray-900 leading-snug mb-1 group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{b.titlu}</div>
-                    <div className="text-[10px] text-gray-500">{b.data}</div>
+                    <div className="text-[10px] text-gray-500"><time dateTime={b.dataISO}>{dataNumerica(b.dataISO)}</time></div>
+                    {blogModificat[b.slug] && <div className="text-[10px] font-medium text-[#2d7a3a]">Actualizat <time dateTime={blogModificat[b.slug]}>{dataNumerica(blogModificat[b.slug])}</time></div>}
                   </div>
                 </Link>
               ))}

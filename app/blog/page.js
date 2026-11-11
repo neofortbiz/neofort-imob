@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { ARTICOLE_LIST, AUTORI, CATEGORII } from '@/data/blog'
+import { ARTICOLE, ARTICOLE_LIST, AUTORI, CATEGORII } from '@/data/blog'
+import { dataNumerica } from '@/lib/dataBlog'
 import { NR_LIVRATE } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
@@ -116,11 +117,14 @@ export default async function BlogPage() {
                       </div>
                       <span className="font-medium text-gray-700">{FEATURED.autor}</span>
                       <span>·</span>
-                      <time dateTime={FEATURED.dataISO}>{FEATURED.data}</time>
+                      <time dateTime={FEATURED.dataISO}>{dataNumerica(FEATURED.dataISO)}</time>
                       <span>·</span>
                       <span>{FEATURED.citire} citire</span>
                       {views[FEATURED.slug] > 0 && <><span>·</span><span className="inline-flex items-center gap-1"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>{views[FEATURED.slug].toLocaleString('ro-RO')}</span></>}
                     </div>
+                    {ARTICOLE[FEATURED.slug]?.dataModificata && (
+                      <p className="mt-1.5 text-xs font-medium text-[#2d7a3a]">Actualizat <time dateTime={ARTICOLE[FEATURED.slug].dataModificata}>{dataNumerica(ARTICOLE[FEATURED.slug].dataModificata)}</time></p>
+                    )}
                   </Link>
                 </div>
               )}
@@ -148,11 +152,14 @@ export default async function BlogPage() {
                           </div>
                           <span className="font-medium text-gray-600">{a.autor}</span>
                           <span>·</span>
-                          <time dateTime={a.dataISO}>{a.data}</time>
+                          <time dateTime={a.dataISO}>{dataNumerica(a.dataISO)}</time>
                           <span>·</span>
                           <span>{a.citire}</span>
                           {views[a.slug] > 0 && <><span>·</span><span className="inline-flex items-center gap-1"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>{views[a.slug].toLocaleString('ro-RO')}</span></>}
                         </div>
+                        {ARTICOLE[a.slug]?.dataModificata && (
+                          <p className="mt-1.5 text-[10px] font-medium text-[#2d7a3a]">Actualizat <time dateTime={ARTICOLE[a.slug].dataModificata}>{dataNumerica(ARTICOLE[a.slug].dataModificata)}</time></p>
+                        )}
                       </div>
                     </Link>
                   )
@@ -218,7 +225,7 @@ export default async function BlogPage() {
                       </div>
                       <div>
                         <p className="text-[11px] text-gray-700 font-medium leading-tight group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{a.titlu}</p>
-                        <p className="text-[10px] text-gray-500 mt-0.5">{a.data}</p>
+                        <p className="text-[10px] text-gray-500 mt-0.5"><time dateTime={a.dataISO}>{dataNumerica(a.dataISO)}</time>{ARTICOLE[a.slug]?.dataModificata && <span className="text-[#2d7a3a]"> · actualizat <time dateTime={ARTICOLE[a.slug].dataModificata}>{dataNumerica(ARTICOLE[a.slug].dataModificata)}</time></span>}</p>
                       </div>
                     </Link>
                   ))}
@@ -240,6 +247,7 @@ export default async function BlogPage() {
                 blogPost: ARTICOLE_SORTATE.map(a => ({
                   '@type': 'BlogPosting', headline: a.titlu,
                   url: `${BASE}/blog/${a.slug}`, datePublished: a.dataISO,
+                  dateModified: ARTICOLE[a.slug]?.dataModificata || a.dataISO,
                   author: { '@type': 'Person', name: a.autor },
                   image: `${BASE}${a.image}`,
                 })),

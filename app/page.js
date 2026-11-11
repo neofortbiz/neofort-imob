@@ -1,4 +1,5 @@
 import HomePageClient from './HomePage'
+import { ARTICOLE } from '@/data/blog'
 import { NR_ACTIVE, NR_LIVRATE, NR_FAMILII, ANI_EXPERIENTA, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 
 const BASE = 'https://www.neofort.ro'
@@ -104,13 +105,19 @@ const faqSchema = {
   ],
 }
 
+// Data actualizarii articolelor, trimisa ca prop catre HomePage (componenta de client).
+// ARTICOLE nu se importa direct acolo: ar intra tot data/blog.js in bundle-ul de client.
+const BLOG_MODIFICAT = Object.fromEntries(
+  Object.entries(ARTICOLE).filter(([, a]) => a.dataModificata).map(([slug, a]) => [slug, a.dataModificata])
+)
+
 export default function Page() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ratingSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <HomePageClient />
+      <HomePageClient blogModificat={BLOG_MODIFICAT} />
     </>
   )
 }

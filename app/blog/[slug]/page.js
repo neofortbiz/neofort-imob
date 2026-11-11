@@ -6,6 +6,7 @@ import BlogViews from '@/components/BlogViews'
 import { AUTORI, ARTICOLE, ARTICOLE_LIST } from '@/data/blog'
 import { NR_ACTIVE } from '@/data/siteConfig'
 import { parseLinks } from '@/lib/parseLinks'
+import { dataNumerica } from '@/lib/dataBlog'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -163,6 +164,7 @@ export async function generateMetadata({ params }) {
       type: 'article',
       locale: 'ro_RO',
       publishedTime: a.dataISO,
+      ...(a.dataModificata && { modifiedTime: a.dataModificata }),
       authors: [autor?.nume],
       images: [{ url: `${BASE}${a.ogImage || a.image?.replace('.avif', '.jpg') || '/og-blog.jpg'}`, width: 1200, height: 630, alt: a.titlu }],
     },
@@ -298,7 +300,13 @@ export default function ArticolPage({ params }) {
                   </div>
                 </div>
                 <div className="text-xs text-gray-600 flex items-center gap-3 flex-wrap">
-                  <time dateTime={a.dataISO}>{a.data}</time>
+                  <span>Publicat <time dateTime={a.dataISO}>{dataNumerica(a.dataISO)}</time></span>
+                  {a.dataModificata && (
+                    <>
+                      <span>·</span>
+                      <span className="font-medium text-[#2d7a3a]">Actualizat <time dateTime={a.dataModificata}>{dataNumerica(a.dataModificata)}</time></span>
+                    </>
+                  )}
                   <span>·</span>
                   <span>{a.citire} citire</span>
                   <span>·</span>
@@ -483,7 +491,7 @@ export default function ArticolPage({ params }) {
                       </div>
                       <div>
                         <p className="text-xs font-medium text-gray-800 group-hover:text-[#2d7a3a] transition-colors line-clamp-2">{alt.titlu}</p>
-                        <p className="text-[10px] text-gray-500 mt-0.5">{alt.data}</p>
+                        <p className="text-[10px] text-gray-500 mt-0.5"><time dateTime={alt.dataISO}>{dataNumerica(alt.dataISO)}</time>{ARTICOLE[alt.slug]?.dataModificata && <span className="text-[#2d7a3a]"> · actualizat <time dateTime={ARTICOLE[alt.slug].dataModificata}>{dataNumerica(ARTICOLE[alt.slug].dataModificata)}</time></span>}</p>
                       </div>
                     </Link>
                   ))}
@@ -556,7 +564,7 @@ export default function ArticolPage({ params }) {
                       <div>
                         <span className="text-[9px] font-semibold px-1.5 py-0.5 rounded text-white" style={{ background: alt.tagColor }}>{alt.tag}</span>
                         <p className="text-[11px] font-medium text-gray-800 group-hover:text-[#2d7a3a] transition-colors leading-snug mt-1 line-clamp-2">{alt.titlu}</p>
-                        <p className="text-[10px] text-gray-500 mt-0.5">{alt.data}</p>
+                        <p className="text-[10px] text-gray-500 mt-0.5"><time dateTime={alt.dataISO}>{dataNumerica(alt.dataISO)}</time>{ARTICOLE[alt.slug]?.dataModificata && <span className="text-[#2d7a3a]"> · actualizat <time dateTime={ARTICOLE[alt.slug].dataModificata}>{dataNumerica(ARTICOLE[alt.slug].dataModificata)}</time></span>}</p>
                       </div>
                     </Link>
                   ))}
