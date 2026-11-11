@@ -74,6 +74,239 @@ export const AUTORI = {
 }
 
 export const ARTICOLE = {
+  'regim-hotelier-apartament-bloc-reguli-2026': {
+    titlu: `Regim Hotelier în Apartament la Bloc în 2026: Cod SITUR, Acordul Vecinilor, Clasificare și Impozit`,
+    seoTitle: 'Regim Hotelier la Bloc: Reguli 2026, Impozit',
+    seoDesc: 'Regim hotelier în apartament la bloc în 2026: cod unic SITUR, acordul vecinilor și al asociației, limita de 7 camere, impozitul real și venitul net, calculat.',
+    tag: 'Investiții', tagColor: '#0369a1',
+    data: '30 Octombrie 2026', dataISO: '2026-10-30', citire: '12 min',
+    autor: 'sasha-calutu',
+    image: '/blog/regim-hotelier-apartament-bloc-reguli-2026.avif',
+    descriere: `Da, poți închiria în regim hotelier un apartament la bloc în 2026, dar numai cu certificat de clasificare și cu cod unic de înregistrare obținut prin SITUR. Pentru clasificare îți trebuie acordul scris al vecinilor direct afectați și avizul comitetului executiv al asociației. O persoană fizică poate clasifica cel mult 7 camere și 14 locuri, iar impozitul este 10% din 70% din încasări, plus CASS. Pașii în ordine, amenzile și o simulare completă de venit net față de închirierea clasică.`,
+    peScurt: [
+      'Din 20 mai 2026, fiecare unitate de cazare listată pe platforme precum Airbnb sau Booking trebuie să aibă un cod unic de înregistrare, obținut prin sistemul național SITUR, conform Regulamentului UE 2024/1028. Anunțurile fără cod pot fi eliminate de platforme.',
+      'Ordinul nr. 948/2026 cere, pentru un apartament la bloc, acordul scris al vecinilor direct afectați, pe orizontală și pe verticală, și avizul comitetului executiv al asociației. O persoană fizică poate clasifica cel mult 7 camere și 14 locuri, cumulat pe toate locuințele.',
+      'Venitul din închirierea în scop turistic a 1–7 camere se impozitează cu 10% dintr-un venit net egal cu 70% din încasări, fără comisionul platformei, plus CASS dacă venitul trece de 6 salarii minime. Funcționarea fără certificat de clasificare se amendează cu 40.000–50.000 de lei.',
+    ],
+    keywords: ['regim hotelier apartament bloc 2026', 'acordul vecinilor regim hotelier', 'cod unic situr airbnb booking', 'clasificare apartament regim hotelier', 'impozit regim hotelier persoana fizica 2026', 'amenda regim hotelier fara clasificare', 'airbnb la bloc reguli 2026', 'regim hotelier vs chirie pe termen lung'],
+    hashtags: ['#RegimHotelier', '#Airbnb', '#Booking', '#InvestitiiImobiliare', '#NeofortIMO'],
+    cuprins: [
+      { id: 'raspuns-scurt', titlu: `Se mai poate închiria în regim hotelier la bloc?` },
+      { id: 'ce-s-a-schimbat', titlu: `Ce s-a schimbat în 2026` },
+      { id: 'pasi', titlu: `Pașii, în ordine` },
+      { id: 'acordul-vecinilor', titlu: `Acordul vecinilor și avizul asociației` },
+      { id: 'limita-7-camere', titlu: `Limita de 7 camere și 14 locuri` },
+      { id: 'impozit', titlu: `Ce impozit plătești` },
+      { id: 'simulare', titlu: `Simulare: regim hotelier vs. chirie clasică` },
+      { id: 'amenzi', titlu: `Amenzile` },
+      { id: 'cumparare', titlu: `Ce verifici dacă cumperi pentru regim hotelier` },
+      { id: 'faq', titlu: `Întrebări frecvente` },
+    ],
+    sectiuni: [
+      {
+        id: 'raspuns-scurt',
+        h2: `Se mai poate închiria în regim hotelier un apartament la bloc în 2026?`,
+        continut: `**Da, legal, dacă îndeplinești patru condiții.** Fără oricare dintre ele, anunțul tău de pe Airbnb sau Booking poate fi șters, iar activitatea poate fi amendată.
+
+1. **Certificat de clasificare** pentru apartament, emis de autoritatea de turism.
+2. **Acordul scris al vecinilor direct afectați** și **avizul comitetului executiv al asociației**, depuse la dosarul de clasificare.
+3. **Cod unic de înregistrare**, obținut prin SITUR, sistemul informatic național al turismului, și afișat în anunț.
+4. **Declararea venitului** la ANAF, prin declarația unică, cu impozit de 10% și, peste un prag, CASS.
+
+Regimul hotelier înseamnă, fiscal, închirierea aceleiași camere către aceeași persoană pentru cel mult 30 de zile pe an, fără întrerupere. Peste această durată, e o închiriere obișnuită, cu alte reguli, explicate în articolul despre [legea chiriilor în 2026](/blog/lege-chirii-2026-proprietari-chiriasi).
+
+Pe scurt, în 2026 regimul hotelier la bloc nu s-a interzis, ci s-a formalizat: e mai greu să-l faci la negru și mai simplu să-l faci corect, dacă știi ordinea pașilor.`,
+      },
+      {
+        id: 'ce-s-a-schimbat',
+        h2: `Ce s-a schimbat în 2026: codul unic, Ordinul 948 și Ordinul 1.198`,
+        continut: `Trei acte au schimbat regulile în același an:
+
+| Data | Actul | Ce schimbă |
+|---|---|---|
+| 20 mai 2026 | Regulamentul UE 2024/1028 | cod unic de înregistrare pentru fiecare unitate listată; platformele verifică codul și transmit date autorităților |
+| 8 iulie 2026 | Ordinul nr. 948/2026, publicat în Monitorul Oficial | acordul vecinilor și avizul asociației la dosar, limita de 7 camere și 14 locuri pentru persoane fizice, prezență online obligatorie |
+| 17 august 2026 | Ordinul nr. 1.198/2026 | formular nou de cerere, care include documentul din care rezultă legalitatea construcției |
+
+**Codul unic** e schimbarea cu efectul cel mai vizibil. Platformele trebuie să verifice codul înainte de a afișa anunțul, iar anunțurile fără cod pot fi eliminate automat. În același timp, platformele raportează veniturile gazdelor către ANAF, deci venitul nedeclarat devine vizibil.
+
+**Ordinul 948/2026** a mai adus două obligații practice: fiecare apartament trebuie să aibă o adresă de e-mail și o pagină web proprie cu datele de identificare, adresa și numărul certificatului de clasificare, iar informațiile pentru turiști pot fi date doar în format digital, prin cod QR sau aplicație. Pagina de anunț de pe platformă poate ține loc de pagină web, dacă are toate datele cerute.
+
+**Documentul de legalitate a construcției** din Ordinul 1.198/2026 contează la blocurile cu modificări neautorizate. Un apartament cu balconul unit cu camera fără acte, de exemplu, poate avea probleme la clasificare; situația acestor lucrări e explicată în articolul despre [balconul închis fără autorizație](/blog/impozit-dublu-balcon-inchis-fara-autorizatie).`,
+      },
+      {
+        id: 'pasi',
+        h2: `Pașii, în ordine: de la acordul vecinilor la anunțul de pe platformă`,
+        continut: `Ordinea contează, pentru că fiecare pas cere documentul de la pasul anterior.
+
+**1. Verifici apartamentul și actele.** Extras de carte funciară, act de proprietate, iar dacă apartamentul e în coproprietate, acordul coproprietarilor pentru închirierea în regim hotelier.
+
+**2. Strângi acordurile.** Acordul scris al vecinilor direct afectați, în care se menționează activitatea, și avizul scris al comitetului executiv al asociației. Dacă nu există asociație constituită legal, declari acest lucru.
+
+**3. Dotezi apartamentul la standardul categoriei** pe care o ceri. Lista de dotări diferă în funcție de numărul de stele.
+
+**4. Depui cererea de clasificare** online, prin platforma SITUR, sau la sediul autorității de turism. Dosarul conține cererea, formularul de clasificare, actele de identitate, actul de proprietate, acordurile, avizul asociației și o declarație pe propria răspundere că ai depus acordul tuturor proprietarilor cu care împarți pereți comuni.
+
+**5. Primești autorizația provizorie.** Dosarul se analizează în cel mult **30 de zile calendaristice**. După analiza documentelor, se poate emite o autorizație provizorie de funcționare, valabilă până la verificarea la fața locului, dar nu mai mult de **90 de zile**.
+
+**6. Obții certificatul de clasificare** după verificarea la fața locului.
+
+**7. Obții codul unic de înregistrare** în SITUR, cu autentificare prin ROeID sau semnătură electronică, și îl treci în anunțul de pe fiecare platformă.
+
+**8. Ții evidența oaspeților** și a încasărilor, pentru declarația unică.
+
+Dacă după clasificare se schimbă ceva important, cum ar fi numărul de camere sau dotările, ceri o nouă clasificare în 30 de zile.`,
+      },
+      {
+        id: 'acordul-vecinilor',
+        h2: `Acordul vecinilor și avizul asociației: de la cine îl iei și ce faci dacă refuză`,
+        continut: `**De la cine.** Ordinul 948/2026 cere acordul scris al proprietarilor **direct afectați**, adică vecinii de pe orizontală și de pe verticală: apartamentele cu care împarți pereți, plus cel de deasupra și cel de dedesubt. Nu e nevoie de acordul tuturor proprietarilor din bloc și nici de un vot în adunarea generală.
+
+**Ce scrie în acord.** Acordul trebuie să menționeze explicit activitatea: închirierea apartamentului în regim hotelier, cu adresa și numărul apartamentului. Un acord generic, de tipul „sunt de acord cu închirierea", poate fi respins la dosar.
+
+**Avizul asociației** e dat de comitetul executiv, nu de adunarea generală. Comitetul îl emite în scris. Unde nu există o asociație constituită legal, declari acest lucru pe propria răspundere.
+
+**Dacă un vecin refuză.** Ordinul nu prevede o cale de a trece peste refuzul unui vecin direct afectat: fără acordul lui, dosarul de clasificare e incomplet, iar fără clasificare nu poți funcționa legal. În practică, refuzurile vin din teama de zgomot, de chei pierdute sau de uzura spațiilor comune. Ce funcționează mai bine decât insistența: un regulament scris al casei, afișat în apartament, cu ore de liniște și interdicția petrecerilor, un număr de telefon la care vecinii te pot suna oricând, accesul cu cod, fără chei care circulă, și curățenia făcută de o firmă după fiecare plecare.
+
+**Pentru asociație**, un apartament în regim hotelier nu schimbă regulile de plată a întreținerii. Proprietarul plătește asociației cotele de contribuție, inclusiv cele calculate pe număr de persoane, și răspunde de restanțe. Ce se poate întâmpla cu restanțele la întreținere este explicat în articolul despre [datoriile la întreținere în cartea funciară](/blog/datorii-intretinere-carte-funciara-ipoteca-asociatie).`,
+      },
+      {
+        id: 'limita-7-camere',
+        h2: `Limita de 7 camere și 14 locuri: când îți trebuie PFA sau firmă`,
+        continut: `O persoană fizică poate cere clasificarea pentru cel mult **7 camere și 14 locuri de cazare**, **cumulat pe toate locuințele** pe care le are. Limita se numără în camere, nu în apartamente:
+
+| Ce deții | Camere de închiriat | Ca persoană fizică? |
+|---|---|---|
+| 1 apartament cu 2 camere | 2 | da |
+| 2 apartamente cu 3 camere | 6 | da |
+| 3 apartamente cu 2 camere | 6 | da |
+| 2 apartamente cu 4 camere | 8 | nu, peste limită |
+
+Peste 7 camere, venitul nu mai intră în regimul simplificat. Din anul în care depășești limita, se impozitează ca venit din activitate independentă, iar varianta practică devine un PFA, o întreprindere individuală sau o firmă, cu contabilitate și cu contribuții de pensie și sănătate.
+
+Pentru un investitor cu un singur apartament, limita nu contează. Pentru cineva care vrea să construiască un mic portofoliu de apartamente în regim hotelier, ea decide forma juridică încă de la a doua sau a treia achiziție.`,
+      },
+      {
+        id: 'impozit',
+        h2: `Ce impozit plătești pe veniturile din regim hotelier în 2026`,
+        continut: `Pentru 1–7 camere închiriate în scop turistic, regula fiscală e simplă și se aplică pe venitul anual:
+
+**venit brut** = încasările de la turiști, **fără** comisionul reținut de platformă
+**venit net** = 70% din venitul brut (cheltuielile se deduc forfetar, 30%, fără documente justificative)
+**impozit** = 10% din venitul net
+
+Impozitul efectiv este deci **7% din venitul brut**. Pentru comparație, la o închiriere clasică, venitul net este 80% din chirie, iar impozitul efectiv este 8%.
+
+**CASS**, contribuția la sănătate, se datorează dacă venitul net, cumulat cu alte venituri de același tip, ajunge la 6 salarii minime. Pentru veniturile din 2026 se folosește salariul minim în vigoare la 1 ianuarie 2026, de 4.050 de lei:
+
+| Venit net anual | Baza CASS | CASS de plată |
+|---|---|---|
+| sub 24.300 lei | — | 0 lei |
+| 24.300 – 48.599 lei | 6 salarii minime | 2.430 lei |
+| 48.600 – 97.199 lei | 12 salarii minime | 4.860 lei |
+| peste 97.200 lei | 24 salarii minime | 9.720 lei |
+
+CASS se plătește pe trepte, nu proporțional. Un venit net care trece cu puțin de 48.600 de lei dublează CASS-ul de la 2.430 la 4.860 de lei, efect vizibil în simularea de mai jos. Contribuția la pensie, CAS, nu se datorează pentru acest tip de venit.
+
+**Declarația unică** pentru veniturile din 2026 se depune, iar impozitul și CASS se plătesc, până la **25 mai 2027**.
+
+**TVA pe comision.** Platformele din alte state ale Uniunii facturează comisionul fără TVA, iar gazda poate fi obligată să se înregistreze în scopuri de TVA pentru servicii intracomunitare, să depună declarațiile 301 și 390 și să plătească TVA de 21% la valoarea comisionului. Merită verificat cu un contabil la primul an de activitate, pentru că e obligația cel mai des ratată.`,
+      },
+      {
+        id: 'simulare',
+        h2: `Simulare: un apartament de 2 camere, regim hotelier vs. chirie pe termen lung`,
+        continut: `Ipotezele, toate alese explicit, ca să poți reface calculul cu cifrele tale:
+• tarif mediu 70 €/noapte
+• comision platformă 15% din încasări, plus TVA de 21% la comision
+• sejur mediu de 3 nopți, curățenie 25 € și consumabile 5 € la fiecare sejur
+• utilități, internet și întreținere plătite de proprietar: 150 €/lună
+• chiria clasică: 550 €/lună, cu utilitățile plătite de chiriaș; asigurare și fond de reparații plătite de proprietar: 300 €/an
+• curs 5,2297 lei/€, CASS calculat ca pentru singurul venit de acest tip
+
+| Pe an | Hotelier 50% ocupare | Hotelier 60% ocupare | Hotelier 70% ocupare | Chirie clasică |
+|---|---|---|---|---|
+| Nopți ocupate | 182 | 219 | 255 | 12 luni |
+| Încasări | 12.740 € | 15.330 € | 17.850 € | 6.600 € |
+| Comision platformă | 1.911 € | 2.300 € | 2.678 € | — |
+| Curățenie și consumabile | 1.820 € | 2.190 € | 2.550 € | — |
+| Utilități, internet, întreținere | 1.800 € | 1.800 € | 1.800 € | — |
+| TVA la comision | 401 € | 483 € | 562 € | — |
+| Asigurare și fond reparații | — | — | — | 300 € |
+| Impozit | 758 € | 912 € | 1.062 € | 528 € |
+| CASS | 465 € | 465 € | 929 € | 465 € |
+| **Net pe an** | **5.585 €** | **7.181 €** | **8.269 €** | **5.307 €** |
+| **Net pe lună** | **465 €** | **598 €** | **689 €** | **442 €** |
+
+**Pragul de rentabilitate** față de chiria clasică este la o ocupare de aproximativ **48%**, adică 176 de nopți pe an. Sub acest prag, regimul hotelier aduce mai puțin decât o chirie obișnuită, cu mult mai multă muncă.
+
+Ce nu intră în tabel, dar contează:
+• **mobilarea și dotarea** la standardul de clasificare, o investiție inițială pe care chiria clasică nu o cere în aceeași măsură
+• **timpul tău** sau costul unui administrator, de obicei un procent din încasări
+• **sezonalitatea**: media anuală de 60% ascunde luni slabe, iar utilitățile se plătesc și atunci
+• **saltul de CASS** la 70% ocupare, care mănâncă o parte din venitul suplimentar
+
+Concluzia: regimul hotelier merită când apartamentul are o locație care ține ocuparea constant peste 55–60%. Pentru o comparație a randamentelor pe zone, vezi [randamentul din închiriere în București](/blog/randament-inchiriere-zone-bucuresti), iar pentru dotările care cresc tariful și ocuparea, [dotările unui apartament de închiriat](/blog/dotari-apartament-inchiriat).`,
+      },
+      {
+        id: 'amenzi',
+        h2: `Amenzile: ce riști fără clasificare sau fără cod`,
+        continut: `**Funcționarea fără certificat de clasificare** sau fără autorizație provizorie de funcționare se amendează cu **40.000–50.000 de lei**, conform Hotărârii Guvernului nr. 1.267/2010. Amenda e de ordinul venitului net al câtorva ani dintr-un apartament, deci nu are sens să o riști pentru a câștiga câteva săptămâni.
+
+**Fără cod unic**, riscul cel mai probabil nu e amenda, ci dispariția anunțului: platformele sunt obligate să verifice codul și pot elimina listările care nu îl au.
+
+**Fără declararea venitului**, riscul e fiscal. Platformele raportează veniturile gazdelor către ANAF, deci diferența dintre ce încasezi și ce declari se vede. La impozitul nedeclarat se adaugă dobânzi și penalități de întârziere.
+
+**Fără acordul vecinilor**, dosarul de clasificare e incomplet, deci nu există o cale legală de a funcționa. Acordurile sunt piesa care ține tot dosarul în picioare.`,
+      },
+      {
+        id: 'cumparare',
+        h2: `Ce verifici dacă vrei să cumperi un apartament pentru regim hotelier`,
+        continut: `Regulile din 2026 mută o parte din decizie înainte de cumpărare. Dacă planul tău e regimul hotelier, verifică:
+
+**1. Distanța reală până la metrou.** Turiștii aleg după timpul până în centru. O stație de metrou la câteva minute de mers pe jos ține ocuparea sus tot anul. În ansamblurile Neofort IMO, de exemplu, [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) este la 20 m de metroul Anghel Saligny (M3), [Neofort 50 Titan Parc IOR Faza 2](/ansamblu-rezidential/neofort-50-titan-parc-ior) la 300 m de metroul Costin Georgian (M1), iar [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) la 300 m de metroul Piața Muncii (M1). Termenele de predare și tipologiile disponibile sunt pe paginile proiectelor.
+
+**2. Tipologia.** Garsonierele și apartamentele de 2 camere se închiriază cel mai des în regim hotelier. Peste 3 camere, ocuparea scade și costurile de curățenie cresc.
+
+**3. Clădirea și actele.** Un apartament nou are actele de recepție și cartea funciară curate, deci documentul de legalitate cerut la clasificare nu e o problemă. La un apartament vechi, verifică dacă au existat modificări neautorizate.
+
+**4. Asociația și vecinii.** Într-un bloc nou, asociația se constituie după recepție; întreabă cum se va organiza și cum se vor lua deciziile. Procedura e în articolul despre [constituirea asociației de proprietari într-un bloc nou](/blog/constituire-asociatie-proprietari-bloc-nou).
+
+**5. Planul B.** Dacă ocuparea nu ține, apartamentul trebuie să funcționeze și ca închiriere clasică. Calculul din secțiunea de simulare îți arată unde e pragul.
+
+Toate proiectele disponibile acum sunt la [ansamblurile rezidențiale Neofort IMO](/ansambluri-rezidentiale). Consultanța pentru un calcul pe un apartament anume este gratuită: 0758 090 904.`,
+      },
+      {
+        id: 'faq',
+        h2: `Întrebări frecvente despre regimul hotelier la bloc`,
+        continut: `Pot închiria apartamentul pe Airbnb fără acordul vecinilor?
+Nu legal. Ordinul nr. 948/2026 cere, la dosarul de clasificare, acordul scris al vecinilor direct afectați, pe orizontală și pe verticală, și avizul comitetului executiv al asociației. Fără ele nu obții certificatul de clasificare, iar funcționarea fără certificat se amendează cu 40.000–50.000 de lei.
+
+Am nevoie de acordul tuturor vecinilor din bloc?
+Nu. Este nevoie de acordul proprietarilor direct afectați, adică al vecinilor cu care împarți pereți și al celor de deasupra și de dedesubt, plus avizul comitetului executiv al asociației. Nu e nevoie de un vot al adunării generale.
+
+Ce este codul unic SITUR?
+Este numărul de înregistrare al unității de cazare, obligatoriu din 20 mai 2026 pentru anunțurile de pe platforme precum Airbnb și Booking, conform Regulamentului UE 2024/1028. Se obține prin sistemul informatic național al turismului, SITUR, cu autentificare prin ROeID sau semnătură electronică.
+
+Câte apartamente pot închiria în regim hotelier ca persoană fizică?
+Limita se numără în camere: cel mult 7 camere și 14 locuri, cumulat pe toate locuințele. Peste limită, venitul se impozitează ca activitate independentă și ai nevoie, practic, de PFA sau de firmă.
+
+Cât impozit plătesc pentru Airbnb în 2026?
+10% dintr-un venit net egal cu 70% din încasări, fără comisionul platformei, adică 7% din venitul brut. Dacă venitul net trece de 6 salarii minime, de 24.300 de lei pentru veniturile din 2026, plătești și CASS, pe trepte: 2.430, 4.860 sau 9.720 de lei.
+
+Plătesc CAS, contribuția la pensie, pe veniturile din regim hotelier?
+Nu, pentru 1–7 camere închiriate ca persoană fizică. Se datorează doar CASS, peste pragul de 6 salarii minime.
+
+Până când declar veniturile din regim hotelier pe 2026?
+Prin declarația unică, până la 25 mai 2027, termen până la care se plătesc și impozitul și CASS.
+
+Merită regimul hotelier față de chiria clasică?
+Depinde de ocupare. În simularea pentru un apartament de 2 camere, la 70 €/noapte, regimul hotelier depășește o chirie de 550 €/lună abia peste o ocupare de aproximativ 48%. La 60% ocupare, aduce 598 €/lună net, față de 442 €/lună la chiria clasică.
+
+Care este amenda pentru regim hotelier fără clasificare?
+Între 40.000 și 50.000 de lei, conform Hotărârii Guvernului nr. 1.267/2010, pentru funcționarea fără certificat de clasificare sau fără autorizație provizorie de funcționare.`,
+      },
+    ],
+  },
   'datorii-intretinere-carte-funciara-ipoteca-asociatie': {
     titlu: `Datoria la Întreținere în Cartea Funciară: Când Poate Asociația să Pună Ipotecă pe Apartament`,
     seoTitle: 'Datorii la Întreținere în Cartea Funciară',
@@ -2317,7 +2550,7 @@ Dacă ai întrebări specifice despre procesul de achiziție la Neofort IMO, sun
       'Neînregistrarea contractului atrage riscuri fiscale — declararea corectă a veniturilor din chirii devine obligatorie.',
     ],
     tag: 'Legislație', tagColor: '#7c3aed',
-    data: '20 Mai 2026', dataISO: '2026-05-20', citire: '10 min',
+    data: '20 Mai 2026', dataISO: '2026-05-20', dataModificata: '2026-11-11', citire: '10 min',
     autor: 'igor-calutu',
     image: '/blog/lege-chirii-2026-proprietari-chiriasi.avif',
     descriere: `Ce schimbă noua lege a chiriilor în 2026 pentru proprietari și chiriași din România? Obligația declarării contractelor, impozitarea corectă, riscuri și ce trebuie să faci acum — ghid complet cu date concrete.`,
@@ -2343,7 +2576,7 @@ Principalele modificări în vigoare din 2026:
 
 Înregistrarea obligatorie a contractelor la ANAF. Orice contract de închiriere pentru imobile rezidențiale trebuie înregistrat la ANAF în maximum 30 de zile de la semnare. Procedura se face online prin Spațiul Privat Virtual (SPV) sau la ghișeu. Fără înregistrare, contractul nu produce efecte legale față de terți — inclusiv față de autoritățile fiscale.
 
-Impozit la sursă reținut prin platforme. Proprietarii care închiriază prin platforme de tip Airbnb, Booking sau similare au obligația de a declara și plăti impozit trimestrial, nu anual. Platformele au obligația de a raporta automat veniturile la ANAF din 2026 — eliminând practic posibilitatea de a „uita" veniturile din chirii pe termen scurt.
+Veniturile din platforme, vizibile pentru ANAF. Proprietarii care închiriază prin Airbnb, Booking sau platforme similare declară venitul anual, prin declarația unică, cu impozit de 10% din 70% din încasări. Platformele raportează veniturile gazdelor către ANAF, iar din 20 mai 2026 fiecare anunț are nevoie de cod unic de înregistrare — ceea ce elimină practic posibilitatea de a „uita" veniturile din chirii pe termen scurt. Regulile complete sunt în [ghidul despre regimul hotelier la bloc](/blog/regim-hotelier-apartament-bloc-reguli-2026).
 
 E-Factura pentru chirii comerciale. Contractele de închiriere pentru spații comerciale intră în sistemul e-Factura obligatoriu din iulie 2026. Nu se aplică chiriilor rezidențiale între persoane fizice, dar afectează proprietarii cu IMM-uri sau PFA.
 
@@ -2406,7 +2639,7 @@ Cum detectează ANAF chiriile nedeclarate:
 • Sesizări de la foști chiriași — în disputele cu proprietarii, chiriașii pot semnala ANAF că plătesc chirie fără contract
 • Analiza transferurilor bancare — tranzacțiile regulate lunare cu sumă fixă sunt automat semnalizate
 • Cruce referire cu utilitățile — consumul de energie electrică raportat de Electrica, CEZ, ENEL la o adresă unde proprietarul nu locuiește
-• Raportările platformelor Airbnb și Booking — automate din 2026
+• Raportările platformelor Airbnb și Booking către ANAF
 • Registrul Comerțului + ANAF — IMM-urile care deduc chirii ca și cheltuieli creează automat o pistă pentru verificarea proprietarului
 
 Sancțiuni pentru nedeclarare:
@@ -2707,7 +2940,7 @@ Vorbește cu banca din prima lună de dificultate, nu după ce se acumulează re
       'Neofort IMO are ansambluri în aceste zone: Neofort 11 (Eminescu-Viitorului), activ, și Neofort 78 (Moșilor-Eminescu), vândut integral.',
     ],
     tag: 'Investiții', tagColor: '#b45309',
-    data: '15 Mai 2026', dataISO: '2026-05-15', citire: '11 min',
+    data: '15 Mai 2026', dataISO: '2026-05-15', dataModificata: '2026-11-11', citire: '11 min',
     autor: 'igor-calutu',
     image: '/blog/zone-bucuresti-potential-crestere-2027.avif',
     descriere: `Care sunt zonele din București cu cel mai mare potențial de creștere a prețurilor în 2027? Analiză investițională bazată pe date reale: infrastructură, cerere vs ofertă, prețuri actuale și estimări fundamentate pentru investitorii imobiliari.`,
@@ -2879,7 +3112,7 @@ Ce se întâmplă cu prețurile dacă economia intră în recesiune?
 Datele istorice din România arată că [prețurile apartamentelor](/blog/preturi-apartamente-bucuresti-2026) în București au scăzut semnificativ doar în 2008-2011 (-40%) și ușor în 2020 (-3-5%). Corecțiile majore au apărut din crize bancare sistemice, nu din recesiuni normale. Zonele cu metrou și cerere structurală (Piața Muncii, Moșilor) sunt mai rezistente la corecții față de periferiile supraofertate.
 
 Airbnb mai are sens în București în 2026?
-Da, dar cu condiții mai stricte. Noua lege a chiriilor și reglementările locale ale PMB privind cazarea scurtă au crescut costurile administrative. Randamentul Airbnb (8-12% brut) rămâne superior chiriei standard (5-6% brut), dar necesită implicare activă sau externalizare către un property manager (cost 20-25% din venituri).`,
+Da, dar cu condiții mai stricte. Din 2026, fiecare apartament listat are nevoie de certificat de clasificare, de cod unic de înregistrare în SITUR și de acordul vecinilor direct afectați, ceea ce a crescut costurile administrative. Randamentul Airbnb (8-12% brut) rămâne superior chiriei standard (5-6% brut), dar necesită implicare activă sau externalizare către un property manager (cost 20-25% din venituri).`,
       },
     ],
   },
@@ -5198,7 +5431,7 @@ Dacă ai întrebări despre specificațiile unui proiect specific, consultanții
       'Un apartament nou reduce costurile de întreținere și perioada de neocupare față de unul vechi.',
     ],
     tag: 'Investiții', tagColor: '#0369a1',
-    data: '10 Mai 2026', dataISO: '2026-05-10', dataModificata: '2026-10-13', citire: '10 min',
+    data: '10 Mai 2026', dataISO: '2026-05-10', dataModificata: '2026-11-11', citire: '10 min',
     autor: 'sasha-calutu',
     image: '/blog/randament-inchiriere-apartamente-bucuresti-zone.avif',
     descriere: `Randamentul la închiriere în București pe zone în 2026: calcule reale pentru Titan-Pallady, Militari, Moșilor, Floreasca, Piața Muncii. Date din piață, nu estimări optimiste. Ce zone oferă cel mai bun randament net.`,
@@ -5384,7 +5617,7 @@ Dezavantaj: randamentul curent e sub dobânda bancară. Câștigul major vine la
 Strategia 2 — Airbnb/închiriere de scurtă durată (randament brut 7–12%, dar muncă activă):
 Apartamentele din zone turistice sau centrale pot fi închiriat pe Airbnb sau Booking.com la tarife de 50–120 EUR/noapte. Un grad de ocupare de 60–70% generate randamente brute de 7–12% — net 5–8% după taxe, curățenie, management.
 
-Problema: în 2026, Primăria București a introdus reglementări mai stricte pentru închirierea de scurtă durată. Verificați regulamentele actuale din sectorul unde cumpărați înainte de a conta pe această strategie.
+Problema: în 2026, regulile pentru închirierea de scurtă durată s-au înăsprit la nivel național: cod unic de înregistrare în SITUR, acordul vecinilor direct afectați, avizul asociației și limita de 7 camere pentru persoanele fizice. Pașii, impozitul și o simulare de venit net sunt în [ghidul despre regimul hotelier la bloc în 2026](/blog/regim-hotelier-apartament-bloc-reguli-2026).
 
 Strategia 3 — Cumpărare în faza de construcție și vânzare la finalizare (flipping):
 Cumperi în off-plan (faza de proiect sau construcție), plătești prețul de pre-lansare (de regulă 10–15% sub prețul de vânzare final), vinzi la finalizare sau la 1 an după.
@@ -7480,6 +7713,7 @@ Nu. Trebuie depusă o cerere la administrația financiară, însoțită de docum
 }
 
 export const ARTICOLE_LIST = [
+  { slug: 'regim-hotelier-apartament-bloc-reguli-2026', titlu: 'Regim Hotelier în Apartament la Bloc în 2026: Cod SITUR, Acordul Vecinilor, Clasificare și Impozit', data: '30 Octombrie 2026', dataISO: '2026-10-30', citire: '12 min', image: '/blog/regim-hotelier-apartament-bloc-reguli-2026.avif', tag: 'Investiții', tagColor: '#0369a1', rezumat: 'Regim hotelier la bloc în 2026: cod unic SITUR, acordul vecinilor și al asociației, limita de 7 camere, impozitul de 10% din 70% din încasări și simularea de venit net față de chiria clasică.', autor: 'Sasha Calutu', autorSlug: 'sasha-calutu', featured: false },
   { slug: 'datorii-intretinere-carte-funciara-ipoteca-asociatie', titlu: 'Datoria la Întreținere în Cartea Funciară: Când Poate Asociația să Pună Ipotecă pe Apartament', data: '11 Noiembrie 2026', dataISO: '2026-11-11', citire: '13 min', image: '/blog/datorii-intretinere-carte-funciara-ipoteca-asociatie.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Când trece asociația de proprietari datoria la întreținere în cartea funciară: notarea obligatorie peste salariul minim, ipoteca legală după 60 de zile, penalitățile de 0,2% pe zi, vânzarea și radierea.', autor: 'Igor Calutu', autorSlug: 'igor-calutu', featured: false },
   { slug: 'impozit-dublu-balcon-inchis-fara-autorizatie', titlu: 'Impozit Dublu pentru Balcon Închis sau Unit cu Sufrageria: Ce Termen Ai, de Fapt', data: '9 Octombrie 2026', dataISO: '2026-10-09', citire: '13 min', image: '/blog/impozit-dublu-balcon-inchis-fara-autorizatie.avif', tag: 'Legislație', tagColor: '#7c3aed', rezumat: 'Majorarea cu 100% a impozitului este în vigoare din 25 august 2026, nu din 2027. Balconul închis și balconul unit cu camera au regimuri diferite, cu termene diferite.', autor: 'Raluca Nistor', autorSlug: 'raluca-nistor', featured: false },
     { slug: 'dotari-reduc-factura-energie-apartament-nou', titlu: '5 Dotări Care Reduc Factura la Energie cu Până la 40%', data: '30 Septembrie 2026', dataISO: '2026-09-30', citire: '11 min', image: '/blog/dotari-reduc-factura-energie-apartament-nou.avif', tag: 'Ghid', tagColor: '#2d7a3a', rezumat: 'Cinci dotări care fac diferența reală în factura lunară la energie, cât economisește fiecare și cum verifici înainte de semnare că sunt prevăzute efectiv în proiect, nu doar în broșură.', autor: 'Adriana Veselu', autorSlug: 'adriana-veselu', featured: false },
