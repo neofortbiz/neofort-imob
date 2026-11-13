@@ -11,7 +11,8 @@ import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret, 
 import { getOricareAnsambluPortofoliu, TOATE_PORTOFOLIU } from '@/data/portofoliu'
 import AnsambluVandut from '@/components/AnsambluVandut'
 import MarcheazaAcces from '@/components/MarcheazaAcces'
-import { oferteAnsamblu, textSuprafete, frazaSuprafete } from '@/lib/oferteSchema'
+import { oferteAnsamblu, textSuprafete } from '@/lib/oferteSchema'
+import { faqAnsamblu } from '@/lib/faqAnsamblu'
 
 const BASE = 'https://www.neofort.ro'
 const TEL = '0758090904'
@@ -40,7 +41,9 @@ export async function generateMetadata({ params }) {
       return {
         title: { absolute: `Ansamblu Rezidențial ${v.zona} — Neofort ${v.numar}` },
         description: `${v.nume}, ${v.zona}, ${v.sector} București. ${v.etaje}, ${v.totalApartamente} unități. Ansamblu finalizat și vândut integral de Neofort IMO.`,
-        alternates: { canonical: url },
+        // Versiunea Markdown pentru agenti AI: <link rel="alternate" type="text/markdown">.
+        // Nu schimba canonical-ul; .md are noindex (next.config.js + app/api/md).
+        alternates: { canonical: url, types: { 'text/markdown': `${url}.md` } },
         openGraph: {
           title: `${v.nume} — Ansamblu Rezidențial ${v.zona}`,
           description: `${v.nume}, ${v.zona}, ${v.sector}. Ansamblu finalizat și vândut integral. ${v.etaje}, ${v.totalApartamente} unități.`,
@@ -67,7 +70,7 @@ export async function generateMetadata({ params }) {
   return {
     title: { absolute: title },
     description,
-    alternates: { canonical: url },
+    alternates: { canonical: url, types: { 'text/markdown': `${url}.md` } },
     openGraph: {
       title: `${title} | Neofort IMO`,
       description: `Apartamente ${a.tipuri.join(', ')} în ${a.zona}, ${a.sector}. De la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA.`,
@@ -180,88 +183,11 @@ export default function AnsambluPage({ params }) {
     },
   }
 
-  // Schema.org FAQPage
+  // Schema.org FAQPage — intrebarile vin din lib/faqAnsamblu.js (aceeasi sursa ca versiunea .md)
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: `Care sunt prețurile apartamentelor din ${a.nume}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `Prețurile apartamentelor din ${a.nume} încep de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€ + TVA. Sunt disponibile ${a.tipuri.join(', ')}, ${frazaSuprafete(a.apartamente)}.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `Când este predarea apartamentelor la ${a.nume}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: a.dataPredare === 'Finalizat' ? `${a.nume} este un ansamblu finalizat, apartamentele sunt disponibile imediat.` : `Termenul de predare pentru ${a.nume} este ${a.dataPredare}.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `Ce dotări sunt incluse la apartamentele ${a.nume}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `Apartamentele din ${a.nume} includ: ${a.dotari.slice(0, 6).join(', ')}.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `Există locuri de parcare la ${a.nume}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: (() => {
-            const p = a.parcare
-            const opts = []
-            if (p.exterior?.disponibil) opts.push(`parcare exterioară de la ${new Intl.NumberFormat('ro-RO').format(p.exterior.pret)}€`)
-            if (p.interior?.disponibil) opts.push(`parcare interioară de la ${new Intl.NumberFormat('ro-RO').format(p.interior.pret)}€`)
-            if (p.subteran?.disponibil && p.subteran.pret) opts.push(`parcare subterană de la ${new Intl.NumberFormat('ro-RO').format(p.subteran.pret)}€`)
-            return opts.length > 0 ? `Da, la ${a.nume} sunt disponibile: ${opts.join(', ')}.` : `Contactați-ne pentru disponibilitatea locurilor de parcare la ${a.nume}.`
-          })(),
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `Cum fac o rezervare pentru un apartament din ${a.nume}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `Pentru a rezerva un apartament în ${a.nume} contactați-ne la ${a.brokerTel || TEL_DISPLAY} sau pe WhatsApp. Procesul de rezervare este simplu și transparent, conform noilor reglementări legislative în vigoare.`,
-        },
-      },
-      // Daca ansamblul are metrou in puncteInteres, raspundem despre metrou.
-      // Daca NU are, intrebarea despre metrou nu are sens — o inlocuim cu una
-      // despre transportul public real din date (STB, tramvai), in loc de
-      // raspunsul generic „Contactati-ne", care nu ajuta nici userul nici LLM-ul.
-      (() => {
-        const metrouri = a.puncteInteres.filter(p => p.tip === 'metrou')
-        if (metrouri.length > 0) {
-          const lista = metrouri.slice(0, 3).map(p => `${p.nume} la ${p.distanta}`).join(', ')
-          return {
-            '@type': 'Question',
-            name: `Cât este distanța de la ${a.nume} la metrou?`,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: `De la ${a.nume} până la ${metrouri[0].nume} distanța este de ${metrouri[0].distanta}.${metrouri.length > 1 ? ` Stații de metrou în apropiere: ${lista}.` : ''}`,
-            },
-          }
-        }
-        const transport = a.puncteInteres.filter(p => p.tip === 'transport')
-        return {
-          '@type': 'Question',
-          name: `Ce mijloace de transport în comun sunt aproape de ${a.nume}?`,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: transport.length > 0
-              ? `${a.nume} este deservit de ${transport.slice(0, 3).map(p => `${p.nume} (${p.distanta})`).join(', ')}. Ansamblul se află în zona ${a.zona}, ${a.sector}.`
-              : `${a.nume} se află în zona ${a.zona}, ${a.sector}. Pentru detalii despre legăturile de transport public din zonă, contactați-ne la ${a.brokerTel || TEL_DISPLAY}.`,
-          },
-        }
-      })(),
-    ],
+    mainEntity: faqAnsamblu(a),
   }
 
   // Schema.org BreadcrumbList

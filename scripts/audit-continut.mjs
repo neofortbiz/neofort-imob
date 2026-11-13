@@ -979,6 +979,36 @@ for (const [eticheta, lista] of [['ansambluri', ANSAMBLURI_ACTIVE], ['portofoliu
 }
 
 // ────────────────────────────────────────────────────────────
+// 19. PRET „DE LA" CALCULAT PE ALTA BAZA DECAT PAGINA (v449)
+// Clasa de eroare: un pret calculat ca `pretPromo || avans45 || avans20` (sau `avans45 || avans20`)
+// ignora avansul de 90% si/sau promotiile. A aparut in 4 locuri separate (schema, llms.txt,
+// llms-full.txt, paginile /apartamente/*) si a produs 17+ preturi gresite. Regula: orice „de la"
+// vine din lib/oferteSchema.js (preturiAfisate / pretAfisatMinim). Verificarea cauta in cod
+// orice lant `||` intre campurile de pret, in afara de lib/oferteSchema.js.
+// ────────────────────────────────────────────────────────────
+{
+  const { readdirSync, statSync } = fs
+  const fisiere = []
+  const parcurge = d => {
+    for (const n of readdirSync(d)) {
+      const f = resolve(d, n)
+      if (statSync(f).isDirectory()) { if (n !== 'node_modules' && !n.startsWith('.')) parcurge(f) }
+      else if (/\.(m?js|jsx)$/.test(n)) fisiere.push(f)
+    }
+  }
+  for (const d of ['app', 'components', 'lib', 'scripts']) parcurge(resolve(ROOT, d))
+  const LANT = /\b(?:pretPromo|avans90|avans45|avans20)\s*\|\|\s*\w*\.?(?:pretPromo|avans90|avans45|avans20)\b/
+  for (const f of fisiere) {
+    const rel = f.slice(ROOT.length + 1)
+    if (rel === 'lib/oferteSchema.js' || rel === 'scripts/audit-continut.mjs') continue
+    fs.readFileSync(f, 'utf8').split('\n').forEach((linie, i) => {
+      if (/^\s*(\/\/|\*)/.test(linie)) return
+      if (LANT.test(linie)) P(rel, `linia ${i + 1}: pret calculat cu „||" intre campuri de pret — foloseste pretAfisatMinim din lib/oferteSchema.js`)
+    })
+  }
+}
+
+// ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
 if (!probleme.length) {

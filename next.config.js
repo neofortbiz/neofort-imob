@@ -8,8 +8,27 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256],
     minimumCacheTTL: 31536000,
   },
+  // Versiunile Markdown pentru agenti AI (v449): aceeasi adresa + ".md".
+  // beforeFiles: altfel ruta dinamica /blog/[slug] ar primi "slug.md" ca slug.
+  // Regex-ul accepta doar sluguri [a-z0-9-], deci nu prinde imagini sau alte fisiere.
+  async rewrites() {
+    return {
+      beforeFiles: [
+        { source: '/blog/:slug([a-z0-9-]+)\\.md', destination: '/api/md/blog/:slug' },
+        { source: '/ansamblu-rezidential/:slug([a-z0-9-]+)\\.md', destination: '/api/md/ansamblu/:slug' },
+      ],
+    }
+  },
   async headers() {
     return [
+      {
+        // Plasa de siguranta pentru .md: noindex chiar daca ruta si-ar pierde antetele.
+        // Pagina HTML ramane singura indexabila (canonical-ul ei nu se schimba).
+        source: '/:dir(blog|ansamblu-rezidential)/:slug([a-z0-9-]+)\\.md',
+        headers: [
+          { key: 'X-Robots-Tag', value: 'noindex' },
+        ],
+      },
       {
         // Blocheaza indexarea pe orice domeniu care nu e www.neofort.ro
         source: '/(.*)',

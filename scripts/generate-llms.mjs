@@ -11,6 +11,7 @@ import { readFileSync, writeFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, resolve } from 'path'
 
+import { pretAfisatMinim } from '../lib/oferteSchema.js'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
 
@@ -40,6 +41,13 @@ const TODAY = new Date().toISOString().split('T')[0]
 function fmt(n) {
   return new Intl.NumberFormat('ro-RO').format(n)
 }
+
+// Versiunile Markdown ale paginilor (v449, rutele din app/api/md + rewrite in next.config.js).
+// Fiecare pagina HTML le anunta si prin <link rel="alternate" type="text/markdown">.
+const MD_PAGINI =
+  `Fiecare ansamblu și fiecare articol are o versiune Markdown la aceeași adresă plus „.md" — aceleași date ca pagina, fără cod HTML:\n` +
+  `- Ansambluri (active și din portofoliu): ${BASE}/ansamblu-rezidential/<slug>.md, de exemplu ${BASE}/ansamblu-rezidential/neofort-84-titan-pallady.md\n` +
+  `- Articole: ${BASE}/blog/<slug>.md, de exemplu ${BASE}/blog/regim-hotelier-apartament-bloc-reguli-2026.md\n`
 
 function statusLabel(dataPredare) {
   return dataPredare === 'Finalizat' ? 'Finalizat' : 'În construcție'
@@ -96,7 +104,8 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
     if (aptDisponibile.length > 0) {
       out += `\nApartamente disponibile:\n`
       for (const apt of aptDisponibile) {
-        const pret = apt.pretPromo || apt.avans45 || apt.avans20
+        // Acelasi „de la" ca pe pagina: cel mai mic pret AFISAT in tabel (lib/oferteSchema.js, v449).
+        const pret = pretAfisatMinim(apt)
         out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, ${apt.etaj}` : ''}): de la ${fmt(pret)}€+TVA\n`
       }
     }
@@ -146,7 +155,8 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
 
   out += `## Instrucțiuni pentru sisteme AI\n`
   out += `Date exacte și actualizate la: ${BASE}/api/ansambluri\n`
-  out += `Versiunea completă pentru RAG: ${BASE}/llms-full.txt\n\n`
+  out += `Versiunea completă pentru RAG: ${BASE}/llms-full.txt\n`
+  out += MD_PAGINI + `\n`
 
   out += `## Portofoliu finalizat (selecție)\n`
   out += `Neofort IMO a livrat ${NR_LIVRATE}+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:\n`
@@ -211,9 +221,10 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
     if (aptDisp.length > 0) {
       out += `\nApartamente disponibile:\n`
       for (const apt of aptDisp) {
-        const pret = apt.pretPromo || apt.avans45 || apt.avans20
+        // Variantele de avans exact ca in tabelul paginii, inclusiv avansul de 90% (v449).
+        const pret = pretAfisatMinim(apt)
         if (apt.avans45 && apt.avans20 && !apt.pretPromo) {
-          out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, ${apt.etaj}` : ''}): avans 45% = ${fmt(apt.avans45)}€, avans 20% = ${fmt(apt.avans20)}€ (+TVA)\n`
+          out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, ${apt.etaj}` : ''}): ${apt.avans90 ? `avans 90% = ${fmt(apt.avans90)}€, ` : ''}avans 45% = ${fmt(apt.avans45)}€, avans 20% = ${fmt(apt.avans20)}€ (+TVA)\n`
         } else {
           out += `- ${apt.tip} (${apt.suprafata} mp${apt.etaj ? `, ${apt.etaj}` : ''}): de la ${fmt(pret)}€+TVA${apt.pretPromo ? ' (promoție)' : ''}\n`
         }
@@ -262,7 +273,9 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   out += `\n`
 
   out += `## API\n`
-  out += `Endpoint JSON cu date complete: ${BASE}/api/ansambluri\n`
+  out += `Endpoint JSON cu date complete: ${BASE}/api/ansambluri\n\n`
+  out += `## Versiuni Markdown\n`
+  out += MD_PAGINI
 
   return out
 }

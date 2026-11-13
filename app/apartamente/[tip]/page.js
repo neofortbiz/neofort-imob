@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_ACTIVE, formatPret, STATUS_CONFIG, hasPromo } from '@/data/ansambluri'
+import { pretAfisatMinim } from '@/lib/oferteSchema'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -21,6 +22,34 @@ const FINALIZATE_NUMERE = FINALIZATE.map(a => a.numar).join(', ').replace(/, (\d
 const FINALIZATE_PRET_MIN = FINALIZATE.length
   ? Math.min(...FINALIZATE.map(a => Number(a.pretDeLa)).filter(Number.isFinite)).toLocaleString('de-DE')
   : null
+
+// ── Pretul „de la" pe tipologie, derivat din date (v449) ──────────────────────
+// DE CE: cifrele erau scrise de mana in seoDesc si in texte („de la 62.114€",
+// „102.167€", „186.166€") si ramasesera in urma: ignorau avansul de 90% si
+// promotiile. Acum vin din acelasi calcul ca pretul afisat sus pe pagina — cel mai mic
+// pret AFISAT in tabel (lib/oferteSchema.js), doar pe apartamentele disponibile.
+// Eticheta avansului si suprafata vin de la acelasi apartament, deci textul ramane adevarat.
+// Daca la o tipologie nu mai e niciun apartament disponibil, se cade pe toate unitatile
+// (acelasi principiu ca intervalul de suprafete), ca build-ul sa nu se opreasca.
+function minimTipologie(filtru) {
+  for (const doarDisponibile of [true, false]) {
+    let best = null
+    for (const a of ANSAMBLURI_ACTIVE) for (const apt of a.apartamente || []) {
+      if ((doarDisponibile && apt.stocEpuizat) || !filtru(apt)) continue
+      const pret = pretAfisatMinim(apt)
+      if (pret && (!best || pret < best.pret)) best = { pret, a, apt }
+    }
+    if (best) return best
+  }
+  return null
+}
+const etichetaPret = (apt, pret) =>
+  pret === apt.pretPromo ? 'promoție' : pret === apt.avans90 ? 'avans 90%' : pret === apt.avans45 ? 'avans 45%' : 'avans 20%'
+const MIN_2 = minimTipologie(x => x.camere === 2)
+const MIN_3 = minimTipologie(x => x.camere === 3)
+const MIN_4 = minimTipologie(x => x.camere >= 4)
+const pretDe = m => m.pret.toLocaleString('de-DE')
+const mpDe = m => String(m.apt.suprafata).replace('.', ',')
 
 // ── Configuratie tipuri ───────────────────────────────────────────────────────
 const TIP_CONFIG = {
@@ -67,7 +96,7 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
     h1: 'Apartamente 2 Camere Noi în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 2 camere în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
     seoTitle: 'Apartamente 2 Camere, Ansambluri Rezidențiale',
-    seoDesc: `Apartamente 2 camere noi în București de la 62.114€+TVA. Neofort IMO: ${ANSAMBLURI_ACTIVE.length} ansambluri active în Sectoarele 2, 3, 6. Direct de la sursă, fără comision.`,
+    seoDesc: `Apartamente 2 camere noi în București de la ${pretDe(MIN_2)}€+TVA. Neofort IMO: ${ANSAMBLURI_ACTIVE.length} ansambluri active în Sectoarele 2, 3, 6. Direct de la sursă, fără comision.`,
     ogDesc: 'Apartamente 2 camere noi în București. Direct de la Neofort IMO, fără comision de agenție.',
     match: (tipuri) => tipuri.some(t => {
       const m = String(t).toLowerCase().match(/^(\d+)\s+camere/)
@@ -76,7 +105,7 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
     faq: [
       {
         q: 'Cât costă un apartament de 2 camere nou în București în 2026?',
-        a: 'Prețurile apartamentelor noi de 2 camere în București variază între 62.114€+TVA (Titan-Pallady, avans 45%) și 224.735€+TVA (Piața Muncii, Sector 3 semicentral, finisaje premium). Media pieței pentru 2 camere noi cu metrou în Sectorul 3 este 80.000-120.000€+TVA.',
+        a: `Prețurile apartamentelor noi de 2 camere în București variază între ${pretDe(MIN_2)}€+TVA (${MIN_2.a.zona}, ${etichetaPret(MIN_2.apt, MIN_2.pret)}) și 224.735€+TVA (Piața Muncii, Sector 3 semicentral, finisaje premium). Media pieței pentru 2 camere noi cu metrou în Sectorul 3 este 80.000-120.000€+TVA.`,
       },
       {
         q: 'Care sunt cele mai bune zone pentru apartamente de 2 camere noi în București?',
@@ -97,7 +126,7 @@ Toate garsonierele și studiourile Neofort IMO se vând direct de la sursă, fă
     ],
     textEditorial: `Apartamentele de 2 camere reprezintă cea mai căutată tipologie din portofoliul Neofort IMO — potrivite deopotrivă pentru prima locuință, pentru familiile tinere și pentru investitorii care urmăresc randamentul la închiriere.
 
-Portofoliul activ cuprinde apartamente de 2 camere în toate sectoarele active: de la 47 mp la 92 mp, de la 62.114€ în Titan-Pallady până la 224.735€ în zone semicentrale cu finisaje premium. Fiecare proiect are specificații tehnice proprii — tipologiile variază semnificativ.
+Portofoliul activ cuprinde apartamente de 2 camere în toate sectoarele active: de la 47 mp la 92 mp, de la ${pretDe(MIN_2)}€ în ${MIN_2.a.zona} până la 224.735€ în zone semicentrale cu finisaje premium. Fiecare proiect are specificații tehnice proprii — tipologiile variază semnificativ.
 
 TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gratuită inclusă pentru toate proiectele Neofort IMO — lucrăm cu toate băncile majore pentru identificarea celui mai avantajos credit ipotecar.`,
   },
@@ -106,7 +135,7 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
     h1: 'Apartamente 3 Camere Noi în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 3 camere în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
     seoTitle: 'Apartamente 3 Camere, Ansambluri Rezidențiale',
-    seoDesc: 'Apartamente 3 camere noi în București de la 102.167€+TVA. Neofort IMO: ansambluri active Sectoarele 2, 3, 6. Finisaje complete, direct de la sursă.',
+    seoDesc: `Apartamente 3 camere noi în București de la ${pretDe(MIN_3)}€+TVA. Neofort IMO: ansambluri active Sectoarele 2, 3, 6. Finisaje complete, direct de la sursă.`,
     ogDesc: 'Apartamente 3 camere noi în București. Direct de la Neofort IMO, fără comision de agenție.',
     match: (tipuri) => tipuri.some(t => {
       const m = String(t).toLowerCase().match(/^(\d+)\s+camere/)
@@ -115,7 +144,7 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
     faq: [
       {
         q: 'Cât costă un apartament de 3 camere nou în București în 2026?',
-        a: 'Prețurile apartamentelor noi de 3 camere din portofoliul Neofort IMO pornesc de la 102.167€+TVA în Titan-Pallady și ajung la 359.000€+TVA pentru tipologiile premium de 137,60 mp din Sectorul 2 semicentral. Media: 120.000-200.000€+TVA.',
+        a: `Prețurile apartamentelor noi de 3 camere din portofoliul Neofort IMO pornesc de la ${pretDe(MIN_3)}€+TVA în ${MIN_3.a.zona} și ajung la 359.000€+TVA pentru tipologiile premium de 137,60 mp din Sectorul 2 semicentral. Media: 120.000-200.000€+TVA.`,
       },
       {
         q: 'Ce suprafețe au apartamentele de 3 camere noi Neofort IMO?',
@@ -123,7 +152,7 @@ TVA aplicabil în 2026 este 21% pentru achiziții noi. Consultanță bancară gr
       },
       {
         q: 'Ce zone din București au apartamente de 3 camere noi la prețuri accesibile?',
-        a: 'Titan-Pallady (Sector 3) oferă apartamente de 3 camere de la 102.167€+TVA — cel mai competitiv preț per mp util din zonele cu metrou M3. Colentina (Sector 2) are 3 camere de la 140.490€+TVA în promoție, unele cu terasă. Titan Parc IOR (Sector 3) pornește de la 177.380€+TVA, cu Metrou Costin Georgian la 300m.',
+        a: `Titan-Pallady (Sector 3) oferă apartamente de 3 camere de la ${pretDe(MIN_3)}€+TVA — cel mai competitiv preț per mp util din zonele cu metrou M3. Colentina (Sector 2) are 3 camere de la 140.490€+TVA în promoție, unele cu terasă. Titan Parc IOR (Sector 3) pornește de la 177.380€+TVA, cu Metrou Costin Georgian la 300m.`,
       },
       {
         q: 'Apartamentele de 3 camere Neofort IMO se predau complet finisate?',
@@ -145,7 +174,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
     h1: 'Apartamente 4 Camere și Penthouse în Ansambluri Rezidențiale București',
     descriere: 'Apartamente noi de 4 camere și penthouse în ansambluri rezidențiale din București, direct de la sursă, fără comision.',
     seoTitle: 'Apartamente 4 Camere, Ansambluri Rezidențiale',
-    seoDesc: 'Apartamente 4 camere și penthouse noi în București de la 186.166€+TVA. Neofort IMO, Sectoarele 2, 3, 6. Terase panoramice, finisaje premium.',
+    seoDesc: `Apartamente 4 camere și penthouse noi în București de la ${pretDe(MIN_4)}€+TVA. Neofort IMO, Sectoarele 2, 3, 6. Terase panoramice, finisaje premium.`,
     ogDesc: 'Apartamente 4 camere și penthouse noi în București. Neofort IMO, direct de la sursă.',
     match: (tipuri) => tipuri.some(t => {
       const tl = String(t).toLowerCase()
@@ -155,7 +184,7 @@ Consultanță completă gratuită pentru alegerea tipologiei potrivite bugetului
     faq: [
       {
         q: 'Cât costă un apartament de 4 camere nou în București în 2026?',
-        a: 'Prețurile apartamentelor noi de 4 camere din portofoliul Neofort IMO pornesc de la 186.166€+TVA (Titan-Pallady, 100,63 mp) și ajung la 492.345€+TVA pentru tipologiile premium de 140,67 mp din Piața Muncii, Sectorul 3.',
+        a: `Prețurile apartamentelor noi de 4 camere din portofoliul Neofort IMO pornesc de la ${pretDe(MIN_4)}€+TVA (${MIN_4.a.zona}, ${mpDe(MIN_4)} mp) și ajung la 492.345€+TVA pentru tipologiile premium de 140,67 mp din Piața Muncii, Sectorul 3.`,
       },
       {
         q: 'Ce tipologii de 4 camere sunt disponibile la Neofort IMO?',
@@ -272,7 +301,12 @@ function getPretMinTip(a, tip) {
     return a.pretDeLa
   }
   if (!apts.length) return a.pretDeLa
-  const preturi = apts.map(apt => apt.avans45 || apt.avans20).filter(Boolean)
+  // Acelasi „de la" ca pagina ansamblului (v449): cel mai mic pret AFISAT in tabel
+  // (promo / avans 90% / 45% / 20%), doar pe apartamentele disponibile. Inainte era
+  // `avans45 || avans20` pe toate unitatile: ignora promotiile si avansul de 90% si
+  // lua in calcul apartamente vandute (17 preturi gresite pe cele 4 pagini).
+  const disp = apts.filter(apt => !apt.stocEpuizat)
+  const preturi = (disp.length ? disp : apts).map(pretAfisatMinim).filter(Boolean)
   return preturi.length ? Math.min(...preturi) : a.pretDeLa
 }
 

@@ -154,7 +154,8 @@ export async function generateMetadata({ params }) {
   return {
     title: metaTitle,
     description: metaDesc,
-    alternates: { canonical: `${BASE}/blog/${params.slug}` },
+    // Versiunea Markdown pentru agenti AI (v449). Canonical-ul ramane pagina HTML; .md are noindex.
+    alternates: { canonical: `${BASE}/blog/${params.slug}`, types: { 'text/markdown': `${BASE}/blog/${params.slug}.md` } },
     keywords: a.keywords?.join(', '),
     authors: [{ name: autor?.nume }],
     openGraph: {
