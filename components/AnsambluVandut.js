@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
 import { peScurtPortofoliu } from '@/lib/peScurt'
-import { oferteAnsambluVandut } from '@/lib/oferteSchema'
+import { oferteAnsambluVandut, tvaInclusDinTip } from '@/lib/oferteSchema'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -175,12 +175,13 @@ export default function AnsambluVandut({ a, basePath = '/portofoliu' }) {
               {a.preturi && a.preturi.length > 0 && (
                 <div className="pb-6 border-b border-gray-100">
                   <h2 className="text-base font-medium text-gray-900 mb-4">Prețuri de referință</h2>
+                  {/* „+ TVA" nu apare unde denumirea spune deja „TVA inclus" (24 de preturi, v450). */}
                   <p className="text-xs text-gray-500 mb-3">Prețuri la momentul comercializării, cu titlu informativ. Stoc epuizat.</p>
                   <div className="space-y-2">
                     {a.preturi.map((p, i) => (
                       <div key={i} className="flex flex-wrap items-start justify-between gap-1 py-2.5 px-3 rounded-lg bg-gray-50 border border-gray-100">
                         <span className="text-xs text-gray-600 leading-relaxed" style={{ maxWidth: '65%' }}>{p.tip}</span>
-                        <span className="text-sm font-semibold text-gray-900 flex-shrink-0">{p.pret.toLocaleString()}€ <span className="text-xs font-normal text-gray-500">+ TVA</span></span>
+                        <span className="text-sm font-semibold text-gray-900 flex-shrink-0">{p.pret.toLocaleString()}€{!tvaInclusDinTip(p.tip) && <> <span className="text-xs font-normal text-gray-500">+ TVA</span></>}</span>
                       </div>
                     ))}
                   </div>

@@ -33,6 +33,8 @@ const BASE = 'https://www.neofort.ro'
 // `scripts/audit-continut.mjs` semnaleaza la prebuild intrarile din
 // `cuprins` ramase fara secțiune (id greșit sau redenumit).
 // ============================================================
+const faraMarkdown = t => String(t || '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1')
+
 function buildCuprins(a) {
   const etichete = new Map((a.cuprins || []).map(c => [c.id, c.titlu]))
   const vazute = new Set()
@@ -40,7 +42,9 @@ function buildCuprins(a) {
   for (const s of a.sectiuni || []) {
     if (!s || !s.id || vazute.has(s.id)) continue
     vazute.add(s.id)
-    out.push({ id: s.id, titlu: etichete.get(s.id) || s.h2 })
+    // Fara sintaxa markdown in cuprins (v450): fiecare intrare e deja un link spre sectiune,
+    // deci „[Titan–Pallady](/zona/...)" se afiseaza ca text simplu, nu cu paranteze.
+    out.push({ id: s.id, titlu: faraMarkdown(etichete.get(s.id) || s.h2) })
   }
   return out
 }
@@ -354,8 +358,10 @@ export default function ArticolPage({ params }) {
               {/* SECTIUNI */}
               {a.sectiuni.map(s => (
                 <section key={s.id} id={s.id} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4 mt-8">{s.h2}</h2>
-                  {s.h3 && <h3 className="text-base font-semibold text-gray-700 mb-3">{s.h3}</h3>}
+                  {/* Subtitlurile trec prin parseLinks (v450): un [text](url) din h2/h3 devine link real,
+                      nu text cu paranteze. Fara markdown, randarea e identica cu cea de dinainte. */}
+                  <h2 className="text-xl font-bold text-gray-900 mb-4 mt-8">{parseLinks(s.h2, `h2-${s.id}-`)}</h2>
+                  {s.h3 && <h3 className="text-base font-semibold text-gray-700 mb-3">{parseLinks(s.h3, `h3-${s.id}-`)}</h3>}
                   {s.id === 'faq'
                     ? (
                       <div className="space-y-4 mt-4">
