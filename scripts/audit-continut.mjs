@@ -24,6 +24,7 @@
 import fs from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
+import { preturiAfisate } from '../lib/oferteSchema.js'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const SUFIX_TITLU = ' | Neofort IMO'   // template-ul global din app/layout.js
@@ -81,8 +82,8 @@ for (const a of ANSAMBLURI_ACTIVE || []) {
   }
 
   // pretDeLa trebuie sa fie minimul din stocul DISPONIBIL
-  const preturi = []
-  for (const x of disp) for (const v of [x.pretPromo, x.avans90, x.avans45, x.avans20]) if (v != null) preturi.push(v)
+  // Acelasi criteriu ca schema si „de la" de pe pagina: preturile AFISATE (lib/oferteSchema.js).
+  const preturi = disp.flatMap(preturiAfisate)
   if (preturi.length) {
     const min = Math.min(...preturi)
     if (min !== a.pretDeLa) P(a.slug, `pretDeLa = ${bani(a.pretDeLa)} dar minimul din stocul disponibil este ${bani(min)}`)

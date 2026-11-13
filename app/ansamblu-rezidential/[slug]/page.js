@@ -11,6 +11,7 @@ import { ANSAMBLURI, ANSAMBLURI_ACTIVE, getAnsamblu, STATUS_CONFIG, formatPret, 
 import { getOricareAnsambluPortofoliu, TOATE_PORTOFOLIU } from '@/data/portofoliu'
 import AnsambluVandut from '@/components/AnsambluVandut'
 import MarcheazaAcces from '@/components/MarcheazaAcces'
+import { oferteAnsamblu, textSuprafete, frazaSuprafete } from '@/lib/oferteSchema'
 
 const BASE = 'https://www.neofort.ro'
 const TEL = '0758090904'
@@ -140,22 +141,9 @@ export default function AnsambluPage({ params }) {
       latitude: a.coordonate.lat,
       longitude: a.coordonate.lng,
     },
-    // Disponibilele primele, ca Google sa vada intai ce e de vanzare (doar primele 5 intra in schema).
-    offers: [...a.apartamente].sort((x, y) => (x.stocEpuizat ? 1 : 0) - (y.stocEpuizat ? 1 : 0)).slice(0, 5).map(apt => ({
-      '@type': 'Offer',
-      name: apt.tip,
-      price: apt.pretPromo || apt.avans45 || apt.avans20,
-      priceCurrency: 'EUR',
-      availability: apt.stocEpuizat ? 'https://schema.org/SoldOut' : 'https://schema.org/InStock',
-      seller: { '@type': 'Organization', name: 'Neofort IMO' },
-    })),
-    numberOfRooms: a.apartamente.map(apt => apt.camere),
-    floorSize: {
-      '@type': 'QuantitativeValue',
-      minValue: a.apartamente[0]?.suprafata,
-      maxValue: a.apartamente[a.apartamente.length - 1]?.suprafata,
-      unitCode: 'MTK',
-    },
+    // Toate apartamentele, disponibilele primele; fiecare oferta descrie apartamentul (camere,
+    // suprafata), cu pretul cel mai mic afisat in tabel si mentiunea „fara TVA" (lib/oferteSchema.js).
+    offers: oferteAnsamblu(a),
   }
 
   // Schema.org ApartmentComplex — descrie ansamblul ca entitate fizica rezidentiala
@@ -202,7 +190,7 @@ export default function AnsambluPage({ params }) {
         name: `Care sunt prețurile apartamentelor din ${a.nume}?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `Prețurile apartamentelor din ${a.nume} încep de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€ + TVA. Sunt disponibile ${a.tipuri.join(', ')}, cu suprafețe între ${a.apartamente[0]?.suprafata} și ${a.apartamente[a.apartamente.length-1]?.suprafata} mp.`,
+          text: `Prețurile apartamentelor din ${a.nume} încep de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€ + TVA. Sunt disponibile ${a.tipuri.join(', ')}, ${frazaSuprafete(a.apartamente)}.`,
         },
       },
       {
@@ -344,7 +332,7 @@ export default function AnsambluPage({ params }) {
                     return [...alt, ...(num.length ? [num.join(', ') + ' cam.'] : [])].join(', ')
                   })(), lbl: 'Tipuri' },
                 { val: `de la ${formatPret(a.pretDeLa)}`, lbl: 'Preț de la' },
-                { val: a.apartamente.length > 0 ? `${a.apartamente[0].suprafata}–${a.apartamente[a.apartamente.length-1].suprafata}mp` : 'N/A', lbl: 'Suprafețe' },
+                { val: textSuprafete(a.apartamente), lbl: 'Suprafețe' },
                 { val: (() => {
                   const parts = (a.etaje || '').split('+')
                   if (parts.length <= 4) return a.etaje

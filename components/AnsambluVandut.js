@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
 import { peScurtPortofoliu } from '@/lib/peScurt'
+import { oferteAnsambluVandut } from '@/lib/oferteSchema'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -70,19 +71,9 @@ export default function AnsambluVandut({ a, basePath = '/portofoliu' }) {
       addressRegion: a.sector,
       addressCountry: 'RO',
     },
-    numberOfRooms: { '@type': 'QuantitativeValue', value: a.tipuri.join(', ') },
     seller: { '@type': 'Organization', name: 'Neofort IMO', url: BASE },
-    ...(a.preturi && a.preturi.length > 0 ? {
-      offers: a.preturi.map(p => ({
-        '@type': 'Offer',
-        name: p.tip,
-        price: p.pret,
-        priceCurrency: 'EUR',
-        availability: 'https://schema.org/SoldOut',
-        priceValidUntil: '2024-12-31',
-        seller: { '@type': 'Organization', name: 'Neofort IMO' },
-      })),
-    } : {}),
+    // Oferte vandute: camere si suprafata pe apartament, „fara TVA" (lib/oferteSchema.js).
+    ...(a.preturi && a.preturi.length > 0 ? { offers: oferteAnsambluVandut(a) } : {}),
   }
 
   const breadcrumbSchema = {
