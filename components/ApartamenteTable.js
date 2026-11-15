@@ -1,5 +1,6 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { modelContext, inregistreazaToate, dupaRandare, aduInEcran, inLimita } from '@/lib/webmcp'
 
 const TEL_GENERAL = '0758090904'
 
@@ -40,8 +41,96 @@ export default function ApartamenteTable({ apartamente, parcare, ansambluNume, b
     return (apt?.deLaPret ? 'de la ' : '') + new Intl.NumberFormat('ro-RO').format(v) + '€'
   }
 
+  // WebMCP (v461): doua unelte pentru agentul AI din browser, doar pe paginile cu apartamente disponibile.
+  //   show_apartments        — filtreaza tabelul dupa camere (ca butoanele de mai jos) si il aduce in ecran;
+  //   open_apartment_contact — deschide fereastra „Solicită ofertă” a apartamentului (Sună / WhatsApp).
+  // Niciuna nu trimite nimic: omul apasa singur. Preturile din raspuns sunt cele AFISATE in tabel
+  // (aceleasi reguli ca mai jos: pret promo, variantele de avans, „de la”). In browserele fara WebMCP
+  // efectul se opreste la prima linie.
+  const radRef = useRef(null)
+  useEffect(() => {
+    const mc = modelContext()
+    if (!mc) return
+    const disponibile = apartamente.filter(a => !a.stocEpuizat)
+    if (!disponibile.length) return
+    const ctrl = new AbortController()
+    const camereDisp = [...new Set(disponibile.map(a => a.camere))].sort()
+    // Eticheta unica a fiecarui apartament: tipul; daca acelasi tip apare de mai multe ori (ex. Neofort 50
+    // Faza 1, trei „2 cam. cu terasa" cu suprafete diferite), se adauga suprafata, apoi etajul.
+    const repetat = (f, a) => disponibile.filter(x => f(x) === f(a)).length > 1
+    const numeApt = a => {
+      if (!repetat(x => x.tip, a)) return a.tip
+      const cuSupr = x => `${x.tip} — ${fmtSuprafata(x)}`
+      return repetat(cuSupr, a) && a.etaj ? `${cuSupr(a)}, ${a.etaj}` : cuSupr(a)
+    }
+    const tipuri = disponibile.map(numeApt)
+    const eticheta = c => (c === 1 ? 'garsonieră' : `${c} camere`)
+    const pretText = a => a.pretPromo
+      ? `promoție ${fmt(a.pretPromo, a)}`
+      : a.avans45
+        ? [a.avans90 && `avans 90%: ${fmt(a.avans90, a)}`, `avans 45%: ${fmt(a.avans45, a)}`, `avans 20%: ${fmt(a.avans20, a)}`].filter(Boolean).join(' / ')
+        : fmt(a.avans20, a)
+    const linie = a => [numeApt(a), fmtSuprafata(a), a.etaj, pretText(a), a.promo ? 'PROMO' : ''].filter(Boolean).join(' · ')
+    const fmtParcare = (nume, p) => p?.disponibil ? `${nume}${p.pret ? ` ${parcare.deLa ? 'de la ' : ''}${new Intl.NumberFormat('ro-RO').format(p.pret)}€ ${p.notaTVA || '+TVA'}` : ''}` : ''
+    const textParcare = parcare
+      ? ['Parcare:', [fmtParcare('exterioară', parcare.exterior), fmtParcare('interioară', parcare.interior), fmtParcare('subterană', parcare.subteran), fmtParcare('boxă', parcare.boxe)].filter(Boolean).join(', ')].join(' ')
+      : ''
+    inregistreazaToate(mc, [
+      {
+        name: 'show_apartments',
+        title: 'Show the apartments on this page',
+        description: `Shows on this page the apartments for sale in ${ansambluNume}, optionally only those with a given number of rooms, and scrolls the price table into view. Returns the apartments now shown, with the prices displayed on the page.`,
+        inputSchema: {
+          type: 'object',
+          properties: { rooms: { type: 'string', enum: ['all', ...camereDisp.map(String)], description: 'Number of rooms, or "all". 1 = studio (garsonieră).' } },
+          additionalProperties: false,
+        },
+        annotations: { readOnlyHint: true },
+        execute: async (input = {}) => {
+          const cerut = input?.rooms == null || input.rooms === '' || input.rooms === 'all' ? '' : String(parseInt(input.rooms, 10))
+          if (cerut && !camereDisp.includes(Number(cerut))) {
+            return `În ${ansambluNume} nu sunt apartamente disponibile cu ${input.rooms} camere. Disponibile: ${camereDisp.map(eticheta).join(', ')}.`
+          }
+          setSelectedApt(null)
+          setFilterCamere(cerut)
+          await dupaRandare()
+          aduInEcran(radRef.current)
+          const lista = disponibile.filter(a => !cerut || a.camere === Number(cerut))
+          return inLimita(
+            `${ansambluNume}: ${lista.length} ${lista.length === 1 ? 'tip disponibil' : 'tipuri disponibile'}${cerut ? ` (${eticheta(Number(cerut))})` : ''}, afișate acum pe pagină. Prețuri în EUR + TVA 21%.`,
+            lista.map(linie),
+            [textParcare, 'Pentru un apartament: open_apartment_contact (Sună / WhatsApp) sau request_viewing (formular).'].filter(Boolean).join('\n'),
+            'Cere un număr de camere.',
+          )
+        },
+      },
+      {
+        name: 'open_apartment_contact',
+        title: 'Open the contact window for an apartment',
+        description: `Opens on this page the "Solicită ofertă" window for one apartment type in ${ansambluNume}, with the buttons to call the sales representative or write on WhatsApp (message already prepared). The person taps the button.`,
+        inputSchema: {
+          type: 'object',
+          properties: { apartment: { type: 'string', enum: tipuri, description: 'Apartment as listed by show_apartments (type; area added when a type repeats).' } },
+          required: ['apartment'],
+          additionalProperties: false,
+        },
+        annotations: { readOnlyHint: true },
+        execute: async (input = {}) => {
+          const cerut = String(input?.apartment || '').trim().toLowerCase()
+          const apt = disponibile.find(a => numeApt(a) === input?.apartment) || disponibile.find(a => numeApt(a).toLowerCase() === cerut)
+          if (!apt) return `Tip necunoscut. Tipuri disponibile în ${ansambluNume}: ${tipuri.join('; ')}.`
+          setSelectedApt(apt)
+          await dupaRandare()
+          return `S-a deschis fereastra pentru ${numeApt(apt)} (${fmtSuprafata(apt)}, ${pretText(apt)} + TVA) cu butoanele „Sună: ${telDisplay}” și „WhatsApp”. Persoana apasă singură butonul ales. Dacă preferă să fie sunată, folosește request_viewing.`
+        },
+      },
+    ], ctrl.signal)
+    return () => ctrl.abort()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [apartamente, parcare, ansambluNume, telDisplay])
+
   return (
-    <div>
+    <div ref={radRef} style={{ scrollMarginTop: 90 }}>
       {/* FILTER CAMERE */}
       {camereUnice.length > 1 && (
         <div className="flex gap-2 mb-3 flex-wrap">

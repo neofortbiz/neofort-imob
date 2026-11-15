@@ -1,6 +1,7 @@
 'use client'
-import { useState, useEffect } from 'react'
-import { calcRata, DAE_MIN, DAE_MAX, DAE_DEFAULT, AVANS_PCT_DEFAULT, DURATA_DEFAULT, COTA_TVA } from '@/lib/calculCredit'
+import { useState, useEffect, useRef } from 'react'
+import { calcRata, DAE_MIN, DAE_MAX, DAE_DEFAULT, AVANS_PCT_MIN, AVANS_PCT_MAX, AVANS_PCT_DEFAULT, DURATA_MIN, DURATA_MAX, DURATA_DEFAULT, COTA_TVA } from '@/lib/calculCredit'
+import { modelContext, inregistreazaToate, dupaRandare, aduInEcran } from '@/lib/webmcp'
 
 // Lista de ansambluri NU mai este scrisa aici.
 //
@@ -20,6 +21,8 @@ import { calcRata, DAE_MIN, DAE_MAX, DAE_DEFAULT, AVANS_PCT_DEFAULT, DURATA_DEFA
 // Formula ratei si limitele DAE/avans/durata vin din lib/calculCredit.js (v451),
 // aceeasi sursa ca unealta calculate_mortgage din serverul MCP.
 const PRET_DEFAULT = 85000
+const PRET_MIN = 30000
+const PRET_MAX = 2000000
 const CURS_FALLBACK = 4.97
 
 function fmt(n, dec = 0) {
@@ -72,6 +75,8 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
   const [fNume, setFNume]           = useState('')
   const [fTel, setFTel]             = useState('')
   const [fEmail, setFEmail]         = useState('')
+  // WebMCP (v461): cererea a fost completata de asistentul AI (nota in fereastra + lead marcat „webmcp")
+  const [sursaAgent, setSursaAgent] = useState(false)
 
   // ── Fetch curs live ─────────────────────────────────────
   function fetchCurs() {
@@ -107,8 +112,166 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
   function openFlow() {
     setFPretAp(String(pret))
     setFAvans(String(avansEur))
+    setSursaAgent(false)
     setStep(0); setFlowOpen(true); setSendErr('')
   }
+
+  function inchideFlow() {
+    setFlowOpen(false); setStep(0); setSursaAgent(false)
+  }
+
+  // ── WebMCP (v461) ───────────────────────────────────────
+  // Doua unelte pentru agentul AI din browser:
+  //   set_mortgage_calculator — pune pretul/avansul/durata/DAE in calculator; omul vede rata pe ecran;
+  //   fill_credit_request     — completeaza cererea „Vreau ofertă reală de la bancă”, NU o trimite.
+  // Valorile curente se citesc din ref (nu din closure), ca uneltele sa nu se reinregistreze la fiecare
+  // miscare de slider. Calculul e acelasi ca mai sus (calcRata + TVA 21% pe pretul finantat).
+  const rezRef = useRef(null)
+  const stareRef = useRef({})
+  stareRef.current = { pret, avansPct, durata, dae, curs, cursError, fPretAp, fAvans, fVenit, fAreRate, fNume, fTel, fEmail }
+
+  useEffect(() => {
+    const mc = modelContext()
+    if (!mc) return
+    const ctrl = new AbortController()
+    const numeProiecte = ANSAMBLURI.map(a => a.nume)
+    const gasesteProiect = n => ANSAMBLURI.find(a => a.nume === n) || ANSAMBLURI.find(a => a.nume.toLowerCase() === String(n || '').trim().toLowerCase())
+    // numar: accepta si text („85.000", „7,5", „8500 lei"); punctul e separator de mii doar in forma 85.000
+    const numar = v => {
+      if (typeof v === 'number') return v
+      if (typeof v !== 'string' || !v.trim()) return NaN
+      let t = v.replace(/\s|€|lei|ron|eur/gi, '')
+      if (/^\d{1,3}(\.\d{3})+$/.test(t)) t = t.replace(/\./g, '')
+      return Number(t.replace(',', '.'))
+    }
+    const dat = v => v !== undefined && v !== null && v !== ''
+
+    inregistreazaToate(mc, [
+      {
+        name: 'set_mortgage_calculator',
+        title: 'Set the mortgage calculator on this page',
+        description: 'Sets the mortgage calculator on this page (apartment price excluding VAT, down payment %, years, APR/DAE %) so the person sees the monthly payment on screen. Returns the result. Indicative simulation, not a bank offer.',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            price_eur_excl_vat: { type: 'number', description: `Apartment price in EUR, excluding VAT (${PRET_MIN}–${PRET_MAX}).` },
+            project: { type: 'string', enum: numeProiecte, description: 'Neofort project; its "from" price is used when no price is given.' },
+            down_payment_pct: { type: 'number', description: `Down payment, % of the price with VAT (${AVANS_PCT_MIN}–${AVANS_PCT_MAX}).` },
+            years: { type: 'number', description: `Loan term in years (${DURATA_MIN}–${DURATA_MAX}).` },
+            dae_pct: { type: 'number', description: `APR (DAE) in % (${DAE_MIN}–${DAE_MAX}).` },
+          },
+          additionalProperties: false,
+        },
+        annotations: { readOnlyHint: true },
+        execute: async (input = {}) => {
+          const st = stareRef.current
+          const erori = []
+          let p = st.pret
+          if (dat(input.price_eur_excl_vat)) {
+            p = Math.round(numar(input.price_eur_excl_vat))
+            if (!(p >= PRET_MIN && p <= PRET_MAX)) erori.push(`price_eur_excl_vat între ${PRET_MIN} și ${PRET_MAX}`)
+          } else if (dat(input.project)) {
+            const a = gasesteProiect(input.project)
+            if (a?.pret) p = a.pret; else erori.push(`project unul dintre: ${numeProiecte.join('; ')}`)
+          }
+          const a = dat(input.down_payment_pct) ? Math.round(numar(input.down_payment_pct)) : st.avansPct
+          if (!(a >= AVANS_PCT_MIN && a <= AVANS_PCT_MAX)) erori.push(`down_payment_pct între ${AVANS_PCT_MIN} și ${AVANS_PCT_MAX}`)
+          const y = dat(input.years) ? Math.round(numar(input.years)) : st.durata
+          if (!(y >= DURATA_MIN && y <= DURATA_MAX)) erori.push(`years între ${DURATA_MIN} și ${DURATA_MAX}`)
+          const d = dat(input.dae_pct) ? Math.round(numar(input.dae_pct) * 10) / 10 : st.dae
+          if (!(d >= DAE_MIN && d <= DAE_MAX)) erori.push(`dae_pct între ${DAE_MIN} și ${DAE_MAX}`)
+          if (erori.length) return `Calculatorul nu a fost modificat. Valori acceptate: ${erori.join('; ')}.`
+          setPret(p); setPretInput(String(p)); setAvansPct(a); setDurata(y); setDae(d)
+          await dupaRandare()
+          aduInEcran(rezRef.current, 'center')
+          const tva = Math.round(p * COTA_TVA), total = p + tva, av = Math.round(total * a / 100), cr = total - av
+          const rata = calcRata(cr, d, y)
+          const curs = stareRef.current.curs
+          return `Calculatorul arată acum: preț ${fmt(p)} € + TVA 21% (${fmt(tva)} €) = ${fmt(total)} €; avans ${a}% = ${fmt(av)} €; credit ${fmt(cr)} €; ${y} ani; DAE ${d}% → rată ≈ ${fmt(Math.round(rata * curs))} RON/lună (≈ ${fmt(rata)} €), curs ${stareRef.current.cursError ? 'de rezervă' : 'BNR'} ${fmt(curs, 4)}. Simulare orientativă, nu ofertă bancară. Pentru oferte reale de la bănci: fill_credit_request.`
+        },
+      },
+      {
+        name: 'fill_credit_request',
+        title: 'Fill the bank offer request on this page',
+        description: 'Fills, on this page, the request "Vreau ofertă reală de la bancă" (a Neofort consultant sends real mortgage offers from partner banks within 24h). It does NOT send it: the person checks the data and presses "Trimite cererea". Use only data the person gave you. Can be called again to add missing data.',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            name: { type: 'string', maxLength: 80, description: 'Full name.' },
+            phone: { type: 'string', maxLength: 30, description: 'Phone, e.g. 0722 123 456.' },
+            email: { type: 'string', maxLength: 120, description: 'E-mail.' },
+            net_monthly_income_ron: { type: 'number', description: 'Net monthly income in lei (RON), all sources.' },
+            other_loans_monthly_ron: { type: 'number', description: 'Monthly payments for other loans, in lei; 0 if none.' },
+            age: { type: 'number', description: 'Age in years.' },
+            project: { type: 'string', enum: numeProiecte, description: 'Neofort project, if the person chose one.' },
+            apartment_price_eur: { type: 'number', description: 'Apartment price in EUR excluding VAT; default: the calculator price.' },
+            down_payment_eur: { type: 'number', description: 'Available down payment in EUR.' },
+          },
+          additionalProperties: false,
+        },
+        annotations: { readOnlyHint: false },
+        execute: async (input = {}) => {
+          const st = stareRef.current
+          const txt = v => (typeof v === 'string' ? v.trim() : '')
+          const invalide = []
+          const v = { pretAp: st.fPretAp || String(st.pret), avans: st.fAvans, venit: st.fVenit, areRate: st.fAreRate, nume: st.fNume, tel: st.fTel, email: st.fEmail }
+          if (dat(input.name)) { const n = txt(input.name).slice(0, 80); if (n) { v.nume = n; setFNume(n) } else invalide.push('name') }
+          if (dat(input.phone)) {
+            const t = txt(input.phone).slice(0, 30), c = t.replace(/\D/g, '')
+            if (c.length >= 9 && c.length <= 15) { v.tel = t; setFTel(t) } else invalide.push('phone')
+          }
+          if (dat(input.email)) {
+            const e = txt(input.email).slice(0, 120)
+            if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)) { v.email = e; setFEmail(e) } else invalide.push('email')
+          }
+          if (dat(input.net_monthly_income_ron)) {
+            const x = Math.round(numar(input.net_monthly_income_ron))
+            if (x > 0) { v.venit = String(x); setFVenit(String(x)) } else invalide.push('net_monthly_income_ron')
+          }
+          if (dat(input.other_loans_monthly_ron)) {
+            const x = Math.round(numar(input.other_loans_monthly_ron))
+            if (x >= 0) { v.areRate = x > 0; setFAreRate(x > 0); setFRataLuna(x > 0 ? String(x) : '') } else invalide.push('other_loans_monthly_ron')
+          }
+          if (dat(input.age)) {
+            const x = Math.round(numar(input.age))
+            if (x >= 18 && x <= 75) setFVarsta(String(x)); else invalide.push('age')
+          }
+          if (dat(input.project)) {
+            const a = gasesteProiect(input.project)
+            if (a) { setFAnsamblu(a.slug); if (!dat(input.apartment_price_eur) && a.pret) v.pretAp = String(a.pret) } else invalide.push('project')
+          }
+          if (dat(input.apartment_price_eur)) {
+            const x = Math.round(numar(input.apartment_price_eur))
+            if (x >= PRET_MIN && x <= PRET_MAX) v.pretAp = String(x); else invalide.push('apartment_price_eur')
+          }
+          setFPretAp(v.pretAp)
+          if (dat(input.down_payment_eur)) {
+            const x = Math.round(numar(input.down_payment_eur))
+            if (x >= 0) { v.avans = String(x); setFAvans(String(x)) } else invalide.push('down_payment_eur')
+          } else if (!v.avans) {
+            const x = String(Math.round((Number(v.pretAp) || st.pret) * (1 + COTA_TVA) * st.avansPct / 100))
+            v.avans = x; setFAvans(x)
+          }
+          const lipsa = [!v.venit && 'net_monthly_income_ron', v.areRate === null && 'other_loans_monthly_ron', !v.nume && 'name', !v.tel && 'phone', !v.email && 'email'].filter(Boolean)
+          // fereastra se deschide la primul pas cu date lipsa, altfel la ultimul (datele de contact + „Trimite cererea”)
+          const pas = !v.venit || v.areRate === null ? 1 : 3
+          setSendErr(''); setSursaAgent(true); setStep(pas); setFlowOpen(true)
+          await dupaRandare()
+          return JSON.stringify({
+            ok: invalide.length === 0,
+            sent: false,
+            ...(invalide.length ? { invalid: invalide } : {}),
+            still_missing: lipsa,
+            next_step: lipsa.length || invalide.length
+              ? 'Ask the person for the missing or invalid data, then call fill_credit_request again with only those fields.'
+              : 'The request is filled but NOT sent. Ask the person to check it on the page (they can go back with "← Înapoi") and press "Trimite cererea" themselves.',
+          })
+        },
+      },
+    ], ctrl.signal)
+    return () => ctrl.abort()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ANSAMBLURI])
 
   async function submitLead(e) {
     e.preventDefault()
@@ -125,6 +288,7 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
         venitLunarNet: fVenit ? `${fmt(Number(fVenit))} lei` : '',
         areRate: fAreRate === true ? `Da${fRataLuna ? ` — ${fmt(Number(fRataLuna))} lei/lună` : ''}` : 'Nu',
         simulare: `${fmt(pret)}€ + TVA = ${fmt(pretTotal)}€ / avans ${avansPct}% / DAE ${dae}% / ${durata} ani → ~${fmt(Math.round(rataRon))} RON/lună`,
+        ...(sursaAgent ? { sursa: 'webmcp' } : {}),
       }
       const res = await fetch('/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
       if (!res.ok) throw new Error()
@@ -287,7 +451,7 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
                 </div>
 
                 {/* Coloana dreapta — rezultate */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                <div ref={rezRef} style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
 
                   {/* Rata principală */}
                   <div style={{ background: '#081c12', borderRadius: 14, padding: '22px 20px', textAlign: 'center' }}>
@@ -333,14 +497,14 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
       {/* FLOW OVERLAY */}
       {flowOpen && (
         <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.65)', zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 16 }}
-          onClick={e => { if (e.target === e.currentTarget) { setFlowOpen(false); setStep(0) } }}>
+          onClick={e => { if (e.target === e.currentTarget) inchideFlow() }}>
           <div style={{ background: '#fff', borderRadius: 20, width: '100%', maxWidth: 500, maxHeight: '90vh', overflow: 'auto' }}>
 
             {/* Header */}
             <div style={{ background: '#081c12', borderRadius: '20px 20px 0 0', padding: '18px 24px 16px' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: step < 4 ? 12 : 0 }}>
                 <span style={{ color: '#e8b44e', fontWeight: 700, fontSize: 15 }}>Neofort IMO — Ofertă credit</span>
-                <button onClick={() => { setFlowOpen(false); setStep(0) }}
+                <button onClick={inchideFlow}
                   style={{ background: 'rgba(255,255,255,0.1)', border: 'none', color: '#fff', borderRadius: 8, width: 30, height: 30, cursor: 'pointer', fontSize: 15, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>✕</button>
               </div>
               {step < 4 && (
@@ -360,6 +524,12 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
             </div>
 
             <div style={{ padding: '24px 24px 20px' }}>
+
+              {sursaAgent && step < 4 && (
+                <p role="status" aria-live="polite" style={{ fontSize: 12, fontWeight: 500, textAlign: 'center', margin: '0 0 16px', borderRadius: 8, padding: '8px 12px', background: '#fff7e6', color: '#7a4f00', border: '1px solid #f0c674' }}>
+                  Asistentul AI a completat cererea. Verifică datele (poți reveni cu „← Înapoi”) și apasă „Trimite cererea”.
+                </p>
+              )}
 
               {/* Pas 0: Apartament */}
               {step === 0 && (
@@ -510,7 +680,7 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
                     Confirmă și pe WhatsApp
                   </a>
-                  <button onClick={() => { setFlowOpen(false); setStep(0) }}
+                  <button onClick={inchideFlow}
                     style={{ width: '100%', border: '1.5px solid #e5e7eb', background: '#fff', color: '#374151', borderRadius: 10, padding: '11px', fontSize: 13, cursor: 'pointer' }}>
                     Închide
                   </button>
