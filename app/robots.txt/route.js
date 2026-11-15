@@ -10,8 +10,10 @@
 //   2. Grupul `__usage_ai-training` cu Allow: / — semnalul comun Google, Microsoft, OpenAI, Anthropic
 //      pentru folosirea continutului de catre AI (la Google conteaza si pentru Gemini). Fara el, fisierul
 //      nu exprima nicio preferinta.
-//   3. Agentmap — trimite agentii la catalogul ARD (/.well-known/ard.json); Lighthouse il cauta primul.
-// Toate trei sunt in lista de directive acceptate de Lighthouse (auditul „robots.txt is valid").
+// Ambele sunt acceptate de auditul Lighthouse „robots.txt is valid" (versiunea 13.6 din PageSpeed).
+// NU se adauga `Agentmap:` (ARD): v458 l-a pus si PageSpeed (Lighthouse 13.6) l-a respins ca „Unknown
+// directive" — SEO 100 → 92. Exista doar in codul Lighthouse in dezvoltare. Catalogul ARD se gaseste
+// oricum prin <link rel="ard"> si /.well-known/ard.json. Auditul (verificarea 23) blocheaza reintroducerea.
 
 export const dynamic = 'force-static'
 
@@ -53,7 +55,6 @@ export function textRobots() {
     t += '\n'
   }
   t += `Sitemap: ${BASE}/sitemap.xml\n`
-  t += `Agentmap: ${BASE}/.well-known/ard.json\n`
   return t
 }
 

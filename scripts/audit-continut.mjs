@@ -1121,7 +1121,7 @@ try {
 // 23. ROBOTS.TXT — semnalele pentru agenti (v458)
 // robots.txt e generat de app/robots.txt/route.js. Daca app/robots.js reapare (ex. o copie veche),
 // Next.js are doua surse pentru aceeasi adresa si build-ul pica. Se verifica si ca semnalele permisive
-// (Content-Signal, __usage_ai-training, Agentmap) sunt prezente si ca Agentmap trimite la un fisier existent.
+// (Content-Signal, __usage_ai-training) sunt prezente si ca nu exista directive pe care Lighthouse le respinge.
 // ────────────────────────────────────────────────────────────
 try {
   if (fs.existsSync(resolve(ROOT, 'app/robots.js'))) P('app/robots.js', 'există în paralel cu app/robots.txt/route.js — două surse pentru /robots.txt; șterge-l cu git rm app/robots.js')
@@ -1129,9 +1129,16 @@ try {
   const txt = textRobots()
   if (!/^Content-Signal: search=yes, ai-input=yes, ai-train=yes$/m.test(txt)) P('robots.txt', 'lipsește Content-Signal (search=yes, ai-input=yes, ai-train=yes)')
   if (!/^User-Agent: __usage_ai-training\nAllow: \/$/m.test(txt)) P('robots.txt', 'lipsește grupul __usage_ai-training cu Allow: /')
-  const am = txt.match(/^Agentmap: https:\/\/www\.neofort\.ro(\/\S+)$/m)
-  if (!am) P('robots.txt', 'lipsește Agentmap')
-  else if (!fs.existsSync(resolve(ROOT, 'public' + am[1]))) P('robots.txt', `Agentmap trimite la un fișier inexistent: ${am[1]}`)
+  // Directivele acceptate de Lighthouse 13.6 (cel din PageSpeed). O directiva in afara listei = auditul
+  // „robots.txt is valid" pica si scorul SEO scade (v458: `Agentmap` → SEO 92). Lista se extinde doar dupa
+  // ce o versiune NOUA de Lighthouse ajunge in PageSpeed, nu dupa codul in dezvoltare.
+  const ACCEPTATE = new Set(['user-agent', 'disallow', 'allow', 'sitemap', 'crawl-delay', 'clean-param', 'host', 'request-rate', 'visit-time', 'noindex', 'content-signal'])
+  txt.split('\n').forEach((l, i) => {
+    if (!l.trim() || l.trim().startsWith('#')) return
+    const k = l.indexOf(':')
+    const d = k > 0 ? l.slice(0, k).trim().toLowerCase() : ''
+    if (!ACCEPTATE.has(d)) P('robots.txt', `linia ${i + 1} „${l.slice(0, 60)}" — directivă neacceptată de Lighthouse (SEO scade)`)
+  })
   if (/^Disallow: \/\s*$/m.test(txt.split('User-Agent: __usage_ai-training')[0])) P('robots.txt', 'un grup are Disallow: / — blochează tot site-ul')
 } catch (err) {
   P('robots.txt', `nu poate fi verificat: ${err.message}`)
