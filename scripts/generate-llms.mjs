@@ -12,6 +12,7 @@ import { fileURLToPath } from 'url'
 import { dirname, resolve } from 'path'
 
 import { pretAfisatMinim } from '../lib/oferteSchema.js'
+import { UNELTE as UNELTE_MCP } from '../lib/mcpUnelte.js'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
 
@@ -48,6 +49,13 @@ const MD_PAGINI =
   `Fiecare ansamblu și fiecare articol are o versiune Markdown la aceeași adresă plus „.md" — aceleași date ca pagina, fără cod HTML:\n` +
   `- Ansambluri (active și din portofoliu): ${BASE}/ansamblu-rezidential/<slug>.md, de exemplu ${BASE}/ansamblu-rezidential/neofort-84-titan-pallady.md\n` +
   `- Articole: ${BASE}/blog/<slug>.md, de exemplu ${BASE}/blog/regim-hotelier-apartament-bloc-reguli-2026.md\n`
+
+// Serverul MCP doar citire (v451, app/api/mcp/route.js). Numele uneltelor vin din aceeasi lista
+// pe care o serveste serverul (lib/mcpUnelte.js), deci nu se pot desincroniza.
+const MCP_UNELTE = UNELTE_MCP.map(u => u.name)
+const MCP_SERVER =
+  `Server MCP doar citire: ${BASE}/api/mcp — Streamable HTTP fără stare, răspuns JSON, protocol 2026-07-28 și 2024-11-05…2025-11-25, fără autentificare.\n` +
+  `Unelte: ${MCP_UNELTE.join(', ')}. Aceleași date ca paginile; prețuri în EUR fără TVA (+21%). Serverul nu trimite cereri; pentru ofertă fermă sau vizionare, get_contact dă brokerul.\n`
 
 function statusLabel(dataPredare) {
   return dataPredare === 'Finalizat' ? 'Finalizat' : 'În construcție'
@@ -157,6 +165,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `Date exacte și actualizate la: ${BASE}/api/ansambluri\n`
   out += `Versiunea completă pentru RAG: ${BASE}/llms-full.txt\n`
   out += MD_PAGINI + `\n`
+  out += MCP_SERVER + `\n`
 
   out += `## Portofoliu finalizat (selecție)\n`
   out += `Neofort IMO a livrat ${NR_LIVRATE}+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:\n`
@@ -276,6 +285,8 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   out += `Endpoint JSON cu date complete: ${BASE}/api/ansambluri\n\n`
   out += `## Versiuni Markdown\n`
   out += MD_PAGINI
+  out += `\n## Server MCP\n`
+  out += MCP_SERVER
 
   return out
 }

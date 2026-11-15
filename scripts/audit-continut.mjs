@@ -1009,6 +1009,25 @@ for (const [eticheta, lista] of [['ansambluri', ANSAMBLURI_ACTIVE], ['portofoliu
 }
 
 // ────────────────────────────────────────────────────────────
+// 20. DATELE FIRMEI DIN SERVERUL MCP vs PAGINA /contact (v451)
+// lib/mcpUnelte.js (FIRMA) trimite agentilor telefonul, emailul, adresa si programul. Daca se
+// schimba pe /contact si nu si acolo, agentii ar da date vechi. Fiecare valoare trebuie sa apara
+// identic in app/contact/page.js.
+// ────────────────────────────────────────────────────────────
+try {
+  const { FIRMA } = await import('../lib/mcpUnelte.js')
+  const contact = fs.readFileSync(resolve(ROOT, 'app/contact/page.js'), 'utf8')
+  const program = FIRMA.program.match(/^(.+?) (\d{2}:\d{2} – \d{2}:\d{2})/)
+  const deVerificat = { telefonInternational: FIRMA.telefonInternational, email: FIRMA.email, adresa: FIRMA.adresa, 'program (zile)': program?.[1], 'program (ore)': program?.[2] }
+  // telefonul afisat („0758 090 904") trebuie sa fie acelasi numar cu cel international de pe pagina
+  if ('+4' + FIRMA.telefon.replace(/\D/g, '') !== FIRMA.telefonInternational) P('lib/mcpUnelte.js', `FIRMA.telefon „${FIRMA.telefon}" nu e acelasi numar cu FIRMA.telefonInternational „${FIRMA.telefonInternational}"`)
+  for (const [camp, val] of Object.entries(deVerificat))
+    if (!val || !contact.includes(val)) P('lib/mcpUnelte.js', `FIRMA.${camp} „${val}" nu apare identic in app/contact/page.js — serverul MCP ar da agentilor date diferite de site`)
+} catch (err) {
+  P('lib/mcpUnelte.js', `nu poate fi citit de audit: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
 if (!probleme.length) {

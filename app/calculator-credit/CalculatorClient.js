@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { calcRata, DAE_MIN, DAE_MAX, DAE_DEFAULT, AVANS_PCT_DEFAULT, DURATA_DEFAULT } from '@/lib/calculCredit'
 
 // Lista de ansambluri NU mai este scrisa aici.
 //
@@ -16,20 +17,10 @@ import { useState, useEffect } from 'react'
 // bundle-ul de client (data/ansambluri/index.js are ~155KB de text).
 // Orice modificare de pret in date se reflecta automat aici.
 
-const DAE_MIN = 6.0
-const DAE_MAX = 12.0
-const DAE_DEFAULT = 7.5
+// Formula ratei si limitele DAE/avans/durata vin din lib/calculCredit.js (v451),
+// aceeasi sursa ca unealta calculate_mortgage din serverul MCP.
 const PRET_DEFAULT = 85000
-const AVANS_PCT_DEFAULT = 15
-const DURATA_DEFAULT = 25
 const CURS_FALLBACK = 4.97
-
-function calcRata(principal, daePct, durataAni) {
-  if (principal <= 0 || daePct <= 0) return 0
-  const r = daePct / 100 / 12
-  const n = durataAni * 12
-  return principal * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1)
-}
 
 function fmt(n, dec = 0) {
   return new Intl.NumberFormat('ro-RO', { maximumFractionDigits: dec, minimumFractionDigits: dec }).format(n)
