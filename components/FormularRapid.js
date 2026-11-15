@@ -1,5 +1,6 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { modelContext, inregistreaza } from '@/lib/webmcp'
 
 const TEL_GENERAL = '0758090904'
 const TEL_GENERAL_DISPLAY = '0758 090 904'
@@ -7,6 +8,69 @@ const TEL_GENERAL_DISPLAY = '0758 090 904'
 export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B.', brokerTel = '0758 090 904', brokerFoto = '' }) {
   const [form, setForm] = useState({ nume: '', telefon: '', email: '', mesaj: '', _hp: '' })
   const [status, setStatus] = useState('idle')
+  // WebMCP (v453): unealta request_viewing completeaza formularul, NU il trimite. notaAgent = nota vizibila
+  // de sub buton (dispare la prima modificare); sursaAgent = lead-ul pleaca marcat „webmcp" (GA4 + email/WA).
+  const [notaAgent, setNotaAgent] = useState(false)
+  const [sursaAgent, setSursaAgent] = useState(false)
+  const notaRef = useRef(null)
+
+  useEffect(() => {
+    const mc = modelContext()
+    if (!mc) return
+    const ctrl = new AbortController()
+    inregistreaza(mc, {
+      name: 'request_viewing',
+      title: 'Fill the viewing / offer request form',
+      description: `Fills the "Solicită ofertă" form on this project page${ansambluNume ? ` (${ansambluNume})` : ''} with the person's name, phone and request (viewing or offer). It does NOT send the form: the person must check the data and press "Trimite solicitarea" themselves. Use only data the person gave you in this conversation.`,
+      inputSchema: {
+        type: 'object',
+        properties: {
+          name: { type: 'string', maxLength: 80, description: 'Full name of the person.' },
+          phone: { type: 'string', maxLength: 30, description: 'Phone number, e.g. 0722 123 456 or +40722123456.' },
+          email: { type: 'string', maxLength: 120, description: 'Optional e-mail.' },
+          apartment_type: { type: 'string', maxLength: 80, description: 'Optional, e.g. "2 camere" or "garsonieră".' },
+          preferred_time: { type: 'string', maxLength: 120, description: 'Optional preferred time for the viewing or call.' },
+          message: { type: 'string', maxLength: 300, description: 'Optional extra message, in Romanian if possible.' },
+        },
+        required: ['name', 'phone'],
+        additionalProperties: false,
+      },
+      annotations: { readOnlyHint: false, destructiveHint: false, idempotentHint: true, openWorldHint: false },
+      execute: async (input = {}) => {
+        const txt = v => (typeof v === 'string' ? v.trim() : '')
+        const nume = txt(input.name).slice(0, 80)
+        const telefon = txt(input.phone).slice(0, 30)
+        const cifre = telefon.replace(/\D/g, '')
+        if (!nume || cifre.length < 9 || cifre.length > 15) {
+          return JSON.stringify({ ok: false, still_missing: [!nume && 'name', (cifre.length < 9 || cifre.length > 15) && 'phone'].filter(Boolean), next_step: 'Ask the person for a full name and a valid phone number, then call request_viewing again.' })
+        }
+        const mesaj = [
+          ansambluNume ? `Vizionare / ofertă ${ansambluNume}` : 'Vizionare / ofertă',
+          txt(input.apartment_type) && `tip: ${txt(input.apartment_type)}`,
+          txt(input.preferred_time) && `interval preferat: ${txt(input.preferred_time)}`,
+          txt(input.message),
+        ].filter(Boolean).join(' · ').slice(0, 500)
+        const email = txt(input.email).slice(0, 120)
+        setStatus(s => (s === 'success' ? 'idle' : s))
+        setForm(f => ({ ...f, nume, telefon, email, mesaj }))
+        setSursaAgent(true)
+        setNotaAgent(true)
+        setTimeout(() => {
+          try {
+            const lin = !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+            notaRef.current?.scrollIntoView({ behavior: lin ? 'smooth' : 'auto', block: 'center' })
+          } catch {}
+        }, 50)
+        return JSON.stringify({
+          ok: true,
+          filled: { nume, telefon, email: email || null, mesaj },
+          sent: false,
+          next_step: 'The form is filled but NOT sent. Ask the person to check the data on the page and press "Trimite solicitarea" themselves. Do not press it for them.',
+        })
+      },
+    }, ctrl.signal)
+    return () => ctrl.abort()
+  }, [ansambluNume])
 
   // Folosim brokerTel din props (specific per ansamblu), fallback la general
   const telRaw = brokerTel.replace(/\s/g, '')
@@ -16,6 +80,7 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
 
   function handleChange(e) {
     setForm(f => ({ ...f, [e.target.name]: e.target.value }))
+    setNotaAgent(false)
   }
 
   async function handleSubmit(e) {
@@ -27,7 +92,7 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ nume: form.nume, telefon: form.telefon, email: form.email, mesaj: form.mesaj, ansamblu: ansambluNume, tip: 'rapid' }),
+        body: JSON.stringify({ nume: form.nume, telefon: form.telefon, email: form.email, mesaj: form.mesaj, ansamblu: ansambluNume, tip: 'rapid', ...(sursaAgent ? { sursa: 'webmcp' } : {}) }),
       })
       if (res.ok) {
         // Eveniment conversie GA4/GTM (dataLayer exista deja; ?. = sigur daca GTM e blocat)
@@ -38,10 +103,13 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
             form_type: 'rapid',
             ansamblu: ansambluNume || '(general)',
             page_path: window.location.pathname,
+            ...(sursaAgent ? { lead_source: 'webmcp' } : {}),
           })
         }
         setStatus('success')
         setForm({ nume: '', telefon: '', email: '', mesaj: '', _hp: '' })
+        setNotaAgent(false)
+        setSursaAgent(false)
       } else {
         setStatus('error')
       }
@@ -112,6 +180,11 @@ export default function FormularRapid({ ansambluNume = '', broker = 'Alexandru B
           </button>
           {status === 'error' && (
             <p className="text-xs text-red-500 text-center mb-2">Eroare. Încearcă din nou sau sună direct.</p>
+          )}
+          {notaAgent && (
+            <p ref={notaRef} role="status" aria-live="polite" className="text-xs font-medium text-center mb-2 rounded-lg px-3 py-2" style={{ background: '#fff7e6', color: '#7a4f00', border: '1px solid #f0c674' }}>
+              Asistentul AI a completat formularul. Verifică datele și apasă „Trimite solicitarea”.
+            </p>
           )}
         </form>
       )}

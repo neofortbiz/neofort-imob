@@ -115,6 +115,7 @@ body{margin:0;padding:0;background:#f4f4f4;font-family:-apple-system,BlinkMacSys
   ${isCredit && data.areRate ? `<div class="row"><div class="lbl">Rate în curs</div><div class="val">${data.areRate}</div></div>` : ''}
   ${isCredit && data.varsta ? `<div class="row"><div class="lbl">Vârstă</div><div class="val">${data.varsta} ani</div></div>` : ''}
   ${mesaj ? `<div class="row"><div class="lbl">Mesaj</div><div class="val" style="font-style:italic">"${mesaj}"</div></div>` : ''}
+  ${data.sursa === 'webmcp' ? `<div class="row"><div class="lbl">Sursă</div><div class="val">Completat de asistent AI (WebMCP), trimis de vizitator</div></div>` : ''}
   <div class="btns">
     ${telefon ? `<a href="tel:${telefon.replace(/\s/g,'')}" class="btn btn-g">📞 Sună acum</a>` : ''}
     ${email ? `<a href="mailto:${email}" class="btn btn-s">✉️ Răspunde</a>` : ''}
@@ -201,6 +202,7 @@ export async function POST(request) {
         `📞 ${telefon}`,
         email ? `✉️ ${email}` : '',
         ansamblu ? `🏢 ${ansamblu}` : '',
+        data.sursa === 'webmcp' ? '🤖 Completat de asistent AI' : '',
         data.simulare ? `💰 ${data.simulare}` : '',
         data.venitLunarNet ? `💼 Venit: ${data.venitLunarNet}` : '',
       ].filter(Boolean).join('\n'))

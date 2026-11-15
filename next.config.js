@@ -63,6 +63,9 @@ const nextConfig = {
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
           { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
           { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
+          // WebMCP origin trial (v453) pentru https://www.neofort.ro — EXPIRA 30.03.2027, apoi se
+          // reinnoieste pe developer.chrome.com/origintrials. Nu e secret: e public in fiecare raspuns.
+          { key: 'Origin-Trial', value: 'AqEAf2XjtgkSE+JvoI0X/1j93kgee+V0b2d4pheRgA19L8Kd3DjPFZKbQBCBT6It8GGPx2owEqPYbOPzZ+RTKQkAAABOeyJvcmlnaW4iOiJodHRwczovL3d3dy5uZW9mb3J0LnJvOjQ0MyIsImZlYXR1cmUiOiJXZWJNQ1AiLCJleHBpcnkiOjE4MDYzNjQ4MDB9' },
         ],
       },
       {

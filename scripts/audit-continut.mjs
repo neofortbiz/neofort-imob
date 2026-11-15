@@ -1082,6 +1082,33 @@ try {
 }
 
 // ────────────────────────────────────────────────────────────
+// 22. TOKENUL WEBMCP (origin trial) din next.config.js (v453)
+// Tokenul expira (primul: 30.03.2027) si e legat de o singura origine. Expirat = uneltele WebMCP dispar
+// in tacere, fara nicio eroare pe site. Se citeste data din token (nu din comentariu) si se avertizeaza
+// cu 30 de zile inainte; se verifica si originea si functia.
+// ────────────────────────────────────────────────────────────
+{
+  const conf = fs.readFileSync(resolve(ROOT, 'next.config.js'), 'utf8')
+  const m = conf.match(/key:\s*'Origin-Trial',\s*value:\s*'([^']+)'/)
+  if (!m) P('next.config.js', 'lipsește antetul Origin-Trial (WebMCP) — uneltele din pagină nu funcționează în Chrome')
+  else {
+    try {
+      const b = Buffer.from(m[1], 'base64')
+      const n = b.readUInt32BE(65)
+      const t = JSON.parse(b.subarray(69, 69 + n).toString('utf8'))
+      const zile = Math.floor((t.expiry * 1000 - Date.now()) / 86400000)
+      const data = new Date(t.expiry * 1000).toISOString().slice(0, 10)
+      if (t.origin !== 'https://www.neofort.ro:443') P('next.config.js', `tokenul Origin-Trial e pentru „${t.origin}", nu pentru https://www.neofort.ro`)
+      if (t.feature !== 'WebMCP') P('next.config.js', `tokenul Origin-Trial e pentru „${t.feature}", nu pentru WebMCP`)
+      if (zile < 0) P('next.config.js', `tokenul WebMCP a EXPIRAT pe ${data} — reînnoiește-l pe developer.chrome.com/origintrials`)
+      else if (zile <= 30) P('next.config.js', `tokenul WebMCP expiră pe ${data} (în ${zile} zile) — reînnoiește-l pe developer.chrome.com/origintrials`)
+    } catch (err) {
+      P('next.config.js', `tokenul Origin-Trial nu poate fi citit: ${err.message}`)
+    }
+  }
+}
+
+// ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
 if (!probleme.length) {

@@ -2,6 +2,7 @@
 import WAFloat from './WAFloat'
 import MobileBar from './MobileBar'
 import CookieBanner from './CookieBanner'
+import WebMCP from './WebMCP'
 
 export default function ClientProviders() {
   return (
@@ -9,6 +10,7 @@ export default function ClientProviders() {
       <WAFloat />
       <MobileBar />
       <CookieBanner />
+      <WebMCP />
     </>
   )
 }
