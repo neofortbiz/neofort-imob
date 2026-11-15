@@ -174,7 +174,7 @@ body{margin:0;padding:0;background:#f4f4f4;font-family:-apple-system,BlinkMacSys
 </div>
 <div class="ft">
   Neofort IMO — Direct de la sursă, fără comision<br>
-  Str. Theodor Aman nr. 11, Sector 1, București<br>
+  Str. Theodor Aman Pictor nr. 11, Sector 1, București<br>
   <a href="${BASE}">www.neofort.ro</a> · <a href="mailto:info@neofort-biz.ro">info@neofort-biz.ro</a><br><br>
   <span style="color:#ddd">Dacă nu ai trimis această solicitare, te rugăm să ignori acest email.</span>
 </div>

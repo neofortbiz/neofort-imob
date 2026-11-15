@@ -1319,7 +1319,7 @@ Un avocat specializat în drept imobiliar costă 200–500 EUR pentru revizuirea
 • Condițiile de reziliere și mecanismul de restituire a sumelor plătite
 
 Neofort IMO și transparența față de clienți:
-Cu ${ani(INFIINTARE)} ani de activitate și 85+ proiecte livrate în București, Neofort IMO a traversat multiple cicluri legislative și de piață. Toate contractele noastre sunt revizuibile de avocați independenți înainte de semnare, toate documentele de proiect sunt disponibile pentru verificare, iar consultanța juridică și bancară este gratuită pentru clienții noștri. Dacă ai întrebări despre situația legislativă actuală și cum ne afectează proiectele active, echipa noastră este disponibilă la 0758 090 904.`,
+Cu ${ani(INFIINTARE)} ani de activitate și 75+ ansambluri livrate în București, Neofort IMO a traversat multiple cicluri legislative și de piață. Toate contractele noastre sunt revizuibile de avocați independenți înainte de semnare, toate documentele de proiect sunt disponibile pentru verificare, iar consultanța juridică și bancară este gratuită pentru clienții noștri. Dacă ai întrebări despre situația legislativă actuală și cum ne afectează proiectele active, echipa noastră este disponibilă la 0758 090 904.`,
       },
       {
         id: 'faq',
@@ -1361,7 +1361,7 @@ Industria, prin FIDES și alte organizații, a oferit soluții concrete și rapi
 
 Până atunci, piața imobiliară din România navighează prin ce Constantin Sebeșanu a numit corect „furtuna perfectă". Și, din nefericire, cei mai expuși la furtună rămân exact cei mai vulnerabili: familiile care caută un apartament în care să trăiască.
 
-Neofort IMO continuă să construiască și să livreze în acest context dificil — pentru că ${ani(INFIINTARE)} ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o [discuție gratuită despre achiziția ta](/contact), fără obligații.`,
+Neofort IMO continuă să aducă pe piață proiecte noi în acest context dificil — pentru că ${ani(INFIINTARE)} ani de activitate înseamnă exact capacitatea de a traversa ciclurile adverse fără a abandona angajamentele față de clienți. Dacă ai întrebări despre cum legislația actuală îți afectează concret planurile de achiziție, consultanții noștri sunt disponibili pentru o [discuție gratuită despre achiziția ta](/contact), fără obligații.`,
       },
     ],
   },
@@ -1472,7 +1472,7 @@ Formula exactă, ce venituri se acceptă și în ce proporție, ce datorii se po
 
 **2. ANALIZA CREDITULUI:**
 - LTV maxim: 85% (avans minim 15%)
-- Excepție Noua Casă: LTV 95% (avans 5%)
+- Excepție Noua Casă: LTV 95% (avans 5%) pentru locuințe de până la 70.000 EUR; 85% (avans 15%) pentru locuințe noi între 70.001 și 140.000 EUR
 - Vârsta la final de credit: maximum 65-70 ani (depinde de bancă)
 - Stabilitate profesională: minimum 2 ani în același domeniu
 
@@ -2004,7 +2004,7 @@ Ansamblu finalizat în zona Titan-Pallady, cu una dintre cele mai îndelungate p
 [Neofort 28 Titan Pallady Teclu](/ansamblu-rezidential/neofort-28-titan-pallady-teclu) — predare în curând
 Proiect cu numărul de ansamblu 28, localizare distinctă față de Neofort 82. Contactați-ne pentru detalii despre configurații și disponibilitate.
 
-Avantajul comun al tuturor celor 6 proiecte: vânzare directă de la Neofort IMO, fără comision de agenție. Prețul publicat este prețul final. Consultanță juridică și bancară gratuită pentru toți cumpărătorii.`,
+Avantajul comun al tuturor celor 6 proiecte: vânzare directă prin Neofort IMO, fără comision de agenție. Prețul publicat este prețul dezvoltatorului, fără comision; la el se adaugă TVA 21%. Consultanță juridică și bancară gratuită pentru toți cumpărătorii.`,
       },
       {
         id: 'comparatie-localizare',
@@ -2059,7 +2059,7 @@ Exemplu calcul randament brut — garsonieră Neofort 44 (38,61 mp, 61.775 EUR):
 Chirie medie: 385 EUR/lună → 4.620 EUR/an → randament brut: 7,5%
 Randament net (după impozit PF, fond reparații, perioade goale ~5%): 5,5–6,1%
 
-Exemplu calcul randament brut — 2 camere Neofort 84 (61,50 mp, 86.254 EUR la avans 20%):
+Exemplu calcul randament brut — 2 camere Neofort 84 (61,52 mp, 86.254 EUR la avans 20%):
 Chirie medie: 480 EUR/lună → 5.760 EUR/an → randament brut: 6,7%
 Randament net: 4,9–5,5%
 
@@ -2123,7 +2123,7 @@ Recenzii independente:
 • Forumuri specializate (imobiliare.ro, OLX, grupuri Facebook de proprietari)
 • Discuții directe cu proprietari din proiectele anterioare ale aceluiași developer
 
-Neofort IMO funcționează din 2009 în București. 85+ proiecte livrate, 4.000+ familii. Documentele sunt disponibile pentru verificare, referințele sunt publice, iar proprietarii din proiectele anterioare pot fi contactați direct. Transparența este singurul standard pe care îl acceptăm.`,
+Neofort IMO funcționează din 2009 în București. 75+ ansambluri livrate, 4.000+ familii. Documentele sunt disponibile pentru verificare, referințele sunt publice, iar proprietarii din proiectele anterioare pot fi contactați direct. Transparența este singurul standard pe care îl acceptăm.`,
       },
       {
         id: 'intrebari-frecvente',
@@ -2416,9 +2416,9 @@ Rata dobânzii de referință (ROBOR 3M) se află la 5,8-6,2% în Q1 2026. Adău
 *Este creditare mai scumpă decât în 2020-2021?* Absolut. *Este prohibitivă?* Nu, dacă rata este sub 35% din venitul net.
 
 **Prima Casă / Noua Casă — avantaje concrete:**
-• Avans minim 5% (față de 15-20% la credit standard)
-• Garanție de stat pentru 50% din valoarea creditului
-• Plafonul maxim: 66.500€ (locuință nouă), 57.000€ (locuință veche)
+• Avans minim 5% pentru locuințe de până la 70.000 EUR (15% pentru locuințe noi între 70.001 și 140.000 EUR), față de 15-20% la credit standard
+• Garanție de stat de până la 50% din credit (60% în treapta 70.001–140.000 EUR)
+• Valoarea maximă a locuinței: 70.000 EUR (orice locuință) sau 140.000 EUR (locuință nouă)
 • Dezavantaj: nu poți deține o altă proprietate, comisioane mai mari
 
 **Credit ipotecar standard:**
@@ -2521,7 +2521,7 @@ Care este diferența dintre antecontract și contractul final de vânzare?
 Antecontractul este acordul prin care te angajezi să cumperi apartamentul la prețul stabilit și plătești avansul (20-45%). Contractul final se semnează la notar la predarea apartamentului și transferă proprietatea legal. Între cele două pot trece 6-18 luni pentru proiecte în construcție.
 
 Ce înseamnă vânzare directă fără comision de agenție?
-Înseamnă că cumperi direct de la developer (Neofort IMO), fără intermediar imobiliar. Nu plătești comision de agenție (de regulă 2-3% din prețul tranzacției). Prețul publicat este prețul final. Consultanța juridică și bancară este gratuită. Citește și [ghidul complet despre costul total real](/blog/apartamente-de-vanzare-titan-pallady-teclu).
+Înseamnă că, prin Neofort IMO, cumperi la prețul dezvoltatorului, fără intermediar imobiliar. Nu plătești comision de agenție (de regulă 2-3% din prețul tranzacției). Prețul publicat este prețul dezvoltatorului, fără TVA: la el se adaugă TVA 21%. Consultanța juridică și bancară este gratuită. Citește și [ghidul complet despre costul total real](/blog/apartamente-de-vanzare-titan-pallady-teclu).
 
 Ce capcane trebuie să evit la cumpărarea unui apartament nou?
 Cele mai frecvente: a nu verifica dacă preapartamentarea este finalizată, a nu solicita specificații tehnice detaliate în scris, a nu verifica istoricul developerului (proiecte finalizate, litigii la ONRC) și a nu consulta un avocat înainte de semnarea antecontractului.
@@ -2540,7 +2540,7 @@ Da, în special în faza de pre-lansare sau cu avans mare (45%). Discounturile o
 
 **Taxa de intabulare (OCPI):** 1.500-2.500 lei (depinde de valoare)
 
-**Impozit la achiziție:** 0 lei (TVA 5% sau 9% este deja inclus în prețul apartamentelor noi, nu se plătește separat de cumpărător)
+**Impozit la achiziție:** 0 lei. TVA-ul de 21% nu este un impozit separat: se plătește împreună cu prețul (la Neofort IMO, prețurile sunt afișate fără TVA, deci TVA-ul se adaugă)
 
 **Asigurare obligatorie PAD:** ~200 lei/an (obligatorie prin lege)
 
@@ -3563,7 +3563,7 @@ Criteriul 2 — Developer-ul, nu proiectul. Poți vedea randarea unui proiect; n
 
 Criteriul 3 — Specificațiile tehnice verificabile. Tâmplăria, structura, centrala termică, clasa energetică — sunt detalii tehnice care determină confortul și costul de întreținere pe 20–30 de ani. Nu accepta descrieri vagi precum „finisaje premium" fără specificații de marcă și model.
 
-Criteriul 4 — Prețul total, nu prețul de ofertă. Prețul afișat nu include obligatoriu: TVA (9% sau 21% în funcție de situație), parcarea (5.000–25.000 EUR separat), boxa, taxa de rezervare, costurile notariale. Un preț de ofertă atractiv poate deveni 15–25% mai mare la costul total real.
+Criteriul 4 — Prețul total, nu prețul de ofertă. Prețul afișat nu include obligatoriu: TVA (21% pentru orice achiziție nouă), parcarea (5.000–25.000 EUR separat), boxa, taxa de rezervare, costurile notariale. Un preț de ofertă atractiv poate deveni 15–25% mai mare la costul total real.
 
 Criteriul 5 — Comunitatea deja constituită. Un bloc la jumătate din capacitate sau cu proprietari care au plecat în chirie spune ceva despre satisfacția cumpărătorilor inițiali. Vizitează proiectele finalizate ale developerului și discută cu locuitorii.`,
       },
@@ -3651,7 +3651,7 @@ Specificații tehnice verificabile
 • Lifturi: marca, capacitate, viteză? Câte lifturi la câte apartamente?
 
 Costul total real de achiziție
-• Prețul apartamentului + TVA (9% sau 21%)
+• Prețul apartamentului + TVA 21%
 • Parcarea (de regulă 6.000–20.000 EUR — separat, nu inclus)
 • Boxa de depozitare (1.000–3.000 EUR)
 • Taxa de rezervare
@@ -3739,7 +3739,7 @@ Un developer verificat cu proiecte livrate și locuite este mai important decât
 Pasul 5 — Calculează costul total și asigură finanțarea înainte de antecontract
 Pre-aprobarea bancară sau dovada fondurilor proprii trebuie să existe înainte de semnare, nu după.
 
-Neofort IMO a asistat peste 76 de proiecte rezidențiale livrate în București din 2009 încoace. Echipa noastră este disponibilă pentru consultanță fără obligații — fie că ești în faza de informare, fie că ești gata să semnezi. Fără comision de agenție pentru cumpărători.`,
+Neofort IMO a comercializat apartamente în peste 75 de ansambluri rezidențiale livrate în București din 2009 încoace. Echipa noastră este disponibilă pentru consultanță fără obligații — fie că ești în faza de informare, fie că ești gata să semnezi. Fără comision de agenție pentru cumpărători.`,
       },
     ],
   },
@@ -4350,16 +4350,16 @@ Apartament de 150.000 EUR net (3 camere sau 2 camere premium):
 • TVA 21%: 31.500 EUR → preț total 181.500 EUR
 • Față de TVA 5% din 2023 pe același apartament: 24.000 EUR în plus
 
-Important: toate prețurile afișate de Neofort IMO includ TVA. Nu există costuri fiscale ascunse pentru cumpărători. Prețul pe care îl vezi este prețul pe care îl plătești.`,
+Important: toate prețurile afișate de Neofort IMO sunt fără TVA. La prețul afișat se adaugă TVA 21%; nu există alte costuri fiscale ascunse pentru cumpărători.`,
       },
       {
         id: 'noua-casa',
         h2: `Interacțiunea TVA 21% cu programul Noua Casă — ce trebuie să știi`,
         continut: `[Programul Noua Casă](/blog/noua-casa-2026-ghid-complet) continuă în 2026 cu un plafon de garantare de 500 milioane lei, aprobat prin Hotărâre de Guvern în mai 2026. Programul acoperă atât locuințe noi, cât și locuințe vechi, dar TVA 21% afectează direct atractivitatea pentru locuințele noi.
 
-Plafonul de finanțare Noua Casă: pentru locuințe noi, creditul garantat acoperă maximum 66.500 EUR din prețul total (TVA inclus). La TVA 21%, un apartament cu prețul net de 55.000 EUR costă total 66.550 EUR — abia se încadrează în plafon. Practic, Noua Casă acoperă acum apartamente semnificativ mai mici sau mai periferice decât înainte de majorarea TVA.
+Pragurile Noua Casă: locuințe de până la 70.000 EUR, cu avans minim 5% (credit maxim 66.500 EUR), și locuințe noi sau consolidate între 70.001 și 140.000 EUR, cu avans minim 15% (credit maxim 119.000 EUR). Dacă pragul se raportează la prețul cu TVA — verificați cu banca —, TVA-ul de 21% împinge multe apartamente noi în treapta cu avans 15%.
 
-Avansul: prin Noua Casă, avansul minim pentru locuințe noi sub 66.500 EUR total este de 5%. Pare avantajos, dar la TVA 21%, puțini apartamente noi din București se mai încadrează în acest plafon. Cele cu preț total sub 66.500 EUR există în zone periferice sau sunt garsoniere/studiouri.
+Avansul: 5% doar pentru locuințele de până la 70.000 EUR; la TVA 21%, puține apartamente noi din București se mai încadrează aici — de regulă garsoniere și studiouri din zone periferice. Pentru celelalte locuințe noi, până la 140.000 EUR, avansul minim este 15%.
 
 Sfatul meu practic: dacă bugetul tău se situează sub 80.000–90.000 EUR total, Noua Casă rămâne o opțiune relevantă și merită analizată cu un consultant bancar. Dacă bugetul e peste acest prag, un credit ipotecar standard poate oferi condiții mai flexibile — mai ales dacă ai avans de 20%+.`,
       },
@@ -4409,10 +4409,10 @@ Cum calculez TVA-ul pentru un apartament de 100.000 EUR?
 La cota de 21%, aplicabilă oricărei achiziții noi: 100.000 EUR × 1,21 = 121.000 EUR total. Cu vechea cotă de 9%, totalul ar fi fost 109.000 EUR. Diferența de 12.000 EUR reprezintă costul suplimentar al regimului actual față de cel tranzitoriu.
 
 Prețurile afișate de Neofort IMO includ sau exclud TVA?
-Prețurile afișate de Neofort IMO sunt TVA exclus. La prețul afișat se adaugă TVA 21% (sau 9% dacă ești eligibil tranzitoriu), rezultând prețul total de plată. La vizita de informare, consultantul calculează costul total exact pentru situația ta.
+Prețurile afișate de Neofort IMO sunt TVA exclus. La prețul afișat se adaugă TVA 21%, rezultând prețul total de plată (cota tranzitorie de 9% s-a încheiat la 30 septembrie 2026). La vizita de informare, consultantul calculează costul total exact pentru situația ta.
 
 Programul Noua Casă acoperă și TVA 21%?
-Plafonul Noua Casă de 119.000 EUR include TVA. La TVA 21%, aceasta înseamnă că prețul net maxim al locuinței este ~98.347 EUR. Programul acoperă în continuare garsoniere și apartamente mici în zone mai accesibile din București.`,
+Programul nu finanțează TVA-ul separat: TVA face parte din prețul locuinței, care trebuie să se încadreze în pragul programului — 140.000 EUR pentru locuințe noi (verificați cu banca dacă pragul se aplică prețului cu TVA). Creditul maxim în această treaptă este 119.000 EUR, cu avans minim 15%.`,
       },
       {
         id: 'sfaturi',
@@ -4429,7 +4429,7 @@ Dacă ești la început și cauți apartament acum:
 • TVA 21% este inevitabil pentru orice achiziție nouă
 • Calculează bugetul total cu TVA inclus de la bun început
 • Nu compara prețuri de azi cu prețuri din 2023–2024 fără a ajusta pentru diferența de TVA
-• Toate prețurile Neofort IMO sunt afișate cu TVA inclus — fără surprize la calcul final
+• Toate prețurile Neofort IMO sunt afișate fără TVA — adaugă 21% când îți calculezi bugetul
 
 Dacă nu ești sigur ce cotă TVA se aplică în cazul tău:
 • Adresează-te unui notar public sau consultant fiscal — aceștia au acces la Registrul ANAF și pot da un răspuns cert
@@ -4539,13 +4539,15 @@ Cererea diasporei nu este un factor minor. În anumite perioade ale anului (în 
       {
         id: 'proiecte',
         h2: `Proiectele active Neofort IMO în Titan–Pallady`,
-        continut: `Neofort IMO are în prezent 6 proiecte active sau recent finalizate în zona Titan–Pallady, ceea ce ne poziționează ca cel mai activ dezvoltator din zonă:
+        continut: `Neofort IMO are în prezent 8 proiecte active în zona Titan–Pallady: 6 în Titan–Pallady–Teclu, prezentate mai jos, și cele două faze Neofort 50 din Titan–IOR. Asta face din Neofort IMO cel mai activ vânzător de apartamente noi din zonă.
 
 Neofort 84 Titan–Pallady — în construcție, livrare estimată T1 2027. Apartamente de 2, 3 și 4 camere, prețuri de la 57.336 EUR + TVA la avans 90%. Rezervare cu 1.000 EUR. Metrou Nicolae Teclu la 16 minute pe jos.
 
 Neofort 83 Titan–Pallady — în construcție, predare în curând, garsoniere și apartamente de 2, 3 și 4 camere, la 250 de metri de Metrou Anghel Saligny.
 
 Neofort 56 Titan–Pallady Faza 3 — în construcție, predare T1 2028. Garsoniere, 2, 3 și 4 camere de la 70.802 EUR + TVA. Fazele 1 și 2, livrate și locuite, pot fi vizitate.
+
+Neofort 82 Titan–Pallady — finalizat, disponibil imediat; a mai rămas un tip de apartament de 2 camere, de la 92.900 EUR + TVA.
 
 Neofort 44 Titan–Pallady — în construcție, predare în curând, garsoniere și apartamente de 2 și 3 camere.
 
@@ -4656,9 +4658,9 @@ Mecanismul este simplu: statul garantează 50% din creditul ipotecar acordat de 
       {
         id: 'plafon',
         h2: `Plafonul de 500 milioane lei — ce înseamnă practic pentru cumpărători`,
-        continut: `Plafonul de 500 milioane lei reprezintă valoarea totală a garanțiilor de stat care pot fi acordate în 2026. Nu înseamnă că programul are disponibil 500 milioane pentru credite — garanțiile acoperă 50% din fiecare credit, deci plafonul permite credite totale de aproximativ 1 miliard de lei.
+        continut: `Plafonul de 500 milioane lei reprezintă valoarea totală a garanțiilor de stat care pot fi acordate în 2026. Nu înseamnă că programul are disponibil 500 milioane pentru credite — garanțiile acoperă până la 50% din fiecare credit (60% în treapta 70.001–140.000 EUR), deci plafonul permite credite totale de aproximativ 0,8–1 miliard de lei.
 
-Un credit Noua Casă tipic pentru o locuință nouă de 66.500 EUR (plafonul maxim) beneficiază de o garanție de stat de aproximativ 33.250 EUR. Aceasta permite băncii să aprobe creditul cu avans de 5% în loc de 15–20% necesar la credit standard.
+La o locuință de 70.000 EUR cumpărată cu avans de 5%, creditul este de 66.500 EUR, iar garanția de stat (până la 50%) ajunge la aproximativ 33.250 EUR. Aceasta permite băncii să aprobe creditul cu avans de 5% în loc de 15–20% necesar la credit standard.
 
 Plafonul se epuizează în ordinea solicitărilor aprobate. Din 2025, cererea a fost semnificativ mai mică față de 2021–2022 (când plafonul se epuiza în câteva luni), parțial din cauza TVA 21% care a redus numărul locuințelor noi eligibile. Aceasta înseamnă că în 2026, accesul la program este mai ușor — nu există riscul imediat de epuizare a plafonului.`,
       },
@@ -4674,7 +4676,7 @@ Condiții privind cumpărătorul:
 • Ai capacitate de rambursare demonstrabilă — rata lunară totală trebuie să fie sub 40% din venitul net al familiei
 
 Condiții privind locuința achiziționate:
-• Valoarea totală (inclusiv TVA) nu depășește 119.000 EUR pentru locuințe noi sau 93.500 EUR pentru locuințe vechi
+• Valoarea locuinței nu depășește 70.000 EUR (orice locuință) sau 140.000 EUR (locuință nouă sau consolidată, cu recepția semnată cu cel mult 5 ani înainte de cererea de credit)
 • Suprafața utilă este de maximum 120 mp
 • Locuința este situată în România
 • Trebuie să devină locuința principală a cumpărătorului (nu proprietate de investiție)
@@ -4691,14 +4693,14 @@ Un aspect important: băncile pot avea condiții suplimentare față de minimul 
         h2: `Avansul la Noua Casă — reguli și calcule concrete`,
         continut: `Unul dintre principalele avantaje ale programului este avansul mai mic față de creditele standard:
 
-• Locuință nouă cu valoare totală sub 66.500 EUR: avans minim 5%
-• Locuință nouă cu valoare totală între 66.500 EUR și 119.000 EUR: avans minim 15%
-• Locuință veche: avans minim 5% până la 52.500 EUR, 15% până la 93.500 EUR
+• Locuință nouă sau veche cu valoare de până la 70.000 EUR: avans minim 5% (credit maxim 66.500 EUR)
+• Locuință nouă sau consolidată cu valoare între 70.001 și 140.000 EUR: avans minim 15% (credit maxim 119.000 EUR)
+• Locuință veche peste 70.000 EUR sau orice locuință peste 140.000 EUR: nu intră în program
 
 Exemple concrete:
-Apartament nou, preț total cu TVA 66.000 EUR → avans minim 5%: 3.300 EUR
-Apartament nou, preț total cu TVA 100.000 EUR → avans minim 15%: 15.000 EUR
-Apartament nou, preț total cu TVA 119.000 EUR → avans minim 15%: 17.850 EUR
+Apartament nou de 66.000 EUR → avans minim 5%: 3.300 EUR
+Apartament nou de 100.000 EUR → avans minim 15%: 15.000 EUR
+Apartament nou de 140.000 EUR → avans minim 15%: 21.000 EUR
 
 La aceste sume se adaugă întotdeauna costurile tranzacției: taxă notarială (aproximativ 3.000–5.000 lei), taxă intabulare (1.500–2.500 lei), asigurare PAD obligatorie (~200 lei/an). Calculează și aceste costuri în bugetul de avans.
 
@@ -4723,13 +4725,13 @@ Recomandarea noastră: mergeți la bancă cu un preapproval înainte de a vizita
         h2: `Noua Casă și TVA 21% — cum interacționează în 2026`,
         continut: `Aceasta este cea mai importantă problemă practică a programului Noua Casă în 2026: TVA 21% a redus semnificativ numărul apartamentelor noi eligibile.
 
-Plafonul Noua Casă pentru locuințe noi este 119.000 EUR total (cu TVA inclus). La TVA 21%, aceasta înseamnă că locuința trebuie să aibă prețul net sub 98.347 EUR. Cu un preț mediu al apartamentelor noi în București de 2.050 EUR/mp, aceasta permite maximum ~48 mp suprafață utilă.
+Pentru locuințele noi, valoarea maximă acceptată de program este 140.000 EUR, cu avans minim 15%. Dacă pragul se raportează la prețul cu TVA — verificați cu banca —, un apartament nou trebuie să aibă prețul fără TVA sub aproximativ 115.700 EUR. La un preț mediu al apartamentelor noi în București de 2.050 EUR/mp, asta înseamnă în jur de 56 mp utili.
 
-Practic: Noua Casă acoperă confortabil garsoniere și studiouri în zone centrale și apartamente mici de 2 camere în zone mai periferice. Apartamentele de 2 camere de 55–60 mp în Titan–Pallady, Militari sau Moșilor depășesc de regulă plafonul.
+Practic: Noua Casă acoperă garsoniere, studiouri și multe apartamente de 2 camere; apartamentele de 2 camere mari și cele de 3 camere depășesc de regulă pragul.
 
-A existat o excepție care a contat până la 30 septembrie 2026: pentru cumpărătorii care se calificau la cota tranzitorie de 9% (antecontract cu 20% avans încheiat până la 31 iulie 2025 și livrare până la 30 septembrie 2026), plafonul acoperea locuințe mai scumpe în valoare netă. Fereastra s-a închis, deci plafonul se calculează acum întotdeauna cu TVA 21%.
+A existat o excepție care a contat până la 30 septembrie 2026: pentru cumpărătorii care se calificau la cota tranzitorie de 9% (antecontract cu 20% avans încheiat până la 31 iulie 2025 și livrare până la 30 septembrie 2026), aceeași locuință costa mai puțin cu TVA inclus. Fereastra s-a închis, iar orice achiziție nouă se face acum cu TVA 21%.
 
-Sfatul meu: dacă bugetul total este sub 100.000 EUR, analizați serios Noua Casă. Dacă bugetul e între 100.000 și 150.000 EUR, comparați Noua Casă cu un credit standard de la bancă — uneori creditul standard cu avans de 20% oferă condiții mai bune și flexibilitate mai mare. Deasupra de 150.000 EUR, Noua Casă nu mai este relevantă.`,
+Sfatul meu: dacă locuința costă până la 70.000 EUR, Noua Casă este foarte avantajoasă (avans 5%). Între 70.001 și 140.000 EUR (doar locuințe noi), avansul minim este 15% — comparați cu un credit standard, care cu avans de 20% poate oferi condiții mai bune și flexibilitate mai mare. Peste 140.000 EUR, locuința nu mai intră în program.`,
       },
       {
         id: 'pasi-aplicatie',
@@ -4746,7 +4748,7 @@ Pasul 3 — Evaluarea capacității de rambursare la bancă (1 zi)
 Mergeți la 2–3 bănci partenere Noua Casă cu documentele de venituri și cereți un calcul de eligibilitate. Vă vor spune exact suma maximă pentru care vă califică veniturile. Alegeți banca cu cel mai bun DAE și cele mai bune condiții de flexibilitate.
 
 Pasul 4 — Identificarea proprietății și negocierea (1–4 săptămâni)
-Cu suma aprobată în minte, identificați apartamentul. Verificați că se încadrează în plafonul Noua Casă: preț total (TVA inclus) sub 119.000 EUR pentru locuință nouă.
+Cu suma aprobată în minte, identificați apartamentul. Verificați că se încadrează în pragul Noua Casă: valoare de până la 140.000 EUR pentru o locuință nouă (70.000 EUR pentru una veche).
 
 Pasul 5 — Semnarea antecontractului și depunerea dosarului la bancă (2–3 zile)
 Semnați antecontractul cu dezvoltatorul. Depuneți dosarul complet la bancă: antecontract, documente identitate, documente venituri, extras CF al proprietății.
@@ -4769,13 +4771,13 @@ Durata totală realistă: 6–10 săptămâni de la primul contact cu banca pân
 Noua Casă este un program guvernamental prin care statul garantează 50% din creditul ipotecar acordat de bancă, permițând cumpărătorilor să acceseze un credit cu avans mai mic (5-15%) față de 15-20% la creditele standard. Pot aplica persoanele fizice care nu dețin altă locuință și cumpără prima lor proprietate rezidențială.
 
 Care este plafonul programului Noua Casă în 2026?
-Guvernul a aprobat un plafon de garantare de 500 milioane lei pentru 2026 prin Hotărâre de Guvern. Valoarea maximă a locuinței finanțate prin program este 119.000 EUR (total cu TVA) pentru locuințe noi și 93.500 EUR pentru locuințe vechi.
+Guvernul a aprobat un plafon de garantare de 500 milioane lei pentru 2026 prin Hotărâre de Guvern. Valoarea maximă a locuinței este 140.000 EUR pentru locuințe noi sau consolidate (recepție semnată cu cel mult 5 ani înainte de cererea de credit) și 70.000 EUR pentru orice altă locuință.
 
 Care este avansul minim la Noua Casă în 2026?
-5% pentru locuințe cu valoare totală sub 66.500 EUR și 15% pentru locuințe între 66.500 EUR și 119.000 EUR. La TVA 21%, puține apartamente noi din București se mai încadrează sub pragul de 66.500 EUR — programul acoperă în principal garsoniere și apartamente mici în zone mai accesibile.
+5% pentru locuințe de până la 70.000 EUR și 15% pentru locuințe noi între 70.001 și 140.000 EUR. La TVA 21%, puține apartamente noi din București se mai încadrează sub 70.000 EUR, așa că pentru cele mai multe locuințe noi avansul minim este 15%.
 
 Noua Casă sau credit ipotecar standard — ce e mai avantajos în 2026?
-Dacă bugetul total este sub 100.000 EUR, Noua Casă rămâne avantajos prin avansul mai mic. Dacă bugetul este 100.000-150.000 EUR, un credit standard cu avans 20% poate oferi dobândă mai mică și flexibilitate mai mare. Peste 150.000 EUR, Noua Casă nu mai este relevantă — depășește plafonul programului.
+Până la 70.000 EUR, Noua Casă este avantajoasă prin avansul de 5%. Între 70.001 și 140.000 EUR (doar locuințe noi), avansul minim este 15%, iar un credit standard cu avans 20% poate oferi dobândă mai mică și flexibilitate mai mare. Peste 140.000 EUR, locuința depășește pragul programului.
 
 Cât durează aprobarea unui credit Noua Casă față de un credit standard?
 Procesul Noua Casă durează 6-10 săptămâni de la primul contact cu banca, față de 3-5 săptămâni pentru un credit standard. Diferența vine din pasul suplimentar de confirmare a garanției de stat de către FNGCIMM, care adaugă 3-5 zile la procesul standard de aprobare bancară.`,
@@ -4950,7 +4952,7 @@ Anunțuri cu prețuri prea mici față de piață, cereri de transferuri urgente
 Neofort IMO are birou fizic la Str. Theodor Aman Pictor nr. 11, Sector 1 București, o platformă de review-uri Google cu peste 100 de recenzii și ${ani(INFIINTARE)} ani de activitate verificabilă. Puteți verifica oricând.
 
 Riscul 4: Pierderea facilităților fiscale din lipsă de informare
-[TVA 21% versus 9%](/blog/tva-apartamente-noi-2026) poate face o diferență de 10.000–15.000 EUR. Asigurați-vă că știți ce cotă se aplică tranzacției voastre înainte de semnare.`,
+[TVA-ul de 21%](/blog/tva-apartamente-noi-2026) se aplică oricărei achiziții noi (cota tranzitorie de 9% s-a încheiat la 30 septembrie 2026) și poate însemna 15.000–30.000 EUR în plus. Includeți-l în buget de la început.`,
       },
       {
         id: 'fiscalitate-diaspora',
@@ -7671,7 +7673,7 @@ Locuință la plafonul maxim, 600.000 lei fără TVA: TVA la 9% înseamnă 54.00
 
 Pentru majoritatea cumpărătorilor, suma recuperabilă depășește costul total al mobilării unui apartament de două camere. Merită efortul de a verifica eligibilitatea și de a depune dosarul.
 
-Atenție la un detaliu care generează erori de calcul: plafonul de 600.000 lei se raportează la valoarea fără TVA, incluzând terenul aferent. Nu la prețul final afișat cu TVA inclus.`,
+Atenție la un detaliu care generează erori de calcul: plafonul de 600.000 lei se raportează la valoarea fără TVA, incluzând terenul aferent. Nu la prețul final, cu TVA inclus (la Neofort IMO, prețurile sunt afișate fără TVA).`,
       },
       {
         id: 'ce-faci-acum',
@@ -7682,7 +7684,7 @@ Atenție la un detaliu care generează erori de calcul: plafonul de 600.000 lei 
 
 **Pasul 2 — verifică antecontractul.** Condiția care elimină cei mai mulți solicitanți este actul juridic cu plata în avans încheiat până la 1 august 2025 inclusiv. Fără dată certă anterioară acestei zile, dosarul nu trece, indiferent de preț sau suprafață.
 
-**Pasul 3 — confirmă plafoanele.** Maximum 120 mp suprafață utilă, exclusiv anexele, și maximum 600.000 lei valoarea locuinței cu tot cu teren, **fără TVA**. Aici se fac cele mai multe erori de calcul, pentru că prețul afișat în ofertă este de regulă cu TVA inclus.
+**Pasul 3 — confirmă plafoanele.** Maximum 120 mp suprafață utilă, exclusiv anexele, și maximum 600.000 lei valoarea locuinței cu tot cu teren, **fără TVA**. Aici se fac cele mai multe erori de calcul, pentru că prețul afișat în ofertă este de regulă cu TVA inclus (la Neofort IMO, prețurile sunt afișate fără TVA).
 
 **Pasul 4 — cere dezvoltatorului o adresă scrisă.** Să confirme data livrării juridice și cota de TVA aplicată. Simplifică mult dosarul și scurtează clarificările ulterioare cu ANAF.
 
@@ -7727,7 +7729,7 @@ Pot cumpăra acum un apartament cu TVA 9%?
 Nu. Fereastra de livrare cu cota redusă s-a închis pe 30 septembrie 2026, iar condiția de antecontract cu plata în avans până la 1 august 2025 excludea deja achizițiile începute după acea dată. Orice achiziție nouă se face cu TVA 21%.
 
 Plafonul de 600.000 lei este cu sau fără TVA?
-Fără TVA. Se raportează la valoarea locuinței inclusiv terenul aferent, exclusiv taxa. Prețul afișat în ofertele dezvoltatorilor este de regulă cu TVA inclus, de unde și cele mai frecvente erori de încadrare.
+Fără TVA. Se raportează la valoarea locuinței inclusiv terenul aferent, exclusiv taxa. Prețul afișat în ofertele dezvoltatorilor este de regulă cu TVA inclus (la Neofort IMO, prețurile sunt afișate fără TVA), de unde și cele mai frecvente erori de încadrare.
 
 Restituirea se face automat?
 Nu. Trebuie depusă o cerere la administrația financiară, însoțită de documentele care dovedesc îndeplinirea tuturor condițiilor. Fără cerere, diferența nu se returnează.`,

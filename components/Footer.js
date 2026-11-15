@@ -110,7 +110,7 @@ export default function Footer() {
             <h3 className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#e0e0e0' }}>Neofort IMO SRL</h3>
             {[
               'CUI: RO53874087',
-              'J40/8972/2026',
+              'J2026008972000',
               'Str. Aman Pictor nr. 11',
               'Sector 1, Buc. 010776',
               'L–V 10:00–18:00',

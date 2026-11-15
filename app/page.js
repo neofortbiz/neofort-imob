@@ -51,7 +51,7 @@ const faqSchema = {
       name: 'Neofort IMO percepe comision de agenție?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Nu. Neofort IMO comercializează apartamente direct de la sursă, fără comision de agenție pentru cumpărător. Prețul plătit este prețul afișat, fără costuri ascunse.',
+        text: 'Nu. Neofort IMO comercializează apartamente direct de la sursă, fără comision de agenție pentru cumpărător. Prețurile afișate sunt fără TVA: la ele se adaugă TVA 21%. Nu există comision de agenție sau alte costuri ascunse.',
       },
     },
     {

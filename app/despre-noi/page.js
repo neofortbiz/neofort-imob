@@ -109,7 +109,7 @@ export default function DespreNoiPage() {
                 De-a lungul celor {ANI_EXPERIENTA} ani de activitate, Neofort IMO a comercializat apartamente în peste {NR_LIVRATE} de ansambluri rezidențiale livrate, în toate sectoarele Capitalei. Am asistat mii de familii să își găsească locuința potrivită — de la prima garsonieră până la penthouse-ul cu vedere panoramică.
               </p>
               <p>
-                În 2026 am trecut printr-un proces de rebranding complet — identitate vizuală nouă, prezență digitală modernă, o structură juridică nouă (Neofort IMO SRL, înregistrată la Registrul Comerțului sub J40/8972/2026) și o echipă consolidată de {NR_REPREZENTANTI} reprezentanți specializați pe zone geografice specifice din București. Activitatea imobiliară continuă neîntrerupt din 2009, sub aceeași conducere. Rămânem fideli principiului fondator: transparență totală, prețuri directe de la dezvoltator și consultanță personalizată.
+                În 2026 am trecut printr-un proces de rebranding complet — identitate vizuală nouă, prezență digitală modernă, o structură juridică nouă (Neofort IMO SRL, înregistrată la Registrul Comerțului sub nr. J2026008972000, J40/8972/2026 în formatul vechi) și o echipă consolidată de {NR_REPREZENTANTI} reprezentanți specializați pe zone geografice specifice din București. Activitatea imobiliară continuă neîntrerupt din 2009, sub aceeași conducere. Rămânem fideli principiului fondator: transparență totală, prețuri directe de la dezvoltator și consultanță personalizată.
               </p>
               <p>
                 Astăzi, cu {NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6, Neofort IMO continuă să fie una dintre companiile de referință în domeniul comercializării locuințelor noi din București.
@@ -189,7 +189,7 @@ export default function DespreNoiPage() {
               {[
                 { lbl: 'Denumire', val: 'Neofort IMO SRL' },
                 { lbl: 'CUI', val: 'RO 53874087' },
-                { lbl: 'Nr. Registru Comerțului', val: 'J2026008972000' },
+                { lbl: 'Nr. Registru Comerțului', val: 'J2026008972000 (J40/8972/2026)' },
                 { lbl: 'Fondată', val: '2009 (rebranding 2026)' },
                 { lbl: 'Grup', val: 'Grupul de firme Neofort' },
                 { lbl: 'Adresă', val: 'Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776' },

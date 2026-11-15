@@ -93,7 +93,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `Email: info@neofort-biz.ro (${GRUP_NEOFORT})\n`
   out += `Program: Luni-Vineri 10:00-18:00\n`
   out += `CUI: RO53874087\n`
-  out += `Nr. Registrul Comerțului: J40/8972/2026\n`
+  out += `Nr. Registrul Comerțului: J2026008972000 (J40/8972/2026)\n`
   out += `Denumire legală: Neofort IMO SRL\n`
   out += `Google Maps: https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7\n`
   out += `Google Place ID: ChIJRfDdJdX_sUARTlBqmy1tpXw\n`
@@ -147,7 +147,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `\n`
 
   out += `## FAQ — Întrebări frecvente despre Neofort IMO\n\n`
-  out += `### Neofort IMO percepe comision de agenție?\nNu. Neofort IMO comercializează apartamente direct de la sursă, fără comision. Prețul afișat este prețul final.\n\n`
+  out += `### Neofort IMO percepe comision de agenție?\nNu. Neofort IMO comercializează apartamente direct de la sursă, fără comision. Prețurile afișate sunt fără TVA: la ele se adaugă TVA 21%.\n\n`
   out += `### Cum se face rezervarea unui apartament?\nRezervare (1.000–2.000€, restituibilă) → Antecontract (30 zile) → Contract final la predare.\n\n`
   out += `### Ce TVA se aplică în 2026?\nTVA 21% pentru achiziții noi. TVA 9% exclusiv tranzacții tranzitorii: antecontract + 20% avans până la 31 iulie 2025, contract final până la 31 iulie 2026.\n\n`
   out += `### Apartamentele se predau la cheie?\nDa. Parchet, gresie, faianță, obiecte sanitare, tâmplărie, instalații, centrală termică proprie incluse în preț.\n\n`
@@ -205,7 +205,7 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   out += `Email: info@neofort-biz.ro (${GRUP_NEOFORT})\n`
   out += `Program: Luni-Vineri 10:00-18:00\n`
   out += `CUI: RO53874087\n`
-  out += `Nr. Registrul Comerțului: J40/8972/2026\n`
+  out += `Nr. Registrul Comerțului: J2026008972000 (J40/8972/2026)\n`
   out += `Denumire legală: Neofort IMO SRL\n`
   out += `Google Maps: https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7\n`
   out += `Google Place ID: ChIJRfDdJdX_sUARTlBqmy1tpXw\n`

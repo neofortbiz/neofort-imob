@@ -1367,6 +1367,8 @@ try {
     [/Neofort IMO[^.\n]{0,40}\b(construiește|dezvoltă|a livrat|livrează|a construit|a dezvoltat)\b/i, 'Neofort IMO apare ca firmă care construiește / dezvoltă / livrează'],
     [/Neofort IMO,? (un |o |unul dintre )?(dezvoltator|companie de dezvoltare)|Dezvoltator și agenție|Compania noastră a livrat/i, 'Neofort IMO numit dezvoltator'],
     [/Neofort IMO (is|was) an? (residential )?developer|builds and sells its own/i, 'Neofort IMO numit developer (EN)'],
+    // v464: forme scapate la v463 („developer (Neofort IMO)", „ne poziționează ca cel mai activ dezvoltator")
+    [/(developer|dezvoltator)(ul)? \(Neofort|(ne|o|îl) poziționează ca[^.]{0,30}dezvoltator/i, 'Neofort IMO numit dezvoltator (formă indirectă)'],
   ]
   const fisiere = []
   const strange = d => {
@@ -1389,6 +1391,51 @@ try {
   }
 } catch (err) {
   P('rolul Neofort IMO', `nu poate fi verificat: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 30–33. FAPTE CARE NU AU VOIE SA SE CONTRAZICA (v464, al doilea audit agentic, 16.11.2026)
+//   30. TVA: preturile Neofort sunt FARA TVA. Interzis: „prețurile Neofort includ TVA", „prețul afișat /
+//       publicat este prețul final", „prețul pe care îl vezi e cel pe care îl plătești".
+//   31. Cota de 9% s-a incheiat la 30.09.2026: interzis s-o prezinti ca optiune actuala („sau 9%",
+//       „9% sau 21%", „TVA 5% sau 9% e inclus", „21% versus 9%", „eligibil tranzitoriu").
+//   32. Noua Casă: pragurile de VALOARE a locuintei sunt 70.000 / 140.000 EUR; 66.500 / 119.000 sunt
+//       CREDITUL maxim. Interzis: 119.000 / 66.500 / 93.500 / 57.000 / 52.500 prezentate ca valoare/plafon.
+//   33. „N ansambluri / proiecte livrate" = NR_LIVRATE (portofoliu + finalizate in vanzare), oriunde;
+//       numarul din Registrul Comertului apare mereu in formatul nou (J2026008972000).
+// ────────────────────────────────────────────────────────────
+try {
+  const nrLivrate = TOATE_PORTOFOLIU.length + ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Finalizat').length
+  const REG = [
+    [30, /(prețuri(le)?|prețul)[^.\n]{0,40}Neofort[^.\n]{0,40}(includ(e)? TVA|cu TVA inclus|afișate cu TVA)|prețul (afișat|publicat|plătit) este prețul (final|afișat)|prețul pe care îl vezi este prețul pe care îl plătești/i, 'prețurile Neofort sunt FĂRĂ TVA (se adaugă 21%)'],
+    [31, /sau 9% dacă|9% sau 21%|TVA 5% sau 9%|21% versus 9%|eligibil tranzitoriu/i, 'cota de 9% s-a încheiat la 30.09.2026 — nu e o opțiune actuală'],
+    [32, /(valoare|preț|plafon(ul)? maxim)[^.\n]{0,60}?(?<!credit(ul)? maxim |credit )\b(119\.000|66\.500|93\.500|57\.000|52\.500) ?(EUR|€)/i, 'Noua Casă: valoarea maximă a locuinței e 70.000 / 140.000 EUR (66.500 / 119.000 = creditul maxim)'],
+  ]
+  const fis = []
+  const strange = d => {
+    for (const f of fs.readdirSync(resolve(ROOT, d), { withFileTypes: true })) {
+      const c = `${d}/${f.name}`
+      if (f.isDirectory()) { if (!['node_modules', '.next'].includes(f.name)) strange(c) }
+      else if (/\.(m?js|jsx|md)$/.test(f.name)) fis.push(c)
+    }
+  }
+  for (const d of ['app', 'components', 'lib', 'data', 'public/.well-known']) strange(d)
+  fis.push('scripts/generate-llms.mjs')
+  for (const f of fis) {
+    fs.readFileSync(resolve(ROOT, f), 'utf8').split('\n').forEach((l, i) => {
+      if (/^\s*\/\//.test(l)) return
+      for (const [nr, re, ce] of REG) {
+        const m = l.match(re)
+        if (m) P(`${f}:${i + 1}`, `[${nr}] ${ce}: „…${l.slice(Math.max(0, m.index - 40), m.index + m[0].length + 20).trim()}…"`)
+      }
+      for (const m of l.matchAll(/\b(\d{2})\+? (de )?(proiecte|ansambluri)( rezidențiale)? livrate/gi)) {
+        if (Number(m[1]) !== nrLivrate) P(`${f}:${i + 1}`, `[33] „${m[0]}" — numărul real de ansambluri livrate e ${nrLivrate} (NR_LIVRATE)`)
+      }
+      if (/J40\/8972\/2026/.test(l) && !/J2026008972000/.test(l)) P(`${f}:${i + 1}`, '[33] numărul din Registrul Comerțului doar în formatul vechi — scrie J2026008972000 (J40/8972/2026)')
+    })
+  }
+} catch (err) {
+  P('fapte 30–33', `nu pot fi verificate: ${err.message}`)
 }
 
 // ────────────────────────────────────────────────────────────

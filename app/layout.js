@@ -104,7 +104,7 @@ const organizationSchema = {
   legalName: 'Neofort IMO SRL',
   identifier: [
     { '@type': 'PropertyValue', name: 'CUI', value: 'RO53874087' },
-    { '@type': 'PropertyValue', name: 'Nr. Registrul Comerțului', value: 'J40/8972/2026' },
+    { '@type': 'PropertyValue', name: 'Nr. Registrul Comerțului', value: 'J2026008972000' },
     { '@type': 'PropertyValue', name: 'Google Place ID', value: 'ChIJRfDdJS3_sUART1Bqmy1tpXw' },
   ],
   address: {
@@ -168,7 +168,7 @@ const localBusinessSchema = {
   taxID: '53874087',
   identifier: [
     { '@type': 'PropertyValue', name: 'CUI', value: 'RO53874087' },
-    { '@type': 'PropertyValue', name: 'Nr. Registrul Comerțului', value: 'J40/8972/2026' },
+    { '@type': 'PropertyValue', name: 'Nr. Registrul Comerțului', value: 'J2026008972000' },
   ],
   address: {
     '@type': 'PostalAddress',
