@@ -1075,6 +1075,28 @@ try {
     if (!fm?.description || fm.description.length > 1024) P(unde, 'description lipsește sau are peste 1024 de caractere')
     else if (fm.description !== s.description) P(unde, 'description din index diferă de cea din SKILL.md')
   }
+  // cardul MCP oficial (v460, SEP-2127, schema v1): reguli din schema.json a extensiei + identic in ard.json
+  try {
+    const { serverCard, TIP_CARD } = await import('../lib/serverCard.js')
+    const c = serverCard()
+    const lung = (v, min, max) => typeof v === 'string' && v.length >= min && v.length <= max
+    if (c.$schema !== 'https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json') P('lib/serverCard.js', '$schema nu e schema oficială v1')
+    if (!lung(c.name, 3, 200) || !/^[a-zA-Z0-9.-]+\/[a-zA-Z0-9._-]+$/.test(c.name)) P('lib/serverCard.js', `name „${c.name}" nu respectă formatul namespace/server`)
+    if (!lung(c.version, 1, 255)) P('lib/serverCard.js', 'version lipsește')
+    if (!lung(c.description, 1, 100)) P('lib/serverCard.js', `description are ${c.description?.length} caractere (1–100)`)
+    if (c.title != null && !lung(c.title, 1, 100)) P('lib/serverCard.js', `title are ${c.title.length} caractere (1–100)`)
+    // doar campurile din schema cardului; uneltele NU au voie in card (SEP-2127 — se afla prin tools/list)
+    const CAMPURI_CARD = ['$schema', 'name', 'version', 'description', 'title', 'websiteUrl', 'repository', 'icons', '_meta', 'remotes']
+    const straine = Object.keys(c).filter(k => !CAMPURI_CARD.includes(k))
+    if (straine.length) P('lib/serverCard.js', `câmpuri care nu există în schema cardului: ${straine.join(', ')}`)
+    for (const r of c.remotes || []) {
+      if (!['sse', 'streamable-http'].includes(r.type)) P('lib/serverCard.js', `remote.type „${r.type}" invalid`)
+      if (!/^(https?:\/\/[^\s]+|\{[a-zA-Z_][a-zA-Z0-9_]*\}[^\s]*)$/.test(r.url || '')) P('lib/serverCard.js', `remote.url „${r.url}" invalid`)
+    }
+    const eMcp = (ard?.entries || []).find(e => e.type === TIP_CARD)
+    if (!eMcp) P('ard.json', 'lipsește intrarea serverului MCP (application/mcp-server-card+json)')
+    else if (JSON.stringify(eMcp.data) !== JSON.stringify(c)) P('ard.json', 'cardul MCP din ard.json diferă de lib/serverCard.js — rulează scripts/generate-agent-files.mjs')
+  } catch (err) { P('lib/serverCard.js', `nu poate fi verificat: ${err.message}`) }
   // dovada de domeniu pentru registrul oficial MCP (v457): un singur rand, cheie Ed25519 de 32 de octeti.
   // Daca lipseste sau e stricata, actualizarea inscrierii in registru esueaza.
   try {
@@ -1129,6 +1151,7 @@ try {
   const txt = textRobots()
   if (!/^Content-Signal: search=yes, ai-input=yes, ai-train=yes$/m.test(txt)) P('robots.txt', 'lipsește Content-Signal (search=yes, ai-input=yes, ai-train=yes)')
   if (!/^User-Agent: __usage_ai-training\nAllow: \/$/m.test(txt)) P('robots.txt', 'lipsește grupul __usage_ai-training cu Allow: /')
+  if (!/^Allow: \/api\/mcp\/server-card$/m.test(txt.split('\n\n')[0])) P('robots.txt', 'grupul * nu permite /api/mcp/server-card — cardul MCP ar fi blocat de Disallow: /api/')
   // Directivele acceptate de Lighthouse 13.6 (cel din PageSpeed). O directiva in afara listei = auditul
   // „robots.txt is valid" pica si scorul SEO scade (v458: `Agentmap` → SEO 92). Lista se extinde doar dupa
   // ce o versiune NOUA de Lighthouse ajunge in PageSpeed, nu dupa codul in dezvoltare.

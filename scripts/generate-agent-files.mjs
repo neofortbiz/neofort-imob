@@ -58,7 +58,8 @@ export function citesteFrontmatter(text) {
 export async function construieste() {
   const { ANSAMBLURI_ACTIVE } = await import('../data/ansambluri/index.js')
   const { UNELTE, FIRMA } = await import('../lib/mcpUnelte.js')
-  const { VERSIUNI_MODERNE, VERSIUNI_VECHI, SERVER_INFO } = await import('../lib/mcpServer.js')
+  const { SERVER_INFO } = await import('../lib/mcpServer.js')
+  const { serverCard, TIP_CARD } = await import('../lib/serverCard.js')
   let DATA_SITE = null
   try { ({ DATA_SITE } = await import('../data/contact-map.js')) } catch {}
 
@@ -107,7 +108,7 @@ export async function construieste() {
       {
         identifier: 'urn:air:neofort.ro:mcp:ansambluri-rezidentiale',
         displayName: 'Neofort IMO — ansambluri rezidențiale București (MCP)',
-        type: 'application/mcp-server-card+json',
+        type: TIP_CARD,
         description: 'Read-only MCP server with the residential projects and apartments for sale by Neofort IMO in Bucharest: availability, prices in EUR excluding VAT, project details, blog articles, contact and mortgage estimates.',
         tags,
         capabilities: UNELTE.map(u => u.name),
@@ -115,17 +116,9 @@ export async function construieste() {
         version: SERVER_INFO.version,
         updatedAt: actualizat,
         metadata,
-        data: {
-          name: SERVER_INFO.name,
-          title: SERVER_INFO.title,
-          version: SERVER_INFO.version,
-          description: 'Read-only. Prices in EUR excluding 21% VAT. Cannot send requests; get_contact returns the broker.',
-          websiteUrl: BASE,
-          remotes: [{ type: 'streamable-http', url: `${BASE}/api/mcp` }],
-          supportedProtocolVersions: [...VERSIUNI_MODERNE, ...VERSIUNI_VECHI],
-          authentication: 'none',
-          tools: UNELTE.map(u => ({ name: u.name, title: u.title, description: u.description, inputSchema: u.inputSchema, annotations: u.annotations })),
-        },
+        // Cardul oficial MCP (SEP-2127, schema v1), identic cu GET /api/mcp/server-card (lib/serverCard.js).
+        // Pana la v459 aici era un card in format propriu (cu unelte si campuri nestandard).
+        data: serverCard(),
       },
       {
         identifier: `urn:air:neofort.ro:skill:${SKILL_NUME}`,

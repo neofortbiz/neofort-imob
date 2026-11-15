@@ -21,7 +21,9 @@ const BASE = 'https://www.neofort.ro'
 
 const REGULI = [
   // Reguli principale pentru www.neofort.ro (+ semnalul de continut pentru AI, v458)
-  { userAgent: '*', allow: '/', disallow: ['/api/'], extra: ['Content-Signal: search=yes, ai-input=yes, ai-train=yes'] },
+  // Allow /api/mcp/server-card (v460): cardul oficial al serverului MCP trebuie sa poata fi citit de crawleri;
+  // restul /api/ ramane blocat (regula cea mai lunga castiga, RFC 9309).
+  { userAgent: '*', allow: ['/', '/api/mcp/server-card'], disallow: ['/api/'], extra: ['Content-Signal: search=yes, ai-input=yes, ai-train=yes'] },
   // LLM crawlers — acces complet pentru indexare AI
   { userAgent: 'GPTBot', allow: '/' },
   { userAgent: 'ChatGPT-User', allow: '/' },
