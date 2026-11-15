@@ -1050,6 +1050,8 @@ try {
       if (e.identifier && !/^urn:air:[a-z0-9.-]+\.[a-z]{2,}(:[a-z0-9._-]+)+$/i.test(e.identifier)) P(unde, `identifier „${e.identifier}" nu e URN urn:air:<domeniu>:…`)
       if (('url' in e) === ('data' in e)) P(unde, 'trebuie să aibă exact unul dintre `url` și `data`')
       if (e.type && !/^application\/[a-z0-9.+-]+$/.test(e.type)) P(unde, `type „${e.type}" nu e un tip media application/*`)
+      // Lighthouse valideaza updatedAt ca „date-time" (RFC 3339): data simpla „AAAA-LL-ZZ" e eroare (v454).
+      if (e.updatedAt != null && !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})$/.test(e.updatedAt)) P(unde, `updatedAt „${e.updatedAt}" nu e date-time RFC 3339 (ex. 2026-11-11T00:00:00Z) — Lighthouse îl respinge`)
       const q = e.representativeQueries
       if (!Array.isArray(q) || q.length < 2 || q.length > 5) P(unde, `representativeQueries trebuie să aibă 2–5 elemente (are ${Array.isArray(q) ? q.length : 0})`)
       if (typeof e.url === 'string' && e.url.startsWith('https://www.neofort.ro/')) {
