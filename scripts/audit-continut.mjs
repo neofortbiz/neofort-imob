@@ -1028,6 +1028,60 @@ try {
 }
 
 // ────────────────────────────────────────────────────────────
+// 21. FISIERELE PENTRU AGENTI: ard.json, indexul Agent Skills, SKILL.md (v452)
+// Generate la prebuild de scripts/generate-agent-files.mjs, DUPA audit — deci aici se verifica
+// varianta comisa, cea care ar ajunge live daca generatorul ar esua. Reguli: ARD v0.91 (campuri
+// obligatorii, URN, exact unul dintre url/data, 2–5 intrebari tip) si Agent Skills discovery 0.2.0
+// (digest SHA-256 pe varianta LF, name identic cu directorul si frontmatter-ul, description ≤1024).
+// ────────────────────────────────────────────────────────────
+try {
+  const G = await import('./generate-agent-files.mjs')
+  const WK = resolve(ROOT, 'public/.well-known')
+  const citesteJson = (cale, eticheta) => {
+    try { return JSON.parse(fs.readFileSync(cale, 'utf8')) } catch (e) { P(eticheta, `lipsește sau nu e JSON valid (${e.message})`); return null }
+  }
+  // ard.json
+  const ard = citesteJson(resolve(WK, 'ard.json'), 'ard.json')
+  if (ard) {
+    if (!Array.isArray(ard.entries) || !ard.entries.length) P('ard.json', 'lipsește lista `entries`')
+    for (const [i, e] of (ard.entries || []).entries()) {
+      const unde = `ard.json entries[${i}]`
+      for (const c of ['identifier', 'displayName', 'type']) if (!e[c]) P(unde, `lipsește câmpul obligatoriu „${c}"`)
+      if (e.identifier && !/^urn:air:[a-z0-9.-]+\.[a-z]{2,}(:[a-z0-9._-]+)+$/i.test(e.identifier)) P(unde, `identifier „${e.identifier}" nu e URN urn:air:<domeniu>:…`)
+      if (('url' in e) === ('data' in e)) P(unde, 'trebuie să aibă exact unul dintre `url` și `data`')
+      if (e.type && !/^application\/[a-z0-9.+-]+$/.test(e.type)) P(unde, `type „${e.type}" nu e un tip media application/*`)
+      const q = e.representativeQueries
+      if (!Array.isArray(q) || q.length < 2 || q.length > 5) P(unde, `representativeQueries trebuie să aibă 2–5 elemente (are ${Array.isArray(q) ? q.length : 0})`)
+      if (typeof e.url === 'string' && e.url.startsWith('https://www.neofort.ro/')) {
+        const local = resolve(ROOT, 'public' + e.url.slice('https://www.neofort.ro'.length))
+        if (!fs.existsSync(local)) P(unde, `url trimite la un fișier inexistent: ${e.url}`)
+      }
+    }
+  }
+  // index.json + SKILL.md
+  const index = citesteJson(resolve(WK, 'agent-skills/index.json'), 'agent-skills/index.json')
+  for (const [i, s] of (index?.skills || []).entries()) {
+    const unde = `agent-skills/index.json skills[${i}]`
+    const cale = resolve(ROOT, 'public' + s.url)
+    if (!fs.existsSync(cale)) { P(unde, `SKILL.md lipsește: ${s.url}`); continue }
+    const text = G.faraCR(fs.readFileSync(cale, 'utf8'))
+    const corect = `sha256:${G.sha256(text)}`
+    if (s.digest !== corect) P(unde, `digest greșit pentru ${s.name} — pune ${corect} în index.json (sau rulează scripts/generate-agent-files.mjs)`)
+    const fm = G.citesteFrontmatter(text)
+    if (!/^[a-z0-9-]{1,64}$/.test(s.name || '')) P(unde, `name „${s.name}" invalid (litere mici, cifre, cratime, max. 64)`)
+    if (fm?.name !== s.name || !s.url.includes(`/agent-skills/${s.name}/`)) P(unde, `name „${s.name}" diferă de frontmatter („${fm?.name}") sau de director`)
+    if (!fm?.description || fm.description.length > 1024) P(unde, 'description lipsește sau are peste 1024 de caractere')
+    else if (fm.description !== s.description) P(unde, 'description din index diferă de cea din SKILL.md')
+  }
+  // legaturile din antet
+  const layout = fs.readFileSync(resolve(ROOT, 'app/layout.js'), 'utf8')
+  if (!layout.includes('rel="ard" href="/.well-known/ard.json"')) P('app/layout.js', 'lipsește <link rel="ard" href="/.well-known/ard.json">')
+  if (!layout.includes('rel="agent-skills" href="/.well-known/agent-skills/index.json"')) P('app/layout.js', 'lipsește <link rel="agent-skills">')
+} catch (err) {
+  P('fișierele pentru agenți', `verificarea nu a putut rula: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
 if (!probleme.length) {

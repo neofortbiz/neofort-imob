@@ -239,6 +239,10 @@ export default function RootLayout({ children }) {
         {/* Preconnect pentru resurse critice */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://tile.openstreetmap.org" />
+        {/* Fisierele pentru agenti AI (v452), generate la prebuild de scripts/generate-agent-files.mjs:
+            manifestul ARD (cautat de Lighthouse) si indexul Agent Skills. Invizibile pentru vizitatori. */}
+        <link rel="ard" href="/.well-known/ard.json" type="application/json" />
+        <link rel="agent-skills" href="/.well-known/agent-skills/index.json" type="application/json" />
         {/* Consent Mode - setat inainte de GTM */}
         <Script id="consent-init" strategy="beforeInteractive">{`
           window.dataLayer = window.dataLayer || [];

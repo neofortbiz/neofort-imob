@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
-import { calcRata, DAE_MIN, DAE_MAX, DAE_DEFAULT, AVANS_PCT_DEFAULT, DURATA_DEFAULT } from '@/lib/calculCredit'
+import { calcRata, DAE_MIN, DAE_MAX, DAE_DEFAULT, AVANS_PCT_DEFAULT, DURATA_DEFAULT, COTA_TVA } from '@/lib/calculCredit'
 
 // Lista de ansambluri NU mai este scrisa aici.
 //
@@ -91,8 +91,13 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
   useEffect(() => { fetchCurs() }, [])
 
   // ── Calcule ─────────────────────────────────────────────
-  const avansEur  = Math.round(pret * avansPct / 100)
-  const principal = pret - avansEur
+  // Pretul se introduce FARA TVA, ca pe tot site-ul; banca finanteaza pretul CU TVA (21%),
+  // deci avansul si creditul se calculeaza pe pretTotal (v452 — inainte TVA-ul lipsea si rata
+  // iesea cu ~17% mai mica). Aceeasi regula ca unealta calculate_mortgage din serverul MCP.
+  const tvaEur    = Math.round(pret * COTA_TVA)
+  const pretTotal = pret + tvaEur
+  const avansEur  = Math.round(pretTotal * avansPct / 100)
+  const principal = pretTotal - avansEur
   const rataEur   = calcRata(principal, dae, durata)
   const rataRon   = rataEur * curs
   const dobTot    = rataEur * durata * 12 - principal
@@ -114,12 +119,12 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
         tip: 'credit',
         nume: fNume, telefon: fTel, email: fEmail,
         ansamblu: fAnsamblu ? ANSAMBLURI.find(a => a.slug === fAnsamblu)?.nume : '',
-        pretApartament: fPretAp ? `${fmt(Number(fPretAp))}€` : '',
+        pretApartament: fPretAp ? `${fmt(Number(fPretAp))}€ + TVA` : '',
         avansDisponibil: fAvans ? `${fmt(Number(fAvans))}€` : '',
         varsta: fVarsta,
         venitLunarNet: fVenit ? `${fmt(Number(fVenit))} lei` : '',
         areRate: fAreRate === true ? `Da${fRataLuna ? ` — ${fmt(Number(fRataLuna))} lei/lună` : ''}` : 'Nu',
-        simulare: `${fmt(pret)}€ / avans ${avansPct}% / DAE ${dae}% / ${durata} ani → ~${fmt(Math.round(rataRon))} RON/lună`,
+        simulare: `${fmt(pret)}€ + TVA = ${fmt(pretTotal)}€ / avans ${avansPct}% / DAE ${dae}% / ${durata} ani → ~${fmt(Math.round(rataRon))} RON/lună`,
       }
       const res = await fetch('/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
       if (!res.ok) throw new Error()
@@ -207,7 +212,7 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
                   {/* Preț */}
                   <div style={{ marginBottom: 22 }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 6 }}>
-                      <label style={{ ...labelStyle, marginBottom: 0 }}>Preț apartament</label>
+                      <label style={{ ...labelStyle, marginBottom: 0 }}>Preț apartament (fără TVA)</label>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
                         <input type="number" value={pretInput}
                           onChange={e => { setPretInput(e.target.value); const v = parseInt(e.target.value); if (!isNaN(v) && v >= 30000 && v <= 2000000) setPret(v) }}
@@ -222,6 +227,9 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
                       style={{ width: '100%', accentColor: '#2d7a3a' }} />
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color: '#9ca3af', marginTop: 2 }}>
                       <span>30K€</span><span>2M€</span>
+                    </div>
+                    <div style={{ fontSize: 12, color: '#374151', marginTop: 6 }}>
+                      + TVA {Math.round(COTA_TVA * 100)}% = <strong>{fmt(pretTotal)}€</strong> preț total
                     </div>
                   </div>
 
@@ -294,7 +302,7 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
                     {[
                       { lbl: 'Sumă creditată', val: `${fmt(principal)}€`, sub: `${fmt(Math.round(principal * curs))} RON` },
-                      { lbl: 'Avans achitat',  val: `${fmt(avansEur)}€`,  sub: `${avansPct}% din preț` },
+                      { lbl: 'Avans achitat',  val: `${fmt(avansEur)}€`,  sub: `${avansPct}% din prețul cu TVA` },
                       { lbl: 'Dobândă totală', val: `${fmt(Math.round(dobTot))}€`,    sub: `${durata} ani × ${dae}%` },
                       { lbl: 'Total rambursat',val: `${fmt(Math.round(totalRamb))}€`, sub: 'principal + dobândă' },
                     ].map(item => (
@@ -433,7 +441,7 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
                   <div style={{ background: '#f8faf9', border: '1px solid #e5e7eb', borderRadius: 12, padding: '12px 16px', marginBottom: 18 }}>
                     <p style={{ fontSize: 10, fontWeight: 600, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.5px', margin: '0 0 8px' }}>Sumar simulare</p>
                     {[
-                      ['Preț apartament', `${fmt(pret)}€`],
+                      ['Preț apartament', `${fmt(pret)}€ + TVA = ${fmt(pretTotal)}€`],
                       ['Avans', `${avansPct}% — ${fmt(avansEur)}€`],
                       ['Durată / DAE', `${durata} ani / ${dae}%`],
                       ['Rată estimată', `${fmt(Math.round(rataRon))} RON/lună`],

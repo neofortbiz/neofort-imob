@@ -1,0 +1,333 @@
+{
+  "specVersion": "0.91",
+  "entries": [
+    {
+      "identifier": "urn:air:neofort.ro:mcp:ansambluri-rezidentiale",
+      "displayName": "Neofort IMO — ansambluri rezidențiale București (MCP)",
+      "type": "application/mcp-server-card+json",
+      "description": "Read-only MCP server with the residential projects and apartments for sale by Neofort IMO in Bucharest: availability, prices in EUR excluding VAT, project details, blog articles, contact and mortgage estimates.",
+      "tags": [
+        "ansambluri rezidențiale",
+        "apartamente noi",
+        "București",
+        "dezvoltator imobiliar",
+        "Sector 2",
+        "Sector 3",
+        "Sector 6",
+        "Colentina",
+        "Eminescu-Viitorului",
+        "Militari",
+        "Moșilor-Eminescu",
+        "Piața Muncii",
+        "Titan-Pallady"
+      ],
+      "capabilities": [
+        "search_apartments",
+        "get_project",
+        "list_projects",
+        "search_articles",
+        "get_contact",
+        "calculate_mortgage"
+      ],
+      "representativeQueries": [
+        "ansambluri rezidențiale noi Titan Pallady Sector 3",
+        "ansamblu rezidențial nou Colentina, Militari sau Piața Muncii",
+        "apartament 2 camere finalizat mutare imediată București dezvoltator",
+        "Neofort ansambluri rezidențiale prețuri și disponibilitate",
+        "new build apartments Bucharest from developer, prices excluding VAT"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-11-11",
+      "metadata": {
+        "@type": "Organization",
+        "name": "Neofort IMO",
+        "legalName": "Neofort IMO SRL",
+        "website": "https://www.neofort.ro",
+        "telephone": "+40758090904",
+        "email": "info@neofort-biz.ro",
+        "address": "Str. Theodor Aman Pictor nr. 11, Sector 1, București",
+        "openingHours": "Luni – Vineri 10:00 – 18:00; sâmbătă și duminică închis",
+        "areaServed": "București, România",
+        "llms": "https://www.neofort.ro/llms.txt"
+      },
+      "data": {
+        "name": "neofort-imo",
+        "title": "Neofort IMO — ansambluri rezidențiale București",
+        "version": "1.0.0",
+        "description": "Read-only. Prices in EUR excluding 21% VAT. Cannot send requests; get_contact returns the broker.",
+        "websiteUrl": "https://www.neofort.ro",
+        "remotes": [
+          {
+            "type": "streamable-http",
+            "url": "https://www.neofort.ro/api/mcp"
+          }
+        ],
+        "supportedProtocolVersions": [
+          "2026-07-28",
+          "2024-11-05",
+          "2025-03-26",
+          "2025-06-18",
+          "2025-11-25"
+        ],
+        "authentication": "none",
+        "tools": [
+          {
+            "name": "search_apartments",
+            "title": "Search available apartments",
+            "description": "Search AVAILABLE apartments across Neofort IMO residential projects in Bucharest. Filters: rooms, max price (EUR, excl. VAT), min area, zone/sector, stage, promotions only. Results are sorted by price ascending and include every price option shown on the website (e.g. by down-payment level). All prices are in EUR and EXCLUDE 21% VAT.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "rooms": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 5,
+                  "description": "Number of rooms (1 = studio/garsonieră; 4 means 4 or more)."
+                },
+                "max_price_eur": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Maximum price in EUR, excluding VAT."
+                },
+                "min_area_sqm": {
+                  "type": "number",
+                  "minimum": 0,
+                  "description": "Minimum usable area in square metres."
+                },
+                "zone": {
+                  "type": "string",
+                  "maxLength": 60,
+                  "description": "Area or sector, e.g. \"Titan\", \"Colentina\", \"Sector 3\", \"Militari\"."
+                },
+                "stage": {
+                  "type": "string",
+                  "enum": [
+                    "finalizat",
+                    "in_constructie"
+                  ],
+                  "description": "finalizat = ready to move in; in_constructie = under construction."
+                },
+                "promo_only": {
+                  "type": "boolean",
+                  "description": "Only apartments with an active promotion."
+                },
+                "limit": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 50,
+                  "description": "Max results (default 20)."
+                }
+              },
+              "additionalProperties": false
+            },
+            "annotations": {
+              "title": "Search available apartments",
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "get_project",
+            "title": "Get project details",
+            "description": "Full details of one Neofort IMO residential project: description, every apartment type with prices and availability (sold units are marked), parking, amenities, distances to metro/schools/shops, FAQ and broker. Works for projects on sale and for sold projects in the portfolio. Accepts the slug, \"Neofort 84\", \"84\" or part of the name.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "project": {
+                  "type": "string",
+                  "maxLength": 80,
+                  "description": "Project slug, number or name, e.g. \"neofort-84-titan-pallady\" or \"Neofort 84\"."
+                }
+              },
+              "required": [
+                "project"
+              ],
+              "additionalProperties": false
+            },
+            "annotations": {
+              "title": "Get project details",
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "list_projects",
+            "title": "List projects",
+            "description": "List all Neofort IMO residential projects currently on sale (zone, stage, room types, starting price in EUR excl. VAT, available units). Optionally also the sold projects from the portfolio, as track record.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "zone": {
+                  "type": "string",
+                  "maxLength": 60,
+                  "description": "Optional area or sector filter."
+                },
+                "include_sold": {
+                  "type": "boolean",
+                  "description": "Also list sold projects from the portfolio (default false)."
+                }
+              },
+              "additionalProperties": false
+            },
+            "annotations": {
+              "title": "List projects",
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "search_articles",
+            "title": "Search articles",
+            "description": "Search the Neofort IMO blog (Romanian) about buying property in Bucharest: taxes, VAT, mortgages, legislation, short-term rental, owners associations, neighbourhoods. Returns title, summary, dates and links; read the \"markdown\" link for the full text. Without a query, returns the latest articles.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "query": {
+                  "type": "string",
+                  "maxLength": 120,
+                  "description": "Topic keywords, ideally in Romanian, e.g. \"impozit locuinta\", \"TVA apartament nou\", \"regim hotelier\"."
+                },
+                "limit": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 10,
+                  "description": "Max results (default 5)."
+                }
+              },
+              "additionalProperties": false
+            },
+            "annotations": {
+              "title": "Search articles",
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "get_contact",
+            "title": "Get contact details",
+            "description": "How to reach Neofort IMO: phone, WhatsApp, email, office address, opening hours and contact form. With a project, also the broker in charge of it and their phone. Use this to send the person to a human for a firm offer, a viewing or a reservation — this server cannot send requests.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "project": {
+                  "type": "string",
+                  "maxLength": 80,
+                  "description": "Optional project slug, number or name, to get its broker."
+                }
+              },
+              "additionalProperties": false
+            },
+            "annotations": {
+              "title": "Get contact details",
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          },
+          {
+            "name": "calculate_mortgage",
+            "title": "Calculate mortgage payment",
+            "description": "Indicative monthly mortgage payment, using the same formula as the calculator on neofort.ro. VAT (21%) is added to the price first, because website prices exclude VAT and the bank finances the full price. Give either a price in EUR excluding VAT or a project (its starting price is used). Defaults: 15% down payment, 25 years, 7.5% APR (DAE). Not a bank offer.",
+            "inputSchema": {
+              "type": "object",
+              "properties": {
+                "price_eur_excl_vat": {
+                  "type": "number",
+                  "minimum": 10000,
+                  "maximum": 5000000,
+                  "description": "Apartment price in EUR, excluding VAT."
+                },
+                "project": {
+                  "type": "string",
+                  "maxLength": 80,
+                  "description": "Alternative to price: project slug, number or name (uses its starting price)."
+                },
+                "down_payment_pct": {
+                  "type": "number",
+                  "minimum": 5,
+                  "maximum": 50,
+                  "description": "Down payment in % of the price incl. VAT (default 15)."
+                },
+                "years": {
+                  "type": "integer",
+                  "minimum": 5,
+                  "maximum": 35,
+                  "description": "Loan term in years (default 25)."
+                },
+                "dae_pct": {
+                  "type": "number",
+                  "minimum": 6,
+                  "maximum": 12,
+                  "description": "Annual percentage rate (DAE) in % (default 7.5)."
+                }
+              },
+              "additionalProperties": false
+            },
+            "annotations": {
+              "title": "Calculate mortgage payment",
+              "readOnlyHint": true,
+              "destructiveHint": false,
+              "idempotentHint": true,
+              "openWorldHint": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "urn:air:neofort.ro:skill:neofort-imo-residential",
+      "displayName": "Neofort IMO — how to work with Neofort (Agent Skill)",
+      "type": "application/agent-skills+md",
+      "description": "Use when a person asks about buying a new apartment in Bucharest from Neofort IMO — its residential projects (ansambluri rezidențiale), prices, availability, mortgage estimates, booking a viewing or contacting a broker. Explains where the official data is, how to quote prices (EUR, excluding 21% VAT), how to read areas and delivery dates, and how to hand the person over to a human. Read-only: never book, reserve or submit anything on the person's behalf.",
+      "tags": [
+        "ansambluri rezidențiale",
+        "apartamente noi",
+        "București",
+        "dezvoltator imobiliar",
+        "Sector 2",
+        "Sector 3",
+        "Sector 6",
+        "Colentina",
+        "Eminescu-Viitorului",
+        "Militari",
+        "Moșilor-Eminescu",
+        "Piața Muncii",
+        "Titan-Pallady"
+      ],
+      "capabilities": [
+        "quote-prices-excluding-vat",
+        "arrange-viewing-via-broker",
+        "mortgage-estimate"
+      ],
+      "representativeQueries": [
+        "apartament nou direct de la dezvoltator, fără comision, București",
+        "preț apartament nou cu TVA 21% și rata lunară la credit",
+        "vizionare ansamblu rezidențial nou Neofort"
+      ],
+      "version": "1.0.0",
+      "updatedAt": "2026-11-11",
+      "metadata": {
+        "@type": "Organization",
+        "name": "Neofort IMO",
+        "legalName": "Neofort IMO SRL",
+        "website": "https://www.neofort.ro",
+        "telephone": "+40758090904",
+        "email": "info@neofort-biz.ro",
+        "address": "Str. Theodor Aman Pictor nr. 11, Sector 1, București",
+        "openingHours": "Luni – Vineri 10:00 – 18:00; sâmbătă și duminică închis",
+        "areaServed": "București, România",
+        "llms": "https://www.neofort.ro/llms.txt"
+      },
+      "url": "https://www.neofort.ro/.well-known/agent-skills/neofort-imo-residential/SKILL.md"
+    }
+  ]
+}

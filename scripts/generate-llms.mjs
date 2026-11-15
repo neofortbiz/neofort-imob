@@ -57,6 +57,10 @@ const MCP_SERVER =
   `Server MCP doar citire: ${BASE}/api/mcp — Streamable HTTP fără stare, răspuns JSON, protocol 2026-07-28 și 2024-11-05…2025-11-25, fără autentificare.\n` +
   `Unelte: ${MCP_UNELTE.join(', ')}. Aceleași date ca paginile; prețuri în EUR fără TVA (+21%). Serverul nu trimite cereri; pentru ofertă fermă sau vizionare, get_contact dă brokerul.\n`
 
+// Fisierele pentru agenti (v452, scripts/generate-agent-files.mjs).
+const FISIERE_AGENTI =
+  `Pentru agenți AI: manifest ARD ${BASE}/.well-known/ard.json · Agent Skill ${BASE}/.well-known/agent-skills/neofort-imo-residential/SKILL.md (index: ${BASE}/.well-known/agent-skills/index.json).\n`
+
 function statusLabel(dataPredare) {
   return dataPredare === 'Finalizat' ? 'Finalizat' : 'În construcție'
 }
@@ -165,7 +169,8 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `Date exacte și actualizate la: ${BASE}/api/ansambluri\n`
   out += `Versiunea completă pentru RAG: ${BASE}/llms-full.txt\n`
   out += MD_PAGINI + `\n`
-  out += MCP_SERVER + `\n`
+  out += MCP_SERVER
+  out += FISIERE_AGENTI + `\n`
 
   out += `## Portofoliu finalizat (selecție)\n`
   out += `Neofort IMO a livrat ${NR_LIVRATE}+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:\n`
@@ -287,6 +292,7 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   out += MD_PAGINI
   out += `\n## Server MCP\n`
   out += MCP_SERVER
+  out += FISIERE_AGENTI
 
   return out
 }

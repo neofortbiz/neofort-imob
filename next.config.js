@@ -22,6 +22,23 @@ const nextConfig = {
   async headers() {
     return [
       {
+        // Fisierele pentru agenti AI (v452): citite si de clienti din browser de pe alte domenii.
+        // noindex: sunt pentru agenti, nu pagini de cautare (SKILL.md e in engleza si ar fi o pagina subtire).
+        source: '/.well-known/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Origin', value: '*' },
+          { key: 'Cache-Control', value: 'public, max-age=3600' },
+          { key: 'X-Robots-Tag', value: 'noindex' },
+        ],
+      },
+      {
+        // Altfel Vercel serveste SKILL.md ca fisier generic, nu ca Markdown.
+        source: '/.well-known/agent-skills/:name/SKILL.md',
+        headers: [
+          { key: 'Content-Type', value: 'text/markdown; charset=utf-8' },
+        ],
+      },
+      {
         // Plasa de siguranta pentru .md: noindex chiar daca ruta si-ar pierde antetele.
         // Pagina HTML ramane singura indexabila (canonical-ul ei nu se schimba).
         source: '/:dir(blog|ansamblu-rezidential)/:slug([a-z0-9-]+)\\.md',
