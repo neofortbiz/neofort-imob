@@ -1075,6 +1075,13 @@ try {
     if (!fm?.description || fm.description.length > 1024) P(unde, 'description lipsește sau are peste 1024 de caractere')
     else if (fm.description !== s.description) P(unde, 'description din index diferă de cea din SKILL.md')
   }
+  // dovada de domeniu pentru registrul oficial MCP (v457): un singur rand, cheie Ed25519 de 32 de octeti.
+  // Daca lipseste sau e stricata, actualizarea inscrierii in registru esueaza.
+  try {
+    const auth = fs.readFileSync(resolve(WK, 'mcp-registry-auth'), 'utf8').trim()
+    const m = auth.match(/^v=MCPv1; k=ed25519; p=([A-Za-z0-9+/]{43}=)$/)
+    if (!m || Buffer.from(m[1], 'base64').length !== 32) P('.well-known/mcp-registry-auth', `format greșit: „${auth.slice(0, 60)}" (aștept „v=MCPv1; k=ed25519; p=<cheie publică base64>")`)
+  } catch { P('.well-known/mcp-registry-auth', 'lipsește — registrul oficial MCP nu poate verifica domeniul') }
   // legaturile din antet
   const layout = fs.readFileSync(resolve(ROOT, 'app/layout.js'), 'utf8')
   if (!layout.includes('rel="ard" href="/.well-known/ard.json"')) P('app/layout.js', 'lipsește <link rel="ard" href="/.well-known/ard.json">')
