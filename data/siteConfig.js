@@ -9,6 +9,7 @@
 
 import { ANSAMBLURI_ACTIVE } from '@/data/ansambluri'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
+import { ECHIPA } from '@/data/echipa'
 
 // ── Constante fixe ──────────────────────────────────────────
 export const FOUNDING_YEAR = 2009
@@ -28,6 +29,10 @@ export const NR_FINALIZATE = ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Fi
 // Total proiecte livrate = portofoliu complet vandut + cele finalizate in vanzare
 // NU include proiectele in constructie
 export const NR_LIVRATE = NR_PORTOFOLIU + NR_FINALIZATE
+
+// Reprezentantii de vanzari din pagina /echipa (fara Biroul de informatii) — v462: „Despre noi"
+// spunea „șase", pagina echipei arata 7.
+export const NR_REPREZENTANTI = ECHIPA.filter(b => /^Reprezentant/i.test(b.rol || '')).length
 
 // Familii ajutate (valoare estimata, actualizata manual cand e cazul)
 export const NR_FAMILII = '4.000+'

@@ -67,7 +67,7 @@ const faqSchema = {
       name: 'În ce sectoare din București are Neofort IMO ansambluri active?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Neofort IMO are ansambluri rezidențiale active în Sectorul 2 (Moșilor-Eminescu, Eminescu-Viitorului, Tepeș Vodă), Sectorul 3 (Titan-Pallady, Piața Muncii, IOR) și Sectorul 6 (Militari, Gorjului, Iuliu Maniu).',
+        text: 'Neofort IMO are ansambluri rezidențiale active în Sectorul 2 (Moșilor-Eminescu, Eminescu-Viitorului, Colentina), Sectorul 3 (Titan-Pallady, Piața Muncii, IOR) și Sectorul 6 (Militari, Gorjului, Iuliu Maniu).',
       },
     },
     {

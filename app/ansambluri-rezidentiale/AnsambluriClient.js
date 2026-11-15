@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE } from '@/data/siteConfig'
 import { modelContext, inregistreazaToate, dupaRandare, aduInEcran, inLimita } from '@/lib/webmcp'
+import { etichetaStadiu } from '@/lib/stadiu'
 
 const STATUS_CFG = {
   finalizat:    { label: 'Finalizat',      bg: '#2d7a3a', color: '#ffffff' },
@@ -136,7 +137,7 @@ export default function AnsambluriClient({ initialQuery = '' }) {
         const lista = filtreaza(f)
         return inLimita(
           `${lista.length} din ${ANSAMBLURI_ACTIVE.length} ansambluri afișate acum pe pagină${f.pretActiv ? ` (preț „de la” până la ${new Intl.NumberFormat('ro-RO').format(f.pretMax)} €)` : ''}. Prețuri „de la”, în EUR + TVA 21%.`,
-          lista.map(a => `${a.nume} · ${a.zona}, ${a.sector} · ${a.dataPredare === 'Finalizat' ? 'Finalizat' : `În construcție, predare ${a.dataPredare}`} · de la ${formatPret(a.pretDeLa)} · ${a.tipuri.join(', ')} · /ansamblu-rezidential/${a.slug}`),
+          lista.map(a => `${a.nume} · ${a.zona}, ${a.sector} · ${etichetaStadiu(a)} · de la ${formatPret(a.pretDeLa)} · ${a.tipuri.join(', ')} · /ansamblu-rezidential/${a.slug}`),
           lista.length ? '' : 'Niciun ansamblu nu corespunde; încearcă mai puține filtre.',
           'Adaugă un filtru.',
         )

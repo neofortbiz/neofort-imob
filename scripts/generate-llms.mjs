@@ -12,6 +12,8 @@ import { fileURLToPath } from 'url'
 import { dirname, resolve } from 'path'
 
 import { pretAfisatMinim } from '../lib/oferteSchema.js'
+import { textPredare } from '../lib/stadiu.js'
+import { GRUP_NEOFORT } from '../lib/grupNeofort.js'
 import { UNELTE as UNELTE_MCP } from '../lib/mcpUnelte.js'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
@@ -73,7 +75,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   const NR_LIVRATE = NR_PORTOFOLIU + NR_FINALIZATE
 
   let out = `# Neofort IMO — Imobiliare București\n\n`
-  out += `> Dezvoltator rezidențial din București din 2009. Apartamente noi în ansambluri rezidențiale, direct de la sursă, fără comision. ${NR_ACTIVE} ansambluri active, 76+ livrate. Actualizat: ${TODAY}.\n\n`
+  out += `> Consultanță, promovare și vânzări imobiliare în București din 2009. Apartamente noi în ansambluri rezidențiale dezvoltate în grupul Neofort (Neofort New Homes) și de dezvoltatori parteneri, la prețul dezvoltatorului, fără comision. ${NR_ACTIVE} ansambluri active, ${NR_LIVRATE}+ livrate. Actualizat: ${TODAY}.\n\n`
   out += `## Pagini principale\n`
   out += `- [Ansambluri rezidențiale active](${BASE}/ansambluri-rezidentiale): toate ansamblurile în vânzare\n`
   out += `- [Zone](${BASE}/zona): ansambluri pe zone și sectoare\n`
@@ -88,7 +90,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste ${ANI} ani de experiență și ${NR_LIVRATE}+ ansambluri livrate. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6.\n\n`
   out += `Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776\n`
   out += `Telefon: +40758090904\n`
-  out += `Email: info@neofort-biz.ro\n`
+  out += `Email: info@neofort-biz.ro (${GRUP_NEOFORT})\n`
   out += `Program: Luni-Vineri 10:00-18:00\n`
   out += `CUI: RO53874087\n`
   out += `Nr. Registrul Comerțului: J40/8972/2026\n`
@@ -106,7 +108,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
     out += `Etaje: ${a.etaje}\n`
     out += `Tipuri: ${a.tipuri.join(', ')}\n`
     out += `Pret de la: ${fmt(a.pretDeLa)}€ + TVA\n`
-    out += `Predare: ${a.dataPredare}\n`
+    out += `Predare: ${textPredare(a.dataPredare)}\n`
     out += `Adresa: ${a.adresa}\n`
     out += `Coordonate: ${a.coordonate.lat}, ${a.coordonate.lng}\n`
     out += `Broker: ${a.broker}, ${a.brokerTel}\n`
@@ -200,7 +202,7 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   out += `Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste ${ANI} ani de experiență și ${NR_LIVRATE}+ ansambluri livrate. ${NR_ACTIVE} ansambluri active în Sectoarele 2, 3 și 6.\n\n`
   out += `Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776\n`
   out += `Telefon: +40758090904\n`
-  out += `Email: info@neofort-biz.ro\n`
+  out += `Email: info@neofort-biz.ro (${GRUP_NEOFORT})\n`
   out += `Program: Luni-Vineri 10:00-18:00\n`
   out += `CUI: RO53874087\n`
   out += `Nr. Registrul Comerțului: J40/8972/2026\n`
@@ -225,7 +227,7 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
     out += `Etaje: ${a.etaje}\n`
     out += `Tipuri: ${a.tipuri.join(', ')}\n`
     out += `Pret de la: ${fmt(a.pretDeLa)}€ + TVA\n`
-    out += `Predare: ${a.dataPredare}\n`
+    out += `Predare: ${textPredare(a.dataPredare)}\n`
     out += `Adresa: ${a.adresa}\n`
     out += `Coordonate: ${a.coordonate.lat}, ${a.coordonate.lng}\n`
     out += `Broker: ${a.broker}, ${a.brokerTel}\n`

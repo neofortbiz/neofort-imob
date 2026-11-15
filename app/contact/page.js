@@ -1,6 +1,7 @@
 import { GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { GRUP_NEOFORT } from '@/lib/grupNeofort'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -88,6 +89,10 @@ export default function ContactPage() {
                     </svg>
                     Office
                   </a>
+                  {/* v462: de ce adrese @neofort-biz.ro — explicatia vine din lib/grupNeofort.js */}
+                  <p className="mt-3 text-[11px] text-gray-500 leading-relaxed">
+                    <span className="font-medium text-gray-700">Despre adresele @neofort-biz.ro: </span>{GRUP_NEOFORT}
+                  </p>
                 </div>
               </div>
 

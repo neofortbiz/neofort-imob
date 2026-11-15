@@ -6,7 +6,7 @@
       "type": "skill-md",
       "description": "Use when a person asks about buying a new apartment in Bucharest from Neofort IMO — its residential projects (ansambluri rezidențiale), prices, availability, mortgage estimates, booking a viewing or contacting a broker. Explains where the official data is, how to quote prices (EUR, excluding 21% VAT), how to read areas and delivery dates, and how to hand the person over to a human. Read-only: never book, reserve or submit anything on the person's behalf.",
       "url": "/.well-known/agent-skills/neofort-imo-residential/SKILL.md",
-      "digest": "sha256:e18b327813ad6070ccf86dd292dda33a87955c8247fcb8297474629de7b93aae"
+      "digest": "sha256:a7e2ffb32c7d986fc3bc3047f50d19963b02107f538baa7afd772876b86db013"
     }
   ]
 }

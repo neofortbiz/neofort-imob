@@ -1168,6 +1168,184 @@ try {
 }
 
 // ────────────────────────────────────────────────────────────
+// 24. STADIUL PROIECTELOR — o singura formulare, niciun text care sa-l contrazica (v462)
+//   a) Niciun fisier nu pune `dataPredare` direct intr-un text: trece prin lib/stadiu.js. Pana la v461
+//      „In curand" aparea in trei feluri („Lansare în curând", „În construcție", „Predare In curand").
+//   b) Un proiect care NU e 'Finalizat' nu are voie sa scrie despre sine „finalizat", „disponibil
+//      imediat" sau „predat la cheie" (v461: N44, N42, N28, N49 o faceau — raportul de audit agentic).
+//      Exceptii: substantivul „finalizare" (viitor), comparatii cu alte proiecte („proiectelor noi
+//      finalizate") si fraze cu link spre alt ansamblu (ex. N50 Faza 2 → Faza 1, finalizata).
+//   c) Acelasi lucru in articolele de blog: o fraza care numeste un proiect in constructie nu-l poate
+//      numi finalizat (fraza care numeste si un proiect finalizat e lasata in pace).
+// ────────────────────────────────────────────────────────────
+try {
+  // a) cod
+  const surse = []
+  const strange = d => {
+    for (const f of fs.readdirSync(resolve(ROOT, d), { withFileTypes: true })) {
+      const c = `${d}/${f.name}`
+      if (f.isDirectory()) { if (!['node_modules', '.next'].includes(f.name)) strange(c) }
+      else if (/\.(m?js|jsx)$/.test(f.name)) surse.push(c)
+    }
+  }
+  for (const d of ['app', 'components', 'lib', 'scripts']) strange(d)
+  const DIRECT = /\$\{[^}]*\bdataPredare\s*\}|\{\s*[\w.]*\bdataPredare\s*\}|\+\s*[\w.]*\bdataPredare\b/
+  for (const f of surse) {
+    if (f === 'lib/stadiu.js' || f === 'scripts/audit-continut.mjs') continue
+    fs.readFileSync(resolve(ROOT, f), 'utf8').split('\n').forEach((l, i) => {
+      if (DIRECT.test(l)) P(f, `linia ${i + 1}: dataPredare scris direct în text — folosește lib/stadiu.js (textPredare / termenPredare / etichetaStadiu)`)
+    })
+  }
+
+  // b) datele proiectelor in constructie
+  const AFIRMA = /disponibil[ăe]? imediat|\bfinalizat[ăe]?\b|predat la cheie|lansare (în|in) curând/i
+  const COMPARATIE = /proiect\w*\s+(noi\s+)?finalizat/i
+  const fraze = t => String(t).split(/(?<=[.!?])\s+|\n+/)
+  const cuLinkSpreAltAnsamblu = (fr, slug) => [...fr.matchAll(/\]\(\/ansamblu-rezidential\/([^)\s#]+)/g)].some(m => m[1] !== slug)
+  for (const a of ANSAMBLURI_ACTIVE) {
+    if (a.dataPredare === 'Finalizat') continue
+    for (const [camp, v] of Object.entries(a)) {
+      if (['apartamente', 'imagini', 'puncteInteres', 'coordonate', 'parcare', 'dotari'].includes(camp)) continue
+      const text = typeof v === 'string' ? v : JSON.stringify(v ?? '')
+      for (const fr of fraze(text)) {
+        if (AFIRMA.test(fr) && !COMPARATIE.test(fr) && !cuLinkSpreAltAnsamblu(fr, a.slug)) {
+          P(`${a.nume} (${camp})`, `proiectul e în construcție (${a.dataPredare}), dar textul spune: „${fr.trim().slice(0, 110)}"`)
+        }
+      }
+    }
+  }
+
+  // c) blog: numerele proiectelor in constructie care NU sunt folosite si de un proiect finalizat
+  const nrFinalizate = new Set(ANSAMBLURI_ACTIVE.filter(a => a.dataPredare === 'Finalizat').map(a => a.numar))
+  const nrConstructie = new Set(ANSAMBLURI_ACTIVE.filter(a => a.dataPredare !== 'Finalizat' && !nrFinalizate.has(a.numar)).map(a => a.numar))
+  for (const art of Object.values(ARTICOLE || {})) {
+    const text = JSON.stringify([art.descriere, art.peScurt, art.sectiuni])
+    for (const fr of fraze(text.replace(/\\n/g, '\n'))) {
+      const nr = [...fr.matchAll(/Neofort (\d+)\b/g)].map(m => Number(m[1]))
+      if (!nr.some(n => nrConstructie.has(n)) || nr.some(n => nrFinalizate.has(n))) continue
+      if (AFIRMA.test(fr) && !COMPARATIE.test(fr)) P(`blog „${art.titlu.slice(0, 50)}"`, `frază care numește un proiect în construcție drept finalizat: „${fr.trim().slice(0, 110)}"`)
+    }
+  }
+} catch (err) {
+  P('stadiu proiecte', `nu poate fi verificat: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 25. ZONELE ACTIVE din fraza de pe prima pagina (v462)
+//   Fraza „Sectorul 2 (…), Sectorul 3 (…) și Sectorul 6 (…)" e scrisa de mana in app/page.js (JSON-LD)
+//   si in app/HomePage.js (FAQ vizibil). v461: numea Tepeș Vodă (niciun proiect activ acolo) si lipsea
+//   Colentina (Neofort 10). Regula: fiecare zona numita are un proiect activ in sectorul ei, fiecare
+//   proiect activ e acoperit de o zona numita, iar cele doua fisiere spun acelasi lucru.
+// ────────────────────────────────────────────────────────────
+try {
+  const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+  const { zonaLabel } = await import(resolve(ROOT, 'lib/zoneLabel.js'))
+  const repere = a => [a.zona, a.nume, ...(a.zone || []).filter(z => !z.startsWith('sector-')).map(z => zonaLabel(z, a.zona))].map(norm)
+  const sePotriveste = (zona, a) => repere(a).some(r => r.includes(norm(zona)))
+  const fraze = {}
+  for (const f of ['app/page.js', 'app/HomePage.js']) {
+    const t = fs.readFileSync(resolve(ROOT, f), 'utf8')
+    const m = t.match(/Sectorul \d \([^)]*\)(?:, Sectorul \d \([^)]*\))* și Sectorul \d \([^)]*\)/)
+    if (!m) { P(f, 'nu găsesc fraza cu zonele active pe sectoare'); continue }
+    fraze[f] = m[0]
+    const grupe = [...m[0].matchAll(/Sectorul (\d) \(([^)]*)\)/g)].map(g => ({ sector: `Sector ${g[1]}`, zone: g[2].split(',').map(z => z.trim()) }))
+    for (const g of grupe) {
+      for (const z of g.zone) {
+        if (!ANSAMBLURI_ACTIVE.some(a => a.sector === g.sector && sePotriveste(z, a))) P(f, `zona „${z}" (${g.sector}) nu are niciun proiect activ`)
+      }
+    }
+    for (const a of ANSAMBLURI_ACTIVE) {
+      if (!grupe.some(g => g.sector === a.sector && g.zone.some(z => sePotriveste(z, a)))) P(f, `${a.nume} (${a.zona}, ${a.sector}) nu e acoperit de nicio zonă din frază`)
+    }
+  }
+  if (fraze['app/page.js'] && fraze['app/HomePage.js'] && fraze['app/page.js'] !== fraze['app/HomePage.js']) P('prima pagină', 'fraza cu zonele diferă între app/page.js (JSON-LD) și app/HomePage.js (FAQ vizibil)')
+} catch (err) {
+  P('zone active', `nu pot fi verificate: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 26. DISTANTA PANA LA METROU din texte = cea din puncteInteres (v462)
+//   v461: N83 spunea „metrou la 20 m" (si „practic la ușa blocului"); real: 250 m. N84 spunea „Metrou
+//   Nicolae Teclu la 1,6 km" in descriere, iar punctele de interes 1,1 km. Regula: o distanta in metri
+//   sau km legata de cuvantul „metrou", intr-un text al proiectului sau intr-o fraza de blog / pagina
+//   /apartamente care numeste un singur proiect, trebuie sa fie una dintre distantele de metrou din
+//   puncteInteres ale proiectului. Frazele cu link spre alt ansamblu sunt sarite (vorbesc de celalalt).
+// ────────────────────────────────────────────────────────────
+try {
+  const metri = s => { const m = String(s).match(/^(\d+(?:[.,]\d+)?)\s*(km|m)\b/i); if (!m) return null; const v = Number(m[1].replace(',', '.')); return m[2].toLowerCase() === 'km' ? Math.round(v * 1000) : v }
+  const RE = /metrou[^.;\n]{0,45}?\bla\s+(?:aproximativ\s+|doar\s+|circa\s+)?(\d+(?:[.,]\d+)?)\s*(?:de\s+)?(m|metri|km)\b|(\d+(?:[.,]\d+)?)\s*(?:de\s+)?(m|metri)\s+(?:de\s+|până la\s+)?(?:\w+\s+){0,2}metrou/gi
+  const MIN = /metrou[^.;\n]{0,45}?\bla\s+(\d+)\s+(?:de\s+)?min(?:ute)?\s+pe jos|\b(\d+)\s+(?:de\s+)?min(?:ute)?\s+pe jos\s+(?:de|la|până la)\s+(?:\w+\s+){0,1}metrou/gi
+  const fraze = t => String(t).split(/(?<=[.!?])\s+|\n+/)
+  const verifica = (fr, a, unde) => {
+    const ok = new Set((a.puncteInteres || []).filter(p => p.tip === 'metrou').map(p => metri(p.distanta)).filter(v => v != null))
+    if (!ok.size) return
+    for (const m of fr.matchAll(RE)) {
+      const v = Number((m[1] || m[3]).replace(',', '.')) * (/km/i.test(m[2] || '') ? 1000 : 1)
+      if (!ok.has(v)) P(unde, `${a.nume}: „${m[0]}" — în punctele de interes metroul e la ${[...ok].map(x => x >= 1000 ? `${String(x / 1000).replace('.', ',')} km` : `${x} m`).join(' / ')}`)
+    }
+    // minutele pe jos (v462: N84 avea 11, 16 si 20 de minute in texte diferite)
+    const min = new Set((a.puncteInteres || []).filter(p => p.tip === 'metrou').map(p => (String(p.distanta).match(/(\d+)\s*min pe jos/) || [])[1]).filter(Boolean).map(Number))
+    if (min.size) for (const m of fr.matchAll(MIN)) {
+      const v = Number(m[1] || m[2])
+      if (!min.has(v)) P(unde, `${a.nume}: „${m[0]}" — în punctele de interes: ${[...min].join(' / ')} min pe jos`)
+    }
+  }
+  for (const a of ANSAMBLURI_ACTIVE) for (const [k, v] of Object.entries(a)) {
+    if (['puncteInteres', 'apartamente', 'imagini'].includes(k)) continue
+    for (const fr of fraze(typeof v === 'string' ? v : JSON.stringify(v ?? ''))) {
+      if (/\]\(\/ansamblu-rezidential\//.test(fr) && !fr.includes(a.slug)) continue
+      verifica(fr, a, `${a.slug} (${k})`)
+    }
+  }
+  const unic = new Map(); for (const a of ANSAMBLURI_ACTIVE) unic.set(a.numar, unic.has(a.numar) ? null : a)
+  const surse = [['blog', JSON.stringify(Object.values(ARTICOLE || {})).replace(/\\n/g, '\n')], ['app/apartamente/[tip]/page.js', fs.readFileSync(resolve(ROOT, 'app/apartamente/[tip]/page.js'), 'utf8')]]
+  for (const [nume, text] of surse) for (const fr of fraze(text)) {
+    const nr = [...new Set([...fr.matchAll(/Neofort (\d+)\b/g)].map(m => Number(m[1])))]
+    if (nr.length === 1 && unic.get(nr[0])) verifica(fr, unic.get(nr[0]), nume)
+  }
+} catch (err) {
+  P('distanțe metrou', `nu pot fi verificate: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 27. „DE LA X €" FARA CONDITIE in titlurile si descrierile articolelor (v462)
+//   v461: doua seoDesc spuneau „prețuri de la 62.114€" — pretul N84 cu avans 45% — desi in zona existau
+//   57.336€ (N84, avans 90%) si 61.775€ (N44). Un „de la" fara conditie e citit de agenti ca minimul.
+//   Regula: in titlu / seoTitle / seoDesc / descriere, un „de la X €" fara „avans" sau „promo" imediat dupa
+//   trebuie sa fie pretul „de la" al unui ansamblu activ (pretDeLa).
+// ────────────────────────────────────────────────────────────
+try {
+  const deLa = new Set(ANSAMBLURI_ACTIVE.map(a => a.pretDeLa))
+  for (const art of Object.values(ARTICOLE || {})) {
+    for (const k of ['titlu', 'seoTitle', 'seoDesc', 'descriere']) {
+      for (const x of String(art[k] || '').matchAll(/de la (\d{1,3}(?:\.\d{3})+)\s*(€|EUR|euro)([^.,;]{0,25})/gi)) {
+        const n = Number(x[1].replace(/\./g, ''))
+        if (!/avans|promo/i.test(x[3]) && !deLa.has(n)) P(`blog „${art.titlu.slice(0, 50)}" (${k})`, `„${x[0].trim()}" — nu e prețul „de la" al niciunui ansamblu activ; adaugă condiția (ex. „cu avans 45%") sau folosește minimul real`)
+      }
+    }
+  }
+} catch (err) {
+  P('prețuri „de la" în articole', `nu pot fi verificate: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 28. GRUPUL NEOFORT — explicatia adreselor @neofort-biz.ro, aceeasi peste tot (v462)
+//   Sursa: lib/grupNeofort.js. Trebuie sa ajunga la: /contact (vizibil), llms.txt, get_contact (MCP) si,
+//   in engleza, SKILL.md (scris de mana — de aceea se compara textul exact).
+// ────────────────────────────────────────────────────────────
+try {
+  const { GRUP_NEOFORT, GRUP_NEOFORT_EN } = await import(resolve(ROOT, 'lib/grupNeofort.js'))
+  const citeste = f => fs.readFileSync(resolve(ROOT, f), 'utf8')
+  if (!/\{GRUP_NEOFORT\}/.test(citeste('app/contact/page.js'))) P('app/contact/page.js', 'nu afișează explicația grupului Neofort (GRUP_NEOFORT) lângă e-mail')
+  if (!/\$\{GRUP_NEOFORT\}/.test(citeste('scripts/generate-llms.mjs'))) P('scripts/generate-llms.mjs', 'llms.txt nu conține explicația grupului Neofort')
+  if (!/despre_email: GRUP_NEOFORT/.test(citeste('lib/mcpUnelte.js'))) P('lib/mcpUnelte.js', 'get_contact nu trimite explicația grupului Neofort (despre_email)')
+  const skill = citeste('public/.well-known/agent-skills/neofort-imo-residential/SKILL.md').replace(/\r\n?/g, '\n')
+  if (!skill.includes(GRUP_NEOFORT_EN)) P('SKILL.md', 'explicația grupului Neofort diferă de GRUP_NEOFORT_EN din lib/grupNeofort.js')
+} catch (err) {
+  P('grupul Neofort', `nu poate fi verificat: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
 if (!probleme.length) {

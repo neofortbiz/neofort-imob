@@ -13,6 +13,7 @@ import AnsambluVandut from '@/components/AnsambluVandut'
 import MarcheazaAcces from '@/components/MarcheazaAcces'
 import { oferteAnsamblu, textSuprafete } from '@/lib/oferteSchema'
 import { faqAnsamblu } from '@/lib/faqAnsamblu'
+import { textPredare } from '@/lib/stadiu'
 
 const BASE = 'https://www.neofort.ro'
 const TEL = '0758090904'
@@ -65,7 +66,7 @@ export async function generateMetadata({ params }) {
   const title = a.seoTitle ||
     `Ansamblu Rezidențial ${a.zona} — ${a.nume}`
   const description = a.seoDescription ||
-    `${a.tipuri.join(', ')} în ${a.zona}, ${a.sector} București. Prețuri de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA. ${a.dataPredare !== 'Finalizat' ? `Predare ${a.dataPredare}.` : 'Finalizat.'} ${a.puncteInteres[0] ? `${a.puncteInteres[0].nume} la ${a.puncteInteres[0].distanta}.` : ''}`
+    `${a.tipuri.join(', ')} în ${a.zona}, ${a.sector} București. Prețuri de la ${new Intl.NumberFormat('ro-RO').format(a.pretDeLa)}€+TVA. ${a.dataPredare !== 'Finalizat' ? `Predare ${textPredare(a.dataPredare)}.` : 'Finalizat.'} ${a.puncteInteres[0] ? `${a.puncteInteres[0].nume} la ${a.puncteInteres[0].distanta}.` : ''}`
 
   return {
     title: { absolute: title },
@@ -228,7 +229,7 @@ export default function AnsambluPage({ params }) {
               <div>
                 <div className="flex flex-wrap gap-2 mb-3">
                   <div className={`inline-flex items-center gap-1.5 text-[10px] font-medium px-2.5 py-1 rounded-full ${sc.bg} ${sc.text}`}>
-                    {a.dataPredare && a.dataPredare !== 'Finalizat' ? 'În construcție' : sc.label}{a.dataPredare !== 'Finalizat' && ` · Predare ${a.dataPredare}`}
+                    {a.dataPredare && a.dataPredare !== 'Finalizat' ? 'În construcție' : sc.label}{a.dataPredare !== 'Finalizat' && ` · Predare ${textPredare(a.dataPredare)}`}
                   </div>
                   {hasPromo(a) && (
                     <div className="inline-flex items-center gap-1 text-[10px] font-medium px-2.5 py-1 rounded-full text-white"

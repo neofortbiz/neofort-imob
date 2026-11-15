@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
+import { textPredare } from '@/lib/stadiu'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -137,7 +138,7 @@ export default function PromotiiPage() {
                         <span className="text-[10px] text-gray-500">{a.zona}</span>
                       </div>
                       <h3 className="text-sm font-medium text-gray-900 mb-1">{a.nume}</h3>
-                      <p className="text-xs text-gray-500 mb-3">{a.sector} · Predare {a.dataPredare}</p>
+                      <p className="text-xs text-gray-500 mb-3">{a.sector} · Predare {textPredare(a.dataPredare)}</p>
                       <div className="flex items-baseline justify-between">
                         <span className="text-xs text-gray-500">De la</span>
                         <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(a.pretDeLa)}</span>

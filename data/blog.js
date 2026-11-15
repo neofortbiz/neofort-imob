@@ -282,7 +282,7 @@ Concluzia: regimul hotelier merită când apartamentul are o locație care ține
         h2: `Ce verifici dacă vrei să cumperi un apartament pentru regim hotelier`,
         continut: `Regulile din 2026 mută o parte din decizie înainte de cumpărare. Dacă planul tău e regimul hotelier, verifică:
 
-**1. Distanța reală până la metrou.** Turiștii aleg după timpul până în centru. O stație de metrou la câteva minute de mers pe jos ține ocuparea sus tot anul. În ansamblurile Neofort IMO, de exemplu, [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) este la 20 m de metroul Anghel Saligny (M3), [Neofort 50 Titan Parc IOR Faza 2](/ansamblu-rezidential/neofort-50-titan-parc-ior) la 300 m de metroul Costin Georgian (M1), iar [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) la 300 m de metroul Piața Muncii (M1). Termenele de predare și tipologiile disponibile sunt pe paginile proiectelor.
+**1. Distanța reală până la metrou.** Turiștii aleg după timpul până în centru. O stație de metrou la câteva minute de mers pe jos ține ocuparea sus tot anul. În ansamblurile Neofort IMO, de exemplu, [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) este la 250 m de metroul Anghel Saligny (M3), [Neofort 50 Titan Parc IOR Faza 2](/ansamblu-rezidential/neofort-50-titan-parc-ior) la 300 m de metroul Costin Georgian (M1), iar [Neofort 42 Piața Muncii](/ansamblu-rezidential/neofort-42-piata-muncii) la 300 m de metroul Piața Muncii (M1). Termenele de predare și tipologiile disponibile sunt pe paginile proiectelor.
 
 **2. Tipologia.** Garsonierele și apartamentele de 2 camere se închiriază cel mai des în regim hotelier. Peste 3 camere, ocuparea scade și costurile de curățenie cresc.
 
@@ -1917,7 +1917,7 @@ Chirie documentată (contract ANAF + extras cont 12 luni): acceptată 70-80%. Di
   'apartamente-de-vanzare-titan-pallady-teclu': {
     titlu: `Apartamente Noi Titan–Pallady și Teclu 2026`,
     seoTitle: 'Apartamente Noi Titan–Pallady și Teclu 2026',
-    seoDesc: 'Apartamente de vânzare în Titan, Theodor Pallady și Nicolae Teclu: 6 ansambluri active Neofort IMO, prețuri de la 62.114€+TVA, metrou la 20m–11 minute.',
+    seoDesc: 'Apartamente de vânzare în Titan, Pallady și Teclu: 6 ansambluri active Neofort IMO, prețuri de la 57.336€+TVA, metrou M3 între 3 și 25 de minute pe jos.',
     peScurt: [
       'Titan, Theodor Pallady și Nicolae Teclu sunt trei zone distincte, conectate, din Sectorul 3 al Bucureștiului — nu denumiri interschimbabile pentru același loc.',
       'Neofort IMO are ansambluri rezidențiale active în toate trei, cu acces la metroul M3 (stațiile Anghel Saligny și Nicolae Teclu).',
@@ -1965,7 +1965,7 @@ Garsoniere și studiouri (35–56 mp):
 Prețul de start pentru o garsonieră nouă de calitate în zonă este de 61.775 EUR (TVA exclus), la avans 20%. Nu există oferte serioase sub 60.000 EUR în proiecte cu metrou accesibil și dotări complete — orice preț sub acest prag merită analizat cu atenție la specificații și localizare.
 
 Apartamente 2 camere (47–69 mp):
-Cea mai căutată categorie din zonă. Prețurile variază între 62.114 EUR (avans 45%, apartament în construcție la Neofort 84) și 191.960 EUR pentru un 3 camere cu terasă de 157,87 mp, finalizat, la Neofort 44. La avans 20%, intervalul real este 66.892 EUR–120.000 EUR în funcție de suprafață, etaj și proiect. Media pentru un 2 camere de 55–60 mp în bloc nou cu metrou la 10 minute: 90.000–105.000 EUR.
+Cea mai căutată categorie din zonă. Prețurile variază între 62.114 EUR (avans 45%, apartament în construcție la Neofort 84) și 191.960 EUR pentru un 3 camere cu terasă de 157,87 mp, la Neofort 44. La avans 20%, intervalul real este 66.892 EUR–120.000 EUR în funcție de suprafață, etaj și proiect. Media pentru un 2 camere de 55–60 mp în bloc nou cu metrou la 10 minute: 90.000–105.000 EUR.
 
 Apartamente 3 camere (74–95 mp):
 Intervalul de preț este 102.000 EUR–175.000 EUR, cu cele mai accesibile oferte la proiectele în construcție cu avans 45%. Un 3 camere de 80 mp în bloc nou finalizat, zona Teclu, costă în medie 130.000–150.000 EUR la avans 20%.
@@ -1987,10 +1987,10 @@ Comparație cu piața: aceste prețuri sunt cu 35–50% sub prețul pe mp al apa
         continut: `Neofort IMO are în prezent 6 proiecte active în zona Titan–Pallady–Teclu, fiecare cu o identitate distinctă ca localizare, tipologii și prețuri. Vânzare directă de la sursă, fără comision de agenție.
 
 [Neofort 84 Titan Pallady](/ansamblu-rezidential/neofort-84-titan-pallady) — bloc P+10 în construcție, predare T1 2027
-Cea mai diversificată ofertă din zona Pallady: 10 tipuri de apartamente de 2, 3 și 4 camere, de la 47,78 mp până la 175,58 mp cu terasă panoramică la etajul 10. Prețuri promoționale (avans 45%) de la 62.114 EUR — cel mai mic preț de intrare pentru un apartament de 2 camere nou în zona Pallady. Metrou Nicolae Teclu la 11 minute pe jos, IKEA Pallady la 8 minute pe jos, Auchan Titan la 3 minute cu mașina. Structură beton armat C25/30, tâmplărie PVC Salamander, încălzire în pardoseală, centrală termică proprie. Parcare exterioară de la 6.000 EUR, interioară de la 8.500 EUR.
+Cea mai diversificată ofertă din zona Pallady: 10 tipuri de apartamente de 2, 3 și 4 camere, de la 47,78 mp până la 175,58 mp cu terasă panoramică la etajul 10. Prețuri promoționale (avans 45%) de la 62.114 EUR — cel mai mic preț de intrare pentru un apartament de 2 camere nou în zona Pallady. Metrou Nicolae Teclu la 20 de minute pe jos, IKEA Pallady la 8 minute pe jos, Auchan Titan la 3 minute cu mașina. Structură beton armat C25/30, tâmplărie PVC Salamander, încălzire în pardoseală, centrală termică proprie. Parcare exterioară de la 6.000 EUR, interioară de la 8.500 EUR.
 
 [Neofort 83 Titan Pallady](/ansamblu-rezidential/neofort-83-titan-pallady) — 3 corpuri D+P+3E, predare în curând
-Cel mai bine conectat la metrou dintre toate proiectele active Neofort din zonă: Metrou Anghel Saligny (M3) la 20 de metri. Ofertă completă: garsonieră 53,70 mp de la 93.423 EUR, 2 camere 70,18 mp de la 129.833 EUR, 3 camere 94,04 mp de la 173.974 EUR, 4 camere 100,63 mp de la 186.166 EUR — toate la avans 20%, TVA exclus. Dotări superioare: centrală proprie în condensare, fațadă ventilată cu izolație din vată minerală bazaltică (incombustibilă, clasa A1), tâmplărie Salamander negru structurat cu geam tripan, obiecte sanitare suspendate, kit aer condiționat, ușă metalică multipunct antiefracție, lift silențios.
+Cel mai bine conectat la metrou dintre toate proiectele active Neofort din zonă: Metrou Anghel Saligny (M3) la 250 de metri. Ofertă completă: garsonieră 53,70 mp de la 93.423 EUR, 2 camere 70,18 mp de la 129.833 EUR, 3 camere 94,04 mp de la 173.974 EUR, 4 camere 100,63 mp de la 186.166 EUR — toate la avans 20%, TVA exclus. Dotări superioare: centrală proprie în condensare, fațadă ventilată cu izolație din vată minerală bazaltică (incombustibilă, clasa A1), tâmplărie Salamander negru structurat cu geam tripan, obiecte sanitare suspendate, kit aer condiționat, ușă metalică multipunct antiefracție, lift silențios.
 
 [Neofort 56 Titan Pallady Faza 3](/ansamblu-rezidential/neofort-56-pallady-titan-teclu) — 7 corpuri D+P+3E, predare T1 2028
 A treia fază a unui ansamblu ale cărui prime două faze sunt vândute integral și locuite — pot fi vizitate, ca să vezi pe viu finisajele și confortul. Garsoniere, 2, 3 și 4 camere, cu balcon sau terasă proprie, de la 70.802 EUR + TVA, plus parc privat de 4.500 m².
@@ -2013,7 +2013,7 @@ Avantajul comun al tuturor celor 6 proiecte: vânzare directă de la Neofort IMO
 
 Harta accesului la metrou pentru proiectele active Neofort:
 
-Neofort 83 — Metrou Anghel Saligny (M3) la 20m. Practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întreg portofoliul Neofort activ și dintre cele mai bune din zona Pallady în general. Metrou Teclu la 17 minute pe jos.
+Neofort 83 — Metrou Anghel Saligny (M3) la 250 m, circa 3 minute pe jos. Este cea mai scurtă distanță față de metrou din întreg portofoliul Neofort activ și dintre cele mai bune din zona Pallady în general. Metrou Teclu la 17 minute pe jos.
 
 Neofort 82 Titan Pallady și Neofort 28 Teclu — în zona stației Nicolae Teclu, la 1,1 km, 3 minute cu mașina. Stația Nicolae Teclu (M3) asigură accesul direct spre centru: Dristor în 3 minute și Piața Unirii în 6 minute, fără schimb de linie. Pentru Piața Universității se schimbă la Piața Unirii pe M2, iar pentru Piața Muncii la Nicolae Grigorescu sau Dristor pe M1.
 
@@ -2021,7 +2021,7 @@ Neofort 56 Faza 3 — Metrou Nicolae Teclu (M3) la 1,2 km, 15 minute pe jos; Ang
 
 Neofort 44 — Metrou Nicolae Teclu la 25 de minute pe jos sau Anghel Saligny la 7 minute cu mașina.
 
-Neofort 84 — Metrou Nicolae Teclu la 1,1 km, 16 minute pe jos. Nu cel mai aproape din portofoliu, dar compensat prin cel mai mare număr de tipologii disponibile și prețul promoțional de la 62.114 EUR.
+Neofort 84 — Metrou Nicolae Teclu la 1,6 km, 20 de minute pe jos. Nu cel mai aproape din portofoliu, dar compensat prin cel mai mare număr de tipologii disponibile și prețul promoțional de la 62.114 EUR.
 
 Ruta pe metrou M3 din zona Teclu–Pallady, fără schimb de linie:
 • Dristor: 1–2 minute
@@ -2155,7 +2155,7 @@ Da, pentru proiectele cu apartamente model disponibile. Contactați brokerul res
 Prețul de start pentru un apartament nou de 2 camere în zona Titan–Pallady–Teclu este 62.114 EUR (TVA exclus) la Neofort 84, cu avans 45%. La avans 20%, prețul de intrare este de 61.775 EUR pentru o garsonieră la Neofort 44. Sunt cele mai accesibile prețuri pentru apartamente noi cu acces la metrou în București.
 
 Care ansamblu din Titan–Pallady–Teclu este cel mai aproape de metrou?
-Neofort 83 Titan Pallady are Metroul Anghel Saligny (M3) la 20 de metri — practic la ușa blocului. Este cea mai scurtă distanță față de metrou din întregul portofoliu Neofort activ. Neofort 82 Titan Pallady și Neofort 28 Teclu se află și ele în proximitatea stației Nicolae Teclu.
+Neofort 83 Titan Pallady are Metroul Anghel Saligny (M3) la 250 de metri — circa 3 minute pe jos. Este cea mai scurtă distanță față de metrou din întregul portofoliu Neofort activ. Neofort 82 Titan Pallady și Neofort 28 Teclu se află și ele în proximitatea stației Nicolae Teclu.
 
 Pot cumpăra un apartament în Titan–Pallady prin programul Noua Casă?
 Da, pentru proiectele eligibile unde prețul total (TVA inclus) nu depășește plafonul programului. Neofort IMO colaborează cu toate băncile majore (BCR, BRD, Raiffeisen, ING, UniCredit, CEC Bank) și facilitează gratuit procesul de documentație pentru Noua Casă.
@@ -2176,7 +2176,7 @@ Da. În zona Titan–Pallady, Neofort 82 Titan Pallady și Neofort 50 Titan Parc
 
 Dacă vrei prețul cel mai mic de intrare: Neofort 84 cu avans 45% pornește de la 62.114 EUR pentru un 2 camere. Potrivit pentru cei cu capital disponibil pentru avans mare și orizont de 12–15 luni până la predare (T1 2027).
 
-Dacă vrei metroul la ușă (literalmente): Neofort 83, cu Metrou Anghel Saligny la 20m. Prețul de start este 93.423 EUR pentru garsonieră la avans 20%. Fără echivalent în portofoliu ca proximitate față de metrou.
+Dacă vrei metroul cel mai aproape: Neofort 83, cu Metrou Anghel Saligny la 250 m. Prețul de start este 93.423 EUR pentru garsonieră la avans 20%. Fără echivalent în portofoliu ca proximitate față de metrou.
 
 Dacă vrei un apartament finalizat, disponibil imediat: Neofort 82 și Neofort 50 Faza 1 sunt opțiunile pentru cei care nu vor să aștepte. Dacă vrei să vezi calitatea înainte să cumperi din construcție: Fazele 1 și 2 ale Neofort 56, livrate și locuite, pot fi vizitate, iar Faza 3 pornește de la 70.802 EUR + TVA.
 
@@ -3143,7 +3143,7 @@ Da, dar cu condiții mai stricte. Din 2026, fiecare apartament listat are nevoie
   'merita-apartament-titan-pallady-2026': {
     titlu: `Merită Apartament în Titan–Pallady în 2026?`,
     seoTitle: 'Merită Apartament în Titan–Pallady în 2026?',
-    seoDesc: 'Analiză completă Titan–Pallady 2026: prețuri reale de la 62.114€, randament, avantaje și dezavantaje față de alte zone, pentru locuit sau investiție.',
+    seoDesc: 'Analiză completă Titan–Pallady 2026: prețuri reale de la 57.336€, randament, avantaje și dezavantaje față de alte zone, pentru locuit sau investiție.',
     peScurt: [
       'Titan–Pallady combină acces la metroul M3, parcuri (IOR), infrastructură matură și prețuri sub zonele centrale.',
       'Este o piață a vânzătorului în zonele cu metrou: cererea susține prețurile și lichiditatea la revânzare.',
@@ -3306,7 +3306,7 @@ Finanțarea realistă. Calculul trebuie să includă: prețul apartamentului + T
 Prețul de start este 62.114 EUR (TVA exclus) pentru un apartament de 2 camere la [Neofort 84](/ansamblu-rezidential/neofort-84-titan-pallady) cu avans 45%, sau 93.423 EUR pentru o garsonieră la [Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) cu avans 20%. Sunt cele mai accesibile prețuri pentru apartamente noi cu acces la metrou din București.
 
 Care ansamblu din Titan–Pallady are cel mai bun acces la metrou?
-[Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) are Metroul Anghel Saligny (M3) la 20 de metri — cel mai scurt acces la metrou din întreg portofoliul Neofort activ. Neofort 84 are Metroul Nicolae Teclu la 11 minute pe jos. Ambele sunt conectate la linia M3 care ajunge în centrul Bucureștiului în 6-8 minute.
+[Neofort 83](/ansamblu-rezidential/neofort-83-titan-pallady) are Metroul Anghel Saligny (M3) la 250 de metri — cel mai scurt acces la metrou din întreg portofoliul Neofort activ. Neofort 84 are Metroul Nicolae Teclu la 20 de minute pe jos. Ambele sunt conectate la linia M3 care ajunge în centrul Bucureștiului în 6-8 minute.
 
 Titan–Pallady este potrivit pentru prima locuință sau pentru investiție?
 Este potrivit pentru ambele. Pentru prima locuință: prețuri accesibile, metrou, infrastructură matură. Pentru investiție: randament brut 4,1% și apreciere capital +95% din 2020. Citește și [analiza completă a randamentului pe zone](/blog/randament-inchiriere-zone-bucuresti).
@@ -4447,7 +4447,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
     peScurt: [
       'Titan–Pallady (Sectorul 3) are metrou M3, Parcul IOR, IKEA și prețuri sensibil mai mici decât zonele centrale ale Bucureștiului.',
       'Neofort IMO construiește în zonă de peste 10 ani, cu mai multe ansambluri rezidențiale active simultan.',
-      'Distanțe reale la metrou: Neofort 83 la 20 de metri de Anghel Saligny, Neofort 56 Faza 3 la 15 minute și Neofort 84 la 16 minute pe jos de Nicolae Teclu.',
+      'Distanțe reale la metrou: Neofort 83 la 250 de metri de Anghel Saligny, Neofort 56 Faza 3 la 15 minute și Neofort 84 la 20 de minute pe jos de Nicolae Teclu.',
     ],
     tag: 'Zone', tagColor: '#0891b2',
     data: '25 Aprilie 2026', dataISO: '2026-04-25', dataModificata: '2026-10-13', citire: '8 min',
@@ -4483,9 +4483,9 @@ Lucrez în Neofort IMO pe [zona Titan–Pallady](/zona/titan-pallady) de 10 ani.
         continut: `Dacă trebuie să numesc un singur factor care a schimbat percepția despre Titan–Pallady, acela este metroul. Stația Nicolae Teclu pe linia M3 conectează zona direct cu centrul Capitalei în 15–20 de minute, fără depindere de traficul de suprafață.
 
 Distanțele de la principalele ansambluri Neofort IMO din zonă:
-• Neofort 83 (Titan–Pallady): 20 de metri de Metrou Anghel Saligny
+• Neofort 83 (Titan–Pallady): 250 de metri de Metrou Anghel Saligny
 • Neofort 56 Faza 3 (Titan–Pallady): 15 minute pe jos la Metrou Nicolae Teclu (1,2 km)
-• Neofort 84 (Titan–Pallady): 16 minute pe jos la Metrou Nicolae Teclu (1,1 km)
+• Neofort 84 (Titan–Pallady): 20 de minute pe jos la Metrou Nicolae Teclu (1,6 km)
 • Neofort 28 (Titan–Pallady): 3 minute cu mașina la Nicolae Teclu sau Anghel Saligny (1,1–1,2 km)
 • Neofort 44 (Titan–Pallady): 25 de minute pe jos la Nicolae Teclu, 7 minute cu mașina la Anghel Saligny
 
@@ -4543,13 +4543,13 @@ Cererea diasporei nu este un factor minor. În anumite perioade ale anului (în 
 
 Neofort 84 Titan–Pallady — în construcție, livrare estimată T1 2027. Apartamente de 2, 3 și 4 camere, prețuri de la 57.336 EUR + TVA la avans 90%. Rezervare cu 1.000 EUR. Metrou Nicolae Teclu la 16 minute pe jos.
 
-Neofort 83 Titan–Pallady — lansare în curând, garsoniere și apartamente de 2, 3 și 4 camere, la 20 de metri de Metrou Anghel Saligny.
+Neofort 83 Titan–Pallady — în construcție, predare în curând, garsoniere și apartamente de 2, 3 și 4 camere, la 250 de metri de Metrou Anghel Saligny.
 
 Neofort 56 Titan–Pallady Faza 3 — în construcție, predare T1 2028. Garsoniere, 2, 3 și 4 camere de la 70.802 EUR + TVA. Fazele 1 și 2, livrate și locuite, pot fi vizitate.
 
-Neofort 44 Titan–Pallady — lansare în curând, garsoniere și apartamente de 2 și 3 camere.
+Neofort 44 Titan–Pallady — în construcție, predare în curând, garsoniere și apartamente de 2 și 3 camere.
 
-Neofort 28 Titan–Pallady — lansare în curând, apartamente de 2 camere.
+Neofort 28 Titan–Pallady — în construcție, predare în curând, apartamente de 2 camere.
 
 Toate proiectele se predau la cheie, includ parcare disponibilă și beneficiază de consultanță juridică și bancară gratuită.
 
@@ -4584,7 +4584,7 @@ Privind 5 ani înainte, Titan–Pallady va fi o zonă semnificativ mai bine echi
 Combinația unică de metrou M3 accesibil, IKEA Pallady, Parcul IOR (110 hectare), prețuri cu 20-30% sub zonele centrale comparabile și un stoc de teren disponibil pentru construcție nouă a generat o cerere constant ridicată. Datele ANCPI confirmă cel mai mare ritm de tranzacții din Capitală în ultimii 4 ani.
 
 Care stație de metrou deserveș zona Titan–Pallady?
-Zona este deservită de stațiile Nicolae Teclu și Anghel Saligny de pe linia M3 (roșie). De la Nicolae Teclu: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute. Neofort 83 are Metroul Anghel Saligny la 20 de metri.
+Zona este deservită de stațiile Nicolae Teclu și Anghel Saligny de pe linia M3 (roșie). De la Nicolae Teclu: Piața Muncii în 3 minute, Piața Unirii în 6 minute, Piața Universității în 8 minute. Neofort 83 are Metroul Anghel Saligny la 250 de metri.
 
 Cu cât au crescut prețurile în Titan–Pallady față de 2020?
 Prețul mediu pe metru pătrat a crescut de la 1.050 EUR/mp în 2020 la ~2.050 EUR/mp în T1 2026 — o creștere de 95% în 6 ani, față de media orașului de 65-70%. Această supraperformanță de 25-30 puncte procentuale este susținută de investițiile în infrastructură și cererea din diasporă.

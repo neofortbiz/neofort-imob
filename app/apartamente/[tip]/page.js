@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_ACTIVE, formatPret, STATUS_CONFIG, hasPromo } from '@/data/ansambluri'
 import { pretAfisatMinim } from '@/lib/oferteSchema'
+import { textPredare } from '@/lib/stadiu'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -214,13 +215,13 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
     h1: 'Ansambluri Rezidențiale cu Metrou în București',
     descriere: 'Apartamente noi lângă metrou în București, în toate sectoarele active. Direct de la Neofort IMO, fără comision.',
     seoTitle: 'Ansambluri Rezidențiale cu Metrou București',
-    seoDesc: 'Apartamente noi lângă metrou în București: M3 Anghel Saligny (20m), M1 Costin Georgian (300m), M1 Piața Muncii (300m), M3 Păcii (550m). Neofort IMO, fără comision.',
+    seoDesc: 'Apartamente noi lângă metrou în București: M3 Anghel Saligny (250m), M1 Costin Georgian (300m), M1 Piața Muncii (300m), M3 Păcii (550m). Neofort IMO, fără comision.',
     ogDesc: 'Apartamente noi lângă metrou în București. Direct de la Neofort IMO, fără comision.',
     match: (tipuri, ansamblu) => ansamblu.puncteInteres?.some(p => p.tip === 'metrou'),
     faq: [
       {
         q: 'Ce ansambluri Neofort IMO sunt cel mai aproape de metrou?',
-        a: 'Neofort 83 Titan-Pallady: Metrou Anghel Saligny (M3) la 20 de metri — cel mai aproape de metrou din întregul portofoliu activ. Neofort 76: Metrou Păcii (M3) la 550m. Neofort 42: Metrou Piața Muncii (M1) la 300m.',
+        a: 'Neofort 83 Titan-Pallady: Metrou Anghel Saligny (M3) la 250 de metri — cel mai aproape de metrou din întregul portofoliu activ. Neofort 76: Metrou Păcii (M3) la 550m. Neofort 42: Metrou Piața Muncii (M1) la 300m.',
       },
       {
         q: 'De ce contează accesul la metrou pentru valoarea unui apartament?',
@@ -239,7 +240,7 @@ Fiecare achiziție de 4 camere vine cu consultanță juridică și bancară grat
         a: 'M3 (vest–est) traversează orașul de la Preciziei la Anghel Saligny și deservește atât Militari-Gorjului, cât și Titan-Pallady, cu legătură directă în Piața Unirii. Zona Titan-Pallady pe M3 a crescut mai rapid în ultimii 3 ani. M1, linia circulară, acoperă mai mulți poli de activitate (Piața Muncii, Obor, Ștefan cel Mare, Gara de Nord, Piața Victoriei) și are fluxuri mai mari de pasageri.',
       },
     ],
-    textEditorial: `Accesul la metrou este factorul care diferențiază cel mai clar valorile imobiliare în București. Toate cele ${ANSAMBLURI_ACTIVE.length} ansambluri active Neofort IMO se află în apropierea unei stații de metrou — de la 20 de metri (Neofort 83) la maxim 15 minute pe jos.
+    textEditorial: `Accesul la metrou este factorul care diferențiază cel mai clar valorile imobiliare în București. Toate cele ${ANSAMBLURI_ACTIVE.length} ansambluri active Neofort IMO se află în apropierea unei stații de metrou — de la 250 de metri (Neofort 83) la maxim 15 minute pe jos.
 
 Linia M3 deservește zona Titan-Pallady cu două stații: Nicolae Teclu și Anghel Saligny, creând un coridor rezidențial excepțional de bine conectat. Aceeași magistrală acoperă și Militari, prin Păcii și Gorjului. Piața Muncii și Costin Georgian sunt pe M1. Combinația metrou + prețuri sub media pieței explică de ce aceste zone au înregistrat cel mai mare ritm de creștere a valorii apartamentelor noi din București în 2024-2026.
 
@@ -479,7 +480,7 @@ export default function TipPage({ params }) {
                           <span className="text-sm font-semibold" style={{ color: '#2d7a3a' }}>{formatPret(getPretMinTip(a, params.tip))} <span className="text-xs font-normal text-gray-500">+TVA</span></span>
                         </div>
                         {a.dataPredare && a.dataPredare !== 'Finalizat' && (
-                          <p className="text-[10px] text-gray-400 mt-1">Predare {a.dataPredare}</p>
+                          <p className="text-[10px] text-gray-400 mt-1">Predare {textPredare(a.dataPredare)}</p>
                         )}
                       </div>
                     </a>

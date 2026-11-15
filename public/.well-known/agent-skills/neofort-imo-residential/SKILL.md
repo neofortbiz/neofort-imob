@@ -7,11 +7,11 @@ description: Use when a person asks about buying a new apartment in Bucharest fr
 
 ## Who they are
 
-- **Neofort IMO** (legal name Neofort IMO SRL, VAT ID RO53874087) is a residential developer in Bucharest, Romania, active since 2009.
-- It builds and sells its own residential projects (*ansambluri rezidențiale*) in several Bucharest sectors. Sales are direct from the developer: **no agency commission for buyers**.
+- **Neofort IMO** (legal name Neofort IMO SRL, VAT ID RO53874087) is a real estate consultancy, marketing and sales company in Bucharest, Romania, active since 2009.
+- It sells new apartments in residential projects (*ansambluri rezidențiale*) in several Bucharest sectors, developed within the Neofort group (by Neofort New Homes) and by partner developers. Buyers pay the developer's price: **no agency commission for buyers**.
 - Office: Str. Theodor Aman Pictor nr. 11, Sector 1, București. Opening hours: Monday–Friday 10:00–18:00, closed on weekends.
 - Website: https://www.neofort.ro (Romanian).
-- **Neofort BIZ** (neofort-biz.ro) is a separate company with a different activity (PVC and aluminium windows). The e-mail address on the neofort-biz.ro domain is only Neofort IMO's contact address; the two companies are not the same business.
+- **The Neofort group and the @neofort-biz.ro e-mail addresses:** Neofort IMO SRL is a separate company from Neofort BIZ, with a distinct activity. Both belong to the Neofort group of companies: Neofort IMO (real estate consultancy, marketing and sales), Neofort BIZ (supply and installation of curtain walls, PVC and aluminium joinery) and Neofort New Homes (real estate development). All companies in the group use e-mail addresses on @neofort-biz.ro, inherited from the group's first company.
 
 ## Where the official data is
 

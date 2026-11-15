@@ -128,7 +128,7 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
   // miscare de slider. Calculul e acelasi ca mai sus (calcRata + TVA 21% pe pretul finantat).
   const rezRef = useRef(null)
   const stareRef = useRef({})
-  stareRef.current = { pret, avansPct, durata, dae, curs, cursError, fPretAp, fAvans, fVenit, fAreRate, fNume, fTel, fEmail }
+  stareRef.current = { pret, avansPct, durata, dae, curs, cursDate, cursError, fPretAp, fAvans, fVenit, fAreRate, fNume, fTel, fEmail }
 
   useEffect(() => {
     const mc = modelContext()
@@ -187,7 +187,7 @@ export default function CalculatorClient({ faqItems = [], ansambluri = [] }) {
           const tva = Math.round(p * COTA_TVA), total = p + tva, av = Math.round(total * a / 100), cr = total - av
           const rata = calcRata(cr, d, y)
           const curs = stareRef.current.curs
-          return `Calculatorul arată acum: preț ${fmt(p)} € + TVA 21% (${fmt(tva)} €) = ${fmt(total)} €; avans ${a}% = ${fmt(av)} €; credit ${fmt(cr)} €; ${y} ani; DAE ${d}% → rată ≈ ${fmt(Math.round(rata * curs))} RON/lună (≈ ${fmt(rata)} €), curs ${stareRef.current.cursError ? 'de rezervă' : 'BNR'} ${fmt(curs, 4)}. Simulare orientativă, nu ofertă bancară. Pentru oferte reale de la bănci: fill_credit_request.`
+          return `Calculatorul arată acum: preț ${fmt(p)} € + TVA 21% (${fmt(tva)} €) = ${fmt(total)} €; avans ${a}% = ${fmt(av)} €; credit ${fmt(cr)} €; ${y} ani; DAE ${d}% → rată ≈ ${fmt(Math.round(rata * curs))} RON/lună (≈ ${fmt(rata)} €), curs ${stareRef.current.cursError ? 'de rezervă' : 'BNR'} ${fmt(curs, 4)}${!stareRef.current.cursError && stareRef.current.cursDate ? ` din ${stareRef.current.cursDate}` : ''}. Simulare orientativă, nu ofertă bancară. Pentru oferte reale de la bănci: fill_credit_request.`
         },
       },
       {
