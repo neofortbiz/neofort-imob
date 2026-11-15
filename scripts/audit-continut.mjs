@@ -1118,6 +1118,26 @@ try {
 }
 
 // ────────────────────────────────────────────────────────────
+// 23. ROBOTS.TXT — semnalele pentru agenti (v458)
+// robots.txt e generat de app/robots.txt/route.js. Daca app/robots.js reapare (ex. o copie veche),
+// Next.js are doua surse pentru aceeasi adresa si build-ul pica. Se verifica si ca semnalele permisive
+// (Content-Signal, __usage_ai-training, Agentmap) sunt prezente si ca Agentmap trimite la un fisier existent.
+// ────────────────────────────────────────────────────────────
+try {
+  if (fs.existsSync(resolve(ROOT, 'app/robots.js'))) P('app/robots.js', 'există în paralel cu app/robots.txt/route.js — două surse pentru /robots.txt; șterge-l cu git rm app/robots.js')
+  const { textRobots } = await import('../app/robots.txt/route.js')
+  const txt = textRobots()
+  if (!/^Content-Signal: search=yes, ai-input=yes, ai-train=yes$/m.test(txt)) P('robots.txt', 'lipsește Content-Signal (search=yes, ai-input=yes, ai-train=yes)')
+  if (!/^User-Agent: __usage_ai-training\nAllow: \/$/m.test(txt)) P('robots.txt', 'lipsește grupul __usage_ai-training cu Allow: /')
+  const am = txt.match(/^Agentmap: https:\/\/www\.neofort\.ro(\/\S+)$/m)
+  if (!am) P('robots.txt', 'lipsește Agentmap')
+  else if (!fs.existsSync(resolve(ROOT, 'public' + am[1]))) P('robots.txt', `Agentmap trimite la un fișier inexistent: ${am[1]}`)
+  if (/^Disallow: \/\s*$/m.test(txt.split('User-Agent: __usage_ai-training')[0])) P('robots.txt', 'un grup are Disallow: / — blochează tot site-ul')
+} catch (err) {
+  P('robots.txt', `nu poate fi verificat: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
 // Raport
 // ────────────────────────────────────────────────────────────
 if (!probleme.length) {
