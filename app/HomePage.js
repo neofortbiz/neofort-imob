@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -97,27 +97,20 @@ const ZONE = getZoneDinamice()
 
 const STEP = 999
 
-export default function HomePageClient({ blogModificat = {} }) {
+export default function HomePageClient({ blogModificat = {}, recentSlugs = [] }) {
   const [tipFilter, setTipFilter] = useState('')
   const [camereFilter, setCamereFilter] = useState('')
   const [pretMin, setPretMin] = useState(5000)
   const [pretMax, setPretMax] = useState(1500000)
   const [pretMoved, setPretMoved] = useState(false)
   const [shown, setShown] = useState(STEP)
-  const [recentSlugs, setRecentSlugs] = useState([])
 
   // Ordinea proiectelor urmeaza lista GLOBALA "recent accesate" (Redis),
   // nu istoricul local al vizitatorului. Marcarea accesului se face
   // server-side, la deschiderea paginii de ansamblu (components/MarcheazaAcces.js),
   // deci prinde si intrarile directe din Google/social, nu doar click-urile de aici.
-  useEffect(() => {
-    let anulat = false
-    fetch('/api/views?recent=ansambluri&limit=12')
-      .then(r => r.json())
-      .then(d => { if (!anulat && Array.isArray(d.recent)) setRecentSlugs(d.recent) })
-      .catch(() => {})
-    return () => { anulat = true }
-  }, [])
+  // Lista vine gata calculata de pe server (app/page.js, v456) — nu se mai cere din browser,
+  // ca sa nu se rearanjeze cardurile dupa incarcare (salt de continut / CLS).
 
   const sortedAnsambluri = [...ANSAMBLURI_LITE].sort((a, b) => {
     const ai = recentSlugs.indexOf(a.slug)

@@ -111,13 +111,30 @@ const BLOG_MODIFICAT = Object.fromEntries(
   Object.entries(ARTICOLE).filter(([, a]) => a.dataModificata).map(([slug, a]) => [slug, a.dataModificata])
 )
 
-export default function Page() {
+// Ordinea „Recent accesat" a proiectelor se calculeaza AICI, pe server (v456), cu acelasi mecanism ca
+// articolul „Recent accesat" de pe /blog: lista globala din Redis, reimprospatata cel mult o data pe minut.
+// DE CE: pana la v455 o cerea browserul dupa incarcare si rearanja cardurile sub ochii vizitatorului —
+// salt de continut (CLS) masurat 0,063 doar din asta; Lighthouse a dat CLS 0,172 si a picat verificarea.
+// Esec (Redis cazut, retea) = ordinea standard, ca inainte.
+async function getRecentAnsambluri() {
+  try {
+    const res = await fetch(`${BASE}/api/views?recent=ansambluri&limit=12`, { next: { revalidate: 60 } })
+    if (!res.ok) return []
+    const d = await res.json()
+    return Array.isArray(d.recent) ? d.recent : []
+  } catch {
+    return []
+  }
+}
+
+export default async function Page() {
+  const recentSlugs = await getRecentAnsambluri()
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ratingSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <HomePageClient blogModificat={BLOG_MODIFICAT} />
+      <HomePageClient blogModificat={BLOG_MODIFICAT} recentSlugs={recentSlugs} />
     </>
   )
 }
