@@ -1287,7 +1287,7 @@ Semnele sunt vizibile: proiecte care aveau autorizații și planuri de lansare �
 Prețuri sub presiune ascendentă:
 Paradoxal, deși volumul de tranzacții a scăzut semnificativ, prețurile nu au urmat același trend descendent. Motivul: oferta s-a contractat simultan cu cererea. Mai puțini cumpărători activi, dar și mai puțini dezvoltatori care lansează proiecte noi. Echilibrul s-a menținut la prețuri similare sau ușor crescute față de 2024, dar cu volum mult redus.
 
-În zona Titan–Pallady–Teclu, unde Neofort IMO are [6 proiecte rezidențiale active](/ansambluri-rezidentiale), situația este mai stabilă față de media pieței din două motive: proiectele noastre erau deja în stadii avansate de autorizare și comercializare la intrarea în vigoare a legii, iar structura financiară solidă ne permite să absorbim costurile suplimentare fără a transfera integral presiunea în prețuri.
+În zona Titan–Pallady–Teclu, unde Neofort IMO are [6 proiecte rezidențiale active](/ansambluri-rezidentiale), situația este mai stabilă față de media pieței din două motive: proiectele pe care le comercializăm erau deja în stadii avansate de autorizare și comercializare la intrarea în vigoare a legii, iar dezvoltatorii lor au o structură financiară care le permite să absoarbă costurile suplimentare fără a transfera integral presiunea în prețuri.
 
 Cererea latentă — un indicator de optimism:
 Datele interne din primele luni ale anului 2026 indică o cerere latentă semnificativă: există cumpărători cu finanțare pregătită care așteaptă clarificarea situației legislative înainte de a semna. Această cerere acumulată va reveni rapid pe piață odată ce ambiguitatea juridică va fi rezolvată — și ar putea genera un rebound semnificativ în H2 2026 sau H1 2027 dacă corecțiile legislative se produc.
@@ -4446,7 +4446,7 @@ TVA este o parte importantă a costului total, dar nu singurul factor în decizi
     seoDesc: 'Titan–Pallady: metrou M3, IKEA, Parcul IOR și prețuri cu 30% sub centru. De ce a devenit cea mai căutată zonă din București și ce ansambluri sunt active.',
     peScurt: [
       'Titan–Pallady (Sectorul 3) are metrou M3, Parcul IOR, IKEA și prețuri sensibil mai mici decât zonele centrale ale Bucureștiului.',
-      'Neofort IMO construiește în zonă de peste 10 ani, cu mai multe ansambluri rezidențiale active simultan.',
+      'Neofort IMO vinde apartamente în zonă de peste 10 ani, cu mai multe ansambluri rezidențiale active simultan.',
       'Distanțe reale la metrou: Neofort 83 la 250 de metri de Anghel Saligny, Neofort 56 Faza 3 la 15 minute și Neofort 84 la 20 de minute pe jos de Nicolae Teclu.',
     ],
     tag: 'Zone', tagColor: '#0891b2',

@@ -196,7 +196,7 @@ export default async function BlogPage() {
                     <p className="text-[10px] text-gray-500">Blog oficial · Din 2009</p>
                   </div>
                 </div>
-                <p className="text-xs text-gray-500 leading-relaxed mb-3">Analize și sfaturi imobiliare din interior — scrise de consultanții care au finalizat peste {NR_LIVRATE} de proiecte rezidențiale în București.</p>
+                <p className="text-xs text-gray-500 leading-relaxed mb-3">Analize și sfaturi imobiliare din interior — scrise de consultanții care au comercializat apartamente în peste {NR_LIVRATE} de ansambluri rezidențiale din București.</p>
                 <Link href="/despre-noi" className="text-xs font-medium text-[#2d7a3a] hover:underline">Află mai mult despre noi →</Link>
               </div>
 

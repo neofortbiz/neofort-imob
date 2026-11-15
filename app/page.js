@@ -56,10 +56,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Câte proiecte rezidențiale a livrat Neofort IMO?',
+      name: 'Câte ansambluri rezidențiale a comercializat Neofort IMO?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: `Neofort IMO a livrat peste ${NR_LIVRATE} de ansambluri rezidențiale în București din 2009 până în prezent, totalizând peste ${NR_FAMILII} familii ajutate să-și cumpere un apartament nou.`,
+        text: `Neofort IMO a comercializat apartamente în peste ${NR_LIVRATE} de ansambluri rezidențiale livrate în București din 2009 până în prezent, totalizând peste ${NR_FAMILII} familii ajutate să-și cumpere un apartament nou.`,
       },
     },
     {

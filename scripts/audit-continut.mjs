@@ -1330,19 +1330,65 @@ try {
 
 // ────────────────────────────────────────────────────────────
 // 28. GRUPUL NEOFORT — explicatia adreselor @neofort-biz.ro, aceeasi peste tot (v462)
-//   Sursa: lib/grupNeofort.js. Trebuie sa ajunga la: /contact (vizibil), llms.txt, get_contact (MCP) si,
+//   Sursa: lib/grupNeofort.js. Trebuie sa ajunga la: /despre-noi (sectiunea vizibila, v463), llms.txt, get_contact (MCP) si,
 //   in engleza, SKILL.md (scris de mana — de aceea se compara textul exact).
 // ────────────────────────────────────────────────────────────
 try {
-  const { GRUP_NEOFORT, GRUP_NEOFORT_EN } = await import(resolve(ROOT, 'lib/grupNeofort.js'))
+  const { GRUP_NEOFORT, GRUP_NEOFORT_EN, FIRME_GRUP, EMAIL_GRUP } = await import(resolve(ROOT, 'lib/grupNeofort.js'))
   const citeste = f => fs.readFileSync(resolve(ROOT, f), 'utf8')
-  if (!/\{GRUP_NEOFORT\}/.test(citeste('app/contact/page.js'))) P('app/contact/page.js', 'nu afișează explicația grupului Neofort (GRUP_NEOFORT) lângă e-mail')
+  // v463: explicatia vizibila sta in sectiunea „Grupul Neofort" din /despre-noi (nu mai e pe /contact)
+  const despre = citeste('app/despre-noi/page.js')
+  if (!/FIRME_GRUP\.map/.test(despre) || !/\{EMAIL_GRUP\}/.test(despre)) P('app/despre-noi/page.js', 'nu afișează secțiunea „Grupul Neofort" (FIRME_GRUP + EMAIL_GRUP)')
+  // activitatile din carduri = cele din fraza pentru agenti (aceleasi cuvinte ale lui Dan)
+  for (const f of FIRME_GRUP || []) {
+    if (!GRUP_NEOFORT.includes(`${f.nume} (${f.activitate.charAt(0).toLowerCase()}${f.activitate.slice(1)})`)) P('lib/grupNeofort.js', `activitatea lui ${f.nume} din FIRME_GRUP („${f.activitate}") diferă de GRUP_NEOFORT`)
+  }
+  if (!/@neofort-biz\.ro, moștenite de la prima firmă a grupului/.test(EMAIL_GRUP || '')) P('lib/grupNeofort.js', 'EMAIL_GRUP nu mai explică originea adreselor @neofort-biz.ro')
   if (!/\$\{GRUP_NEOFORT\}/.test(citeste('scripts/generate-llms.mjs'))) P('scripts/generate-llms.mjs', 'llms.txt nu conține explicația grupului Neofort')
   if (!/despre_email: GRUP_NEOFORT/.test(citeste('lib/mcpUnelte.js'))) P('lib/mcpUnelte.js', 'get_contact nu trimite explicația grupului Neofort (despre_email)')
   const skill = citeste('public/.well-known/agent-skills/neofort-imo-residential/SKILL.md').replace(/\r\n?/g, '\n')
   if (!skill.includes(GRUP_NEOFORT_EN)) P('SKILL.md', 'explicația grupului Neofort diferă de GRUP_NEOFORT_EN din lib/grupNeofort.js')
 } catch (err) {
   P('grupul Neofort', `nu poate fi verificat: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 29. ROLUL NEOFORT IMO — vinde, nu construieste si nu dezvolta (v463)
+//   Dan, v462: Neofort IMO = consultanță, promovare și vânzări imobiliare; proiectele sunt dezvoltate
+//   de Neofort New Homes (din grup) sau de dezvoltatori parteneri. Pana la v462, subsolul (toate paginile)
+//   spunea „Dezvoltator și agenție imobiliară … livrăm ansambluri", prima pagina „Neofort IMO a livrat",
+//   paginile de zona „în care construim", articolele .md „Neofort IMO, dezvoltator de ansambluri".
+//   Regula: niciun text nu pune Neofort IMO (sau „noi") sa construiasca, sa dezvolte sau sa livreze.
+//   Raman permise: „direct de la dezvoltator", „prețul dezvoltatorului", „proiectul a livrat X apartamente".
+// ────────────────────────────────────────────────────────────
+try {
+  const REGULI = [
+    [/\b(construim|livrăm|dezvoltăm|am construit|am livrat|am dezvoltat)\b/i, 'persoana I („noi") construiește / livrează / dezvoltă'],
+    [/Neofort IMO[^.\n]{0,40}\b(construiește|dezvoltă|a livrat|livrează|a construit|a dezvoltat)\b/i, 'Neofort IMO apare ca firmă care construiește / dezvoltă / livrează'],
+    [/Neofort IMO,? (un |o |unul dintre )?(dezvoltator|companie de dezvoltare)|Dezvoltator și agenție|Compania noastră a livrat/i, 'Neofort IMO numit dezvoltator'],
+    [/Neofort IMO (is|was) an? (residential )?developer|builds and sells its own/i, 'Neofort IMO numit developer (EN)'],
+  ]
+  const fisiere = []
+  const strange = d => {
+    for (const f of fs.readdirSync(resolve(ROOT, d), { withFileTypes: true })) {
+      const c = `${d}/${f.name}`
+      if (f.isDirectory()) { if (!['node_modules', '.next'].includes(f.name)) strange(c) }
+      else if (/\.(m?js|jsx|md)$/.test(f.name)) fisiere.push(c)
+    }
+  }
+  for (const d of ['app', 'components', 'lib', 'data', 'scripts', 'public/.well-known']) strange(d)
+  for (const f of fisiere) {
+    if (f === 'scripts/audit-continut.mjs') continue
+    fs.readFileSync(resolve(ROOT, f), 'utf8').split('\n').forEach((l, i) => {
+      if (/^\s*\/\//.test(l)) return // comentariile de cod nu ajung pe site
+      for (const [re, ce] of REGULI) {
+        const m = l.match(re)
+        if (m) P(`${f}:${i + 1}`, `${ce}: „…${l.slice(Math.max(0, m.index - 40), m.index + m[0].length + 30).trim()}…"`)
+      }
+    })
+  }
+} catch (err) {
+  P('rolul Neofort IMO', `nu poate fi verificat: ${err.message}`)
 }
 
 // ────────────────────────────────────────────────────────────

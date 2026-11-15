@@ -32,7 +32,7 @@ export default function NotFound() {
           <h1 className="text-2xl md:text-3xl font-medium text-gray-900 mb-3">Pagina nu a fost găsită</h1>
           <p className="text-sm text-gray-600 mb-8 leading-relaxed">
             Pagina căutată nu mai există sau adresa este greșită. Îți lăsăm mai jos ansamblurile rezidențiale active
-            și zonele în care construim — sau ne poți suna direct.
+            și zonele în care avem ansambluri — sau ne poți suna direct.
           </p>
 
           <div className="flex flex-wrap gap-3 mb-10">

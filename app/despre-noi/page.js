@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII, NR_REPREZENTANTI } from '@/data/siteConfig'
+import { FIRME_GRUP, EMAIL_GRUP } from '@/lib/grupNeofort'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -54,6 +55,8 @@ const localBusinessSchema = {
   ],
   vatID: 'RO53874087',
   legalName: 'Neofort IMO SRL',
+  // v463: apartenenta la grupul de firme Neofort (sectiunea „Grupul Neofort" de mai jos)
+  memberOf: { '@type': 'Organization', name: 'Grupul de firme Neofort' },
   areaServed: { '@type': 'City', name: 'București' },
 }
 
@@ -103,7 +106,7 @@ export default function DespreNoiPage() {
                 Neofort IMO a luat naștere în 2009, într-un moment în care piața imobiliară din București era în plin proces de transformare. Fondatorii companiei au identificat o nevoie clară: cumpărătorii de locuințe noi aveau nevoie de un partener de încredere care să îi ghideze direct la sursă, fără comisioane suplimentare și fără intermediari inutili.
               </p>
               <p>
-                De-a lungul celor {ANI_EXPERIENTA} ani de activitate, Neofort IMO a livrat peste {NR_LIVRATE} de ansambluri rezidențiale în toate sectoarele Capitalei. Am asistat mii de familii să își găsească locuința potrivită — de la prima garsonieră până la penthouse-ul cu vedere panoramică.
+                De-a lungul celor {ANI_EXPERIENTA} ani de activitate, Neofort IMO a comercializat apartamente în peste {NR_LIVRATE} de ansambluri rezidențiale livrate, în toate sectoarele Capitalei. Am asistat mii de familii să își găsească locuința potrivită — de la prima garsonieră până la penthouse-ul cu vedere panoramică.
               </p>
               <p>
                 În 2026 am trecut printr-un proces de rebranding complet — identitate vizuală nouă, prezență digitală modernă, o structură juridică nouă (Neofort IMO SRL, înregistrată la Registrul Comerțului sub J40/8972/2026) și o echipă consolidată de {NR_REPREZENTANTI} reprezentanți specializați pe zone geografice specifice din București. Activitatea imobiliară continuă neîntrerupt din 2009, sub aceeași conducere. Rămânem fideli principiului fondator: transparență totală, prețuri directe de la dezvoltator și consultanță personalizată.
@@ -124,7 +127,7 @@ export default function DespreNoiPage() {
                 {
                   icon: '🏗️',
                   titlu: 'Direct de la sursă',
-                  desc: 'Comercializăm exclusiv apartamente în ansambluri proprii sau partenere. Prețurile sunt cele ale dezvoltatorului — fără comision de agenție adăugat.',
+                  desc: 'Comercializăm exclusiv apartamente în ansambluri dezvoltate în grupul Neofort sau de dezvoltatori parteneri. Prețurile sunt cele ale dezvoltatorului — fără comision de agenție adăugat.',
                 },
                 {
                   icon: '🤝',
@@ -147,6 +150,37 @@ export default function DespreNoiPage() {
           </div>
         </section>
 
+        {/* GRUPUL NEOFORT (v463) — firmele grupului si de ce e-mailul e @neofort-biz.ro.
+            Textele vin din lib/grupNeofort.js (aceeasi sursa ca llms.txt, MCP si SKILL.md). */}
+        <section id="grupul-neofort" className="py-12 px-6 border-b border-gray-100" style={{ scrollMarginTop: 90 }}>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-lg font-medium text-gray-900 mb-3 text-center">Grupul Neofort</h2>
+            <p className="text-sm text-gray-600 leading-relaxed max-w-3xl mx-auto text-center mb-8">
+              Neofort IMO face parte din grupul de firme Neofort, alături de Neofort New Homes și Neofort BIZ. Sunt firme separate, fiecare cu propria activitate și propriile date juridice.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {FIRME_GRUP.map(f => (
+                <div key={f.nume} className="p-6 rounded-xl border" style={{ borderColor: f.acest ? '#2d7a3a' : '#f3f4f6' }}>
+                  <div className="flex items-center justify-between gap-2 mb-1">
+                    <h3 className="text-sm font-semibold text-gray-900">{f.nume}</h3>
+                    {f.acest && <span className="text-[10px] font-medium px-2 py-0.5 rounded-full" style={{ background: '#e8f3ea', color: '#2d7a3a' }}>neofort.ro</span>}
+                  </div>
+                  <p className="text-xs font-medium mb-3" style={{ color: '#2d7a3a' }}>{f.activitate}</p>
+                  <p className="text-xs text-gray-500 leading-relaxed">{f.text}</p>
+                  {f.site && (
+                    <a href={f.site} target="_blank" rel="noopener" className="inline-block mt-3 text-xs text-gray-700 underline underline-offset-2 hover:text-gray-900">
+                      {f.site.replace(/^https?:\/\/(www\.)?/, '')}
+                    </a>
+                  )}
+                </div>
+              ))}
+            </div>
+            <p className="mt-8 text-xs text-gray-500 leading-relaxed max-w-3xl mx-auto text-center">
+              <span className="font-medium text-gray-700">De ce adrese @neofort-biz.ro? </span>{EMAIL_GRUP}
+            </p>
+          </div>
+        </section>
+
         {/* DATE COMPANIE */}
         <section className="py-12 px-6 border-b border-gray-100">
           <div className="max-w-3xl mx-auto">
@@ -157,6 +191,7 @@ export default function DespreNoiPage() {
                 { lbl: 'CUI', val: 'RO 53874087' },
                 { lbl: 'Nr. Registru Comerțului', val: 'J2026008972000' },
                 { lbl: 'Fondată', val: '2009 (rebranding 2026)' },
+                { lbl: 'Grup', val: 'Grupul de firme Neofort' },
                 { lbl: 'Adresă', val: 'Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776' },
                 { lbl: 'Program', val: 'Luni–Vineri 10:00–18:00' },
                 { lbl: 'Telefon', val: '0758 090 904' },

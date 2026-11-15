@@ -30,7 +30,7 @@ export default function Footer() {
           {/* COL 1 — BRAND */}
           <div className="col-span-2 md:col-span-1">
             <p className="text-xs leading-relaxed mb-4" style={{ color: '#aaa' }}>
-              Dezvoltator și agenție imobiliară din București. Din 2009 livrăm ansambluri rezidențiale de calitate în toate sectoarele capitalei.
+              Consultanță, promovare și vânzări imobiliare în București. Din 2009, apartamente noi în ansambluri rezidențiale din toate sectoarele Capitalei.
             </p>
             {/* Social */}
             <div className="flex gap-2 mb-5">

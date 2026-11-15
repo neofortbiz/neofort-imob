@@ -85,7 +85,7 @@ export async function construieste() {
   const zone = [...new Set(ANSAMBLURI_ACTIVE.flatMap(a => (a.zone || []).filter(z => !z.startsWith('sector-')).map(z => zonaLabel(z, a.zona))))]
     .sort((x, y) => x.localeCompare(y, 'ro'))
   const sectoare = [...new Set(ANSAMBLURI_ACTIVE.map(a => a.sector))].sort()
-  const tags = ['ansambluri rezidențiale', 'apartamente noi', 'București', 'dezvoltator imobiliar', ...sectoare, ...zone]
+  const tags = ['ansambluri rezidențiale', 'apartamente noi', 'București', 'apartamente direct de la dezvoltator', ...sectoare, ...zone]
   // ARD cere `updatedAt` in format JSON Schema „date-time" (RFC 3339 complet, cu ora si fusul):
   // „2026-11-11" singur e respins de Lighthouse (eroare reala, v454). Data vine din hash-ul de continut,
   // deci un redeploy fara modificari nu o misca.

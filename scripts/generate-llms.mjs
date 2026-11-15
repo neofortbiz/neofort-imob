@@ -175,7 +175,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += FISIERE_AGENTI + `\n`
 
   out += `## Portofoliu finalizat (selecție)\n`
-  out += `Neofort IMO a livrat ${NR_LIVRATE}+ ansambluri rezidențiale în București din 2009. Proiecte reprezentative:\n`
+  out += `Neofort IMO a comercializat apartamente în ${NR_LIVRATE}+ ansambluri rezidențiale livrate în București din 2009. Proiecte reprezentative:\n`
   const sample = TOATE_PORTOFOLIU.slice(0, 6)
   for (const p of sample) {
     out += `- [${p.nume} — ${p.sector}](${BASE}/ansamblu-rezidential/${p.slug}): vândut integral\n`

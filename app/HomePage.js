@@ -597,7 +597,7 @@ export default function HomePageClient({ blogModificat = {}, recentSlugs = [] })
             <div className="space-y-3">
               {[
                 { q: 'Neofort IMO percepe comision de agenție?', a: 'Nu. Neofort IMO comercializează apartamente direct de la sursă, fără comision de agenție pentru cumpărător. Prețul afișat este prețul final, fără costuri ascunse.' },
-                { q: 'Câte proiecte rezidențiale a livrat Neofort IMO?', a: `Neofort IMO a livrat peste ${NR_LIVRATE} de ansambluri rezidențiale în București din 2009 până în prezent, ajutând peste ${NR_FAMILII} familii să-și cumpere un apartament nou.` },
+                { q: 'Câte ansambluri rezidențiale a comercializat Neofort IMO?', a: `Neofort IMO a comercializat apartamente în peste ${NR_LIVRATE} de ansambluri rezidențiale livrate în București din 2009 până în prezent, ajutând peste ${NR_FAMILII} familii să-și cumpere un apartament nou.` },
                 { q: 'În ce sectoare din București are Neofort IMO ansambluri active?', a: 'Ansambluri active în Sectorul 2 (Moșilor-Eminescu, Eminescu-Viitorului, Colentina), Sectorul 3 (Titan-Pallady, Piața Muncii, IOR) și Sectorul 6 (Militari, Gorjului, Iuliu Maniu).' },
                 { q: 'Apartamentele Neofort IMO se predau la cheie?', a: 'Da. Toate apartamentele se predau cu finisaje complete incluse în preț: parchet, gresie, faianță, obiecte sanitare, tâmplărie, instalații complete. Te muți direct.' },
                 { q: 'Cum se face rezervarea unui apartament?', a: 'Rezervarea se face cu o sumă variabilă per proiect, restituibilă integral dacă nu se semnează antecontractul din vina dezvoltatorului. Consultanță juridică și bancară gratuită inclusă.' },

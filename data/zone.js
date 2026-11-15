@@ -29,7 +29,7 @@ export const ZONE = {
     intro: `Sectorul 3 este cel mai populat sector al Bucureștiului și singurul în care Neofort IMO dezvoltă simultan în mai multe micro-zone distincte. Cele nouă ansambluri rezidențiale de aici nu formează un bloc omogen: se împart între axa Titan–Pallady, în est, și zona Piața Muncii, mult mai aproape de centru. Diferența dintre ele nu este de calitate, ci de etapă — Pallady este o platformă industrială în transformare, Piața Muncii este un cartier matur, deja construit.`,
     sectiuni: [
       {
-        titlu: 'Micro-zonele Sectorului 3 în care construim',
+        titlu: 'Micro-zonele Sectorului 3 în care avem ansambluri',
         continut: `Opt din cele nouă ansambluri rezidențiale sunt pe axa **Titan–Pallady**, iar unul în **Piața Muncii**. Sunt două piețe diferite, cu cumpărători diferiți.
 
 **Titan–Pallady** concentrează prețurile de intrare cele mai mici din tot portofoliul Neofort IMO și cele mai multe proiecte aflate în construcție sau în lansare. Acolo se cumpără suprafață și stadiu incipient.
@@ -86,7 +86,7 @@ Pentru cadrul legal al modificărilor la un apartament deja cumpărat — inclus
     intro: `Sectorul 6 se întinde pe toată latura de vest a Bucureștiului, iar ansamblurile rezidențiale Neofort IMO de aici sunt amplasate pe axa Iuliu Maniu, coloana vertebrală a sectorului. Ambele proiecte sunt legate direct de magistrala M3, care traversează sectorul de la Preciziei până spre centru.`,
     sectiuni: [
       {
-        titlu: 'Micro-zonele Sectorului 6 în care construim',
+        titlu: 'Micro-zonele Sectorului 6 în care avem ansambluri',
         continut: `Ambele ansambluri rezidențiale sunt în **Militari**, la distanțe diferite de centru pe aceeași axă: unul lângă metroul Păcii, celălalt lângă Gorjului.
 
 Cum arată zona la nivel de stradă, ce se află în jur și cine cumpără acolo — pe pagina dedicată: [ansambluri rezidențiale Militari](/zona/militari).
@@ -133,7 +133,7 @@ Sectorul 6 este și cel în care se construiește **magistrala M5**, pe direcți
     intro: `Sectorul 2 acoperă nord-estul Bucureștiului, de la Piața Romană până la salba de lacuri Tei–Plumbuita–Fundeni. Cele două ansambluri rezidențiale Neofort IMO de aici marchează exact cele două extreme ale sectorului: unul semicentral, cu predare în 2027, celălalt în zona de lacuri, cu predare în 2028.`,
     sectiuni: [
       {
-        titlu: 'Micro-zonele Sectorului 2 în care construim',
+        titlu: 'Micro-zonele Sectorului 2 în care avem ansambluri',
         continut: `Cele două proiecte nu concurează între ele — sunt în piețe diferite.
 
 **Eminescu–Viitorului** este zonă semicentrală construită, cu acces pe jos la metroul Ștefan cel Mare și la rețeaua de colegii din zona Moșilor. Proiectul de acolo are predarea planificată pentru trimestrul I 2027.
@@ -458,7 +458,7 @@ Spațiul verde de proximitate este **Parcul Național**, la 400 de metri, iar **
 
 Cu mașina, în câteva minute: **Arena Națională** și **Bazinul Olimpic Lia Manoliu**, **Universitatea Hyperion**, **Spitalul MONZA**, iar pentru cumpărături **ParkLake Shopping Center**, **Kaufland Popa Nan** și **București Mall Vitan**.
 
-Concentrarea medicală — trei unități, dintre care două la mai puțin de un kilometru pe jos — este cea mai densă din toate zonele în care construim.`,
+Concentrarea medicală — trei unități, dintre care două la mai puțin de un kilometru pe jos — este cea mai densă din toate zonele în care avem ansambluri.`,
       },
       {
         titlu: 'Cine se mută aici',
