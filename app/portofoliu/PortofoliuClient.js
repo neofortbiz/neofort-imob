@@ -46,9 +46,9 @@ export default function PortofoliuClient() {
               </div>
               <div className="p-3">
                 <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500 font-medium">Vândut</span>
-                <h3 className="text-xs font-medium text-gray-900 mt-1.5 mb-0.5 group-hover:text-green-700 transition-colors leading-tight">
+                <h2 className="text-xs font-medium text-gray-900 mt-1.5 mb-0.5 group-hover:text-green-700 transition-colors leading-tight">
                   {a.nume}
-                </h3>
+                </h2>
                 <p className="text-[10px] text-gray-500 mb-2">{a.zona} · {a.sector}</p>
                 {a.preturi && (
                   <div className="space-y-0.5">
@@ -82,9 +82,9 @@ export default function PortofoliuClient() {
               <div className="flex-1 px-4 py-3 min-w-0">
                 <div className="flex items-start justify-between gap-4 flex-wrap">
                   <div>
-                    <h3 className="text-sm font-medium text-gray-900 group-hover:text-green-700 transition-colors">
+                    <h2 className="text-sm font-medium text-gray-900 group-hover:text-green-700 transition-colors">
                       {a.nume}
-                    </h3>
+                    </h2>
                     <p className="text-xs text-gray-500 mt-0.5">{a.zona} · {a.sector} · {a.tipuri.join(', ')}</p>
                   </div>
                   <div className="text-right flex-shrink-0">

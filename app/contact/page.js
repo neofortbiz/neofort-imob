@@ -8,33 +8,17 @@ export const metadata = {
   title: 'Contact Neofort IMO — Program & Adresă București',
   description: 'Contactează Neofort IMO: Str. Theodor Aman Pictor nr. 11, Sector 1, București. Program L-V 10:00-18:00. Tel: +40 758 090 904.',
   alternates: { canonical: `${BASE}/contact` },
-  openGraph: { title: 'Contact Neofort IMO — Program & Adresă', description: 'Str. Theodor Aman Pictor nr. 11, Sector 1, București. Program L-V 10:00-18:00. Tel: +40 758 090 904.', images: [{ url: 'https://www.neofort.ro/og-contact.jpg', width: 1200, height: 630, alt: 'Contact Neofort IMO București' }] },
+  openGraph: { url: 'https://www.neofort.ro/contact', type: 'website', locale: 'ro_RO', title: 'Contact Neofort IMO — Program & Adresă', description: 'Str. Theodor Aman Pictor nr. 11, Sector 1, București. Program L-V 10:00-18:00. Tel: +40 758 090 904.', images: [{ url: 'https://www.neofort.ro/og-contact.jpg', width: 1200, height: 630, alt: 'Contact Neofort IMO București' }] },
   twitter: { card: 'summary_large_image', images: ['https://www.neofort.ro/og-contact.jpg'] },
 }
 
+// v466: doar ratingul Google. Restul datelor firmei sunt in nodul #localbusiness din app/layout.js;
+// pana la v465 aici era o a doua varianta a aceluiasi nod (alte profiluri, fara sigla), pe care
+// consumatorii o combinau cu cea din layout — doua valori diferite pentru aceeasi firma.
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'RealEstateAgent'],
   '@id': `${BASE}/#localbusiness`,
-  name: 'Neofort IMO',
-  url: BASE,
-  telephone: '+40758090904',
-  email: 'info@neofort-biz.ro',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: 'Str. Theodor Aman Pictor nr. 11',
-    addressLocality: 'București',
-    addressRegion: 'Sector 1',
-    postalCode: '010776',
-    addressCountry: 'RO',
-  },
-  geo: { '@type': 'GeoCoordinates', latitude: 44.4429978, longitude: 26.0886770 },
-  openingHoursSpecification: [
-    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '10:00', closes: '18:00' },
-    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday','Sunday'], opens: '00:00', closes: '00:00' },
-  ],
-  legalName: 'Neofort IMO SRL',
-  vatID: 'RO53874087',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: GOOGLE_RATING,
@@ -42,10 +26,6 @@ const localBusinessSchema = {
     bestRating: '5',
     worstRating: '1',
   },
-  sameAs: [
-    'https://www.facebook.com/profile.php?id=100063782524105',
-    'https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7',
-  ],
 }
 
 export default function ContactPage() {

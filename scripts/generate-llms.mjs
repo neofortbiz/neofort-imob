@@ -13,7 +13,7 @@ import { dirname, resolve } from 'path'
 
 import { pretAfisatMinim } from '../lib/oferteSchema.js'
 import { textPredare } from '../lib/stadiu.js'
-import { GRUP_NEOFORT } from '../lib/grupNeofort.js'
+import { GRUP_NEOFORT, SITE_NEOFORT_BIZ } from '../lib/grupNeofort.js'
 import { UNELTE as UNELTE_MCP } from '../lib/mcpUnelte.js'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
@@ -61,7 +61,8 @@ const MCP_SERVER =
 
 // Fisierele pentru agenti (v452, scripts/generate-agent-files.mjs).
 const FISIERE_AGENTI =
-  `Pentru agenți AI: manifest ARD ${BASE}/.well-known/ard.json · Agent Skill ${BASE}/.well-known/agent-skills/neofort-imo-residential/SKILL.md (index: ${BASE}/.well-known/agent-skills/index.json).\n`
+  `Pentru agenți AI: manifest ARD ${BASE}/.well-known/ard.json · Agent Skill ${BASE}/.well-known/agent-skills/neofort-imo-residential/SKILL.md (index: ${BASE}/.well-known/agent-skills/index.json).\n` +
+  `Cardul serverului MCP (SEP-2127): ${BASE}/api/mcp/server-card · catalog de API-uri (RFC 9727): ${BASE}/.well-known/api-catalog.\n`
 
 function statusLabel(dataPredare) {
   return dataPredare === 'Finalizat' ? 'Finalizat' : 'În construcție'
@@ -91,6 +92,7 @@ function generateLlms({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }) {
   out += `Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776\n`
   out += `Telefon: +40758090904\n`
   out += `Email: info@neofort-biz.ro (${GRUP_NEOFORT})\n`
+  out += `Site Neofort BIZ (firmă din grupul Neofort, tâmplărie și pereți cortină): ${SITE_NEOFORT_BIZ}\n`
   out += `Program: Luni-Vineri 10:00-18:00\n`
   out += `CUI: RO53874087\n`
   out += `Nr. Registrul Comerțului: J2026008972000 (J40/8972/2026)\n`
@@ -203,6 +205,7 @@ function generateLlmsFull({ ANSAMBLURI_ACTIVE, TOATE_PORTOFOLIU, ARTICOLE_LIST }
   out += `Adresă: Str. Theodor Aman Pictor nr. 11, Sector 1, București 010776\n`
   out += `Telefon: +40758090904\n`
   out += `Email: info@neofort-biz.ro (${GRUP_NEOFORT})\n`
+  out += `Site Neofort BIZ (firmă din grupul Neofort, tâmplărie și pereți cortină): ${SITE_NEOFORT_BIZ}\n`
   out += `Program: Luni-Vineri 10:00-18:00\n`
   out += `CUI: RO53874087\n`
   out += `Nr. Registrul Comerțului: J2026008972000 (J40/8972/2026)\n`

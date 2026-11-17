@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import { ANSAMBLURI_LITE, STATUS_CONFIG, formatPret, hasPromo } from '@/data/ansambluri'
 import { zonaLabel } from '@/lib/zoneLabel'
 import { termenPredare } from '@/lib/stadiu'
+import { listareAnsamblu } from '@/lib/oferteSchema'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_PORTOFOLIU, NR_FAMILII, GOOGLE_RATING, GOOGLE_REVIEWS } from '@/data/siteConfig'
 import { ARTICOLE_LIST } from '@/data/blog'
 import { dataNumerica } from '@/lib/dataBlog'
@@ -209,24 +210,8 @@ export default function HomePageClient({ blogModificat = {}, recentSlugs = [] })
     itemListElement: ANSAMBLURI_LITE.map((a, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      item: {
-        '@type': 'RealEstateListing',
-        name: a.nume,
-        url: `https://www.neofort.ro/ansamblu-rezidential/${a.slug}`,
-        description: a.seoDescription || a.descriere,
-        offers: {
-          '@type': 'Offer',
-          priceCurrency: 'EUR',
-          price: a.pretDeLa,
-          availability: 'https://schema.org/InStock',
-        },
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'București',
-          addressRegion: a.sector,
-          addressCountry: 'RO',
-        },
-      },
+      // v466: forma comuna din lib/oferteSchema.js (pret fara TVA cu conditia scrisa, ansamblul ca `about`).
+      item: { ...listareAnsamblu(a, 'https://www.neofort.ro'), description: a.seoDescription || a.descriere },
     })),
   }
 

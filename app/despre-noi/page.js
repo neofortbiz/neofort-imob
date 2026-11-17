@@ -24,46 +24,12 @@ export const metadata = {
   },
 }
 
-const localBusinessSchema = {
-  '@context': 'https://schema.org',
-  '@type': ['LocalBusiness', 'RealEstateAgent'],
-  '@id': `${BASE}/#localbusiness`,
-  name: 'Neofort IMO',
-  description: 'Companie specializată în comercializarea ansamblurilor rezidențiale noi în București. Direct de la sursă, fără comision de agenție.',
-  url: BASE,
-  telephone: '+40758090904',
-  email: 'info@neofort-biz.ro',
-  foundingDate: '2009',
-  logo: `${BASE}/logo.avif`,
-  image: `${BASE}/logo.avif`,
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: 'Str. Theodor Aman Pictor nr. 11',
-    addressLocality: 'București',
-    addressRegion: 'Sector 1',
-    postalCode: '010776',
-    addressCountry: 'RO',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 44.4429978,
-    longitude: 26.0886770,
-  },
-  openingHoursSpecification: [
-    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday'], opens: '10:00', closes: '18:00' },
-    { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday','Sunday'], opens: '00:00', closes: '00:00' },
-  ],
-  vatID: 'RO53874087',
-  legalName: 'Neofort IMO SRL',
-  // v463: apartenenta la grupul de firme Neofort (sectiunea „Grupul Neofort" de mai jos)
-  memberOf: { '@type': 'Organization', name: 'Grupul de firme Neofort' },
-  areaServed: { '@type': 'City', name: 'București' },
-}
+// v466: nodul #localbusiness propriu al paginii a fost scos. Redeclara firma cu alta imagine si alta
+// descriere decat app/layout.js; apartenenta la grupul Neofort (memberOf) e acum in layout, pe toate paginile.
 
 export default function DespreNoiPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <Header activePath="/despre-noi" />
       <main>
 

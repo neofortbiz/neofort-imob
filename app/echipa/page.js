@@ -9,7 +9,7 @@ export const metadata = {
   title: 'Echipa Neofort IMO — Reprezentanți Vânzări București',
   description: `Cunoaște echipa Neofort IMO — ${NR_REPREZENTANTI} reprezentanți de vânzări cu experiență în imobiliare București. Contactează direct brokerul potrivit pentru zona ta.`,
   alternates: { canonical: `${BASE}/echipa` },
-  openGraph: { title: 'Echipa Neofort IMO — Reprezentanți Vânzări', description: `${NR_REPREZENTANTI} reprezentanți de vânzări cu experiență în imobiliare București. Contactează direct brokerul pentru zona ta.`, images: [{ url: 'https://www.neofort.ro/og-echipa.jpg', width: 1200, height: 630, alt: 'Echipa Neofort IMO' }] },
+  openGraph: { url: 'https://www.neofort.ro/echipa', type: 'website', locale: 'ro_RO', title: 'Echipa Neofort IMO — Reprezentanți Vânzări', description: `${NR_REPREZENTANTI} reprezentanți de vânzări cu experiență în imobiliare București. Contactează direct brokerul pentru zona ta.`, images: [{ url: 'https://www.neofort.ro/og-echipa.jpg', width: 1200, height: 630, alt: 'Echipa Neofort IMO' }] },
   twitter: { card: 'summary_large_image', images: ['https://www.neofort.ro/og-echipa.jpg'] },
 }
 

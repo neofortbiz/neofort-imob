@@ -133,18 +133,9 @@ export default function AnsambluPage({ params }) {
     description: a.descriereCompleta || a.descriere,
     url: `${BASE}/ansamblu-rezidential/${a.slug}`,
     image: a.imagini?.cover ? `${BASE}${a.imagini.cover}` : `${BASE}${a.ogImage || `/og-ansambluri/neo-${a.numar}.jpg`}`,
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'București',
-      addressRegion: a.sector,
-      addressCountry: 'RO',
-      streetAddress: a.adresa,
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: a.coordonate.lat,
-      longitude: a.coordonate.lng,
-    },
+    // v466: adresa si coordonatele stau pe ApartmentComplex (mai jos), legat prin `about`. RealEstateListing
+    // e o pagina web (schema.org), deci `address` si `geo` pe ea erau proprietati invalide.
+    about: { '@id': `${BASE}/ansamblu-rezidential/${a.slug}#complex` },
     // Toate apartamentele, disponibilele primele; fiecare oferta descrie apartamentul (camere,
     // suprafata), cu pretul cel mai mic afisat in tabel si mentiunea „fara TVA" (lib/oferteSchema.js).
     offers: oferteAnsamblu(a),

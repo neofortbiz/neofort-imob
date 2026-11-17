@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import { listareAnsamblu } from '@/lib/oferteSchema'
 import Link from 'next/link'
 import { ANSAMBLURI_ACTIVE, formatPret, hasPromo } from '@/data/ansambluri'
 import { textPredare } from '@/lib/stadiu'
@@ -10,6 +11,17 @@ export const metadata = {
   title: 'Promoții Apartamente Noi București | Neofort IMO',
   description: 'Oferte și promoții active la apartamentele noi Neofort IMO în București. Prețuri reduse, avantaje exclusive, disponibilitate limitată.',
   alternates: { canonical: `${BASE}/promotii` },
+  // v466: pana acum pagina nu avea openGraph propriu si mostenea titlul si adresa primei pagini,
+  // deci un link spre /promotii distribuit pe retele aparea ca prima pagina.
+  openGraph: {
+    url: `${BASE}/promotii`,
+    type: 'website',
+    locale: 'ro_RO',
+    title: 'Promoții Apartamente Noi București | Neofort IMO',
+    description: 'Oferte și promoții active la apartamentele noi Neofort IMO în București. Prețuri reduse, avantaje exclusive, disponibilitate limitată.',
+    images: [{ url: `${BASE}/og-ansambluri.jpg`, width: 1200, height: 630, alt: 'Promoții apartamente noi București — Neofort IMO' }],
+  },
+  twitter: { card: 'summary_large_image', images: [`${BASE}/og-ansambluri.jpg`] },
 }
 
 export default function PromotiiPage() {
@@ -29,26 +41,8 @@ export default function PromotiiPage() {
     itemListElement: promotii.map((a, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      item: {
-        '@type': 'Residence',
-        name: a.nume,
-        url: `${BASE}/ansamblu-rezidential/${a.slug}`,
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'București',
-          addressRegion: a.sector,
-          addressCountry: 'RO',
-        },
-        ...(a.pretDeLa ? {
-          offers: {
-            '@type': 'Offer',
-            price: a.pretDeLa,
-            priceCurrency: 'EUR',
-            availability: 'https://schema.org/InStock',
-            url: `${BASE}/ansamblu-rezidential/${a.slug}`,
-          },
-        } : {}),
-      },
+      // v466: Residence nu poate avea oferte (e un loc); forma comuna din lib/oferteSchema.js.
+      item: listareAnsamblu(a, BASE),
     })),
   }
 

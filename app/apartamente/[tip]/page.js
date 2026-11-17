@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { ANSAMBLURI_ACTIVE, formatPret, STATUS_CONFIG, hasPromo } from '@/data/ansambluri'
-import { pretAfisatMinim } from '@/lib/oferteSchema'
+import { pretAfisatMinim, listareAnsamblu } from '@/lib/oferteSchema'
 import { textPredare } from '@/lib/stadiu'
 
 const BASE = 'https://www.neofort.ro'
@@ -286,6 +286,10 @@ Dezavantajul: prețurile reflect valoarea de piață la finalizare, nu prețuril
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 // Returnează prețul minim din ansamblul `a` pentru tipul de cameră specificat de `tip`
+// Paginile unde pretul e pe tipul de apartament; pe celelalte (cu metrou, finalizate) e „de la" al ansamblului.
+const PAGINI_PE_CAMERE = ['garsoniere-bucuresti', 'apartamente-2-camere-bucuresti', 'apartamente-3-camere-bucuresti', 'apartamente-4-camere-bucuresti']
+const TEXT_PRET_TIP = 'Cel mai mic preț afișat pentru acest tip de apartament în ansamblu, fără TVA (+21%). Prețul fiecărui apartament este pe pagina ansamblului.'
+
 function getPretMinTip(a, tip) {
   if (!a.apartamente?.length) return a.pretDeLa
   let apts = []
@@ -366,17 +370,9 @@ export default function TipPage({ params }) {
     itemListElement: ansambluri.map((a, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      item: {
-        '@type': 'RealEstateListing',
-        name: a.nume,
-        url: `${BASE}/ansamblu-rezidential/${a.slug}`,
-        offers: {
-          '@type': 'Offer',
-          priceCurrency: 'EUR',
-          price: a.pretDeLa,
-          availability: 'https://schema.org/InStock',
-        },
-      },
+      // v466: pretul pentru TIPUL paginii (acelasi ca pe card), nu „de la" al intregului ansamblu —
+      // pana la v465 lista de 3 camere declara, de exemplu, pretul garsonierei.
+      item: listareAnsamblu(a, BASE, getPretMinTip(a, params.tip), PAGINI_PE_CAMERE.includes(params.tip) ? TEXT_PRET_TIP : undefined),
     })),
   }
 

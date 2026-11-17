@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { TOATE_PORTOFOLIU } from '@/data/portofoliu'
 import { peScurtPortofoliu } from '@/lib/peScurt'
-import { oferteAnsambluVandut, tvaInclusDinTip } from '@/lib/oferteSchema'
+import { oferteAnsambluVandut, tvaInclusDinTip, complexAnsamblu } from '@/lib/oferteSchema'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -64,14 +64,9 @@ export default function AnsambluVandut({ a, basePath = '/portofoliu' }) {
     description: a.descriereCompleta || a.descriere,
     url: selfUrl,
     image: `${BASE}/og-portofoliu/${a.slug}.jpg`,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: a.adresa,
-      addressLocality: 'București',
-      addressRegion: a.sector,
-      addressCountry: 'RO',
-    },
-    seller: { '@type': 'Organization', name: 'Neofort IMO', url: BASE },
+    // v466: RealEstateListing e o pagina web — `address` si `seller` nu sunt proprietatile ei (schema.org).
+    // Adresa sta pe ansamblu (`about`), vanzatorul pe fiecare oferta (lib/oferteSchema.js).
+    about: complexAnsamblu(a, BASE),
     // Oferte vandute: camere si suprafata pe apartament, „fara TVA" (lib/oferteSchema.js).
     ...(a.preturi && a.preturi.length > 0 ? { offers: oferteAnsambluVandut(a) } : {}),
   }

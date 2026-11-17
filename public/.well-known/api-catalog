@@ -1,0 +1,29 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.neofort.ro/api/mcp",
+      "service-desc": [
+        {
+          "href": "https://www.neofort.ro/api/mcp/server-card",
+          "type": "application/mcp-server-card+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.neofort.ro/.well-known/agent-skills/neofort-imo-residential/SKILL.md",
+          "type": "text/markdown"
+        },
+        {
+          "href": "https://www.neofort.ro/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://www.neofort.ro/.well-known/ard.json",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

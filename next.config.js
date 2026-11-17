@@ -16,6 +16,9 @@ const nextConfig = {
       beforeFiles: [
         { source: '/blog/:slug([a-z0-9-]+)\\.md', destination: '/api/md/blog/:slug' },
         { source: '/ansamblu-rezidential/:slug([a-z0-9-]+)\\.md', destination: '/api/md/ansamblu/:slug' },
+        // Cardul MCP si la adresa din varianta mai veche a propunerii SEP-2127 (v466). Rewrite, nu redirect:
+        // nu toti clientii urmeaza redirecturi. Adresa oficiala ramane /api/mcp/server-card.
+        { source: '/.well-known/mcp/server-card.json', destination: '/api/mcp/server-card' },
       ],
     }
   },
@@ -29,6 +32,21 @@ const nextConfig = {
           { key: 'Access-Control-Allow-Origin', value: '*' },
           { key: 'Cache-Control', value: 'public, max-age=3600' },
           { key: 'X-Robots-Tag', value: 'noindex' },
+        ],
+      },
+      {
+        // Catalogul de API-uri (RFC 9727, v466): fisierul n-are extensie, deci tipul se da explicit.
+        source: '/.well-known/api-catalog',
+        headers: [
+          { key: 'Content-Type', value: 'application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"' },
+          { key: 'Link', value: '</.well-known/api-catalog>; rel="api-catalog"' },
+        ],
+      },
+      {
+        // Prima pagina anunta catalogul si in antet (RFC 9727 §3), pe langa <link rel="api-catalog">.
+        source: '/',
+        headers: [
+          { key: 'Link', value: '</.well-known/api-catalog>; rel="api-catalog"' },
         ],
       },
       {

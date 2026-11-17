@@ -3,6 +3,7 @@ import ClientProviders from '@/components/ClientProviders'
 import { Barlow, Barlow_Condensed } from 'next/font/google'
 import { ANI_EXPERIENTA, NR_ACTIVE, NR_LIVRATE, NR_FAMILII } from '@/data/siteConfig'
 import Script from 'next/script'
+import { LOGO } from '@/lib/imgDims'
 
 const barlow = Barlow({
   subsets: ['latin', 'latin-ext'],
@@ -19,6 +20,19 @@ const barlowCondensed = Barlow_Condensed({
 })
 
 const BASE = 'https://www.neofort.ro'
+
+// v466 — date ale firmei folosite de AMBELE noduri (Organization si LocalBusiness), ca sa nu existe doua
+// variante pentru aceeasi firma. Pana la v465 nodul Organization avea 5 profiluri si LocalBusiness 3, iar
+// /contact si /despre-noi redeclarau nodul #localbusiness cu alte valori (alta imagine, alta descriere).
+const SAME_AS = [
+  'https://www.facebook.com/profile.php?id=100063782524105',
+  'https://www.instagram.com/neofortimobiliare/',
+  'https://www.youtube.com/user/neofortbizimobiliare',
+  'https://x.com/NeofortIMO',
+  'https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7',
+]
+// Apartenenta la grupul de firme Neofort (lib/grupNeofort.js; sectiunea „Grupul Neofort" din /despre-noi).
+const GRUP_SCHEMA = { '@type': 'Organization', name: 'Grupul de firme Neofort' }
 
 export const metadata = {
   metadataBase: new URL(BASE),
@@ -77,27 +91,25 @@ const organizationSchema = {
   '@type': 'Organization',
   '@id': `${BASE}/#organization`,
   name: 'Neofort IMO',
-  alternateName: ['Neofort Imobiliare', 'Neofort IMO SRL', 'Neofort BIZ Imobiliare'],
+  // v466: fara „Neofort BIZ Imobiliare" — denumire veche, din perioada cand Neofort BIZ avea si activitatea
+  // imobiliara. Acum Neofort IMO = imobiliare, Neofort BIZ = tamplarie (confirmat de Dan, 17.11.2026).
+  alternateName: ['Neofort Imobiliare', 'Neofort IMO SRL'],
   url: BASE,
   logo: {
     '@type': 'ImageObject',
     '@id': `${BASE}/#logo`,
-    url: `${BASE}/logo.avif`,
-    width: 1024,
-    height: 701,
+    url: `${BASE}${LOGO.cale}`,
+    // v466: dimensiunile reale ale fisierului (era declarat 1024×701; fisierul are 200×137).
+    width: LOGO.latime,
+    height: LOGO.inaltime,
     caption: 'Ansambluri Rezidențiale Noi București',
   },
   image: `${BASE}/og-image.jpg`,
   description: `Companie specializată în comercializarea ansamblurilor rezidențiale noi în București. Direct de la sursă, fără comision de agenție. ${ANI_EXPERIENTA} ani experiență, ${NR_LIVRATE}+ proiecte livrate din 2009. Peste ${NR_FAMILII} familii ajutate să-și cumpere prima casă.`,
   foundingDate: '2009',
   numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 10, maxValue: 50 },
-  sameAs: [
-    'https://www.facebook.com/profile.php?id=100063782524105',
-    'https://www.instagram.com/neofortimobiliare/',
-    'https://www.youtube.com/user/neofortbizimobiliare',
-    'https://x.com/NeofortIMO',
-    'https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7',
-  ],
+  sameAs: SAME_AS,
+  memberOf: GRUP_SCHEMA,
   // Date fiscale si registru comert
   vatID: 'RO53874087',
   taxID: '53874087',
@@ -115,12 +127,8 @@ const organizationSchema = {
     postalCode: '010776',
     addressCountry: 'RO',
   },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 44.4429978,
-    longitude: 26.0886770,
-  },
-  hasMap: 'https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7',
+  // v466: fara `geo` si `hasMap` aici — sunt proprietati de Place, nu de Organization (schema.org).
+  // Raman pe nodul LocalBusiness de mai jos (LocalBusiness este si Place).
   areaServed: [
     { '@type': 'City', name: 'București' },
     { '@type': 'AdministrativeArea', name: 'Sector 2' },
@@ -195,13 +203,10 @@ const localBusinessSchema = {
   logo: `${BASE}/logo.avif`,
   description: `Comercializare apartamente noi în ansambluri rezidențiale din București. Direct de la sursă, fără comision. ${ANI_EXPERIENTA} ani experiență, ${NR_LIVRATE}+ proiecte livrate.`,
   foundingDate: '2009',
-  sameAs: [
-    'https://www.facebook.com/profile.php?id=100063782524105',
-    'https://www.instagram.com/neofortimobiliare/',
-    'https://maps.app.goo.gl/QMGwUsh9Rc9cjwWr7',
-  ],
+  sameAs: SAME_AS,
+  memberOf: GRUP_SCHEMA,
   areaServed: { '@type': 'City', name: 'București' },
-  serviceType: 'Real Estate Sales',
+  // v466: fara `serviceType` (e proprietate de Service, nu de LocalBusiness); serviciul e descris in makesOffer.
   makesOffer: {
     '@type': 'Offer',
     itemOffered: {
@@ -243,6 +248,8 @@ export default function RootLayout({ children }) {
             manifestul ARD (cautat de Lighthouse) si indexul Agent Skills. Invizibile pentru vizitatori. */}
         <link rel="ard" href="/.well-known/ard.json" type="application/json" />
         <link rel="agent-skills" href="/.well-known/agent-skills/index.json" type="application/json" />
+        {/* Catalogul de API-uri (RFC 9727, v466): duce clientii automati la serverul MCP si la cardul lui. */}
+        <link rel="api-catalog" href="/.well-known/api-catalog" type="application/linkset+json" />
         {/* Consent Mode - setat inainte de GTM */}
         <Script id="consent-init" strategy="beforeInteractive">{`
           window.dataLayer = window.dataLayer || [];

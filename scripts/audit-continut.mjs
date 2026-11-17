@@ -1013,10 +1013,12 @@ for (const [eticheta, lista] of [['ansambluri', ANSAMBLURI_ACTIVE], ['portofoliu
 // lib/mcpUnelte.js (FIRMA) trimite agentilor telefonul, emailul, adresa si programul. Daca se
 // schimba pe /contact si nu si acolo, agentii ar da date vechi. Fiecare valoare trebuie sa apara
 // identic in app/contact/page.js.
+// v466: datele firmei din schema.org (nodul #localbusiness) stau doar in app/layout.js, care se randeaza
+// si pe /contact — deci se cauta in ambele fisiere.
 // ────────────────────────────────────────────────────────────
 try {
   const { FIRMA } = await import('../lib/mcpUnelte.js')
-  const contact = fs.readFileSync(resolve(ROOT, 'app/contact/page.js'), 'utf8')
+  const contact = fs.readFileSync(resolve(ROOT, 'app/contact/page.js'), 'utf8') + fs.readFileSync(resolve(ROOT, 'app/layout.js'), 'utf8')
   const program = FIRMA.program.match(/^(.+?) (\d{2}:\d{2} – \d{2}:\d{2})/)
   const deVerificat = { telefonInternational: FIRMA.telefonInternational, email: FIRMA.email, adresa: FIRMA.adresa, 'program (zile)': program?.[1], 'program (ore)': program?.[2] }
   // telefonul afisat („0758 090 904") trebuie sa fie acelasi numar cu cel international de pe pagina
@@ -1126,7 +1128,13 @@ try {
     try {
       const b = Buffer.from(m[1], 'base64')
       const n = b.readUInt32BE(65)
+      // v466 (de la neofort-biz.ro): format = 1 octet versiune (2 sau 3) + 64 semnatura + 4 lungime + JSON.
+      // Un token „third-party" pus in antet e respins de Chrome (kWrongOrigin) si WebMCP nu porneste deloc,
+      // fara nicio eroare vizibila — asa au stat uneltele oprite pe neofort-biz.ro intre v313 si v329.
+      if (![2, 3].includes(b[0])) P('next.config.js', `tokenul Origin-Trial are versiunea ${b[0]} (aștept 2 sau 3) — nu e un token valid`)
+      if (n !== b.length - 69) P('next.config.js', 'tokenul Origin-Trial e trunchiat sau lipit greșit (lungimea declarată ≠ lungimea reală)')
       const t = JSON.parse(b.subarray(69, 69 + n).toString('utf8'))
+      if (t.isThirdParty) P('next.config.js', 'tokenul Origin-Trial e „third-party" — Chrome îl respinge în antet și WebMCP nu pornește; înregistrează unul fără „Third-party matching"')
       const zile = Math.floor((t.expiry * 1000 - Date.now()) / 86400000)
       const data = new Date(t.expiry * 1000).toISOString().slice(0, 10)
       if (t.origin !== 'https://www.neofort.ro:443') P('next.config.js', `tokenul Origin-Trial e pentru „${t.origin}", nu pentru https://www.neofort.ro`)
@@ -1431,11 +1439,198 @@ try {
       for (const m of l.matchAll(/\b(\d{2})\+? (de )?(proiecte|ansambluri)( rezidențiale)? livrate/gi)) {
         if (Number(m[1]) !== nrLivrate) P(`${f}:${i + 1}`, `[33] „${m[0]}" — numărul real de ansambluri livrate e ${nrLivrate} (NR_LIVRATE)`)
       }
+      // v466: denumirea veche „Neofort BIZ Imobiliare" (cand Neofort BIZ avea si imobiliarele) contrazice
+      // explicatia grupului. Adresa canalului YouTube (…/neofortbizimobiliare) e exceptata: e adresa reala.
+      if (/neofort[\s_-]*biz[\s_-]*imobiliar/i.test(l.replace(/youtube\.com\/user\/neofortbizimobiliare/gi, ''))) P(`${f}:${i + 1}`, '[29] „Neofort BIZ Imobiliare" e o denumire veche — imobiliarele sunt Neofort IMO, Neofort BIZ e firma de tâmplărie')
       if (/J40\/8972\/2026/.test(l) && !/J2026008972000/.test(l)) P(`${f}:${i + 1}`, '[33] numărul din Registrul Comerțului doar în formatul vechi — scrie J2026008972000 (J40/8972/2026)')
     })
   }
 } catch (err) {
   P('fapte 30–33', `nu pot fi verificate: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 34. DIMENSIUNILE DECLARATE ALE IMAGINILOR = dimensiunile reale ale fisierelor (v466)
+// Pana la v465 toate og:image-urile declarau 1200×630, dar 10 imagini de articol aveau alte dimensiuni,
+// iar sigla din schema Organization era declarata 1024×701 (fisierul are 200×137). Dimensiunile stau in
+// lib/imgDims.js; aici se citesc din fisiere (antetul JPEG / PNG / AVIF, fara biblioteci).
+// ────────────────────────────────────────────────────────────
+function dimensiuniImagine(cale) {
+  const b = fs.readFileSync(cale)
+  if (b[0] === 0x89 && b.toString('latin1', 1, 4) === 'PNG') return [b.readUInt32BE(16), b.readUInt32BE(20)]
+  if (b[0] === 0xff && b[1] === 0xd8) {
+    let i = 2
+    while (i < b.length) {
+      if (b[i] !== 0xff) { i++; continue }
+      const mk = b[i + 1]
+      if (mk >= 0xc0 && mk <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(mk)) return [b.readUInt16BE(i + 7), b.readUInt16BE(i + 5)]
+      if (mk === 0xd8 || mk === 0x01 || (mk >= 0xd0 && mk <= 0xd7)) { i += 2; continue }
+      i += 2 + b.readUInt16BE(i + 2)
+    }
+  }
+  const k = b.indexOf('ispe')
+  if (k > 0) return [b.readUInt32BE(k + 8), b.readUInt32BE(k + 12)]
+  return null
+}
+try {
+  const { dimOg, DIM_OG, LOGO, ogArticol } = await import('../lib/imgDims.js')
+  const PUB = resolve(ROOT, 'public')
+  const imagini = []
+  for (const f of fs.readdirSync(PUB)) if (/^og-.*\.jpg$/.test(f)) imagini.push('/' + f)
+  // articolele: imaginea OG efectiva a fiecaruia (nu tot folderul public/blog — acolo sunt si poze din text)
+  for (const a of Object.values(ARTICOLE || {})) imagini.push(ogArticol(a))
+  for (const d of ['og-ansambluri', 'og-portofoliu']) {
+    if (!fs.existsSync(resolve(PUB, d))) continue
+    for (const f of fs.readdirSync(resolve(PUB, d))) if (f.endsWith('.jpg')) imagini.push(`/${d}/${f}`)
+  }
+  for (const c of [...new Set(imagini)]) {
+    if (!fs.existsSync(resolve(PUB, '.' + c))) { P(`public${c}`, '[34] imaginea OG declarată nu există'); continue }
+    const real = dimensiuniImagine(resolve(PUB, '.' + c))
+    const decl = dimOg(c)
+    if (!real) P(`public${c}`, '[34] dimensiunile nu pot fi citite din fișier')
+    else if (real[0] !== decl[0] || real[1] !== decl[1]) P(`public${c}`, `[34] fișierul are ${real[0]}×${real[1]}, dar e declarat ${decl[0]}×${decl[1]} — adaugă în lib/imgDims.js, la DIM_OG: '${c}': [${real[0]}, ${real[1]}],`)
+  }
+  for (const c of Object.keys(DIM_OG)) if (!fs.existsSync(resolve(PUB, '.' + c))) P('lib/imgDims.js', `[34] DIM_OG are „${c}", dar fișierul nu există — scoate rândul`)
+  const rl = fs.existsSync(resolve(PUB, '.' + LOGO.cale)) ? dimensiuniImagine(resolve(PUB, '.' + LOGO.cale)) : null
+  if (!rl) P('lib/imgDims.js', `[34] sigla ${LOGO.cale} lipsește sau nu poate fi citită`)
+  else if (rl[0] !== LOGO.latime || rl[1] !== LOGO.inaltime) P('lib/imgDims.js', `[34] sigla ${LOGO.cale} are ${rl[0]}×${rl[1]}, dar e declarată ${LOGO.latime}×${LOGO.inaltime}`)
+  // Dimensiuni scrise de mana langa o imagine din afara listei de mai sus (ex. sigla) — doar prin lib/imgDims.js.
+  const blog = fs.readFileSync(resolve(ROOT, 'app/blog/[slug]/page.js'), 'utf8')
+  if (/images:\s*\[\{[^\n]*width:\s*1200,\s*height:\s*630/.test(blog)) P('app/blog/[slug]/page.js', '[34] imaginea OG a articolului are 1200×630 scris de mână — folosește dimOg() din lib/imgDims.js')
+  const lay = fs.readFileSync(resolve(ROOT, 'app/layout.js'), 'utf8')
+  if (/logo\.avif`?,?\s*\n\s*width:\s*\d/.test(lay)) P('app/layout.js', '[34] dimensiunile siglei sunt scrise de mână — folosește LOGO din lib/imgDims.js')
+} catch (err) {
+  P('dimensiuni imagini (34)', `nu pot fi verificate: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 35. FORMA DATELOR STRUCTURATE (schema.org) — clasele gasite la v466 prin randarea tuturor paginilor
+//   - RealEstateListing e o PAGINA WEB: nu are address / geo / seller (adresa sta pe ApartmentComplex,
+//     legat prin `about`; vanzatorul pe fiecare Offer);
+//   - un loc (Residence / ApartmentComplex / Place) nu are `offers`;
+//   - Organization nu are geo / hasMap (sunt ale lui Place; raman pe LocalBusiness);
+//   - LocalBusiness nu are serviceType (e al lui Service);
+//   - nodul #localbusiness e declarat COMPLET o singura data (app/layout.js); alte pagini ii pot adauga
+//     doar ratingul — pana la v465 /contact si /despre-noi il redeclarau cu alte valori.
+// Se citesc obiectele din cod (nu randarea), cheie cu cheie la primul nivel.
+// ────────────────────────────────────────────────────────────
+function cheiObiect(text, poz) {
+  // poz = indexul unui '{'; intoarce [cheile de pe primul nivel, indexul de sfarsit]
+  const chei = []; let ad = 0; let i = poz; let asteaptaCheie = true
+  const sariSir = (j) => {
+    const q = text[j]; j++
+    while (j < text.length) {
+      if (text[j] === '\\') { j += 2; continue }
+      if (q === '`' && text[j] === '$' && text[j + 1] === '{') {
+        let d = 1; j += 2
+        while (j < text.length && d) { if (text[j] === '{') d++; else if (text[j] === '}') d--; else if ("'\"`".includes(text[j])) { j = sariSir(j); continue } j++ }
+        continue
+      }
+      if (text[j] === q) return j + 1
+      j++
+    }
+    return j
+  }
+  while (i < text.length) {
+    const c = text[i]
+    if ("'\"`".includes(c)) {
+      if (ad === 1 && asteaptaCheie && c !== '`') {
+        const f = sariSir(i); const m = text.slice(f).match(/^\s*:/)
+        if (m) { chei.push(text.slice(i + 1, f - 1)); asteaptaCheie = false }
+        i = f; continue
+      }
+      i = sariSir(i); continue
+    }
+    if (c === '/' && text[i + 1] === '/') { i = text.indexOf('\n', i); if (i < 0) break; continue }
+    if ('{[('.includes(c)) { ad++; i++; if (ad === 1) asteaptaCheie = true; continue }
+    if ('}])'.includes(c)) { ad--; i++; if (ad === 0) return [chei, i]; continue }
+    if (ad === 1 && c === ',') { asteaptaCheie = true; i++; continue }
+    // `...(conditie ? { cheie: … } : {})` — cheile din obiectele unui spread ajung tot pe primul nivel
+    if (ad === 1 && asteaptaCheie && text.startsWith('...', i)) {
+      let j = i + 3, d = 0
+      for (; j < text.length; j++) {
+        const x = text[j]
+        if ("'\"`".includes(x)) { j = sariSir(j) - 1; continue }
+        if ('{[('.includes(x)) d++
+        else if ('}])'.includes(x)) { if (!d) break; d-- }
+        else if (x === ',' && !d) break
+      }
+      const bucata = text.slice(i + 3, j)
+      for (const m of bucata.matchAll(/[{,]\s*(?:'([^']+)'|([A-Za-z_$][\w$]*))\s*:/g)) chei.push(m[1] || m[2])
+      i = j; asteaptaCheie = false; continue
+    }
+    if (ad === 1 && asteaptaCheie && /[A-Za-z_$]/.test(c)) {
+      const m = text.slice(i).match(/^([A-Za-z_$][\w$]*)\s*:/)
+      if (m) { chei.push(m[1]); asteaptaCheie = false; i += m[0].length; continue }
+      asteaptaCheie = false
+    }
+    i++
+  }
+  return [chei, i]
+}
+function obiecteCu(text, re) {
+  // obiectele care contin direct (pe primul nivel) o potrivire a lui `re`
+  const rez = []
+  for (const m of text.matchAll(re)) {
+    let d = 0, j = m.index - 1
+    for (; j >= 0; j--) { const c = text[j]; if (c === '}') d++; else if (c === '{') { if (!d) break; d-- } }
+    if (j < 0) continue
+    const [chei] = cheiObiect(text, j)
+    rez.push({ chei, linie: text.slice(0, m.index).split('\n').length })
+  }
+  return rez
+}
+try {
+  const fis = []
+  const strange = d => { for (const f of fs.readdirSync(resolve(ROOT, d), { withFileTypes: true })) { const c = `${d}/${f.name}`; if (f.isDirectory()) strange(c); else if (/\.(js|mjs)$/.test(f.name)) fis.push(c) } }
+  for (const d of ['app', 'components', 'lib']) strange(d)
+  const REGULI = [
+    [/'@type':\s*'RealEstateListing'/g, ['address', 'geo', 'seller'], 'RealEstateListing e o pagină web — adresa/coordonatele pe ApartmentComplex (`about`), vânzătorul pe Offer'],
+    [/'@type':\s*'(Residence|ApartmentComplex|Place)'/g, ['offers'], 'un loc nu are `offers` — pune oferta pe RealEstateListing (lib/oferteSchema.js → listareAnsamblu)'],
+    [/'@type':\s*'Organization',\s*\n\s*'@id':\s*`\$\{BASE\}\/#organization`/g, ['geo', 'hasMap'], 'Organization nu are geo/hasMap (sunt ale lui Place) — rămân pe nodul LocalBusiness'],
+    [/'@type':\s*\[\s*'LocalBusiness'/g, ['serviceType'], 'LocalBusiness nu are serviceType (e al lui Service) — serviciul se descrie în makesOffer'],
+  ]
+  for (const f of fis) {
+    const text = fs.readFileSync(resolve(ROOT, f), 'utf8')
+    for (const [re, interzise, ce] of REGULI) {
+      for (const o of obiecteCu(text, re)) {
+        const rele = o.chei.filter(k => interzise.includes(k))
+        if (rele.length) P(`${f}:${o.linie}`, `[35] ${rele.join(', ')}: ${ce}`)
+      }
+    }
+    if (f !== 'app/layout.js') {
+      for (const o of obiecteCu(text, /'@id':\s*`\$\{BASE\}\/#localbusiness`/g)) {
+        const extra = o.chei.filter(k => !['@context', '@type', '@id', 'aggregateRating'].includes(k))
+        if (extra.length) P(`${f}:${o.linie}`, `[35] nodul #localbusiness e redeclarat cu ${extra.join(', ')} — datele firmei stau doar în app/layout.js; aici e permis doar aggregateRating`)
+      }
+    }
+  }
+} catch (err) {
+  P('date structurate (35)', `nu pot fi verificate: ${err.message}`)
+}
+
+// ────────────────────────────────────────────────────────────
+// 36. CATALOGUL DE API-URI (RFC 9727, v466) — generat de scripts/generate-agent-files.mjs
+// Varianta comisa trebuie sa fie identica cu cea generata (anchor = serverul MCP din lib/serverCard.js),
+// cu tipul de continut dat in next.config.js si anuntata in <head>.
+// ────────────────────────────────────────────────────────────
+try {
+  const G = await import('./generate-agent-files.mjs')
+  const { apiCatalog } = await G.construieste()
+  const cale = resolve(ROOT, 'public/.well-known/api-catalog')
+  if (!fs.existsSync(cale)) P('public/.well-known/api-catalog', '[36] lipsește — rulează scripts/generate-agent-files.mjs')
+  else if (fs.readFileSync(cale, 'utf8') !== JSON.stringify(apiCatalog, null, 2) + '\n') P('public/.well-known/api-catalog', '[36] diferă de varianta generată (serverul MCP, cardul sau documentația s-au schimbat) — rulează scripts/generate-agent-files.mjs')
+  const { URL_CARD, TIP_CARD } = await import('../lib/serverCard.js')
+  const d = apiCatalog.linkset?.[0]?.['service-desc']?.[0]
+  if (d?.href !== URL_CARD || d?.type !== TIP_CARD) P('api-catalog', '[36] service-desc nu arată spre cardul serverului MCP')
+  for (const l of Object.values(apiCatalog.linkset[0]).flat().filter(x => x?.href?.startsWith('https://www.neofort.ro/') && !x.href.includes('/api/'))) {
+    if (!fs.existsSync(resolve(ROOT, 'public' + l.href.slice('https://www.neofort.ro'.length)))) P('api-catalog', `[36] trimite la un fișier inexistent: ${l.href}`)
+  }
+  const conf = fs.readFileSync(resolve(ROOT, 'next.config.js'), 'utf8')
+  if (!/source:\s*'\/\.well-known\/api-catalog'[\s\S]{0,200}application\/linkset\+json/.test(conf)) P('next.config.js', '[36] lipsește Content-Type application/linkset+json pentru /.well-known/api-catalog (fișierul n-are extensie)')
+  if (!fs.readFileSync(resolve(ROOT, 'app/layout.js'), 'utf8').includes('rel="api-catalog" href="/.well-known/api-catalog"')) P('app/layout.js', '[36] lipsește <link rel="api-catalog">')
+} catch (err) {
+  P('api-catalog (36)', `nu poate fi verificat: ${err.message}`)
 }
 
 // ────────────────────────────────────────────────────────────

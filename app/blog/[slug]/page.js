@@ -7,6 +7,7 @@ import { AUTORI, ARTICOLE, ARTICOLE_LIST } from '@/data/blog'
 import { NR_ACTIVE } from '@/data/siteConfig'
 import { parseLinks } from '@/lib/parseLinks'
 import { dataNumerica } from '@/lib/dataBlog'
+import { dimOg, ogArticol } from '@/lib/imgDims'
 
 const BASE = 'https://www.neofort.ro'
 
@@ -155,6 +156,7 @@ export async function generateMetadata({ params }) {
   const autor = AUTORI[a.autor]
   const metaTitle = a.seoTitle || a.titlu
   const metaDesc = a.seoDesc || a.descriere
+  const og = ogArticol(a)
   return {
     title: metaTitle,
     description: metaDesc,
@@ -171,9 +173,10 @@ export async function generateMetadata({ params }) {
       publishedTime: a.dataISO,
       ...(a.dataModificata && { modifiedTime: a.dataModificata }),
       authors: [autor?.nume],
-      images: [{ url: `${BASE}${a.ogImage || a.image?.replace('.avif', '.jpg') || '/og-blog.jpg'}`, width: 1200, height: 630, alt: a.titlu }],
+      // v466: dimensiunile reale ale imaginii (lib/imgDims.js), nu 1200×630 pentru toate.
+      images: [{ url: `${BASE}${og}`, width: dimOg(og)[0], height: dimOg(og)[1], alt: a.titlu }],
     },
-    twitter: { card: 'summary_large_image', images: [`${BASE}${a.ogImage || a.image?.replace('.avif', '.jpg') || '/og-blog.jpg'}`] },
+    twitter: { card: 'summary_large_image', images: [`${BASE}${og}`] },
   }
 }
 

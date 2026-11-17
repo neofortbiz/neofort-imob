@@ -5,6 +5,8 @@
 //   public/.well-known/agent-skills/index.json  — indexul Agent Skills (schema 0.2.0)
 //   public/.well-known/ard.json                 — manifestul ARD (Agentic Resource Discovery,
 //                                                 cautat de Lighthouse / PageSpeed)
+//   public/.well-known/api-catalog              — catalogul de API-uri (RFC 9727, v466): duce
+//                                                 clientii automati la serverul MCP, la card si la docs
 // SKILL.md se scrie DE MANA (public/.well-known/agent-skills/neofort-imo-residential/SKILL.md);
 // aici doar i se normalizeaza capetele de linie la LF si i se calculeaza digestul.
 //
@@ -59,7 +61,7 @@ export async function construieste() {
   const { ANSAMBLURI_ACTIVE } = await import('../data/ansambluri/index.js')
   const { UNELTE, FIRMA } = await import('../lib/mcpUnelte.js')
   const { SERVER_INFO } = await import('../lib/mcpServer.js')
-  const { serverCard, TIP_CARD } = await import('../lib/serverCard.js')
+  const { serverCard, TIP_CARD, URL_MCP, URL_CARD } = await import('../lib/serverCard.js')
   let DATA_SITE = null
   try { ({ DATA_SITE } = await import('../data/contact-map.js')) } catch {}
 
@@ -135,18 +137,35 @@ export async function construieste() {
       },
     ],
   }
-  return { skill, brut, caleSkill, index, ard, digest }
+
+  // 4. api-catalog (RFC 9727, v466) — linkset (RFC 9264). `anchor` = adresa serverului MCP din aceeasi
+  // sursa ca cardul (lib/serverCard.js); tipul de continut e dat in next.config.js (fisierul n-are extensie).
+  const apiCatalog = {
+    linkset: [
+      {
+        anchor: URL_MCP,
+        'service-desc': [{ href: URL_CARD, type: TIP_CARD }],
+        'service-doc': [
+          { href: `${BASE}${SKILL_CALE}`, type: 'text/markdown' },
+          { href: `${BASE}/llms.txt`, type: 'text/plain' },
+        ],
+        'service-meta': [{ href: `${BASE}/.well-known/ard.json`, type: 'application/json' }],
+      },
+    ],
+  }
+  return { skill, brut, caleSkill, index, ard, digest, apiCatalog }
 }
 
 // Rulare directa (prebuild)
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
-    const { skill, brut, caleSkill, index, ard, digest } = await construieste()
+    const { skill, brut, caleSkill, index, ard, digest, apiCatalog } = await construieste()
     if (brut !== skill) fs.writeFileSync(caleSkill, skill) // servit cu LF, ca digestul sa fie al fisierului servit
     fs.mkdirSync(resolve(WK, 'agent-skills'), { recursive: true })
     fs.writeFileSync(resolve(WK, 'agent-skills/index.json'), JSON.stringify(index, null, 2) + '\n')
     fs.writeFileSync(resolve(WK, 'ard.json'), JSON.stringify(ard, null, 2) + '\n')
-    console.log(`[agent-files] OK — SKILL.md ${digest.slice(0, 19)}…, ard.json ${ard.entries.length} intrari`)
+    fs.writeFileSync(resolve(WK, 'api-catalog'), JSON.stringify(apiCatalog, null, 2) + '\n')
+    console.log(`[agent-files] OK — SKILL.md ${digest.slice(0, 19)}…, ard.json ${ard.entries.length} intrari, api-catalog`)
   } catch (err) {
     console.log(`[agent-files] EROARE, fisierele existente raman neschimbate: ${err.message}`)
   }
