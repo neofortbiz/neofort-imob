@@ -43,16 +43,16 @@ export const ZONE_LINKS = [
 
 // Hash-ul continutului datelor — folosit de generator ca sa stie daca
 // datele s-au modificat intre build-uri. NU folosi in aplicatie.
-export const DATA_HASH = '804cccc9de54edc0'
+export const DATA_HASH = 'd3a548cfdf7bacae'
 
 // Data REALA a ultimei modificari a datelor de ansambluri (YYYY-MM-DD).
 // Folosita de sitemap.js pentru lastmod corect.
-export const DATA_ANSAMBLURI = '2026-11-05'
+export const DATA_ANSAMBLURI = '2026-11-20'
 
 // Hash pe tot continutul (ansambluri + blog + portofoliu). NU folosi in aplicatie.
-export const SITE_HASH = '631b10101ba693c3'
+export const SITE_HASH = 'f5aa009a6e94ba7c'
 
 // Data REALA a ultimei modificari de continut a site-ului (YYYY-MM-DD).
 // Afisata in Header ca "Actualizat la". Se misca doar cand continutul
 // chiar s-a schimbat — un redeploy gol nu o atinge.
-export const DATA_SITE = '2026-11-11'
+export const DATA_SITE = '2026-11-20'

@@ -1,6 +1,6 @@
 # Neofort IMO — Imobiliare București (versiune completă)
 
-> Versiune completă pentru sisteme AI/RAG cu date detaliate despre toate ansamblurile. Actualizat: 2026-11-17.
+> Versiune completă pentru sisteme AI/RAG cu date detaliate despre toate ansamblurile. Actualizat: 2026-11-20.
 
 ## Companie
 Neofort IMO comercializează apartamente noi în ansambluri rezidențiale din București, direct de la sursă, fără comision de agenție. Fondată în 2009, cu peste 17 ani de experiență și 75+ ansambluri livrate. 13 ansambluri active în Sectoarele 2, 3 și 6.
@@ -340,7 +340,7 @@ Slug: neofort-49-militari-metrou-gorjului
 Status: În construcție
 Etaje: S+P+3E
 Tipuri: 2 camere
-Pret de la: 138.842€ + TVA
+Pret de la: 128.925€ + TVA
 Predare: în curând
 Adresa: Strada Vistiernicul Stavrinos, Sector 6, Bucuresti
 Coordonate: 44.4311, 26.012883
@@ -348,6 +348,7 @@ Broker: Ramona BAICU, 0759 030 367
 URL: https://www.neofort.ro/ansamblu-rezidential/neofort-49-militari-metrou-gorjului
 
 Apartamente disponibile:
+- 2 camere tip 3 (63.25 mp, et. 1-3): de la 128.925€+TVA (promoție)
 - 2 camere tip 6 (71.4 mp, et. 1-3): de la 138.842€+TVA (promoție)
 Parcare subterană: 15.000€ TVA inclus
 
@@ -367,7 +368,7 @@ Puncte de interes:
 - transport: Autostrada A1 — 10 min cu masina
 - mall: AFI Palace Cotroceni — 18 min cu masina
 
-Descriere scurtă: Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 16 apartamente în construcție. Ultimul apartament disponibil: 2 camere 71,40 mp, preț promoțional 138.842€+TVA. Metrou Gorjului (M3) la 950m. Centrală proprie, încălzire pardoseală, tâmplărie Salamander tripan, kit aer condiționat, finisaje complete.
+Descriere scurtă: Ansamblul Rezidențial Neofort 49, Strada Vistiernicul Stavrinos, Sector 6. Proiect boutique 16 apartamente în construcție. Două apartamente de 2 camere disponibile, în promoție: 63,25 mp la 128.925€+TVA și 71,40 mp la 138.842€+TVA. Metrou Gorjului (M3) la 950m. Centrală proprie, încălzire pardoseală, tâmplărie Salamander tripan, kit aer condiționat, finisaje complete.
 
 ### [Neofort 44 Titan Pallady Teclu — Titan-Pallady, Sector 3](https://www.neofort.ro/ansamblu-rezidential/neofort-44-titan-pallady-teclu)
 Slug: neofort-44-titan-pallady-teclu
